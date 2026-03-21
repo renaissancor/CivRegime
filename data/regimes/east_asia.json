@@ -1,0 +1,434 @@
+[
+  {
+    "id": "shang_dynasty",
+    "name": "Shang Dynasty",
+    "ruling_ethnicity": "han",
+    "territories": [
+      "yellow_river"
+    ],
+    "start": -1600,
+    "end": -1046,
+    "cultural_language": "old_chinese",
+    "ideology": {
+      "religion": "chinese_folk_religion",
+      "government": "divine_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "wu_ding",
+        "name": "Wu Ding",
+        "role": "ruler",
+        "years": "-1250/-1192",
+        "significance": "Greatest Shang king; oracle bone inscriptions from his reign are the oldest surviving Chinese writing"
+      }
+    ]
+  },
+  {
+    "id": "zhou_dynasty",
+    "name": "Zhou Dynasty",
+    "ruling_ethnicity": "han",
+    "territories": [
+      "yellow_river",
+      "yangtze"
+    ],
+    "start": -1046,
+    "end": -256,
+    "note": "Late Zhou (Warring States) produced Confucius, Laozi, Mencius, Han Fei — the foundational philosophical schools that would define all subsequent Chinese governance",
+    "cultural_language": "old_chinese",
+    "ideology": {
+      "religion": "chinese_folk_religion",
+      "government": "feudal_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "confucius",
+        "name": "Confucius (Kong Qiu)",
+        "role": "philosopher",
+        "years": "-551/-479",
+        "significance": "Defined the moral and political philosophy that governed China for 2500 years"
+      },
+      {
+        "id": "sun_tzu",
+        "name": "Sun Tzu",
+        "role": "philosopher",
+        "years": "-544/-496",
+        "significance": "Author of The Art of War"
+      },
+      {
+        "id": "laozi",
+        "name": "Laozi",
+        "role": "philosopher",
+        "years": "-601/-531",
+        "significance": "Founder of Taoism; author of the Tao Te Ching"
+      }
+    ]
+  },
+  {
+    "id": "qin_dynasty",
+    "name": "Qin Dynasty",
+    "ruling_ethnicity": "han",
+    "territories": [
+      "yellow_river",
+      "yangtze"
+    ],
+    "start": -221,
+    "end": -206,
+    "note": "State philosophy was Legalism — entirely different from Confucianism. Qin's brutal efficiency unified China but was ideologically rejected by every subsequent dynasty",
+    "cultural_language": "old_chinese",
+    "ideology": {
+      "religion": "chinese_folk_religion",
+      "government": "imperial_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "qin_shi_huang",
+        "name": "Qin Shi Huang",
+        "role": "founder",
+        "years": "-259/-210",
+        "significance": "First Emperor of unified China; built the Great Wall and Terracotta Army; his title Huangdi was used by every subsequent emperor"
+      },
+      {
+        "id": "li_si",
+        "name": "Li Si",
+        "role": "administrator",
+        "years": "-280/-208",
+        "significance": "Grand Councillor; architect of Qin Legalism and the first unified Chinese bureaucracy"
+      }
+    ]
+  },
+  {
+    "id": "han_dynasty",
+    "name": "Han Dynasty",
+    "ruling_ethnicity": "han",
+    "territories": [
+      "yellow_river",
+      "yangtze"
+    ],
+    "start": -206,
+    "end": 220,
+    "note": "Established Confucianism as state ideology and the civil examination system — the template all later Chinese dynasties followed",
+    "cultural_language": "old_chinese",
+    "ideology": {
+      "religion": "confucianism",
+      "government": "chinese_imperial"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "liu_bang",
+        "name": "Liu Bang (Emperor Gaozu)",
+        "role": "founder",
+        "years": "-256/-195",
+        "significance": "Rose from peasant to emperor; the Han ethnic identity is named after his dynasty"
+      },
+      {
+        "id": "emperor_wu_han",
+        "name": "Emperor Wu of Han",
+        "role": "ruler",
+        "years": "-157/-87",
+        "significance": "Established Confucianism as state ideology; opened the Silk Road"
+      },
+      {
+        "id": "sima_qian",
+        "name": "Sima Qian",
+        "role": "cultural",
+        "years": "-145/-86",
+        "significance": "Father of Chinese historiography; his Records of the Grand Historian defined the writing of Chinese history for 2000 years"
+      }
+    ]
+  },
+  {
+    "id": "sui_dynasty",
+    "name": "Sui Dynasty",
+    "ruling_ethnicity": "han",
+    "territories": [
+      "yellow_river",
+      "yangtze"
+    ],
+    "start": 581,
+    "end": 618,
+    "note": "Buddhism was a major state religion alongside Confucianism; Sui rulers were devout Buddhists",
+    "cultural_language": "middle_chinese",
+    "ideology": {
+      "religion": "buddhism",
+      "government": "chinese_imperial"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "emperor_wen_sui",
+        "name": "Emperor Wen (Yang Jian)",
+        "role": "founder",
+        "years": "541/604",
+        "significance": "Reunified China after 370 years of division; built the Grand Canal"
+      }
+    ]
+  },
+  {
+    "id": "tang_dynasty",
+    "name": "Tang Dynasty",
+    "ruling_ethnicity": "han",
+    "territories": [
+      "yellow_river",
+      "yangtze"
+    ],
+    "start": 618,
+    "end": 907,
+    "note": "Tang royal family had partial Xianbei ancestry but identified as Han; cosmopolitan — Buddhism, Taoism, Nestorian Christianity, and Islam all coexisted; Confucian exam system perfected",
+    "cultural_language": "middle_chinese",
+    "ideology": {
+      "religion": "confucianism",
+      "government": "chinese_imperial"
+    },
+    "policies": [
+      {
+        "id": "huichang_suppression",
+        "name": "Huichang Suppression of Buddhism",
+        "start": 842,
+        "end": 845,
+        "description": "Emperor Wuzong destroyed monasteries and forced monks to return to secular life. Buddhism restored under the next emperor. Tang ideology remained Confucian."
+      }
+    ],
+    "figures": [
+      {
+        "id": "emperor_taizong",
+        "name": "Emperor Taizong (Li Shimin)",
+        "role": "ruler",
+        "years": "598/649",
+        "significance": "Considered China greatest emperor; his Zhenguan era is the model of virtuous governance"
+      },
+      {
+        "id": "wu_zetian",
+        "name": "Wu Zetian",
+        "role": "ruler",
+        "years": "624/705",
+        "significance": "The only woman in Chinese history to hold the title of Empress Regnant"
+      },
+      {
+        "id": "li_bai",
+        "name": "Li Bai",
+        "role": "cultural",
+        "years": "701/762",
+        "significance": "Greatest Tang poet; defines the image of Tang cosmopolitan culture"
+      }
+    ]
+  },
+  {
+    "id": "liao_dynasty",
+    "name": "Liao Dynasty (Khitan)",
+    "ruling_ethnicity": "khitan",
+    "territories": [
+      "manchuria",
+      "yellow_river"
+    ],
+    "start": 907,
+    "end": 1125,
+    "note": "Dual administration: Khitan customs for nomads, Chinese Confucian system for Han subjects; Buddhism served as a bridge between nomadic and sedentary cultures",
+    "cultural_language": "khitan_lang",
+    "ideology": {
+      "religion": "buddhism",
+      "government": "dual_administration"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "abaoji",
+        "name": "Abaoji (Emperor Taizu of Liao)",
+        "role": "founder",
+        "years": "872/926",
+        "significance": "United the Khitan tribes; created the Khitan script; invented the dual-administration system"
+      }
+    ]
+  },
+  {
+    "id": "song_dynasty",
+    "name": "Song Dynasty",
+    "ruling_ethnicity": "han",
+    "territories": [
+      "yellow_river",
+      "yangtze"
+    ],
+    "start": 960,
+    "end": 1279,
+    "note": "Neo-Confucianism (synthesizing Buddhist metaphysics with Confucian ethics) became the dominant intellectual tradition",
+    "cultural_language": "middle_chinese",
+    "ideology": {
+      "religion": "neo_confucianism",
+      "government": "chinese_imperial"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "zhao_kuangyin",
+        "name": "Zhao Kuangyin (Emperor Taizu)",
+        "role": "founder",
+        "years": "927/976",
+        "significance": "Former general who peacefully demilitarized the warlords; built China most sophisticated civilian bureaucracy"
+      },
+      {
+        "id": "su_shi",
+        "name": "Su Shi (Su Dongpo)",
+        "role": "cultural",
+        "years": "1037/1101",
+        "significance": "Poet, painter, calligrapher, and statesman; the Renaissance Man of the Song dynasty"
+      }
+    ]
+  },
+  {
+    "id": "jin_dynasty_jurchen",
+    "name": "Jin Dynasty (Jurchen)",
+    "ruling_ethnicity": "jurchen",
+    "territories": [
+      "manchuria",
+      "yellow_river"
+    ],
+    "start": 1115,
+    "end": 1234,
+    "note": "Jurchen rulers resisted Sinicization; maintained Jurchen script and shamanistic traditions alongside Buddhism; used a dual admin system similar to Liao",
+    "cultural_language": "jurchen_lang",
+    "ideology": {
+      "religion": "buddhism",
+      "government": "dual_administration"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "wanyan_aguda",
+        "name": "Wanyan Aguda (Emperor Taizu of Jin)",
+        "role": "founder",
+        "years": "1068/1123",
+        "significance": "United the Jurchen tribes; created the Jurchen script to resist cultural assimilation"
+      }
+    ]
+  },
+  {
+    "id": "yuan_dynasty",
+    "name": "Yuan Dynasty",
+    "ruling_ethnicity": "mongol",
+    "territories": [
+      "yellow_river",
+      "yangtze",
+      "manchuria"
+    ],
+    "start": 1271,
+    "end": 1368,
+    "note": "Kublai Khan adopted Tibetan Buddhism (Vajrayana) as state religion and Phags-pa Lama as spiritual authority; deliberately avoided Sinicization — Chinese barred from top posts; Mongol identity maintained as ruling class",
+    "cultural_language": "classical_mongolian",
+    "ideology": {
+      "religion": "vajrayana",
+      "government": "imperial_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "kublai_khan",
+        "name": "Kublai Khan",
+        "role": "founder",
+        "years": "1215/1294",
+        "significance": "Founded the Yuan dynasty; first non-Han ruler to control all of China"
+      }
+    ]
+  },
+  {
+    "id": "ming_dynasty",
+    "name": "Ming Dynasty",
+    "ruling_ethnicity": "han",
+    "territories": [
+      "yellow_river",
+      "yangtze"
+    ],
+    "start": 1368,
+    "end": 1644,
+    "note": "Founded as an explicit rejection of Mongol rule; strong Han nativist and Confucian identity; the 'most Chinese' of dynasties",
+    "cultural_language": "mandarin",
+    "ideology": {
+      "religion": "neo_confucianism",
+      "government": "chinese_imperial"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "zhu_yuanzhang",
+        "name": "Zhu Yuanzhang (Hongwu Emperor)",
+        "role": "founder",
+        "years": "1328/1398",
+        "significance": "Rose from orphaned peasant to emperor; expelled the Mongols"
+      },
+      {
+        "id": "zheng_he",
+        "name": "Zheng He",
+        "role": "general",
+        "years": "1371/1433",
+        "significance": "Led seven maritime expeditions reaching Arabia and East Africa; commanded fleets that dwarfed anything in Europe"
+      },
+      {
+        "id": "yongle_emperor",
+        "name": "Yongle Emperor",
+        "role": "ruler",
+        "years": "1360/1424",
+        "significance": "Built the Forbidden City; commissioned the Yongle Encyclopedia"
+      }
+    ]
+  },
+  {
+    "id": "qing_dynasty",
+    "name": "Qing Dynasty (Manchu)",
+    "ruling_ethnicity": "jurchen",
+    "territories": [
+      "yellow_river",
+      "yangtze",
+      "manchuria",
+      "mongolian_plateau"
+    ],
+    "start": 1644,
+    "end": 1912,
+    "note": "Manchu rulers governed Han majority but maintained strict Manchu identity: forbidden intermarriage, maintained bannerman system, Manchu language in court. Vajrayana Buddhism was a deliberate tool to legitimize rule over Mongols and Tibetans. Projected Confucian face outward while preserving Manchu identity internally — a masterclass in dual identity governance",
+    "cultural_language": "manchu_lang",
+    "ideology": {
+      "religion": "vajrayana",
+      "government": "dual_administration"
+    },
+    "policies": [
+      {
+        "id": "queue_order",
+        "name": "Queue Order (Hair Cutting Decree)",
+        "start": 1644,
+        "end": 1912,
+        "description": "All Han men required to adopt the Manchu queue hairstyle. Policy of ethnic dominance, not ideological shift."
+      }
+    ],
+    "figures": [
+      {
+        "id": "nurhaci",
+        "name": "Nurhaci",
+        "role": "founder",
+        "years": "1559/1626",
+        "significance": "United the Jurchen tribes; created the Eight Banner military system"
+      },
+      {
+        "id": "kangxi_emperor",
+        "name": "Kangxi Emperor",
+        "role": "ruler",
+        "years": "1654/1722",
+        "significance": "Longest-reigning Chinese emperor (61 years); consolidated Qing rule"
+      },
+      {
+        "id": "qianlong_emperor",
+        "name": "Qianlong Emperor",
+        "role": "ruler",
+        "years": "1711/1799",
+        "significance": "Greatest territorial extent; commissioned the Siku Quanshu — the largest library in history"
+      },
+      {
+        "id": "puyi",
+        "name": "Puyi",
+        "role": "last_ruler",
+        "years": "1906/1967",
+        "significance": "Last Emperor of China; the final chapter of 2000 years of imperial rule"
+      }
+    ]
+  }
+]

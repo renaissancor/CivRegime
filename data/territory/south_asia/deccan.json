@@ -1,0 +1,122 @@
+{
+  "id": "deccan",
+  "name": "Deccan Plateau",
+  "description": "Southern India",
+  "region": "south_asia",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -230,
+      "end": 220,
+      "note": "Satavahana Empire — first major Deccan empire; bridge between Aryan north and Dravidian south",
+      "dominant_ethnicity": "dravidian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "dravidian",
+          "presence": "dominant south"
+        },
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "significant north Deccan"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 550,
+      "end": 1190,
+      "note": "Chalukya → Rashtrakuta → Western Chalukya succession — Dravidian-dominated Deccan powers",
+      "dominant_ethnicity": "dravidian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "kannada_eth",
+          "presence": "dominant (Chalukya/Rashtrakuta homeland = Karnataka)"
+        },
+        {
+          "ethnicity": "tamil_eth",
+          "presence": "significant south"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1336,
+      "end": 1646,
+      "note": "Vijayanagara Empire — last great Hindu empire; bulwark against Muslim northern expansion into south India",
+      "dominant_ethnicity": "dravidian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "kannada_eth",
+          "presence": "dominant"
+        },
+        {
+          "ethnicity": "telugu_eth",
+          "presence": "significant"
+        },
+        {
+          "ethnicity": "tamil_eth",
+          "presence": "significant south"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1347,
+      "end": 1527,
+      "note": "Bahmani Sultanate → successor Deccan Sultanates (Adil Shahi, Nizam Shahi, etc.) — Muslim states of the Deccan",
+      "dominant_ethnicity": "dravidian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling class"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "significant (Arab and Persian Muslim settlers)"
+        },
+        {
+          "ethnicity": "dravidian",
+          "presence": "dominant population; many converted to Islam over time"
+        }
+      ]
+    },
+    {
+      "regime": "mughal_empire",
+      "start": 1687,
+      "end": 1724,
+      "dominant_ethnicity": "dravidian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling; Aurangzeb's conquest of Deccan Sultanates"
+        },
+        {
+          "ethnicity": "dravidian",
+          "presence": "dominant"
+        },
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "significant (Maratha resistance)"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1674,
+      "end": 1818,
+      "note": "Maratha Empire — Hindu warrior state that challenged Mughal then British dominance; controlled most of Deccan",
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "marathi_eth",
+          "presence": "dominant ruling class"
+        },
+        {
+          "ethnicity": "dravidian",
+          "presence": "majority population in deep south"
+        }
+      ]
+    }
+  ]
+}

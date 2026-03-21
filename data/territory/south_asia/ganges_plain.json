@@ -1,0 +1,113 @@
+{
+  "id": "ganges_plain",
+  "name": "Ganges Plain",
+  "description": "Northern India heartland",
+  "region": "south_asia",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -600,
+      "end": -321,
+      "note": "Mahajanapadas — sixteen great kingdoms of the Vedic age; Magadha emerges dominant",
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "maurya_empire",
+      "start": -321,
+      "end": -185,
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "dominant; heartland of the Maurya Empire (Pataliputra)"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 320,
+      "end": 550,
+      "note": "Gupta Empire — golden age of classical Hindu civilization; mathematics, astronomy, literature",
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 606,
+      "end": 647,
+      "note": "Harsha Empire — last major Hindu empire of the Ganges plain before Muslim invasions",
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 750,
+      "end": 1200,
+      "note": "Pala Empire (Buddhist) and Gurjara-Pratihara (Hindu) — rival empires; Pala patronized Buddhism's last Indian stronghold",
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "bengali_eth",
+          "presence": "dominant east (Pala homeland)"
+        },
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "dominant west (Hindi-belt)"
+        }
+      ]
+    },
+    {
+      "regime": "delhi_sultanate",
+      "start": 1206,
+      "end": 1526,
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling class; Delhi as capital"
+        },
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "dominant; Buddhist virtually eliminated from North India"
+        }
+      ]
+    },
+    {
+      "regime": "mughal_empire",
+      "start": 1526,
+      "end": 1857,
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling dynasty"
+        },
+        {
+          "ethnicity": "persian",
+          "presence": "court language/culture"
+        },
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "dominant; Agra and Delhi as twin capitals"
+        }
+      ]
+    }
+  ]
+}

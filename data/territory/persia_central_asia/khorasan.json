@@ -1,0 +1,215 @@
+{
+  "id": "khorasan",
+  "name": "Khorasan",
+  "description": "Eastern Iran and western Afghanistan",
+  "region": "persia_central_asia",
+  "geo": null,
+  "periods": [
+    {
+      "regime": "achaemenid_empire",
+      "start": -550,
+      "end": -330,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "persian",
+          "presence": "dominant",
+          "note": "Eastern satrapies; Bactria and Sogdiana (see Transoxiana)"
+        }
+      ]
+    },
+    {
+      "regime": "macedonian_empire",
+      "start": -330,
+      "end": -312,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "macedonian",
+          "presence": "ruling/garrison"
+        },
+        {
+          "ethnicity": "persian",
+          "presence": "dominant population"
+        }
+      ]
+    },
+    {
+      "regime": "parthian_empire",
+      "start": -247,
+      "end": 224,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "parthian",
+          "presence": "ruling — northeastern Iranian tribe (Arsacid dynasty)"
+        },
+        {
+          "ethnicity": "persian",
+          "presence": "dominant population"
+        }
+      ]
+    },
+    {
+      "regime": "sassanid_empire",
+      "start": 224,
+      "end": 651,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "persian",
+          "presence": "dominant"
+        },
+        {
+          "ethnicity": "turkic",
+          "presence": "border presence",
+          "note": "Hephthalites (White Huns) raided until Sassanid-Göktürk alliance destroyed them 557 AD"
+        }
+      ]
+    },
+    {
+      "regime": "umayyad_caliphate",
+      "start": 651,
+      "end": 750,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "semitic",
+          "presence": "ruling/garrison"
+        },
+        {
+          "ethnicity": "persian",
+          "presence": "dominant population",
+          "note": "Persian mawali (clients) key to Abbasid revolution; resentment of Arab supremacy"
+        }
+      ]
+    },
+    {
+      "regime": "abbasid_caliphate",
+      "start": 750,
+      "end": 821,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "persian",
+          "presence": "dominant; Khorasan was the Abbasid revolution's base"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "administrative"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 821,
+      "end": 999,
+      "note": "Persian Renaissance — Tahirid, Saffarid, Samanid dynasties; Persian language literary revival",
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "persian",
+          "presence": "dominant; Samanids patronized New Persian literature (Ferdowsi, Rudaki)"
+        }
+      ]
+    },
+    {
+      "regime": "ghaznavid_empire",
+      "start": 999,
+      "end": 1187,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling class"
+        },
+        {
+          "ethnicity": "persian",
+          "presence": "dominant population + court culture"
+        }
+      ]
+    },
+    {
+      "regime": "seljuk_empire",
+      "start": 1037,
+      "end": 1194,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling/military"
+        },
+        {
+          "ethnicity": "persian",
+          "presence": "dominant + bureaucracy",
+          "note": "Nizam al-Mulk was Persian; Persianate model fully established"
+        }
+      ]
+    },
+    {
+      "regime": "mongol_empire",
+      "start": 1221,
+      "end": 1256,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "ruling/garrison",
+          "note": "Destruction of Merv, Nishapur, Herat; catastrophic depopulation"
+        },
+        {
+          "ethnicity": "persian",
+          "presence": "surviving population"
+        }
+      ]
+    },
+    {
+      "regime": "ilkhanate",
+      "start": 1256,
+      "end": 1335,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "ruling/military"
+        },
+        {
+          "ethnicity": "persian",
+          "presence": "dominant population + administration; gradual Mongol conversion to Islam"
+        }
+      ]
+    },
+    {
+      "regime": "timurid_empire",
+      "start": 1370,
+      "end": 1507,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling class (Timur was Turkic)"
+        },
+        {
+          "ethnicity": "persian",
+          "presence": "dominant; Timurid court at Herat = zenith of Persianate culture"
+        }
+      ]
+    },
+    {
+      "regime": "safavid_empire",
+      "start": 1501,
+      "end": 1736,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "persian",
+          "presence": "dominant; Safavid east/Khorasan contested with Uzbeks"
+        },
+        {
+          "ethnicity": "turkic",
+          "presence": "significant (Uzbek pressure from north)"
+        }
+      ]
+    }
+  ]
+}

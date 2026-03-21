@@ -1,0 +1,132 @@
+{
+  "id": "yangtze",
+  "name": "Yangtze Basin",
+  "description": "Central and Southern China",
+  "region": "east_asia",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -1046,
+      "end": -221,
+      "note": "Chu Kingdom — one of the major Warring States; distinct southern Chinese culture",
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant (Chu = southern branch of early Chinese civilization)"
+        }
+      ]
+    },
+    {
+      "regime": "han_dynasty",
+      "start": -206,
+      "end": 220,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 220,
+      "end": 280,
+      "note": "Kingdom of Wu (Three Kingdoms period) — controlled the Yangtze",
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 317,
+      "end": 589,
+      "note": "Southern dynasties — Han Chinese states as northern China was ruled by non-Han; Yangtze became Han heartland",
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant; mass migration of northern Han to Yangtze increased population dramatically"
+        }
+      ]
+    },
+    {
+      "regime": "tang_dynasty",
+      "start": 618,
+      "end": 907,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "song_dynasty",
+      "start": 960,
+      "end": 1279,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant; Southern Song (1127-1279) centered entirely on Yangtze"
+        },
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "pressure from north (Jin, then Mongol)"
+        }
+      ]
+    },
+    {
+      "regime": "yuan_dynasty",
+      "start": 1279,
+      "end": 1368,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "ruling class"
+        },
+        {
+          "ethnicity": "han",
+          "presence": "overwhelming majority"
+        }
+      ]
+    },
+    {
+      "regime": "ming_dynasty",
+      "start": 1368,
+      "end": 1644,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant; Ming founded from Yangtze (Zhu Yuanzhang from Anhui)"
+        }
+      ]
+    },
+    {
+      "regime": "qing_dynasty",
+      "start": 1644,
+      "end": 1912,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "jurchen",
+          "presence": "ruling class garrison cities"
+        },
+        {
+          "ethnicity": "han",
+          "presence": "overwhelming majority"
+        }
+      ]
+    }
+  ]
+}

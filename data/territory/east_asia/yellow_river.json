@@ -1,0 +1,165 @@
+{
+  "id": "yellow_river",
+  "name": "Yellow River Basin",
+  "description": "Northern China heartland, core of early Chinese civilization",
+  "region": "east_asia",
+  "geo": null,
+  "periods": [
+    {
+      "regime": "shang_dynasty",
+      "start": -1600,
+      "end": -1046,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "zhou_dynasty",
+      "start": -1046,
+      "end": -221,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "qin_dynasty",
+      "start": -221,
+      "end": -206,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "han_dynasty",
+      "start": -206,
+      "end": 220,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "tang_dynasty",
+      "start": 618,
+      "end": 907,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant"
+        },
+        {
+          "ethnicity": "turkic",
+          "presence": "northern border significant",
+          "note": "Turkic tribes along the northern frontier; Tang had Turkic generals"
+        }
+      ]
+    },
+    {
+      "regime": "liao_dynasty",
+      "start": 907,
+      "end": 1125,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "khitan",
+          "presence": "ruling/northern"
+        },
+        {
+          "ethnicity": "han",
+          "presence": "majority (southern territories)"
+        }
+      ]
+    },
+    {
+      "regime": "song_dynasty",
+      "start": 960,
+      "end": 1127,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "jin_dynasty_jurchen",
+      "start": 1127,
+      "end": 1234,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "jurchen",
+          "presence": "ruling class"
+        },
+        {
+          "ethnicity": "han",
+          "presence": "vast majority of population",
+          "note": "Jurchen rulers over a Han sea; Jin eventually Sinicized significantly"
+        }
+      ]
+    },
+    {
+      "regime": "yuan_dynasty",
+      "start": 1271,
+      "end": 1368,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "ruling class"
+        },
+        {
+          "ethnicity": "han",
+          "presence": "vast majority",
+          "note": "Han barred from top government posts; deep resentment"
+        }
+      ]
+    },
+    {
+      "regime": "ming_dynasty",
+      "start": 1368,
+      "end": 1644,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant — strong Han nativist identity"
+        }
+      ]
+    },
+    {
+      "regime": "qing_dynasty",
+      "start": 1644,
+      "end": 1912,
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "jurchen",
+          "presence": "ruling class (~2% of population)",
+          "note": "Manchu bannermen scattered in garrison cities; vastly outnumbered by Han"
+        },
+        {
+          "ethnicity": "han",
+          "presence": "overwhelming majority (~95%+)"
+        }
+      ]
+    }
+  ]
+}

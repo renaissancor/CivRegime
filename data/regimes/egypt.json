@@ -1,0 +1,110 @@
+[
+  {
+    "id": "old_kingdom_egypt",
+    "name": "Old Kingdom Egypt",
+    "ruling_ethnicity": "egyptian_native",
+    "territories": [
+      "egypt",
+      "nubia"
+    ],
+    "start": -2686,
+    "end": -2181,
+    "cultural_language": "ancient_egyptian",
+    "ideology": {
+      "religion": "egyptian_religion",
+      "government": "divine_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "imhotep",
+        "name": "Imhotep",
+        "role": "administrator",
+        "years": "-2650/-2600",
+        "significance": "Architect of the Step Pyramid; first named architect in history; later deified"
+      },
+      {
+        "id": "khufu",
+        "name": "Khufu (Cheops)",
+        "role": "ruler",
+        "years": "-2589/-2566",
+        "significance": "Commissioned the Great Pyramid of Giza"
+      }
+    ]
+  },
+  {
+    "id": "new_kingdom_egypt",
+    "name": "New Kingdom Egypt",
+    "ruling_ethnicity": "egyptian_native",
+    "territories": [
+      "egypt",
+      "nubia",
+      "levant"
+    ],
+    "start": -1550,
+    "end": -1070,
+    "cultural_language": "ancient_egyptian",
+    "ideology": {
+      "religion": "egyptian_religion",
+      "government": "divine_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "thutmose_iii",
+        "name": "Thutmose III",
+        "role": "ruler",
+        "years": "-1481/-1425",
+        "significance": "Greatest military pharaoh; expanded Egypt to its greatest territorial extent"
+      },
+      {
+        "id": "akhenaten",
+        "name": "Akhenaten",
+        "role": "reformer",
+        "years": "-1353/-1336",
+        "significance": "Revolutionary monotheist attempt (Aten worship); rejected by successors"
+      },
+      {
+        "id": "ramesses_ii",
+        "name": "Ramesses II",
+        "role": "ruler",
+        "years": "-1303/-1213",
+        "significance": "Signed the first known peace treaty in history (with the Hittites)"
+      }
+    ]
+  },
+  {
+    "id": "ptolemaic_egypt",
+    "name": "Ptolemaic Kingdom",
+    "ruling_ethnicity": "macedonian",
+    "territories": [
+      "egypt",
+      "levant"
+    ],
+    "start": -305,
+    "end": -30,
+    "note": "Greek-speaking Macedonian rulers adopted Egyptian royal titles and iconography for legitimacy, but the court was Hellenic",
+    "cultural_language": "koine_greek",
+    "ideology": {
+      "religion": "hellenic_paganism",
+      "government": "absolute_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "ptolemy_i",
+        "name": "Ptolemy I Soter",
+        "role": "founder",
+        "years": "-367/-283",
+        "significance": "Macedonian general who founded the dynasty; established the Library of Alexandria"
+      },
+      {
+        "id": "cleopatra_vii",
+        "name": "Cleopatra VII",
+        "role": "last_ruler",
+        "years": "-69/-30",
+        "significance": "Last active Ptolemaic ruler; only one to learn Egyptian; her death ended Greek rule in Egypt"
+      }
+    ]
+  }
+]

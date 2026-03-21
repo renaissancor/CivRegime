@@ -1,0 +1,198 @@
+{
+  "id": "caucasus",
+  "name": "Caucasus",
+  "description": "Georgia, Armenia, Azerbaijan",
+  "region": "persia_central_asia",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -860,
+      "end": -590,
+      "note": "Kingdom of Urartu — pre-Armenian Iron Age state centered around Lake Van",
+      "dominant_ethnicity": "caucasian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "caucasian",
+          "presence": "dominant",
+          "note": "Urartian language; ancestor of Armenian identity forming in this region"
+        }
+      ]
+    },
+    {
+      "regime": "achaemenid_empire",
+      "start": -550,
+      "end": -330,
+      "dominant_ethnicity": "caucasian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "persian",
+          "presence": "ruling/administrative satrapy"
+        },
+        {
+          "ethnicity": "caucasian",
+          "presence": "dominant — Armenian, Colchian, Iberian populations"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": -190,
+      "end": 428,
+      "note": "Kingdom of Armenia — oscillated between Roman and Parthian/Sassanid spheres; first nation to adopt Christianity (301 AD)",
+      "dominant_ethnicity": "caucasian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "caucasian",
+          "presence": "dominant (Armenian identity crystalized here)"
+        }
+      ]
+    },
+    {
+      "regime": "sassanid_empire",
+      "start": 428,
+      "end": 628,
+      "dominant_ethnicity": "caucasian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "persian",
+          "presence": "ruling/dominant (Armenian nobility rebelled repeatedly)"
+        },
+        {
+          "ethnicity": "caucasian",
+          "presence": "majority; Armenian Church preserved separate identity"
+        }
+      ]
+    },
+    {
+      "regime": "byzantine_empire",
+      "start": 628,
+      "end": 650,
+      "dominant_ethnicity": "caucasian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "hellenic",
+          "presence": "brief administrative"
+        },
+        {
+          "ethnicity": "caucasian",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "umayyad_caliphate",
+      "start": 650,
+      "end": 750,
+      "dominant_ethnicity": "caucasian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "semitic",
+          "presence": "ruling/garrison"
+        },
+        {
+          "ethnicity": "caucasian",
+          "presence": "dominant; resisted conversion more than lowland territories"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 885,
+      "end": 1064,
+      "note": "Bagratid kingdoms — Armenian and Georgian revival dynasties; cultural flourishing",
+      "dominant_ethnicity": "caucasian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "caucasian",
+          "presence": "dominant; Armenian/Georgian literary golden age"
+        }
+      ]
+    },
+    {
+      "regime": "seljuk_empire",
+      "start": 1064,
+      "end": 1194,
+      "dominant_ethnicity": "caucasian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling/military; Battle of Manzikert opened Anatolia"
+        },
+        {
+          "ethnicity": "caucasian",
+          "presence": "majority; Georgia eventually repelled Seljuks under Queen Tamar"
+        }
+      ]
+    },
+    {
+      "regime": "mongol_empire",
+      "start": 1220,
+      "end": 1256,
+      "dominant_ethnicity": "caucasian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "ruling"
+        },
+        {
+          "ethnicity": "caucasian",
+          "presence": "majority"
+        }
+      ]
+    },
+    {
+      "regime": "ilkhanate",
+      "start": 1256,
+      "end": 1335,
+      "dominant_ethnicity": "caucasian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "ruling"
+        },
+        {
+          "ethnicity": "turkic",
+          "presence": "significant military"
+        },
+        {
+          "ethnicity": "caucasian",
+          "presence": "dominant population"
+        }
+      ]
+    },
+    {
+      "regime": "safavid_empire",
+      "start": 1501,
+      "end": 1736,
+      "dominant_ethnicity": "caucasian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "persian",
+          "presence": "ruling"
+        },
+        {
+          "ethnicity": "caucasian",
+          "presence": "dominant; mass Georgian/Armenian deportations into Iran for military/harem"
+        }
+      ]
+    },
+    {
+      "regime": "ottoman_empire",
+      "start": 1514,
+      "end": 1828,
+      "note": "Western Caucasus under Ottoman; eastern under Safavid/Persian — contested repeatedly",
+      "dominant_ethnicity": "caucasian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling (western portions)"
+        },
+        {
+          "ethnicity": "caucasian",
+          "presence": "dominant"
+        }
+      ]
+    }
+  ]
+}

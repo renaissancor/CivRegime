@@ -1,0 +1,84 @@
+{
+  "id": "nubia",
+  "name": "Nubia / Sudan",
+  "description": "Upper Nile valley, modern-day Sudan",
+  "region": "middle_east",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -3000,
+      "end": -2000,
+      "note": "Kerma culture — earliest Nubian polity",
+      "dominant_ethnicity": "cushitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "cushitic",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "new_kingdom_egypt",
+      "start": -1550,
+      "end": -1070,
+      "dominant_ethnicity": "cushitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "egyptian_native",
+          "presence": "ruling/garrison",
+          "note": "Egyptian viceroy 'King's Son of Kush'; extensive Egyptianization"
+        },
+        {
+          "ethnicity": "cushitic",
+          "presence": "dominant population"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": -1070,
+      "end": -747,
+      "note": "Kushite Kingdom of Napata — Nubians absorbed Egyptian culture and then conquered Egypt",
+      "dominant_ethnicity": "cushitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "cushitic",
+          "presence": "dominant",
+          "note": "Heavily Egyptianized Nubian culture; built pyramids at Napata"
+        }
+      ]
+    },
+    {
+      "regime": "new_kingdom_egypt",
+      "start": -747,
+      "end": -656,
+      "note": "25th Dynasty — Kushite pharaohs ruling Egypt from Nubia; roles reversed",
+      "dominant_ethnicity": "cushitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "cushitic",
+          "presence": "ruling class in Egypt itself"
+        },
+        {
+          "ethnicity": "egyptian_native",
+          "presence": "subject population in Egypt"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": -656,
+      "end": 350,
+      "note": "Meroitic Kingdom — Nubian state centered at Meroe; independent culture",
+      "dominant_ethnicity": "cushitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "cushitic",
+          "presence": "dominant",
+          "note": "Meroitic script (still undeciphered); distinct from Egypt by this period"
+        }
+      ]
+    }
+  ]
+}

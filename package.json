@@ -1,0 +1,21 @@
+{
+  "name": "civregime",
+  "version": "1.0.0",
+  "description": "**CRIF** is a formal taxonomy and data schema designed to map the historical continuity and legitimacy of state transitions. Unlike traditional 4X games that often allow arbitrary \"evolution\" (e.g., Tang Dynasty to Ottoman Empire), this framework categorizes successions based on **Ethnic DNA (Software)** and **Territorial Locus (Hardware)**.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "validate": "node scripts/validate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "central_asian_steppe",
+  "name": "Central Asian Steppe",
+  "description": "Kazakh steppe and surrounding grasslands, from the Caspian to the Altai",
+  "region": "steppe",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -800,
+      "end": -400,
+      "note": "Scythian/Saka confederation — Iranian-speaking horse nomads",
+      "dominant_ethnicity": "steppe_nomadic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "dominant",
+          "note": "Scythians spoke an Iranian language (Eastern Iranian branch)"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": -209,
+      "end": 93,
+      "note": "Xiongnu Empire — dominant steppe power; forced Han China to pay tribute",
+      "dominant_ethnicity": "steppe_nomadic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "dominant; Xiongnu ethnicity debated (proto-Turkic or Mongolic)"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 350,
+      "end": 453,
+      "note": "Hunnic Empire — Attila's confederation devastated Roman Empire and Germanic tribes",
+      "dominant_ethnicity": "steppe_nomadic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "ruling dominant; Gothic, Germanic subject peoples"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 552,
+      "end": 744,
+      "note": "Göktürk Khaganate (First and Second) — first explicitly Turkic empire",
+      "dominant_ethnicity": "turkic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "dominant",
+          "note": "Göktürk runic script; ancestor of all Turkic political traditions"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 744,
+      "end": 840,
+      "note": "Uyghur Khaganate — Turkic successor; adopted Manichaeism (unique case)",
+      "dominant_ethnicity": "turkic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1000,
+      "end": 1206,
+      "note": "Kimek-Kipchak confederation — Turkic nomads dominating Kazakh steppe",
+      "dominant_ethnicity": "turkic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "mongol_empire",
+      "start": 1206,
+      "end": 1260,
+      "dominant_ethnicity": "mongol",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "ruling"
+        },
+        {
+          "ethnicity": "turkic",
+          "presence": "subject majority",
+          "note": "Mongols absorbed far larger Turkic populations; armies became mostly Turkic"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1260,
+      "end": 1465,
+      "note": "Golden Horde — Mongol-Turkic khanate; ruled Russian princes; gradually Turkicized",
+      "dominant_ethnicity": "turkic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "ruling class — assimilating into Turkic"
+        },
+        {
+          "ethnicity": "turkic",
+          "presence": "dominant mass"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1465,
+      "end": 1731,
+      "note": "Kazakh Khanate — formation of Kazakh ethnic identity on the steppe",
+      "dominant_ethnicity": "turkic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "dominant; Kazakh identity emerged from Uzbek-Kazakh split"
+        }
+      ]
+    }
+  ]
+}

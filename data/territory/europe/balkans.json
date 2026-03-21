@@ -1,0 +1,134 @@
+{
+  "id": "balkans",
+  "name": "Balkans",
+  "description": "Southeast Europe, Balkan Peninsula",
+  "region": "europe",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -700,
+      "end": -338,
+      "note": "Greek city-states (southern Balkans) and Illyrian/Thracian tribes (north and west)",
+      "dominant_ethnicity": "hellenic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "hellenic",
+          "presence": "dominant south (Macedonia included)"
+        },
+        {
+          "ethnicity": "caucasian",
+          "presence": "Illyrian/Thracian tribal majority in north"
+        }
+      ]
+    },
+    {
+      "regime": "macedonian_empire",
+      "start": -338,
+      "end": -148,
+      "dominant_ethnicity": "hellenic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "macedonian",
+          "presence": "ruling dominant"
+        },
+        {
+          "ethnicity": "hellenic",
+          "presence": "significant"
+        }
+      ]
+    },
+    {
+      "regime": "roman_empire",
+      "start": -148,
+      "end": 395,
+      "dominant_ethnicity": "hellenic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "latin",
+          "presence": "ruling/administrative; western Balkans (Illyricum) Latinized"
+        },
+        {
+          "ethnicity": "hellenic",
+          "presence": "dominant eastern Balkans; Thracians assimilating"
+        }
+      ]
+    },
+    {
+      "regime": "byzantine_empire",
+      "start": 395,
+      "end": 1453,
+      "dominant_ethnicity": "hellenic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "hellenic",
+          "presence": "dominant urban"
+        },
+        {
+          "ethnicity": "south_slavic_eth",
+          "presence": "increasing majority from 6th century",
+          "note": "Slavic migrations 6th-7th century massively changed demographics"
+        },
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "Bulgar ruling class (Turkic) then assimilated into Slav"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 681,
+      "end": 1018,
+      "note": "First Bulgarian Empire — Bulgar (Turkic) ruling class over Slavic majority; eventually Bulgar absorbed into Slavic",
+      "dominant_ethnicity": "south_slavic_eth",
+      "ethnic_composition": [
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "ruling Bulgar clan (Turkic origin)"
+        },
+        {
+          "ethnicity": "south_slavic_eth",
+          "presence": "dominant population; Bulgars adopted Slavic language and Orthodox Christianity"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1190,
+      "end": 1389,
+      "note": "Serbian Empire (Nemanjić dynasty) — medieval Serbian state at its peak under Stefan Dušan",
+      "dominant_ethnicity": "south_slavic_eth",
+      "ethnic_composition": [
+        {
+          "ethnicity": "south_slavic_eth",
+          "presence": "dominant (Serbian Orthodox identity)"
+        },
+        {
+          "ethnicity": "hellenic",
+          "presence": "minority (Greek clergy, merchants)"
+        }
+      ]
+    },
+    {
+      "regime": "ottoman_empire",
+      "start": 1389,
+      "end": 1912,
+      "dominant_ethnicity": "south_slavic_eth",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling/garrison; significant Turkish settlement in some areas"
+        },
+        {
+          "ethnicity": "south_slavic_eth",
+          "presence": "dominant majority",
+          "note": "Orthodox = Serbian/Bulgarian; Catholic = Croatian; Muslim = Bosniak — religion split the ethnicity"
+        },
+        {
+          "ethnicity": "hellenic",
+          "presence": "significant (Greek Orthodox millet)"
+        }
+      ]
+    }
+  ]
+}

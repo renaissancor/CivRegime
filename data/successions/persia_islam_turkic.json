@@ -1,0 +1,170 @@
+[
+  {
+    "from": "abbasid_caliphate",
+    "to": "ilkhanate",
+    "type": "C",
+    "shared_territories": [
+      "mesopotamia",
+      "iran_plateau"
+    ],
+    "rationale": "Mongol sack of Baghdad (1258) ended the Abbasid Caliphate. Same land, new Mongolic ethnicity."
+  },
+  {
+    "from": "ilkhanate",
+    "to": "timurid_empire",
+    "type": "C",
+    "shared_territories": [
+      "iran_plateau",
+      "khorasan"
+    ],
+    "rationale": "Timur conquered the post-Ilkhanate Iranian world. Same land; Timurid is Turkic vs. Mongol, but closely related."
+  },
+  {
+    "from": "ilkhanate",
+    "to": "safavid_empire",
+    "type": "C",
+    "shared_territories": [
+      "iran_plateau",
+      "mesopotamia"
+    ],
+    "rationale": "Safavids reunified Iran after the Mongol/Timurid era. Same Iranian heartland, Persian Shia identity revived."
+  },
+  {
+    "from": "timurid_empire",
+    "to": "safavid_empire",
+    "type": "C",
+    "shared_territories": [
+      "iran_plateau",
+      "khorasan"
+    ],
+    "rationale": "Safavids replaced the Timurids in Iran. Same core territories, ethnicity shifted from Turkic back to Persian."
+  },
+  {
+    "from": "abbasid_caliphate",
+    "to": "fatimid_caliphate",
+    "type": "C",
+    "shared_territories": [
+      "egypt",
+      "levant"
+    ],
+    "rationale": "Fatimids (Ismaili Shia) conquered Egypt from the Abbasids. Same land, rival Semitic dynasty."
+  },
+  {
+    "from": "fatimid_caliphate",
+    "to": "ayyubid_sultanate",
+    "type": "C",
+    "shared_territories": [
+      "egypt",
+      "levant"
+    ],
+    "rationale": "Saladin (Kurdish) dismantled the Fatimid Caliphate. Same territory, Kurdish ethnicity."
+  },
+  {
+    "from": "ayyubid_sultanate",
+    "to": "mamluk_sultanate",
+    "type": "C",
+    "shared_territories": [
+      "egypt",
+      "levant"
+    ],
+    "rationale": "Mamluk (Turkic slave-soldiers) overthrew the Ayyubids. Same territory, Turkic ethnicity."
+  },
+  {
+    "from": "mamluk_sultanate",
+    "to": "ottoman_empire",
+    "type": "C",
+    "shared_territories": [
+      "egypt",
+      "levant"
+    ],
+    "rationale": "Ottoman conquest of the Mamluk Sultanate (1517). Same territory; both Turkic, but different dynasties."
+  },
+  {
+    "from": "median_kingdom",
+    "to": "achaemenid_empire",
+    "type": "A",
+    "shared_territories": [
+      "iran_plateau"
+    ],
+    "rationale": "Cyrus (Persian/Achaemenid) overthrew the Medes. Both Iranian peoples on the same plateau. Near-direct lineage."
+  },
+  {
+    "from": "parthian_empire",
+    "to": "sassanid_empire",
+    "type": "A",
+    "shared_territories": [
+      "iran_plateau",
+      "mesopotamia"
+    ],
+    "rationale": "Sassanids overthrew the Parthians. Both Iranian peoples on the same core territory; Sassanids claimed Achaemenid legacy."
+  },
+  {
+    "from": "sassanid_empire",
+    "to": "rashidun_caliphate",
+    "type": "C",
+    "shared_territories": [
+      "mesopotamia",
+      "iran_plateau"
+    ],
+    "rationale": "Arab Muslim conquest destroyed the Sassanid state. Same land, Semitic/Arab ethnicity."
+  },
+  {
+    "from": "seljuk_empire",
+    "to": "ilkhanate",
+    "type": "C",
+    "shared_territories": [
+      "iran_plateau",
+      "khorasan"
+    ],
+    "rationale": "Mongol invasion destroyed the Seljuk successor states in Iran. Same land, Mongol ethnicity."
+  },
+  {
+    "from": "seljuk_rum",
+    "to": "ottoman_empire",
+    "type": "A",
+    "shared_territories": [
+      "anatolia"
+    ],
+    "rationale": "Ottomans emerged from Turkic beyliks as Seljuk Rum fragmented. Same Anatolian territory, same Turkic ethnicity."
+  },
+  {
+    "from": "rashidun_caliphate",
+    "to": "umayyad_caliphate",
+    "type": "A",
+    "shared_territories": [
+      "levant",
+      "mesopotamia",
+      "egypt",
+      "iran_plateau"
+    ],
+    "rationale": "Umayyads were Arab, same Semitic ethnicity, controlled the same core territories."
+  },
+  {
+    "from": "umayyad_caliphate",
+    "to": "abbasid_caliphate",
+    "type": "A",
+    "shared_territories": [
+      "mesopotamia",
+      "levant",
+      "iran_plateau"
+    ],
+    "rationale": "Abbasid revolution replaced Umayyads. Still Arab/Semitic but shifted capital to Baghdad."
+  },
+  {
+    "from": "abbasid_caliphate",
+    "to": "seljuk_empire",
+    "type": "C",
+    "shared_territories": [
+      "mesopotamia",
+      "iran_plateau"
+    ],
+    "rationale": "Seljuk Turks became the military power behind the weakened Abbasid caliphate. Same land, Turkic ethnicity."
+  },
+  {
+    "from": "seljuk_empire",
+    "to": "seljuk_rum",
+    "type": "B",
+    "shared_territories": [],
+    "rationale": "A Seljuk branch migrated into Anatolia and founded the Sultanate of Rum. Same Turkic ethnicity, new territory."
+  }
+]

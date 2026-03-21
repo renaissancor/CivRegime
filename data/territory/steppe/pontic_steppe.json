@@ -1,0 +1,138 @@
+{
+  "id": "pontic_steppe",
+  "name": "Pontic Steppe",
+  "description": "Northern Black Sea steppe, modern-day Ukraine and southern Russia",
+  "region": "steppe",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -700,
+      "end": -200,
+      "note": "Scythian Kingdom — Iranian nomads ruling the Pontic grasslands; traded with Greeks",
+      "dominant_ethnicity": "steppe_nomadic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "dominant (Scythians = Eastern Iranian)"
+        },
+        {
+          "ethnicity": "hellenic",
+          "presence": "coastal minority",
+          "note": "Greek colonies (Olbia, Chersonesus, Panticapaeum)"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": -200,
+      "end": 370,
+      "note": "Sarmatian → Alanic confederation — Iranian nomads replaced Scythians",
+      "dominant_ethnicity": "steppe_nomadic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "dominant (Sarmatians = Iranian-speaking)"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 370,
+      "end": 453,
+      "note": "Hunnic conquest — Huns shattered Gothic and Alan confederations; triggered the Migration Period",
+      "dominant_ethnicity": "steppe_nomadic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "dominant (Huns)"
+        },
+        {
+          "ethnicity": "germanic",
+          "presence": "subject (Gothic)"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 650,
+      "end": 969,
+      "note": "Khazar Khaganate — Turkic state that adopted Judaism; crucial Byzantine ally against Islam",
+      "dominant_ethnicity": "turkic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling class (Khazar = Turkic)"
+        },
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "various subject peoples"
+        },
+        {
+          "ethnicity": "hebrew_eth",
+          "presence": "religious identity of ruling class only",
+          "note": "Khazar royalty converted to Judaism; not an ethnic Jewish population"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1000,
+      "end": 1237,
+      "note": "Pecheneg then Kipchak/Cuman confederation — Turkic nomads replaced Khazars",
+      "dominant_ethnicity": "turkic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "mongol_empire",
+      "start": 1237,
+      "end": 1241,
+      "dominant_ethnicity": "turkic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "ruling/invading force"
+        },
+        {
+          "ethnicity": "turkic",
+          "presence": "dominant mass; absorbed into Golden Horde"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1241,
+      "end": 1502,
+      "note": "Golden Horde — Mongol-Turkic khanate; collected tribute from Russian principalities",
+      "dominant_ethnicity": "turkic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "ruling class (Jochid dynasty)"
+        },
+        {
+          "ethnicity": "turkic",
+          "presence": "dominant military/nomadic mass; Mongols Turkicized and Islamized"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1441,
+      "end": 1783,
+      "note": "Crimean Khanate — Ottoman vassal; last Mongol successor state on the steppe",
+      "dominant_ethnicity": "turkic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "dominant (Crimean Tatars)"
+        }
+      ]
+    }
+  ]
+}

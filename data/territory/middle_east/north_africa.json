@@ -1,0 +1,170 @@
+{
+  "id": "north_africa",
+  "name": "North Africa",
+  "description": "Maghreb coast, modern-day Libya/Tunisia/Algeria/Morocco",
+  "region": "middle_east",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -900,
+      "end": -146,
+      "note": "Carthaginian Empire — Phoenician colony that became a Mediterranean power",
+      "dominant_ethnicity": "semitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "semitic",
+          "presence": "ruling urban (Phoenician/Punic)"
+        },
+        {
+          "ethnicity": "berber",
+          "presence": "dominant rural majority",
+          "note": "Berber kingdoms (Numidia) existed alongside and sometimes allied with Rome"
+        }
+      ]
+    },
+    {
+      "regime": "roman_empire",
+      "start": -146,
+      "end": 429,
+      "dominant_ethnicity": "berber",
+      "ethnic_composition": [
+        {
+          "ethnicity": "latin",
+          "presence": "ruling/urban"
+        },
+        {
+          "ethnicity": "berber",
+          "presence": "dominant majority",
+          "note": "Heavily Romanized urban Berbers; Latin North Africa (Augustine of Hippo was Berber)"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "remnant Punic minority"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 429,
+      "end": 533,
+      "note": "Vandal Kingdom — Germanic Vandals ruled North Africa from Carthage",
+      "dominant_ethnicity": "berber",
+      "ethnic_composition": [
+        {
+          "ethnicity": "germanic",
+          "presence": "ruling class"
+        },
+        {
+          "ethnicity": "berber",
+          "presence": "dominant majority"
+        },
+        {
+          "ethnicity": "latin",
+          "presence": "urban minority (Romanized)"
+        }
+      ]
+    },
+    {
+      "regime": "byzantine_empire",
+      "start": 533,
+      "end": 698,
+      "dominant_ethnicity": "berber",
+      "ethnic_composition": [
+        {
+          "ethnicity": "hellenic",
+          "presence": "ruling/administrative"
+        },
+        {
+          "ethnicity": "berber",
+          "presence": "dominant majority"
+        }
+      ]
+    },
+    {
+      "regime": "umayyad_caliphate",
+      "start": 698,
+      "end": 750,
+      "dominant_ethnicity": "berber",
+      "ethnic_composition": [
+        {
+          "ethnicity": "semitic",
+          "presence": "ruling/garrison"
+        },
+        {
+          "ethnicity": "berber",
+          "presence": "dominant majority",
+          "note": "Berbers converted to Islam rapidly but maintained distinct identity; Berber revolts against Arab supremacy"
+        }
+      ]
+    },
+    {
+      "regime": "abbasid_caliphate",
+      "start": 750,
+      "end": 909,
+      "dominant_ethnicity": "berber",
+      "ethnic_composition": [
+        {
+          "ethnicity": "berber",
+          "presence": "dominant — increasingly Islamized/Arabized"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "administrative"
+        }
+      ]
+    },
+    {
+      "regime": "fatimid_caliphate",
+      "start": 909,
+      "end": 1171,
+      "dominant_ethnicity": "berber",
+      "ethnic_composition": [
+        {
+          "ethnicity": "berber",
+          "presence": "dominant",
+          "note": "Fatimids founded by Kutama Berbers; Egypt became their center after 969"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "urban significant"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1049,
+      "end": 1269,
+      "note": "Almoravid then Almohad Empires — Berber imperial movements originating in Sahara/Atlas",
+      "dominant_ethnicity": "berber",
+      "ethnic_composition": [
+        {
+          "ethnicity": "berber",
+          "presence": "dominant",
+          "note": "Pan-Berber Islamic reformist movements; also ruled al-Andalus"
+        }
+      ]
+    },
+    {
+      "regime": "ottoman_empire",
+      "start": 1517,
+      "end": 1830,
+      "dominant_ethnicity": "berber",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling/garrison (Regencies of Algiers, Tunis, Tripoli)"
+        },
+        {
+          "ethnicity": "berber",
+          "presence": "dominant majority"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "urban significant",
+          "note": "Arabized coastal populations; interior remained Berber-speaking"
+        }
+      ]
+    }
+  ]
+}

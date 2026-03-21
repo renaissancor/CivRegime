@@ -1,0 +1,226 @@
+[
+  {
+    "id": "xiongnu",
+    "name": "Xiongnu Confederation",
+    "ruling_ethnicity": "turkic",
+    "territories": [
+      "mongolian_plateau",
+      "central_asian_steppe"
+    ],
+    "start": -209,
+    "end": 93,
+    "cultural_language": "old_turkic",
+    "ideology": {
+      "religion": "tengriism",
+      "government": "khaganate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "modu_chanyu",
+        "name": "Modu Chanyu",
+        "role": "founder",
+        "years": "-234/-174",
+        "significance": "United the steppe tribes; template for all subsequent steppe empires"
+      }
+    ]
+  },
+  {
+    "id": "goktürk_khaganate",
+    "name": "Göktürk Khaganate",
+    "ruling_ethnicity": "turkic",
+    "territories": [
+      "mongolian_plateau",
+      "central_asian_steppe",
+      "transoxiana"
+    ],
+    "start": 552,
+    "end": 744,
+    "cultural_language": "old_turkic",
+    "ideology": {
+      "religion": "tengriism",
+      "government": "khaganate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "bumin_qaghan",
+        "name": "Bumin Qaghan",
+        "role": "founder",
+        "years": "/552",
+        "significance": "First use of the title Khagan; founded the first explicitly Turkic empire"
+      },
+      {
+        "id": "bilge_qaghan",
+        "name": "Bilge Qaghan",
+        "role": "ruler",
+        "years": "683/734",
+        "significance": "Documented in the Orkhon inscriptions — the oldest known Turkic texts"
+      }
+    ]
+  },
+  {
+    "id": "uyghur_khaganate",
+    "name": "Uyghur Khaganate",
+    "ruling_ethnicity": "turkic",
+    "territories": [
+      "mongolian_plateau",
+      "central_asian_steppe"
+    ],
+    "start": 744,
+    "end": 840,
+    "note": "One of history's few Manichaean states; adopted Manichaeism as state religion after 762 — a major civilizational break from Göktürk Tengriism",
+    "cultural_language": "uyghur_lang",
+    "ideology": {
+      "religion": "manichaeism",
+      "government": "khaganate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "bayanchur_khan",
+        "name": "Bayanchur Khan",
+        "role": "founder",
+        "years": "/759",
+        "significance": "Founded the Uyghur Khaganate; adopted Manichaeism as state religion"
+      }
+    ]
+  },
+  {
+    "id": "khazar_khaganate",
+    "name": "Khazar Khaganate",
+    "ruling_ethnicity": "turkic",
+    "territories": [
+      "pontic_steppe",
+      "caucasus"
+    ],
+    "start": 650,
+    "end": 969,
+    "note": "Ruling class converted to Judaism — a unique case; possibly a diplomatic choice to remain neutral between the Christian Byzantine and Muslim Abbasid spheres",
+    "cultural_language": "old_turkic",
+    "ideology": {
+      "religion": "rabbinic_judaism",
+      "government": "khaganate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "bulan",
+        "name": "Bulan",
+        "role": "reformer",
+        "years": "740/800",
+        "significance": "The Khazar ruler who converted to Judaism"
+      }
+    ]
+  },
+  {
+    "id": "mongol_empire",
+    "name": "Mongol Empire",
+    "ruling_ethnicity": "mongol",
+    "territories": [
+      "mongolian_plateau",
+      "central_asian_steppe",
+      "transoxiana",
+      "iran_plateau",
+      "khorasan",
+      "mesopotamia",
+      "yellow_river",
+      "yangtze",
+      "manchuria"
+    ],
+    "start": 1206,
+    "end": 1368,
+    "note": "Religiously tolerant by policy (Yasa law); the different successor khanates each converted to the local dominant religion",
+    "cultural_language": "classical_mongolian",
+    "ideology": {
+      "religion": "tengriism",
+      "government": "khaganate"
+    },
+    "policies": [
+      {
+        "id": "yasa_tolerance",
+        "name": "Yasa — Religious Tolerance Policy",
+        "start": 1206,
+        "end": 1368,
+        "description": "Mongol legal code mandated religious tolerance. Policy — each successor khanate converted to local religions independently."
+      }
+    ],
+    "figures": [
+      {
+        "id": "genghis_khan",
+        "name": "Genghis Khan",
+        "role": "founder",
+        "years": "1162/1227",
+        "significance": "Greatest conqueror by territory in history; created the Yasa and the meritocratic military system"
+      },
+      {
+        "id": "ogedei_khan",
+        "name": "Ogedei Khan",
+        "role": "ruler",
+        "years": "1186/1241",
+        "significance": "Completed the conquest of North China; launched the invasion of Europe"
+      }
+    ]
+  },
+  {
+    "id": "golden_horde",
+    "name": "Golden Horde",
+    "ruling_ethnicity": "mongol",
+    "territories": [
+      "pontic_steppe",
+      "central_asian_steppe"
+    ],
+    "start": 1242,
+    "end": 1502,
+    "note": "Converted to Sunni Islam ~1313 under Özbeg Khan; Mongol rulers gradually Turkified — adopted Kipchak Turkic as the dominant language",
+    "cultural_language": "kipchak_branch",
+    "ideology": {
+      "religion": "sunni_hanafi",
+      "government": "khanate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "batu_khan",
+        "name": "Batu Khan",
+        "role": "founder",
+        "years": "1205/1255",
+        "significance": "Conquered Russia and Eastern Europe; founded the Golden Horde"
+      },
+      {
+        "id": "ozbeg_khan",
+        "name": "Ozbeg Khan",
+        "role": "reformer",
+        "years": "1282/1341",
+        "significance": "Converted the Golden Horde to Sunni Islam (1313); modern Uzbeks are named after him"
+      }
+    ]
+  },
+  {
+    "id": "chagatai_khanate",
+    "name": "Chagatai Khanate",
+    "ruling_ethnicity": "mongol",
+    "territories": [
+      "transoxiana",
+      "central_asian_steppe"
+    ],
+    "start": 1226,
+    "end": 1347,
+    "note": "Chagatai Turkic became the prestige literary language of Central Asia after Mongol Turkification",
+    "cultural_language": "uyghur_lang",
+    "ideology": {
+      "religion": "sunni_hanafi",
+      "government": "khanate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "chagatai_khan",
+        "name": "Chagatai Khan",
+        "role": "founder",
+        "years": "1183/1242",
+        "significance": "Second son of Genghis Khan; Chagatai Turkic language is named after him"
+      }
+    ]
+  }
+]

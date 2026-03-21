@@ -1,0 +1,146 @@
+[
+  {
+    "id": "seljuk_empire",
+    "name": "Seljuk Empire",
+    "ruling_ethnicity": "turkic",
+    "territories": [
+      "transoxiana",
+      "iran_plateau",
+      "mesopotamia",
+      "khorasan"
+    ],
+    "start": 1037,
+    "end": 1194,
+    "note": "Oghuz Turkic rulers adopted Persian as court language; patronized Persian scholars — Omar Khayyam, al-Ghazali, Nizam al-Mulk all flourished under Seljuk rule",
+    "cultural_language": "new_persian",
+    "ideology": {
+      "religion": "sunni_hanafi",
+      "government": "sultanate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "tughril",
+        "name": "Tughril",
+        "role": "founder",
+        "years": "990/1063",
+        "significance": "Entered Baghdad (1055) as Abbasid protector; received the title Sultan"
+      },
+      {
+        "id": "alp_arslan",
+        "name": "Alp Arslan",
+        "role": "ruler",
+        "years": "1029/1072",
+        "significance": "Defeated Byzantium at Manzikert (1071) — opened Anatolia to Turkic settlement"
+      },
+      {
+        "id": "nizam_al_mulk",
+        "name": "Nizam al-Mulk",
+        "role": "administrator",
+        "years": "1018/1092",
+        "significance": "Grand vizier; his Siyasatnama is the masterwork of Persian administrative theory"
+      },
+      {
+        "id": "omar_khayyam",
+        "name": "Omar Khayyam",
+        "role": "cultural",
+        "years": "1048/1131",
+        "significance": "Mathematician, astronomer, and poet (Rubaiyat); pinnacle of Seljuk Persian intellectual culture"
+      }
+    ]
+  },
+  {
+    "id": "seljuk_rum",
+    "name": "Sultanate of Rum",
+    "ruling_ethnicity": "turkic",
+    "territories": [
+      "anatolia"
+    ],
+    "start": 1077,
+    "end": 1307,
+    "note": "Rumi composed his poetry in Persian at this court in Konya",
+    "cultural_language": "new_persian",
+    "ideology": {
+      "religion": "sunni_hanafi",
+      "government": "sultanate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "rumi",
+        "name": "Jalal ad-Din Rumi",
+        "role": "cultural",
+        "years": "1207/1273",
+        "significance": "Composed the Masnavi in Persian at the Konya court; founder of the Mevlevi order; most widely read poet in the world"
+      }
+    ]
+  },
+  {
+    "id": "ottoman_empire",
+    "name": "Ottoman Empire",
+    "ruling_ethnicity": "turkic",
+    "territories": [
+      "anatolia",
+      "balkans",
+      "levant",
+      "mesopotamia",
+      "egypt",
+      "north_africa",
+      "caucasus"
+    ],
+    "start": 1299,
+    "end": 1922,
+    "note": "Claimed the Caliphate title after conquering Mamluk Egypt (1517). Unlike earlier Turkic states, developed a distinct Turkic-Islamic identity rather than Persianizing. Ruled Orthodox Christians, Catholics, Jews, and Arabs as separate millets (religious communities) — religion defined the subject's legal identity, not ethnicity",
+    "cultural_language": "ottoman_turkish",
+    "ideology": {
+      "religion": "sunni_hanafi",
+      "government": "caliphate"
+    },
+    "policies": [
+      {
+        "id": "millet_system",
+        "name": "Millet System",
+        "start": 1453,
+        "end": 1839,
+        "description": "Non-Muslim communities (Orthodox Christians, Catholics, Jews) governed by their own religious laws in personal matters. Religion defined the legal identity of subjects, not ethnicity."
+      },
+      {
+        "id": "tanzimat",
+        "name": "Tanzimat Reforms",
+        "start": 1839,
+        "end": 1876,
+        "description": "Modernizing reforms granting equal rights to non-Muslim subjects, weakening the millet system. Policy shift — Ottoman ideology remained Sunni Caliphate."
+      }
+    ],
+    "figures": [
+      {
+        "id": "osman_i",
+        "name": "Osman I",
+        "role": "founder",
+        "years": "1258/1326",
+        "significance": "The dynasty is named after him (Osmanli)"
+      },
+      {
+        "id": "mehmed_ii",
+        "name": "Mehmed II (Fatih)",
+        "role": "ruler",
+        "years": "1432/1481",
+        "significance": "Conquered Constantinople (1453); ended the Byzantine Empire; claimed Kayser-i Rum"
+      },
+      {
+        "id": "suleiman_magnificent",
+        "name": "Suleiman the Magnificent",
+        "role": "ruler",
+        "years": "1494/1566",
+        "significance": "Zenith of the Ottoman Empire; also the Lawgiver who reformed the legal system"
+      },
+      {
+        "id": "ataturk",
+        "name": "Mustafa Kemal Ataturk",
+        "role": "last_ruler",
+        "years": "1881/1938",
+        "significance": "Ended the Sultanate (1922) and Caliphate (1924); founded the Republic of Turkey"
+      }
+    ]
+  }
+]

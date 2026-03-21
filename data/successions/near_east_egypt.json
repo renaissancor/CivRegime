@@ -1,0 +1,94 @@
+[
+  {
+    "from": "sumerian_city_states",
+    "to": "akkadian_empire",
+    "type": "C",
+    "shared_territories": [
+      "mesopotamia"
+    ],
+    "rationale": "Sargon of Akkad conquered the Sumerian city-states. Same land, new Semitic (Akkadian) ethnicity."
+  },
+  {
+    "from": "akkadian_empire",
+    "to": "ur_iii",
+    "type": "C",
+    "shared_territories": [
+      "mesopotamia"
+    ],
+    "rationale": "Sumerian revival after Akkadian collapse. Same land, Sumerian ethnicity restored."
+  },
+  {
+    "from": "ur_iii",
+    "to": "old_babylonian",
+    "type": "C",
+    "shared_territories": [
+      "mesopotamia"
+    ],
+    "rationale": "Amorite (West Semitic) invasions ended Ur III. Same territory, new Babylonian ethnicity."
+  },
+  {
+    "from": "old_babylonian",
+    "to": "neo_assyrian_empire",
+    "type": "C",
+    "shared_territories": [
+      "mesopotamia"
+    ],
+    "rationale": "Assyrian power rose to dominate the same Mesopotamian heartland. East Semitic, but Assyrian branch."
+  },
+  {
+    "from": "neo_assyrian_empire",
+    "to": "neo_babylonian",
+    "type": "C",
+    "shared_territories": [
+      "mesopotamia",
+      "levant"
+    ],
+    "rationale": "Chaldean-led revolt destroyed Nineveh. Same territories, Chaldean/Babylonian ethnic revival."
+  },
+  {
+    "from": "old_kingdom_egypt",
+    "to": "new_kingdom_egypt",
+    "type": "A",
+    "shared_territories": [
+      "egypt",
+      "nubia"
+    ],
+    "rationale": "Continuity of Egyptian pharaonic civilization on the same Nile territory."
+  },
+  {
+    "from": "new_kingdom_egypt",
+    "to": "neo_assyrian_empire",
+    "type": "C",
+    "shared_territories": [
+      "egypt"
+    ],
+    "rationale": "Assyrian conquest of Egypt under Esarhaddon. Same land, Assyrian ethnicity imposed."
+  },
+  {
+    "from": "phoenician_states",
+    "to": "kingdom_of_israel",
+    "type": "A",
+    "shared_territories": [
+      "levant"
+    ],
+    "rationale": "Both Northwest Semitic peoples in the same Levantine territory, contemporaries."
+  },
+  {
+    "from": "kingdom_of_israel",
+    "to": "kingdom_of_judah",
+    "type": "A",
+    "shared_territories": [
+      "levant"
+    ],
+    "rationale": "The kingdom split. Judah is the direct southern successor. Same ethnicity, reduced territory."
+  },
+  {
+    "from": "kingdom_of_judah",
+    "to": "neo_babylonian",
+    "type": "C",
+    "shared_territories": [
+      "levant"
+    ],
+    "rationale": "Babylonian conquest and exile (586 BC). Same land, Chaldean/Babylonian ethnicity."
+  }
+]

@@ -1,0 +1,261 @@
+{
+  "id": "levant",
+  "name": "Levant",
+  "description": "Eastern Mediterranean coast, modern-day Syria/Lebanon/Israel/Palestine",
+  "region": "middle_east",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -3000,
+      "end": -1550,
+      "note": "Canaanite city-states; Egyptian Middle Kingdom influence but not direct rule",
+      "dominant_ethnicity": "semitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "semitic",
+          "presence": "dominant",
+          "note": "Canaanite, Amorite, Phoenician populations"
+        }
+      ]
+    },
+    {
+      "regime": "new_kingdom_egypt",
+      "start": -1550,
+      "end": -1150,
+      "dominant_ethnicity": "semitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "egyptian_native",
+          "presence": "garrison/administrative"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "dominant population",
+          "note": "Canaanite majority; Egyptian governors"
+        }
+      ]
+    },
+    {
+      "regime": "neo_assyrian_empire",
+      "start": -911,
+      "end": -609,
+      "dominant_ethnicity": "semitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "assyrian_eth",
+          "presence": "ruling/garrison"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "dominant",
+          "note": "Phoenicians, Aramaeans, Israelites; mass deportations reshuffled populations"
+        },
+        {
+          "ethnicity": "hebrew_eth",
+          "presence": "significant — then exiled",
+          "note": "Northern Kingdom of Israel destroyed 722 BC; population deported"
+        }
+      ]
+    },
+    {
+      "regime": "neo_babylonian",
+      "start": -612,
+      "end": -539,
+      "dominant_ethnicity": "semitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "babylonian_eth",
+          "presence": "ruling"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "dominant"
+        },
+        {
+          "ethnicity": "hebrew_eth",
+          "presence": "minority — then exiled to Babylon 586 BC"
+        }
+      ]
+    },
+    {
+      "regime": "achaemenid_empire",
+      "start": -539,
+      "end": -332,
+      "dominant_ethnicity": "semitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "persian",
+          "presence": "ruling/garrison"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "dominant",
+          "note": "Phoenicians, Aramaeans"
+        },
+        {
+          "ethnicity": "hebrew_eth",
+          "presence": "restored minority",
+          "note": "Cyrus Edict 538 BC allowed Jewish return to Jerusalem"
+        }
+      ]
+    },
+    {
+      "regime": "macedonian_empire",
+      "start": -332,
+      "end": -301,
+      "dominant_ethnicity": "semitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "macedonian",
+          "presence": "ruling/garrison"
+        },
+        {
+          "ethnicity": "hellenic",
+          "presence": "urban significant"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "rural majority"
+        }
+      ]
+    },
+    {
+      "regime": "seleucid_empire",
+      "start": -301,
+      "end": -141,
+      "dominant_ethnicity": "semitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "macedonian",
+          "presence": "ruling class"
+        },
+        {
+          "ethnicity": "hellenic",
+          "presence": "urban significant",
+          "note": "Greek cities (Antioch, Seleucia)"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "rural majority"
+        },
+        {
+          "ethnicity": "hebrew_eth",
+          "presence": "significant",
+          "note": "Maccabean revolt 167 BC against Hellenization"
+        }
+      ]
+    },
+    {
+      "regime": "roman_empire",
+      "start": -64,
+      "end": 395,
+      "dominant_ethnicity": "semitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "latin",
+          "presence": "ruling/administrative"
+        },
+        {
+          "ethnicity": "hellenic",
+          "presence": "urban significant"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "dominant population",
+          "note": "Aramaic-speaking majority; Jewish population until 135 AD dispersal"
+        },
+        {
+          "ethnicity": "hebrew_eth",
+          "presence": "minority — then diaspora",
+          "note": "Two revolts, 70 AD and 135 AD; Jerusalem destroyed, Jews expelled"
+        }
+      ]
+    },
+    {
+      "regime": "byzantine_empire",
+      "start": 395,
+      "end": 636,
+      "dominant_ethnicity": "semitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "hellenic",
+          "presence": "ruling/urban"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "dominant population",
+          "note": "Syriac-speaking majority; strong Miaphysite/Nestorian Christianity"
+        }
+      ]
+    },
+    {
+      "regime": "rashidun_caliphate",
+      "start": 636,
+      "end": 661,
+      "dominant_ethnicity": "semitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "semitic",
+          "presence": "ruling + gradual dominant",
+          "note": "Arab conquest; local Aramaeans and Arabs merged over generations"
+        }
+      ]
+    },
+    {
+      "regime": "umayyad_caliphate",
+      "start": 661,
+      "end": 750,
+      "dominant_ethnicity": "semitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "semitic",
+          "presence": "dominant",
+          "note": "Damascus-centered caliphate; Arab identity dominant"
+        },
+        {
+          "ethnicity": "hellenic",
+          "presence": "trace/Christian minority"
+        }
+      ]
+    },
+    {
+      "regime": "abbasid_caliphate",
+      "start": 750,
+      "end": 969,
+      "dominant_ethnicity": "semitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "semitic",
+          "presence": "dominant"
+        },
+        {
+          "ethnicity": "persian",
+          "presence": "administrative minority"
+        }
+      ]
+    },
+    {
+      "regime": "ottoman_empire",
+      "start": 1516,
+      "end": 1918,
+      "dominant_ethnicity": "semitic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling/administrative"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "dominant population",
+          "note": "Arab majority; Ottoman Syria and Palestine"
+        },
+        {
+          "ethnicity": "hebrew_eth",
+          "presence": "small urban minority",
+          "note": "Jewish communities in Jerusalem, Safed, Hebron, Tiberias"
+        }
+      ]
+    }
+  ]
+}

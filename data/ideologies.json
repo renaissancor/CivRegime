@@ -1,0 +1,73 @@
+[
+
+  // ── GOVERNMENT FORMS ─────────────────────────────────────────────────────────
+  { "id": "tribal_confederation",   "name": "Tribal Confederation",
+    "note": "Loose alliance of tribes under a chief or council; no fixed capital or bureaucracy" },
+  { "id": "city_state",             "name": "City-State",
+    "note": "Independent sovereign city and its surrounding territory; Sumerian, Phoenician, Greek model" },
+  { "id": "oligarchic_republic",    "name": "Oligarchic Republic",
+    "note": "Governed by a council of elites (merchant, priestly, or aristocratic); Phoenician city-states, Roman Republic" },
+
+  { "id": "monarchy",               "name": "Monarchy",              "parent": null },
+  { "id": "divine_monarchy",        "name": "Divine Monarchy",        "parent": "monarchy",
+    "note": "Ruler is literally or symbolically a god or god's representative; Pharaonic Egypt, Mesopotamian god-kings" },
+  { "id": "feudal_monarchy",        "name": "Feudal Monarchy",        "parent": "monarchy",
+    "note": "Power distributed among hereditary lords who owe military service to the crown" },
+  { "id": "absolute_monarchy",      "name": "Absolute Monarchy",      "parent": "monarchy",
+    "note": "Centralized power in the monarch; law derives from the king's will" },
+  { "id": "constitutional_monarchy","name": "Constitutional Monarchy", "parent": "monarchy",
+    "note": "Monarch's power limited by a constitution or parliament" },
+
+  { "id": "khaganate",              "name": "Khaganate",              "parent": "monarchy",
+    "note": "Nomadic steppe empire; the Khagan holds supreme authority but legitimacy depends on military success and tribal support; Turkic and Mongolic model" },
+  { "id": "khanate",                "name": "Khanate",                "parent": "khaganate",
+    "note": "A sub-unit or successor fragment of a Khaganate, ruled by a Khan" },
+
+  { "id": "imperial_monarchy",      "name": "Imperial Monarchy",      "parent": "monarchy",
+    "note": "Multi-ethnic empire under a single emperor; Achaemenid, Roman, Macedonian model" },
+  { "id": "chinese_imperial",       "name": "Chinese Imperial Bureaucracy", "parent": "imperial_monarchy",
+    "note": "Emperor as Son of Heaven; governed through a Confucian meritocratic civil service (mandarin exam system); defines Han, Tang, Song, Ming, Qing" },
+  { "id": "dual_administration",    "name": "Dual Administration System", "parent": "imperial_monarchy",
+    "note": "Two parallel administrative structures — one for the ruling ethnicity (nomadic customs), one for the subject population (sedentary laws); Liao Dynasty model" },
+
+  { "id": "theocracy",              "name": "Theocracy",              "parent": "monarchy",
+    "note": "Religious law and authority is supreme; ruler derives legitimacy from religious role" },
+  { "id": "caliphate",              "name": "Caliphate",              "parent": "theocracy",
+    "note": "Islamic state where the Caliph is both political and religious successor to Muhammad; Rashidun, Umayyad, Abbasid, Ottoman (from 1517)" },
+  { "id": "sultanate",              "name": "Sultanate",              "parent": "theocracy",
+    "note": "Islamic state where the Sultan holds military/political power under nominal Abbasid religious authority; Seljuk, Delhi, Mamluk" },
+  { "id": "imamate",                "name": "Imamate / Shia Theocracy","parent": "theocracy",
+    "note": "Shia political model; the Imam (descendant of Ali) is the legitimate ruler; Fatimid, Safavid" },
+  { "id": "caesaropapism",          "name": "Caesaropapism",          "parent": "theocracy",
+    "note": "Emperor holds supreme authority over both state AND church; Byzantine model — emperor appoints patriarch" },
+
+  { "id": "republic",               "name": "Republic",               "parent": null },
+  { "id": "aristocratic_republic",  "name": "Aristocratic Republic",  "parent": "republic",
+    "note": "Rule by a noble/senatorial class; Roman Republic" },
+  { "id": "democratic_republic",    "name": "Democratic Republic",    "parent": "republic" },
+
+  { "id": "nation_state",           "name": "Nation-State",           "parent": null,
+    "note": "Modern concept: political borders aligned with ethnic/national identity; post-1648 Westphalian model" },
+  { "id": "communist_state",        "name": "Communist State",        "parent": null },
+
+  // ── STATE PHILOSOPHIES ────────────────────────────────────────────────────────
+  // These are the intellectual/philosophical frameworks that underpin governance,
+  // distinct from (but often intertwined with) religion and government form.
+
+  { "id": "legalism_phil",          "name": "Legalism",
+    "note": "Qin China: state power enforced through strict, impersonal law; merit over birth; brutal efficiency. Enabled unification but unsustainable long-term" },
+  { "id": "confucian_statecraft",   "name": "Confucian Statecraft",
+    "note": "Governance through moral example, ritual, and a meritocratic bureaucracy; the ruler as moral exemplar; stability through hierarchy and filial piety" },
+  { "id": "zoroastrian_statecraft", "name": "Zoroastrian Statecraft",
+    "note": "Sassanid model: king as guardian of cosmic order (asha); divine right through Ahura Mazda; strong priestly class (Magi)" },
+  { "id": "hellenistic_philosophy", "name": "Hellenistic Philosophy",
+    "note": "Greek philosophical tradition (Plato, Aristotle) as basis for governance; reason, civic virtue, and natural law; influenced Roman and Byzantine political thought" },
+  { "id": "dharmic_kingship",       "name": "Dharmic Kingship",
+    "note": "Hindu/Buddhist concept of the righteous ruler (dharmaraja or chakravartin); king upholds cosmic order (dharma); Maurya and Gupta model" },
+  { "id": "islamic_sharia_statecraft","name": "Sharia-Based Governance",
+    "note": "Islamic law (Sharia) as the constitution; qadis (judges) interpret law; all legislation subordinate to Quran and Hadith" },
+  { "id": "persianate_bureaucracy", "name": "Persianate Bureaucracy",
+    "note": "Persian administrative tradition of rational bureaucracy, tax collection, and court culture; survived through Seljuk, Mongol, Timurid, Mughal regimes as the actual machinery of governance even when rulers were non-Persian" },
+  { "id": "nomadic_meritocracy",    "name": "Steppe Meritocracy",
+    "note": "Mongol and Turkic model: leadership legitimized through military prowess and conquest; the Great Khan elected by a kurultai (assembly of chiefs); merit and loyalty over birth" }
+]

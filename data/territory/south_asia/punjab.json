@@ -1,0 +1,99 @@
+{
+  "id": "punjab",
+  "name": "Punjab",
+  "description": "Crossroads between Iran and India",
+  "region": "south_asia",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -1500,
+      "end": -600,
+      "note": "Vedic civilization — earliest texts of the Rigveda composed here; core of Aryan settlement",
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "punjabi_eth",
+          "presence": "emerging; proto-Punjab identity"
+        }
+      ]
+    },
+    {
+      "regime": "achaemenid_empire",
+      "start": -518,
+      "end": -326,
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "persian",
+          "presence": "ruling/administrative"
+        },
+        {
+          "ethnicity": "punjabi_eth",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "maurya_empire",
+      "start": -321,
+      "end": -180,
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "ghaznavid_empire",
+      "start": 1000,
+      "end": 1187,
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling; Lahore was Ghaznavid capital"
+        },
+        {
+          "ethnicity": "punjabi_eth",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "mughal_empire",
+      "start": 1526,
+      "end": 1799,
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling dynasty"
+        },
+        {
+          "ethnicity": "punjabi_eth",
+          "presence": "dominant; both Hindu and Muslim Punjabis"
+        },
+        {
+          "ethnicity": "punjabi_eth",
+          "presence": "Sikh identity emerging from 15th century"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1799,
+      "end": 1849,
+      "note": "Sikh Empire (Ranjit Singh) — unique Sikh theocratic state; the last independent Punjab",
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "punjabi_eth",
+          "presence": "dominant; Sikh ruling class"
+        }
+      ]
+    }
+  ]
+}

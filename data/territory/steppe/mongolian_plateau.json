@@ -1,0 +1,120 @@
+{
+  "id": "mongolian_plateau",
+  "name": "Mongolian Plateau",
+  "description": "High plateau of Mongolia, heartland of successive steppe empires",
+  "region": "steppe",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -209,
+      "end": 93,
+      "note": "Xiongnu Empire — first nomadic empire from the Mongolian steppe",
+      "dominant_ethnicity": "steppe_nomadic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 93,
+      "end": 552,
+      "note": "Xianbei → Rouran — successive nomadic confederations; Xianbei later founded Northern Wei in China",
+      "dominant_ethnicity": "steppe_nomadic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 552,
+      "end": 745,
+      "note": "Göktürk Khaganate — Mongolian plateau as core of Turkic empire",
+      "dominant_ethnicity": "turkic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "dominant ruling class"
+        },
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "proto-Mongolic substrate"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 745,
+      "end": 840,
+      "note": "Uyghur Khaganate — replaced Göktürks on the plateau",
+      "dominant_ethnicity": "turkic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 916,
+      "end": 1125,
+      "note": "Khitan Liao Dynasty — Mongolic-speaking confederation; also ruled northern China",
+      "dominant_ethnicity": "steppe_nomadic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "dominant (Khitan = Mongolic proto-group)"
+        }
+      ]
+    },
+    {
+      "regime": "mongol_empire",
+      "start": 1206,
+      "end": 1368,
+      "dominant_ethnicity": "mongol",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "dominant; heartland of the world's largest contiguous empire"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1368,
+      "end": 1635,
+      "note": "Northern Yuan / various Mongol khanates — post-imperial fragmentation",
+      "dominant_ethnicity": "mongol",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "qing_dynasty",
+      "start": 1635,
+      "end": 1912,
+      "dominant_ethnicity": "mongol",
+      "ethnic_composition": [
+        {
+          "ethnicity": "jurchen",
+          "presence": "ruling suzerain (Manchu-Mongol alliance)"
+        },
+        {
+          "ethnicity": "mongol",
+          "presence": "dominant population",
+          "note": "Qing used marriage alliances and Buddhism to bind Mongols; Inner Mongolia settled by Han later"
+        }
+      ]
+    }
+  ]
+}

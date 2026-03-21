@@ -1,0 +1,201 @@
+[
+  {
+    "id": "rashidun_caliphate",
+    "name": "Rashidun Caliphate",
+    "ruling_ethnicity": "semitic",
+    "territories": [
+      "arabia",
+      "levant",
+      "mesopotamia",
+      "egypt",
+      "iran_plateau"
+    ],
+    "start": 632,
+    "end": 661,
+    "cultural_language": "arabic",
+    "ideology": {
+      "religion": "sunni",
+      "government": "caliphate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "abu_bakr",
+        "name": "Abu Bakr",
+        "role": "founder",
+        "years": "573/634",
+        "significance": "First Caliph; held the Muslim community together after Muhammad death"
+      },
+      {
+        "id": "umar_ibn_khattab",
+        "name": "Umar ibn al-Khattab",
+        "role": "ruler",
+        "years": "584/644",
+        "significance": "Conquered Persia, Syria, and Egypt in a decade; established Islamic governance foundations"
+      },
+      {
+        "id": "khalid_ibn_walid",
+        "name": "Khalid ibn al-Walid",
+        "role": "general",
+        "years": "585/642",
+        "significance": "Undefeated general; called the Sword of Allah"
+      }
+    ]
+  },
+  {
+    "id": "umayyad_caliphate",
+    "name": "Umayyad Caliphate",
+    "ruling_ethnicity": "semitic",
+    "territories": [
+      "levant",
+      "mesopotamia",
+      "egypt",
+      "iran_plateau",
+      "north_africa",
+      "iberia",
+      "transoxiana"
+    ],
+    "start": 661,
+    "end": 750,
+    "note": "Aggressively Arab-supremacist; non-Arab Muslims (mawali) had second-class status — this fueled the Abbasid revolution",
+    "cultural_language": "arabic",
+    "ideology": {
+      "religion": "sunni",
+      "government": "caliphate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "muawiya_i",
+        "name": "Muawiya I",
+        "role": "founder",
+        "years": "602/680",
+        "significance": "Founded the Umayyad dynasty; shifted the caliphate from elective to hereditary"
+      },
+      {
+        "id": "tariq_ibn_ziyad",
+        "name": "Tariq ibn Ziyad",
+        "role": "general",
+        "years": "670/720",
+        "significance": "Conquered Visigothic Spain (711); Gibraltar is named after him (Jabal Tariq)"
+      }
+    ]
+  },
+  {
+    "id": "abbasid_caliphate",
+    "name": "Abbasid Caliphate",
+    "ruling_ethnicity": "semitic",
+    "territories": [
+      "mesopotamia",
+      "levant",
+      "iran_plateau",
+      "egypt"
+    ],
+    "start": 750,
+    "end": 1258,
+    "note": "Ruling dynasty remained Arab (Qurayshi lineage); Arabic as the language of religion and law. Persian bureaucrats (Barmakid viziers) dominated administration creating a Persianate court overlay — but the legitimacy anchor was Arab/Islamic, not Persian",
+    "cultural_language": "arabic",
+    "ideology": {
+      "religion": "sunni_hanafi",
+      "government": "caliphate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "al_mansur",
+        "name": "Al-Mansur",
+        "role": "founder",
+        "years": "714/775",
+        "significance": "Built Baghdad; the city became the largest in the world"
+      },
+      {
+        "id": "harun_al_rashid",
+        "name": "Harun al-Rashid",
+        "role": "ruler",
+        "years": "763/809",
+        "significance": "The golden-age Caliph of the Thousand and One Nights; patron of the House of Wisdom"
+      }
+    ]
+  },
+  {
+    "id": "fatimid_caliphate",
+    "name": "Fatimid Caliphate",
+    "ruling_ethnicity": "semitic",
+    "territories": [
+      "egypt",
+      "levant",
+      "north_africa"
+    ],
+    "start": 909,
+    "end": 1171,
+    "cultural_language": "arabic",
+    "ideology": {
+      "religion": "shia_ismaili",
+      "government": "imamate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "al_muizz",
+        "name": "Al-Muizz li-Din Allah",
+        "role": "founder",
+        "years": "932/975",
+        "significance": "Founded Cairo; established Al-Azhar mosque and university"
+      }
+    ]
+  },
+  {
+    "id": "ayyubid_sultanate",
+    "name": "Ayyubid Sultanate",
+    "ruling_ethnicity": "kurdish",
+    "territories": [
+      "egypt",
+      "levant"
+    ],
+    "start": 1171,
+    "end": 1260,
+    "note": "Saladin was Kurdish but the court operated fully in Arabic-Islamic culture",
+    "cultural_language": "arabic",
+    "ideology": {
+      "religion": "sunni_shafi",
+      "government": "sultanate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "saladin",
+        "name": "Saladin (Salah ad-Din)",
+        "role": "founder",
+        "years": "1137/1193",
+        "significance": "Recaptured Jerusalem from the Crusaders (1187); defining figure of Islamic resistance to the Crusades"
+      }
+    ]
+  },
+  {
+    "id": "mamluk_sultanate",
+    "name": "Mamluk Sultanate",
+    "ruling_ethnicity": "turkic",
+    "territories": [
+      "egypt",
+      "levant"
+    ],
+    "start": 1250,
+    "end": 1517,
+    "note": "Turkic slave-soldier rulers but court and administration were Arabic-Islamic",
+    "cultural_language": "arabic",
+    "ideology": {
+      "religion": "sunni_shafi",
+      "government": "sultanate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "baybars",
+        "name": "Baybars",
+        "role": "founder",
+        "years": "1223/1277",
+        "significance": "Defeated the Mongols at Ain Jalut (1260); expelled the Crusaders"
+      }
+    ]
+  }
+]

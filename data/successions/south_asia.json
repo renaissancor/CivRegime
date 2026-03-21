@@ -1,0 +1,33 @@
+[
+  {
+    "from": "delhi_sultanate",
+    "to": "mughal_empire",
+    "type": "C",
+    "shared_territories": [
+      "indus_valley",
+      "punjab",
+      "ganges_plain"
+    ],
+    "rationale": "Mughals conquered the Delhi Sultanate. Same Indian territories; both Turkic but different dynasties."
+  },
+  {
+    "from": "maurya_empire",
+    "to": "gupta_empire",
+    "type": "A",
+    "shared_territories": [
+      "ganges_plain",
+      "indus_valley"
+    ],
+    "rationale": "Gupta reunified the Indian subcontinent on the same north Indian territory. Same Indo-Aryan ethnicity."
+  },
+  {
+    "from": "gupta_empire",
+    "to": "delhi_sultanate",
+    "type": "C",
+    "shared_territories": [
+      "ganges_plain",
+      "indus_valley"
+    ],
+    "rationale": "Turkic Muslim invaders established the Delhi Sultanate over the former Gupta heartland. Same land, Turkic ethnicity."
+  }
+]

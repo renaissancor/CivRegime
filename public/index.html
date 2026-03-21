@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CivRegime Graph</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      display: flex;
+      height: 100vh;
+      background: #0f1117;
+      color: #e2e8f0;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 13px;
+      overflow: hidden;
+    }
+
+    /* ── Sidebar ── */
+    #sidebar {
+      width: 240px;
+      flex-shrink: 0;
+      background: #161b27;
+      border-right: 1px solid #2d3748;
+      display: flex;
+      flex-direction: column;
+      padding: 16px;
+      gap: 12px;
+      overflow-y: auto;
+    }
+
+    #sidebar h1 {
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: #f6ad55;
+      text-transform: uppercase;
+    }
+
+    #sidebar h1 span { color: #718096; font-weight: 400; }
+
+    .filter-group { display: flex; flex-direction: column; gap: 6px; }
+    .filter-group label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: #718096; }
+
+    select {
+      background: #1e2535;
+      border: 1px solid #2d3748;
+      color: #e2e8f0;
+      padding: 6px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      cursor: pointer;
+      appearance: none;
+    }
+    select:focus { outline: none; border-color: #f6ad55; }
+
+    .legend { display: flex; flex-direction: column; gap: 5px; }
+    .legend-item { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #a0aec0; }
+    .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+    .legend-line {
+      width: 24px; height: 2px; flex-shrink: 0;
+      position: relative; display: flex; align-items: center;
+    }
+    .legend-line.dashed { background: repeating-linear-gradient(90deg, #f87171 0 4px, transparent 4px 7px); }
+
+    #regime-list {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      overflow-y: auto;
+    }
+    .regime-item {
+      background: #1e2535;
+      border: 1px solid #2d3748;
+      border-radius: 4px;
+      padding: 6px 8px;
+      cursor: pointer;
+      transition: border-color 0.15s;
+    }
+    .regime-item:hover { border-color: #f6ad55; }
+    .regime-item strong { display: block; font-size: 12px; color: #e2e8f0; }
+    .regime-item span { font-size: 10px; color: #718096; }
+
+    .section-title {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #718096;
+      padding-top: 4px;
+      border-top: 1px solid #2d3748;
+    }
+
+    /* ── Graph ── */
+    #graph {
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+    }
+    #graph svg { width: 100%; height: 100%; }
+
+    .node circle {
+      cursor: pointer;
+      transition: stroke-width 0.15s;
+    }
+    .node:hover circle { stroke-width: 3px; }
+    .node text {
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .link { transition: opacity 0.3s; }
+
+    /* ── Detail Panel ── */
+    #detail-panel {
+      width: 0;
+      overflow: hidden;
+      background: #161b27;
+      border-left: 1px solid #2d3748;
+      transition: width 0.25s ease;
+      flex-shrink: 0;
+    }
+    #detail-panel.open { width: 300px; overflow-y: auto; }
+
+    .detail-inner { padding: 16px; display: flex; flex-direction: column; gap: 12px; min-width: 300px; }
+
+    .detail-inner h2 { font-size: 15px; color: #f6ad55; line-height: 1.3; }
+    .detail-inner .dates { font-size: 11px; color: #718096; }
+
+    .detail-section { display: flex; flex-direction: column; gap: 6px; }
+    .detail-section > .section-title { margin-bottom: 2px; }
+
+    .kv { display: grid; grid-template-columns: 100px 1fr; gap: 4px 8px; }
+    .kv label { font-size: 11px; color: #718096; align-self: start; padding-top: 1px; }
+    .kv span { font-size: 12px; color: #e2e8f0; }
+
+    .figure-item { font-size: 12px; line-height: 1.5; }
+    .figure-item .role {
+      display: inline-block;
+      font-size: 10px;
+      padding: 1px 5px;
+      border-radius: 3px;
+      background: #2d3748;
+      color: #a0aec0;
+      margin-left: 4px;
+      vertical-align: middle;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background: none;
+      border: none;
+      color: #718096;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 4px;
+      line-height: 1;
+    }
+    .close-btn:hover { color: #e2e8f0; }
+
+    #detail-panel { position: relative; }
+
+    .tag {
+      display: inline-block;
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 3px;
+      background: #2d3748;
+      color: #a0aec0;
+      margin: 2px 2px 2px 0;
+    }
+
+    .note-text {
+      font-size: 11px;
+      color: #a0aec0;
+      line-height: 1.5;
+      font-style: italic;
+      border-left: 2px solid #2d3748;
+      padding-left: 8px;
+    }
+
+    /* Tooltip */
+    #tooltip {
+      position: fixed;
+      background: #1e2535;
+      border: 1px solid #2d3748;
+      border-radius: 4px;
+      padding: 8px 10px;
+      font-size: 11px;
+      color: #e2e8f0;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.15s;
+      z-index: 100;
+      max-width: 220px;
+      line-height: 1.5;
+    }
+    #tooltip.visible { opacity: 1; }
+  </style>
+</head>
+<body>
+
+<div id="sidebar">
+  <h1>CivRegime <span>Graph</span></h1>
+
+  <div class="filter-group">
+    <label>Filter by</label>
+    <select id="filter-type">
+      <option value="all">All Regimes</option>
+      <option value="ethnicity">Ruling Ethnicity</option>
+      <option value="territory">Territory</option>
+      <option value="religion">Religion</option>
+    </select>
+  </div>
+
+  <div class="filter-group" id="filter-value-group" style="display:none">
+    <label id="filter-value-label">Value</label>
+    <select id="filter-value">
+      <option value="">— select —</option>
+    </select>
+  </div>
+
+  <div class="section-title">Succession Types</div>
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:#4ade80"></div> Type A — Direct Lineage</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#86efac"></div> Type A- — Ideology Gap</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#60a5fa"></div> Type B — Cultural Migration</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#fb923c"></div> Type C — Locus Inheritance</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#f87171"></div><div class="legend-line dashed"></div> Type D — Ahistorical</div>
+  </div>
+
+  <div class="section-title" id="list-title" style="display:none">Matching Regimes</div>
+  <div id="regime-list"></div>
+</div>
+
+<div id="graph"></div>
+
+<div id="detail-panel">
+  <div class="detail-inner" id="detail-inner"></div>
+</div>
+
+<div id="tooltip"></div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

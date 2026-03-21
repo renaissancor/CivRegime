@@ -1,0 +1,135 @@
+{
+  "id": "manchuria",
+  "name": "Manchuria",
+  "description": "Northeast China, homeland of Jurchen and Manchu peoples",
+  "region": "east_asia",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -200,
+      "end": 300,
+      "note": "Donghu → Wuhuan/Xianbei — proto-Mongolic tribal confederations",
+      "dominant_ethnicity": "jurchen",
+      "ethnic_composition": [
+        {
+          "ethnicity": "steppe_nomadic",
+          "presence": "dominant (Tungusic/proto-Mongolic tribes)"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 37,
+      "end": 668,
+      "note": "Goguryeo — Korean kingdom that controlled northern Manchuria and Korean peninsula",
+      "dominant_ethnicity": "jurchen",
+      "ethnic_composition": [
+        {
+          "ethnicity": "korean_eth",
+          "presence": "ruling class (Goguryeo)"
+        },
+        {
+          "ethnicity": "jurchen",
+          "presence": "Tungusic tribal majority"
+        }
+      ]
+    },
+    {
+      "regime": "tang_dynasty",
+      "start": 668,
+      "end": 926,
+      "dominant_ethnicity": "jurchen",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "administrative"
+        },
+        {
+          "ethnicity": "jurchen",
+          "presence": "dominant population"
+        }
+      ]
+    },
+    {
+      "regime": "liao_dynasty",
+      "start": 907,
+      "end": 1125,
+      "dominant_ethnicity": "jurchen",
+      "ethnic_composition": [
+        {
+          "ethnicity": "khitan",
+          "presence": "ruling (Khitan = Mongolic)"
+        },
+        {
+          "ethnicity": "jurchen",
+          "presence": "significant subject minority in northeast Manchuria"
+        }
+      ]
+    },
+    {
+      "regime": "jin_dynasty_jurchen",
+      "start": 1115,
+      "end": 1234,
+      "dominant_ethnicity": "jurchen",
+      "ethnic_composition": [
+        {
+          "ethnicity": "jurchen",
+          "presence": "ruling; homeland of the Jurchen people"
+        },
+        {
+          "ethnicity": "han",
+          "presence": "significant (southward expansion into China)"
+        }
+      ]
+    },
+    {
+      "regime": "yuan_dynasty",
+      "start": 1234,
+      "end": 1368,
+      "dominant_ethnicity": "jurchen",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "ruling; Manchuria part of Mongol Empire"
+        },
+        {
+          "ethnicity": "jurchen",
+          "presence": "dominant population"
+        }
+      ]
+    },
+    {
+      "regime": "ming_dynasty",
+      "start": 1368,
+      "end": 1616,
+      "dominant_ethnicity": "jurchen",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "administrative/garrison (nominal control only)"
+        },
+        {
+          "ethnicity": "jurchen",
+          "presence": "dominant; Jurchen tribes reorganizing"
+        }
+      ]
+    },
+    {
+      "regime": "qing_dynasty",
+      "start": 1616,
+      "end": 1912,
+      "dominant_ethnicity": "jurchen",
+      "ethnic_composition": [
+        {
+          "ethnicity": "jurchen",
+          "presence": "ethnic homeland; 'Manchuria' preserved as Manchu ancestral reserve"
+        },
+        {
+          "ethnicity": "han",
+          "presence": "increasing — mass migration of Han settlers from 19th century"
+        }
+      ]
+    }
+  ]
+}

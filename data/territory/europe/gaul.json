@@ -1,0 +1,93 @@
+{
+  "id": "gaul",
+  "name": "Gaul / Francia",
+  "description": "Modern-day France and Belgium",
+  "region": "europe",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -600,
+      "end": -51,
+      "note": "Celtic Gaul — Gallic tribal confederations; Greek colony at Massalia (Marseille)",
+      "dominant_ethnicity": "celtic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "celtic",
+          "presence": "dominant"
+        },
+        {
+          "ethnicity": "hellenic",
+          "presence": "coastal colony (Massalia)"
+        }
+      ]
+    },
+    {
+      "regime": "roman_empire",
+      "start": -51,
+      "end": 406,
+      "dominant_ethnicity": "celtic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "latin",
+          "presence": "ruling/administrative; Gaul heavily Romanized (Gallo-Roman)"
+        },
+        {
+          "ethnicity": "celtic",
+          "presence": "assimilating; Celtic language replaced by Latin within 2-3 centuries"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 406,
+      "end": 486,
+      "note": "Frankish tribal domination begins; Visigoths and Burgundians also hold portions",
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "germanic",
+          "presence": "ruling class in multiple kingdoms (Franks, Visigoths, Burgundians)"
+        },
+        {
+          "ethnicity": "latin",
+          "presence": "dominant Gallo-Roman population"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 486,
+      "end": 843,
+      "note": "Frankish Kingdom → Carolingian Empire — Clovis to Charlemagne",
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "germanic",
+          "presence": "ruling class (Franks); Frankish identity mixed into Gallo-Roman"
+        },
+        {
+          "ethnicity": "latin",
+          "presence": "dominant; Old French emerging from Latin"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 843,
+      "end": 987,
+      "note": "West Frankish Kingdom → Capetian France begins; Viking settlements in Normandy",
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "latin",
+          "presence": "dominant (proto-French)"
+        },
+        {
+          "ethnicity": "germanic",
+          "presence": "Norse (Normans in Normandy; assimilated to French within a century)"
+        }
+      ]
+    }
+  ]
+}

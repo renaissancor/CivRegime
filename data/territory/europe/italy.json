@@ -1,0 +1,144 @@
+{
+  "id": "italy",
+  "name": "Italian Peninsula",
+  "description": "Modern-day Italy",
+  "region": "europe",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -800,
+      "end": -264,
+      "note": "Italic tribes, Etruscans, Greek colonies; Rome rises from city-state to Italian hegemon",
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "latin",
+          "presence": "dominant (central Italy)"
+        },
+        {
+          "ethnicity": "hellenic",
+          "presence": "significant south (Magna Graecia)"
+        }
+      ]
+    },
+    {
+      "regime": "roman_empire",
+      "start": -264,
+      "end": 476,
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "latin",
+          "presence": "dominant"
+        },
+        {
+          "ethnicity": "germanic",
+          "presence": "increasing military presence",
+          "note": "Germanic foederati increasingly filled the Roman army from 3rd century"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 476,
+      "end": 493,
+      "note": "Odoacer's Kingdom — first Germanic king of Italy after deposing last Western Roman emperor",
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "germanic",
+          "presence": "ruling class (Scirian/Herulian)"
+        },
+        {
+          "ethnicity": "latin",
+          "presence": "vast majority"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 493,
+      "end": 553,
+      "note": "Ostrogothic Kingdom — Theodoric's sophisticated Germanic-Roman synthesis state",
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "germanic",
+          "presence": "ruling class (Ostrogoths ~10% of population)"
+        },
+        {
+          "ethnicity": "latin",
+          "presence": "dominant majority; Roman institutions maintained"
+        }
+      ]
+    },
+    {
+      "regime": "byzantine_empire",
+      "start": 553,
+      "end": 568,
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "hellenic",
+          "presence": "ruling/administrative (Exarchate of Ravenna)"
+        },
+        {
+          "ethnicity": "latin",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 568,
+      "end": 774,
+      "note": "Lombard Kingdom — Germanic Lombards controlled most of Italy; Byzantine Exarchate and Papal Rome remained",
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "germanic",
+          "presence": "ruling class (Lombards)"
+        },
+        {
+          "ethnicity": "latin",
+          "presence": "dominant majority; Lombards rapidly Latinized"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 774,
+      "end": 962,
+      "note": "Carolingian → post-Carolingian fragmentation; Papal states, local kingdoms",
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "latin",
+          "presence": "dominant; consolidating into what becomes Italian"
+        },
+        {
+          "ethnicity": "hellenic",
+          "presence": "minority south (Byzantine remnants; Sicily)"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 962,
+      "end": 1454,
+      "note": "Holy Roman Empire (nominal Italian kingdom) + independent city-states: Venice, Florence, Milan, Genoa",
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "germanic",
+          "presence": "administrative (HRE)"
+        },
+        {
+          "ethnicity": "latin",
+          "presence": "dominant; Italian identity forming through city-state culture"
+        }
+      ]
+    }
+  ]
+}

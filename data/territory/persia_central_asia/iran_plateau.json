@@ -1,0 +1,143 @@
+{
+  "id": "iran_plateau",
+  "name": "Iranian Plateau",
+  "description": "Core Persian lands, modern-day Iran",
+  "region": "persia_central_asia",
+  "geo": null,
+  "periods": [
+    {
+      "regime": "median_kingdom",
+      "start": -678,
+      "end": -550,
+      "dominant_ethnicity": "median",
+      "ethnic_composition": [
+        {
+          "ethnicity": "median",
+          "presence": "dominant"
+        },
+        {
+          "ethnicity": "persian",
+          "presence": "significant",
+          "note": "Persians (Achaemenid clan) in Fars region"
+        }
+      ]
+    },
+    {
+      "regime": "achaemenid_empire",
+      "start": -550,
+      "end": -330,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "persian",
+          "presence": "dominant"
+        },
+        {
+          "ethnicity": "median",
+          "presence": "assimilating into Persian"
+        }
+      ]
+    },
+    {
+      "regime": "sassanid_empire",
+      "start": 224,
+      "end": 651,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "persian",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "abbasid_caliphate",
+      "start": 750,
+      "end": 1037,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "persian",
+          "presence": "dominant population",
+          "note": "Persian population remained; gradual Islamization complete; language survived unlike Egypt"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "administrative/ruling"
+        }
+      ]
+    },
+    {
+      "regime": "seljuk_empire",
+      "start": 1037,
+      "end": 1194,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling/military"
+        },
+        {
+          "ethnicity": "persian",
+          "presence": "dominant population + bureaucracy",
+          "note": "Persian cultural identity survived Turkic conquest — the Persianate model"
+        }
+      ]
+    },
+    {
+      "regime": "ilkhanate",
+      "start": 1256,
+      "end": 1335,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "ruling/military"
+        },
+        {
+          "ethnicity": "persian",
+          "presence": "dominant population + administration"
+        },
+        {
+          "ethnicity": "turkic",
+          "presence": "significant military",
+          "note": "Turkic soldiers in Mongol armies"
+        }
+      ]
+    },
+    {
+      "regime": "timurid_empire",
+      "start": 1370,
+      "end": 1507,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "turkic",
+          "presence": "ruling class"
+        },
+        {
+          "ethnicity": "persian",
+          "presence": "dominant population + court culture"
+        }
+      ]
+    },
+    {
+      "regime": "safavid_empire",
+      "start": 1501,
+      "end": 1736,
+      "dominant_ethnicity": "persian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "persian",
+          "presence": "dominant",
+          "note": "Shia Islam now defines Persian identity; Shia = Persian in a way Sunni never was"
+        },
+        {
+          "ethnicity": "turkic",
+          "presence": "significant military",
+          "note": "Qizilbash Turkic tribes were the Safavid military backbone"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "macedonian_empire",
+    "name": "Macedonian Empire (Alexander)",
+    "ruling_ethnicity": "macedonian",
+    "territories": [
+      "anatolia",
+      "levant",
+      "egypt",
+      "mesopotamia",
+      "iran_plateau",
+      "khorasan",
+      "transoxiana"
+    ],
+    "start": -336,
+    "end": -323,
+    "cultural_language": "ancient_greek",
+    "ideology": {
+      "religion": "hellenic_paganism",
+      "government": "imperial_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "alexander_great",
+        "name": "Alexander the Great",
+        "role": "founder",
+        "years": "-356/-323",
+        "significance": "Conquered from Greece to India in 13 years; spread Hellenism across three continents"
+      },
+      {
+        "id": "aristotle",
+        "name": "Aristotle",
+        "role": "philosopher",
+        "years": "-384/-322",
+        "significance": "Alexander tutor; his philosophy became the framework of Hellenistic, Islamic, and Christian scholarship"
+      }
+    ]
+  },
+  {
+    "id": "seleucid_empire",
+    "name": "Seleucid Empire",
+    "ruling_ethnicity": "macedonian",
+    "territories": [
+      "anatolia",
+      "levant",
+      "mesopotamia",
+      "iran_plateau"
+    ],
+    "start": -312,
+    "end": -63,
+    "cultural_language": "koine_greek",
+    "ideology": {
+      "religion": "hellenic_paganism",
+      "government": "imperial_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "seleucus_i",
+        "name": "Seleucus I Nicator",
+        "role": "founder",
+        "years": "-358/-281",
+        "significance": "Founded dozens of Greek cities across Persia and Central Asia"
+      }
+    ]
+  },
+  {
+    "id": "roman_empire",
+    "name": "Roman Empire",
+    "ruling_ethnicity": "latin",
+    "territories": [
+      "italy",
+      "anatolia",
+      "levant",
+      "egypt",
+      "balkans",
+      "iberia",
+      "gaul",
+      "north_africa"
+    ],
+    "start": -27,
+    "end": 395,
+    "note": "Constantine I converted to Christianity in 312; by 380 Christianity was state religion — a major identity shift mid-dynasty",
+    "cultural_language": "latin",
+    "ideology": {
+      "religion": "roman_paganism",
+      "government": "imperial_monarchy"
+    },
+    "policies": [
+      {
+        "id": "edict_of_milan",
+        "name": "Edict of Milan — Christian Tolerance",
+        "start": 312,
+        "end": 380,
+        "description": "Constantine I granted tolerance to Christianity. Policy, not ideology — the empire remained officially pagan until Theodosius I."
+      },
+      {
+        "id": "state_christianity",
+        "name": "Christianity as State Religion",
+        "start": 380,
+        "end": 395,
+        "description": "Theodosius I made Christianity the only legal religion. Hardened from policy into ideology — the moment that made Byzantine identity possible."
+      }
+    ],
+    "figures": [
+      {
+        "id": "augustus",
+        "name": "Augustus (Octavian)",
+        "role": "founder",
+        "years": "-63/14",
+        "significance": "Created the imperial system; the Pax Romana began with him"
+      },
+      {
+        "id": "marcus_aurelius",
+        "name": "Marcus Aurelius",
+        "role": "ruler",
+        "years": "121/180",
+        "significance": "Philosopher-emperor; his Meditations is the definitive Stoic text"
+      },
+      {
+        "id": "constantine_i",
+        "name": "Constantine I",
+        "role": "reformer",
+        "years": "272/337",
+        "significance": "Legalized Christianity; founded Constantinople; the hinge between pagan Rome and Christian Byzantium"
+      }
+    ]
+  },
+  {
+    "id": "byzantine_empire",
+    "name": "Byzantine Empire",
+    "ruling_ethnicity": "hellenic",
+    "territories": [
+      "anatolia",
+      "balkans",
+      "levant"
+    ],
+    "start": 395,
+    "end": 1453,
+    "note": "Eastern Orthodox Christianity is inseparable from Byzantine identity; emperor as head of both church and state",
+    "cultural_language": "medieval_greek",
+    "ideology": {
+      "religion": "eastern_orthodox",
+      "government": "caesaropapism"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "justinian_i",
+        "name": "Justinian I",
+        "role": "ruler",
+        "years": "482/565",
+        "significance": "Reconquered the Western Mediterranean; codified Roman law (Corpus Juris Civilis)"
+      },
+      {
+        "id": "basil_ii",
+        "name": "Basil II (Bulgaroktonos)",
+        "role": "ruler",
+        "years": "958/1025",
+        "significance": "Expanded Byzantium to its greatest medieval extent"
+      },
+      {
+        "id": "constantine_xi",
+        "name": "Constantine XI Palaiologos",
+        "role": "last_ruler",
+        "years": "1404/1453",
+        "significance": "Died defending Constantinople in 1453; the last Roman emperor"
+      }
+    ]
+  }
+]

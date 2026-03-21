@@ -1,0 +1,101 @@
+{
+  "id": "iberia",
+  "name": "Iberian Peninsula",
+  "description": "Modern-day Spain and Portugal",
+  "region": "europe",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -800,
+      "end": -218,
+      "note": "Carthaginian and Iberian/Celtic indigenous; Phoenician and Greek coastal colonies",
+      "dominant_ethnicity": "iberian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "semitic",
+          "presence": "coastal (Carthaginian)"
+        },
+        {
+          "ethnicity": "iberian",
+          "presence": "dominant interior"
+        }
+      ]
+    },
+    {
+      "regime": "roman_empire",
+      "start": -218,
+      "end": 409,
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "latin",
+          "presence": "ruling; Iberia one of Rome's most thoroughly Latinized provinces"
+        },
+        {
+          "ethnicity": "iberian",
+          "presence": "assimilating into Latin"
+        },
+        {
+          "ethnicity": "basque",
+          "presence": "minority (never Latinized; Basque language survived)"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 418,
+      "end": 711,
+      "note": "Visigothic Kingdom — Germanic Visigoths; converted to Catholic Christianity 587 AD",
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "germanic",
+          "presence": "ruling class (Visigoths ~10%)"
+        },
+        {
+          "ethnicity": "latin",
+          "presence": "dominant majority (Hispano-Romans)"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 711,
+      "end": 1492,
+      "note": "Al-Andalus (Umayyad → taifa kingdoms → Almoravid/Almohad → Nasrid Granada) + Christian reconquista kingdoms (Castile, Aragon, Portugal) — coexisting and competing",
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "semitic",
+          "presence": "ruling (Arab/Berber in south)"
+        },
+        {
+          "ethnicity": "berber",
+          "presence": "significant military (most of the Muslim army was Berber)"
+        },
+        {
+          "ethnicity": "latin",
+          "presence": "majority throughout; Mozarabs (Christian under Muslim rule) in south; Christian kingdoms in north"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1479,
+      "end": 1700,
+      "note": "Kingdom of Spain (Habsburg) — unified Castile + Aragon; expulsion of Muslims and Jews 1492",
+      "dominant_ethnicity": "latin",
+      "ethnic_composition": [
+        {
+          "ethnicity": "latin",
+          "presence": "overwhelmingly dominant; Spanish Catholic identity consolidated"
+        },
+        {
+          "ethnicity": "semitic",
+          "presence": "expelled — Jews 1492, Muslims 1502-1614"
+        }
+      ]
+    }
+  ]
+}

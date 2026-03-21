@@ -1,0 +1,57 @@
+[
+  {
+    "from": "xiongnu",
+    "to": "goktürk_khaganate",
+    "type": "A",
+    "shared_territories": [
+      "mongolian_plateau",
+      "central_asian_steppe"
+    ],
+    "rationale": "Göktürks succeeded the Xiongnu on the same steppe. Shared Turkic ethnic heritage and territory."
+  },
+  {
+    "from": "goktürk_khaganate",
+    "to": "uyghur_khaganate",
+    "type": "A",
+    "shared_territories": [
+      "mongolian_plateau",
+      "central_asian_steppe"
+    ],
+    "rationale": "Uyghurs overthrew the Göktürks. Same Turkic ethnicity, same Mongolian steppe territory."
+  },
+  {
+    "from": "goktürk_khaganate",
+    "to": "khazar_khaganate",
+    "type": "B",
+    "shared_territories": [],
+    "rationale": "Khazars were a Turkic people who established themselves in the Pontic steppe. Same Turkic ethnicity, new western territory."
+  },
+  {
+    "from": "uyghur_khaganate",
+    "to": "mongol_empire",
+    "type": "C",
+    "shared_territories": [
+      "mongolian_plateau"
+    ],
+    "rationale": "Mongols rose on the same Mongolian steppe after the Uyghur decline. Different Mongolic ethnicity, same homeland."
+  },
+  {
+    "from": "mongol_empire",
+    "to": "golden_horde",
+    "type": "B",
+    "shared_territories": [
+      "central_asian_steppe"
+    ],
+    "rationale": "Golden Horde is the western branch of the Mongol Empire on the Pontic steppe."
+  },
+  {
+    "from": "mongol_empire",
+    "to": "chagatai_khanate",
+    "type": "A",
+    "shared_territories": [
+      "central_asian_steppe",
+      "transoxiana"
+    ],
+    "rationale": "Chagatai Khanate inherited Central Asia directly from the Mongol Empire. Same ethnicity and territory."
+  }
+]

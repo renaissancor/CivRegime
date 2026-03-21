@@ -1,0 +1,279 @@
+[
+  {
+    "id": "hittite_empire",
+    "name": "Hittite Empire",
+    "ruling_ethnicity": "hittite",
+    "cultural_language": "hittite_lang",
+    "ideology": {
+      "religion": "anatolian_paganism",
+      "government": "imperial_monarchy"
+    },
+    "territories": ["anatolia"],
+    "start": -1600,
+    "end": -1180,
+    "figures": [
+      { "id": "suppiluliuma_i", "name": "Suppiluliuma I", "role": "ruler", "years": "?/-1322", "significance": "Brought the Hittite Empire to its peak; shattered Mitanni and rivaled Egypt" },
+      { "id": "hattusili_iii", "name": "Hattusili III", "role": "ruler", "years": "?/-1237", "significance": "Signed the first recorded peace treaty with Egypt (Ramesses II), preserved on clay tablets" }
+    ],
+    "note": "The dominant Anatolian power of the Bronze Age. Their sudden collapse (~1180 BC) during the Bronze Age Collapse remains one of history's great mysteries."
+  },
+  {
+    "id": "sumerian_city_states",
+    "name": "Sumerian City-States (Ur, Uruk, Lagash)",
+    "ruling_ethnicity": "sumerian",
+    "territories": [
+      "mesopotamia"
+    ],
+    "start": -3500,
+    "end": -2334,
+    "cultural_language": "sumerian_lang",
+    "ideology": {
+      "religion": "mesopotamian_religion",
+      "government": "city_state"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "gilgamesh",
+        "name": "Gilgamesh",
+        "role": "ruler",
+        "years": "-2700/-2600",
+        "significance": "Legendary king of Uruk; the Epic of Gilgamesh is the oldest known work of literature"
+      },
+      {
+        "id": "ur_nammu",
+        "name": "Ur-Nammu",
+        "role": "founder",
+        "years": "-2112/-2095",
+        "significance": "Author of the earliest known law code"
+      }
+    ]
+  },
+  {
+    "id": "akkadian_empire",
+    "name": "Akkadian Empire",
+    "ruling_ethnicity": "akkadian_eth",
+    "territories": [
+      "mesopotamia",
+      "levant"
+    ],
+    "start": -2334,
+    "end": -2154,
+    "cultural_language": "akkadian",
+    "ideology": {
+      "religion": "mesopotamian_religion",
+      "government": "imperial_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "sargon_akkad",
+        "name": "Sargon of Akkad",
+        "role": "founder",
+        "years": "-2334/-2279",
+        "significance": "Created the world first empire; conquered all Sumerian city-states"
+      }
+    ]
+  },
+  {
+    "id": "ur_iii",
+    "name": "Third Dynasty of Ur (Neo-Sumerian)",
+    "ruling_ethnicity": "sumerian",
+    "territories": [
+      "mesopotamia"
+    ],
+    "start": -2112,
+    "end": -2004,
+    "cultural_language": "sumerian_lang",
+    "ideology": {
+      "religion": "mesopotamian_religion",
+      "government": "divine_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "shulgi",
+        "name": "Shulgi",
+        "role": "ruler",
+        "years": "-2094/-2047",
+        "significance": "Greatest Ur III king; standardized weights, measures, and the first bureaucratic state"
+      }
+    ]
+  },
+  {
+    "id": "old_babylonian",
+    "name": "Old Babylonian Empire",
+    "ruling_ethnicity": "babylonian_eth",
+    "territories": [
+      "mesopotamia"
+    ],
+    "start": -1894,
+    "end": -1595,
+    "cultural_language": "babylonian_lang",
+    "ideology": {
+      "religion": "mesopotamian_religion",
+      "government": "imperial_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "hammurabi",
+        "name": "Hammurabi",
+        "role": "ruler",
+        "years": "-1810/-1750",
+        "significance": "Author of the Code of Hammurabi"
+      }
+    ]
+  },
+  {
+    "id": "neo_assyrian_empire",
+    "name": "Neo-Assyrian Empire",
+    "ruling_ethnicity": "assyrian_eth",
+    "territories": [
+      "mesopotamia",
+      "levant",
+      "egypt",
+      "anatolia"
+    ],
+    "start": -911,
+    "end": -609,
+    "cultural_language": "assyrian_lang",
+    "ideology": {
+      "religion": "mesopotamian_religion",
+      "government": "imperial_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "tiglath_pileser_iii",
+        "name": "Tiglath-Pileser III",
+        "role": "founder",
+        "years": "-745/-727",
+        "significance": "Transformed Assyria into a professional military empire"
+      },
+      {
+        "id": "ashurbanipal",
+        "name": "Ashurbanipal",
+        "role": "ruler",
+        "years": "-685/-627",
+        "significance": "Assembled the Library of Nineveh"
+      }
+    ]
+  },
+  {
+    "id": "neo_babylonian",
+    "name": "Neo-Babylonian (Chaldean) Empire",
+    "ruling_ethnicity": "babylonian_eth",
+    "territories": [
+      "mesopotamia",
+      "levant"
+    ],
+    "start": -626,
+    "end": -539,
+    "note": "Nebuchadnezzar II; Chaldean dynasty deliberately revived ancient Babylonian identity",
+    "cultural_language": "babylonian_lang",
+    "ideology": {
+      "religion": "mesopotamian_religion",
+      "government": "imperial_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "nebuchadnezzar_ii",
+        "name": "Nebuchadnezzar II",
+        "role": "ruler",
+        "years": "-634/-562",
+        "significance": "Built the Hanging Gardens; destroyed Jerusalem; initiated the Babylonian captivity"
+      }
+    ]
+  },
+  {
+    "id": "phoenician_states",
+    "name": "Phoenician City-States (Tyre, Sidon, Byblos)",
+    "ruling_ethnicity": "phoenician_eth",
+    "territories": [
+      "levant"
+    ],
+    "start": -1200,
+    "end": -332,
+    "cultural_language": "phoenician",
+    "ideology": {
+      "religion": "canaanite_religion",
+      "government": "oligarchic_republic"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "hiram_tyre",
+        "name": "Hiram I of Tyre",
+        "role": "ruler",
+        "years": "-980/-947",
+        "significance": "Ally of King Solomon; expanded Phoenician trade networks across the Mediterranean"
+      }
+    ]
+  },
+  {
+    "id": "kingdom_of_israel",
+    "name": "United Kingdom of Israel",
+    "ruling_ethnicity": "hebrew_eth",
+    "territories": [
+      "levant"
+    ],
+    "start": -1047,
+    "end": -930,
+    "cultural_language": "ancient_hebrew",
+    "ideology": {
+      "religion": "temple_judaism",
+      "government": "feudal_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "david",
+        "name": "David",
+        "role": "founder",
+        "years": "-1040/-970",
+        "significance": "Unified the Israelite tribes; made Jerusalem the capital"
+      },
+      {
+        "id": "solomon",
+        "name": "Solomon",
+        "role": "ruler",
+        "years": "-970/-931",
+        "significance": "Built the First Temple; his death caused the kingdom split"
+      }
+    ]
+  },
+  {
+    "id": "kingdom_of_judah",
+    "name": "Kingdom of Judah",
+    "ruling_ethnicity": "hebrew_eth",
+    "territories": [
+      "levant"
+    ],
+    "start": -930,
+    "end": -586,
+    "cultural_language": "ancient_hebrew",
+    "ideology": {
+      "religion": "temple_judaism",
+      "government": "feudal_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "hezekiah",
+        "name": "Hezekiah",
+        "role": "ruler",
+        "years": "-739/-687",
+        "significance": "Centralized Yahweh worship; resisted Assyrian siege of Jerusalem"
+      },
+      {
+        "id": "josiah",
+        "name": "Josiah",
+        "role": "reformer",
+        "years": "-648/-609",
+        "significance": "Major religious reform; rediscovery of the Torah"
+      }
+    ]
+  }
+]
