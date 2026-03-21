@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "franconia",
+  "properties": {
+    "name": "Franconia",
+    "territory": "germany",
+    "periods": []
+  },
+  "geometry": null
+}

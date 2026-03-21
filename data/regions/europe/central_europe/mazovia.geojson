@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "mazovia",
+  "properties": {
+    "name": "Mazovia",
+    "territory": "poland",
+    "periods": []
+  },
+  "geometry": null
+}

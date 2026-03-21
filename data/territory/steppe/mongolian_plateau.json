@@ -6,7 +6,7 @@
   "geo": null,
   "periods": [
     {
-      "regime": null,
+      "regime": "xiongnu",
       "start": -209,
       "end": 93,
       "note": "Xiongnu Empire — first nomadic empire from the Mongolian steppe",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "goktürk_khaganate",
       "start": 552,
       "end": 745,
       "note": "Göktürk Khaganate — Mongolian plateau as core of Turkic empire",
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "uyghur_khaganate",
       "start": 745,
       "end": 840,
       "note": "Uyghur Khaganate — replaced Göktürks on the plateau",
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "north_yuan",
       "start": 1368,
       "end": 1635,
       "note": "Northern Yuan / various Mongol khanates — post-imperial fragmentation",
@@ -113,6 +113,53 @@
           "ethnicity": "mongol",
           "presence": "dominant population",
           "note": "Qing used marriage alliances and Buddhism to bind Mongols; Inner Mongolia settled by Han later"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1911,
+      "end": 1924,
+      "note": "Bogd Khanate — theocratic Mongolian state under the 8th Jebtsundamba Khutughtu (the 'Living Buddha') after declaring independence from Qing; Soviet-backed revolution ended it",
+      "dominant_ethnicity": "mongol",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "mongolian_peoples_republic",
+      "start": 1924,
+      "end": 1992,
+      "note": "Mongolian People's Republic — Soviet satellite; destruction of Buddhism (700 monasteries); collectivisation of herds; Soviet military base against Japan and China; transition to democracy 1990",
+      "dominant_ethnicity": "mongol",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "dominant (~90%)"
+        },
+        {
+          "ethnicity": "russian",
+          "presence": "Soviet advisors and small permanent community"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1992,
+      "end": null,
+      "note": "Republic of Mongolia — democratic since 1992; one of the world's few successful post-communist democratic transitions; economy dependent on mining (copper, coal, gold); caught between Russia and China; significant nomadic herding tradition persists alongside rapid urbanisation of Ulaanbaatar",
+      "dominant_ethnicity": "mongol",
+      "ethnic_composition": [
+        {
+          "ethnicity": "mongol",
+          "presence": "dominant (~95%)"
+        },
+        {
+          "ethnicity": "kazakh",
+          "presence": "minority in western Mongolia (Bayan-Ölgii Province)"
         }
       ]
     }

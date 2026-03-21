@@ -9,6 +9,7 @@
  *   4. Date validity (start < end where both exist)
  *   5. Succession integrity (both ends exist, no self-loops)
  *   6. Succession type is a known value
+ *   7. Region integrity (territory FK resolves, period regime FKs resolve)
  */
 
 const db = require('../data');
@@ -31,6 +32,7 @@ const sets = {
   religions:   new Set(db.religions.map(r => r.id)),
   ideologies:  new Set(db.ideologies.map(i => i.id)),
   ethnicities: new Set(db.ethnicities.map(e => e.id)),
+  regions:     new Set(db.regions.map(r => r.id)),
 };
 
 // ── 1. Duplicate ID check ─────────────────────────────────────────────────────
@@ -50,6 +52,7 @@ function checkDuplicates(items, label) {
 console.log('\n── Duplicate IDs ────────────────────────────────────────');
 checkDuplicates(db.regimes,     'regimes');
 checkDuplicates(db.territory,   'territory');
+checkDuplicates(db.regions,     'regions');
 checkDuplicates(db.languages,   'languages');
 checkDuplicates(db.religions,   'religions');
 checkDuplicates(db.ideologies,  'ideologies');
@@ -177,10 +180,42 @@ for (const t of db.territory) {
 
 ok('territory timeline checks complete');
 
+// ── 7. Region integrity ───────────────────────────────────────────────────────
+
+console.log('\n── Region integrity ─────────────────────────────────────');
+let badRegions = 0;
+
+for (const region of db.regions) {
+  const id    = region.id;
+  const props = region.properties || {};
+  const ctx   = `region "${id}"`;
+
+  if (!id) {
+    err(`region missing top-level "id" field`);
+    badRegions++;
+    continue;
+  }
+  if (!props.territory) {
+    err(`${ctx}: missing "territory" field`);
+    badRegions++;
+  } else if (!sets.territories.has(props.territory)) {
+    err(`${ctx}: territory "${props.territory}" not found`);
+    badRegions++;
+  }
+
+  for (const p of (props.periods || [])) {
+    if (p.regime !== null && p.regime !== undefined && !sets.regimes.has(p.regime)) {
+      warn(`${ctx} period [${p.start}]: regime "${p.regime}" not found — may not be added yet`);
+    }
+  }
+}
+
+if (!badRegions) ok('all regions valid');
+
 // ── Summary ───────────────────────────────────────────────────────────────────
 
 console.log('\n─────────────────────────────────────────────────────────');
-console.log(`Regimes: ${db.regimes.length}  |  Successions: ${db.successions.length}  |  Territories: ${db.territory.length}`);
+console.log(`Regimes: ${db.regimes.length}  |  Successions: ${db.successions.length}  |  Territories: ${db.territory.length}  |  Regions: ${db.regions.length}`);
 console.log(`Languages: ${db.languages.length}  |  Religions: ${db.religions.length}  |  Ethnicities: ${db.ethnicities.length}`);
 console.log('');
 

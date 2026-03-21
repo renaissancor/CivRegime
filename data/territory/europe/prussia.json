@@ -1,0 +1,84 @@
+{
+  "id": "prussia",
+  "name": "Prussia (Baltic)",
+  "description": "The southeastern Baltic coast and the territory of the Old Prussians. Conquered by the Teutonic Knights in the 13th century; became the Duchy of Prussia under the Hohenzollerns and eventually the Kingdom of Prussia.",
+  "region": "europe",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -500,
+      "end": 1230,
+      "note": "Old Prussians — Baltic peoples closely related to Lithuanians. Inhabited the southeastern Baltic coast (modern Kaliningrad oblast and northeastern Poland). Pagans; amber traders; fiercely independent. Resisted Christianisation and Polish expansion. Duke Conrad of Masovia invited the Teutonic Knights to conquer them (1226) — a decision with vast historical consequences.",
+      "dominant_ethnicity": "lithuanian",
+      "ethnic_composition": [
+        { "ethnicity": "lithuanian", "presence": "dominant — Old Prussians (Baltic, distinct from Lithuanians but closely related)" }
+      ]
+    },
+    {
+      "regime": "teutonic_order",
+      "start": 1230,
+      "end": 1525,
+      "note": "Monastic State of the Teutonic Order — systematic conquest of the Old Prussians 1230–1283 (the Old Prussians were exterminated or fully assimilated within a century; their language extinct by 1700). German colonists replaced them. At their peak the Teutonic Knights controlled the entire Baltic coast from Danzig to Estonia. Catastrophic defeat at Grunwald (1410) by Poland-Lithuania; Second Peace of Thorn (1466) cost the Order western Prussia (now Polish fief). Grandmaster Albert of Hohenzollern converted to Lutheranism and dissolved the Order's state into the Duchy of Prussia (1525).",
+      "dominant_ethnicity": "german",
+      "ethnic_composition": [
+        { "ethnicity": "german", "presence": "dominant — German colonists replaced the indigenous Old Prussians" },
+        { "ethnicity": "polish", "presence": "western regions (Royal Prussia under Polish Crown after 1466)" }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1525,
+      "end": 1618,
+      "note": "Duchy of Prussia — secular fief of the Polish Crown; Hohenzollern dynasty. First Lutheran state in the world. Albert brought humanist scholars to Königsberg; founded Königsberg University (1544).",
+      "dominant_ethnicity": "german",
+      "ethnic_composition": [
+        { "ethnicity": "german", "presence": "dominant" },
+        { "ethnicity": "polish", "presence": "Mazovian minority in the southwest (Polish-speaking Masurians)" },
+        { "ethnicity": "lithuanian", "presence": "Lithuanian-speaking minority in the northeast (Prussian Lithuanians/Lietuvininkai)" }
+      ]
+    },
+    {
+      "regime": "habsburg_monarchy",
+      "start": 1618,
+      "end": 1701,
+      "note": "Brandenburg-Prussia — the Duchy of Prussia passed to the Brandenburg Hohenzollerns (1618), merging with the Electorate of Brandenburg to create a growing state straddling the HRE's eastern frontier. Friedrich Wilhelm, the Great Elector (1640–1688), built the most efficient military-bureaucratic state of the era, welcoming Huguenot refugees after the Edict of Fontainebleau (1685).",
+      "dominant_ethnicity": "german",
+      "ethnic_composition": [
+        { "ethnicity": "german", "presence": "dominant — Hohenzollern military state" }
+      ]
+    },
+    {
+      "regime": "holy_roman_empire",
+      "start": 1701,
+      "end": 1806,
+      "note": "Kingdom of Prussia — Frederick I crowned himself King in Prussia 1701 (in Prussia, not of Prussia, to avoid conflicting with HRE status). Frederick II the Great (1740–1786) made Prussia a Great Power, seizing Silesia from Austria and surviving the Seven Years' War against a coalition of France, Austria, Russia, and Sweden. Prussia co-partitioned Poland (1772, 1793, 1795). Napoleon dissolved the HRE (1806) and Prussia was humiliated at Jena-Auerstedt (1806).",
+      "dominant_ethnicity": "german",
+      "ethnic_composition": [
+        { "ethnicity": "german", "presence": "dominant" },
+        { "ethnicity": "polish", "presence": "significant — Polish-speaking populations in eastern provinces after partitions" }
+      ]
+    },
+    {
+      "regime": "german_empire",
+      "start": 1871,
+      "end": 1918,
+      "note": "Prussia became the core of the German Empire — Bismarck's Prussia unified Germany through three wars; the German Empire was proclaimed at Versailles 1871. Prussia was the largest and most powerful German state within the empire.",
+      "dominant_ethnicity": "german",
+      "ethnic_composition": [
+        { "ethnicity": "german", "presence": "dominant" },
+        { "ethnicity": "polish", "presence": "subject minority in the eastern provinces" }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1918,
+      "end": 1947,
+      "note": "Free State of Prussia (Weimar Germany's largest state) — democratic and anti-fascist under Otto Braun until the Preußenschlag (1932) when Hindenburg dismissed the Prussian government by emergency decree, paving the way for Hitler. Prussia abolished by the Allied Control Council in 1947 — officially erased for its militarist associations. Königsberg (now Kaliningrad) became Soviet territory; German population expelled.",
+      "dominant_ethnicity": "german",
+      "ethnic_composition": [
+        { "ethnicity": "german", "presence": "dominant; expelled 1945 from eastern territories" }
+      ]
+    }
+  ]
+}

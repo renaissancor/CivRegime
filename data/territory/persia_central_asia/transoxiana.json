@@ -123,7 +123,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "samanid_empire",
       "start": 819,
       "end": 999,
       "note": "Samanid Empire — Persian Renaissance; Bukhara as center of Islamic learning",
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "khwarazmian_empire",
       "start": 1200,
       "end": 1220,
       "note": "Khwarazmian Empire — Turkic dynasty; controlled Central Asia before Mongol destruction",

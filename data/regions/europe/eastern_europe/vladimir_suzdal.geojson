@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "vladimir_suzdal",
+  "properties": {
+    "name": "Vladimir-Suzdal",
+    "territory": "kievan_rus",
+    "periods": []
+  },
+  "geometry": null
+}

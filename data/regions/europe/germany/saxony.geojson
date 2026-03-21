@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "saxony",
+  "properties": {
+    "name": "Saxony",
+    "territory": "germany",
+    "periods": []
+  },
+  "geometry": null
+}

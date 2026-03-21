@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "sweden",
+  "properties": {
+    "name": "Sweden (Svealand)",
+    "territory": "scandinavia",
+    "periods": []
+  },
+  "geometry": null
+}

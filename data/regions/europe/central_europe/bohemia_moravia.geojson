@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "bohemia_moravia",
+  "properties": {
+    "name": "Bohemia & Moravia",
+    "territory": "bohemia",
+    "periods": []
+  },
+  "geometry": null
+}

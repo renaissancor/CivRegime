@@ -1,0 +1,12 @@
+{
+  "type": "Feature",
+  "id": "sicily",
+  "properties": {
+    "name": "Sicily",
+    "territory": "italy",
+    "periods": [
+      { "start": -241, "end": 476, "regime": "roman_empire" }
+    ]
+  },
+  "geometry": null
+}

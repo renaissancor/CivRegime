@@ -1,0 +1,183 @@
+const FAMILY_PALETTE = ['#60a5fa','#fb923c','#4ade80','#fbbf24','#a78bfa','#f472b6','#34d399','#38bdf8'];
+const familyColor = {};
+
+function getDescendants(id, nodes) {
+  const children = nodes.filter(n => n.parent === id);
+  return children.flatMap(c => [c, ...getDescendants(c.id, nodes)]);
+}
+
+function rootColor(nodeId, allReligions) {
+  let n = allReligions.find(r => r.id === nodeId);
+  while (n && n.parent) n = allReligions.find(r => r.id === n.parent);
+  return n ? (familyColor[n.id] || '#718096') : '#718096';
+}
+
+async function init() {
+  const db = await fetch('/api/db').then(r => r.json());
+
+  // Map religion id → regimes that use it
+  const regimesByRel = new Map();
+  for (const r of db.regimes) {
+    const rel = r.ideology?.religion;
+    if (rel) {
+      if (!regimesByRel.has(rel)) regimesByRel.set(rel, []);
+      regimesByRel.get(rel).push(r);
+    }
+  }
+
+  // Root families — use == null to catch both null and undefined
+  const roots = db.religions.filter(r => r.parent == null);
+  roots.forEach((r, i) => { familyColor[r.id] = FAMILY_PALETTE[i % FAMILY_PALETTE.length]; });
+
+  // Sidebar
+  const list = document.getElementById('family-list');
+  const allBtn = document.createElement('button');
+  allBtn.className = 'family-btn active';
+  allBtn.dataset.family = 'all';
+  allBtn.textContent = 'All Religions';
+  list.appendChild(allBtn);
+  for (const root of roots) {
+    const btn = document.createElement('button');
+    btn.className = 'family-btn';
+    btn.dataset.family = root.id;
+    btn.style.borderLeftColor = familyColor[root.id];
+    btn.textContent = root.name;
+    list.appendChild(btn);
+  }
+
+  list.addEventListener('click', e => {
+    const btn = e.target.closest('[data-family]');
+    if (!btn) return;
+    list.querySelectorAll('.family-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderTree(btn.dataset.family, db.religions, regimesByRel);
+  });
+
+  renderTree('all', db.religions, regimesByRel);
+}
+
+function renderTree(familyId, allReligions, regimesByRel) {
+  const svg = d3.select('#tree-svg');
+  svg.selectAll('*').remove();
+
+  // Build node list
+  let nodes;
+  if (familyId === 'all') {
+    nodes = [
+      { id: '__root__', parent: null, name: '' },
+      ...allReligions.map(r => ({ ...r, parent: r.parent ?? '__root__' }))
+    ];
+  } else {
+    const root = allReligions.find(r => r.id === familyId);
+    if (!root) return;
+    nodes = [{ ...root, parent: null }, ...getDescendants(familyId, allReligions)];
+  }
+
+  const stratify = d3.stratify().id(d => d.id).parentId(d => d.parent);
+  let hierarchy;
+  try { hierarchy = stratify(nodes); } catch { return; }
+
+  const tree = d3.tree().nodeSize([26, 210]);
+  tree(hierarchy);
+
+  // Zoom / pan
+  const zoom = d3.zoom().scaleExtent([0.15, 4]).on('zoom', e => g.attr('transform', e.transform));
+  svg.call(zoom);
+
+  let minX = Infinity, maxX = -Infinity;
+  hierarchy.each(d => { minX = Math.min(minX, d.x); maxX = Math.max(maxX, d.x); });
+
+  const g = svg.append('g').attr('transform', `translate(80,${-minX + 30})`);
+
+  // Links
+  g.selectAll('.link')
+    .data(hierarchy.links())
+    .join('path')
+    .attr('class', 'link')
+    .attr('d', d3.linkHorizontal().x(d => d.y).y(d => d.x));
+
+  // Node groups
+  const node = g.selectAll('.node')
+    .data(hierarchy.descendants().filter(d => d.data.id !== '__root__'))
+    .join('g')
+    .attr('class', 'node')
+    .attr('transform', d => `translate(${d.y},${d.x})`)
+    .style('cursor', 'pointer')
+    .on('click', (e, d) => showDetail(d.data, allReligions, regimesByRel))
+    .on('mouseover', (e, d) => {
+      const tip = document.getElementById('tooltip');
+      const count = regimesByRel.get(d.data.id)?.length || 0;
+      tip.innerHTML = `<strong>${d.data.name || d.data.id}</strong>${count ? `<br>${count} regime${count > 1 ? 's' : ''}` : ''}`;
+      tip.classList.add('visible');
+    })
+    .on('mousemove', e => {
+      const tip = document.getElementById('tooltip');
+      tip.style.left = (e.clientX + 12) + 'px';
+      tip.style.top = (e.clientY - 10) + 'px';
+    })
+    .on('mouseout', () => document.getElementById('tooltip').classList.remove('visible'));
+
+  // Has-children indicator (filled vs hollow)
+  node.append('circle')
+    .attr('r', 5)
+    .attr('fill', d => {
+      const color = rootColor(d.data.id, allReligions);
+      return d.data.id === familyId ? color : (d.children || d._children ? color : color + '66');
+    })
+    .attr('stroke', d => rootColor(d.data.id, allReligions))
+    .attr('stroke-width', 1.5);
+
+  // Regime count badge (left of node, gold)
+  node.filter(d => (regimesByRel.get(d.data.id)?.length || 0) > 0)
+    .append('text')
+    .attr('x', -12)
+    .attr('dy', '0.32em')
+    .attr('text-anchor', 'middle')
+    .attr('font-size', 10)
+    .attr('fill', '#f6ad55')
+    .text(d => regimesByRel.get(d.data.id)?.length);
+
+  // Label
+  node.append('text')
+    .attr('x', 10)
+    .attr('dy', '0.32em')
+    .text(d => d.data.name || d.data.id);
+}
+
+function showDetail(data, allReligions, regimesByRel) {
+  const panel = document.getElementById('detail-panel');
+  const content = document.getElementById('detail-content');
+  const regimes = regimesByRel.get(data.id) || [];
+  const descendants = getDescendants(data.id, allReligions);
+  const allRelRegimes = [...new Set(
+    [data.id, ...descendants.map(d => d.id)].flatMap(id => regimesByRel.get(id) || [])
+  )];
+
+  let html = `<h2>${data.name || data.id}</h2>`;
+  if (data.parent) html += `<div class="sub">Branch of: ${data.parent}</div>`;
+  if (descendants.length) html += `<div class="sub">${descendants.length} sub-branch${descendants.length > 1 ? 'es' : ''}</div>`;
+
+  if (regimes.length) {
+    html += `<div class="section-title">Uses this religion directly (${regimes.length})</div>`;
+    for (const r of regimes) {
+      const dates = r.end ? `${r.start}–${r.end}` : `${r.start}–`;
+      html += `<div class="regime-item"><strong>${r.name}</strong><span>${dates} · ${r.ruling_ethnicity}</span></div>`;
+    }
+  }
+  if (allRelRegimes.length > regimes.length) {
+    const sub = allRelRegimes.filter(r => !regimes.includes(r));
+    html += `<div class="section-title">In sub-branches (${sub.length})</div>`;
+    for (const r of sub) {
+      const dates = r.end ? `${r.start}–${r.end}` : `${r.start}–`;
+      html += `<div class="regime-item"><strong>${r.name}</strong><span>${dates}</span></div>`;
+    }
+  }
+  if (!allRelRegimes.length) {
+    html += `<div class="sub" style="margin-top:8px">No regimes in this branch yet.</div>`;
+  }
+
+  content.innerHTML = html;
+  panel.classList.add('open');
+}
+
+init();

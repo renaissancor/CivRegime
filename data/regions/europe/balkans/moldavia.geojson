@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "moldavia",
+  "properties": {
+    "name": "Moldavia",
+    "territory": "balkans",
+    "periods": []
+  },
+  "geometry": null
+}

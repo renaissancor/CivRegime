@@ -40,7 +40,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "odoacer_kingdom",
       "start": 476,
       "end": 493,
       "note": "Odoacer's Kingdom — first Germanic king of Italy after deposing last Western Roman emperor",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "ostrogothic_kingdom",
       "start": 493,
       "end": 553,
       "note": "Ostrogothic Kingdom — Theodoric's sophisticated Germanic-Roman synthesis state",
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "lombard_kingdom",
       "start": 568,
       "end": 774,
       "note": "Lombard Kingdom — Germanic Lombards controlled most of Italy; Byzantine Exarchate and Papal Rome remained",
@@ -124,19 +124,121 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "holy_roman_empire",
       "start": 962,
       "end": 1454,
-      "note": "Holy Roman Empire (nominal Italian kingdom) + independent city-states: Venice, Florence, Milan, Genoa",
-      "dominant_ethnicity": "latin",
+      "note": "HRE nominal rule + Renaissance city-states — Otto I's coronation gave HRE emperors the Italian kingdom title, but real power lay with the city-states: Venice, Florence, Milan, Genoa, and the Papal States. Northern Italy was the most urbanised and commercially sophisticated region in Europe; the Italian Renaissance (Dante, Petrarch, Boccaccio; Giotto, Brunelleschi, Donatello) emerged from this city-state competition. Norman Kingdom of Sicily/Naples controlled the south.",
+      "dominant_ethnicity": "italian",
       "ethnic_composition": [
         {
-          "ethnicity": "germanic",
-          "presence": "administrative (HRE)"
+          "ethnicity": "german",
+          "presence": "HRE nominal overlordship; German emperors fought Italian communes repeatedly"
         },
         {
-          "ethnicity": "latin",
-          "presence": "dominant; Italian identity forming through city-state culture"
+          "ethnicity": "italian",
+          "presence": "dominant — Italian language emerging from Latin; distinct regional identities (Venetian, Florentine, Neapolitan)"
+        },
+        {
+          "ethnicity": "norman",
+          "presence": "ruling class of Sicily and southern Italy (Kingdom of Sicily/Naples)"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1454,
+      "end": 1559,
+      "note": "Italian Wars — Peace of Lodi (1454) briefly stabilised the peninsula. Charles VIII of France invaded 1494, triggering 65 years of warfare between France and the Spanish Habsburgs for dominance of Italy. Italy became the battlefield of Europe; the Italian city-states' political independence was destroyed. Sack of Rome (1527) by Habsburg troops was a cultural shock throughout Europe.",
+      "dominant_ethnicity": "italian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "italian",
+          "presence": "dominant population; politically fragmented"
+        },
+        {
+          "ethnicity": "french",
+          "presence": "controlling parts of northern Italy at various points"
+        },
+        {
+          "ethnicity": "german",
+          "presence": "Habsburg troops; ruling Milan and Naples"
+        }
+      ]
+    },
+    {
+      "regime": "habsburg_monarchy",
+      "start": 1559,
+      "end": 1796,
+      "note": "Spanish/Habsburg Italy — Treaty of Cateau-Cambrésis (1559) gave Spain Milan, Naples, Sicily, and Sardinia; Spain dominated most of Italy for 150 years. Venice and the Papal States maintained independence. The Counter-Reformation had its spiritual centre in Italy (Council of Trent, Jesuits, the Inquisition). Italian culture continued its achievements: Galileo, Caravaggio, Bernini, Vivaldi. Spanish succession passed Italian territories to the Austrian Habsburgs in 1713.",
+      "dominant_ethnicity": "italian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "italian",
+          "presence": "dominant majority — despite foreign rulers, Italian culture continued to flourish"
+        },
+        {
+          "ethnicity": "german",
+          "presence": "Austrian Habsburg ruling class in northern Italy from 1713"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1796,
+      "end": 1815,
+      "note": "Napoleonic reorganisation — Napoleon's Italian campaigns (1796–97) swept away the old order; French client republics replaced the ancient states; Venice abolished after 1,100 years of independence. Napoleon's Italian Kingdom (1805–1814) spread Revolutionary ideas: abolition of feudalism, legal equality, nationalism. The Risorgimento (Italian national movement) was born in this period.",
+      "dominant_ethnicity": "italian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "italian",
+          "presence": "dominant — Italian national consciousness awakening"
+        },
+        {
+          "ethnicity": "french",
+          "presence": "ruling/military class"
+        }
+      ]
+    },
+    {
+      "regime": "habsburg_monarchy",
+      "start": 1815,
+      "end": 1861,
+      "note": "Restoration Italy — Congress of Vienna (1815) restored the old rulers; Austria dominant in the north (Lombardy-Venetia directly ruled). Risorgimento uprisings crushed (1820, 1831, 1848). Piedmont-Sardinia survived as the only independent Italian state; Cavour manoeuvred diplomatically, Garibaldi fought militarily. Kingdom of Italy proclaimed 1861.",
+      "dominant_ethnicity": "italian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "italian",
+          "presence": "dominant — nationalism intensifying against Austrian rule"
+        },
+        {
+          "ethnicity": "german",
+          "presence": "Austrian ruling class in Lombardy and Venice"
+        }
+      ]
+    },
+    {
+      "regime": "kingdom_of_italy",
+      "start": 1861,
+      "end": 1946,
+      "note": "Unified Italy — Rome incorporated 1870 (ending Papal temporal power); Italy's unification was the last major act of 19th-century European nationalism. Liberal state struggled with north-south divide; colonial ambitions (Ethiopia humiliatingly defeated at Adwa 1896, then conquered 1935). WWI: joined Allies 1915; 600,000 dead; felt cheated at Versailles ('mutilated victory') → Mussolini's Fascism. WWII: allied with Germany; catastrophic defeat; Mussolini killed 1945. Republic by referendum 1946.",
+      "dominant_ethnicity": "italian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "italian",
+          "presence": "dominant — but deep cultural/economic divide between industrialised north and agrarian south (Mezzogiorno)"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1946,
+      "end": null,
+      "note": "Italian Republic — one of the founding members of the European Communities (1957). Economic miracle (1950s–60s); chronic political instability (60+ governments 1948–1994); Mafia endemic in the south; Tangentopoli anti-corruption investigations (1992) wiped out the postwar party system.",
+      "dominant_ethnicity": "italian",
+      "ethnic_composition": [
+        {
+          "ethnicity": "italian",
+          "presence": "dominant — regional identities (Northern League) and recent North African immigration"
         }
       ]
     }

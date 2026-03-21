@@ -1,0 +1,209 @@
+[
+  {
+    "id": "republic_of_turkey",
+    "name": "Republic of Turkey",
+    "ruling_ethnicity": "turkic",
+    "territories": ["anatolia"],
+    "start": 1923,
+    "end": null,
+    "note": "Mustafa Kemal Atatürk proclaimed the Republic on October 29, 1923 after the War of Independence expelled Greek, French, and Italian forces. Atatürk's programme of Westernisation and secularism: abolished the Caliphate (1924), replaced Arabic script with Latin alphabet, banned the fez, established women's suffrage (1934). Turkey joined NATO (1952). Military coups in 1960, 1971, 1980 periodically interrupted democracy. Erdoğan's AKP government (2002–present) re-Islamised Turkish public life and consolidated presidential power.",
+    "cultural_language": "modern_turkish",
+    "ideology": {
+      "religion": "sunni",
+      "government": "democratic_republic"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "ataturk",
+        "name": "Atatürk",
+        "role": "founder",
+        "years": "1881/1938",
+        "significance": "Father of modern Turkey; won the War of Independence; created a secular Western republic from Ottoman ruins; his portrait hangs in every Turkish institution — still the dominant presence in Turkish identity"
+      },
+      {
+        "id": "erdogan",
+        "name": "Erdoğan",
+        "role": "ruler",
+        "years": "1954/null",
+        "significance": "Prime Minister then President; longest-serving Turkish leader since Atatürk; built infrastructure and raised living standards; also jailed journalists, purged judges, and turned Turkey in an authoritarian direction after the 2016 coup attempt"
+      }
+    ]
+  },
+  {
+    "id": "kingdom_of_egypt",
+    "name": "Kingdom of Egypt",
+    "ruling_ethnicity": "arab",
+    "territories": ["egypt"],
+    "start": 1805,
+    "end": 1952,
+    "note": "Muhammad Ali Pasha (an Albanian Ottoman officer) seized power in 1805 and founded a modernising dynasty that ruled Egypt for 147 years. He built a modern army, industrialised cotton, and made Egypt semi-independent of Constantinople. His descendants built the Suez Canal (opened 1869) but went bankrupt — British occupation followed (1882). Egypt became a Kingdom nominally independent in 1922 but with British troops remaining. Farouk's corruption and the 1948 Arab–Israeli War defeat triggered the 1952 military coup.",
+    "cultural_language": "arabic",
+    "ideology": {
+      "religion": "sunni",
+      "government": "absolute_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "muhammad_ali",
+        "name": "Muhammad Ali",
+        "role": "founder",
+        "years": "1769/1849",
+        "significance": "The 'Father of Modern Egypt'; Albanian-born Ottoman officer who modernised Egypt's army and economy; his descendants ruled until 1952"
+      },
+      {
+        "id": "ismail_the_magnificent",
+        "name": "Ismail the Magnificent",
+        "role": "ruler",
+        "years": "1830/1895",
+        "significance": "Built the Suez Canal (1869); modernised Cairo on Haussmann's Paris model; went bankrupt and sold the Canal shares to Britain — triggering the occupation"
+      },
+      {
+        "id": "farouk_i",
+        "name": "Farouk I",
+        "role": "ruler",
+        "years": "1920/1965",
+        "significance": "Last king; his dissolute lifestyle and defeat in 1948 made him a symbol of Arab weakness; overthrown by the Free Officers (Naguib and Nasser) in July 1952"
+      }
+    ]
+  },
+  {
+    "id": "republic_of_egypt",
+    "name": "Republic of Egypt",
+    "ruling_ethnicity": "arab",
+    "territories": ["egypt"],
+    "start": 1952,
+    "end": null,
+    "note": "The Free Officers' Revolution (July 23, 1952) ended the monarchy. Nasser nationalised the Suez Canal (1956), triggering the Suez Crisis — and emerged as pan-Arab hero when US pressure forced Britain and France to withdraw. Nasser's Egypt was the champion of Arab nationalism. Sadat's Camp David Accords (1978) made peace with Israel — and got him assassinated (1981). Mubarak's 30-year autocracy ended with the Arab Spring (2011); democratic opening under Morsi crushed by military coup (2013) under Sisi.",
+    "cultural_language": "arabic",
+    "ideology": {
+      "religion": "sunni",
+      "government": "democratic_republic"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "nasser",
+        "name": "Nasser",
+        "role": "founder",
+        "years": "1918/1970",
+        "significance": "The greatest Arab nationalist leader; nationalised the Suez Canal; champion of pan-Arabism; the dominant figure of 20th-century Arab politics"
+      },
+      {
+        "id": "sadat",
+        "name": "Sadat",
+        "role": "ruler",
+        "years": "1918/1981",
+        "significance": "Expelled Soviet advisors (1972); surprised Israel in the Yom Kippur War (1973); made peace at Camp David (1978); Nobel Peace Prize; assassinated by Islamic Jihad at a military parade"
+      },
+      {
+        "id": "sisi",
+        "name": "Sisi",
+        "role": "ruler",
+        "years": "1954/null",
+        "significance": "Led the 2013 coup against Morsi; President since 2014; brutal suppression of Muslim Brotherhood; restored military's dominant role in Egyptian political economy"
+      }
+    ]
+  },
+  {
+    "id": "saudi_arabia",
+    "name": "Kingdom of Saudi Arabia",
+    "ruling_ethnicity": "arab",
+    "territories": ["arabia"],
+    "start": 1932,
+    "end": null,
+    "note": "Ibn Saud united the Arabian Peninsula through conquest and treaty (1902–1932). Oil discovered in commercial quantities (1938) transformed the kingdom. The 1973 Oil Embargo made Saudi Arabia a global power. The Grand Mosque seizure (1979) by Juhayman al-Otaibi shocked the kingdom; the regime's response was to give more power to conservative ulema — the origin of Saudi export of Wahhabism worldwide. The kingdom remains an absolute monarchy under the Al Saud family, with Vision 2030 attempting modernisation under Crown Prince MBS.",
+    "cultural_language": "arabic",
+    "ideology": {
+      "religion": "sunni",
+      "government": "absolute_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "ibn_saud",
+        "name": "Ibn Saud",
+        "role": "founder",
+        "years": "1875/1953",
+        "significance": "United Arabia through 30 years of warfare and diplomacy; signed the oil concession with Standard Oil (1933); the Aramco deal that created modern Saudi Arabia"
+      },
+      {
+        "id": "faisal",
+        "name": "Faisal",
+        "role": "ruler",
+        "years": "1906/1975",
+        "significance": "Modernised Saudi Arabia; led the 1973 Oil Embargo against the West for supporting Israel; gave women rights to education; assassinated by his nephew"
+      },
+      {
+        "id": "mbs",
+        "name": "MBS",
+        "role": "ruler",
+        "years": "1985/null",
+        "significance": "Crown Prince Mohammad bin Salman; Vision 2030 modernisation; allowed women to drive; but also the killing of Khashoggi (2018) and Yemen War — reformer and autocrat simultaneously"
+      }
+    ]
+  },
+  {
+    "id": "kingdom_of_iraq",
+    "name": "Kingdom of Iraq",
+    "ruling_ethnicity": "arab",
+    "territories": ["mesopotamia"],
+    "start": 1921,
+    "end": 1958,
+    "note": "Created by Britain from three Ottoman vilayets (Mosul, Baghdad, Basra) under League of Nations Mandate. Faisal I (son of Sharif Hussein) installed as king. Iraq gained nominal independence in 1932 (first Arab state to join the League of Nations) while British advisors and air bases remained. The 1948 Arab–Israeli War and 1958 military coup ended the Hashemite monarchy.",
+    "cultural_language": "arabic",
+    "ideology": {
+      "religion": "sunni",
+      "government": "constitutional_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "faisal_i_iraq",
+        "name": "Faisal I",
+        "role": "founder",
+        "years": "1885/1933",
+        "significance": "Arab Revolt leader imposed as king of Iraq by Churchill at the Cairo Conference (1921); built a fragile national identity across Sunni, Shia, and Kurdish communities; died before his work was complete"
+      },
+      {
+        "id": "nuri_al_said",
+        "name": "Nuri al-Said",
+        "role": "ruler",
+        "years": "1888/1958",
+        "significance": "Pro-British Prime Minister who dominated Iraqi politics 1930–1958; lynched by a mob during the 1958 revolution alongside the royal family"
+      }
+    ]
+  },
+  {
+    "id": "republic_of_iraq",
+    "name": "Republic of Iraq",
+    "ruling_ethnicity": "arab",
+    "territories": ["mesopotamia"],
+    "start": 1958,
+    "end": null,
+    "note": "General Abd al-Karim Qasim's 1958 coup killed the royal family and created the republic. Ba'ath Party coups (1963, 1968) brought Saddam Hussein to power (formally 1979). Iran-Iraq War (1980–88); Kuwait invasion (1990); Gulf War; UN sanctions devastated the country. US invasion (2003) destroyed the state; Sunni insurgency, al-Qaeda, and ISIS emerged from the chaos. The 2005 constitution and Shia-dominated democracy have been unable to overcome sectarian divisions.",
+    "cultural_language": "arabic",
+    "ideology": {
+      "religion": "sunni",
+      "government": "democratic_republic"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "saddam_hussein",
+        "name": "Saddam Hussein",
+        "role": "ruler",
+        "years": "1937/2006",
+        "significance": "Ba'athist dictator 1979–2003; used chemical weapons on Kurds (Halabja 1988); invaded Iran then Kuwait; executed after US invasion — his fall unleashed sectarian war that produced ISIS"
+      },
+      {
+        "id": "ayatollah_sistani",
+        "name": "Ayatollah Sistani",
+        "role": "cultural",
+        "years": "1930/null",
+        "significance": "Grand Ayatollah; Iraq's most authoritative Shia cleric; his fatwas mobilising Shia volunteers against ISIS (2014) saved Iraq from collapse; consistent advocate for democracy within Islamic framework"
+      }
+    ]
+  }
+]

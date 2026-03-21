@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "novgorod",
+  "properties": {
+    "name": "Novgorod",
+    "territory": "kievan_rus",
+    "periods": []
+  },
+  "geometry": null
+}

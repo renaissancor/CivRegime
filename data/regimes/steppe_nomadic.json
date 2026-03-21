@@ -222,5 +222,159 @@
         "significance": "Second son of Genghis Khan; Chagatai Turkic language is named after him"
       }
     ]
+  },
+  {
+    "id": "hunnic_empire",
+    "name": "Hunnic Empire",
+    "ruling_ethnicity": "steppe_nomadic",
+    "territories": [
+      "central_asian_steppe",
+      "pontic_steppe",
+      "hungary"
+    ],
+    "start": 350,
+    "end": 453,
+    "note": "Attila's confederation devastated the Roman Empire and triggered the Great Migration. The Huns are of uncertain ethnic origin (possibly Turkic, possibly mixed). Their western empire collapsed immediately after Attila's death (453).",
+    "cultural_language": "old_turkic",
+    "ideology": {
+      "religion": "tengriism",
+      "government": "khaganate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "attila",
+        "name": "Attila",
+        "role": "ruler",
+        "years": "406/453",
+        "significance": "Scourge of God; defeated Roman and Germanic armies; received tribute from both Eastern and Western Rome; his death at a wedding feast collapsed the empire overnight"
+      }
+    ]
+  },
+  {
+    "id": "avar_khaganate",
+    "name": "Avar Khaganate",
+    "ruling_ethnicity": "steppe_nomadic",
+    "territories": [
+      "hungary",
+      "central_asian_steppe"
+    ],
+    "start": 568,
+    "end": 804,
+    "note": "Avars (steppe nomads of uncertain Mongolian/Turkic origin) conquered the Carpathian basin in 568 after the Lombards left for Italy. They raided Byzantium and the Frankish kingdoms repeatedly. Charlemagne destroyed the Avar state in a series of campaigns (791-796) and dismantled their treasury ('the Ring').",
+    "cultural_language": "old_turkic",
+    "ideology": {
+      "religion": "tengriism",
+      "government": "khaganate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "bayan_i",
+        "name": "Bayan I",
+        "role": "founder",
+        "years": "/602",
+        "significance": "First great Avar Khagan; defeated the Frankish kingdom; established Avar dominance over the middle Danube basin"
+      }
+    ]
+  },
+  {
+    "id": "kazakh_khanate",
+    "name": "Kazakh Khanate",
+    "ruling_ethnicity": "turkic",
+    "territories": [
+      "central_asian_steppe"
+    ],
+    "start": 1465,
+    "end": 1731,
+    "note": "Emerged from the Uzbek (Shaybanid) breakup when Janybek and Giray led a nomadic confederation into the Kazakh steppe. The three zhuz (hordes: Great, Middle, Small) structure defined Kazakh society. Gradually subordinated by Russian expansion; the Small Zhuz accepted Russian protectorate in 1731 under Dzungar pressure.",
+    "cultural_language": "old_turkic",
+    "ideology": {
+      "religion": "sunni",
+      "government": "khanate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "janybek_khan",
+        "name": "Janybek Khan",
+        "role": "founder",
+        "years": "/1480",
+        "significance": "Co-founder of the Kazakh Khanate with Giray; established Kazakh identity as distinct from Uzbeks"
+      },
+      {
+        "id": "ablai_khan",
+        "name": "Ablai Khan",
+        "role": "ruler",
+        "years": "1711/1781",
+        "significance": "Greatest 18th-century Kazakh ruler; united the zhuz against the Dzungars; played Russia and China against each other"
+      }
+    ]
+  },
+  {
+    "id": "crimean_khanate",
+    "name": "Crimean Khanate",
+    "ruling_ethnicity": "turkic",
+    "territories": [
+      "pontic_steppe"
+    ],
+    "start": 1441,
+    "end": 1783,
+    "note": "Last surviving Mongol successor state on the Pontic steppe; Ottoman vassal from 1475. Conducted slave raids into Ukraine, Poland, and Russia — the Crimean slave trade depopulated vast areas of Eastern Europe. Peter the Great and Catherine the Great progressively curtailed Crimean power; annexed by Russia in 1783.",
+    "cultural_language": "old_turkic",
+    "ideology": {
+      "religion": "sunni",
+      "government": "khanate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "mengli_giray",
+        "name": "Mengli Giray",
+        "role": "founder",
+        "years": "1445/1515",
+        "significance": "First fully independent Khan; entered Ottoman vassalage; defeated the Grand Duchy of Lithuania and sacked Kyiv"
+      },
+      {
+        "id": "devlet_i_giray",
+        "name": "Devlet I Giray",
+        "role": "ruler",
+        "years": "1512/1577",
+        "significance": "Sacked Moscow in 1571 — the last time a nomadic force sacked the Russian capital; demanded tribute from Ivan the Terrible"
+      }
+    ]
+  },
+  {
+    "id": "north_yuan",
+    "name": "North Yuan",
+    "ruling_ethnicity": "mongol",
+    "territories": [
+      "mongolian_plateau"
+    ],
+    "start": 1368,
+    "end": 1635,
+    "note": "After the Ming drove the Yuan from China (1368), the Mongol khans retreated to the steppe and continued to claim the title of Great Khan of the Mongol Empire. Periodic reunifications under strong khans (Dayan Khan, Altan Khan) challenged Ming China. Tibetan Buddhism progressively replaced shamanism/Tengriism. Formally ended when the Qing incorporated most Mongol tribes (1635-1691).",
+    "cultural_language": "old_turkic",
+    "ideology": {
+      "religion": "buddhism",
+      "government": "khaganate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "dayan_khan",
+        "name": "Dayan Khan",
+        "role": "ruler",
+        "years": "1464/1543",
+        "significance": "Reunified the eastern Mongols after a century of fragmentation; reorganised the Mongol tribes into six tumens; his descendants ruled the Mongols for generations"
+      },
+      {
+        "id": "altan_khan",
+        "name": "Altan Khan",
+        "role": "ruler",
+        "years": "1507/1582",
+        "significance": "Built Hohhot; established formal relations with Tibet — invited the Dalai Lama title and Tibetan Buddhism; the decisive conversion of Mongols to Buddhism"
+      }
+    ]
   }
 ]

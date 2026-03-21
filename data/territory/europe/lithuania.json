@@ -1,0 +1,63 @@
+{
+  "id": "lithuania",
+  "name": "Lithuania",
+  "description": "The Baltic lowlands and forests of the eastern Baltic coast. Last pagan state in Europe; expanded rapidly in the 13th–14th century into a major power stretching from Baltic to Black Sea.",
+  "region": "europe",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -500,
+      "end": 1236,
+      "note": "Baltic tribes — Lithuanians, Latvians, and Old Prussians are the Baltic peoples, linguistically the closest living relatives of Proto-Indo-European. They inhabited the eastern Baltic coast and forests; skilled amber traders. Resistant to both Viking raids and Christianisation. The Teutonic Knights and Livonian Order began military pressure from the west and north from the 13th century.",
+      "dominant_ethnicity": "lithuanian",
+      "ethnic_composition": [
+        { "ethnicity": "lithuanian", "presence": "dominant — Baltic pagan tribal society; never Romanised, Germanised, or Slavicised" }
+      ]
+    },
+    {
+      "regime": "grand_duchy_of_lithuania",
+      "start": 1236,
+      "end": 1569,
+      "note": "Grand Duchy of Lithuania — Mindaugas united the Lithuanian tribes (1236) as a military necessity against the Teutonic Knights; briefly accepted Christianity and a papal crown (1251) then reverted to paganism after Mindaugas was assassinated (1263). The Duchy expanded explosively into the depopulated Rus lands after the Mongol invasion. At its peak under Vytautas (1392–1430) it stretched from the Baltic to the Black Sea — the largest state in Europe. Formally Christianised 1387 when Jogaila married Jadwiga of Poland. The Duchy's administrative language was Ruthenian (Old East Slavic), not Lithuanian — ruling a majority Orthodox Slavic population.",
+      "dominant_ethnicity": "lithuanian",
+      "ethnic_composition": [
+        { "ethnicity": "lithuanian", "presence": "ruling class and Baltic homeland" },
+        { "ethnicity": "east_slavic", "presence": "majority of the Duchy's subjects — Ruthenian (Ukrainian/Belarusian) Orthodox populations in conquered Rus territories" }
+      ]
+    },
+    {
+      "regime": "polish_lithuanian_commonwealth",
+      "start": 1569,
+      "end": 1795,
+      "note": "Commonwealth Lithuania — the Union of Lublin (1569) created the Commonwealth but transferred Ukraine directly to Poland. Lithuania retained its own institutions, law (Lithuanian Statute), and army within the Commonwealth. The Lithuanian nobility rapidly Polonised (adopted Polish language and culture); Lithuanian language was marginalized even in Lithuania proper. Partitions eliminated the Commonwealth.",
+      "dominant_ethnicity": "lithuanian",
+      "ethnic_composition": [
+        { "ethnicity": "lithuanian", "presence": "majority peasantry; ruling nobility Polonised" },
+        { "ethnicity": "polish", "presence": "ruling noble culture (Polonised Lithuanian szlachta)" },
+        { "ethnicity": "jewish", "presence": "significant urban population — Vilnius was called the Jerusalem of Lithuania" }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1795,
+      "end": 1918,
+      "note": "Russian Empire — Lithuania absorbed into the Russian Empire through the Third Partition. Russian authorities attempted Russification; Lithuanian language press banned 1864–1904 (books smuggled in from Prussia). Lithuanian national consciousness survived through the Catholic Church and underground publishing. The Lithuanian National Revival (Tautinis atgimimas) developed in the late 19th century.",
+      "dominant_ethnicity": "lithuanian",
+      "ethnic_composition": [
+        { "ethnicity": "lithuanian", "presence": "dominant majority — Lithuanian peasantry preserved language and Catholic identity" },
+        { "ethnicity": "jewish", "presence": "significant urban minority — Vilnius (Vilna) ~40% Jewish at times" }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1918,
+      "end": null,
+      "note": "Modern Lithuania — independence declared 1918. Occupied by Soviet Union 1940, then Nazi Germany 1941–1944; virtually the entire Jewish population (250,000) murdered in the Holocaust. Reoccupied by USSR 1944; Lithuanian Soviet Republic. Declared independence again 1990 — the first Soviet republic to do so; independence recognised 1991. NATO and EU member 2004.",
+      "dominant_ethnicity": "lithuanian",
+      "ethnic_composition": [
+        { "ethnicity": "lithuanian", "presence": "dominant (~85%) — post-war homogenisation after Holocaust and Soviet deportations" }
+      ]
+    }
+  ]
+}

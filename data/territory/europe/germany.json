@@ -1,0 +1,175 @@
+{
+  "id": "germany",
+  "name": "Germany (East Francia / HRE)",
+  "description": "The German-speaking lands of central Europe — East Francia, then the Holy Roman Empire's German heartland. Fractured into hundreds of principalities but united by language and imperial structure.",
+  "region": "europe",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -500,
+      "end": 9,
+      "note": "Free Germanic tribes — Cherusci, Suebi, Saxons, Franks, Alemanni, etc. Rome attempted conquest east of the Rhine; annihilated at the Battle of Teutoburg Forest (9 CE) where Arminius destroyed three Roman legions. The Rhine became the permanent frontier.",
+      "dominant_ethnicity": "germanic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "germanic",
+          "presence": "dominant — diverse tribal confederations"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 9,
+      "end": 486,
+      "note": "Free Germanic borderland — Romans held the Rhine and upper Danube limes (Romanised left bank) while Germanic tribes remained east. Great Migration from 376 pushed Goths, Vandals, and others westward; Hunnic pressure accelerated the final collapse of the Rhine frontier in 406.",
+      "dominant_ethnicity": "germanic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "germanic",
+          "presence": "dominant east of Rhine"
+        },
+        {
+          "ethnicity": "latin",
+          "presence": "Romanised populations in Rhine cities (Cologne, Mainz, Trier)"
+        }
+      ]
+    },
+    {
+      "regime": "carolingian_empire",
+      "start": 486,
+      "end": 843,
+      "note": "Frankish/Carolingian Empire — Clovis unified the Franks (486); Charlemagne conquered and forcibly Christianised the Saxons (772–804); at his death (814) the empire covered modern France, Germany, and Italy. Treaty of Verdun (843) split the empire three ways.",
+      "dominant_ethnicity": "germanic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "germanic",
+          "presence": "dominant — Franks, Saxons, Alemanni, Bavarians, Thuringians all Germanic"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 843,
+      "end": 962,
+      "note": "East Francia — the German-speaking eastern third after Verdun. Louis the German's kingdom; Magyar raids from the east devastated the region until Otto I's decisive victory at Lechfeld (955). Otto's victory made him king-emperor-in-waiting.",
+      "dominant_ethnicity": "germanic",
+      "ethnic_composition": [
+        {
+          "ethnicity": "germanic",
+          "presence": "dominant — Old High German dialects consolidating"
+        },
+        {
+          "ethnicity": "slavic",
+          "presence": "eastern frontier (Elbe-Saale line) — Sorbs, Poles, Wends"
+        }
+      ]
+    },
+    {
+      "regime": "holy_roman_empire",
+      "start": 962,
+      "end": 1806,
+      "note": "Holy Roman Empire of the German Nation — the HRE became increasingly identified as the German political structure. Never truly unified: always an elective monarchy where princes resisted central authority. Thirty Years' War (1618–1648) devastated Germany, killing a third of the population in some regions; Peace of Westphalia confirmed German territorial fragmentation.",
+      "dominant_ethnicity": "german",
+      "ethnic_composition": [
+        {
+          "ethnicity": "german",
+          "presence": "dominant — distinct regional identities (Prussian, Bavarian, Saxon, Rhenish) but shared German language and culture"
+        },
+        {
+          "ethnicity": "slavic",
+          "presence": "eastern territories — Sorbs, Czechs within imperial borders"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1806,
+      "end": 1871,
+      "note": "Confederation period — Napoleon dissolved the HRE and reorganised Germany into the Confederation of the Rhine (1806). After Napoleon: German Confederation (1815–1866) of 39 states under Austrian presidency. Prussian industrialisation and militarisation accelerated; 1866 Austro-Prussian War ended Austrian influence in Germany; 1867 North German Confederation under Prussia.",
+      "dominant_ethnicity": "german",
+      "ethnic_composition": [
+        {
+          "ethnicity": "german",
+          "presence": "dominant; German nationalism intensifying"
+        }
+      ]
+    },
+    {
+      "regime": "german_empire",
+      "start": 1871,
+      "end": 1918,
+      "dominant_ethnicity": "german",
+      "ethnic_composition": [
+        {
+          "ethnicity": "german",
+          "presence": "dominant (~92%)"
+        },
+        {
+          "ethnicity": "polish",
+          "presence": "significant minority in eastern Prussia and Silesia"
+        }
+      ]
+    },
+    {
+      "regime": "weimar_republic",
+      "start": 1918,
+      "end": 1933,
+      "note": "Weimar Republic — Germany's first democracy, born in defeat. Hyperinflation (1923), Great Depression, political extremism from both left and right. Parliamentary system structurally unstable; Adolf Hitler appointed Chancellor January 1933.",
+      "dominant_ethnicity": "german",
+      "ethnic_composition": [
+        {
+          "ethnicity": "german",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1933,
+      "end": 1945,
+      "note": "Third Reich (Nazi Germany) — Hitler's totalitarian state; systematic persecution and genocide of Jews (Holocaust, 6 million killed), Roma, disabled, and political opponents. World War II; Germany defeated by Allied coalition; unconditional surrender May 1945.",
+      "dominant_ethnicity": "german",
+      "ethnic_composition": [
+        {
+          "ethnicity": "german",
+          "presence": "dominant; Nazi ideology racialised identity"
+        },
+        {
+          "ethnicity": "jewish",
+          "presence": "targeted for extermination — 95% of German Jews murdered"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1945,
+      "end": 1990,
+      "note": "Division — West Germany (FRG, democratic, NATO, market economy) and East Germany (GDR, communist, Warsaw Pact). Berlin divided by the Wall from 1961. FRG integrated into Western Europe (founding member of EEC). GDR collapsed 1989; reunification October 1990.",
+      "dominant_ethnicity": "german",
+      "ethnic_composition": [
+        {
+          "ethnicity": "german",
+          "presence": "dominant in both states"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1990,
+      "end": null,
+      "note": "Federal Republic of Germany (unified) — largest economy in Europe; cornerstone of the EU and NATO; grapples with its Nazi past through Erinnerungskultur (culture of remembrance). Largest recipient of post-Cold War immigration in Europe.",
+      "dominant_ethnicity": "german",
+      "ethnic_composition": [
+        {
+          "ethnicity": "german",
+          "presence": "dominant majority"
+        },
+        {
+          "ethnicity": "turkic",
+          "presence": "significant (Turkish Gastarbeiter community since 1960s; ~4 million)"
+        }
+      ]
+    }
+  ]
+}

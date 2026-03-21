@@ -37,7 +37,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "hunnic_empire",
       "start": 370,
       "end": 453,
       "note": "Hunnic conquest — Huns shattered Gothic and Alan confederations; triggered the Migration Period",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "khazar_khaganate",
       "start": 650,
       "end": 969,
       "note": "Khazar Khaganate — Turkic state that adopted Judaism; crucial Byzantine ally against Islam",
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "golden_horde",
       "start": 1241,
       "end": 1502,
       "note": "Golden Horde — Mongol-Turkic khanate; collected tribute from Russian principalities",
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "crimean_khanate",
       "start": 1441,
       "end": 1783,
       "note": "Crimean Khanate — Ottoman vassal; last Mongol successor state on the steppe",

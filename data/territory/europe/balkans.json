@@ -76,7 +76,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "first_bulgarian_empire",
       "start": 681,
       "end": 1018,
       "note": "First Bulgarian Empire — Bulgar (Turkic) ruling class over Slavic majority; eventually Bulgar absorbed into Slavic",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "serbian_empire",
       "start": 1190,
       "end": 1389,
       "note": "Serbian Empire (Nemanjić dynasty) — medieval Serbian state at its peak under Stefan Dušan",

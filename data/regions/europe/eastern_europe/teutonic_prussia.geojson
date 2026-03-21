@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "teutonic_prussia",
+  "properties": {
+    "name": "Teutonic Prussia",
+    "territory": "prussia",
+    "periods": []
+  },
+  "geometry": null
+}

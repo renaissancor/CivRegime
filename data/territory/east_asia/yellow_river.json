@@ -160,6 +160,32 @@
           "presence": "overwhelming majority (~95%+)"
         }
       ]
+    },
+    {
+      "regime": "republic_of_china",
+      "start": 1912,
+      "end": 1949,
+      "note": "Republic of China — warlord era, Nationalist unification, Japanese invasion (Yellow River as major battleground — the 1938 Yellow River flood deliberately caused by Chiang Kai-shek killed hundreds of thousands to slow Japan), and Civil War",
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant (~94%)"
+        }
+      ]
+    },
+    {
+      "regime": "peoples_republic_of_china",
+      "start": 1949,
+      "end": null,
+      "note": "People's Republic of China — the Yellow River valley as China's agricultural heartland; major infrastructure investment in flood control; Three Gorges Dam upstream effects; ongoing challenges of desertification and water scarcity",
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant"
+        }
+      ]
     }
   ]
 }

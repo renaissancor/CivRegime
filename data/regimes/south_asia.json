@@ -175,5 +175,229 @@
         "significance": "Largest territorial extent; Sharia policies alienated Hindus; his death began the collapse"
       }
     ]
+  },
+  {
+    "id": "satavahana_empire",
+    "name": "Satavahana Empire",
+    "ruling_ethnicity": "dravidian",
+    "territories": [
+      "deccan"
+    ],
+    "start": -230,
+    "end": 220,
+    "note": "First great Deccan empire; established the bridge between northern Aryan and southern Dravidian cultures. Patronised both Hinduism and Buddhism. Their trade networks stretched to Rome.",
+    "cultural_language": "pali",
+    "ideology": {
+      "religion": "hinduism",
+      "government": "imperial_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "simuka",
+        "name": "Simuka",
+        "role": "founder",
+        "years": "?/-207",
+        "significance": "Founded the Satavahana dynasty after defeating the Maurya successor states"
+      },
+      {
+        "id": "gautamiputra_satakarni",
+        "name": "Gautamiputra Satakarni",
+        "role": "ruler",
+        "years": "78/102",
+        "significance": "Greatest Satavahana ruler; defeated the Western Satraps (Saka rulers); the first major Indian king to claim exclusively Indian descent against foreign rulers"
+      }
+    ]
+  },
+  {
+    "id": "harsha_empire",
+    "name": "Harsha Empire",
+    "ruling_ethnicity": "indo_aryan",
+    "territories": [
+      "ganges_plain"
+    ],
+    "start": 606,
+    "end": 647,
+    "note": "Last major Hindu-Buddhist empire of the Ganges plain before the Islamic conquests. Harsha personally wrote Sanskrit plays and patronised the scholar Xuanzang (the Chinese pilgrim whose journey inspired Journey to the West). His empire collapsed immediately after his death, leaving no successors.",
+    "cultural_language": "classical_sanskrit",
+    "ideology": {
+      "religion": "buddhism",
+      "government": "imperial_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "harshavardhana",
+        "name": "Harshavardhana",
+        "role": "ruler",
+        "years": "590/647",
+        "significance": "Unified northern India after the Gupta collapse; patron of Nalanda university; personally practiced Buddhism while ruling a Hindu state; wrote three Sanskrit plays"
+      }
+    ]
+  },
+  {
+    "id": "pala_empire",
+    "name": "Pala Empire",
+    "ruling_ethnicity": "indo_aryan",
+    "territories": [
+      "ganges_plain"
+    ],
+    "start": 750,
+    "end": 1200,
+    "note": "The last great Buddhist empire of India; patrons of Nalanda and Vikramashila universities — the apex of Indian Buddhist scholarship. Their fall to the Ghurids (1203) and the subsequent destruction of Nalanda (1203) effectively ended institutional Buddhism in India.",
+    "cultural_language": "pali",
+    "ideology": {
+      "religion": "buddhism",
+      "government": "feudal_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "dharmapala",
+        "name": "Dharmapala",
+        "role": "ruler",
+        "years": "770/810",
+        "significance": "Second and greatest Pala king; expanded the empire from Bengal to Afghanistan; built Vikramashila university"
+      },
+      {
+        "id": "devapala",
+        "name": "Devapala",
+        "role": "ruler",
+        "years": "810/850",
+        "significance": "Extended Pala power to its greatest extent; maintained relations with Srivijaya in Southeast Asia; endowed Nalanda monastery"
+      }
+    ]
+  },
+  {
+    "id": "vijayanagara_empire",
+    "name": "Vijayanagara Empire",
+    "ruling_ethnicity": "dravidian",
+    "territories": [
+      "deccan"
+    ],
+    "start": 1336,
+    "end": 1646,
+    "note": "The last great Hindu empire; for three centuries it was the bulwark of Hindu civilisation against the Muslim Deccan sultanates. Founded by brothers Harihara and Bukka after escaping Delhi Sultanate captivity. The Battle of Talikota (1565) destroyed the capital Hampi — the ruins remain one of India's great historical sites.",
+    "cultural_language": "kannada",
+    "ideology": {
+      "religion": "hinduism",
+      "government": "imperial_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "krishnadevaraya",
+        "name": "Krishnadevaraya",
+        "role": "ruler",
+        "years": "1471/1529",
+        "significance": "Greatest Vijayanagara king; defeated all the Deccan sultanates; patronised Telugu literature — the golden age of Telugu culture; Hampi at its peak rivalled Rome in size"
+      },
+      {
+        "id": "rama_raya",
+        "name": "Rama Raya",
+        "role": "ruler",
+        "years": "?/1565",
+        "significance": "Manipulated the Deccan sultanates against each other until they united and destroyed him at Talikota; his death ended Vijayanagara as a great power"
+      }
+    ]
+  },
+  {
+    "id": "bahmani_sultanate",
+    "name": "Bahmani Sultanate",
+    "ruling_ethnicity": "turkic",
+    "territories": [
+      "deccan"
+    ],
+    "start": 1347,
+    "end": 1527,
+    "note": "The first major Muslim sultanate of the Deccan; founded by a revolt against Delhi. Fragmented into five successor sultanates (Adil Shahi, Nizam Shahi, Qutb Shahi, Imad Shahi, Barid Shahi) which fought Vijayanagara and each other for two centuries. Bidar was its capital.",
+    "cultural_language": "arabic",
+    "ideology": {
+      "religion": "sunni",
+      "government": "sultanate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "hasan_gangu_bahman",
+        "name": "Hasan Gangu Bahman",
+        "role": "founder",
+        "years": "?/1358",
+        "significance": "A soldier of Afghan origin who revolted against Delhi and founded the Bahmani Sultanate; the first independent Muslim power in the Deccan"
+      },
+      {
+        "id": "mahmud_gawan",
+        "name": "Mahmud Gawan",
+        "role": "administrator",
+        "years": "1411/1481",
+        "significance": "Persian scholar-statesman who modernised the Bahmani state; established a college at Bidar; executed on false treason charges — his death accelerated the sultanate's collapse"
+      }
+    ]
+  },
+  {
+    "id": "maratha_empire",
+    "name": "Maratha Empire",
+    "ruling_ethnicity": "indo_aryan",
+    "territories": [
+      "deccan"
+    ],
+    "start": 1674,
+    "end": 1818,
+    "note": "The Marathas challenged Mughal dominance and nearly unified India under Hindu rule before the British arrived. At their peak (1760) they controlled most of the subcontinent. The Third Battle of Panipat (1761) against the Afghans shattered Maratha power and opened the door for British expansion.",
+    "cultural_language": "marathi",
+    "ideology": {
+      "religion": "hinduism",
+      "government": "feudal_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "shivaji_bhonsle",
+        "name": "Shivaji Bhonsle",
+        "role": "founder",
+        "years": "1627/1680",
+        "significance": "Founded the Maratha kingdom through guerrilla warfare against Mughal and Bijapur forces; crowned Chhatrapati (sovereign) 1674; created the concept of Hindavi Swarajya (Hindu self-rule)"
+      },
+      {
+        "id": "bajirao_i",
+        "name": "Bajirao I",
+        "role": "ruler",
+        "years": "1700/1740",
+        "significance": "Greatest Peshwa (prime minister); never lost a battle; expanded Maratha territory from the Deccan to Delhi; the dominant military mind of 18th-century India"
+      }
+    ]
+  },
+  {
+    "id": "sikh_empire",
+    "name": "Sikh Empire",
+    "ruling_ethnicity": "punjabi_eth",
+    "territories": [
+      "punjab"
+    ],
+    "start": 1799,
+    "end": 1849,
+    "note": "Ranjit Singh unified the Sikh misls (confederacies) into the last major pre-British Indian empire. The Sikh army (Khalsa) trained by European officers was the most modern in Asia. The two Anglo-Sikh Wars ended Sikh independence — the Koh-i-Noor diamond was ceded to the British Crown.",
+    "cultural_language": "punjabi",
+    "ideology": {
+      "religion": "sikhism",
+      "government": "feudal_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "ranjit_singh",
+        "name": "Ranjit Singh",
+        "role": "founder",
+        "years": "1780/1839",
+        "significance": "The Lion of the Punjab; unified the Sikh misls at age 19; built a secular empire that welcomed Hindus, Muslims, and Europeans; kept the British at bay through diplomacy for 40 years"
+      },
+      {
+        "id": "hari_singh_nalwa",
+        "name": "Hari Singh Nalwa",
+        "role": "military",
+        "years": "1791/1837",
+        "significance": "Greatest Sikh general; conquered Peshawar and Kashmir; extended Sikh rule to the Khyber Pass — the first time India's northwest frontier was secured from Central Asian invasions"
+      }
+    ]
   }
 ]

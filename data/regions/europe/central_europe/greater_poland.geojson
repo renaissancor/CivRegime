@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "greater_poland",
+  "properties": {
+    "name": "Greater Poland (Wielkopolska)",
+    "territory": "poland",
+    "periods": []
+  },
+  "geometry": null
+}

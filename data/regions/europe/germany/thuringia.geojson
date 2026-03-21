@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "thuringia",
+  "properties": {
+    "name": "Thuringia",
+    "territory": "germany",
+    "periods": []
+  },
+  "geometry": null
+}

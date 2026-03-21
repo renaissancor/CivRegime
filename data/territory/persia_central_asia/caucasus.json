@@ -6,7 +6,7 @@
   "geo": null,
   "periods": [
     {
-      "regime": null,
+      "regime": "kingdom_of_urartu",
       "start": -860,
       "end": -590,
       "note": "Kingdom of Urartu — pre-Armenian Iron Age state centered around Lake Van",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "kingdom_of_armenia",
       "start": -190,
       "end": 428,
       "note": "Kingdom of Armenia — oscillated between Roman and Parthian/Sassanid spheres; first nation to adopt Christianity (301 AD)",
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "bagratid_armenia",
       "start": 885,
       "end": 1064,
       "note": "Bagratid kingdoms — Armenian and Georgian revival dynasties; cultural flourishing",

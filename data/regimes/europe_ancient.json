@@ -1,0 +1,347 @@
+[
+  {
+    "id": "carolingian_empire",
+    "name": "Frankish Kingdom / Carolingian Empire",
+    "ruling_ethnicity": "germanic",
+    "territories": ["gaul", "germany", "italy"],
+    "start": 486,
+    "end": 843,
+    "note": "Clovis I unified the Franks (486) and converted to Catholic Christianity, giving the Franks papal legitimacy. Charlemagne (768–814) conquered the Saxons, Lombards, and Avars; crowned Emperor by Pope Leo III on Christmas 800. The first attempt at a unified Western European empire since Rome. Treaty of Verdun (843) split the empire into West Francia (future France), East Francia (future Germany), and Middle Francia.",
+    "cultural_language": "latin",
+    "ideology": {
+      "religion": "catholic",
+      "government": "feudal_monarchy"
+    },
+    "policies": [
+      {
+        "id": "carolingian_renaissance",
+        "name": "Carolingian Renaissance",
+        "start": 780,
+        "end": 843,
+        "description": "Charlemagne's programme of educational and ecclesiastical reform — standardised Latin script (Caroline minuscule), monastic schools, uniform liturgy. Preserved classical learning through the Dark Ages."
+      }
+    ],
+    "figures": [
+      {
+        "id": "clovis_i",
+        "name": "Clovis I",
+        "role": "founder",
+        "years": "466/511",
+        "significance": "United the Frankish tribes; converted to Catholic Christianity 496 — the act that aligned the Franks with the papacy against the Arian Visigoths and Burgundians; baptism at Reims is the symbolic founding of Christian France"
+      },
+      {
+        "id": "charlemagne",
+        "name": "Charlemagne (Karl der Große)",
+        "role": "ruler",
+        "years": "747/814",
+        "significance": "The greatest medieval European ruler; unified most of western Europe; crowned Emperor 800; the 'Father of Europe'. Both France and Germany claim him as their founding king."
+      },
+      {
+        "id": "louis_pious",
+        "name": "Louis the Pious",
+        "role": "ruler",
+        "years": "778/840",
+        "significance": "Charlemagne's heir; pious but ineffective at holding the empire together against his sons' civil wars; his death triggered the Treaty of Verdun partition"
+      }
+    ]
+  },
+  {
+    "id": "visigothic_kingdom",
+    "name": "Visigothic Kingdom",
+    "ruling_ethnicity": "germanic",
+    "territories": ["iberia"],
+    "start": 418,
+    "end": 711,
+    "note": "The Visigoths settled in southwestern Gaul (Aquitaine) as foederati in 418; after defeat by Clovis at Vouillé (507) they retreated to Iberia, making Toledo their capital. Converted from Arianism to Catholicism in 589 under Reccared — the defining event that integrated Visigothic and Hispano-Roman populations. Destroyed by the Muslim Umayyad invasion of 711.",
+    "cultural_language": "latin",
+    "ideology": {
+      "religion": "catholic",
+      "government": "feudal_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "reccared_i",
+        "name": "Reccared I",
+        "role": "ruler",
+        "years": "559/601",
+        "significance": "Converted the Visigothic kingdom from Arianism to Catholicism at the Third Council of Toledo (589) — unified Goths and Romans under one church; the most important act of Visigothic kingship"
+      },
+      {
+        "id": "rodrigo_visigoth",
+        "name": "Rodrigo (Roderic)",
+        "role": "ruler",
+        "years": "?/711",
+        "significance": "Last Visigothic king; defeated and killed at the Battle of Guadalete (711) by the Umayyad Muslim army under Tariq ibn Ziyad — the end of Visigothic Spain"
+      }
+    ]
+  },
+  {
+    "id": "al_andalus",
+    "name": "Al-Andalus",
+    "ruling_ethnicity": "semitic",
+    "territories": ["iberia"],
+    "start": 711,
+    "end": 1492,
+    "note": "The Muslim-ruled territory of Iberia from the Umayyad conquest (711) to the fall of Granada (1492). At its peak (8th–10th centuries) Al-Andalus was the most sophisticated civilisation in Europe — Córdoba rivalled Constantinople and Baghdad. The Caliphate of Córdoba (929–1031) under Abd ar-Rahman III was the golden age. After 1031 it fragmented into taifa kingdoms; the Almoravid (1086) and Almohad (1147) Berber dynasties revived Muslim power but with more rigid Islamic orthodoxy. The Christian Reconquista progressively reduced Al-Andalus until only Granada remained (1238–1492). Concurrent with Christian kingdoms in the north throughout.",
+    "cultural_language": "arabic",
+    "ideology": {
+      "religion": "sunni",
+      "government": "caliphate"
+    },
+    "policies": [
+      {
+        "id": "cordoba_caliphate",
+        "name": "Caliphate of Córdoba",
+        "start": 929,
+        "end": 1031,
+        "description": "Abd ar-Rahman III declared himself Caliph in 929, making Al-Andalus fully independent of the Abbasids. Córdoba became one of the largest cities in Europe; the Great Mosque, madrasas, and a sophisticated bureaucracy made it the intellectual capital of the western world."
+      }
+    ],
+    "figures": [
+      {
+        "id": "tariq_ibn_ziyad",
+        "name": "Tariq ibn Ziyad",
+        "role": "military",
+        "years": "670/720",
+        "significance": "Led the Umayyad invasion of Iberia (711); crossed from Africa to Gibraltar (Jabal Tariq — 'Mountain of Tariq'); his 7,000-man army destroyed the Visigothic kingdom in a single battle"
+      },
+      {
+        "id": "abd_al_rahman_iii",
+        "name": "Abd al-Rahman III",
+        "role": "ruler",
+        "years": "889/961",
+        "significance": "Declared Caliph of Córdoba (929); presided over the golden age of Al-Andalus; Córdoba under his rule was the most sophisticated city in Europe"
+      },
+      {
+        "id": "averroes",
+        "name": "Averroes (Ibn Rushd)",
+        "role": "cultural",
+        "years": "1126/1198",
+        "significance": "The greatest Islamic philosopher; his commentaries on Aristotle transmitted classical Greek philosophy to medieval Europe through Latin translations — sparked the European scholastic tradition"
+      },
+      {
+        "id": "boabdil",
+        "name": "Muhammad XII (Boabdil)",
+        "role": "ruler",
+        "years": "1460/1533",
+        "significance": "Last ruler of Granada; surrendered the Alhambra to Ferdinand and Isabella on January 2, 1492 — the last Muslim ruler in Iberia. Legend: he wept as he left, and his mother said 'Weep like a woman for what you could not defend as a man'"
+      }
+    ]
+  },
+  {
+    "id": "ostrogothic_kingdom",
+    "name": "Ostrogothic Kingdom of Italy",
+    "ruling_ethnicity": "germanic",
+    "territories": ["italy"],
+    "start": 493,
+    "end": 553,
+    "note": "Theodoric the Great established the most sophisticated post-Roman Germanic kingdom — a genuine synthesis of Gothic and Roman culture. He ruled through the existing Roman administrative machinery while keeping Goths as the military class. His court at Ravenna patronised art and philosophy (Boethius wrote the Consolation of Philosophy in his prison). Destroyed by the Byzantine reconquest under Justinian I (Gothic Wars 535–554).",
+    "cultural_language": "latin",
+    "ideology": {
+      "religion": "catholic",
+      "government": "feudal_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "theodoric_great",
+        "name": "Theodoric the Great",
+        "role": "founder",
+        "years": "454/526",
+        "significance": "Conquered Italy by killing Odoacer at a peace banquet (493); ruled the most sophisticated post-Roman Germanic state; his court at Ravenna preserved Roman learning; the closest thing to a 'barbarian king who was also a Roman statesman'"
+      },
+      {
+        "id": "boethius",
+        "name": "Boethius",
+        "role": "cultural",
+        "years": "477/524",
+        "significance": "Roman senator and philosopher at Theodoric's court; wrote the Consolation of Philosophy while awaiting execution; the most widely read book in medieval Europe after the Bible"
+      }
+    ]
+  },
+  {
+    "id": "lombard_kingdom",
+    "name": "Kingdom of the Lombards",
+    "ruling_ethnicity": "germanic",
+    "territories": ["italy"],
+    "start": 568,
+    "end": 774,
+    "note": "The Lombards (Langobards) invaded northern Italy in 568, exploiting the devastation left by the Gothic Wars. Unlike the Ostrogoths, they did not attempt to preserve Roman structures — their conquest was destructive and their integration slow. By the 8th century they had converted from Arianism to Catholicism and were partially Romanised. Pope Stephen II invited Charlemagne's father Pippin III, then Charlemagne himself (773–774), to defeat the Lombards; Charlemagne dissolved the kingdom and added 'King of the Lombards' to his titles.",
+    "cultural_language": "latin",
+    "ideology": {
+      "religion": "catholic",
+      "government": "feudal_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "alboin",
+        "name": "Alboin",
+        "role": "founder",
+        "years": "?/572",
+        "significance": "Led the Lombard invasion of Italy (568); conquered the Po Valley; established the kingdom with Pavia as capital; assassinated by his wife Rosamund (he had made a drinking cup from her father's skull)"
+      },
+      {
+        "id": "liutprand_lombard",
+        "name": "Liutprand",
+        "role": "ruler",
+        "years": "690/744",
+        "significance": "Greatest Lombard king; expanded territory, reformed laws, patronised the church; his campaigns against Rome prompted the papacy to seek Frankish protection — ultimately leading to the Carolingian conquest"
+      }
+    ]
+  },
+  {
+    "id": "first_bulgarian_empire",
+    "name": "First Bulgarian Empire",
+    "ruling_ethnicity": "south_slavic",
+    "territories": ["balkans"],
+    "start": 681,
+    "end": 1018,
+    "note": "Founded by Bulgars (a Turkic/steppe people) who subjugated Slavic tribes south of the Danube; the ruling Bulgar class was rapidly absorbed by the Slavic majority. Christianised under Boris I (864) who chose Constantinople over Rome — defining Bulgaria as Orthodox. The Golden Age under Simeon I (893–927) saw Bulgaria become the dominant Balkan power, rivalling Byzantium. Destroyed by Byzantine Emperor Basil II 'the Bulgar-Slayer' at the Battle of Kleidion (1014); he blinded 15,000 prisoners.",
+    "cultural_language": "old_church_slavonic",
+    "ideology": {
+      "religion": "eastern_orthodox",
+      "government": "feudal_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "asparuh",
+        "name": "Asparuh (Asparukh)",
+        "role": "founder",
+        "years": "644/701",
+        "significance": "Led the Bulgars across the Danube and defeated Byzantium (681); founded the First Bulgarian Empire; Bulgaria is the oldest state in Europe whose name has not changed"
+      },
+      {
+        "id": "simeon_i_great",
+        "name": "Simeon I the Great",
+        "role": "ruler",
+        "years": "864/927",
+        "significance": "The Bulgarian Golden Age; defeated Byzantium multiple times; claimed title of Emperor (Tsar) of the Bulgarians and Romans; patron of Old Church Slavonic literature"
+      },
+      {
+        "id": "basil_ii_nemesis",
+        "name": "Basil II's Destruction",
+        "role": "military",
+        "years": "958/1025",
+        "significance": "Byzantine Emperor who finally destroyed the First Bulgarian Empire; blinded 15,000 Bulgarian prisoners (1014); earned the epithet 'Bulgar-Slayer'"
+      }
+    ]
+  },
+  {
+    "id": "serbian_empire",
+    "name": "Serbian Empire (Nemanjić Dynasty)",
+    "ruling_ethnicity": "south_slavic",
+    "territories": ["balkans"],
+    "start": 1190,
+    "end": 1389,
+    "note": "Stefan Nemanja founded the medieval Serbian state (1168). His son Sava established the Serbian Orthodox Church (1219) — the key institution of Serbian national identity. Stefan Dušan (1331–1355) expanded Serbia to its greatest extent (Macedonia, Albania, Greece) and crowned himself Emperor of the Serbs and Greeks. The empire collapsed after his death; the Battle of Kosovo (1389) against the Ottomans ended Serbian independence for five centuries.",
+    "cultural_language": "old_church_slavonic",
+    "ideology": {
+      "religion": "eastern_orthodox",
+      "government": "feudal_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "stefan_nemanja",
+        "name": "Stefan Nemanja",
+        "role": "founder",
+        "years": "1113/1199",
+        "significance": "Founded the Nemanjić dynasty and unified the Serbian tribes; abdicated to become a monk (Saint Simeon); his son Sava established the autocephalous Serbian Orthodox Church"
+      },
+      {
+        "id": "stefan_dusan",
+        "name": "Stefan Dušan",
+        "role": "ruler",
+        "years": "1308/1355",
+        "significance": "The greatest Serbian medieval ruler; crowned Emperor of the Serbs and Greeks 1346; expanded Serbia across the Balkans; his legal code (Dušan's Code) remains foundational"
+      },
+      {
+        "id": "lazar_hrebeljanovic",
+        "name": "Lazar Hrebeljanović",
+        "role": "military",
+        "years": "1329/1389",
+        "significance": "Led the Serbian coalition at the Battle of Kosovo (1389) against the Ottomans; killed in battle; became a martyr saint of the Serbian Orthodox Church; Kosovo remains the most sacred site in Serbian national memory"
+      }
+    ]
+  },
+  {
+    "id": "ghaznavid_empire",
+    "name": "Ghaznavid Empire",
+    "ruling_ethnicity": "turkic",
+    "territories": ["khorasan", "transoxiana", "indus_valley", "punjab"],
+    "start": 977,
+    "end": 1186,
+    "note": "Founded by Sebüktigin, a Turkish slave-soldier (ghulam) who rose to govern Ghazni (modern Afghanistan) under the Samanids. His son Mahmud of Ghazni (998–1030) transformed it into a great empire, launching 17 raids into the Indian subcontinent — breaking the Hindu Shahi kingdoms and establishing Islam in the Punjab. The Ghaznavids were patrons of Persian language and literature (the Shahnameh was written for Mahmud). Destroyed by the Ghurids.",
+    "cultural_language": "new_persian",
+    "ideology": {
+      "religion": "sunni",
+      "government": "sultanate"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "mahmud_of_ghazni",
+        "name": "Mahmud of Ghazni",
+        "role": "ruler",
+        "years": "971/1030",
+        "significance": "Greatest Ghaznavid ruler; 17 raids into India; destroyed the Hindu Shahi kingdom; sacked the temple of Somnath (1025); patron of Persian literature — Ferdowsi's Shahnameh was dedicated to him"
+      },
+      {
+        "id": "ferdowsi",
+        "name": "Ferdowsi",
+        "role": "cultural",
+        "years": "940/1020",
+        "significance": "Persian poet who wrote the Shahnameh (Book of Kings) at Mahmud's court — the national epic of Iran; preserved pre-Islamic Persian history and myth; one of the greatest works of world literature"
+      }
+    ]
+  },
+  {
+    "id": "russian_empire",
+    "name": "Russian Empire",
+    "ruling_ethnicity": "east_slavic",
+    "territories": ["kievan_rus"],
+    "start": 1721,
+    "end": 1917,
+    "note": "Peter the Great declared the Russian Empire in 1721 after the Great Northern War victory over Sweden. Peter's Westernisation programme transformed Russia into a European Great Power. Catherine the Great (1762–1796) expanded the empire south (Crimea) and west (Poland partitions). 19th-century Russia was the largest state in the world by land area. Defeated in Crimea (1853–56) and Japan (1904–5); autocracy resisted reform until too late; collapsed in Revolution 1917.",
+    "cultural_language": "russian",
+    "ideology": {
+      "religion": "eastern_orthodox",
+      "government": "absolute_monarchy"
+    },
+    "policies": [
+      {
+        "id": "westernisation",
+        "name": "Petrine Westernisation",
+        "start": 1697,
+        "end": 1725,
+        "description": "Peter the Great's programme of forcing Russia into European modernity: built a Western navy, reformed the calendar and alphabet, moved the capital to St Petersburg, ordered nobles to wear Western dress and shave beards. Brutal and effective."
+      }
+    ],
+    "figures": [
+      {
+        "id": "peter_great",
+        "name": "Peter the Great",
+        "role": "founder",
+        "years": "1672/1725",
+        "significance": "Transformed Russia from an isolated Muscovite tsardom into a European Great Power; founded St Petersburg; built the Russian navy; defeated Sweden at Poltava; declared the Russian Empire"
+      },
+      {
+        "id": "catherine_great",
+        "name": "Catherine the Great",
+        "role": "ruler",
+        "years": "1729/1796",
+        "significance": "Greatest Russian tsarina; conquered Crimea; participated in the three Polish partitions; corresponded with Voltaire and Diderot; patron of the Enlightenment while ruling autocratically"
+      },
+      {
+        "id": "nicholas_ii",
+        "name": "Nicholas II",
+        "role": "ruler",
+        "years": "1868/1918",
+        "significance": "Last tsar; stubborn defender of autocracy against all reform; Russia's defeats in WWI triggered the Revolutions of 1917; abdicated February 1917; executed with his family by Bolsheviks July 1918"
+      }
+    ]
+  }
+]

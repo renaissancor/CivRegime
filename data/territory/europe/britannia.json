@@ -1,0 +1,105 @@
+{
+  "id": "britannia",
+  "name": "Britannia / England",
+  "description": "The island of Britain south of the Scottish Highlands — modern England and Wales. Core zone of Roman Britain, Anglo-Saxon kingdoms, and the medieval English state.",
+  "region": "europe",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -800,
+      "end": -43,
+      "note": "Iron Age Celtic Britain — Brittonic tribes (Catuvellauni, Iceni, Trinovantes, etc.); hillfort culture; Druids; traded with Gaul and the Mediterranean",
+      "dominant_ethnicity": "celtic",
+      "ethnic_composition": [
+        { "ethnicity": "celtic", "presence": "dominant (Brittonic)" }
+      ]
+    },
+    {
+      "regime": "roman_empire",
+      "start": -43,
+      "end": 410,
+      "dominant_ethnicity": "celtic",
+      "ethnic_composition": [
+        { "ethnicity": "latin", "presence": "ruling/administrative; Roman towns, villas, and roads; Britannia was one of the most heavily garrisoned provinces" },
+        { "ethnicity": "celtic", "presence": "dominant majority (Romanised in south; barely touched in north and Wales)" },
+        { "ethnicity": "germanic", "presence": "late-period Saxon shore settlers and foederati" }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 410,
+      "end": 927,
+      "note": "Anglo-Saxon Migration and Heptarchy — waves of Angles, Saxons, and Jutes from northwestern Germany displaced or absorbed the Brittonic population; seven kingdoms emerged (Northumbria, Mercia, East Anglia, Wessex, Essex, Kent, Sussex). Viking Great Heathen Army arrived 865; Alfred the Great of Wessex contained them. Conversion to Christianity from 597 (Augustine's mission).",
+      "dominant_ethnicity": "germanic",
+      "ethnic_composition": [
+        { "ethnicity": "germanic", "presence": "dominant — Anglo-Saxon settlers replaced Brittonic as ruling class; Old English language established" },
+        { "ethnicity": "celtic", "presence": "surviving in Wales, Cornwall, and Cumbria" },
+        { "ethnicity": "norse", "presence": "Danelaw (Yorkshire, East Midlands) from late 9th century" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_england",
+      "start": 927,
+      "end": 1066,
+      "note": "Æthelstan unified England 927; briefly lost to Danish King Cnut 1013–1042 (Cnut ruled England, Denmark, and Norway simultaneously). Edward the Confessor restored Wessex line; died childless 1066, triggering the succession crisis.",
+      "dominant_ethnicity": "germanic",
+      "ethnic_composition": [
+        { "ethnicity": "germanic", "presence": "dominant (Anglo-Saxon English — Old English language, thegn-based society)" },
+        { "ethnicity": "norse", "presence": "significant in Danelaw regions; assimilating into English" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_england",
+      "start": 1066,
+      "end": 1485,
+      "note": "Norman Conquest 1066 — William's victory at Hastings replaced the entire Anglo-Saxon aristocracy with Norman French. For 200 years the ruling class spoke French while the peasantry spoke English; by 1300 the languages had merged into Middle English. Plantagenet dynasty (1154) brought more continental entanglement. Magna Carta 1215. Hundred Years' War 1337–1453.",
+      "dominant_ethnicity": "english",
+      "ethnic_composition": [
+        { "ethnicity": "norman", "presence": "ruling class (crown, nobility, church) — French-speaking for two centuries" },
+        { "ethnicity": "germanic", "presence": "dominant majority (Anglo-Saxon peasantry, then English-speaking middle class)" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_england",
+      "start": 1485,
+      "end": 1603,
+      "note": "Tudor England — Henry VII ended the Wars of the Roses; Henry VIII broke with Rome (1534) and created the Church of England; Elizabeth I presided over the Elizabethan golden age (Shakespeare, Drake, Raleigh). Spanish Armada defeated 1588.",
+      "dominant_ethnicity": "english",
+      "ethnic_composition": [
+        { "ethnicity": "english", "presence": "dominant — post-Norman composite English identity fully consolidated" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_england",
+      "start": 1603,
+      "end": 1707,
+      "note": "Stuart era — James I united English and Scottish crowns in personal union; Civil War 1642–1651 (Charles I executed); Cromwellian Commonwealth; Restoration 1660; Glorious Revolution 1688 established constitutional monarchy; culminating in the Act of Union with Scotland 1707.",
+      "dominant_ethnicity": "english",
+      "ethnic_composition": [
+        { "ethnicity": "english", "presence": "dominant" },
+        { "ethnicity": "gaelic", "presence": "Irish minority, subject people under English plantation policy" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_great_britain",
+      "start": 1707,
+      "end": 1801,
+      "dominant_ethnicity": "english",
+      "ethnic_composition": [
+        { "ethnicity": "english", "presence": "dominant majority" },
+        { "ethnicity": "gaelic", "presence": "Scottish Highlanders and Irish — subordinate; Highland Clearances begin" }
+      ]
+    },
+    {
+      "regime": "united_kingdom",
+      "start": 1801,
+      "end": null,
+      "dominant_ethnicity": "english",
+      "ethnic_composition": [
+        { "ethnicity": "english", "presence": "dominant" },
+        { "ethnicity": "gaelic", "presence": "Irish (Great Famine 1845–52 halved the Irish population); Scottish" }
+      ]
+    }
+  ]
+}

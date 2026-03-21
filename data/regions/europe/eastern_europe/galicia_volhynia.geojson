@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "galicia_volhynia",
+  "properties": {
+    "name": "Galicia-Volhynia",
+    "territory": "kievan_rus",
+    "periods": []
+  },
+  "geometry": null
+}

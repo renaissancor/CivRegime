@@ -19,7 +19,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "goguryeo",
       "start": 37,
       "end": 668,
       "note": "Goguryeo — Korean kingdom that controlled northern Manchuria and Korean peninsula",
@@ -128,6 +128,61 @@
         {
           "ethnicity": "han",
           "presence": "increasing — mass migration of Han settlers from 19th century"
+        }
+      ]
+    },
+    {
+      "regime": "republic_of_china",
+      "start": 1912,
+      "end": 1931,
+      "note": "ROC Manchuria — warlord Zhang Zuolin ruled Manchuria semi-independently; the Mukden Incident (September 18, 1931) — Japanese Kwantung Army staged a false flag explosion on their own railway to justify invasion",
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant (Han settlers outnumbered Manchu by 20:1)"
+        },
+        {
+          "ethnicity": "korean_eth",
+          "presence": "significant minority in border regions"
+        }
+      ]
+    },
+    {
+      "regime": "manchukuo",
+      "start": 1932,
+      "end": 1945,
+      "note": "Manchukuo — Japanese puppet state; rapid industrialisation as Japan's industrial base; site of Unit 731 biological warfare experiments; Soviet invasion August 1945 ended Japanese control in days",
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant majority"
+        },
+        {
+          "ethnicity": "korean_eth",
+          "presence": "significant — Japan relocated Korean laborers to Manchurian factories"
+        },
+        {
+          "ethnicity": "japanese",
+          "presence": "colonial ruling class (military and civilian administrators)"
+        }
+      ]
+    },
+    {
+      "regime": "peoples_republic_of_china",
+      "start": 1949,
+      "end": null,
+      "note": "PRC Manchuria (Northeast China / Dongbei) — inherited Japanese-built industrial infrastructure; became China's rust belt as Soviet-style heavy industry declined; currently facing demographic decline and economic restructuring",
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant (>90%)"
+        },
+        {
+          "ethnicity": "korean_eth",
+          "presence": "Joseonjok community in Yanbian Prefecture"
         }
       ]
     }

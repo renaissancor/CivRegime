@@ -1,0 +1,103 @@
+{
+  "id": "scotland",
+  "name": "Scotland",
+  "description": "The northern third of Britain, north of the Firth of Forth. Homeland of the Picts, Gaels, and eventually the unified Kingdom of Scotland.",
+  "region": "europe",
+  "geo": null,
+  "periods": [
+    {
+      "regime": null,
+      "start": -700,
+      "end": 80,
+      "note": "Pictish and Brittonic tribes — the Caledonians and related peoples. The Romans failed to conquer the north; Hadrian's Wall (122 CE) was built as the permanent frontier. Picts remain poorly documented — no surviving Pictish texts.",
+      "dominant_ethnicity": "celtic",
+      "ethnic_composition": [
+        { "ethnicity": "celtic", "presence": "dominant — Pictish (P-Celtic) in the east and centre; Brittonic in the southwest; proto-Gaelic settlers from Ireland (Dál Riata) in the west" }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 80,
+      "end": 400,
+      "note": "Roman frontier zone — Rome briefly pushed north (Agricola's campaigns 79–84 CE; Antonine Wall 142–162 CE) but never permanently held Scotland. The Picts raided Roman Britain continuously. Roman material culture reached Scotland through trade, not conquest.",
+      "dominant_ethnicity": "celtic",
+      "ethnic_composition": [
+        { "ethnicity": "celtic", "presence": "dominant — Pictish tribes; no significant Roman settlement" }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 400,
+      "end": 843,
+      "note": "Four kingdoms period — Scotland contained four distinct peoples: Picts (northeast), Gaels of Dál Riata (west, Irish origin), Britons of Strathclyde (southwest), and Angles of Bernicia (southeast). Irish missionary Christianity arrived via Iona (Columba, 563). Norse raids from 793; Norse settlement of the northern isles.",
+      "dominant_ethnicity": "celtic",
+      "ethnic_composition": [
+        { "ethnicity": "celtic", "presence": "dominant — Pictish, Gaelic, and Brittonic peoples" },
+        { "ethnicity": "germanic", "presence": "Anglian kingdom of Northumbria in the southeast" },
+        { "ethnicity": "norse", "presence": "coastal and island raiding from 793; Orkney and Shetland heavily settled" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_scotland",
+      "start": 843,
+      "end": 1286,
+      "note": "Kenneth MacAlpin united Picts and Gaels; Gaelic became the prestige language of the court. Malcolm III (1058–1093) married the Anglo-Saxon princess Margaret, beginning the Normanisation of the Scottish court. By 1200 the lowland nobility was French-speaking and the legal system Norman; Gaelic retreated to the Highlands.",
+      "dominant_ethnicity": "gaelic",
+      "ethnic_composition": [
+        { "ethnicity": "gaelic", "presence": "dominant Gaelic culture through 11th century; then receding to Highlands" },
+        { "ethnicity": "norman", "presence": "court and nobility from Malcolm III onwards" },
+        { "ethnicity": "norse", "presence": "Orkney, Shetland, and Western Isles — semi-independent Norse lordships" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_scotland",
+      "start": 1286,
+      "end": 1371,
+      "note": "Wars of Independence — death of Alexander III (1286) with no direct heir triggered a succession crisis; Edward I of England invaded and claimed lordship. William Wallace and Robert Bruce led the resistance; Bannockburn (1314) secured independence. Declaration of Arbroath (1320). Bruce dynasty ended 1371.",
+      "dominant_ethnicity": "scottish",
+      "ethnic_composition": [
+        { "ethnicity": "scottish", "presence": "consolidating Scots (Germanic lowland) and Gaelic (Highland) dual identity under pressure of English invasion" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_scotland",
+      "start": 1371,
+      "end": 1603,
+      "note": "Stewart/Stuart dynasty — Scotland developed a rich late medieval culture; James IV (d. 1513) was the Renaissance prince of the north; Battle of Flodden 1513. Mary Queen of Scots' reign ended in deposition; her son James VI inherited England 1603 as James I, creating the personal union.",
+      "dominant_ethnicity": "scottish",
+      "ethnic_composition": [
+        { "ethnicity": "scottish", "presence": "dominant — Scots (Lowland) and Gaelic (Highland) — deepening cultural divide" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_england",
+      "start": 1603,
+      "end": 1707,
+      "note": "Personal union of Crowns — James VI/I ruled England and Scotland through the same king but as separate kingdoms with separate parliaments. English Civil War affected Scotland; Cromwell conquered Scotland 1651. Parliaments remained separate until 1707.",
+      "dominant_ethnicity": "scottish",
+      "ethnic_composition": [
+        { "ethnicity": "scottish", "presence": "dominant" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_great_britain",
+      "start": 1707,
+      "end": 1801,
+      "note": "Acts of Union 1707 merged Scottish and English parliaments. Scotland retained its legal system (Scots law) and Presbyterian Kirk. Highland Jacobite rebellions (1715, 1745); Jacobite defeat at Culloden 1746 triggered the systematic destruction of Highland clan culture.",
+      "dominant_ethnicity": "scottish",
+      "ethnic_composition": [
+        { "ethnicity": "scottish", "presence": "dominant; Lowland Scots rapidly integrating into British identity" },
+        { "ethnicity": "gaelic", "presence": "Highland Gaels — marginalised; Highland Clearances beginning" }
+      ]
+    },
+    {
+      "regime": "united_kingdom",
+      "start": 1801,
+      "end": null,
+      "dominant_ethnicity": "scottish",
+      "ethnic_composition": [
+        { "ethnicity": "scottish", "presence": "dominant — Scottish identity preserved within British state" }
+      ]
+    }
+  ]
+}

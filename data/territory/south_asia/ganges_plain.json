@@ -44,7 +44,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "harsha_empire",
       "start": 606,
       "end": 647,
       "note": "Harsha Empire — last major Hindu empire of the Ganges plain before Muslim invasions",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "pala_empire",
       "start": 750,
       "end": 1200,
       "note": "Pala Empire (Buddhist) and Gurjara-Pratihara (Hindu) — rival empires; Pala patronized Buddhism's last Indian stronghold",
@@ -106,6 +106,36 @@
         {
           "ethnicity": "indo_aryan",
           "presence": "dominant; Agra and Delhi as twin capitals"
+        }
+      ]
+    },
+    {
+      "regime": "british_raj",
+      "start": 1857,
+      "end": 1947,
+      "note": "British Raj — Sepoy Mutiny (1857) ended Company rule; Crown took over. Delhi as symbolic Mughal capital replaced by Calcutta then New Delhi (built 1911–1931). Bengal partition (1905) inflamed nationalism. Non-cooperation movement, civil disobedience. The Ganges plain as the heartland of the independence movement.",
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "dominant — Hindi, Bengali, Urdu speakers"
+        },
+        {
+          "ethnicity": "english",
+          "presence": "ruling colonial class in cities"
+        }
+      ]
+    },
+    {
+      "regime": "republic_of_india",
+      "start": 1947,
+      "end": null,
+      "note": "Republic of India — the Gangetic plain as the demographic heart of India (UP, Bihar, Bengal, Delhi NCT). Green Revolution transformed Punjab/UP. Delhi as one of the world's largest cities (~30 million). Persistent development gaps between states. Caste-based politics shapes electoral dynamics.",
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "dominant — Hindi, Bengali, Bihari speakers"
         }
       ]
     }

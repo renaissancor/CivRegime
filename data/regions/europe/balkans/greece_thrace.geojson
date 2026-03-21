@@ -1,0 +1,14 @@
+{
+  "type": "Feature",
+  "id": "greece_thrace",
+  "properties": {
+    "name": "Greece & Thrace",
+    "territory": "balkans",
+    "periods": [
+      { "start": -146, "end": 330, "regime": "roman_empire" },
+      { "start": 330, "end": 1453, "regime": "byzantine_empire" },
+      { "start": 1453, "end": null, "regime": "ottoman_empire" }
+    ]
+  },
+  "geometry": null
+}

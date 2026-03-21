@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "scotland",
+  "properties": {
+    "name": "Scotland",
+    "territory": "scotland",
+    "periods": []
+  },
+  "geometry": null
+}

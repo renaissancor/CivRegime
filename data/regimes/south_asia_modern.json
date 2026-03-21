@@ -1,0 +1,127 @@
+[
+  {
+    "id": "british_raj",
+    "name": "British Raj",
+    "ruling_ethnicity": "english",
+    "territories": [
+      "ganges_plain",
+      "indus_valley",
+      "punjab",
+      "deccan"
+    ],
+    "start": 1858,
+    "end": 1947,
+    "note": "The British Crown replaced the East India Company after the Sepoy Mutiny (1857). The Raj unified the subcontinent under a single administration for the first time since Ashoka — railways, telegraph, common law, English education — but extraction (the 'drain of wealth' Dadabhai Naoroji documented) kept India poor. The Bengal famine of 1943 killed 2–3 million under Churchill's watch. Independence movement from the Indian National Congress; Gandhi's non-violent resistance made the British position untenable.",
+    "cultural_language": "modern_english",
+    "ideology": {
+      "religion": "protestant",
+      "government": "imperial_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "viceroy_curzon",
+        "name": "Viceroy Curzon",
+        "role": "ruler",
+        "years": "1859/1925",
+        "significance": "Viceroy 1899–1905; partition of Bengal inflamed Indian nationalism; built the Victoria Memorial; great imperial administrator who helped undermine the empire he loved"
+      },
+      {
+        "id": "gandhi",
+        "name": "Gandhi",
+        "role": "cultural",
+        "years": "1869/1948",
+        "significance": "Developed satyagraha (non-violent resistance); Salt March (1930); forced British to negotiate; his assassination by a Hindu nationalist days after independence was the tragedy of Partition"
+      },
+      {
+        "id": "nehru",
+        "name": "Nehru",
+        "role": "founder",
+        "years": "1889/1964",
+        "significance": "First Prime Minister of independent India; architect of non-alignment; built democratic institutions; the Nehru-Gandhi family dominated Indian politics for decades"
+      }
+    ]
+  },
+  {
+    "id": "republic_of_india",
+    "name": "Republic of India",
+    "ruling_ethnicity": "indo_aryan",
+    "territories": [
+      "ganges_plain",
+      "deccan"
+    ],
+    "start": 1947,
+    "end": null,
+    "note": "Independent India is the world's largest democracy. Partition from Pakistan (1947) was accompanied by mass violence killing 200,000–2 million and displacing 10–20 million people. Nehru's non-aligned foreign policy, democratic constitution, and planned economy shaped the first decades. Economic liberalisation (1991) transformed India into one of the world's fastest-growing economies. BJP (Hindu nationalist) politics under Modi since 2014.",
+    "cultural_language": "hindi",
+    "ideology": {
+      "religion": "hinduism",
+      "government": "democratic_republic"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "ambedkar",
+        "name": "Ambedkar",
+        "role": "cultural",
+        "years": "1891/1956",
+        "significance": "Dalit leader who drafted India's constitution; the most important architect of Indian democracy; converted to Buddhism to escape caste discrimination"
+      },
+      {
+        "id": "indira_gandhi",
+        "name": "Indira Gandhi",
+        "role": "ruler",
+        "years": "1917/1984",
+        "significance": "India's first female Prime Minister; Green Revolution saved India from famine; Emergency rule (1975–77) suspended democracy; assassinated by her Sikh bodyguards after ordering attack on the Golden Temple"
+      },
+      {
+        "id": "modi",
+        "name": "Modi",
+        "role": "ruler",
+        "years": "1950/null",
+        "significance": "Prime Minister since 2014; Hindu nationalist politics; economic modernisation (GST, digital India); BJP Hindu majoritarianism raised concerns about minority rights"
+      }
+    ]
+  },
+  {
+    "id": "pakistan",
+    "name": "Pakistan",
+    "ruling_ethnicity": "indo_aryan",
+    "territories": [
+      "indus_valley",
+      "punjab"
+    ],
+    "start": 1947,
+    "end": null,
+    "note": "Created as a Muslim homeland by the partition of British India. Jinnah's death (1948) left Pakistan without a founder statesman. Three wars with India (1947, 1965, 1971); Bangladesh broke away in 1971 after the Pakistani Army's genocide in East Pakistan. Nuclear power since 1998. Chronic alternation between civilian and military government; the Army as the dominant political institution. ISI intelligence services and Islamist politics complicate democratisation.",
+    "cultural_language": "urdu",
+    "ideology": {
+      "religion": "sunni",
+      "government": "democratic_republic"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "muhammad_ali_jinnah",
+        "name": "Muhammad Ali Jinnah",
+        "role": "founder",
+        "years": "1876/1948",
+        "significance": "Founded Pakistan through sheer force of will and political skill; the Quaid-e-Azam ('Great Leader'); his secular vision for Pakistan was quickly displaced after his death"
+      },
+      {
+        "id": "zulfikar_ali_bhutto",
+        "name": "Zulfikar Ali Bhutto",
+        "role": "ruler",
+        "years": "1928/1979",
+        "significance": "First elected Prime Minister; oversaw 1971 defeat and Bangladesh; launched nuclear programme; executed by Zia ul-Haq after a military coup — his death created the Bhutto political dynasty through his daughter Benazir"
+      },
+      {
+        "id": "benazir_bhutto",
+        "name": "Benazir Bhutto",
+        "role": "ruler",
+        "years": "1953/2007",
+        "significance": "First female Prime Minister of a Muslim-majority country; twice elected and twice dismissed; assassinated at a political rally"
+      }
+    ]
+  }
+]

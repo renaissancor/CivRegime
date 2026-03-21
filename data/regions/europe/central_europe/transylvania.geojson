@@ -1,0 +1,13 @@
+{
+  "type": "Feature",
+  "id": "transylvania",
+  "properties": {
+    "name": "Transylvania",
+    "territory": "hungary",
+    "periods": [
+      { "start": 106, "end": 271, "regime": "roman_empire" },
+      { "start": 271, "end": null, "regime": null }
+    ]
+  },
+  "geometry": null
+}

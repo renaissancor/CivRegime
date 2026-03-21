@@ -152,6 +152,40 @@
           "presence": "dominant majority; Muslim and Hindu communities"
         }
       ]
+    },
+    {
+      "regime": "british_raj",
+      "start": 1857,
+      "end": 1947,
+      "note": "British Raj — Sindh (annexed 1843) and Punjab (1849) under direct British rule. The Indus irrigation system transformed Punjab into India's breadbasket — the 'Canal Colonies' resettled millions. Peshawar as the frontier of the Great Game (Anglo-Russian rivalry over Afghanistan). The Northwest Frontier as perpetual security challenge.",
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "dominant — Punjabi, Sindhi, Pashtun communities"
+        },
+        {
+          "ethnicity": "english",
+          "presence": "ruling class; large military cantonment presence"
+        }
+      ]
+    },
+    {
+      "regime": "pakistan",
+      "start": 1947,
+      "end": null,
+      "note": "Pakistan — the Indus valley as Pakistan's geographic spine. Lahore as cultural capital; Karachi as financial centre; Islamabad (built 1960s) as administrative capital. The Green Revolution made the Punjab Pakistan's most productive province. Water conflicts with India over Indus tributaries. Karachi's ethnic tensions (Pashtun migration, MQM Urdu-speaking Muhajirs).",
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "dominant — Punjabi (~45%), Sindhi, Muhajir"
+        },
+        {
+          "ethnicity": "caucasian",
+          "presence": "Pashtun communities in KPK and Karachi"
+        }
+      ]
     }
   ]
 }

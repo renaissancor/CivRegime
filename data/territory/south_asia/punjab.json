@@ -83,7 +83,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "sikh_empire",
       "start": 1799,
       "end": 1849,
       "note": "Sikh Empire (Ranjit Singh) — unique Sikh theocratic state; the last independent Punjab",
@@ -92,6 +92,40 @@
         {
           "ethnicity": "punjabi_eth",
           "presence": "dominant; Sikh ruling class"
+        }
+      ]
+    },
+    {
+      "regime": "british_raj",
+      "start": 1849,
+      "end": 1947,
+      "note": "British Punjab — the most economically productive and militarily significant province. Punjab provided a disproportionate share of the Indian Army ('martial races' doctrine). Canal Colony irrigation made Punjab the breadbasket of India. Punjab was the site of the Amritsar Massacre (1919) and the epicentre of Partition violence.",
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "dominant — Punjabi speakers (Hindu, Muslim, Sikh communities)"
+        },
+        {
+          "ethnicity": "english",
+          "presence": "colonial administration"
+        }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1947,
+      "end": null,
+      "note": "Partition of Punjab — the Radcliffe Line divided Punjab between India (East Punjab, now Punjab state + Haryana + HP) and Pakistan (West Punjab). Partition massacres killed 200,000–500,000 Punjabis and displaced 12 million — the largest forced migration in history. Indian Punjab: Sikh-majority, Green Revolution, prosperous. Pakistani Punjab: Muslim-majority, largest province by population (~110 million), dominant in Pakistani politics.",
+      "dominant_ethnicity": "indo_aryan",
+      "ethnic_composition": [
+        {
+          "ethnicity": "indo_aryan",
+          "presence": "dominant — Punjabi speakers on both sides of border"
+        },
+        {
+          "ethnicity": "punjabi_eth",
+          "presence": "majority in Indian Punjab; virtually absent from Pakistani Punjab after Partition"
         }
       ]
     }

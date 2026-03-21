@@ -1,0 +1,12 @@
+{
+  "type": "Feature",
+  "id": "austria",
+  "properties": {
+    "name": "Austria",
+    "territory": "germany",
+    "periods": [
+      { "start": -15, "end": 476, "regime": "roman_empire" }
+    ]
+  },
+  "geometry": null
+}

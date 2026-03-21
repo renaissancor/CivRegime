@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "kiev_region",
+  "properties": {
+    "name": "Kiev (Dnieper Middle)",
+    "territory": "kievan_rus",
+    "periods": []
+  },
+  "geometry": null
+}

@@ -1,0 +1,12 @@
+{
+  "type": "Feature",
+  "id": "wales",
+  "properties": {
+    "name": "Wales",
+    "territory": "britannia",
+    "periods": [
+      { "start": 43, "end": 410, "regime": "roman_empire" }
+    ]
+  },
+  "geometry": null
+}

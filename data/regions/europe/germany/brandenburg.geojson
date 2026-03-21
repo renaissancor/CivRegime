@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "brandenburg",
+  "properties": {
+    "name": "Brandenburg",
+    "territory": "germany",
+    "periods": []
+  },
+  "geometry": null
+}

@@ -56,7 +56,7 @@
       ]
     },
     {
-      "regime": null,
+      "regime": "carolingian_empire",
       "start": 486,
       "end": 843,
       "note": "Frankish Kingdom → Carolingian Empire — Clovis to Charlemagne",
@@ -79,14 +79,83 @@
       "note": "West Frankish Kingdom → Capetian France begins; Viking settlements in Normandy",
       "dominant_ethnicity": "latin",
       "ethnic_composition": [
-        {
-          "ethnicity": "latin",
-          "presence": "dominant (proto-French)"
-        },
-        {
-          "ethnicity": "germanic",
-          "presence": "Norse (Normans in Normandy; assimilated to French within a century)"
-        }
+        { "ethnicity": "latin", "presence": "dominant (proto-French)" },
+        { "ethnicity": "germanic", "presence": "Norse (Normans in Normandy; assimilated to French within a century)" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_france",
+      "start": 987,
+      "end": 1337,
+      "note": "Capetian France — Hugh Capet's descendants expanded royal authority from the Île-de-France outward. Philip II Augustus (1180–1223) tripled the royal domain, expelling the English from most of France and defeating a coalition at Bouvines (1214). Louis IX (Saint Louis) represented the ideal of the medieval Christian king. Gothic architecture — Notre-Dame, Chartres, Reims — was born in France in this era.",
+      "dominant_ethnicity": "french",
+      "ethnic_composition": [
+        { "ethnicity": "french", "presence": "dominant — Old French developing from Gallo-Latin; regional dialects (Occitan in south)" },
+        { "ethnicity": "norman", "presence": "in Normandy; fully Frenchified by 12th century" },
+        { "ethnicity": "basque", "presence": "minority in southwest Gascony; preserved language" },
+        { "ethnicity": "celtic", "presence": "Bretons in Brittany — still speaking Breton (Celtic language)" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_france",
+      "start": 1337,
+      "end": 1453,
+      "note": "Hundred Years' War — Edward III of England claimed the French throne; century-long conflict devastated France. English dominated much of France until Joan of Arc's interventions (1429–1431) reinvigorated French resistance. Charles VII reconquered France; English expelled by 1453 (only Calais remained until 1558). Black Death (1347–51) killed a third of the population.",
+      "dominant_ethnicity": "french",
+      "ethnic_composition": [
+        { "ethnicity": "french", "presence": "majority but divided — contested between French and English-backed regimes" },
+        { "ethnicity": "english", "presence": "ruling class in occupied territories (Paris, Normandy) during English occupation" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_france",
+      "start": 1453,
+      "end": 1589,
+      "note": "Valois consolidation and Wars of Religion — France became the most powerful state in western Europe; Italian Wars (1494–1559) projected French power into Italy. Protestant Huguenots challenged Catholic dominance; Wars of Religion (1562–1598) were devastating — St Bartholomew's Day Massacre (1572) killed tens of thousands. The Valois line ended with Henri III's assassination.",
+      "dominant_ethnicity": "french",
+      "ethnic_composition": [
+        { "ethnicity": "french", "presence": "dominant; religious civil war between Catholic majority and Huguenot minority" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_france",
+      "start": 1589,
+      "end": 1792,
+      "note": "Bourbon France and absolutism — Henri IV (Bourbon) ended the Wars of Religion with the Edict of Nantes (1598). Cardinal Richelieu (under Louis XIII) crushed the Huguenot political state while building royal absolutism. Louis XIV (1643–1715), the Sun King, embodied absolute monarchy: Versailles, revocation of the Edict of Nantes (1685), cultural hegemony of Europe. France was the undisputed European hegemon in culture, language, and military power through the 17th–18th centuries. Enlightenment philosophers (Voltaire, Rousseau, Montesquieu) incubated the ideas that destroyed the monarchy.",
+      "dominant_ethnicity": "french",
+      "ethnic_composition": [
+        { "ethnicity": "french", "presence": "dominant — French language and culture became the prestige standard of European courts" }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1792,
+      "end": 1815,
+      "note": "Revolution and Napoleonic Empire — French Revolution (1789–1799) executed Louis XVI, abolished feudalism, declared the Rights of Man. The First Republic gave way to the Consulate and then Napoleon Bonaparte's First Empire (1804–1814). Napoleon reorganised most of Europe; his invasions spread Revolutionary ideas (abolition of feudalism, legal equality, nationalism) across the continent. Defeated by the Sixth Coalition; exiled to St Helena 1815.",
+      "dominant_ethnicity": "french",
+      "ethnic_composition": [
+        { "ethnicity": "french", "presence": "dominant — French national identity consolidated through Revolution" }
+      ]
+    },
+    {
+      "regime": "kingdom_of_france",
+      "start": 1815,
+      "end": 1870,
+      "note": "Restoration and Second Empire oscillations — Bourbon Restoration (1815–1830) → July Monarchy (1830–1848) → Second Republic (1848–1852) → Second Empire under Napoleon III (1852–1870). France industrialised and expanded colonial empire. Haussmann's transformation of Paris. Defeated by Prussia in the Franco-Prussian War (1870).",
+      "dominant_ethnicity": "french",
+      "ethnic_composition": [
+        { "ethnicity": "french", "presence": "dominant — French national identity; regional languages in steep decline" }
+      ]
+    },
+    {
+      "regime": null,
+      "start": 1870,
+      "end": null,
+      "note": "Third Republic and modern France — Third Republic (1870–1940) was France's longest-lived post-Revolutionary government. WWI cost France 1.4 million dead. Vichy France collaborated with Nazi occupation (1940–1944); de Gaulle's Free France. Fourth Republic (1946–1958); Fifth Republic from 1958. France became a founding member of the EU and NATO, nuclear power, and permanent UN Security Council member.",
+      "dominant_ethnicity": "french",
+      "ethnic_composition": [
+        { "ethnicity": "french", "presence": "dominant majority" },
+        { "ethnicity": "north_african", "presence": "significant post-colonial immigration (Algerian, Moroccan, Tunisian) from 1950s" }
       ]
     }
   ]

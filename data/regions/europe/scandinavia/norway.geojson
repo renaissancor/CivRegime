@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "norway",
+  "properties": {
+    "name": "Norway",
+    "territory": "scandinavia",
+    "periods": []
+  },
+  "geometry": null
+}

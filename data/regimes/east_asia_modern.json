@@ -1,0 +1,138 @@
+[
+  {
+    "id": "republic_of_china",
+    "name": "Republic of China",
+    "ruling_ethnicity": "han",
+    "territories": [
+      "yellow_river",
+      "yangtze",
+      "manchuria"
+    ],
+    "start": 1912,
+    "end": null,
+    "note": "Succeeded the Qing Dynasty after the 1911 Revolution. Sun Yat-sen's Three Principles (Nationalism, Democracy, People's Livelihood). The ROC ruled mainland China through the warlord era, Northern Expedition (1928), Nanjing Decade of limited modernisation, Japanese War (1937–1945), and Civil War. In 1949 the Communists drove the Nationalist government to Taiwan, where the ROC continues to govern.",
+    "cultural_language": "modern_chinese",
+    "ideology": {
+      "religion": "chinese_folk_religion",
+      "government": "democratic_republic"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "sun_yat_sen",
+        "name": "Sun Yat-sen",
+        "role": "founder",
+        "years": "1866/1925",
+        "significance": "Father of modern China; founded the Kuomintang; his Three Principles of the People remain the ideological foundation of the ROC"
+      },
+      {
+        "id": "chiang_kai_shek",
+        "name": "Chiang Kai-shek",
+        "role": "ruler",
+        "years": "1887/1975",
+        "significance": "United China under Nationalist rule (1928); led China through WWII; lost the Civil War to Mao; governed Taiwan for 26 years as a Cold War ally of the US"
+      }
+    ]
+  },
+  {
+    "id": "peoples_republic_of_china",
+    "name": "People's Republic of China",
+    "ruling_ethnicity": "han",
+    "territories": [
+      "yellow_river",
+      "yangtze",
+      "manchuria"
+    ],
+    "start": 1949,
+    "end": null,
+    "note": "Mao Zedong proclaimed the PRC on October 1, 1949. The Great Leap Forward (1958–62) caused 15–55 million deaths by famine. The Cultural Revolution (1966–76) destroyed traditional culture and persecuted intellectuals. Deng Xiaoping's economic reforms (1978) launched 40 years of 10% annual growth — the largest poverty reduction in history. Xi Jinping's consolidation of personal power since 2012.",
+    "cultural_language": "modern_chinese",
+    "ideology": {
+      "religion": "chinese_folk_religion",
+      "government": "communist_state"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "mao_zedong",
+        "name": "Mao Zedong",
+        "role": "founder",
+        "years": "1893/1976",
+        "significance": "Founded the PRC; united China after a century of humiliation; but the Great Leap Forward and Cultural Revolution caused tens of millions of deaths"
+      },
+      {
+        "id": "deng_xiaoping",
+        "name": "Deng Xiaoping",
+        "role": "ruler",
+        "years": "1904/1997",
+        "significance": "Opened China to market economics while maintaining party control; 'Socialism with Chinese characteristics'; his reforms lifted 800 million people out of poverty"
+      },
+      {
+        "id": "xi_jinping",
+        "name": "Xi Jinping",
+        "role": "ruler",
+        "years": "1953/null",
+        "significance": "General Secretary since 2012; abolished presidential term limits (2018); Belt and Road Initiative; escalating assertiveness on Taiwan, South China Sea, and Xinjiang"
+      }
+    ]
+  },
+  {
+    "id": "manchukuo",
+    "name": "Manchukuo",
+    "ruling_ethnicity": "han",
+    "territories": [
+      "manchuria"
+    ],
+    "start": 1932,
+    "end": 1945,
+    "note": "Japanese puppet state in Manchuria and Inner Mongolia, with the last Qing emperor Puyi as nominal head of state. The Kwantung Army controlled all real power. Site of Unit 731 (biological warfare experiments on prisoners). Collapsed immediately when the Soviet Union declared war on Japan (August 1945) and invaded Manchuria.",
+    "cultural_language": "modern_chinese",
+    "ideology": {
+      "religion": "chinese_folk_religion",
+      "government": "absolute_monarchy"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "puyi_manchukuo",
+        "name": "Puyi",
+        "role": "ruler",
+        "years": "1906/1967",
+        "significance": "Last Qing Emperor; child emperor from 1908; abdicated 1912; manipulated by the Japanese as puppet emperor of Manchukuo 1934–1945; later rehabilitated as a citizen of the PRC — his memoir became The Last Emperor"
+      }
+    ]
+  },
+  {
+    "id": "mongolian_peoples_republic",
+    "name": "Mongolian People's Republic",
+    "ruling_ethnicity": "mongol",
+    "territories": [
+      "mongolian_plateau"
+    ],
+    "start": 1924,
+    "end": 1992,
+    "note": "Established as a Soviet satellite state after Soviet-backed revolution against the theocratic Bogd Khanate. The purges of the 1930s under Choibalsan (the 'Mongolian Stalin') massacred 30,000–35,000 people, mostly Buddhist monks — 700 monasteries destroyed. Mongolia was a loyal Soviet ally and the second-oldest communist state. Transitioned to democracy in 1990 and formally dissolved in 1992.",
+    "cultural_language": "old_turkic",
+    "ideology": {
+      "religion": "buddhism",
+      "government": "communist_state"
+    },
+    "policies": [],
+    "figures": [
+      {
+        "id": "damdin_sukhbaatar",
+        "name": "Damdin Sükhbaatar",
+        "role": "founder",
+        "years": "1893/1923",
+        "significance": "Revolutionary hero; led the Mongolian revolution with Soviet support; died young and possibly poisoned; national hero whose statue dominates Ulaanbaatar's central square"
+      },
+      {
+        "id": "khorloogiin_choibalsan",
+        "name": "Khorloogiin Choibalsan",
+        "role": "ruler",
+        "years": "1895/1952",
+        "significance": "The 'Mongolian Stalin'; collectivised herds, destroyed Buddhism, executed tens of thousands; also the general who defeated Japan at Khalkhin Gol (1939) alongside Zhukov"
+      }
+    ]
+  }
+]

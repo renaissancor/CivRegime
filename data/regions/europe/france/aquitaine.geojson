@@ -1,0 +1,12 @@
+{
+  "type": "Feature",
+  "id": "aquitaine",
+  "properties": {
+    "name": "Aquitaine",
+    "territory": "gaul",
+    "periods": [
+      { "start": -51, "end": 476, "regime": "roman_empire" }
+    ]
+  },
+  "geometry": null
+}

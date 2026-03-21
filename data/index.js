@@ -18,7 +18,7 @@ function loadDir(dir) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     if (entry.isDirectory()) {
       results.push(...loadDir(path.join(dir, entry.name)));
-    } else if (entry.name.endsWith('.json') && !entry.name.startsWith('_')) {
+    } else if ((entry.name.endsWith('.json') || entry.name.endsWith('.geojson')) && !entry.name.startsWith('_')) {
       results.push(...[].concat(loadJSON(path.join(dir, entry.name))));
     }
   }
@@ -81,9 +81,13 @@ const db = {
   languages:   loadTree(path.join(DATA, 'languages')),
   ethnicities: loadTree(path.join(DATA, 'ethnicities')),
 
-  // Territory — one file per territory, organized in regional subdirectories
-  // Each file contains metadata + historical periods (merged)
+  // Territory — broader political-cultural zones, one file per zone
+  // Each file contains metadata + ethnic/cultural periods
   territory: loadDir(path.join(DATA, 'territory')),
+
+  // Regions — atomic map units (GeoJSON Features), one file per region
+  // Each file contains: territory FK, simple regime control timeline, geometry (null until added)
+  regions: loadDir(path.join(DATA, 'regions')),
 
   // Lookup table — stays as single flat file
   ideologies: loadJSON(path.join(DATA, 'ideologies.json')),

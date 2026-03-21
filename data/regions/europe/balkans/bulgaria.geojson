@@ -1,0 +1,14 @@
+{
+  "type": "Feature",
+  "id": "bulgaria",
+  "properties": {
+    "name": "Bulgaria (Moesia)",
+    "territory": "balkans",
+    "periods": [
+      { "start": -46, "end": 395, "regime": "roman_empire" },
+      { "start": 395, "end": 1396, "regime": "byzantine_empire" },
+      { "start": 1396, "end": null, "regime": "ottoman_empire" }
+    ]
+  },
+  "geometry": null
+}

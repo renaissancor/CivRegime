@@ -127,6 +127,32 @@
           "presence": "overwhelming majority"
         }
       ]
+    },
+    {
+      "regime": "republic_of_china",
+      "start": 1912,
+      "end": 1949,
+      "note": "Republic of China — the Yangtze as the economic spine of the new Republic. Nanjing on the Yangtze was the national capital. The Rape of Nanjing (1937) by Japanese forces killed 200,000–300,000. Battle of Wuhan (1938). Civil war climaxed with PLA crossing of the Yangtze (April 1949)",
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant"
+        }
+      ]
+    },
+    {
+      "regime": "peoples_republic_of_china",
+      "start": 1949,
+      "end": null,
+      "note": "People's Republic of China — the Three Gorges Dam (completed 2006) is the world's largest hydroelectric project; displaced 1.2 million people; the Yangtze Economic Belt is China's most productive industrial corridor; the river faces severe ecological degradation",
+      "dominant_ethnicity": "han",
+      "ethnic_composition": [
+        {
+          "ethnicity": "han",
+          "presence": "dominant"
+        }
+      ]
     }
   ]
 }

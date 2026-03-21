@@ -1,0 +1,12 @@
+{
+  "type": "Feature",
+  "id": "england",
+  "properties": {
+    "name": "England",
+    "territory": "britannia",
+    "periods": [
+      { "start": 43, "end": 410, "regime": "roman_empire" }
+    ]
+  },
+  "geometry": null
+}

@@ -1,0 +1,10 @@
+{
+  "type": "Feature",
+  "id": "lesser_poland",
+  "properties": {
+    "name": "Lesser Poland (Małopolska)",
+    "territory": "poland",
+    "periods": []
+  },
+  "geometry": null
+}
