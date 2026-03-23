@@ -125,5 +125,50 @@
       "manchuria"
     ],
     "rationale": "Qing (Manchu) are the direct ethnic successors of the Jurchen Jin. Same Jurchen ethnicity, re-established centuries later."
+  },
+  {
+    "from": "goguryeo",
+    "to": "unified_silla",
+    "type": "A",
+    "shared_territories": [
+      "korean_peninsula"
+    ],
+    "rationale": "Silla unified the Korean Peninsula after defeating Goguryeo and Baekje. Same Koreanic ethnicity and continuous territory."
+  },
+  {
+    "from": "unified_silla",
+    "to": "goryeo",
+    "type": "A",
+    "shared_territories": [
+      "korean_peninsula"
+    ],
+    "rationale": "Goryeo succeeded Unified Silla on the same territory with the same Koreanic ethnicity."
+  },
+  {
+    "from": "goryeo",
+    "to": "joseon",
+    "type": "A-",
+    "shared_territories": [
+      "korean_peninsula"
+    ],
+    "rationale": "Joseon succeeded Goryeo within the same ethnic group and territory, but with a radical shift from Buddhist to Neo-Confucian ideology."
+  },
+  {
+    "from": "yamato_period",
+    "to": "tokugawa_shogunate",
+    "type": "A",
+    "shared_territories": [
+      "japanese_archipelago"
+    ],
+    "rationale": "Direct ethnic and territorial continuity within the Japanese people, though the form of government changed multiple times (Heian, Kamakura, Muromachi)."
+  },
+  {
+    "from": "tokugawa_shogunate",
+    "to": "empire_of_japan",
+    "type": "A-",
+    "shared_territories": [
+      "japanese_archipelago"
+    ],
+    "rationale": "The Meiji Restoration replaced the Shogunate with imperial rule and radical modernization. Same ethnicity and land, but a profound ideological and administrative break."
   }
 ]

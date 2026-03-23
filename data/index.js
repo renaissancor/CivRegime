@@ -81,9 +81,12 @@ const db = {
   languages:   loadTree(path.join(DATA, 'languages')),
   ethnicities: loadTree(path.join(DATA, 'ethnicities')),
 
-  // Territory — broader political-cultural zones, one file per zone
+  // Cradles — broader political-cultural zones, one file per zone
   // Each file contains metadata + ethnic/cultural periods
-  territory: loadDir(path.join(DATA, 'territory')),
+  cradles: loadDir(path.join(DATA, 'cradles')),
+
+  // Backwards compatibility alias
+  territory: null, // Set after load
 
   // Regions — atomic map units (GeoJSON Features), one file per region
   // Each file contains: territory FK, simple regime control timeline, geometry (null until added)
@@ -107,5 +110,8 @@ db.tree = {
   languages:   (id) => getDescendants(id, db.languages),
   ethnicities: (id) => getDescendants(id, db.ethnicities),
 };
+
+// Backwards compatibility: alias cradles as territory for existing code
+db.territory = db.cradles;
 
 module.exports = db;

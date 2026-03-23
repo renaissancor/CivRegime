@@ -1,1 +1,1 @@
-{ "id": "middle_korean", "name": "Middle Korean", "type": "language", "extinct": true, "note": "The Korean language of the Goryeo and early Joseon periods (10th–16th centuries); ancestor of modern Korean" }
+{ "id": "old_korean", "name": "Old Korean", "type": "proto_family", "note": "Proto-Koreanic language family; ancestor of Middle Korean and modern Korean" }

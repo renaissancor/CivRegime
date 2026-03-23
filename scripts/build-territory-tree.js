@@ -1,6 +1,6 @@
 /**
  * Migration: merges territories.json + territory_history.json
- * into data/territory/{region}/{id}.json
+ * into data/cradles/{region}/{id}.json
  */
 
 const fs   = require('fs');
@@ -40,7 +40,7 @@ const REGION_MAP = {
   deccan:               'south_asia',
 };
 
-const TARGET = path.join(__dirname, '../data/territory');
+const TARGET = path.join(__dirname, '../data/cradles');
 
 // Build history lookup
 const historyById = new Map(db.territory_history.map(t => [t.territory, t]));
