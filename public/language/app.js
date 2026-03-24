@@ -4,6 +4,8 @@ const FAMILY_PALETTE = [
 ];
 const familyColor = {};
 
+let tooltipTimeout = null;
+
 function getDescendants(id, nodes) {
   const children = nodes.filter(n => n.parent === id);
   return children.flatMap(c => [c, ...getDescendants(c.id, nodes)]);
@@ -109,6 +111,7 @@ function renderTree(familyId, allLanguages, regimesByLang) {
     .style('cursor', 'pointer')
     .on('click', (e, d) => showDetail(d.data, allLanguages, regimesByLang))
     .on('mouseover', (e, d) => {
+      clearTimeout(tooltipTimeout);
       const tip = document.getElementById('tooltip');
       const count = regimesByLang.get(d.data.id)?.length || 0;
       const extinct = d.data.status === 'extinct' ? ' · extinct' : '';
@@ -116,11 +119,17 @@ function renderTree(familyId, allLanguages, regimesByLang) {
       tip.classList.add('visible');
     })
     .on('mousemove', e => {
+      clearTimeout(tooltipTimeout);
       const tip = document.getElementById('tooltip');
       tip.style.left = (e.clientX + 12) + 'px';
       tip.style.top  = (e.clientY - 10) + 'px';
+      tip.classList.add('visible');
     })
-    .on('mouseout', () => document.getElementById('tooltip').classList.remove('visible'));
+    .on('mouseout', () => {
+      tooltipTimeout = setTimeout(() => {
+        document.getElementById('tooltip').classList.remove('visible');
+      }, 100);
+    });
 
   // Circle — filled for branch nodes, semi-transparent for leaves
   node.append('circle')
