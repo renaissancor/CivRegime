@@ -1,12 +1,11 @@
 {
+  "id": "cayuga",
   "name": "Cayuga",
+  "parent": "iroquoian",
   "iso6393": null,
   "glottocode": null,
-  "family": "iroquoian",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

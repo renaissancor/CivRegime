@@ -1,12 +1,11 @@
 {
+  "id": "syriac",
   "name": "Syriac",
+  "parent": "northwest_semitic",
   "iso6393": null,
   "glottocode": null,
-  "family": "afro_asiatic",
-  "branch": "semitic",
-  "group": "northwest_semitic",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

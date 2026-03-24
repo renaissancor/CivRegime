@@ -1,11 +1,10 @@
 {
+  "id": "shinto_buddhism_syncretism",
   "name": "Shinto-Buddhism syncretism *(Shinbutsu Shugo)*",
-  "family": "east_asian_traditions",
-  "tradition": "shinto",
-  "branch": "syncretic_traditions",
+  "parent": "syncretic_traditions",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

@@ -1,11 +1,10 @@
 {
+  "id": "african_diaspora_folk_traditions",
   "name": "African-diaspora folk traditions",
-  "family": "religious_syncretism_folk_practices",
-  "tradition": "popular_folk_religion",
-  "branch": null,
+  "parent": "popular_folk_religion",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

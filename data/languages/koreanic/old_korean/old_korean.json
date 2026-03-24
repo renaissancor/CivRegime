@@ -1,12 +1,11 @@
 {
+  "id": "old_korean",
   "name": "Old Korean",
+  "parent": "koreanic",
   "iso6393": null,
   "glottocode": null,
-  "family": "koreanic",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

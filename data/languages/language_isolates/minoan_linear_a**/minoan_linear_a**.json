@@ -1,12 +1,11 @@
 {
+  "id": "minoan_linear_a**",
   "name": "Minoan / Linear A** *(Crete, c. 1700 BCE, undeciphered)*",
+  "parent": "language_isolates",
   "iso6393": null,
   "glottocode": null,
-  "family": "language_isolates",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -1,11 +1,10 @@
 {
+  "id": "serbian_orthodox",
   "name": "Serbian Orthodox",
-  "family": "abrahamic_religions",
-  "tradition": "christianity",
-  "branch": "eastern_orthodox",
+  "parent": "eastern_orthodox",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

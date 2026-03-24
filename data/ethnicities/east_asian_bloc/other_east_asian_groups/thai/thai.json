@@ -1,10 +1,9 @@
 {
+  "id": "thai",
   "name": "Thai",
-  "bloc": "east_asian_bloc",
-  "cluster": "other_east_asian_groups",
-  "subcluster": null,
+  "parent": "other_east_asian_groups",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

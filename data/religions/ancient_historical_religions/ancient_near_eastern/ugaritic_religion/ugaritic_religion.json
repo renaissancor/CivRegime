@@ -1,11 +1,10 @@
 {
+  "id": "ugaritic_religion",
   "name": "Ugaritic religion *(historical)*",
-  "family": "ancient_historical_religions",
-  "tradition": "ancient_near_eastern",
-  "branch": null,
+  "parent": "ancient_near_eastern",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

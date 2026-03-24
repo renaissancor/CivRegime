@@ -1,11 +1,10 @@
 {
+  "id": "bahá'í_faith",
   "name": "Bahá'í Faith",
-  "family": "new_religious_movements_syncretic_traditions",
-  "tradition": "contemporary_movements",
-  "branch": null,
+  "parent": "contemporary_movements",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

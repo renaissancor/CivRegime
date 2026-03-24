@@ -1,12 +1,11 @@
 {
+  "id": "ordos",
   "name": "Ordos",
+  "parent": "mongolic",
   "iso6393": null,
   "glottocode": null,
-  "family": "mongolic",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

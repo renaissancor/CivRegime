@@ -1,10 +1,9 @@
 {
+  "id": "lebanese_diaspora",
   "name": "Lebanese diaspora",
-  "bloc": "diaspora_cosmopolitan_communities",
-  "cluster": "trading_merchant_communities",
-  "subcluster": null,
+  "parent": "trading_merchant_communities",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

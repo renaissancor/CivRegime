@@ -1,11 +1,10 @@
 {
+  "id": "maliki_school",
   "name": "Maliki School",
-  "family": "abrahamic_religions",
-  "tradition": "islam",
-  "branch": "sunni",
+  "parent": "sunni",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

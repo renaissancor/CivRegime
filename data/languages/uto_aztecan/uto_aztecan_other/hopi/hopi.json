@@ -1,12 +1,11 @@
 {
+  "id": "hopi",
   "name": "Hopi",
+  "parent": "uto_aztecan_other",
   "iso6393": null,
   "glottocode": null,
-  "family": "uto_aztecan",
-  "branch": "uto_aztecan_other",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

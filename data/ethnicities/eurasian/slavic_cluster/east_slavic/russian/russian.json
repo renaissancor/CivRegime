@@ -1,10 +1,9 @@
 {
+  "id": "russian",
   "name": "Russian",
-  "bloc": "eurasian",
-  "cluster": "slavic_cluster",
-  "subcluster": "east_slavic",
+  "parent": "east_slavic",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

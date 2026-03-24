@@ -1,12 +1,11 @@
 {
+  "id": "kannada",
   "name": "Kannada",
+  "parent": "south_dravidian",
   "iso6393": null,
   "glottocode": null,
-  "family": "dravidian",
-  "branch": "south_dravidian",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -1,12 +1,11 @@
 {
+  "id": "dinka",
   "name": "Dinka",
+  "parent": "eastern_sudanic",
   "iso6393": null,
   "glottocode": null,
-  "family": "nilo_saharan",
-  "branch": "eastern_sudanic",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

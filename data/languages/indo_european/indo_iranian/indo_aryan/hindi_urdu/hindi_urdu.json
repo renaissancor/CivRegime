@@ -1,12 +1,11 @@
 {
+  "id": "hindi_urdu",
   "name": "Hindi / Urdu",
+  "parent": "indo_aryan",
   "iso6393": null,
   "glottocode": null,
-  "family": "indo_european",
-  "branch": "indo_iranian",
-  "group": "indo_aryan",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

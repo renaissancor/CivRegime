@@ -1,12 +1,11 @@
 {
+  "id": "mi'kmaq",
   "name": "Mi'kmaq",
+  "parent": "algonquian",
   "iso6393": null,
   "glottocode": null,
-  "family": "algic",
-  "branch": "algonquian",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

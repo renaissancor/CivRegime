@@ -1,11 +1,10 @@
 {
+  "id": "mandaeanism",
   "name": "Mandaeanism",
-  "family": "lesser_known_minority_traditions",
-  "tradition": "modern_minority_traditions",
-  "branch": null,
+  "parent": "modern_minority_traditions",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

@@ -1,11 +1,10 @@
 {
+  "id": "syncretism_with_buddhism",
   "name": "Syncretism with Buddhism",
-  "family": "east_asian_traditions",
-  "tradition": "taoism_daoism",
-  "branch": "popular_religion",
+  "parent": "popular_religion",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

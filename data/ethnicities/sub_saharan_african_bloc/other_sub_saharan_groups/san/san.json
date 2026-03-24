@@ -1,10 +1,9 @@
 {
+  "id": "san",
   "name": "San",
-  "bloc": "sub_saharan_african_bloc",
-  "cluster": "other_sub_saharan_groups",
-  "subcluster": null,
+  "parent": "other_sub_saharan_groups",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

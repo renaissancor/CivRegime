@@ -1,11 +1,10 @@
 {
+  "id": "reform_judaism",
   "name": "Reform Judaism",
-  "family": "abrahamic_religions",
-  "tradition": "judaism",
-  "branch": "rabbinic_judaism",
+  "parent": "rabbinic_judaism",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

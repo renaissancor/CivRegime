@@ -1,12 +1,11 @@
 {
+  "id": "dyula",
   "name": "Dyula",
+  "parent": "mande",
   "iso6393": null,
   "glottocode": null,
-  "family": "niger_congo",
-  "branch": "mande",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

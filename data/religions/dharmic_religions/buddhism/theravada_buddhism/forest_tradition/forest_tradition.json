@@ -1,11 +1,10 @@
 {
+  "id": "forest_tradition",
   "name": "Forest Tradition",
-  "family": "dharmic_religions",
-  "tradition": "buddhism",
-  "branch": "theravada_buddhism",
+  "parent": "theravada_buddhism",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

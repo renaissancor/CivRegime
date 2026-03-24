@@ -1,4 +1,7 @@
-const FAMILY_PALETTE = ['#60a5fa','#fb923c','#4ade80','#fbbf24','#a78bfa','#f472b6','#34d399','#38bdf8','#f87171'];
+const FAMILY_PALETTE = [
+  '#60a5fa', '#fb923c', '#4ade80', '#fbbf24', '#a78bfa',
+  '#f472b6', '#34d399', '#38bdf8', '#f87171', '#34d399'
+];
 const familyColor = {};
 
 function getDescendants(id, nodes) {
@@ -108,7 +111,7 @@ function renderTree(familyId, allLanguages, regimesByLang) {
     .on('mouseover', (e, d) => {
       const tip = document.getElementById('tooltip');
       const count = regimesByLang.get(d.data.id)?.length || 0;
-      const extinct = d.data.extinct ? ' · extinct' : '';
+      const extinct = d.data.status === 'extinct' ? ' · extinct' : '';
       tip.innerHTML = `<strong>${d.data.name || d.data.id}</strong>${extinct}${count ? `<br>${count} regime${count > 1 ? 's' : ''}` : ''}`;
       tip.classList.add('visible');
     })
@@ -130,7 +133,7 @@ function renderTree(familyId, allLanguages, regimesByLang) {
     .attr('stroke', d => rootColor(d.data.id, allLanguages))
     .attr('stroke-width', 1.5)
     // Dashed stroke for extinct nodes
-    .attr('stroke-dasharray', d => d.data.extinct ? '3,2' : null);
+    .attr('stroke-dasharray', d => d.data.status === 'extinct' ? '3,2' : null);
 
   // Regime count badge (left of node, gold)
   node.filter(d => (regimesByLang.get(d.data.id)?.length || 0) > 0)
@@ -142,11 +145,10 @@ function renderTree(familyId, allLanguages, regimesByLang) {
     .attr('fill', '#f6ad55')
     .text(d => regimesByLang.get(d.data.id)?.length);
 
-  // Label — dim extinct languages
+  // Label
   node.append('text')
     .attr('x', 10)
     .attr('dy', '0.32em')
-    .attr('class', d => d.data.extinct ? 'extinct' : null)
     .text(d => d.data.name || d.data.id);
 }
 
@@ -160,9 +162,9 @@ function showDetail(data, allLanguages, regimesByLang) {
   )];
 
   let html = `<h2>${data.name || data.id}</h2>`;
-  if (data.extinct) html += `<div class="sub" style="color:#f6ad55">Extinct</div>`;
+  if (data.status === 'extinct') html += `<div class="sub" style="color:#f6ad55">Extinct</div>`;
   if (data.parent)  html += `<div class="sub">Descended from: ${data.parent}</div>`;
-  if (data.note)    html += `<div class="sub" style="margin-top:4px">${data.note}</div>`;
+  if (data.description) html += `<div class="sub" style="margin-top:4px">${data.description}</div>`;
   if (descendants.length) html += `<div class="sub">${descendants.length} descendant${descendants.length > 1 ? 's' : ''}</div>`;
 
   if (regimes.length) {

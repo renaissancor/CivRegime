@@ -1,11 +1,10 @@
 {
+  "id": "roman_paganism",
   "name": "Roman paganism *(historical)*",
-  "family": "animism_indigenous_traditions",
-  "tradition": "pagan_polytheistic_traditions",
-  "branch": "european_paganism",
+  "parent": "european_paganism",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

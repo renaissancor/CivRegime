@@ -1,12 +1,11 @@
 {
+  "id": "afar",
   "name": "Afar",
+  "parent": "cushitic",
   "iso6393": null,
   "glottocode": null,
-  "family": "afro_asiatic",
-  "branch": "cushitic",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

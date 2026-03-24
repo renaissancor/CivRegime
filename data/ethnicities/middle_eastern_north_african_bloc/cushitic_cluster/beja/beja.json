@@ -1,10 +1,9 @@
 {
+  "id": "beja",
   "name": "Beja",
-  "bloc": "middle_eastern_north_african_bloc",
-  "cluster": "cushitic_cluster",
-  "subcluster": null,
+  "parent": "cushitic_cluster",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

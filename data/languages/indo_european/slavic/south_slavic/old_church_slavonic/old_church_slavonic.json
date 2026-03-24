@@ -1,12 +1,11 @@
 {
+  "id": "old_church_slavonic",
   "name": "Old Church Slavonic",
+  "parent": "south_slavic",
   "iso6393": null,
   "glottocode": null,
-  "family": "indo_european",
-  "branch": "slavic",
-  "group": "south_slavic",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

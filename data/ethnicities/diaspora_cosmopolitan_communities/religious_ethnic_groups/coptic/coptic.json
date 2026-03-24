@@ -1,10 +1,9 @@
 {
+  "id": "coptic",
   "name": "Coptic",
-  "bloc": "diaspora_cosmopolitan_communities",
-  "cluster": "religious_ethnic_groups",
-  "subcluster": null,
+  "parent": "religious_ethnic_groups",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

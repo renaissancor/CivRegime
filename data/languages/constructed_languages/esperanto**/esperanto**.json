@@ -1,12 +1,11 @@
 {
+  "id": "esperanto**",
   "name": "Esperanto** *(L.L. Zamenhof, 1887 — most spoken constructed language)*",
+  "parent": "constructed_languages",
   "iso6393": null,
   "glottocode": null,
-  "family": "constructed_languages",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

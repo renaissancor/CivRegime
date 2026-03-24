@@ -1,10 +1,9 @@
 {
+  "id": "malayalam",
   "name": "Malayalam",
-  "bloc": "south_asian",
-  "cluster": "dravidian_cluster",
-  "subcluster": null,
+  "parent": "dravidian_cluster",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

@@ -1,11 +1,10 @@
 {
+  "id": "legalism",
   "name": "Legalism *(historical, philosophical)*",
-  "family": "east_asian_traditions",
-  "tradition": "other_east_asian_traditions",
-  "branch": null,
+  "parent": "other_east_asian_traditions",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

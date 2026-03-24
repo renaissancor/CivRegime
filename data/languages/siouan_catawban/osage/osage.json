@@ -1,12 +1,11 @@
 {
+  "id": "osage",
   "name": "Osage",
+  "parent": "siouan_catawban",
   "iso6393": null,
   "glottocode": null,
-  "family": "siouan_catawban",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

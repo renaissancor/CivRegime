@@ -1,12 +1,11 @@
 {
+  "id": "palaung",
   "name": "Palaung",
+  "parent": "other_mon_khmer",
   "iso6393": null,
   "glottocode": null,
-  "family": "austroasiatic",
-  "branch": "mon_khmer",
-  "group": "other_mon_khmer",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -1,12 +1,11 @@
 {
+  "id": "manx",
   "name": "Manx",
+  "parent": "goidelic",
   "iso6393": null,
   "glottocode": null,
-  "family": "indo_european",
-  "branch": "celtic",
-  "group": "goidelic",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

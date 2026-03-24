@@ -1,10 +1,9 @@
 {
+  "id": "germanic_tribes",
   "name": "Germanic tribes *(historical)*",
-  "bloc": "historical_extinct_ethnic_groups",
-  "cluster": "ancient_european",
-  "subcluster": null,
+  "parent": "ancient_european",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

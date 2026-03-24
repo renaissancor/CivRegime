@@ -1,12 +1,11 @@
 {
+  "id": "skolt_sami",
   "name": "Skolt Sami",
+  "parent": "samic",
   "iso6393": null,
   "glottocode": null,
-  "family": "uralic",
-  "branch": "samic",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

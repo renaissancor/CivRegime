@@ -1,12 +1,11 @@
 {
+  "id": "chuvash",
   "name": "Chuvash *(sole living Oghur language)*",
+  "parent": "oghur",
   "iso6393": null,
   "glottocode": null,
-  "family": "turkic",
-  "branch": "oghur",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

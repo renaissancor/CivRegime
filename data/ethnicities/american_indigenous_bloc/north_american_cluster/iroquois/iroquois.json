@@ -1,10 +1,9 @@
 {
+  "id": "iroquois",
   "name": "Iroquois",
-  "bloc": "american_indigenous_bloc",
-  "cluster": "north_american_cluster",
-  "subcluster": null,
+  "parent": "north_american_cluster",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

@@ -1,12 +1,11 @@
 {
+  "id": "selkup",
   "name": "Selkup",
+  "parent": "samoyedic",
   "iso6393": null,
   "glottocode": null,
-  "family": "uralic",
-  "branch": "samoyedic",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

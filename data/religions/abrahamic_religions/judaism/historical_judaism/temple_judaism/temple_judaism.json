@@ -1,11 +1,10 @@
 {
+  "id": "temple_judaism",
   "name": "Temple Judaism *(pre-70 CE)*",
-  "family": "abrahamic_religions",
-  "tradition": "judaism",
-  "branch": "historical_judaism",
+  "parent": "historical_judaism",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

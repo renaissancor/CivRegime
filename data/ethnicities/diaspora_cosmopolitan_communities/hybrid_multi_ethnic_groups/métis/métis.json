@@ -1,10 +1,9 @@
 {
+  "id": "métis",
   "name": "Métis",
-  "bloc": "diaspora_cosmopolitan_communities",
-  "cluster": "hybrid_multi_ethnic_groups",
-  "subcluster": null,
+  "parent": "hybrid_multi_ethnic_groups",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

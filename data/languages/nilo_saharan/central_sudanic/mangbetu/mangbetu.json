@@ -1,12 +1,11 @@
 {
+  "id": "mangbetu",
   "name": "Mangbetu",
+  "parent": "central_sudanic",
   "iso6393": null,
   "glottocode": null,
-  "family": "nilo_saharan",
-  "branch": "central_sudanic",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

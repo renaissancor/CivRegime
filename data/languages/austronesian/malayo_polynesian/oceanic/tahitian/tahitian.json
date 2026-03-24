@@ -1,12 +1,11 @@
 {
+  "id": "tahitian",
   "name": "Tahitian",
+  "parent": "oceanic",
   "iso6393": null,
   "glottocode": null,
-  "family": "austronesian",
-  "branch": "malayo_polynesian",
-  "group": "oceanic",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

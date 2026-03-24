@@ -1,10 +1,9 @@
 {
+  "id": "syrian",
   "name": "Syrian",
-  "bloc": "caucasian_other_regional_clusters",
-  "cluster": "levantine_diaspora",
-  "subcluster": null,
+  "parent": "levantine_diaspora",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

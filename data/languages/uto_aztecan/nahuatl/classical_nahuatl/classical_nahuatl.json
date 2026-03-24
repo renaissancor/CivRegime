@@ -1,12 +1,11 @@
 {
+  "id": "classical_nahuatl",
   "name": "Classical Nahuatl",
+  "parent": "nahuatl",
   "iso6393": null,
   "glottocode": null,
-  "family": "uto_aztecan",
-  "branch": "nahuatl",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

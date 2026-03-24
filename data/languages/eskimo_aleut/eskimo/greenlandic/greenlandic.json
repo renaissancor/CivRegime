@@ -1,12 +1,11 @@
 {
+  "id": "greenlandic",
   "name": "Greenlandic",
+  "parent": "eskimo",
   "iso6393": null,
   "glottocode": null,
-  "family": "eskimo_aleut",
-  "branch": "eskimo",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

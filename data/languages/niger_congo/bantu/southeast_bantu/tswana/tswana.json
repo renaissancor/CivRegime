@@ -1,12 +1,11 @@
 {
+  "id": "tswana",
   "name": "Tswana",
+  "parent": "southeast_bantu",
   "iso6393": null,
   "glottocode": null,
-  "family": "niger_congo",
-  "branch": "bantu",
-  "group": "southeast_bantu",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -1,11 +1,10 @@
 {
+  "id": "wahabism",
   "name": "Wahabism",
-  "family": "abrahamic_religions",
-  "tradition": "islam",
-  "branch": "other_islamic_schools",
+  "parent": "other_islamic_schools",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

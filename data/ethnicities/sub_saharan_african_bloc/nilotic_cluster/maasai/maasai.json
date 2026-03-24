@@ -1,10 +1,9 @@
 {
+  "id": "maasai",
   "name": "Maasai",
-  "bloc": "sub_saharan_african_bloc",
-  "cluster": "nilotic_cluster",
-  "subcluster": null,
+  "parent": "nilotic_cluster",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

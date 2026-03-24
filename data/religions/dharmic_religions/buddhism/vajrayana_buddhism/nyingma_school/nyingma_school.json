@@ -1,11 +1,10 @@
 {
+  "id": "nyingma_school",
   "name": "Nyingma School",
-  "family": "dharmic_religions",
-  "tradition": "buddhism",
-  "branch": "vajrayana_buddhism",
+  "parent": "vajrayana_buddhism",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

@@ -1,12 +1,11 @@
 {
+  "id": "umbrian",
   "name": "Umbrian",
+  "parent": "latin",
   "iso6393": null,
   "glottocode": null,
-  "family": "indo_european",
-  "branch": "italic",
-  "group": "latin",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

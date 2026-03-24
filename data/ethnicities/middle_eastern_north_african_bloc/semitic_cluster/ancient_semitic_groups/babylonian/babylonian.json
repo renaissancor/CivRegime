@@ -1,10 +1,9 @@
 {
+  "id": "babylonian",
   "name": "Babylonian",
-  "bloc": "middle_eastern_north_african_bloc",
-  "cluster": "semitic_cluster",
-  "subcluster": "ancient_semitic_groups",
+  "parent": "ancient_semitic_groups",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

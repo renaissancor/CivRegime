@@ -1,11 +1,10 @@
 {
+  "id": "andean_religion",
   "name": "Andean religion *(Inca - historical)*",
-  "family": "animism_indigenous_traditions",
-  "tradition": "indigenous_american_traditions",
-  "branch": null,
+  "parent": "indigenous_american_traditions",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

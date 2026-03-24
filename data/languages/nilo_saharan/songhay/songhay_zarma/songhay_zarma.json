@@ -1,12 +1,11 @@
 {
+  "id": "songhay_zarma",
   "name": "Songhay / Zarma *(major language of Sahel — Niger, Mali)*",
+  "parent": "songhay",
   "iso6393": null,
   "glottocode": null,
-  "family": "nilo_saharan",
-  "branch": "songhay",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

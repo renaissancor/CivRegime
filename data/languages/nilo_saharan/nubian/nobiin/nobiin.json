@@ -1,12 +1,11 @@
 {
+  "id": "nobiin",
   "name": "Nobiin",
+  "parent": "nubian",
   "iso6393": null,
   "glottocode": null,
-  "family": "nilo_saharan",
-  "branch": "nubian",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

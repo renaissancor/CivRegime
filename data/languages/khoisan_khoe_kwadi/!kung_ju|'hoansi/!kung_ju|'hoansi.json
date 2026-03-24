@@ -1,12 +1,11 @@
 {
+  "id": "!kung_ju|'hoansi",
   "name": "!Kung / Ju|'hoansi",
+  "parent": "khoisan_khoe_kwadi",
   "iso6393": null,
   "glottocode": null,
-  "family": "khoisan_khoe_kwadi",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -143,13 +143,12 @@ function createReligionJson(family, tradition, branch, sectName, displayName) {
   const jsonPath = path.join(dirPath, `${sectName}.json`);
   
   const jsonData = {
+    id: sectName,
     name: displayName,
-    family: family,
-    tradition: tradition && tradition.trim() ? tradition : null,
-    branch: branch && branch.trim() ? branch : null,
+    parent: branch || tradition || family,
     description: null,
     founder: null,
-    founded_year: null,
+    founded: null,
     founded_region: null,
     scriptures: [],
     theology: {

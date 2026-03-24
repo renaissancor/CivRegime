@@ -1,10 +1,9 @@
 {
+  "id": "tachelhit",
   "name": "Tachelhit",
-  "bloc": "middle_eastern_north_african_bloc",
-  "cluster": "berber_amazigh_cluster",
-  "subcluster": null,
+  "parent": "berber_amazigh_cluster",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

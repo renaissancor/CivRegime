@@ -1,12 +1,11 @@
 {
+  "id": "sicilian",
   "name": "Sicilian",
+  "parent": "italo_dalmatian",
   "iso6393": null,
   "glottocode": null,
-  "family": "indo_european",
-  "branch": "italic",
-  "group": "italo_dalmatian",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

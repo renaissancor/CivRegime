@@ -1,12 +1,11 @@
 {
+  "id": "manchu",
   "name": "Manchu",
+  "parent": "southern",
   "iso6393": null,
   "glottocode": null,
-  "family": "tungusic",
-  "branch": "southern",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

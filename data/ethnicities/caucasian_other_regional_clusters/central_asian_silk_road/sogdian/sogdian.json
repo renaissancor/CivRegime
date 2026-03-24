@@ -1,10 +1,9 @@
 {
+  "id": "sogdian",
   "name": "Sogdian *(historical)*",
-  "bloc": "caucasian_other_regional_clusters",
-  "cluster": "central_asian_silk_road",
-  "subcluster": null,
+  "parent": "central_asian_silk_road",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

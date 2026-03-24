@@ -1,12 +1,11 @@
 {
+  "id": "kinyarwanda",
   "name": "Kinyarwanda",
+  "parent": "east_bantu",
   "iso6393": null,
   "glottocode": null,
-  "family": "niger_congo",
-  "branch": "bantu",
-  "group": "east_bantu",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

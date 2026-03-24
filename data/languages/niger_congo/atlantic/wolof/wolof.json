@@ -1,12 +1,11 @@
 {
+  "id": "wolof",
   "name": "Wolof",
+  "parent": "atlantic",
   "iso6393": null,
   "glottocode": null,
-  "family": "niger_congo",
-  "branch": "atlantic",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

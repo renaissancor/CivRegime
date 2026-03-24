@@ -1,12 +1,11 @@
 {
+  "id": "jukun",
   "name": "Jukun",
+  "parent": "benue_congo",
   "iso6393": null,
   "glottocode": null,
-  "family": "niger_congo",
-  "branch": "benue_congo",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

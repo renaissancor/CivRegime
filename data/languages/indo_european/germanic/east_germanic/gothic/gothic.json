@@ -1,12 +1,11 @@
 {
+  "id": "gothic",
   "name": "Gothic",
+  "parent": "east_germanic",
   "iso6393": null,
   "glottocode": null,
-  "family": "indo_european",
-  "branch": "germanic",
-  "group": "east_germanic",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -1,11 +1,10 @@
 {
+  "id": "neo_confucian_shinto",
   "name": "Neo-Confucian Shinto",
-  "family": "east_asian_traditions",
-  "tradition": "shinto",
-  "branch": "syncretic_traditions",
+  "parent": "syncretic_traditions",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

@@ -1,11 +1,10 @@
 {
+  "id": "nabataean_paganism",
   "name": "Nabataean paganism",
-  "family": "animism_indigenous_traditions",
-  "tradition": "pagan_polytheistic_traditions",
-  "branch": "middle_eastern_north_african",
+  "parent": "middle_eastern_north_african",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

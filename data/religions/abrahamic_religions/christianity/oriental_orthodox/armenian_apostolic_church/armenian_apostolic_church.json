@@ -1,11 +1,10 @@
 {
+  "id": "armenian_apostolic_church",
   "name": "Armenian Apostolic Church",
-  "family": "abrahamic_religions",
-  "tradition": "christianity",
-  "branch": "oriental_orthodox",
+  "parent": "oriental_orthodox",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

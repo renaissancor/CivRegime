@@ -1,12 +1,11 @@
 {
+  "id": "mandarin",
   "name": "Mandarin",
+  "parent": "modern_chinese",
   "iso6393": null,
   "glottocode": null,
-  "family": "sino_tibetan",
-  "branch": "sinitic",
-  "group": "modern_chinese",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

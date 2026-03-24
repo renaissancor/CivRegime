@@ -1,11 +1,10 @@
 {
+  "id": "historical_religion_blending_zoroastrian_and_christian_elements",
   "name": "Historical religion blending Zoroastrian and Christian elements",
-  "family": "iranian_traditions",
-  "tradition": "manichaeism",
-  "branch": null,
+  "parent": "manichaeism",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

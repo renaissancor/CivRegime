@@ -1,12 +1,11 @@
 {
+  "id": "low_german",
   "name": "Low German",
+  "parent": "west_germanic",
   "iso6393": null,
   "glottocode": null,
-  "family": "indo_european",
-  "branch": "germanic",
-  "group": "west_germanic",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

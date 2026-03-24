@@ -1,12 +1,11 @@
 {
+  "id": "tamazight",
   "name": "Tamazight",
+  "parent": "berber",
   "iso6393": null,
   "glottocode": null,
-  "family": "afro_asiatic",
-  "branch": "berber",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

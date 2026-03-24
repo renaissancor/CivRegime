@@ -1,12 +1,11 @@
 {
+  "id": "romansh",
   "name": "Romansh",
+  "parent": "rhaeto_romance",
   "iso6393": null,
   "glottocode": null,
-  "family": "indo_european",
-  "branch": "italic",
-  "group": "rhaeto_romance",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -1,12 +1,11 @@
 {
+  "id": "modern_nahuatl_dialects",
   "name": "Modern Nahuatl dialects",
+  "parent": "nahuatl",
   "iso6393": null,
   "glottocode": null,
-  "family": "uto_aztecan",
-  "branch": "nahuatl",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

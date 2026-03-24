@@ -1,10 +1,9 @@
 {
+  "id": "parthian",
   "name": "Parthian *(historical)*",
-  "bloc": "eurasian",
-  "cluster": "iranian_cluster",
-  "subcluster": null,
+  "parent": "iranian_cluster",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

@@ -1,12 +1,11 @@
 {
+  "id": "late_egyptian_demotic",
   "name": "Late Egyptian / Demotic",
+  "parent": "egyptian",
   "iso6393": null,
   "glottocode": null,
-  "family": "afro_asiatic",
-  "branch": "egyptian",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

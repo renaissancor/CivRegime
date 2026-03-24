@@ -1,11 +1,10 @@
 {
+  "id": "japanese_confucianism",
   "name": "Japanese Confucianism",
-  "family": "east_asian_traditions",
-  "tradition": "confucianism",
-  "branch": "east_asian_confucianism",
+  "parent": "east_asian_confucianism",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

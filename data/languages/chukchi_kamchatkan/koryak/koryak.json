@@ -1,12 +1,11 @@
 {
+  "id": "koryak",
   "name": "Koryak",
+  "parent": "chukchi_kamchatkan",
   "iso6393": null,
   "glottocode": null,
-  "family": "chukchi_kamchatkan",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

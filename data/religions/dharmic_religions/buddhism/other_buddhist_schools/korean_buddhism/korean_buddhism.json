@@ -1,11 +1,10 @@
 {
+  "id": "korean_buddhism",
   "name": "Korean Buddhism",
-  "family": "dharmic_religions",
-  "tradition": "buddhism",
-  "branch": "other_buddhist_schools",
+  "parent": "other_buddhist_schools",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

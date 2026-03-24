@@ -1,12 +1,11 @@
 {
+  "id": "serbo_croatian",
   "name": "Serbo-Croatian",
+  "parent": "south_slavic",
   "iso6393": null,
   "glottocode": null,
-  "family": "indo_european",
-  "branch": "slavic",
-  "group": "south_slavic",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

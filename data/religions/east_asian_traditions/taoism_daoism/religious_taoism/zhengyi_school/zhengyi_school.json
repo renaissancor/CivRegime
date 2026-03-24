@@ -1,11 +1,10 @@
 {
+  "id": "zhengyi_school",
   "name": "Zhengyi School",
-  "family": "east_asian_traditions",
-  "tradition": "taoism_daoism",
-  "branch": "religious_taoism",
+  "parent": "religious_taoism",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

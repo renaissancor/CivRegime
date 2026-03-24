@@ -1,12 +1,11 @@
 {
+  "id": "lingala",
   "name": "Lingala",
+  "parent": "central_bantu",
   "iso6393": null,
   "glottocode": null,
-  "family": "niger_congo",
-  "branch": "bantu",
-  "group": "central_bantu",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

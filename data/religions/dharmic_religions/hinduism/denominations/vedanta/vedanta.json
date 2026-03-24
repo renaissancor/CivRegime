@@ -1,11 +1,10 @@
 {
+  "id": "vedanta",
   "name": "Vedanta",
-  "family": "dharmic_religions",
-  "tradition": "hinduism",
-  "branch": "denominations",
+  "parent": "denominations",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

@@ -1,12 +1,11 @@
 {
+  "id": "iu_mien",
   "name": "Iu Mien",
+  "parent": "hmong_mien",
   "iso6393": null,
   "glottocode": null,
-  "family": "hmong_mien",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -1,12 +1,11 @@
 {
+  "id": "hausa",
   "name": "Hausa",
+  "parent": "chadic",
   "iso6393": null,
   "glottocode": null,
-  "family": "afro_asiatic",
-  "branch": "chadic",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

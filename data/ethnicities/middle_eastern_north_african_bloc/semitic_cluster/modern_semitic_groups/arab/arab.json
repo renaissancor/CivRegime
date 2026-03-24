@@ -1,10 +1,9 @@
 {
+  "id": "arab",
   "name": "Arab",
-  "bloc": "middle_eastern_north_african_bloc",
-  "cluster": "semitic_cluster",
-  "subcluster": "modern_semitic_groups",
+  "parent": "modern_semitic_groups",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

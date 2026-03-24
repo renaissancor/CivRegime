@@ -1,10 +1,9 @@
 {
+  "id": "czech",
   "name": "Czech",
-  "bloc": "eurasian",
-  "cluster": "slavic_cluster",
-  "subcluster": "west_slavic",
+  "parent": "west_slavic",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

@@ -1,11 +1,10 @@
 {
+  "id": "confucian_canon",
   "name": "Confucian Canon",
-  "family": "east_asian_traditions",
-  "tradition": "confucianism",
-  "branch": "classical_confucianism",
+  "parent": "classical_confucianism",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

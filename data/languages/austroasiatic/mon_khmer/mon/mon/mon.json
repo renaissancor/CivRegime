@@ -1,12 +1,11 @@
 {
+  "id": "mon",
   "name": "Mon",
+  "parent": "mon",
   "iso6393": null,
   "glottocode": null,
-  "family": "austroasiatic",
-  "branch": "mon_khmer",
-  "group": "mon",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

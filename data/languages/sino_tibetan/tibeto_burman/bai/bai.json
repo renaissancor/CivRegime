@@ -1,12 +1,11 @@
 {
+  "id": "bai",
   "name": "Bai",
+  "parent": "tibeto_burman",
   "iso6393": null,
   "glottocode": null,
-  "family": "sino_tibetan",
-  "branch": "tibeto_burman",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -1,12 +1,11 @@
 {
+  "id": "zazaki_zaza",
   "name": "Zazaki / Zaza",
+  "parent": "iranian",
   "iso6393": null,
   "glottocode": null,
-  "family": "indo_european",
-  "branch": "indo_iranian",
-  "group": "iranian",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

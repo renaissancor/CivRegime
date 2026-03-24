@@ -1,11 +1,10 @@
 {
+  "id": "celestial_masters",
   "name": "Celestial Masters",
-  "family": "east_asian_traditions",
-  "tradition": "taoism_daoism",
-  "branch": "religious_taoism",
+  "parent": "religious_taoism",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

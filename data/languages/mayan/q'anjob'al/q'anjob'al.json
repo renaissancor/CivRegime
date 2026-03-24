@@ -1,12 +1,11 @@
 {
+  "id": "q'anjob'al",
   "name": "Q'anjob'al",
+  "parent": "mayan",
   "iso6393": null,
   "glottocode": null,
-  "family": "mayan",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

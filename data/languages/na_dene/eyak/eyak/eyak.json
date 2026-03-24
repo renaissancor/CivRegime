@@ -1,12 +1,11 @@
 {
+  "id": "eyak",
   "name": "Eyak *(extinct 2008)*",
+  "parent": "eyak",
   "iso6393": null,
   "glottocode": null,
-  "family": "na_dene",
-  "branch": "eyak",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -1,11 +1,10 @@
 {
+  "id": "polynesian_religion",
   "name": "Polynesian religion",
-  "family": "animism_indigenous_traditions",
-  "tradition": "pacific_oceanic_traditions",
-  "branch": null,
+  "parent": "pacific_oceanic_traditions",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

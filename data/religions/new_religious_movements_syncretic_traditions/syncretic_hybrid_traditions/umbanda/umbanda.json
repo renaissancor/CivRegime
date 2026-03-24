@@ -1,11 +1,10 @@
 {
+  "id": "umbanda",
   "name": "Umbanda",
-  "family": "new_religious_movements_syncretic_traditions",
-  "tradition": "syncretic_hybrid_traditions",
-  "branch": null,
+  "parent": "syncretic_hybrid_traditions",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

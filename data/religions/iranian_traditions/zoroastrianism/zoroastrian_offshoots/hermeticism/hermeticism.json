@@ -1,11 +1,10 @@
 {
+  "id": "hermeticism",
   "name": "Hermeticism *(syncretic influence)*",
-  "family": "iranian_traditions",
-  "tradition": "zoroastrianism",
-  "branch": "zoroastrian_offshoots",
+  "parent": "zoroastrian_offshoots",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

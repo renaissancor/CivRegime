@@ -1,12 +1,11 @@
 {
+  "id": "baule",
   "name": "Baule",
+  "parent": "kwa",
   "iso6393": null,
   "glottocode": null,
-  "family": "niger_congo",
-  "branch": "kwa",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

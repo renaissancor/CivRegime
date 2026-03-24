@@ -1,12 +1,11 @@
 {
+  "id": "basque_euskera**",
   "name": "Basque / Euskera** *(Iberian Peninsula, predates IE arrival)*",
+  "parent": "language_isolates",
   "iso6393": null,
   "glottocode": null,
-  "family": "language_isolates",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

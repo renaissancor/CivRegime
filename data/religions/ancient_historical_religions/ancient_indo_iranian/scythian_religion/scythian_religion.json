@@ -1,11 +1,10 @@
 {
+  "id": "scythian_religion",
   "name": "Scythian religion *(historical)*",
-  "family": "ancient_historical_religions",
-  "tradition": "ancient_indo_iranian",
-  "branch": null,
+  "parent": "ancient_indo_iranian",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

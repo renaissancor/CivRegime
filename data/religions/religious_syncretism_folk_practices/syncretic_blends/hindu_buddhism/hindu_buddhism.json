@@ -1,11 +1,10 @@
 {
+  "id": "hindu_buddhism",
   "name": "Hindu-Buddhism",
-  "family": "religious_syncretism_folk_practices",
-  "tradition": "syncretic_blends",
-  "branch": null,
+  "parent": "syncretic_blends",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

@@ -1,11 +1,10 @@
 {
+  "id": "east_asian_buddhism",
   "name": "East Asian Buddhism",
-  "family": "dharmic_religions",
-  "tradition": "buddhism",
-  "branch": "mahayana_buddhism",
+  "parent": "mahayana_buddhism",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

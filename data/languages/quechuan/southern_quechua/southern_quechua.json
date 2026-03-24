@@ -1,12 +1,11 @@
 {
+  "id": "southern_quechua",
   "name": "Southern Quechua",
+  "parent": "quechuan",
   "iso6393": null,
   "glottocode": null,
-  "family": "quechuan",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

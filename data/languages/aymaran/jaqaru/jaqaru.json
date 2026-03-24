@@ -1,12 +1,11 @@
 {
+  "id": "jaqaru",
   "name": "Jaqaru",
+  "parent": "aymaran",
   "iso6393": null,
   "glottocode": null,
-  "family": "aymaran",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

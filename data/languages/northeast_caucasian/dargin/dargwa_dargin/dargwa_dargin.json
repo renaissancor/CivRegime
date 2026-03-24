@@ -1,12 +1,11 @@
 {
+  "id": "dargwa_dargin",
   "name": "Dargwa / Dargin",
+  "parent": "dargin",
   "iso6393": null,
   "glottocode": null,
-  "family": "northeast_caucasian",
-  "branch": "dargin",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

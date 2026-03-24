@@ -1,11 +1,10 @@
 {
+  "id": "methodism",
   "name": "Methodism",
-  "family": "abrahamic_religions",
-  "tradition": "christianity",
-  "branch": "protestant",
+  "parent": "protestant",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

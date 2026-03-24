@@ -1,11 +1,10 @@
 {
+  "id": "sky_clad_tradition",
   "name": "Sky-clad tradition",
-  "family": "dharmic_religions",
-  "tradition": "jainism",
-  "branch": "digambara",
+  "parent": "digambara",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

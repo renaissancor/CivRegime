@@ -1,12 +1,11 @@
 {
+  "id": "kituba_kikongo_ya_leta**",
   "name": "Kituba / Kikongo ya leta** *(Bantu-based)*",
+  "parent": "creoles,_pidgins_mixed_languages",
   "iso6393": null,
   "glottocode": null,
-  "family": "creoles,_pidgins_mixed_languages",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -1,12 +1,11 @@
 {
+  "id": "tigrinya",
   "name": "Tigrinya",
+  "parent": "south_semitic_group_—_ethiopian",
   "iso6393": null,
   "glottocode": null,
-  "family": "afro_asiatic",
-  "branch": "semitic",
-  "group": "south_semitic_group_—_ethiopian",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

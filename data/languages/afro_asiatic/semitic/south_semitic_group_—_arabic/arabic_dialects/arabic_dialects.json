@@ -1,12 +1,11 @@
 {
+  "id": "arabic_dialects",
   "name": "Arabic dialects",
+  "parent": "south_semitic_group_—_arabic",
   "iso6393": null,
   "glottocode": null,
-  "family": "afro_asiatic",
-  "branch": "semitic",
-  "group": "south_semitic_group_—_arabic",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -1,10 +1,9 @@
 {
+  "id": "aboriginal_australian",
   "name": "Aboriginal Australian",
-  "bloc": "southeast_asian_oceanic_bloc",
-  "cluster": "aboriginal_cluster",
-  "subcluster": null,
+  "parent": "aboriginal_cluster",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

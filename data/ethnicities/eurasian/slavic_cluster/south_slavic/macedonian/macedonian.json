@@ -1,10 +1,9 @@
 {
+  "id": "macedonian",
   "name": "Macedonian",
-  "bloc": "eurasian",
-  "cluster": "slavic_cluster",
-  "subcluster": "south_slavic",
+  "parent": "south_slavic",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

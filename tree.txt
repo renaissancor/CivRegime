@@ -1,0 +1,1370 @@
+.
+├── GEMINI_TO_CLAUDE.md
+├── README.md
+├── data
+│   ├── cradles
+│   │   ├── east_asia
+│   │   │   ├── japan.json
+│   │   │   ├── korea.json
+│   │   │   ├── manchuria.json
+│   │   │   ├── yangtze.json
+│   │   │   └── yellow_river.json
+│   │   ├── europe
+│   │   │   ├── aquitaine.json
+│   │   │   ├── balkans.json
+│   │   │   ├── bohemia.json
+│   │   │   ├── britannia.json
+│   │   │   ├── gaul.json
+│   │   │   ├── germany.json
+│   │   │   ├── hungary.json
+│   │   │   ├── iberia.json
+│   │   │   ├── ile_de_france.json
+│   │   │   ├── ireland.json
+│   │   │   ├── italy.json
+│   │   │   ├── kievan_rus.json
+│   │   │   ├── lithuania.json
+│   │   │   ├── poland.json
+│   │   │   ├── prussia.json
+│   │   │   ├── scandinavia.json
+│   │   │   └── scotland.json
+│   │   ├── middle_east
+│   │   │   ├── anatolia.json
+│   │   │   ├── arabia.json
+│   │   │   ├── egypt.json
+│   │   │   ├── levant.json
+│   │   │   ├── mesopotamia.json
+│   │   │   ├── north_africa.json
+│   │   │   └── nubia.json
+│   │   ├── persia_central_asia
+│   │   │   ├── caucasus.json
+│   │   │   ├── iran_plateau.json
+│   │   │   ├── khorasan.json
+│   │   │   └── transoxiana.json
+│   │   ├── south_asia
+│   │   │   ├── deccan.json
+│   │   │   ├── ganges_plain.json
+│   │   │   ├── indus_valley.json
+│   │   │   └── punjab.json
+│   │   └── steppe
+│   │       ├── central_asian_steppe.json
+│   │       ├── mongolian_plateau.json
+│   │       └── pontic_steppe.json
+│   ├── ethnicities
+│   │   ├── akkadian_eth.json
+│   │   ├── arab.json
+│   │   ├── assyrian_eth.json
+│   │   ├── babylonian_eth.json
+│   │   ├── basque.json
+│   │   ├── bengali_eth.json
+│   │   ├── berber.json
+│   │   ├── caucasian.json
+│   │   ├── celtic.json
+│   │   ├── cushitic.json
+│   │   ├── czech.json
+│   │   ├── dravidian.json
+│   │   ├── east_slavic.json
+│   │   ├── east_slavic_eth.json
+│   │   ├── egyptian_native.json
+│   │   ├── english.json
+│   │   ├── french.json
+│   │   ├── gaelic.json
+│   │   ├── german.json
+│   │   ├── germanic.json
+│   │   ├── gujarati_eth.json
+│   │   ├── han.json
+│   │   ├── hebrew_eth.json
+│   │   ├── hellenic.json
+│   │   ├── hindustani_eth.json
+│   │   ├── hittite.json
+│   │   ├── iberian.json
+│   │   ├── indo_aryan.json
+│   │   ├── irish.json
+│   │   ├── italian.json
+│   │   ├── japanese.json
+│   │   ├── jewish.json
+│   │   ├── jurchen.json
+│   │   ├── kannada_eth.json
+│   │   ├── kazakh.json
+│   │   ├── khitan.json
+│   │   ├── korean_eth.json
+│   │   ├── kurdish.json
+│   │   ├── latin.json
+│   │   ├── lithuanian.json
+│   │   ├── macedonian.json
+│   │   ├── magyar.json
+│   │   ├── marathi_eth.json
+│   │   ├── median.json
+│   │   ├── mongol.json
+│   │   ├── norman.json
+│   │   ├── norse.json
+│   │   ├── north_african.json
+│   │   ├── parthian.json
+│   │   ├── persian.json
+│   │   ├── phoenician_eth.json
+│   │   ├── polish.json
+│   │   ├── punjabi_eth.json
+│   │   ├── russian.json
+│   │   ├── sami.json
+│   │   ├── scottish.json
+│   │   ├── semitic.json
+│   │   ├── slavic.json
+│   │   ├── sogdian.json
+│   │   ├── south_slavic.json
+│   │   ├── south_slavic_eth.json
+│   │   ├── steppe_nomadic.json
+│   │   ├── sumerian.json
+│   │   ├── tamil_eth.json
+│   │   ├── telugu_eth.json
+│   │   ├── turkic.json
+│   │   └── yamato.json
+│   ├── ideologies.json
+│   ├── index.js
+│   ├── languages
+│   │   ├── afroasiatic
+│   │   │   ├── berber
+│   │   │   │   ├── index.json
+│   │   │   │   ├── tamazight
+│   │   │   │   │   └── tamazight.json
+│   │   │   │   └── tifinagh_old
+│   │   │   │       └── tifinagh_old.json
+│   │   │   ├── cushitic
+│   │   │   │   ├── index.json
+│   │   │   │   ├── oromo
+│   │   │   │   │   └── oromo.json
+│   │   │   │   └── somali
+│   │   │   │       └── somali.json
+│   │   │   ├── egyptian_branch
+│   │   │   │   ├── coptic
+│   │   │   │   │   └── coptic.json
+│   │   │   │   ├── demotic
+│   │   │   │   │   └── demotic.json
+│   │   │   │   ├── index.json
+│   │   │   │   ├── middle_egyptian
+│   │   │   │   │   └── middle_egyptian.json
+│   │   │   │   └── old_egyptian
+│   │   │   │       └── old_egyptian.json
+│   │   │   ├── index.json
+│   │   │   └── semitic
+│   │   │       ├── east_semitic
+│   │   │       │   ├── akkadian
+│   │   │       │   │   └── akkadian.json
+│   │   │       │   ├── assyrian_lang
+│   │   │       │   │   └── assyrian_lang.json
+│   │   │       │   ├── babylonian
+│   │   │       │   │   └── babylonian.json
+│   │   │       │   └── index.json
+│   │   │       ├── index.json
+│   │   │       ├── nw_semitic
+│   │   │       │   ├── aramaic
+│   │   │       │   │   └── aramaic.json
+│   │   │       │   ├── index.json
+│   │   │       │   ├── mishnaic_hebrew
+│   │   │       │   │   └── mishnaic_hebrew.json
+│   │   │       │   ├── modern_hebrew
+│   │   │       │   │   └── modern_hebrew.json
+│   │   │       │   ├── old_hebrew
+│   │   │       │   │   └── old_hebrew.json
+│   │   │       │   ├── phoenician
+│   │   │       │   │   └── phoenician.json
+│   │   │       │   ├── syriac
+│   │   │       │   │   └── syriac.json
+│   │   │       │   └── ugaritic
+│   │   │       │       └── ugaritic.json
+│   │   │       └── south_semitic
+│   │   │           ├── amharic
+│   │   │           │   └── amharic.json
+│   │   │           ├── classical_arabic
+│   │   │           │   └── classical_arabic.json
+│   │   │           ├── ge_ez
+│   │   │           │   └── ge_ez.json
+│   │   │           ├── index.json
+│   │   │           ├── modern_arabic
+│   │   │           │   └── modern_arabic.json
+│   │   │           ├── old_arabic
+│   │   │           │   └── old_arabic.json
+│   │   │           └── tigrinya
+│   │   │               └── tigrinya.json
+│   │   ├── dravidian
+│   │   │   ├── index.json
+│   │   │   ├── south_central_dravidian
+│   │   │   │   ├── index.json
+│   │   │   │   └── telugu
+│   │   │   │       └── telugu.json
+│   │   │   └── south_dravidian
+│   │   │       ├── index.json
+│   │   │       ├── kannada
+│   │   │       │   └── kannada.json
+│   │   │       ├── malayalam
+│   │   │       │   └── malayalam.json
+│   │   │       ├── old_tamil
+│   │   │       │   └── old_tamil.json
+│   │   │       └── tamil
+│   │   │           └── tamil.json
+│   │   ├── indo_european
+│   │   │   ├── anatolian
+│   │   │   │   ├── hittite
+│   │   │   │   │   └── hittite.json
+│   │   │   │   ├── index.json
+│   │   │   │   ├── luwian
+│   │   │   │   │   └── luwian.json
+│   │   │   │   └── lydian
+│   │   │   │       └── lydian.json
+│   │   │   ├── armenian
+│   │   │   │   ├── armenian_lang
+│   │   │   │   │   └── armenian_lang.json
+│   │   │   │   ├── classical_armenian
+│   │   │   │   │   └── classical_armenian.json
+│   │   │   │   └── index.json
+│   │   │   ├── baltic
+│   │   │   │   ├── index.json
+│   │   │   │   ├── latvian
+│   │   │   │   │   └── latvian.json
+│   │   │   │   ├── lithuanian
+│   │   │   │   │   └── lithuanian.json
+│   │   │   │   └── old_prussian
+│   │   │   │       └── old_prussian.json
+│   │   │   ├── celtic
+│   │   │   │   ├── breton
+│   │   │   │   │   └── breton.json
+│   │   │   │   ├── gaulish
+│   │   │   │   │   └── gaulish.json
+│   │   │   │   ├── index.json
+│   │   │   │   ├── irish
+│   │   │   │   │   └── irish.json
+│   │   │   │   ├── old_irish
+│   │   │   │   │   └── old_irish.json
+│   │   │   │   ├── scottish_gaelic
+│   │   │   │   │   └── scottish_gaelic.json
+│   │   │   │   └── welsh
+│   │   │   │       └── welsh.json
+│   │   │   ├── germanic
+│   │   │   │   ├── east_germanic
+│   │   │   │   │   ├── burgundian
+│   │   │   │   │   │   └── burgundian.json
+│   │   │   │   │   ├── gothic
+│   │   │   │   │   │   └── gothic.json
+│   │   │   │   │   ├── index.json
+│   │   │   │   │   └── vandalic
+│   │   │   │   │       └── vandalic.json
+│   │   │   │   ├── index.json
+│   │   │   │   ├── north_germanic
+│   │   │   │   │   ├── danish
+│   │   │   │   │   │   └── danish.json
+│   │   │   │   │   ├── icelandic
+│   │   │   │   │   │   └── icelandic.json
+│   │   │   │   │   ├── index.json
+│   │   │   │   │   ├── norwegian
+│   │   │   │   │   │   └── norwegian.json
+│   │   │   │   │   ├── old_norse
+│   │   │   │   │   │   └── old_norse.json
+│   │   │   │   │   ├── proto_norse
+│   │   │   │   │   │   └── proto_norse.json
+│   │   │   │   │   └── swedish
+│   │   │   │   │       └── swedish.json
+│   │   │   │   ├── proto_germanic
+│   │   │   │   │   └── proto_germanic.json
+│   │   │   │   └── west_germanic
+│   │   │   │       ├── dutch
+│   │   │   │       │   └── dutch.json
+│   │   │   │       ├── english
+│   │   │   │       │   └── english.json
+│   │   │   │       ├── frisian
+│   │   │   │       │   └── frisian.json
+│   │   │   │       ├── german
+│   │   │   │       │   └── german.json
+│   │   │   │       ├── index.json
+│   │   │   │       ├── middle_english
+│   │   │   │       │   └── middle_english.json
+│   │   │   │       ├── middle_high_german
+│   │   │   │       │   └── middle_high_german.json
+│   │   │   │       ├── old_dutch
+│   │   │   │       │   └── old_dutch.json
+│   │   │   │       ├── old_english
+│   │   │   │       │   └── old_english.json
+│   │   │   │       ├── old_high_german
+│   │   │   │       │   └── old_high_german.json
+│   │   │   │       └── yiddish
+│   │   │   │           └── yiddish.json
+│   │   │   ├── hellenic
+│   │   │   │   ├── ancient_greek
+│   │   │   │   │   └── ancient_greek.json
+│   │   │   │   ├── byzantine_greek
+│   │   │   │   │   └── byzantine_greek.json
+│   │   │   │   ├── index.json
+│   │   │   │   ├── koine_greek
+│   │   │   │   │   └── koine_greek.json
+│   │   │   │   ├── modern_greek
+│   │   │   │   │   └── modern_greek.json
+│   │   │   │   └── mycenaean_greek
+│   │   │   │       └── mycenaean_greek.json
+│   │   │   ├── index.json
+│   │   │   ├── indo_iranian
+│   │   │   │   ├── index.json
+│   │   │   │   ├── indo_aryan
+│   │   │   │   │   ├── bengali
+│   │   │   │   │   │   └── bengali.json
+│   │   │   │   │   ├── classical_sanskrit
+│   │   │   │   │   │   └── classical_sanskrit.json
+│   │   │   │   │   ├── gujarati
+│   │   │   │   │   │   └── gujarati.json
+│   │   │   │   │   ├── hindi_urdu
+│   │   │   │   │   │   └── hindi_urdu.json
+│   │   │   │   │   ├── index.json
+│   │   │   │   │   ├── marathi
+│   │   │   │   │   │   └── marathi.json
+│   │   │   │   │   ├── pali
+│   │   │   │   │   │   └── pali.json
+│   │   │   │   │   ├── prakrit
+│   │   │   │   │   │   └── prakrit.json
+│   │   │   │   │   ├── punjabi
+│   │   │   │   │   │   └── punjabi.json
+│   │   │   │   │   ├── romani
+│   │   │   │   │   │   └── romani.json
+│   │   │   │   │   └── vedic_sanskrit
+│   │   │   │   │       └── vedic_sanskrit.json
+│   │   │   │   └── iranian
+│   │   │   │       ├── avestan
+│   │   │   │       │   └── avestan.json
+│   │   │   │       ├── dari
+│   │   │   │       │   └── dari.json
+│   │   │   │       ├── index.json
+│   │   │   │       ├── kurdish
+│   │   │   │       │   └── kurdish.json
+│   │   │   │       ├── middle_persian
+│   │   │   │       │   └── middle_persian.json
+│   │   │   │       ├── new_persian
+│   │   │   │       │   └── new_persian.json
+│   │   │   │       ├── old_persian
+│   │   │   │       │   └── old_persian.json
+│   │   │   │       ├── pashto
+│   │   │   │       │   └── pashto.json
+│   │   │   │       ├── scythian
+│   │   │   │       │   └── scythian.json
+│   │   │   │       ├── sogdian
+│   │   │   │       │   └── sogdian.json
+│   │   │   │       └── tajik
+│   │   │   │           └── tajik.json
+│   │   │   ├── italic
+│   │   │   │   ├── index.json
+│   │   │   │   ├── latin
+│   │   │   │   │   └── latin.json
+│   │   │   │   ├── oscan
+│   │   │   │   │   └── oscan.json
+│   │   │   │   ├── romance
+│   │   │   │   │   ├── catalan
+│   │   │   │   │   │   └── catalan.json
+│   │   │   │   │   ├── french
+│   │   │   │   │   │   └── french.json
+│   │   │   │   │   ├── index.json
+│   │   │   │   │   ├── italian
+│   │   │   │   │   │   └── italian.json
+│   │   │   │   │   ├── old_french
+│   │   │   │   │   │   └── old_french.json
+│   │   │   │   │   ├── old_spanish
+│   │   │   │   │   │   └── old_spanish.json
+│   │   │   │   │   ├── portuguese
+│   │   │   │   │   │   └── portuguese.json
+│   │   │   │   │   ├── romanian
+│   │   │   │   │   │   └── romanian.json
+│   │   │   │   │   └── spanish
+│   │   │   │   │       └── spanish.json
+│   │   │   │   └── vulgar_latin
+│   │   │   │       └── vulgar_latin.json
+│   │   │   └── slavic
+│   │   │       ├── east_slavic
+│   │   │       │   ├── belarusian
+│   │   │       │   │   └── belarusian.json
+│   │   │       │   ├── index.json
+│   │   │       │   ├── old_east_slavic
+│   │   │       │   │   └── old_east_slavic.json
+│   │   │       │   ├── russian
+│   │   │       │   │   └── russian.json
+│   │   │       │   └── ukrainian
+│   │   │       │       └── ukrainian.json
+│   │   │       ├── index.json
+│   │   │       ├── old_church_slavonic
+│   │   │       │   └── old_church_slavonic.json
+│   │   │       ├── proto_slavic
+│   │   │       │   └── proto_slavic.json
+│   │   │       ├── south_slavic
+│   │   │       │   ├── bulgarian
+│   │   │       │   │   └── bulgarian.json
+│   │   │       │   ├── index.json
+│   │   │       │   ├── old_bulgarian
+│   │   │       │   │   └── old_bulgarian.json
+│   │   │       │   ├── serbo_croatian
+│   │   │       │   │   └── serbo_croatian.json
+│   │   │       │   └── slovenian
+│   │   │       │       └── slovenian.json
+│   │   │       └── west_slavic
+│   │   │           ├── czech
+│   │   │           │   └── czech.json
+│   │   │           ├── index.json
+│   │   │           ├── old_czech
+│   │   │           │   └── old_czech.json
+│   │   │           ├── polish
+│   │   │           │   └── polish.json
+│   │   │           └── slovak
+│   │   │               └── slovak.json
+│   │   ├── japonic
+│   │   │   ├── index.json
+│   │   │   ├── japanese
+│   │   │   │   └── japanese.json
+│   │   │   ├── middle_japanese
+│   │   │   │   └── middle_japanese.json
+│   │   │   ├── old_japanese
+│   │   │   │   └── old_japanese.json
+│   │   │   └── ryukyuan
+│   │   │       └── ryukyuan.json
+│   │   ├── koreanic
+│   │   │   ├── index.json
+│   │   │   ├── korean
+│   │   │   │   └── korean.json
+│   │   │   ├── middle_korean
+│   │   │   │   └── middle_korean.json
+│   │   │   └── old_korean
+│   │   │       └── old_korean.json
+│   │   ├── mongolic
+│   │   │   ├── buryat
+│   │   │   │   └── buryat.json
+│   │   │   ├── classical_mongolian
+│   │   │   │   └── classical_mongolian.json
+│   │   │   ├── index.json
+│   │   │   ├── middle_mongolian
+│   │   │   │   └── middle_mongolian.json
+│   │   │   ├── mongolian
+│   │   │   │   └── mongolian.json
+│   │   │   └── oirat
+│   │   │       └── oirat.json
+│   │   ├── sino_tibetan
+│   │   │   ├── index.json
+│   │   │   ├── sinitic
+│   │   │   │   ├── cantonese
+│   │   │   │   │   └── cantonese.json
+│   │   │   │   ├── classical_chinese
+│   │   │   │   │   └── classical_chinese.json
+│   │   │   │   ├── index.json
+│   │   │   │   ├── mandarin
+│   │   │   │   │   └── mandarin.json
+│   │   │   │   ├── middle_chinese
+│   │   │   │   │   └── middle_chinese.json
+│   │   │   │   ├── min
+│   │   │   │   │   └── min.json
+│   │   │   │   ├── old_chinese
+│   │   │   │   │   └── old_chinese.json
+│   │   │   │   └── wu
+│   │   │   │       └── wu.json
+│   │   │   └── tibeto_burman
+│   │   │       ├── burmese
+│   │   │       │   └── burmese.json
+│   │   │       ├── classical_tibetan
+│   │   │       │   └── classical_tibetan.json
+│   │   │       ├── index.json
+│   │   │       └── tibetan
+│   │   │           └── tibetan.json
+│   │   ├── sumerian_isolate
+│   │   │   ├── classical_sumerian
+│   │   │   │   └── classical_sumerian.json
+│   │   │   ├── early_sumerian
+│   │   │   │   └── early_sumerian.json
+│   │   │   ├── index.json
+│   │   │   └── liturgical_sumerian
+│   │   │       └── liturgical_sumerian.json
+│   │   ├── tungusic
+│   │   │   ├── evenki
+│   │   │   │   └── evenki.json
+│   │   │   ├── index.json
+│   │   │   ├── manchu
+│   │   │   │   └── manchu.json
+│   │   │   └── nanai
+│   │   │       └── nanai.json
+│   │   └── turkic
+│   │       ├── index.json
+│   │       ├── karluk
+│   │       │   ├── chagatai
+│   │       │   │   └── chagatai.json
+│   │       │   ├── index.json
+│   │       │   ├── old_uyghur
+│   │       │   │   └── old_uyghur.json
+│   │       │   ├── uyghur
+│   │       │   │   └── uyghur.json
+│   │       │   └── uzbek
+│   │       │       └── uzbek.json
+│   │       ├── kipchak
+│   │       │   ├── bashkir
+│   │       │   │   └── bashkir.json
+│   │       │   ├── index.json
+│   │       │   ├── kazakh
+│   │       │   │   └── kazakh.json
+│   │       │   ├── kyrgyz
+│   │       │   │   └── kyrgyz.json
+│   │       │   ├── old_kipchak
+│   │       │   │   └── old_kipchak.json
+│   │       │   └── tatar
+│   │       │       └── tatar.json
+│   │       ├── oghuz
+│   │       │   ├── azerbaijani
+│   │       │   │   └── azerbaijani.json
+│   │       │   ├── index.json
+│   │       │   ├── modern_turkish
+│   │       │   │   └── modern_turkish.json
+│   │       │   ├── old_anatolian_turkish
+│   │       │   │   └── old_anatolian_turkish.json
+│   │       │   ├── ottoman_turkish
+│   │       │   │   └── ottoman_turkish.json
+│   │       │   └── turkmen
+│   │       │       └── turkmen.json
+│   │       └── old_turkic
+│   │           └── old_turkic.json
+│   ├── regimes
+│   │   ├── ancient_near_east.json
+│   │   ├── central_asia_medieval.json
+│   │   ├── east_asia.json
+│   │   ├── east_asia_modern.json
+│   │   ├── egypt.json
+│   │   ├── europe_ancient.json
+│   │   ├── europe_medieval.json
+│   │   ├── europe_transitions.json
+│   │   ├── islam_caliphates.json
+│   │   ├── mediterranean_europe.json
+│   │   ├── middle_east_modern.json
+│   │   ├── persia_iran.json
+│   │   ├── south_asia.json
+│   │   ├── south_asia_modern.json
+│   │   ├── steppe_nomadic.json
+│   │   └── turkic_empires.json
+│   ├── regions
+│   │   └── europe
+│   │       ├── balkans
+│   │       │   ├── bulgaria.geojson
+│   │       │   ├── croatia.geojson
+│   │       │   ├── greece_thrace.geojson
+│   │       │   ├── moldavia.geojson
+│   │       │   ├── serbia.geojson
+│   │       │   └── wallachia.geojson
+│   │       ├── british_isles
+│   │       │   ├── england.geojson
+│   │       │   ├── ireland.geojson
+│   │       │   ├── scotland.geojson
+│   │       │   └── wales.geojson
+│   │       ├── central_europe
+│   │       │   ├── bohemia_moravia.geojson
+│   │       │   ├── greater_poland.geojson
+│   │       │   ├── lesser_poland.geojson
+│   │       │   ├── mazovia.geojson
+│   │       │   ├── pannonian_plain.geojson
+│   │       │   ├── silesia.geojson
+│   │       │   └── transylvania.geojson
+│   │       ├── eastern_europe
+│   │       │   ├── galicia_volhynia.geojson
+│   │       │   ├── kiev_region.geojson
+│   │       │   ├── lithuania_samogitia.geojson
+│   │       │   ├── livonia.geojson
+│   │       │   ├── novgorod.geojson
+│   │       │   ├── teutonic_prussia.geojson
+│   │       │   └── vladimir_suzdal.geojson
+│   │       ├── france
+│   │       │   ├── aquitaine.geojson
+│   │       │   ├── brittany.geojson
+│   │       │   ├── burgundy.geojson
+│   │       │   ├── ile_de_france.geojson
+│   │       │   ├── lorraine.geojson
+│   │       │   ├── normandy.geojson
+│   │       │   └── provence.geojson
+│   │       ├── germany
+│   │       │   ├── austria.geojson
+│   │       │   ├── bavaria.geojson
+│   │       │   ├── brandenburg.geojson
+│   │       │   ├── franconia.geojson
+│   │       │   ├── rhineland.geojson
+│   │       │   ├── saxony.geojson
+│   │       │   ├── swabia.geojson
+│   │       │   └── thuringia.geojson
+│   │       ├── iberia
+│   │       │   ├── al_andalus.geojson
+│   │       │   ├── aragon.geojson
+│   │       │   ├── castile.geojson
+│   │       │   ├── navarre.geojson
+│   │       │   └── portugal.geojson
+│   │       ├── italy
+│   │       │   ├── lombardy.geojson
+│   │       │   ├── naples.geojson
+│   │       │   ├── papal_states.geojson
+│   │       │   ├── sicily.geojson
+│   │       │   ├── tuscany.geojson
+│   │       │   └── venetia.geojson
+│   │       └── scandinavia
+│   │           ├── denmark.geojson
+│   │           ├── norway.geojson
+│   │           └── sweden.geojson
+│   ├── religions
+│   │   ├── abrahamic
+│   │   │   ├── christianity
+│   │   │   │   ├── catholic
+│   │   │   │   │   └── index.json
+│   │   │   │   ├── church_of_east
+│   │   │   │   │   ├── assyrian_church.json
+│   │   │   │   │   └── index.json
+│   │   │   │   ├── early_christianity.json
+│   │   │   │   ├── eastern_orthodox
+│   │   │   │   │   ├── bulgarian_orthodox.json
+│   │   │   │   │   ├── georgian_orthodox.json
+│   │   │   │   │   ├── greek_orthodox.json
+│   │   │   │   │   ├── index.json
+│   │   │   │   │   ├── romanian_orthodox.json
+│   │   │   │   │   ├── russian_orthodox.json
+│   │   │   │   │   └── serbian_orthodox.json
+│   │   │   │   ├── index.json
+│   │   │   │   ├── oriental_orthodox
+│   │   │   │   │   ├── armenian_apostolic.json
+│   │   │   │   │   ├── coptic_church.json
+│   │   │   │   │   ├── eritrean_tewahido.json
+│   │   │   │   │   ├── ethiopian_tewahido.json
+│   │   │   │   │   └── index.json
+│   │   │   │   └── protestant
+│   │   │   │       ├── anglicanism.json
+│   │   │   │       ├── baptist.json
+│   │   │   │       ├── calvinism.json
+│   │   │   │       ├── evangelical.json
+│   │   │   │       ├── index.json
+│   │   │   │       ├── lutheranism.json
+│   │   │   │       └── methodism.json
+│   │   │   ├── index.json
+│   │   │   ├── islam
+│   │   │   │   ├── ibadi.json
+│   │   │   │   ├── index.json
+│   │   │   │   ├── shia
+│   │   │   │   │   ├── index.json
+│   │   │   │   │   ├── shia_ismaili.json
+│   │   │   │   │   ├── shia_twelver.json
+│   │   │   │   │   └── shia_zaydi.json
+│   │   │   │   └── sunni
+│   │   │   │       ├── index.json
+│   │   │   │       ├── sunni_hanafi.json
+│   │   │   │       ├── sunni_hanbali.json
+│   │   │   │       ├── sunni_maliki.json
+│   │   │   │       └── sunni_shafi.json
+│   │   │   └── judaism
+│   │   │       ├── index.json
+│   │   │       ├── rabbinic_judaism.json
+│   │   │       └── temple_judaism.json
+│   │   ├── anatolian_paganism.json
+│   │   ├── animism
+│   │   │   ├── arabian_paganism.json
+│   │   │   ├── celtic_paganism.json
+│   │   │   ├── germanic_paganism.json
+│   │   │   ├── index.json
+│   │   │   ├── lithuanian_paganism.json
+│   │   │   ├── manchu_shamanism.json
+│   │   │   ├── slavic_paganism.json
+│   │   │   └── tengriism.json
+│   │   ├── canaanite_religion.json
+│   │   ├── dharmic
+│   │   │   ├── buddhism
+│   │   │   │   ├── index.json
+│   │   │   │   ├── mahayana
+│   │   │   │   │   ├── chan_zen.json
+│   │   │   │   │   ├── index.json
+│   │   │   │   │   └── vajrayana.json
+│   │   │   │   └── theravada.json
+│   │   │   ├── hinduism
+│   │   │   │   ├── index.json
+│   │   │   │   ├── shaivism.json
+│   │   │   │   └── vaishnavism.json
+│   │   │   ├── index.json
+│   │   │   ├── jainism.json
+│   │   │   └── sikhism.json
+│   │   ├── east_asian_traditions
+│   │   │   ├── chinese_folk_religion.json
+│   │   │   ├── confucianism
+│   │   │   │   ├── index.json
+│   │   │   │   └── neo_confucianism.json
+│   │   │   ├── index.json
+│   │   │   ├── legalism.json
+│   │   │   ├── shinto
+│   │   │   │   ├── index.json
+│   │   │   │   ├── neo_confucianism_shinto.json
+│   │   │   │   ├── shinto_buddhism.json
+│   │   │   │   └── state_shinto.json
+│   │   │   └── taoism.json
+│   │   ├── egyptian_religion.json
+│   │   ├── hellenic_paganism
+│   │   │   ├── index.json
+│   │   │   └── roman_paganism.json
+│   │   ├── manichaeism.json
+│   │   ├── mesopotamian_religion.json
+│   │   └── zoroastrianism
+│   │       ├── index.json
+│   │       └── zurvanism.json
+│   └── successions
+│       ├── cross_region.json
+│       ├── east_asia.json
+│       ├── europe.json
+│       ├── near_east_egypt.json
+│       ├── persia_islam_turkic.json
+│       ├── south_asia.json
+│       └── steppe_mongol.json
+├── docs
+│   ├── data-model.md
+│   ├── ethnicity.md
+│   ├── ideology.md
+│   ├── languages-world-reference.md
+│   ├── regime.md
+│   ├── religion.md
+│   └── succession.md
+├── node_modules
+│   ├── accepts
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── body-parser
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   ├── lib
+│   │   │   ├── read.js
+│   │   │   ├── types
+│   │   │   │   ├── json.js
+│   │   │   │   ├── raw.js
+│   │   │   │   ├── text.js
+│   │   │   │   └── urlencoded.js
+│   │   │   └── utils.js
+│   │   └── package.json
+│   ├── bytes
+│   │   ├── History.md
+│   │   ├── LICENSE
+│   │   ├── Readme.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── call-bind-apply-helpers
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── actualApply.d.ts
+│   │   ├── actualApply.js
+│   │   ├── applyBind.d.ts
+│   │   ├── applyBind.js
+│   │   ├── functionApply.d.ts
+│   │   ├── functionApply.js
+│   │   ├── functionCall.d.ts
+│   │   ├── functionCall.js
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── reflectApply.d.ts
+│   │   ├── reflectApply.js
+│   │   ├── test
+│   │   │   └── index.js
+│   │   └── tsconfig.json
+│   ├── call-bound
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── test
+│   │   │   └── index.js
+│   │   └── tsconfig.json
+│   ├── content-disposition
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── content-type
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── cookie
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── SECURITY.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── cookie-signature
+│   │   ├── History.md
+│   │   ├── LICENSE
+│   │   ├── Readme.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── debug
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── package.json
+│   │   └── src
+│   │       ├── browser.js
+│   │       ├── common.js
+│   │       ├── index.js
+│   │       └── node.js
+│   ├── depd
+│   │   ├── History.md
+│   │   ├── LICENSE
+│   │   ├── Readme.md
+│   │   ├── index.js
+│   │   ├── lib
+│   │   │   └── browser
+│   │   │       └── index.js
+│   │   └── package.json
+│   ├── dunder-proto
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── get.d.ts
+│   │   ├── get.js
+│   │   ├── package.json
+│   │   ├── set.d.ts
+│   │   ├── set.js
+│   │   ├── test
+│   │   │   ├── get.js
+│   │   │   ├── index.js
+│   │   │   └── set.js
+│   │   └── tsconfig.json
+│   ├── ee-first
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── encodeurl
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── es-define-property
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── test
+│   │   │   └── index.js
+│   │   └── tsconfig.json
+│   ├── es-errors
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── eval.d.ts
+│   │   ├── eval.js
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── range.d.ts
+│   │   ├── range.js
+│   │   ├── ref.d.ts
+│   │   ├── ref.js
+│   │   ├── syntax.d.ts
+│   │   ├── syntax.js
+│   │   ├── test
+│   │   │   └── index.js
+│   │   ├── tsconfig.json
+│   │   ├── type.d.ts
+│   │   ├── type.js
+│   │   ├── uri.d.ts
+│   │   └── uri.js
+│   ├── es-object-atoms
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── RequireObjectCoercible.d.ts
+│   │   ├── RequireObjectCoercible.js
+│   │   ├── ToObject.d.ts
+│   │   ├── ToObject.js
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── isObject.d.ts
+│   │   ├── isObject.js
+│   │   ├── package.json
+│   │   ├── test
+│   │   │   └── index.js
+│   │   └── tsconfig.json
+│   ├── escape-html
+│   │   ├── LICENSE
+│   │   ├── Readme.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── etag
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── express
+│   │   ├── LICENSE
+│   │   ├── Readme.md
+│   │   ├── index.js
+│   │   ├── lib
+│   │   │   ├── application.js
+│   │   │   ├── express.js
+│   │   │   ├── request.js
+│   │   │   ├── response.js
+│   │   │   ├── utils.js
+│   │   │   └── view.js
+│   │   └── package.json
+│   ├── finalhandler
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── forwarded
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── fresh
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── function-bind
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── implementation.js
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   └── test
+│   │       └── index.js
+│   ├── get-intrinsic
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   └── test
+│   │       └── GetIntrinsic.js
+│   ├── get-proto
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── Object.getPrototypeOf.d.ts
+│   │   ├── Object.getPrototypeOf.js
+│   │   ├── README.md
+│   │   ├── Reflect.getPrototypeOf.d.ts
+│   │   ├── Reflect.getPrototypeOf.js
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── test
+│   │   │   └── index.js
+│   │   └── tsconfig.json
+│   ├── gopd
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── gOPD.d.ts
+│   │   ├── gOPD.js
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── test
+│   │   │   └── index.js
+│   │   └── tsconfig.json
+│   ├── has-symbols
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── shams.d.ts
+│   │   ├── shams.js
+│   │   ├── test
+│   │   │   ├── index.js
+│   │   │   ├── shams
+│   │   │   │   ├── core-js.js
+│   │   │   │   └── get-own-property-symbols.js
+│   │   │   └── tests.js
+│   │   └── tsconfig.json
+│   ├── hasown
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   └── tsconfig.json
+│   ├── http-errors
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── iconv-lite
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── encodings
+│   │   │   ├── dbcs-codec.js
+│   │   │   ├── dbcs-data.js
+│   │   │   ├── index.js
+│   │   │   ├── internal.js
+│   │   │   ├── sbcs-codec.js
+│   │   │   ├── sbcs-data-generated.js
+│   │   │   ├── sbcs-data.js
+│   │   │   ├── tables
+│   │   │   │   ├── big5-added.json
+│   │   │   │   ├── cp936.json
+│   │   │   │   ├── cp949.json
+│   │   │   │   ├── cp950.json
+│   │   │   │   ├── eucjp.json
+│   │   │   │   ├── gb18030-ranges.json
+│   │   │   │   ├── gbk-added.json
+│   │   │   │   └── shiftjis.json
+│   │   │   ├── utf16.js
+│   │   │   ├── utf32.js
+│   │   │   └── utf7.js
+│   │   ├── lib
+│   │   │   ├── bom-handling.js
+│   │   │   ├── helpers
+│   │   │   │   └── merge-exports.js
+│   │   │   ├── index.d.ts
+│   │   │   ├── index.js
+│   │   │   └── streams.js
+│   │   ├── package.json
+│   │   └── types
+│   │       └── encodings.d.ts
+│   ├── inherits
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── inherits.js
+│   │   ├── inherits_browser.js
+│   │   └── package.json
+│   ├── ipaddr.js
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── ipaddr.min.js
+│   │   ├── lib
+│   │   │   ├── ipaddr.js
+│   │   │   └── ipaddr.js.d.ts
+│   │   └── package.json
+│   ├── is-promise
+│   │   ├── LICENSE
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── index.mjs
+│   │   ├── package.json
+│   │   └── readme.md
+│   ├── math-intrinsics
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── abs.d.ts
+│   │   ├── abs.js
+│   │   ├── constants
+│   │   │   ├── maxArrayLength.d.ts
+│   │   │   ├── maxArrayLength.js
+│   │   │   ├── maxSafeInteger.d.ts
+│   │   │   ├── maxSafeInteger.js
+│   │   │   ├── maxValue.d.ts
+│   │   │   └── maxValue.js
+│   │   ├── floor.d.ts
+│   │   ├── floor.js
+│   │   ├── isFinite.d.ts
+│   │   ├── isFinite.js
+│   │   ├── isInteger.d.ts
+│   │   ├── isInteger.js
+│   │   ├── isNaN.d.ts
+│   │   ├── isNaN.js
+│   │   ├── isNegativeZero.d.ts
+│   │   ├── isNegativeZero.js
+│   │   ├── max.d.ts
+│   │   ├── max.js
+│   │   ├── min.d.ts
+│   │   ├── min.js
+│   │   ├── mod.d.ts
+│   │   ├── mod.js
+│   │   ├── package.json
+│   │   ├── pow.d.ts
+│   │   ├── pow.js
+│   │   ├── round.d.ts
+│   │   ├── round.js
+│   │   ├── sign.d.ts
+│   │   ├── sign.js
+│   │   ├── test
+│   │   │   └── index.js
+│   │   └── tsconfig.json
+│   ├── media-typer
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── merge-descriptors
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── license
+│   │   ├── package.json
+│   │   └── readme.md
+│   ├── mime-db
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── db.json
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── mime-types
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   ├── mimeScore.js
+│   │   └── package.json
+│   ├── ms
+│   │   ├── index.js
+│   │   ├── license.md
+│   │   ├── package.json
+│   │   └── readme.md
+│   ├── negotiator
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   ├── lib
+│   │   │   ├── charset.js
+│   │   │   ├── encoding.js
+│   │   │   ├── language.js
+│   │   │   └── mediaType.js
+│   │   └── package.json
+│   ├── object-inspect
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── example
+│   │   │   ├── all.js
+│   │   │   ├── circular.js
+│   │   │   ├── fn.js
+│   │   │   └── inspect.js
+│   │   ├── index.js
+│   │   ├── package-support.json
+│   │   ├── package.json
+│   │   ├── readme.markdown
+│   │   ├── test
+│   │   │   ├── bigint.js
+│   │   │   ├── browser
+│   │   │   │   └── dom.js
+│   │   │   ├── circular.js
+│   │   │   ├── deep.js
+│   │   │   ├── element.js
+│   │   │   ├── err.js
+│   │   │   ├── fakes.js
+│   │   │   ├── fn.js
+│   │   │   ├── global.js
+│   │   │   ├── has.js
+│   │   │   ├── holes.js
+│   │   │   ├── indent-option.js
+│   │   │   ├── inspect.js
+│   │   │   ├── lowbyte.js
+│   │   │   ├── number.js
+│   │   │   ├── quoteStyle.js
+│   │   │   ├── toStringTag.js
+│   │   │   ├── undef.js
+│   │   │   └── values.js
+│   │   ├── test-core-js.js
+│   │   └── util.inspect.js
+│   ├── on-finished
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── once
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── once.js
+│   │   └── package.json
+│   ├── parseurl
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── path-to-regexp
+│   │   ├── LICENSE
+│   │   ├── Readme.md
+│   │   ├── dist
+│   │   │   ├── index.d.ts
+│   │   │   ├── index.js
+│   │   │   └── index.js.map
+│   │   └── package.json
+│   ├── proxy-addr
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── qs
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE.md
+│   │   ├── README.md
+│   │   ├── dist
+│   │   │   └── qs.js
+│   │   ├── eslint.config.mjs
+│   │   ├── lib
+│   │   │   ├── formats.js
+│   │   │   ├── index.js
+│   │   │   ├── parse.js
+│   │   │   ├── stringify.js
+│   │   │   └── utils.js
+│   │   ├── package.json
+│   │   └── test
+│   │       ├── empty-keys-cases.js
+│   │       ├── parse.js
+│   │       ├── stringify.js
+│   │       └── utils.js
+│   ├── range-parser
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── raw-body
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── router
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   ├── lib
+│   │   │   ├── layer.js
+│   │   │   └── route.js
+│   │   └── package.json
+│   ├── safer-buffer
+│   │   ├── LICENSE
+│   │   ├── Porting-Buffer.md
+│   │   ├── Readme.md
+│   │   ├── dangerous.js
+│   │   ├── package.json
+│   │   ├── safer.js
+│   │   └── tests.js
+│   ├── send
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── serve-static
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── setprototypeof
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   └── test
+│   │       └── index.js
+│   ├── side-channel
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── test
+│   │   │   └── index.js
+│   │   └── tsconfig.json
+│   ├── side-channel-list
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── list.d.ts
+│   │   ├── package.json
+│   │   ├── test
+│   │   │   └── index.js
+│   │   └── tsconfig.json
+│   ├── side-channel-map
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── test
+│   │   │   └── index.js
+│   │   └── tsconfig.json
+│   ├── side-channel-weakmap
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── test
+│   │   │   └── index.js
+│   │   └── tsconfig.json
+│   ├── statuses
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── codes.json
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── toidentifier
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── type-is
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── unpipe
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── vary
+│   │   ├── HISTORY.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── package.json
+│   └── wrappy
+│       ├── LICENSE
+│       ├── README.md
+│       ├── package.json
+│       └── wrappy.js
+├── package-lock.json
+├── package.json
+├── public
+│   ├── app.js
+│   ├── index.html
+│   ├── language
+│   │   ├── app.js
+│   │   └── index.html
+│   ├── religion
+│   │   ├── app.js
+│   │   └── index.html
+│   └── territory
+│       ├── app.js
+│       └── index.html
+├── reports
+│   └── 260321.md
+├── scripts
+│   ├── add-figures.js
+│   ├── add-religion-dates.js
+│   ├── build-taxonomy-trees.js
+│   ├── build-territory-tree.js
+│   ├── rebuild-languages.js
+│   ├── split-data.js
+│   └── validate.js
+├── server.js
+└── tree.txt
+
+357 directories, 1011 files

@@ -1,12 +1,11 @@
 {
+  "id": "teda",
   "name": "Teda",
+  "parent": "kanuri_saharan",
   "iso6393": null,
   "glottocode": null,
-  "family": "nilo_saharan",
-  "branch": "kanuri_saharan",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

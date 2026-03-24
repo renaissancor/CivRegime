@@ -1,11 +1,10 @@
 {
+  "id": "sectarian_shinto",
   "name": "Sectarian Shinto",
-  "family": "east_asian_traditions",
-  "tradition": "shinto",
-  "branch": "shinto_traditions",
+  "parent": "shinto_traditions",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

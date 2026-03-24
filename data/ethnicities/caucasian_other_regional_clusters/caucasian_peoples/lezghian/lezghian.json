@@ -1,10 +1,9 @@
 {
+  "id": "lezghian",
   "name": "Lezghian",
-  "bloc": "caucasian_other_regional_clusters",
-  "cluster": "caucasian_peoples",
-  "subcluster": null,
+  "parent": "caucasian_peoples",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

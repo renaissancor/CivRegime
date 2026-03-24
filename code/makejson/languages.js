@@ -144,14 +144,13 @@ function createLanguageJson(family, branch, group, languageName, displayName) {
   const jsonPath = path.join(dirPath, `${languageName}.json`);
   
   const jsonData = {
+    id: languageName,
     name: displayName,
+    parent: group || branch || family,
     iso6393: null,
     glottocode: null,
-    family: family,
-    branch: branch && branch.trim() ? branch : null,
-    group: group && group.trim() ? group : null,
     description: null,
-    founded_year: null,
+    founded: null,
     macro_area: null,
     coordinates: {
       lat: null,

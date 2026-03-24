@@ -1,12 +1,11 @@
 {
+  "id": "kutenai**",
   "name": "Kutenai** *(Pacific Northwest, Canada)*",
+  "parent": "language_isolates",
   "iso6393": null,
   "glottocode": null,
-  "family": "language_isolates",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

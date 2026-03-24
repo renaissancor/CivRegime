@@ -1,12 +1,11 @@
 {
+  "id": "old_vietnamese",
   "name": "Old Vietnamese",
+  "parent": "vietic",
   "iso6393": null,
   "glottocode": null,
-  "family": "austroasiatic",
-  "branch": "mon_khmer",
-  "group": "vietic",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -1,12 +1,11 @@
 {
+  "id": "old_turkic_orkhon_runic",
   "name": "Old Turkic / Orkhon Runic",
+  "parent": "siberian",
   "iso6393": null,
   "glottocode": null,
-  "family": "turkic",
-  "branch": "siberian",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

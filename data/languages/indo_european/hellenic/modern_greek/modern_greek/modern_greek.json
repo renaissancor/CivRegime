@@ -1,12 +1,11 @@
 {
+  "id": "modern_greek",
   "name": "Modern Greek",
+  "parent": "modern_greek",
   "iso6393": null,
   "glottocode": null,
-  "family": "indo_european",
-  "branch": "hellenic",
-  "group": "modern_greek",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

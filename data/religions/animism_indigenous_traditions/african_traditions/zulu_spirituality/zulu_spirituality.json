@@ -1,11 +1,10 @@
 {
+  "id": "zulu_spirituality",
   "name": "Zulu spirituality",
-  "family": "animism_indigenous_traditions",
-  "tradition": "african_traditions",
-  "branch": null,
+  "parent": "african_traditions",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

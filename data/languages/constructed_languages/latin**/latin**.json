@@ -1,12 +1,11 @@
 {
+  "id": "latin**",
   "name": "Latin** *(used as constructed international language in medieval Europe)*",
+  "parent": "constructed_languages",
   "iso6393": null,
   "glottocode": null,
-  "family": "constructed_languages",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

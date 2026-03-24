@@ -1,11 +1,10 @@
 {
+  "id": "secular_buddhism",
   "name": "Secular Buddhism",
-  "family": "lesser_known_minority_traditions",
-  "tradition": "philosophical_secular_traditions",
-  "branch": null,
+  "parent": "philosophical_secular_traditions",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

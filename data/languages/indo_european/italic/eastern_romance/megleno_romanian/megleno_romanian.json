@@ -1,12 +1,11 @@
 {
+  "id": "megleno_romanian",
   "name": "Megleno-Romanian",
+  "parent": "eastern_romance",
   "iso6393": null,
   "glottocode": null,
-  "family": "indo_european",
-  "branch": "italic",
-  "group": "eastern_romance",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -1,10 +1,9 @@
 {
+  "id": "magyar",
   "name": "Magyar",
-  "bloc": "central_asian_steppe_bloc",
-  "cluster": "uralic_cluster",
-  "subcluster": null,
+  "parent": "uralic_cluster",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

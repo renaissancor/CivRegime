@@ -1,11 +1,10 @@
 {
+  "id": "tengrism",
   "name": "Tengrism",
-  "family": "animism_indigenous_traditions",
-  "tradition": "shamanic_spiritual_traditions",
-  "branch": null,
+  "parent": "shamanic_spiritual_traditions",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

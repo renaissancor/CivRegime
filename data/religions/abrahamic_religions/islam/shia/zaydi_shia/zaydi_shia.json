@@ -1,11 +1,10 @@
 {
+  "id": "zaydi_shia",
   "name": "Zaydi Shia",
-  "family": "abrahamic_religions",
-  "tradition": "islam",
-  "branch": "shia",
+  "parent": "shia",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

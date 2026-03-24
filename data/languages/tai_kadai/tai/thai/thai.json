@@ -1,12 +1,11 @@
 {
+  "id": "thai",
   "name": "Thai",
+  "parent": "tai",
   "iso6393": null,
   "glottocode": null,
-  "family": "tai_kadai",
-  "branch": "tai",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

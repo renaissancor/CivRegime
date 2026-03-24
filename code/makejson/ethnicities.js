@@ -143,12 +143,11 @@ function createEthnicityJson(bloc, cluster, subcluster, ethnicityName, displayNa
   const jsonPath = path.join(dirPath, `${ethnicityName}.json`);
   
   const jsonData = {
+    id: ethnicityName,
     name: displayName,
-    bloc: bloc,
-    cluster: cluster && cluster.trim() ? cluster : null,
-    subcluster: subcluster && subcluster.trim() ? subcluster : null,
+    parent: subcluster || cluster || bloc,
     description: null,
-    founded_year: null,
+    founded: null,
     historical_depth: null,
     languages: [],
     origin_territory: null,

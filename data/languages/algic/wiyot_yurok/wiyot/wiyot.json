@@ -1,12 +1,11 @@
 {
+  "id": "wiyot",
   "name": "Wiyot",
+  "parent": "wiyot_yurok",
   "iso6393": null,
   "glottocode": null,
-  "family": "algic",
-  "branch": "wiyot_yurok",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

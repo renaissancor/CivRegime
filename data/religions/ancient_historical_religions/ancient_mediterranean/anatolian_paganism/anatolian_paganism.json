@@ -1,11 +1,10 @@
 {
+  "id": "anatolian_paganism",
   "name": "Anatolian paganism *(historical)*",
-  "family": "ancient_historical_religions",
-  "tradition": "ancient_mediterranean",
-  "branch": null,
+  "parent": "ancient_mediterranean",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

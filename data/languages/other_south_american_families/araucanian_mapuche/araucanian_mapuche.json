@@ -1,12 +1,11 @@
 {
+  "id": "araucanian_mapuche",
   "name": "Araucanian / Mapuche",
+  "parent": "other_south_american_families",
   "iso6393": null,
   "glottocode": null,
-  "family": "other_south_american_families",
-  "branch": null,
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

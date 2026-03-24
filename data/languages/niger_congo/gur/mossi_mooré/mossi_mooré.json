@@ -1,12 +1,11 @@
 {
+  "id": "mossi_mooré",
   "name": "Mossi / Mooré",
+  "parent": "gur",
   "iso6393": null,
   "glottocode": null,
-  "family": "niger_congo",
-  "branch": "gur",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

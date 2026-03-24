@@ -1,12 +1,11 @@
 {
+  "id": "gondi",
   "name": "Gondi",
+  "parent": "central_dravidian",
   "iso6393": null,
   "glottocode": null,
-  "family": "dravidian",
-  "branch": "central_dravidian",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

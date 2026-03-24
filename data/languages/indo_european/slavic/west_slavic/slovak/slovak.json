@@ -1,12 +1,11 @@
 {
+  "id": "slovak",
   "name": "Slovak",
+  "parent": "west_slavic",
   "iso6393": null,
   "glottocode": null,
-  "family": "indo_european",
-  "branch": "slavic",
-  "group": "west_slavic",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

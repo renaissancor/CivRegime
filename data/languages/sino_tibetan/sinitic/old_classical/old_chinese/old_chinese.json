@@ -1,12 +1,11 @@
 {
+  "id": "old_chinese",
   "name": "Old Chinese",
+  "parent": "old_classical",
   "iso6393": null,
   "glottocode": null,
-  "family": "sino_tibetan",
-  "branch": "sinitic",
-  "group": "old_classical",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

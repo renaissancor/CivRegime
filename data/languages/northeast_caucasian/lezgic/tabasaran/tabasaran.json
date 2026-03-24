@@ -1,12 +1,11 @@
 {
+  "id": "tabasaran",
   "name": "Tabasaran",
+  "parent": "lezgic",
   "iso6393": null,
   "glottocode": null,
-  "family": "northeast_caucasian",
-  "branch": "lezgic",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

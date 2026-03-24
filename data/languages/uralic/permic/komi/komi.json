@@ -1,12 +1,11 @@
 {
+  "id": "komi",
   "name": "Komi",
+  "parent": "permic",
   "iso6393": null,
   "glottocode": null,
-  "family": "uralic",
-  "branch": "permic",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

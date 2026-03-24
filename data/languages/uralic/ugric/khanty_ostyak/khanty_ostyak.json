@@ -1,12 +1,11 @@
 {
+  "id": "khanty_ostyak",
   "name": "Khanty / Ostyak",
+  "parent": "ugric",
   "iso6393": null,
   "glottocode": null,
-  "family": "uralic",
-  "branch": "ugric",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

@@ -1,12 +1,11 @@
 {
+  "id": "karakalpak",
   "name": "Karakalpak",
+  "parent": "kipchak",
   "iso6393": null,
   "glottocode": null,
-  "family": "turkic",
-  "branch": "kipchak",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

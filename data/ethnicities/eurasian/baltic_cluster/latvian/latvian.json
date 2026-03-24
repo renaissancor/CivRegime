@@ -1,10 +1,9 @@
 {
+  "id": "latvian",
   "name": "Latvian",
-  "bloc": "eurasian",
-  "cluster": "baltic_cluster",
-  "subcluster": null,
+  "parent": "baltic_cluster",
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,

@@ -1,11 +1,10 @@
 {
+  "id": "arianism",
   "name": "Arianism *(extinct)*",
-  "family": "abrahamic_religions",
-  "tradition": "christianity",
-  "branch": "early_christianity",
+  "parent": "early_christianity",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

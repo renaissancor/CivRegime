@@ -1,12 +1,11 @@
 {
+  "id": "avar",
   "name": "Avar",
+  "parent": "avar_andic",
   "iso6393": null,
   "glottocode": null,
-  "family": "northeast_caucasian",
-  "branch": "avar_andic",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

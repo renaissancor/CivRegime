@@ -1,12 +1,11 @@
 {
+  "id": "mansi_vogul",
   "name": "Mansi / Vogul",
+  "parent": "ugric",
   "iso6393": null,
   "glottocode": null,
-  "family": "uralic",
-  "branch": "ugric",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

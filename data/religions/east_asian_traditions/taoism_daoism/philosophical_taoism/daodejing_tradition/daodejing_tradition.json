@@ -1,11 +1,10 @@
 {
+  "id": "daodejing_tradition",
   "name": "Daodejing tradition",
-  "family": "east_asian_traditions",
-  "tradition": "taoism_daoism",
-  "branch": "philosophical_taoism",
+  "parent": "philosophical_taoism",
   "description": null,
   "founder": null,
-  "founded_year": null,
+  "founded": null,
   "founded_region": null,
   "scriptures": [],
   "theology": {

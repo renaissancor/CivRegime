@@ -1,12 +1,11 @@
 {
+  "id": "telugu",
   "name": "Telugu",
+  "parent": "south_central_dravidian",
   "iso6393": null,
   "glottocode": null,
-  "family": "dravidian",
-  "branch": "south_central_dravidian",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,

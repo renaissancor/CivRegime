@@ -1,12 +1,11 @@
 {
+  "id": "efik_ibibio",
   "name": "Efik / Ibibio",
+  "parent": "cross_river",
   "iso6393": null,
   "glottocode": null,
-  "family": "niger_congo",
-  "branch": "cross_river",
-  "group": null,
   "description": null,
-  "founded_year": null,
+  "founded": null,
   "macro_area": null,
   "coordinates": {
     "lat": null,
