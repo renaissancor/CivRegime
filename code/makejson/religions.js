@@ -147,6 +147,7 @@ function createReligionJson(family, tradition, branch, sectName, displayName) {
     family: family,
     tradition: tradition && tradition.trim() ? tradition : null,
     branch: branch && branch.trim() ? branch : null,
+    description: null,
     founder: null,
     founded_year: null,
     founded_region: null,
@@ -161,6 +162,7 @@ function createReligionJson(family, tradition, branch, sectName, displayName) {
       date: new Date().getFullYear().toString()
     },
     major_regions: [],
+    status: null,
     sub_sects: []
   };
 

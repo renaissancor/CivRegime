@@ -3,6 +3,7 @@
   "family": "new_religious_movements_syncretic_traditions",
   "tradition": "modern_spiritual_movements",
   "branch": null,
+  "description": null,
   "founder": null,
   "founded_year": null,
   "founded_region": null,
@@ -17,5 +18,6 @@
     "date": "2026"
   },
   "major_regions": [],
+  "status": null,
   "sub_sects": []
 }

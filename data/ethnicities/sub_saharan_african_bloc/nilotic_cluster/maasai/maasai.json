@@ -3,6 +3,8 @@
   "bloc": "sub_saharan_african_bloc",
   "cluster": "nilotic_cluster",
   "subcluster": null,
+  "description": null,
+  "founded_year": null,
   "historical_depth": null,
   "languages": [],
   "origin_territory": null,
@@ -15,5 +17,6 @@
     "total": null,
     "date": "2026"
   },
-  "major_regions": []
+  "major_regions": [],
+  "status": null
 }

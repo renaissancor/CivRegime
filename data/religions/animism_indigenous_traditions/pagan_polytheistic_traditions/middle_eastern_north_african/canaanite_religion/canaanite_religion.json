@@ -3,6 +3,7 @@
   "family": "animism_indigenous_traditions",
   "tradition": "pagan_polytheistic_traditions",
   "branch": "middle_eastern_north_african",
+  "description": null,
   "founder": null,
   "founded_year": null,
   "founded_region": null,
@@ -17,5 +18,6 @@
     "date": "2026"
   },
   "major_regions": [],
+  "status": null,
   "sub_sects": []
 }

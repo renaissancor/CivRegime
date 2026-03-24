@@ -3,6 +3,7 @@
   "family": "abrahamic_religions",
   "tradition": "christianity",
   "branch": "oriental_orthodox",
+  "description": null,
   "founder": null,
   "founded_year": null,
   "founded_region": null,
@@ -17,5 +18,6 @@
     "date": "2026"
   },
   "major_regions": [],
+  "status": null,
   "sub_sects": []
 }

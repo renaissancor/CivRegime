@@ -3,6 +3,7 @@
   "family": "religious_syncretism_folk_practices",
   "tradition": "popular_folk_religion",
   "branch": null,
+  "description": null,
   "founder": null,
   "founded_year": null,
   "founded_region": null,
@@ -17,5 +18,6 @@
     "date": "2026"
   },
   "major_regions": [],
+  "status": null,
   "sub_sects": []
 }

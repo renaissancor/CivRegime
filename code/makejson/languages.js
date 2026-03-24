@@ -150,6 +150,8 @@ function createLanguageJson(family, branch, group, languageName, displayName) {
     family: family,
     branch: branch && branch.trim() ? branch : null,
     group: group && group.trim() ? group : null,
+    description: null,
+    founded_year: null,
     macro_area: null,
     coordinates: {
       lat: null,

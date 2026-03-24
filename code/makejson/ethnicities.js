@@ -147,6 +147,8 @@ function createEthnicityJson(bloc, cluster, subcluster, ethnicityName, displayNa
     bloc: bloc,
     cluster: cluster && cluster.trim() ? cluster : null,
     subcluster: subcluster && subcluster.trim() ? subcluster : null,
+    description: null,
+    founded_year: null,
     historical_depth: null,
     languages: [],
     origin_territory: null,
@@ -159,7 +161,8 @@ function createEthnicityJson(bloc, cluster, subcluster, ethnicityName, displayNa
       total: null,
       date: new Date().getFullYear().toString()
     },
-    major_regions: []
+    major_regions: [],
+    status: null
   };
 
   fs.writeFileSync(jsonPath, JSON.stringify(jsonData, null, 2) + '\n');
