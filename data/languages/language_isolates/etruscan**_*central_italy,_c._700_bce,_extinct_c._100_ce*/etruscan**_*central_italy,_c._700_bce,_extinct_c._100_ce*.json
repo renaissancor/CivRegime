@@ -1,0 +1,21 @@
+{
+  "id": "etruscan**_*central_italy,_c._700_bce,_extinct_c._100_ce*",
+  "name": "Etruscan** *(central Italy, c. 700 BCE, extinct c. 100 CE)*",
+  "parent": "language_isolates",
+  "iso6393": null,
+  "glottocode": null,
+  "description": null,
+  "founded": null,
+  "macro_area": null,
+  "coordinates": {
+    "lat": null,
+    "lon": null
+  },
+  "status": null,
+  "scripts": [],
+  "speaker_count": {
+    "L1": null,
+    "L2": null,
+    "date": "2026"
+  }
+}

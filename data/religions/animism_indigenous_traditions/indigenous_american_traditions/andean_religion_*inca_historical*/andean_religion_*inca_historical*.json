@@ -1,0 +1,22 @@
+{
+  "id": "andean_religion_*inca_historical*",
+  "name": "Andean religion *(Inca - historical)*",
+  "parent": "indigenous_american_traditions",
+  "description": null,
+  "founder": null,
+  "founded": null,
+  "founded_region": null,
+  "scriptures": [],
+  "theology": {
+    "type": null,
+    "deities": [],
+    "key_tenets": []
+  },
+  "adherent_count": {
+    "total": null,
+    "date": "2026"
+  },
+  "major_regions": [],
+  "status": null,
+  "sub_sects": []
+}

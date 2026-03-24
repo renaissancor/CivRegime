@@ -1,0 +1,22 @@
+{
+  "id": "manichaeism_*blended_tradition_now_extinct*",
+  "name": "Manichaeism *(blended tradition - now extinct)*",
+  "parent": "historical_sects",
+  "description": null,
+  "founder": null,
+  "founded": null,
+  "founded_region": null,
+  "scriptures": [],
+  "theology": {
+    "type": null,
+    "deities": [],
+    "key_tenets": []
+  },
+  "adherent_count": {
+    "total": null,
+    "date": "2026"
+  },
+  "major_regions": [],
+  "status": null,
+  "sub_sects": []
+}

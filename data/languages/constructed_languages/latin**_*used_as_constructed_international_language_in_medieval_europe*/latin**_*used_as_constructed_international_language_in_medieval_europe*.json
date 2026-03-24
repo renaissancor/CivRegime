@@ -1,0 +1,21 @@
+{
+  "id": "latin**_*used_as_constructed_international_language_in_medieval_europe*",
+  "name": "Latin** *(used as constructed international language in medieval Europe)*",
+  "parent": "constructed_languages",
+  "iso6393": null,
+  "glottocode": null,
+  "description": null,
+  "founded": null,
+  "macro_area": null,
+  "coordinates": {
+    "lat": null,
+    "lon": null
+  },
+  "status": null,
+  "scripts": [],
+  "speaker_count": {
+    "L1": null,
+    "L2": null,
+    "date": "2026"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "legalism_*historical,_philosophical*",
+  "name": "Legalism *(historical, philosophical)*",
+  "parent": "other_east_asian_traditions",
+  "description": null,
+  "founder": null,
+  "founded": null,
+  "founded_region": null,
+  "scriptures": [],
+  "theology": {
+    "type": null,
+    "deities": [],
+    "key_tenets": []
+  },
+  "adherent_count": {
+    "total": null,
+    "date": "2026"
+  },
+  "major_regions": [],
+  "status": null,
+  "sub_sects": []
+}

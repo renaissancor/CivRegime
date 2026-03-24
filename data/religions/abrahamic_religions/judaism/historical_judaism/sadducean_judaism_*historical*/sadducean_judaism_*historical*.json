@@ -1,0 +1,22 @@
+{
+  "id": "sadducean_judaism_*historical*",
+  "name": "Sadducean Judaism *(historical)*",
+  "parent": "historical_judaism",
+  "description": null,
+  "founder": null,
+  "founded": null,
+  "founded_region": null,
+  "scriptures": [],
+  "theology": {
+    "type": null,
+    "deities": [],
+    "key_tenets": []
+  },
+  "adherent_count": {
+    "total": null,
+    "date": "2026"
+  },
+  "major_regions": [],
+  "status": null,
+  "sub_sects": []
+}

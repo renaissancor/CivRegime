@@ -1,0 +1,22 @@
+{
+  "id": "mesopotamian_religion_*sumerian,_akkadian,_babylonian*",
+  "name": "Mesopotamian religion *(Sumerian, Akkadian, Babylonian)*",
+  "parent": "ancient_near_eastern",
+  "description": null,
+  "founder": null,
+  "founded": null,
+  "founded_region": null,
+  "scriptures": [],
+  "theology": {
+    "type": null,
+    "deities": [],
+    "key_tenets": []
+  },
+  "adherent_count": {
+    "total": null,
+    "date": "2026"
+  },
+  "major_regions": [],
+  "status": null,
+  "sub_sects": []
+}

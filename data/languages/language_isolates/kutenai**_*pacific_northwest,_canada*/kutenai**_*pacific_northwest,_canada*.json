@@ -1,0 +1,21 @@
+{
+  "id": "kutenai**_*pacific_northwest,_canada*",
+  "name": "Kutenai** *(Pacific Northwest, Canada)*",
+  "parent": "language_isolates",
+  "iso6393": null,
+  "glottocode": null,
+  "description": null,
+  "founded": null,
+  "macro_area": null,
+  "coordinates": {
+    "lat": null,
+    "lon": null
+  },
+  "status": null,
+  "scripts": [],
+  "speaker_count": {
+    "L1": null,
+    "L2": null,
+    "date": "2026"
+  }
+}
