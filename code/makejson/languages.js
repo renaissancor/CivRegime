@@ -98,12 +98,20 @@ function createBranchNode(pathArray, displayName, parentId, createdNodes, result
   const key = pathArray.join('/');
   if (createdNodes.has(key)) return;
 
+  const nodeId = pathArray[pathArray.length - 1];
+  
+  // Skip self-references (node would have itself as parent)
+  if (nodeId === parentId) {
+    console.log(`⚠ Skipping self-reference: ${nodeId} (parent would be itself)`);
+    createdNodes.add(key);
+    return;
+  }
+
   const dirPath = path.join(DATA_DIR, ...pathArray);
   if (!fs.existsSync(dirPath)) {
     fs.mkdirSync(dirPath, { recursive: true });
   }
 
-  const nodeId = pathArray[pathArray.length - 1];
   const jsonPath = path.join(dirPath, 'index.json');
   const jsonData = {
     id: nodeId,

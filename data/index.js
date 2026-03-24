@@ -76,6 +76,9 @@ const db = {
   regimes:     loadDir(path.join(DATA, 'regimes')),
   successions: loadDir(path.join(DATA, 'successions')),
 
+  // Territories — one file per territory, contains chronological regime list
+  territories: loadDir(path.join(DATA, 'territories')),
+
   // Taxonomies — directory trees, parent derived from path
   religions:   loadTree(path.join(DATA, 'religions')),
   languages:   loadTree(path.join(DATA, 'languages')),

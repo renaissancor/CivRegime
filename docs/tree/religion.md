@@ -40,11 +40,11 @@
 - Jehovah's Witnesses
 - Mormonism (Latter-day Saints)
 
-#### Early Christianity *(historical)*
+#### Early Christianity ((historical))
 - Early Church
-- Gnostic Christianity *(extinct)*
-- Arianism *(extinct)*
-- Nestorianism *(historical)*
+- Gnostic Christianity ((extinct))
+- Arianism ((extinct))
+- Nestorianism ((historical))
 
 ### 1.2 Islam
 #### Sunni
@@ -73,9 +73,9 @@
 - Reconstructionist Judaism
 
 #### Historical Judaism
-- Temple Judaism *(pre-70 CE)*
-- Pharisaic Judaism *(historical)*
-- Sadducean Judaism *(historical)*
+- Temple Judaism ((pre-70 CE))
+- Pharisaic Judaism ((historical))
+- Sadducean Judaism ((historical))
 - Karaite Judaism
 - Samaritan Judaism
 
@@ -171,17 +171,17 @@
 ### 3.3 Shinto
 #### Shinto Traditions
 - Shrine Shinto
-- State Shinto *(historical)*
+- State Shinto ((historical))
 - Folk Shinto
 - Sectarian Shinto
 
 #### Syncretic Traditions
-- Shinto-Buddhism syncretism *(Shinbutsu Shugo)*
+- Shinto-Buddhism syncretism ((Shinbutsu Shugo))
 - Neo-Confucian Shinto
 
 ### 3.4 Other East Asian Traditions
-- Legalism *(historical, philosophical)*
-- Mohism *(historical, philosophical)*
+- Legalism ((historical, philosophical))
+- Mohism ((historical, philosophical))
 - Chinese folk religion
 - Korean shamanism
 - Japanese folk religion
@@ -196,10 +196,10 @@
 - Irani Zoroastrianism
 
 #### Zoroastrian Offshoots
-- Zurvanism *(historical)*
-- Hermeticism *(syncretic influence)*
+- Zurvanism ((historical))
+- Hermeticism ((syncretic influence))
 
-### 4.2 Manichaeism *(extinct)*
+### 4.2 Manichaeism ((extinct))
 - Historical religion blending Zoroastrian and Christian elements
 
 ---
@@ -219,13 +219,13 @@
 - Celtic paganism
 - Slavic paganism
 - Baltic paganism
-- Greek paganism *(historical)*
-- Roman paganism *(historical)*
+- Greek paganism ((historical))
+- Roman paganism ((historical))
 
 #### Middle Eastern & North African
 - Arabian paganism
 - Nabataean paganism
-- Canaanite religion *(historical)*
+- Canaanite religion ((historical))
 
 ### 5.3 African Traditions
 - Yoruba religion
@@ -236,8 +236,8 @@
 - Malagasy religion
 
 ### 5.4 Indigenous American Traditions
-- Mesoamerican religion *(Maya, Aztec - historical)*
-- Andean religion *(Inca - historical)*
+- Mesoamerican religion ((Maya, Aztec - historical))
+- Andean religion ((Inca - historical))
 - Native American spirituality
 - Amazonian shamanism
 
@@ -252,23 +252,23 @@
 ## 6. ANCIENT & HISTORICAL RELIGIONS
 
 ### 6.1 Ancient Near Eastern
-- Mesopotamian religion *(Sumerian, Akkadian, Babylonian)*
-- Egyptian religion *(historical)*
-- Hittite religion *(historical)*
-- Ugaritic religion *(historical)*
-- Elamite religion *(historical)*
+- Mesopotamian religion ((Sumerian, Akkadian, Babylonian))
+- Egyptian religion ((historical))
+- Hittite religion ((historical))
+- Ugaritic religion ((historical))
+- Elamite religion ((historical))
 
 ### 6.2 Ancient Mediterranean
-- Classical Greek religion *(historical)*
-- Roman religion *(historical)*
-- Etruscan religion *(historical)*
-- Minoan religion *(historical)*
-- Anatolian paganism *(historical)*
+- Classical Greek religion ((historical))
+- Roman religion ((historical))
+- Etruscan religion ((historical))
+- Minoan religion ((historical))
+- Anatolian paganism ((historical))
 
 ### 6.3 Ancient Indo-Iranian
-- Vedic religion *(proto-Indo-European)*
-- Avestan religion *(Zoroastrian precursor)*
-- Scythian religion *(historical)*
+- Vedic religion ((proto-Indo-European))
+- Avestan religion ((Zoroastrian precursor))
+- Scythian religion ((historical))
 
 ---
 
@@ -301,11 +301,11 @@
 ## 8. LESSER-KNOWN & MINORITY TRADITIONS
 
 ### 8.1 Historical Sects
-- Gnosticism *(early Christian variant)*
-- Manichaeism *(blended tradition - now extinct)*
-- Nestorian Christianity *(historical)*
-- Donatism *(historical)*
-- Monophysitism *(historical)*
+- Gnosticism ((early Christian variant))
+- Manichaeism ((blended tradition - now extinct))
+- Nestorian Christianity ((historical))
+- Donatism ((historical))
+- Monophysitism ((historical))
 
 ### 8.2 Modern Minority Traditions
 - Yazidism (Northern Iraq)
@@ -342,4 +342,4 @@
 
 ---
 
-*Note: This reference covers major world religions, significant historical traditions, and notable contemporary movements. Many indigenous, minority, and regional traditions exist and may not be individually listed.*
+Note: This reference covers major world religions, significant historical traditions, and notable contemporary movements. Many indigenous, minority, and regional traditions exist and may not be individually listed.

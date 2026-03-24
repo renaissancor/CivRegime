@@ -1,0 +1,21 @@
+{
+  "id": "oracle_bone_script_chinese",
+  "name": "Oracle Bone Script Chinese",
+  "parent": "old_classical_group",
+  "iso6393": null,
+  "glottocode": null,
+  "description": null,
+  "founded": null,
+  "macro_area": null,
+  "coordinates": {
+    "lat": null,
+    "lon": null
+  },
+  "status": null,
+  "scripts": [],
+  "speaker_count": {
+    "L1": null,
+    "L2": null,
+    "date": "2026"
+  }
+}

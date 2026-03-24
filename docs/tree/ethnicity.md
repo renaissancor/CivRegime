@@ -6,7 +6,7 @@
 ## 1. MIDDLE EASTERN & NORTH AFRICAN BLOC
 
 ### 1.1 Semitic Cluster
-#### Ancient Semitic Groups *(historical)*
+#### Ancient Semitic Groups ((historical))
 - Akkadian
 - Assyrian
 - Babylonian
@@ -41,14 +41,14 @@
 ## 2. EURASIAN (INDO-EUROPEAN) BLOC
 
 ### 2.1 Germanic Cluster
-- Anglo-Saxon *(historical)*
-- Germanic peoples *(historical)*
+- Anglo-Saxon ((historical))
+- Germanic peoples ((historical))
 - English
 - German
 - Dutch
 - Scandinavian (Danish, Swedish, Norwegian)
 - Icelandic
-- Gothic *(historical)*
+- Gothic ((historical))
 
 ### 2.2 Romance Cluster
 - French
@@ -57,7 +57,7 @@
 - Portuguese
 - Romanian
 - Catalan
-- Norman *(historical/regional)*
+- Norman ((historical/regional))
 
 ### 2.3 Slavic Cluster
 
@@ -85,7 +85,7 @@
 - Breton
 
 ### 2.5 Hellenic Cluster
-- Ancient Greek *(historical)*
+- Ancient Greek ((historical))
 - Macedonian
 - Modern Greek
 
@@ -97,9 +97,9 @@
 - Persian
 - Kurdish
 - Pashtun
-- Sogdian *(historical)*
-- Parthian *(historical)*
-- Median *(historical)*
+- Sogdian ((historical))
+- Parthian ((historical))
+- Median ((historical))
 - Tajik
 
 ### 2.8 Indo-Aryan Cluster
@@ -128,7 +128,7 @@
 ### 3.2 Japanese Cluster
 - Yamato
 - Ryukyuan
-- Ainu *(indigenous)*
+- Ainu ((indigenous))
 
 ### 3.3 Korean Cluster
 - Korean
@@ -136,12 +136,12 @@
 
 ### 3.4 Tungusic Cluster
 - Manchu
-- Jurchen *(historical)*
+- Jurchen ((historical))
 - Evenki
 
 ### 3.5 Mongolic Cluster
 - Mongol
-- Khitan *(historical)*
+- Khitan ((historical))
 - Buryat
 
 ### 3.6 Other East Asian Groups
@@ -250,14 +250,14 @@
 
 ### 8.1 Mesoamerican Cluster
 - Maya
-- Aztec *(historical)*
+- Aztec ((historical))
 - K'iche'
 - Quiche
 
 ### 8.2 Andean Cluster
 - Quechua
 - Aymara
-- Inca *(historical)*
+- Inca ((historical))
 
 ### 8.3 North American Cluster
 - Cherokee
@@ -288,8 +288,8 @@
 - Abkhaz
 
 ### 9.2 Central Asian & Silk Road
-- Sogdian *(historical)*
-- Bactrian *(historical)*
+- Sogdian ((historical))
+- Bactrian ((historical))
 - Samaritan
 - Tajik
 - Uyghur
@@ -306,27 +306,27 @@
 ## 10. HISTORICAL & EXTINCT ETHNIC GROUPS
 
 ### 10.1 Ancient Near Eastern
-- Akkadian *(historical)*
-- Sumerian *(historical)*
-- Hittite *(historical)*
-- Elamite *(historical)*
+- Akkadian ((historical))
+- Sumerian ((historical))
+- Hittite ((historical))
+- Elamite ((historical))
 
 ### 10.2 Ancient Mediterranean
-- Roman *(historical)*
-- Etruscan *(historical)*
-- Minoan *(historical)*
+- Roman ((historical))
+- Etruscan ((historical))
+- Minoan ((historical))
 
 ### 10.3 Ancient European
-- Celtic peoples *(historical)*
-- Gaulish *(historical)*
-- Galatian *(historical)*
-- Germanic tribes *(historical)*
-- Scythian *(historical)*
-- Thracian *(historical)*
+- Celtic peoples ((historical))
+- Gaulish ((historical))
+- Galatian ((historical))
+- Germanic tribes ((historical))
+- Scythian ((historical))
+- Thracian ((historical))
 
 ### 10.4 Extinct Modern Groups
 - Rapa Nui (Easter Islander)
-- Ainu *(now integrated)*
+- Ainu ((now integrated))
 
 ---
 
@@ -353,4 +353,4 @@
 
 ---
 
-*Note: This reference covers major world ethnicities and historically significant groups. Many indigenous, minority, and regional ethnic groups exist and may not be individually listed. Classification follows cultural, linguistic, and historical affinity rather than purely biological criteria.*
+Note: This reference covers major world ethnicities and historically significant groups. Many indigenous, minority, and regional ethnic groups exist and may not be individually listed. Classification follows cultural, linguistic, and historical affinity rather than purely biological criteria.

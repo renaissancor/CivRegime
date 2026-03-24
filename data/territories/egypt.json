@@ -1,0 +1,109 @@
+{
+  "id": "egypt",
+  "name": "egypt",
+  "regime_count": 17,
+  "regimes": [
+    {
+      "regime_id": "old_kingdom_egypt",
+      "regime_name": "Old Kingdom Egypt",
+      "start": -2686,
+      "end": -2181
+    },
+    {
+      "regime_id": "new_kingdom_egypt",
+      "regime_name": "New Kingdom Egypt",
+      "start": -1550,
+      "end": -1070
+    },
+    {
+      "regime_id": "neo_assyrian_empire",
+      "regime_name": "Neo-Assyrian Empire",
+      "start": -911,
+      "end": -609
+    },
+    {
+      "regime_id": "achaemenid_empire",
+      "regime_name": "Achaemenid Empire",
+      "start": -550,
+      "end": -330
+    },
+    {
+      "regime_id": "macedonian_empire",
+      "regime_name": "Macedonian Empire (Alexander)",
+      "start": -336,
+      "end": -323
+    },
+    {
+      "regime_id": "ptolemaic_egypt",
+      "regime_name": "Ptolemaic Kingdom",
+      "start": -305,
+      "end": -30
+    },
+    {
+      "regime_id": "roman_empire_pagan",
+      "regime_name": "Roman Empire (Pagan)",
+      "start": -27,
+      "end": 380
+    },
+    {
+      "regime_id": "roman_empire_christian",
+      "regime_name": "Roman Empire (Christian)",
+      "start": 380,
+      "end": 395
+    },
+    {
+      "regime_id": "rashidun_caliphate",
+      "regime_name": "Rashidun Caliphate",
+      "start": 632,
+      "end": 661
+    },
+    {
+      "regime_id": "umayyad_caliphate",
+      "regime_name": "Umayyad Caliphate",
+      "start": 661,
+      "end": 750
+    },
+    {
+      "regime_id": "abbasid_caliphate",
+      "regime_name": "Abbasid Caliphate",
+      "start": 750,
+      "end": 1258
+    },
+    {
+      "regime_id": "fatimid_caliphate",
+      "regime_name": "Fatimid Caliphate",
+      "start": 909,
+      "end": 1171
+    },
+    {
+      "regime_id": "ayyubid_sultanate",
+      "regime_name": "Ayyubid Sultanate",
+      "start": 1171,
+      "end": 1260
+    },
+    {
+      "regime_id": "mamluk_sultanate",
+      "regime_name": "Mamluk Sultanate",
+      "start": 1250,
+      "end": 1517
+    },
+    {
+      "regime_id": "ottoman_empire",
+      "regime_name": "Ottoman Empire",
+      "start": 1299,
+      "end": 1922
+    },
+    {
+      "regime_id": "kingdom_of_egypt",
+      "regime_name": "Kingdom of Egypt",
+      "start": 1805,
+      "end": 1952
+    },
+    {
+      "regime_id": "republic_of_egypt",
+      "regime_name": "Republic of Egypt",
+      "start": 1952,
+      "end": null
+    }
+  ]
+}

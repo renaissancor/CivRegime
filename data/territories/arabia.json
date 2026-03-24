@@ -1,0 +1,25 @@
+{
+  "id": "arabia",
+  "name": "arabia",
+  "regime_count": 3,
+  "regimes": [
+    {
+      "regime_id": "nabataean_kingdom",
+      "regime_name": "Nabataean Kingdom",
+      "start": -115,
+      "end": 106
+    },
+    {
+      "regime_id": "rashidun_caliphate",
+      "regime_name": "Rashidun Caliphate",
+      "start": 632,
+      "end": 661
+    },
+    {
+      "regime_id": "saudi_arabia",
+      "regime_name": "Kingdom of Saudi Arabia",
+      "start": 1932,
+      "end": null
+    }
+  ]
+}

@@ -5,7 +5,7 @@
 
 ## 1. INDO-EUROPEAN
 
-### 1.1 Anatolian Branch *(all extinct)*
+### 1.1 Anatolian Branch ((all extinct))
 - Hittite (c. 1700 BCE)
 - Luwian (c. 1400 BCE)
 - Lydian (c. 700 BCE)
@@ -13,7 +13,7 @@
 - Palaic (c. 1500 BCE)
 
 ### 1.2 Hellenic Branch
-#### Ancient / Classical Greek Group *(extinct)*
+#### Ancient / Classical Greek Group ((extinct))
 - Mycenaean Greek (c. 1450 BCE)
 - Ancient Greek (c. 800 BCE)
 - Koine Greek (c. 300 BCE)
@@ -22,7 +22,7 @@
 - Modern Greek
 
 ### 1.3 Italic Branch
-#### Latin Group *(extinct)*
+#### Latin Group ((extinct))
 - Latin (c. 700 BCE)
 - Vulgar Latin (200–800 CE)
 - Oscan (c. 400 BCE, extinct)
@@ -87,15 +87,15 @@
 - Norwegian (Bokmål / Nynorsk)
 - Icelandic
 - Faroese
-- Greenlandic Norse *(extinct)*
-#### East Germanic Group *(all extinct)*
+- Greenlandic Norse ((extinct))
+#### East Germanic Group ((all extinct))
 - Gothic (c. 350 CE)
 - Vandalic
 - Burgundian
 - Gepidic
 
 ### 1.5 Celtic Branch
-#### Continental Celtic Group *(all extinct)*
+#### Continental Celtic Group ((all extinct))
 - Gaulish (c. 600 BCE)
 - Galatian
 - Celtiberian
@@ -108,14 +108,14 @@
 - Welsh
 - Breton
 - Cornish
-- Cumbric *(extinct)*
+- Cumbric ((extinct))
 
 ### 1.6 Baltic Branch
 - Old Prussian (c. 1400, extinct)
 - Lithuanian
 - Latvian
-- Curonian *(extinct)*
-- Galindian *(extinct)*
+- Curonian ((extinct))
+- Galindian ((extinct))
 
 ### 1.7 Slavic Branch
 #### East Slavic Group
@@ -145,16 +145,16 @@
 - Armenian (Eastern & Western)
 
 ### 1.9 Albanian Branch
-- Illyrian *(possibly related, extinct)*
+- Illyrian ((possibly related, extinct))
 - Albanian (Gheg / Tosk)
 
-### 1.10 Paleo-Balkan Branch *(all extinct)*
+### 1.10 Paleo-Balkan Branch ((all extinct))
 - Thracian
 - Dacian
 - Phrygian
 - Ancient Macedonian
 
-### 1.11 Tocharian Branch *(all extinct)*
+### 1.11 Tocharian Branch ((all extinct))
 - Tocharian A (Agnean) (c. 500 CE)
 - Tocharian B (Kuchean) (c. 500 CE)
 
@@ -211,7 +211,7 @@
 ## 2. AFRO-ASIATIC
 
 ### 2.1 Semitic Branch
-#### East Semitic Group *(all extinct)*
+#### East Semitic Group ((all extinct))
 - Akkadian (c. 3200 BCE)
 - Babylonian dialect (c. 2000 BCE)
 - Assyrian dialect (c. 2000 BCE)
@@ -238,9 +238,9 @@
 - Tigrinya
 - Tigre
 - Harari
-- Somali Arabic *(influence)*
+- Somali Arabic ((influence))
 
-### 2.2 Egyptian Branch *(chain)*
+### 2.2 Egyptian Branch ((chain))
 - Old Egyptian (c. 3200 BCE, extinct)
 - Middle Egyptian (c. 2000 BCE, extinct)
 - Late Egyptian / Demotic (c. 650 BCE, extinct)
@@ -263,7 +263,7 @@
 
 ### 2.5 Chadic Branch
 - Hausa
-- Kanuri *(actually Nilo-Saharan, often confused)*
+- Kanuri ((actually Nilo-Saharan, often confused))
 
 ### 2.6 Omotic Branch
 - Wolaytta
@@ -289,7 +289,7 @@
 - Kolami
 
 ### 3.4 North Dravidian Branch
-- Brahui *(Pakistan)*
+- Brahui ((Pakistan))
 - Kurukh / Oraon
 
 ---
@@ -297,7 +297,7 @@
 ## 4. SINO-TIBETAN
 
 ### 4.1 Sinitic (Chinese) Branch
-#### Old / Classical Group *(extinct as vernacular)*
+#### Old / Classical Group ((extinct as vernacular))
 - Oracle Bone Script Chinese (c. 1250 BCE)
 - Old Chinese (c. 1000 BCE)
 - Middle Chinese (c. 600 CE)
@@ -334,7 +334,7 @@
 - Lao
 - Shan
 - Tai Dam
-- Zhuang *(largest ethnic minority language of China)*
+- Zhuang ((largest ethnic minority language of China))
 - Northern Thai (Kham Mueang)
 
 ### 5.2 Kadai / Kra Branch
@@ -369,7 +369,7 @@
 
 ## 7. AUSTRONESIAN
 
-### 7.1 Formosan Branch *(Taiwan, partially extinct)*
+### 7.1 Formosan Branch ((Taiwan, partially extinct))
 - Atayal
 - Amis
 - Paiwan
@@ -393,11 +393,11 @@
 - Pampangan / Kapampangan
 - Pangasinan
 - Bikol
-- Chavacano *(Spanish-based creole)*
+- Chavacano ((Spanish-based creole))
 #### Western Malayo-Polynesian Group — Other
-- Malagasy *(Madagascar)*
-- Tetum *(Timor-Leste)*
-- Chamorro *(Guam / Marianas)*
+- Malagasy ((Madagascar))
+- Tetum ((Timor-Leste))
+- Chamorro ((Guam / Marianas))
 #### Oceanic Group
 - Proto-Oceanic (reconstructed)
 - Fijian
@@ -407,17 +407,17 @@
 - Hawaiian
 - Maori
 - Rapa Nui / Easter Island
-- Ryukyuan *(Japan — also classified under Japonic)*
-- Bislama *(Vanuatu creole)*
+- Ryukyuan ((Japan — also classified under Japonic))
+- Bislama ((Vanuatu creole))
 
 ---
 
 ## 8. TURKIC
 
-### 8.1 Oghur Branch *(earliest split)*
-- Hunnic / Bulgar *(extinct)*
-- Chuvash *(sole living Oghur language)*
-- Khazar *(extinct)*
+### 8.1 Oghur Branch ((earliest split))
+- Hunnic / Bulgar ((extinct))
+- Chuvash ((sole living Oghur language))
+- Khazar ((extinct))
 
 ### 8.2 Oghuz Branch
 - Old Anatolian Turkish (c. 1100 CE, extinct as written form)
@@ -517,7 +517,7 @@
 - Abaza
 - Adyghe (West Circassian)
 - Kabardian (East Circassian)
-- Ubykh *(extinct 1992)*
+- Ubykh ((extinct 1992))
 
 ---
 
@@ -554,8 +554,8 @@
 - Estonian
 - Karelian
 - Veps
-- Votic *(critically endangered)*
-- Livonian *(extinct 2013)*
+- Votic ((critically endangered))
+- Livonian ((extinct 2013))
 - Ingrian
 
 ### 16.2 Samic Branch
@@ -607,7 +607,7 @@
 ## 18. NA-DENE (Athabaskan-Eyak-Tlingit)
 
 ### 18.1 Athabaskan Branch
-- Navajo *(largest Indigenous language of North America by speakers)*
+- Navajo ((largest Indigenous language of North America by speakers))
 - Apache (Western, Chiricahua, Mescalero, etc.)
 - Dene / Chipewyan
 - Carrier
@@ -617,7 +617,7 @@
 - Tlingit
 
 ### 18.3 Eyak Branch
-- Eyak *(extinct 2008)*
+- Eyak ((extinct 2008))
 
 ---
 
@@ -710,14 +710,14 @@
 
 - Old Tupi (Língua Geral, c. 1500 CE)
 - Guaraní (official language of Paraguay)
-- Tupinambá *(extinct)*
+- Tupinambá ((extinct))
 
 ---
 
 ## 27. OTHER SOUTH AMERICAN FAMILIES
 
 - Araucanian / Mapuche (Araucanian family)
-- Quiché *(see Mayan)*
+- Quiché ((see Mayan))
 - Zapotec (Oto-Manguean family)
 - Mixtec (Oto-Manguean)
 - Otomi (Oto-Manguean)
@@ -805,10 +805,10 @@
 - Mangbetu
 
 ### 29.3 Songhay Branch
-- Songhay / Zarma *(major language of Sahel — Niger, Mali)*
+- Songhay / Zarma ((major language of Sahel — Niger, Mali))
 
 ### 29.4 Kanuri-Saharan Branch
-- Kanuri *(northeastern Nigeria, Niger)*
+- Kanuri ((northeastern Nigeria, Niger))
 - Zaghawa
 - Teda
 
@@ -826,7 +826,7 @@
 - Nama / Khoekhoe
 - !Kung / Ju|'hoansi (San)
 - Sandawe
-- Hadza *(isolate)*
+- Hadza ((isolate))
 - Taa / !Xóõ
 
 ---
@@ -837,7 +837,7 @@
 - Arrernte / Aranda
 - Warlpiri
 - Pitjantjatjara
-- Dyirbal *(famous in linguistics for its grammar)*
+- Dyirbal ((famous in linguistics for its grammar))
 - Yolŋu Matha (Arnhem Land)
 - Murrinh-Patha
 
@@ -854,28 +854,28 @@
 ## 33. LANGUAGE ISOLATES
 
 Languages with no known genealogical relatives:
-- **Basque / Euskera** *(Iberian Peninsula, predates IE arrival)*
-- **Sumerian** *(Mesopotamia, c. 3500 BCE — first written language)*
-- **Elamite** *(southwestern Iran, c. 2600 BCE)*
-- **Urartian** *(ancient Armenia / Van, c. 860 BCE)*
-- **Etruscan** *(central Italy, c. 700 BCE, extinct c. 100 CE)*
-- **Minoan / Linear A** *(Crete, c. 1700 BCE, undeciphered)*
-- **Pictish** *(Scotland, c. 300 CE, extinct)*
-- **Hattic** *(Anatolia, c. 2000 BCE, pre-Hittite)*
-- **Hurrian** *(Upper Mesopotamia, c. 2300 BCE)*
-- **Ainu** *(Japan / Hokkaido)*
-- **Burushaski** *(Karakoram, Pakistan)*
-- **Nivkh** *(Sakhalin Island / Amur region)*
-- **Yukaghir** *(Siberia — possibly distant Uralic relation)*
-- **Naxi / Nakhi** *(Yunnan, China — possibly Sino-Tibetan?)*
-- **Zuni / Zuñi** *(New Mexico, USA)*
-- **Kutenai** *(Pacific Northwest, Canada)*
+- ()Basque / Euskera ((Iberian Peninsula, predates IE arrival))
+- ()Sumerian ((Mesopotamia, c. 3500 BCE — first written language))
+- ()Elamite ((southwestern Iran, c. 2600 BCE))
+- ()Urartian ((ancient Armenia / Van, c. 860 BCE))
+- ()Etruscan ((central Italy, c. 700 BCE, extinct c. 100 CE))
+- ()Minoan / Linear A ((Crete, c. 1700 BCE, undeciphered))
+- ()Pictish ((Scotland, c. 300 CE, extinct))
+- ()Hattic ((Anatolia, c. 2000 BCE, pre-Hittite))
+- ()Hurrian ((Upper Mesopotamia, c. 2300 BCE))
+- ()Ainu ((Japan / Hokkaido))
+- ()Burushaski ((Karakoram, Pakistan))
+- ()Nivkh ((Sakhalin Island / Amur region))
+- ()Yukaghir ((Siberia — possibly distant Uralic relation))
+- ()Naxi / Nakhi ((Yunnan, China — possibly Sino-Tibetan?))
+- ()Zuni / Zuñi ((New Mexico, USA))
+- ()Kutenai ((Pacific Northwest, Canada))
 
 ---
 
 ## 34. CHUKCHI-KAMCHATKAN
 
-- Chukchi *(northeastern Siberia)*
+- Chukchi ((northeastern Siberia))
 - Koryak
 - Itelmen / Kamchadal
 
@@ -883,27 +883,27 @@ Languages with no known genealogical relatives:
 
 ## 35. CREOLES, PIDGINS & MIXED LANGUAGES
 
-- **Haitian Creole** *(French-based)*
-- **Papiamento / Papiamentu** *(Spanish-Portuguese-based, Caribbean)*
-- **Jamaican Patois / Creole** *(English-based)*
-- **Tok Pisin** *(English-based, Papua New Guinea)*
-- **Bislama** *(English-based, Vanuatu)*
-- **Chavacano** *(Spanish-based, Philippines)*
-- **Sango** *(Ngbandi-based, Central African Republic)*
-- **Kituba / Kikongo ya leta** *(Bantu-based)*
+- ()Haitian Creole ((French-based))
+- ()Papiamento / Papiamentu ((Spanish-Portuguese-based, Caribbean))
+- ()Jamaican Patois / Creole ((English-based))
+- ()Tok Pisin ((English-based, Papua New Guinea))
+- ()Bislama ((English-based, Vanuatu))
+- ()Chavacano ((Spanish-based, Philippines))
+- ()Sango ((Ngbandi-based, Central African Republic))
+- ()Kituba / Kikongo ya leta ((Bantu-based))
 
 ---
 
 ## 36. CONSTRUCTED LANGUAGES
 
-- **Esperanto** *(L.L. Zamenhof, 1887 — most spoken constructed language)*
-- **Volapük** *(Johann Martin Schleyer, 1879)*
-- **Ido** *(1907, Esperanto reform)*
-- **Interlingua** *(1951)*
-- **Latin** *(used as constructed international language in medieval Europe)*
-- **Classical Arabic** *(standardized as religious/scholarly lingua franca)*
-- **Classical Sanskrit** *(standardized as pan-South-Asian scholarly language)*
+- ()Esperanto ((L.L. Zamenhof, 1887 — most spoken constructed language))
+- ()Volapük ((Johann Martin Schleyer, 1879))
+- ()Ido ((1907, Esperanto reform))
+- ()Interlingua ((1951))
+- ()Latin ((used as constructed international language in medieval Europe))
+- ()Classical Arabic ((standardized as religious/scholarly lingua franca))
+- ()Classical Sanskrit ((standardized as pan-South-Asian scholarly language))
 
 ---
 
-*Note: ~7,000 living languages exist; this document covers all major and historically significant languages. Many small indigenous languages of the Americas, Papua New Guinea, and Africa are not individually listed.*
+Note: ~7,000 living languages exist; this document covers all major and historically significant languages. Many small indigenous languages of the Americas, Papua New Guinea, and Africa are not individually listed.

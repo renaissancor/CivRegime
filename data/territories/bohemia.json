@@ -1,0 +1,31 @@
+{
+  "id": "bohemia",
+  "name": "bohemia",
+  "regime_count": 4,
+  "regimes": [
+    {
+      "regime_id": "kingdom_of_bohemia",
+      "regime_name": "Kingdom of Bohemia",
+      "start": 895,
+      "end": 1526
+    },
+    {
+      "regime_id": "holy_roman_empire",
+      "regime_name": "Holy Roman Empire",
+      "start": 962,
+      "end": 1806
+    },
+    {
+      "regime_id": "habsburg_monarchy",
+      "regime_name": "Habsburg Monarchy",
+      "start": 1438,
+      "end": 1918
+    },
+    {
+      "regime_id": "czechoslovakia",
+      "regime_name": "Czechoslovakia",
+      "start": 1918,
+      "end": 1993
+    }
+  ]
+}

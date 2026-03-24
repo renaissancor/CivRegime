@@ -1,0 +1,55 @@
+{
+  "id": "north_africa",
+  "name": "north_africa",
+  "regime_count": 8,
+  "regimes": [
+    {
+      "regime_id": "roman_republic",
+      "regime_name": "Roman Republic",
+      "start": -509,
+      "end": -27
+    },
+    {
+      "regime_id": "roman_empire_pagan",
+      "regime_name": "Roman Empire (Pagan)",
+      "start": -27,
+      "end": 380
+    },
+    {
+      "regime_id": "roman_empire_christian",
+      "regime_name": "Roman Empire (Christian)",
+      "start": 380,
+      "end": 395
+    },
+    {
+      "regime_id": "western_roman_empire",
+      "regime_name": "Western Roman Empire",
+      "start": 395,
+      "end": 476
+    },
+    {
+      "regime_id": "vandal_kingdom",
+      "regime_name": "Vandal Kingdom of North Africa",
+      "start": 429,
+      "end": 533
+    },
+    {
+      "regime_id": "umayyad_caliphate",
+      "regime_name": "Umayyad Caliphate",
+      "start": 661,
+      "end": 750
+    },
+    {
+      "regime_id": "fatimid_caliphate",
+      "regime_name": "Fatimid Caliphate",
+      "start": 909,
+      "end": 1171
+    },
+    {
+      "regime_id": "ottoman_empire",
+      "regime_name": "Ottoman Empire",
+      "start": 1299,
+      "end": 1922
+    }
+  ]
+}

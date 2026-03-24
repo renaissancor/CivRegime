@@ -1,0 +1,37 @@
+{
+  "id": "germany",
+  "name": "germany",
+  "regime_count": 5,
+  "regimes": [
+    {
+      "regime_id": "carolingian_empire",
+      "regime_name": "Frankish Kingdom / Carolingian Empire",
+      "start": 486,
+      "end": 843
+    },
+    {
+      "regime_id": "holy_roman_empire",
+      "regime_name": "Holy Roman Empire",
+      "start": 962,
+      "end": 1806
+    },
+    {
+      "regime_id": "habsburg_monarchy",
+      "regime_name": "Habsburg Monarchy",
+      "start": 1438,
+      "end": 1918
+    },
+    {
+      "regime_id": "german_empire",
+      "regime_name": "German Empire (Deutsches Reich)",
+      "start": 1871,
+      "end": 1918
+    },
+    {
+      "regime_id": "weimar_republic",
+      "regime_name": "Weimar Republic",
+      "start": 1918,
+      "end": 1933
+    }
+  ]
+}

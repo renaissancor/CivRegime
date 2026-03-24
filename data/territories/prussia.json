@@ -1,0 +1,13 @@
+{
+  "id": "prussia",
+  "name": "prussia",
+  "regime_count": 1,
+  "regimes": [
+    {
+      "regime_id": "teutonic_order",
+      "regime_name": "Teutonic Order (Monastic State)",
+      "start": 1230,
+      "end": 1525
+    }
+  ]
+}

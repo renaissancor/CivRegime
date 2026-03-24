@@ -1,0 +1,91 @@
+{
+  "id": "iran_plateau",
+  "name": "iran_plateau",
+  "regime_count": 14,
+  "regimes": [
+    {
+      "regime_id": "median_kingdom",
+      "regime_name": "Median Kingdom",
+      "start": -678,
+      "end": -550
+    },
+    {
+      "regime_id": "achaemenid_empire",
+      "regime_name": "Achaemenid Empire",
+      "start": -550,
+      "end": -330
+    },
+    {
+      "regime_id": "macedonian_empire",
+      "regime_name": "Macedonian Empire (Alexander)",
+      "start": -336,
+      "end": -323
+    },
+    {
+      "regime_id": "seleucid_empire",
+      "regime_name": "Seleucid Empire",
+      "start": -312,
+      "end": -63
+    },
+    {
+      "regime_id": "parthian_empire",
+      "regime_name": "Parthian Empire (Arsacid)",
+      "start": -247,
+      "end": 224
+    },
+    {
+      "regime_id": "sassanid_empire",
+      "regime_name": "Sassanid Empire",
+      "start": 224,
+      "end": 651
+    },
+    {
+      "regime_id": "rashidun_caliphate",
+      "regime_name": "Rashidun Caliphate",
+      "start": 632,
+      "end": 661
+    },
+    {
+      "regime_id": "umayyad_caliphate",
+      "regime_name": "Umayyad Caliphate",
+      "start": 661,
+      "end": 750
+    },
+    {
+      "regime_id": "abbasid_caliphate",
+      "regime_name": "Abbasid Caliphate",
+      "start": 750,
+      "end": 1258
+    },
+    {
+      "regime_id": "seljuk_empire",
+      "regime_name": "Seljuk Empire",
+      "start": 1037,
+      "end": 1194
+    },
+    {
+      "regime_id": "mongol_empire",
+      "regime_name": "Mongol Empire",
+      "start": 1206,
+      "end": 1368
+    },
+    {
+      "regime_id": "ilkhanate",
+      "regime_name": "Ilkhanate",
+      "start": 1256,
+      "end": 1335
+    },
+    {
+      "regime_id": "timurid_empire",
+      "regime_name": "Timurid Empire",
+      "start": 1370,
+      "end": 1507
+    },
+    {
+      "regime_id": "safavid_empire",
+      "regime_name": "Safavid Empire",
+      "start": 1501,
+      "end": 1736
+    }
+  ]
+}

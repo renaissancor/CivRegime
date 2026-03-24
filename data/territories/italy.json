@@ -1,0 +1,73 @@
+{
+  "id": "italy",
+  "name": "italy",
+  "regime_count": 11,
+  "regimes": [
+    {
+      "regime_id": "roman_kingdom",
+      "regime_name": "Roman Kingdom",
+      "start": -753,
+      "end": -509
+    },
+    {
+      "regime_id": "roman_republic",
+      "regime_name": "Roman Republic",
+      "start": -509,
+      "end": -27
+    },
+    {
+      "regime_id": "roman_empire_pagan",
+      "regime_name": "Roman Empire (Pagan)",
+      "start": -27,
+      "end": 380
+    },
+    {
+      "regime_id": "roman_empire_christian",
+      "regime_name": "Roman Empire (Christian)",
+      "start": 380,
+      "end": 395
+    },
+    {
+      "regime_id": "western_roman_empire",
+      "regime_name": "Western Roman Empire",
+      "start": 395,
+      "end": 476
+    },
+    {
+      "regime_id": "odoacer_kingdom",
+      "regime_name": "Kingdom of Odoacer",
+      "start": 476,
+      "end": 493
+    },
+    {
+      "regime_id": "carolingian_empire",
+      "regime_name": "Frankish Kingdom / Carolingian Empire",
+      "start": 486,
+      "end": 843
+    },
+    {
+      "regime_id": "ostrogothic_kingdom",
+      "regime_name": "Ostrogothic Kingdom of Italy",
+      "start": 493,
+      "end": 553
+    },
+    {
+      "regime_id": "lombard_kingdom",
+      "regime_name": "Kingdom of the Lombards",
+      "start": 568,
+      "end": 774
+    },
+    {
+      "regime_id": "holy_roman_empire",
+      "regime_name": "Holy Roman Empire",
+      "start": 962,
+      "end": 1806
+    },
+    {
+      "regime_id": "kingdom_of_italy",
+      "regime_name": "Kingdom of Italy",
+      "start": 1861,
+      "end": 1946
+    }
+  ]
+}

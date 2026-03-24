@@ -1,0 +1,13 @@
+{
+  "id": "aquitaine",
+  "name": "aquitaine",
+  "regime_count": 1,
+  "regimes": [
+    {
+      "regime_id": "angevin_empire",
+      "regime_name": "Angevin Empire",
+      "start": 1154,
+      "end": 1204
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "nubia",
+  "name": "nubia",
+  "regime_count": 3,
+  "regimes": [
+    {
+      "regime_id": "old_kingdom_egypt",
+      "regime_name": "Old Kingdom Egypt",
+      "start": -2686,
+      "end": -2181
+    },
+    {
+      "regime_id": "new_kingdom_egypt",
+      "regime_name": "New Kingdom Egypt",
+      "start": -1550,
+      "end": -1070
+    },
+    {
+      "regime_id": "meroitic_kingdom",
+      "regime_name": "Kingdom of Meroe (Meroitic Kingdom)",
+      "start": -656,
+      "end": 350
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "punjab",
+  "name": "punjab",
+  "regime_count": 7,
+  "regimes": [
+    {
+      "regime_id": "maurya_empire",
+      "regime_name": "Maurya Empire",
+      "start": -322,
+      "end": -185
+    },
+    {
+      "regime_id": "ghaznavid_empire",
+      "regime_name": "Ghaznavid Empire",
+      "start": 977,
+      "end": 1186
+    },
+    {
+      "regime_id": "delhi_sultanate",
+      "regime_name": "Delhi Sultanate",
+      "start": 1206,
+      "end": 1526
+    },
+    {
+      "regime_id": "mughal_empire",
+      "regime_name": "Mughal Empire",
+      "start": 1526,
+      "end": 1857
+    },
+    {
+      "regime_id": "sikh_empire",
+      "regime_name": "Sikh Empire",
+      "start": 1799,
+      "end": 1849
+    },
+    {
+      "regime_id": "british_raj",
+      "regime_name": "British Raj",
+      "start": 1858,
+      "end": 1947
+    },
+    {
+      "regime_id": "pakistan",
+      "regime_name": "Pakistan",
+      "start": 1947,
+      "end": null
+    }
+  ]
+}

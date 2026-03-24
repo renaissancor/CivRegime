@@ -1,0 +1,31 @@
+{
+  "id": "pontic_steppe",
+  "name": "pontic_steppe",
+  "regime_count": 4,
+  "regimes": [
+    {
+      "regime_id": "hunnic_empire",
+      "regime_name": "Hunnic Empire",
+      "start": 350,
+      "end": 453
+    },
+    {
+      "regime_id": "khazar_khaganate",
+      "regime_name": "Khazar Khaganate",
+      "start": 650,
+      "end": 969
+    },
+    {
+      "regime_id": "golden_horde",
+      "regime_name": "Golden Horde",
+      "start": 1242,
+      "end": 1502
+    },
+    {
+      "regime_id": "crimean_khanate",
+      "regime_name": "Crimean Khanate",
+      "start": 1441,
+      "end": 1783
+    }
+  ]
+}

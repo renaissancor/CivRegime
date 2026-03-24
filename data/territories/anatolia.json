@@ -1,0 +1,73 @@
+{
+  "id": "anatolia",
+  "name": "anatolia",
+  "regime_count": 11,
+  "regimes": [
+    {
+      "regime_id": "hittite_empire",
+      "regime_name": "Hittite Empire",
+      "start": -1600,
+      "end": -1180
+    },
+    {
+      "regime_id": "neo_assyrian_empire",
+      "regime_name": "Neo-Assyrian Empire",
+      "start": -911,
+      "end": -609
+    },
+    {
+      "regime_id": "achaemenid_empire",
+      "regime_name": "Achaemenid Empire",
+      "start": -550,
+      "end": -330
+    },
+    {
+      "regime_id": "macedonian_empire",
+      "regime_name": "Macedonian Empire (Alexander)",
+      "start": -336,
+      "end": -323
+    },
+    {
+      "regime_id": "seleucid_empire",
+      "regime_name": "Seleucid Empire",
+      "start": -312,
+      "end": -63
+    },
+    {
+      "regime_id": "roman_empire_pagan",
+      "regime_name": "Roman Empire (Pagan)",
+      "start": -27,
+      "end": 380
+    },
+    {
+      "regime_id": "roman_empire_christian",
+      "regime_name": "Roman Empire (Christian)",
+      "start": 380,
+      "end": 395
+    },
+    {
+      "regime_id": "byzantine_empire",
+      "regime_name": "Byzantine Empire",
+      "start": 395,
+      "end": 1453
+    },
+    {
+      "regime_id": "seljuk_rum",
+      "regime_name": "Sultanate of Rum",
+      "start": 1077,
+      "end": 1307
+    },
+    {
+      "regime_id": "ottoman_empire",
+      "regime_name": "Ottoman Empire",
+      "start": 1299,
+      "end": 1922
+    },
+    {
+      "regime_id": "republic_of_turkey",
+      "regime_name": "Republic of Turkey",
+      "start": 1923,
+      "end": null
+    }
+  ]
+}

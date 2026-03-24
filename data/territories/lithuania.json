@@ -1,0 +1,19 @@
+{
+  "id": "lithuania",
+  "name": "lithuania",
+  "regime_count": 2,
+  "regimes": [
+    {
+      "regime_id": "grand_duchy_of_lithuania",
+      "regime_name": "Grand Duchy of Lithuania",
+      "start": 1236,
+      "end": 1569
+    },
+    {
+      "regime_id": "polish_lithuanian_commonwealth",
+      "regime_name": "Polish-Lithuanian Commonwealth",
+      "start": 1569,
+      "end": 1795
+    }
+  ]
+}

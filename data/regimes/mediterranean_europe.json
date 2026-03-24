@@ -66,8 +66,79 @@
     ]
   },
   {
-    "id": "roman_empire",
-    "name": "Roman Empire",
+    "id": "roman_kingdom",
+    "name": "Roman Kingdom",
+    "ruling_ethnicity": "latin",
+    "territories": ["italy"],
+    "start": -753,
+    "end": -509,
+    "cultural_language": "latin",
+    "ideology": {
+      "religion": "roman_paganism",
+      "government": "monarchy"
+    },
+    "figures": [
+      {
+        "id": "romulus",
+        "name": "Romulus",
+        "role": "founder",
+        "years": "-753/-715",
+        "significance": "Legendary founder of Rome"
+      },
+      {
+        "id": "tarquin_superbus",
+        "name": "Tarquin the Proud",
+        "role": "last_ruler",
+        "years": "-534/-496",
+        "significance": "Last king; his tyranny led to the founding of the Republic"
+      }
+    ]
+  },
+  {
+    "id": "roman_republic",
+    "name": "Roman Republic",
+    "ruling_ethnicity": "latin",
+    "territories": [
+      "italy",
+      "balkans",
+      "north_africa",
+      "iberia",
+      "gaul"
+    ],
+    "start": -509,
+    "end": -27,
+    "cultural_language": "latin",
+    "ideology": {
+      "religion": "roman_paganism",
+      "government": "republic"
+    },
+    "figures": [
+      {
+        "id": "cincinnatus",
+        "name": "Cincinnatus",
+        "role": "administrator",
+        "years": "-519/-430",
+        "significance": "Model of republican virtue; gave up power to return to farming"
+      },
+      {
+        "id": "scipio_africanus",
+        "name": "Scipio Africanus",
+        "role": "general",
+        "years": "-236/-183",
+        "significance": "Defeated Hannibal; extended Roman power to Africa and Spain"
+      },
+      {
+        "id": "cicero",
+        "name": "Cicero",
+        "role": "philosopher",
+        "years": "-106/-43",
+        "significance": "Master orator; his speeches defined republican virtue; executed in civil war"
+      }
+    ]
+  },
+  {
+    "id": "roman_empire_pagan",
+    "name": "Roman Empire (Pagan)",
     "ruling_ethnicity": "latin",
     "territories": [
       "italy",
@@ -80,8 +151,7 @@
       "north_africa"
     ],
     "start": -27,
-    "end": 395,
-    "note": "Constantine I converted to Christianity in 312; by 380 Christianity was state religion — a major identity shift mid-dynasty",
+    "end": 380,
     "cultural_language": "latin",
     "ideology": {
       "religion": "roman_paganism",
@@ -89,18 +159,18 @@
     },
     "policies": [
       {
+        "id": "pax_romana",
+        "name": "Pax Romana",
+        "start": -27,
+        "end": 180,
+        "description": "Period of relative peace and stability under the early emperors"
+      },
+      {
         "id": "edict_of_milan",
         "name": "Edict of Milan — Christian Tolerance",
         "start": 312,
         "end": 380,
         "description": "Constantine I granted tolerance to Christianity. Policy, not ideology — the empire remained officially pagan until Theodosius I."
-      },
-      {
-        "id": "state_christianity",
-        "name": "Christianity as State Religion",
-        "start": 380,
-        "end": 395,
-        "description": "Theodosius I made Christianity the only legal religion. Hardened from policy into ideology — the moment that made Byzantine identity possible."
       }
     ],
     "figures": [
@@ -123,7 +193,83 @@
         "name": "Constantine I",
         "role": "reformer",
         "years": "272/337",
-        "significance": "Legalized Christianity; founded Constantinople; the hinge between pagan Rome and Christian Byzantium"
+        "significance": "Legalized Christianity; founded Constantinople; shifted imperial ideology"
+      }
+    ]
+  },
+  {
+    "id": "roman_empire_christian",
+    "name": "Roman Empire (Christian)",
+    "ruling_ethnicity": "latin",
+    "territories": [
+      "italy",
+      "anatolia",
+      "levant",
+      "egypt",
+      "balkans",
+      "iberia",
+      "gaul",
+      "north_africa"
+    ],
+    "start": 380,
+    "end": 395,
+    "note": "Brief period when Christianity became the state ideology; unified empire before the East-West split",
+    "cultural_language": "latin",
+    "ideology": {
+      "religion": "catholic",
+      "government": "imperial_monarchy"
+    },
+    "policies": [
+      {
+        "id": "state_christianity",
+        "name": "Christianity as State Religion",
+        "start": 380,
+        "end": 395,
+        "description": "Theodosius I made Christianity the only legal religion. Hardened from policy into ideology."
+      }
+    ],
+    "figures": [
+      {
+        "id": "theodosius_i",
+        "name": "Theodosius I",
+        "role": "ruler",
+        "years": "346/395",
+        "significance": "Made Christianity the state religion; the last emperor to rule unified empire"
+      }
+    ]
+  },
+  {
+    "id": "western_roman_empire",
+    "name": "Western Roman Empire",
+    "ruling_ethnicity": "latin",
+    "territories": [
+      "italy",
+      "balkans",
+      "iberia",
+      "gaul",
+      "north_africa"
+    ],
+    "start": 395,
+    "end": 476,
+    "cultural_language": "latin",
+    "ideology": {
+      "religion": "catholic",
+      "government": "imperial_monarchy"
+    },
+    "figures": [
+      {
+        "id": "flavius_aetius",
+        "name": "Flavius Aetius",
+        "role": "general",
+        "years": "391/454",
+        "significance": "Last great Roman general; defeated Attila at Catalaunian Fields"
+      },
+      {
+        "id": "romulus_augustulus",
+        "name": "Romulus Augustulus",
+        "role": "last_ruler",
+        "years": "461/511",
+        "significance": "Last Western Roman emperor; deposed by Odoacer in 476"
       }
     ]
   },

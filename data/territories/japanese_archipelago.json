@@ -1,0 +1,37 @@
+{
+  "id": "japanese_archipelago",
+  "name": "japanese_archipelago",
+  "regime_count": 5,
+  "regimes": [
+    {
+      "regime_id": "yamato_period",
+      "regime_name": "Yamato Period",
+      "start": 250,
+      "end": 710
+    },
+    {
+      "regime_id": "feudal_japan",
+      "regime_name": "Feudal Japan",
+      "start": 1185,
+      "end": 1603
+    },
+    {
+      "regime_id": "tokugawa_shogunate",
+      "regime_name": "Tokugawa Shogunate (Edo Period)",
+      "start": 1603,
+      "end": 1868
+    },
+    {
+      "regime_id": "empire_of_japan",
+      "regime_name": "Empire of Japan (Meiji)",
+      "start": 1868,
+      "end": 1947
+    },
+    {
+      "regime_id": "modern_japan",
+      "regime_name": "Modern Japan (Postwar)",
+      "start": 1947,
+      "end": null
+    }
+  ]
+}

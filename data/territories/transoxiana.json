@@ -1,0 +1,73 @@
+{
+  "id": "transoxiana",
+  "name": "transoxiana",
+  "regime_count": 11,
+  "regimes": [
+    {
+      "regime_id": "achaemenid_empire",
+      "regime_name": "Achaemenid Empire",
+      "start": -550,
+      "end": -330
+    },
+    {
+      "regime_id": "macedonian_empire",
+      "regime_name": "Macedonian Empire (Alexander)",
+      "start": -336,
+      "end": -323
+    },
+    {
+      "regime_id": "goktürk_khaganate",
+      "regime_name": "Göktürk Khaganate",
+      "start": 552,
+      "end": 744
+    },
+    {
+      "regime_id": "umayyad_caliphate",
+      "regime_name": "Umayyad Caliphate",
+      "start": 661,
+      "end": 750
+    },
+    {
+      "regime_id": "samanid_empire",
+      "regime_name": "Samanid Empire",
+      "start": 819,
+      "end": 999
+    },
+    {
+      "regime_id": "ghaznavid_empire",
+      "regime_name": "Ghaznavid Empire",
+      "start": 977,
+      "end": 1186
+    },
+    {
+      "regime_id": "seljuk_empire",
+      "regime_name": "Seljuk Empire",
+      "start": 1037,
+      "end": 1194
+    },
+    {
+      "regime_id": "khwarazmian_empire",
+      "regime_name": "Khwarazmian Empire",
+      "start": 1200,
+      "end": 1220
+    },
+    {
+      "regime_id": "mongol_empire",
+      "regime_name": "Mongol Empire",
+      "start": 1206,
+      "end": 1368
+    },
+    {
+      "regime_id": "chagatai_khanate",
+      "regime_name": "Chagatai Khanate",
+      "start": 1226,
+      "end": 1347
+    },
+    {
+      "regime_id": "timurid_empire",
+      "regime_name": "Timurid Empire",
+      "start": 1370,
+      "end": 1507
+    }
+  ]
+}

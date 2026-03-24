@@ -1,0 +1,25 @@
+{
+  "id": "scotland",
+  "name": "scotland",
+  "regime_count": 3,
+  "regimes": [
+    {
+      "regime_id": "kingdom_of_scotland",
+      "regime_name": "Kingdom of Scotland",
+      "start": 843,
+      "end": 1707
+    },
+    {
+      "regime_id": "kingdom_of_great_britain",
+      "regime_name": "Kingdom of Great Britain",
+      "start": 1707,
+      "end": 1801
+    },
+    {
+      "regime_id": "united_kingdom",
+      "regime_name": "United Kingdom of Great Britain and Ireland",
+      "start": 1801,
+      "end": null
+    }
+  ]
+}
