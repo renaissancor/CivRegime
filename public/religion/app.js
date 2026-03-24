@@ -62,38 +62,47 @@ async function init() {
 }
 
 function renderTree(familyId, allReligions, regimesByRel) {
-  const svg = d3.select('#tree-svg');
-  svg.selectAll('*').remove();
+  try {
+    const svg = d3.select('#tree-svg');
+    svg.selectAll('*').remove();
 
-  // Build node list
-  let nodes;
-  if (familyId === 'all') {
-    nodes = [
-      { id: '__root__', parent: null, name: '' },
-      ...allReligions.map(r => ({ ...r, parent: r.parent ?? '__root__' }))
-    ];
-  } else {
-    const root = allReligions.find(r => r.id === familyId);
-    if (!root) return;
-    nodes = [{ ...root, parent: null }, ...getDescendants(familyId, allReligions)];
-  }
+    // Build node list
+    let nodes;
+    if (familyId === 'all') {
+      nodes = [
+        { id: '__root__', parent: null, name: '' },
+        ...allReligions.map(r => ({ ...r, parent: r.parent ?? '__root__' }))
+      ];
+    } else {
+      const root = allReligions.find(r => r.id === familyId);
+      if (!root) {
+        console.warn('Family not found:', familyId);
+        return;
+      }
+      nodes = [{ ...root, parent: null }, ...getDescendants(familyId, allReligions)];
+    }
 
-  const stratify = d3.stratify().id(d => d.id).parentId(d => d.parent);
-  let hierarchy;
-  try { hierarchy = stratify(nodes); } catch { return; }
+    const stratify = d3.stratify().id(d => d.id).parentId(d => d.parent);
+    const hierarchy = stratify(nodes);
 
-  // Tree layout with proper spacing
-  const tree = d3.tree().nodeSize([22, 200]);
-  tree(hierarchy);
+    // Tree layout - adjust node size based on tree depth
+    const depth = d3.max(hierarchy.descendants(), d => d.depth) || 1;
+    const tree = d3.tree().nodeSize([24, Math.max(150, 300 / Math.sqrt(depth + 1))]);
+    tree(hierarchy);
 
-  // Zoom / pan
-  const zoom = d3.zoom().scaleExtent([0.1, 4]).on('zoom', e => g.attr('transform', e.transform));
-  svg.call(zoom);
+    let minX = Infinity, maxX = -Infinity;
+    hierarchy.each(d => { minX = Math.min(minX, d.x); maxX = Math.max(maxX, d.x); });
 
-  let minX = Infinity, maxX = -Infinity;
-  hierarchy.each(d => { minX = Math.min(minX, d.x); maxX = Math.max(maxX, d.x); });
+    if (minX === Infinity || maxX === -Infinity) {
+      console.error('Invalid min/max X values');
+      return;
+    }
 
-  const g = svg.append('g').attr('transform', `translate(80,${-minX + 30})`);
+    // Zoom / pan - set up AFTER we have the g element
+    const g = svg.append('g').attr('transform', `translate(80,${-minX + 30})`);
+
+    const zoom = d3.zoom().scaleExtent([0.1, 8]).on('zoom', e => g.attr('transform', e.transform));
+    svg.call(zoom);
 
   // Links
   g.selectAll('.link')
@@ -102,60 +111,68 @@ function renderTree(familyId, allReligions, regimesByRel) {
     .attr('class', 'link')
     .attr('d', d3.linkHorizontal().x(d => d.y).y(d => d.x));
 
-  // Node groups
-  const node = g.selectAll('.node')
-    .data(hierarchy.descendants().filter(d => d.data.id !== '__root__'))
-    .join('g')
-    .attr('class', 'node')
-    .attr('transform', d => `translate(${d.y},${d.x})`)
-    .style('cursor', 'pointer')
-    .on('click', (e, d) => showDetail(d.data, allReligions, regimesByRel))
-    .on('mouseover', (e, d) => {
-      clearTimeout(tooltipTimeout);
-      const tip = document.getElementById('tooltip');
-      const count = regimesByRel.get(d.data.id)?.length || 0;
-      tip.innerHTML = `<strong>${d.data.name || d.data.id}</strong>${count ? `<br>${count} regime${count > 1 ? 's' : ''}` : ''}`;
-      tip.classList.add('visible');
-    })
-    .on('mousemove', e => {
-      clearTimeout(tooltipTimeout);
-      const tip = document.getElementById('tooltip');
-      tip.style.left = (e.clientX + 12) + 'px';
-      tip.style.top  = (e.clientY - 10) + 'px';
-      tip.classList.add('visible');
-    })
-    .on('mouseout', () => {
-      tooltipTimeout = setTimeout(() => {
-        document.getElementById('tooltip').classList.remove('visible');
-      }, 100);
-    });
+    // Node groups
+    const nodeData = hierarchy.descendants().filter(d => d.data.id !== '__root__');
+    console.log('Drawing', nodeData.length, 'nodes');
 
-  // Circle — filled for branch nodes, semi-transparent for leaves
-  node.append('circle')
-    .attr('r', 5)
-    .attr('fill', d => {
-      const color = rootColor(d.data.id, allReligions);
-      const isLeaf = !d.children && !d._children;
-      return isLeaf ? color + '55' : color;
-    })
-    .attr('stroke', d => rootColor(d.data.id, allReligions))
-    .attr('stroke-width', 1.5);
+    const node = g.selectAll('.node')
+      .data(nodeData)
+      .join('g')
+      .attr('class', 'node')
+      .attr('transform', d => `translate(${d.y},${d.x})`)
+      .style('cursor', 'pointer')
+      .on('click', (e, d) => showDetail(d.data, allReligions, regimesByRel))
+      .on('mouseover', (e, d) => {
+        clearTimeout(tooltipTimeout);
+        const tip = document.getElementById('tooltip');
+        const count = regimesByRel.get(d.data.id)?.length || 0;
+        tip.innerHTML = `<strong>${d.data.name || d.data.id}</strong>${count ? `<br>${count} regime${count > 1 ? 's' : ''}` : ''}`;
+        tip.classList.add('visible');
+      })
+      .on('mousemove', e => {
+        clearTimeout(tooltipTimeout);
+        const tip = document.getElementById('tooltip');
+        tip.style.left = (e.clientX + 12) + 'px';
+        tip.style.top  = (e.clientY - 10) + 'px';
+        tip.classList.add('visible');
+      })
+      .on('mouseout', () => {
+        tooltipTimeout = setTimeout(() => {
+          document.getElementById('tooltip').classList.remove('visible');
+        }, 100);
+      });
 
-  // Regime count badge (left of node)
-  node.filter(d => (regimesByRel.get(d.data.id)?.length || 0) > 0)
-    .append('text')
-    .attr('x', -12)
-    .attr('dy', '0.32em')
-    .attr('text-anchor', 'middle')
-    .attr('font-size', 10)
-    .attr('fill', '#f6ad55')
-    .text(d => regimesByRel.get(d.data.id)?.length);
+    // Circle — filled for branch nodes, semi-transparent for leaves
+    node.append('circle')
+      .attr('r', 5)
+      .attr('fill', d => {
+        const color = rootColor(d.data.id, allReligions);
+        const isLeaf = !d.children && !d._children;
+        return isLeaf ? color + '55' : color;
+      })
+      .attr('stroke', d => rootColor(d.data.id, allReligions))
+      .attr('stroke-width', 1.5);
 
-  // Label
-  node.append('text')
-    .attr('x', 10)
-    .attr('dy', '0.32em')
-    .text(d => d.data.name || d.data.id);
+    // Regime count badge (left of node)
+    node.filter(d => (regimesByRel.get(d.data.id)?.length || 0) > 0)
+      .append('text')
+      .attr('x', -12)
+      .attr('dy', '0.32em')
+      .attr('text-anchor', 'middle')
+      .attr('font-size', 10)
+      .attr('fill', '#f6ad55')
+      .text(d => regimesByRel.get(d.data.id)?.length);
+
+    // Label
+    node.append('text')
+      .attr('x', 10)
+      .attr('dy', '0.32em')
+      .text(d => d.data.name || d.data.id);
+
+    console.log('Render complete for:', familyId);
+  } catch (e) {
+    console.error('Error rendering tree:', e);
+  }
 }
 
 function showDetail(data, allReligions, regimesByRel) {
