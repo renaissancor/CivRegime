@@ -1,0 +1,19 @@
+{
+  "name": "Egyptian",
+  "bloc": "middle_eastern_north_african_bloc",
+  "cluster": "egyptian_cluster",
+  "subcluster": null,
+  "historical_depth": null,
+  "languages": [],
+  "origin_territory": null,
+  "ancestry": [],
+  "social_structure": {
+    "descent": null,
+    "settlement": null
+  },
+  "population": {
+    "total": null,
+    "date": "2026"
+  },
+  "major_regions": []
+}

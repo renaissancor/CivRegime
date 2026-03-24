@@ -1,0 +1,20 @@
+{
+  "name": "Min Nan",
+  "iso6393": null,
+  "glottocode": null,
+  "family": "sino_tibetan",
+  "branch": "sinitic",
+  "group": "modern_chinese",
+  "macro_area": null,
+  "coordinates": {
+    "lat": null,
+    "lon": null
+  },
+  "status": null,
+  "scripts": [],
+  "speaker_count": {
+    "L1": null,
+    "L2": null,
+    "date": "2026"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Malagasy",
+  "bloc": "southeast_asian_oceanic_bloc",
+  "cluster": "austronesian_cluster",
+  "subcluster": null,
+  "historical_depth": null,
+  "languages": [],
+  "origin_territory": null,
+  "ancestry": [],
+  "social_structure": {
+    "descent": null,
+    "settlement": null
+  },
+  "population": {
+    "total": null,
+    "date": "2026"
+  },
+  "major_regions": []
+}

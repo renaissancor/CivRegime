@@ -1,0 +1,19 @@
+{
+  "name": "Creek",
+  "bloc": "american_indigenous_bloc",
+  "cluster": "north_american_cluster",
+  "subcluster": null,
+  "historical_depth": null,
+  "languages": [],
+  "origin_territory": null,
+  "ancestry": [],
+  "social_structure": {
+    "descent": null,
+    "settlement": null
+  },
+  "population": {
+    "total": null,
+    "date": "2026"
+  },
+  "major_regions": []
+}

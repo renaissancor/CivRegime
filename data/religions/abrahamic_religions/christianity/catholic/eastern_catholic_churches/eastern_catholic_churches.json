@@ -1,0 +1,21 @@
+{
+  "name": "Eastern Catholic Churches",
+  "family": "abrahamic_religions",
+  "tradition": "christianity",
+  "branch": "catholic",
+  "founder": null,
+  "founded_year": null,
+  "founded_region": null,
+  "scriptures": [],
+  "theology": {
+    "type": null,
+    "deities": [],
+    "key_tenets": []
+  },
+  "adherent_count": {
+    "total": null,
+    "date": "2026"
+  },
+  "major_regions": [],
+  "sub_sects": []
+}

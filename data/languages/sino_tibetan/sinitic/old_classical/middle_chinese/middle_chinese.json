@@ -1,0 +1,20 @@
+{
+  "name": "Middle Chinese",
+  "iso6393": null,
+  "glottocode": null,
+  "family": "sino_tibetan",
+  "branch": "sinitic",
+  "group": "old_classical",
+  "macro_area": null,
+  "coordinates": {
+    "lat": null,
+    "lon": null
+  },
+  "status": null,
+  "scripts": [],
+  "speaker_count": {
+    "L1": null,
+    "L2": null,
+    "date": "2026"
+  }
+}

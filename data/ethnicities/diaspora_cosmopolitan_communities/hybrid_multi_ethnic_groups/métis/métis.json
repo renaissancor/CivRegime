@@ -1,0 +1,19 @@
+{
+  "name": "Métis",
+  "bloc": "diaspora_cosmopolitan_communities",
+  "cluster": "hybrid_multi_ethnic_groups",
+  "subcluster": null,
+  "historical_depth": null,
+  "languages": [],
+  "origin_territory": null,
+  "ancestry": [],
+  "social_structure": {
+    "descent": null,
+    "settlement": null
+  },
+  "population": {
+    "total": null,
+    "date": "2026"
+  },
+  "major_regions": []
+}

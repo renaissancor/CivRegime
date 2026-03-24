@@ -1,0 +1,19 @@
+{
+  "name": "Babylonian",
+  "bloc": "middle_eastern_north_african_bloc",
+  "cluster": "semitic_cluster",
+  "subcluster": "ancient_semitic_groups",
+  "historical_depth": null,
+  "languages": [],
+  "origin_territory": null,
+  "ancestry": [],
+  "social_structure": {
+    "descent": null,
+    "settlement": null
+  },
+  "population": {
+    "total": null,
+    "date": "2026"
+  },
+  "major_regions": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Russian",
+  "bloc": "eurasian",
+  "cluster": "slavic_cluster",
+  "subcluster": "east_slavic",
+  "historical_depth": null,
+  "languages": [],
+  "origin_territory": null,
+  "ancestry": [],
+  "social_structure": {
+    "descent": null,
+    "settlement": null
+  },
+  "population": {
+    "total": null,
+    "date": "2026"
+  },
+  "major_regions": []
+}
