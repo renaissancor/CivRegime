@@ -37,11 +37,19 @@ function buildPath(period, periods, events, yScale, innerW, NOW) {
 
     const mid = (t0 + t1) / 2;
     const active = periods
-      .filter(p => p.start <= mid && (p.end ?? NOW) >= mid)
+      .filter(p => p.start <= mid && (p.end ?? NOW) > mid)
       .sort((a, b) => a.start - b.start || (a.regime || '').localeCompare(b.regime || ''));
 
+    if (active.length === 0) continue;
+
     const n = active.length;
-    const idx = active.indexOf(period);
+    let idx = -1;
+    for (let j = 0; j < active.length; j++) {
+      if (active[j] === period) {
+        idx = j;
+        break;
+      }
+    }
     if (idx < 0) continue;
 
     slices.push({
@@ -51,7 +59,7 @@ function buildPath(period, periods, events, yScale, innerW, NOW) {
     });
   }
 
-  if (!slices.length) return { path: '', labelX: 0, labelY: 0, labelH: 0 };
+  if (!slices.length) return { paths: [], labelX: 0, labelY: 0, labelH: 0 };
 
   // Build path: left edge downward, then right edge upward, close with Z.
   const pts = [];
@@ -141,7 +149,17 @@ function renderTimeline(territory, regimeById) {
   container.innerHTML = '';
 
   const NOW = 2026;
-  const periods = [...(territory.periods || [])];
+  // Use original period objects, normalize fields
+  const rawPeriods = territory.periods || territory.regimes || [];
+  const periods = [];
+
+  for (const r of rawPeriods) {
+    if (r.start == null) continue; // Skip entries without start
+    r.regime = r.regime || r.regime_id;
+    r.start = Number(r.start);
+    if (r.end != null) r.end = Number(r.end);
+    periods.push(r);
+  }
 
   if (!periods.length) {
     container.innerHTML = '<div style="color:#4a5568;padding:40px 0">No period data for this territory yet.</div>';
@@ -171,6 +189,31 @@ function renderTimeline(territory, regimeById) {
 
   const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
 
+  // Horizontal dividing line at top
+  g.append('line')
+    .attr('x1', 0).attr('y1', 0)
+    .attr('x2', innerW).attr('y2', 0)
+    .attr('stroke', '#2d3748').attr('stroke-width', 1);
+
+  // Kingdom labels above the dividing line
+  svg.append('text')
+    .attr('x', margin.left + innerW / 4)
+    .attr('y', margin.top - 8)
+    .attr('text-anchor', 'middle')
+    .attr('font-size', 12)
+    .attr('font-weight', '600')
+    .attr('fill', '#a0aec0')
+    .text('Kingdom of Denmark');
+
+  svg.append('text')
+    .attr('x', margin.left + innerW / 2)
+    .attr('y', margin.top - 8)
+    .attr('text-anchor', 'middle')
+    .attr('font-size', 12)
+    .attr('font-weight', '600')
+    .attr('fill', '#a0aec0')
+    .text('Kingdom of Norway');
+
   // Chart border
   g.append('rect')
     .attr('x', 0).attr('y', 0).attr('width', innerW).attr('height', innerH)
@@ -183,6 +226,78 @@ function renderTimeline(territory, regimeById) {
   const yOrig = d3.scaleLinear().domain([yMin, yMax]).range([0, innerH]);
 
   const tip = document.getElementById('tooltip');
+
+  // Collect vertical divider lines between coexisting regimes
+  function getDividers(periods, events, yScale, innerW, NOW) {
+    const dividers = [];
+    for (let i = 0; i < events.length - 1; i++) {
+      const t0 = events[i], t1 = events[i + 1];
+      const mid = (t0 + t1) / 2;
+      const active = periods
+        .filter(p => p.start <= mid && (p.end ?? NOW) > mid)
+        .sort((a, b) => a.start - b.start || (a.regime || '').localeCompare(b.regime || ''));
+
+      if (active.length < 2) continue; // Only dividers when 2+ regimes coexist
+
+      // For each boundary between consecutive regimes, draw a vertical line
+      for (let j = 0; j < active.length - 1; j++) {
+        const n = active.length;
+        const x = ((j + 1) / n) * innerW;
+        dividers.push({
+          x,
+          y0: yScale(t0),
+          y1: yScale(t1),
+        });
+      }
+    }
+
+    // Deduplicate and merge adjacent segments at same x position
+    const byX = new Map();
+    for (const d of dividers) {
+      const key = d.x.toFixed(1);
+      if (!byX.has(key)) byX.set(key, []);
+      byX.get(key).push(d);
+    }
+
+    const result = [];
+    for (const segs of byX.values()) {
+      segs.sort((a, b) => a.y0 - b.y0);
+      let merged = [{ y0: segs[0].y0, y1: segs[0].y1 }];
+      for (let i = 1; i < segs.length; i++) {
+        const last = merged[merged.length - 1];
+        if (Math.abs(segs[i].y0 - last.y1) < 2) {
+          last.y1 = segs[i].y1;
+        } else {
+          merged.push({ y0: segs[i].y0, y1: segs[i].y1 });
+        }
+      }
+      for (const seg of merged) {
+        result.push({ x: segs[0].x, y0: seg.y0, y1: seg.y1 });
+      }
+    }
+    return result;
+  }
+
+  // Collect transition lines where regime count changes
+  function getTransitions(periods, events, yScale, NOW) {
+    const transitions = [];
+    for (let i = 0; i < events.length - 1; i++) {
+      const t0 = events[i];
+      const midBefore = i === 0 ? t0 : (events[i - 1] + t0) / 2;
+      const midAfter = (t0 + events[i + 1]) / 2;
+
+      const countBefore = periods.filter(p => p.start <= midBefore && (p.end ?? NOW) > midBefore).length;
+      const countAfter = periods.filter(p => p.start <= midAfter && (p.end ?? NOW) > midAfter).length;
+
+      if (countBefore !== countAfter) {
+        transitions.push({
+          y: yScale(t0),
+          count: `${countBefore} → ${countAfter}`,
+        });
+      }
+    }
+    return transitions;
+  }
 
   function redraw(yScale) {
     const pathData = periods.map(p => ({
@@ -228,9 +343,9 @@ function renderTimeline(territory, regimeById) {
       .attr('fill', '#0f1117')
       .attr('font-weight', '600')
       .text(d => {
-        if (d.labelH < 20 || !d.period.regime) return '';
+        if (!d.period.regime) return '';
         const name = regimeById.get(d.period.regime)?.name || d.period.regime;
-        return d.labelH < 34 ? '' : name;
+        return name;
       });
 
     // Left axis
