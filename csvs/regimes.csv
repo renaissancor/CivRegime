@@ -30,17 +30,25 @@ xiongnu,Xiongnu Confederation,,,,,-209,93
 han_dynasty,Han Dynasty,,,573,170,-206,220
 kingdom_of_armenia,Kingdom of Armenia,,,,203,-190,428
 nabataean_kingdom,Nabataean Kingdom,,,33,109,-115,106
-three_kingdoms_korea,Three Kingdoms of Korea,,,401,119,-57,668
+silla,Silla,,,401,119,-57,668
+goguryeo,Goguryeo,,,401,119,-37,668
+baekje,Baekje,,,401,119,-18,660
 roman_empire_pagan,Roman Empire (Pagan),,,335,106,-27,380
-goguryeo,Goguryeo,,,573,119,37,668
+cao_wei,Cao Wei,,,573,170,220,265
+shu_han,Shu Han,,,573,170,221,263
+eastern_wu,Eastern Wu,,,573,170,222,280
 sassanid_empire,Sassanid Empire,,137,,203,224,651
 yamato_period,Yamato Period,,82,384,261,250,710
+western_jin,Western Jin Dynasty,,,573,170,265,316
 gupta_empire,Gupta Empire,,,266,147,320,550
+eastern_jin,Eastern Jin Dynasty,,,573,170,317,420
 hunnic_empire,Hunnic Empire,,,,,350,453
 roman_empire_christian,Roman Empire (Christian),,,335,2,380,395
+northern_dynasties,Northern Dynasties,,,573,119,386,581
 western_roman_empire,Western Roman Empire,,,335,2,395,476
 byzantine_empire,Byzantine Empire,,,,15,395,1453
 visigothic_kingdom,Visigothic Kingdom,,,335,2,418,711
+southern_dynasties,Southern Dynasties,,,573,170,420,589
 vandal_kingdom,Vandal Kingdom of North Africa,,,335,2,429,533
 odoacer_kingdom,Kingdom of Odoacer,,,335,2,476,493
 carolingian_empire,Frankish Kingdom / Carolingian Empire,,,335,2,486,843
@@ -56,10 +64,12 @@ khazar_khaganate,Khazar Khaganate,,,,62,650,969
 umayyad_caliphate,Umayyad Caliphate,,,,51,661,750
 unified_silla,Unified Silla,,,401,119,668,935
 first_bulgarian_empire,First Bulgarian Empire,,155,359,15,681,1018
+nara_period,Nara Period,,82,384,119,710,794
 al_andalus,Al-Andalus,,,,51,711,1492
 uyghur_khaganate,Uyghur Khaganate,,,,212,744,840
 abbasid_caliphate,Abbasid Caliphate,,,,,750,1258
 pala_empire,Pala Empire,,,278,119,750,1200
+heian_period,Heian Period,,82,384,119,794,1185
 samanid_empire,Samanid Empire,,137,,51,819,999
 kingdom_of_scotland,Kingdom of Scotland,,,,2,843,1707
 kingdom_of_norway,Kingdom of Norway,,,232,103,872,1380
@@ -67,11 +77,13 @@ kievan_rus_regime,Kievan Rus,,149,359,15,882,1240
 bagratid_armenia,Bagratid Armenia,,,,9,885,1064
 kingdom_of_bohemia,Kingdom of Bohemia,,159,362,2,895,1526
 liao_dynasty,Liao Dynasty (Khitan),,88,,119,907,1125
+five_dynasties,Five Dynasties (North China),,,572,170,907,960
 fatimid_caliphate,Fatimid Caliphate,,,,,909,1171
+ten_kingdoms,Ten Kingdoms (South China),,,572,171,907,979
 goryeo,Goryeo Dynasty,,,400,119,918,1392
 kingdom_of_england,Kingdom of England,,111,244,2,927,1707
 kingdom_of_denmark,Kingdom of Denmark,,,232,2,936,
-song_dynasty,Song Dynasty,,,572,171,960,1279
+northern_song,Northern Song Dynasty,,,572,171,960,1127
 holy_roman_empire,Holy Roman Empire,,112,335,2,962,1806
 kingdom_of_poland,Kingdom of Poland,,161,335,2,966,1569
 kingdom_of_sweden,Kingdom of Sweden,,,232,2,970,
@@ -81,10 +93,11 @@ kingdom_of_hungary,Kingdom of Hungary,,59,335,2,1000,1526
 seljuk_empire,Seljuk Empire,,,,,1037,1194
 seljuk_rum,Sultanate of Rum,,,,,1077,1307
 jin_dynasty_jurchen,Jin Dynasty (Jurchen),,99,,119,1115,1234
+southern_song,Southern Song Dynasty,,,572,171,1127,1279
 angevin_empire,Angevin Empire,,141,310,2,1154,1204
 ayyubid_sultanate,Ayyubid Sultanate,,133,,,1171,1260
 feudal_japan,Feudal Japan,,82,,261,1185,1603
-serbian_empire,Serbian Empire (Nemanjić Dynasty),,155,359,15,1190,1389
+serbian_empire,Serbian Empire (Nemanjic Dynasty),,155,359,15,1190,1389
 khwarazmian_empire,Khwarazmian Empire,,,,51,1200,1220
 delhi_sultanate,Delhi Sultanate,,,,,1206,1526
 mongol_empire,Mongol Empire,,89,431,,1206,1368
@@ -95,6 +108,7 @@ golden_horde,Golden Horde,,89,626,,1242,1502
 mamluk_sultanate,Mamluk Sultanate,,,,,1250,1517
 ilkhanate,Ilkhanate,,89,,,1256,1335
 yuan_dynasty,Yuan Dynasty,,89,431,,1271,1368
+grand_duchy_moscow,Grand Duchy of Moscow,,149,351,15,1283,1547
 ottoman_empire,Ottoman Empire,,,643,,1299,1922
 vijayanagara_empire,Vijayanagara Empire,,,169,147,1336,1646
 bahmani_sultanate,Bahmani Sultanate,,,,51,1347,1527
@@ -108,12 +122,16 @@ crimean_khanate,Crimean Khanate,,,,51,1441,1783
 kazakh_khanate,Kazakh Khanate,,,,51,1465,1731
 safavid_empire,Safavid Empire,,137,,,1501,1736
 mughal_empire,Mughal Empire,,,,,1526,1857
+tsardom_russia,Tsardom of Russia,,149,351,15,1547,1721
 polish_lithuanian_commonwealth,Polish-Lithuanian Commonwealth,,161,367,2,1569,1795
 tokugawa_shogunate,Tokugawa Shogunate (Edo Period),,82,,,1603,1868
 qing_dynasty,Qing Dynasty (Manchu),,99,,,1644,1912
 maratha_empire,Maratha Empire,,,275,147,1674,1818
+kingdom_of_prussia,Kingdom of Prussia,,112,240,30,1701,1918
 kingdom_of_great_britain,Kingdom of Great Britain,,111,,30,1707,1801
 russian_empire,Russian Empire,,149,351,15,1721,1917
+afsharid_dynasty,Afsharid Dynasty,,137,,51,1736,1796
+qajar_dynasty,Qajar Dynasty,,137,,51,1796,1925
 sikh_empire,Sikh Empire,,,280,163,1799,1849
 united_kingdom,United Kingdom of Great Britain and Ireland,,111,,30,1801,
 kingdom_of_egypt,Kingdom of Egypt,,206,,51,1805,1952
@@ -126,14 +144,22 @@ republic_of_china,Republic of China,,,,249,1912,
 weimar_republic,Weimar Republic,,112,240,30,1918,1933
 czechoslovakia,Czechoslovakia,,159,362,2,1918,1993
 kingdom_of_iraq,Kingdom of Iraq,,206,,51,1921,1958
+soviet_union,Soviet Union,,149,351,,1922,1991
 republic_of_turkey,Republic of Turkey,,,,51,1923,
 mongolian_peoples_republic,Mongolian People's Republic,,89,,119,1924,1992
+pahlavi_dynasty,Pahlavi Dynasty,,137,,51,1925,1979
 manchukuo,Manchukuo,,,,249,1932,1945
 saudi_arabia,Kingdom of Saudi Arabia,,206,,51,1932,
-modern_korea,Modern Korea (Postwar),,,,,1945,
+nazi_germany,Nazi Germany (Third Reich),,112,240,,1933,1945
 modern_japan,Modern Japan (Postwar),,82,,,1947,
 republic_of_india,Republic of India,,,,147,1947,
 pakistan,Pakistan,,,,51,1947,
+south_korea,Republic of Korea (South Korea),,,401,119,1948,
+north_korea,Democratic People's Republic of Korea (North Korea),,,401,,1948,
+east_germany,German Democratic Republic (East Germany),,112,240,,1949,1990
+federal_republic_germany,Federal Republic of Germany,,112,240,,1949,
 peoples_republic_of_china,People's Republic of China,,,,249,1949,
 republic_of_egypt,Republic of Egypt,,206,,51,1952,
 republic_of_iraq,Republic of Iraq,,206,,51,1958,
+islamic_republic_iran,Islamic Republic of Iran,,137,,51,1979,
+russian_federation,Russian Federation,,149,351,,1991,

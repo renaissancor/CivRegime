@@ -50,22 +50,21 @@ id,name,description
 The main historical data. Each row represents an era or regime with ruling culture, ideology, and timespan.
 
 **Columns:**
-- `id`: Unique numeric identifier (1, 2, 3...)
+- `id`: Unique text identifier (e.g., "roman_empire_pagan")
 - `name`: Display name (e.g., "Roman Empire (Pagan)")
 - `state_id`: FK to STATES.id (groups regimes into political continuities)
 - `id_ruling_ethnicity`: FK to ETHNICITIES.id (numeric ID of ruling culture)
 - `id_ruling_language`: FK to LANGUAGES.id (numeric ID of official language)
 - `id_ruling_religion`: FK to RELIGIONS.id (numeric ID of official religion)
 - `start`: Start year (negative = BCE, e.g., -27 for 27 BCE)
-- `end`: End year (NULL or blank for ongoing)
-- `old_id`: Original semantic ID for reference (e.g., "roman_empire_pagan")
+- `end`: End year (blank for ongoing)
 
 **Example:**
 ```csv
-id,name,state_id,id_ruling_ethnicity,id_ruling_language,id_ruling_religion,start,end,old_id
-1,Roman Empire (Pagan),1,5,335,106,-27,380,roman_empire_pagan
-2,Roman Empire (Christian),1,5,335,107,380,476,roman_empire_christian
-3,Byzantine Empire,1,12,400,108,395,1453,byzantine_empire
+id,name,state_id,id_ruling_ethnicity,id_ruling_language,id_ruling_religion,start,end
+roman_empire_pagan,Roman Empire (Pagan),roman_state,,335,106,-27,380
+roman_empire_christian,Roman Empire (Christian),roman_state,,335,2,380,395
+byzantine_empire,Byzantine Empire,,,,15,395,1453
 ```
 
 **When to edit:**
@@ -77,10 +76,10 @@ id,name,state_id,id_ruling_ethnicity,id_ruling_language,id_ruling_religion,start
 **Common edits:**
 ```csv
 # Change end date
-1,Roman Empire (Pagan),1,5,335,106,-27,410,roman_empire_pagan
+roman_empire_pagan,Roman Empire (Pagan),roman_state,,335,106,-27,410
 
 # Add new regime
-139,New Kingdom Egypt,3,8,42,15,-1550,-1070,new_kingdom_egypt
+northern_song,Northern Song Dynasty,,,572,171,960,1127
 
 # Remove regime (delete entire row, not just mark)
 ```
@@ -117,19 +116,18 @@ id,name
 Junction table linking territories to the regimes that controlled them, with start/end dates.
 
 **Columns:**
-- `territory_id`: FK to TERRITORIES.id (numeric or text)
-- `regime_id`: FK to REGIMES.id (numeric)
+- `territory_id`: FK to TERRITORIES.id (text)
+- `regime_id`: FK to REGIMES.id (text)
 - `start`: Period start year (negative = BCE)
-- `end`: Period end year
-- `regime_name`: Human-readable regime name (optional, for reference)
+- `end`: Period end year (blank for ongoing)
 
 **Example:**
 ```csv
-territory_id,regime_id,start,end,regime_name
-1,5,-2686,-2181,Old Kingdom Egypt
-1,6,-2181,-2055,First Intermediate Period
-1,7,-2055,-1650,Middle Kingdom Egypt
-1,8,-1550,-1070,New Kingdom Egypt
+territory_id,regime_id,start,end
+egypt,old_kingdom_egypt,-2686,-2181
+egypt,new_kingdom_egypt,-1550,-1070
+egypt,ptolemaic_egypt,-305,-30
+egypt,roman_empire_pagan,-27,380
 ```
 
 **When to edit:**
@@ -139,8 +137,8 @@ territory_id,regime_id,start,end,regime_name
 
 **Rules:**
 - One row per territory-regime period combination
-- Dates should not overlap for the same territory (unless intentional for disputed control)
-- If adding new regimes, use their numeric ID from `regimes.csv`
+- Dates may overlap for the same territory when multiple regimes coexisted (e.g., HRE and Kingdom of Prussia both in Germany)
+- Use the text ID from `regimes.csv`
 
 ---
 
@@ -286,26 +284,26 @@ WARNING: Ethnicity 100 has parent_id=999, which doesn't exist
 
 ### Add a New Regime
 1. Open `csvs/regimes.csv`
-2. Add a new row:
+2. Add a new row (sorted by start date):
    ```csv
-   139,Macedonian Empire,2,42,150,50,-336,-323,macedonian_empire
+   northern_song,Northern Song Dynasty,,,572,171,960,1127
    ```
 3. Run: `node code/csv2json/regimes.js`
-4. Check `data/regimes/139.json` to verify output
+4. Check `data/regimes/northern_song.json` to verify output
 
 ### Add a Territory and Its Control History
 1. Open `csvs/territories.csv`
    ```csv
-   40,Anatolia
+   anatolia,anatolia
    ```
 2. Open `csvs/territory_periods.csv` and add control periods:
    ```csv
-   40,15,-1200,-500,Hittite Empire
-   40,42,-500,-330,Persian Empire
-   40,139,-336,-323,Macedonian Empire
+   anatolia,hittite_empire,-1600,-1180
+   anatolia,achaemenid_empire,-550,-330
+   anatolia,macedonian_empire,-336,-323
    ```
 3. Run: `node code/csv2json/territories.js`
-4. Check `data/territories/40.json` to verify the timeline
+4. Check `data/territories/anatolia.json` to verify the timeline
 
 ### Reorganize the Religion Tree
 1. Open `csvs/religions.csv`
