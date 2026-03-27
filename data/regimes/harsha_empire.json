@@ -1,0 +1,13 @@
+[
+  {
+    "id": "harsha_empire",
+    "name": "Harsha Empire",
+    "cultural_language": 266,
+    "start": 606,
+    "end": 647,
+    "ideology": {
+      "religion": 119,
+      "government": "monarchy"
+    }
+  }
+]

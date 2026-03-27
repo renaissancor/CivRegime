@@ -1,0 +1,14 @@
+[
+  {
+    "id": "kingdom_of_italy",
+    "name": "Kingdom of Italy",
+    "ruling_ethnicity": 143,
+    "cultural_language": 329,
+    "start": 1861,
+    "end": 1946,
+    "ideology": {
+      "religion": 2,
+      "government": "monarchy"
+    }
+  }
+]

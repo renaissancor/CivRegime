@@ -1,0 +1,13 @@
+[
+  {
+    "id": "kingdom_of_norway",
+    "name": "Kingdom of Norway",
+    "cultural_language": 232,
+    "start": 872,
+    "end": 1380,
+    "ideology": {
+      "religion": 103,
+      "government": "monarchy"
+    }
+  }
+]

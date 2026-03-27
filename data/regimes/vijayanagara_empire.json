@@ -1,0 +1,13 @@
+[
+  {
+    "id": "vijayanagara_empire",
+    "name": "Vijayanagara Empire",
+    "cultural_language": 169,
+    "start": 1336,
+    "end": 1646,
+    "ideology": {
+      "religion": 147,
+      "government": "monarchy"
+    }
+  }
+]

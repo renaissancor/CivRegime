@@ -1,0 +1,14 @@
+[
+  {
+    "id": "german_empire",
+    "name": "German Empire (Deutsches Reich)",
+    "ruling_ethnicity": 112,
+    "cultural_language": 240,
+    "start": 1871,
+    "end": 1918,
+    "ideology": {
+      "religion": 30,
+      "government": "monarchy"
+    }
+  }
+]

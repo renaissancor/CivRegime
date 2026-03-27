@@ -5,51 +5,40 @@
   "regimes": [
     {
       "regime_id": "kingdom_of_norway",
-      "regime_name": "Kingdom of Norway",
       "start": 793,
       "end": 1397
     },
     {
       "regime_id": "kingdom_of_denmark",
-      "regime_name": "Kingdom of Denmark",
       "start": 793,
       "end": 1397
     },
     {
       "regime_id": "kingdom_of_sweden",
-      "regime_name": "Kingdom of Sweden",
       "start": 970,
       "end": 1397
     },
     {
       "regime_id": "kalmar_union",
-      "regime_name": "Kalmar Union",
       "start": 1397,
       "end": 1523
     },
     {
       "regime_id": "kingdom_of_denmark",
-      "regime_name": "Kingdom of Denmark",
       "start": 1523,
       "end": 1814
     },
     {
       "regime_id": "kingdom_of_sweden",
-      "regime_name": "Kingdom of Sweden",
-      "start": 1523,
-      "end": null
+      "start": 1523
     },
     {
       "regime_id": "kingdom_of_norway",
-      "regime_name": "Kingdom of Norway",
-      "start": 1905,
-      "end": null
+      "start": 1905
     },
     {
       "regime_id": "kingdom_of_denmark",
-      "regime_name": "Kingdom of Denmark",
-      "start": 1814,
-      "end": null
+      "start": 1814
     }
   ]
 }

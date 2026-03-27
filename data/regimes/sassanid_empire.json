@@ -1,0 +1,13 @@
+[
+  {
+    "id": "sassanid_empire",
+    "name": "Sassanid Empire",
+    "ruling_ethnicity": 137,
+    "start": 224,
+    "end": 651,
+    "ideology": {
+      "religion": 203,
+      "government": "monarchy"
+    }
+  }
+]

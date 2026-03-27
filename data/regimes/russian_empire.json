@@ -1,0 +1,14 @@
+[
+  {
+    "id": "russian_empire",
+    "name": "Russian Empire",
+    "ruling_ethnicity": 149,
+    "cultural_language": 351,
+    "start": 1721,
+    "end": 1917,
+    "ideology": {
+      "religion": 15,
+      "government": "monarchy"
+    }
+  }
+]

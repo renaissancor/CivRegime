@@ -1,0 +1,13 @@
+[
+  {
+    "id": "maurya_empire",
+    "name": "Maurya Empire",
+    "cultural_language": 266,
+    "start": -322,
+    "end": -185,
+    "ideology": {
+      "religion": 147,
+      "government": "monarchy"
+    }
+  }
+]

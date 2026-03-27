@@ -1,0 +1,13 @@
+[
+  {
+    "id": "empire_of_japan",
+    "name": "Empire of Japan (Meiji)",
+    "ruling_ethnicity": 82,
+    "start": 1868,
+    "end": 1947,
+    "ideology": {
+      "religion": 186,
+      "government": "monarchy"
+    }
+  }
+]

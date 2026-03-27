@@ -5,25 +5,21 @@
   "regimes": [
     {
       "regime_id": "kievan_rus_regime",
-      "regime_name": "Kievan Rus",
       "start": 882,
       "end": 1240
     },
     {
       "regime_id": "grand_duchy_of_lithuania",
-      "regime_name": "Grand Duchy of Lithuania",
       "start": 1236,
       "end": 1569
     },
     {
       "regime_id": "polish_lithuanian_commonwealth",
-      "regime_name": "Polish-Lithuanian Commonwealth",
       "start": 1569,
       "end": 1795
     },
     {
       "regime_id": "russian_empire",
-      "regime_name": "Russian Empire",
       "start": 1721,
       "end": 1917
     }

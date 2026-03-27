@@ -1,0 +1,12 @@
+[
+  {
+    "id": "neo_babylonian",
+    "name": "Neo-Babylonian (Chaldean) Empire",
+    "start": -626,
+    "end": -539,
+    "ideology": {
+      "religion": 80,
+      "government": "monarchy"
+    }
+  }
+]

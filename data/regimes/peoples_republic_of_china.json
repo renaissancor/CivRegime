@@ -1,0 +1,11 @@
+[
+  {
+    "id": "peoples_republic_of_china",
+    "name": "People's Republic of China",
+    "start": 1949,
+    "ideology": {
+      "religion": 249,
+      "government": "monarchy"
+    }
+  }
+]

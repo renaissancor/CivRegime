@@ -1,0 +1,13 @@
+[
+  {
+    "id": "lombard_kingdom",
+    "name": "Kingdom of the Lombards",
+    "cultural_language": 335,
+    "start": 568,
+    "end": 774,
+    "ideology": {
+      "religion": 2,
+      "government": "monarchy"
+    }
+  }
+]

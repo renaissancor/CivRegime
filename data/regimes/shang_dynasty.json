@@ -1,0 +1,13 @@
+[
+  {
+    "id": "shang_dynasty",
+    "name": "Shang Dynasty",
+    "cultural_language": 573,
+    "start": -1600,
+    "end": -1046,
+    "ideology": {
+      "religion": 249,
+      "government": "monarchy"
+    }
+  }
+]

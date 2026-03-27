@@ -1,0 +1,12 @@
+[
+  {
+    "id": "uyghur_khaganate",
+    "name": "Uyghur Khaganate",
+    "start": 744,
+    "end": 840,
+    "ideology": {
+      "religion": 212,
+      "government": "monarchy"
+    }
+  }
+]

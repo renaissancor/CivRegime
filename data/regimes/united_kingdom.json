@@ -1,0 +1,12 @@
+[
+  {
+    "id": "united_kingdom",
+    "name": "United Kingdom of Great Britain and Ireland",
+    "ruling_ethnicity": 111,
+    "start": 1801,
+    "ideology": {
+      "religion": 30,
+      "government": "monarchy"
+    }
+  }
+]

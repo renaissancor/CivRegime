@@ -1,0 +1,12 @@
+[
+  {
+    "id": "old_kingdom_egypt",
+    "name": "Old Kingdom Egypt",
+    "start": -2686,
+    "end": -2181,
+    "ideology": {
+      "religion": 76,
+      "government": "monarchy"
+    }
+  }
+]

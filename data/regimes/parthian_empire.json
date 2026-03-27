@@ -1,0 +1,13 @@
+[
+  {
+    "id": "parthian_empire",
+    "name": "Parthian Empire (Arsacid)",
+    "ruling_ethnicity": 135,
+    "start": -247,
+    "end": 224,
+    "ideology": {
+      "religion": 203,
+      "government": "monarchy"
+    }
+  }
+]

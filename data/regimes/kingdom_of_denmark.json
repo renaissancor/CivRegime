@@ -1,0 +1,12 @@
+[
+  {
+    "id": "kingdom_of_denmark",
+    "name": "Kingdom of Denmark",
+    "cultural_language": 232,
+    "start": 936,
+    "ideology": {
+      "religion": 2,
+      "government": "monarchy"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "kingdom_of_israel",
+    "name": "United Kingdom of Israel",
+    "start": -1047,
+    "end": -930,
+    "ideology": {
+      "religion": 59,
+      "government": "monarchy"
+    }
+  }
+]

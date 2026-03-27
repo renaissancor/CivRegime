@@ -1,0 +1,13 @@
+[
+  {
+    "id": "zhou_dynasty",
+    "name": "Zhou Dynasty",
+    "cultural_language": 573,
+    "start": -1046,
+    "end": -256,
+    "ideology": {
+      "religion": 249,
+      "government": "monarchy"
+    }
+  }
+]

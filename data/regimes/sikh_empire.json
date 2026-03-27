@@ -1,0 +1,13 @@
+[
+  {
+    "id": "sikh_empire",
+    "name": "Sikh Empire",
+    "cultural_language": 280,
+    "start": 1799,
+    "end": 1849,
+    "ideology": {
+      "religion": 163,
+      "government": "monarchy"
+    }
+  }
+]

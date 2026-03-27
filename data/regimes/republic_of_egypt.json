@@ -1,0 +1,12 @@
+[
+  {
+    "id": "republic_of_egypt",
+    "name": "Republic of Egypt",
+    "ruling_ethnicity": 206,
+    "start": 1952,
+    "ideology": {
+      "religion": 51,
+      "government": "monarchy"
+    }
+  }
+]

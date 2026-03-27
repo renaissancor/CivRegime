@@ -1,0 +1,13 @@
+[
+  {
+    "id": "kingdom_of_great_britain",
+    "name": "Kingdom of Great Britain",
+    "ruling_ethnicity": 111,
+    "start": 1707,
+    "end": 1801,
+    "ideology": {
+      "religion": 30,
+      "government": "monarchy"
+    }
+  }
+]

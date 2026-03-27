@@ -1,0 +1,12 @@
+[
+  {
+    "id": "kingdom_of_judah",
+    "name": "Kingdom of Judah",
+    "start": -930,
+    "end": -586,
+    "ideology": {
+      "religion": 59,
+      "government": "monarchy"
+    }
+  }
+]

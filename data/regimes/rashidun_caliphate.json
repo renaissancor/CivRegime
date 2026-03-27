@@ -1,0 +1,12 @@
+[
+  {
+    "id": "rashidun_caliphate",
+    "name": "Rashidun Caliphate",
+    "start": 632,
+    "end": 661,
+    "ideology": {
+      "religion": 51,
+      "government": "monarchy"
+    }
+  }
+]

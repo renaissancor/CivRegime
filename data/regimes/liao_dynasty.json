@@ -1,0 +1,13 @@
+[
+  {
+    "id": "liao_dynasty",
+    "name": "Liao Dynasty (Khitan)",
+    "ruling_ethnicity": 88,
+    "start": 907,
+    "end": 1125,
+    "ideology": {
+      "religion": 119,
+      "government": "monarchy"
+    }
+  }
+]

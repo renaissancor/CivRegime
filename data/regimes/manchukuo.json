@@ -1,0 +1,12 @@
+[
+  {
+    "id": "manchukuo",
+    "name": "Manchukuo",
+    "start": 1932,
+    "end": 1945,
+    "ideology": {
+      "religion": 249,
+      "government": "monarchy"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "goryeo",
+    "name": "Goryeo Dynasty",
+    "cultural_language": 400,
+    "start": 918,
+    "end": 1392,
+    "ideology": {
+      "religion": 119,
+      "government": "monarchy"
+    }
+  }
+]

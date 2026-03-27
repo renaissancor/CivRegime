@@ -1,0 +1,13 @@
+[
+  {
+    "id": "kingdom_of_urartu",
+    "name": "Kingdom of Urartu",
+    "cultural_language": 33,
+    "start": -860,
+    "end": -590,
+    "ideology": {
+      "religion": 203,
+      "government": "monarchy"
+    }
+  }
+]

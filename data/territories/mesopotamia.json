@@ -5,129 +5,107 @@
   "regimes": [
     {
       "regime_id": "sumerian_city_states",
-      "regime_name": "Sumerian City-States (Ur, Uruk, Lagash)",
       "start": -3500,
       "end": -2334
     },
     {
       "regime_id": "akkadian_empire",
-      "regime_name": "Akkadian Empire",
       "start": -2334,
       "end": -2154
     },
     {
       "regime_id": "ur_iii",
-      "regime_name": "Third Dynasty of Ur (Neo-Sumerian)",
       "start": -2112,
       "end": -2004
     },
     {
       "regime_id": "old_babylonian",
-      "regime_name": "Old Babylonian Empire",
       "start": -1894,
       "end": -1595
     },
     {
       "regime_id": "neo_assyrian_empire",
-      "regime_name": "Neo-Assyrian Empire",
       "start": -911,
       "end": -609
     },
     {
       "regime_id": "neo_babylonian",
-      "regime_name": "Neo-Babylonian (Chaldean) Empire",
       "start": -626,
       "end": -539
     },
     {
       "regime_id": "achaemenid_empire",
-      "regime_name": "Achaemenid Empire",
       "start": -550,
       "end": -330
     },
     {
       "regime_id": "macedonian_empire",
-      "regime_name": "Macedonian Empire (Alexander)",
       "start": -336,
       "end": -323
     },
     {
       "regime_id": "seleucid_empire",
-      "regime_name": "Seleucid Empire",
       "start": -312,
       "end": -63
     },
     {
       "regime_id": "parthian_empire",
-      "regime_name": "Parthian Empire (Arsacid)",
       "start": -247,
       "end": 224
     },
     {
       "regime_id": "sassanid_empire",
-      "regime_name": "Sassanid Empire",
       "start": 224,
       "end": 651
     },
     {
       "regime_id": "rashidun_caliphate",
-      "regime_name": "Rashidun Caliphate",
       "start": 632,
       "end": 661
     },
     {
       "regime_id": "umayyad_caliphate",
-      "regime_name": "Umayyad Caliphate",
       "start": 661,
       "end": 750
     },
     {
       "regime_id": "abbasid_caliphate",
-      "regime_name": "Abbasid Caliphate",
       "start": 750,
       "end": 1258
     },
     {
       "regime_id": "seljuk_empire",
-      "regime_name": "Seljuk Empire",
       "start": 1037,
       "end": 1194
     },
     {
       "regime_id": "mongol_empire",
-      "regime_name": "Mongol Empire",
       "start": 1206,
       "end": 1368
     },
     {
       "regime_id": "ilkhanate",
-      "regime_name": "Ilkhanate",
       "start": 1256,
       "end": 1335
     },
     {
       "regime_id": "ottoman_empire",
-      "regime_name": "Ottoman Empire",
       "start": 1299,
       "end": 1922
     },
     {
       "regime_id": "safavid_empire",
-      "regime_name": "Safavid Empire",
       "start": 1501,
       "end": 1736
     },
     {
       "regime_id": "kingdom_of_iraq",
-      "regime_name": "Kingdom of Iraq",
       "start": 1921,
       "end": 1958
     },
     {
       "regime_id": "republic_of_iraq",
-      "regime_name": "Republic of Iraq",
-      "start": 1958,
-      "end": null
+      "start": 1958
     }
   ]
 }

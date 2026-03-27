@@ -1,0 +1,12 @@
+[
+  {
+    "id": "crimean_khanate",
+    "name": "Crimean Khanate",
+    "start": 1441,
+    "end": 1783,
+    "ideology": {
+      "religion": 51,
+      "government": "monarchy"
+    }
+  }
+]

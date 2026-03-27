@@ -1,0 +1,12 @@
+[
+  {
+    "id": "al_andalus",
+    "name": "Al-Andalus",
+    "start": 711,
+    "end": 1492,
+    "ideology": {
+      "religion": 51,
+      "government": "monarchy"
+    }
+  }
+]

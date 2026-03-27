@@ -5,51 +5,42 @@
   "regimes": [
     {
       "regime_id": "maurya_empire",
-      "regime_name": "Maurya Empire",
       "start": -322,
       "end": -185
     },
     {
       "regime_id": "satavahana_empire",
-      "regime_name": "Satavahana Empire",
       "start": -230,
       "end": 220
     },
     {
       "regime_id": "vijayanagara_empire",
-      "regime_name": "Vijayanagara Empire",
       "start": 1336,
       "end": 1646
     },
     {
       "regime_id": "bahmani_sultanate",
-      "regime_name": "Bahmani Sultanate",
       "start": 1347,
       "end": 1527
     },
     {
       "regime_id": "mughal_empire",
-      "regime_name": "Mughal Empire",
       "start": 1526,
       "end": 1857
     },
     {
       "regime_id": "maratha_empire",
-      "regime_name": "Maratha Empire",
       "start": 1674,
       "end": 1818
     },
     {
       "regime_id": "british_raj",
-      "regime_name": "British Raj",
       "start": 1858,
       "end": 1947
     },
     {
       "regime_id": "republic_of_india",
-      "regime_name": "Republic of India",
-      "start": 1947,
-      "end": null
+      "start": 1947
     }
   ]
 }

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "roman_empire_pagan",
+    "name": "Roman Empire (Pagan)",
+    "cultural_language": 335,
+    "start": -27,
+    "end": 380,
+    "ideology": {
+      "religion": 106,
+      "government": "monarchy"
+    }
+  }
+]

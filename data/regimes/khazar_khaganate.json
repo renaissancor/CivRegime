@@ -1,0 +1,12 @@
+[
+  {
+    "id": "khazar_khaganate",
+    "name": "Khazar Khaganate",
+    "start": 650,
+    "end": 969,
+    "ideology": {
+      "religion": 62,
+      "government": "monarchy"
+    }
+  }
+]

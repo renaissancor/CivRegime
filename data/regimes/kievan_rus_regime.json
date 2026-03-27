@@ -1,0 +1,14 @@
+[
+  {
+    "id": "kievan_rus_regime",
+    "name": "Kievan Rus",
+    "ruling_ethnicity": 149,
+    "cultural_language": 359,
+    "start": 882,
+    "end": 1240,
+    "ideology": {
+      "religion": 15,
+      "government": "monarchy"
+    }
+  }
+]

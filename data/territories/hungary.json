@@ -5,25 +5,21 @@
   "regimes": [
     {
       "regime_id": "hunnic_empire",
-      "regime_name": "Hunnic Empire",
       "start": 350,
       "end": 453
     },
     {
       "regime_id": "avar_khaganate",
-      "regime_name": "Avar Khaganate",
       "start": 568,
       "end": 804
     },
     {
       "regime_id": "kingdom_of_hungary",
-      "regime_name": "Kingdom of Hungary",
       "start": 1000,
       "end": 1526
     },
     {
       "regime_id": "habsburg_monarchy",
-      "regime_name": "Habsburg Monarchy",
       "start": 1438,
       "end": 1918
     }

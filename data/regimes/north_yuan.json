@@ -1,0 +1,13 @@
+[
+  {
+    "id": "north_yuan",
+    "name": "North Yuan",
+    "ruling_ethnicity": 89,
+    "start": 1368,
+    "end": 1635,
+    "ideology": {
+      "religion": 119,
+      "government": "monarchy"
+    }
+  }
+]

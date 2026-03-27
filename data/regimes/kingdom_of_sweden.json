@@ -1,0 +1,12 @@
+[
+  {
+    "id": "kingdom_of_sweden",
+    "name": "Kingdom of Sweden",
+    "cultural_language": 232,
+    "start": 970,
+    "ideology": {
+      "religion": 2,
+      "government": "monarchy"
+    }
+  }
+]

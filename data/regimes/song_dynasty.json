@@ -1,0 +1,13 @@
+[
+  {
+    "id": "song_dynasty",
+    "name": "Song Dynasty",
+    "cultural_language": 572,
+    "start": 960,
+    "end": 1279,
+    "ideology": {
+      "religion": 171,
+      "government": "monarchy"
+    }
+  }
+]

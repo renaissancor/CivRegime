@@ -1,0 +1,12 @@
+[
+  {
+    "id": "japanese_korea",
+    "name": "Japanese-Occupied Korea",
+    "start": 1910,
+    "end": 1945,
+    "ideology": {
+      "religion": 186,
+      "government": "monarchy"
+    }
+  }
+]

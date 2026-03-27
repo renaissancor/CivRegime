@@ -1,0 +1,13 @@
+[
+  {
+    "id": "sui_dynasty",
+    "name": "Sui Dynasty",
+    "cultural_language": 572,
+    "start": 581,
+    "end": 618,
+    "ideology": {
+      "religion": 119,
+      "government": "monarchy"
+    }
+  }
+]

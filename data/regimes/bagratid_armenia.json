@@ -1,0 +1,12 @@
+[
+  {
+    "id": "bagratid_armenia",
+    "name": "Bagratid Armenia",
+    "start": 885,
+    "end": 1064,
+    "ideology": {
+      "religion": 9,
+      "government": "monarchy"
+    }
+  }
+]

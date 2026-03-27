@@ -1,0 +1,12 @@
+[
+  {
+    "id": "bahmani_sultanate",
+    "name": "Bahmani Sultanate",
+    "start": 1347,
+    "end": 1527,
+    "ideology": {
+      "religion": 51,
+      "government": "monarchy"
+    }
+  }
+]

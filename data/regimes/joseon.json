@@ -1,0 +1,13 @@
+[
+  {
+    "id": "joseon",
+    "name": "Joseon Dynasty",
+    "cultural_language": 400,
+    "start": 1392,
+    "end": 1897,
+    "ideology": {
+      "religion": 171,
+      "government": "monarchy"
+    }
+  }
+]

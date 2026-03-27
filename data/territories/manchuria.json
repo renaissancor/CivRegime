@@ -5,69 +5,56 @@
   "regimes": [
     {
       "regime_id": "three_kingdoms_korea",
-      "regime_name": "Three Kingdoms of Korea",
       "start": -57,
       "end": 668
     },
     {
       "regime_id": "goguryeo",
-      "regime_name": "Goguryeo",
       "start": 37,
       "end": 668
     },
     {
       "regime_id": "liao_dynasty",
-      "regime_name": "Liao Dynasty (Khitan)",
       "start": 907,
       "end": 1125
     },
     {
       "regime_id": "jin_dynasty_jurchen",
-      "regime_name": "Jin Dynasty (Jurchen)",
       "start": 1115,
       "end": 1234
     },
     {
       "regime_id": "mongol_empire",
-      "regime_name": "Mongol Empire",
       "start": 1206,
       "end": 1368
     },
     {
       "regime_id": "yuan_dynasty",
-      "regime_name": "Yuan Dynasty",
       "start": 1271,
       "end": 1368
     },
     {
       "regime_id": "qing_dynasty",
-      "regime_name": "Qing Dynasty (Manchu)",
       "start": 1644,
       "end": 1912
     },
     {
       "regime_id": "empire_of_japan",
-      "regime_name": "Empire of Japan (Meiji)",
       "start": 1868,
       "end": 1947
     },
     {
       "regime_id": "republic_of_china",
-      "regime_name": "Republic of China",
-      "start": 1912,
-      "end": null
+      "start": 1912
     },
     {
       "regime_id": "manchukuo",
-      "regime_name": "Manchukuo",
       "start": 1932,
       "end": 1945
     },
     {
       "regime_id": "peoples_republic_of_china",
-      "regime_name": "People's Republic of China",
-      "start": 1949,
-      "end": null
+      "start": 1949
     }
   ]
 }

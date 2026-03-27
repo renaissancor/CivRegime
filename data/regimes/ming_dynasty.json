@@ -1,0 +1,13 @@
+[
+  {
+    "id": "ming_dynasty",
+    "name": "Ming Dynasty",
+    "cultural_language": 565,
+    "start": 1368,
+    "end": 1644,
+    "ideology": {
+      "religion": 171,
+      "government": "monarchy"
+    }
+  }
+]

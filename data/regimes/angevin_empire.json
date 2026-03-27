@@ -1,0 +1,14 @@
+[
+  {
+    "id": "angevin_empire",
+    "name": "Angevin Empire",
+    "ruling_ethnicity": 141,
+    "cultural_language": 310,
+    "start": 1154,
+    "end": 1204,
+    "ideology": {
+      "religion": 2,
+      "government": "monarchy"
+    }
+  }
+]

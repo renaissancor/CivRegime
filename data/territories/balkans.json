@@ -5,49 +5,41 @@
   "regimes": [
     {
       "regime_id": "roman_republic",
-      "regime_name": "Roman Republic",
       "start": -509,
       "end": -27
     },
     {
       "regime_id": "roman_empire_pagan",
-      "regime_name": "Roman Empire (Pagan)",
       "start": -27,
       "end": 380
     },
     {
       "regime_id": "roman_empire_christian",
-      "regime_name": "Roman Empire (Christian)",
       "start": 380,
       "end": 395
     },
     {
       "regime_id": "western_roman_empire",
-      "regime_name": "Western Roman Empire",
       "start": 395,
       "end": 476
     },
     {
       "regime_id": "byzantine_empire",
-      "regime_name": "Byzantine Empire",
       "start": 395,
       "end": 1453
     },
     {
       "regime_id": "first_bulgarian_empire",
-      "regime_name": "First Bulgarian Empire",
       "start": 681,
       "end": 1018
     },
     {
       "regime_id": "serbian_empire",
-      "regime_name": "Serbian Empire (Nemanjić Dynasty)",
       "start": 1190,
       "end": 1389
     },
     {
       "regime_id": "ottoman_empire",
-      "regime_name": "Ottoman Empire",
       "start": 1299,
       "end": 1922
     }

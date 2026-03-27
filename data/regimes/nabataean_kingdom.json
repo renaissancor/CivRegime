@@ -1,0 +1,13 @@
+[
+  {
+    "id": "nabataean_kingdom",
+    "name": "Nabataean Kingdom",
+    "cultural_language": 33,
+    "start": -115,
+    "end": 106,
+    "ideology": {
+      "religion": 109,
+      "government": "monarchy"
+    }
+  }
+]

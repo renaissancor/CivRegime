@@ -5,55 +5,46 @@
   "regimes": [
     {
       "regime_id": "xiongnu",
-      "regime_name": "Xiongnu Confederation",
       "start": -209,
       "end": 93
     },
     {
       "regime_id": "hunnic_empire",
-      "regime_name": "Hunnic Empire",
       "start": 350,
       "end": 453
     },
     {
       "regime_id": "goktürk_khaganate",
-      "regime_name": "Göktürk Khaganate",
       "start": 552,
       "end": 744
     },
     {
       "regime_id": "avar_khaganate",
-      "regime_name": "Avar Khaganate",
       "start": 568,
       "end": 804
     },
     {
       "regime_id": "uyghur_khaganate",
-      "regime_name": "Uyghur Khaganate",
       "start": 744,
       "end": 840
     },
     {
       "regime_id": "mongol_empire",
-      "regime_name": "Mongol Empire",
       "start": 1206,
       "end": 1368
     },
     {
       "regime_id": "chagatai_khanate",
-      "regime_name": "Chagatai Khanate",
       "start": 1226,
       "end": 1347
     },
     {
       "regime_id": "golden_horde",
-      "regime_name": "Golden Horde",
       "start": 1242,
       "end": 1502
     },
     {
       "regime_id": "kazakh_khanate",
-      "regime_name": "Kazakh Khanate",
       "start": 1465,
       "end": 1731
     }

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "serbian_empire",
+    "name": "Serbian Empire (Nemanjić Dynasty)",
+    "ruling_ethnicity": 155,
+    "cultural_language": 359,
+    "start": 1190,
+    "end": 1389,
+    "ideology": {
+      "religion": 15,
+      "government": "monarchy"
+    }
+  }
+]

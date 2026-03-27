@@ -1,0 +1,13 @@
+[
+  {
+    "id": "pala_empire",
+    "name": "Pala Empire",
+    "cultural_language": 278,
+    "start": 750,
+    "end": 1200,
+    "ideology": {
+      "religion": 119,
+      "government": "monarchy"
+    }
+  }
+]

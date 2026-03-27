@@ -1,0 +1,13 @@
+[
+  {
+    "id": "carolingian_empire",
+    "name": "Frankish Kingdom / Carolingian Empire",
+    "cultural_language": 335,
+    "start": 486,
+    "end": 843,
+    "ideology": {
+      "religion": 2,
+      "government": "monarchy"
+    }
+  }
+]

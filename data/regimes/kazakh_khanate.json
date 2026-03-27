@@ -1,0 +1,12 @@
+[
+  {
+    "id": "kazakh_khanate",
+    "name": "Kazakh Khanate",
+    "start": 1465,
+    "end": 1731,
+    "ideology": {
+      "religion": 51,
+      "government": "monarchy"
+    }
+  }
+]

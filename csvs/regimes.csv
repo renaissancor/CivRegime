@@ -1,0 +1,139 @@
+id,name,state_id,id_ruling_ethnicity,id_ruling_language,id_ruling_religion,start,end
+sumerian_city_states,"Sumerian City-States (Ur, Uruk, Lagash)",,203,,80,-3500,-2334
+old_kingdom_egypt,Old Kingdom Egypt,,,,76,-2686,-2181
+akkadian_empire,Akkadian Empire,,,26,80,-2334,-2154
+ur_iii,Third Dynasty of Ur (Neo-Sumerian),,203,,80,-2112,-2004
+old_babylonian,Old Babylonian Empire,,,,80,-1894,-1595
+hittite_empire,Hittite Empire,,176,,70,-1600,-1180
+shang_dynasty,Shang Dynasty,,,573,249,-1600,-1046
+new_kingdom_egypt,New Kingdom Egypt,,,,76,-1550,-1070
+phoenician_states,"Phoenician City-States (Tyre, Sidon, Byblos)",,,,110,-1200,-332
+kingdom_of_israel,United Kingdom of Israel,,,,59,-1047,-930
+zhou_dynasty,Zhou Dynasty,,,573,249,-1046,-256
+kingdom_of_judah,Kingdom of Judah,,,,59,-930,-586
+neo_assyrian_empire,Neo-Assyrian Empire,,,,80,-911,-609
+kingdom_of_urartu,Kingdom of Urartu,,,33,203,-860,-590
+roman_kingdom,Roman Kingdom,,,335,106,-753,-509
+median_kingdom,Median Kingdom,,134,,203,-678,-550
+meroitic_kingdom,Kingdom of Meroe (Meroitic Kingdom),,,,76,-656,350
+neo_babylonian,Neo-Babylonian (Chaldean) Empire,,,,80,-626,-539
+achaemenid_empire,Achaemenid Empire,,137,295,203,-550,-330
+roman_republic,Roman Republic,,,335,106,-509,-27
+macedonian_empire,Macedonian Empire (Alexander),,156,252,,-336,-323
+maurya_empire,Maurya Empire,,,266,147,-322,-185
+seleucid_empire,Seleucid Empire,,156,255,,-312,-63
+ptolemaic_egypt,Ptolemaic Kingdom,,156,255,,-305,-30
+parthian_empire,Parthian Empire (Arsacid),,135,,203,-247,224
+satavahana_empire,Satavahana Empire,,,278,147,-230,220
+qin_dynasty,Qin Dynasty,,,573,249,-221,-206
+xiongnu,Xiongnu Confederation,,,,,-209,93
+han_dynasty,Han Dynasty,,,573,170,-206,220
+kingdom_of_armenia,Kingdom of Armenia,,,,203,-190,428
+nabataean_kingdom,Nabataean Kingdom,,,33,109,-115,106
+three_kingdoms_korea,Three Kingdoms of Korea,,,401,119,-57,668
+roman_empire_pagan,Roman Empire (Pagan),,,335,106,-27,380
+goguryeo,Goguryeo,,,573,119,37,668
+sassanid_empire,Sassanid Empire,,137,,203,224,651
+yamato_period,Yamato Period,,82,384,261,250,710
+gupta_empire,Gupta Empire,,,266,147,320,550
+hunnic_empire,Hunnic Empire,,,,,350,453
+roman_empire_christian,Roman Empire (Christian),,,335,2,380,395
+western_roman_empire,Western Roman Empire,,,335,2,395,476
+byzantine_empire,Byzantine Empire,,,,15,395,1453
+visigothic_kingdom,Visigothic Kingdom,,,335,2,418,711
+vandal_kingdom,Vandal Kingdom of North Africa,,,335,2,429,533
+odoacer_kingdom,Kingdom of Odoacer,,,335,2,476,493
+carolingian_empire,Frankish Kingdom / Carolingian Empire,,,335,2,486,843
+ostrogothic_kingdom,Ostrogothic Kingdom of Italy,,,335,2,493,553
+goktürk_khaganate,Göktürk Khaganate,,,,,552,744
+lombard_kingdom,Kingdom of the Lombards,,,335,2,568,774
+avar_khaganate,Avar Khaganate,,,,,568,804
+sui_dynasty,Sui Dynasty,,,572,119,581,618
+harsha_empire,Harsha Empire,,,266,119,606,647
+tang_dynasty,Tang Dynasty,,,572,170,618,907
+rashidun_caliphate,Rashidun Caliphate,,,,51,632,661
+khazar_khaganate,Khazar Khaganate,,,,62,650,969
+umayyad_caliphate,Umayyad Caliphate,,,,51,661,750
+unified_silla,Unified Silla,,,401,119,668,935
+first_bulgarian_empire,First Bulgarian Empire,,155,359,15,681,1018
+al_andalus,Al-Andalus,,,,51,711,1492
+uyghur_khaganate,Uyghur Khaganate,,,,212,744,840
+abbasid_caliphate,Abbasid Caliphate,,,,,750,1258
+pala_empire,Pala Empire,,,278,119,750,1200
+samanid_empire,Samanid Empire,,137,,51,819,999
+kingdom_of_scotland,Kingdom of Scotland,,,,2,843,1707
+kingdom_of_norway,Kingdom of Norway,,,232,103,872,1380
+kievan_rus_regime,Kievan Rus,,149,359,15,882,1240
+bagratid_armenia,Bagratid Armenia,,,,9,885,1064
+kingdom_of_bohemia,Kingdom of Bohemia,,159,362,2,895,1526
+liao_dynasty,Liao Dynasty (Khitan),,88,,119,907,1125
+fatimid_caliphate,Fatimid Caliphate,,,,,909,1171
+goryeo,Goryeo Dynasty,,,400,119,918,1392
+kingdom_of_england,Kingdom of England,,111,244,2,927,1707
+kingdom_of_denmark,Kingdom of Denmark,,,232,2,936,
+song_dynasty,Song Dynasty,,,572,171,960,1279
+holy_roman_empire,Holy Roman Empire,,112,335,2,962,1806
+kingdom_of_poland,Kingdom of Poland,,161,335,2,966,1569
+kingdom_of_sweden,Kingdom of Sweden,,,232,2,970,
+ghaznavid_empire,Ghaznavid Empire,,,,51,977,1186
+kingdom_of_france,Kingdom of France,,141,310,2,987,1792
+kingdom_of_hungary,Kingdom of Hungary,,59,335,2,1000,1526
+seljuk_empire,Seljuk Empire,,,,,1037,1194
+seljuk_rum,Sultanate of Rum,,,,,1077,1307
+jin_dynasty_jurchen,Jin Dynasty (Jurchen),,99,,119,1115,1234
+angevin_empire,Angevin Empire,,141,310,2,1154,1204
+ayyubid_sultanate,Ayyubid Sultanate,,133,,,1171,1260
+feudal_japan,Feudal Japan,,82,,261,1185,1603
+serbian_empire,Serbian Empire (Nemanjić Dynasty),,155,359,15,1190,1389
+khwarazmian_empire,Khwarazmian Empire,,,,51,1200,1220
+delhi_sultanate,Delhi Sultanate,,,,,1206,1526
+mongol_empire,Mongol Empire,,89,431,,1206,1368
+chagatai_khanate,Chagatai Khanate,,89,,,1226,1347
+teutonic_order,Teutonic Order (Monastic State),,112,240,2,1230,1525
+grand_duchy_of_lithuania,Grand Duchy of Lithuania,,103,350,,1236,1569
+golden_horde,Golden Horde,,89,626,,1242,1502
+mamluk_sultanate,Mamluk Sultanate,,,,,1250,1517
+ilkhanate,Ilkhanate,,89,,,1256,1335
+yuan_dynasty,Yuan Dynasty,,89,431,,1271,1368
+ottoman_empire,Ottoman Empire,,,643,,1299,1922
+vijayanagara_empire,Vijayanagara Empire,,,169,147,1336,1646
+bahmani_sultanate,Bahmani Sultanate,,,,51,1347,1527
+ming_dynasty,Ming Dynasty,,,565,171,1368,1644
+north_yuan,North Yuan,,89,,119,1368,1635
+timurid_empire,Timurid Empire,,,,,1370,1507
+joseon,Joseon Dynasty,,,400,171,1392,1897
+kalmar_union,Kalmar Union,,,240,2,1397,1523
+habsburg_monarchy,Habsburg Monarchy,,112,240,2,1438,1918
+crimean_khanate,Crimean Khanate,,,,51,1441,1783
+kazakh_khanate,Kazakh Khanate,,,,51,1465,1731
+safavid_empire,Safavid Empire,,137,,,1501,1736
+mughal_empire,Mughal Empire,,,,,1526,1857
+polish_lithuanian_commonwealth,Polish-Lithuanian Commonwealth,,161,367,2,1569,1795
+tokugawa_shogunate,Tokugawa Shogunate (Edo Period),,82,,,1603,1868
+qing_dynasty,Qing Dynasty (Manchu),,99,,,1644,1912
+maratha_empire,Maratha Empire,,,275,147,1674,1818
+kingdom_of_great_britain,Kingdom of Great Britain,,111,,30,1707,1801
+russian_empire,Russian Empire,,149,351,15,1721,1917
+sikh_empire,Sikh Empire,,,280,163,1799,1849
+united_kingdom,United Kingdom of Great Britain and Ireland,,111,,30,1801,
+kingdom_of_egypt,Kingdom of Egypt,,206,,51,1805,1952
+british_raj,British Raj,,111,,30,1858,1947
+kingdom_of_italy,Kingdom of Italy,,143,329,2,1861,1946
+empire_of_japan,Empire of Japan (Meiji),,82,,186,1868,1947
+german_empire,German Empire (Deutsches Reich),,112,240,30,1871,1918
+japanese_korea,Japanese-Occupied Korea,,,,186,1910,1945
+republic_of_china,Republic of China,,,,249,1912,
+weimar_republic,Weimar Republic,,112,240,30,1918,1933
+czechoslovakia,Czechoslovakia,,159,362,2,1918,1993
+kingdom_of_iraq,Kingdom of Iraq,,206,,51,1921,1958
+republic_of_turkey,Republic of Turkey,,,,51,1923,
+mongolian_peoples_republic,Mongolian People's Republic,,89,,119,1924,1992
+manchukuo,Manchukuo,,,,249,1932,1945
+saudi_arabia,Kingdom of Saudi Arabia,,206,,51,1932,
+modern_korea,Modern Korea (Postwar),,,,,1945,
+modern_japan,Modern Japan (Postwar),,82,,,1947,
+republic_of_india,Republic of India,,,,147,1947,
+pakistan,Pakistan,,,,51,1947,
+peoples_republic_of_china,People's Republic of China,,,,249,1949,
+republic_of_egypt,Republic of Egypt,,206,,51,1952,
+republic_of_iraq,Republic of Iraq,,206,,51,1958,

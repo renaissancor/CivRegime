@@ -1,0 +1,13 @@
+[
+  {
+    "id": "kingdom_of_egypt",
+    "name": "Kingdom of Egypt",
+    "ruling_ethnicity": 206,
+    "start": 1805,
+    "end": 1952,
+    "ideology": {
+      "religion": 51,
+      "government": "monarchy"
+    }
+  }
+]

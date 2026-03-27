@@ -1,0 +1,13 @@
+[
+  {
+    "id": "kingdom_of_iraq",
+    "name": "Kingdom of Iraq",
+    "ruling_ethnicity": 206,
+    "start": 1921,
+    "end": 1958,
+    "ideology": {
+      "religion": 51,
+      "government": "monarchy"
+    }
+  }
+]

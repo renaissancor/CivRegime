@@ -1,0 +1,13 @@
+[
+  {
+    "id": "british_raj",
+    "name": "British Raj",
+    "ruling_ethnicity": 111,
+    "start": 1858,
+    "end": 1947,
+    "ideology": {
+      "religion": 30,
+      "government": "monarchy"
+    }
+  }
+]

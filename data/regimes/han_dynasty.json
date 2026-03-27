@@ -1,0 +1,13 @@
+[
+  {
+    "id": "han_dynasty",
+    "name": "Han Dynasty",
+    "cultural_language": 573,
+    "start": -206,
+    "end": 220,
+    "ideology": {
+      "religion": 170,
+      "government": "monarchy"
+    }
+  }
+]

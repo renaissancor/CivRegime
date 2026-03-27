@@ -1,0 +1,10 @@
+[
+  {
+    "id": "mongol_empire",
+    "name": "Mongol Empire",
+    "ruling_ethnicity": 89,
+    "cultural_language": 431,
+    "start": 1206,
+    "end": 1368
+  }
+]

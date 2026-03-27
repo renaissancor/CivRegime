@@ -5,51 +5,42 @@
   "regimes": [
     {
       "regime_id": "three_kingdoms_korea",
-      "regime_name": "Three Kingdoms of Korea",
       "start": -57,
       "end": 668
     },
     {
       "regime_id": "goguryeo",
-      "regime_name": "Goguryeo",
       "start": 37,
       "end": 668
     },
     {
       "regime_id": "unified_silla",
-      "regime_name": "Unified Silla",
       "start": 668,
       "end": 935
     },
     {
       "regime_id": "goryeo",
-      "regime_name": "Goryeo Dynasty",
       "start": 918,
       "end": 1392
     },
     {
       "regime_id": "joseon",
-      "regime_name": "Joseon Dynasty",
       "start": 1392,
       "end": 1897
     },
     {
       "regime_id": "empire_of_japan",
-      "regime_name": "Empire of Japan (Meiji)",
       "start": 1868,
       "end": 1947
     },
     {
       "regime_id": "japanese_korea",
-      "regime_name": "Japanese-Occupied Korea",
       "start": 1910,
       "end": 1945
     },
     {
       "regime_id": "modern_korea",
-      "regime_name": "Modern Korea (Postwar)",
-      "start": 1945,
-      "end": null
+      "start": 1945
     }
   ]
 }

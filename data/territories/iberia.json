@@ -5,43 +5,36 @@
   "regimes": [
     {
       "regime_id": "roman_republic",
-      "regime_name": "Roman Republic",
       "start": -509,
       "end": -27
     },
     {
       "regime_id": "roman_empire_pagan",
-      "regime_name": "Roman Empire (Pagan)",
       "start": -27,
       "end": 380
     },
     {
       "regime_id": "roman_empire_christian",
-      "regime_name": "Roman Empire (Christian)",
       "start": 380,
       "end": 395
     },
     {
       "regime_id": "western_roman_empire",
-      "regime_name": "Western Roman Empire",
       "start": 395,
       "end": 476
     },
     {
       "regime_id": "visigothic_kingdom",
-      "regime_name": "Visigothic Kingdom",
       "start": 418,
       "end": 711
     },
     {
       "regime_id": "umayyad_caliphate",
-      "regime_name": "Umayyad Caliphate",
       "start": 661,
       "end": 750
     },
     {
       "regime_id": "al_andalus",
-      "regime_name": "Al-Andalus",
       "start": 711,
       "end": 1492
     }

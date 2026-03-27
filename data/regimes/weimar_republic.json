@@ -1,0 +1,14 @@
+[
+  {
+    "id": "weimar_republic",
+    "name": "Weimar Republic",
+    "ruling_ethnicity": 112,
+    "cultural_language": 240,
+    "start": 1918,
+    "end": 1933,
+    "ideology": {
+      "religion": 30,
+      "government": "monarchy"
+    }
+  }
+]

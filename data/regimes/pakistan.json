@@ -1,0 +1,11 @@
+[
+  {
+    "id": "pakistan",
+    "name": "Pakistan",
+    "start": 1947,
+    "ideology": {
+      "religion": 51,
+      "government": "monarchy"
+    }
+  }
+]

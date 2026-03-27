@@ -1,0 +1,13 @@
+[
+  {
+    "id": "ur_iii",
+    "name": "Third Dynasty of Ur (Neo-Sumerian)",
+    "ruling_ethnicity": 203,
+    "start": -2112,
+    "end": -2004,
+    "ideology": {
+      "religion": 80,
+      "government": "monarchy"
+    }
+  }
+]

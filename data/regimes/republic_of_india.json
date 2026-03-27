@@ -1,0 +1,11 @@
+[
+  {
+    "id": "republic_of_india",
+    "name": "Republic of India",
+    "start": 1947,
+    "ideology": {
+      "religion": 147,
+      "government": "monarchy"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "kingdom_of_armenia",
+    "name": "Kingdom of Armenia",
+    "start": -190,
+    "end": 428,
+    "ideology": {
+      "religion": 203,
+      "government": "monarchy"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "umayyad_caliphate",
+    "name": "Umayyad Caliphate",
+    "start": 661,
+    "end": 750,
+    "ideology": {
+      "religion": 51,
+      "government": "monarchy"
+    }
+  }
+]

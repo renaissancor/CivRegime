@@ -1,0 +1,13 @@
+[
+  {
+    "id": "sumerian_city_states",
+    "name": "Sumerian City-States (Ur, Uruk, Lagash)",
+    "ruling_ethnicity": 203,
+    "start": -3500,
+    "end": -2334,
+    "ideology": {
+      "religion": 80,
+      "government": "monarchy"
+    }
+  }
+]

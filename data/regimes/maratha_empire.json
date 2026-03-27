@@ -1,0 +1,13 @@
+[
+  {
+    "id": "maratha_empire",
+    "name": "Maratha Empire",
+    "cultural_language": 275,
+    "start": 1674,
+    "end": 1818,
+    "ideology": {
+      "religion": 147,
+      "government": "monarchy"
+    }
+  }
+]

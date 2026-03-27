@@ -5,43 +5,36 @@
   "regimes": [
     {
       "regime_id": "xiongnu",
-      "regime_name": "Xiongnu Confederation",
       "start": -209,
       "end": 93
     },
     {
       "regime_id": "goktürk_khaganate",
-      "regime_name": "Göktürk Khaganate",
       "start": 552,
       "end": 744
     },
     {
       "regime_id": "uyghur_khaganate",
-      "regime_name": "Uyghur Khaganate",
       "start": 744,
       "end": 840
     },
     {
       "regime_id": "mongol_empire",
-      "regime_name": "Mongol Empire",
       "start": 1206,
       "end": 1368
     },
     {
       "regime_id": "north_yuan",
-      "regime_name": "North Yuan",
       "start": 1368,
       "end": 1635
     },
     {
       "regime_id": "qing_dynasty",
-      "regime_name": "Qing Dynasty (Manchu)",
       "start": 1644,
       "end": 1912
     },
     {
       "regime_id": "mongolian_peoples_republic",
-      "regime_name": "Mongolian People's Republic",
       "start": 1924,
       "end": 1992
     }

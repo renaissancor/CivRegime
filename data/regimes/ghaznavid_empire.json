@@ -1,0 +1,12 @@
+[
+  {
+    "id": "ghaznavid_empire",
+    "name": "Ghaznavid Empire",
+    "start": 977,
+    "end": 1186,
+    "ideology": {
+      "religion": 51,
+      "government": "monarchy"
+    }
+  }
+]

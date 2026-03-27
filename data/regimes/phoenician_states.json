@@ -1,0 +1,12 @@
+[
+  {
+    "id": "phoenician_states",
+    "name": "Phoenician City-States (Tyre, Sidon, Byblos)",
+    "start": -1200,
+    "end": -332,
+    "ideology": {
+      "religion": 110,
+      "government": "monarchy"
+    }
+  }
+]

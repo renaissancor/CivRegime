@@ -1,0 +1,13 @@
+[
+  {
+    "id": "hittite_empire",
+    "name": "Hittite Empire",
+    "ruling_ethnicity": 176,
+    "start": -1600,
+    "end": -1180,
+    "ideology": {
+      "religion": 70,
+      "government": "monarchy"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "new_kingdom_egypt",
+    "name": "New Kingdom Egypt",
+    "start": -1550,
+    "end": -1070,
+    "ideology": {
+      "religion": 76,
+      "government": "monarchy"
+    }
+  }
+]

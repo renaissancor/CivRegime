@@ -1,0 +1,13 @@
+[
+  {
+    "id": "samanid_empire",
+    "name": "Samanid Empire",
+    "ruling_ethnicity": 137,
+    "start": 819,
+    "end": 999,
+    "ideology": {
+      "religion": 51,
+      "government": "monarchy"
+    }
+  }
+]

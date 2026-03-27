@@ -1,0 +1,13 @@
+[
+  {
+    "id": "kalmar_union",
+    "name": "Kalmar Union",
+    "cultural_language": 240,
+    "start": 1397,
+    "end": 1523,
+    "ideology": {
+      "religion": 2,
+      "government": "monarchy"
+    }
+  }
+]

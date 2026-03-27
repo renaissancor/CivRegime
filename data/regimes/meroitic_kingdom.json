@@ -1,0 +1,12 @@
+[
+  {
+    "id": "meroitic_kingdom",
+    "name": "Kingdom of Meroe (Meroitic Kingdom)",
+    "start": -656,
+    "end": 350,
+    "ideology": {
+      "religion": 76,
+      "government": "monarchy"
+    }
+  }
+]

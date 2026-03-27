@@ -1,0 +1,13 @@
+[
+  {
+    "id": "three_kingdoms_korea",
+    "name": "Three Kingdoms of Korea",
+    "cultural_language": 401,
+    "start": -57,
+    "end": 668,
+    "ideology": {
+      "religion": 119,
+      "government": "monarchy"
+    }
+  }
+]

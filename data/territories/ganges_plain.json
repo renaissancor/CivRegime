@@ -5,51 +5,42 @@
   "regimes": [
     {
       "regime_id": "maurya_empire",
-      "regime_name": "Maurya Empire",
       "start": -322,
       "end": -185
     },
     {
       "regime_id": "gupta_empire",
-      "regime_name": "Gupta Empire",
       "start": 320,
       "end": 550
     },
     {
       "regime_id": "harsha_empire",
-      "regime_name": "Harsha Empire",
       "start": 606,
       "end": 647
     },
     {
       "regime_id": "pala_empire",
-      "regime_name": "Pala Empire",
       "start": 750,
       "end": 1200
     },
     {
       "regime_id": "delhi_sultanate",
-      "regime_name": "Delhi Sultanate",
       "start": 1206,
       "end": 1526
     },
     {
       "regime_id": "mughal_empire",
-      "regime_name": "Mughal Empire",
       "start": 1526,
       "end": 1857
     },
     {
       "regime_id": "british_raj",
-      "regime_name": "British Raj",
       "start": 1858,
       "end": 1947
     },
     {
       "regime_id": "republic_of_india",
-      "regime_name": "Republic of India",
-      "start": 1947,
-      "end": null
+      "start": 1947
     }
   ]
 }

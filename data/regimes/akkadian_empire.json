@@ -1,0 +1,13 @@
+[
+  {
+    "id": "akkadian_empire",
+    "name": "Akkadian Empire",
+    "cultural_language": 26,
+    "start": -2334,
+    "end": -2154,
+    "ideology": {
+      "religion": 80,
+      "government": "monarchy"
+    }
+  }
+]

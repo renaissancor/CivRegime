@@ -1,0 +1,13 @@
+[
+  {
+    "id": "satavahana_empire",
+    "name": "Satavahana Empire",
+    "cultural_language": 278,
+    "start": -230,
+    "end": 220,
+    "ideology": {
+      "religion": 147,
+      "government": "monarchy"
+    }
+  }
+]

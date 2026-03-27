@@ -1,0 +1,14 @@
+[
+  {
+    "id": "achaemenid_empire",
+    "name": "Achaemenid Empire",
+    "ruling_ethnicity": 137,
+    "cultural_language": 295,
+    "start": -550,
+    "end": -330,
+    "ideology": {
+      "religion": 203,
+      "government": "monarchy"
+    }
+  }
+]

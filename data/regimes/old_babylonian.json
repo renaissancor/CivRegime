@@ -1,0 +1,12 @@
+[
+  {
+    "id": "old_babylonian",
+    "name": "Old Babylonian Empire",
+    "start": -1894,
+    "end": -1595,
+    "ideology": {
+      "religion": 80,
+      "government": "monarchy"
+    }
+  }
+]

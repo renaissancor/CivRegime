@@ -1,0 +1,14 @@
+[
+  {
+    "id": "polish_lithuanian_commonwealth",
+    "name": "Polish-Lithuanian Commonwealth",
+    "ruling_ethnicity": 161,
+    "cultural_language": 367,
+    "start": 1569,
+    "end": 1795,
+    "ideology": {
+      "religion": 2,
+      "government": "monarchy"
+    }
+  }
+]

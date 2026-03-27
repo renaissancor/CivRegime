@@ -1,0 +1,14 @@
+[
+  {
+    "id": "czechoslovakia",
+    "name": "Czechoslovakia",
+    "ruling_ethnicity": 159,
+    "cultural_language": 362,
+    "start": 1918,
+    "end": 1993,
+    "ideology": {
+      "religion": 2,
+      "government": "monarchy"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "kingdom_of_france",
+    "name": "Kingdom of France",
+    "ruling_ethnicity": 141,
+    "cultural_language": 310,
+    "start": 987,
+    "end": 1792,
+    "ideology": {
+      "religion": 2,
+      "government": "monarchy"
+    }
+  }
+]

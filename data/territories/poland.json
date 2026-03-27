@@ -5,13 +5,11 @@
   "regimes": [
     {
       "regime_id": "kingdom_of_poland",
-      "regime_name": "Kingdom of Poland",
       "start": 966,
       "end": 1569
     },
     {
       "regime_id": "polish_lithuanian_commonwealth",
-      "regime_name": "Polish-Lithuanian Commonwealth",
       "start": 1569,
       "end": 1795
     }

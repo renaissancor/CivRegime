@@ -3,7 +3,6 @@ const TYPE_COLOR = {
   'A-': '#86efac',
   'B':  '#60a5fa',
   'C':  '#fb923c',
-  'D':  '#f87171',
 };
 
 const LABEL_MAP = {
@@ -84,7 +83,7 @@ function buildGraph(db) {
     .attr('class', 'link')
     .attr('stroke', d => TYPE_COLOR[d.type] || '#999')
     .attr('stroke-width', 1.5)
-    .attr('stroke-dasharray', d => d.type === 'D' ? '6,4' : null)
+    .attr('stroke-dasharray', null)
     .attr('marker-end', d => `url(#arrow-${d.type})`)
     .attr('opacity', 0.7)
     .on('mouseenter', (event, d) => showLinkTooltip(event, d))

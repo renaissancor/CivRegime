@@ -1,0 +1,14 @@
+[
+  {
+    "id": "first_bulgarian_empire",
+    "name": "First Bulgarian Empire",
+    "ruling_ethnicity": 155,
+    "cultural_language": 359,
+    "start": 681,
+    "end": 1018,
+    "ideology": {
+      "religion": 15,
+      "government": "monarchy"
+    }
+  }
+]

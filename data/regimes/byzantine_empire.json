@@ -1,0 +1,12 @@
+[
+  {
+    "id": "byzantine_empire",
+    "name": "Byzantine Empire",
+    "start": 395,
+    "end": 1453,
+    "ideology": {
+      "religion": 15,
+      "government": "monarchy"
+    }
+  }
+]

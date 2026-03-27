@@ -1,0 +1,12 @@
+[
+  {
+    "id": "khwarazmian_empire",
+    "name": "Khwarazmian Empire",
+    "start": 1200,
+    "end": 1220,
+    "ideology": {
+      "religion": 51,
+      "government": "monarchy"
+    }
+  }
+]

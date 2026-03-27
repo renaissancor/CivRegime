@@ -1,0 +1,13 @@
+[
+  {
+    "id": "roman_republic",
+    "name": "Roman Republic",
+    "cultural_language": 335,
+    "start": -509,
+    "end": -27,
+    "ideology": {
+      "religion": 106,
+      "government": "monarchy"
+    }
+  }
+]

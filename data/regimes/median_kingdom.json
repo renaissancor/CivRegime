@@ -1,0 +1,13 @@
+[
+  {
+    "id": "median_kingdom",
+    "name": "Median Kingdom",
+    "ruling_ethnicity": 134,
+    "start": -678,
+    "end": -550,
+    "ideology": {
+      "religion": 203,
+      "government": "monarchy"
+    }
+  }
+]

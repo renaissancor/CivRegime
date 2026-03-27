@@ -5,55 +5,46 @@
   "regimes": [
     {
       "regime_id": "kingdom_of_urartu",
-      "regime_name": "Kingdom of Urartu",
       "start": -860,
       "end": -590
     },
     {
       "regime_id": "median_kingdom",
-      "regime_name": "Median Kingdom",
       "start": -678,
       "end": -550
     },
     {
       "regime_id": "kingdom_of_armenia",
-      "regime_name": "Kingdom of Armenia",
       "start": -190,
       "end": 428
     },
     {
       "regime_id": "sassanid_empire",
-      "regime_name": "Sassanid Empire",
       "start": 224,
       "end": 651
     },
     {
       "regime_id": "khazar_khaganate",
-      "regime_name": "Khazar Khaganate",
       "start": 650,
       "end": 969
     },
     {
       "regime_id": "bagratid_armenia",
-      "regime_name": "Bagratid Armenia",
       "start": 885,
       "end": 1064
     },
     {
       "regime_id": "ilkhanate",
-      "regime_name": "Ilkhanate",
       "start": 1256,
       "end": 1335
     },
     {
       "regime_id": "ottoman_empire",
-      "regime_name": "Ottoman Empire",
       "start": 1299,
       "end": 1922
     },
     {
       "regime_id": "safavid_empire",
-      "regime_name": "Safavid Empire",
       "start": 1501,
       "end": 1736
     }

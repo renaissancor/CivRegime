@@ -1,0 +1,11 @@
+[
+  {
+    "id": "republic_of_turkey",
+    "name": "Republic of Turkey",
+    "start": 1923,
+    "ideology": {
+      "religion": 51,
+      "government": "monarchy"
+    }
+  }
+]

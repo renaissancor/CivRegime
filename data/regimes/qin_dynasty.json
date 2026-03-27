@@ -1,0 +1,13 @@
+[
+  {
+    "id": "qin_dynasty",
+    "name": "Qin Dynasty",
+    "cultural_language": 573,
+    "start": -221,
+    "end": -206,
+    "ideology": {
+      "religion": 249,
+      "government": "monarchy"
+    }
+  }
+]

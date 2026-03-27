@@ -1,0 +1,14 @@
+[
+  {
+    "id": "teutonic_order",
+    "name": "Teutonic Order (Monastic State)",
+    "ruling_ethnicity": 112,
+    "cultural_language": 240,
+    "start": 1230,
+    "end": 1525,
+    "ideology": {
+      "religion": 2,
+      "government": "monarchy"
+    }
+  }
+]

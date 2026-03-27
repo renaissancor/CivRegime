@@ -1,0 +1,14 @@
+[
+  {
+    "id": "yamato_period",
+    "name": "Yamato Period",
+    "ruling_ethnicity": 82,
+    "cultural_language": 384,
+    "start": 250,
+    "end": 710,
+    "ideology": {
+      "religion": 261,
+      "government": "monarchy"
+    }
+  }
+]

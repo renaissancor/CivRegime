@@ -1,0 +1,13 @@
+[
+  {
+    "id": "jin_dynasty_jurchen",
+    "name": "Jin Dynasty (Jurchen)",
+    "ruling_ethnicity": 99,
+    "start": 1115,
+    "end": 1234,
+    "ideology": {
+      "religion": 119,
+      "government": "monarchy"
+    }
+  }
+]

@@ -1,123 +1,180 @@
 # Documentation Guide
 
-This directory contains all reference documentation for the CivRegime Inheritance Framework (CRIF).
+This directory contains all reference documentation for the CivRegime historical simulation.
 
 ## Documentation Structure
 
 ### Core References
-- **`data-model.md`** — Complete entity schemas, field definitions, and edge type reference for all CRIF objects (Regimes, Successions, Territories, Languages, Religions, Ethnicities)
-- **`regime.md`** — Regime field definitions, examples, and the distinction between historical regimes and dynasties
-- **`succession.md`** — Succession type logic (A/A-/B/C/D), validation paths, and edge case handling
-- **`ideology.md`** — Government forms and ideology model; distinction between ideology and policy
-- **`ethnicity.md`** — Ethnicity taxonomy model and metadata fields
-- **`religion.md`** — Religion taxonomy model and metadata fields
+- **`ERD.md`** — Entity-Relationship Diagram showing database schema, table structures, foreign key relationships, and the CSV → JSON generation pipeline
+- **`CSV_WORKFLOW.md`** — Practical guide for editing CSV files and regenerating JSON outputs
+- **`data-model.md`** — Legacy: Entity schemas and field definitions (being migrated to CSV-based system)
+- **`regime.md`** — Regime semantics and historical examples
+- **`succession.md`** — Legacy documentation (may be deprecated)
+- **`ideology.md`** — Government forms and ideology models
+- **`ethnicity.md`** — Ethnicity taxonomy reference
+- **`religion.md`** — Religion taxonomy reference
 
-### Hierarchical Trees (Source of Truth for Code Generation)
+### Data Source: CSV Files
+The authoritative source of all historical data is in `csvs/`:
+
+- **`csvs/states.csv`** — Political continuities (groups related regimes)
+- **`csvs/regimes.csv`** — Historical eras/regimes with ruling culture, language, religion, and timespan
+- **`csvs/territories.csv`** — Geographic regions
+- **`csvs/territory_periods.csv`** — Territory control timeline (which regime controlled which territory when)
+- **`csvs/ethnicities.csv`** — Ethnic/cultural hierarchy (tree structure)
+- **`csvs/languages.csv`** — Language hierarchy (tree structure)
+- **`csvs/religions.csv`** — Religion hierarchy (tree structure)
+
+### Generated JSON Output
+Automatically generated from CSVs via `code/csv2json/` scripts:
+
+- **`data/states.json`** — All states in a single file
+- **`data/regimes/*.json`** — One JSON file per regime
+- **`data/territories/*.json`** — One JSON file per territory with embedded control timeline
+
+### Legacy Trees (Deprecated)
 Located in `docs/tree/`:
-
-- **`language.md`** — Comprehensive world language taxonomy (36+ families, 552+ languages)
-  - Hierarchical: Family → Branch → Group → Language
-  - Format: Markdown with numbered sections and parenthetical status notes `(extinct)`, `(historical)`
-  - Used by `code/makejson/languages.js` to generate `data/languages/` JSON files
-  
-- **`religion.md`** — Theological taxonomy (9+ families, 193+ traditions/sects)
-  - Hierarchical: Theological Family → Tradition → Branch/Sect
-  - Format: Markdown with numbered sections, includes founder/date context
-  - Used by `code/makejson/religions.js` to generate `data/religions/` JSON files
-  
-- **`ethnicity.md`** — World ethnicity taxonomy (11+ blocs, 203+ ethnic groups)
-  - Hierarchical: Affinity Bloc → People Cluster → Ethnic Group
-  - Format: Markdown with historical and modern classifications
-  - Used by `code/makejson/ethnicities.js` to generate `data/ethnicities/` JSON files
+- **`language.md`** — Deprecated in favor of `csvs/languages.csv`
+- **`religion.md`** — Deprecated in favor of `csvs/religions.csv`
+- **`ethnicity.md`** — Deprecated in favor of `csvs/ethnicities.csv`
 
 ### Task Tracking
 - **`todo/`** — Work tracking and issue logs (internal use)
 
 ## How to Use This Documentation
 
-### For Understanding CRIF Data Model
-1. Start with the main `README.md` at the project root for philosophy and overview
-2. Read `data-model.md` for complete field definitions
-3. Read specific entity docs (`regime.md`, `succession.md`, etc.) for detailed semantics
+### For Understanding the Data Model
+1. Read **`ERD.md`** for the complete Entity-Relationship Diagram and CSV table structures
+2. Read **`CSV_WORKFLOW.md`** for a practical guide to editing data
+3. Reference specific entity docs (`regime.md`, `ethnicity.md`, etc.) for semantic details
 
-### For Working with Taxonomies (Languages, Religions, Ethnicities)
-1. The **markdown tree files** (`docs/tree/language.md`, etc.) are the **canonical source of truth**
-2. These files organize the hierarchy in human-readable markdown format
-3. Code generators (`code/makejson/*.js`) parse these markdown files and generate JSON
-4. The resulting JSON files in `data/languages/`, `data/religions/`, `data/ethnicities/` are **derived outputs**
+### For Editing Historical Data (CSV-First Workflow)
+1. **Single source of truth:** All data originates in CSV files (`csvs/`)
+2. **To make changes:**
+   - Edit the appropriate CSV file (using spreadsheet editor or text editor)
+   - Run the generation scripts in `code/csv2json/` to regenerate JSON
+   - Visualizations automatically load the updated JSON files
+3. **See `CSV_WORKFLOW.md`** for detailed examples and best practices
 
-### For Contributing New Data
-1. **To add a new language/religion/ethnicity:**
-   - Edit the corresponding `docs/tree/*.md` file
-   - Run the code generator: `node code/makejson/languages.js` (or religions/ethnicities)
-   - This auto-generates or updates JSON files in the appropriate directory tree
-   
-2. **To populate metadata (descriptions, founding years, etc.):**
-   - See `docs/languages-world-reference.md` for detailed language metadata (auto-generated)
-   - Use the CSV workflow: metadata → CSV → merge into JSON (see `code/README.md` for pipeline)
-   - Cheaper LLMs (Gemini, Claude Haiku) can populate CSV files before merge
+### For Contributing New Historical Data
+1. **To add a new regime:**
+   - Add a row to `csvs/regimes.csv`
+   - Ensure it references valid state_id, ethnicity_id, language_id, religion_id
+   - Run: `node code/csv2json/regimes.js`
+
+2. **To add territories and control periods:**
+   - Add row to `csvs/territories.csv`
+   - Add corresponding rows to `csvs/territory_periods.csv` with the control timeline
+   - Run: `node code/csv2json/territories.js`
+
+3. **To reorganize the ethnicity/language/religion hierarchies:**
+   - Edit `csvs/ethnicities.csv`, `csvs/languages.csv`, or `csvs/religions.csv`
+   - Adjust `parent_id` values to rearrange the tree structure
+   - Note: Tree JSON generation not yet implemented; trees are queried directly from CSV
 
 ## File Format Conventions
 
-### JSON Schema
-All JSON taxonomy files follow this schema:
+### CSV Format
+All data originates in CSV files with the following structure:
+
+**Flat Tables (STATES, REGIMES, TERRITORIES):**
+```csv
+id,name,other_fields...
+1,Display Name,value1,value2
+```
+
+**Hierarchical Trees (ETHNICITIES, LANGUAGES, RELIGIONS):**
+```csv
+id,old_id,name,parent_id,description,founded
+1,,Root Name,,Optional description,
+2,semantic_id,Child Name,1,Optional description,1000
+```
+
+**Junction Tables (TERRITORY_PERIODS):**
+```csv
+territory_id,regime_id,start,end,regime_name
+1,5,-2686,-2181,Optional name for reference
+```
+
+### JSON Schema (Generated Output)
+Generated JSON files follow this schema:
+
+**Regime Example:**
 ```json
 {
-  "id": "lowercase_with_underscores",
-  "name": "Display Name",
-  "parent": "parent_id_or_null",
-  "description": null,
-  "founded_year": null,
-  "status": null,
-  ... (domain-specific fields)
+  "id": "1",
+  "name": "Roman Empire (Pagan)",
+  "state_id": 1,
+  "ruling_ethnicity": 5,
+  "ruling_language": 335,
+  "ruling_religion": 106,
+  "start": -27,
+  "end": 380
 }
 ```
 
-Fields with `null` values are placeholders for future enrichment via CSV pipeline.
-
-### Markdown Tree Format
-- Numbered headers: `## 1. FAMILY_NAME` (top-level branches)
-- Subsections: `### Branch Name`, `#### Sub-branch Name`
-- List items: `- Item Name` or `- **Item Name** (metadata)`
-- Status markers: `(extinct)`, `(historical)`, dates in parentheses
+**Territory Example:**
+```json
+{
+  "id": "egypt",
+  "name": "Egypt",
+  "regime_count": 17,
+  "regimes": [
+    {"regime_id": "1", "start": -2686, "end": -2181},
+    {"regime_id": "2", "start": -2181, "end": -2055}
+  ]
+}
+```
 
 ### Directory Structure
-For generated JSON files:
-- Spaces and hyphens in names are converted to underscores: `indo_european`, `west_germanic`
-- Nested directory path mirrors taxonomy hierarchy
-- Leaf files: `group/item/item.json` 
-- Branch nodes: `group/index.json` (contains metadata for that branch)
+- CSV files: `csvs/*.csv` (source of truth)
+- Generated JSON: `data/states.json`, `data/regimes/*.json`, `data/territories/*.json`
+- Generation scripts: `code/csv2json/*.js`
 
-## Metadata Enrichment Pipeline
+## Data Workflow
 
-The framework uses a deferred enrichment pattern to keep generation fast:
+The new CSV-first architecture:
 
-1. **Generation Phase** (cheap, fast)
-   - Code generators create skeleton JSON with null metadata fields
-   - Preserves id, name, parent, and structural relationships
+1. **CSV Source Phase**
+   - All data stored in normalized CSV files
+   - Each table represents an entity type (states, regimes, territories, etc.)
+   - Trees use `parent_id` column for self-referential hierarchy
 
-2. **Metadata Phase** (deferred to cheaper LLMs)
-   - Extract id/name pairs into CSV files
-   - Use Gemini (or similar cheap LLM) to populate descriptions, dates, status
-   - CSV files are intermediate format before JSON merge
+2. **Generation Phase**
+   - Run `code/csv2json/` scripts to convert CSV → JSON
+   - Scripts apply transformations:
+     - Convert numeric FK references to semantic IDs
+     - Merge related tables (regimes + territories)
+     - Normalize date ranges
+   - Output JSON files ready for frontend consumption
 
-3. **Merge Phase**
-   - Merge CSV metadata back into JSON files
-   - Updates null fields with real values
-   - Preserves structural integrity
+3. **Frontend Phase**
+   - Frontend loads JSON files and powers visualizations
+   - Changes flow: CSV edit → generation → JSON updated → visualizations refresh
 
-This keeps high-level metadata work cost-effective while maintaining data integrity.
+This keeps data maintenance simple (edit CSVs directly) while optimizing frontend performance (pre-computed JSON).
 
 ## For Developers
 
-See `code/README.md` for:
-- How code generators work
-- Pipeline architecture
-- Running scripts and validation
-- Contributing new generators
+### Code Structure
+- **`code/csv2json/`** — Data generation scripts
+  - `states.js` — Converts `csvs/states.csv` → `data/states.json`
+  - `regimes.js` — Converts `csvs/regimes.csv` → `data/regimes/*.json`
+  - `territories.js` — Merges `csvs/territories.csv` + `csvs/territory_periods.csv` → `data/territories/*.json`
+
+### Running the Pipeline
+```bash
+# Regenerate all JSON outputs
+node code/csv2json/states.js
+node code/csv2json/regimes.js
+node code/csv2json/territories.js
+```
+
+### Adding New Data
+- **For a new regime:** Add row to `csvs/regimes.csv`, run `node code/csv2json/regimes.js`
+- **For a new territory:** Add row to `csvs/territories.csv` and control periods to `csvs/territory_periods.csv`, run `node code/csv2json/territories.js`
+- **For a new ethnic/language/religion:** Add row to the appropriate CSV (tree structure via `parent_id`)
 
 See `data/README.md` for:
-- Data file organization
 - How data files are loaded by the server
-- Foreign key relationships
-- Data loading pipeline
+- Frontend data loading architecture

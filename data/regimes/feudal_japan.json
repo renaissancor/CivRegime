@@ -1,0 +1,13 @@
+[
+  {
+    "id": "feudal_japan",
+    "name": "Feudal Japan",
+    "ruling_ethnicity": 82,
+    "start": 1185,
+    "end": 1603,
+    "ideology": {
+      "religion": 261,
+      "government": "monarchy"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "roman_state",
+    "name": "Roman State",
+    "description": "Political continuity from Augustus to 1453"
+  },
+  {
+    "id": "ottoman_state",
+    "name": "Ottoman State",
+    "description": "Political continuity from Osman I to Mehmed VI"
+  }
+]

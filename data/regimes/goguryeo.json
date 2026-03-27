@@ -1,0 +1,13 @@
+[
+  {
+    "id": "goguryeo",
+    "name": "Goguryeo",
+    "cultural_language": 573,
+    "start": 37,
+    "end": 668,
+    "ideology": {
+      "religion": 119,
+      "government": "monarchy"
+    }
+  }
+]
