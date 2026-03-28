@@ -1,0 +1,221 @@
+{
+  "id": "arabia",
+  "title": "History of Arabia",
+  "columns": [
+    { "id": "era",    "name": "Era",    "slots": 1, "type": "era" },
+    { "id": "yemen",  "name": "Yemen",  "slots": 1 },
+    { "id": "oman",   "name": "Oman",   "slots": 1 },
+    { "id": "gulf",   "name": "Gulf",   "slots": 1 },
+    { "id": "nejd",   "name": "Nejd",   "slots": 1 },
+    { "id": "hejaz",  "name": "Hejaz",  "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Yemeni petty kingdoms",    "note": "Minaean · Qatabanian · Hadramawt, c.900–300 BCE" },
+            { "label": "Kingdom of Saba (Sheba)",  "note": "c.900 BCE–275 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Magan",                                                       "note": "Bronze Age, c.3000–1200 BCE" },
+            { "regime": "achaemenid_empire", "label": "Achaemenid Maka Satrapy",     "note": "c.539–330 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Dilmun",                                                      "note": "c.3000–800 BCE" },
+            { "regime": "akkadian_empire",    "label": "Akkadian Empire",            "note": "c.2334–2154 BCE" },
+            { "regime": "neo_assyrian_empire","label": "Assyrian Empire",            "note": "c.900–612 BCE" },
+            { "regime": "neo_babylonian",     "label": "Neo-Babylonian",             "note": "612–539 BCE" },
+            { "regime": "achaemenid_empire",  "label": "Achaemenid Empire",          "note": "539–330 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Thamud / Arabian tribes",                                     "note": "prehistoric – c.400 CE" },
+            { "regime": "nabataean_kingdom",  "label": "Nabataean Kingdom (partial)", "note": "c.169 BCE–106 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Arabian tribes",                                              "note": "" },
+            { "regime": "nabataean_kingdom",  "label": "Nabataean Kingdom",          "note": "c.169 BCE–106 CE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Himyarite Kingdom",                                          "note": "110 BCE–525 CE" },
+            { "label": "Aksumite occupation",                                        "note": "525–575 CE" },
+            { "regime": "sassanid_empire",  "label": "Sassanid Yemen",              "note": "575–628 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "parthian_empire",  "label": "Parthian Empire",             "note": "c.250 BCE–224 CE" },
+            { "regime": "sassanid_empire",  "label": "Sassanid Empire",             "note": "224–651 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Gerrha (east coast)",          "note": "c.650 BCE–300 CE" },
+            { "label": "Seleucid Tylos (Bahrain)",     "note": "c.300–100 BCE" },
+            { "regime": "parthian_empire", "label": "Parthian Empire",              "note": "c.100 BCE–224 CE" },
+            { "regime": "sassanid_empire", "label": "Sassanid Empire",              "note": "224–651 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kindite Kingdom",                                            "note": "c.450–530 CE" },
+            { "label": "Lakhmid Kingdom (NE, Sassanid-aligned)",                   "note": "c.300–602 CE" },
+            { "label": "Ghassanid buffer (NW, Byzantine-aligned)",                  "note": "c.220–638 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Roman Provincia Arabia (partial)",                           "note": "106–400 CE" },
+            { "label": "Jewish · Arab tribes",                                       "note": "" },
+            { "label": "Quraysh tribe (Mecca)",                                      "note": "c.400–622 CE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Muhammad (Medina state)",                                        "note": "622–632" },
+            { "regime": "rashidun_caliphate", "label": "Rashidun Caliphate",            "note": "632–661" },
+            { "regime": "umayyad_caliphate",  "label": "Umayyad Caliphate",            "note": "661–750" },
+            { "regime": "abbasid_caliphate",  "label": "Abbasid Caliphate",            "note": "750–c.900" }
+          ], "span": 5
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Ziyadid Dynasty",                                            "note": "819–1018" },
+            { "label": "Sulayhid Dynasty",                                           "note": "1047–1138" },
+            { "regime": "ayyubid_sultanate", "label": "Ayyubid Sultanate",          "note": "1173–1229" },
+            { "label": "Rasulid Dynasty",                                            "note": "1229–1454" },
+            { "label": "Tahirid Dynasty",                                            "note": "1454–1517" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ibadi Imamate of Oman",                                      "note": "749–893" },
+            { "label": "Nabhanid Dynasty",                                           "note": "1154–1624" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Qarmatian State",                                            "note": "899–1077" },
+            { "label": "Uyunid Dynasty",                                             "note": "1076–1253" },
+            { "label": "Jabrid Dynasty",                                             "note": "1253–1521" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Qarmatian State",                                            "note": "899–1077" },
+            { "label": "Bedouin tribal rule",                                        "note": "11th–17th c." },
+            { "regime": "seljuk_empire",  "label": "Seljuk suzerainty (nominal)",   "note": "c.1100s" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "fatimid_caliphate", "label": "Fatimid Caliphate",          "note": "969–1171" },
+            { "label": "Sharif of Mecca (Hashimite)",                               "note": "969–1916" },
+            { "regime": "ayyubid_sultanate", "label": "Ayyubid suzerainty",         "note": "1171–1250" },
+            { "regime": "mamluk_sultanate",  "label": "Mamluk suzerainty",          "note": "1250–1517" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Ottoman · Early Modern", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "regime": "ottoman_empire", "label": "Ottoman Empire",                "note": "1517–1636 · 1849–1918" },
+            { "label": "Zaydi Imamate (revolt)",                                    "note": "1636–1849" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Portuguese Estado da India",                                "note": "1507–1650" },
+            { "label": "Yarubid Dynasty",                                           "note": "1624–1749" },
+            { "label": "Afsharid invasion",                                         "note": "1737–1749" },
+            { "label": "Busaidi Sultanate",                                         "note": "1749–" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Portuguese Estado da India",                                "note": "1521–1602" },
+            { "regime": "ottoman_empire",  "label": "Ottoman (Kuwait · N. Gulf)",  "note": "16th–17th c." },
+            { "regime": "safavid_empire",  "label": "Safavid (Bahrain · Hormuz)",  "note": "1602–1736" },
+            { "label": "Omani / tribal (post-Safavid)",                             "note": "1736–1820" },
+            { "label": "Trucial States (British protectorate)",                     "note": "1820–1971" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "ottoman_empire", "label": "Ottoman (nominal)",             "note": "16th–18th c." },
+            { "label": "Banu Khalid Emirate",                                       "note": "c.1670–1795" },
+            { "label": "Emirate of Diriyah (1st Saudi)",                            "note": "1744–1818" },
+            { "label": "Egyptian occupation",                                       "note": "1818–1824" },
+            { "label": "Emirate of Nejd (2nd Saudi)",                               "note": "1824–1891" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "ottoman_empire", "label": "Ottoman Empire",                "note": "1517–1916" },
+            { "label": "Sharif of Mecca (autonomous vassal)",                       "note": "" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Modern", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Mutawakkilite Kingdom (North)",                              "note": "1918–1962" },
+            { "label": "People's Republic of South Yemen",                          "note": "1967–1990" },
+            { "label": "Republic of Yemen",                                         "note": "1990–" }
+          ], "span": 1
+        },
+        { "label": "Sultanate of Oman",                                             "span": 1 },
+        { "label": "British Protectorates", "span": 1 },
+        { "stack": [
+            { "label": "Ha'il Emirate (Rashidi)",                                   "note": "1836–1921" },
+            { "label": "Emirate of Riyadh (3rd Saudi)",                             "note": "1902–1921" },
+            { "regime": "saudi_arabia", "label": "Saudi Arabia",                   "note": "1932–" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Hashimite Kingdom of Hejaz",                               "note": "1916–1925" },
+            { "label": "Kingdom of Hejaz and Nejd",                                "note": "1925–1932" },
+            { "regime": "saudi_arabia", "label": "Saudi Arabia",                   "note": "1932–" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 1 },
+      "cells": [
+        { "split": [
+            { "label": "Houthi (SPC)",                "note": "de facto north" },
+            { "label": "PLC",                         "note": "de facto south" }
+          ], "span": 1
+        },
+        { "label": "Sultanate of Oman", "span": 1 },
+        { "split": [
+            { "label": "UAE"     },
+            { "label": "Qatar"   },
+            { "label": "Bahrain" },
+            { "label": "Kuwait"  }
+          ], "span": 1
+        },
+        { "regime": "saudi_arabia", "label": "Saudi Arabia", "span": 2 }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Gulf column covers the eastern Arabian littoral: Bahrain, Qatar, UAE (Trucial Coast), and Kuwait",
+    "Nejd (central plateau) was rarely under direct external control; the Wahhabi-Saudi alliance originating here unified most of the peninsula by 1932",
+    "Hejaz (Red Sea coast) contains Mecca and Medina; it was the religious heartland of Islam and the prize sought by every Islamic polity",
+    "The Zaydi Imamate in Yemen persisted through the Ottoman period as a recurring revolt state; it became the Mutawakkilite Kingdom after WWI",
+    "Balhae (698–926): Oman's Ibadi Imamate tradition is one of the oldest continuous political-religious institutions in the Islamic world",
+    "In the Contemporary row, Nejd and Hejaz are unified under Saudi Arabia (colspan spanning both columns)"
+  ]
+}

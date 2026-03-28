@@ -1,0 +1,177 @@
+{
+  "id": "japan",
+  "title": "History of Japan",
+  "columns": [
+    { "id": "era",      "name": "Era",                      "slots": 1, "type": "era" },
+    { "id": "main",     "name": "Honshu · Shikoku · Kyushu", "slots": 3 },
+    { "id": "hokkaido", "name": "Hokkaido",                 "slots": 1 },
+    { "id": "okinawa",  "name": "Okinawa",                  "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Jōmon", "rowspan": 1 },
+      "cells": [
+        { "label": "Jōmon people", "span": 5 }
+      ]
+    },
+    {
+      "era": { "label": "Yayoi", "rowspan": 1 },
+      "cells": [
+        { "label": "Yayoi people",    "span": 2 },
+        { "label": "Hayato / Kumaso", "span": 1 },
+        { "label": "Emishi",          "span": 1 },
+        { "label": "Ryukyuan",        "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "Kofun", "rowspan": 1 },
+      "cells": [
+        { "regime": "yamato_period", "label": "Yamato", "span": 3 },
+        { "label": "Emishi",  "span": 1 },
+        { "label": "Ryukyuan","span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "Asuka", "rowspan": 1 },
+      "cells": [
+        { "regime": "yamato_period", "label": "Yamato · Soga Clan", "span": 3 },
+        { "label": "Emishi",  "span": 1 },
+        { "label": "Ryukyuan","span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "Nara", "rowspan": 1 },
+      "cells": [
+        { "regime": "nara_period", "label": "Japan (Ritsuryō state)", "span": 3 },
+        { "label": "Emishi",        "span": 1 },
+        { "label": "Gusuku culture","span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "Heian", "rowspan": 3 },
+      "cells": [
+        { "regime": "heian_period", "label": "Japan (Dynastic state)", "span": 3 },
+        { "label": "Emishi / Ezo",  "span": 1, "rowspan": 3 },
+        { "label": "Sanzan period", "span": 1, "rowspan": 3 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "heian_period", "label": "Sesshō-Kampaku regency", "span": 3 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "heian_period", "label": "Insei (Cloistered rule)", "span": 3 }
+      ]
+    },
+    {
+      "era": { "label": "Kamakura", "rowspan": 2 },
+      "cells": [
+        { "regime": "feudal_japan", "label": "Kamakura Shogunate", "span": 3 },
+        { "label": "Ezo", "span": 1, "rowspan": 2 },
+        { "label": "Sanzan period", "span": 1, "rowspan": 2 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "feudal_japan", "label": "Hōjō Regency", "span": 3 }
+      ]
+    },
+    {
+      "era": { "label": "Kenmu", "rowspan": 1 },
+      "cells": [
+        { "regime": "feudal_japan", "label": "Kenmu Restoration", "span": 3 },
+        { "label": "Ezo",           "span": 1 },
+        { "label": "Sanzan period", "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "Nanboku-chō", "rowspan": 2 },
+      "cells": [
+        { "label": "Northern Court", "span": 2 },
+        { "label": "Southern Court", "span": 1 },
+        { "label": "Ezo", "span": 1, "rowspan": 2 },
+        { "label": "Sanzan period",  "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "feudal_japan",   "label": "Ashikaga Shogunate", "span": 3 },
+        { "regime": "ryukyu_kingdom", "label": "Ryukyu Kingdom",     "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "Muromachi", "rowspan": 2 },
+      "cells": [
+        { "regime": "feudal_japan",   "label": "Ashikaga Shogunate", "span": 3 },
+        { "label": "Ezo (Matsumae)",              "span": 1, "rowspan": 2 },
+        { "regime": "ryukyu_kingdom", "label": "Ryukyu Kingdom",     "span": 1, "rowspan": 2 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "feudal_japan", "label": "Hosokawa / Miyoshi regency", "span": 3 }
+      ]
+    },
+    {
+      "era": { "label": "Sengoku", "rowspan": 2 },
+      "cells": [
+        { "regime": "feudal_japan",   "label": "Oda Nobunaga",       "span": 3 },
+        { "label": "Ezo (Matsumae)",              "span": 1, "rowspan": 2 },
+        { "regime": "ryukyu_kingdom", "label": "Ryukyu Kingdom",     "span": 1, "rowspan": 2 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "feudal_japan", "label": "Toyotomi Hideyoshi", "span": 3 }
+      ]
+    },
+    {
+      "era": { "label": "Edo", "rowspan": 1 },
+      "cells": [
+        { "regime": "tokugawa_shogunate", "label": "Tokugawa Shogunate",              "span": 3 },
+        { "label": "Matsumae Domain",                                                  "span": 1 },
+        { "regime": "ryukyu_kingdom",     "label": "Ryukyu Kingdom (Satsuma vassal)", "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "Bakumatsu", "rowspan": 1 },
+      "cells": [
+        { "regime": "empire_of_japan", "label": "Meiji Restoration · Boshin War", "span": 3 },
+        { "label": "Ezo Republic",                                                  "span": 1 },
+        { "regime": "ryukyu_kingdom",  "label": "Ryukyu Domain",                  "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "Modern", "rowspan": 2 },
+      "cells": [
+        { "regime": "empire_of_japan", "label": "Empire of Japan", "span": 5 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "modern_japan", "label": "Japan (Allied Occupation → State of Japan)", "span": 3 },
+        { "regime": "modern_japan", "label": "Japan",                                       "span": 1 },
+        { "label": "Ryukyu (US administration)",                                            "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 1 },
+      "cells": [
+        { "regime": "modern_japan", "label": "Japan", "span": 5 }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Hokkaido was not formally incorporated into Japan until 1869 (Meiji era); prior to that it was Ainu / Emishi territory with a small Japanese trading post (Matsumae Domain) in the south",
+    "Okinawa (Ryukyu Kingdom) was annexed by Japan in 1879, placed under US administration 1945–1972, then returned to Japan"
+  ]
+}
