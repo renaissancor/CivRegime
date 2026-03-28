@@ -6,6 +6,7 @@ const app = express();
 const PORT = 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/data', express.static(path.join(__dirname, 'data')));
 
 app.get('/api/db', (req, res) => res.json(db));
 

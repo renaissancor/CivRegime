@@ -1,0 +1,288 @@
+regime_id,figure_id,name,role,years,significance
+sumerian_city_states,gilgamesh,Gilgamesh,ruler,-2700/-2600,Legendary king of Uruk; the Epic of Gilgamesh is the oldest known work of literature
+sumerian_city_states,ur_nammu,Ur-Nammu,founder,-2112/-2095,Author of the earliest known law code
+old_kingdom_egypt,imhotep,Imhotep,administrator,-2650/-2600,Architect of the Step Pyramid; first named architect in history; later deified
+old_kingdom_egypt,khufu,Khufu (Cheops),ruler,-2589/-2566,Commissioned the Great Pyramid of Giza
+akkadian_empire,sargon_akkad,Sargon of Akkad,founder,-2334/-2279,Created the world first empire; conquered all Sumerian city-states
+ur_iii,shulgi,Shulgi,ruler,-2094/-2047,"Greatest Ur III king; standardized weights, measures, and the first bureaucratic state"
+old_babylonian,hammurabi,Hammurabi,ruler,-1810/-1750,Author of the Code of Hammurabi
+hittite_empire,suppiluliuma_i,Suppiluliuma I,ruler,?/-1322,Brought the Hittite Empire to its peak; shattered Mitanni and rivaled Egypt
+hittite_empire,hattusili_iii,Hattusili III,ruler,?/-1237,"Signed the first recorded peace treaty with Egypt (Ramesses II), preserved on clay tablets"
+shang_dynasty,wu_ding,Wu Ding,ruler,-1250/-1192,Greatest Shang king; oracle bone inscriptions from his reign are the oldest surviving Chinese writing
+new_kingdom_egypt,thutmose_iii,Thutmose III,ruler,-1481/-1425,Greatest military pharaoh; expanded Egypt to its greatest territorial extent
+new_kingdom_egypt,akhenaten,Akhenaten,reformer,-1353/-1336,Revolutionary monotheist attempt (Aten worship); rejected by successors
+new_kingdom_egypt,ramesses_ii,Ramesses II,ruler,-1303/-1213,Signed the first known peace treaty in history (with the Hittites)
+phoenician_states,hiram_tyre,Hiram I of Tyre,ruler,-980/-947,Ally of King Solomon; expanded Phoenician trade networks across the Mediterranean
+kingdom_of_israel,david,David,founder,-1040/-970,Unified the Israelite tribes; made Jerusalem the capital
+kingdom_of_israel,solomon,Solomon,ruler,-970/-931,Built the First Temple; his death caused the kingdom split
+zhou_dynasty,confucius,Confucius (Kong Qiu),philosopher,-551/-479,Defined the moral and political philosophy that governed China for 2500 years
+zhou_dynasty,sun_tzu,Sun Tzu,philosopher,-544/-496,Author of The Art of War
+zhou_dynasty,laozi,Laozi,philosopher,-601/-531,Founder of Taoism; author of the Tao Te Ching
+kingdom_of_judah,hezekiah,Hezekiah,ruler,-739/-687,Centralized Yahweh worship; resisted Assyrian siege of Jerusalem
+kingdom_of_judah,josiah,Josiah,reformer,-648/-609,Major religious reform; rediscovery of the Torah
+neo_assyrian_empire,tiglath_pileser_iii,Tiglath-Pileser III,founder,-745/-727,Transformed Assyria into a professional military empire
+neo_assyrian_empire,ashurbanipal,Ashurbanipal,ruler,-685/-627,Assembled the Library of Nineveh
+kingdom_of_urartu,sarduri_i,Sarduri I,founder,?/-825,First ruler to call himself King of Urartu; established Tushpa (Van) as capital; began the first confrontations with Assyria
+kingdom_of_urartu,argishti_i,Argishti I,ruler,?/-764,Greatest Urartian king; expanded to the Ararat valley and Transcaucasia; founded Erebuni fortress (modern Yerevan)
+roman_kingdom,romulus,Romulus,founder,-753/-715,Legendary founder of Rome
+roman_kingdom,tarquin_superbus,Tarquin the Proud,last_ruler,-534/-496,Last king; his tyranny led to the founding of the Republic
+median_kingdom,cyaxares,Cyaxares,ruler,-625/-585,Destroyed the Assyrian Empire in alliance with Babylon
+meroitic_kingdom,taharqa,Taharqa,ruler,-709/-664,Last great Kushite-Egyptian pharaoh; mentioned in the Bible (2 Kings 19) as an ally against Assyria; built extensively at Karnak; expelled from Egypt by Assyrians but continued to rule Nubia
+meroitic_kingdom,amanirenas,Amanirenas (Kandake),ruler,?/-10,Blind queen who led Meroitic forces against the Roman occupation of Egypt (24 BCE); raided Aswan and carried off a bronze head of Augustus; negotiated a favourable peace treaty with Rome — one of the few rulers to successfully resist Roman expansion
+neo_babylonian,nebuchadnezzar_ii,Nebuchadnezzar II,ruler,-634/-562,Built the Hanging Gardens; destroyed Jerusalem; initiated the Babylonian captivity
+achaemenid_empire,cyrus_great,Cyrus the Great,founder,-600/-530,Founded the largest empire yet seen; issued the Cyrus Cylinder; freed the Jews from Babylonian captivity
+achaemenid_empire,darius_i,Darius I,ruler,-550/-486,Built Persepolis; reorganized the empire into satrapies
+achaemenid_empire,xerxes_i,Xerxes I,ruler,-519/-465,"Led the great Persian invasion of Greece (Thermopylae, Salamis)"
+roman_republic,cincinnatus,Cincinnatus,administrator,-519/-430,Model of republican virtue; gave up power to return to farming
+roman_republic,scipio_africanus,Scipio Africanus,general,-236/-183,Defeated Hannibal; extended Roman power to Africa and Spain
+roman_republic,cicero,Cicero,philosopher,-106/-43,Master orator; his speeches defined republican virtue; executed in civil war
+macedonian_empire,alexander_great,Alexander the Great,founder,-356/-323,Conquered from Greece to India in 13 years; spread Hellenism across three continents
+macedonian_empire,aristotle,Aristotle,philosopher,-384/-322,"Alexander tutor; his philosophy became the framework of Hellenistic, Islamic, and Christian scholarship"
+maurya_empire,chandragupta_maurya,Chandragupta Maurya,founder,-340/-298,Unified India for the first time; expelled Macedonian garrisons
+maurya_empire,kautilya,Kautilya (Chanakya),administrator,-375/-283,Author of the Arthashastra — the first systematic treatise on statecraft
+maurya_empire,ashoka,Ashoka the Great,reformer,-304/-232,"Converted to Buddhism after Kalinga War; spread Buddhism to Central Asia, Sri Lanka, Southeast Asia"
+seleucid_empire,seleucus_i,Seleucus I Nicator,founder,-358/-281,Founded dozens of Greek cities across Persia and Central Asia
+ptolemaic_egypt,ptolemy_i,Ptolemy I Soter,founder,-367/-283,Macedonian general who founded the dynasty; established the Library of Alexandria
+ptolemaic_egypt,cleopatra_vii,Cleopatra VII,last_ruler,-69/-30,Last active Ptolemaic ruler; only one to learn Egyptian; her death ended Greek rule in Egypt
+parthian_empire,arsaces_i,Arsaces I,founder,-285/-217,Founded the Arsacid dynasty; began the Parthian revolt against the Seleucids
+parthian_empire,mithridates_i,Mithridates I,ruler,-195/-138,Captured Mesopotamia from the Seleucids; turned Parthia into a true empire
+satavahana_empire,simuka,Simuka,founder,?/-207,Founded the Satavahana dynasty after defeating the Maurya successor states
+satavahana_empire,gautamiputra_satakarni,Gautamiputra Satakarni,ruler,78/102,Greatest Satavahana ruler; defeated the Western Satraps (Saka rulers); the first major Indian king to claim exclusively Indian descent against foreign rulers
+qin_dynasty,qin_shi_huang,Qin Shi Huang,founder,-259/-210,First Emperor of unified China; built the Great Wall and Terracotta Army; his title Huangdi was used by every subsequent emperor
+qin_dynasty,li_si,Li Si,administrator,-280/-208,Grand Councillor; architect of Qin Legalism and the first unified Chinese bureaucracy
+xiongnu,modu_chanyu,Modu Chanyu,founder,-234/-174,United the steppe tribes; template for all subsequent steppe empires
+han_dynasty,liu_bang,Liu Bang (Emperor Gaozu),founder,-256/-195,Rose from peasant to emperor; the Han ethnic identity is named after his dynasty
+han_dynasty,emperor_wu_han,Emperor Wu of Han,ruler,-157/-87,Established Confucianism as state ideology; opened the Silk Road
+han_dynasty,sima_qian,Sima Qian,cultural,-145/-86,Father of Chinese historiography; his Records of the Grand Historian defined the writing of Chinese history for 2000 years
+kingdom_of_armenia,tigranes_ii,Tigranes II the Great,ruler,-140/-55,"Created the largest Armenian empire; titled King of Kings; briefly controlled Syria, Mesopotamia, and Pontus; defeated by Pompey but retained core Armenia"
+kingdom_of_armenia,gregory_illuminator,Gregory the Illuminator,cultural,257/331,Converted King Tiridates III to Christianity (301 CE); Armenia became the first Christian nation; founded the Armenian Apostolic Church; patron saint of Armenia
+kingdom_of_armenia,mesrop_mashtots,Mesrop Mashtots,cultural,362/440,Created the Armenian alphabet (~405 CE) specifically to translate the Bible; simultaneously invented the Georgian and Caucasian Albanian alphabets
+nabataean_kingdom,aretas_iv,Aretas IV,ruler,-9/40,"Greatest Nabataean king; ruled 49 years; his building programme created much of what survives at Petra; his daughter married Herod Antipas, whose divorce triggered John the Baptist's execution"
+goguryeo,gwanggaeto_great,Gwanggaeto the Great,ruler,374/413,"Expanded Goguryeo to its greatest extent — 64 walled cities and 1,400 villages conquered; his stele is the primary source for early Korean history; called 'Great King who Broadly Extended Territory'"
+goguryeo,eulji_mundeok,Eulji Mundeok,military,?/?,Defeated Sui Emperor Yang's million-man invasion (612) using strategic retreat and the Battle of Salsu; one of the greatest defensive victories in East Asian history; the Sui Dynasty never recovered
+roman_empire_pagan,augustus,Augustus (Octavian),founder,-63/14,Created the imperial system; the Pax Romana began with him
+roman_empire_pagan,marcus_aurelius,Marcus Aurelius,ruler,121/180,Philosopher-emperor; his Meditations is the definitive Stoic text
+roman_empire_pagan,constantine_i,Constantine I,reformer,272/337,Legalized Christianity; founded Constantinople; shifted imperial ideology
+sassanid_empire,ardashir_i,Ardashir I,founder,180/242,Overthrew the Parthians; revived Persian and Zoroastrian identity
+sassanid_empire,shapur_i,Shapur I,ruler,215/272,Captured Roman Emperor Valerian — the only Roman emperor taken prisoner by a foreign enemy
+sassanid_empire,khosrow_i,Khosrow I (Anushirvan),ruler,501/579,The ideal Persian king; reformed taxation; translated Greek philosophy into Pahlavi
+yamato_period,prince_shotoku,Prince Shotoku,ruler,574/622,Authored the Seventeen-Article Constitution and promoted Buddhism.
+gupta_empire,samudragupta,Samudragupta,ruler,335/380,Military genius and poet; the Napoleon and Augustus of India
+gupta_empire,aryabhata,Aryabhata,cultural,476/550,Calculated pi; proposed a heliocentric model; developed zero as a number
+hunnic_empire,attila,Attila,ruler,406/453,Scourge of God; defeated Roman and Germanic armies; received tribute from both Eastern and Western Rome; his death at a wedding feast collapsed the empire overnight
+roman_empire_christian,theodosius_i,Theodosius I,ruler,346/395,Made Christianity the state religion; the last emperor to rule unified empire
+western_roman_empire,flavius_aetius,Flavius Aetius,general,391/454,Last great Roman general; defeated Attila at Catalaunian Fields
+western_roman_empire,romulus_augustulus,Romulus Augustulus,last_ruler,461/511,Last Western Roman emperor; deposed by Odoacer in 476
+byzantine_empire,justinian_i,Justinian I,ruler,482/565,Reconquered the Western Mediterranean; codified Roman law (Corpus Juris Civilis)
+byzantine_empire,basil_ii,Basil II (Bulgaroktonos),ruler,958/1025,Expanded Byzantium to its greatest medieval extent
+byzantine_empire,constantine_xi,Constantine XI Palaiologos,last_ruler,1404/1453,Died defending Constantinople in 1453; the last Roman emperor
+visigothic_kingdom,reccared_i,Reccared I,ruler,559/601,Converted the Visigothic kingdom from Arianism to Catholicism at the Third Council of Toledo (589) — unified Goths and Romans under one church; the most important act of Visigothic kingship
+visigothic_kingdom,rodrigo_visigoth,Rodrigo (Roderic),ruler,?/711,Last Visigothic king; defeated and killed at the Battle of Guadalete (711) by the Umayyad Muslim army under Tariq ibn Ziyad — the end of Visigothic Spain
+vandal_kingdom,gaiseric,Gaiseric (Geiseric),founder,389/477,"Greatest Vandal king; crossed into Africa with 80,000 people (429); built a naval empire; sacked Rome (455) — the second sack in 45 years; the only Germanic king to seriously challenge Roman naval supremacy"
+odoacer_kingdom,odoacer,Odoacer,founder,433/493,"Deposed Romulus Augustulus (476), ending the Western Roman Empire; sent the imperial regalia to Constantinople signalling that one emperor sufficed; ruled Italy competently for 17 years before Theodoric's treacherous assassination"
+carolingian_empire,clovis_i,Clovis I,founder,466/511,United the Frankish tribes; converted to Catholic Christianity 496 — the act that aligned the Franks with the papacy against the Arian Visigoths and Burgundians; baptism at Reims is the symbolic founding of Christian France
+carolingian_empire,charlemagne,Charlemagne (Karl der Große),ruler,747/814,The greatest medieval European ruler; unified most of western Europe; crowned Emperor 800; the 'Father of Europe'. Both France and Germany claim him as their founding king.
+carolingian_empire,louis_pious,Louis the Pious,ruler,778/840,Charlemagne's heir; pious but ineffective at holding the empire together against his sons' civil wars; his death triggered the Treaty of Verdun partition
+ostrogothic_kingdom,theodoric_great,Theodoric the Great,founder,454/526,Conquered Italy by killing Odoacer at a peace banquet (493); ruled the most sophisticated post-Roman Germanic state; his court at Ravenna preserved Roman learning; the closest thing to a 'barbarian king who was also a Roman statesman'
+ostrogothic_kingdom,boethius,Boethius,cultural,477/524,Roman senator and philosopher at Theodoric's court; wrote the Consolation of Philosophy while awaiting execution; the most widely read book in medieval Europe after the Bible
+goktürk_khaganate,bumin_qaghan,Bumin Qaghan,founder,/552,First use of the title Khagan; founded the first explicitly Turkic empire
+goktürk_khaganate,bilge_qaghan,Bilge Qaghan,ruler,683/734,Documented in the Orkhon inscriptions — the oldest known Turkic texts
+lombard_kingdom,alboin,Alboin,founder,?/572,Led the Lombard invasion of Italy (568); conquered the Po Valley; established the kingdom with Pavia as capital; assassinated by his wife Rosamund (he had made a drinking cup from her father's skull)
+lombard_kingdom,liutprand_lombard,Liutprand,ruler,690/744,"Greatest Lombard king; expanded territory, reformed laws, patronised the church; his campaigns against Rome prompted the papacy to seek Frankish protection — ultimately leading to the Carolingian conquest"
+avar_khaganate,bayan_i,Bayan I,founder,/602,First great Avar Khagan; defeated the Frankish kingdom; established Avar dominance over the middle Danube basin
+sui_dynasty,emperor_wen_sui,Emperor Wen (Yang Jian),founder,541/604,Reunified China after 370 years of division; built the Grand Canal
+harsha_empire,harshavardhana,Harshavardhana,ruler,590/647,Unified northern India after the Gupta collapse; patron of Nalanda university; personally practiced Buddhism while ruling a Hindu state; wrote three Sanskrit plays
+tang_dynasty,emperor_taizong,Emperor Taizong (Li Shimin),ruler,598/649,Considered China greatest emperor; his Zhenguan era is the model of virtuous governance
+tang_dynasty,wu_zetian,Wu Zetian,ruler,624/705,The only woman in Chinese history to hold the title of Empress Regnant
+tang_dynasty,li_bai,Li Bai,cultural,701/762,Greatest Tang poet; defines the image of Tang cosmopolitan culture
+rashidun_caliphate,abu_bakr,Abu Bakr,founder,573/634,First Caliph; held the Muslim community together after Muhammad death
+rashidun_caliphate,umar_ibn_khattab,Umar ibn al-Khattab,ruler,584/644,"Conquered Persia, Syria, and Egypt in a decade; established Islamic governance foundations"
+rashidun_caliphate,khalid_ibn_walid,Khalid ibn al-Walid,general,585/642,Undefeated general; called the Sword of Allah
+khazar_khaganate,bulan,Bulan,reformer,740/800,The Khazar ruler who converted to Judaism
+umayyad_caliphate,muawiya_i,Muawiya I,founder,602/680,Founded the Umayyad dynasty; shifted the caliphate from elective to hereditary
+umayyad_caliphate,tariq_ibn_ziyad,Tariq ibn Ziyad,general,670/720,Conquered Visigothic Spain (711); Gibraltar is named after him (Jabal Tariq)
+first_bulgarian_empire,asparuh,Asparuh (Asparukh),founder,644/701,Led the Bulgars across the Danube and defeated Byzantium (681); founded the First Bulgarian Empire; Bulgaria is the oldest state in Europe whose name has not changed
+first_bulgarian_empire,simeon_i_great,Simeon I the Great,ruler,864/927,The Bulgarian Golden Age; defeated Byzantium multiple times; claimed title of Emperor (Tsar) of the Bulgarians and Romans; patron of Old Church Slavonic literature
+first_bulgarian_empire,basil_ii_nemesis,Basil II's Destruction,military,958/1025,"Byzantine Emperor who finally destroyed the First Bulgarian Empire; blinded 15,000 Bulgarian prisoners (1014); earned the epithet 'Bulgar-Slayer'"
+al_andalus,tariq_ibn_ziyad,Tariq ibn Ziyad,military,670/720,"Led the Umayyad invasion of Iberia (711); crossed from Africa to Gibraltar (Jabal Tariq — 'Mountain of Tariq'); his 7,000-man army destroyed the Visigothic kingdom in a single battle"
+al_andalus,abd_al_rahman_iii,Abd al-Rahman III,ruler,889/961,Declared Caliph of Córdoba (929); presided over the golden age of Al-Andalus; Córdoba under his rule was the most sophisticated city in Europe
+al_andalus,averroes,Averroes (Ibn Rushd),cultural,1126/1198,The greatest Islamic philosopher; his commentaries on Aristotle transmitted classical Greek philosophy to medieval Europe through Latin translations — sparked the European scholastic tradition
+al_andalus,boabdil,Muhammad XII (Boabdil),ruler,1460/1533,"Last ruler of Granada; surrendered the Alhambra to Ferdinand and Isabella on January 2, 1492 — the last Muslim ruler in Iberia. Legend: he wept as he left, and his mother said 'Weep like a woman for what you could not defend as a man'"
+uyghur_khaganate,bayanchur_khan,Bayanchur Khan,founder,/759,Founded the Uyghur Khaganate; adopted Manichaeism as state religion
+abbasid_caliphate,al_mansur,Al-Mansur,founder,714/775,Built Baghdad; the city became the largest in the world
+abbasid_caliphate,harun_al_rashid,Harun al-Rashid,ruler,763/809,The golden-age Caliph of the Thousand and One Nights; patron of the House of Wisdom
+pala_empire,dharmapala,Dharmapala,ruler,770/810,Second and greatest Pala king; expanded the empire from Bengal to Afghanistan; built Vikramashila university
+pala_empire,devapala,Devapala,ruler,810/850,Extended Pala power to its greatest extent; maintained relations with Srivijaya in Southeast Asia; endowed Nalanda monastery
+samanid_empire,ismail_samani,Ismail Samani,founder,849/907,Unified the Samanid domains and defeated the Saffarids; made Bukhara the capital of the Persian Renaissance; his mausoleum in Bukhara is one of the earliest surviving Islamic buildings in Central Asia
+samanid_empire,rudaki,Rudaki,cultural,858/941,Father of Persian poetry; wrote the first major poems in New Persian at the Samanid court; his work established the conventions of classical Persian verse — though only fragments survive
+samanid_empire,avicenna_samanid,Ibn Sina (Avicenna),cultural,980/1037,Greatest medieval physician and philosopher; his Canon of Medicine was the primary medical textbook in Europe until the 17th century; grew up in Bukhara using the Samanid royal library
+kingdom_of_scotland,kenneth_macalpin,Kenneth MacAlpin,founder,810/858,United the Pictish and Gaelic kingdoms; traditionally the first King of Scotland
+kingdom_of_scotland,william_wallace,William Wallace,military,1270/1305,Led Scottish resistance against Edward I after Stirling Bridge (1297); executed in London; became Scotland's enduring national hero
+kingdom_of_scotland,robert_bruce,Robert I the Bruce,ruler,1274/1329,Won Scottish independence at Bannockburn (1314); the Declaration of Arbroath (1320) is among the earliest assertions of popular sovereignty
+kingdom_of_scotland,mary_queen_of_scots,Mary Queen of Scots,ruler,1542/1587,Catholic queen deposed by Protestant lords; imprisoned by Elizabeth I for 19 years; executed — her son James VI inherited England as James I
+kingdom_of_norway,harald_fairhair,Harald Fairhair,founder,850/933,First King of Norway; his centralisation drove many Norse families to settle Iceland and the Atlantic islands
+kingdom_of_norway,olaf_haraldsson,Olaf II Haraldsson (Saint Olaf),ruler,995/1030,Completed Norway's Christianisation; killed at Stiklestad; became Norway's patron saint
+kingdom_of_norway,haakon_iv,Haakon IV Haakonsson,ruler,1204/1263,Peak of medieval Norwegian power; incorporated Iceland and Greenland; died following the Battle of Largs against Scotland
+kievan_rus_regime,rurik,Rurik,founder,830/879,Legendary Varangian founder of the Rurikid dynasty; invited to rule Novgorod; his descendants ruled Russia until 1598
+kievan_rus_regime,vladimir_great,Vladimir I the Great,ruler,958/1015,"Baptised himself and all of Kiev in the Dnieper in 988 — the Christianisation of Rus. Chose Orthodoxy over Catholicism, Islam, or Judaism after famously sending envoys to observe each faith's worship"
+kievan_rus_regime,yaroslav_wise,Yaroslav the Wise,ruler,978/1054,"Peak of Kievan Rus; codified the Rus Pravda (first law code); built Saint Sophia in Kiev; married his daughters to the kings of France, Hungary, and Norway"
+bagratid_armenia,ashot_i,Ashot I the Great,founder,820/890,Acknowledged as King of Kings of Armenia by both Byzantine and Abbasid courts; restored Armenian independence after two centuries of Arab domination
+bagratid_armenia,gagik_i,Gagik I,ruler,?/1020,"Greatest Bagratid king; Ani at its height was one of the world's great cities with 100,000 inhabitants and the Cathedral of Ani"
+kingdom_of_bohemia,wenceslas_i,Wenceslas I (Good King Wenceslas),ruler,907/935,Patron saint of Bohemia; murdered by his brother; Christianised Bohemia's court culture
+kingdom_of_bohemia,charles_iv_bohemia,Charles IV,ruler,1316/1378,Also HRE Emperor; made Prague the imperial capital; founded Charles University (1348); issued the Golden Bull; the peak of Bohemian prestige
+kingdom_of_bohemia,jan_hus,Jan Hus,cultural,1369/1415,"Theologian and church reformer burned at Constance; his execution triggered the Hussite Wars — a century before the Reformation, Bohemia was already there"
+liao_dynasty,abaoji,Abaoji (Emperor Taizu of Liao),founder,872/926,United the Khitan tribes; created the Khitan script; invented the dual-administration system
+fatimid_caliphate,al_muizz,Al-Muizz li-Din Allah,founder,932/975,Founded Cairo; established Al-Azhar mosque and university
+kingdom_of_england,alfred_the_great,Alfred the Great,founder,849/899,Defended Wessex against the Great Heathen Army; unified the English against the Vikings; laid the foundation for the unified Kingdom of England
+kingdom_of_england,william_conqueror,William I the Conqueror,ruler,1028/1087,"Norman duke who conquered England at Hastings (1066); transformed English society, language, and architecture overnight"
+kingdom_of_england,edward_i,Edward I,ruler,1239/1307,"Conquered Wales, attempted conquest of Scotland; reformed English law; expelled the Jews (1290)"
+kingdom_of_england,henry_v,Henry V,ruler,1386/1422,Won Agincourt (1415) against impossible odds; by Treaty of Troyes was heir to the French throne — died at 35 with it nearly in reach
+kingdom_of_england,elizabeth_i,Elizabeth I,ruler,1533/1603,"Elizabethan golden age; defeated the Spanish Armada (1588); presided over Shakespeare, Marlowe, and the birth of English colonialism"
+kingdom_of_denmark,harald_bluetooth,Harald Bluetooth,ruler,958/986,United the Danish tribes; converted Denmark to Christianity; the Bluetooth wireless protocol is named after him
+kingdom_of_denmark,cnut_great,Cnut the Great,ruler,990/1035,"Simultaneously ruled England, Denmark, and Norway — the North Sea Empire; the most powerful ruler of his era"
+kingdom_of_denmark,margaret_i,Margaret I,ruler,1353/1412,Architect of the Kalmar Union; the only woman to rule all three Scandinavian kingdoms simultaneously
+holy_roman_empire,otto_i,Otto I the Great,founder,912/973,"Defeated the Magyars at Lechfeld (955); crowned emperor by the pope 962, founding the HRE"
+holy_roman_empire,frederick_barbarossa,Frederick I Barbarossa,ruler,1122/1190,The iconic medieval emperor; fought the Italian communes and the Lombard League; died on the Third Crusade
+holy_roman_empire,frederick_ii_hre,Frederick II,ruler,1194/1250,"Stupor Mundi — spoke six languages, patronised science, negotiated Jerusalem back through diplomacy rather than war; the most remarkable medieval ruler"
+holy_roman_empire,charles_v_hre,Charles V,ruler,1500/1558,"Ruled the HRE, Spain, Naples, and the Americas simultaneously; presided over the Reformation crisis; abdicated exhausted"
+kingdom_of_poland,mieszko_i,Mieszko I,founder,935/992,First historical ruler of Poland; his baptism in 966 placed Poland in the Latin Christian world and is the founding date of the Polish state
+kingdom_of_poland,casimir_iii_great,Casimir III the Great,ruler,1310/1370,"'Found Poland wood, left it stone' — built dozens of castles and towns; codified Polish law; welcomed Jewish refugees fleeing Western European pogroms"
+kingdom_of_poland,jadwiga,Jadwiga,ruler,1373/1399,"First female King of Poland; married Jogaila of Lithuania, creating the personal union that would become the largest state in Europe"
+kingdom_of_sweden,gustav_vasa,Gustav I Vasa,founder,1496/1560,Led rebellion against the Kalmar Union; founded modern Sweden; introduced the Lutheran Reformation; established the Vasa dynasty
+kingdom_of_sweden,gustav_ii_adolf,Gustav II Adolf (Gustavus Adolphus),ruler,1594/1632,The Lion of the North; military genius who made Sweden a Great Power; died at Lützen championing Protestantism in the Thirty Years' War
+kingdom_of_sweden,charles_xii,Charles XII,ruler,1682/1718,"Brilliant but reckless; defeated Russia, Poland, and Denmark separately before losing to Peter the Great at Poltava (1709) — ending Sweden's Great Power status"
+ghaznavid_empire,mahmud_of_ghazni,Mahmud of Ghazni,ruler,971/1030,Greatest Ghaznavid ruler; 17 raids into India; destroyed the Hindu Shahi kingdom; sacked the temple of Somnath (1025); patron of Persian literature — Ferdowsi's Shahnameh was dedicated to him
+ghaznavid_empire,ferdowsi,Ferdowsi,cultural,940/1020,Persian poet who wrote the Shahnameh (Book of Kings) at Mahmud's court — the national epic of Iran; preserved pre-Islamic Persian history and myth; one of the greatest works of world literature
+kingdom_of_france,hugh_capet,Hugh Capet,founder,941/996,Founded the Capetian dynasty that ruled France continuously for 800 years
+kingdom_of_france,philip_ii_augustus,Philip II Augustus,ruler,1165/1223,Tripled royal territory; defeated the Plantagenets and Holy Roman Empire at Bouvines (1214) — the battle that made France the dominant western power
+kingdom_of_france,louis_ix,Louis IX (Saint Louis),ruler,1214/1270,"The ideal medieval Christian king; reformed justice, lived ascetically, led two crusades; canonised 1297"
+kingdom_of_france,joan_of_arc,Joan of Arc,cultural,1412/1431,"Turned the Hundred Years' War; her voices inspired Charles VII's reconquest of France from England; burned by the English, canonised 1920"
+kingdom_of_france,louis_xiv,Louis XIV,ruler,1638/1715,"The Sun King; ruled 72 years personally; built Versailles; made France the cultural hegemon of Europe; 'L'état, c'est moi'"
+kingdom_of_hungary,stephen_i,Stephen I (Saint Stephen),founder,975/1038,"Christianised Hungary, received a crown from Rome, and transformed nomadic Magyar tribal society into a medieval Christian kingdom; patron saint of Hungary"
+kingdom_of_hungary,john_hunyadi,John Hunyadi,military,1406/1456,Defender of Christendom against the Ottomans; won the Battle of Belgrade (1456); his son became Matthias Corvinus
+kingdom_of_hungary,matthias_corvinus,Matthias Corvinus,ruler,1443/1490,"Renaissance king; built the Bibliotheca Corviniana, one of Europe's greatest libraries; centralised power and modernised Hungary to its medieval peak"
+seljuk_empire,tughril,Tughril,founder,990/1063,Entered Baghdad (1055) as Abbasid protector; received the title Sultan
+seljuk_empire,alp_arslan,Alp Arslan,ruler,1029/1072,Defeated Byzantium at Manzikert (1071) — opened Anatolia to Turkic settlement
+seljuk_empire,nizam_al_mulk,Nizam al-Mulk,administrator,1018/1092,Grand vizier; his Siyasatnama is the masterwork of Persian administrative theory
+seljuk_empire,omar_khayyam,Omar Khayyam,cultural,1048/1131,"Mathematician, astronomer, and poet (Rubaiyat); pinnacle of Seljuk Persian intellectual culture"
+seljuk_rum,rumi,Jalal ad-Din Rumi,cultural,1207/1273,Composed the Masnavi in Persian at the Konya court; founder of the Mevlevi order; most widely read poet in the world
+jin_dynasty_jurchen,wanyan_aguda,Wanyan Aguda (Emperor Taizu of Jin),founder,1068/1123,United the Jurchen tribes; created the Jurchen script to resist cultural assimilation
+angevin_empire,henry_ii_angevin,Henry II Plantagenet,founder,1133/1189,Built the Angevin Empire through inheritance and marriage to Eleanor of Aquitaine; ruled more French territory than the King of France himself; married his daughters into European royalty
+angevin_empire,john_lacking,John Lackland (Jean sans Terre),ruler,1166/1216,Lost Normandy and the Angevin lands to Philip II of France; his incompetence ended the continental empire. Forced to sign Magna Carta (1215); a byword for disastrous kingship
+ayyubid_sultanate,saladin,Saladin (Salah ad-Din),founder,1137/1193,Recaptured Jerusalem from the Crusaders (1187); defining figure of Islamic resistance to the Crusades
+serbian_empire,stefan_nemanja,Stefan Nemanja,founder,1113/1199,Founded the Nemanjić dynasty and unified the Serbian tribes; abdicated to become a monk (Saint Simeon); his son Sava established the autocephalous Serbian Orthodox Church
+serbian_empire,stefan_dusan,Stefan Dušan,ruler,1308/1355,The greatest Serbian medieval ruler; crowned Emperor of the Serbs and Greeks 1346; expanded Serbia across the Balkans; his legal code (Dušan's Code) remains foundational
+serbian_empire,lazar_hrebeljanovic,Lazar Hrebeljanović,military,1329/1389,Led the Serbian coalition at the Battle of Kosovo (1389) against the Ottomans; killed in battle; became a martyr saint of the Serbian Orthodox Church; Kosovo remains the most sacred site in Serbian national memory
+khwarazmian_empire,ala_ad_din_muhammad,Ala ad-Din Muhammad II,ruler,1169/1220,"Built the Khwarazmian Empire to its peak then destroyed it by executing Genghis Khan's merchants and diplomats; triggered the Mongol invasion that killed millions and permanently depopulated Central Asia; fled across Persia pursued by Mongol forces, dying on a Caspian island"
+khwarazmian_empire,jalal_ad_din,Jalal ad-Din Mingburnu,military,1199/1231,Last Khwarazmian Shah; fought desperately against the Mongols for 13 years; won the Battle of Parwan (1221) — the only defeat Genghis Khan's forces suffered in Central Asia; never gave up resistance until killed by assassins
+delhi_sultanate,qutb_ud_din_aibak,Qutb ud-Din Aibak,founder,1150/1210,Founded the Delhi Sultanate; built the Qutb Minar
+delhi_sultanate,alauddin_khalji,Alauddin Khalji,ruler,1266/1316,Most powerful Delhi Sultan; repelled multiple Mongol invasions
+mongol_empire,genghis_khan,Genghis Khan,founder,1162/1227,Greatest conqueror by territory in history; created the Yasa and the meritocratic military system
+mongol_empire,ogedei_khan,Ogedei Khan,ruler,1186/1241,Completed the conquest of North China; launched the invasion of Europe
+chagatai_khanate,chagatai_khan,Chagatai Khan,founder,1183/1242,Second son of Genghis Khan; Chagatai Turkic language is named after him
+teutonic_order,hermann_von_salza,Hermann von Salza,founder,1179/1239,Grand Master who organised the Baltic conquest; diplomatically shrewd — kept the Order independent between pope and emperor
+teutonic_order,ulrich_von_jungingen,Ulrich von Jungingen,military,1360/1410,Grand Master killed at Grunwald (1410) — the Order's catastrophic defeat that ended its dominance of the Baltic
+grand_duchy_of_lithuania,mindaugas,Mindaugas,founder,1203/1263,First and only King of Lithuania; united the Baltic tribes; briefly converted to Christianity for political reasons; assassinated by rivals
+grand_duchy_of_lithuania,algirdas,Algirdas,ruler,1296/1377,"Greatest territorial expansionist; pushed Lithuanian rule deep into Rus, reaching Crimea; a pagan ruling over a mostly Orthodox population"
+grand_duchy_of_lithuania,vytautas_great,Vytautas the Great,ruler,1350/1430,Defeated the Teutonic Knights at Grunwald (1410) alongside Poland; greatest Lithuanian ruler; at his peak controlled more territory than any contemporary European monarch
+golden_horde,batu_khan,Batu Khan,founder,1205/1255,Conquered Russia and Eastern Europe; founded the Golden Horde
+golden_horde,ozbeg_khan,Ozbeg Khan,reformer,1282/1341,Converted the Golden Horde to Sunni Islam (1313); modern Uzbeks are named after him
+mamluk_sultanate,baybars,Baybars,founder,1223/1277,Defeated the Mongols at Ain Jalut (1260); expelled the Crusaders
+ilkhanate,hulagu_khan,Hulagu Khan,founder,1217/1265,"Sacked Baghdad (1258), ending the Abbasid Caliphate"
+ilkhanate,ghazan_khan,Ghazan Khan,reformer,1271/1304,Converted to Sunni Islam (1295) — the ideological turning point that fully Persianized the Ilkhanate
+yuan_dynasty,kublai_khan,Kublai Khan,founder,1215/1294,Founded the Yuan dynasty; first non-Han ruler to control all of China
+ottoman_empire,osman_i,Osman I,founder,1258/1326,The dynasty is named after him (Osmanli)
+ottoman_empire,mehmed_ii,Mehmed II (Fatih),ruler,1432/1481,Conquered Constantinople (1453); ended the Byzantine Empire; claimed Kayser-i Rum
+ottoman_empire,suleiman_magnificent,Suleiman the Magnificent,ruler,1494/1566,Zenith of the Ottoman Empire; also the Lawgiver who reformed the legal system
+ottoman_empire,ataturk,Mustafa Kemal Ataturk,last_ruler,1881/1938,Ended the Sultanate (1922) and Caliphate (1924); founded the Republic of Turkey
+vijayanagara_empire,krishnadevaraya,Krishnadevaraya,ruler,1471/1529,Greatest Vijayanagara king; defeated all the Deccan sultanates; patronised Telugu literature — the golden age of Telugu culture; Hampi at its peak rivalled Rome in size
+vijayanagara_empire,rama_raya,Rama Raya,ruler,?/1565,Manipulated the Deccan sultanates against each other until they united and destroyed him at Talikota; his death ended Vijayanagara as a great power
+bahmani_sultanate,hasan_gangu_bahman,Hasan Gangu Bahman,founder,?/1358,A soldier of Afghan origin who revolted against Delhi and founded the Bahmani Sultanate; the first independent Muslim power in the Deccan
+bahmani_sultanate,mahmud_gawan,Mahmud Gawan,administrator,1411/1481,Persian scholar-statesman who modernised the Bahmani state; established a college at Bidar; executed on false treason charges — his death accelerated the sultanate's collapse
+ming_dynasty,zhu_yuanzhang,Zhu Yuanzhang (Hongwu Emperor),founder,1328/1398,Rose from orphaned peasant to emperor; expelled the Mongols
+ming_dynasty,zheng_he,Zheng He,general,1371/1433,Led seven maritime expeditions reaching Arabia and East Africa; commanded fleets that dwarfed anything in Europe
+ming_dynasty,yongle_emperor,Yongle Emperor,ruler,1360/1424,Built the Forbidden City; commissioned the Yongle Encyclopedia
+north_yuan,dayan_khan,Dayan Khan,ruler,1464/1543,Reunified the eastern Mongols after a century of fragmentation; reorganised the Mongol tribes into six tumens; his descendants ruled the Mongols for generations
+north_yuan,altan_khan,Altan Khan,ruler,1507/1582,Built Hohhot; established formal relations with Tibet — invited the Dalai Lama title and Tibetan Buddhism; the decisive conversion of Mongols to Buddhism
+timurid_empire,timur,Timur (Tamerlane),founder,1336/1405,Last great nomadic conqueror; made Samarkand the most dazzling city of the age
+timurid_empire,ulugh_beg,Ulugh Beg,ruler,1394/1449,Astronomer-king; built the Samarkand observatory
+timurid_empire,babur_timurid,Babur,last_ruler,1483/1530,Last Timurid; lost Samarkand and conquered India instead; founded the Mughal Empire
+joseon,sejong_great,Sejong the Great,ruler,1397/1450,Commissioned the creation of Hangul; oversaw a scientific and cultural golden age.
+joseon,yi_sun_sin,Yi Sun-sin,military,1545/1598,Admiral who saved Joseon from Japanese invasion (Imjin War) through naval brilliance and the turtle ship.
+kalmar_union,margaret_i_kalmar,Margaret I,founder,1353/1412,Created the union in 1397 at Kalmar; the only person to successfully govern all three Scandinavian kingdoms
+habsburg_monarchy,charles_v_habsburg,Charles V,ruler,1500/1558,"The apex of Habsburg power — ruled Spain, HRE, Italy, and the Americas; presided over the Reformation; abdicated exhausted"
+habsburg_monarchy,maria_theresa,Maria Theresa,ruler,1717/1780,Defended her inheritance against Frederick the Great; modernised the Habsburg state; mother of 16 children including Marie Antoinette and Joseph II
+habsburg_monarchy,joseph_ii,Joseph II,ruler,1741/1790,"Enlightened despot; abolished serfdom, granted religious toleration, reformed the church and judiciary — too fast for his subjects; most reforms reversed after his death"
+habsburg_monarchy,franz_joseph_i,Franz Joseph I,ruler,1830/1916,Ruled 68 years; the anchor of the old European order; his assassination's response to Archduke Franz Ferdinand's murder set off WWI
+crimean_khanate,mengli_giray,Mengli Giray,founder,1445/1515,First fully independent Khan; entered Ottoman vassalage; defeated the Grand Duchy of Lithuania and sacked Kyiv
+crimean_khanate,devlet_i_giray,Devlet I Giray,ruler,1512/1577,Sacked Moscow in 1571 — the last time a nomadic force sacked the Russian capital; demanded tribute from Ivan the Terrible
+kazakh_khanate,janybek_khan,Janybek Khan,founder,/1480,Co-founder of the Kazakh Khanate with Giray; established Kazakh identity as distinct from Uzbeks
+kazakh_khanate,ablai_khan,Ablai Khan,ruler,1711/1781,Greatest 18th-century Kazakh ruler; united the zhuz against the Dzungars; played Russia and China against each other
+safavid_empire,shah_ismail_i,Shah Ismail I,founder,1487/1524,Forcibly converted Iran from Sunni to Shia Islam; created the civilizational identity that defines Iran today
+safavid_empire,shah_abbas_i,Shah Abbas I (The Great),ruler,1571/1629,Rebuilt Isfahan; zenith of Safavid power and Persian art
+mughal_empire,babur,Babur,founder,1483/1530,Timurid prince who conquered India; his Baburnama is one of the great autobiographies
+mughal_empire,akbar,Akbar the Great,ruler,1542/1605,Consolidated the empire; policy of religious tolerance; abolished jizya
+mughal_empire,shah_jahan,Shah Jahan,ruler,1592/1666,Built the Taj Mahal; apex of Mughal Persian-Indian cultural synthesis
+mughal_empire,aurangzeb,Aurangzeb,last_ruler,1618/1707,Largest territorial extent; Sharia policies alienated Hindus; his death began the collapse
+polish_lithuanian_commonwealth,sigismund_ii,Sigismund II Augustus,founder,1520/1572,Last Jagiellonian; sealed the Union of Lublin (1569) transforming the personal union into a real Commonwealth with shared parliament
+polish_lithuanian_commonwealth,jan_sobieski,Jan III Sobieski,ruler,1629/1696,Led the relief of Vienna (1683) against the Ottoman siege — the largest cavalry charge in history; saved Christian Europe but Poland gained little from it
+tokugawa_shogunate,tokugawa_ieyasu,Tokugawa Ieyasu,founder,1543/1616,Unified Japan after the Battle of Sekigahara (1600) and founded the Tokugawa Shogunate.
+qing_dynasty,nurhaci,Nurhaci,founder,1559/1626,United the Jurchen tribes; created the Eight Banner military system
+qing_dynasty,kangxi_emperor,Kangxi Emperor,ruler,1654/1722,Longest-reigning Chinese emperor (61 years); consolidated Qing rule
+qing_dynasty,qianlong_emperor,Qianlong Emperor,ruler,1711/1799,Greatest territorial extent; commissioned the Siku Quanshu — the largest library in history
+qing_dynasty,puyi,Puyi,last_ruler,1906/1967,Last Emperor of China; the final chapter of 2000 years of imperial rule
+maratha_empire,shivaji_bhonsle,Shivaji Bhonsle,founder,1627/1680,Founded the Maratha kingdom through guerrilla warfare against Mughal and Bijapur forces; crowned Chhatrapati (sovereign) 1674; created the concept of Hindavi Swarajya (Hindu self-rule)
+maratha_empire,bajirao_i,Bajirao I,ruler,1700/1740,Greatest Peshwa (prime minister); never lost a battle; expanded Maratha territory from the Deccan to Delhi; the dominant military mind of 18th-century India
+kingdom_of_great_britain,walpole,Robert Walpole,administrator,1676/1745,First de facto Prime Minister of Great Britain; established the convention of cabinet government
+russian_empire,peter_great,Peter the Great,founder,1672/1725,Transformed Russia from an isolated Muscovite tsardom into a European Great Power; founded St Petersburg; built the Russian navy; defeated Sweden at Poltava; declared the Russian Empire
+russian_empire,catherine_great,Catherine the Great,ruler,1729/1796,Greatest Russian tsarina; conquered Crimea; participated in the three Polish partitions; corresponded with Voltaire and Diderot; patron of the Enlightenment while ruling autocratically
+russian_empire,nicholas_ii,Nicholas II,ruler,1868/1918,Last tsar; stubborn defender of autocracy against all reform; Russia's defeats in WWI triggered the Revolutions of 1917; abdicated February 1917; executed with his family by Bolsheviks July 1918
+sikh_empire,ranjit_singh,Ranjit Singh,founder,1780/1839,"The Lion of the Punjab; unified the Sikh misls at age 19; built a secular empire that welcomed Hindus, Muslims, and Europeans; kept the British at bay through diplomacy for 40 years"
+sikh_empire,hari_singh_nalwa,Hari Singh Nalwa,military,1791/1837,Greatest Sikh general; conquered Peshawar and Kashmir; extended Sikh rule to the Khyber Pass — the first time India's northwest frontier was secured from Central Asian invasions
+united_kingdom,wellington,Duke of Wellington,military,1769/1852,Defeated Napoleon at Waterloo; later Prime Minister
+united_kingdom,victoria,Queen Victoria,ruler,1819/1901,Ruled 63 years; the British Empire reached its greatest extent under her reign
+kingdom_of_egypt,muhammad_ali,Muhammad Ali,founder,1769/1849,The 'Father of Modern Egypt'; Albanian-born Ottoman officer who modernised Egypt's army and economy; his descendants ruled until 1952
+kingdom_of_egypt,ismail_the_magnificent,Ismail the Magnificent,ruler,1830/1895,Built the Suez Canal (1869); modernised Cairo on Haussmann's Paris model; went bankrupt and sold the Canal shares to Britain — triggering the occupation
+kingdom_of_egypt,farouk_i,Farouk I,ruler,1920/1965,Last king; his dissolute lifestyle and defeat in 1948 made him a symbol of Arab weakness; overthrown by the Free Officers (Naguib and Nasser) in July 1952
+british_raj,viceroy_curzon,Viceroy Curzon,ruler,1859/1925,Viceroy 1899–1905; partition of Bengal inflamed Indian nationalism; built the Victoria Memorial; great imperial administrator who helped undermine the empire he loved
+british_raj,gandhi,Gandhi,cultural,1869/1948,Developed satyagraha (non-violent resistance); Salt March (1930); forced British to negotiate; his assassination by a Hindu nationalist days after independence was the tragedy of Partition
+british_raj,nehru,Nehru,founder,1889/1964,First Prime Minister of independent India; architect of non-alignment; built democratic institutions; the Nehru-Gandhi family dominated Indian politics for decades
+kingdom_of_italy,garibaldi,Giuseppe Garibaldi,military,1807/1882,Military hero of unification; his Expedition of the Thousand conquered the Kingdom of the Two Sicilies; the most celebrated Italian of his century
+kingdom_of_italy,cavour,Count Cavour,founder,1810/1861,Political architect of Italian unification; Prime Minister of Piedmont who manoeuvred France and Prussia into enabling Italian independence
+kingdom_of_italy,mussolini,Benito Mussolini,ruler,1883/1945,"Invented Fascism; seized power 1922; allied with Hitler; Italy invaded Ethiopia and Greece; executed by partisans 1945 — the first Fascist dictator, killed by his own people"
+empire_of_japan,meiji_emperor,Emperor Meiji,ruler,1852/1912,Presided over the modernization and transformation of Japan.
+german_empire,bismarck,Otto von Bismarck,founder,1815/1898,"Iron Chancellor; unified Germany through three wars (Denmark, Austria, France); created the first modern welfare state; his alliance system kept the peace — until Wilhelm II dismissed him"
+german_empire,wilhelm_ii,Wilhelm II,ruler,1859/1941,"Dismissed Bismarck; pursued Weltpolitik (global ambition); alienated Britain, France, and Russia simultaneously; led Germany into WWI; abdicated 1918"
+republic_of_china,sun_yat_sen,Sun Yat-sen,founder,1866/1925,Father of modern China; founded the Kuomintang; his Three Principles of the People remain the ideological foundation of the ROC
+republic_of_china,chiang_kai_shek,Chiang Kai-shek,ruler,1887/1975,United China under Nationalist rule (1928); led China through WWII; lost the Civil War to Mao; governed Taiwan for 26 years as a Cold War ally of the US
+weimar_republic,ebert,Friedrich Ebert,founder,1871/1925,First President; Social Democrat who proclaimed the Republic; made the fateful deal with the military (Ebert-Groener Pact) that preserved the old officer corps — the army that would later undermine democracy
+weimar_republic,stresemann,Gustav Stresemann,ruler,1878/1929,Chancellor then Foreign Minister; stabilised the currency; negotiated the Dawes Plan and Locarno Treaties; brought Germany back into international society; Nobel Peace Prize 1926; his death removed the Republic's ablest defender
+czechoslovakia,masaryk_tg,Tomáš Garrigue Masaryk,founder,1850/1937,Philosopher-president who created Czechoslovakia through diplomacy at Versailles; a genuine liberal democrat who built Central Europe's most successful interwar state; his son Jan was defenestrated after the Communist coup
+czechoslovakia,dubcek,Alexander Dubček,ruler,1921/1992,Led the Prague Spring — 'socialism with a human face'; removed by Soviets; worked as a forest ranger for 20 years; returned as Speaker of Parliament after the Velvet Revolution
+czechoslovakia,havel,Václav Havel,ruler,1936/2011,Playwright turned dissident turned president; led the Velvet Revolution (1989); first post-communist President; the most admired European political figure of his generation
+kingdom_of_iraq,faisal_i_iraq,Faisal I,founder,1885/1933,"Arab Revolt leader imposed as king of Iraq by Churchill at the Cairo Conference (1921); built a fragile national identity across Sunni, Shia, and Kurdish communities; died before his work was complete"
+kingdom_of_iraq,nuri_al_said,Nuri al-Said,ruler,1888/1958,Pro-British Prime Minister who dominated Iraqi politics 1930–1958; lynched by a mob during the 1958 revolution alongside the royal family
+republic_of_turkey,ataturk,Atatürk,founder,1881/1938,Father of modern Turkey; won the War of Independence; created a secular Western republic from Ottoman ruins; his portrait hangs in every Turkish institution — still the dominant presence in Turkish identity
+republic_of_turkey,erdogan,Erdoğan,ruler,1954/null,"Prime Minister then President; longest-serving Turkish leader since Atatürk; built infrastructure and raised living standards; also jailed journalists, purged judges, and turned Turkey in an authoritarian direction after the 2016 coup attempt"
+mongolian_peoples_republic,damdin_sukhbaatar,Damdin Sükhbaatar,founder,1893/1923,Revolutionary hero; led the Mongolian revolution with Soviet support; died young and possibly poisoned; national hero whose statue dominates Ulaanbaatar's central square
+mongolian_peoples_republic,khorloogiin_choibalsan,Khorloogiin Choibalsan,ruler,1895/1952,"The 'Mongolian Stalin'; collectivised herds, destroyed Buddhism, executed tens of thousands; also the general who defeated Japan at Khalkhin Gol (1939) alongside Zhukov"
+manchukuo,puyi_manchukuo,Puyi,ruler,1906/1967,Last Qing Emperor; child emperor from 1908; abdicated 1912; manipulated by the Japanese as puppet emperor of Manchukuo 1934–1945; later rehabilitated as a citizen of the PRC — his memoir became The Last Emperor
+saudi_arabia,ibn_saud,Ibn Saud,founder,1875/1953,United Arabia through 30 years of warfare and diplomacy; signed the oil concession with Standard Oil (1933); the Aramco deal that created modern Saudi Arabia
+saudi_arabia,faisal,Faisal,ruler,1906/1975,Modernised Saudi Arabia; led the 1973 Oil Embargo against the West for supporting Israel; gave women rights to education; assassinated by his nephew
+saudi_arabia,mbs,MBS,ruler,1985/null,Crown Prince Mohammad bin Salman; Vision 2030 modernisation; allowed women to drive; but also the killing of Khashoggi (2018) and Yemen War — reformer and autocrat simultaneously
+republic_of_india,ambedkar,Ambedkar,cultural,1891/1956,Dalit leader who drafted India's constitution; the most important architect of Indian democracy; converted to Buddhism to escape caste discrimination
+republic_of_india,indira_gandhi,Indira Gandhi,ruler,1917/1984,India's first female Prime Minister; Green Revolution saved India from famine; Emergency rule (1975–77) suspended democracy; assassinated by her Sikh bodyguards after ordering attack on the Golden Temple
+republic_of_india,modi,Modi,ruler,1950/null,"Prime Minister since 2014; Hindu nationalist politics; economic modernisation (GST, digital India); BJP Hindu majoritarianism raised concerns about minority rights"
+pakistan,muhammad_ali_jinnah,Muhammad Ali Jinnah,founder,1876/1948,Founded Pakistan through sheer force of will and political skill; the Quaid-e-Azam ('Great Leader'); his secular vision for Pakistan was quickly displaced after his death
+pakistan,zulfikar_ali_bhutto,Zulfikar Ali Bhutto,ruler,1928/1979,First elected Prime Minister; oversaw 1971 defeat and Bangladesh; launched nuclear programme; executed by Zia ul-Haq after a military coup — his death created the Bhutto political dynasty through his daughter Benazir
+pakistan,benazir_bhutto,Benazir Bhutto,ruler,1953/2007,First female Prime Minister of a Muslim-majority country; twice elected and twice dismissed; assassinated at a political rally
+peoples_republic_of_china,mao_zedong,Mao Zedong,founder,1893/1976,Founded the PRC; united China after a century of humiliation; but the Great Leap Forward and Cultural Revolution caused tens of millions of deaths
+peoples_republic_of_china,deng_xiaoping,Deng Xiaoping,ruler,1904/1997,Opened China to market economics while maintaining party control; 'Socialism with Chinese characteristics'; his reforms lifted 800 million people out of poverty
+peoples_republic_of_china,xi_jinping,Xi Jinping,ruler,1953/null,"General Secretary since 2012; abolished presidential term limits (2018); Belt and Road Initiative; escalating assertiveness on Taiwan, South China Sea, and Xinjiang"
+republic_of_egypt,nasser,Nasser,founder,1918/1970,The greatest Arab nationalist leader; nationalised the Suez Canal; champion of pan-Arabism; the dominant figure of 20th-century Arab politics
+republic_of_egypt,sadat,Sadat,ruler,1918/1981,Expelled Soviet advisors (1972); surprised Israel in the Yom Kippur War (1973); made peace at Camp David (1978); Nobel Peace Prize; assassinated by Islamic Jihad at a military parade
+republic_of_egypt,sisi,Sisi,ruler,1954/null,Led the 2013 coup against Morsi; President since 2014; brutal suppression of Muslim Brotherhood; restored military's dominant role in Egyptian political economy
+republic_of_iraq,saddam_hussein,Saddam Hussein,ruler,1937/2006,Ba'athist dictator 1979–2003; used chemical weapons on Kurds (Halabja 1988); invaded Iran then Kuwait; executed after US invasion — his fall unleashed sectarian war that produced ISIS
+republic_of_iraq,ayatollah_sistani,Ayatollah Sistani,cultural,1930/null,Grand Ayatollah; Iraq's most authoritative Shia cleric; his fatwas mobilising Shia volunteers against ISIS (2014) saved Iraq from collapse; consistent advocate for democracy within Islamic framework
+song_dynasty,zhao_kuangyin,Zhao Kuangyin (Emperor Taizu),founder,927/976,Former general who peacefully demilitarized the warlords; built China most sophisticated civilian bureaucracy
+song_dynasty,su_shi,Su Shi (Su Dongpo),cultural,1037/1101,"Poet, painter, calligrapher, and statesman; the Renaissance Man of the Song dynasty"
