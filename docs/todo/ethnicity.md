@@ -10,7 +10,7 @@ The ethnicity tree is organized by **Affinity Bloc > People Cluster > Ethnic Gro
 - **Index Files**: Every directory containing sub-clusters or multiple groups must include an `index.json` to store cluster-level metadata (e.g., `data/ethnicities/eurasian/slavic/index.json`).
 - **Relational Linking**: 
     - The `languages` field must link to the valid path in `data/languages/`.
-    - The `origin` field must link to the valid path in `data/cradles/` or `data/territory/`.[3, 2]
+    - The `origin` field must link to the valid path in `data/territories/`.[3, 2]
 - **Classification Standard**: Use a synthesis of Murdock’s Ethnographic Atlas and the Joshua Project’s Affinity Blocs for historical and modern precision.
 
 ---

@@ -6,7 +6,7 @@ The entire project is a **property graph** — multiple node types connected by 
 
 | Location | Node Type | What it represents |
 |---|---|---|
-| `data/territory/{region}/{id}.json` | Territory | A geographic region (land). Static. Accumulates rulers over time. Each file contains metadata + `periods[]` of historical control. |
+| `data/territories/{region}/{id}.json` | Territory | A macro geographic zone. Accumulates rulers over time. Each file contains metadata + `periods[]` of historical control. |
 | `data/languages/` (directory tree) | Language | A language in a phylogenetic tree. Parent derived from filesystem path. |
 | `data/religions/` (directory tree) | Religion | A religion or religious branch in a taxonomy tree. Parent derived from filesystem path. |
 | `data/ideologies.json` | Ideology | A government form or state philosophy. Kept as a single flat file. |

@@ -8,8 +8,8 @@ This directory contains all structured data for the CivRegime Inheritance Framew
 data/
   ├── regimes/              ← Historical regimes (hand-curated, one file per cluster)
   ├── successions/          ← Succession edges between regimes (one file per region)
-  ├── regions/              ← Geographic regions (GeoJSON features)
-  ├── cradles/              ← Broader political-cultural zones (alias: territory)
+  ├── provinces/            ← GeoJSON province subunits (one file per province)
+  ├── territories/          ← Macro geographic zones (one file per territory)
   │
   ├── languages/            ← Auto-generated from docs/tree/language.md
   │   ├── indo_european/
@@ -183,9 +183,9 @@ const db = {
   // Static lookups
   ideologies: loadJSON('data/ideologies.json'),
   
-  // Backwards compatibility
-  territory: [...],  // alias for cradles
-  regions: [...]
+  // Geographic data
+  territories: [...],
+  provinces: [...]
 };
 ```
 
@@ -418,5 +418,5 @@ db.tree.languages('indo_european')  // all descendants
 | Religions | `religions/*/` | `loadTree` (hierarchical) | 193 |
 | Ethnicities | `ethnicities/*/` | `loadTree` (hierarchical) | 203 |
 | Ideologies | `ideologies.json` | `loadJSON` (static) | 15 |
-| Regions | `regions/*.geojson` | `loadDir` (flat) | ~100+ |
-| Cradles | `cradles/*.json` | `loadDir` (flat) | 25 |
+| Provinces | `provinces/*.geojson` | `loadDir` (flat) | ~100+ |
+| Territories | `territories/*.json` | `loadDir` (flat) | 40+ |

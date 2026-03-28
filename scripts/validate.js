@@ -27,12 +27,12 @@ function ok(msg)   { console.log(  `  ✓  ${msg}`); }
 
 const sets = {
   regimes:     new Set(db.regimes.map(r => r.id)),
-  territories: new Set(db.territory.map(t => t.id)),
+  territories: new Set(db.territories.map(t => t.id)),
   languages:   new Set(db.languages.map(l => l.id)),
   religions:   new Set(db.religions.map(r => r.id)),
   ideologies:  new Set(db.ideologies.map(i => i.id)),
   ethnicities: new Set(db.ethnicities.map(e => e.id)),
-  regions:     new Set(db.regions.map(r => r.id)),
+  provinces:   new Set(db.provinces.map(r => r.id)),
 };
 
 // ── 1. Duplicate ID check ─────────────────────────────────────────────────────
@@ -51,8 +51,8 @@ function checkDuplicates(items, label) {
 
 console.log('\n── Duplicate IDs ────────────────────────────────────────');
 checkDuplicates(db.regimes,     'regimes');
-checkDuplicates(db.territory,   'territory');
-checkDuplicates(db.regions,     'regions');
+checkDuplicates(db.territories, 'territories');
+checkDuplicates(db.provinces,   'provinces');
 checkDuplicates(db.languages,   'languages');
 checkDuplicates(db.religions,   'religions');
 checkDuplicates(db.ideologies,  'ideologies');
@@ -149,7 +149,7 @@ if (!badSuccessions) ok('all successions valid');
 
 console.log('\n── Territory timeline integrity ─────────────────────────');
 
-for (const t of db.territory) {
+for (const t of db.territories) {
   const periods = [...(t.periods || [])].sort((a, b) => a.start - b.start);
 
   for (let i = 0; i < periods.length; i++) {
@@ -180,27 +180,27 @@ for (const t of db.territory) {
 
 ok('territory timeline checks complete');
 
-// ── 7. Region integrity ───────────────────────────────────────────────────────
+// ── 7. Province integrity ─────────────────────────────────────────────────────
 
-console.log('\n── Region integrity ─────────────────────────────────────');
-let badRegions = 0;
+console.log('\n── Province integrity ───────────────────────────────────');
+let badProvinces = 0;
 
-for (const region of db.regions) {
-  const id    = region.id;
-  const props = region.properties || {};
-  const ctx   = `region "${id}"`;
+for (const province of db.provinces) {
+  const id    = province.id;
+  const props = province.properties || {};
+  const ctx   = `province "${id}"`;
 
   if (!id) {
-    err(`region missing top-level "id" field`);
-    badRegions++;
+    err(`province missing top-level "id" field`);
+    badProvinces++;
     continue;
   }
   if (!props.territory) {
     err(`${ctx}: missing "territory" field`);
-    badRegions++;
+    badProvinces++;
   } else if (!sets.territories.has(props.territory)) {
     err(`${ctx}: territory "${props.territory}" not found`);
-    badRegions++;
+    badProvinces++;
   }
 
   for (const p of (props.periods || [])) {
@@ -210,12 +210,12 @@ for (const region of db.regions) {
   }
 }
 
-if (!badRegions) ok('all regions valid');
+if (!badProvinces) ok('all provinces valid');
 
 // ── Summary ───────────────────────────────────────────────────────────────────
 
 console.log('\n─────────────────────────────────────────────────────────');
-console.log(`Regimes: ${db.regimes.length}  |  Successions: ${db.successions.length}  |  Territories: ${db.territory.length}  |  Regions: ${db.regions.length}`);
+console.log(`Regimes: ${db.regimes.length}  |  Successions: ${db.successions.length}  |  Territories: ${db.territories.length}  |  Provinces: ${db.provinces.length}`);
 console.log(`Languages: ${db.languages.length}  |  Religions: ${db.religions.length}  |  Ethnicities: ${db.ethnicities.length}`);
 console.log('');
 

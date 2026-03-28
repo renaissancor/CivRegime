@@ -76,7 +76,8 @@ const db = {
   regimes:     loadDir(path.join(DATA, 'regimes')),
   successions: loadDir(path.join(DATA, 'successions')),
 
-  // Territories — one file per territory, contains chronological regime list
+  // Territories — macro geographic zones, one file per territory
+  // Each file contains metadata + periods[] of historical regime control
   territories: loadDir(path.join(DATA, 'territories')),
 
   // Taxonomies — directory trees, parent derived from path
@@ -84,16 +85,9 @@ const db = {
   languages:   loadTree(path.join(DATA, 'languages')),
   ethnicities: loadTree(path.join(DATA, 'ethnicities')),
 
-  // Cradles — broader political-cultural zones, one file per zone
-  // Each file contains metadata + ethnic/cultural periods
-  cradles: loadDir(path.join(DATA, 'cradles')),
-
-  // Backwards compatibility alias
-  territory: null, // Set after load
-
-  // Regions — atomic map units (GeoJSON Features), one file per region
+  // Provinces — atomic map units (GeoJSON Features), one file per province
   // Each file contains: territory FK, simple regime control timeline, geometry (null until added)
-  regions: loadDir(path.join(DATA, 'regions')),
+  provinces: loadDir(path.join(DATA, 'provinces')),
 
   // Lookup table — stays as single flat file
   ideologies: loadJSON(path.join(DATA, 'ideologies.json')),
@@ -113,8 +107,5 @@ db.tree = {
   languages:   (id) => getDescendants(id, db.languages),
   ethnicities: (id) => getDescendants(id, db.ethnicities),
 };
-
-// Backwards compatibility: alias cradles as territory for existing code
-db.territory = db.cradles;
 
 module.exports = db;

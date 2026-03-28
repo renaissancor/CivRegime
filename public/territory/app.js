@@ -112,7 +112,7 @@ async function init() {
   const regimeById = new Map(db.regimes.map(r => [r.id, r]));
 
   const list = document.getElementById('territory-list');
-  const grouped = [...d3.group(db.territory, t => t.region || 'other').entries()]
+  const grouped = [...d3.group(db.territories, t => t.region || 'other').entries()]
     .sort((a, b) => a[0].localeCompare(b[0]));
 
   for (const [region, items] of grouped) {
@@ -135,7 +135,7 @@ async function init() {
     if (!el) return;
     list.querySelectorAll('.territory-item').forEach(i => i.classList.remove('active'));
     el.classList.add('active');
-    const t = db.territory.find(t => t.id === el.dataset.id);
+    const t = db.territories.find(t => t.id === el.dataset.id);
     if (t) renderTimeline(t, regimeById);
   });
 }

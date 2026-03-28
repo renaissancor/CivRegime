@@ -9,7 +9,7 @@ The regime tree is organized by **Geographic/Epoch Clusters**. Unlike the phylog
 - **File Format**: Regimes are grouped into thematic/geographic JSON files located at `data/regimes/{cluster_name}.json`.[1]
 - **Node Intersection**: Every regime entry MUST reference:
     - **Ethnicity**: Link to `data/ethnicities/{ethnicity}.json` (The `ruledBy` edge).
-    - **Territory**: Link to `data/territory/{region}/{id}.json` (The `controlled` edge).
+    - **Territory**: Link to `data/territories/{region}/{id}.json` (The `controlled` edge).
     - **Ideology**: Link to a key in `data/ideologies.json` (The `hasIdeology` edge).
     - **Language**: Link to `data/languages/...` (The `courtLanguage` edge).
     - **Religion**: Link to `data/religions/...` (The `hasReligion` edge).
@@ -33,7 +33,7 @@ The regime tree is organized by **Geographic/Epoch Clusters**. Unlike the phylog
   "court_language": "data/languages/indo_european/italic/romance/old_french.json",
   "official_religion": "data/religions/abrahamic/christianity/catholic/index.json",
   "ideology": "feudal_monarchy",
-  "territories": ["data/territory/europe/gaul.json", "data/territory/europe/germany.json"],
+  "territories": ["data/territories/europe/gaul.json", "data/territories/europe/germany.json"],
   "capital": "Aachen"
 }
 ```
