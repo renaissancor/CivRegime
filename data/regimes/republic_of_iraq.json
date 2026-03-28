@@ -1,12 +1,32 @@
-[
-  {
-    "id": "republic_of_iraq",
-    "name": "Republic of Iraq",
-    "ruling_ethnicity": 206,
-    "start": 1958,
-    "ideology": {
-      "religion": 51,
-      "government": "monarchy"
+{
+  "id": "republic_of_iraq",
+  "name": "Republic of Iraq",
+  "ruling_ethnicity": "arab",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "mesopotamia"
+  ],
+  "start": 1958,
+  "end": null,
+  "note": "General Abd al-Karim Qasim's 1958 coup killed the royal family and created the republic. Ba'ath Party coups (1963, 1968) brought Saddam Hussein to power (formally 1979). Iran-Iraq War (1980–88); Kuwait invasion (1990); Gulf War; UN sanctions devastated the country. US invasion (2003) destroyed the state; Sunni insurgency, al-Qaeda, and ISIS emerged from the chaos. The 2005 constitution and Shia-dominated democracy have been unable to overcome sectarian divisions.",
+  "figures": [
+    {
+      "id": "saddam_hussein",
+      "name": "Saddam Hussein",
+      "role": "ruler",
+      "years": "1937/2006",
+      "significance": "Ba'athist dictator 1979–2003; used chemical weapons on Kurds (Halabja 1988); invaded Iran then Kuwait; executed after US invasion — his fall unleashed sectarian war that produced ISIS"
+    },
+    {
+      "id": "ayatollah_sistani",
+      "name": "Ayatollah Sistani",
+      "role": "cultural",
+      "years": "1930/null",
+      "significance": "Grand Ayatollah; Iraq's most authoritative Shia cleric; his fatwas mobilising Shia volunteers against ISIS (2014) saved Iraq from collapse; consistent advocate for democracy within Islamic framework"
     }
-  }
-]
+  ]
+}

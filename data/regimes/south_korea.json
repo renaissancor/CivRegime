@@ -1,0 +1,11 @@
+{
+  "id": "south_korea",
+  "name": "Republic of Korea (South Korea)",
+  "ruling_ethnicity": "korean",
+  "cultural_language": "old_korean",
+  "ideology": {
+    "religion": "buddhism"
+  },
+  "start": 1948,
+  "end": null
+}

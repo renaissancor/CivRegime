@@ -1,12 +1,40 @@
-[
-  {
-    "id": "new_kingdom_egypt",
-    "name": "New Kingdom Egypt",
-    "start": -1550,
-    "end": -1070,
-    "ideology": {
-      "religion": 76,
-      "government": "monarchy"
+{
+  "id": "new_kingdom_egypt",
+  "name": "New Kingdom Egypt",
+  "ruling_ethnicity": "egyptian_native",
+  "cultural_language": "ancient_egyptian",
+  "ideology": {
+    "religion": "egyptian_religion",
+    "government": "divine_monarchy"
+  },
+  "territories": [
+    "egypt",
+    "nubia",
+    "levant"
+  ],
+  "start": -1550,
+  "end": -1070,
+  "figures": [
+    {
+      "id": "thutmose_iii",
+      "name": "Thutmose III",
+      "role": "ruler",
+      "years": "-1481/-1425",
+      "significance": "Greatest military pharaoh; expanded Egypt to its greatest territorial extent"
+    },
+    {
+      "id": "akhenaten",
+      "name": "Akhenaten",
+      "role": "reformer",
+      "years": "-1353/-1336",
+      "significance": "Revolutionary monotheist attempt (Aten worship); rejected by successors"
+    },
+    {
+      "id": "ramesses_ii",
+      "name": "Ramesses II",
+      "role": "ruler",
+      "years": "-1303/-1213",
+      "significance": "Signed the first known peace treaty in history (with the Hittites)"
     }
-  }
-]
+  ]
+}

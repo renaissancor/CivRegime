@@ -1,7 +1,15 @@
-[
-  {
-    "id": "modern_korea",
-    "name": "Modern Korea (Postwar)",
-    "start": 1945
-  }
-]
+{
+  "id": "modern_korea",
+  "name": "Modern Korea (Postwar)",
+  "ruling_ethnicity": "korean",
+  "cultural_language": "korean",
+  "ideology": {
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "korean_peninsula"
+  ],
+  "start": 1945,
+  "end": null,
+  "note": "Post-1945 Korea; note that North and South Korea diverged into separate states (Democratic People's Republic and Republic of Korea) in 1948, but are modeled here as a unified entry representing the shared cultural and historical continuity. Future modeling should split into separate regime entries for DPRK and ROK."
+}

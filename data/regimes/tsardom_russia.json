@@ -1,0 +1,11 @@
+{
+  "id": "tsardom_russia",
+  "name": "Tsardom of Russia",
+  "ruling_ethnicity": "russian",
+  "cultural_language": "russian",
+  "ideology": {
+    "religion": "eastern_orthodox"
+  },
+  "start": 1547,
+  "end": 1721
+}

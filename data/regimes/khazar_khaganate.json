@@ -1,12 +1,26 @@
-[
-  {
-    "id": "khazar_khaganate",
-    "name": "Khazar Khaganate",
-    "start": 650,
-    "end": 969,
-    "ideology": {
-      "religion": 62,
-      "government": "monarchy"
+{
+  "id": "khazar_khaganate",
+  "name": "Khazar Khaganate",
+  "ruling_ethnicity": "turkic",
+  "cultural_language": "old_turkic",
+  "ideology": {
+    "religion": "rabbinic_judaism",
+    "government": "khaganate"
+  },
+  "territories": [
+    "pontic_steppe",
+    "caucasus"
+  ],
+  "start": 650,
+  "end": 969,
+  "note": "Ruling class converted to Judaism — a unique case; possibly a diplomatic choice to remain neutral between the Christian Byzantine and Muslim Abbasid spheres",
+  "figures": [
+    {
+      "id": "bulan",
+      "name": "Bulan",
+      "role": "reformer",
+      "years": "740/800",
+      "significance": "The Khazar ruler who converted to Judaism"
     }
-  }
-]
+  ]
+}

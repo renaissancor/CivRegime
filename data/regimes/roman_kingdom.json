@@ -1,13 +1,31 @@
-[
-  {
-    "id": "roman_kingdom",
-    "name": "Roman Kingdom",
-    "cultural_language": 335,
-    "start": -753,
-    "end": -509,
-    "ideology": {
-      "religion": 106,
-      "government": "monarchy"
+{
+  "id": "roman_kingdom",
+  "name": "Roman Kingdom",
+  "ruling_ethnicity": "latin",
+  "cultural_language": "latin",
+  "ideology": {
+    "religion": "roman_paganism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "italy"
+  ],
+  "start": -753,
+  "end": -509,
+  "figures": [
+    {
+      "id": "romulus",
+      "name": "Romulus",
+      "role": "founder",
+      "years": "-753/-715",
+      "significance": "Legendary founder of Rome"
+    },
+    {
+      "id": "tarquin_superbus",
+      "name": "Tarquin the Proud",
+      "role": "last_ruler",
+      "years": "-534/-496",
+      "significance": "Last king; his tyranny led to the founding of the Republic"
     }
-  }
-]
+  ]
+}

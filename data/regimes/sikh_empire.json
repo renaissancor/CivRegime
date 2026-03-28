@@ -1,13 +1,32 @@
-[
-  {
-    "id": "sikh_empire",
-    "name": "Sikh Empire",
-    "cultural_language": 280,
-    "start": 1799,
-    "end": 1849,
-    "ideology": {
-      "religion": 163,
-      "government": "monarchy"
+{
+  "id": "sikh_empire",
+  "name": "Sikh Empire",
+  "ruling_ethnicity": "punjabi",
+  "cultural_language": "punjabi",
+  "ideology": {
+    "religion": "sikhism",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "punjab"
+  ],
+  "start": 1799,
+  "end": 1849,
+  "note": "Ranjit Singh unified the Sikh misls (confederacies) into the last major pre-British Indian empire. The Sikh army (Khalsa) trained by European officers was the most modern in Asia. The two Anglo-Sikh Wars ended Sikh independence — the Koh-i-Noor diamond was ceded to the British Crown.",
+  "figures": [
+    {
+      "id": "ranjit_singh",
+      "name": "Ranjit Singh",
+      "role": "founder",
+      "years": "1780/1839",
+      "significance": "The Lion of the Punjab; unified the Sikh misls at age 19; built a secular empire that welcomed Hindus, Muslims, and Europeans; kept the British at bay through diplomacy for 40 years"
+    },
+    {
+      "id": "hari_singh_nalwa",
+      "name": "Hari Singh Nalwa",
+      "role": "military",
+      "years": "1791/1837",
+      "significance": "Greatest Sikh general; conquered Peshawar and Kashmir; extended Sikh rule to the Khyber Pass — the first time India's northwest frontier was secured from Central Asian invasions"
     }
-  }
-]
+  ]
+}

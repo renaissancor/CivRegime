@@ -1,11 +1,41 @@
-[
-  {
-    "id": "peoples_republic_of_china",
-    "name": "People's Republic of China",
-    "start": 1949,
-    "ideology": {
-      "religion": 249,
-      "government": "monarchy"
+{
+  "id": "peoples_republic_of_china",
+  "name": "People's Republic of China",
+  "ruling_ethnicity": "han",
+  "cultural_language": "modern_chinese",
+  "ideology": {
+    "religion": "chinese_folk_religion",
+    "government": "communist_state"
+  },
+  "territories": [
+    "yellow_river",
+    "yangtze",
+    "manchuria"
+  ],
+  "start": 1949,
+  "end": null,
+  "note": "Mao Zedong proclaimed the PRC on October 1, 1949. The Great Leap Forward (1958–62) caused 15–55 million deaths by famine. The Cultural Revolution (1966–76) destroyed traditional culture and persecuted intellectuals. Deng Xiaoping's economic reforms (1978) launched 40 years of 10% annual growth — the largest poverty reduction in history. Xi Jinping's consolidation of personal power since 2012.",
+  "figures": [
+    {
+      "id": "mao_zedong",
+      "name": "Mao Zedong",
+      "role": "founder",
+      "years": "1893/1976",
+      "significance": "Founded the PRC; united China after a century of humiliation; but the Great Leap Forward and Cultural Revolution caused tens of millions of deaths"
+    },
+    {
+      "id": "deng_xiaoping",
+      "name": "Deng Xiaoping",
+      "role": "ruler",
+      "years": "1904/1997",
+      "significance": "Opened China to market economics while maintaining party control; 'Socialism with Chinese characteristics'; his reforms lifted 800 million people out of poverty"
+    },
+    {
+      "id": "xi_jinping",
+      "name": "Xi Jinping",
+      "role": "ruler",
+      "years": "1953/null",
+      "significance": "General Secretary since 2012; abolished presidential term limits (2018); Belt and Road Initiative; escalating assertiveness on Taiwan, South China Sea, and Xinjiang"
     }
-  }
-]
+  ]
+}

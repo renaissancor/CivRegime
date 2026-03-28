@@ -1,14 +1,38 @@
-[
-  {
-    "id": "polish_lithuanian_commonwealth",
-    "name": "Polish-Lithuanian Commonwealth",
-    "ruling_ethnicity": 161,
-    "cultural_language": 367,
-    "start": 1569,
-    "end": 1795,
-    "ideology": {
-      "religion": 2,
-      "government": "monarchy"
+{
+  "id": "polish_lithuanian_commonwealth",
+  "name": "Polish-Lithuanian Commonwealth",
+  "ruling_ethnicity": "polish",
+  "cultural_language": "polish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "elective_monarchy"
+  },
+  "territories": [
+    "poland",
+    "lithuania",
+    "kievan_rus"
+  ],
+  "start": 1569,
+  "end": 1795,
+  "policies": [
+    "liberum_veto",
+    "constitution_may_3"
+  ],
+  "note": "The Rzeczpospolita — an elected monarchy (Sejm elected the king) with the liberum veto, which allowed any single noble to dissolve the Sejm. The world's first country with a modern written constitution (May 3, 1791). Partitioned three times by Russia, Prussia, and Austria (1772, 1793, 1795) — erased from the map for 123 years.",
+  "figures": [
+    {
+      "id": "sigismund_ii",
+      "name": "Sigismund II Augustus",
+      "role": "founder",
+      "years": "1520/1572",
+      "significance": "Last Jagiellonian; sealed the Union of Lublin (1569) transforming the personal union into a real Commonwealth with shared parliament"
+    },
+    {
+      "id": "jan_sobieski",
+      "name": "Jan III Sobieski",
+      "role": "ruler",
+      "years": "1629/1696",
+      "significance": "Led the relief of Vienna (1683) against the Ottoman siege — the largest cavalry charge in history; saved Christian Europe but Poland gained little from it"
     }
-  }
-]
+  ]
+}

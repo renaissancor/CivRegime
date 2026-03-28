@@ -1,10 +1,33 @@
-[
-  {
-    "id": "ptolemaic_egypt",
-    "name": "Ptolemaic Kingdom",
-    "ruling_ethnicity": 156,
-    "cultural_language": 255,
-    "start": -305,
-    "end": -30
-  }
-]
+{
+  "id": "ptolemaic_egypt",
+  "name": "Ptolemaic Kingdom",
+  "ruling_ethnicity": "macedonian",
+  "cultural_language": "koine_greek",
+  "ideology": {
+    "religion": "hellenic_paganism",
+    "government": "absolute_monarchy"
+  },
+  "territories": [
+    "egypt",
+    "levant"
+  ],
+  "start": -305,
+  "end": -30,
+  "note": "Greek-speaking Macedonian rulers adopted Egyptian royal titles and iconography for legitimacy, but the court was Hellenic",
+  "figures": [
+    {
+      "id": "ptolemy_i",
+      "name": "Ptolemy I Soter",
+      "role": "founder",
+      "years": "-367/-283",
+      "significance": "Macedonian general who founded the dynasty; established the Library of Alexandria"
+    },
+    {
+      "id": "cleopatra_vii",
+      "name": "Cleopatra VII",
+      "role": "last_ruler",
+      "years": "-69/-30",
+      "significance": "Last active Ptolemaic ruler; only one to learn Egyptian; her death ended Greek rule in Egypt"
+    }
+  ]
+}

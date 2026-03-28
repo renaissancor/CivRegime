@@ -1,13 +1,40 @@
-[
-  {
-    "id": "zhou_dynasty",
-    "name": "Zhou Dynasty",
-    "cultural_language": 573,
-    "start": -1046,
-    "end": -256,
-    "ideology": {
-      "religion": 249,
-      "government": "monarchy"
+{
+  "id": "zhou_dynasty",
+  "name": "Zhou Dynasty",
+  "ruling_ethnicity": "han",
+  "cultural_language": "old_chinese",
+  "ideology": {
+    "religion": "chinese_folk_religion",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "yellow_river",
+    "yangtze"
+  ],
+  "start": -1046,
+  "end": -256,
+  "note": "Late Zhou (Warring States) produced Confucius, Laozi, Mencius, Han Fei — the foundational philosophical schools that would define all subsequent Chinese governance",
+  "figures": [
+    {
+      "id": "confucius",
+      "name": "Confucius (Kong Qiu)",
+      "role": "philosopher",
+      "years": "-551/-479",
+      "significance": "Defined the moral and political philosophy that governed China for 2500 years"
+    },
+    {
+      "id": "sun_tzu",
+      "name": "Sun Tzu",
+      "role": "philosopher",
+      "years": "-544/-496",
+      "significance": "Author of The Art of War"
+    },
+    {
+      "id": "laozi",
+      "name": "Laozi",
+      "role": "philosopher",
+      "years": "-601/-531",
+      "significance": "Founder of Taoism; author of the Tao Te Ching"
     }
-  }
-]
+  ]
+}

@@ -1,8 +1,25 @@
-[
-  {
-    "id": "xiongnu",
-    "name": "Xiongnu Confederation",
-    "start": -209,
-    "end": 93
-  }
-]
+{
+  "id": "xiongnu",
+  "name": "Xiongnu Confederation",
+  "ruling_ethnicity": "turkic",
+  "cultural_language": "old_turkic",
+  "ideology": {
+    "religion": "tengriism",
+    "government": "khaganate"
+  },
+  "territories": [
+    "mongolian_plateau",
+    "central_asian_steppe"
+  ],
+  "start": -209,
+  "end": 93,
+  "figures": [
+    {
+      "id": "modu_chanyu",
+      "name": "Modu Chanyu",
+      "role": "founder",
+      "years": "-234/-174",
+      "significance": "United the steppe tribes; template for all subsequent steppe empires"
+    }
+  ]
+}

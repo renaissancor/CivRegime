@@ -1,13 +1,32 @@
-[
-  {
-    "id": "maratha_empire",
-    "name": "Maratha Empire",
-    "cultural_language": 275,
-    "start": 1674,
-    "end": 1818,
-    "ideology": {
-      "religion": 147,
-      "government": "monarchy"
+{
+  "id": "maratha_empire",
+  "name": "Maratha Empire",
+  "ruling_ethnicity": "indo_aryan",
+  "cultural_language": "marathi",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "deccan"
+  ],
+  "start": 1674,
+  "end": 1818,
+  "note": "The Marathas challenged Mughal dominance and nearly unified India under Hindu rule before the British arrived. At their peak (1760) they controlled most of the subcontinent. The Third Battle of Panipat (1761) against the Afghans shattered Maratha power and opened the door for British expansion.",
+  "figures": [
+    {
+      "id": "shivaji_bhonsle",
+      "name": "Shivaji Bhonsle",
+      "role": "founder",
+      "years": "1627/1680",
+      "significance": "Founded the Maratha kingdom through guerrilla warfare against Mughal and Bijapur forces; crowned Chhatrapati (sovereign) 1674; created the concept of Hindavi Swarajya (Hindu self-rule)"
+    },
+    {
+      "id": "bajirao_i",
+      "name": "Bajirao I",
+      "role": "ruler",
+      "years": "1700/1740",
+      "significance": "Greatest Peshwa (prime minister); never lost a battle; expanded Maratha territory from the Deccan to Delhi; the dominant military mind of 18th-century India"
     }
-  }
-]
+  ]
+}

@@ -1,10 +1,43 @@
-[
-  {
-    "id": "mongol_empire",
-    "name": "Mongol Empire",
-    "ruling_ethnicity": 89,
-    "cultural_language": 431,
-    "start": 1206,
-    "end": 1368
-  }
-]
+{
+  "id": "mongol_empire",
+  "name": "Mongol Empire",
+  "ruling_ethnicity": "mongol",
+  "cultural_language": "classical_mongolian",
+  "ideology": {
+    "religion": "tengriism",
+    "government": "khaganate"
+  },
+  "territories": [
+    "mongolian_plateau",
+    "central_asian_steppe",
+    "transoxiana",
+    "iran_plateau",
+    "khorasan",
+    "mesopotamia",
+    "yellow_river",
+    "yangtze",
+    "manchuria"
+  ],
+  "start": 1206,
+  "end": 1368,
+  "policies": [
+    "yasa_tolerance"
+  ],
+  "note": "Religiously tolerant by policy (Yasa law); the different successor khanates each converted to the local dominant religion",
+  "figures": [
+    {
+      "id": "genghis_khan",
+      "name": "Genghis Khan",
+      "role": "founder",
+      "years": "1162/1227",
+      "significance": "Greatest conqueror by territory in history; created the Yasa and the meritocratic military system"
+    },
+    {
+      "id": "ogedei_khan",
+      "name": "Ogedei Khan",
+      "role": "ruler",
+      "years": "1186/1241",
+      "significance": "Completed the conquest of North China; launched the invasion of Europe"
+    }
+  ]
+}

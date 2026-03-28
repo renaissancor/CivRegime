@@ -1,8 +1,34 @@
-[
-  {
-    "id": "delhi_sultanate",
-    "name": "Delhi Sultanate",
-    "start": 1206,
-    "end": 1526
-  }
-]
+{
+  "id": "delhi_sultanate",
+  "name": "Delhi Sultanate",
+  "ruling_ethnicity": "turkic",
+  "cultural_language": "new_persian",
+  "ideology": {
+    "religion": "sunni_hanafi",
+    "government": "sultanate"
+  },
+  "territories": [
+    "indus_valley",
+    "punjab",
+    "ganges_plain"
+  ],
+  "start": 1206,
+  "end": 1526,
+  "note": "Established the Persianate Islamic cultural layer in India; Persian as court language; laid the groundwork for the Hindu-Muslim civilizational divide that defines the subcontinent to this day",
+  "figures": [
+    {
+      "id": "qutb_ud_din_aibak",
+      "name": "Qutb ud-Din Aibak",
+      "role": "founder",
+      "years": "1150/1210",
+      "significance": "Founded the Delhi Sultanate; built the Qutb Minar"
+    },
+    {
+      "id": "alauddin_khalji",
+      "name": "Alauddin Khalji",
+      "role": "ruler",
+      "years": "1266/1316",
+      "significance": "Most powerful Delhi Sultan; repelled multiple Mongol invasions"
+    }
+  ]
+}

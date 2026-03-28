@@ -1,12 +1,24 @@
-[
-  {
-    "id": "phoenician_states",
-    "name": "Phoenician City-States (Tyre, Sidon, Byblos)",
-    "start": -1200,
-    "end": -332,
-    "ideology": {
-      "religion": 110,
-      "government": "monarchy"
+{
+  "id": "phoenician_states",
+  "name": "Phoenician City-States (Tyre, Sidon, Byblos)",
+  "ruling_ethnicity": "phoenician",
+  "cultural_language": "phoenician_language",
+  "ideology": {
+    "religion": "canaanite_religion",
+    "government": "oligarchic_republic"
+  },
+  "territories": [
+    "levant"
+  ],
+  "start": -1200,
+  "end": -332,
+  "figures": [
+    {
+      "id": "hiram_tyre",
+      "name": "Hiram I of Tyre",
+      "role": "ruler",
+      "years": "-980/-947",
+      "significance": "Ally of King Solomon; expanded Phoenician trade networks across the Mediterranean"
     }
-  }
-]
+  ]
+}

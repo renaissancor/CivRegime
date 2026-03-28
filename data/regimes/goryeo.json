@@ -1,13 +1,16 @@
-[
-  {
-    "id": "goryeo",
-    "name": "Goryeo Dynasty",
-    "cultural_language": 400,
-    "start": 918,
-    "end": 1392,
-    "ideology": {
-      "religion": 119,
-      "government": "monarchy"
-    }
-  }
-]
+{
+  "id": "goryeo",
+  "name": "Goryeo Dynasty",
+  "ruling_ethnicity": "korean",
+  "cultural_language": "middle_korean",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "centralized_monarchy"
+  },
+  "territories": [
+    "korean_peninsula"
+  ],
+  "start": 918,
+  "end": 1392,
+  "note": "Founded by Wang Geon; successfully resisted multiple Mongol (Yuan) invasions, eventually becoming a vassal-son-in-law state of the Yuan. Known for the Tripitaka Koreana and Goryeo celadon."
+}

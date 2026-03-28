@@ -1,12 +1,24 @@
-[
-  {
-    "id": "old_babylonian",
-    "name": "Old Babylonian Empire",
-    "start": -1894,
-    "end": -1595,
-    "ideology": {
-      "religion": 80,
-      "government": "monarchy"
+{
+  "id": "old_babylonian",
+  "name": "Old Babylonian Empire",
+  "ruling_ethnicity": "babylonian",
+  "cultural_language": "akkadian",
+  "ideology": {
+    "religion": "mesopotamian_religion",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "mesopotamia"
+  ],
+  "start": -1894,
+  "end": -1595,
+  "figures": [
+    {
+      "id": "hammurabi",
+      "name": "Hammurabi",
+      "role": "ruler",
+      "years": "-1810/-1750",
+      "significance": "Author of the Code of Hammurabi"
     }
-  }
-]
+  ]
+}

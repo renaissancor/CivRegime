@@ -1,11 +1,40 @@
-[
-  {
-    "id": "republic_of_india",
-    "name": "Republic of India",
-    "start": 1947,
-    "ideology": {
-      "religion": 147,
-      "government": "monarchy"
+{
+  "id": "republic_of_india",
+  "name": "Republic of India",
+  "ruling_ethnicity": "indo_aryan",
+  "cultural_language": "hindi",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "ganges_plain",
+    "deccan"
+  ],
+  "start": 1947,
+  "end": null,
+  "note": "Independent India is the world's largest democracy. Partition from Pakistan (1947) was accompanied by mass violence killing 200,000–2 million and displacing 10–20 million people. Nehru's non-aligned foreign policy, democratic constitution, and planned economy shaped the first decades. Economic liberalisation (1991) transformed India into one of the world's fastest-growing economies. BJP (Hindu nationalist) politics under Modi since 2014.",
+  "figures": [
+    {
+      "id": "ambedkar",
+      "name": "Ambedkar",
+      "role": "cultural",
+      "years": "1891/1956",
+      "significance": "Dalit leader who drafted India's constitution; the most important architect of Indian democracy; converted to Buddhism to escape caste discrimination"
+    },
+    {
+      "id": "indira_gandhi",
+      "name": "Indira Gandhi",
+      "role": "ruler",
+      "years": "1917/1984",
+      "significance": "India's first female Prime Minister; Green Revolution saved India from famine; Emergency rule (1975–77) suspended democracy; assassinated by her Sikh bodyguards after ordering attack on the Golden Temple"
+    },
+    {
+      "id": "modi",
+      "name": "Modi",
+      "role": "ruler",
+      "years": "1950/null",
+      "significance": "Prime Minister since 2014; Hindu nationalist politics; economic modernisation (GST, digital India); BJP Hindu majoritarianism raised concerns about minority rights"
     }
-  }
-]
+  ]
+}

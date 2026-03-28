@@ -1,14 +1,39 @@
-[
-  {
-    "id": "kingdom_of_poland",
-    "name": "Kingdom of Poland",
-    "ruling_ethnicity": 161,
-    "cultural_language": 335,
-    "start": 966,
-    "end": 1569,
-    "ideology": {
-      "religion": 2,
-      "government": "monarchy"
+{
+  "id": "kingdom_of_poland",
+  "name": "Kingdom of Poland",
+  "ruling_ethnicity": "polish",
+  "cultural_language": "latin",
+  "ideology": {
+    "religion": "catholic",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "poland"
+  ],
+  "start": 966,
+  "end": 1569,
+  "note": "Piast dynasty (966–1370), then Jagiellonian (1386–1569). Mieszko I's baptism in 966 is the founding moment of the Polish state. The Union of Lublin (1569) transformed the Polish-Lithuanian personal union into a real Commonwealth.",
+  "figures": [
+    {
+      "id": "mieszko_i",
+      "name": "Mieszko I",
+      "role": "founder",
+      "years": "935/992",
+      "significance": "First historical ruler of Poland; his baptism in 966 placed Poland in the Latin Christian world and is the founding date of the Polish state"
+    },
+    {
+      "id": "casimir_iii_great",
+      "name": "Casimir III the Great",
+      "role": "ruler",
+      "years": "1310/1370",
+      "significance": "'Found Poland wood, left it stone' — built dozens of castles and towns; codified Polish law; welcomed Jewish refugees fleeing Western European pogroms"
+    },
+    {
+      "id": "jadwiga",
+      "name": "Jadwiga",
+      "role": "ruler",
+      "years": "1373/1399",
+      "significance": "First female King of Poland; married Jogaila of Lithuania, creating the personal union that would become the largest state in Europe"
     }
-  }
-]
+  ]
+}

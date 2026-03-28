@@ -1,12 +1,46 @@
-[
-  {
-    "id": "kingdom_of_scotland",
-    "name": "Kingdom of Scotland",
-    "start": 843,
-    "end": 1707,
-    "ideology": {
-      "religion": 2,
-      "government": "monarchy"
+{
+  "id": "kingdom_of_scotland",
+  "name": "Kingdom of Scotland",
+  "ruling_ethnicity": "gaelic",
+  "cultural_language": "scots_gaelic",
+  "ideology": {
+    "religion": "catholic",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "scotland"
+  ],
+  "start": 843,
+  "end": 1707,
+  "note": "Kenneth MacAlpin united the Picts and Gaels. Over centuries the court Normanised and Scots (a Germanic dialect) replaced Gaelic as the lowland tongue, while Gaelic persisted in the Highlands.",
+  "figures": [
+    {
+      "id": "kenneth_macalpin",
+      "name": "Kenneth MacAlpin",
+      "role": "founder",
+      "years": "810/858",
+      "significance": "United the Pictish and Gaelic kingdoms; traditionally the first King of Scotland"
+    },
+    {
+      "id": "william_wallace",
+      "name": "William Wallace",
+      "role": "military",
+      "years": "1270/1305",
+      "significance": "Led Scottish resistance against Edward I after Stirling Bridge (1297); executed in London; became Scotland's enduring national hero"
+    },
+    {
+      "id": "robert_bruce",
+      "name": "Robert I the Bruce",
+      "role": "ruler",
+      "years": "1274/1329",
+      "significance": "Won Scottish independence at Bannockburn (1314); the Declaration of Arbroath (1320) is among the earliest assertions of popular sovereignty"
+    },
+    {
+      "id": "mary_queen_of_scots",
+      "name": "Mary Queen of Scots",
+      "role": "ruler",
+      "years": "1542/1587",
+      "significance": "Catholic queen deposed by Protestant lords; imprisoned by Elizabeth I for 19 years; executed — her son James VI inherited England as James I"
     }
-  }
-]
+  ]
+}

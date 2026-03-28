@@ -1,13 +1,24 @@
-[
-  {
-    "id": "shang_dynasty",
-    "name": "Shang Dynasty",
-    "cultural_language": 573,
-    "start": -1600,
-    "end": -1046,
-    "ideology": {
-      "religion": 249,
-      "government": "monarchy"
+{
+  "id": "shang_dynasty",
+  "name": "Shang Dynasty",
+  "ruling_ethnicity": "han",
+  "cultural_language": "old_chinese",
+  "ideology": {
+    "religion": "chinese_folk_religion",
+    "government": "divine_monarchy"
+  },
+  "territories": [
+    "yellow_river"
+  ],
+  "start": -1600,
+  "end": -1046,
+  "figures": [
+    {
+      "id": "wu_ding",
+      "name": "Wu Ding",
+      "role": "ruler",
+      "years": "-1250/-1192",
+      "significance": "Greatest Shang king; oracle bone inscriptions from his reign are the oldest surviving Chinese writing"
     }
-  }
-]
+  ]
+}

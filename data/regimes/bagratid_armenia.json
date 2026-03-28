@@ -1,12 +1,32 @@
-[
-  {
-    "id": "bagratid_armenia",
-    "name": "Bagratid Armenia",
-    "start": 885,
-    "end": 1064,
-    "ideology": {
-      "religion": 9,
-      "government": "monarchy"
+{
+  "id": "bagratid_armenia",
+  "name": "Bagratid Armenia",
+  "ruling_ethnicity": "caucasian",
+  "cultural_language": "old_armenian",
+  "ideology": {
+    "religion": "armenian_apostolic",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "caucasus"
+  ],
+  "start": 885,
+  "end": 1064,
+  "note": "Armenian and Georgian Bagratid dynasties rebuilt Christian statehood after the Arab conquest. The Armenian Bagratids (885-1045) and their Georgian branch created the 'Armenian Renaissance' with Ani as a capital that rivalled Constantinople. Ani fell to the Seljuk Turks in 1064, effectively ending Armenian political independence for centuries.",
+  "figures": [
+    {
+      "id": "ashot_i",
+      "name": "Ashot I the Great",
+      "role": "founder",
+      "years": "820/890",
+      "significance": "Acknowledged as King of Kings of Armenia by both Byzantine and Abbasid courts; restored Armenian independence after two centuries of Arab domination"
+    },
+    {
+      "id": "gagik_i",
+      "name": "Gagik I",
+      "role": "ruler",
+      "years": "?/1020",
+      "significance": "Greatest Bagratid king; Ani at its height was one of the world's great cities with 100,000 inhabitants and the Cathedral of Ani"
     }
-  }
-]
+  ]
+}

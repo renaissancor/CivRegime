@@ -1,12 +1,49 @@
-[
-  {
-    "id": "al_andalus",
-    "name": "Al-Andalus",
-    "start": 711,
-    "end": 1492,
-    "ideology": {
-      "religion": 51,
-      "government": "monarchy"
+{
+  "id": "al_andalus",
+  "name": "Al-Andalus",
+  "ruling_ethnicity": "semitic",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni",
+    "government": "caliphate"
+  },
+  "territories": [
+    "iberia"
+  ],
+  "start": 711,
+  "end": 1492,
+  "policies": [
+    "cordoba_caliphate"
+  ],
+  "note": "The Muslim-ruled territory of Iberia from the Umayyad conquest (711) to the fall of Granada (1492). At its peak (8th–10th centuries) Al-Andalus was the most sophisticated civilisation in Europe — Córdoba rivalled Constantinople and Baghdad. The Caliphate of Córdoba (929–1031) under Abd ar-Rahman III was the golden age. After 1031 it fragmented into taifa kingdoms; the Almoravid (1086) and Almohad (1147) Berber dynasties revived Muslim power but with more rigid Islamic orthodoxy. The Christian Reconquista progressively reduced Al-Andalus until only Granada remained (1238–1492). Concurrent with Christian kingdoms in the north throughout.",
+  "figures": [
+    {
+      "id": "tariq_ibn_ziyad",
+      "name": "Tariq ibn Ziyad",
+      "role": "military",
+      "years": "670/720",
+      "significance": "Led the Umayyad invasion of Iberia (711); crossed from Africa to Gibraltar (Jabal Tariq — 'Mountain of Tariq'); his 7,000-man army destroyed the Visigothic kingdom in a single battle"
+    },
+    {
+      "id": "abd_al_rahman_iii",
+      "name": "Abd al-Rahman III",
+      "role": "ruler",
+      "years": "889/961",
+      "significance": "Declared Caliph of Córdoba (929); presided over the golden age of Al-Andalus; Córdoba under his rule was the most sophisticated city in Europe"
+    },
+    {
+      "id": "averroes",
+      "name": "Averroes (Ibn Rushd)",
+      "role": "cultural",
+      "years": "1126/1198",
+      "significance": "The greatest Islamic philosopher; his commentaries on Aristotle transmitted classical Greek philosophy to medieval Europe through Latin translations — sparked the European scholastic tradition"
+    },
+    {
+      "id": "boabdil",
+      "name": "Muhammad XII (Boabdil)",
+      "role": "ruler",
+      "years": "1460/1533",
+      "significance": "Last ruler of Granada; surrendered the Alhambra to Ferdinand and Isabella on January 2, 1492 — the last Muslim ruler in Iberia. Legend: he wept as he left, and his mother said 'Weep like a woman for what you could not defend as a man'"
     }
-  }
-]
+  ]
+}

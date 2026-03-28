@@ -1,8 +1,49 @@
-[
-  {
-    "id": "seljuk_empire",
-    "name": "Seljuk Empire",
-    "start": 1037,
-    "end": 1194
-  }
-]
+{
+  "id": "seljuk_empire",
+  "name": "Seljuk Empire",
+  "ruling_ethnicity": "turkic",
+  "cultural_language": "new_persian",
+  "ideology": {
+    "religion": "sunni_hanafi",
+    "government": "sultanate"
+  },
+  "territories": [
+    "transoxiana",
+    "iran_plateau",
+    "mesopotamia",
+    "khorasan"
+  ],
+  "start": 1037,
+  "end": 1194,
+  "note": "Oghuz Turkic rulers adopted Persian as court language; patronized Persian scholars — Omar Khayyam, al-Ghazali, Nizam al-Mulk all flourished under Seljuk rule",
+  "figures": [
+    {
+      "id": "tughril",
+      "name": "Tughril",
+      "role": "founder",
+      "years": "990/1063",
+      "significance": "Entered Baghdad (1055) as Abbasid protector; received the title Sultan"
+    },
+    {
+      "id": "alp_arslan",
+      "name": "Alp Arslan",
+      "role": "ruler",
+      "years": "1029/1072",
+      "significance": "Defeated Byzantium at Manzikert (1071) — opened Anatolia to Turkic settlement"
+    },
+    {
+      "id": "nizam_al_mulk",
+      "name": "Nizam al-Mulk",
+      "role": "administrator",
+      "years": "1018/1092",
+      "significance": "Grand vizier; his Siyasatnama is the masterwork of Persian administrative theory"
+    },
+    {
+      "id": "omar_khayyam",
+      "name": "Omar Khayyam",
+      "role": "cultural",
+      "years": "1048/1131",
+      "significance": "Mathematician, astronomer, and poet (Rubaiyat); pinnacle of Seljuk Persian intellectual culture"
+    }
+  ]
+}

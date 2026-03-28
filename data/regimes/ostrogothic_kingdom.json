@@ -1,13 +1,32 @@
-[
-  {
-    "id": "ostrogothic_kingdom",
-    "name": "Ostrogothic Kingdom of Italy",
-    "cultural_language": 335,
-    "start": 493,
-    "end": 553,
-    "ideology": {
-      "religion": 2,
-      "government": "monarchy"
+{
+  "id": "ostrogothic_kingdom",
+  "name": "Ostrogothic Kingdom of Italy",
+  "ruling_ethnicity": "germanic",
+  "cultural_language": "latin",
+  "ideology": {
+    "religion": "catholic",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "italy"
+  ],
+  "start": 493,
+  "end": 553,
+  "note": "Theodoric the Great established the most sophisticated post-Roman Germanic kingdom — a genuine synthesis of Gothic and Roman culture. He ruled through the existing Roman administrative machinery while keeping Goths as the military class. His court at Ravenna patronised art and philosophy (Boethius wrote the Consolation of Philosophy in his prison). Destroyed by the Byzantine reconquest under Justinian I (Gothic Wars 535–554).",
+  "figures": [
+    {
+      "id": "theodoric_great",
+      "name": "Theodoric the Great",
+      "role": "founder",
+      "years": "454/526",
+      "significance": "Conquered Italy by killing Odoacer at a peace banquet (493); ruled the most sophisticated post-Roman Germanic state; his court at Ravenna preserved Roman learning; the closest thing to a 'barbarian king who was also a Roman statesman'"
+    },
+    {
+      "id": "boethius",
+      "name": "Boethius",
+      "role": "cultural",
+      "years": "477/524",
+      "significance": "Roman senator and philosopher at Theodoric's court; wrote the Consolation of Philosophy while awaiting execution; the most widely read book in medieval Europe after the Bible"
     }
-  }
-]
+  ]
+}

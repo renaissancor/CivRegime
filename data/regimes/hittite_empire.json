@@ -1,13 +1,32 @@
-[
-  {
-    "id": "hittite_empire",
-    "name": "Hittite Empire",
-    "ruling_ethnicity": 176,
-    "start": -1600,
-    "end": -1180,
-    "ideology": {
-      "religion": 70,
-      "government": "monarchy"
+{
+  "id": "hittite_empire",
+  "name": "Hittite Empire",
+  "ruling_ethnicity": "hittite",
+  "cultural_language": "hittite_lang",
+  "ideology": {
+    "religion": "anatolian_paganism",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "anatolia"
+  ],
+  "start": -1600,
+  "end": -1180,
+  "note": "The dominant Anatolian power of the Bronze Age. Their sudden collapse (~1180 BC) during the Bronze Age Collapse remains one of history's great mysteries.",
+  "figures": [
+    {
+      "id": "suppiluliuma_i",
+      "name": "Suppiluliuma I",
+      "role": "ruler",
+      "years": "?/-1322",
+      "significance": "Brought the Hittite Empire to its peak; shattered Mitanni and rivaled Egypt"
+    },
+    {
+      "id": "hattusili_iii",
+      "name": "Hattusili III",
+      "role": "ruler",
+      "years": "?/-1237",
+      "significance": "Signed the first recorded peace treaty with Egypt (Ramesses II), preserved on clay tablets"
     }
-  }
-]
+  ]
+}

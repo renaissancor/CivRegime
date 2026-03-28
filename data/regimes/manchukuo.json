@@ -1,12 +1,25 @@
-[
-  {
-    "id": "manchukuo",
-    "name": "Manchukuo",
-    "start": 1932,
-    "end": 1945,
-    "ideology": {
-      "religion": 249,
-      "government": "monarchy"
+{
+  "id": "manchukuo",
+  "name": "Manchukuo",
+  "ruling_ethnicity": "han",
+  "cultural_language": "modern_chinese",
+  "ideology": {
+    "religion": "chinese_folk_religion",
+    "government": "absolute_monarchy"
+  },
+  "territories": [
+    "manchuria"
+  ],
+  "start": 1932,
+  "end": 1945,
+  "note": "Japanese puppet state in Manchuria and Inner Mongolia, with the last Qing emperor Puyi as nominal head of state. The Kwantung Army controlled all real power. Site of Unit 731 (biological warfare experiments on prisoners). Collapsed immediately when the Soviet Union declared war on Japan (August 1945) and invaded Manchuria.",
+  "figures": [
+    {
+      "id": "puyi_manchukuo",
+      "name": "Puyi",
+      "role": "ruler",
+      "years": "1906/1967",
+      "significance": "Last Qing Emperor; child emperor from 1908; abdicated 1912; manipulated by the Japanese as puppet emperor of Manchukuo 1934–1945; later rehabilitated as a citizen of the PRC — his memoir became The Last Emperor"
     }
-  }
-]
+  ]
+}

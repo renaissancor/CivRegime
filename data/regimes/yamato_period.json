@@ -1,14 +1,25 @@
-[
-  {
-    "id": "yamato_period",
-    "name": "Yamato Period",
-    "ruling_ethnicity": 82,
-    "cultural_language": 384,
-    "start": 250,
-    "end": 710,
-    "ideology": {
-      "religion": 261,
-      "government": "monarchy"
+{
+  "id": "yamato_period",
+  "name": "Yamato Period",
+  "ruling_ethnicity": "yamato",
+  "cultural_language": "old_japanese",
+  "ideology": {
+    "religion": "shinto_buddhism",
+    "government": "centralized_monarchy"
+  },
+  "territories": [
+    "japanese_archipelago"
+  ],
+  "start": 250,
+  "end": 710,
+  "note": "The emergence of the Yamato imperial line and the introduction of Buddhism and Chinese characters. Includes the Kofun and Asuka sub-periods.",
+  "figures": [
+    {
+      "id": "prince_shotoku",
+      "name": "Prince Shotoku",
+      "role": "ruler",
+      "years": "574/622",
+      "significance": "Authored the Seventeen-Article Constitution and promoted Buddhism."
     }
-  }
-]
+  ]
+}

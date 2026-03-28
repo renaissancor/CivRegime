@@ -1,13 +1,17 @@
-[
-  {
-    "id": "three_kingdoms_korea",
-    "name": "Three Kingdoms of Korea",
-    "cultural_language": 401,
-    "start": -57,
-    "end": 668,
-    "ideology": {
-      "religion": 119,
-      "government": "monarchy"
-    }
-  }
-]
+{
+  "id": "three_kingdoms_korea",
+  "name": "Three Kingdoms of Korea",
+  "ruling_ethnicity": "korean",
+  "cultural_language": "old_korean",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "korean_peninsula",
+    "manchuria"
+  ],
+  "start": -57,
+  "end": 668,
+  "note": "Confederation of three competing kingdoms: Goguryeo (north), Baekje (southwest), and Silla (southeast). All three eventually unified under Silla after Tang-Silla alliance eliminated rivals."
+}

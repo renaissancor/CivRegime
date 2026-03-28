@@ -1,13 +1,24 @@
-[
-  {
-    "id": "ur_iii",
-    "name": "Third Dynasty of Ur (Neo-Sumerian)",
-    "ruling_ethnicity": 203,
-    "start": -2112,
-    "end": -2004,
-    "ideology": {
-      "religion": 80,
-      "government": "monarchy"
+{
+  "id": "ur_iii",
+  "name": "Third Dynasty of Ur (Neo-Sumerian)",
+  "ruling_ethnicity": "sumerian",
+  "cultural_language": "sumerian_lang",
+  "ideology": {
+    "religion": "mesopotamian_religion",
+    "government": "divine_monarchy"
+  },
+  "territories": [
+    "mesopotamia"
+  ],
+  "start": -2112,
+  "end": -2004,
+  "figures": [
+    {
+      "id": "shulgi",
+      "name": "Shulgi",
+      "role": "ruler",
+      "years": "-2094/-2047",
+      "significance": "Greatest Ur III king; standardized weights, measures, and the first bureaucratic state"
     }
-  }
-]
+  ]
+}

@@ -1,14 +1,32 @@
-[
-  {
-    "id": "german_empire",
-    "name": "German Empire (Deutsches Reich)",
-    "ruling_ethnicity": 112,
-    "cultural_language": 240,
-    "start": 1871,
-    "end": 1918,
-    "ideology": {
-      "religion": 30,
-      "government": "monarchy"
+{
+  "id": "german_empire",
+  "name": "German Empire (Deutsches Reich)",
+  "ruling_ethnicity": "german",
+  "cultural_language": "german",
+  "ideology": {
+    "religion": "protestant",
+    "government": "constitutional_monarchy"
+  },
+  "territories": [
+    "germany"
+  ],
+  "start": 1871,
+  "end": 1918,
+  "note": "Proclaimed in the Hall of Mirrors at Versailles after the Franco-Prussian War — deliberately humiliating for France. A Prussian-dominated constitutional monarchy; industrialised at breakneck speed to become Europe's foremost industrial power. Bismarck's system of alliances held Europe in balance until Wilhelm II dismissed him in 1890.",
+  "figures": [
+    {
+      "id": "bismarck",
+      "name": "Otto von Bismarck",
+      "role": "founder",
+      "years": "1815/1898",
+      "significance": "Iron Chancellor; unified Germany through three wars (Denmark, Austria, France); created the first modern welfare state; his alliance system kept the peace — until Wilhelm II dismissed him"
+    },
+    {
+      "id": "wilhelm_ii",
+      "name": "Wilhelm II",
+      "role": "ruler",
+      "years": "1859/1941",
+      "significance": "Dismissed Bismarck; pursued Weltpolitik (global ambition); alienated Britain, France, and Russia simultaneously; led Germany into WWI; abdicated 1918"
     }
-  }
-]
+  ]
+}

@@ -1,11 +1,32 @@
-[
-  {
-    "id": "republic_of_turkey",
-    "name": "Republic of Turkey",
-    "start": 1923,
-    "ideology": {
-      "religion": 51,
-      "government": "monarchy"
+{
+  "id": "republic_of_turkey",
+  "name": "Republic of Turkey",
+  "ruling_ethnicity": "turkic",
+  "cultural_language": "modern_turkish",
+  "ideology": {
+    "religion": "sunni",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "anatolia"
+  ],
+  "start": 1923,
+  "end": null,
+  "note": "Mustafa Kemal Atatürk proclaimed the Republic on October 29, 1923 after the War of Independence expelled Greek, French, and Italian forces. Atatürk's programme of Westernisation and secularism: abolished the Caliphate (1924), replaced Arabic script with Latin alphabet, banned the fez, established women's suffrage (1934). Turkey joined NATO (1952). Military coups in 1960, 1971, 1980 periodically interrupted democracy. Erdoğan's AKP government (2002–present) re-Islamised Turkish public life and consolidated presidential power.",
+  "figures": [
+    {
+      "id": "ataturk",
+      "name": "Atatürk",
+      "role": "founder",
+      "years": "1881/1938",
+      "significance": "Father of modern Turkey; won the War of Independence; created a secular Western republic from Ottoman ruins; his portrait hangs in every Turkish institution — still the dominant presence in Turkish identity"
+    },
+    {
+      "id": "erdogan",
+      "name": "Erdoğan",
+      "role": "ruler",
+      "years": "1954/null",
+      "significance": "Prime Minister then President; longest-serving Turkish leader since Atatürk; built infrastructure and raised living standards; also jailed journalists, purged judges, and turned Turkey in an authoritarian direction after the 2016 coup attempt"
     }
-  }
-]
+  ]
+}

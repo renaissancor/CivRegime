@@ -1,13 +1,26 @@
-[
-  {
-    "id": "sui_dynasty",
-    "name": "Sui Dynasty",
-    "cultural_language": 572,
-    "start": 581,
-    "end": 618,
-    "ideology": {
-      "religion": 119,
-      "government": "monarchy"
+{
+  "id": "sui_dynasty",
+  "name": "Sui Dynasty",
+  "ruling_ethnicity": "han",
+  "cultural_language": "middle_chinese",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "chinese_imperial"
+  },
+  "territories": [
+    "yellow_river",
+    "yangtze"
+  ],
+  "start": 581,
+  "end": 618,
+  "note": "Buddhism was a major state religion alongside Confucianism; Sui rulers were devout Buddhists",
+  "figures": [
+    {
+      "id": "emperor_wen_sui",
+      "name": "Emperor Wen (Yang Jian)",
+      "role": "founder",
+      "years": "541/604",
+      "significance": "Reunified China after 370 years of division; built the Grand Canal"
     }
-  }
-]
+  ]
+}

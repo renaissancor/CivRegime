@@ -1,8 +1,35 @@
-[
-  {
-    "id": "abbasid_caliphate",
-    "name": "Abbasid Caliphate",
-    "start": 750,
-    "end": 1258
-  }
-]
+{
+  "id": "abbasid_caliphate",
+  "name": "Abbasid Caliphate",
+  "ruling_ethnicity": "semitic",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni_hanafi",
+    "government": "caliphate"
+  },
+  "territories": [
+    "mesopotamia",
+    "levant",
+    "iran_plateau",
+    "egypt"
+  ],
+  "start": 750,
+  "end": 1258,
+  "note": "Ruling dynasty remained Arab (Qurayshi lineage); Arabic as the language of religion and law. Persian bureaucrats (Barmakid viziers) dominated administration creating a Persianate court overlay — but the legitimacy anchor was Arab/Islamic, not Persian",
+  "figures": [
+    {
+      "id": "al_mansur",
+      "name": "Al-Mansur",
+      "role": "founder",
+      "years": "714/775",
+      "significance": "Built Baghdad; the city became the largest in the world"
+    },
+    {
+      "id": "harun_al_rashid",
+      "name": "Harun al-Rashid",
+      "role": "ruler",
+      "years": "763/809",
+      "significance": "The golden-age Caliph of the Thousand and One Nights; patron of the House of Wisdom"
+    }
+  ]
+}

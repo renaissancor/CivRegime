@@ -1,14 +1,39 @@
-[
-  {
-    "id": "kingdom_of_hungary",
-    "name": "Kingdom of Hungary",
-    "ruling_ethnicity": 59,
-    "cultural_language": 335,
-    "start": 1000,
-    "end": 1526,
-    "ideology": {
-      "religion": 2,
-      "government": "monarchy"
+{
+  "id": "kingdom_of_hungary",
+  "name": "Kingdom of Hungary",
+  "ruling_ethnicity": "magyar",
+  "cultural_language": "latin",
+  "ideology": {
+    "religion": "catholic",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "hungary"
+  ],
+  "start": 1000,
+  "end": 1526,
+  "note": "Founded by Stephen I who received a crown from Pope Sylvester II. Medieval Hungary was one of the largest European kingdoms, stretching from the Adriatic to Transylvania. The Battle of Mohács (1526) ended the medieval kingdom; Hungary was split between Ottoman and Habsburg rule.",
+  "figures": [
+    {
+      "id": "stephen_i",
+      "name": "Stephen I (Saint Stephen)",
+      "role": "founder",
+      "years": "975/1038",
+      "significance": "Christianised Hungary, received a crown from Rome, and transformed nomadic Magyar tribal society into a medieval Christian kingdom; patron saint of Hungary"
+    },
+    {
+      "id": "john_hunyadi",
+      "name": "John Hunyadi",
+      "role": "military",
+      "years": "1406/1456",
+      "significance": "Defender of Christendom against the Ottomans; won the Battle of Belgrade (1456); his son became Matthias Corvinus"
+    },
+    {
+      "id": "matthias_corvinus",
+      "name": "Matthias Corvinus",
+      "role": "ruler",
+      "years": "1443/1490",
+      "significance": "Renaissance king; built the Bibliotheca Corviniana, one of Europe's greatest libraries; centralised power and modernised Hungary to its medieval peak"
     }
-  }
-]
+  ]
+}

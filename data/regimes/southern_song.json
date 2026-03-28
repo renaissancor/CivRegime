@@ -1,0 +1,11 @@
+{
+  "id": "southern_song",
+  "name": "Southern Song Dynasty",
+  "ruling_ethnicity": "han",
+  "cultural_language": "middle_chinese",
+  "ideology": {
+    "religion": "neo_confucianism"
+  },
+  "start": 1127,
+  "end": 1279
+}

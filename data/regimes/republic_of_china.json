@@ -1,11 +1,34 @@
-[
-  {
-    "id": "republic_of_china",
-    "name": "Republic of China",
-    "start": 1912,
-    "ideology": {
-      "religion": 249,
-      "government": "monarchy"
+{
+  "id": "republic_of_china",
+  "name": "Republic of China",
+  "ruling_ethnicity": "han",
+  "cultural_language": "modern_chinese",
+  "ideology": {
+    "religion": "chinese_folk_religion",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "yellow_river",
+    "yangtze",
+    "manchuria"
+  ],
+  "start": 1912,
+  "end": null,
+  "note": "Succeeded the Qing Dynasty after the 1911 Revolution. Sun Yat-sen's Three Principles (Nationalism, Democracy, People's Livelihood). The ROC ruled mainland China through the warlord era, Northern Expedition (1928), Nanjing Decade of limited modernisation, Japanese War (1937–1945), and Civil War. In 1949 the Communists drove the Nationalist government to Taiwan, where the ROC continues to govern.",
+  "figures": [
+    {
+      "id": "sun_yat_sen",
+      "name": "Sun Yat-sen",
+      "role": "founder",
+      "years": "1866/1925",
+      "significance": "Father of modern China; founded the Kuomintang; his Three Principles of the People remain the ideological foundation of the ROC"
+    },
+    {
+      "id": "chiang_kai_shek",
+      "name": "Chiang Kai-shek",
+      "role": "ruler",
+      "years": "1887/1975",
+      "significance": "United China under Nationalist rule (1928); led China through WWII; lost the Civil War to Mao; governed Taiwan for 26 years as a Cold War ally of the US"
     }
-  }
-]
+  ]
+}

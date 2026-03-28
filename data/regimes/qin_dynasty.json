@@ -1,13 +1,33 @@
-[
-  {
-    "id": "qin_dynasty",
-    "name": "Qin Dynasty",
-    "cultural_language": 573,
-    "start": -221,
-    "end": -206,
-    "ideology": {
-      "religion": 249,
-      "government": "monarchy"
+{
+  "id": "qin_dynasty",
+  "name": "Qin Dynasty",
+  "ruling_ethnicity": "han",
+  "cultural_language": "old_chinese",
+  "ideology": {
+    "religion": "chinese_folk_religion",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "yellow_river",
+    "yangtze"
+  ],
+  "start": -221,
+  "end": -206,
+  "note": "State philosophy was Legalism — entirely different from Confucianism. Qin's brutal efficiency unified China but was ideologically rejected by every subsequent dynasty",
+  "figures": [
+    {
+      "id": "qin_shi_huang",
+      "name": "Qin Shi Huang",
+      "role": "founder",
+      "years": "-259/-210",
+      "significance": "First Emperor of unified China; built the Great Wall and Terracotta Army; his title Huangdi was used by every subsequent emperor"
+    },
+    {
+      "id": "li_si",
+      "name": "Li Si",
+      "role": "administrator",
+      "years": "-280/-208",
+      "significance": "Grand Councillor; architect of Qin Legalism and the first unified Chinese bureaucracy"
     }
-  }
-]
+  ]
+}

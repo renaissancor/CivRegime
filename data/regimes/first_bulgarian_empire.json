@@ -1,14 +1,39 @@
-[
-  {
-    "id": "first_bulgarian_empire",
-    "name": "First Bulgarian Empire",
-    "ruling_ethnicity": 155,
-    "cultural_language": 359,
-    "start": 681,
-    "end": 1018,
-    "ideology": {
-      "religion": 15,
-      "government": "monarchy"
+{
+  "id": "first_bulgarian_empire",
+  "name": "First Bulgarian Empire",
+  "ruling_ethnicity": "south_slavic",
+  "cultural_language": "old_church_slavonic",
+  "ideology": {
+    "religion": "eastern_orthodox",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "balkans"
+  ],
+  "start": 681,
+  "end": 1018,
+  "note": "Founded by Bulgars (a Turkic/steppe people) who subjugated Slavic tribes south of the Danube; the ruling Bulgar class was rapidly absorbed by the Slavic majority. Christianised under Boris I (864) who chose Constantinople over Rome — defining Bulgaria as Orthodox. The Golden Age under Simeon I (893–927) saw Bulgaria become the dominant Balkan power, rivalling Byzantium. Destroyed by Byzantine Emperor Basil II 'the Bulgar-Slayer' at the Battle of Kleidion (1014); he blinded 15,000 prisoners.",
+  "figures": [
+    {
+      "id": "asparuh",
+      "name": "Asparuh (Asparukh)",
+      "role": "founder",
+      "years": "644/701",
+      "significance": "Led the Bulgars across the Danube and defeated Byzantium (681); founded the First Bulgarian Empire; Bulgaria is the oldest state in Europe whose name has not changed"
+    },
+    {
+      "id": "simeon_i_great",
+      "name": "Simeon I the Great",
+      "role": "ruler",
+      "years": "864/927",
+      "significance": "The Bulgarian Golden Age; defeated Byzantium multiple times; claimed title of Emperor (Tsar) of the Bulgarians and Romans; patron of Old Church Slavonic literature"
+    },
+    {
+      "id": "basil_ii_nemesis",
+      "name": "Basil II's Destruction",
+      "role": "military",
+      "years": "958/1025",
+      "significance": "Byzantine Emperor who finally destroyed the First Bulgarian Empire; blinded 15,000 Bulgarian prisoners (1014); earned the epithet 'Bulgar-Slayer'"
     }
-  }
-]
+  ]
+}

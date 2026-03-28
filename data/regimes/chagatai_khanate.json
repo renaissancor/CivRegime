@@ -1,9 +1,26 @@
-[
-  {
-    "id": "chagatai_khanate",
-    "name": "Chagatai Khanate",
-    "ruling_ethnicity": 89,
-    "start": 1226,
-    "end": 1347
-  }
-]
+{
+  "id": "chagatai_khanate",
+  "name": "Chagatai Khanate",
+  "ruling_ethnicity": "mongol",
+  "cultural_language": "uyghur_lang",
+  "ideology": {
+    "religion": "sunni_hanafi",
+    "government": "khanate"
+  },
+  "territories": [
+    "transoxiana",
+    "central_asian_steppe"
+  ],
+  "start": 1226,
+  "end": 1347,
+  "note": "Chagatai Turkic became the prestige literary language of Central Asia after Mongol Turkification",
+  "figures": [
+    {
+      "id": "chagatai_khan",
+      "name": "Chagatai Khan",
+      "role": "founder",
+      "years": "1183/1242",
+      "significance": "Second son of Genghis Khan; Chagatai Turkic language is named after him"
+    }
+  ]
+}

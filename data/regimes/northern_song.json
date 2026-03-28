@@ -1,0 +1,11 @@
+{
+  "id": "northern_song",
+  "name": "Northern Song Dynasty",
+  "ruling_ethnicity": "han",
+  "cultural_language": "middle_chinese",
+  "ideology": {
+    "religion": "neo_confucianism"
+  },
+  "start": 960,
+  "end": 1127
+}

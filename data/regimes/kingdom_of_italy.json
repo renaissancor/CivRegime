@@ -1,14 +1,39 @@
-[
-  {
-    "id": "kingdom_of_italy",
-    "name": "Kingdom of Italy",
-    "ruling_ethnicity": 143,
-    "cultural_language": 329,
-    "start": 1861,
-    "end": 1946,
-    "ideology": {
-      "religion": 2,
-      "government": "monarchy"
+{
+  "id": "kingdom_of_italy",
+  "name": "Kingdom of Italy",
+  "ruling_ethnicity": "italian",
+  "cultural_language": "italian",
+  "ideology": {
+    "religion": "catholic",
+    "government": "constitutional_monarchy"
+  },
+  "territories": [
+    "italy"
+  ],
+  "start": 1861,
+  "end": 1946,
+  "note": "The Risorgimento unified the Italian peninsula for the first time since the Western Roman Empire. Italy joined WWI on the Allied side but felt cheated of territory at Versailles ('mutilated victory'), fuelling the rise of Fascism. Mussolini's regime allied with Nazi Germany; ended with Allied liberation and a 1946 referendum establishing the Republic.",
+  "figures": [
+    {
+      "id": "garibaldi",
+      "name": "Giuseppe Garibaldi",
+      "role": "military",
+      "years": "1807/1882",
+      "significance": "Military hero of unification; his Expedition of the Thousand conquered the Kingdom of the Two Sicilies; the most celebrated Italian of his century"
+    },
+    {
+      "id": "cavour",
+      "name": "Count Cavour",
+      "role": "founder",
+      "years": "1810/1861",
+      "significance": "Political architect of Italian unification; Prime Minister of Piedmont who manoeuvred France and Prussia into enabling Italian independence"
+    },
+    {
+      "id": "mussolini",
+      "name": "Benito Mussolini",
+      "role": "ruler",
+      "years": "1883/1945",
+      "significance": "Invented Fascism; seized power 1922; allied with Hitler; Italy invaded Ethiopia and Greece; executed by partisans 1945 — the first Fascist dictator, killed by his own people"
     }
-  }
-]
+  ]
+}

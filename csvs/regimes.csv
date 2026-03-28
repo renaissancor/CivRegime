@@ -1,165 +1,169 @@
-id,name,state_id,id_ruling_ethnicity,id_ruling_language,id_ruling_religion,start,end
-sumerian_city_states,"Sumerian City-States (Ur, Uruk, Lagash)",,203,,80,-3500,-2334
-old_kingdom_egypt,Old Kingdom Egypt,,,,76,-2686,-2181
-akkadian_empire,Akkadian Empire,,,26,80,-2334,-2154
-ur_iii,Third Dynasty of Ur (Neo-Sumerian),,203,,80,-2112,-2004
-old_babylonian,Old Babylonian Empire,,,,80,-1894,-1595
-hittite_empire,Hittite Empire,,176,,70,-1600,-1180
-shang_dynasty,Shang Dynasty,,,573,249,-1600,-1046
-new_kingdom_egypt,New Kingdom Egypt,,,,76,-1550,-1070
-phoenician_states,"Phoenician City-States (Tyre, Sidon, Byblos)",,,,110,-1200,-332
-kingdom_of_israel,United Kingdom of Israel,,,,59,-1047,-930
-zhou_dynasty,Zhou Dynasty,,,573,249,-1046,-256
-kingdom_of_judah,Kingdom of Judah,,,,59,-930,-586
-neo_assyrian_empire,Neo-Assyrian Empire,,,,80,-911,-609
-kingdom_of_urartu,Kingdom of Urartu,,,33,203,-860,-590
-roman_kingdom,Roman Kingdom,,,335,106,-753,-509
-median_kingdom,Median Kingdom,,134,,203,-678,-550
-meroitic_kingdom,Kingdom of Meroe (Meroitic Kingdom),,,,76,-656,350
-neo_babylonian,Neo-Babylonian (Chaldean) Empire,,,,80,-626,-539
-achaemenid_empire,Achaemenid Empire,,137,295,203,-550,-330
-roman_republic,Roman Republic,,,335,106,-509,-27
-macedonian_empire,Macedonian Empire (Alexander),,156,252,,-336,-323
-maurya_empire,Maurya Empire,,,266,147,-322,-185
-seleucid_empire,Seleucid Empire,,156,255,,-312,-63
-ptolemaic_egypt,Ptolemaic Kingdom,,156,255,,-305,-30
-parthian_empire,Parthian Empire (Arsacid),,135,,203,-247,224
-satavahana_empire,Satavahana Empire,,,278,147,-230,220
-qin_dynasty,Qin Dynasty,,,573,249,-221,-206
-xiongnu,Xiongnu Confederation,,,,,-209,93
-han_dynasty,Han Dynasty,,,573,170,-206,220
-kingdom_of_armenia,Kingdom of Armenia,,,,203,-190,428
-nabataean_kingdom,Nabataean Kingdom,,,33,109,-115,106
-silla,Silla,,,401,119,-57,668
-goguryeo,Goguryeo,,,401,119,-37,668
-baekje,Baekje,,,401,119,-18,660
-roman_empire_pagan,Roman Empire (Pagan),,,335,106,-27,380
-cao_wei,Cao Wei,,,573,170,220,265
-shu_han,Shu Han,,,573,170,221,263
-eastern_wu,Eastern Wu,,,573,170,222,280
-sassanid_empire,Sassanid Empire,,137,,203,224,651
-yamato_period,Yamato Period,,82,384,261,250,710
-western_jin,Western Jin Dynasty,,,573,170,265,316
-gupta_empire,Gupta Empire,,,266,147,320,550
-eastern_jin,Eastern Jin Dynasty,,,573,170,317,420
-hunnic_empire,Hunnic Empire,,,,,350,453
-roman_empire_christian,Roman Empire (Christian),,,335,2,380,395
-northern_dynasties,Northern Dynasties,,,573,119,386,581
-western_roman_empire,Western Roman Empire,,,335,2,395,476
-byzantine_empire,Byzantine Empire,,,,15,395,1453
-visigothic_kingdom,Visigothic Kingdom,,,335,2,418,711
-southern_dynasties,Southern Dynasties,,,573,170,420,589
-vandal_kingdom,Vandal Kingdom of North Africa,,,335,2,429,533
-odoacer_kingdom,Kingdom of Odoacer,,,335,2,476,493
-carolingian_empire,Frankish Kingdom / Carolingian Empire,,,335,2,486,843
-ostrogothic_kingdom,Ostrogothic Kingdom of Italy,,,335,2,493,553
-goktürk_khaganate,Göktürk Khaganate,,,,,552,744
-lombard_kingdom,Kingdom of the Lombards,,,335,2,568,774
-avar_khaganate,Avar Khaganate,,,,,568,804
-sui_dynasty,Sui Dynasty,,,572,119,581,618
-harsha_empire,Harsha Empire,,,266,119,606,647
-tang_dynasty,Tang Dynasty,,,572,170,618,907
-rashidun_caliphate,Rashidun Caliphate,,,,51,632,661
-khazar_khaganate,Khazar Khaganate,,,,62,650,969
-umayyad_caliphate,Umayyad Caliphate,,,,51,661,750
-unified_silla,Unified Silla,,,401,119,668,935
-first_bulgarian_empire,First Bulgarian Empire,,155,359,15,681,1018
-nara_period,Nara Period,,82,384,119,710,794
-al_andalus,Al-Andalus,,,,51,711,1492
-uyghur_khaganate,Uyghur Khaganate,,,,212,744,840
-abbasid_caliphate,Abbasid Caliphate,,,,,750,1258
-pala_empire,Pala Empire,,,278,119,750,1200
-heian_period,Heian Period,,82,384,119,794,1185
-samanid_empire,Samanid Empire,,137,,51,819,999
-kingdom_of_scotland,Kingdom of Scotland,,,,2,843,1707
-kingdom_of_norway,Kingdom of Norway,,,232,103,872,1380
-kievan_rus_regime,Kievan Rus,,149,359,15,882,1240
-bagratid_armenia,Bagratid Armenia,,,,9,885,1064
-kingdom_of_bohemia,Kingdom of Bohemia,,159,362,2,895,1526
-liao_dynasty,Liao Dynasty (Khitan),,88,,119,907,1125
-five_dynasties,Five Dynasties (North China),,,572,170,907,960
-fatimid_caliphate,Fatimid Caliphate,,,,,909,1171
-ten_kingdoms,Ten Kingdoms (South China),,,572,171,907,979
-goryeo,Goryeo Dynasty,,,400,119,918,1392
-kingdom_of_england,Kingdom of England,,111,244,2,927,1707
-kingdom_of_denmark,Kingdom of Denmark,,,232,2,936,
-northern_song,Northern Song Dynasty,,,572,171,960,1127
-holy_roman_empire,Holy Roman Empire,,112,335,2,962,1806
-kingdom_of_poland,Kingdom of Poland,,161,335,2,966,1569
-kingdom_of_sweden,Kingdom of Sweden,,,232,2,970,
-ghaznavid_empire,Ghaznavid Empire,,,,51,977,1186
-kingdom_of_france,Kingdom of France,,141,310,2,987,1792
-kingdom_of_hungary,Kingdom of Hungary,,59,335,2,1000,1526
-seljuk_empire,Seljuk Empire,,,,,1037,1194
-seljuk_rum,Sultanate of Rum,,,,,1077,1307
-jin_dynasty_jurchen,Jin Dynasty (Jurchen),,99,,119,1115,1234
-southern_song,Southern Song Dynasty,,,572,171,1127,1279
-angevin_empire,Angevin Empire,,141,310,2,1154,1204
-ayyubid_sultanate,Ayyubid Sultanate,,133,,,1171,1260
-feudal_japan,Feudal Japan,,82,,261,1185,1603
-serbian_empire,Serbian Empire (Nemanjic Dynasty),,155,359,15,1190,1389
-khwarazmian_empire,Khwarazmian Empire,,,,51,1200,1220
-delhi_sultanate,Delhi Sultanate,,,,,1206,1526
-mongol_empire,Mongol Empire,,89,431,,1206,1368
-chagatai_khanate,Chagatai Khanate,,89,,,1226,1347
-teutonic_order,Teutonic Order (Monastic State),,112,240,2,1230,1525
-grand_duchy_of_lithuania,Grand Duchy of Lithuania,,103,350,,1236,1569
-golden_horde,Golden Horde,,89,626,,1242,1502
-mamluk_sultanate,Mamluk Sultanate,,,,,1250,1517
-ilkhanate,Ilkhanate,,89,,,1256,1335
-yuan_dynasty,Yuan Dynasty,,89,431,,1271,1368
-grand_duchy_moscow,Grand Duchy of Moscow,,149,351,15,1283,1547
-ottoman_empire,Ottoman Empire,,,643,,1299,1922
-vijayanagara_empire,Vijayanagara Empire,,,169,147,1336,1646
-bahmani_sultanate,Bahmani Sultanate,,,,51,1347,1527
-ming_dynasty,Ming Dynasty,,,565,171,1368,1644
-north_yuan,North Yuan,,89,,119,1368,1635
-timurid_empire,Timurid Empire,,,,,1370,1507
-joseon,Joseon Dynasty,,,400,171,1392,1897
-kalmar_union,Kalmar Union,,,240,2,1397,1523
-habsburg_monarchy,Habsburg Monarchy,,112,240,2,1438,1918
-crimean_khanate,Crimean Khanate,,,,51,1441,1783
-kazakh_khanate,Kazakh Khanate,,,,51,1465,1731
-safavid_empire,Safavid Empire,,137,,,1501,1736
-mughal_empire,Mughal Empire,,,,,1526,1857
-tsardom_russia,Tsardom of Russia,,149,351,15,1547,1721
-polish_lithuanian_commonwealth,Polish-Lithuanian Commonwealth,,161,367,2,1569,1795
-tokugawa_shogunate,Tokugawa Shogunate (Edo Period),,82,,,1603,1868
-qing_dynasty,Qing Dynasty (Manchu),,99,,,1644,1912
-maratha_empire,Maratha Empire,,,275,147,1674,1818
-kingdom_of_prussia,Kingdom of Prussia,,112,240,30,1701,1918
-kingdom_of_great_britain,Kingdom of Great Britain,,111,,30,1707,1801
-russian_empire,Russian Empire,,149,351,15,1721,1917
-afsharid_dynasty,Afsharid Dynasty,,137,,51,1736,1796
-qajar_dynasty,Qajar Dynasty,,137,,51,1796,1925
-sikh_empire,Sikh Empire,,,280,163,1799,1849
-united_kingdom,United Kingdom of Great Britain and Ireland,,111,,30,1801,
-kingdom_of_egypt,Kingdom of Egypt,,206,,51,1805,1952
-british_raj,British Raj,,111,,30,1858,1947
-kingdom_of_italy,Kingdom of Italy,,143,329,2,1861,1946
-empire_of_japan,Empire of Japan (Meiji),,82,,186,1868,1947
-german_empire,German Empire (Deutsches Reich),,112,240,30,1871,1918
-japanese_korea,Japanese-Occupied Korea,,,,186,1910,1945
-republic_of_china,Republic of China,,,,249,1912,
-weimar_republic,Weimar Republic,,112,240,30,1918,1933
-czechoslovakia,Czechoslovakia,,159,362,2,1918,1993
-kingdom_of_iraq,Kingdom of Iraq,,206,,51,1921,1958
-soviet_union,Soviet Union,,149,351,,1922,1991
-republic_of_turkey,Republic of Turkey,,,,51,1923,
-mongolian_peoples_republic,Mongolian People's Republic,,89,,119,1924,1992
-pahlavi_dynasty,Pahlavi Dynasty,,137,,51,1925,1979
-manchukuo,Manchukuo,,,,249,1932,1945
-saudi_arabia,Kingdom of Saudi Arabia,,206,,51,1932,
-nazi_germany,Nazi Germany (Third Reich),,112,240,,1933,1945
-modern_japan,Modern Japan (Postwar),,82,,,1947,
-republic_of_india,Republic of India,,,,147,1947,
-pakistan,Pakistan,,,,51,1947,
-south_korea,Republic of Korea (South Korea),,,401,119,1948,
-north_korea,Democratic People's Republic of Korea (North Korea),,,401,,1948,
-east_germany,German Democratic Republic (East Germany),,112,240,,1949,1990
-federal_republic_germany,Federal Republic of Germany,,112,240,,1949,
-peoples_republic_of_china,People's Republic of China,,,,249,1949,
-republic_of_egypt,Republic of Egypt,,206,,51,1952,
-republic_of_iraq,Republic of Iraq,,206,,51,1958,
-islamic_republic_iran,Islamic Republic of Iran,,137,,51,1979,
-russian_federation,Russian Federation,,149,351,,1991,
+id,name,state_id,id_ruling_ethnicity,id_ruling_language,id_ruling_religion,government,territories,start,end,policies,note
+sumerian_city_states,"Sumerian City-States (Ur, Uruk, Lagash)",,sumerian,sumerian_lang,mesopotamian_religion,city_state,mesopotamia,-3500,-2334,,
+old_kingdom_egypt,Old Kingdom Egypt,,egyptian_native,ancient_egyptian,egyptian_religion,divine_monarchy,egypt|nubia,-2686,-2181,,
+akkadian_empire,Akkadian Empire,,akkadian,akkadian,mesopotamian_religion,imperial_monarchy,mesopotamia|levant,-2334,-2154,,
+ur_iii,Third Dynasty of Ur (Neo-Sumerian),,sumerian,sumerian_lang,mesopotamian_religion,divine_monarchy,mesopotamia,-2112,-2004,,
+old_babylonian,Old Babylonian Empire,,babylonian,akkadian,mesopotamian_religion,imperial_monarchy,mesopotamia,-1894,-1595,,
+hittite_empire,Hittite Empire,,hittite,hittite_lang,anatolian_paganism,imperial_monarchy,anatolia,-1600,-1180,,The dominant Anatolian power of the Bronze Age. Their sudden collapse (~1180 BC) during the Bronze Age Collapse remains one of history's great mysteries.
+shang_dynasty,Shang Dynasty,,han,old_chinese,chinese_folk_religion,divine_monarchy,yellow_river,-1600,-1046,,
+new_kingdom_egypt,New Kingdom Egypt,,egyptian_native,ancient_egyptian,egyptian_religion,divine_monarchy,egypt|nubia|levant,-1550,-1070,,
+phoenician_states,"Phoenician City-States (Tyre, Sidon, Byblos)",,phoenician,phoenician_language,canaanite_religion,oligarchic_republic,levant,-1200,-332,,
+kingdom_of_israel,United Kingdom of Israel,,hebrew,biblical_hebrew,temple_judaism,feudal_monarchy,levant,-1047,-930,,
+zhou_dynasty,Zhou Dynasty,,han,old_chinese,chinese_folk_religion,feudal_monarchy,yellow_river|yangtze,-1046,-256,,"Late Zhou (Warring States) produced Confucius, Laozi, Mencius, Han Fei — the foundational philosophical schools that would define all subsequent Chinese governance"
+kingdom_of_judah,Kingdom of Judah,,hebrew,biblical_hebrew,temple_judaism,feudal_monarchy,levant,-930,-586,,
+neo_assyrian_empire,Neo-Assyrian Empire,,assyrian,assyrian_dialect,mesopotamian_religion,imperial_monarchy,mesopotamia|levant|egypt|anatolia,-911,-609,,
+kingdom_of_urartu,Kingdom of Urartu,,caucasian,aramaic,zoroastrianism,feudal_monarchy,caucasus,-860,-590,,The Iron Age kingdom centered on Lake Van (modern eastern Turkey/Armenia). Urartu was a major rival of the Neo-Assyrian Empire for control of the Armenian Highlands. Known for impressive metalwork (Urartian bronzes) and large-scale irrigation systems. Destroyed by the Scythian/Median coalition around 590 BCE. The Armenian people are their cultural successors.
+roman_kingdom,Roman Kingdom,,latin,latin,roman_paganism,monarchy,italy,-753,-509,,
+median_kingdom,Median Kingdom,,median,median_lang,zoroastrianism,feudal_monarchy,iran_plateau|caucasus,-678,-550,,
+meroitic_kingdom,Kingdom of Meroe (Meroitic Kingdom),,cushitic,ancient_egyptian,egyptian_religion,divine_monarchy,nubia,-656,350,,"After the Kushite 25th Dynasty was expelled from Egypt by the Assyrians (-656), Nubian power retreated south to Meroe on the Nile. Meroe developed a distinct civilisation with its own undeciphered script (Meroitic), iron smelting industry, and distinctive pyramid style (steeper than Egyptian). Ruled by queen-regents (Kandakes) alongside or instead of kings. Fell to the Aksumite kingdom of Ethiopia around 350 CE."
+neo_babylonian,Neo-Babylonian (Chaldean) Empire,,babylonian,akkadian,mesopotamian_religion,imperial_monarchy,mesopotamia|levant,-626,-539,,Nebuchadnezzar II; Chaldean dynasty deliberately revived ancient Babylonian identity
+achaemenid_empire,Achaemenid Empire,,persian,old_persian,zoroastrianism,imperial_monarchy,iran_plateau|khorasan|anatolia|mesopotamia|levant|egypt|transoxiana,-550,-330,cyrus_tolerance,Used Aramaic as the administrative lingua franca but Persian was the dynastic identity; Cyrus was notably religiously tolerant
+roman_republic,Roman Republic,,latin,latin,roman_paganism,republic,italy|balkans|north_africa|iberia|gaul,-509,-27,,
+macedonian_empire,Macedonian Empire (Alexander),,macedonian,ancient_greek,hellenic_paganism,imperial_monarchy,anatolia|levant|egypt|mesopotamia|iran_plateau|khorasan|transoxiana,-336,-323,,
+maurya_empire,Maurya Empire,,indo_aryan,classical_sanskrit,hinduism,imperial_monarchy,ganges_plain|indus_valley|punjab|deccan,-322,-185,,Ashoka converted to Buddhism and propagated it across Asia — a major religious shift mid-dynasty that changed the empire's entire ideological character
+seleucid_empire,Seleucid Empire,,macedonian,koine_greek,hellenic_paganism,imperial_monarchy,anatolia|levant|mesopotamia|iran_plateau,-312,-63,,
+ptolemaic_egypt,Ptolemaic Kingdom,,macedonian,koine_greek,hellenic_paganism,absolute_monarchy,egypt|levant,-305,-30,,"Greek-speaking Macedonian rulers adopted Egyptian royal titles and iconography for legitimacy, but the court was Hellenic"
+parthian_empire,Parthian Empire (Arsacid),,parthian,parthian_lang,zoroastrianism,feudal_monarchy,iran_plateau|mesopotamia|khorasan,-247,224,,"Highly decentralized; Hellenized early, then reverted to Iranian/Zoroastrian identity"
+satavahana_empire,Satavahana Empire,,dravidian,pali,hinduism,imperial_monarchy,deccan,-230,220,,First great Deccan empire; established the bridge between northern Aryan and southern Dravidian cultures. Patronised both Hinduism and Buddhism. Their trade networks stretched to Rome.
+qin_dynasty,Qin Dynasty,,han,old_chinese,chinese_folk_religion,imperial_monarchy,yellow_river|yangtze,-221,-206,,State philosophy was Legalism — entirely different from Confucianism. Qin's brutal efficiency unified China but was ideologically rejected by every subsequent dynasty
+xiongnu,Xiongnu Confederation,,turkic,old_turkic,tengriism,khaganate,mongolian_plateau|central_asian_steppe,-209,93,,
+han_dynasty,Han Dynasty,,han,old_chinese,confucianism,chinese_imperial,yellow_river|yangtze,-206,220,,Established Confucianism as state ideology and the civil examination system — the template all later Chinese dynasties followed
+kingdom_of_armenia,Kingdom of Armenia,,caucasian,old_armenian,zoroastrianism,feudal_monarchy,caucasus,-190,428,,The Artaxiad (Artashesian) dynasty founded the first unified Armenian state after Antiochus III's defeat by Rome. Tigranes II briefly created an Armenian empire stretching from Caspian to Mediterranean. Armenia was the first nation to adopt Christianity as state religion (301 CE). The kingdom oscillated between Roman and Parthian/Sassanid spheres until partitioned in 428.
+nabataean_kingdom,Nabataean Kingdom,,semitic,aramaic,arabian_paganism,feudal_monarchy,arabia,-115,106,,"The Nabataeans were Arab traders who built Petra as their capital in the Jordanian desert — one of antiquity's great architectural achievements (the 'rose-red city'). They controlled the spice trade routes between Arabia, Egypt, and the Mediterranean. Annexed by the Roman Emperor Trajan as the province Arabia Petraea in 106 CE. Their distinctive Aramaic script evolved into modern Arabic script."
+silla,Silla,,korean,old_korean,buddhism,,,-57,668,,
+goguryeo,Goguryeo,,korean,old_chinese,buddhism,feudal_monarchy,manchuria|korean_peninsula,37,668,,One of the Three Kingdoms of Korea; at its peak controlled northern Manchuria and the Korean peninsula north of the Han River. Repelled three massive Sui Chinese invasions (612–614) — the failure of those campaigns contributed to the Sui Dynasty's collapse. Finally destroyed by a Tang–Silla alliance in 668. Goguryeo identity is claimed by both modern Korea and China (as part of Gaogouli history).
+baekje,Baekje,,korean,old_korean,buddhism,,,-18,660,,
+roman_empire_pagan,Roman Empire (Pagan),,latin,latin,roman_paganism,imperial_monarchy,italy|anatolia|levant|egypt|balkans|iberia|gaul|north_africa,-27,380,pax_romana|edict_of_milan,
+cao_wei,Cao Wei,,han,old_chinese,chinese_folk_religion,,,220,265,,
+shu_han,Shu Han,,han,old_chinese,chinese_folk_religion,,,221,263,,
+eastern_wu,Eastern Wu,,han,old_chinese,chinese_folk_religion,,,222,280,,
+sassanid_empire,Sassanid Empire,,persian,middle_persian,zoroastrianism,theocracy,iran_plateau|mesopotamia|khorasan|caucasus,224,651,,Zoroastrianism as explicit state religion; Magi priestly class wielded significant power
+yamato_period,Yamato Period,,yamato,old_japanese,shinto_buddhism,centralized_monarchy,japanese_archipelago,250,710,,The emergence of the Yamato imperial line and the introduction of Buddhism and Chinese characters. Includes the Kofun and Asuka sub-periods.
+western_jin,Western Jin Dynasty,,han,old_chinese,chinese_folk_religion,,,265,316,,
+gupta_empire,Gupta Empire,,indo_aryan,classical_sanskrit,hinduism,imperial_monarchy,ganges_plain|indus_valley,320,550,,Hindu 'Golden Age'; Vaishnavism as court religion; classical Sanskrit literature and mathematics flourished
+eastern_jin,Eastern Jin Dynasty,,han,old_chinese,chinese_folk_religion,,,317,420,,
+hunnic_empire,Hunnic Empire,,steppe_nomadic,old_turkic,tengriism,khaganate,central_asian_steppe|pontic_steppe|hungary,350,453,,"Attila's confederation devastated the Roman Empire and triggered the Great Migration. The Huns are of uncertain ethnic origin (possibly Turkic, possibly mixed). Their western empire collapsed immediately after Attila's death (453)."
+roman_empire_christian,Roman Empire (Christian),,latin,latin,catholic,imperial_monarchy,italy|anatolia|levant|egypt|balkans|iberia|gaul|north_africa,380,395,state_christianity,Brief period when Christianity became the state ideology; unified empire before the East-West split
+northern_dynasties,Northern Dynasties,,han,old_chinese,buddhism,,,386,581,,
+western_roman_empire,Western Roman Empire,,latin,latin,catholic,imperial_monarchy,italy|balkans|iberia|gaul|north_africa,395,476,,
+byzantine_empire,Byzantine Empire,,hellenic,medieval_greek,eastern_orthodox,caesaropapism,anatolia|balkans|levant,395,1453,,Eastern Orthodox Christianity is inseparable from Byzantine identity; emperor as head of both church and state
+visigothic_kingdom,Visigothic Kingdom,,germanic,latin,catholic,feudal_monarchy,iberia,418,711,,"The Visigoths settled in southwestern Gaul (Aquitaine) as foederati in 418; after defeat by Clovis at Vouillé (507) they retreated to Iberia, making Toledo their capital. Converted from Arianism to Catholicism in 589 under Reccared — the defining event that integrated Visigothic and Hispano-Roman populations. Destroyed by the Muslim Umayyad invasion of 711."
+southern_dynasties,Southern Dynasties,,han,old_chinese,chinese_folk_religion,,,420,589,,
+vandal_kingdom,Vandal Kingdom of North Africa,,germanic,latin,catholic,feudal_monarchy,north_africa,429,533,,"The Vandals crossed into North Africa in 429 under Gaiseric, having previously swept through Spain. They captured Carthage in 439, making it their capital. The Vandal fleet dominated the western Mediterranean and sacked Rome in 455. 'Vandalism' as a concept derives from their reputation, though they were no more destructive than other Germanic peoples. Destroyed by the Byzantine general Belisarius in 533 in a remarkably swift campaign."
+odoacer_kingdom,Kingdom of Odoacer,,germanic,latin,catholic,feudal_monarchy,italy,476,493,,"Odoacer (Odovacer), a Germanic chieftain of Scirian/Hunnic origin, deposed the last Western Roman Emperor Romulus Augustulus on September 4, 476 — the conventional end-date of the Western Roman Empire. He ruled as King of Italy under nominal Eastern Roman suzerainty, maintaining Roman administrative structures. Defeated and killed by Theodoric the Ostrogoth at a peace banquet in Ravenna (493)."
+carolingian_empire,Frankish Kingdom / Carolingian Empire,,germanic,latin,catholic,feudal_monarchy,gaul|germany|italy,486,843,carolingian_renaissance,"Clovis I unified the Franks (486) and converted to Catholic Christianity, giving the Franks papal legitimacy. Charlemagne (768–814) conquered the Saxons, Lombards, and Avars; crowned Emperor by Pope Leo III on Christmas 800. The first attempt at a unified Western European empire since Rome. Treaty of Verdun (843) split the empire into West Francia (future France), East Francia (future Germany), and Middle Francia."
+ostrogothic_kingdom,Ostrogothic Kingdom of Italy,,germanic,latin,catholic,feudal_monarchy,italy,493,553,,Theodoric the Great established the most sophisticated post-Roman Germanic kingdom — a genuine synthesis of Gothic and Roman culture. He ruled through the existing Roman administrative machinery while keeping Goths as the military class. His court at Ravenna patronised art and philosophy (Boethius wrote the Consolation of Philosophy in his prison). Destroyed by the Byzantine reconquest under Justinian I (Gothic Wars 535–554).
+goktürk_khaganate,Göktürk Khaganate,,turkic,old_turkic,tengriism,khaganate,mongolian_plateau|central_asian_steppe|transoxiana,552,744,,
+lombard_kingdom,Kingdom of the Lombards,,germanic,latin,catholic,feudal_monarchy,italy,568,774,,"The Lombards (Langobards) invaded northern Italy in 568, exploiting the devastation left by the Gothic Wars. Unlike the Ostrogoths, they did not attempt to preserve Roman structures — their conquest was destructive and their integration slow. By the 8th century they had converted from Arianism to Catholicism and were partially Romanised. Pope Stephen II invited Charlemagne's father Pippin III, then Charlemagne himself (773–774), to defeat the Lombards; Charlemagne dissolved the kingdom and added 'King of the Lombards' to his titles."
+avar_khaganate,Avar Khaganate,,steppe_nomadic,old_turkic,tengriism,khaganate,hungary|central_asian_steppe,568,804,,Avars (steppe nomads of uncertain Mongolian/Turkic origin) conquered the Carpathian basin in 568 after the Lombards left for Italy. They raided Byzantium and the Frankish kingdoms repeatedly. Charlemagne destroyed the Avar state in a series of campaigns (791-796) and dismantled their treasury ('the Ring').
+sui_dynasty,Sui Dynasty,,han,middle_chinese,buddhism,chinese_imperial,yellow_river|yangtze,581,618,,Buddhism was a major state religion alongside Confucianism; Sui rulers were devout Buddhists
+harsha_empire,Harsha Empire,,indo_aryan,classical_sanskrit,buddhism,imperial_monarchy,ganges_plain,606,647,,"Last major Hindu-Buddhist empire of the Ganges plain before the Islamic conquests. Harsha personally wrote Sanskrit plays and patronised the scholar Xuanzang (the Chinese pilgrim whose journey inspired Journey to the West). His empire collapsed immediately after his death, leaving no successors."
+tang_dynasty,Tang Dynasty,,han,middle_chinese,confucianism,chinese_imperial,yellow_river|yangtze,618,907,huichang_suppression,"Tang royal family had partial Xianbei ancestry but identified as Han; cosmopolitan — Buddhism, Taoism, Nestorian Christianity, and Islam all coexisted; Confucian exam system perfected"
+rashidun_caliphate,Rashidun Caliphate,,semitic,arabic,sunni,caliphate,arabia|levant|mesopotamia|egypt|iran_plateau,632,661,,
+khazar_khaganate,Khazar Khaganate,,turkic,old_turkic,rabbinic_judaism,khaganate,pontic_steppe|caucasus,650,969,,Ruling class converted to Judaism — a unique case; possibly a diplomatic choice to remain neutral between the Christian Byzantine and Muslim Abbasid spheres
+umayyad_caliphate,Umayyad Caliphate,,semitic,arabic,sunni,caliphate,levant|mesopotamia|egypt|iran_plateau|north_africa|iberia|transoxiana,661,750,,Aggressively Arab-supremacist; non-Arab Muslims (mawali) had second-class status — this fueled the Abbasid revolution
+unified_silla,Unified Silla,,korean,old_korean,buddhism,centralized_monarchy,korean_peninsula,668,935,,"Silla allied with the Tang Dynasty to defeat Baekje and Goguryeo, then successfully expelled Tang forces to unify the peninsula south of the Taedong River."
+first_bulgarian_empire,First Bulgarian Empire,,south_slavic,old_church_slavonic,eastern_orthodox,feudal_monarchy,balkans,681,1018,,"Founded by Bulgars (a Turkic/steppe people) who subjugated Slavic tribes south of the Danube; the ruling Bulgar class was rapidly absorbed by the Slavic majority. Christianised under Boris I (864) who chose Constantinople over Rome — defining Bulgaria as Orthodox. The Golden Age under Simeon I (893–927) saw Bulgaria become the dominant Balkan power, rivalling Byzantium. Destroyed by Byzantine Emperor Basil II 'the Bulgar-Slayer' at the Battle of Kleidion (1014); he blinded 15,000 prisoners."
+nara_period,Nara Period,,yamato,old_japanese,buddhism,,,710,794,,
+al_andalus,Al-Andalus,,semitic,arabic,sunni,caliphate,iberia,711,1492,cordoba_caliphate,The Muslim-ruled territory of Iberia from the Umayyad conquest (711) to the fall of Granada (1492). At its peak (8th–10th centuries) Al-Andalus was the most sophisticated civilisation in Europe — Córdoba rivalled Constantinople and Baghdad. The Caliphate of Córdoba (929–1031) under Abd ar-Rahman III was the golden age. After 1031 it fragmented into taifa kingdoms; the Almoravid (1086) and Almohad (1147) Berber dynasties revived Muslim power but with more rigid Islamic orthodoxy. The Christian Reconquista progressively reduced Al-Andalus until only Granada remained (1238–1492). Concurrent with Christian kingdoms in the north throughout.
+uyghur_khaganate,Uyghur Khaganate,,turkic,uyghur_lang,manichaeism,khaganate,mongolian_plateau|central_asian_steppe,744,840,,One of history's few Manichaean states; adopted Manichaeism as state religion after 762 — a major civilizational break from Göktürk Tengriism
+abbasid_caliphate,Abbasid Caliphate,,semitic,arabic,sunni_hanafi,caliphate,mesopotamia|levant|iran_plateau|egypt,750,1258,,"Ruling dynasty remained Arab (Qurayshi lineage); Arabic as the language of religion and law. Persian bureaucrats (Barmakid viziers) dominated administration creating a Persianate court overlay — but the legitimacy anchor was Arab/Islamic, not Persian"
+pala_empire,Pala Empire,,indo_aryan,pali,buddhism,feudal_monarchy,ganges_plain,750,1200,,The last great Buddhist empire of India; patrons of Nalanda and Vikramashila universities — the apex of Indian Buddhist scholarship. Their fall to the Ghurids (1203) and the subsequent destruction of Nalanda (1203) effectively ended institutional Buddhism in India.
+heian_period,Heian Period,,yamato,old_japanese,buddhism,,,794,1185,,
+samanid_empire,Samanid Empire,,persian,new_persian,sunni,absolute_monarchy,transoxiana|khorasan,819,999,,"The Samanids were the first Persian dynasty to rule independently after the Arab conquest — an Iranian Renaissance. Under their patronage, Bukhara became one of the Islamic world's great centres of learning. They championed New Persian (Dari) as a literary language: Rudaki wrote there, and Ferdowsi began his Shahnameh at their court. The Samanid bureaucratic model became the template for subsequent Persian and Turkic administrations. Destroyed by the Ghaznavids (east) and Qarakhanids (north)."
+kingdom_of_scotland,Kingdom of Scotland,,gaelic,scots_gaelic,catholic,feudal_monarchy,scotland,843,1707,,"Kenneth MacAlpin united the Picts and Gaels. Over centuries the court Normanised and Scots (a Germanic dialect) replaced Gaelic as the lowland tongue, while Gaelic persisted in the Highlands."
+kingdom_of_norway,Kingdom of Norway,,norse,old_norse,germanic_paganism,feudal_monarchy,scandinavia,872,1380,,Harald Fairhair unified Norway c.872. Norway entered personal union with Denmark in 1380 after the Oldenburg succession; effectively under Danish rule until 1814.
+kievan_rus_regime,Kievan Rus,,east_slavic,old_church_slavonic,eastern_orthodox,grand_principality,kievan_rus,882,1240,,Founded by Varangian (Norse) Rurikids who were rapidly absorbed into Slavic culture. Christianisation under Vladimir I in 988 tied Rus to Constantinople and Eastern Orthodoxy — the defining civilisational choice. Fragmented into competing principalities after Yaroslav's death; destroyed by the Mongol invasion 1237–1241.
+bagratid_armenia,Bagratid Armenia,,caucasian,old_armenian,armenian_apostolic,feudal_monarchy,caucasus,885,1064,,"Armenian and Georgian Bagratid dynasties rebuilt Christian statehood after the Arab conquest. The Armenian Bagratids (885-1045) and their Georgian branch created the 'Armenian Renaissance' with Ani as a capital that rivalled Constantinople. Ani fell to the Seljuk Turks in 1064, effectively ending Armenian political independence for centuries."
+kingdom_of_bohemia,Kingdom of Bohemia,,czech,czech,catholic,feudal_monarchy,bohemia,895,1526,,"Přemyslid dynasty (895–1306), then Luxembourg (1310–1437). Bohemia became the intellectual centre of the HRE under Charles IV. The Hussite movement (1419–1434) was the first successful proto-Protestant revolt in Europe, a century before Luther."
+liao_dynasty,Liao Dynasty (Khitan),,khitan,khitan_lang,buddhism,dual_administration,manchuria|yellow_river,907,1125,,"Dual administration: Khitan customs for nomads, Chinese Confucian system for Han subjects; Buddhism served as a bridge between nomadic and sedentary cultures"
+five_dynasties,Five Dynasties (North China),,han,middle_chinese,chinese_folk_religion,,,907,960,,
+fatimid_caliphate,Fatimid Caliphate,,semitic,arabic,shia_ismaili,imamate,egypt|levant|north_africa,909,1171,,
+ten_kingdoms,Ten Kingdoms (South China),,han,middle_chinese,neo_confucianism,,,907,979,,
+goryeo,Goryeo Dynasty,,korean,middle_korean,buddhism,centralized_monarchy,korean_peninsula,918,1392,,"Founded by Wang Geon; successfully resisted multiple Mongol (Yuan) invasions, eventually becoming a vassal-son-in-law state of the Yuan. Known for the Tripitaka Koreana and Goryeo celadon."
+kingdom_of_england,Kingdom of England,,english,middle_english,catholic,feudal_monarchy,britannia,927,1707,magna_carta|english_reformation,"Founded by Æthelstan; the Norman Conquest of 1066 replaced the Anglo-Saxon ruling class with a French-speaking Norman aristocracy, creating the distinctive Anglo-Norman culture. By 1300 English had re-emerged as the dominant tongue with heavy French vocabulary."
+kingdom_of_denmark,Kingdom of Denmark,,norse,old_norse,catholic,feudal_monarchy,scandinavia,936,,,The dominant Scandinavian power through the Middle Ages; ruled England 1013–1042 (Cnut); lost Sweden definitively in 1658; retains Greenland and Faroe Islands.
+northern_song,Northern Song Dynasty,,han,middle_chinese,neo_confucianism,,,960,1127,,
+holy_roman_empire,Holy Roman Empire,,german,latin,catholic,elective_monarchy,germany|bohemia|italy,962,1806,golden_bull_1356|peace_of_westphalia,"Neither holy, Roman, nor an empire — Voltaire. A decentralized confederation of German princes, bishops, and city-states under an elected emperor. German princes systematically resisted centralisation; the Peace of Westphalia (1648) effectively made the HRE a loose alliance of sovereign states."
+kingdom_of_poland,Kingdom of Poland,,polish,latin,catholic,feudal_monarchy,poland,966,1569,,"Piast dynasty (966–1370), then Jagiellonian (1386–1569). Mieszko I's baptism in 966 is the founding moment of the Polish state. The Union of Lublin (1569) transformed the Polish-Lithuanian personal union into a real Commonwealth."
+kingdom_of_sweden,Kingdom of Sweden,,norse,old_norse,catholic,feudal_monarchy,scandinavia,970,,,"Broke from the Kalmar Union in 1523 under Gustav Vasa; became a major European Great Power in the 17th century (Swedish Empire, Stormaktstiden); lost Finland to Russia in 1809."
+ghaznavid_empire,Ghaznavid Empire,,turkic,new_persian,sunni,sultanate,khorasan|transoxiana|indus_valley|punjab,977,1186,,"Founded by Sebüktigin, a Turkish slave-soldier (ghulam) who rose to govern Ghazni (modern Afghanistan) under the Samanids. His son Mahmud of Ghazni (998–1030) transformed it into a great empire, launching 17 raids into the Indian subcontinent — breaking the Hindu Shahi kingdoms and establishing Islam in the Punjab. The Ghaznavids were patrons of Persian language and literature (the Shahnameh was written for Mahmud). Destroyed by the Ghurids."
+kingdom_of_france,Kingdom of France,,french,french,catholic,absolute_monarchy,gaul,987,1792,edict_of_nantes,"Capetian (987–1328), Valois (1328–1589), Bourbon (1589–1792) — three dynasties but one continuous institution. The most powerful western European monarchy of the High and Late Middle Ages. Absolute monarchy reached its apogee under Louis XIV."
+kingdom_of_hungary,Kingdom of Hungary,,magyar,latin,catholic,feudal_monarchy,hungary,1000,1526,,"Founded by Stephen I who received a crown from Pope Sylvester II. Medieval Hungary was one of the largest European kingdoms, stretching from the Adriatic to Transylvania. The Battle of Mohács (1526) ended the medieval kingdom; Hungary was split between Ottoman and Habsburg rule."
+seljuk_empire,Seljuk Empire,,turkic,new_persian,sunni_hanafi,sultanate,transoxiana|iran_plateau|mesopotamia|khorasan,1037,1194,,"Oghuz Turkic rulers adopted Persian as court language; patronized Persian scholars — Omar Khayyam, al-Ghazali, Nizam al-Mulk all flourished under Seljuk rule"
+seljuk_rum,Sultanate of Rum,,turkic,new_persian,sunni_hanafi,sultanate,anatolia,1077,1307,,Rumi composed his poetry in Persian at this court in Konya
+jin_dynasty_jurchen,Jin Dynasty (Jurchen),,jurchen,jurchen_lang,buddhism,dual_administration,manchuria|yellow_river,1115,1234,,Jurchen rulers resisted Sinicization; maintained Jurchen script and shamanistic traditions alongside Buddhism; used a dual admin system similar to Liao
+southern_song,Southern Song Dynasty,,han,middle_chinese,neo_confucianism,,,1127,1279,,
+angevin_empire,Angevin Empire,,french,french,catholic,feudal_monarchy,aquitaine|gaul,1154,1204,,"The Plantagenet dynasty empire under Henry II (who married Eleanor of Aquitaine), controlling Normandy, Anjou, Maine, Touraine, Poitou, and Aquitaine across the Channel plus England. A cross-Channel feudal aggregate rather than a unified state — conflict with the French crown over the vassal relationship was constant. John's loss of Normandy and Angevin lands in France (1202–1204) ended the continental empire; England persisted as the Plantagenet realm."
+ayyubid_sultanate,Ayyubid Sultanate,,kurdish,arabic,sunni_shafi,sultanate,egypt|levant,1171,1260,,Saladin was Kurdish but the court operated fully in Arabic-Islamic culture
+feudal_japan,Feudal Japan,,yamato,early_modern_japanese,shinto_buddhism,feudal_monarchy,japanese_archipelago,1185,1603,,"The Kamakura, Muromachi, and Sengoku periods. Decentralized feudal system with competing daimyo (lords) and regional warlords. Ends with the unification by Oda Nobunaga and Toyotomi Hideyoshi, preparing ground for Tokugawa shogunate."
+serbian_empire,Serbian Empire (Nemanjić Dynasty),,south_slavic,old_church_slavonic,eastern_orthodox,feudal_monarchy,balkans,1190,1389,,"Stefan Nemanja founded the medieval Serbian state (1168). His son Sava established the Serbian Orthodox Church (1219) — the key institution of Serbian national identity. Stefan Dušan (1331–1355) expanded Serbia to its greatest extent (Macedonia, Albania, Greece) and crowned himself Emperor of the Serbs and Greeks. The empire collapsed after his death; the Battle of Kosovo (1389) against the Ottomans ended Serbian independence for five centuries."
+khwarazmian_empire,Khwarazmian Empire,,turkic,new_persian,sunni,absolute_monarchy,transoxiana,1200,1220,,"Shah Ala ad-Din Muhammad II rapidly built a vast empire covering Persia and Central Asia — briefly the most powerful state in the Islamic world. His catastrophic decision to execute Genghis Khan's trade envoys (1218) provoked the Mongol invasion. Within three years his empire was destroyed, millions killed, and the cities of Central Asia — Samarkand, Bukhara, Merv, Nishapur — were annihilated. The Khwarazmian destruction was one of the worst demographic catastrophes in history."
+delhi_sultanate,Delhi Sultanate,,turkic,new_persian,sunni_hanafi,sultanate,indus_valley|punjab|ganges_plain,1206,1526,,Established the Persianate Islamic cultural layer in India; Persian as court language; laid the groundwork for the Hindu-Muslim civilizational divide that defines the subcontinent to this day
+mongol_empire,Mongol Empire,,mongol,classical_mongolian,tengriism,khaganate,mongolian_plateau|central_asian_steppe|transoxiana|iran_plateau|khorasan|mesopotamia|yellow_river|yangtze|manchuria,1206,1368,yasa_tolerance,Religiously tolerant by policy (Yasa law); the different successor khanates each converted to the local dominant religion
+chagatai_khanate,Chagatai Khanate,,mongol,uyghur_lang,sunni_hanafi,khanate,transoxiana|central_asian_steppe,1226,1347,,Chagatai Turkic became the prestige literary language of Central Asia after Mongol Turkification
+teutonic_order,Teutonic Order (Monastic State),,german,german,catholic,theocratic_order,prussia,1230,1525,,Crusading military order invited to Christianise the pagan Old Prussians; completed the conquest by 1283 (exterminating or assimilating the indigenous Prussians). At their peak controlled the entire Baltic coast from Danzig to Estonia. Catastrophically defeated at Grunwald (1410) by Poland-Lithuania; dissolved its monastic state and became a secular Duchy of Prussia in 1525.
+grand_duchy_of_lithuania,Grand Duchy of Lithuania,,lithuanian,old_east_slavic,lithuanian_paganism,grand_duchy,lithuania|kievan_rus,1236,1569,,"The last pagan state in Europe, Christianised only in 1387 when Jogaila married Jadwiga of Poland. At its peak the Grand Duchy stretched from the Baltic to the Black Sea, encompassing most of modern Ukraine and Belarus. Its administrative language was Ruthenian (Old East Slavic), not Lithuanian."
+golden_horde,Golden Horde,,mongol,kipchak_branch,sunni_hanafi,khanate,pontic_steppe|central_asian_steppe,1242,1502,,Converted to Sunni Islam ~1313 under Özbeg Khan; Mongol rulers gradually Turkified — adopted Kipchak Turkic as the dominant language
+mamluk_sultanate,Mamluk Sultanate,,turkic,arabic,sunni_shafi,sultanate,egypt|levant,1250,1517,,Turkic slave-soldier rulers but court and administration were Arabic-Islamic
+ilkhanate,Ilkhanate,,mongol,new_persian,sunni_hanafi,khanate,iran_plateau|mesopotamia|khorasan|caucasus,1256,1335,,Started Tengriist/Buddhist; converted to Sunni Islam and were fully Persianized — Persian remained the language of court and literature
+yuan_dynasty,Yuan Dynasty,,mongol,classical_mongolian,vajrayana,imperial_monarchy,yellow_river|yangtze|manchuria,1271,1368,,Kublai Khan adopted Tibetan Buddhism (Vajrayana) as state religion and Phags-pa Lama as spiritual authority; deliberately avoided Sinicization — Chinese barred from top posts; Mongol identity maintained as ruling class
+grand_duchy_moscow,Grand Duchy of Moscow,,russian,russian,eastern_orthodox,,,1283,1547,,
+ottoman_empire,Ottoman Empire,,turkic,ottoman_turkish,sunni_hanafi,caliphate,anatolia|balkans|levant|mesopotamia|egypt|north_africa|caucasus,1299,1922,millet_system|tanzimat,"Claimed the Caliphate title after conquering Mamluk Egypt (1517). Unlike earlier Turkic states, developed a distinct Turkic-Islamic identity rather than Persianizing. Ruled Orthodox Christians, Catholics, Jews, and Arabs as separate millets (religious communities) — religion defined the subject's legal identity, not ethnicity"
+vijayanagara_empire,Vijayanagara Empire,,dravidian,kannada,hinduism,imperial_monarchy,deccan,1336,1646,,The last great Hindu empire; for three centuries it was the bulwark of Hindu civilisation against the Muslim Deccan sultanates. Founded by brothers Harihara and Bukka after escaping Delhi Sultanate captivity. The Battle of Talikota (1565) destroyed the capital Hampi — the ruins remain one of India's great historical sites.
+bahmani_sultanate,Bahmani Sultanate,,turkic,arabic,sunni,sultanate,deccan,1347,1527,,"The first major Muslim sultanate of the Deccan; founded by a revolt against Delhi. Fragmented into five successor sultanates (Adil Shahi, Nizam Shahi, Qutb Shahi, Imad Shahi, Barid Shahi) which fought Vijayanagara and each other for two centuries. Bidar was its capital."
+ming_dynasty,Ming Dynasty,,han,mandarin,neo_confucianism,chinese_imperial,yellow_river|yangtze,1368,1644,,Founded as an explicit rejection of Mongol rule; strong Han nativist and Confucian identity; the 'most Chinese' of dynasties
+north_yuan,North Yuan,,mongol,old_turkic,buddhism,khaganate,mongolian_plateau,1368,1635,,"After the Ming drove the Yuan from China (1368), the Mongol khans retreated to the steppe and continued to claim the title of Great Khan of the Mongol Empire. Periodic reunifications under strong khans (Dayan Khan, Altan Khan) challenged Ming China. Tibetan Buddhism progressively replaced shamanism/Tengriism. Formally ended when the Qing incorporated most Mongol tribes (1635-1691)."
+timurid_empire,Timurid Empire,,turkic,new_persian,sunni_hanafi,imperial_monarchy,khorasan|transoxiana|iran_plateau,1370,1507,,Timur was Barlas Turkic; court was thoroughly Persian — Samarkand and Herat became the greatest centers of Persian poetry and miniature painting
+joseon,Joseon Dynasty,,korean,middle_korean,neo_confucianism,bureaucratic_monarchy,korean_peninsula,1392,1897,,Founded by Yi Seong-gye; shifted from Buddhist to Neo-Confucian ideology. Known for its stable bureaucracy and the invention of Hangul.
+kalmar_union,Kalmar Union,,norse,german,catholic,personal_union,scandinavia,1397,1523,,"Personal union of Denmark, Norway, and Sweden under one crown, dominated by Denmark. Sweden repeatedly rebelled; the Stockholm Bloodbath of 1520 (Danish massacre of Swedish nobles) triggered the final Swedish revolt under Gustav Vasa."
+habsburg_monarchy,Habsburg Monarchy,,german,german,catholic,absolute_monarchy,germany|bohemia|hungary,1438,1918,ausgleich,"The House of Habsburg held the HRE throne almost continuously 1438–1806. After Napoleon dissolved the HRE, the Habsburgs created the Austrian Empire (1804), then the Austro-Hungarian Dual Monarchy (1867–1918). 'Others wage war; you, happy Austria, marry' — AEIOU policy of dynastic expansion through marriage."
+crimean_khanate,Crimean Khanate,,turkic,old_turkic,sunni,khanate,pontic_steppe,1441,1783,,"Last surviving Mongol successor state on the Pontic steppe; Ottoman vassal from 1475. Conducted slave raids into Ukraine, Poland, and Russia — the Crimean slave trade depopulated vast areas of Eastern Europe. Peter the Great and Catherine the Great progressively curtailed Crimean power; annexed by Russia in 1783."
+kazakh_khanate,Kazakh Khanate,,turkic,old_turkic,sunni,khanate,central_asian_steppe,1465,1731,,"Emerged from the Uzbek (Shaybanid) breakup when Janybek and Giray led a nomadic confederation into the Kazakh steppe. The three zhuz (hordes: Great, Middle, Small) structure defined Kazakh society. Gradually subordinated by Russian expansion; the Small Zhuz accepted Russian protectorate in 1731 under Dzungar pressure."
+safavid_empire,Safavid Empire,,persian,new_persian,shia_twelver,imamate,iran_plateau|mesopotamia|khorasan|caucasus,1501,1736,,Established Twelver Shia as state religion; this religious identity is what NOW defines Iran as distinct from Sunni Turkic/Arab neighbors — same Persian ethnicity as the Timurids but a completely different civilizational identity
+mughal_empire,Mughal Empire,,turkic,new_persian,sunni_hanafi,imperial_monarchy,indus_valley|punjab|ganges_plain|deccan,1526,1857,din_i_ilahi|aurangzeb_sharia,Babur was Timurid (Turkic-Mongol); court was thoroughly Persianized. Akbar's syncretic 'Din-i-Ilahi' experiment attempted to bridge Hindu and Muslim identities — shows religion as a live political variable even within a single regime
+tsardom_russia,Tsardom of Russia,,russian,russian,eastern_orthodox,,,1547,1721,,
+polish_lithuanian_commonwealth,Polish-Lithuanian Commonwealth,,polish,polish,catholic,elective_monarchy,poland|lithuania|kievan_rus,1569,1795,liberum_veto|constitution_may_3,"The Rzeczpospolita — an elected monarchy (Sejm elected the king) with the liberum veto, which allowed any single noble to dissolve the Sejm. The world's first country with a modern written constitution (May 3, 1791). Partitioned three times by Russia, Prussia, and Austria (1772, 1793, 1795) — erased from the map for 123 years."
+tokugawa_shogunate,Tokugawa Shogunate (Edo Period),,yamato,early_modern_japanese,neo_confucianism_shinto,shogunate,japanese_archipelago,1603,1868,sakoku_edict,A period of isolation (Sakoku) and peace under the Tokugawa shoguns. Decentralized but tightly controlled feudalism.
+qing_dynasty,Qing Dynasty (Manchu),,jurchen,manchu_lang,vajrayana,dual_administration,yellow_river|yangtze|manchuria|mongolian_plateau,1644,1912,queue_order,"Manchu rulers governed Han majority but maintained strict Manchu identity: forbidden intermarriage, maintained bannerman system, Manchu language in court. Vajrayana Buddhism was a deliberate tool to legitimize rule over Mongols and Tibetans. Projected Confucian face outward while preserving Manchu identity internally — a masterclass in dual identity governance"
+maratha_empire,Maratha Empire,,indo_aryan,marathi,hinduism,feudal_monarchy,deccan,1674,1818,,The Marathas challenged Mughal dominance and nearly unified India under Hindu rule before the British arrived. At their peak (1760) they controlled most of the subcontinent. The Third Battle of Panipat (1761) against the Afghans shattered Maratha power and opened the door for British expansion.
+kingdom_of_prussia,Kingdom of Prussia,,german,german,lutheranism,,,1701,1918,,
+kingdom_of_great_britain,Kingdom of Great Britain,,english,modern_english,protestant,constitutional_monarchy,britannia|scotland,1707,1801,,The Acts of Union 1707 merged England and Scotland into a single kingdom with one parliament. Scotland retained its distinct legal and church systems.
+russian_empire,Russian Empire,,east_slavic,russian,eastern_orthodox,absolute_monarchy,kievan_rus,1721,1917,westernisation,Peter the Great declared the Russian Empire in 1721 after the Great Northern War victory over Sweden. Peter's Westernisation programme transformed Russia into a European Great Power. Catherine the Great (1762–1796) expanded the empire south (Crimea) and west (Poland partitions). 19th-century Russia was the largest state in the world by land area. Defeated in Crimea (1853–56) and Japan (1904–5); autocracy resisted reform until too late; collapsed in Revolution 1917.
+afsharid_dynasty,Afsharid Dynasty,,persian,,shia_islam,,,1736,1796,,
+qajar_dynasty,Qajar Dynasty,,persian,,shia_islam,,,1796,1925,,
+sikh_empire,Sikh Empire,,punjabi,punjabi,sikhism,feudal_monarchy,punjab,1799,1849,,Ranjit Singh unified the Sikh misls (confederacies) into the last major pre-British Indian empire. The Sikh army (Khalsa) trained by European officers was the most modern in Asia. The two Anglo-Sikh Wars ended Sikh independence — the Koh-i-Noor diamond was ceded to the British Crown.
+united_kingdom,United Kingdom of Great Britain and Ireland,,english,modern_english,protestant,constitutional_monarchy,britannia|scotland|ireland,1801,,,"Acts of Union 1800 added Ireland; the Irish Free State left in 1922, creating the United Kingdom of Great Britain and Northern Ireland."
+kingdom_of_egypt,Kingdom of Egypt,,arab,arabic,sunni,absolute_monarchy,egypt,1805,1952,,"Muhammad Ali Pasha (an Albanian Ottoman officer) seized power in 1805 and founded a modernising dynasty that ruled Egypt for 147 years. He built a modern army, industrialised cotton, and made Egypt semi-independent of Constantinople. His descendants built the Suez Canal (opened 1869) but went bankrupt — British occupation followed (1882). Egypt became a Kingdom nominally independent in 1922 but with British troops remaining. Farouk's corruption and the 1948 Arab–Israeli War defeat triggered the 1952 military coup."
+british_raj,British Raj,,english,modern_english,protestant,imperial_monarchy,ganges_plain|indus_valley|punjab|deccan,1858,1947,,"The British Crown replaced the East India Company after the Sepoy Mutiny (1857). The Raj unified the subcontinent under a single administration for the first time since Ashoka — railways, telegraph, common law, English education — but extraction (the 'drain of wealth' Dadabhai Naoroji documented) kept India poor. The Bengal famine of 1943 killed 2–3 million under Churchill's watch. Independence movement from the Indian National Congress; Gandhi's non-violent resistance made the British position untenable."
+kingdom_of_italy,Kingdom of Italy,,italian,italian,catholic,constitutional_monarchy,italy,1861,1946,,"The Risorgimento unified the Italian peninsula for the first time since the Western Roman Empire. Italy joined WWI on the Allied side but felt cheated of territory at Versailles ('mutilated victory'), fuelling the rise of Fascism. Mussolini's regime allied with Nazi Germany; ended with Allied liberation and a 1946 referendum establishing the Republic."
+empire_of_japan,Empire of Japan (Meiji),,yamato,japanese,state_shinto,constitutional_monarchy,japanese_archipelago|korean_peninsula|manchuria,1868,1947,meiji_restoration,Rapid modernization (Meiji Restoration) and transformation into a world power. Dismantled the feudal system and expanded across East Asia.
+german_empire,German Empire (Deutsches Reich),,german,german,protestant,constitutional_monarchy,germany,1871,1918,,Proclaimed in the Hall of Mirrors at Versailles after the Franco-Prussian War — deliberately humiliating for France. A Prussian-dominated constitutional monarchy; industrialised at breakneck speed to become Europe's foremost industrial power. Bismarck's system of alliances held Europe in balance until Wilhelm II dismissed him in 1890.
+japanese_korea,Japanese-Occupied Korea,,japanese,japanese,state_shinto,bureaucratic_monarchy,korean_peninsula,1910,1945,,"Japanese colonial period following the Japan-Korea Treaty of 1910. Direct imperial administration, suppression of Korean language and culture, and economic exploitation. Ended with Japan's surrender in World War II."
+republic_of_china,Republic of China,,han,modern_chinese,chinese_folk_religion,democratic_republic,yellow_river|yangtze|manchuria,1912,,,"Succeeded the Qing Dynasty after the 1911 Revolution. Sun Yat-sen's Three Principles (Nationalism, Democracy, People's Livelihood). The ROC ruled mainland China through the warlord era, Northern Expedition (1928), Nanjing Decade of limited modernisation, Japanese War (1937–1945), and Civil War. In 1949 the Communists drove the Nationalist government to Taiwan, where the ROC continues to govern."
+weimar_republic,Weimar Republic,,german,german,protestant,democratic_republic,germany,1918,1933,article_48,"Germany's first democracy, proclaimed on November 9, 1918 as the Kaiser abdicated. Named after Weimar where the constitution was drafted. The republic faced hyperinflation (1923), the Great Depression (1929), political violence from left and right, and structural constitutional weaknesses (Article 48 emergency powers). Despite cultural brilliance (Bauhaus, Expressionism, cabaret), it was too fragile to survive the economic catastrophe. Hitler was appointed Chancellor on January 30, 1933."
+czechoslovakia,Czechoslovakia,,czech,czech,catholic,democratic_republic,bohemia,1918,1993,prague_spring,Created from the Habsburg collapse at Versailles — the most successful democratic state in interwar Central Europe. Munich Agreement (1938) forced it to cede the Sudetenland to Hitler; fully occupied 1939. Liberated 1945; Communist coup 1948. The Prague Spring (1968) — Alexander Dubček's 'socialism with a human face' — was crushed by Soviet tanks. Velvet Revolution (1989) ended communism peacefully. Velvet Divorce (1993) split into Czech Republic and Slovakia.
+kingdom_of_iraq,Kingdom of Iraq,,arab,arabic,sunni,constitutional_monarchy,mesopotamia,1921,1958,,"Created by Britain from three Ottoman vilayets (Mosul, Baghdad, Basra) under League of Nations Mandate. Faisal I (son of Sharif Hussein) installed as king. Iraq gained nominal independence in 1932 (first Arab state to join the League of Nations) while British advisors and air bases remained. The 1948 Arab–Israeli War and 1958 military coup ended the Hashemite monarchy."
+soviet_union,Soviet Union,,russian,russian,,,,1922,1991,,
+republic_of_turkey,Republic of Turkey,,turkic,modern_turkish,sunni,democratic_republic,anatolia,1923,,,"Mustafa Kemal Atatürk proclaimed the Republic on October 29, 1923 after the War of Independence expelled Greek, French, and Italian forces. Atatürk's programme of Westernisation and secularism: abolished the Caliphate (1924), replaced Arabic script with Latin alphabet, banned the fez, established women's suffrage (1934). Turkey joined NATO (1952). Military coups in 1960, 1971, 1980 periodically interrupted democracy. Erdoğan's AKP government (2002–present) re-Islamised Turkish public life and consolidated presidential power."
+mongolian_peoples_republic,Mongolian People's Republic,,mongol,old_turkic,buddhism,communist_state,mongolian_plateau,1924,1992,,"Established as a Soviet satellite state after Soviet-backed revolution against the theocratic Bogd Khanate. The purges of the 1930s under Choibalsan (the 'Mongolian Stalin') massacred 30,000–35,000 people, mostly Buddhist monks — 700 monasteries destroyed. Mongolia was a loyal Soviet ally and the second-oldest communist state. Transitioned to democracy in 1990 and formally dissolved in 1992."
+pahlavi_dynasty,Pahlavi Dynasty,,persian,,shia_islam,,,1925,1979,,
+manchukuo,Manchukuo,,han,modern_chinese,chinese_folk_religion,absolute_monarchy,manchuria,1932,1945,,"Japanese puppet state in Manchuria and Inner Mongolia, with the last Qing emperor Puyi as nominal head of state. The Kwantung Army controlled all real power. Site of Unit 731 (biological warfare experiments on prisoners). Collapsed immediately when the Soviet Union declared war on Japan (August 1945) and invaded Manchuria."
+saudi_arabia,Kingdom of Saudi Arabia,,arab,arabic,sunni,absolute_monarchy,arabia,1932,,,"Ibn Saud united the Arabian Peninsula through conquest and treaty (1902–1932). Oil discovered in commercial quantities (1938) transformed the kingdom. The 1973 Oil Embargo made Saudi Arabia a global power. The Grand Mosque seizure (1979) by Juhayman al-Otaibi shocked the kingdom; the regime's response was to give more power to conservative ulema — the origin of Saudi export of Wahhabism worldwide. The kingdom remains an absolute monarchy under the Al Saud family, with Vision 2030 attempting modernisation under Crown Prince MBS."
+nazi_germany,Nazi Germany (Third Reich),,german,german,,,,1933,1945,,
+modern_japan,Modern Japan (Postwar),,yamato,japanese,,constitutional_monarchy,japanese_archipelago,1947,,,Post-1947 Japan following American occupation and the 1947 Constitution. Parliamentary democracy with a figurehead emperor; economic miracle and rise as a technology and manufacturing superpower.
+republic_of_india,Republic of India,,indo_aryan,hindi,hinduism,democratic_republic,ganges_plain|deccan,1947,,,"Independent India is the world's largest democracy. Partition from Pakistan (1947) was accompanied by mass violence killing 200,000–2 million and displacing 10–20 million people. Nehru's non-aligned foreign policy, democratic constitution, and planned economy shaped the first decades. Economic liberalisation (1991) transformed India into one of the world's fastest-growing economies. BJP (Hindu nationalist) politics under Modi since 2014."
+pakistan,Pakistan,,indo_aryan,urdu,sunni,democratic_republic,indus_valley|punjab,1947,,,"Created as a Muslim homeland by the partition of British India. Jinnah's death (1948) left Pakistan without a founder statesman. Three wars with India (1947, 1965, 1971); Bangladesh broke away in 1971 after the Pakistani Army's genocide in East Pakistan. Nuclear power since 1998. Chronic alternation between civilian and military government; the Army as the dominant political institution. ISI intelligence services and Islamist politics complicate democratisation."
+south_korea,Republic of Korea (South Korea),,korean,old_korean,buddhism,,,1948,,,
+north_korea,Democratic People's Republic of Korea (North Korea),,korean,old_korean,,,,1948,,,
+east_germany,German Democratic Republic (East Germany),,german,german,,,,1949,1990,,
+federal_republic_germany,Federal Republic of Germany,,german,german,,,,1949,,,
+peoples_republic_of_china,People's Republic of China,,han,modern_chinese,chinese_folk_religion,communist_state,yellow_river|yangtze|manchuria,1949,,,"Mao Zedong proclaimed the PRC on October 1, 1949. The Great Leap Forward (1958–62) caused 15–55 million deaths by famine. The Cultural Revolution (1966–76) destroyed traditional culture and persecuted intellectuals. Deng Xiaoping's economic reforms (1978) launched 40 years of 10% annual growth — the largest poverty reduction in history. Xi Jinping's consolidation of personal power since 2012."
+republic_of_egypt,Republic of Egypt,,arab,arabic,sunni,democratic_republic,egypt,1952,,,"The Free Officers' Revolution (July 23, 1952) ended the monarchy. Nasser nationalised the Suez Canal (1956), triggering the Suez Crisis — and emerged as pan-Arab hero when US pressure forced Britain and France to withdraw. Nasser's Egypt was the champion of Arab nationalism. Sadat's Camp David Accords (1978) made peace with Israel — and got him assassinated (1981). Mubarak's 30-year autocracy ended with the Arab Spring (2011); democratic opening under Morsi crushed by military coup (2013) under Sisi."
+republic_of_iraq,Republic of Iraq,,arab,arabic,sunni,democratic_republic,mesopotamia,1958,,,"General Abd al-Karim Qasim's 1958 coup killed the royal family and created the republic. Ba'ath Party coups (1963, 1968) brought Saddam Hussein to power (formally 1979). Iran-Iraq War (1980–88); Kuwait invasion (1990); Gulf War; UN sanctions devastated the country. US invasion (2003) destroyed the state; Sunni insurgency, al-Qaeda, and ISIS emerged from the chaos. The 2005 constitution and Shia-dominated democracy have been unable to overcome sectarian divisions."
+islamic_republic_iran,Islamic Republic of Iran,,persian,,shia_islam,,,1979,,,
+russian_federation,Russian Federation,,russian,russian,,,,1991,,,
+song_dynasty,Song Dynasty,,han,middle_chinese,neo_confucianism,chinese_imperial,yellow_river|yangtze,960,1279,,Neo-Confucianism (synthesizing Buddhist metaphysics with Confucian ethics) became the dominant intellectual tradition
+three_kingdoms_korea,Three Kingdoms of Korea,,korean,old_korean,buddhism,feudal_monarchy,korean_peninsula|manchuria,-57,668,,"Confederation of three competing kingdoms: Goguryeo (north), Baekje (southwest), and Silla (southeast). All three eventually unified under Silla after Tang-Silla alliance eliminated rivals."
+modern_korea,Modern Korea (Postwar),,korean,korean,,democratic_republic,korean_peninsula,1945,,,"Post-1945 Korea; note that North and South Korea diverged into separate states (Democratic People's Republic and Republic of Korea) in 1948, but are modeled here as a unified entry representing the shared cultural and historical continuity. Future modeling should split into separate regime entries for DPRK and ROK."
+roman_empire,Roman Empire,,latin,latin,roman_paganism,imperial_monarchy,italy|anatolia|levant|egypt|balkans|iberia|gaul|north_africa,-27,476,,

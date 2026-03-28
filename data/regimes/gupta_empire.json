@@ -1,13 +1,33 @@
-[
-  {
-    "id": "gupta_empire",
-    "name": "Gupta Empire",
-    "cultural_language": 266,
-    "start": 320,
-    "end": 550,
-    "ideology": {
-      "religion": 147,
-      "government": "monarchy"
+{
+  "id": "gupta_empire",
+  "name": "Gupta Empire",
+  "ruling_ethnicity": "indo_aryan",
+  "cultural_language": "classical_sanskrit",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "ganges_plain",
+    "indus_valley"
+  ],
+  "start": 320,
+  "end": 550,
+  "note": "Hindu 'Golden Age'; Vaishnavism as court religion; classical Sanskrit literature and mathematics flourished",
+  "figures": [
+    {
+      "id": "samudragupta",
+      "name": "Samudragupta",
+      "role": "ruler",
+      "years": "335/380",
+      "significance": "Military genius and poet; the Napoleon and Augustus of India"
+    },
+    {
+      "id": "aryabhata",
+      "name": "Aryabhata",
+      "role": "cultural",
+      "years": "476/550",
+      "significance": "Calculated pi; proposed a heliocentric model; developed zero as a number"
     }
-  }
-]
+  ]
+}

@@ -1,13 +1,25 @@
-[
-  {
-    "id": "median_kingdom",
-    "name": "Median Kingdom",
-    "ruling_ethnicity": 134,
-    "start": -678,
-    "end": -550,
-    "ideology": {
-      "religion": 203,
-      "government": "monarchy"
+{
+  "id": "median_kingdom",
+  "name": "Median Kingdom",
+  "ruling_ethnicity": "median",
+  "cultural_language": "median_lang",
+  "ideology": {
+    "religion": "zoroastrianism",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "iran_plateau",
+    "caucasus"
+  ],
+  "start": -678,
+  "end": -550,
+  "figures": [
+    {
+      "id": "cyaxares",
+      "name": "Cyaxares",
+      "role": "ruler",
+      "years": "-625/-585",
+      "significance": "Destroyed the Assyrian Empire in alliance with Babylon"
     }
-  }
-]
+  ]
+}

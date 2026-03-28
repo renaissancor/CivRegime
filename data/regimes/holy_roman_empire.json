@@ -1,14 +1,52 @@
-[
-  {
-    "id": "holy_roman_empire",
-    "name": "Holy Roman Empire",
-    "ruling_ethnicity": 112,
-    "cultural_language": 335,
-    "start": 962,
-    "end": 1806,
-    "ideology": {
-      "religion": 2,
-      "government": "monarchy"
+{
+  "id": "holy_roman_empire",
+  "name": "Holy Roman Empire",
+  "ruling_ethnicity": "german",
+  "cultural_language": "latin",
+  "ideology": {
+    "religion": "catholic",
+    "government": "elective_monarchy"
+  },
+  "territories": [
+    "germany",
+    "bohemia",
+    "italy"
+  ],
+  "start": 962,
+  "end": 1806,
+  "policies": [
+    "golden_bull_1356",
+    "peace_of_westphalia"
+  ],
+  "note": "Neither holy, Roman, nor an empire — Voltaire. A decentralized confederation of German princes, bishops, and city-states under an elected emperor. German princes systematically resisted centralisation; the Peace of Westphalia (1648) effectively made the HRE a loose alliance of sovereign states.",
+  "figures": [
+    {
+      "id": "otto_i",
+      "name": "Otto I the Great",
+      "role": "founder",
+      "years": "912/973",
+      "significance": "Defeated the Magyars at Lechfeld (955); crowned emperor by the pope 962, founding the HRE"
+    },
+    {
+      "id": "frederick_barbarossa",
+      "name": "Frederick I Barbarossa",
+      "role": "ruler",
+      "years": "1122/1190",
+      "significance": "The iconic medieval emperor; fought the Italian communes and the Lombard League; died on the Third Crusade"
+    },
+    {
+      "id": "frederick_ii_hre",
+      "name": "Frederick II",
+      "role": "ruler",
+      "years": "1194/1250",
+      "significance": "Stupor Mundi — spoke six languages, patronised science, negotiated Jerusalem back through diplomacy rather than war; the most remarkable medieval ruler"
+    },
+    {
+      "id": "charles_v_hre",
+      "name": "Charles V",
+      "role": "ruler",
+      "years": "1500/1558",
+      "significance": "Ruled the HRE, Spain, Naples, and the Americas simultaneously; presided over the Reformation crisis; abdicated exhausted"
     }
-  }
-]
+  ]
+}

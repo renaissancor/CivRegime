@@ -1,0 +1,11 @@
+{
+  "id": "kingdom_of_prussia",
+  "name": "Kingdom of Prussia",
+  "ruling_ethnicity": "german",
+  "cultural_language": "german",
+  "ideology": {
+    "religion": "lutheranism"
+  },
+  "start": 1701,
+  "end": 1918
+}
