@@ -1,7 +1,7 @@
 {
-  "id": "interlingua",
-  "name": "Interlingua",
-  "parent": "constructed_languages",
+  "id": "jamaican_patois",
+  "name": "Jamaican Patois",
+  "parent": "creoles,_pidgins_mixed_languages",
   "iso6393": null,
   "glottocode": null,
   "description": null,

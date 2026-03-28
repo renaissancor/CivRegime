@@ -155,6 +155,11 @@ function createLeafNode(pathArray, nodeId, displayName, parentId, createdNodes, 
   results.created.push(`${nodeId} (leaf)`);
 }
 
+function cleanDataDir(dir) {
+  if (fs.existsSync(dir)) fs.rmSync(dir, { recursive: true, force: true });
+  fs.mkdirSync(dir, { recursive: true });
+}
+
 function main() {
   console.log(`Reading tree from: ${TREE_FILE}`);
   console.log(`Output directory: ${DATA_DIR}\n`);
@@ -164,9 +169,7 @@ function main() {
     process.exit(1);
   }
 
-  if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR, { recursive: true });
-  }
+  cleanDataDir(DATA_DIR);
 
   const results = generateReligionFiles();
 

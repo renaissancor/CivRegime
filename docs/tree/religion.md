@@ -182,9 +182,6 @@
 ### 3.4 Other East Asian Traditions
 - Legalism ((historical, philosophical))
 - Mohism ((historical, philosophical))
-- Chinese folk religion
-- Korean shamanism
-- Japanese folk religion
 
 ---
 
@@ -302,7 +299,6 @@
 
 ### 8.1 Historical Sects
 - Gnosticism ((early Christian variant))
-- Manichaeism ((blended tradition - now extinct))
 - Nestorian Christianity ((historical))
 - Donatism ((historical))
 - Monophysitism ((historical))
@@ -333,10 +329,8 @@
 - Confucian-Folk blends (East Asia)
 
 ### 9.2 Popular & Folk Religion
-- Chinese folk religion
 - Korean folk religion
 - Vietnamese folk religion
-- Japanese folk religion (distinct from Shinto)
 - European folk Christianity
 - African-diaspora folk traditions
 

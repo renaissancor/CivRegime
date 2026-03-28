@@ -183,7 +183,6 @@
 - Magahi
 - Dhivehi (Maldivian)
 - Romani
-- Ladakhi
 #### Iranian Group (Old / Avestan)
 - Avestan (c. 1000 BCE, extinct as vernacular)
 - Old Persian (c. 600 BCE, extinct)
@@ -263,7 +262,6 @@
 
 ### 2.5 Chadic Branch
 - Hausa
-- Kanuri ((actually Nilo-Saharan, often confused))
 
 ### 2.6 Omotic Branch
 - Wolaytta
@@ -883,26 +881,21 @@ Languages with no known genealogical relatives:
 
 ## 35. CREOLES, PIDGINS & MIXED LANGUAGES
 
-- ()Haitian Creole ((French-based))
-- ()Papiamento / Papiamentu ((Spanish-Portuguese-based, Caribbean))
-- ()Jamaican Patois / Creole ((English-based))
-- ()Tok Pisin ((English-based, Papua New Guinea))
-- ()Bislama ((English-based, Vanuatu))
-- ()Chavacano ((Spanish-based, Philippines))
-- ()Sango ((Ngbandi-based, Central African Republic))
-- ()Kituba / Kikongo ya leta ((Bantu-based))
+- Haitian Creole ((French-based))
+- Papiamento ((Spanish-Portuguese-based, Caribbean))
+- Jamaican Patois ((English-based))
+- Tok Pisin ((English-based, Papua New Guinea))
+- Sango ((Ngbandi-based, Central African Republic))
+- Kituba ((Bantu-based))
 
 ---
 
 ## 36. CONSTRUCTED LANGUAGES
 
-- ()Esperanto ((L.L. Zamenhof, 1887 — most spoken constructed language))
-- ()Volapük ((Johann Martin Schleyer, 1879))
-- ()Ido ((1907, Esperanto reform))
-- ()Interlingua ((1951))
-- ()Latin ((used as constructed international language in medieval Europe))
-- ()Classical Arabic ((standardized as religious/scholarly lingua franca))
-- ()Classical Sanskrit ((standardized as pan-South-Asian scholarly language))
+- Esperanto ((L.L. Zamenhof, 1887 — most spoken constructed language))
+- Volapük ((Johann Martin Schleyer, 1879))
+- Ido ((1907, Esperanto reform))
+- Interlingua ((1951))
 
 ---
 

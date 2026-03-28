@@ -6,6 +6,7 @@
 ## 1. MIDDLE EASTERN & NORTH AFRICAN BLOC
 
 ### 1.1 Semitic Cluster
+- Semitic ((historical umbrella))
 #### Ancient Semitic Groups ((historical))
 - Akkadian
 - Assyrian
@@ -20,6 +21,7 @@
 - Tigrayan
 
 ### 1.2 Berber / Amazigh Cluster
+- Berber ((historical umbrella))
 - Tuareg
 - Kabyle
 - Zenata
@@ -27,12 +29,14 @@
 - Tachelhit
 
 ### 1.3 Cushitic Cluster
+- Cushitic ((historical umbrella))
 - Somali
 - Oromo
 - Afar
 - Beja
 
 ### 1.4 Egyptian Cluster
+- Egyptian Native ((historical))
 - Egyptian (Coptic)
 - Nubian
 
@@ -41,6 +45,8 @@
 ## 2. EURASIAN (INDO-EUROPEAN) BLOC
 
 ### 2.1 Germanic Cluster
+- Germanic ((historical umbrella))
+- Norse ((historical))
 - Anglo-Saxon ((historical))
 - Germanic peoples ((historical))
 - English
@@ -51,6 +57,8 @@
 - Gothic ((historical))
 
 ### 2.2 Romance Cluster
+- Latin ((historical))
+- Iberian ((historical))
 - French
 - Spanish
 - Italian
@@ -60,6 +68,7 @@
 - Norman ((historical/regional))
 
 ### 2.3 Slavic Cluster
+- Slavic ((historical umbrella))
 
 #### East Slavic
 - Russian
@@ -79,14 +88,17 @@
 - Macedonian
 
 ### 2.4 Celtic Cluster
+- Celtic ((historical umbrella))
+- Gaelic ((historical))
+- Scottish ((historical))
 - Irish
 - Scottish Gaelic
 - Welsh
 - Breton
 
 ### 2.5 Hellenic Cluster
+- Hellenic ((historical umbrella))
 - Ancient Greek ((historical))
-- Macedonian
 - Modern Greek
 
 ### 2.6 Baltic Cluster
@@ -103,6 +115,7 @@
 - Tajik
 
 ### 2.8 Indo-Aryan Cluster
+- Indo-Aryan ((historical umbrella))
 - Hindustani (Hindi/Urdu speakers)
 - Bengali
 - Punjabi
@@ -117,6 +130,7 @@
 ## 3. EAST ASIAN BLOC
 
 ### 3.1 Sinitic Cluster
+- Han ((historical umbrella))
 - Han Chinese
   - Mandarin speakers
   - Cantonese speakers
@@ -126,6 +140,7 @@
   - Gan speakers
 
 ### 3.2 Japanese Cluster
+- Japanese ((historical umbrella))
 - Yamato
 - Ryukyuan
 - Ainu ((indigenous))
@@ -155,6 +170,7 @@
 ## 4. SOUTH ASIAN (NON-INDO-ARYAN) BLOC
 
 ### 4.1 Dravidian Cluster
+- Dravidian ((historical umbrella))
 - Tamil
 - Telugu
 - Kannada
@@ -171,6 +187,8 @@
 ## 5. CENTRAL ASIAN & STEPPE BLOC
 
 ### 5.1 Turkic Cluster
+- Turkic ((historical umbrella))
+- Steppe Nomadic ((historical))
 - Turkish
 - Azerbaijani
 - Uzbek
@@ -281,6 +299,7 @@
 ## 9. CAUCASIAN & OTHER REGIONAL CLUSTERS
 
 ### 9.1 Caucasian Peoples
+- Caucasian ((historical umbrella))
 - Georgian
 - Chechen
 - Circassian
@@ -288,11 +307,8 @@
 - Abkhaz
 
 ### 9.2 Central Asian & Silk Road
-- Sogdian ((historical))
 - Bactrian ((historical))
 - Samaritan
-- Tajik
-- Uyghur
 
 ### 9.3 Levantine & Diaspora
 - Palestinian
@@ -306,8 +322,6 @@
 ## 10. HISTORICAL & EXTINCT ETHNIC GROUPS
 
 ### 10.1 Ancient Near Eastern
-- Akkadian ((historical))
-- Sumerian ((historical))
 - Hittite ((historical))
 - Elamite ((historical))
 
@@ -326,7 +340,6 @@
 
 ### 10.4 Extinct Modern Groups
 - Rapa Nui (Easter Islander)
-- Ainu ((now integrated))
 
 ---
 
