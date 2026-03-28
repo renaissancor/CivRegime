@@ -1,0 +1,317 @@
+{
+  "id": "levant",
+  "title": "History of the Levant",
+  "columns": [
+    { "id": "era",       "name": "Era",                     "slots": 1, "type": "era" },
+    { "id": "n_syria",   "name": "N. Syria (Aleppo)",       "slots": 1 },
+    { "id": "coastal",   "name": "Coastal (Lebanon)",       "slots": 1 },
+    { "id": "damascus",  "name": "Damascus / Jordan",       "slots": 1 },
+    { "id": "palestine", "name": "Palestine / Israel",      "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Prehistoric", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Aurignacian · Kebaran cultures",        "note": "c.45,000–12,000 BCE" },
+            { "label": "Natufian culture",                       "note": "c.12,500–9,500 BCE" },
+            { "label": "Pre-Pottery Neolithic A·B",              "note": "c.9,500–6,400 BCE" },
+            { "label": "Halaf · Yarmukian · Ghassulian cultures","note": "c.6,400–3,500 BCE" }
+          ], "span": 4
+        }
+      ]
+    },
+    {
+      "era": { "label": "Early Ancient", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "label": "Ebla (c.3000–1600 BCE)",                "note": "major bronze age city-state" },
+            { "label": "Mari (c.2900–1761 BCE)",                "note": "on middle Euphrates" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Byblos / Gubla",                        "note": "c.3000 BCE onward" },
+            { "label": "Ugarit",                                 "note": "c.2000–1185 BCE" }
+          ], "span": 1
+        },
+        { "label": "Amorite city-states",                       "span": 1 },
+        { "label": "Canaanite city-states",                     "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Yamhad (Aleppo)",                        "note": "c.1800–1600 BCE" },
+            { "label": "Mitanni Kingdom",                        "note": "c.1500–1300 BCE" },
+            { "regime": "hittite_empire", "label": "Hittite Empire", "note": "c.1350–1180 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ugarit",                                 "note": "–1185 BCE" },
+            { "label": "Egyptian New Kingdom (coastal)", "note": "c.1550–1150 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Qatna / Amorite kingdoms",               "note": "c.2000–1600 BCE" },
+            { "label": "Egyptian New Kingdom",                   "note": "c.1550–1150 BCE" },
+            { "label": "Mitanni",                                "note": "c.1500–1300 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Egyptian New Kingdom",                   "note": "c.1550–1150 BCE" },
+            { "label": "Canaanite cities (Egyptian vassals)", "note": "" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Late Bronze Age Collapse · Sea Peoples", "note": "c.1200–1150 BCE" },
+            { "label": "Aramaean kingdoms (Bit Adini etc.)",     "note": "c.1100–732 BCE" },
+            { "label": "Neo-Hittite states",                     "note": "c.1200–700 BCE" },
+            { "regime": "neo_assyrian_empire", "label": "Neo-Assyrian Empire", "note": "911–609 BCE" },
+            { "regime": "neo_babylonian",      "label": "Neo-Babylonian Empire","note": "609–539 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "phoenician_states",   "label": "Phoenician city-states (Byblos · Sidon · Tyre)", "note": "c.1200–332 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Aram-Damascus",                          "note": "c.1200–732 BCE" },
+            { "regime": "neo_assyrian_empire", "label": "Neo-Assyrian Empire", "note": "732–609 BCE" },
+            { "regime": "neo_babylonian",      "label": "Neo-Babylonian Empire","note": "609–539 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "kingdom_of_israel",   "label": "United Kingdom · Israel / Judah",   "note": "c.1000–722/586 BCE" },
+            { "regime": "kingdom_of_judah",    "label": "Kingdom of Judah",                  "note": "–586 BCE" },
+            { "label": "Babylonian exile",                       "note": "586–539 BCE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Classical", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "regime": "achaemenid_empire",   "label": "Achaemenid Empire",  "note": "539–332 BCE" },
+            { "regime": "macedonian_empire",   "label": "Alexander / Diadochi","note": "332–301 BCE" }
+          ], "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "seleucid_empire", "label": "Seleucid Empire",            "span": 2 },
+        { "stack": [
+            { "regime": "ptolemaic_egypt", "label": "Ptolemaic (Coele-Syria)","note": "301–198 BCE" },
+            { "regime": "seleucid_empire", "label": "Seleucid Empire",         "note": "198–63 BCE" },
+            { "regime": "nabataean_kingdom","label": "Nabataean Kingdom",      "note": "c.168 BCE–106 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "ptolemaic_egypt", "label": "Ptolemaic (Coele-Syria)","note": "301–198 BCE" },
+            { "regime": "seleucid_empire", "label": "Seleucid Empire",         "note": "198–141 BCE" },
+            { "label": "Hasmonean dynasty",                      "note": "141–63 BCE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Roman", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "regime": "roman_empire_pagan", "label": "Roman Republic · Roman Empire",        "note": "64 BCE–" },
+            { "label": "Syria province (capital Antioch)",       "note": "64 BCE–637 CE" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "regime": "nabataean_kingdom",   "label": "Nabataean Kingdom",  "note": "–106 CE" },
+            { "regime": "roman_empire_pagan",  "label": "Arabia Petraea",     "note": "106–637 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Judaea province (Roman)",                "note": "63 BCE–135 CE" },
+            { "label": "Syria Palaestina",                       "note": "135–390 CE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "roman_empire_christian","label": "Roman Empire (Christian) · Byzantine","note": "284–611" },
+            { "regime": "sassanid_empire",       "label": "Sassanid occupation",  "note": "611–628" },
+            { "regime": "byzantine_empire",      "label": "Byzantine restored",   "note": "628–636" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Palmyrene Empire (Zenobia)",             "note": "270–273" },
+            { "regime": "roman_empire_christian","label": "Byzantine",            "note": "273–611" },
+            { "regime": "sassanid_empire",       "label": "Sassanid",             "note": "611–628" },
+            { "regime": "byzantine_empire",      "label": "Byzantine restored",   "note": "628–636" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "roman_empire_christian","label": "Byzantine",            "note": "–611" },
+            { "regime": "sassanid_empire",       "label": "Sassanid",             "note": "611–628" },
+            { "regime": "byzantine_empire",      "label": "Byzantine restored",   "note": "628–636" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval Islamic", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "regime": "rashidun_caliphate", "label": "Rashidun Caliphate",      "note": "636–661" },
+            { "regime": "umayyad_caliphate",  "label": "Umayyad Caliphate (capital: Damascus)", "note": "661–750" },
+            { "regime": "abbasid_caliphate",  "label": "Abbasid Caliphate",       "note": "750–878" },
+            { "label": "Tulunid dynasty",                        "note": "878–905" },
+            { "regime": "abbasid_caliphate",  "label": "Abbasid restored",        "note": "905–941" },
+            { "label": "Ikhshidid dynasty",                      "note": "941–969" },
+            { "regime": "fatimid_caliphate",  "label": "Fatimid Caliphate",       "note": "969–1070" }
+          ], "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Hamdanid Emirate (Aleppo)",              "note": "944–1003" },
+            { "regime": "byzantine_empire",   "label": "Byzantine (recovered Antioch)", "note": "969–1084" },
+            { "label": "Mirdasid dynasty (Aleppo)",              "note": "1024–1080" },
+            { "regime": "seljuk_empire",      "label": "Seljuk Empire",           "note": "1070–1128" },
+            { "label": "Zangid Atabegate (Aleppo · Mosul)",      "note": "1128–1183" },
+            { "regime": "ayyubid_sultanate",  "label": "Ayyubid",                 "note": "1183–1260" },
+            { "label": "Mongol Il-Khanate (raids)",              "note": "1260" },
+            { "regime": "mamluk_sultanate",   "label": "Mamluk Sultanate",        "note": "1260–1516" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "fatimid_caliphate",  "label": "Fatimid Caliphate",       "note": "969–1099" },
+            { "label": "Principality of Antioch (Crusader)",     "note": "1098–1268" },
+            { "label": "County of Tripoli (Crusader)",           "note": "1102–1289" },
+            { "regime": "ayyubid_sultanate",  "label": "Ayyubid",                 "note": "partial" },
+            { "regime": "mamluk_sultanate",   "label": "Mamluk Sultanate",        "note": "1268–1516" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "fatimid_caliphate",  "label": "Fatimid Caliphate",       "note": "969–1076" },
+            { "regime": "seljuk_empire",      "label": "Seljuk (Damascus)",       "note": "1076–1104" },
+            { "label": "Burid dynasty (Damascus)",               "note": "1104–1154" },
+            { "label": "Zangid / Ayyubid (Damascus)",            "note": "1154–1260" },
+            { "regime": "mamluk_sultanate",   "label": "Mamluk Sultanate",        "note": "1260–1516" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "fatimid_caliphate",  "label": "Fatimid Caliphate",       "note": "969–1099" },
+            { "label": "Kingdom of Jerusalem (Crusader)",        "note": "1099–1291" },
+            { "regime": "ayyubid_sultanate",  "label": "Ayyubid",                 "note": "1187–1229 / 1244" },
+            { "regime": "mamluk_sultanate",   "label": "Mamluk Sultanate",        "note": "1291–1516" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Ottoman", "rowspan": 1 },
+      "cells": [
+        { "regime": "ottoman_empire", "label": "Ottoman Empire — Bilad al-Sham provinces (Damascus · Aleppo · Sidon · Tripoli · Jerusalem)", "span": 4 }
+      ]
+    },
+    {
+      "era": { "label": "Colonial", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "OETA North (British/Faisal)",            "note": "1918–1920" },
+            { "label": "Arab Kingdom of Syria (Faisal)",         "note": "1920" },
+            { "label": "French Mandate Syria",                   "note": "1920–1946" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "OETA West (British/French)",             "note": "1918–1920" },
+            { "label": "French Mandate Lebanon",                 "note": "1920–1943" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "OETA East (British/Faisal)",             "note": "1918–1920" },
+            { "label": "British Mandate Transjordan",            "note": "1921–1946" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "OETA South (British)",                   "note": "1918–1920" },
+            { "label": "British Mandate Palestine",              "note": "1920–1948" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Syrian Republic (independence 1946)",        "span": 1 },
+        { "label": "Lebanese Republic (independence 1943)",      "span": 1 },
+        { "label": "Hashemite Kingdom of Jordan (1946)",         "span": 1 },
+        { "stack": [
+            { "label": "State of Israel (1948)",                 "note": "" },
+            { "label": "Palestinian displacement (Nakba)",       "note": "1948" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Syrian 1st Republic · Ba'athist Syria",  "note": "1946–1971" },
+            { "label": "United Arab Republic (with Egypt)",      "note": "1958–1961" },
+            { "label": "Ba'athist Syrian Arab Republic",         "note": "1963–2011" }
+          ], "span": 1
+        },
+        { "label": "Lebanese Republic",                          "span": 1 },
+        { "label": "Hashemite Kingdom of Jordan",                "span": 1 },
+        { "stack": [
+            { "label": "State of Israel",                        "note": "1948–" },
+            { "label": "Palestinian territories (PLO/PA)",       "note": "1964/1994–" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Syrian Civil War:",                      "note": "2011–2020" },
+            { "label": "Assad government forces",                "note": "" },
+            { "label": "Syrian National Coalition (rebels)",     "note": "" },
+            { "label": "ISIL (partial, 2013–2019)",              "note": "" },
+            { "label": "Rojava / AANES (Kurdish)",               "note": "2012–" },
+            { "label": "HTS / Syrian caretaker government",      "note": "2024–" }
+          ], "span": 1
+        },
+        { "label": "Lebanese Republic",                          "span": 1 },
+        { "label": "Hashemite Kingdom of Jordan",                "span": 1 },
+        { "stack": [
+            { "label": "State of Israel",                        "note": "" },
+            { "label": "Palestinian territories (Gaza · West Bank)", "note": "" }
+          ], "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "N. Syria (Aleppo): the northern corridor was dominated by city-states (Ebla, Yamhad/Aleppo) in the Bronze Age; Antioch became the Seleucid and later Roman capital of the East; the Hamdanids, Mirdasids, and Zangids based their power here; Aleppo was the entry point for every steppe invasion",
+    "Coastal Lebanon: the Phoenician cities (Byblos, Sidon, Tyre) were the ancient world's maritime merchants and alphabet inventors; the Crusader Principality of Antioch and County of Tripoli occupied this strip; Lebanon was separated from Syria by France in 1920 as a Christian-majority state",
+    "Damascus / Jordan: Damascus is one of the world's oldest continuously inhabited cities; the Umayyad Caliphate ruled the Islamic world from here (661–750); the Nabataean Kingdom controlled the Transjordan desert trade routes; Jordan was drawn as Transjordan by Britain in 1921",
+    "Palestine / Israel: the biblical heartland of Canaan, Israel, and Judah; the Roman destruction of Jerusalem (70 CE) and the Bar Kokhba revolt (135 CE) began the Jewish diaspora; the Crusader Kingdom of Jerusalem (1099–1291) made this the pivot of medieval holy war; the British Mandate ended in the 1948 Arab-Israeli War",
+    "Coele-Syria (Hollow Syria): the Greek name for the Levant between the Lebanon and Anti-Lebanon mountain ranges; contested between Ptolemaic Egypt and Seleucid Syria through the Syrian Wars (274–168 BCE) until Antiochus III's victory at Panium (198 BCE)",
+    "Umayyad capital Damascus (661–750): the Umayyad Caliphate made Damascus the center of the Islamic world; the Abbasid revolution moved the capital to Baghdad in 762, reducing Syria to a province",
+    "Sykes-Picot Line (1916): the secret Anglo-French agreement divided the Levant into British (Palestine, Jordan) and French (Syria, Lebanon) spheres, drawing the modern borders without regard for Arab, Kurdish, or Zionist claims"
+  ]
+}
