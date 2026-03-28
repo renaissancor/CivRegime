@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>History Panel</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0f1117;
+      color: #e2e8f0;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 13px;
+      min-height: 100vh;
+    }
+
+    .topnav {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      background: #161b27;
+      border-bottom: 1px solid #2d3748;
+      padding: 0 16px;
+      height: 44px;
+    }
+    .nav-brand {
+      font-weight: 700;
+      font-size: 14px;
+      color: #f6ad55;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-right: 8px;
+    }
+    .nav-link {
+      color: #a0aec0;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 6px 12px;
+      border-radius: 4px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .nav-link:hover { background: #1e2535; color: #e2e8f0; }
+    .nav-link.active { color: #f6ad55; background: #1e2535; }
+
+    .page-body { padding: 24px; }
+
+    h1 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #f0f4ff;
+    }
+
+    /* ── Panel selector ── */
+    #panel-selector {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+
+    #panel-selector button {
+      background: #1e2535;
+      border: 1px solid #2d3748;
+      color: #a0aec0;
+      padding: 6px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 12px;
+      transition: all 0.15s;
+    }
+
+    #panel-selector button:hover,
+    #panel-selector button.active {
+      background: #2d3a58;
+      border-color: #4a6fa5;
+      color: #e2e8f0;
+    }
+
+    /* ── Scroll container ── */
+    #panel-container {
+      overflow-x: auto;
+    }
+
+    /* ── History grid ── */
+    .history-grid {
+      display: grid;
+      gap: 1px;
+      background: #2d3748;
+      border: 1px solid #2d3748;
+      width: max-content;
+      min-width: 100%;
+    }
+
+    /* ── Column headers ── */
+    .grid-header {
+      background: #1a2035;
+      color: #90cdf4;
+      font-weight: 600;
+      font-size: 12px;
+      padding: 10px 14px;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .grid-header.era-header {
+      color: #718096;
+      font-size: 11px;
+      min-width: 90px;
+    }
+
+    /* ── Base grid cell ── */
+    .grid-cell {
+      padding: 7px 10px;
+      text-align: center;
+      font-size: 12px;
+      min-height: 36px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: filter 0.15s;
+    }
+
+    .grid-cell:hover { filter: brightness(1.15); }
+
+    .grid-cell a { color: inherit; text-decoration: none; }
+    .grid-cell a:hover { text-decoration: underline; }
+
+    .grid-cell.empty {
+      background: #0d1018;
+      color: #4a5568;
+      font-style: italic;
+      font-size: 11px;
+    }
+
+    /* ── Era label cell ── */
+    .grid-cell.era-cell {
+      background: #161b27;
+      color: #718096;
+      font-size: 11px;
+      font-weight: 600;
+      white-space: nowrap;
+      min-width: 90px;
+    }
+
+    /* ── Era separator ── */
+    .era-start { border-top: 3px solid #070a10; }
+
+    /* ── Stacked cell — sequential rulers, fills row height ── */
+    .grid-cell.stacked {
+      padding: 0;
+      display: block;
+      align-self: stretch;  /* stretch to full grid row height */
+    }
+
+    .stack-wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      min-height: 36px;
+    }
+
+    .stack-item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 5px 10px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      text-align: center;
+    }
+
+    .stack-item:last-child { border-bottom: none; }
+    .stack-item a { color: inherit; text-decoration: none; }
+    .stack-item a:hover { text-decoration: underline; }
+
+    .stack-note {
+      display: block;
+      font-size: 10px;
+      opacity: 0.5;
+      margin-top: 2px;
+    }
+
+    /* ── Split cell — concurrent coexisting rulers, side by side ── */
+    .grid-cell.split-cell {
+      padding: 0;
+      display: block;
+      align-self: stretch;
+    }
+
+    .split-wrapper {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      min-height: 36px;
+    }
+
+    .split-item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 5px 6px;
+      border-right: 1px solid rgba(255,255,255,0.07);
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .split-item:last-child { border-right: none; }
+    .split-item a { color: inherit; text-decoration: none; }
+    .split-item a:hover { text-decoration: underline; }
+
+    .split-note {
+      display: block;
+      font-size: 10px;
+      opacity: 0.5;
+      margin-top: 2px;
+    }
+
+    /* ── Ethnicity color palette ── */
+    .eth-han        { background: #1a3a5c; color: #90cdf4; }
+    .eth-yamato     { background: #3a1a2e; color: #f9a8d4; }
+    .eth-korean     { background: #1a3a2e; color: #9ae6b4; }
+    .eth-mongol     { background: #3a2e1a; color: #fbd38d; }
+    .eth-turkic     { background: #3a1a1a; color: #fc8181; }
+    .eth-persian    { background: #2e1a3a; color: #d6bcfa; }
+    .eth-arab       { background: #2e3a1a; color: #c6f6d5; }
+    .eth-latin      { background: #3a2e1a; color: #fbd38d; }
+    .eth-hellenic   { background: #1a2e3a; color: #bee3f8; }
+    .eth-germanic   { background: #2a2a1a; color: #e9d8a6; }
+    .eth-slavic     { background: #1a2a2a; color: #b2f5ea; }
+    .eth-default    { background: #1e2535; color: #a0aec0; }
+    .eth-indigenous { background: #1a1a1a; color: #718096; }
+    .eth-foreign    { background: #2a1a2a; color: #e9a8d4; }
+
+    /* ── Footnotes ── */
+    .footnotes {
+      margin-top: 20px;
+      color: #718096;
+      font-size: 11px;
+      line-height: 1.8;
+    }
+
+    .footnotes p::before { content: '※ '; }
+
+    #loading { color: #718096; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+<nav class="topnav">
+  <span class="nav-brand">CivRegime</span>
+  <a href="/" class="nav-link">Regimes</a>
+  <a href="/religion/" class="nav-link">Religions</a>
+  <a href="/language/" class="nav-link">Languages</a>
+  <a href="/ethnicity/" class="nav-link">Ethnicities</a>
+  <a href="/territory/" class="nav-link">Territories</a>
+  <a href="/history/" class="nav-link active">History</a>
+</nav>
+
+<div class="page-body">
+  <h1 id="page-title">History Panel</h1>
+  <div id="panel-selector"></div>
+  <div id="panel-container"><p id="loading">Loading...</p></div>
+</div>
+
+  <script>
+    // ── Ethnicity → CSS class ─────────────────────────────────────────────────
+    const ETH_CLASS = {
+      han: 'eth-han', chinese: 'eth-han',
+      yamato: 'eth-yamato', japanese: 'eth-yamato',
+      korean: 'eth-korean',
+      mongol: 'eth-mongol', mongolian: 'eth-mongol',
+      turkic: 'eth-turkic', turkish: 'eth-turkic',
+      persian: 'eth-persian', iranian: 'eth-persian',
+      arab: 'eth-arab', arabic: 'eth-arab', semitic: 'eth-arab',
+      latin: 'eth-latin', roman: 'eth-latin',
+      hellenic: 'eth-hellenic', greek: 'eth-hellenic',
+      german: 'eth-germanic', germanic: 'eth-germanic',
+      slavic: 'eth-slavic', russian: 'eth-slavic',
+    };
+
+    const regimeCache = {};
+
+    async function getRegimeColor(id) {
+      if (!id || regimeCache[id] !== undefined) return;
+      try {
+        const r = await fetch(`../data/regimes/${id}.json`);
+        regimeCache[id] = r.ok ? await r.json() : null;
+      } catch { regimeCache[id] = null; }
+    }
+
+    function colorOf(item) {
+      if (item.regime && regimeCache[item.regime]) {
+        const eth = (regimeCache[item.regime].ruling_ethnicity || '').toLowerCase();
+        return ETH_CLASS[eth] || 'eth-default';
+      }
+      return item.regime ? 'eth-default' : (item.label ? 'eth-indigenous' : 'eth-default');
+    }
+
+    function innerHtml(item, noteClass) {
+      const label = item.label || item.regime || '';
+      const body  = item.regime
+        ? `<a href="../regime/index.html?id=${item.regime}" title="${item.regime}">${label}</a>`
+        : (label || '—');
+      return body + (item.note ? `<span class="${noteClass}">${item.note}</span>` : '');
+    }
+
+    // ── Render panel using CSS Grid ───────────────────────────────────────────
+    async function renderPanel(panel) {
+      document.getElementById('page-title').textContent = panel.title;
+
+      const eraCol      = panel.columns.find(c => c.type === 'era');
+      const contentCols = panel.columns.filter(c => c.type !== 'era');
+      const totalSlots  = contentCols.reduce((s, c) => s + c.slots, 0);
+      const eraOff      = eraCol ? 1 : 0;   // grid column offset for era col
+
+      // Pre-resolve all regime colors in one pass
+      const ids = panel.rows
+        .flatMap(r => r.cells || [])
+        .flatMap(c => c.stack ? c.stack.map(s => s.regime)
+                    : c.split ? c.split.map(s => s.regime)
+                    : [c.regime])
+        .filter(Boolean);
+      await Promise.all([...new Set(ids)].map(getRegimeColor));
+
+      // Era-start rows → draw separator border
+      let prevEra = null;
+      const eraStarts = new Set();
+      panel.rows.forEach((row, i) => {
+        if (row.era?.label && row.era.label !== prevEra) {
+          if (prevEra !== null) eraStarts.add(i);
+          prevEra = row.era.label;
+        }
+      });
+
+      // Occupancy map — tracks cells that span multiple rows via cell.rowspan
+      // occ[rowIdx][contentColIdx] = true when a spanning cell from a prior row owns this slot
+      const occ = {};
+      const isOcc  = (r, c) => occ[r]?.[c] === true;
+      const markOcc = (r, c, rs, cs) => {
+        for (let ri = r; ri < r + rs; ri++) {
+          occ[ri] ??= {};
+          for (let ci = c; ci < c + cs; ci++) occ[ri][ci] = true;
+        }
+      };
+
+      // ── Header (grid row 1) ──
+      let html = '';
+      if (eraCol) {
+        html += `<div class="grid-header era-header" style="grid-column:1;grid-row:1">${eraCol.name}</div>`;
+      }
+      let hc = 1 + eraOff;
+      for (const col of contentCols) {
+        html += `<div class="grid-header" style="grid-column:${hc}/span ${col.slots};grid-row:1">${col.name}</div>`;
+        hc += col.slots;
+      }
+
+      // ── Data rows (grid rows start at 2) ──
+      panel.rows.forEach((row, rowIdx) => {
+        const gRow = rowIdx + 2;
+        const sep  = eraStarts.has(rowIdx) ? 'era-start' : '';
+
+        // Era label cell
+        if (eraCol && row.era?.label) {
+          const rs = row.era.rowspan || 1;
+          html += `<div class="grid-cell era-cell ${sep}" style="grid-column:1;grid-row:${gRow}/span ${rs}">${row.era.label}</div>`;
+        }
+
+        // Content cells — advance cursor, skip occupied slots
+        let cc = 0;
+        for (const cell of row.cells || []) {
+          while (isOcc(rowIdx, cc)) cc++;
+
+          const cs = cell.span    || 1;
+          const rs = cell.rowspan || 1;
+          const gcStart = cc + 1 + eraOff;
+          const pos = `grid-column:${gcStart}/span ${cs};grid-row:${gRow}/span ${rs}`;
+
+          markOcc(rowIdx, cc, rs, cs);
+          cc += cs;
+
+          if (cell.stack) {
+            const items = cell.stack.map(item =>
+              `<div class="stack-item ${colorOf(item)}">${innerHtml(item, 'stack-note')}</div>`
+            ).join('');
+            html += `<div class="grid-cell stacked ${sep}" style="${pos}"><div class="stack-wrapper">${items}</div></div>`;
+
+          } else if (cell.split) {
+            const items = cell.split.map(item =>
+              `<div class="split-item ${colorOf(item)}">${innerHtml(item, 'split-note')}</div>`
+            ).join('');
+            html += `<div class="grid-cell split-cell ${sep}" style="${pos}"><div class="split-wrapper">${items}</div></div>`;
+
+          } else {
+            const label = cell.label || cell.regime || '';
+            const cls   = colorOf(cell);
+            const body  = cell.regime
+              ? `<a href="../regime/index.html?id=${cell.regime}" title="${cell.regime}">${label}</a>`
+              : (label || '—');
+            html += `<div class="grid-cell ${label ? cls : 'empty'} ${sep}" style="${pos}">${body}</div>`;
+          }
+        }
+      });
+
+      const gridCols = (eraCol ? '90px ' : '') + `repeat(${totalSlots}, 1fr)`;
+      let footnotes  = '';
+      if (panel.footnotes?.length) {
+        footnotes = '<div class="footnotes">' +
+          panel.footnotes.map(f => `<p>${f}</p>`).join('') + '</div>';
+      }
+
+      document.getElementById('panel-container').innerHTML =
+        `<div class="history-grid" style="grid-template-columns:${gridCols}">${html}</div>${footnotes}`;
+    }
+
+    // ── Panel list and routing ────────────────────────────────────────────────
+    const PANELS = [
+      { id: 'east_asia/japan',           label: 'Japan'    },
+      { id: 'east_asia/korea',           label: 'Korea'    },
+      { id: 'middle_east/arabia',        label: 'Arabia'   },
+      { id: 'middle_east/anatolia',      label: 'Anatolia' },
+      { id: 'middle_east/iraq',          label: 'Iraq'     },
+      { id: 'persia_central_asia/iran',  label: 'Iran'     },
+    ];
+
+    function buildSelector(panels, activeId) {
+      document.getElementById('panel-selector').innerHTML = panels.map(p =>
+        `<button class="${p.id === activeId ? 'active' : ''}"
+           onclick="loadPanel('${p.id}')">${p.label}</button>`
+      ).join('');
+    }
+
+    async function loadPanel(id) {
+      document.getElementById('panel-container').innerHTML = '<p id="loading">Loading...</p>';
+      buildSelector(PANELS, id);
+      try {
+        const r = await fetch(`../data/history/${id}.json`);
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        await renderPanel(await r.json());
+      } catch (e) {
+        document.getElementById('panel-container').innerHTML =
+          `<p style="color:#fc8181">Error loading panel: ${e.message}</p>`;
+      }
+    }
+
+    buildSelector(PANELS, PANELS[0].id);
+    loadPanel(PANELS[0].id);
+  </script>
+</div>
+</body>
+</html>
