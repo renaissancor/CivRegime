@@ -16,7 +16,7 @@
           "presence": "dominant"
         },
         {
-          "ethnicity": "akkadian_eth",
+          "ethnicity": "akkadian",
           "presence": "significant minority",
           "note": "Semitic-speaking population in northern Mesopotamia"
         }
@@ -26,10 +26,10 @@
       "regime": "akkadian_empire",
       "start": -2334,
       "end": -2154,
-      "dominant_ethnicity": "akkadian_eth",
+      "dominant_ethnicity": "akkadian",
       "ethnic_composition": [
         {
-          "ethnicity": "akkadian_eth",
+          "ethnicity": "akkadian",
           "presence": "ruling/dominant"
         },
         {
@@ -51,7 +51,7 @@
           "note": "Last flourishing of Sumerian as a spoken language"
         },
         {
-          "ethnicity": "akkadian_eth",
+          "ethnicity": "akkadian",
           "presence": "significant"
         }
       ]
@@ -60,10 +60,10 @@
       "regime": "old_babylonian",
       "start": -1894,
       "end": -1595,
-      "dominant_ethnicity": "babylonian_eth",
+      "dominant_ethnicity": "babylonian",
       "ethnic_composition": [
         {
-          "ethnicity": "babylonian_eth",
+          "ethnicity": "babylonian",
           "presence": "dominant"
         },
         {
@@ -77,14 +77,14 @@
       "regime": "neo_assyrian_empire",
       "start": -911,
       "end": -609,
-      "dominant_ethnicity": "assyrian_eth",
+      "dominant_ethnicity": "assyrian",
       "ethnic_composition": [
         {
-          "ethnicity": "assyrian_eth",
+          "ethnicity": "assyrian",
           "presence": "ruling/dominant (northern Mesopotamia)"
         },
         {
-          "ethnicity": "babylonian_eth",
+          "ethnicity": "babylonian",
           "presence": "significant (southern Mesopotamia)"
         }
       ]
@@ -93,14 +93,14 @@
       "regime": "neo_babylonian",
       "start": -626,
       "end": -539,
-      "dominant_ethnicity": "babylonian_eth",
+      "dominant_ethnicity": "babylonian",
       "ethnic_composition": [
         {
-          "ethnicity": "babylonian_eth",
+          "ethnicity": "babylonian",
           "presence": "dominant"
         },
         {
-          "ethnicity": "hebrew_eth",
+          "ethnicity": "hebrew",
           "presence": "diaspora minority",
           "note": "Babylonian captivity of the Jews (586 BC)"
         }
@@ -110,18 +110,18 @@
       "regime": "achaemenid_empire",
       "start": -539,
       "end": -330,
-      "dominant_ethnicity": "babylonian_eth",
+      "dominant_ethnicity": "babylonian",
       "ethnic_composition": [
         {
           "ethnicity": "persian",
           "presence": "ruling/garrison"
         },
         {
-          "ethnicity": "babylonian_eth",
+          "ethnicity": "babylonian",
           "presence": "dominant population"
         },
         {
-          "ethnicity": "akkadian_eth",
+          "ethnicity": "akkadian",
           "presence": "remnant"
         }
       ]
@@ -130,7 +130,7 @@
       "regime": "seleucid_empire",
       "start": -312,
       "end": -141,
-      "dominant_ethnicity": "babylonian_eth",
+      "dominant_ethnicity": "babylonian",
       "ethnic_composition": [
         {
           "ethnicity": "macedonian",
@@ -141,7 +141,7 @@
           "presence": "urban significant"
         },
         {
-          "ethnicity": "babylonian_eth",
+          "ethnicity": "babylonian",
           "presence": "rural majority"
         }
       ]
@@ -150,14 +150,14 @@
       "regime": "parthian_empire",
       "start": -141,
       "end": 224,
-      "dominant_ethnicity": "babylonian_eth",
+      "dominant_ethnicity": "babylonian",
       "ethnic_composition": [
         {
           "ethnicity": "parthian",
           "presence": "ruling"
         },
         {
-          "ethnicity": "babylonian_eth",
+          "ethnicity": "babylonian",
           "presence": "urban majority",
           "note": "Babylonian-Aramaic culture persisted"
         }
@@ -174,7 +174,7 @@
           "presence": "ruling/dominant"
         },
         {
-          "ethnicity": "babylonian_eth",
+          "ethnicity": "babylonian",
           "presence": "remnant/assimilating"
         },
         {

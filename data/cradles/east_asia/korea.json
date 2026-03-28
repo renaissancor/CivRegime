@@ -12,28 +12,28 @@
       "regime": "three_kingdoms_korea",
       "start": -57,
       "end": 668,
-      "dominant_ethnicity": "korean_eth",
+      "dominant_ethnicity": "korean",
       "note": "Fragmentation into Goguryeo, Baekje, and Silla; deep cultural and linguistic unity despite political division."
     },
     {
       "regime": "unified_silla",
       "start": 668,
       "end": 935,
-      "dominant_ethnicity": "korean_eth",
+      "dominant_ethnicity": "korean",
       "note": "First unification of the peninsula; Golden Age of Buddhist culture."
     },
     {
       "regime": "goryeo",
       "start": 918,
       "end": 1392,
-      "dominant_ethnicity": "korean_eth",
+      "dominant_ethnicity": "korean",
       "note": "Resistance against Mongol (Yuan) invasions; source of the name 'Korea'."
     },
     {
       "regime": "joseon",
       "start": 1392,
       "end": 1897,
-      "dominant_ethnicity": "korean_eth",
+      "dominant_ethnicity": "korean",
       "note": "The longest-running Confucian state; high administrative continuity."
     },
     {
@@ -47,7 +47,7 @@
       "regime": "modern_korea",
       "start": 1945,
       "end": null,
-      "dominant_ethnicity": "korean_eth",
+      "dominant_ethnicity": "korean",
       "note": "Division into North (DPRK) and South (ROK)."
     }
   ]

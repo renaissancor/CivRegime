@@ -16,7 +16,7 @@
           "presence": "dominant"
         },
         {
-          "ethnicity": "akkadian_eth",
+          "ethnicity": "akkadian",
           "presence": "minority",
           "note": "Merchant colonies (Karum)"
         }
@@ -157,11 +157,11 @@
           "note": "Rum Millet; significant in Istanbul, Aegean coast until population exchanges of 1923"
         },
         {
-          "ethnicity": "hebrew_eth",
+          "ethnicity": "hebrew",
           "presence": "urban minority (millet)"
         },
         {
-          "ethnicity": "south_slavic_eth",
+          "ethnicity": "south_slavic",
           "presence": "minority (Balkans)"
         }
       ]

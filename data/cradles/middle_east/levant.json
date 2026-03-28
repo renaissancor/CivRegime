@@ -43,7 +43,7 @@
       "dominant_ethnicity": "semitic",
       "ethnic_composition": [
         {
-          "ethnicity": "assyrian_eth",
+          "ethnicity": "assyrian",
           "presence": "ruling/garrison"
         },
         {
@@ -52,7 +52,7 @@
           "note": "Phoenicians, Aramaeans, Israelites; mass deportations reshuffled populations"
         },
         {
-          "ethnicity": "hebrew_eth",
+          "ethnicity": "hebrew",
           "presence": "significant — then exiled",
           "note": "Northern Kingdom of Israel destroyed 722 BC; population deported"
         }
@@ -65,7 +65,7 @@
       "dominant_ethnicity": "semitic",
       "ethnic_composition": [
         {
-          "ethnicity": "babylonian_eth",
+          "ethnicity": "babylonian",
           "presence": "ruling"
         },
         {
@@ -73,7 +73,7 @@
           "presence": "dominant"
         },
         {
-          "ethnicity": "hebrew_eth",
+          "ethnicity": "hebrew",
           "presence": "minority — then exiled to Babylon 586 BC"
         }
       ]
@@ -94,7 +94,7 @@
           "note": "Phoenicians, Aramaeans"
         },
         {
-          "ethnicity": "hebrew_eth",
+          "ethnicity": "hebrew",
           "presence": "restored minority",
           "note": "Cyrus Edict 538 BC allowed Jewish return to Jerusalem"
         }
@@ -140,7 +140,7 @@
           "presence": "rural majority"
         },
         {
-          "ethnicity": "hebrew_eth",
+          "ethnicity": "hebrew",
           "presence": "significant",
           "note": "Maccabean revolt 167 BC against Hellenization"
         }
@@ -166,7 +166,7 @@
           "note": "Aramaic-speaking majority; Jewish population until 135 AD dispersal"
         },
         {
-          "ethnicity": "hebrew_eth",
+          "ethnicity": "hebrew",
           "presence": "minority — then diaspora",
           "note": "Two revolts, 70 AD and 135 AD; Jerusalem destroyed, Jews expelled"
         }
@@ -251,7 +251,7 @@
           "note": "Arab majority; Ottoman Syria and Palestine"
         },
         {
-          "ethnicity": "hebrew_eth",
+          "ethnicity": "hebrew",
           "presence": "small urban minority",
           "note": "Jewish communities in Jerusalem, Safed, Hebron, Tiberias"
         }

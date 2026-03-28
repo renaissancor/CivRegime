@@ -65,7 +65,7 @@
           "presence": "dominant urban"
         },
         {
-          "ethnicity": "south_slavic_eth",
+          "ethnicity": "south_slavic",
           "presence": "increasing majority from 6th century",
           "note": "Slavic migrations 6th-7th century massively changed demographics"
         },
@@ -80,14 +80,14 @@
       "start": 681,
       "end": 1018,
       "note": "First Bulgarian Empire — Bulgar (Turkic) ruling class over Slavic majority; eventually Bulgar absorbed into Slavic",
-      "dominant_ethnicity": "south_slavic_eth",
+      "dominant_ethnicity": "south_slavic",
       "ethnic_composition": [
         {
           "ethnicity": "steppe_nomadic",
           "presence": "ruling Bulgar clan (Turkic origin)"
         },
         {
-          "ethnicity": "south_slavic_eth",
+          "ethnicity": "south_slavic",
           "presence": "dominant population; Bulgars adopted Slavic language and Orthodox Christianity"
         }
       ]
@@ -97,10 +97,10 @@
       "start": 1190,
       "end": 1389,
       "note": "Serbian Empire (Nemanjić dynasty) — medieval Serbian state at its peak under Stefan Dušan",
-      "dominant_ethnicity": "south_slavic_eth",
+      "dominant_ethnicity": "south_slavic",
       "ethnic_composition": [
         {
-          "ethnicity": "south_slavic_eth",
+          "ethnicity": "south_slavic",
           "presence": "dominant (Serbian Orthodox identity)"
         },
         {
@@ -113,14 +113,14 @@
       "regime": "ottoman_empire",
       "start": 1389,
       "end": 1912,
-      "dominant_ethnicity": "south_slavic_eth",
+      "dominant_ethnicity": "south_slavic",
       "ethnic_composition": [
         {
           "ethnicity": "turkic",
           "presence": "ruling/garrison; significant Turkish settlement in some areas"
         },
         {
-          "ethnicity": "south_slavic_eth",
+          "ethnicity": "south_slavic",
           "presence": "dominant majority",
           "note": "Orthodox = Serbian/Bulgarian; Catholic = Croatian; Muslim = Bosniak — religion split the ethnicity"
         },
