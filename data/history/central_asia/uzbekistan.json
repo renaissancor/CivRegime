@@ -1,0 +1,248 @@
+{
+  "id": "uzbekistan",
+  "title": "History of Uzbekistan (Khorezm · Transoxiana · Fergana)",
+  "columns": [
+    { "id": "era",         "name": "Era",                        "slots": 1, "type": "era" },
+    { "id": "khorezm",     "name": "Khorezm (Chorasmia)",        "slots": 1 },
+    { "id": "transoxiana", "name": "Transoxiana (Sogdiana)",      "slots": 1 },
+    { "id": "fergana",     "name": "Fergana",                    "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Prehistoric", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Kelteminar culture",                             "note": "c.6000–3000 BCE" },
+            { "label": "Primitive nomads",                               "note": "c.3000–2000 BCE" },
+            { "label": "Afanasievo culture",                             "note": "c.3300–2500 BCE" },
+            { "label": "Indo-European influx (Avestan peoples)",         "note": "c.2000 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "BMAC (Bactria–Margiana Archaeological Complex)", "note": "c.2300–1700 BCE" },
+            { "label": "Andronovo culture",                              "note": "c.2000–900 BCE" },
+            { "label": "Indo-European migrations (West & East Iranian)", "note": "c.1500–800 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "BMAC (Bactria–Margiana Archaeological Complex)", "note": "c.2300–1700 BCE" },
+            { "label": "Andronovo culture",                              "note": "c.2000–900 BCE" },
+            { "label": "Indo-European migrations (East Iranian · Tocharian)", "note": "c.1500–800 BCE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Ancient", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "regime": "achaemenid_empire", "label": "Achaemenid Empire (Chorasmia Satrapy)", "note": "550–330 BCE" },
+            { "label": "Alexander the Great · Seleucid",                 "note": "330–250 BCE" },
+            { "label": "Scythians / Saka",                               "note": "c.700–100 BCE" },
+            { "label": "Kangju (Kang kingdom)",                          "note": "c.250 BCE–350 CE" },
+            { "label": "Parthia (suzerainty)",                           "note": "247 BCE–224 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "achaemenid_empire", "label": "Achaemenid Empire (Sogdiana Satrapy)", "note": "550–330 BCE" },
+            { "label": "Alexander the Great · Seleucid",                 "note": "330–250 BCE" },
+            { "label": "Greco-Bactrian Kingdom",                         "note": "250–130 BCE" },
+            { "label": "Yuezhi (Da Yuezhi)",                             "note": "c.130–50 BCE" },
+            { "label": "Kushan Empire",                                  "note": "c.50 BCE–375 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "achaemenid_empire", "label": "Achaemenid Empire (Ferghana Satrapy)", "note": "550–330 BCE" },
+            { "label": "Alexander the Great · Seleucid",                 "note": "330–250 BCE" },
+            { "label": "Dayuan (Ferghana Kingdom — 'Heavenly Horses')",  "note": "c.250–50 BCE" },
+            { "label": "Wusun",                                          "note": "c.160 BCE–5th c." },
+            { "label": "Kushan Empire",                                  "note": "c.50 BCE–375 CE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Afrigid dynasty (Khorezm)",                      "note": "305–995" },
+            { "label": "Kushano-Sasanian / Sassanid",                    "note": "224–425" },
+            { "label": "Kidarites / Xionites",                           "note": "c.350–470" },
+            { "label": "Hephthalites",                                   "note": "c.450–560" },
+            { "label": "Göktürk Empire → Western Turks",                 "note": "552–659" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kushano-Sasanian / Sassanid",                    "note": "224–560" },
+            { "label": "Kidarites / Xionites",                           "note": "c.350–470" },
+            { "label": "Hephthalites",                                   "note": "c.450–560" },
+            { "label": "Sassanid (Sogdian city-states as vassals)",      "note": "560–651" },
+            { "label": "Göktürk Empire → Western Turks",                 "note": "552–659" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Tocharians · local principalities",              "note": "2nd–6th c." },
+            { "label": "Kidarites / Xionites",                           "note": "c.350–470" },
+            { "label": "Hephthalites",                                   "note": "c.450–560" },
+            { "label": "Göktürk Empire → Western Turks",                 "note": "552–659" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval (Mawarannahr)", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "regime": "rashidun_caliphate", "label": "Rashidun Caliphate",          "note": "637–661" },
+            { "regime": "umayyad_caliphate",  "label": "Umayyad Caliphate",           "note": "661–750" },
+            { "label": "Turgesh Khaganate",                              "note": "699–766" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "rashidun_caliphate", "label": "Rashidun Caliphate",          "note": "637–661" },
+            { "regime": "umayyad_caliphate",  "label": "Umayyad Caliphate (Transoxiana conquest)", "note": "705–750" },
+            { "label": "Tang Anxi Protectorate",                         "note": "658–751" },
+            { "label": "Battle of Talas",                                "note": "751" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "umayyad_caliphate",  "label": "Umayyad Caliphate",           "note": "710–750" },
+            { "label": "Tang Anxi Protectorate",                         "note": "659–751" },
+            { "label": "Battle of Talas",                                "note": "751" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "abbasid_caliphate", "label": "Abbasid Caliphate",            "note": "750–821" },
+            { "label": "Tahirid dynasty",                                "note": "821–873" },
+            { "label": "Samanid dynasty",                                "note": "819–999" },
+            { "label": "Afrigid dynasty (Khorezm)",                      "note": "to 995" },
+            { "label": "Kara-Khanid Khanate",                            "note": "999–1212" },
+            { "label": "Seljuk Empire",                                  "note": "1040–1194" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "abbasid_caliphate", "label": "Abbasid Caliphate",            "note": "750–821" },
+            { "label": "Tahirid dynasty",                                "note": "821–873" },
+            { "label": "Samanid dynasty (capital: Bukhara)",             "note": "819–999" },
+            { "label": "Ghaznavid dynasty",                              "note": "999–1040" },
+            { "label": "Kara-Khanid Khanate",                            "note": "999–1212" },
+            { "label": "Seljuk Empire",                                  "note": "1040–1212" },
+            { "label": "Qara Khitai (Western Liao)",                     "note": "1137–1218" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "abbasid_caliphate", "label": "Abbasid Caliphate",            "note": "750–819" },
+            { "label": "Samanid dynasty",                                "note": "819–999" },
+            { "label": "Ghaznavid dynasty",                              "note": "999–1040" },
+            { "label": "Kara-Khanid Khanate",                            "note": "999–1137" },
+            { "label": "Qara Khitai (Western Liao)",                     "note": "1137–1218" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Khwarazmian Empire (Anushteginid — capital: Urgench)", "note": "1077–1231" },
+            { "label": "Mongol Empire",                                  "note": "1220–1260" },
+            { "label": "Golden Horde (Kipchak Khanate)",                 "note": "1242–1502" },
+            { "label": "Qunghirat dynasty",                              "note": "c.1282–1388" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Khwarazmian Empire (Anushteginid)",              "note": "1194–1231" },
+            { "label": "Mongol Empire",                                  "note": "1220–1260" },
+            { "label": "Chagatai Khanate",                               "note": "1227–1363" },
+            { "label": "Western Chagatai Khanate",                       "note": "1347–1370" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Khwarazmian Empire",                             "note": "1194–1231" },
+            { "label": "Mongol Empire",                                  "note": "1220–1260" },
+            { "label": "Chagatai Khanate",                               "note": "1227–1347" },
+            { "label": "Eastern Chagatai (Moghulistan)",                 "note": "1347–1570" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Early Modern", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Timurid Empire",                                 "note": "1370–1507" },
+            { "label": "Uzbek Khanate (Shaybani dynasty)",               "note": "1428–1598" },
+            { "label": "Khanate of Khiva",                               "note": "1511–1920" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Timurid Empire (capital: Samarkand)",            "note": "1370–1507" },
+            { "label": "Uzbek Khanate (Shaybani dynasty)",               "note": "1428–1598" },
+            { "label": "Khanate of Bukhara",                             "note": "1500–1785" },
+            { "label": "Afsharid dynasty (suzerainty)",                  "note": "1736–1796" },
+            { "label": "Emirate of Bukhara (Manghit dynasty)",           "note": "1785–1920" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Timurid Empire",                                 "note": "1370–1507" },
+            { "label": "Uzbek Khanate",                                  "note": "1428–1598" },
+            { "label": "Khanate of Kokand",                              "note": "1709–1876" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Russian Empire (Khiva Protectorate)",             "note": "1873–1920" },
+            { "label": "Basmachi movement",                              "note": "1916–1934" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Russian Empire (Bukhara Protectorate)",          "note": "1866–1920" },
+            { "label": "Turkestan Autonomy",                             "note": "1917–1918" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Russian Empire (Kokand Protectorate)",           "note": "1868–1876" },
+            { "label": "Russian Empire — Fergana Oblast (direct rule)",  "note": "1876–1917" },
+            { "label": "Turkestan ASSR (Fergana Oblast)",                "note": "1918–1924" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 2 },
+      "cells": [
+        { "label": "Khorezm People's Soviet Republic", "note": "1920–1924", "span": 1 },
+        { "label": "Bukhara People's Soviet Republic",  "note": "1920–1924", "span": 1 },
+        { "label": "Turkestan ASSR (Fergana)", "note": "1918–1924", "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Uzbek Soviet Socialist Republic", "note": "1924–1991" },
+            { "label": "Republic of Uzbekistan",          "note": "1991–" }
+          ], "span": 3
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Khorezm (Chorasmia): the oasis civilization around the lower Amu Darya delta; one of the oldest irrigated agricultural societies in Central Asia; the Afrigid dynasty maintained local autonomy for centuries; the Anushteginid Khwarazmian Empire rose from here to briefly dominate Persia and Central Asia before the Mongol catastrophe of 1221",
+    "Transoxiana (Sogdiana / Mawarannahr): the fertile interfluvial land between the Amu Darya and Syr Darya rivers, meaning 'what is beyond the river' in Arabic; the Sogdians were the master merchants of the Silk Road from the 2nd century BCE to the 8th century CE; under the Samanids (819–999), Bukhara became a center of Islamic learning; Timur made Samarkand the imperial capital",
+    "Fergana: the enclosed high-altitude valley at the eastern end of modern Uzbekistan; renowned in Han Chinese sources for its 'heavenly horses' (tianma) which prompted the Han–Dayuan War (104–101 BCE); the Tang Anxi Protectorate administered it until the Battle of Talas (751); the Khanate of Kokand (1709–1876) was the last indigenous Central Asian state",
+    "Battle of Talas (751 CE): the decisive clash between Abbasid forces and the Tang Dynasty near Taraz; the Arab-led victory halted Chinese expansion westward and opened Transoxiana to full Islamization; captured Chinese prisoners are credited with transmitting papermaking technology to the Islamic world",
+    "Samanid dynasty (819–999): the first great Persian-language renaissance dynasty; Bukhara under the Samanids produced Ibn Sina (Avicenna), the geographer al-Biruni, and the poet Rudaki; their patronage established New Persian as a literary language",
+    "Timurid Empire (1370–1507): Timur (Tamerlane), born near Samarkand, built an empire from Anatolia to India; his grandson Ulugh Beg constructed an observatory in Samarkand that produced the most accurate star catalogue before the telescope; the dynasty's collapse gave way to the Shaybanid Uzbek confederation",
+    "Soviet national delimitation (1924): Stalin's reorganization of Central Asia drew borders dividing Uzbek and Tajik speakers; historically Persian/Tajik cities (Samarkand, Bukhara) were assigned to the Uzbek SSR while significant Uzbek populations remained in what became the Tajik SSR"
+  ]
+}
