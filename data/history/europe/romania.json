@@ -1,0 +1,274 @@
+{
+  "id": "romania",
+  "title": "History of Romania & Moldova",
+  "columns": [
+    { "id": "era",   "name": "Era",                              "slots": 1, "type": "era" },
+    { "id": "trans", "name": "Transylvania",                    "slots": 1 },
+    { "id": "wal",   "name": "Wallachia",                       "slots": 1 },
+    { "id": "mold",  "name": "Moldavia / Bessarabia",           "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "label": "Dacian Kingdom — Sarmizegetusa Regia (capital)", "note": "c.82 BCE–106 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Dacia — Getae / Dacian tribes" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Free Dacians — Carpi (east of Roman reach)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Roman Dacia province", "note": "106–271 CE — Trajan's conquest" },
+            { "label": "Roman withdrawal · Goths settle", "note": "271 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Roman Empire (partly) · Goths · Sarmatians · Alans" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Free Dacians / Carpi · Goths · Alans" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Gepid Kingdom",    "note": "454–567 CE" },
+            { "label": "Avar Khaganate",   "note": "567–796 CE" },
+            { "label": "Slavic migration" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Hunnic Empire → Goths/Sarmatians" },
+            { "label": "Slavic migration",  "note": "6th–7th c." }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Hunnic Empire · Alans · Free Dacians remnants" },
+            { "label": "Slavic migration" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval", "rowspan": 5 },
+      "cells": [
+        { "stack": [
+            { "label": "Avar Khaganate (declining) · Vlachs" },
+            { "label": "Hungarian conquest of Transylvania", "note": "c.895–1000 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "First Bulgarian Empire (partly)" },
+            { "label": "Vlachs (Romanized populations)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "First Bulgarian Empire" },
+            { "label": "Pechenegs (from c.895 CE)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Kingdom of Hungary — Transylvania (with Saxon colonists)", "note": "11th–13th c." }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Pechenegs → Cumans",           "note": "from c.1040" },
+            { "label": "Second Bulgarian Empire border" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Pechenegs → Cumans (dominant)", "note": "from c.1040" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Kingdom of Hungary" },
+            { "label": "Mongol invasion",    "note": "1241–1242" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Mongol invasion → Golden Horde" },
+            { "label": "Principality of Wallachia", "note": "founded c.1290–1330, Basarab I" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Mongol invasion → Golden Horde" },
+            { "label": "Principality of Moldavia",  "note": "founded c.1359, Bogdan I" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Kingdom of Hungary → Eastern Kingdom of Hungary", "note": "after Mohács 1526" },
+            { "label": "Principality of Transylvania",                    "note": "1570–" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Principality of Wallachia" },
+            { "label": "Ottoman vassal",  "note": "c.1417 (fully 1460s)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Principality of Moldavia — Stephen the Great", "note": "r.1457–1504" },
+            { "label": "Ottoman vassal",                               "note": "1538" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Habsburg Grand Principality of Transylvania", "note": "from 1688" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ottoman Wallachia — Phanariot governors", "note": "from 1716" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ottoman Moldavia — Phanariot governors", "note": "from 1711" },
+            { "label": "Habsburg — Duchy of Bukovina",            "note": "1775 (NW Moldavia)" },
+            { "label": "Russia annexes Bessarabia",               "note": "1812" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Modern", "rowspan": 4 },
+      "cells": [
+        { "stack": [
+            { "label": "Austrian Empire → Austria-Hungary", "note": "in Hungarian half from 1867" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "United Principalities of Moldavia & Wallachia", "note": "1859 — Alexandru Ioan Cuza" },
+            { "label": "Kingdom of Romania",                             "note": "1881–" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "United Principalities → Kingdom of Romania (Romanian Moldavia)" },
+            { "label": "Russian Empire — Bessarabia (east of Prut)",    "note": "1812–1918" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Austria-Hungary → Romania", "note": "Treaty of Trianon 1920" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Romania (fully independent 1877)" },
+            { "label": "Greater Romania (post-WWI)", "note": "from 1918–1920" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Romania — Bessarabia rejoins", "note": "1918" },
+            { "label": "Soviet Moldavian ASSR (east bank of Dniester)", "note": "1924–1940" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Romania (Greater Romania)" },
+            { "label": "N. Transylvania → Hungary (Second Vienna Award)", "note": "1940" },
+            { "label": "S. Transylvania remains Romania" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Romania" },
+            { "label": "National Legionary State (Iron Guard)", "note": "Sept 1940–Jan 1941" },
+            { "label": "Romania (Antonescu, Axis-allied)",       "note": "1941–1944" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Soviet Moldavian SSR",            "note": "1940–1941" },
+            { "label": "Romania reoccupies Bessarabia",   "note": "1941–1944" },
+            { "label": "Soviet Moldavian SSR (restored)", "note": "1944–1991" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Romanian People's Republic → Socialist Republic of Romania", "note": "1947–1989" },
+            { "label": "Nicolae Ceaușescu regime",                                    "note": "1965–1989" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Soviet Union — Moldavian SSR", "note": "1944–1991" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Romania — revolution · democracy", "note": "1989–" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Republic of Moldova (independent 1991)" },
+            { "label": "Transnistrian War",                      "note": "1992 — frozen conflict" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Romania — NATO (2004) · EU member (2007)", "span": 2 },
+        { "split": [
+            { "label": "Republic of Moldova — EU candidate (2022)" },
+            { "label": "Transnistria (unrecognised)" }
+          ], "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Roman Dacia province (106–271 CE): Established by Trajan after two Dacian wars; the region became heavily Romanised, giving rise to the Romanian people and language.",
+    "Phanariot governors: Greek families from the Phanar district of Constantinople appointed by the Ottoman sultan to govern Wallachia (from 1716) and Moldavia (from 1711); marked by corruption and heavy tribute.",
+    "United Principalities (1859): Alexandru Ioan Cuza was elected ruler of both Wallachia and Moldavia, de facto unifying them; the union was formally recognised in 1861 as the Romanian Principality.",
+    "Duchy of Bukovina (1775): The Habsburg Empire acquired northwestern Moldavia from the Ottoman Empire; it remained Austrian (later Austrian Küstenland) until 1918, when it joined Romania.",
+    "Second Vienna Award (1940): Nazi Germany and Fascist Italy awarded northern Transylvania to Hungary; Romania recovered it after Soviet entry in 1944, confirmed by Paris Peace Treaty (1947).",
+    "Moldavian ASSR (1924–1940): Soviet puppet 'Moldavian' entity created on the east bank of the Dniester (modern Transnistria) to assert Soviet claims to Bessarabia.",
+    "Transnistria (1992–present): Breakaway territory east of the Dniester; defeated Moldova in a brief 1992 war; Russian 14th Army remains; unrecognised by any UN member state."
+  ]
+}

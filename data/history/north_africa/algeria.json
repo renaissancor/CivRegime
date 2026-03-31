@@ -1,0 +1,192 @@
+{
+  "id": "algeria",
+  "title": "History of Algeria",
+  "columns": [
+    { "id": "era",     "name": "Era",                  "slots": 1, "type": "era" },
+    { "id": "west",    "name": "West / Oran",          "slots": 1 },
+    { "id": "algiers", "name": "Algiers / Center",     "slots": 1 },
+    { "id": "kabylia", "name": "Kabylia",              "slots": 1 },
+    { "id": "east",    "name": "East / Constantine",   "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Capsian culture / Berber peoples",                     "note": "prehistoric" },
+            { "label": "Phoenician coastal settlements (c.900 BCE)",           "note": "Tipasa · Iol/Cherchell · Hippo Regius" }
+          ], "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Mauretania Kingdom",                                   "note": "c.200 BCE–44 CE" },
+            { "label": "Roman Mauretania Caesariensis",                        "note": "44 CE–429" },
+            { "label": "Vandal Kingdom (transit)",                             "note": "c.429" },
+            { "label": "Mauro-Roman Kingdom · Altava Kingdom",                 "note": "c.430–708" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Carthaginian influence (Ikosim)",                      "note": "c.600–146 BCE" },
+            { "label": "Roman Mauretania Caesariensis",                        "note": "44 CE–429" },
+            { "label": "Byzantine (coastal garrisons)",                        "note": "533–698" }
+          ], "span": 1
+        },
+        { "label": "Independent Berber / Imazighen",                           "span": 1 },
+        { "stack": [
+            { "label": "Numidia (Massinissa)",                                 "note": "c.202–46 BCE" },
+            { "label": "Roman Numidia (Africa Proconsularis)",                 "note": "46 BCE–429 CE" },
+            { "label": "Vandal Kingdom",                                       "note": "429–534" },
+            { "regime": "byzantine_empire", "label": "Byzantine Empire",      "note": "534–698" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "regime": "rashidun_caliphate", "label": "Rashidun Caliphate",  "note": "647–661" },
+            { "regime": "umayyad_caliphate",  "label": "Umayyad Caliphate",   "note": "661–750" }
+          ], "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Rustamid dynasty (Tiaret, Ibadi)",                     "note": "777–909" },
+            { "label": "Ifranid dynasty (Zenata Berbers)",                     "note": "c.790–1066" },
+            { "label": "Almoravid (Murabitun)",                                "note": "1054–1147" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "abbasid_caliphate", "label": "Abbasid / Muhallabid governors", "note": "750–800" },
+            { "regime": "fatimid_caliphate", "label": "Fatimid Caliphate",    "note": "909–972" },
+            { "label": "Zirid (Ashir principality)",                           "note": "972–1070" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "fatimid_caliphate", "label": "Fatimid suzerainty",   "note": "909–1014" },
+            { "label": "Hammadid dynasty (Qal'a des Beni Hammad)",            "note": "1014–1152" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Aghlabid dynasty",                                     "note": "800–909" },
+            { "regime": "fatimid_caliphate", "label": "Fatimid Caliphate",    "note": "909–969" },
+            { "label": "Zirid dynasty",                                        "note": "969–1052" },
+            { "label": "Banu Hilal / Banu Sulaym invasion",                   "note": "1048 onward" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Almohad Caliphate",                                    "note": "1147–1229" },
+            { "label": "Zayyanid / Abdalwadid dynasty (Tlemcen)",              "note": "1235–1556" },
+            { "label": "Marinid raids (border pressure)",                      "note": "13th–15th c." }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Almohad Caliphate",                                    "note": "1147–1229" },
+            { "label": "Zayyanid suzerainty (coastal)",                       "note": "partial" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Almohad Caliphate",                                    "note": "1147–1229" },
+            { "label": "Banu Ghaniya (Balearic Almoravid remnants)",           "note": "c.1184–1228" },
+            { "label": "Hafsid (nominal suzerainty)",                          "note": "partial" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Almohad Caliphate",                                    "note": "1147–1229" },
+            { "label": "Hafsid dynasty (Constantine)",                         "note": "1229–1574" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Early Modern", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Zayyanid / Abdalwadid (–1556)",                        "note": "" },
+            { "label": "Spanish Oran (1509–1708)",                             "note": "" },
+            { "regime": "ottoman_empire", "label": "Ottoman Regency (west)",   "note": "after 1556" }
+          ], "span": 1
+        },
+        { "regime": "ottoman_empire", "label": "Ottoman Regency of Algiers",   "span": 1 },
+        { "split": [
+            { "label": "Kuku Kingdom (Kabylie)",                               "note": "1510–1638" },
+            { "label": "Aït Abbas Emirate",                                    "note": "1510–1872" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Hafsid dynasty (–1574)",                               "note": "" },
+            { "regime": "ottoman_empire", "label": "Ottoman Constantine province", "note": "1574–" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Ottoman Regency (Oran province)",                      "note": "" },
+            { "label": "Spanish Oran (restored 1732–1792)",                   "note": "" },
+            { "label": "Emirate of Abdelkader (partial)",                      "note": "1832–1847" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "ottoman_empire", "label": "Ottoman Regency of Algiers (–1830)", "note": "" },
+            { "label": "French Algeria — conquest",                            "note": "1830–" }
+          ], "span": 1
+        },
+        { "label": "Aït Abbas / Kabylie resistance",                           "span": 1 },
+        { "stack": [
+            { "label": "Ottoman Constantine",                                  "note": "" },
+            { "label": "Tuggurt Sultanate (south)",                            "note": "1644–1854" },
+            { "label": "French Algeria — east",                                "note": "1837–" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Modern", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "French Algeria (settled colonialism)",                 "note": "1848–1940" },
+            { "label": "Vichy France / Free France",                           "note": "1940–1944" },
+            { "label": "French Algeria (4th Republic)",                        "note": "1944–1958" },
+            { "label": "Algerian War of Independence",                         "note": "1954–1962" }
+          ], "span": 4
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "People's Democratic Republic of Algeria (FLN one-party state)", "note": "1962–1989" },
+            { "label": "Algerian Civil War (Black Decade)",                    "note": "1991–2002" },
+            { "label": "People's Democratic Republic of Algeria",              "note": "2002–" }
+          ], "span": 4
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "West / Oran: dominated by the Mauretanian and later Zayyanid/Abdalwadid dynasty (Tlemcen, 1235–1556), a major Berber state; Spain occupied Oran twice (1509–1708, 1732–1792); the Emir Abdelkader (1832–1847) waged the first major war of resistance against French colonialism from this region",
+    "Algiers / Center: site of ancient Ikosim; the Ottoman Regency of Algiers (1516–1830) made Algiers one of the most powerful naval states in the Mediterranean — the Barbary pirates operated from here; French conquest began with the 1830 landing at Sidi Ferruch",
+    "Kabylia: the mountainous highland east of Algiers; the Kuku Kingdom and Aït Abbas Emirate maintained independence from the Ottoman Regency throughout the 16th–19th centuries; Kabyle resistance to French rule lasted until 1872; the region remains culturally Berber (Amazigh)",
+    "East / Constantine: the ancient Numidian heartland (Cirta/Constantine); Jugurtha's resistance against Rome (111–105 BCE) was centered here; under the Hafsid dynasty before Ottoman conquest; the Tuggurt Sultanate in the eastern Sahara maintained autonomy until 1854",
+    "Rustamid dynasty (777–909, Tiaret): the only Ibadi (Kharijite) state in the Maghreb; founded by Abd al-Rahman ibn Rustam; controlled trans-Saharan trade; destroyed by the Fatimid invasion of 909 CE",
+    "Hammadid dynasty (1014–1152): founded by Hammad ibn Buluggin, nephew of the Zirid founder; built the spectacular palace-city of Qal'at Banu Hammad (now a UNESCO site); nominally Sunni and hostile to Fatimid Ismaili doctrine",
+    "Algerian Civil War / Black Decade (1991–2002): after the military cancelled elections that the Islamic Salvation Front (FIS) was set to win, the Armed Islamic Group (GIA) launched a brutal insurgency; an estimated 150,000–200,000 killed; effectively ended with the 2002 Civil Concord"
+  ]
+}

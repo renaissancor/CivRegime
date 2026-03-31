@@ -1,0 +1,221 @@
+{
+  "id": "slovenia",
+  "title": "History of Slovenia",
+  "columns": [
+    { "id": "era",    "name": "Era",                            "slots": 1, "type": "era" },
+    { "id": "istria", "name": "Istria peninsula",              "slots": 1 },
+    { "id": "lj",     "name": "Ljubljana / Carniola",          "slots": 1 },
+    { "id": "mb",     "name": "Maribor / Styria",              "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Histri (Illyrian)", "note": "indigenous Istrian tribe" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Illyrian peoples" },
+            { "label": "Taurisci Celts" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Celtic Noricum tribes (Celts / Norici)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Roman Empire — Regio X (Venetia et Histria)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Roman Republic (Illyrian Wars) → Roman Empire" },
+            { "label": "Emona (Ljubljana) — Roman colony", "note": "founded c.14 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Roman Empire — Noricum · Pannonia provinces" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Early Medieval", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "label": "W. Roman → Odoacer → Ostrogothic → Byzantine", "note": "476–554" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "W. Roman → Visigoth transit → Ostrogothic Kingdom" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "W. Roman → Germanic tribes → Ostrogothic → Lombard" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Byzantine Empire" },
+            { "label": "Lombard pressure (NE Italy border)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Samo's Realm (623–658)",     "note": "first Slavic state" },
+            { "label": "Duchy of Carantania forming", "note": "c.630s onward" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Lombard Kingdom → Avar Khaganate", "note": "568–796" },
+            { "label": "Samo's Realm" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Frankish Kingdom → East Frankish → HRE", "note": "8th–10th c." }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Duchy of Carantania → Frankish suzerainty" },
+            { "label": "Mark of Carniola (Duchy of Carniola)", "note": "from 976" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Duchy of Carantania (Carinthia) → Frankish" },
+            { "label": "Duchy of Carinthia · Duchy of Styria", "note": "from 970 / 1180" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Habsburg", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Holy Roman Empire" },
+            { "label": "Aquileian Patriarchate" },
+            { "label": "Venice — Istrian coastal towns", "note": "from 1267" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Holy Roman Empire — Duchy of Carniola" },
+            { "label": "Habsburg (from 1335)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Holy Roman Empire — Duchy of Carinthia · Duchy of Styria" },
+            { "label": "Habsburg (from 1335)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Venice Republic (coast)" },
+            { "label": "Habsburg — Pazin / inland Istria" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Habsburg Austria — Duchy of Carniola" },
+            { "label": "Protestant Reformation · Counter-Reformation", "note": "16th–17th c." }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Habsburg Austria — Duchy of Styria" },
+            { "label": "Ottoman raids across Styria · Turkish wars", "note": "15th–17th c." }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "19th c.", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "French Illyrian Provinces (briefly)",  "note": "1809–1813" },
+            { "label": "Habsburg → Austria-Hungary (Austrian Littoral)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "French Illyrian Provinces (1809–13) → Austrian Empire" },
+            { "label": "Illyrian Kingdom (Austrian)", "note": "1816–1849" },
+            { "label": "Austria-Hungary — Duchy of Carniola (crown land)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Austrian Empire → Austria-Hungary — Duchy of Styria" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Interwar / WWII", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Italy — Istria (Treaty of Rapallo 1920)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Serbs, Croats & Slovenes → Kingdom of Yugoslavia" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Italy — Istria (continued)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "German occupation (Lower Styria / Carniola)", "note": "1941–1945" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Nazi Germany — annexed to Reich (Lower Styria)", "note": "1941–1945" },
+            { "label": "Hungary — Prekmurje",                           "note": "1941–1944" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Yugoslav", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Yugoslavia / Slovenia (Zone B → Slovenia 1954)", "note": "Osimo Treaty 1975" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "SFR Yugoslavia — Socialist Republic of Slovenia (1945–1991)" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 1 },
+      "cells": [
+        { "label": "Republic of Slovenia — NATO (2004) · EU member (2004) · Schengen (2007)", "span": 3 }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Duchy of Carantania: The earliest known Slavic principality (c.630s); its Christianisation (c.745) and ritual ducal investiture ceremony ('Knežji kamen') were unique in medieval Europe.",
+    "French Illyrian Provinces (1809–13): Napoleonic administration centred on Ljubljana; introduced French legal codes and promoted Slovenian language in administration.",
+    "Istrian Zone B: After WWII Istria was split into Italian Zone A (Trieste) and Yugoslav Zone B (Koper/Capodistria area); Zone B became Slovenian in 1954, confirmed by Treaty of Osimo (1975).",
+    "Ten-Day War (1991): Slovenia's brief independence war against the Yugoslav People's Army lasted only ten days; the EU-brokered Brioni Agreement led to Yugoslav withdrawal."
+  ]
+}

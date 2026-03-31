@@ -1,0 +1,240 @@
+{
+  "id": "ethiopia",
+  "title": "History of Ethiopia & Eritrea",
+  "columns": [
+    { "id": "era",    "name": "Era",                               "slots": 1, "type": "era" },
+    { "id": "eri",    "name": "Eritrea (Red Sea coast · Asmara)", "slots": 1 },
+    { "id": "tigray", "name": "N. Ethiopia (Tigray · Aksum)",     "slots": 1 },
+    { "id": "cent",   "name": "C/S. Ethiopia (Gondar · Addis Ababa)", "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient (pre-Aksum)", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Pre-Aksumite coastal trade (Adulis port)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "D'mt Kingdom (Ye'ha capital)", "note": "c.8th–5th c. BCE" },
+            { "label": "Pre-Aksumite chiefdoms" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Pre-Aksumite tribes · Punt coast" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Aksumite (Christianisation)", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Aksumite Kingdom — Adulis (main Red Sea port)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Aksumite Kingdom (capital: Aksum)" },
+            { "label": "Christianisation under Ezana", "note": "c.330 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Aksumite expansion southward" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Islamic coastal presence — Dahlak Sultanate", "note": "8th c." }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Aksumite decline (Islamic trade disruption)" },
+            { "label": "Gudit revolt — Yodit burns Aksum", "note": "c.960 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Post-Aksum fragmentation" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "label": "Dahlak Sultanate (Islamic)" },
+            { "label": "Beja / Habesha coastal lords" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Zagwe Dynasty (capital: Lalibela)", "note": "c.900–1270" },
+            { "label": "Rock-hewn churches built", "note": "12th c." }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Zagwe fringe / various Cushitic kingdoms" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Egyptian Mamluk / Ottoman coastal influence" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Solomonic restoration — Yekuno Amlak", "note": "1270" },
+            { "label": "Wars vs Ifat Sultanate" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Solomonic expansion south" },
+            { "label": "Wars vs Adal Sultanate (NW Somalia border)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Ottoman Empire — Massawa port", "note": "1557" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Tigray lords (Ras)" },
+            { "label": "Adal-Ethiopian war — Ahmad ibn Ibrahim (Grañ)", "note": "1529–1543" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Gondar era — capital Fasil Ghebbi", "note": "1632–1855" },
+            { "label": "Oromo migrations into highlands" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Era of Princes / Reform", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Egyptian Khedivate control (coastal)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Zemene Mesafint (Era of the Princes)", "note": "1769–1855" },
+            { "label": "Regional warlords (Ras) dominate" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Egyptian Khedivate → Italian territory (Assab 1882)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ethiopian reunification — Tewodros II", "note": "1855" },
+            { "label": "Yohannes IV · Battle of Adwa (Menelik II)", "note": "1896" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ethiopian Empire — Menelik II" },
+            { "label": "Addis Ababa founded", "note": "1886" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Italian / WWII", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Italian Eritrea (colony)", "note": "1890–1941" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ethiopian Empire (Haile Selassie)" },
+            { "label": "Italian invasion", "note": "1935–1936" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "British administration", "note": "1941" },
+            { "label": "Federation with Ethiopia", "note": "1952" },
+            { "label": "Annexed by Ethiopia", "note": "1962" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Italian East Africa", "note": "1936–1941" },
+            { "label": "Ethiopian Empire restored (Haile Selassie)", "note": "1941" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Italian East Africa → Ethiopian Empire" },
+            { "label": "Ogaden region (Somali borderlands)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Eritrean Liberation Front — independence war", "note": "1961–1991" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ethiopian Empire (Haile Selassie)" },
+            { "label": "Derg — military communist regime", "note": "1974–1991" },
+            { "label": "Ethiopian People's Democratic Republic", "note": "1987–1991" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Derg (Mengistu Haile Mariam)" },
+            { "label": "Ogaden War with Somalia", "note": "1977–1978" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "State of Eritrea (independent 1993)" },
+            { "label": "Eritrea-Ethiopia War", "note": "1998–2000" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Federal Democratic Republic of Ethiopia (FDRE)" },
+            { "label": "Tigray War", "note": "2020–2022" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "FDRE — EPRDF → Prosperity Party (Abiy Ahmed, 2018)" },
+            { "label": "Nobel Peace Prize", "note": "2019" }
+          ], "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "D'mt Kingdom (c.8th–5th c. BCE): One of the earliest known states in sub-Saharan Africa, centred at Ye'ha in Tigray; used a South Arabian script and may have had Sabaean connections; precursor to the Aksumite state.",
+    "Aksumite Kingdom (c.100–940 CE): One of the great powers of Late Antiquity; controlled the Red Sea trade; converted to Christianity (c.330 CE under King Ezana); minted its own coins; its steles (obelisks) still stand at Aksum.",
+    "Zagwe Dynasty (c.900–1270): Cushitic dynasty that replaced Aksum; built the famous rock-hewn churches of Lalibela (12th c.); considered themselves legitimate Christian rulers but were later depicted as usurpers by Solomonic historians.",
+    "Adal-Ethiopian War / Grañ (1529–1543): Ahmad ibn Ibrahim al-Ghazi (called 'Grañ' — the left-handed) led an Adal Sultanate jihad that conquered most of Ethiopia; reversed only with Portuguese military aid (Battle of Wayna Daga, 1543).",
+    "Battle of Adwa (1896): Ethiopian forces under Menelik II decisively defeated the Italian army; the first major African victory over a European colonial power; secured Ethiopian independence.",
+    "Derg (1974–1991): Military junta that deposed Haile Selassie; declared Marxist-Leninist state; responsible for Red Terror (1977–78) killing thousands; defeated by EPRDF coalition after prolonged civil war.",
+    "Tigray War (2020–2022): Armed conflict between the Ethiopian federal government (allied with Eritrea) and the Tigray People's Liberation Front (TPLF); estimated 300,000–600,000 deaths; ended with Pretoria Agreement (November 2022)."
+  ]
+}

@@ -276,7 +276,7 @@
         },
         { "label": "Lebanese Republic",                          "span": 1 },
         { "label": "Hashemite Kingdom of Jordan",                "span": 1 },
-        { "stack": [
+        { "split": [
             { "label": "State of Israel",                        "note": "1948–" },
             { "label": "Palestinian territories (PLO/PA)",       "note": "1964/1994–" }
           ], "span": 1
@@ -286,20 +286,17 @@
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Syrian Civil War:",                      "note": "2011–2020" },
-            { "label": "Assad government forces",                "note": "" },
-            { "label": "Syrian National Coalition (rebels)",     "note": "" },
-            { "label": "ISIL (partial, 2013–2019)",              "note": "" },
-            { "label": "Rojava / AANES (Kurdish)",               "note": "2012–" },
-            { "label": "HTS / Syrian caretaker government",      "note": "2024–" }
+        { "split": [
+            { "label": "Assad / SAR",                            "note": "2011–2024" },
+            { "label": "Rebels / HTS",                           "note": "2011–" },
+            { "label": "AANES (Rojava)",                         "note": "2012–" }
           ], "span": 1
         },
         { "label": "Lebanese Republic",                          "span": 1 },
         { "label": "Hashemite Kingdom of Jordan",                "span": 1 },
-        { "stack": [
+        { "split": [
             { "label": "State of Israel",                        "note": "" },
-            { "label": "Palestinian territories (Gaza · West Bank)", "note": "" }
+            { "label": "Gaza · West Bank (PA/Hamas)",            "note": "" }
           ], "span": 1
         }
       ]

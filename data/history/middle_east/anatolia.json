@@ -131,7 +131,7 @@
             { "label": "Ankara Government",                            "note": "1920–1923" }
           ], "span": 1
         },
-        { "stack": [
+        { "split": [
             { "label": "French mandate (Cilicia)",                     "note": "1918–1921" },
             { "label": "British mandate",                              "note": "1918–1920" },
             { "label": "Armenian Republic",                            "note": "1918–1920" },

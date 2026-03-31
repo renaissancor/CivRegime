@@ -1,0 +1,402 @@
+{
+  "id": "ukraine",
+  "title": "History of Ukraine",
+  "columns": [
+    { "id": "era",    "name": "Era",                              "slots": 1, "type": "era" },
+    { "id": "west",   "name": "W. Ukraine (Galicia · Volhynia)", "slots": 1 },
+    { "id": "cent",   "name": "C. Ukraine (Kyiv · Poltava)",     "slots": 1 },
+    { "id": "east",   "name": "E. Ukraine (Kharkiv · Donbas)",   "slots": 1 },
+    { "id": "south",  "name": "S. Ukraine (Odessa · Zaporizhia)","slots": 1 },
+    { "id": "crimea", "name": "Crimea",                           "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "label": "Trypillia culture", "note": "c.5500–2750 BCE" },
+            { "label": "Dacian / Thracian tribes" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Trypillia culture" },
+            { "label": "Scythian steppe fringe" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Scythian Kingdom (steppe)" },
+            { "label": "Greek colonies (Olbia · Tyras)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Taurians (indigenous)" },
+            { "label": "Greek colony — Chersonesus", "note": "c.421 BCE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Bastarnae / Celtic tribes · Dacians" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Scythian Kingdom" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Scythian Kingdom · Sarmatians (Roxolani)" },
+            { "label": "Greek colonies on Black Sea coast" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Bosporan Kingdom (Crimea)", "note": "438 BCE–370 CE" },
+            { "label": "Scythian kingdom in Crimea" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Gothic Kingdom (Chernjakhov culture)" },
+            { "label": "Hunnic Empire → Slavic migration" }
+          ], "span": 3
+        },
+        { "stack": [
+            { "label": "Sarmatians (Alans) → Hunnic Empire" },
+            { "label": "Slavic migration (Antes · Sklavenoi)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Crimean Goths · Byzantine (Chersonesus)" },
+            { "label": "Khazar Khaganate (partly)", "note": "7th–10th c." }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Early Medieval", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "White Croats · Dulebes · Volhynians (E. Slavic tribes)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Polyanians · Drevlyanians · Ulichians" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Severians · Vyatichi" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Tivertsi · Ulichians · Antes (Slavic)" },
+            { "label": "Pechenegs (from c.900)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Khazar Khaganate · Byzantine Chersonesus" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Kievan Rus — Volhynia principality" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kievan Rus — Kyiv (capital)" },
+            { "label": "Christianisation under Vladimir I", "note": "988 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kievan Rus — Pereyaslavl · Chernihiv" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kievan Rus steppe border · Pecheneg/Cuman raids" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Byzantine Chersonesus · Tmutarakan (Rus)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "label": "Principality of Galicia-Volhynia", "note": "peak under Daniel of Galicia, r.1238–1264" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kievan Rus — fragmented into principalities" },
+            { "label": "Mongol invasion — Kyiv sacked", "note": "1240" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Cumans (Pontic steppe)" },
+            { "label": "Mongol Golden Horde" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Mongol Golden Horde — Crimean ulus" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Kingdom of Poland — Galicia", "note": "1349" },
+            { "label": "Grand Duchy of Lithuania — Volhynia" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Grand Duchy of Lithuania (Kyiv principality)" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Wild Fields — Zaporozhian Cossacks forming" },
+            { "label": "Golden Horde disintegrating" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Crimean Khanate", "note": "founded 1441" },
+            { "label": "Ottoman vassal",  "note": "from 1475" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Polish-Lithuanian Commonwealth" },
+            { "label": "Cossack Hetmanate (right bank — brief)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Cossack Hetmanate — Bohdan Khmelnytsky uprising", "note": "1648" },
+            { "label": "Pereiaslav Agreement → Left Bank to Muscovy", "note": "1654" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Cossack Hetmanate (Left Bank)", "note": "Treaty of Andrusovo 1667" },
+            { "label": "Sloboda Ukraine (Cossack settlements)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Zaporozhian Host (Sich)" },
+            { "label": "Ottoman-Cossack buffer / raiding zone" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Crimean Khanate (Ottoman vassal)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "18th c.", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Polish-Lithuanian Commonwealth" },
+            { "label": "Austrian Empire — Galicia", "note": "1st Partition 1772" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Russian Empire absorbs Right Bank", "note": "Partitions 1793–1795" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Russian Empire — New Russia (Novorossiya)", "note": "1764" },
+            { "label": "Zaporozhian Sich abolished", "note": "1775" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Russian Empire annexes Crimea", "note": "1783" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "19th c.", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Austrian Empire → Austria-Hungary", "note": "Kingdom of Galicia and Lodomeria" },
+            { "label": "Ukrainian national awakening (Ruthenian movement)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Russian Empire — Kyiv guberniya" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Russian Empire — Novorossiya · Odessa (founded 1794)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Russian Empire — Taurida guberniya" },
+            { "label": "Crimean War", "note": "1853–1856" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Revolution / Interwar", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "West Ukrainian People's Republic (ZUNR)", "note": "1918–1919" },
+            { "label": "Poland — Eastern Galicia (Treaty of Riga 1921)" },
+            { "label": "Romania — Bukovina · Czechoslovakia — Ruthenia" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ukrainian People's Republic (UNR)", "note": "1917–1921" },
+            { "label": "Ukrainian Soviet Socialist Republic (UkrSSR)", "note": "1922–" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "UkrSSR · Donetsk-Kryvyi Rih Soviet Republic (brief)", "note": "1918" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Crimean ASSR", "note": "1921" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Second Polish Republic (Galicia)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ukrainian SSR — Holodomor famine", "note": "1932–1933" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Ukrainian SSR — Holodomor famine", "note": "1932–1933" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Crimean ASSR" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "WWII", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Soviet occupation (Molotov-Ribbentrop)", "note": "1939 — joins UkrSSR" },
+            { "label": "Nazi Germany — General Government / Distrikt Galizien", "note": "1941–1944" },
+            { "label": "UPA (Ukrainian Insurgent Army) resistance" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Nazi Germany — Reichskommissariat Ukraine", "note": "1941–1944" },
+            { "label": "UPA resistance" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Romanian-administered Transnistria (partly)", "note": "1941–1944" },
+            { "label": "Reichskommissariat Ukraine" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Nazi Germany occupation", "note": "1941–1944" },
+            { "label": "Crimean Tatars deported by Stalin", "note": "1944" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Soviet", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Ukrainian SSR — Galicia/Volhynia fully absorbed", "note": "1945" },
+            { "label": "Transcarpathia from Czechoslovakia", "note": "1945" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ukrainian SSR" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Ukrainian SSR — Odessa · Donbas industrial region" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Crimean Oblast transferred from Russian SFSR to UkrSSR", "note": "1954" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Ukraine (independent 1991)" },
+            { "label": "Orange Revolution", "note": "2004" },
+            { "label": "Euromaidan / Revolution of Dignity", "note": "2013–2014" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Ukraine — Donbas conflict", "note": "2014–" },
+            { "label": "Russian occupation (DPR/LPR)", "note": "2014–2022" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ukraine" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Russia annexes Crimea", "note": "2014 — internationally unrecognised" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Ukraine — full-scale Russian invasion", "span": 2 },
+        { "split": [
+            { "label": "Russian occupation (DPR · LPR · Zaporizhia · Kherson oblasts)", "note": "2022–" },
+            { "label": "Ukraine (partial control)" }
+          ], "span": 1
+        },
+        { "split": [
+            { "label": "Russia — Odessa oblast threatened" },
+            { "label": "Ukraine (partial control)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Russia (occupied · unrecognised)" }
+          ], "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Principality of Galicia-Volhynia: Under Daniel of Galicia (r.1238–1264), the principality was the strongest Ukrainian state after Kyiv fell to the Mongols; Daniel briefly accepted a papal crown (1253) to seek Western alliance against the Mongols.",
+    "Pereiaslav Agreement (1654): Bohdan Khmelnytsky's Cossack state accepted Muscovite suzerainty to counter Polish-Lithuanian pressure; its exact nature (personal union, protectorate, or incorporation) remains contested by Ukrainian and Russian historians.",
+    "Holodomor (1932–1933): Soviet-engineered famine in Ukraine, Kazakhstan, and other regions; killed an estimated 3.5–7.5 million Ukrainians; classified as genocide by Ukraine and many countries.",
+    "Crimean Transfer (1954): Khrushchev transferred Crimea from the Russian SFSR to the Ukrainian SSR, largely an administrative act within the unitary Soviet state; became internationally significant after 1991.",
+    "Crimean Tatars Deportation (1944): Stalin ordered the deportation of the entire Crimean Tatar population (c.200,000) to Central Asia for alleged collaboration; approximately 18–46% died in transit or exile.",
+    "Russian annexation of Crimea (2014): Following the Euromaidan revolution, Russia annexed Crimea after a disputed referendum; unrecognised by the UN General Assembly and most states.",
+    "2022 invasion: Russia launched a full-scale invasion on 24 February 2022; Russia subsequently claimed annexation of Zaporizhia, Kherson, Donetsk, and Luhansk oblasts (unrecognised); conflict ongoing."
+  ]
+}

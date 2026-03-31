@@ -1,0 +1,162 @@
+{
+  "id": "libya",
+  "title": "History of Libya",
+  "columns": [
+    { "id": "era",          "name": "Era",              "slots": 1, "type": "era" },
+    { "id": "tripolitania", "name": "Tripolitania (T)", "slots": 1 },
+    { "id": "cyrenaica",    "name": "Cyrenaica (C)",    "slots": 1 },
+    { "id": "fezzan",       "name": "Fezzan (F)",       "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Prehistoric & Ancient", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Berber / Libu peoples",                                "note": "prehistoric" },
+            { "label": "Phoenician colonies (Oea · Sabratha · Leptis Magna)",  "note": "c.600 BCE" },
+            { "label": "Carthaginian suzerainty",                              "note": "6th–2nd c. BCE" }
+          ], "span": 1
+        },
+        { "label": "Pentapolis — Greek city-states (Cyrene · Apollonia · Barca · Berenice · Euhesperides)", "span": 1 },
+        { "label": "Garamantian Kingdom",                                      "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Numidia (partial)",                                    "note": "c.200–46 BCE" },
+            { "regime": "roman_empire_pagan", "label": "Roman Empire",        "note": "46 BCE–429 CE" },
+            { "label": "Vandal Kingdom",                                       "note": "429–534" },
+            { "regime": "byzantine_empire",   "label": "Byzantine Empire",    "note": "534–642" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ptolemaic Egypt",                                      "note": "331–96 BCE" },
+            { "regime": "roman_empire_pagan", "label": "Roman Empire",        "note": "96 BCE–395 CE" },
+            { "regime": "byzantine_empire",   "label": "Byzantine Empire",    "note": "395–642" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Roman (fringe)",                                       "note": "1st–4th c. CE" },
+            { "label": "Berber / Tuareg tribes",                               "note": "" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval & Early Modern", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "regime": "rashidun_caliphate", "label": "Rashidun Caliphate",  "note": "642–661" },
+            { "regime": "umayyad_caliphate",  "label": "Umayyad Caliphate",   "note": "661–750" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "abbasid_caliphate",  "label": "Abbasid Caliphate",   "note": "750–800" },
+            { "label": "Muhallabid governors",                                 "note": "771–793" },
+            { "label": "Aghlabid dynasty",                                     "note": "800–909" },
+            { "regime": "fatimid_caliphate",  "label": "Fatimid Caliphate",   "note": "909–972" },
+            { "label": "Zirid dynasty",                                        "note": "972–1148" },
+            { "label": "Norman Sicily (tribute)",                              "note": "1146–1158" },
+            { "label": "Almohad Caliphate",                                    "note": "1158–1229" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "abbasid_caliphate",  "label": "Abbasid Caliphate",   "note": "750–868" },
+            { "label": "Tulunid dynasty",                                      "note": "868–905" },
+            { "label": "Ikhshidid dynasty",                                    "note": "935–969" },
+            { "regime": "fatimid_caliphate",  "label": "Fatimid Caliphate",   "note": "969–1048" },
+            { "label": "Banu Hilal / Banu Sulaym",                            "note": "1048 onward" },
+            { "label": "Banu Ghaniya",                                         "note": "c.1160–1228" }
+          ], "span": 1
+        },
+        { "label": "Berber / Tuareg (Ibadi independent)",                      "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Hafsid dynasty",                                       "note": "1229–1574" },
+            { "regime": "ottoman_empire", "label": "Ottoman Tripolitania",     "note": "1551–1711" },
+            { "label": "Karamanli dynasty",                                    "note": "1711–1835" },
+            { "regime": "ottoman_empire", "label": "Ottoman direct rule",      "note": "1835–1911" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "ayyubid_sultanate", "label": "Ayyubid (partial)",    "note": "1171–1250" },
+            { "label": "Hafsid dynasty",                                       "note": "1250–1574" },
+            { "regime": "ottoman_empire", "label": "Ottoman Cyrenaica",        "note": "1574–1911" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Berber / Tuareg",                                      "note": "" },
+            { "label": "Awlad Muhammad dynasty",                               "note": "1577–1842" },
+            { "regime": "ottoman_empire", "label": "Ottoman (nominal)",        "note": "16th–19th c." }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Modern", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Italian Libya — Tripolitania",                         "note": "1911–1943" },
+            { "label": "British Military Administration",                      "note": "1943–1951" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Italian Libya — Cyrenaica",                            "note": "1911–1943" },
+            { "label": "British Military Administration",                      "note": "1943–1951" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Italian Libya — Fezzan",                               "note": "1911–1943" },
+            { "label": "French Military Administration",                       "note": "1943–1951" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Kingdom of Libya",                                     "note": "1951–1969" },
+            { "label": "Libyan Arab Republic (Gaddafi)",                       "note": "1969–1977" },
+            { "label": "Great Socialist People's Libyan Arab Jamahiriya",      "note": "1977–2011" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "NTC / First Civil War",                                "note": "2011" },
+            { "label": "GNU / Government of National Unity (Tripoli)",         "note": "2015–" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "NTC / First Civil War",                                "note": "2011" },
+            { "label": "HoR / LNA — Benghazi–Tobruk",                         "note": "2014–" }
+          ], "span": 1
+        },
+        { "label": "Contested / LNA-influenced",                               "span": 1 }
+      ]
+    }
+  ],
+  "footnotes": [
+    "T (Tripolitania): western coastal Libya, centered on Tripoli; site of Phoenician Oea, Sabratha, and Leptis Magna; under the Karamanli dynasty (1711–1835) as a semi-autonomous Ottoman vassal; seat of the Government of National Unity (GNU) since 2015",
+    "C (Cyrenaica): eastern Libya centered on Benghazi; the Pentapolis was founded c.631 BCE by Greek colonists from Thera; passed to Ptolemaic Egypt, then Rome (96 BCE), then Byzantine; home to the rival HoR / LNA government since 2014",
+    "F (Fezzan): vast interior/southwestern desert; the Garamantian Kingdom controlled trans-Saharan trade routes for over a millennium; the Awlad Muhammad dynasty (1577–1842) ruled as an Ottoman vassal; administered by France (1943–1951) after WWII",
+    "Banu Hilal / Banu Sulaym (1048): Arab tribal confederations sent by the Fatimid caliph al-Mustansir to punish the Zirid ruler; their migration transformed the demography of the Maghreb and devastated urban agricultural society",
+    "Karamanli dynasty (1711–1835): founded by Yusuf Karamanli who seized power from the Ottoman governor; the dynasty fought the First Barbary War with the United States (1801–05) over tribute; the Ottomans reasserted direct rule in 1835",
+    "Post-2011 split: the Government of National Unity (GNU) controls Tripolitania and is backed by Turkey and the UN; the House of Representatives (HoR) and Libyan National Army (LNA) under Khalifa Haftar control Cyrenaica and parts of Fezzan, backed by the UAE and Russia"
+  ]
+}

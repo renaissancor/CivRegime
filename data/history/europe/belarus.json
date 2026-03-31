@@ -1,0 +1,178 @@
+{
+  "id": "belarus",
+  "title": "History of Belarus",
+  "columns": [
+    { "id": "era",  "name": "Era",                              "slots": 1, "type": "era" },
+    { "id": "west", "name": "W. Belarus (Grodno · Brest)",     "slots": 1 },
+    { "id": "cent", "name": "C. Belarus (Minsk · Polotsk)",    "slots": 1 },
+    { "id": "east", "name": "E. Belarus (Vitebsk · Mogilev)",  "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Baltic tribes (Yotvingians) · East Slavic Dregovich" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "East Slavic Dregovich · Krivich" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Krivich · Radimich (East Slavic tribes)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Early Medieval", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Turov Principality (south)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Polotsk Principality", "note": "c.862 — Krivich heartland" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Turov-Pinsk Principality" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Polotsk Principality — peak under Vseslav Brjachislavich", "note": "r.1044–1101" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Polotsk Principality → Vitebsk · Druts appanages" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Turov-Pinsk · Galicia-Volhynia border" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Polotsk / Minsk Principalities" },
+            { "label": "Mongol invasion — indirect tributary pressure", "note": "1237–1241" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Polotsk fragments — Vitebsk, Minsk, Druts" },
+            { "label": "Mongol Golden Horde influence" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Grand Duchy of Lithuania absorbs Belarusian principalities", "note": "14th c." }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": { "label": "GDL / Commonwealth", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Grand Duchy of Lithuania — Old Ruthenian (Belarusian) official language", "note": "14th–16th c." }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Polish-Lithuanian Commonwealth (Union of Lublin 1569)" },
+            { "label": "Cossack wars · Muscovite-Polish wars · Deluge", "note": "17th c." }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": { "label": "Russian Empire", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Russian Empire — Partitions of Poland", "note": "1772 (1st) · 1793 (2nd) · 1795 (3rd)" },
+            { "label": "Guberniyas: Grodno · Minsk · Vitebsk · Mogilev · Vilna" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": { "label": "Revolution / Interwar", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "German occupation (Ober Ost)", "note": "1915–1918" },
+            { "label": "BNR declared", "note": "March 1918 — brief" },
+            { "label": "Second Polish Republic (Kresy)", "note": "Treaty of Riga 1921" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "German occupation → Byelorussian SSR (BSSR)", "note": "1919" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Second Polish Republic — Eastern Borderlands (Kresy wschodnie)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Byelorussian Soviet Socialist Republic (BSSR)" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": { "label": "WWII", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Soviet occupation — west joins BSSR (Molotov-Ribbentrop)", "note": "1939" },
+            { "label": "Nazi Germany — Reichskommissariat Ostland", "note": "1941–1944" },
+            { "label": "Soviet reconquest — Operation Bagration", "note": "1944" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": { "label": "Soviet", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Byelorussian SSR — UN founding member (1945)", "note": "1944–1991" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 1 },
+      "cells": [
+        { "label": "Republic of Belarus — Lukashenko (1994–) · 2020 protests · Union State with Russia (1999)", "span": 3 }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Polotsk Principality: The most powerful early Belarusian principality; under Vseslav Brjachislavich (1044–1101) it briefly raided Novgorod and Pskov; maintained de facto independence from Kievan Rus.",
+    "Grand Duchy of Lithuania: Despite its name, the majority of GDL territory and population was Ruthenian (Belarusian/Ukrainian); Old Belarusian (Chancery Slavonic) served as the official administrative language.",
+    "Belarusian People's Republic (BNR, 1918): Declared independence on 25 March 1918 under German occupation; never controlled its full claimed territory; dissolved without lasting recognition; 25 March remains Belarusian Freedom Day.",
+    "The Deluge (1654–1667): Russo-Polish War and Swedish invasion devastated the Grand Duchy of Lithuania's Belarusian core; Belarus lost an estimated 40–50% of its population.",
+    "Operation Bagration (1944): Soviet summer offensive that liberated Belarus from Nazi occupation; Belarus lost approximately 25–30% of its total prewar population during the occupation (roughly 2.2 million dead).",
+    "UN Founding Member: Despite being part of the Soviet Union, the Byelorussian SSR was granted separate UN membership in 1945, along with the Ukrainian SSR, as a diplomatic compromise recognising Soviet territorial losses."
+  ]
+}

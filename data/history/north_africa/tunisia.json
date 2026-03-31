@@ -1,0 +1,125 @@
+{
+  "id": "tunisia",
+  "title": "History of Tunisia (Ifriqiya)",
+  "columns": [
+    { "id": "era",      "name": "Era",              "slots": 1, "type": "era" },
+    { "id": "tunis",    "name": "Tunis / North",    "slots": 1 },
+    { "id": "kairouan", "name": "Kairouan / South", "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Berber / Numidian peoples",                           "note": "prehistoric" },
+            { "label": "Phoenician Utica",                                     "note": "c.1100 BCE" }
+          ], "span": 1
+        },
+        { "label": "Numidian hinterland",                                      "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Carthage (Punic civilization)",                        "note": "c.814–146 BCE" },
+            { "label": "Roman Province of Africa (Proconsularis)",             "note": "146 BCE–429 CE" },
+            { "label": "Vandal Kingdom",                                       "note": "429–534" },
+            { "regime": "byzantine_empire", "label": "Byzantine Exarchate of Africa", "note": "534–647" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "regime": "rashidun_caliphate", "label": "Rashidun Caliphate",  "note": "647–661" },
+            { "regime": "umayyad_caliphate",  "label": "Umayyad Caliphate",   "note": "661–750" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Fihrid governors (Abbasid)",                           "note": "750–771" },
+            { "label": "Muhallabid governors",                                 "note": "771–793" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Aghlabid dynasty (capital: Kairouan)",                 "note": "800–909" },
+            { "regime": "fatimid_caliphate", "label": "Fatimid Caliphate (al-Mahdiyya)", "note": "909–969" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Zirid dynasty",                                        "note": "969–1148" },
+            { "label": "Norman Kingdom (raids · Mahdia 1148–1160)",            "note": "1134–1160" },
+            { "label": "Almohad Caliphate",                                    "note": "1159–1229" },
+            { "label": "Banu Ghaniya (Almoravid rebels)",                     "note": "1184–1228" },
+            { "label": "Hafsid dynasty",                                       "note": "1229–1574" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": { "label": "Early Modern", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "regime": "ottoman_empire", "label": "Ottoman Empire (Eyalet of Tunis)", "note": "1574–1612" },
+            { "label": "Muradid Bey dynasty",                                  "note": "1613–1705" },
+            { "label": "Husainid Bey dynasty",                                 "note": "1705–1957" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": { "label": "Modern", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "French Protectorate of Tunisia",                       "note": "1881–1942" },
+            { "label": "Axis occupation (Vichy → German)",                     "note": "1942–1943" },
+            { "label": "French Protectorate restored",                         "note": "1943–1956" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Kingdom of Tunisia",                                   "note": "1956–1957" },
+            { "label": "First Republic — Bourguiba",                           "note": "1957–1987" },
+            { "label": "Ben Ali regime",                                       "note": "1987–2011" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Tunisian Revolution",                                  "note": "2011" },
+            { "label": "Second Republic (NCA · Essebsi)",                      "note": "2011–2019" },
+            { "label": "Kais Saied — new constitution",                        "note": "2019–" }
+          ], "span": 2
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Tunis / North: Mediterranean-facing coast; Carthage (c.814 BCE) was founded by Phoenician settlers from Tyre according to tradition; became the greatest city in the western Mediterranean before its destruction by Rome in 146 BCE; modern Tunis grew on a nearby site",
+    "Kairouan / South: inland agricultural heartland; Kairouan was founded in 670 CE as the first Arab city in the Maghreb and served as the capital of the Aghlabid dynasty; the Great Mosque of Kairouan is one of the oldest mosques in Africa",
+    "Ifriqiya: the Arabic name for the province encompassing modern Tunisia and parts of Libya and Algeria; derived from the Roman name 'Africa'; under successive caliphates, Ifriqiya was the wealthiest province of the western Islamic world",
+    "Aghlabid dynasty (800–909): founded by Ibrahim ibn al-Aghlab as an autonomous emirate under Abbasid suzerainty; conquered Sicily (827–902) and parts of southern Italy; their court was a center of Islamic learning and architecture",
+    "Fatimid Caliphate (909–969 in Ifriqiya): the Ismaili Fatimids overthrew the Aghlabids; after conquering Egypt in 969, they relocated their capital to Cairo, leaving the Zirid dynasty as vassals in Ifriqiya",
+    "Hafsid dynasty (1229–1574): the last major indigenous Maghrebi dynasty; claimed descent from the Almohad caliph; resisted Aragonese, Ottoman, and other external pressures for three centuries; finally conquered by the Ottomans",
+    "Husainid dynasty (1705–1957): founded by Husayn ibn Ali al-Turki; governed Tunisia under nominal Ottoman suzerainty; negotiated the first constitution (Dustur) in the Arab world in 1861; survived as beys under French protectorate until Tunisian independence in 1956"
+  ]
+}

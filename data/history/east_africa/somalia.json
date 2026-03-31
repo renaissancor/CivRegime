@@ -1,0 +1,167 @@
+{
+  "id": "somalia",
+  "title": "History of Somalia & Djibouti",
+  "columns": [
+    { "id": "era",  "name": "Era",                                     "slots": 1, "type": "era" },
+    { "id": "dji",  "name": "Djibouti / Afar (Zeila coast)",          "slots": 1 },
+    { "id": "north","name": "N. Somalia / Somaliland (Berbera)",       "slots": 1 },
+    { "id": "south","name": "S. Somalia (Mogadishu · Lower Juba)",    "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Punt (Egyptian trading land — incense coast)", "note": "known since c.2500 BCE" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Macrobians", "note": "Persia–Ethiopia border peoples (Herodotus)" },
+            { "label": "Azanian coast (Greek/Arab trade)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Islamic Settlement", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Zeila (port) — early Arab settlements", "note": "7th–9th c." },
+            { "label": "City-state confederation (Berbera coast)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ifat Sultanate", "note": "c.1285–1415" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Mogadishu Sultanate (Arab-Somali)", "note": "founded c.900 CE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Adal Sultanate (capital: Zeila then Harar)", "note": "1415–1577" },
+            { "label": "Afar Sultanate (Awsa)", "note": "from 1577" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Adal Sultanate" },
+            { "label": "Harrar Sultanate", "note": "from 1647" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ajuran Sultanate (Somali)", "note": "c.13th–17th c." }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Age of Exploration", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Ottoman suzerainty (Zeila)" },
+            { "label": "Afar Sultanate" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Adal-Ethiopian War (Ahmad Grañ)", "note": "1529–1543" },
+            { "label": "Portuguese naval raids on coast" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ajuran Sultanate declining" },
+            { "label": "Omani Sultanate (Zanzibar) coastal influence" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Colonial Era", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "French Somaliland (Djibouti)", "note": "1883" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "British Somaliland", "note": "1884" },
+            { "label": "Dervish State (Mohammed Abdullah Hassan)", "note": "1895–1920" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Italian Somaliland", "note": "1889" },
+            { "label": "Italian East Africa", "note": "1936–1941" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "French Somaliland (continuing)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "British Somaliland (restored 1941)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "UN Trust Territory of Somalia", "note": "1950–1960 (Italian admin)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "French Somaliland → Republic of Djibouti", "note": "independence 1977" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Somali Republic (union with south)", "note": "1960" },
+            { "label": "Somali Democratic Republic (Barre)", "note": "1969–1991" },
+            { "label": "Republic of Somaliland (unrecognised)", "note": "1991–" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Somali Republic (1960)" },
+            { "label": "Somali Democratic Republic", "note": "1969–1991" },
+            { "label": "Somali civil war", "note": "1991–" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Republic of Djibouti — French military base · strategic port" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Republic of Somaliland (de facto independent, unrecognised)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Federal Republic of Somalia", "note": "2012–" },
+            { "label": "Al-Shabaab insurgency (Al-Qaeda affiliate)" }
+          ], "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Punt: An ancient trading partner of Egypt mentioned in records from c.2500 BCE; traded incense, ebony, gold, and exotic animals; its exact location is debated but the Somali coast and Djibouti area are leading candidates.",
+    "Zeila (Zayla): A key Red Sea port city at modern Djibouti/Somaliland border; one of the oldest cities in Africa; served as the capital of the Ifat and Adal Sultanates and a major terminus for Ethiopian trade.",
+    "Ajuran Sultanate (c.1300–1700): A powerful Somali sultanate centred in the Jubba and Shabelle river valleys; known for its sophisticated hydraulic engineering (wells and reservoirs) and resistance to Portuguese and Oromo encroachments.",
+    "Dervish State (1895–1920): Led by Mohammed Abdullah Hassan (called 'Mad Mullah' by the British); fought a 20-year guerrilla war against British, Italian, and Ethiopian forces; ended when the British used air power (first use in Africa) to bomb his fort.",
+    "Republic of Somaliland (1991–): Declared independence from Somalia after the collapse of the Barre regime; maintains de facto independence with its own government, currency, and military; unrecognised by any UN member state but considered stable.",
+    "Somali civil war (1991–): Collapse of Siad Barre's government led to clan-based civil war; the warlord period (1991–2006), Islamic Courts Union (2006), Ethiopian intervention (2006–2009), Al-Shabaab insurgency (2009–present).",
+    "Al-Shabaab: Somali Islamist group affiliated with Al-Qaeda; controls rural areas of southern and central Somalia; carries out attacks across the region including Kenya and Ethiopia."
+  ]
+}

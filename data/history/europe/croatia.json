@@ -1,0 +1,347 @@
+{
+  "id": "croatia",
+  "title": "History of Croatia",
+  "columns": [
+    { "id": "era",    "name": "Era",                               "slots": 1, "type": "era" },
+    { "id": "istria", "name": "Istria (P)",                        "slots": 1 },
+    { "id": "dalm",   "name": "Dalmatia (D)",                      "slots": 1 },
+    { "id": "core",   "name": "Core Croatia (Zagreb · Sisak)",     "slots": 1 },
+    { "id": "slav",   "name": "Slavonia (S)",                      "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Histri (Illyrian)", "note": "indigenous Istrian tribe" },
+            { "label": "Illyrian Kingdom" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Dalmatian Kingdom (Delmatae · Liburnians)" },
+            { "label": "Illyrian Kingdom" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Illyrian Kingdom · Pannonian tribes (Colapiani)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Celtic Scordisci · Pannonian tribes" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Roman Empire — Regio X (Venetia et Histria)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Roman Republic (Illyrian Wars)", "note": "229–168 BCE" },
+            { "label": "Roman Empire — Dalmatia province" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Roman Empire — Pannonia Savia" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Roman Empire — Pannonia Inferior · Pannonia Secunda" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Early Medieval", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "label": "W. Roman → Odoacer → Ostrogothic → Byzantine", "note": "476–554" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "W. Roman → Odoacer → Ostrogothic → Byzantine", "note": "–554 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ostrogothic Kingdom → Byzantine briefly" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Gepid Kingdom",      "note": "454–567 CE" },
+            { "label": "Avar Khaganate",     "note": "567–796 CE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Byzantine Empire" },
+            { "label": "Lombard pressure (north)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Byzantine Empire — Dalmatian coastal theme" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Avar Khaganate · South Slavic migration", "note": "6th–7th c." }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Frankish → Middle Frankish → East Frankish → HRE", "note": "8th–10th c." }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Byzantine (coastal cities)" },
+            { "label": "Croatian Principality (hinterland)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Croatian Principality · Frankish suzerainty (Carolingian)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Croatian Principality · East Frankish (Pannonian Croatia)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "label": "Holy Roman Empire" },
+            { "label": "Venice — acquiring coastal towns", "note": "from c.1000" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Byzantine (some cities) · Croatian Kingdom" },
+            { "label": "Venice — Dalmatian cities",  "note": "1000 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Croatian Kingdom — Tomislav", "note": "c.925 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Croatian Kingdom → Hungarian pressure" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Venice Republic (acquiring coastal towns)" },
+            { "label": "HRE — Pazin / Mitterburg county" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Hungary-Croatia (Pacta Conventa 1102)" },
+            { "label": "Venice dominates · Republic of Ragusa forming", "note": "1358–" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Hungary-Croatia (1102)" },
+            { "label": "Mongol invasion",  "note": "1241–1242" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Hungary-Croatia — County / Banate of Slavonia" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Venice Republic (most of coast)" },
+            { "label": "Habsburg — Pazin county" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Venice Republic" },
+            { "label": "Republic of Ragusa (Dubrovnik)", "note": "autonomous 1358–1808" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Hungary-Croatia → Habsburg",  "note": "from 1527" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Hungary-Croatia → Ottoman raids" },
+            { "label": "Battle of Mohács",             "note": "1526" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Ottoman Frontier", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Venice Republic" },
+            { "label": "Habsburg — Pazin" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Venice Republic" },
+            { "label": "Republic of Ragusa" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Habsburg Croatia (reduced rump state)" },
+            { "label": "Military Frontier (Vojna Krajina)",    "note": "from 1593" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ottoman Empire — most of Slavonia", "note": "1536–1699" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Venice Republic" },
+            { "label": "Habsburg — Pazin area" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Venice Republic" },
+            { "label": "Republic of Ragusa" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Habsburg Croatia · Military Frontier" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Habsburg — reconquered (Treaty of Karlowitz 1699)" },
+            { "label": "Slavonian Military Frontier" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "19th c.", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Habsburg → Austria-Hungary (Austrian Küstenland)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "French (briefly 1806–14) → Austrian Empire" },
+            { "label": "Austria-Hungary — Dalmatia crown land" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Austrian Empire → Austria-Hungary" },
+            { "label": "Kingdom of Croatia-Slavonia (1868)" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": { "label": "Yugoslav", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "label": "Italy — Istria (Treaty of Rapallo 1920)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of SCS → Yugoslavia" },
+            { "label": "Italy — Zadar & some coastal towns" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Serbs, Croats & Slovenes → Kingdom of Yugoslavia" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Italy — annexed Istria", "note": "1941–1943" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Italy (1941–43) → Germany / NDH (1943–45)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Independent State of Croatia (NDH) — Axis puppet", "note": "1941–1945" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "NDH" },
+            { "label": "Hungary — Baranja occupied", "note": "1941–1944" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Yugoslavia / Croatia (Zone B → Croatia 1954)", "note": "Treaty of Osimo 1975" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "SFR Yugoslavia — Socialist Republic of Croatia" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 2 },
+      "cells": [
+        { "label": "Republic of Croatia (1991)", "span": 1 },
+        { "stack": [
+            { "label": "Republic of Croatia" },
+            { "label": "RSK (brief Krajina Serb presence)", "note": "1991–1995" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Republic of Croatia" },
+            { "label": "Republic of Serbian Krajina (RSK)", "note": "1991–1995" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Republic of Croatia" },
+            { "label": "RSK — Eastern Slavonia", "note": "1991–1995" },
+            { "label": "UNTAES administration",  "note": "1996–1998" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Republic of Croatia — NATO (2009) · EU member (2013)", "span": 4 }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Pacta Conventa (1102): Agreement between Hungarian King Coloman and Croatian nobles by which Croatia entered personal union with Hungary while retaining its own laws and institutions.",
+    "Republic of Ragusa (Dubrovnik, 1358–1808): A maritime republic that maintained independence from Venice by paying tribute to Ottoman Empire; a major Adriatic trading power.",
+    "Military Frontier (Vojna Krajina, 1593–1881): A Habsburg-administered military zone along the Ottoman border, staffed by Serb, Croatian, and Vlach settlers in exchange for military service.",
+    "Istrian Zone B: After WWII Istria was divided into Italian Zone A (Trieste) and Yugoslav Zone B; Zone B transferred to Yugoslavia in 1954, confirmed by Treaty of Osimo (1975).",
+    "Republic of Serbian Krajina (RSK, 1991–95): Serb-held enclave in Croatia's Krajina and eastern Slavonia; collapsed after Croatian Operation Storm (1995); eastern Slavonia reunified via UNTAES (1998).",
+    "S = eastern Slavonian plain · P = Pula/Istria peninsula · D = Dalmatian coast (source footnote)"
+  ]
+}

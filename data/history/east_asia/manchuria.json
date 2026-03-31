@@ -1,0 +1,335 @@
+{
+  "id": "manchuria",
+  "title": "History of Manchuria",
+  "columns": [
+    { "id": "era",   "name": "Era",                          "slots": 1, "type": "era" },
+    { "id": "west",  "name": "W. Manchuria / Steppe",        "slots": 1 },
+    { "id": "south", "name": "S. Manchuria / Liaodong",      "slots": 1 },
+    { "id": "east",  "name": "E. Manchuria / Korea Border",  "slots": 1 },
+    { "id": "north", "name": "N. Manchuria / Amur",          "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "BCE", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Shanrong",   "note": "c.800–300 BCE" },
+            { "label": "Donghu",     "note": "c.600–209 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Yan",                      "note": "c.400–222 BCE" },
+            { "label": "Liaodong Commandery",      "note": "from c.300 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Gojoseon",   "note": "c.2333–108 BCE" },
+            { "label": "Yemaek",     "note": "tribal confederation" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Sushen",     "note": "ancient Tungusic peoples" },
+            { "label": "Gori Kingdom" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Xiongnu — from 209 BCE", "span": 1 },
+        { "stack": [
+            { "label": "Qin",                                  "note": "221–206 BCE" },
+            { "label": "Western Han",                          "note": "206 BCE–8 CE" },
+            { "label": "Liaodong & Xuantu Commanderies",       "note": "from 108 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Gojoseon",           "note": "→ 108 BCE" },
+            { "label": "Han Commanderies",   "note": "108–75 BCE" }
+          ], "span": 1
+        },
+        { "label": "Gori Kingdom · Buyeo forming", "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "~4th c. CE", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Wuhuan",    "note": "c.200 BCE–207 CE" },
+            { "label": "Xianbei",   "note": "c.1–400 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Xin · Eastern Han",                    "note": "9–220 CE" },
+            { "label": "Wei · Gongsun / Eastern Yan",          "note": "220–238 CE" },
+            { "label": "Western Jin — Liaodong & Xuantu",      "note": "265–316 CE" }
+          ], "span": 1
+        },
+        { "regime": "goguryeo", "label": "Goguryeo — expanding", "span": 1 },
+        { "stack": [
+            { "label": "Buyeo",   "note": "c.2nd BCE–494 CE" },
+            { "label": "Ilou",    "note": "Tungusic hunter-gatherers" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "4th–6th c.", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Former Yan · Former Qin",   "note": "337–395 CE" },
+            { "label": "Later Yan · Northern Yan",  "note": "384–436 CE" },
+            { "label": "Northern Wei",               "note": "436–534 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Former/Later Yan — Liaodong",    "note": "337–436 CE" },
+            { "label": "N. Wei → Eastern Wei",           "note": "534–" }
+          ], "span": 1
+        },
+        { "regime": "goguryeo", "label": "Goguryeo", "span": 1, "rowspan": 2 },
+        { "stack": [
+            { "label": "Dûmokrô",   "note": "Buyeo successor state" },
+            { "label": "Wuji",      "note": "proto-Mohe Tungusic" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Khitan confederacy",   "note": "forming c.400s CE" },
+            { "label": "Shiwei",               "note": "Mongolic/Tungusic tribes" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "N. Qi → N. Zhou",   "note": "550–581 CE" }
+          ], "span": 1
+        },
+        { "label": "Mohe — Tungusic confederation", "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "7th–9th c.", "rowspan": 2 },
+      "cells": [
+        { "label": "Tang suzerainty (Jimi)", "span": 1 },
+        { "stack": [
+            { "label": "Sui",    "note": "581–618" },
+            { "label": "Tang",   "note": "618–907" }
+          ], "span": 1
+        },
+        { "regime": "balhae", "label": "Balhae", "note": "698–926", "span": 1, "rowspan": 2 },
+        { "label": "Mohe — tribal groups", "span": 1, "rowspan": 2 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Tang — declining", "span": 1 },
+        { "label": "Tang → regional Mohe chiefs", "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "10th–12th c.", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Liao — Khitan Empire",   "note": "907–1125" },
+            { "label": "Dongdan Kingdom",         "note": "926–983, Balhae successor" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Balhae Restoration Movement" },
+            { "label": "Jurchen tribes consolidating" }
+          ], "span": 1
+        },
+        { "label": "Five Nations Dept (Wuguofu)", "note": "far-north Jurchen federation", "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "jin_jurchen", "label": "Jin — Jurchen Empire", "note": "1115–1234", "span": 4 }
+      ]
+    },
+    {
+      "era": { "label": "13th c.", "rowspan": 2 },
+      "cells": [
+        { "label": "Mongol Empire — western invasion", "span": 1 },
+        { "stack": [
+            { "label": "Eastern Liao · Later Liao", "note": "Khitan remnant states" }
+          ], "span": 1
+        },
+        { "label": "Eastern Xia (Dongxia) — 1215–1233", "span": 1 },
+        { "label": "Mongol Empire — northern front", "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "yuan", "label": "Yuan", "span": 1 },
+        { "stack": [
+            { "label": "Yuan — Liaoyang Province" },
+            { "label": "Eastern Three Kings" },
+            { "label": "Border Goryeo · Sim Wang" }
+          ], "span": 2
+        },
+        { "regime": "yuan", "label": "Yuan — far north", "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "14th–16th c.", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Northern Yuan",              "note": "Mongol remnant" },
+            { "label": "Uriyangkhai Three Guards" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ming Liaodong" },
+            { "label": "Liaodong Warlord",   "note": "early Ming transition" }
+          ], "span": 1
+        },
+        { "label": "Jurchen tribes", "span": 1 },
+        { "label": "Jurchen tribes (Wild Jurchen)", "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Northern Yuan (declining) · Uriyangkhai Three Guards", "span": 1 },
+        { "regime": "ming", "label": "Ming", "span": 1 },
+        { "label": "Jianzhou · Haixi · Wild Jurchen", "span": 1 },
+        { "label": "Wild Jurchen", "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "17th–18th c.", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Later Jin",   "note": "1616–1636" },
+            { "label": "Qing",        "note": "from 1636 — all Manchuria" }
+          ], "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "qing", "label": "Qing", "span": 3 },
+        { "stack": [
+            { "label": "Qing" },
+            { "label": "Treaty of Nerchinsk", "note": "1689 — Qing–Russia border fixed" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "19th c.", "rowspan": 2 },
+      "cells": [
+        { "regime": "qing", "label": "Qing", "span": 3 },
+        { "stack": [
+            { "label": "Aigun Treaty",          "note": "1858 — Amur to Russia" },
+            { "label": "Russian Empire — Amur" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "qing", "label": "Qing — declining", "span": 1 },
+        { "stack": [
+            { "label": "Qing" },
+            { "label": "Dalian",   "note": "Russian leasehold 1898 · Japanese 1905" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Qing" },
+            { "label": "Korea–Qing border dispute",   "note": "Gando/Jiandao, 1909" }
+          ], "span": 1
+        },
+        { "label": "Russian Empire — CER · Trans-Siberian Rwy", "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "20th c.", "rowspan": 4 },
+      "cells": [
+        { "stack": [
+            { "label": "Qing → ROC" },
+            { "label": "Empire of China",   "note": "Yuan Shikai, 1915–16" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Japanese Kwantung Leasehold",   "note": "1905–1945" },
+            { "label": "ROC Provisional Govt" },
+            { "label": "Fengtian Clique" }
+          ], "span": 1
+        },
+        { "label": "ROC · Japanese Korea (from 1910)", "span": 1 },
+        { "label": "Russian Empire", "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "ROC · Fengtian Clique", "span": 2 },
+        { "label": "ROC · Japanese Korea", "span": 1 },
+        { "stack": [
+            { "label": "Russian Republic",                   "note": "1917" },
+            { "label": "Amur Soviet · Zeleny (Greens)",      "note": "1917–1920" },
+            { "label": "Russian State (Kolchak)",            "note": "1918–1920" },
+            { "label": "Far Eastern Republic",               "note": "1920–1922" },
+            { "label": "Soviet Union",                       "note": "from 1922" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Manchukuo — Japanese puppet state, 1932–1945", "span": 3 },
+        { "label": "Manchukuo · Soviet Union (border zone)", "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Soviet-occupied Manchuria",   "note": "1945–" },
+            { "label": "ROC → PRC",                   "note": "1946–1949" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Soviet Dalian",   "note": "1945–1955" },
+            { "label": "ROC → PRC" }
+          ], "span": 1
+        },
+        { "label": "ROC → PRC · North Korea (from 1948)", "span": 1 },
+        { "label": "Soviet Far East / PRC (Heilongjiang)", "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "Present", "rowspan": 1 },
+      "cells": [
+        { "label": "PRC — Northeast Three Provinces", "span": 2 },
+        { "split": [
+            { "label": "PRC (Jilin)" },
+            { "label": "N. Korea — Hwanggumpyong" }
+          ], "span": 1
+        },
+        { "label": "Russian Federation — Far Eastern Federal District", "span": 1 }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Eastern Yan (Gongsun regime): Warlord state controlling Liaodong, 189–238 CE; conquered by Cao Wei.",
+    "Eastern Xia (Dongxia / 大真): Jurchen splinter state in eastern Manchuria under Puxian Wannu, 1215–1233.",
+    "Five Nations Dept (Wuguofu / 五國部): Jin dynasty administrative unit managing far-north Jurchen clans along the lower Songhua and Amur rivers.",
+    "Eastern Three Kings: Yuan dynasty Mongol appanage princes ruling eastern Manchuria under the Liaoyang Branch Secretariat.",
+    "Gando/Jiandao: Disputed Sino-Korean border zone along the Tumen River; settled by 1909 Gando Convention ceding the area to China.",
+    "Zeleny (Greens): Green Army partisan forces active in the Amur/Far East region during the Russian Civil War, 1918–1922.",
+    "Hwanggumpyong: Small North Korean island at the mouth of the Yalu River, subject of a 2011 joint development agreement with China."
+  ]
+}

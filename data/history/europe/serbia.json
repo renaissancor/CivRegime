@@ -1,0 +1,392 @@
+{
+  "id": "serbia",
+  "title": "History of Serbia & Kosovo",
+  "columns": [
+    { "id": "era",      "name": "Era",                         "slots": 1, "type": "era" },
+    { "id": "kosovo",   "name": "Kosovo",                      "slots": 1 },
+    { "id": "nis",      "name": "Niš (Naissus)",               "slots": 1 },
+    { "id": "raska",    "name": "Raška (inner Serbia)",        "slots": 1 },
+    { "id": "belgrade", "name": "Belgrade (Singidunum)",       "slots": 1 },
+    { "id": "vojv",     "name": "Vojvodina",                   "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "label": "Illyrians (Dardani)", "note": "indigenous western Balkans" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Illyrians · Celts (Scordisci)", "note": "mixed Illyro-Celtic" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Illyrians (Autariatae)", "note": "inner Balkans" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Celts (Scordisci)", "note": "lower Danube" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Celts (Scordisci) · Dacians" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "roman_empire", "label": "Roman Empire — Moesia Superior · Dardania provinces", "span": 3 },
+        { "regime": "roman_empire", "label": "Roman Empire — Singidunum (Belgrade)", "span": 1 },
+        { "stack": [
+            { "label": "Roman Empire — Pannonia province" },
+            { "label": "Iazyges (Sarmatian)",   "note": "Tisza plain, 1st–4th c." }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Eastern Roman (Byzantine)" },
+            { "label": "Hunnic raids",              "note": "4th–5th c." },
+            { "label": "South Slavic migration",    "note": "6th–7th c." }
+          ], "span": 3
+        },
+        { "stack": [
+            { "label": "Eastern Roman" },
+            { "label": "Hunnic raids" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Gepid Kingdom",              "note": "454–567 CE" },
+            { "label": "Avar Khaganate",             "note": "567–796 CE" },
+            { "label": "South Slavs settling" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval", "rowspan": 7 },
+      "cells": [
+        { "stack": [
+            { "label": "Serbian Principality — Vlastimirović dynasty", "note": "c.780–960" },
+            { "label": "vs First Bulgarian Empire · Frankish pressure" }
+          ], "span": 3
+        },
+        { "stack": [
+            { "label": "Bulgarian suzerainty (Simeon I)", "note": "c.924–971" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Magyar (Hungarian) raids · settlement", "note": "896–" },
+            { "label": "Kingdom of Hungary forming",            "note": "c.1000" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Byzantine Empire" },
+            { "label": "Serbian Grand Principality — Vukanović dynasty", "note": "c.1040–1101" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Byzantine Empire" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Serbian Grand Principality — Vukanović / Duklja" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Byzantine Empire" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Hungary" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Byzantine Empire (contested)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Byzantine Empire" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Serbian Grand Principality — Nemanjić dynasty", "note": "c.1166–1346" },
+            { "label": "Stefan Nemanja · Principality of Bosnia (west)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Byzantine Empire" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Hungary" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Serbian Empire — Stefan Dušan", "note": "1346–1371" },
+            { "label": "Nemanjić dynasty · Kosovo — cultural heartland" }
+          ], "span": 3
+        },
+        { "stack": [
+            { "label": "Serbian Empire" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Hungary" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "First Battle of Kosovo — Moravian Serbia / Ottoman", "note": "1389" },
+            { "label": "Serbian Despotate — Lazarević dynasty",              "note": "1402–1427" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Serbian Principality — Lazarević dynasty" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Serbian Principality — Lazarević dynasty" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Serbian Despotate — Belgrade capital", "note": "1402–1427" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Hungary" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Second Battle of Kosovo — Ottoman victory", "note": "1448" },
+            { "label": "Ottoman conquest of Kosovo",                "note": "1455" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Serbian Despotate — Branković dynasty",   "note": "1427–1459" },
+            { "label": "Ottoman conquest",                        "note": "Smederevo 1459" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Serbian Despotate — Belgrade", "note": "1427–1521" },
+            { "label": "Kingdom of Hungary — Belgrade", "note": "1521" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Hungary" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "ottoman_empire",
+          "label": "Ottoman Empire — conquest complete",
+          "span": 4
+        },
+        { "stack": [
+            { "label": "Kingdom of Hungary" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Ottoman", "rowspan": 4 },
+      "cells": [
+        { "regime": "ottoman_empire", "label": "Ottoman Empire — Rumelia · Kosovo vilayet", "span": 3 },
+        { "regime": "ottoman_empire", "label": "Ottoman Empire (Belgrade — key fortress)", "span": 1 },
+        { "stack": [
+            { "label": "Kingdom of Hungary → Habsburg Empire" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "ottoman_empire", "label": "Ottoman Empire", "span": 3 },
+        { "stack": [
+            { "label": "Great Turkish War — Holy League (Habsburg)", "note": "1683–1699" },
+            { "label": "Habsburg Empire — Belgrade captured",        "note": "1688" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Habsburg Empire (Treaty of Karlowitz 1699)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "ottoman_empire", "label": "Ottoman Empire", "span": 2 },
+        { "stack": [
+            { "label": "Ottoman Empire" },
+            { "label": "Habsburg–Ottoman wars, Belgrade alternating" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Habsburg–Ottoman wars",          "note": "Belgrade: Ottoman/Habsburg cycles" },
+            { "label": "Habsburg Empire — Belgrade",     "note": "1718–1739 · 1789–91" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Habsburg Empire — Vojvodina" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "ottoman_empire", "label": "Ottoman Empire", "span": 3 },
+        { "stack": [
+            { "label": "First Serbian Uprising — Karađorđe", "note": "1804–1813" },
+            { "label": "Second Serbian Uprising",           "note": "1815" },
+            { "label": "Principality of Serbia — Obrenović", "note": "1815–" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Habsburg Empire" },
+            { "label": "Serbian Vojvodina (Serbian autonomy movement)", "note": "1848–1849" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Independence", "rowspan": 2 },
+      "cells": [
+        { "regime": "ottoman_empire", "label": "Ottoman Empire", "span": 3 },
+        { "stack": [
+            { "label": "Principality of Serbia", "note": "1815–1882" },
+            { "label": "Kingdom of Serbia",      "note": "1882–1918" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Habsburg Empire → Austria-Hungary" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Serbia — after First Balkan War", "note": "1912" }
+          ], "span": 4
+        },
+        { "stack": [
+            { "label": "Austria-Hungary — Vojvodina" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "20th–21st c.", "rowspan": 5 },
+      "cells": [
+        { "stack": [
+            { "label": "Kingdom of Serbs, Croats & Slovenes → Yugoslavia", "note": "1918–1941" }
+          ], "span": 4
+        },
+        { "stack": [
+            { "label": "Kingdom of Serbs, Croats & Slovenes → Yugoslavia", "note": "Vojvodina joins 1918" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Albanian client state (Italian)  — Kosovo", "note": "1941–1944" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Nazi Germany — Military Government in Serbia" },
+            { "label": "Government of National Salvation (Nedić)",     "note": "1941–1944" }
+          ], "span": 3
+        },
+        { "stack": [
+            { "label": "Hungary — Vojvodina re-occupied", "note": "1941–1944" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Yugoslav Partisans → SFR Yugoslavia", "note": "1944–" },
+            { "label": "Kosovo — Autonomous Province (Socialist SR Serbia)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "SFR Yugoslavia — Socialist Republic of Serbia" }
+          ], "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Kosovo War · NATO intervention",            "note": "1998–1999" },
+            { "label": "UN Kosovo Interim Administration (UNMIK)", "note": "1999–2008" },
+            { "label": "Kosovo — declared independence",           "note": "2008" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Federal Republic of Yugoslavia",          "note": "1992–2003" },
+            { "label": "Serbia & Montenegro",                     "note": "2003–2006" }
+          ], "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Kosovo (partially recognised)", "span": 1 },
+        { "label": "Republic of Serbia — EU candidate", "span": 4 }
+      ]
+    }
+  ],
+  "footnotes": [
+    "First Battle of Kosovo (1389): Fought between a Christian coalition under Prince Lazar and the Ottoman army of Murad I; both rulers died in battle. The outcome was indecisive but led to Serbian vassalage.",
+    "Second Battle of Kosovo (1448): Decisive Ottoman victory over John Hunyadi of Hungary; ended Christian hopes of reversing Ottoman expansion in the Balkans.",
+    "Great Turkish War / Holy League (1683–1699): Habsburg-led alliance drove Ottomans from much of Hungary and briefly occupied Belgrade (1688–1690); ended by Treaty of Karlowitz.",
+    "Great Migration of the Serbs (1690): After Habsburg retreat, Patriarch Arsenije III led ~30,000–500,000 Serbs northward into Habsburg territory, reshaping the demographic map of Kosovo and Vojvodina.",
+    "Government of National Salvation (Nedić regime, 1941–44): Serbian collaborationist administration under Milan Nedić; operated alongside German Military Administration.",
+    "Kosovo declaration of independence (2008): Recognised by over 100 states including the US and most EU members; Serbia, Russia, and China do not recognise it. ICJ advisory opinion (2010) found the declaration did not violate international law."
+  ]
+}

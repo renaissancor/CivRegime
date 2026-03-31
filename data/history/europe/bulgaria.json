@@ -1,0 +1,184 @@
+{
+  "id": "bulgaria",
+  "title": "History of Bulgaria",
+  "columns": [
+    { "id": "era",   "name": "Era",                             "slots": 1, "type": "era" },
+    { "id": "north", "name": "N. Bulgaria / Moesia",            "slots": 1 },
+    { "id": "cent",  "name": "C. Bulgaria (Tărnovo · Sofia)",   "slots": 1 },
+    { "id": "south", "name": "S. Bulgaria / Thrace",            "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "label": "Getae · Triballi",   "note": "Thracian tribes, Danubian plain" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Thracian tribes" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Odrysian Kingdom",              "note": "c.480–170 BCE — Thrace core" },
+            { "label": "Achaemenid Persian Empire",     "note": "513–479 BCE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Macedonian Kingdom — Philip II (Triballi, 339 BCE)" },
+            { "label": "Lysimachus — Kingdom of Thrace", "note": "305–281 BCE" },
+            { "label": "Odrysian revival (Roman client)",  "note": "3rd–1st c. BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Macedonian Kingdom" },
+            { "label": "Lysimachus · Seleucid (brief)" },
+            { "label": "Odrysian client" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Macedonian Kingdom" },
+            { "label": "Lysimachus · Seleucid" },
+            { "label": "Odrysian revival — client of Rome" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Roman Moesia province",     "note": "c.6 CE–" },
+            { "label": "Gothic raids · settlement", "note": "3rd–4th c." },
+            { "label": "Hunnic raids",              "note": "4th–5th c." }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Roman" },
+            { "label": "Gothic · Hunnic raids" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Roman Thrace province",      "note": "46 CE–" },
+            { "label": "Byzantine (Eastern Roman)",  "note": "from 395 CE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval", "rowspan": 4 },
+      "cells": [
+        { "stack": [
+            { "label": "Bulgar Khanate — Asparuh · Tervel", "note": "681–" },
+            { "label": "Pliska (first capital)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Byzantine Empire" },
+            { "label": "South Slavic migration settling" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Byzantine Empire — Thrace (core territory)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "First Bulgarian Empire — Krum · Boris I · Simeon I", "note": "803–1018" },
+            { "label": "Pliska → Preslav (capitals)" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Byzantine Empire — Thrace" },
+            { "label": "Bulgarian border pressure" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Byzantine reconquest — Basil II", "note": "1018" },
+            { "label": "Second Bulgarian Empire — Tărnovo", "note": "1185–1396" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Byzantine Empire — Thrace" },
+            { "label": "Bulgarian–Byzantine contested" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Ottoman conquest",    "note": "Tărnovo 1393 · Vidin 1396" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": { "label": "Ottoman", "rowspan": 1 },
+      "cells": [
+        { "regime": "ottoman_empire",
+          "label": "Ottoman Empire — Danube vilayet · Rumelia · Bulgarian national revival movement",
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": { "label": "Modern", "rowspan": 4 },
+      "cells": [
+        { "stack": [
+            { "label": "Principality of Bulgaria", "note": "1878–1908" },
+            { "label": "Treaty of San Stefano · Congress of Berlin · Russian protectorate" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Kingdom of Bulgaria", "note": "1908–1946" },
+            { "label": "Balkan Wars 1912–13 · WWI (Central Powers) · WWII (Axis-aligned)" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "People's Republic of Bulgaria", "note": "1946–1990" },
+            { "label": "Soviet-aligned · Warsaw Pact" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Republic of Bulgaria — NATO (2004) · EU member (2007)", "span": 3 }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Odrysian Kingdom: The first major Thracian state, centred in southern Thrace (modern southern Bulgaria and northern Turkey/Greece); became a Roman client kingdom.",
+    "Bulgar Khanate (681 CE): Founded after the Bulgars under Asparuh crossed the Danube; recognised by Byzantine treaty; converted to Christianity under Boris I (864 CE).",
+    "Second Bulgarian Empire: Re-established by the Asen brothers (Peter and Asen) in 1185 after a revolt against Byzantium; peaked under Ivan Asen II (1218–1241).",
+    "Principality of Bulgaria: Created by Treaty of San Stefano (1878) after the Russo-Turkish War; scope reduced by Congress of Berlin; full independence declared 1908.",
+    "WWII: Bulgaria was Axis-aligned but did not declare war on the USSR; after Soviet entry in 1944, a communist-led Fatherland Front seized power."
+  ]
+}

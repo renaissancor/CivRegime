@@ -5,7 +5,7 @@
     { "id": "era",    "name": "Era",    "slots": 1, "type": "era" },
     { "id": "yemen",  "name": "Yemen",  "slots": 1 },
     { "id": "oman",   "name": "Oman",   "slots": 1 },
-    { "id": "gulf",   "name": "Gulf",   "slots": 1 },
+    { "id": "gulf",   "name": "Gulf",   "slots": 4 },
     { "id": "nejd",   "name": "Nejd",   "slots": 1 },
     { "id": "hejaz",  "name": "Hejaz",  "slots": 1 }
   ],
@@ -29,7 +29,7 @@
             { "regime": "neo_assyrian_empire","label": "Assyrian Empire",            "note": "c.900–612 BCE" },
             { "regime": "neo_babylonian",     "label": "Neo-Babylonian",             "note": "612–539 BCE" },
             { "regime": "achaemenid_empire",  "label": "Achaemenid Empire",          "note": "539–330 BCE" }
-          ], "span": 1
+          ], "span": 4
         },
         { "stack": [
             { "label": "Thamud / Arabian tribes",                                     "note": "prehistoric – c.400 CE" },
@@ -62,7 +62,7 @@
             { "label": "Seleucid Tylos (Bahrain)",     "note": "c.300–100 BCE" },
             { "regime": "parthian_empire", "label": "Parthian Empire",              "note": "c.100 BCE–224 CE" },
             { "regime": "sassanid_empire", "label": "Sassanid Empire",              "note": "224–651 CE" }
-          ], "span": 1
+          ], "span": 4
         },
         { "stack": [
             { "label": "Kindite Kingdom",                                            "note": "c.450–530 CE" },
@@ -86,7 +86,7 @@
             { "regime": "rashidun_caliphate", "label": "Rashidun Caliphate",            "note": "632–661" },
             { "regime": "umayyad_caliphate",  "label": "Umayyad Caliphate",            "note": "661–750" },
             { "regime": "abbasid_caliphate",  "label": "Abbasid Caliphate",            "note": "750–c.900" }
-          ], "span": 5
+          ], "span": 8
         }
       ]
     },
@@ -110,7 +110,7 @@
             { "label": "Qarmatian State",                                            "note": "899–1077" },
             { "label": "Uyunid Dynasty",                                             "note": "1076–1253" },
             { "label": "Jabrid Dynasty",                                             "note": "1253–1521" }
-          ], "span": 1
+          ], "span": 4
         },
         { "stack": [
             { "label": "Qarmatian State",                                            "note": "899–1077" },
@@ -148,7 +148,7 @@
             { "regime": "safavid_empire",  "label": "Safavid (Bahrain · Hormuz)",  "note": "1602–1736" },
             { "label": "Omani / tribal (post-Safavid)",                             "note": "1736–1820" },
             { "label": "Trucial States (British protectorate)",                     "note": "1820–1971" }
-          ], "span": 1
+          ], "span": 4
         },
         { "stack": [
             { "regime": "ottoman_empire", "label": "Ottoman (nominal)",             "note": "16th–18th c." },
@@ -175,7 +175,7 @@
           ], "span": 1
         },
         { "label": "Sultanate of Oman",                                             "span": 1 },
-        { "label": "British Protectorates", "span": 1 },
+        { "label": "British Protectorates (Trucial States · Qatar · Bahrain · Kuwait)", "span": 4 },
         { "stack": [
             { "label": "Ha'il Emirate (Rashidi)",                                   "note": "1836–1921" },
             { "label": "Emirate of Riyadh (3rd Saudi)",                             "note": "1902–1921" },
@@ -194,28 +194,25 @@
       "era": { "label": "Contemporary", "rowspan": 1 },
       "cells": [
         { "split": [
-            { "label": "Houthi (SPC)",                "note": "de facto north" },
-            { "label": "PLC",                         "note": "de facto south" }
+            { "label": "Houthi (SPC)",    "note": "de facto north" },
+            { "label": "PLC",             "note": "de facto south" }
           ], "span": 1
         },
-        { "label": "Sultanate of Oman", "span": 1 },
-        { "split": [
-            { "label": "UAE"     },
-            { "label": "Qatar"   },
-            { "label": "Bahrain" },
-            { "label": "Kuwait"  }
-          ], "span": 1
-        },
+        { "label": "Sultanate of Oman",   "span": 1 },
+        { "label": "UAE",                 "span": 1 },
+        { "label": "Qatar",               "span": 1 },
+        { "label": "Bahrain",             "span": 1 },
+        { "label": "Kuwait",              "span": 1 },
         { "regime": "saudi_arabia", "label": "Saudi Arabia", "span": 2 }
       ]
     }
   ],
   "footnotes": [
-    "Gulf column covers the eastern Arabian littoral: Bahrain, Qatar, UAE (Trucial Coast), and Kuwait",
+    "Gulf column (slots:4) covers the eastern Arabian littoral; in earlier periods they share the same political history, splitting into UAE, Qatar, Bahrain, and Kuwait only at independence (1961–1971)",
     "Nejd (central plateau) was rarely under direct external control; the Wahhabi-Saudi alliance originating here unified most of the peninsula by 1932",
     "Hejaz (Red Sea coast) contains Mecca and Medina; it was the religious heartland of Islam and the prize sought by every Islamic polity",
     "The Zaydi Imamate in Yemen persisted through the Ottoman period as a recurring revolt state; it became the Mutawakkilite Kingdom after WWI",
-    "Balhae (698–926): Oman's Ibadi Imamate tradition is one of the oldest continuous political-religious institutions in the Islamic world",
-    "In the Contemporary row, Nejd and Hejaz are unified under Saudi Arabia (colspan spanning both columns)"
+    "Oman's Ibadi Imamate tradition is one of the oldest continuous political-religious institutions in the Islamic world",
+    "In the Contemporary row, Nejd and Hejaz are unified under Saudi Arabia (spanning both columns)"
   ]
 }
