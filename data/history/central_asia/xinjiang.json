@@ -1,0 +1,279 @@
+{
+  "id": "xinjiang",
+  "title": "History of Xinjiang / East Turkestan (Kashgaria · Tarim · Turfan–Hami · Dzungaria)",
+  "columns": [
+    { "id": "era",       "name": "Era",                               "slots": 1, "type": "era" },
+    { "id": "kashgaria", "name": "Kashgaria (Kashgar · Khotan · Yarkand)", "slots": 1 },
+    { "id": "tarim",     "name": "Tarim Basin (Kucha · Loulan)",       "slots": 1 },
+    { "id": "turfan",    "name": "Turfan–Hami (Gaochang · Kumul)",     "slots": 1 },
+    { "id": "dzungaria", "name": "Dzungaria (Ili · North Steppe)",     "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 4 },
+      "cells": [
+        { "stack": [
+            { "label": "Tocharians (Indo-European western settlers)",    "note": "c.2000–200 BCE" },
+            { "label": "Saka / Indo-Iranian influx",                    "note": "c.700–300 BCE" },
+            { "label": "Lesser Yuezhi (settled here after 165 BCE)",    "note": "c.165 BCE–" },
+            { "label": "Shule (Kashgar) · Suoche (Yarkand) forming",    "note": "c.300 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Tocharians (Kucha · Karasahr · Loulan · Khotan)", "note": "c.2000–400 CE" },
+            { "label": "Saka city-states forming",                      "note": "c.700–300 BCE" },
+            { "label": "Loulan (Kroraina) · Khotan (Yutian) · Kucha (Qiuci)", "note": "c.300 BCE–" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Cheshi / Jushi people (proto-Turfan)",          "note": "c.1000–200 BCE" },
+            { "label": "Yanqi (Karasahr) city-state forming",           "note": "c.300 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Yuezhi (before westward migration 176 BCE)",    "note": "c.300–176 BCE" },
+            { "label": "Xiongnu (supreme after 176 BCE)",               "note": "c.200 BCE–" },
+            { "label": "Wusun (Ili Valley)",                            "note": "c.160 BCE–" },
+            { "label": "Kangju (far northwest)",                        "note": "c.200 BCE–" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Western Han Protectorate of Western Regions (都護府)", "note": "60 BCE–23 CE" },
+            { "label": "Xiongnu dominance (interlude)",                  "note": "23–73 CE" },
+            { "label": "Eastern Han Protectorate of Western Regions",    "note": "73–107, 123–168 CE" },
+            { "label": "Semi-independent city-states · Kushan influence", "note": "2nd–3rd c." },
+            { "label": "Han · Wei · Jin — Western Regions (長史府)",      "note": "c.220–420" }
+          ], "span": 3
+        },
+        { "stack": [
+            { "label": "Xiongnu (dominant in north)",                    "note": "2nd c. BCE–2nd c. CE" },
+            { "label": "Wusun (Ili Valley, semi-autonomous)",            "note": "160 BCE–5th c." },
+            { "label": "Xianbei",                                        "note": "2nd–4th c." }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Former Liang · Former Qin",                      "note": "320–385" },
+            { "label": "Later Liang · Northern Liang",                   "note": "386–439" },
+            { "label": "Rouran (Avars) suzerainty",                      "note": "402–552" },
+            { "label": "Kidarites · Alchon Huns",                        "note": "c.350–500" },
+            { "label": "Hephthalites",                                   "note": "c.450–560" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Former Liang · Northern Liang",                  "note": "320–439" },
+            { "label": "Rouran suzerainty",                              "note": "402–552" },
+            { "label": "Kidarites · Alchon Huns",                        "note": "c.350–500" },
+            { "label": "Hephthalites",                                   "note": "c.450–560" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Northern Liang (capital briefly at Gaochang)",   "note": "421–439" },
+            { "label": "Gaochang Kingdom (高昌 — local dynasties)",       "note": "499–640" },
+            { "label": "Northern Wei tributary",                         "note": "439–534" },
+            { "label": "Western Wei / Northern Zhou tributary",          "note": "534–581" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Rouran Khaganate",                               "note": "330–555" },
+            { "label": "Tiele confederation",                            "note": "5th–6th c." },
+            { "label": "Nushibi (Western Göktürk tribe — Ili Valley)",   "note": "552–657" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Göktürk Empire → Western Turks (Ön Oq)",         "note": "552–657" },
+            { "label": "Sui Dynasty (tributary)",                        "note": "581–618" }
+          ], "span": 3
+        },
+        { "stack": [
+            { "label": "Göktürk Empire (Altai heartland) → Eastern Turks", "note": "552–630" },
+            { "label": "Xueyantuo",                                      "note": "628–646" },
+            { "label": "Tang tributary (Duolu/Nushibi Turks)",           "note": "630–682" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "label": "Tang Dynasty — Anxi Protectorate (安西都護府, garrison: Kashgar)", "note": "640–790" }
+          ], "span": 3
+        },
+        { "stack": [
+            { "label": "Tang Dynasty — Anxi Protectorate",               "note": "640–657" },
+            { "label": "Turgesh Khaganate (Ili Valley)",                 "note": "699–766" },
+            { "label": "Shatuo Turks (eastern Dzungaria)",               "note": "8th–9th c." }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Tibetan Empire (吐蕃) occupation",               "note": "763–866" },
+            { "label": "Samanid influence (far west Kashgaria)",         "note": "9th–10th c." }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Tibetan Empire",                                 "note": "763–866" },
+            { "label": "Uyghur Khaganate (suzerainty)",                  "note": "744–840" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Second Türkic Khaganate",                        "note": "682–744" },
+            { "label": "Uyghur Khaganate",                               "note": "744–840" },
+            { "label": "Turfan Uyghurs (高昌回鶻 Gaochang Huihu)",        "note": "866–1209" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Second Türkic Khaganate (heartland)",            "note": "682–744" },
+            { "label": "Uyghur Khaganate (Orkhon heartland / reach here)", "note": "744–840" },
+            { "label": "Kyrgyz Empire (brief dominance after 840)",      "note": "840–920" },
+            { "label": "Karluk Yabgu state (Ili/Chuy valleys)",         "note": "766–940" },
+            { "label": "Kangar / Kimek-Kipchak",                        "note": "9th–10th c." }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Kara-Khanid Khanate (first Islamic Turkic state — Kashgar capital)", "note": "c.940–1212" },
+            { "label": "Ghaznavid influence (far west)",                 "note": "999–1040" },
+            { "label": "Seljuk suzerainty (western Kashgaria)",         "note": "1040s–1130s" },
+            { "label": "Qara Khitai / Western Liao",                    "note": "1131–1218" },
+            { "label": "Khwarazmian Empire (brief)",                    "note": "1210–1218" },
+            { "label": "Mongol Empire — Chagatai Khanate",               "note": "1218–1347" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kara-Khanid Khanate (eastern wing)",            "note": "c.940–1212" },
+            { "label": "Khotan Kingdom (last Buddhist oasis — conquered by Karakhanids)", "note": "to 1006" },
+            { "label": "Qara Khitai / Western Liao",                    "note": "1131–1218" },
+            { "label": "Mongol Empire — Chagatai Khanate",               "note": "1218–1347" },
+            { "label": "Timurid influence (western Tarim)",              "note": "1370–1450s" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Turfan Uyghurs (高昌回鶻) — Buddhist center",    "note": "866–1209" },
+            { "label": "Submitted voluntarily to Mongols",              "note": "1209" },
+            { "label": "Ogedei Khanate / Yuan Dynasty (Turfan)",        "note": "1225–1368" },
+            { "label": "Chagatai Khanate (eastern — Moghulistan)",       "note": "14th c." }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kara-Khanid (northern fringe)",                 "note": "c.940–1130" },
+            { "label": "Qara Khitai / Western Liao",                    "note": "1131–1218" },
+            { "label": "Mongol Empire — Ogedei Khanate",                 "note": "1218–1301" },
+            { "label": "Chagatai Khanate (eastern part)",                "note": "1301–1347" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Middle Early Modern", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Moghulistan Khanate (capital: Almaliq → Kashgar)", "note": "1347–1570" },
+            { "label": "Yarkand Khanate / Said Khanate",                  "note": "1514–1705" },
+            { "label": "Kokand Khanate (western influence)",              "note": "18th c." }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Moghulistan Khanate (eastern)",                  "note": "1347–1570" },
+            { "label": "Yarkand Khanate (Tarim Basin control)",          "note": "1514–1705" },
+            { "label": "Khoja rule (Aq-taghliq / Qara-taghliq factions)", "note": "17th c." }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Eastern Chagatai / Uyghurstan Khanate",          "note": "1347–1472" },
+            { "label": "Turfan Khanate (Chagatayid)",                    "note": "1472–1705" },
+            { "label": "Kumul (Hami) Khanate",                           "note": "1696–1930" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kazakh Khanate (northwestern range)",            "note": "1456–18th c." },
+            { "label": "Khoshut Khanate (southern Dzungaria)",           "note": "1642–1717" },
+            { "label": "Oirat → Dzungar Khanate forming",                "note": "early 17th c." }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Modern", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Dzungar conquest of Kashgaria (Yarkand Khanate ended)", "note": "1680s–1705" },
+            { "label": "Khoja Uprisings (Revolt of the Khojas)",         "note": "1755–1759" },
+            { "label": "Qing Dynasty — Uyghur/Muslim Tarim Basin",       "note": "1759" }
+          ], "span": 3
+        },
+        { "label": "Dzungar Khanate (peak power — capital: Ghulja/Yining)", "note": "1634–1758", "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Yettishar — Ya'qub Beg's Emirate (Kashgar base)", "note": "1865–1877" },
+            { "label": "Dungan Revolt (Muslim Hui rebellion)",            "note": "1862–1877" },
+            { "label": "Qing reconquest → Xinjiang Province (新疆省)",   "note": "1877 · 1884" },
+            { "label": "Republic of China — Xinjiang Province",          "note": "1912–1944" }
+          ], "span": 4
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "First East Turkestan Republic (Kashgar — Islamic Republic)", "note": "1933–1934" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "ROC Xinjiang — Warlord governors (Jin Shuren · Sheng Shicai)", "note": "1928–1944" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Second East Turkestan Republic (ETR2 — Ili / Dzungaria, Soviet-backed)", "note": "1944–1949" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "PRC — Xinjiang Uyghur Autonomous Region (新疆维吾尔自治区)", "note": "1955–" },
+            { "label": "East Turkestan Government in Exile",             "note": "2004–" }
+          ], "span": 4
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Tocharians: a mysterious ancient Indo-European people who inhabited the Tarim Basin for millennia; their language (Tocharian A / B) was discovered in manuscripts from Dunhuang and Turfan in the early 20th century; genetically linked to the Yamnaya steppe peoples, they were already settled in the Tarim Basin by c.2000 BCE, making them among the earliest Indo-European migrants into East Asia",
+    "Kara-Khanid Khanate (c.940–1212): the first Turkic Islamic state, founded when the ruler Satuq Bughra Khan converted to Islam c.934; Kashgar was one of their capitals; their conversion spread Islam eastward into the Tarim and ended Buddhism in western Xinjiang; the Kara-Khanids conquered Buddhist Khotan in 1006",
+    "Gaochang Uyghurs / Turfan Uyghurs (高昌回鶻, 866–1209): after the Uyghur Khaganate collapsed under a Kyrgyz invasion in 840, a branch of Uyghurs fled to the Turfan oasis and founded a Buddhist kingdom that became a major center of Silk Road culture; they preserved Manichaean, Buddhist, and Nestorian texts; they voluntarily submitted to Genghis Khan in 1209",
+    "Ya'qub Beg / Yettishar (1865–1877): a military commander from Kokand who exploited the Dungan Rebellion to carve out a short-lived state (Yettishar means 'Seven Cities'); recognized by the Ottoman Empire and the United Kingdom; destroyed by a Qing reconquest under General Zuo Zongtang",
+    "First East Turkestan Republic (1933–1934): a short-lived Islamic republic in Kashgar, founded during a Uyghur and Kirghiz uprising; quickly suppressed by Sheng Shicai with Soviet assistance; represents the first use of the name 'East Turkestan' as a political entity",
+    "Second East Turkestan Republic (ETR2, 1944–1949): a Soviet-backed leftist republic in the Ili/Kuldzha region; controlled roughly three prefectures; its military was incorporated into the People's Liberation Army after the PRC's founding; key ETR2 leaders died in a suspicious plane crash en route to Beijing in 1949"
+  ]
+}
