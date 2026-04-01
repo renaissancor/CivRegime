@@ -52,6 +52,7 @@
         },
         { "stack": [
             { "label": "Xiongnu (dominant in north)",                    "note": "2nd c. BCE–2nd c. CE" },
+            { "label": "Yueban (悅般 — Northern Xiongnu remnant)",       "note": "c.180–480 CE" },
             { "label": "Wusun (Ili Valley, semi-autonomous)",            "note": "160 BCE–5th c." },
             { "label": "Xianbei",                                        "note": "2nd–4th c." }
           ], "span": 1
@@ -86,6 +87,7 @@
         { "stack": [
             { "label": "Rouran Khaganate",                               "note": "330–555" },
             { "label": "Tiele confederation",                            "note": "5th–6th c." },
+            { "label": "Lushui Hu (盧水胡 — Xiongnu-related)",           "note": "4th–5th c." },
             { "label": "Nushibi (Western Göktürk tribe — Ili Valley)",   "note": "552–657" }
           ], "span": 1
         }
