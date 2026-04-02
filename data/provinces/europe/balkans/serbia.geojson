@@ -5,7 +5,7 @@
     "name": "Serbia (Moesia Superior)",
     "territory": "balkans",
     "periods": [
-      { "start": -15, "end": 395, "regime": "roman_empire" },
+      { "start": -15, "end": 395, "regime": "roman_empire_pagan" },
       { "start": 395, "end": 1459, "regime": "byzantine_empire" },
       { "start": 1459, "end": null, "regime": "ottoman_empire" }
     ]

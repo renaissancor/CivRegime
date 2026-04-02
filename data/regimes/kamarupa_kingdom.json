@@ -1,0 +1,16 @@
+{
+  "id": "kamarupa_kingdom",
+  "name": "Kamarupa Kingdom",
+  "ruling_ethnicity": "indo_aryan_cluster",
+  "cultural_language": "classical_sanskrit",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "ganges_plain"
+  ],
+  "start": 350,
+  "end": 1140,
+  "note": "Ancient kingdom in Assam and northeastern India. Bhaskaravarman was an ally of Harsha. Xuanzang visited and described it as a prosperous Buddhist centre. The kingdom's Pragjyotishpura (Guwahati) was a renowned centre of Tantric learning."
+}

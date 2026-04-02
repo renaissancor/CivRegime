@@ -5,7 +5,7 @@
     "name": "Wallachia (Dacia)",
     "territory": "balkans",
     "periods": [
-      { "start": -106, "end": 271, "regime": "roman_empire" },
+      { "start": -106, "end": 271, "regime": "roman_empire_pagan" },
       { "start": 271, "end": 395, "regime": null },
       { "start": 395, "end": 1417, "regime": "byzantine_empire" },
       { "start": 1417, "end": null, "regime": "ottoman_empire" }

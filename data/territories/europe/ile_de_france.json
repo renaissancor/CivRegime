@@ -10,7 +10,7 @@
   },
   "periods": [
     {
-      "regime": "roman_empire",
+      "regime": "roman_empire_pagan",
       "start": -51,
       "end": 486,
       "dominant_ethnicity": "latin",

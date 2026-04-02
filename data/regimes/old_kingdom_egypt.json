@@ -1,7 +1,7 @@
 {
   "id": "old_kingdom_egypt",
   "name": "Old Kingdom Egypt",
-  "ruling_ethnicity": "egyptian_native",
+  "ruling_ethnicity": "egyptian",
   "cultural_language": "ancient_egyptian",
   "ideology": {
     "religion": "egyptian_religion",

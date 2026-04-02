@@ -1,7 +1,7 @@
 {
   "id": "roman_empire_christian",
   "name": "Roman Empire (Christian)",
-  "ruling_ethnicity": "latin",
+  "ruling_ethnicity": "roman",
   "cultural_language": "latin",
   "ideology": {
     "religion": "catholic",

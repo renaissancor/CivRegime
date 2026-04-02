@@ -1,7 +1,7 @@
 {
   "id": "meroitic_kingdom",
   "name": "Kingdom of Meroe (Meroitic Kingdom)",
-  "ruling_ethnicity": "cushitic",
+  "ruling_ethnicity": "cushitic_cluster",
   "cultural_language": "ancient_egyptian",
   "ideology": {
     "religion": "egyptian_religion",

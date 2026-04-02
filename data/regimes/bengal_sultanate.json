@@ -1,0 +1,16 @@
+{
+  "id": "bengal_sultanate",
+  "name": "Bengal Sultanate",
+  "ruling_ethnicity": "turkic_cluster",
+  "cultural_language": "bengali",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "sultanate"
+  },
+  "territories": [
+    "ganges_plain"
+  ],
+  "start": 1352,
+  "end": 1576,
+  "note": "Independent Muslim state in Bengal. Initially Ilyas Shahi dynasty, later the Hussain Shahi dynasty patronised Bengali literature and architecture. Sonargaon and Gaur were successive capitals. Conquered by the Mughals under Akbar."
+}

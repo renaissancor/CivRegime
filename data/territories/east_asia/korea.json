@@ -9,7 +9,7 @@
   },
   "periods": [
     {
-      "regime": "three_kingdoms_korea",
+      "regime": "silla",
       "start": -57,
       "end": 668,
       "dominant_ethnicity": "korean",
@@ -44,11 +44,18 @@
       "note": "Colonial rule; ethnic Korean majority under Japanese imperial administration."
     },
     {
-      "regime": "modern_korea",
-      "start": 1945,
+      "regime": "south_korea",
+      "start": 1948,
       "end": null,
       "dominant_ethnicity": "korean",
-      "note": "Division into North (DPRK) and South (ROK)."
+      "note": "Republic of Korea (ROK); democratic government in the southern half of the peninsula."
+    },
+    {
+      "regime": "north_korea",
+      "start": 1948,
+      "end": null,
+      "dominant_ethnicity": "korean",
+      "note": "Democratic People's Republic of Korea (DPRK); Juche ideology, Kim dynasty."
     }
   ]
 }

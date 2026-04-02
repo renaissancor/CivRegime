@@ -1,7 +1,7 @@
 {
   "id": "roman_republic",
   "name": "Roman Republic",
-  "ruling_ethnicity": "latin",
+  "ruling_ethnicity": "roman",
   "cultural_language": "latin",
   "ideology": {
     "religion": "roman_paganism",

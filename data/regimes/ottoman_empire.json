@@ -1,7 +1,7 @@
 {
   "id": "ottoman_empire",
   "name": "Ottoman Empire",
-  "ruling_ethnicity": "turkic",
+  "ruling_ethnicity": "turkic_cluster",
   "cultural_language": "ottoman_turkish",
   "ideology": {
     "religion": "sunni_hanafi",

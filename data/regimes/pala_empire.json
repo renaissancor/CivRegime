@@ -1,7 +1,7 @@
 {
   "id": "pala_empire",
   "name": "Pala Empire",
-  "ruling_ethnicity": "indo_aryan",
+  "ruling_ethnicity": "indo_aryan_cluster",
   "cultural_language": "pali",
   "ideology": {
     "religion": "buddhism",

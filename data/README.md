@@ -6,7 +6,7 @@ This directory contains all structured data for the CivRegime Inheritance Framew
 
 ```
 data/
-  ├── regimes/              ← Historical regimes (hand-curated, one file per cluster)
+  ├── regimes/              ← Historical regimes (auto-generated from CSV, one file per regime)
   ├── successions/          ← Succession edges between regimes (one file per region)
   ├── provinces/            ← GeoJSON province subunits (one file per province)
   ├── territories/          ← Macro geographic zones (one file per territory)
@@ -36,42 +36,53 @@ data/
   │   ├── sub_saharan_african_bloc/
   │   └── ... (11+ blocs, 203+ groups)
   │
+  ├── history/              ← Regional history panels (hand-curated, one file per region)
+  │   ├── central_asia/     (afghanistan, turkmenistan, uzbekistan, xinjiang)
+  │   ├── east_africa/      (ethiopia, somalia)
+  │   ├── east_asia/        (japan, korea, manchuria, tibet)
+  │   ├── europe/           (albania, belarus, bosnia, bulgaria, croatia, greece, ...)
+  │   ├── middle_east/      (anatolia, arabia, egypt, iraq, levant, morocco)
+  │   ├── north_africa/     (algeria, libya, sudan, tunisia)
+  │   ├── persia_central_asia/ (iran)
+  │   └── south_asia/       (india, pakistan)
+  │
   ├── index.js              ← Data loader (loads all JSON files)
   └── ideologies.json       ← Static lookup table (government forms)
 ```
 
 ## Data File Formats
 
-### Regimes (Hand-Curated)
-**Location:** `regimes/*.json`  
-**Structure:** One or more regime objects per file, or array of objects.
+### Regimes (Auto-Generated from CSV)
+**Source:** `csvs/regimes.csv`  
+**Output:** `regimes/*.json` (one file per regime)  
+**Generator:** `npm run make:regimes` or `node code/makejson/regimes.js`
 
 ```json
 {
-  "id": "roman_republic",
-  "name": "Roman Republic",
-  "start": 509,
-  "end": 27,
-  "territory": "italy_mediterranean",
-  "ruling_ethnicity": "latin",
-  "cultural_language": "latin",
-  "religions": ["roman_paganism"],
-  "capitals": ["rome"],
-  "government": "oligarchy",
-  "figures": [
-    { "name": "Romulus", "role": "founder", "period": "753-715 BCE" }
-  ]
+  "id": "kushan_empire",
+  "name": "Kushan Empire",
+  "ruling_ethnicity": "central_asian_steppe_bloc",
+  "cultural_language": "bactrian",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "imperial_monarchy"
+  },
+  "territories": ["transoxiana", "khorasan", "punjab", "indus_valley", "ganges_plain"],
+  "start": 30,
+  "end": 375,
+  "note": "Founded by Kujula Kadphises from the Yuezhi confederation..."
 }
 ```
 
-### Successions (Hand-Curated)
-**Location:** `successions/*.json`  
-**Structure:** Edges describing transitions between regimes.
+### Successions (Auto-Generated from CSV)
+**Source:** `csvs/successions.csv`  
+**Output:** `successions/all.json`  
+**Generator:** `npm run make:successions` or `node code/makejson/successions.js`
 
 ```json
 {
   "from": "roman_republic",
-  "to": "roman_empire",
+  "to": "roman_empire_pagan",
   "type": "A",
   "year": 27,
   "notes": "Augustus restores order and consolidates power"
@@ -145,6 +156,39 @@ data/
 }
 ```
 
+### History Panels (Hand-Curated)
+**Location:** `history/{region}/{country}.json`  
+**Structure:** Regional history tables with era columns and regime references.
+
+```json
+{
+  "id": "pakistan",
+  "title": "History of Pakistan (Sindh / Punjab / Gandhara-Kashmir)",
+  "columns": [
+    { "id": "era",    "name": "Era",    "slots": 1, "type": "era" },
+    { "id": "south",  "name": "South",  "slots": 1 },
+    { "id": "center", "name": "Central","slots": 1 },
+    { "id": "north",  "name": "North",  "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 3 },
+      "cells": [
+        { "regime": "achaemenid_empire", "label": "Achaemenid Empire", "span": 3 }
+      ]
+    }
+  ],
+  "footnotes": ["Explanatory notes..."]
+}
+```
+
+Cells can contain:
+- `label` — display text
+- `regime` — FK to regime ID (enables linking and colour-coding)
+- `span` — how many columns the cell spans
+- `stack` — array of `{label, note, regime?}` for stacked entries in a single cell
+- `split` — array of `{label}` for civil war / parallel entities
+
 ### Static Lookup Tables
 **Location:** `ideologies.json`
 
@@ -204,11 +248,12 @@ function loadDir(dir) {
 }
 ```
 
-**Example:** `regimes/` contains:
+**Example:** `regimes/` contains one file per regime:
 ```
 regimes/
-  ancient_near_east.json      → Array of regimes
-  east_asia.json              → Array of regimes
+  kushan_empire.json
+  roman_republic.json
+  tang_dynasty.json
 ```
 
 Result: Single flat array of all regimes.
@@ -280,7 +325,7 @@ Regime succession is a DAG (directed acyclic graph):
 ```json
 {
   "from": "roman_republic",    // FK to regimes
-  "to": "roman_empire",        // FK to regimes
+  "to": "roman_empire_pagan",   // FK to regimes
   "type": "A"
 }
 ```
@@ -361,16 +406,19 @@ Checks:
 ## Performance Notes
 
 ### File Count
+- 268 regime files (auto-generated from CSV)
 - 552 language files
 - 193 religion files
 - 203 ethnicity files
-- ~50+ regime files
 - ~70 succession files
+- 35 history panel files (hand-curated)
+- 40+ territory files
+- 100+ province GeoJSON files
 
 **Load time:** ~50-100ms on typical hardware
 
 ### Memory Usage
-- Flattened DB: ~2-3 MB (all data)
+- Flattened DB: ~3-5 MB (all data)
 - In-memory tree queries: instant
 - Web visualizer: ~10MB in browser
 
@@ -391,10 +439,11 @@ db.tree.languages('indo_european')  // all descendants
 ## Contributing Data
 
 ### Adding Regimes
-1. Create new file in `data/regimes/` (or existing regional file)
-2. Add regime object with required fields
-3. Create corresponding succession edges in `data/successions/`
-4. Run validator: `npm run validate`
+1. Add a row to `csvs/regimes.csv` with all required fields
+2. Run: `npm run make:regimes` to generate the JSON file
+3. Create corresponding succession edges in `csvs/successions.csv`
+4. Run: `npm run make:successions` to regenerate
+5. Optionally add regime links in `data/history/*/*.json` panels
 
 ### Adding Taxonomy Nodes
 1. Edit the markdown source: `docs/tree/language.md` (etc.)
@@ -412,8 +461,9 @@ db.tree.languages('indo_european')  // all descendants
 
 | Entity | Location | Loading | Count |
 |---|---|---|---|
-| Regimes | `regimes/*.json` | `loadDir` (flat) | ~50 |
+| Regimes | `regimes/*.json` | `loadDir` (flat) | 268 |
 | Successions | `successions/*.json` | `loadDir` (flat) | ~70 |
+| History | `history/*/*.json` | served statically | 35 |
 | Languages | `languages/*/` | `loadTree` (hierarchical) | 552 |
 | Religions | `religions/*/` | `loadTree` (hierarchical) | 193 |
 | Ethnicities | `ethnicities/*/` | `loadTree` (hierarchical) | 203 |

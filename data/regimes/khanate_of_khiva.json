@@ -1,0 +1,16 @@
+{
+  "id": "khanate_of_khiva",
+  "name": "Khanate of Khiva",
+  "ruling_ethnicity": "turkic_cluster",
+  "cultural_language": "chagatai_turkic",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "khanate"
+  },
+  "territories": [
+    "transoxiana"
+  ],
+  "start": 1511,
+  "end": 1920,
+  "note": "Uzbek khanate in Khwarezm (modern western Uzbekistan/Turkmenistan). Controlled the lower Amu Darya. The slave trade was a major economic activity. Russia's General Kaufman conquered Khiva in 1873, making it a protectorate. Abolished by the Red Army (1920)."
+}

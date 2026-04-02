@@ -1,0 +1,16 @@
+{
+  "id": "solomonic_dynasty",
+  "name": "Ethiopian Empire (Solomonic)",
+  "ruling_ethnicity": "amhara",
+  "cultural_language": "geez",
+  "ideology": {
+    "religion": "ethiopian_tewahido_church",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "nubia"
+  ],
+  "start": 1270,
+  "end": 1974,
+  "note": "Claimed descent from King Solomon and the Queen of Sheba. The longest-ruling dynasty in world history. Emperor Menelik II defeated Italy at Adwa (1896) — the most decisive African victory over a European power. Haile Selassie modernised Ethiopia and inspired the Rastafari movement. Ended by the Derg communist revolution."
+}

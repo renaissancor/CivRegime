@@ -1,0 +1,17 @@
+{
+  "id": "indo_parthian_kingdom",
+  "name": "Indo-Parthian Kingdom",
+  "ruling_ethnicity": "parthian",
+  "cultural_language": "prakrit_dialects",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "indus_valley",
+    "punjab"
+  ],
+  "start": -19,
+  "end": 226,
+  "note": "Founded by Gondophares I in the Indus region. The Apostle Thomas reportedly visited Gondophares' court. Displaced the Indo-Scythians in parts of the northwest. Absorbed by the Kushan Empire."
+}

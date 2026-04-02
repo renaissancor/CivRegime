@@ -1,7 +1,7 @@
 {
   "id": "northern_dynasties",
   "name": "Northern Dynasties",
-  "ruling_ethnicity": "han",
+  "ruling_ethnicity": "han_chinese",
   "cultural_language": "old_chinese",
   "ideology": {
     "religion": "buddhism"

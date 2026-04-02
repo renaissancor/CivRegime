@@ -5,7 +5,7 @@
     "name": "Tuscany",
     "territory": "italy",
     "periods": [
-      { "start": -89, "end": 476, "regime": "roman_empire" }
+      { "start": -89, "end": 476, "regime": "roman_empire_pagan" }
     ]
   },
   "geometry": null

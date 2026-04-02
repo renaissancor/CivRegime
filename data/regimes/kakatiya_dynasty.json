@@ -1,0 +1,16 @@
+{
+  "id": "kakatiya_dynasty",
+  "name": "Kakatiya Dynasty",
+  "ruling_ethnicity": "dravidian_cluster",
+  "cultural_language": "telugu",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "deccan"
+  ],
+  "start": 1083,
+  "end": 1323,
+  "note": "Telugu dynasty ruling from Warangal (Orugallu). Built the Warangal Fort and the Thousand Pillar Temple. Rudrama Devi was one of the few female rulers in Indian history. Conquered by the Delhi Sultanate under Ulugh Khan (1323)."
+}

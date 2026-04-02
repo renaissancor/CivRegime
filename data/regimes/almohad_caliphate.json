@@ -1,0 +1,17 @@
+{
+  "id": "almohad_caliphate",
+  "name": "Almohad Caliphate",
+  "ruling_ethnicity": "berber",
+  "cultural_language": "classical_arabic",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "theocratic_caliphate"
+  },
+  "territories": [
+    "north_africa",
+    "iberia"
+  ],
+  "start": 1121,
+  "end": 1269,
+  "note": "Founded by Ibn Tumart's Masmuda Berber religious movement proclaiming Almohad (monotheist) theology. Defeated the Almoravids. At its peak ruled from Iberia to Libya — the largest Berber empire in history. Defeated at Las Navas de Tolosa (1212) which broke Almohad power in Iberia."
+}

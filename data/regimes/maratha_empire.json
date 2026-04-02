@@ -1,7 +1,7 @@
 {
   "id": "maratha_empire",
   "name": "Maratha Empire",
-  "ruling_ethnicity": "indo_aryan",
+  "ruling_ethnicity": "indo_aryan_cluster",
   "cultural_language": "marathi",
   "ideology": {
     "religion": "hinduism",

@@ -1,7 +1,7 @@
 {
   "id": "crimean_khanate",
   "name": "Crimean Khanate",
-  "ruling_ethnicity": "turkic",
+  "ruling_ethnicity": "turkic_cluster",
   "cultural_language": "old_turkic",
   "ideology": {
     "religion": "sunni",

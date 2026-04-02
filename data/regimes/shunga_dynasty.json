@@ -1,0 +1,16 @@
+{
+  "id": "shunga_dynasty",
+  "name": "Shunga Dynasty",
+  "ruling_ethnicity": "indo_aryan_cluster",
+  "cultural_language": "classical_sanskrit",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "ganges_plain"
+  ],
+  "start": -185,
+  "end": -73,
+  "note": "Founded by Pushyamitra Shunga after assassinating the last Maurya emperor. Patronised Brahmanical Hinduism and Sanskrit literature. Built the great stupa at Bharhut. Defended against Indo-Greek incursions from the northwest."
+}

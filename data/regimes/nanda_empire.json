@@ -1,0 +1,16 @@
+{
+  "id": "nanda_empire",
+  "name": "Nanda Empire",
+  "ruling_ethnicity": "indo_aryan_cluster",
+  "cultural_language": "prakrit_dialects",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "ganges_plain"
+  ],
+  "start": -345,
+  "end": -322,
+  "note": "The Nanda dynasty united most of northern India under Mahapadma Nanda. Enormous army reportedly of 200,000 infantry. Overthrown by Chandragupta Maurya with the guidance of Chanakya (Kautilya)."
+}

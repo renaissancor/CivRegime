@@ -273,12 +273,13 @@
                 </div>
 
                 <div class="control-group">
-                    <label>Succession Type</label>
+                    <label>Territorial Direction</label>
                     <div class="filter-buttons">
-                        <button class="filter-btn active" data-type="direct">Direct</button>
-                        <button class="filter-btn active" data-type="direct_gap">Gap</button>
-                        <button class="filter-btn active" data-type="weak">Weak</button>
-                        <button class="filter-btn active" data-type="ethnic">Ethnic</button>
+                        <button class="filter-btn active" data-type="same">Same</button>
+                        <button class="filter-btn active" data-type="expansion">Expansion</button>
+                        <button class="filter-btn active" data-type="contraction">Contraction</button>
+                        <button class="filter-btn active" data-type="displacement">Displacement</button>
+                        <button class="filter-btn active" data-type="unknown">Unknown</button>
                     </div>
                 </div>
 
@@ -299,19 +300,23 @@
                 <div class="legend">
                     <div class="legend-item">
                         <div class="legend-color" style="background: #4ade80;"></div>
-                        <span>Direct Succession</span>
+                        <span>Same Territory</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #60a5fa;"></div>
+                        <span>Expansion</span>
                     </div>
                     <div class="legend-item">
                         <div class="legend-color" style="background: #facc15;"></div>
-                        <span>Direct (with gap)</span>
+                        <span>Contraction</span>
                     </div>
                     <div class="legend-item">
                         <div class="legend-color" style="background: #fb923c;"></div>
-                        <span>Weak Succession</span>
+                        <span>Displacement</span>
                     </div>
                     <div class="legend-item">
-                        <div class="legend-color" style="background: #06b6d4;"></div>
-                        <span>Ethnic Migration</span>
+                        <div class="legend-color" style="background: #718096;"></div>
+                        <span>Unknown</span>
                     </div>
                 </div>
 
@@ -329,25 +334,47 @@
     <script>
         // Color scheme
         const typeColors = {
-            direct: '#4ade80',      // Green
-            direct_gap: '#facc15',  // Yellow
-            weak: '#fb923c',        // Orange
-            ethnic: '#06b6d4'       // Cyan
+            same:         '#4ade80',
+            expansion:    '#60a5fa',
+            contraction:  '#facc15',
+            displacement: '#fb923c',
+            unknown:      '#718096',
         };
 
         const ethnicityColors = {};
         let successionsData = null;
         let regimesData = null;
-        let filteredTypes = new Set(['direct', 'direct_gap', 'weak', 'ethnic']);
+        let filteredTypes = new Set(['same', 'expansion', 'contraction', 'displacement', 'unknown']);
         let selectedRegime = null;
 
-        // Load data
-        Promise.all([
-            fetch('../data/successions.json').then(r => r.json()),
-            fetch('../data/regimes/').then(() => fetch('../data/regimes.json').catch(() => ({ regimes: [] }))).then(r => r.json ? r.json() : { regimes: [] })
-        ]).then(([successions, regimes]) => {
-            successionsData = successions;
-            regimesData = regimes;
+        // Load data from /api/db
+        fetch('/api/db').then(r => r.json()).then(db => {
+            // Build edges format from db.successions
+            const regimeMap = new Map(db.regimes.map(r => [r.id, r]));
+            successionsData = {
+                edges: db.successions.map(s => ({
+                    from: s.from,
+                    from_name: regimeMap.get(s.from)?.name || s.from,
+                    to: s.to,
+                    to_name: regimeMap.get(s.to)?.name || s.to,
+                    type: s.territorial_direction || 'unknown',
+                    territorial_direction: s.territorial_direction || 'unknown',
+                    shared_territories: s.shared_territories || [],
+                    temporal_gap_years: s.temporal_gap_years,
+                    same_ethnicity: s.same_ethnicity,
+                    same_language: s.same_language,
+                    same_religion: s.same_religion,
+                })),
+                stats: {
+                    total_edges: db.successions.length,
+                    by_type: db.successions.reduce((acc, s) => {
+                        const dir = s.territorial_direction || 'unknown';
+                        acc[dir] = (acc[dir] || 0) + 1;
+                        return acc;
+                    }, {}),
+                },
+            };
+            regimesData = db.regimes;
             initVisualization();
         }).catch(err => console.error('Error loading data:', err));
 
@@ -513,22 +540,11 @@
                         <span class="stat-label">Total Edges</span>
                         <span class="stat-value">${stats.total_edges}</span>
                     </div>
+                    ${Object.entries(stats.by_type).map(([dir, count]) => `
                     <div class="stat-item">
-                        <span class="stat-label"><span class="stat-dot" style="background: ${typeColors.direct}"></span>Direct</span>
-                        <span class="stat-value">${stats.by_type.direct}</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label"><span class="stat-dot" style="background: ${typeColors.direct_gap}"></span>Direct (gap)</span>
-                        <span class="stat-value">${stats.by_type.direct_gap}</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label"><span class="stat-dot" style="background: ${typeColors.weak}"></span>Weak</span>
-                        <span class="stat-value">${stats.by_type.weak}</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label"><span class="stat-dot" style="background: ${typeColors.ethnic}"></span>Ethnic</span>
-                        <span class="stat-value">${stats.by_type.ethnic}</span>
-                    </div>
+                        <span class="stat-label"><span class="stat-dot" style="background: ${typeColors[dir] || '#718096'}"></span>${dir}</span>
+                        <span class="stat-value">${count}</span>
+                    </div>`).join('')}
                 `;
                 document.getElementById('statsContainer').innerHTML = html;
             }
@@ -551,7 +567,7 @@
                         ${successorEdges.map(e => `
                             <div class="detail-item">
                                 <span class="detail-label">${nodeMap.get(e.target).name}</span>
-                                <span class="detail-value" style="color: ${typeColors[e.type]}">${e.type}</span>
+                                <span class="detail-value" style="color: ${typeColors[e.type] || '#718096'}">${e.territorial_direction || e.type}</span>
                             </div>
                         `).join('')}
                     </div>
@@ -563,7 +579,7 @@
                         ${predecessorEdges.map(e => `
                             <div class="detail-item">
                                 <span class="detail-label">${nodeMap.get(e.source).name}</span>
-                                <span class="detail-value" style="color: ${typeColors[e.type]}">${e.type}</span>
+                                <span class="detail-value" style="color: ${typeColors[e.type] || '#718096'}">${e.territorial_direction || e.type}</span>
                             </div>
                         `).join('')}
                     </div>

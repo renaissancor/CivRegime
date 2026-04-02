@@ -1,7 +1,7 @@
 {
   "id": "satavahana_empire",
   "name": "Satavahana Empire",
-  "ruling_ethnicity": "dravidian",
+  "ruling_ethnicity": "dravidian_cluster",
   "cultural_language": "pali",
   "ideology": {
     "religion": "hinduism",

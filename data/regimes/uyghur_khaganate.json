@@ -1,7 +1,7 @@
 {
   "id": "uyghur_khaganate",
   "name": "Uyghur Khaganate",
-  "ruling_ethnicity": "turkic",
+  "ruling_ethnicity": "turkic_cluster",
   "cultural_language": "uyghur_lang",
   "ideology": {
     "religion": "manichaeism",

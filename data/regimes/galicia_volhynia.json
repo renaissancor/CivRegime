@@ -1,0 +1,16 @@
+{
+  "id": "galicia_volhynia",
+  "name": "Principality of Galicia-Volhynia",
+  "ruling_ethnicity": "east_slavic",
+  "cultural_language": "old_east_slavic",
+  "ideology": {
+    "religion": "eastern_orthodox",
+    "government": "principality"
+  },
+  "territories": [
+    "kievan_rus"
+  ],
+  "start": 1199,
+  "end": 1349,
+  "note": "Major western Rus' principality. Daniel of Galicia received a royal crown from the Pope (1253). A culturally sophisticated state that maintained contacts with both Latin Christendom and the Mongol Golden Horde. Partitioned between Poland and Lithuania after the last Rurikid ruler died."
+}

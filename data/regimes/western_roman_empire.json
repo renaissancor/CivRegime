@@ -1,7 +1,7 @@
 {
   "id": "western_roman_empire",
   "name": "Western Roman Empire",
-  "ruling_ethnicity": "latin",
+  "ruling_ethnicity": "roman",
   "cultural_language": "latin",
   "ideology": {
     "religion": "catholic",

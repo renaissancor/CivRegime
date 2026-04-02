@@ -51,18 +51,18 @@ function parsePipe(value) {
 
 function buildSuccession(row) {
   return {
-    from:                  row.from_regime_id,
-    to:                    row.to_regime_id,
-    type:                  row.type,
-    strength:              parseInt2(row.strength),
-    shared_territories:    parsePipe(row.shared_territories),
-    shared_territory_count: parseInt2(row.shared_territory_count),
-    same_ethnicity:        parseBool(row.same_ethnicity),
-    related_ethnicity:     parseBool(row.related_ethnicity),
-    same_language:         parseBool(row.same_language),
-    same_religion:         parseBool(row.same_religion),
-    same_state:            parseBool(row.same_state),
-    temporal_gap_years:    parseInt2(row.temporal_gap_years),
+    from:                    row.from_regime_id,
+    to:                      row.to_regime_id,
+    territorial_direction:   row.territorial_direction || 'unknown',
+    strength:                parseInt2(row.strength),
+    shared_territories:      parsePipe(row.shared_territories),
+    shared_territory_count:  parseInt2(row.shared_territory_count),
+    same_ethnicity:          parseBool(row.same_ethnicity),
+    related_ethnicity:       parseBool(row.related_ethnicity),
+    same_language:           parseBool(row.same_language),
+    same_religion:           parseBool(row.same_religion),
+    same_state:              parseBool(row.same_state),
+    temporal_gap_years:      parseInt2(row.temporal_gap_years),
   };
 }
 

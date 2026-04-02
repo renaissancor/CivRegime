@@ -1,7 +1,7 @@
 {
   "id": "khwarazmian_empire",
   "name": "Khwarazmian Empire",
-  "ruling_ethnicity": "turkic",
+  "ruling_ethnicity": "turkic_cluster",
   "cultural_language": "new_persian",
   "ideology": {
     "religion": "sunni",

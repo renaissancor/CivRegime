@@ -1,0 +1,17 @@
+{
+  "id": "tulunid_dynasty",
+  "name": "Tulunid Dynasty",
+  "ruling_ethnicity": "turkic_cluster",
+  "cultural_language": "classical_arabic",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "emirate"
+  },
+  "territories": [
+    "egypt",
+    "levant"
+  ],
+  "start": 868,
+  "end": 905,
+  "note": "First independent Muslim dynasty in Egypt. Founded by Ahmad ibn Tulun, a Turkic slave-soldier of the Abbasid caliphate. Built the Mosque of Ibn Tulun in Cairo — one of the oldest intact mosques in Egypt. Controlled Egypt and Syria."
+}

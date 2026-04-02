@@ -1,7 +1,7 @@
 {
   "id": "byzantine_empire",
   "name": "Byzantine Empire",
-  "ruling_ethnicity": "hellenic",
+  "ruling_ethnicity": "hellenic_cluster",
   "cultural_language": "medieval_greek",
   "ideology": {
     "religion": "eastern_orthodox",

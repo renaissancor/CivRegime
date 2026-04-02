@@ -1,7 +1,7 @@
 {
   "id": "pakistan",
   "name": "Pakistan",
-  "ruling_ethnicity": "indo_aryan",
+  "ruling_ethnicity": "indo_aryan_cluster",
   "cultural_language": "urdu",
   "ideology": {
     "religion": "sunni",

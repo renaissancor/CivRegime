@@ -1,0 +1,16 @@
+{
+  "id": "ajuran_sultanate",
+  "name": "Ajuran Sultanate",
+  "ruling_ethnicity": "somali",
+  "cultural_language": "somali",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "sultanate"
+  },
+  "territories": [
+    "arabia"
+  ],
+  "start": 1300,
+  "end": 1700,
+  "note": "Somali sultanate controlling the Indian Ocean coast. A hydraulic empire that built sophisticated water engineering systems. Controlled Mogadishu, then one of the wealthiest cities in Africa. Traded extensively with Ming China, Mughal India, and Mamluk Egypt."
+}

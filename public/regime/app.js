@@ -4,48 +4,23 @@
  */
 
 let regimesData = [];
-let successionData = null;
+let successionsData = [];
 let territoriesData = [];
 let selectedRegimeId = null;
 let successionsByRegime = {};
+let regimeById = {};
 
-// Load all required data
-Promise.all([
-  // Load regimes - try to get them from individual files
-  fetch('../data/regimes.json')
-    .catch(() => ({
-      // Fallback: create a stub if the API doesn't exist
-      ok: true,
-      json: async () => ({
-        regimes: []
-      })
-    }))
-    .then(r => r.json()),
-  
-  // Load succession graph
-  fetch('../data/successions.json').then(r => r.json()),
-  
-  // Load territories for regime reference
-  fetch('../data/territories.json')
-    .catch(() => ({
-      ok: true,
-      json: async () => ({
-        territories: []
-      })
-    }))
-    .then(r => r.json())
-]).then(([regimesResponse, successions, territoriesResponse]) => {
-  regimesData = regimesResponse.regimes || [];
-  successionData = successions;
-  territoriesData = territoriesResponse.territories || [];
-  
-  // Try to load regime data from individual regime files
-  loadRegimeDetails();
-  
-  // Build succession lookup
+// Load from /api/db
+fetch('/api/db').then(r => r.json()).then(db => {
+  regimesData = db.regimes || [];
+  successionsData = db.successions || [];
+  territoriesData = db.territories || [];
+
+  // Build lookup
+  regimeById = {};
+  regimesData.forEach(r => { regimeById[r.id] = r; });
+
   buildSuccessionLookup();
-  
-  // Render UI
   renderRegimeList();
   attachEventListeners();
 }).catch(err => {
@@ -53,82 +28,57 @@ Promise.all([
   document.getElementById('empty-state').textContent = 'Error loading data. Check console.';
 });
 
-async function loadRegimeDetails() {
-  // If we don't have detailed regime data, try to construct it from succession edges
-  if (!regimesData || regimesData.length === 0) {
-    const regimeMap = new Map();
-    
-    if (successionData && successionData.edges) {
-      successionData.edges.forEach(edge => {
-        if (!regimeMap.has(edge.from)) {
-          regimeMap.set(edge.from, {
-            id: edge.from,
-            name: edge.from_name
-          });
-        }
-        if (!regimeMap.has(edge.to)) {
-          regimeMap.set(edge.to, {
-            id: edge.to,
-            name: edge.to_name
-          });
-        }
-      });
-    }
-    
-    regimesData = Array.from(regimeMap.values());
-  }
-}
-
 function buildSuccessionLookup() {
-  // Create reverse lookup: regime -> [successors, predecessors]
-  regimesData.forEach(regime => {
-    successionsByRegime[regime.id] = {
-      successors: [],
-      predecessors: []
-    };
+  successionsByRegime = {};
+  regimesData.forEach(r => {
+    successionsByRegime[r.id] = { successors: [], predecessors: [] };
   });
-  
-  if (successionData && successionData.edges) {
-    successionData.edges.forEach(edge => {
-      if (!successionsByRegime[edge.from]) {
-        successionsByRegime[edge.from] = { successors: [], predecessors: [] };
-      }
-      if (!successionsByRegime[edge.to]) {
-        successionsByRegime[edge.to] = { successors: [], predecessors: [] };
-      }
-      
-      successionsByRegime[edge.from].successors.push({
-        regime_id: edge.to,
-        regime_name: edge.to_name,
-        type: edge.type,
-        shared_territories: edge.shared_territories,
-        temporal_gap: edge.temporal_gap_years
-      });
-      
-      successionsByRegime[edge.to].predecessors.push({
-        regime_id: edge.from,
-        regime_name: edge.from_name,
-        type: edge.type,
-        shared_territories: edge.shared_territories,
-        temporal_gap: edge.temporal_gap_years
-      });
+
+  successionsData.forEach(s => {
+    if (!successionsByRegime[s.from]) {
+      successionsByRegime[s.from] = { successors: [], predecessors: [] };
+    }
+    if (!successionsByRegime[s.to]) {
+      successionsByRegime[s.to] = { successors: [], predecessors: [] };
+    }
+
+    const fromR = regimeById[s.from];
+    const toR = regimeById[s.to];
+
+    successionsByRegime[s.from].successors.push({
+      regime_id: s.to,
+      regime_name: toR ? toR.name : s.to,
+      territorial_direction: s.territorial_direction || 'unknown',
+      same_ethnicity: s.same_ethnicity,
+      same_language: s.same_language,
+      same_religion: s.same_religion,
+      shared_territories: s.shared_territories || [],
+      temporal_gap: s.temporal_gap_years,
     });
-  }
+
+    successionsByRegime[s.to].predecessors.push({
+      regime_id: s.from,
+      regime_name: fromR ? fromR.name : s.from,
+      territorial_direction: s.territorial_direction || 'unknown',
+      same_ethnicity: s.same_ethnicity,
+      same_language: s.same_language,
+      same_religion: s.same_religion,
+      shared_territories: s.shared_territories || [],
+      temporal_gap: s.temporal_gap_years,
+    });
+  });
 }
 
 function renderRegimeList() {
   const sidebar = document.getElementById('regime-list');
-  
-  // Group by state if we have state data
+
   const grouped = {};
   regimesData.forEach(regime => {
     const state = regime.state_id || 'Ungrouped';
-    if (!grouped[state]) {
-      grouped[state] = [];
-    }
+    if (!grouped[state]) grouped[state] = [];
     grouped[state].push(regime);
   });
-  
+
   let html = '';
   Object.entries(grouped).forEach(([state, regimes]) => {
     if (state !== 'Ungrouped') {
@@ -145,53 +95,73 @@ function renderRegimeList() {
       `;
     });
   });
-  
+
   sidebar.innerHTML = html || '<div style="padding: 16px; color: #4a5568;">No regimes loaded</div>';
 }
 
 function attachEventListeners() {
-  // Regime selection
   document.querySelectorAll('.regime-item').forEach(item => {
     item.addEventListener('click', (e) => {
-      const regimeId = e.currentTarget.dataset.regimeId;
-      selectRegime(regimeId);
+      selectRegime(e.currentTarget.dataset.regimeId);
     });
   });
-  
-  // Search
+
   document.getElementById('regime-search').addEventListener('input', (e) => {
     const query = e.target.value.toLowerCase();
     document.querySelectorAll('.regime-item').forEach(item => {
-      const name = item.textContent.toLowerCase();
-      item.style.display = name.includes(query) ? '' : 'none';
+      item.style.display = item.textContent.toLowerCase().includes(query) ? '' : 'none';
     });
   });
 }
 
 function selectRegime(regimeId) {
   selectedRegimeId = regimeId;
-  
-  // Update active state
   document.querySelectorAll('.regime-item').forEach(item => {
     item.classList.toggle('active', item.dataset.regimeId === regimeId);
   });
-  
-  // Render details
   renderRegimeDetails(regimeId);
 }
 
+// ── Succession helpers ──────────────────────────────────────────────────────
+
+function continuityIcons(entry) {
+  const parts = [];
+  if (entry.same_ethnicity) parts.push('<span title="Same ethnicity" style="background:#4ade8033;color:#4ade80">E</span>');
+  if (entry.same_language)  parts.push('<span title="Same language" style="background:#60a5fa33;color:#60a5fa">L</span>');
+  if (entry.same_religion)  parts.push('<span title="Same religion" style="background:#c084fc33;color:#c084fc">R</span>');
+  return parts.length ? `<span class="continuity">${parts.join('')}</span>` : '';
+}
+
+function gapLabel(years) {
+  if (!years) return '';
+  const sign = years > 0 ? '+' : '';
+  return `<span class="gap">${sign}${years}y</span>`;
+}
+
+const DIR_META = {
+  same:         { color: '#4ade80', label: 'Same territory',  desc: 'Successor controls roughly the same core territory' },
+  expansion:    { color: '#60a5fa', label: 'Expansion',       desc: 'Successor controls more territory than predecessor' },
+  contraction:  { color: '#facc15', label: 'Contraction',     desc: 'Successor controls less territory (fragment state)' },
+  displacement: { color: '#fb923c', label: 'Displacement',    desc: 'Successor controls mostly different territory' },
+  unknown:      { color: '#718096', label: 'Unknown',         desc: 'Insufficient territory data to determine direction' },
+};
+
+function dirLabel(dir) { return (DIR_META[dir] || {}).label || dir; }
+
+// ── Render regime detail ────────────────────────────────────────────────────
+
 function renderRegimeDetails(regimeId) {
   const header = document.getElementById('regime-header');
-  const regime = regimesData.find(r => r.id === regimeId);
-  
+  const regime = regimeById[regimeId];
+
   if (!regime) {
     header.innerHTML = '<div id="empty-state">Regime not found</div>';
     return;
   }
-  
+
   const successions = successionsByRegime[regimeId] || { successors: [], predecessors: [] };
   const dateRange = formatDateRange(regime.start, regime.end);
-  
+
   let html = `
     <div id="regime-title">${regime.name}</div>
     <div class="regime-info-row">
@@ -200,36 +170,45 @@ function renderRegimeDetails(regimeId) {
         <div class="regime-info-value">${dateRange}</div>
       </div>
   `;
-  
-  if (regime.id_ruling_ethnicity) {
+
+  if (regime.ruling_ethnicity) {
     html += `
       <div class="regime-info-block">
         <div class="regime-info-label">Ruling Ethnicity</div>
-        <div class="regime-info-value">#${regime.id_ruling_ethnicity}</div>
+        <div class="regime-info-value">${regime.ruling_ethnicity}</div>
       </div>
     `;
   }
-  
-  if (regime.id_ruling_language) {
+
+  if (regime.cultural_language) {
     html += `
       <div class="regime-info-block">
         <div class="regime-info-label">Language</div>
-        <div class="regime-info-value">#${regime.id_ruling_language}</div>
+        <div class="regime-info-value">${regime.cultural_language}</div>
       </div>
     `;
   }
-  
-  if (regime.id_ruling_religion) {
+
+  if (regime.ideology?.religion) {
     html += `
       <div class="regime-info-block">
         <div class="regime-info-label">Religion</div>
-        <div class="regime-info-value">#${regime.id_ruling_religion}</div>
+        <div class="regime-info-value">${regime.ideology.religion}</div>
       </div>
     `;
   }
-  
+
+  if (regime.ideology?.government) {
+    html += `
+      <div class="regime-info-block">
+        <div class="regime-info-label">Government</div>
+        <div class="regime-info-value">${regime.ideology.government}</div>
+      </div>
+    `;
+  }
+
   html += '</div>';
-  
+
   // Predecessors
   if (successions.predecessors.length > 0) {
     html += `
@@ -238,16 +217,16 @@ function renderRegimeDetails(regimeId) {
         <div class="succession-list">
     `;
     successions.predecessors.forEach(pred => {
-      const gap = pred.temporal_gap !== 0 ? ` (${pred.temporal_gap > 0 ? '+' : ''}${pred.temporal_gap}y)` : '';
       html += `
-        <div class="succession-badge ${pred.type}" title="${pred.regime_name}${gap}">
-          ${pred.regime_name.substring(0, 20)}
+        <div class="succession-badge ${pred.territorial_direction}" data-regime-id="${pred.regime_id}"
+             title="${pred.regime_name} — ${dirLabel(pred.territorial_direction)}">
+          ${pred.regime_name} ${gapLabel(pred.temporal_gap)}${continuityIcons(pred)}
         </div>
       `;
     });
     html += '</div></div>';
   }
-  
+
   // Successors
   if (successions.successors.length > 0) {
     html += `
@@ -256,58 +235,82 @@ function renderRegimeDetails(regimeId) {
         <div class="succession-list">
     `;
     successions.successors.forEach(succ => {
-      const gap = succ.temporal_gap !== 0 ? ` (${succ.temporal_gap > 0 ? '+' : ''}${succ.temporal_gap}y)` : '';
       html += `
-        <div class="succession-badge ${succ.type}" title="${succ.regime_name}${gap}">
-          ${succ.regime_name.substring(0, 20)}
+        <div class="succession-badge ${succ.territorial_direction}" data-regime-id="${succ.regime_id}"
+             title="${succ.regime_name} — ${dirLabel(succ.territorial_direction)}">
+          ${succ.regime_name} ${gapLabel(succ.temporal_gap)}${continuityIcons(succ)}
         </div>
       `;
     });
     html += '</div></div>';
   }
-  
-  // Shared territories with successors
-  if (successions.successors.length > 0) {
-    const sharedTerritoriesSet = new Set();
-    successions.successors.forEach(succ => {
-      succ.shared_territories.forEach(t => sharedTerritoriesSet.add(t));
+
+  // Territories
+  const territories = regime.territories || [];
+  if (territories.length > 0) {
+    html += `
+      <div class="territory-section">
+        <div class="territory-title">Territories (${territories.length})</div>
+        <div class="territory-list">
+    `;
+    territories.sort().forEach(t => {
+      html += `<div class="territory-badge">${t}</div>`;
     });
-    
-    if (sharedTerritoriesSet.size > 0) {
-      html += `
-        <div class="territory-section">
-          <div class="territory-title">Territories Inherited by Successors (${sharedTerritoriesSet.size})</div>
-          <div class="territory-list">
-      `;
-      Array.from(sharedTerritoriesSet).sort().forEach(territory => {
-        html += `<div class="territory-badge">${territory}</div>`;
-      });
-      html += '</div></div>';
-    }
+    html += '</div></div>';
   }
-  
+
+  // Note
+  if (regime.note) {
+    html += `
+      <div class="territory-section">
+        <div class="territory-title">Note</div>
+        <div style="font-size:12px;color:#a0aec0;line-height:1.6;margin-top:6px">${regime.note}</div>
+      </div>
+    `;
+  }
+
+  // Legend
+  html += `
+    <div class="territory-section">
+      <div class="territory-title">Succession Types</div>
+      <table style="font-size:11px;border-collapse:collapse;margin-top:8px;width:100%;max-width:520px">
+        <tr style="color:#718096;text-align:left">
+          <th style="padding:2px 8px 6px 0;font-weight:600">Territorial Direction</th>
+          <th style="padding:2px 0 6px;font-weight:600">Meaning</th>
+        </tr>
+        ${Object.entries(DIR_META).map(([k, v]) => `
+          <tr>
+            <td style="padding:3px 8px 3px 0;white-space:nowrap"><span style="color:${v.color}">■</span> ${v.label}</td>
+            <td style="padding:3px 0;color:#a0aec0">${v.desc}</td>
+          </tr>
+        `).join('')}
+      </table>
+      <div style="margin-top:12px;font-size:11px;color:#718096;font-weight:600">Continuity Indicators</div>
+      <div style="display:flex;gap:12px;margin-top:4px;font-size:11px;color:#a0aec0">
+        <span><span style="background:#4ade8033;color:#4ade80;padding:1px 3px;border-radius:2px;font-weight:600;font-size:9px">E</span> Same ethnicity</span>
+        <span><span style="background:#60a5fa33;color:#60a5fa;padding:1px 3px;border-radius:2px;font-weight:600;font-size:9px">L</span> Same language</span>
+        <span><span style="background:#c084fc33;color:#c084fc;padding:1px 3px;border-radius:2px;font-weight:600;font-size:9px">R</span> Same religion</span>
+      </div>
+      <div style="margin-top:8px;font-size:10px;color:#4a5568">Temporal gap (e.g. <span style="color:#718096">+5y</span>) shows years between predecessor's end and successor's start.</div>
+    </div>
+  `;
+
   header.innerHTML = html;
-  
-  // Attach click handlers to successor/predecessor badges
+
+  // Click handlers on badges to navigate
   document.querySelectorAll('.succession-badge').forEach(badge => {
-    badge.addEventListener('click', (e) => {
-      // Try to find the regime name and click it
-      const text = e.currentTarget.textContent.trim();
-      const regime = regimesData.find(r => r.name.includes(text) || r.name.startsWith(text));
-      if (regime) {
-        selectRegime(regime.id);
-      }
+    badge.style.cursor = 'pointer';
+    badge.addEventListener('click', () => {
+      const rid = badge.dataset.regimeId;
+      if (rid && regimeById[rid]) selectRegime(rid);
     });
   });
 }
 
 function formatDateRange(start, end) {
-  const formatYear = (y) => {
+  const fmt = (y) => {
     if (y === null || y === undefined) return 'present';
     return y < 0 ? `${Math.abs(y)} BCE` : `${y} CE`;
   };
-  
-  const startStr = formatYear(start);
-  const endStr = formatYear(end);
-  return `${startStr} – ${endStr}`;
+  return `${fmt(start)} – ${fmt(end)}`;
 }

@@ -1,7 +1,7 @@
 {
   "id": "harsha_empire",
   "name": "Harsha Empire",
-  "ruling_ethnicity": "indo_aryan",
+  "ruling_ethnicity": "indo_aryan_cluster",
   "cultural_language": "classical_sanskrit",
   "ideology": {
     "religion": "buddhism",

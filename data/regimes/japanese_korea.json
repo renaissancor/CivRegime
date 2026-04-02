@@ -1,7 +1,7 @@
 {
   "id": "japanese_korea",
   "name": "Japanese-Occupied Korea",
-  "ruling_ethnicity": "japanese",
+  "ruling_ethnicity": "japanese_cluster",
   "cultural_language": "japanese",
   "ideology": {
     "religion": "state_shinto",

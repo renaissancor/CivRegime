@@ -1,7 +1,7 @@
 {
   "id": "mamluk_sultanate",
   "name": "Mamluk Sultanate",
-  "ruling_ethnicity": "turkic",
+  "ruling_ethnicity": "turkic_cluster",
   "cultural_language": "arabic",
   "ideology": {
     "religion": "sunni_shafi",

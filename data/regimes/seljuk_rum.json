@@ -1,7 +1,7 @@
 {
   "id": "seljuk_rum",
   "name": "Sultanate of Rum",
-  "ruling_ethnicity": "turkic",
+  "ruling_ethnicity": "turkic_cluster",
   "cultural_language": "new_persian",
   "ideology": {
     "religion": "sunni_hanafi",

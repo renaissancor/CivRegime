@@ -1,7 +1,7 @@
 {
   "id": "vandal_kingdom",
   "name": "Vandal Kingdom of North Africa",
-  "ruling_ethnicity": "germanic",
+  "ruling_ethnicity": "germanic_peoples",
   "cultural_language": "latin",
   "ideology": {
     "religion": "catholic",

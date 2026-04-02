@@ -1,0 +1,288 @@
+{
+  "id": "tibet",
+  "title": "History of Tibet & Bhutan",
+  "columns": [
+    { "id": "era",      "name": "Era",                    "slots": 1, "type": "era" },
+    { "id": "ladakh",   "name": "Ladakh",                 "slots": 1 },
+    { "id": "ngari",    "name": "Ngari (W. Tibet)",        "slots": 1 },
+    { "id": "amdo",     "name": "Amdo (NE Tibet)",         "slots": 1 },
+    { "id": "kham",     "name": "Kham (E. Tibet)",         "slots": 1 },
+    { "id": "utsang",   "name": "U-Tsang (Central Tibet)", "slots": 1 },
+    { "id": "sikkim",   "name": "Sikkim",                  "slots": 1 },
+    { "id": "bhutan",   "name": "Bhutan",                  "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 3 },
+      "cells": [
+        { "label": "Dards (Indo-Aryan peoples)",                             "span": 1 },
+        { "stack": [
+            { "label": "Zhangzhung Kingdom",                                "note": "c.500 BCE – 625 CE" },
+            { "label": "Teyurang culture",                                   "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Lepcha tribes",                                      "note": null },
+            { "label": "Nomadic pastoralists",                               "note": null }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Yarlung Kingdom (pre-imperial)",                     "note": "c.200 BCE – 600 CE" },
+            { "label": "Zhangzhung Kingdom (western U-Tsang)",               "note": null }
+          ], "span": 1
+        },
+        { "label": "Lepcha tribes",                                          "span": 1 },
+        { "label": "Nomadic / Mon-yul Kingdom",                              "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Dards (continuing)",                                     "span": 1 },
+        { "label": "Zhangzhung (continuing)",                                "span": 1 },
+        { "stack": [
+            { "regime": "kushan_empire", "label": "Kushan Empire (frontier influence)", "note": null },
+            { "label": "Kokonor Kingdom (Tuyuhun)",                          "note": "c.285–663" },
+            { "label": "Qiang / Jie peoples",                                "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Di peoples",                                         "note": null },
+            { "label": "Nomadic pastoralists",                               "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Yarlung Kingdom",                                    "note": null },
+            { "label": "Tuyuhun (frontier)",                                 "note": null }
+          ], "span": 1
+        },
+        { "label": "Lepcha / Mon (continuing)",                              "span": 1 },
+        { "label": "Mon-yul Kingdom",                                        "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "tibetan_empire", "label": "Tibetan Empire — Songtsen Gampo · Trisong Detsen", "span": 5, "note": "c.618–842" },
+        { "label": "Tibetan Empire (periphery)",                             "span": 1 },
+        { "label": "Tibetan Empire (periphery)",                             "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "9th–13th c.", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Ladakh Kingdom (Maryul)",                            "note": "c.842 onward" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Guge-Purang Kingdom",                               "note": "c.842–1630" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Tangut peoples",                                     "note": null },
+            { "label": "Western Xia (Tangut Empire)",                        "note": "1038–1227" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Tibetan fragmentation era",                          "note": "c.842–1253" },
+            { "label": "Buddhist sectarian formation period",                 "note": null },
+            { "label": "Mongol invasion",                                    "note": "1240s" }
+          ], "span": 2
+        },
+        { "label": "Tribal communities",                                     "span": 1 },
+        { "label": "Mon-yul / tribal communities",                           "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Ladakh Kingdom (continuing)",                            "span": 1 },
+        { "stack": [
+            { "label": "Guge Kingdom",                                       "note": "c.842–1630" },
+            { "label": "Purang Kingdom",                                     "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "yuan_dynasty", "label": "Yuan Empire — Xuanzheng Yuan (Bureau of Buddhist and Tibetan Affairs)", "note": "1271–1368" },
+            { "label": "Tibet under Yuan rule",                              "note": null }
+          ], "span": 3
+        },
+        { "label": "Indigenous chiefs",                                      "span": 1 },
+        { "label": "Indigenous chiefs",                                      "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "14th–16th c.", "rowspan": 2 },
+      "cells": [
+        { "label": "Ladakh Kingdom",                                         "span": 1 },
+        { "label": "Guge Kingdom",                                           "span": 1 },
+        { "stack": [
+            { "label": "Sakya dynasty (Yuan appointees)",                    "note": "1268–1354" },
+            { "label": "Indigenous local rulers",                             "note": null },
+            { "label": "Phagmodrupa dynasty",                                "note": "1354–1435" }
+          ], "span": 3
+        },
+        { "label": "Tribal communities",                                     "span": 1 },
+        { "label": "Tribal communities",                                     "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Ladakh Kingdom",                                         "span": 1 },
+        { "label": "Guge Kingdom",                                           "span": 1 },
+        { "stack": [
+            { "label": "Rinpungpa dynasty",                                  "note": "1435–1565" },
+            { "label": "Tsangpa dynasty",                                    "note": "1565–1642" },
+            { "label": "Gelug school rise · Dalai Lama institution",         "note": null }
+          ], "span": 3
+        },
+        { "label": "Tribal communities",                                     "span": 1 },
+        { "label": "Tribal communities",                                     "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "17th c.", "rowspan": 1 },
+      "cells": [
+        { "label": "Ladakh Kingdom",                                         "span": 1 },
+        { "label": "Guge Kingdom (falls c.1630)",                            "span": 1 },
+        { "stack": [
+            { "label": "Khoshut Khanate (Gushi Khan)",                       "note": "1642–1717" },
+            { "label": "Dalai Lama III / Altan Khan alliance",               "note": null },
+            { "label": "Namgyal dynasty (Ladakh-Ngari border)",              "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ganden Phodrang — Dalai Lama V ('Great Fifth')",     "note": "from 1642" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Sikkim Kingdom (Namgyal dynasty)",                   "note": "from 1642" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Druk Desi regime (Zhabdrung Ngawang Namgyal)",       "note": "from 1634" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "18th c.", "rowspan": 1 },
+      "cells": [
+        { "label": "Ladakh Kingdom (declining)",                             "span": 1 },
+        { "stack": [
+            { "label": "Ganden Phodrang — Dalai Lama VII",                   "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Dzungar Khanate invasions",                          "note": "1717–1720" },
+            { "label": "Dzungar-Qing/Tibet Wars",                           "note": null },
+            { "regime": "qing_dynasty", "label": "Qing intervention — Amban system established", "note": "from 1720" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "qing_dynasty", "label": "Tibet under Qing suzerainty", "note": null },
+            { "label": "Ganden Phodrang — Kashag (council) governance",      "note": null }
+          ], "span": 2
+        },
+        { "label": "Sikkim Kingdom",                                         "span": 1 },
+        { "label": "Druk Desi regime",                                       "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "19th c.", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Fragmentation era",                                  "note": null },
+            { "regime": "sikh_empire", "label": "Sikh Empire (conquers Ladakh)", "note": "1834–1846" },
+            { "label": "Jammu & Kashmir (Dogra princely state)",             "note": "1846–1947" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Gurkha-Qing/Tibet Wars",                            "note": "1788–1792" },
+            { "regime": "qing_dynasty", "label": "Tibet under Qing — Amban governance", "note": null },
+            { "label": "Ganden Phodrang (continuing)",                       "note": null }
+          ], "span": 4
+        },
+        { "stack": [
+            { "label": "Gurkha Kingdom (southern raids)",                    "note": null },
+            { "regime": "british_raj", "label": "British East India Company / British Raj", "note": null },
+            { "label": "Sikkim Kingdom (British protectorate)",              "note": null }
+          ], "span": 1
+        },
+        { "regime": "british_raj", "label": "British Indian Empire (Bhutan — protectorate)", "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "1904–1948", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "regime": "british_raj", "label": "British Indian Empire",     "note": null },
+            { "label": "Jammu & Kashmir (princely state)",                   "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "British Younghusband expedition (1904)",             "note": null },
+            { "label": "Qing annexation of parts of Amdo & Kham",           "note": null },
+            { "label": "Dalai Lama XIII — Tibetan Great Uprising",           "note": null },
+            { "label": "Modern independent Tibet — Dalai Lama XIII · XIV",   "note": "1913–1950" }
+          ], "span": 4
+        },
+        { "stack": [
+            { "regime": "british_raj", "label": "British Indian Empire",     "note": null },
+            { "label": "Sikkim (British protectorate)",                      "note": null }
+          ], "span": 1
+        },
+        { "label": "Bhutan (British protectorate · Wangchuck dynasty from 1907)", "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "1949–present", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Dominion of India",                                  "note": "1947–1950" },
+            { "label": "Jammu & Kashmir (princely state — accession dispute)", "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "peoples_republic_of_china", "label": "People's Republic of China", "note": "from 1950" },
+            { "label": "Tibet Autonomous Region · Qinghai Province · Sichuan Province", "note": null },
+            { "label": "Central Tibetan Administration (government-in-exile, Dharamsala)", "note": "from 1959" }
+          ], "span": 4
+        },
+        { "stack": [
+            { "label": "Dominion of India",                                  "note": "1947–1950" },
+            { "label": "Sikkim Kingdom (Indian protectorate)",               "note": "1950–1975" }
+          ], "span": 1
+        },
+        { "label": "Kingdom of Bhutan (independent from 1949)",              "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "republic_of_india", "label": "Republic of India",   "note": null },
+            { "label": "Jammu & Kashmir State → Ladakh Union Territory",     "note": null }
+          ], "span": 1
+        },
+        { "regime": "peoples_republic_of_china", "label": "People's Republic of China (continuing)", "span": 4 },
+        { "stack": [
+            { "regime": "republic_of_india", "label": "Republic of India — Sikkim State (from 1975)", "note": null }
+          ], "span": 1
+        },
+        { "label": "Kingdom of Bhutan",                                      "span": 1 }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Zhangzhung Kingdom (c.500 BCE – 625 CE): Pre-Buddhist civilisation of western Tibet centred around Mount Kailash. The Bon religion originated here. Conquered and absorbed by the Tibetan Empire under Songtsen Gampo.",
+    "Tibetan Empire (c.618–842): Founded by Songtsen Gampo, who unified the Tibetan plateau, adopted Buddhism, and created the Tibetan script. Trisong Detsen expanded the empire to its greatest extent, sacking the Tang capital Chang'an in 763. The Pugyal dynasty collapsed after the assassination of Lang Darma (842), fragmenting Tibet for four centuries.",
+    "Guge Kingdom (c.842–1630): Western Tibetan kingdom that played a crucial role in the 'Second Diffusion' of Buddhism in Tibet. Rinchen Zangpo translated numerous Sanskrit texts. The kingdom was destroyed by the Ladakhi-Mughal alliance.",
+    "Ganden Phodrang (1642–1959): The Tibetan government established by the 5th Dalai Lama with Mongol (Khoshut) military backing. The 'Great Fifth' Dalai Lama built the Potala Palace and unified Tibet under Gelug school authority. The Qing dynasty established the Amban (resident commissioner) system after intervening against Dzungar invasions (1720).",
+    "Dzungar Khanate: The last great nomadic empire of Central Asia. The Dzungars invaded Tibet in 1717, deposing the 6th Dalai Lama's regent. The Qing Kangxi Emperor's counter-invasion (1720) expelled the Dzungars and established permanent Qing suzerainty over Tibet.",
+    "Younghusband Expedition (1903–1904): British military expedition to Tibet led by Colonel Francis Younghusband, forcing the Treaty of Lhasa (1904). The 13th Dalai Lama fled to Mongolia and then China. This event triggered the Qing's belated attempts to assert direct control over Tibet.",
+    "Tibet since 1950: The PRC's People's Liberation Army entered Tibet in 1950. The 1959 Tibetan uprising was crushed, and the 14th Dalai Lama fled to India, establishing a government-in-exile in Dharamsala. The Cultural Revolution (1966–76) destroyed thousands of monasteries. Tibet remains one of the most contested sovereignty disputes in Asia."
+  ]
+}

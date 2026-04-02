@@ -1,7 +1,7 @@
 {
   "id": "manchukuo",
   "name": "Manchukuo",
-  "ruling_ethnicity": "han",
+  "ruling_ethnicity": "han_chinese",
   "cultural_language": "modern_chinese",
   "ideology": {
     "religion": "chinese_folk_religion",

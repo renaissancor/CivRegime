@@ -54,13 +54,18 @@ const regimesRaw = parseCSV(fs.readFileSync(path.join(__dirname, '../csvs/regime
 const tpRaw      = parseCSV(fs.readFileSync(path.join(__dirname, '../csvs/territory_periods.csv'), 'utf8'));
 const ethRaw     = parseCSV(fs.readFileSync(path.join(__dirname, '../csvs/ethnicities.csv'), 'utf8'));
 
+// Map string old_id → numeric id for ethnicities
+const ethOldToNum = {};
+ethRaw.forEach(e => { if (e.old_id) ethOldToNum[e.old_id] = parseInt(e.id); });
+
 const regimes = regimesRaw.map(r => ({
   id:       r.id,
   name:     r.name,
   state_id: r.state_id || null,
-  eth:      r.id_ruling_ethnicity ? parseInt(r.id_ruling_ethnicity) : null,
-  lang:     r.id_ruling_language  ? parseInt(r.id_ruling_language)  : null,
-  rel:      r.id_ruling_religion  ? parseInt(r.id_ruling_religion)  : null,
+  eth:      r.id_ruling_ethnicity ? (ethOldToNum[r.id_ruling_ethnicity] || null) : null,
+  ethStr:   r.id_ruling_ethnicity || null,
+  lang:     r.id_ruling_language  || null,
+  rel:      r.id_ruling_religion  || null,
   start:    parseInt(r.start),
   end:      r.end ? parseInt(r.end) : null,
 }));
@@ -193,12 +198,12 @@ Object.entries(byTerritory).forEach(([territoryId, periods]) => {
 
 const ETH_GAP = 300; // years
 
-// Group by exact ethnicity
+// Group by exact ethnicity (use string ID for grouping)
 const regimesByEth = {};
 regimes.forEach(r => {
-  if (!r.eth) return;
-  if (!regimesByEth[r.eth]) regimesByEth[r.eth] = [];
-  regimesByEth[r.eth].push(r);
+  if (!r.ethStr) return;
+  if (!regimesByEth[r.ethStr]) regimesByEth[r.ethStr] = [];
+  regimesByEth[r.ethStr].push(r);
 });
 
 // Same ethnicity, close in time
@@ -235,6 +240,7 @@ for (let i = 0; i < regimes.length; i++) {
 
 // ── Strategy 3: Language-based ──────────────────────────────────────────────
 
+// Group by exact language (string ID)
 const regimesByLang = {};
 regimes.forEach(r => {
   if (!r.lang) return;
@@ -256,6 +262,7 @@ Object.values(regimesByLang).forEach(group => {
 
 // ── Strategy 4: Religion-based (same territory + same religion) ─────────────
 
+// Group by exact religion (string ID)
 const regimesByRel = {};
 regimes.forEach(r => {
   if (!r.rel) return;
@@ -312,18 +319,16 @@ const edges = Object.values(edgeMap).map(e => {
   const sameState    = !!s.same_state;
   const gap          = toR.start - (fromR.end || toR.start);
 
-  // Classification
-  let type;
-  if (hasTerritory && (sameEth || sameState) && Math.abs(gap) <= 50) {
-    type = 'A';
-  } else if (hasTerritory && (sameEth || relatedEth || sameLang || sameState)) {
-    type = 'A-';
-  } else if ((sameEth || sameLang) && !hasTerritory) {
-    type = 'B';
-  } else if (hasTerritory) {
-    type = 'C';
-  } else {
-    type = 'C'; // fallback
+  // Territorial direction: compare territory counts
+  const fromTerrs = new Set((regimeTerritories[e.from] || []).map(t => t.territory_id));
+  const toTerrs   = new Set((regimeTerritories[e.to] || []).map(t => t.territory_id));
+  let territorial_direction = 'unknown';
+  if (fromTerrs.size > 0 && toTerrs.size > 0) {
+    const shared = [...fromTerrs].filter(t => toTerrs.has(t)).length;
+    if (shared === 0) territorial_direction = 'displacement';
+    else if (toTerrs.size > fromTerrs.size) territorial_direction = 'expansion';
+    else if (toTerrs.size < fromTerrs.size) territorial_direction = 'contraction';
+    else territorial_direction = 'same';
   }
 
   // Compute strength (number of matching signals)
@@ -342,7 +347,7 @@ const edges = Object.values(edgeMap).map(e => {
     from_name:          fromR.name,
     to:                 e.to,
     to_name:            toR.name,
-    type,
+    territorial_direction,
     strength,
     shared_territories: e.territories,
     same_ethnicity:     sameEth,
@@ -355,13 +360,13 @@ const edges = Object.values(edgeMap).map(e => {
 });
 
 // Sort: strongest first
-edges.sort((a, b) => b.strength - a.strength || a.type.localeCompare(b.type));
+edges.sort((a, b) => b.strength - a.strength || a.territorial_direction.localeCompare(b.territorial_direction));
 
 // ── Write CSV ───────────────────────────────────────────────────────────────
 
 const headers = [
   'from_regime_id', 'from_name', 'to_regime_id', 'to_name',
-  'type', 'strength',
+  'territorial_direction', 'strength',
   'shared_territories', 'shared_territory_count',
   'same_ethnicity', 'related_ethnicity', 'same_language', 'same_religion', 'same_state',
   'temporal_gap_years',
@@ -380,7 +385,7 @@ edges.forEach(e => {
     escapeCSV(e.from_name),
     e.to,
     escapeCSV(e.to_name),
-    e.type,
+    e.territorial_direction,
     e.strength,
     e.shared_territories.join('|'),
     e.shared_territories.length,
@@ -398,8 +403,8 @@ fs.writeFileSync(csvPath, csvLines.join('\n'), 'utf8');
 
 // ── Stats ───────────────────────────────────────────────────────────────────
 
-const counts = { A: 0, 'A-': 0, B: 0, C: 0 };
-edges.forEach(e => counts[e.type]++);
+const counts = { same: 0, expansion: 0, contraction: 0, displacement: 0, unknown: 0 };
+edges.forEach(e => counts[e.territorial_direction] = (counts[e.territorial_direction] || 0) + 1);
 
 const connected = new Set();
 edges.forEach(e => { connected.add(e.from); connected.add(e.to); });
@@ -415,11 +420,12 @@ edges.forEach(e => {
 });
 
 console.log(`✓ Generated successions.csv — ${edges.length} edges, ${connected.size}/${regimes.length} regimes connected`);
-console.log(`  A  (Direct Lineage)     : ${counts['A']}`);
-console.log(`  A- (Continuity w/ break): ${counts['A-']}`);
-console.log(`  B  (Cultural Migration) : ${counts['B']}`);
-console.log(`  C  (Conquest / Locus)   : ${counts['C']}`);
-console.log(`  Avg strength: ${(edges.reduce((s,e) => s + e.strength, 0) / edges.length).toFixed(1)}`);
+console.log(`  Same         : ${counts.same}`);
+console.log(`  Expansion    : ${counts.expansion}`);
+console.log(`  Contraction  : ${counts.contraction}`);
+console.log(`  Displacement : ${counts.displacement}`);
+console.log(`  Unknown      : ${counts.unknown}`);
+console.log(`  Avg strength : ${(edges.reduce((s,e) => s + e.strength, 0) / edges.length).toFixed(1)}`);
 console.log(`  Edges with territory signal : ${signalCounts.territory}`);
 console.log(`  Edges with ethnicity signal : ${signalCounts.ethnicity}`);
 console.log(`  Edges with related eth      : ${signalCounts.related_eth}`);

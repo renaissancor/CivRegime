@@ -1,7 +1,7 @@
 {
   "id": "ming_dynasty",
   "name": "Ming Dynasty",
-  "ruling_ethnicity": "han",
+  "ruling_ethnicity": "han_chinese",
   "cultural_language": "mandarin",
   "ideology": {
     "religion": "neo_confucianism",

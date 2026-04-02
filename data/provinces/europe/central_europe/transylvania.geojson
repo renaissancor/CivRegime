@@ -5,7 +5,7 @@
     "name": "Transylvania",
     "territory": "hungary",
     "periods": [
-      { "start": 106, "end": 271, "regime": "roman_empire" },
+      { "start": 106, "end": 271, "regime": "roman_empire_pagan" },
       { "start": 271, "end": null, "regime": null }
     ]
   },

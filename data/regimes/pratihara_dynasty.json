@@ -1,0 +1,17 @@
+{
+  "id": "pratihara_dynasty",
+  "name": "Pratihara Dynasty",
+  "ruling_ethnicity": "indo_aryan_cluster",
+  "cultural_language": "classical_sanskrit",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "ganges_plain",
+    "punjab"
+  ],
+  "start": 730,
+  "end": 1036,
+  "note": "The Gurjara-Pratiharas were the most powerful dynasty of early medieval North India. Nagabhata I repelled the Arab invasions of Sindh. Controlled Kannauj and dominated the Tripartite Struggle against the Rashtrakutas and Palas. Their collapse fragmented North India into Rajput kingdoms."
+}

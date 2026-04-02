@@ -1,7 +1,7 @@
 {
   "id": "khazar_khaganate",
   "name": "Khazar Khaganate",
-  "ruling_ethnicity": "turkic",
+  "ruling_ethnicity": "turkic_cluster",
   "cultural_language": "old_turkic",
   "ideology": {
     "religion": "rabbinic_judaism",

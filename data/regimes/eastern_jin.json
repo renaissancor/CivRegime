@@ -1,7 +1,7 @@
 {
   "id": "eastern_jin",
   "name": "Eastern Jin Dynasty",
-  "ruling_ethnicity": "han",
+  "ruling_ethnicity": "han_chinese",
   "cultural_language": "old_chinese",
   "ideology": {
     "religion": "chinese_folk_religion"

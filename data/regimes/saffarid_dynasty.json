@@ -1,0 +1,17 @@
+{
+  "id": "saffarid_dynasty",
+  "name": "Saffarid Dynasty",
+  "ruling_ethnicity": "persian",
+  "cultural_language": "new_persian_farsi",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "military_emirate"
+  },
+  "territories": [
+    "khorasan",
+    "iran_plateau"
+  ],
+  "start": 861,
+  "end": 1003,
+  "note": "Founded by Ya'qub ibn al-Layth al-Saffar, a coppersmith (saffar) turned warlord from Sistan. First dynasty to use New Persian as court language instead of Arabic. Conquered Kabul and ended the Zunbil dynasty. Defeated by the Samanids but survived as vassals in Sistan."
+}

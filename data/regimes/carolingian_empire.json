@@ -1,7 +1,7 @@
 {
   "id": "carolingian_empire",
   "name": "Frankish Kingdom / Carolingian Empire",
-  "ruling_ethnicity": "germanic",
+  "ruling_ethnicity": "germanic_peoples",
   "cultural_language": "latin",
   "ideology": {
     "religion": "catholic",

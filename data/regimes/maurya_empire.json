@@ -1,7 +1,7 @@
 {
   "id": "maurya_empire",
   "name": "Maurya Empire",
-  "ruling_ethnicity": "indo_aryan",
+  "ruling_ethnicity": "indo_aryan_cluster",
   "cultural_language": "classical_sanskrit",
   "ideology": {
     "religion": "hinduism",

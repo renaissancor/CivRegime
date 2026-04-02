@@ -1,7 +1,7 @@
 {
   "id": "han_dynasty",
   "name": "Han Dynasty",
-  "ruling_ethnicity": "han",
+  "ruling_ethnicity": "han_chinese",
   "cultural_language": "old_chinese",
   "ideology": {
     "religion": "confucianism",

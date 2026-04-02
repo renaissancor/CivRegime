@@ -1,9 +1,15 @@
-const TYPE_COLOR = {
-  'A':  '#4ade80',
-  'A-': '#86efac',
-  'B':  '#60a5fa',
-  'C':  '#fb923c',
+// Edge color derived from continuity dimensions
+const DIR_COLOR = {
+  same:         '#4ade80',
+  expansion:    '#60a5fa',
+  contraction:  '#facc15',
+  displacement: '#fb923c',
+  unknown:      '#718096',
 };
+
+function edgeColor(s) {
+  return DIR_COLOR[s.territorial_direction] || DIR_COLOR.unknown;
+}
 
 const LABEL_MAP = {
   ethnicity: 'Ruling Ethnicity',
@@ -14,6 +20,30 @@ const LABEL_MAP = {
 let simulation, nodeSelection, linkSelection;
 let allNodes = [], allLinks = [];
 let activeFilter = { type: 'all', value: null };
+
+// Ethnicity cluster grouping — maps each ethnicity id to its depth-1 ancestor
+let ethClusterMap = {};   // ethnicity_id → cluster_id
+let ethClusterNames = {}; // cluster_id → display name
+
+function buildEthClusters(ethnicities) {
+  const byId = new Map(ethnicities.map(e => [e.id, e]));
+  function findCluster(id) {
+    if (ethClusterMap[id]) return ethClusterMap[id];
+    let cur = byId.get(id);
+    if (!cur) { ethClusterMap[id] = id; return id; }
+    const chain = [cur];
+    while (cur.parent && byId.has(cur.parent)) {
+      cur = byId.get(cur.parent);
+      chain.push(cur);
+    }
+    // chain: [leaf, ..., depth-1, root] — pick depth-1 (second to last)
+    const cluster = chain.length >= 2 ? chain[chain.length - 2] : chain[0];
+    ethClusterMap[id] = cluster.id;
+    ethClusterNames[cluster.id] = cluster.name;
+    return cluster.id;
+  }
+  ethnicities.forEach(e => findCluster(e.id));
+}
 
 async function init() {
   const db = await fetch('/api/db').then(r => r.json());
@@ -30,11 +60,14 @@ async function init() {
     .map(s => ({
       source: s.from,
       target: s.to,
-      type: s.type,
-      rationale: s.rationale,
+      territorial_direction: s.territorial_direction,
+      same_ethnicity: s.same_ethnicity,
+      same_language: s.same_language,
+      same_religion: s.same_religion,
       shared_territories: s.shared_territories || [],
     }));
 
+  buildEthClusters(db.ethnicities);
   buildFilters(db);
   buildGraph(db);
   setupFilterListeners(db);
@@ -44,12 +77,12 @@ async function init() {
 
 function buildGraph(db) {
   const container = document.getElementById('graph');
-  const W = container.clientWidth;
-  const H = container.clientHeight;
+  const W = container.clientWidth * 3;
+  const H = container.clientHeight * 3;
 
-  // Color scale — one color per ruling ethnicity
-  const ethnicities = [...new Set(allNodes.map(n => n.ruling_ethnicity).filter(Boolean))];
-  const colorScale = d3.scaleOrdinal(d3.schemeTableau10.concat(d3.schemePastel1)).domain(ethnicities);
+  // Color scale — one color per ethnicity cluster
+  const clusters = [...new Set(allNodes.map(n => ethClusterMap[n.ruling_ethnicity] || n.ruling_ethnicity).filter(Boolean))];
+  const colorScale = d3.scaleOrdinal(d3.schemeTableau10.concat(d3.schemePastel1)).domain(clusters);
 
   const svg = d3.select('#graph').append('svg')
     .attr('width', W)
@@ -59,11 +92,11 @@ function buildGraph(db) {
   const g = svg.append('g');
   svg.call(d3.zoom().scaleExtent([0.2, 4]).on('zoom', e => g.attr('transform', e.transform)));
 
-  // Arrow markers per succession type
+  // Arrow markers per territorial direction
   const defs = svg.append('defs');
-  Object.entries(TYPE_COLOR).forEach(([type, color]) => {
+  Object.entries(DIR_COLOR).forEach(([dir, color]) => {
     defs.append('marker')
-      .attr('id', `arrow-${type}`)
+      .attr('id', `arrow-${dir}`)
       .attr('viewBox', '0 -5 10 10')
       .attr('refX', 22)
       .attr('refY', 0)
@@ -81,10 +114,10 @@ function buildGraph(db) {
     .data(allLinks)
     .join('line')
     .attr('class', 'link')
-    .attr('stroke', d => TYPE_COLOR[d.type] || '#999')
+    .attr('stroke', d => edgeColor(d))
     .attr('stroke-width', 1.5)
-    .attr('stroke-dasharray', null)
-    .attr('marker-end', d => `url(#arrow-${d.type})`)
+    .attr('stroke-dasharray', d => d.same_ethnicity ? null : '4,3')
+    .attr('marker-end', d => `url(#arrow-${d.territorial_direction || 'unknown'})`)
     .attr('opacity', 0.7)
     .on('mouseenter', (event, d) => showLinkTooltip(event, d))
     .on('mouseleave', hideTooltip);
@@ -106,7 +139,7 @@ function buildGraph(db) {
 
   nodeSelection.append('circle')
     .attr('r', d => nodeRadius(d))
-    .attr('fill', d => colorScale(d.ruling_ethnicity))
+    .attr('fill', d => colorScale(ethClusterMap[d.ruling_ethnicity] || d.ruling_ethnicity))
     .attr('stroke', '#0f1117')
     .attr('stroke-width', 1.5);
 
@@ -120,6 +153,9 @@ function buildGraph(db) {
   // Close detail panel when clicking canvas
   svg.on('click', () => closeDetail());
 
+  // Boundary padding
+  const PAD = 40;
+
   // Force simulation
   simulation = d3.forceSimulation(allNodes)
     .force('link', d3.forceLink(allLinks).id(d => d.id).distance(120))
@@ -127,6 +163,15 @@ function buildGraph(db) {
     .force('center', d3.forceCenter(W / 2, H / 2))
     .force('collision', d3.forceCollide().radius(d => nodeRadius(d) + 14))
     .on('tick', () => {
+      // Clamp nodes within boundary and bounce off edges
+      allNodes.forEach(d => {
+        const r = nodeRadius(d);
+        if (d.x - r < PAD)     { d.x = PAD + r;     d.vx = Math.abs(d.vx || 0); }
+        if (d.x + r > W - PAD) { d.x = W - PAD - r;  d.vx = -Math.abs(d.vx || 0); }
+        if (d.y - r < PAD)     { d.y = PAD + r;     d.vy = Math.abs(d.vy || 0); }
+        if (d.y + r > H - PAD) { d.y = H - PAD - r;  d.vy = -Math.abs(d.vy || 0); }
+      });
+
       linkSelection
         .attr('x1', d => d.source.x)
         .attr('y1', d => d.source.y)
@@ -170,10 +215,15 @@ function buildFilters(db) {
     let options = [];
     if (type === 'ethnicity') {
       const counts = {};
-      db.regimes.forEach(r => { if (r.ruling_ethnicity) counts[r.ruling_ethnicity] = (counts[r.ruling_ethnicity] || 0) + 1; });
+      db.regimes.forEach(r => {
+        if (!r.ruling_ethnicity) return;
+        const cluster = ethClusterMap[r.ruling_ethnicity] || r.ruling_ethnicity;
+        counts[cluster] = (counts[cluster] || 0) + 1;
+      });
       options = Object.entries(counts).sort((a, b) => b[1] - a[1]);
       options.forEach(([v, n]) => {
-        filterValue.innerHTML += `<option value="${v}">${v}  (${n})</option>`;
+        const label = ethClusterNames[v] || v;
+        filterValue.innerHTML += `<option value="${v}">${label}  (${n})</option>`;
       });
     } else if (type === 'territory') {
       const counts = {};
@@ -213,7 +263,7 @@ function applyFilter(db) {
 
   const matchIds = new Set(
     allNodes.filter(n => {
-      if (type === 'ethnicity') return n.ruling_ethnicity === value;
+      if (type === 'ethnicity') return (ethClusterMap[n.ruling_ethnicity] || n.ruling_ethnicity) === value;
       if (type === 'territory') return (n.territories || []).includes(value);
       if (type === 'religion')  return n.ideology?.religion === value;
       return true;
@@ -361,8 +411,14 @@ function showLinkTooltip(event, d) {
   const src = typeof d.source === 'object' ? d.source.name : d.source;
   const tgt = typeof d.target === 'object' ? d.target.name : d.target;
   const territories = d.shared_territories.length ? `<br><span style="color:#718096">via: ${d.shared_territories.join(', ')}</span>` : '';
-  tt.innerHTML = `<strong>Type ${d.type}</strong>: ${src} → ${tgt}${territories}
-    ${d.rationale ? `<br><span style="color:#a0aec0">${d.rationale}</span>` : ''}`;
+  const flags = [
+    d.same_ethnicity ? 'same ethnicity' : null,
+    d.same_language  ? 'same language'  : null,
+    d.same_religion  ? 'same religion'  : null,
+  ].filter(Boolean).join(', ');
+  const dir = d.territorial_direction || 'unknown';
+  tt.innerHTML = `<strong>${dir}</strong>: ${src} → ${tgt}${territories}
+    ${flags ? `<br><span style="color:#a0aec0">${flags}</span>` : ''}`;
   positionTooltip(event, tt);
   tt.classList.add('visible');
 }

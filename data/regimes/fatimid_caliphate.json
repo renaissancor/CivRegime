@@ -1,7 +1,7 @@
 {
   "id": "fatimid_caliphate",
   "name": "Fatimid Caliphate",
-  "ruling_ethnicity": "semitic",
+  "ruling_ethnicity": "semitic_cluster",
   "cultural_language": "arabic",
   "ideology": {
     "religion": "shia_ismaili",

@@ -55,16 +55,62 @@
     /* ── Panel selector ── */
     #panel-selector {
       display: flex;
-      gap: 8px;
+      flex-direction: row;
+      gap: 6px;
       flex-wrap: wrap;
       margin-bottom: 24px;
+      align-items: flex-start;
     }
+
+    .region-group {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      background: #161b27;
+      border: 1px solid #2d3748;
+      border-radius: 8px;
+      padding: 8px 10px;
+      min-width: 120px;
+    }
+
+    .region-heading {
+      font-size: 10px;
+      font-weight: 700;
+      color: #f6ad55;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 0 2px 4px;
+      border-bottom: 1px solid #2d3748;
+      margin-bottom: 4px;
+      cursor: pointer;
+      user-select: none;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .region-heading:hover { color: #fbd38d; }
+
+    .region-heading .chevron {
+      font-size: 8px;
+      transition: transform 0.2s;
+    }
+
+    .region-heading.collapsed .chevron { transform: rotate(-90deg); }
+
+    .region-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .region-buttons.hidden { display: none; }
 
     #panel-selector button {
       background: #1e2535;
       border: 1px solid #2d3748;
       color: #a0aec0;
-      padding: 6px 14px;
+      padding: 5px 12px;
       border-radius: 6px;
       cursor: pointer;
       font-size: 12px;
@@ -418,52 +464,82 @@
         `<div class="history-grid" style="grid-template-columns:${gridCols}">${html}</div>${footnotes}`;
     }
 
-    // ── Panel list and routing ────────────────────────────────────────────────
-    const PANELS = [
-      { id: 'east_asia/japan',                  label: 'Japan'     },
-      { id: 'east_asia/korea',                  label: 'Korea'     },
-      { id: 'east_asia/manchuria',              label: 'Manchuria' },
-      { id: 'europe/greece',                    label: 'Greece'         },
-      { id: 'europe/north_macedonia',           label: 'N. Macedonia'   },
-      { id: 'europe/bulgaria',                  label: 'Bulgaria'       },
-      { id: 'europe/serbia',                    label: 'Serbia/Kosovo'  },
-      { id: 'europe/bosnia',                    label: 'Bosnia'         },
-      { id: 'europe/croatia',                   label: 'Croatia'        },
-      { id: 'europe/albania',                   label: 'Albania'        },
-      { id: 'europe/slovenia',                  label: 'Slovenia'       },
-      { id: 'europe/romania',                   label: 'Romania'        },
-      { id: 'europe/belarus',                   label: 'Belarus'        },
-      { id: 'europe/ukraine',                   label: 'Ukraine'        },
-      { id: 'europe/russia',                    label: 'Russia'         },
-      { id: 'middle_east/arabia',               label: 'Arabia'   },
-      { id: 'middle_east/anatolia',             label: 'Anatolia' },
-      { id: 'middle_east/egypt',                label: 'Egypt'    },
-      { id: 'middle_east/iraq',                 label: 'Iraq'     },
-      { id: 'middle_east/levant',               label: 'Levant'   },
-      { id: 'middle_east/morocco',              label: 'Morocco'  },
-      { id: 'central_asia/uzbekistan',           label: 'Uzbekistan'    },
-      { id: 'central_asia/turkmenistan',         label: 'Turkmenistan'  },
-      { id: 'central_asia/xinjiang',             label: 'Xinjiang / E. Turkestan' },
-      { id: 'central_asia/afghanistan',          label: 'Afghanistan'   },
-      { id: 'persia_central_asia/iran',          label: 'Iran'          },
-      { id: 'north_africa/algeria',             label: 'Algeria'  },
-      { id: 'north_africa/libya',               label: 'Libya'    },
-      { id: 'north_africa/tunisia',             label: 'Tunisia'  },
-      { id: 'north_africa/sudan',               label: 'Sudan'         },
-      { id: 'east_africa/ethiopia',             label: 'Ethiopia'      },
-      { id: 'east_africa/somalia',              label: 'Somalia'       },
+    // ── Panel list grouped by continent ─────────────────────────────────────
+    const REGIONS = [
+      { name: 'East Asia', panels: [
+        { id: 'east_asia/japan',       label: 'Japan'     },
+        { id: 'east_asia/korea',       label: 'Korea'     },
+        { id: 'east_asia/manchuria',   label: 'Manchuria' },
+        { id: 'east_asia/tibet',       label: 'Tibet & Bhutan' },
+      ]},
+      { name: 'South Asia', panels: [
+        { id: 'south_asia/india',      label: 'India'    },
+        { id: 'south_asia/pakistan',    label: 'Pakistan' },
+      ]},
+      { name: 'Central Asia & Persia', panels: [
+        { id: 'persia_central_asia/iran',    label: 'Iran'          },
+        { id: 'central_asia/afghanistan',    label: 'Afghanistan'   },
+        { id: 'central_asia/uzbekistan',     label: 'Uzbekistan'    },
+        { id: 'central_asia/turkmenistan',   label: 'Turkmenistan'  },
+        { id: 'central_asia/xinjiang',       label: 'Xinjiang / E. Turkestan' },
+      ]},
+      { name: 'Middle East', panels: [
+        { id: 'middle_east/anatolia',  label: 'Anatolia' },
+        { id: 'middle_east/iraq',      label: 'Iraq'     },
+        { id: 'middle_east/levant',    label: 'Levant'   },
+        { id: 'middle_east/egypt',     label: 'Egypt'    },
+        { id: 'middle_east/arabia',    label: 'Arabia'   },
+      ]},
+      { name: 'Europe', panels: [
+        { id: 'europe/greece',           label: 'Greece'        },
+        { id: 'europe/north_macedonia',  label: 'N. Macedonia'  },
+        { id: 'europe/bulgaria',         label: 'Bulgaria'      },
+        { id: 'europe/serbia',           label: 'Serbia/Kosovo' },
+        { id: 'europe/bosnia',           label: 'Bosnia'        },
+        { id: 'europe/croatia',          label: 'Croatia'       },
+        { id: 'europe/albania',          label: 'Albania'       },
+        { id: 'europe/romania',          label: 'Romania'       },
+        { id: 'europe/belarus',          label: 'Belarus'       },
+        { id: 'europe/ukraine',          label: 'Ukraine'       },
+        { id: 'europe/russia',           label: 'Russia'        },
+      ]},
+      { name: 'North Africa', panels: [
+        { id: 'middle_east/morocco',     label: 'Morocco'  },
+        { id: 'north_africa/algeria',    label: 'Algeria'  },
+        { id: 'north_africa/tunisia',    label: 'Tunisia'  },
+        { id: 'north_africa/libya',      label: 'Libya'    },
+        { id: 'north_africa/sudan',      label: 'Sudan'    },
+      ]},
+      { name: 'East Africa', panels: [
+        { id: 'east_africa/ethiopia',    label: 'Ethiopia' },
+        { id: 'east_africa/somalia',     label: 'Somalia'  },
+      ]},
     ];
 
-    function buildSelector(panels, activeId) {
-      document.getElementById('panel-selector').innerHTML = panels.map(p =>
-        `<button class="${p.id === activeId ? 'active' : ''}"
-           onclick="loadPanel('${p.id}')">${p.label}</button>`
-      ).join('');
+    // Flat list for lookups
+    const PANELS = REGIONS.flatMap(r => r.panels);
+
+    function buildSelector(activeId) {
+      const sel = document.getElementById('panel-selector');
+      sel.innerHTML = REGIONS.map(region => {
+        const hasActive = region.panels.some(p => p.id === activeId);
+        const buttons = region.panels.map(p =>
+          `<button class="${p.id === activeId ? 'active' : ''}"
+             onclick="loadPanel('${p.id}')">${p.label}</button>`
+        ).join('');
+        return `<div class="region-group">
+          <div class="region-heading ${hasActive ? '' : 'collapsed'}"
+               onclick="this.classList.toggle('collapsed');this.nextElementSibling.classList.toggle('hidden')">
+            <span class="chevron">&#9660;</span>${region.name}
+          </div>
+          <div class="region-buttons ${hasActive ? '' : 'hidden'}">${buttons}</div>
+        </div>`;
+      }).join('');
     }
 
     async function loadPanel(id) {
       document.getElementById('panel-container').innerHTML = '<p id="loading">Loading...</p>';
-      buildSelector(PANELS, id);
+      buildSelector(id);
       try {
         const r = await fetch(`../data/history/${id}.json`);
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
@@ -474,7 +550,7 @@
       }
     }
 
-    buildSelector(PANELS, PANELS[0].id);
+    buildSelector(PANELS[0].id);
     loadPanel(PANELS[0].id);
   </script>
 </div>

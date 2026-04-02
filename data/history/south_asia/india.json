@@ -1,0 +1,450 @@
+{
+  "id": "india",
+  "title": "History of India (Classical · Medieval · Modern)",
+  "columns": [
+    { "id": "era",          "name": "Era",                        "slots": 1, "type": "era" },
+    { "id": "indus",        "name": "Indus Plain (Punjab · Sindh · Gujarat)", "slots": 1 },
+    { "id": "upper_ganges", "name": "Upper Ganges (Ganga-Yamuna Doab)",       "slots": 1 },
+    { "id": "lower_ganges", "name": "Lower Ganges (Bihar · Bengal)",          "slots": 1 },
+    { "id": "central",      "name": "Central India (Deccan)",                 "slots": 1 },
+    { "id": "south",        "name": "South India",                            "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Iron Age", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Late Vedic period",                                  "note": "c.1100–500 BCE" },
+            { "label": "Gandhara (Taxila) · Kuru Kingdom",                   "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kuru Kingdom · Panchala Kingdom",                    "note": "c.1200–500 BCE" },
+            { "label": "Painted Grey Ware culture",                          "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Magadha (early Janapada)",                           "note": null },
+            { "label": "Adivasi tribal communities",                         "note": null }
+          ], "span": 1
+        },
+        { "label": "Assaka (Deccan Janapada)",                               "span": 1 },
+        { "label": "Prehistoric (megalithic cultures)",                      "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "6th–5th c. BCE", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "regime": "achaemenid_empire", "label": "Achaemenid Empire — Gandhara & Hindush Satrapies", "note": "c.520–330 BCE" },
+            { "label": "Persian-Greek cultural influx",                      "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Second Urbanisation wave",                           "note": "c.600–300 BCE" },
+            { "label": "Shramana movements — Jainism · Buddhism · Ajivika · Yoga", "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Shishunaga dynasty (Magadha)",                       "note": "c.413–345 BCE" },
+            { "regime": "nanda_empire", "label": "Nanda Empire",             "note": "c.345–322 BCE" }
+          ], "span": 1
+        },
+        { "label": "Assaka (continuing)",                                    "span": 1 },
+        { "label": "Prehistoric",                                            "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "4th–3rd c. BCE", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Alexander the Great (Hydaspes · Gedrosia)",          "note": "326–325 BCE" },
+            { "regime": "seleucid_empire", "label": "Seleucid Empire (briefly)", "note": "312–305 BCE" },
+            { "regime": "maurya_empire", "label": "Maurya Empire",           "note": "322–185 BCE" }
+          ], "span": 1
+        },
+        { "regime": "maurya_empire", "label": "Maurya Empire — Pataliputra capital · Chandragupta · Ashoka", "span": 3 },
+        { "stack": [
+            { "regime": "satavahana_empire", "label": "Satavahana Dynasty (emerging)", "note": "c.230 BCE" },
+            { "label": "Sangam period (c.300 BCE – 200 CE) — Chola · Pandya · Chera", "note": null }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "2nd–1st c. BCE", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "regime": "indo_greek_kingdom", "label": "Indo-Greek Kingdom (Menander I / Milinda)", "note": "c.180–10 BCE" },
+            { "regime": "indo_scythian_kingdom", "label": "Indo-Scythians",  "note": "c.100 BCE onward" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "shunga_dynasty", "label": "Shunga Dynasty",        "note": "185–73 BCE" },
+            { "label": "Kanva dynasty",                                      "note": "73–28 BCE" },
+            { "label": "Kuninda Kingdom",                                    "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Mahameghavahana dynasty (Kalinga)",                  "note": "c.100 BCE–400 CE" },
+            { "label": "Adivasi tribal communities",                         "note": null }
+          ], "span": 1
+        },
+        { "regime": "satavahana_empire", "label": "Satavahana Dynasty — Deccan overlords", "span": 1 },
+        { "stack": [
+            { "label": "Sangam period — Chola · Pandya · Chera",            "note": "c.300 BCE – 200 CE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "1st–3rd c. CE", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "regime": "indo_scythian_kingdom", "label": "Indo-Scythians — Western Satraps", "note": "c.100 BCE–400 CE" },
+            { "regime": "indo_parthian_kingdom", "label": "Indo-Parthian Kingdom (Gondophares)", "note": "c.19 BCE–226 CE" },
+            { "regime": "kushan_empire", "label": "Kushan Empire",           "note": "c.30–375 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "kushan_empire", "label": "Kushan Empire (Mathura second capital)", "note": "c.30–375 CE" },
+            { "regime": "kushano_sasanian_kingdom", "label": "Kushano-Sasanian (western frontier)", "note": "c.230–365" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kamarupa Kingdom (Assam / NE India)",                "note": "c.350–1140" },
+            { "label": "Adivasi tribal communities",                         "note": null }
+          ], "span": 1
+        },
+        { "regime": "satavahana_empire", "label": "Satavahana Dynasty (declining)", "span": 1 },
+        { "stack": [
+            { "label": "Sangam period (ending c.200 CE)",                    "note": null },
+            { "regime": "chola_empire", "label": "Chola (early — Sangam period)", "note": null },
+            { "regime": "pandya_dynasty", "label": "Pandya Dynasty",         "note": null }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "4th–5th c. CE", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Kidarites (Hunnic)",                                 "note": "c.350–467" },
+            { "regime": "hephthalite_empire", "label": "Hephthalites — Alchon Huns (Toramana · Mihirakula)", "note": "c.460–528" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "gupta_empire", "label": "Gupta Empire — Golden Age of India", "note": "c.320–550 CE" },
+            { "label": "Chandragupta I · Samudragupta · Chandragupta II · Kumaragupta", "note": null }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Andhra Ikshvaku",                                    "note": "c.210–340" },
+            { "label": "Vakataka Dynasty",                                   "note": "c.250–500" },
+            { "label": "Kadamba Dynasty",                                    "note": "c.345–525" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Western Ganga Dynasty",                              "note": "c.350–1000" },
+            { "label": "Kalabhra interregnum",                               "note": "c.300–600" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "6th–7th c. CE", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Nezak Huns · Turk Shahis (Gandhara)",               "note": "c.565–870" },
+            { "label": "Zunbil dynasty (Zabulistan)",                        "note": "c.650–870" },
+            { "label": "Maitraka dynasty (Gujarat)",                         "note": "c.475–776" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "harsha_empire", "label": "Vardhana dynasty — Harsha (Kannauj)", "note": "606–647 CE" },
+            { "label": "Karkota dynasty (Kashmir)",                          "note": "c.625–855" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kamarupa Kingdom (Bhaskaravarman — Harsha's ally)",  "note": null },
+            { "label": "Adivasi tribal communities",                         "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "chalukya_dynasty", "label": "Chalukya Dynasty (Badami) — Pulakeshin II defeated Harsha", "note": "543–757" },
+            { "label": "Eastern Chalukya (Vengi)",                           "note": "c.624–1189" },
+            { "label": "Vishnukundina Dynasty",                              "note": "c.420–624" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "pallava_dynasty", "label": "Pallava Dynasty (Kanchipuram)", "note": "c.275–897" },
+            { "regime": "pandya_dynasty", "label": "Pandya Dynasty (Madurai)", "note": null }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "8th–9th c. CE", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Hindu Shahis (NW India & Gandhara)",                 "note": "c.843–1026" },
+            { "regime": "pratihara_dynasty", "label": "Gurjara-Pratihara Dynasty (Gujarat · Rajasthan)", "note": "c.730–1036" }
+          ], "span": 1
+        },
+        { "regime": "pratihara_dynasty", "label": "Gurjara-Pratihara Dynasty — Kannauj hegemon · Tripartite Struggle", "span": 1 },
+        { "stack": [
+            { "regime": "pala_empire", "label": "Pala Empire (Bihar & Bengal)", "note": "c.750–1161" },
+            { "label": "Nalanda · Vikramashila Buddhist universities",       "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "rashtrakuta_dynasty", "label": "Rashtrakuta Dynasty — Ellora · Kailasa temple", "note": "753–982" },
+            { "label": "Eastern Chalukya (Vengi, continuing)",               "note": null }
+          ], "span": 1
+        },
+        { "regime": "chola_empire", "label": "Chola Empire (re-emerging under Vijayalaya)", "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "10th–11th c.", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "regime": "ghaznavid_empire", "label": "Ghaznavid Empire — Mahmud's 17 raids", "note": "977–1186" },
+            { "label": "Rajput kingdoms (Guhila · Chavda · Chahamana)",      "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Rajput kingdoms — Chandela · Paramara · Tomara · Kalachuri", "note": null },
+            { "label": "Pratihara declining → Rajput fragmentation",         "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "pala_empire", "label": "Pala Empire (declining)",   "note": null },
+            { "label": "Kamboja-Pala interlude",                             "note": null },
+            { "label": "Sena Dynasty",                                       "note": "c.1070–1230" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "western_chalukya", "label": "Western Chalukya Empire (Kalyani)", "note": "973–1189" },
+            { "label": "Eastern Chalukya (continuing)",                      "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "chola_empire", "label": "Chola Empire — Rajaraja I · Rajendra I · maritime empire", "note": "985–1070" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "12th–13th c.", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "regime": "ghorid_dynasty", "label": "Ghorid Sultanate — Muhammad of Ghor", "note": "1175–1206" },
+            { "regime": "delhi_sultanate", "label": "Delhi Sultanate (Mamluk / Slave dynasty)", "note": "1206–1290" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Sena Dynasty (falling to Bakhtiyar Khalji 1203)",    "note": null },
+            { "regime": "delhi_sultanate", "label": "Delhi Sultanate expansion into Bengal", "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Yadava dynasty (Devagiri)",                          "note": "c.850–1317" },
+            { "regime": "kakatiya_dynasty", "label": "Kakatiya Dynasty (Warangal)", "note": "1083–1323" },
+            { "label": "Gajapati dynasty (Odisha)",                          "note": "c.1078–1541" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "hoysala_dynasty", "label": "Hoysala Empire (Belur · Halebidu)", "note": "1006–1346" },
+            { "regime": "pandya_dynasty", "label": "Pandya Dynasty (resurgent)", "note": null },
+            { "regime": "chola_empire", "label": "Chola Empire (declining)", "note": "to 1279" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "delhi_sultanate", "label": "Delhi Sultanate (Khalji dynasty) — Alauddin Khalji · Malik Kafur raids Deccan & South", "span": 3, "note": "1290–1320" },
+        { "stack": [
+            { "regime": "delhi_sultanate", "label": "Delhi Sultanate — Khalji conquests in Deccan", "note": "1296–1318" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Madurai Sultanate",                                  "note": "1335–1378" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "14th–15th c.", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "regime": "delhi_sultanate", "label": "Delhi Sultanate (Tughluq dynasty)", "note": "1320–1413" },
+            { "label": "Malwa Sultanate · Gujarat Sultanate · Multan Emirate", "note": null },
+            { "regime": "timurid_empire", "label": "Timurid Empire — Timur sacks Delhi (1398)", "note": null },
+            { "regime": "delhi_sultanate", "label": "Delhi Sultanate (Sayyid dynasty)", "note": "1414–1451" },
+            { "label": "Mewar Kingdom (Rajput resistance)",                  "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "delhi_sultanate", "label": "Delhi Sultanate (Tughluq)",     "note": null },
+            { "label": "Jaunpur Sultanate",                                  "note": "1394–1479" },
+            { "label": "Hindu remnant states",                               "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "bengal_sultanate", "label": "Bengal Sultanate",     "note": "1352–1576" },
+            { "label": "Ilyas Shahi · Hussain Shahi dynasties",              "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "bahmani_sultanate", "label": "Bahmani Sultanate",   "note": "1347–1527" },
+            { "label": "→ Deccan Sultanates (Bijapur · Golconda · Ahmadnagar · Bidar · Berar)", "note": "1490s onward" }
+          ], "span": 1
+        },
+        { "regime": "vijayanagara_empire", "label": "Vijayanagara Empire — last great Hindu empire of South India", "span": 1, "note": "1336–1646" }
+      ]
+    },
+    {
+      "era": { "label": "16th c.", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "regime": "delhi_sultanate", "label": "Delhi Sultanate (Lodi dynasty)", "note": "1451–1526" },
+            { "label": "Babur → Battle of Panipat (1526) → Humayun",        "note": null },
+            { "regime": "sur_empire", "label": "Sur Empire (Sher Shah Suri)", "note": "1540–1556" },
+            { "regime": "mughal_empire", "label": "Mughal Empire — Akbar the Great", "note": "1556 onward" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "regime": "bengal_sultanate", "label": "Bengal Sultanate (to 1576)", "note": null },
+            { "regime": "mughal_empire", "label": "Mughal Empire — Bengal Subah", "note": "1576 onward" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Deccan Sultanates (continuing)",                     "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Madurai Nayak dynasty",                              "note": "1529–1736" },
+            { "regime": "mysore_kingdom", "label": "Mysore Kingdom (Wodeyar)", "note": "from 1399" },
+            { "regime": "vijayanagara_empire", "label": "Vijayanagara (Aravidu dynasty — declining)", "note": null }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "17th c.", "rowspan": 1 },
+      "cells": [
+        { "regime": "mughal_empire", "label": "Mughal Empire — Jahangir · Shah Jahan · Aurangzeb", "span": 3 },
+        { "stack": [
+            { "regime": "mughal_empire", "label": "Mughal conquest of Deccan Sultanates (Aurangzeb)", "note": null },
+            { "regime": "maratha_empire", "label": "Maratha Empire (rising — Shivaji)", "note": "from 1674" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Madurai Nayak (continuing)",                         "note": null },
+            { "regime": "mysore_kingdom", "label": "Mysore Kingdom",        "note": null }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "18th c.", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "regime": "mughal_empire", "label": "Mughal Empire (crumbling)", "note": null },
+            { "regime": "afsharid_dynasty", "label": "Afsharid — Nadir Shah sacks Delhi (1739)", "note": null },
+            { "regime": "durrani_empire", "label": "Durrani Empire (Punjab raids · Battle of Panipat 1761)", "note": null },
+            { "label": "Rajput states · Awadh Nawabate · Rohilkhand",        "note": null },
+            { "regime": "maratha_empire", "label": "Maratha Empire (Peshwa dominance)", "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "mughal_empire", "label": "Mughal Empire (nominal)", "note": null },
+            { "regime": "maratha_empire", "label": "Maratha Empire — controls Delhi (from 1771)", "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Bengal Nawabs (Murshid Quli Khan → Siraj ud-Daulah)", "note": null },
+            { "label": "Battle of Plassey (1757) — British East India Company", "note": null },
+            { "regime": "british_raj", "label": "British Bengal (Company rule)", "note": "from 1757" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Hyderabad (Nizam — Asaf Jahi dynasty)",              "note": "from 1724" },
+            { "regime": "maratha_empire", "label": "Maratha Empire (Deccan heartland)", "note": null },
+            { "label": "Carnatic Sultanate / Nawabate",                      "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "mysore_kingdom", "label": "Mysore Kingdom — Hyder Ali · Tipu Sultan", "note": null },
+            { "label": "Carnatic — Anglo-French wars",                       "note": null },
+            { "regime": "maratha_empire", "label": "Maratha Empire (southern campaigns)", "note": null }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "19th c.", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "regime": "sikh_empire", "label": "Sikh Empire — Ranjit Singh (Punjab)", "note": "1799–1849" },
+            { "label": "Sindh Nawabs · Kalat Khanate",                       "note": null }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "british_raj", "label": "British East India Company — Company Raj", "note": null },
+            { "label": "Anglo-Maratha Wars · Anglo-Mysore Wars · Anglo-Sikh Wars", "note": null },
+            { "label": "Colonisation of the Indian subcontinent",            "note": null }
+          ], "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Sepoy Mutiny / Indian Rebellion (1857–1858)",        "note": null },
+            { "label": "End of Mughal Empire (1857) · Transition from Company to Crown rule", "note": null },
+            { "regime": "british_raj", "label": "British Indian Empire (British Raj)", "note": "1858–1947" }
+          ], "span": 5
+        }
+      ]
+    },
+    {
+      "era": { "label": "20th c.", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "regime": "british_raj", "label": "British Raj — World War I · Non-cooperation · Quit India · World War II", "note": null },
+            { "label": "Statute of Westminster (1931) — Dominion sovereignty", "note": null },
+            { "label": "Post-WWII: Dominion of Pakistan · Dominion of India (1947)", "note": null }
+          ], "span": 5
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "pakistan", "label": "Pakistan (West Pakistan)", "span": 1 },
+        { "regime": "republic_of_india", "label": "Republic of India", "span": 3 },
+        { "stack": [
+            { "label": "East Pakistan (1947–1971)",                          "note": null },
+            { "label": "Bangladesh Liberation War (1971)",                   "note": null },
+            { "label": "People's Republic of Bangladesh",                    "note": "from 1971" }
+          ], "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Magadha (c.600–322 BCE): The dominant Mahajanapada of the Gangetic plain. The Haryanka, Shishunaga, and Nanda dynasties ruled from Rajagriha and Pataliputra. Magadha was the birthplace of both Buddhism (Bodh Gaya) and Jainism (Vaishali), and the base from which the Maurya and Gupta empires unified India.",
+    "Maurya Empire (322–185 BCE): Chandragupta Maurya, guided by Kautilya (Chanakya), overthrew the Nanda dynasty. Ashoka's conquest of Kalinga (c.261 BCE) and subsequent conversion to Buddhism led to the first pan-Indian state and one of the earliest examples of state-sponsored religious tolerance.",
+    "Gupta Empire (c.320–550 CE): The 'Golden Age of India'. Achievements include the decimal numeral system, Aryabhata's astronomy, Kalidasa's poetry, Ajanta cave paintings, and the formalization of Sanskrit grammar. The Gupta collapse under Hunnic invasions fragmented North India for centuries.",
+    "Tripartite Struggle (c.750–1000 CE): The Gurjara-Pratiharas, Rashtrakutas, and Palas fought for control of Kannauj — the symbolic imperial capital of North India. This three-way conflict defined the political geography of early medieval India.",
+    "Chola Empire (c.985–1070): Under Rajaraja I and Rajendra I, the Cholas built a maritime empire that spanned Sri Lanka, the Maldives, and reached the Srivijaya kingdom in Southeast Asia. Rajendra I's naval expedition to the Ganges earned him the title 'Gangaikondachola'. The Brihadeeswarar Temple at Thanjavur remains their greatest architectural legacy.",
+    "Delhi Sultanate (1206–1526): Five successive dynasties (Mamluk, Khalji, Tughluq, Sayyid, Lodi) ruled from Delhi. Alauddin Khalji repelled multiple Mongol invasions. The Sultanate introduced Persian court culture, Islamic architecture (Qutb Minar), and the iqta revenue system to South Asia.",
+    "Mughal Empire (1526–1857): Founded by Babur. Akbar's religious tolerance (Din-i-Ilahi, sulh-i-kul), Shah Jahan's Taj Mahal, and Aurangzeb's maximalist expansion defined the empire. At its peak (c.1700), it governed 150 million people — roughly one-quarter of the world's population — and produced nearly a quarter of global GDP.",
+    "Partition of India (1947): The largest mass migration in human history. 10–20 million displaced; 200,000–2,000,000 killed in communal violence. Pakistan (West & East) created as a Muslim homeland. East Pakistan became Bangladesh after the 1971 Liberation War."
+  ]
+}

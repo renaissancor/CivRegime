@@ -161,8 +161,8 @@
     {
       "era": { "label": "Roman", "rowspan": 1 },
       "cells": [
-        { "regime": "roman_empire", "label": "Roman Macedonia province", "span": 1 },
-        { "regime": "roman_empire", "label": "Roman Achaea province — Athens as cultural centre", "span": 3 }
+        { "regime": "roman_empire_pagan", "label": "Roman Macedonia province", "span": 1 },
+        { "regime": "roman_empire_pagan", "label": "Roman Achaea province — Athens as cultural centre", "span": 3 }
       ]
     },
     {

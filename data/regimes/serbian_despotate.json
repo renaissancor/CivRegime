@@ -1,0 +1,16 @@
+{
+  "id": "serbian_despotate",
+  "name": "Serbian Despotate",
+  "ruling_ethnicity": "serbian",
+  "cultural_language": "serbian",
+  "ideology": {
+    "religion": "eastern_orthodox",
+    "government": "despotate"
+  },
+  "territories": [
+    "balkans"
+  ],
+  "start": 1402,
+  "end": 1459,
+  "note": "Last medieval Serbian state, ruled by the Lazarevic and Brankovic dynasties after the Ottoman defeat at Ankara (1402) gave a reprieve. Stefan Lazarevic made Belgrade the capital. Gradually reduced by Ottoman expansion until the fall of Smederevo (1459)."
+}

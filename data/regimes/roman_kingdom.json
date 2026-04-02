@@ -1,7 +1,7 @@
 {
   "id": "roman_kingdom",
   "name": "Roman Kingdom",
-  "ruling_ethnicity": "latin",
+  "ruling_ethnicity": "roman",
   "cultural_language": "latin",
   "ideology": {
     "religion": "roman_paganism",

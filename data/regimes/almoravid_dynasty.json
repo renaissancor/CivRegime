@@ -1,0 +1,17 @@
+{
+  "id": "almoravid_dynasty",
+  "name": "Almoravid Dynasty",
+  "ruling_ethnicity": "berber",
+  "cultural_language": "classical_arabic",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "theocratic_monarchy"
+  },
+  "territories": [
+    "north_africa",
+    "iberia"
+  ],
+  "start": 1040,
+  "end": 1147,
+  "note": "Saharan Berber dynasty founded on strict Maliki Islamic reform. Yusuf ibn Tashfin defeated Alfonso VI at the Battle of Sagrajas (1086) and halted the Reconquista. Founded Marrakesh as capital. Controlled Morocco, western Algeria, and Muslim Spain (al-Andalus)."
+}

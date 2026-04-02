@@ -38,8 +38,8 @@
     {
       "era": null,
       "cells": [
-        { "regime": "roman_empire", "label": "Roman Empire — Moesia Superior · Dardania provinces", "span": 3 },
-        { "regime": "roman_empire", "label": "Roman Empire — Singidunum (Belgrade)", "span": 1 },
+        { "regime": "roman_empire_pagan", "label": "Roman Empire — Moesia Superior · Dardania provinces", "span": 3 },
+        { "regime": "roman_empire_pagan", "label": "Roman Empire — Singidunum (Belgrade)", "span": 1 },
         { "stack": [
             { "label": "Roman Empire — Pannonia province" },
             { "label": "Iazyges (Sarmatian)",   "note": "Tisza plain, 1st–4th c." }

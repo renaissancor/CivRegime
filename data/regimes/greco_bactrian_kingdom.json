@@ -1,0 +1,17 @@
+{
+  "id": "greco_bactrian_kingdom",
+  "name": "Greco-Bactrian Kingdom",
+  "ruling_ethnicity": "ancient_greek",
+  "cultural_language": "ancient_greek",
+  "ideology": {
+    "religion": "ancient_greek_religion",
+    "government": "monarchy"
+  },
+  "territories": [
+    "transoxiana",
+    "khorasan"
+  ],
+  "start": -256,
+  "end": -125,
+  "note": "Hellenistic successor state in Central Asia. Founded when Diodotus I declared independence from the Seleucids. Controlled Bactria and at times parts of Sogdiana and Gandhara. Remarkable fusion of Greek and Central Asian culture. Fell to Yuezhi/Saka invasions."
+}

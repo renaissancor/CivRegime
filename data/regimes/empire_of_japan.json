@@ -2,7 +2,7 @@
   "id": "empire_of_japan",
   "name": "Empire of Japan (Meiji)",
   "ruling_ethnicity": "yamato",
-  "cultural_language": "japanese",
+  "cultural_language": "japanese_cluster",
   "ideology": {
     "religion": "state_shinto",
     "government": "constitutional_monarchy"

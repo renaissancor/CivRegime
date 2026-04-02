@@ -1,7 +1,7 @@
 {
   "id": "ostrogothic_kingdom",
   "name": "Ostrogothic Kingdom of Italy",
-  "ruling_ethnicity": "germanic",
+  "ruling_ethnicity": "germanic_peoples",
   "cultural_language": "latin",
   "ideology": {
     "religion": "catholic",

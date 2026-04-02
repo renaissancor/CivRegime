@@ -168,14 +168,14 @@
     {
       "era": null,
       "cells": [
-        { "regime": "yuan", "label": "Yuan", "span": 1 },
+        { "regime": "yuan_dynasty", "label": "Yuan", "span": 1 },
         { "stack": [
             { "label": "Yuan — Liaoyang Province" },
             { "label": "Eastern Three Kings" },
             { "label": "Border Goryeo · Sim Wang" }
           ], "span": 2
         },
-        { "regime": "yuan", "label": "Yuan — far north", "span": 1 }
+        { "regime": "yuan_dynasty", "label": "Yuan — far north", "span": 1 }
       ]
     },
     {
@@ -199,7 +199,7 @@
       "era": null,
       "cells": [
         { "label": "Northern Yuan (declining) · Uriyangkhai Three Guards", "span": 1 },
-        { "regime": "ming", "label": "Ming", "span": 1 },
+        { "regime": "ming_dynasty", "label": "Ming", "span": 1 },
         { "label": "Jianzhou · Haixi · Wild Jurchen", "span": 1 },
         { "label": "Wild Jurchen", "span": 1 }
       ]
@@ -217,7 +217,7 @@
     {
       "era": null,
       "cells": [
-        { "regime": "qing", "label": "Qing", "span": 3 },
+        { "regime": "qing_dynasty", "label": "Qing", "span": 3 },
         { "stack": [
             { "label": "Qing" },
             { "label": "Treaty of Nerchinsk", "note": "1689 — Qing–Russia border fixed" }
@@ -228,7 +228,7 @@
     {
       "era": { "label": "19th c.", "rowspan": 2 },
       "cells": [
-        { "regime": "qing", "label": "Qing", "span": 3 },
+        { "regime": "qing_dynasty", "label": "Qing", "span": 3 },
         { "stack": [
             { "label": "Aigun Treaty",          "note": "1858 — Amur to Russia" },
             { "label": "Russian Empire — Amur" }
@@ -239,7 +239,7 @@
     {
       "era": null,
       "cells": [
-        { "regime": "qing", "label": "Qing — declining", "span": 1 },
+        { "regime": "qing_dynasty", "label": "Qing — declining", "span": 1 },
         { "stack": [
             { "label": "Qing" },
             { "label": "Dalian",   "note": "Russian leasehold 1898 · Japanese 1905" }

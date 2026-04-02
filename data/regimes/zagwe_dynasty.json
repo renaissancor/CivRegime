@@ -1,0 +1,16 @@
+{
+  "id": "zagwe_dynasty",
+  "name": "Zagwe Dynasty",
+  "ruling_ethnicity": "cushitic_cluster",
+  "cultural_language": "geez",
+  "ideology": {
+    "religion": "ethiopian_tewahido_church",
+    "government": "monarchy"
+  },
+  "territories": [
+    "nubia"
+  ],
+  "start": 900,
+  "end": 1270,
+  "note": "Ethiopian dynasty ruling from Roha (now Lalibela). King Lalibela commissioned the eleven rock-hewn churches of Lalibela — carved from solid volcanic rock, they are among the most remarkable architectural achievements in Africa. Overthrown by the Solomonic restoration."
+}

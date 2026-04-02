@@ -1,7 +1,7 @@
 {
   "id": "kingdom_of_urartu",
   "name": "Kingdom of Urartu",
-  "ruling_ethnicity": "caucasian",
+  "ruling_ethnicity": "caucasian_peoples",
   "cultural_language": "aramaic",
   "ideology": {
     "religion": "zoroastrianism",

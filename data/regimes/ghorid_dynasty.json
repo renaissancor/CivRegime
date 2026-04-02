@@ -1,0 +1,18 @@
+{
+  "id": "ghorid_dynasty",
+  "name": "Ghorid Sultanate",
+  "ruling_ethnicity": "pashtun",
+  "cultural_language": "new_persian_farsi",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "sultanate"
+  },
+  "territories": [
+    "khorasan",
+    "punjab",
+    "ganges_plain"
+  ],
+  "start": 1148,
+  "end": 1215,
+  "note": "Afghan dynasty from Ghor (central Afghanistan). Muhammad of Ghor defeated the Rajput confederacy at the Second Battle of Tarain (1192) and established Muslim rule over the Ganges plain. His general Qutb ud-Din Aibak founded the Delhi Sultanate. The Ghorids destroyed the last Buddhist monasteries at Nalanda and Vikramashila."
+}

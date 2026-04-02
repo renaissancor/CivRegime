@@ -2,7 +2,7 @@
   "id": "modern_japan",
   "name": "Modern Japan (Postwar)",
   "ruling_ethnicity": "yamato",
-  "cultural_language": "japanese",
+  "cultural_language": "japanese_cluster",
   "ideology": {
     "government": "constitutional_monarchy"
   },

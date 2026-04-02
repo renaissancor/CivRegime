@@ -1,0 +1,18 @@
+{
+  "id": "aq_qoyunlu",
+  "name": "Aq Qoyunlu (White Sheep Turkmen)",
+  "ruling_ethnicity": "turkic_cluster",
+  "cultural_language": "azerbaijani",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "iran_plateau",
+    "mesopotamia",
+    "anatolia"
+  ],
+  "start": 1378,
+  "end": 1508,
+  "note": "Turkmen tribal confederation that dominated Iran and Iraq. Uzun Hasan allied with Venice against the Ottomans. Defeated the Kara Koyunlu and Timurids. Their collapse enabled the Safavid rise — Shah Ismail I defeated the last Aq Qoyunlu ruler at the Battle of Sharur (1501)."
+}

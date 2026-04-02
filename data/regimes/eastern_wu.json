@@ -1,7 +1,7 @@
 {
   "id": "eastern_wu",
   "name": "Eastern Wu",
-  "ruling_ethnicity": "han",
+  "ruling_ethnicity": "han_chinese",
   "cultural_language": "old_chinese",
   "ideology": {
     "religion": "chinese_folk_religion"

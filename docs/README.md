@@ -26,7 +26,7 @@ The authoritative source of all historical data is in `csvs/`:
 - **`csvs/religions.csv`** — Religion hierarchy (tree structure)
 
 ### Generated JSON Output
-Automatically generated from CSVs via `code/csv2json/` scripts:
+Automatically generated from CSVs via `code/makejson/` scripts:
 
 - **`data/states.json`** — All states in a single file
 - **`data/regimes/*.json`** — One JSON file per regime
@@ -52,7 +52,7 @@ Located in `docs/tree/`:
 1. **Single source of truth:** All data originates in CSV files (`csvs/`)
 2. **To make changes:**
    - Edit the appropriate CSV file (using spreadsheet editor or text editor)
-   - Run the generation scripts in `code/csv2json/` to regenerate JSON
+   - Run the generation scripts in `code/makejson/` to regenerate JSON
    - Visualizations automatically load the updated JSON files
 3. **See `CSV_WORKFLOW.md`** for detailed examples and best practices
 
@@ -60,12 +60,12 @@ Located in `docs/tree/`:
 1. **To add a new regime:**
    - Add a row to `csvs/regimes.csv`
    - Ensure it references valid state_id, ethnicity_id, language_id, religion_id
-   - Run: `node code/csv2json/regimes.js`
+   - Run: `node code/makejson/regimes.js`
 
 2. **To add territories and control periods:**
    - Add row to `csvs/territories.csv`
    - Add corresponding rows to `csvs/territory_periods.csv` with the control timeline
-   - Run: `node code/csv2json/territories.js`
+   - Run: `node code/makejson/territories.js`
 
 3. **To reorganize the ethnicity/language/religion hierarchies:**
    - Edit `csvs/ethnicities.csv`, `csvs/languages.csv`, or `csvs/religions.csv`
@@ -129,7 +129,7 @@ Generated JSON files follow this schema:
 ### Directory Structure
 - CSV files: `csvs/*.csv` (source of truth)
 - Generated JSON: `data/states.json`, `data/regimes/*.json`, `data/territories/*.json`
-- Generation scripts: `code/csv2json/*.js`
+- Generation scripts: `code/makejson/*.js`
 
 ## Data Workflow
 
@@ -141,7 +141,7 @@ The new CSV-first architecture:
    - Trees use `parent_id` column for self-referential hierarchy
 
 2. **Generation Phase**
-   - Run `code/csv2json/` scripts to convert CSV → JSON
+   - Run `code/makejson/` scripts to convert CSV → JSON
    - Scripts apply transformations:
      - Convert numeric FK references to semantic IDs
      - Merge related tables (regimes + territories)
@@ -157,7 +157,7 @@ This keeps data maintenance simple (edit CSVs directly) while optimizing fronten
 ## For Developers
 
 ### Code Structure
-- **`code/csv2json/`** — Data generation scripts
+- **`code/makejson/`** — Data generation scripts
   - `states.js` — Converts `csvs/states.csv` → `data/states.json`
   - `regimes.js` — Converts `csvs/regimes.csv` → `data/regimes/*.json`
   - `territories.js` — Merges `csvs/territories.csv` + `csvs/territory_periods.csv` → `data/territories/*.json`
@@ -165,14 +165,15 @@ This keeps data maintenance simple (edit CSVs directly) while optimizing fronten
 ### Running the Pipeline
 ```bash
 # Regenerate all JSON outputs
-node code/csv2json/states.js
-node code/csv2json/regimes.js
-node code/csv2json/territories.js
+npm run make:all
+# Or individually:
+npm run make:regimes
+npm run make:successions
 ```
 
 ### Adding New Data
-- **For a new regime:** Add row to `csvs/regimes.csv`, run `node code/csv2json/regimes.js`
-- **For a new territory:** Add row to `csvs/territories.csv` and control periods to `csvs/territory_periods.csv`, run `node code/csv2json/territories.js`
+- **For a new regime:** Add row to `csvs/regimes.csv`, run `node code/makejson/regimes.js`
+- **For a new territory:** Add row to `csvs/territories.csv` and control periods to `csvs/territory_periods.csv`, run `node code/makejson/territories.js`
 - **For a new ethnic/language/religion:** Add row to the appropriate CSV (tree structure via `parent_id`)
 
 See `data/README.md` for:

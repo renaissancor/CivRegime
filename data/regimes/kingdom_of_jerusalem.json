@@ -1,0 +1,16 @@
+{
+  "id": "kingdom_of_jerusalem",
+  "name": "Kingdom of Jerusalem",
+  "ruling_ethnicity": "french",
+  "cultural_language": "french",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "levant"
+  ],
+  "start": 1099,
+  "end": 1291,
+  "note": "Crusader state founded after the First Crusade's capture of Jerusalem (1099). Godfrey of Bouillon was the first ruler. The kingdom was a feudal patchwork dependent on Italian maritime republics. Lost Jerusalem to Saladin (1187); briefly recovered it by treaty (1229–1244). The last stronghold, Acre, fell in 1291."
+}
