@@ -1,66 +1,73 @@
 {
   "id": "hungary",
-  "title": "History of Hungary (Pannonia · Great Plain · Transylvania)",
+  "title": "History of Hungary (헝가리의 역사)",
   "columns": [
-    { "id": "era",            "name": "Era",                                      "slots": 1, "type": "era" },
-    { "id": "pannonia",       "name": "Pannonia (Transdanubia · West)",           "slots": 1 },
-    { "id": "plain",          "name": "Great Plain (Alföld · Central-East)",      "slots": 1 },
-    { "id": "transylvania",   "name": "Transylvania (Erdély)",                    "slots": 1 }
+    { "id": "era",          "name": "Era",                                   "slots": 1, "type": "era" },
+    { "id": "pannonia",     "name": "Pannonia (Transdanubia · West)",        "slots": 1 },
+    { "id": "plain",        "name": "Great Plain (Alföld · Central-East)",   "slots": 1 },
+    { "id": "transylvania", "name": "Transylvania (Erdély)",                 "slots": 1 }
   ],
   "rows": [
     {
-      "era": { "label": "Ancient", "rowspan": 1 },
+      "era": { "label": "Ancient", "rowspan": 2 },
       "cells": [
         { "stack": [
-            { "label": "Illyrian / Pannonian tribes",            "note": "c.1000–35 BCE" },
-            { "label": "Celtic La Tène culture",                 "note": "c.450–35 BCE" }
+            { "label": "Illyrian / Pannonian tribes",          "note": "c.1000–35 BCE" },
+            { "label": "Celtic La Tène culture",               "note": "c.450–35 BCE" },
+            { "label": "Boii · Taurisci · Azali",             "note": "" }
           ], "span": 1
         },
         { "stack": [
-            { "label": "Scythian tribes",                        "note": "c.600–300 BCE" },
-            { "label": "Sarmatian (Iazyges)",                    "note": "c.50 BCE–380 CE" }
+            { "label": "Scythian tribes",                      "note": "c.600–200 BCE" },
+            { "label": "Sarmatian Iazyges (Great Plain)",      "note": "c.50 BCE–380 CE" }
           ], "span": 1
         },
         { "regime": "dacian_kingdom", "label": "Dacian Kingdom", "note": "82 BCE–106 CE", "span": 1 }
       ]
     },
     {
-      "era": { "label": "Roman", "rowspan": 1 },
+      "era": null,
       "cells": [
         { "stack": [
-            { "regime": "roman_empire_pagan",    "label": "Roman Empire — Pannonia Province",   "note": "35 BCE–380 CE" },
-            { "regime": "roman_empire_christian", "label": "Roman Empire (Christian)",           "note": "380–395" },
-            { "regime": "western_roman_empire",  "label": "Western Roman Empire",               "note": "395–433" }
+            { "regime": "roman_empire_pagan",     "label": "Roman Empire — Pannonia Province", "note": "35 BCE–380 CE" },
+            { "regime": "roman_empire_christian", "label": "Roman Empire (Christian)",         "note": "380–395" },
+            { "regime": "western_roman_empire",   "label": "Western Roman Empire",             "note": "395–433" }
           ], "span": 1
         },
         { "stack": [
-            { "label": "Sarmatian Iazyges (Roman clients)",      "note": "1st–4th c." }
+            { "label": "Sarmatian Iazyges (Roman clients)",   "note": "1st–4th c." }
           ], "span": 1
         },
         { "stack": [
-            { "regime": "roman_empire_pagan", "label": "Roman Empire — Dacia Province",         "note": "106–271 CE" },
-            { "label": "Free Dacians (Carpi)",                   "note": "after 271" }
+            { "regime": "roman_empire_pagan",   "label": "Roman Empire — Dacia Province",     "note": "106–271 CE" },
+            { "label": "Free Dacians / Carpi",               "note": "after 271" }
           ], "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Migration Period", "rowspan": 2 },
+      "era": { "label": "Migration Period", "rowspan": 3 },
       "cells": [
         { "stack": [
-            { "regime": "hunnic_empire", "label": "Hunnic Empire (capital near Tisza)", "note": "433–453" },
-            { "label": "Ostrogothic Kingdom (briefly)",          "note": "453–473" },
-            { "label": "Kingdom of the Rugi",                    "note": "469–487" }
+            { "regime": "hunnic_empire", "label": "Hunnic Empire (capital near Tisza)", "note": "433–453" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Ostrogothic Kingdom (briefly in Pannonia)", "note": "453–473" },
+            { "label": "Lombards (settled Pannonia)",          "note": "547–568" }
           ], "span": 1
         },
         { "stack": [
-            { "regime": "hunnic_empire", "label": "Hunnic Empire (core territory)",  "note": "370–453" },
-            { "label": "Post-Hunnic Gepid Kingdom",              "note": "453–567" }
+            { "label": "Gepid Kingdom (Great Plain · Tisza)",  "note": "454–567" }
           ], "span": 1
         },
         { "stack": [
-            { "regime": "hunnic_empire", "label": "Hunnic Empire",                   "note": "370–453" },
-            { "label": "Gepid Kingdom",                          "note": "453–567" }
+            { "label": "Gepid Kingdom (Transylvania)",         "note": "454–567" }
           ], "span": 1
         }
       ]
@@ -69,39 +76,71 @@
       "era": null,
       "cells": [
         { "stack": [
-            { "regime": "avar_khaganate", "label": "Avar Khaganate",                "note": "568–804" },
-            { "label": "Charlemagne's campaigns destroy Avars",  "note": "791–796" },
-            { "label": "East Frankish / Carolingian frontier",   "note": "804–895" }
+            { "regime": "avar_khaganate", "label": "Avar Khaganate",                  "note": "568–804" },
+            { "label": "Charlemagne destroys Avars",          "note": "791–796" },
+            { "label": "East Frankish frontier march",        "note": "804–895" }
           ], "span": 1
         },
         { "stack": [
             { "regime": "avar_khaganate", "label": "Avar Khaganate (Carpathian core)", "note": "568–804" },
-            { "label": "Bulgar / Slavic settlement",             "note": "700s–895" }
+            { "label": "Bulgarian (First Empire) suzerainty", "note": "804–895" }
           ], "span": 1
         },
         { "stack": [
-            { "regime": "avar_khaganate", "label": "Avar Khaganate",                "note": "568–804" },
-            { "label": "Bulgarian (First Empire) suzerainty",   "note": "804–895" }
+            { "regime": "avar_khaganate", "label": "Avar Khaganate",                  "note": "568–804" },
+            { "label": "Bulgarian (First Empire) suzerainty", "note": "804–895" }
           ], "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Kingdom of Hungary", "rowspan": 3 },
+      "era": { "label": "Medieval Kingdom", "rowspan": 3 },
       "cells": [
         { "stack": [
-            { "label": "Magyar Conquest (Árpád)",                "note": "895–896" },
-            { "regime": "kingdom_of_hungary", "label": "Kingdom of Hungary (Stephen I crowned)", "note": "1000–1301" }
+            { "label": "Magyar Conquest (Árpád)",             "note": "895–896" },
+            { "label": "Hungarian Grand Principality",        "note": "895–1000" },
+            { "regime": "kingdom_of_hungary", "label": "Kingdom of Hungary (Stephen I)", "note": "1000–1116" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "kingdom_of_hungary", "label": "Kingdom of Hungary (Árpád dynasty)", "note": "1116–1301" },
+            { "label": "Golden Bull (1222)",                  "note": "— noble rights charter" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "mongol_empire",       "label": "Mongol Invasion (Battle of Mohi)", "note": "1241–1242" },
+            { "regime": "kingdom_of_hungary",  "label": "Kingdom of Hungary (Angevin then Jagiellonian)", "note": "1301–1526" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": { "label": "Tripartite Division", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Battle of Mohács",                    "note": "1526 — end of medieval Hungary" },
+            { "label": "Royal Hungary (Habsburg)",            "note": "1527–1699" }
           ], "span": 1
         },
         { "stack": [
-            { "label": "Magyar Conquest",                        "note": "895–896" },
-            { "regime": "kingdom_of_hungary", "label": "Kingdom of Hungary", "note": "1000–1301" }
+            { "label": "Battle of Mohács",                   "note": "1526" },
+            { "regime": "ottoman_empire", "label": "Ottoman Hungary (Buda Eyalet)", "note": "1541–1699" }
           ], "span": 1
         },
         { "stack": [
-            { "label": "Magyar Conquest",                        "note": "895–896" },
-            { "regime": "kingdom_of_hungary", "label": "Kingdom of Hungary (Transylvania voivodate)", "note": "1000–1301" }
+            { "label": "Eastern Hungarian Kingdom",          "note": "1526–1570" },
+            { "label": "Principality of Transylvania",       "note": "1570–1711" },
+            { "label": "(Ottoman vassal, de facto autonomous)", "note": "" }
           ], "span": 1
         }
       ]
@@ -110,54 +149,61 @@
       "era": null,
       "cells": [
         { "stack": [
-            { "regime": "mongol_empire", "label": "Mongol Invasion (Battle of Mohi)", "note": "1241–1242" },
-            { "regime": "kingdom_of_hungary", "label": "Kingdom of Hungary (Angevin then Jagiellonian)", "note": "1301–1526" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "mongol_empire", "label": "Mongol Invasion (devastated)",  "note": "1241–1242" },
-            { "regime": "kingdom_of_hungary", "label": "Kingdom of Hungary",        "note": "1301–1526" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "mongol_empire", "label": "Mongol Invasion",               "note": "1241–1242" },
-            { "regime": "kingdom_of_hungary", "label": "Kingdom of Hungary (Transylvania)", "note": "1301–1526" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Battle of Mohács",                       "note": "1526 — end of medieval Hungary" },
-            { "regime": "ottoman_empire", "label": "Ottoman Empire (Buda Eyalet)", "note": "1541–1699" },
-            { "label": "Royal Hungary (Habsburg)",               "note": "1527–1699" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Battle of Mohács",                       "note": "1526" },
-            { "regime": "ottoman_empire", "label": "Ottoman Empire (core of occupied Hungary)", "note": "1526–1699" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Principality of Transylvania",           "note": "1570–1711" },
-            { "label": "(Ottoman vassal, de facto autonomous)",   "note": "" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Habsburg & Modern", "rowspan": 2 },
-      "cells": [
-        { "stack": [
-            { "regime": "habsburg_monarchy", "label": "Habsburg Monarchy (Kingdom of Hungary)", "note": "1699–1867" },
-            { "label": "Austro-Hungarian Empire",                "note": "1867–1918" }
+            { "regime": "habsburg_monarchy", "label": "Habsburg — reconquest of Buda", "note": "1686" },
+            { "regime": "habsburg_monarchy", "label": "Habsburg Kingdom of Hungary",   "note": "1699–1867" }
           ], "span": 2
         },
         { "stack": [
-            { "regime": "habsburg_monarchy", "label": "Habsburg (Transylvania reintegrated)", "note": "1711–1867" },
-            { "label": "Austro-Hungarian Empire",                "note": "1867–1918" }
+            { "label": "Principality of Transylvania",       "note": "–1711" },
+            { "regime": "habsburg_monarchy", "label": "Habsburg (Transylvania reintegrated)", "note": "1711–1867" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Habsburg & Dualist", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "regime": "habsburg_monarchy", "label": "Austrian Empire — Kingdom of Hungary", "note": "1804–1867" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Austro-Hungarian Empire (Transleithania = Hungary)", "note": "1867–1918" },
+            { "label": "WWI → dissolution",                  "note": "1914–1918" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": { "label": "Modern", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "label": "First Hungarian Republic",           "note": "1918–1919" },
+            { "label": "Hungarian Soviet Republic (Béla Kun)", "note": "1919 (133 days)" },
+            { "label": "Romanian occupation",               "note": "1919" },
+            { "label": "Hungarian Republic (transitional)", "note": "1919–1920" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Kingdom of Hungary (Horthy regency)", "note": "1920–1944" },
+            { "label": "Treaty of Trianon (−67% territory)", "note": "1920" },
+            { "label": "WWII — joins Axis",                  "note": "1940" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Trianon → Transylvania to Romania",  "note": "1920" },
+            { "label": "Second Vienna Award (returned)",     "note": "1940–1944" },
+            { "label": "Paris Peace → Romania again",        "note": "1947" }
           ], "span": 1
         }
       ]
@@ -166,25 +212,22 @@
       "era": null,
       "cells": [
         { "stack": [
-            { "label": "Kingdom of Hungary (Horthy regency)",    "note": "1920–1944" },
-            { "label": "Hungarian People's Republic",            "note": "1949–1989" },
-            { "label": "Republic of Hungary",                    "note": "1989–" }
-          ], "span": 2
-        },
-        { "stack": [
-            { "label": "Greater Romania (Treaty of Trianon)",    "note": "1920–" },
-            { "label": "Romanian People's Republic / Romania",   "note": "1947–" }
-          ], "span": 1
+            { "label": "Arrow Cross / Szálasi (Government of National Unity)", "note": "1944–1945" },
+            { "label": "Second Hungarian Republic",          "note": "1946–1949" },
+            { "label": "Hungarian People's Republic",        "note": "1949–1989" },
+            { "label": "Hungarian Revolution",               "note": "1956 — crushed by Soviets" },
+            { "label": "Third Hungarian Republic",           "note": "1989–" }
+          ], "span": 3
         }
       ]
     }
   ],
   "footnotes": [
-    "Attila's capital (c.445–453 CE): Attila's court was located on the Great Plain near the Tisza River; the Hunnic 'Ring' treasury (reportedly enormous) was looted by Charlemagne after destroying the Avar Khaganate, which occupied the same territory and may have inherited Hunnic wealth",
-    "Avar Khaganate (568–804): the Avars occupied the Carpathian Basin for over two centuries, raiding Byzantium and Frankish kingdoms repeatedly; Charlemagne's destruction of the Avars in 791–796 and dismantling of their ring-fortress treasury is one of the great medieval military campaigns",
-    "Magyar Conquest (895–896): the seven Magyar tribes under Árpád crossed the Carpathians and settled the Pannonian Basin, displacing or absorbing Slavic and remnant populations; Stephen I's 1000 CE coronation (with a papal crown from Sylvester II) anchored Hungary in Latin Christendom",
-    "Mongol invasion (1241–1242): the Mongol force under Batu Khan and Subutai annihilated the Hungarian army at Mohi and depopulated much of the Great Plain; they withdrew only when news of the Great Khan Ögedei's death required return to Mongolia; Hungary lost perhaps 20–50% of its population",
-    "Battle of Mohács (1526): the decisive Ottoman victory over Louis II of Hungary ended the independent medieval kingdom; Hungary was divided into three: Ottoman-occupied central Hungary, the Habsburg 'Royal Hungary' in the northwest, and the semi-autonomous Principality of Transylvania in the east — a partition that lasted 173 years",
-    "Treaty of Trianon (1920): Hungary lost two-thirds of its pre-war territory, including Transylvania (to Romania), Slovakia (to Czechoslovakia), and Croatia-Slavonia (to Yugoslavia); the trauma of Trianon remains central to Hungarian national consciousness and politics"
+    "Attila's court (c.445–453): Attila's capital was located on the Great Plain near the Tisza River; his court received Roman ambassadors (Priscus' account is the main source); after Attila's death the Hunnic confederation collapsed almost immediately, the defeated Germanic tribes rising in revolt at the Battle of Nedao (454)",
+    "Gepid Kingdom (454–567): the Gepids, a Germanic people, established a kingdom in the Tisza/Transylvania region after the collapse of Hunnic power; they were destroyed by the Lombard-Avar alliance in 567; the Lombards then vacated Pannonia for Italy in 568, leaving it to the Avars",
+    "Avar Khaganate (568–804): the Avars held the Carpathian Basin for 236 years, conducting devastating raids into Byzantium and Frankish territories; Charlemagne's campaigns of 791–796 destroyed the Avar 'Ring' (a circular fortified capital of legendary wealth) and ended the Avar state",
+    "Battle of Mohács (1526): the decisive Ottoman victory over Louis II of Hungary (who drowned fleeing) ended the unified medieval kingdom; Hungary was then divided three ways — Ottoman-occupied center, Habsburg 'Royal Hungary' in the northwest, and the Principality of Transylvania as an Ottoman vassal in the east — a division lasting 173 years",
+    "Treaty of Trianon (1920): Hungary lost 72% of its territory and 64% of its population; Transylvania went to Romania, Slovakia to Czechoslovakia, Croatia-Slavonia to Yugoslavia; the trauma of Trianon remains the central wound of Hungarian national memory and continues to shape Hungarian politics",
+    "Hungarian Revolution 1956: a nationwide uprising against Soviet-backed rule began on 23 October 1956; revolutionary councils briefly took control of the country; Soviet forces invaded on 4 November, crushing the revolution and killing an estimated 2,500 Hungarians; 200,000 fled as refugees"
   ]
 }
