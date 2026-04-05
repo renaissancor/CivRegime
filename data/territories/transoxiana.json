@@ -1,0 +1,117 @@
+{
+  "id": "transoxiana",
+  "name": "transoxiana",
+  "regime_count": 22,
+  "regimes": [
+    {
+      "regime_id": "achaemenid_empire",
+      "start": -550,
+      "end": -330
+    },
+    {
+      "regime_id": "macedonian_empire",
+      "start": -336,
+      "end": -323
+    },
+    {
+      "regime_id": "goktürk_khaganate",
+      "start": 552,
+      "end": 744
+    },
+    {
+      "regime_id": "umayyad_caliphate",
+      "start": 661,
+      "end": 750
+    },
+    {
+      "regime_id": "abbasid_caliphate",
+      "start": 750,
+      "end": 819
+    },
+    {
+      "regime_id": "samanid_empire",
+      "start": 819,
+      "end": 999
+    },
+    {
+      "regime_id": "ghaznavid_empire",
+      "start": 999,
+      "end": 1040
+    },
+    {
+      "regime_id": "seljuk_empire",
+      "start": 1037,
+      "end": 1194
+    },
+    {
+      "regime_id": "khwarazmian_empire",
+      "start": 1200,
+      "end": 1220
+    },
+    {
+      "regime_id": "mongol_empire",
+      "start": 1206,
+      "end": 1368
+    },
+    {
+      "regime_id": "chagatai_khanate",
+      "start": 1226,
+      "end": 1347
+    },
+    {
+      "regime_id": "timurid_empire",
+      "start": 1370,
+      "end": 1507
+    },
+    {
+      "regime_id": "russian_empire",
+      "start": 1865,
+      "end": 1917
+    },
+    {
+      "regime_id": "soviet_union",
+      "start": 1924,
+      "end": 1991
+    },
+    {
+      "regime_id": "greco_bactrian_kingdom",
+      "start": -256,
+      "end": -125
+    },
+    {
+      "regime_id": "hephthalite_empire",
+      "start": 440,
+      "end": 565
+    },
+    {
+      "regime_id": "kara_khanid_khanate",
+      "start": 840,
+      "end": 1212
+    },
+    {
+      "regime_id": "khanate_of_bukhara",
+      "start": 1500,
+      "end": 1785
+    },
+    {
+      "regime_id": "khanate_of_khiva",
+      "start": 1511,
+      "end": 1920
+    },
+    {
+      "regime_id": "khanate_of_kokand",
+      "start": 1709,
+      "end": 1876
+    },
+    {
+      "regime_id": "kushan_empire",
+      "start": 30,
+      "end": 375
+    },
+    {
+      "regime_id": "qara_khitai",
+      "start": 1124,
+      "end": 1218
+    }
+  ]
+}

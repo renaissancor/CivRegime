@@ -1,0 +1,97 @@
+{
+  "id": "balkans",
+  "name": "balkans",
+  "regime_count": 18,
+  "regimes": [
+    {
+      "regime_id": "roman_republic",
+      "start": -509,
+      "end": -27
+    },
+    {
+      "regime_id": "roman_empire_pagan",
+      "start": -27,
+      "end": 380
+    },
+    {
+      "regime_id": "roman_empire_christian",
+      "start": 380,
+      "end": 395
+    },
+    {
+      "regime_id": "western_roman_empire",
+      "start": 395,
+      "end": 476
+    },
+    {
+      "regime_id": "byzantine_empire",
+      "start": 395,
+      "end": 1453
+    },
+    {
+      "regime_id": "first_bulgarian_empire",
+      "start": 681,
+      "end": 1018
+    },
+    {
+      "regime_id": "serbian_empire",
+      "start": 1190,
+      "end": 1389
+    },
+    {
+      "regime_id": "ottoman_empire",
+      "start": 1299,
+      "end": 1922
+    },
+    {
+      "regime_id": "bosnian_kingdom",
+      "start": 1377,
+      "end": 1463
+    },
+    {
+      "regime_id": "croatian_kingdom",
+      "start": 925,
+      "end": 1102
+    },
+    {
+      "regime_id": "dacian_kingdom",
+      "start": -82,
+      "end": 106
+    },
+    {
+      "regime_id": "kingdom_of_greece",
+      "start": 1832,
+      "end": 1973
+    },
+    {
+      "regime_id": "kingdom_of_romania",
+      "start": 1881,
+      "end": 1947
+    },
+    {
+      "regime_id": "latin_empire",
+      "start": 1204,
+      "end": 1261
+    },
+    {
+      "regime_id": "principality_of_moldavia",
+      "start": 1346,
+      "end": 1859
+    },
+    {
+      "regime_id": "principality_of_wallachia",
+      "start": 1290,
+      "end": 1859
+    },
+    {
+      "regime_id": "second_bulgarian_empire",
+      "start": 1185,
+      "end": 1396
+    },
+    {
+      "regime_id": "serbian_despotate",
+      "start": 1402,
+      "end": 1459
+    }
+  ]
+}

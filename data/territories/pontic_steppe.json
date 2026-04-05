@@ -1,0 +1,52 @@
+{
+  "id": "pontic_steppe",
+  "name": "pontic_steppe",
+  "regime_count": 9,
+  "regimes": [
+    {
+      "regime_id": "hunnic_empire",
+      "start": 350,
+      "end": 453
+    },
+    {
+      "regime_id": "khazar_khaganate",
+      "start": 650,
+      "end": 969
+    },
+    {
+      "regime_id": "kievan_rus_regime",
+      "start": 882,
+      "end": 1240
+    },
+    {
+      "regime_id": "golden_horde",
+      "start": 1242,
+      "end": 1502
+    },
+    {
+      "regime_id": "crimean_khanate",
+      "start": 1441,
+      "end": 1783
+    },
+    {
+      "regime_id": "russian_empire",
+      "start": 1783,
+      "end": 1917
+    },
+    {
+      "regime_id": "soviet_union",
+      "start": 1922,
+      "end": 1991
+    },
+    {
+      "regime_id": "cossack_hetmanate",
+      "start": 1649,
+      "end": 1764
+    },
+    {
+      "regime_id": "kazan_khanate",
+      "start": 1438,
+      "end": 1552
+    }
+  ]
+}

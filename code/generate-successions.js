@@ -206,7 +206,7 @@ regimes.forEach(r => {
   regimesByEth[r.ethStr].push(r);
 });
 
-// Same ethnicity, close in time
+// Same ethnicity, close in time — require shared territory to avoid noise
 Object.values(regimesByEth).forEach(group => {
   if (group.length < 2) return;
   group.sort((a, b) => a.start - b.start);
@@ -214,7 +214,10 @@ Object.values(regimesByEth).forEach(group => {
     for (let j = i + 1; j < group.length; j++) {
       const gap = group[j].start - (group[i].end || group[j].start);
       if (gap > ETH_GAP) break;
-      addEdge(group[i].id, group[j].id, { same_ethnicity: true });
+      const aTerrs = new Set((regimeTerritories[group[i].id] || []).map(t => t.territory_id));
+      const bTerrs = (regimeTerritories[group[j].id] || []).map(t => t.territory_id);
+      const shared = bTerrs.some(t => aTerrs.has(t));
+      if (shared) addEdge(group[i].id, group[j].id, { same_ethnicity: true });
     }
   }
 });

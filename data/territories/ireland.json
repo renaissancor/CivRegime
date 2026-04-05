@@ -1,0 +1,11 @@
+{
+  "id": "ireland",
+  "name": "ireland",
+  "regime_count": 1,
+  "regimes": [
+    {
+      "regime_id": "united_kingdom",
+      "start": 1801
+    }
+  ]
+}

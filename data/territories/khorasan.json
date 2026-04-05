@@ -1,0 +1,131 @@
+{
+  "id": "khorasan",
+  "name": "khorasan",
+  "regime_count": 25,
+  "regimes": [
+    {
+      "regime_id": "achaemenid_empire",
+      "start": -550,
+      "end": -330
+    },
+    {
+      "regime_id": "macedonian_empire",
+      "start": -336,
+      "end": -323
+    },
+    {
+      "regime_id": "parthian_empire",
+      "start": -247,
+      "end": 224
+    },
+    {
+      "regime_id": "sassanid_empire",
+      "start": 224,
+      "end": 651
+    },
+    {
+      "regime_id": "umayyad_caliphate",
+      "start": 661,
+      "end": 750
+    },
+    {
+      "regime_id": "abbasid_caliphate",
+      "start": 750,
+      "end": 821
+    },
+    {
+      "regime_id": "samanid_empire",
+      "start": 819,
+      "end": 999
+    },
+    {
+      "regime_id": "ghaznavid_empire",
+      "start": 977,
+      "end": 1186
+    },
+    {
+      "regime_id": "seljuk_empire",
+      "start": 1037,
+      "end": 1194
+    },
+    {
+      "regime_id": "mongol_empire",
+      "start": 1206,
+      "end": 1368
+    },
+    {
+      "regime_id": "ilkhanate",
+      "start": 1256,
+      "end": 1335
+    },
+    {
+      "regime_id": "timurid_empire",
+      "start": 1370,
+      "end": 1507
+    },
+    {
+      "regime_id": "safavid_empire",
+      "start": 1501,
+      "end": 1736
+    },
+    {
+      "regime_id": "afsharid_dynasty",
+      "start": 1736,
+      "end": 1796
+    },
+    {
+      "regime_id": "qajar_dynasty",
+      "start": 1796,
+      "end": 1925
+    },
+    {
+      "regime_id": "pahlavi_dynasty",
+      "start": 1925,
+      "end": 1979
+    },
+    {
+      "regime_id": "islamic_republic_iran",
+      "start": 1979
+    },
+    {
+      "regime_id": "durrani_empire",
+      "start": 1747,
+      "end": 1826
+    },
+    {
+      "regime_id": "ghorid_dynasty",
+      "start": 1148,
+      "end": 1215
+    },
+    {
+      "regime_id": "greco_bactrian_kingdom",
+      "start": -256,
+      "end": -125
+    },
+    {
+      "regime_id": "hephthalite_empire",
+      "start": 440,
+      "end": 565
+    },
+    {
+      "regime_id": "hotak_dynasty",
+      "start": 1709,
+      "end": 1738
+    },
+    {
+      "regime_id": "kushan_empire",
+      "start": 30,
+      "end": 375
+    },
+    {
+      "regime_id": "kushano_sasanian_kingdom",
+      "start": 230,
+      "end": 365
+    },
+    {
+      "regime_id": "saffarid_dynasty",
+      "start": 861,
+      "end": 1003
+    }
+  ]
+}

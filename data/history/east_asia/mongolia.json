@@ -1,0 +1,408 @@
+{
+  "id": "mongolia",
+  "title": "History of Mongolia",
+  "columns": [
+    { "id": "era",     "name": "Era",                                  "slots": 1, "type": "era" },
+    { "id": "central", "name": "Central / Outer Mongolia",              "slots": 1 },
+    { "id": "west",    "name": "Western Mongolia (Altai · Oirat)",      "slots": 1 },
+    { "id": "north",   "name": "Northern Periphery (Tuva · Buryatia)",  "slots": 1 },
+    { "id": "south",   "name": "Southern Steppe / Inner Mongolia",      "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 11 },
+      "cells": [
+        { "stack": [
+            { "label": "Xiongnu forming", "note": "central steppe confederation" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Yuezhi (月氏)", "note": "~5th–2nd c. BCE, Indo-European nomads" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Donghu (東胡)", "note": "~4th–2nd c. BCE, eastern steppe" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Steppe nomadic peoples" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Xiongnu Empire (匈奴)", "note": "209 BCE – 1st c. CE, Modu Chanyu unifies steppe", "span": 4 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Northern Xiongnu (北匈奴)", "note": "→ expelled westward ~89 CE" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Xianbei (鮮卑) · Wuhuan (烏桓)", "note": "rising in former Donghu lands" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Southern Xiongnu (南匈奴)", "note": "Han dynasty vassals" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Xianbei (鮮卑) — dominant steppe power", "note": "~2nd–4th c., Tiele (鐵勒) Turkic groups emerge", "span": 3 },
+        { "stack": [
+            { "label": "Xianbei branches migrating south" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Rouran Khaganate (柔然)", "note": "~330–555" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Tiele / Gaoche (高車)", "note": "subject to Rouran" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Northern Wei (北魏)", "note": "386–534, Xianbei Tuoba" },
+            { "label": "Western Wei (西魏) · Eastern Wei (東魏)", "note": "534–557" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "First Turkic Khaganate (突厥)", "note": "552–603, defeats Rouran", "span": 3 },
+        { "stack": [
+            { "label": "Northern Zhou (北周)", "note": "557–581" },
+            { "label": "Northern Qi (北齊)", "note": "550–577" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Eastern Turkic Khaganate (東突厥)", "note": "583–630" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Western Turkic Khaganate (西突厥)", "note": "583–659" },
+            { "label": "Shatuo (沙陀)", "note": "Turkic group" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Various Tiele groups" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Sui (隋)", "note": "581–618" },
+            { "label": "Tang (唐)", "note": "from 618" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Xueyantuo (薛延陀)", "note": "628–646" },
+            { "label": "Tang Jimi rule (安北都護府)", "note": "from 630" }
+          ], "span": 3
+        },
+        { "stack": [
+            { "label": "Tang dynasty (唐)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Second Turkic Khaganate (後突厥)", "note": "682–744", "span": 3 },
+        { "stack": [
+            { "label": "Tang dynasty (唐)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Uyghur Khaganate (回鶻)", "note": "744–840, capital Ordu-Baliq", "span": 3 },
+        { "stack": [
+            { "label": "Tang dynasty (唐)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Kyrgyz Khaganate (黠戛斯)", "note": "840–~920s" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kyrgyz (western range)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Shiwei (室韋)", "note": "proto-Mongolic peoples" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Khitan (契丹)", "note": "rising power" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval", "rowspan": 8 },
+      "cells": [
+        { "stack": [
+            { "label": "Zubu (阻卜)", "note": "steppe tribal confederation" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Proto-Mongolic forest peoples" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Liao dynasty (遼)", "note": "907–1125, Khitan" },
+            { "label": "Western Xia (西夏)", "note": "1038–1227, Tangut" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Kerait (克烈)", "note": "central Mongolia" },
+            { "label": "Khamag Mongol (蒙兀國)", "note": "Onon–Kerulen rivers" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Naiman (乃蠻)", "note": "western Mongolia" },
+            { "label": "Western Liao (西遼)", "note": "1124–1218, Qara Khitai" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Merkit (蔑兒乞)", "note": "Baikal region" },
+            { "label": "Tatar (塔塔兒)", "note": "eastern steppe" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Jin dynasty (金)", "note": "1115–1234, Jurchen" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "label": "Mongol Empire (蒙古帝國)", "note": "1206–1271, Chinggis Khan unifies the steppe", "span": 4 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Yuan dynasty (元)", "note": "1271–1368, Kublai Khan" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Chagatai Khanate (察合台汗國)", "note": "1227–1347" },
+            { "label": "Ogedei Khanate (窩闊台汗國)", "note": "1227–1310" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Yuan territory" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Yuan dynasty", "note": "Kipchak Khanate (Golden Horde) · Ilkhanate (distant)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Northern Yuan (北元)", "note": "1368–1635" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Oirat (瓦剌)", "note": "Four Oirat confederation" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Uriankhai (兀良哈)", "note": "forest Mongols" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ming dynasty (明)", "note": "1368–1644" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Khalkha (喀爾喀)", "note": "Left Wing tümen" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Oirat (瓦剌/衛拉特)", "note": "western confederation" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Uriankhai (兀良哈)" },
+            { "label": "Uriankhai Three Guards (兀良哈三衛)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Chahar (察哈爾) · Tümed (土默特)", "note": "Right Wing tümens" },
+            { "label": "Ordos (鄂爾多斯) · Yongshebu (永謝布)" },
+            { "label": "Ming dynasty (明)" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Khalkha (喀爾喀)", "note": "submits to Qing 1691" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Dzungar Khanate (準噶爾)", "note": "1634–1758" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Uriankhai" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Qing dynasty (清)", "note": "from 1636, conquers Chahar 1635" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Outer Mongolia (外蒙古)", "note": "Khalkha Four Aimags under Qing" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Russian Empire", "note": "Treaty of Kyakhta 1727" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Inner Mongolia (内蒙古)", "note": "Qing leagues and banners" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Modern", "rowspan": 4 },
+      "cells": [
+        { "stack": [
+            { "label": "Bogd Khanate", "note": "1911–1919, independence declared" },
+            { "label": "ROC occupation", "note": "1919–1921, Beiyang Government" },
+            { "label": "Bogd Khanate restored", "note": "1921–1924, with Soviet support" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Russian Empire" },
+            { "label": "Uriankhai Republic", "note": "~1911–1914" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Republic of China", "note": "Beiyang Government" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Mongolian People's Republic", "note": "1924–1992" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Soviet Union" },
+            { "label": "Tuvan People's Republic", "note": "1921–1944" },
+            { "label": "Buryat ASSR", "note": "from 1923" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "ROC Nationalist Government" },
+            { "label": "Manchukuo", "note": "1932–1945, eastern Inner Mongolia" },
+            { "label": "Mengjiang (蒙疆)", "note": "1936–1945, Japanese puppet state" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Mongolian People's Republic", "note": "Soviet satellite state" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Soviet Union" },
+            { "label": "Tuva ASSR", "note": "from 1944" },
+            { "label": "Buryat ASSR" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Soviet military administration", "note": "1945" },
+            { "label": "Inner Mongolian People's Republic", "note": "1945, brief" },
+            { "label": "PRC — Inner Mongolia Autonomous Region", "note": "内蒙古自治区, from 1947" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Mongolia (Монгол Улс)", "note": "democratic transition 1990, constitution 1992" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Russian Federation" },
+            { "label": "Tuva Republic (Тыва)", "note": "from 1992" },
+            { "label": "Buryatia Republic (Бурятия)", "note": "from 1992" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "PRC — Inner Mongolia Autonomous Region", "note": "内蒙古自治区" }
+          ], "span": 1
+        }
+      ]
+    }
+  ]
+}

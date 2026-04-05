@@ -1,0 +1,90 @@
+{
+  "id": "punjab",
+  "name": "punjab",
+  "regime_count": 17,
+  "regimes": [
+    {
+      "regime_id": "maurya_empire",
+      "start": -322,
+      "end": -185
+    },
+    {
+      "regime_id": "ghaznavid_empire",
+      "start": 977,
+      "end": 1186
+    },
+    {
+      "regime_id": "delhi_sultanate",
+      "start": 1206,
+      "end": 1526
+    },
+    {
+      "regime_id": "mughal_empire",
+      "start": 1526,
+      "end": 1857
+    },
+    {
+      "regime_id": "sikh_empire",
+      "start": 1799,
+      "end": 1849
+    },
+    {
+      "regime_id": "british_raj",
+      "start": 1858,
+      "end": 1947
+    },
+    {
+      "regime_id": "pakistan",
+      "start": 1947
+    },
+    {
+      "regime_id": "republic_of_india",
+      "start": 1947
+    },
+    {
+      "regime_id": "durrani_empire",
+      "start": 1747,
+      "end": 1826
+    },
+    {
+      "regime_id": "ghorid_dynasty",
+      "start": 1175,
+      "end": 1206
+    },
+    {
+      "regime_id": "hephthalite_empire",
+      "start": 460,
+      "end": 565
+    },
+    {
+      "regime_id": "indo_greek_kingdom",
+      "start": -180,
+      "end": -10
+    },
+    {
+      "regime_id": "indo_parthian_kingdom",
+      "start": -19,
+      "end": 226
+    },
+    {
+      "regime_id": "indo_scythian_kingdom",
+      "start": -200,
+      "end": 400
+    },
+    {
+      "regime_id": "kushan_empire",
+      "start": 30,
+      "end": 375
+    },
+    {
+      "regime_id": "pratihara_dynasty",
+      "start": 730,
+      "end": 1036
+    },
+    {
+      "regime_id": "sur_empire",
+      "start": 1540,
+      "end": 1556
+    }
+  ]
+}

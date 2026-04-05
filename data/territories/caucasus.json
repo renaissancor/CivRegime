@@ -1,0 +1,67 @@
+{
+  "id": "caucasus",
+  "name": "caucasus",
+  "regime_count": 12,
+  "regimes": [
+    {
+      "regime_id": "kingdom_of_urartu",
+      "start": -860,
+      "end": -590
+    },
+    {
+      "regime_id": "median_kingdom",
+      "start": -678,
+      "end": -550
+    },
+    {
+      "regime_id": "achaemenid_empire",
+      "start": -550,
+      "end": -330
+    },
+    {
+      "regime_id": "kingdom_of_armenia",
+      "start": -190,
+      "end": 428
+    },
+    {
+      "regime_id": "sassanid_empire",
+      "start": 224,
+      "end": 651
+    },
+    {
+      "regime_id": "khazar_khaganate",
+      "start": 650,
+      "end": 969
+    },
+    {
+      "regime_id": "bagratid_armenia",
+      "start": 885,
+      "end": 1064
+    },
+    {
+      "regime_id": "ilkhanate",
+      "start": 1256,
+      "end": 1335
+    },
+    {
+      "regime_id": "ottoman_empire",
+      "start": 1299,
+      "end": 1922
+    },
+    {
+      "regime_id": "safavid_empire",
+      "start": 1501,
+      "end": 1736
+    },
+    {
+      "regime_id": "russian_empire",
+      "start": 1801,
+      "end": 1917
+    },
+    {
+      "regime_id": "soviet_union",
+      "start": 1922,
+      "end": 1991
+    }
+  ]
+}

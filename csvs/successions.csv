@@ -113,18 +113,6 @@ seleucid_empire,Seleucid Empire,ptolemaic_egypt,Ptolemaic Kingdom,contraction,7,
 western_jin,Western Jin Dynasty,southern_dynasties,Southern Dynasties,contraction,7,yangtze,1,1,0,1,1,0,104
 ghaznavid_empire,Ghaznavid Empire,khwarazmian_empire,Khwarazmian Empire,contraction,7,,0,1,0,1,1,0,14
 umayyad_caliphate,Umayyad Caliphate,al_andalus,Al-Andalus,contraction,7,,0,1,0,1,1,0,-39
-yarkand_khanate,Yarkand Khanate,khanate_of_kokand,Khanate of Kokand,displacement,7,,0,1,0,1,0,0,4
-united_kingdom,United Kingdom of Great Britain and Ireland,british_raj,British Raj,displacement,7,,0,1,0,1,0,0,0
-angevin_empire,Angevin Empire,latin_empire,Latin Empire,displacement,7,,0,1,0,1,0,0,0
-kingdom_of_egypt,Kingdom of Egypt,kingdom_of_jordan,Hashemite Kingdom of Jordan,displacement,7,,0,1,0,1,0,0,-6
-kingdom_of_egypt,Kingdom of Egypt,republic_of_iraq,Republic of Iraq,displacement,7,,0,1,0,1,0,0,6
-kingdom_of_iraq,Kingdom of Iraq,republic_of_egypt,Republic of Egypt,displacement,7,,0,1,0,1,0,0,-6
-saudi_arabia,Kingdom of Saudi Arabia,kingdom_of_jordan,Hashemite Kingdom of Jordan,displacement,7,,0,1,0,1,0,0,0
-saudi_arabia,Kingdom of Saudi Arabia,republic_of_egypt,Republic of Egypt,displacement,7,,0,1,0,1,0,0,0
-saudi_arabia,Kingdom of Saudi Arabia,republic_of_iraq,Republic of Iraq,displacement,7,,0,1,0,1,0,0,0
-kingdom_of_jordan,Hashemite Kingdom of Jordan,republic_of_egypt,Republic of Egypt,displacement,7,,0,1,0,1,0,0,0
-kingdom_of_jordan,Hashemite Kingdom of Jordan,republic_of_iraq,Republic of Iraq,displacement,7,,0,1,0,1,0,0,0
-republic_of_egypt,Republic of Egypt,republic_of_iraq,Republic of Iraq,displacement,7,,0,1,0,1,0,0,0
 seljuk_rum,Sultanate of Rum,ottoman_empire,Ottoman Empire,expansion,7,anatolia,1,1,0,0,1,0,-8
 nanda_empire,Nanda Empire,maurya_empire,Maurya Empire,expansion,7,ganges_plain,1,1,0,0,1,0,0
 kamarupa_kingdom,Kamarupa Kingdom,pratihara_dynasty,Pratihara Dynasty,expansion,7,ganges_plain,1,1,0,1,1,0,-410
@@ -196,23 +184,6 @@ western_jin,Western Jin Dynasty,northern_dynasties,Northern Dynasties,contractio
 seljuk_empire,Seljuk Empire,timurid_empire,Timurid Empire,contraction,6,,0,1,0,1,1,0,176
 carolingian_empire,Frankish Kingdom / Carolingian Empire,ostrogothic_kingdom,Ostrogothic Kingdom of Italy,contraction,6,,0,1,0,1,1,0,-350
 carolingian_empire,Frankish Kingdom / Carolingian Empire,lombard_kingdom,Kingdom of the Lombards,contraction,6,,0,1,0,1,1,0,-275
-cao_wei,Cao Wei,eastern_wu,Eastern Wu,displacement,6,,0,1,0,1,0,0,-43
-shu_han,Shu Han,eastern_wu,Eastern Wu,displacement,6,,0,1,0,1,0,0,-41
-eastern_jin,Eastern Jin Dynasty,northern_dynasties,Northern Dynasties,displacement,6,,0,1,0,1,0,0,-34
-seljuk_empire,Seljuk Empire,delhi_sultanate,Delhi Sultanate,displacement,6,,0,1,0,1,0,0,12
-khwarazmian_empire,Khwarazmian Empire,delhi_sultanate,Delhi Sultanate,displacement,6,,0,1,0,1,0,0,-14
-madurai_sultanate,Madurai Sultanate,malwa_sultanate,Malwa Sultanate,displacement,6,,0,1,0,1,0,0,14
-madurai_sultanate,Madurai Sultanate,jaunpur_sultanate,Jaunpur Sultanate,displacement,6,,0,1,0,1,0,0,16
-madurai_sultanate,Madurai Sultanate,gujarat_sultanate,Gujarat Sultanate,displacement,6,,0,1,0,1,0,0,29
-timurid_empire,Timurid Empire,mughal_empire,Mughal Empire,displacement,6,,0,1,0,1,0,0,19
-rashidun_caliphate,Rashidun Caliphate,al_andalus,Al-Andalus,displacement,6,,0,1,0,1,0,0,50
-vandal_kingdom,Vandal Kingdom of North Africa,carolingian_empire,Frankish Kingdom / Carolingian Empire,displacement,6,,0,1,0,1,0,0,-47
-vandal_kingdom,Vandal Kingdom of North Africa,ostrogothic_kingdom,Ostrogothic Kingdom of Italy,displacement,6,,0,1,0,1,0,0,-40
-vandal_kingdom,Vandal Kingdom of North Africa,lombard_kingdom,Kingdom of the Lombards,displacement,6,,0,1,0,1,0,0,35
-kingdom_of_egypt,Kingdom of Egypt,kingdom_of_iraq,Kingdom of Iraq,displacement,6,,0,1,0,1,0,0,-31
-kingdom_of_egypt,Kingdom of Egypt,saudi_arabia,Kingdom of Saudi Arabia,displacement,6,,0,1,0,1,0,0,-20
-kingdom_of_iraq,Kingdom of Iraq,saudi_arabia,Kingdom of Saudi Arabia,displacement,6,,0,1,0,1,0,0,-26
-kingdom_of_iraq,Kingdom of Iraq,kingdom_of_jordan,Hashemite Kingdom of Jordan,displacement,6,,0,1,0,1,0,0,-12
 kingdom_of_england,Kingdom of England,kingdom_of_great_britain,Kingdom of Great Britain,expansion,6,britannia,1,1,0,0,0,0,0
 median_kingdom,Median Kingdom,achaemenid_empire,Achaemenid Empire,expansion,6,caucasus|iran_plateau,2,0,1,0,1,0,0
 bahmani_sultanate,Bahmani Sultanate,mughal_empire,Mughal Empire,expansion,6,deccan,1,1,0,0,0,0,-1
@@ -296,81 +267,6 @@ kara_khanid_khanate,Kara-Khanid Khanate,khanate_of_khiva,Khanate of Khiva,contra
 ghaznavid_empire,Ghaznavid Empire,timurid_empire,Timurid Empire,contraction,5,,0,1,0,1,0,0,184
 rashidun_caliphate,Rashidun Caliphate,fatimid_caliphate,Fatimid Caliphate,contraction,5,,0,1,0,1,0,0,248
 umayyad_caliphate,Umayyad Caliphate,fatimid_caliphate,Fatimid Caliphate,contraction,5,,0,1,0,1,0,0,159
-cao_wei,Cao Wei,eastern_jin,Eastern Jin Dynasty,displacement,5,,0,1,0,1,0,0,52
-cao_wei,Cao Wei,southern_dynasties,Southern Dynasties,displacement,5,,0,1,0,1,0,0,155
-shu_han,Shu Han,eastern_jin,Eastern Jin Dynasty,displacement,5,,0,1,0,1,0,0,54
-shu_han,Shu Han,southern_dynasties,Southern Dynasties,displacement,5,,0,1,0,1,0,0,157
-eastern_wu,Eastern Wu,northern_dynasties,Northern Dynasties,displacement,5,,0,1,0,1,0,0,106
-northern_dynasties,Northern Dynasties,southern_dynasties,Southern Dynasties,displacement,5,,0,1,0,1,0,0,-161
-five_dynasties,Five Dynasties (North China),ten_kingdoms,Ten Kingdoms (South China),displacement,5,,0,1,0,1,0,0,-53
-five_dynasties,Five Dynasties (North China),southern_song,Southern Song Dynasty,displacement,5,,0,1,0,1,0,0,167
-macedonian_empire,Macedonian Empire (Alexander),indo_greek_kingdom,Indo-Greek Kingdom,displacement,5,,0,1,0,1,0,0,143
-greco_bactrian_kingdom,Greco-Bactrian Kingdom,indo_greek_kingdom,Indo-Greek Kingdom,displacement,5,,0,1,0,1,0,0,-55
-vakataka_dynasty,Vakataka Dynasty,gupta_empire,Gupta Empire,displacement,5,,0,1,0,1,0,0,-180
-vakataka_dynasty,Vakataka Dynasty,kamarupa_kingdom,Kamarupa Kingdom,displacement,5,,0,1,0,1,0,0,-150
-vakataka_dynasty,Vakataka Dynasty,harsha_empire,Harsha Empire,displacement,5,,0,1,0,1,0,0,106
-vakataka_dynasty,Vakataka Dynasty,pratihara_dynasty,Pratihara Dynasty,displacement,5,,0,1,0,1,0,0,230
-gupta_empire,Gupta Empire,yadava_dynasty,Yadava Dynasty (Devagiri),displacement,5,,0,1,0,1,0,0,300
-kamarupa_kingdom,Kamarupa Kingdom,yadava_dynasty,Yadava Dynasty (Devagiri),displacement,5,,0,1,0,1,0,0,-290
-harsha_empire,Harsha Empire,yadava_dynasty,Yadava Dynasty (Devagiri),displacement,5,,0,1,0,1,0,0,203
-pratihara_dynasty,Pratihara Dynasty,yadava_dynasty,Yadava Dynasty (Devagiri),displacement,5,,0,1,0,1,0,0,-186
-yadava_dynasty,Yadava Dynasty (Devagiri),sena_dynasty,Sena Dynasty,displacement,5,,0,1,0,1,0,0,-247
-yadava_dynasty,Yadava Dynasty (Devagiri),gajapati_dynasty,Gajapati Dynasty (Odisha),displacement,5,,0,1,0,1,0,0,-239
-goktürk_khaganate,Göktürk Khaganate,khazar_khaganate,Khazar Khaganate,displacement,5,,0,1,0,1,0,0,-94
-khazar_khaganate,Khazar Khaganate,ghaznavid_empire,Ghaznavid Empire,displacement,5,,0,1,0,0,0,0,8
-kara_khanid_khanate,Kara-Khanid Khanate,delhi_sultanate,Delhi Sultanate,displacement,5,,0,1,0,0,0,0,-6
-ikhshidid_dynasty,Ikhshidid Dynasty,ghaznavid_empire,Ghaznavid Empire,displacement,5,,0,1,0,0,0,0,8
-ghaznavid_empire,Ghaznavid Empire,seljuk_rum,Sultanate of Rum,displacement,5,,0,1,0,1,0,0,-109
-seljuk_empire,Seljuk Empire,seljuk_rum,Sultanate of Rum,displacement,5,,0,1,0,1,0,0,-117
-seljuk_rum,Sultanate of Rum,khwarazmian_empire,Khwarazmian Empire,displacement,5,,0,1,0,1,0,0,-107
-seljuk_rum,Sultanate of Rum,delhi_sultanate,Delhi Sultanate,displacement,5,,0,1,0,1,0,0,-101
-seljuk_rum,Sultanate of Rum,timurid_empire,Timurid Empire,displacement,5,,0,1,0,1,0,0,63
-seljuk_rum,Sultanate of Rum,mughal_empire,Mughal Empire,displacement,5,,0,1,0,1,0,0,219
-delhi_sultanate,Delhi Sultanate,timurid_empire,Timurid Empire,displacement,5,,0,1,0,1,0,0,-156
-mamluk_sultanate,Mamluk Sultanate,bahmani_sultanate,Bahmani Sultanate,displacement,5,,0,1,0,1,0,0,-170
-mamluk_sultanate,Mamluk Sultanate,khanate_of_khiva,Khanate of Khiva,displacement,5,,0,1,0,0,0,0,-6
-mamluk_sultanate,Mamluk Sultanate,yarkand_khanate,Yarkand Khanate,displacement,5,,0,1,0,0,0,0,-3
-mamluk_sultanate,Mamluk Sultanate,mughal_empire,Mughal Empire,displacement,5,,0,1,0,0,0,0,9
-madurai_sultanate,Madurai Sultanate,timurid_empire,Timurid Empire,displacement,5,,0,1,0,0,0,0,-8
-madurai_sultanate,Madurai Sultanate,kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),displacement,5,,0,1,0,0,0,0,-4
-madurai_sultanate,Madurai Sultanate,aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),displacement,5,,0,1,0,0,0,0,0
-timurid_empire,Timurid Empire,yarkand_khanate,Yarkand Khanate,displacement,5,,0,1,0,0,0,0,7
-kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),kazakh_khanate,Kazakh Khanate,displacement,5,,0,1,0,0,0,0,-3
-aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),khanate_of_bukhara,Khanate of Bukhara,displacement,5,,0,1,0,0,0,0,-8
-aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),khanate_of_khiva,Khanate of Khiva,displacement,5,,0,1,0,0,0,0,3
-aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),yarkand_khanate,Yarkand Khanate,displacement,5,,0,1,0,0,0,0,6
-malwa_sultanate,Malwa Sultanate,gujarat_sultanate,Gujarat Sultanate,displacement,5,,0,1,0,1,0,0,-155
-malwa_sultanate,Malwa Sultanate,hyderabad_state,Nizam of Hyderabad,displacement,5,,0,1,0,1,0,0,162
-jaunpur_sultanate,Jaunpur Sultanate,gujarat_sultanate,Gujarat Sultanate,displacement,5,,0,1,0,1,0,0,-72
-jaunpur_sultanate,Jaunpur Sultanate,hyderabad_state,Nizam of Hyderabad,displacement,5,,0,1,0,1,0,0,245
-gujarat_sultanate,Gujarat Sultanate,hyderabad_state,Nizam of Hyderabad,displacement,5,,0,1,0,1,0,0,151
-crimean_khanate,Crimean Khanate,kazakh_khanate,Kazakh Khanate,displacement,5,,0,1,0,1,0,0,-318
-kazakh_khanate,Kazakh Khanate,hyderabad_state,Nizam of Hyderabad,displacement,5,,0,1,0,0,0,0,-7
-khanate_of_bukhara,Khanate of Bukhara,yarkand_khanate,Yarkand Khanate,displacement,5,,0,1,0,1,0,0,-271
-khanate_of_khiva,Khanate of Khiva,yarkand_khanate,Yarkand Khanate,displacement,5,,0,1,0,1,0,0,-406
-khanate_of_khiva,Khanate of Khiva,republic_of_turkey,Republic of Turkey,displacement,5,,0,1,0,0,0,0,3
-nabataean_kingdom,Nabataean Kingdom,palmyrene_empire,Palmyrene Empire,displacement,5,,0,1,0,1,0,0,154
-al_andalus,Al-Andalus,abbasid_caliphate,Abbasid Caliphate,displacement,5,,0,1,0,1,0,0,-742
-al_andalus,Al-Andalus,fatimid_caliphate,Fatimid Caliphate,displacement,5,,0,1,0,1,0,0,-583
-hephthalite_empire,Hephthalite Empire,avar_khaganate,Avar Khaganate,displacement,5,,0,1,0,0,0,0,3
-visigothic_kingdom,Visigothic Kingdom,vandal_kingdom,Vandal Kingdom of North Africa,displacement,5,,0,1,0,1,0,0,-282
-visigothic_kingdom,Visigothic Kingdom,odoacer_kingdom,Kingdom of Odoacer,displacement,5,,0,1,0,1,0,0,-235
-visigothic_kingdom,Visigothic Kingdom,carolingian_empire,Frankish Kingdom / Carolingian Empire,displacement,5,,0,1,0,1,0,0,-225
-visigothic_kingdom,Visigothic Kingdom,ostrogothic_kingdom,Ostrogothic Kingdom of Italy,displacement,5,,0,1,0,1,0,0,-218
-visigothic_kingdom,Visigothic Kingdom,lombard_kingdom,Kingdom of the Lombards,displacement,5,,0,1,0,1,0,0,-143
-vandal_kingdom,Vandal Kingdom of North Africa,odoacer_kingdom,Kingdom of Odoacer,displacement,5,,0,1,0,1,0,0,-57
-novgorod_republic,Novgorod Republic,cossack_hetmanate,Cossack Hetmanate,displacement,5,,0,1,0,1,0,0,171
-galicia_volhynia,Principality of Galicia-Volhynia,cossack_hetmanate,Cossack Hetmanate,displacement,5,,0,1,0,1,0,0,300
-liao_dynasty,Liao Dynasty (Khitan),qara_khitai,Qara Khitai (Western Liao),displacement,5,,0,1,0,0,0,0,-1
-kingdom_of_great_britain,Kingdom of Great Britain,british_raj,British Raj,displacement,5,,0,1,0,1,0,0,57
-teutonic_order,Teutonic Order (Monastic State),habsburg_monarchy,Habsburg Monarchy,displacement,5,,0,1,0,1,0,0,-87
-kingdom_of_france,Kingdom of France,kingdom_of_jerusalem,Kingdom of Jerusalem,displacement,5,,0,1,0,1,0,0,-693
-kingdom_of_france,Kingdom of France,latin_empire,Latin Empire,displacement,5,,0,1,0,1,0,0,-588
-kingdom_of_jerusalem,Kingdom of Jerusalem,angevin_empire,Angevin Empire,displacement,5,,0,1,0,1,0,0,-137
-kingdom_of_jerusalem,Kingdom of Jerusalem,latin_empire,Latin Empire,displacement,5,,0,1,0,1,0,0,-87
-yuan_dynasty,Yuan Dynasty,north_yuan,North Yuan,displacement,5,,0,1,0,0,0,0,0
-north_yuan,North Yuan,dzungar_khanate,Dzungar Khanate,displacement,5,,0,1,0,0,0,0,-1
-north_yuan,North Yuan,khoshut_khanate,Khoshut Khanate,displacement,5,,0,1,0,0,0,0,7
 chagatai_khanate,Chagatai Khanate,golden_horde,Golden Horde,expansion,5,central_asian_steppe,1,1,0,0,1,0,-105
 maratha_empire,Maratha Empire,republic_of_india,Republic of India,expansion,5,deccan,1,1,0,0,1,0,129
 mamluk_sultanate,Mamluk Sultanate,ottoman_empire,Ottoman Empire,expansion,5,egypt|levant,2,1,0,0,0,0,-218
@@ -491,57 +387,22 @@ seljuk_empire,Seljuk Empire,zangid_atabegate,Zangid Atabegate,contraction,4,meso
 roman_empire_pagan,Roman Empire (Pagan),vandal_kingdom,Vandal Kingdom of North Africa,contraction,4,north_africa,1,0,0,1,0,0,49
 almoravid_dynasty,Almoravid Dynasty,hafsid_dynasty,Hafsid Dynasty,contraction,4,north_africa,1,0,0,1,1,0,82
 almoravid_dynasty,Almoravid Dynasty,marinid_dynasty,Marinid Dynasty,contraction,4,north_africa,1,0,0,1,1,0,97
-rustamid_dynasty,Rustamid Dynasty,saffarid_dynasty,Saffarid Dynasty,displacement,4,,0,1,0,0,0,0,-48
-rustamid_dynasty,Rustamid Dynasty,buyid_dynasty,Buyid Dynasty,displacement,4,,0,1,0,0,0,0,25
-khazar_khaganate,Khazar Khaganate,ikhshidid_dynasty,Ikhshidid Dynasty,displacement,4,,0,1,0,0,0,0,-34
-uyghur_khaganate,Uyghur Khaganate,tulunid_dynasty,Tulunid Dynasty,displacement,4,,0,1,0,0,0,0,28
-kara_khanid_khanate,Kara-Khanid Khanate,mamluk_sultanate,Mamluk Sultanate,displacement,4,,0,1,0,0,0,0,38
-seljuk_rum,Sultanate of Rum,madurai_sultanate,Madurai Sultanate,displacement,4,,0,1,0,0,0,0,28
-seljuk_rum,Sultanate of Rum,bahmani_sultanate,Bahmani Sultanate,displacement,4,,0,1,0,0,0,0,40
-seljuk_rum,Sultanate of Rum,bengal_sultanate,Bengal Sultanate,displacement,4,,0,1,0,0,0,0,45
-zangid_atabegate,Zangid Atabegate,khwarazmian_empire,Khwarazmian Empire,displacement,4,,0,1,0,0,0,0,-50
-zangid_atabegate,Zangid Atabegate,delhi_sultanate,Delhi Sultanate,displacement,4,,0,1,0,0,0,0,-44
-khwarazmian_empire,Khwarazmian Empire,mamluk_sultanate,Mamluk Sultanate,displacement,4,,0,1,0,0,0,0,30
-delhi_sultanate,Delhi Sultanate,khanate_of_bukhara,Khanate of Bukhara,displacement,4,,0,1,0,0,0,0,-26
-delhi_sultanate,Delhi Sultanate,khanate_of_khiva,Khanate of Khiva,displacement,4,,0,1,0,0,0,0,-15
-delhi_sultanate,Delhi Sultanate,yarkand_khanate,Yarkand Khanate,displacement,4,,0,1,0,0,0,0,-12
-mamluk_sultanate,Mamluk Sultanate,khanate_of_bukhara,Khanate of Bukhara,displacement,4,,0,1,0,0,0,0,-17
-madurai_sultanate,Madurai Sultanate,bengal_sultanate,Bengal Sultanate,displacement,4,,0,1,0,0,0,0,-26
-bahmani_sultanate,Bahmani Sultanate,khanate_of_bukhara,Khanate of Bukhara,displacement,4,,0,1,0,0,0,0,-27
-bahmani_sultanate,Bahmani Sultanate,khanate_of_khiva,Khanate of Khiva,displacement,4,,0,1,0,0,0,0,-16
-bahmani_sultanate,Bahmani Sultanate,yarkand_khanate,Yarkand Khanate,displacement,4,,0,1,0,0,0,0,-13
-timurid_empire,Timurid Empire,kazakh_khanate,Kazakh Khanate,displacement,4,,0,1,0,0,0,0,-42
-kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),crimean_khanate,Crimean Khanate,displacement,4,,0,1,0,0,0,0,-27
-kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),khanate_of_bukhara,Khanate of Bukhara,displacement,4,,0,1,0,0,0,0,32
-kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),khanate_of_khiva,Khanate of Khiva,displacement,4,,0,1,0,0,0,0,43
-kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),yarkand_khanate,Yarkand Khanate,displacement,4,,0,1,0,0,0,0,46
-aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),kazakh_khanate,Kazakh Khanate,displacement,4,,0,1,0,0,0,0,-43
-aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),mughal_empire,Mughal Empire,displacement,4,,0,1,0,0,0,0,18
-malwa_sultanate,Malwa Sultanate,yarkand_khanate,Yarkand Khanate,displacement,4,,0,1,0,0,0,0,-48
-jaunpur_sultanate,Jaunpur Sultanate,crimean_khanate,Crimean Khanate,displacement,4,,0,1,0,0,0,0,-38
-jaunpur_sultanate,Jaunpur Sultanate,kazakh_khanate,Kazakh Khanate,displacement,4,,0,1,0,0,0,0,-14
-jaunpur_sultanate,Jaunpur Sultanate,khanate_of_bukhara,Khanate of Bukhara,displacement,4,,0,1,0,0,0,0,21
-jaunpur_sultanate,Jaunpur Sultanate,khanate_of_khiva,Khanate of Khiva,displacement,4,,0,1,0,0,0,0,32
-jaunpur_sultanate,Jaunpur Sultanate,yarkand_khanate,Yarkand Khanate,displacement,4,,0,1,0,0,0,0,35
-kazakh_khanate,Kazakh Khanate,khanate_of_kokand,Khanate of Kokand,displacement,4,,0,1,0,0,0,0,-22
-yarkand_khanate,Yarkand Khanate,hyderabad_state,Nizam of Hyderabad,displacement,4,,0,1,0,0,0,0,19
-khanate_of_kokand,Khanate of Kokand,republic_of_turkey,Republic of Turkey,displacement,4,,0,1,0,0,0,0,47
-hyderabad_state,Nizam of Hyderabad,republic_of_turkey,Republic of Turkey,displacement,4,,0,1,0,0,0,0,-25
-kushan_empire,Kushan Empire,hunnic_empire,Hunnic Empire,displacement,4,,0,1,0,0,0,0,-25
-hunnic_empire,Hunnic Empire,hephthalite_empire,Hephthalite Empire,displacement,4,,0,1,0,0,0,0,-13
-chagatai_khanate,Chagatai Khanate,jalayirid_sultanate,Jalayirid Sultanate,displacement,4,,0,1,0,0,0,0,-12
-chagatai_khanate,Chagatai Khanate,north_yuan,North Yuan,displacement,4,,0,1,0,0,0,0,21
-ilkhanate,Ilkhanate,moghulistan,Moghulistan Khanate,displacement,4,,0,1,0,0,0,0,12
-ilkhanate,Ilkhanate,north_yuan,North Yuan,displacement,4,,0,1,0,0,0,0,33
-yuan_dynasty,Yuan Dynasty,jalayirid_sultanate,Jalayirid Sultanate,displacement,4,,0,1,0,0,0,0,-33
-yuan_dynasty,Yuan Dynasty,moghulistan,Moghulistan Khanate,displacement,4,,0,1,0,0,0,0,-21
-mahdist_state,Mahdist State,kingdom_of_iraq,Kingdom of Iraq,displacement,4,,0,1,0,0,0,0,23
-mahdist_state,Mahdist State,saudi_arabia,Kingdom of Saudi Arabia,displacement,4,,0,1,0,0,0,0,34
-mahdist_state,Mahdist State,kingdom_of_jordan,Hashemite Kingdom of Jordan,displacement,4,,0,1,0,0,0,0,48
 gupta_empire,Gupta Empire,chalukya_dynasty,Chalukya Dynasty (Badami),displacement,4,,0,0,0,1,0,0,-7
+kingdom_of_egypt,Kingdom of Egypt,kingdom_of_jordan,Hashemite Kingdom of Jordan,displacement,4,,0,0,0,1,0,0,-6
+kingdom_of_egypt,Kingdom of Egypt,republic_of_iraq,Republic of Iraq,displacement,4,,0,0,0,1,0,0,6
+kingdom_of_iraq,Kingdom of Iraq,republic_of_egypt,Republic of Egypt,displacement,4,,0,0,0,1,0,0,-6
+saudi_arabia,Kingdom of Saudi Arabia,kingdom_of_jordan,Hashemite Kingdom of Jordan,displacement,4,,0,0,0,1,0,0,0
+saudi_arabia,Kingdom of Saudi Arabia,republic_of_egypt,Republic of Egypt,displacement,4,,0,0,0,1,0,0,0
+saudi_arabia,Kingdom of Saudi Arabia,republic_of_iraq,Republic of Iraq,displacement,4,,0,0,0,1,0,0,0
+kingdom_of_jordan,Hashemite Kingdom of Jordan,republic_of_egypt,Republic of Egypt,displacement,4,,0,0,0,1,0,0,0
+kingdom_of_jordan,Hashemite Kingdom of Jordan,republic_of_iraq,Republic of Iraq,displacement,4,,0,0,0,1,0,0,0
+republic_of_egypt,Republic of Egypt,republic_of_iraq,Republic of Iraq,displacement,4,,0,0,0,1,0,0,0
+angevin_empire,Angevin Empire,latin_empire,Latin Empire,displacement,4,,0,0,0,1,0,0,0
+united_kingdom,United Kingdom of Great Britain and Ireland,british_raj,British Raj,displacement,4,,0,0,0,1,0,0,0
 ikhshidid_dynasty,Ikhshidid Dynasty,zirid_dynasty,Zirid Dynasty,displacement,4,,0,0,0,1,0,0,3
 zangid_atabegate,Zangid Atabegate,marinid_dynasty,Marinid Dynasty,displacement,4,,0,0,0,1,0,0,-6
 alawite_dynasty,Alawite Dynasty (Morocco),mahdist_state,Mahdist State,displacement,4,,0,0,0,1,0,0,0
+yarkand_khanate,Yarkand Khanate,khanate_of_kokand,Khanate of Kokand,displacement,4,,0,0,0,1,0,0,4
 neo_assyrian_empire,Neo-Assyrian Empire,achaemenid_empire,Achaemenid Empire,expansion,4,anatolia|egypt|levant|mesopotamia,4,0,0,0,0,0,59
 seljuk_rum,Sultanate of Rum,aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),expansion,4,anatolia,1,1,0,0,0,0,71
 himyarite_kingdom,Himyarite Kingdom,rashidun_caliphate,Rashidun Caliphate,expansion,4,arabia,1,1,0,0,0,0,107
@@ -682,260 +543,29 @@ peoples_republic_of_china,People's Republic of China,balhae,Balhae (Bohai),contr
 roman_empire_christian,Roman Empire (Christian),lombard_kingdom,Kingdom of the Lombards,contraction,3,,0,0,0,1,1,0,173
 ghorid_dynasty,Ghorid Sultanate,malwa_sultanate,Malwa Sultanate,contraction,3,,0,0,0,1,1,0,177
 ghorid_dynasty,Ghorid Sultanate,jaunpur_sultanate,Jaunpur Sultanate,contraction,3,,0,0,0,1,1,0,179
-phoenician_states,"Phoenician City-States (Tyre, Sidon, Byblos)",carthage,Carthage (Phoenician City-State),displacement,3,,0,1,0,0,0,0,-482
-sassanid_empire,Sassanid Empire,rustamid_dynasty,Rustamid Dynasty,displacement,3,,0,1,0,0,0,0,125
-rustamid_dynasty,Rustamid Dynasty,samanid_empire,Samanid Empire,displacement,3,,0,1,0,0,0,0,-90
-samanid_empire,Samanid Empire,buyid_dynasty,Buyid Dynasty,displacement,3,,0,1,0,0,0,0,-65
-seleucid_empire,Seleucid Empire,greco_bactrian_kingdom,Greco-Bactrian Kingdom,displacement,3,,0,1,0,0,0,0,-193
-seleucid_empire,Seleucid Empire,indo_greek_kingdom,Indo-Greek Kingdom,displacement,3,,0,1,0,0,0,0,-117
-ptolemaic_egypt,Ptolemaic Kingdom,greco_bactrian_kingdom,Greco-Bactrian Kingdom,displacement,3,,0,1,0,0,0,0,-226
-ptolemaic_egypt,Ptolemaic Kingdom,indo_greek_kingdom,Indo-Greek Kingdom,displacement,3,,0,1,0,0,0,0,-150
-vakataka_dynasty,Vakataka Dynasty,pala_empire,Pala Empire,displacement,3,,0,1,0,0,0,0,250
-pala_empire,Pala Empire,yadava_dynasty,Yadava Dynasty (Devagiri),displacement,3,,0,1,0,0,0,0,-350
-gajapati_dynasty,Gajapati Dynasty (Odisha),maratha_empire,Maratha Empire,displacement,3,,0,1,0,0,0,0,133
-maratha_empire,Maratha Empire,pakistan,Pakistan,displacement,3,,0,1,0,0,0,0,129
-parthian_empire,Parthian Empire (Arsacid),indo_parthian_kingdom,Indo-Parthian Kingdom,displacement,3,,0,1,0,0,0,0,-243
-goktürk_khaganate,Göktürk Khaganate,tulunid_dynasty,Tulunid Dynasty,displacement,3,,0,1,0,0,0,0,124
-goktürk_khaganate,Göktürk Khaganate,ikhshidid_dynasty,Ikhshidid Dynasty,displacement,3,,0,1,0,0,0,0,191
-khazar_khaganate,Khazar Khaganate,uyghur_khaganate,Uyghur Khaganate,displacement,3,,0,1,0,0,0,0,-225
-khazar_khaganate,Khazar Khaganate,kara_khanid_khanate,Kara-Khanid Khanate,displacement,3,,0,1,0,0,0,0,-129
-khazar_khaganate,Khazar Khaganate,tulunid_dynasty,Tulunid Dynasty,displacement,3,,0,1,0,0,0,0,-101
-khazar_khaganate,Khazar Khaganate,seljuk_empire,Seljuk Empire,displacement,3,,0,1,0,0,0,0,68
-khazar_khaganate,Khazar Khaganate,seljuk_rum,Sultanate of Rum,displacement,3,,0,1,0,0,0,0,108
-khazar_khaganate,Khazar Khaganate,zangid_atabegate,Zangid Atabegate,displacement,3,,0,1,0,0,0,0,158
-khazar_khaganate,Khazar Khaganate,khwarazmian_empire,Khwarazmian Empire,displacement,3,,0,1,0,0,0,0,231
-khazar_khaganate,Khazar Khaganate,delhi_sultanate,Delhi Sultanate,displacement,3,,0,1,0,0,0,0,237
-khazar_khaganate,Khazar Khaganate,mamluk_sultanate,Mamluk Sultanate,displacement,3,,0,1,0,0,0,0,281
-uyghur_khaganate,Uyghur Khaganate,ikhshidid_dynasty,Ikhshidid Dynasty,displacement,3,,0,1,0,0,0,0,95
-uyghur_khaganate,Uyghur Khaganate,ghaznavid_empire,Ghaznavid Empire,displacement,3,,0,1,0,0,0,0,137
-uyghur_khaganate,Uyghur Khaganate,seljuk_empire,Seljuk Empire,displacement,3,,0,1,0,0,0,0,197
-uyghur_khaganate,Uyghur Khaganate,seljuk_rum,Sultanate of Rum,displacement,3,,0,1,0,0,0,0,237
-uyghur_khaganate,Uyghur Khaganate,zangid_atabegate,Zangid Atabegate,displacement,3,,0,1,0,0,0,0,287
-kara_khanid_khanate,Kara-Khanid Khanate,tulunid_dynasty,Tulunid Dynasty,displacement,3,,0,1,0,0,0,0,-344
-kara_khanid_khanate,Kara-Khanid Khanate,ikhshidid_dynasty,Ikhshidid Dynasty,displacement,3,,0,1,0,0,0,0,-277
-kara_khanid_khanate,Kara-Khanid Khanate,seljuk_rum,Sultanate of Rum,displacement,3,,0,1,0,0,0,0,-135
-kara_khanid_khanate,Kara-Khanid Khanate,zangid_atabegate,Zangid Atabegate,displacement,3,,0,1,0,0,0,0,-85
-kara_khanid_khanate,Kara-Khanid Khanate,ottoman_empire,Ottoman Empire,displacement,3,,0,1,0,0,0,0,87
-kara_khanid_khanate,Kara-Khanid Khanate,madurai_sultanate,Madurai Sultanate,displacement,3,,0,1,0,0,0,0,123
-kara_khanid_khanate,Kara-Khanid Khanate,bahmani_sultanate,Bahmani Sultanate,displacement,3,,0,1,0,0,0,0,135
-kara_khanid_khanate,Kara-Khanid Khanate,bengal_sultanate,Bengal Sultanate,displacement,3,,0,1,0,0,0,0,140
-kara_khanid_khanate,Kara-Khanid Khanate,kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),displacement,3,,0,1,0,0,0,0,162
-kara_khanid_khanate,Kara-Khanid Khanate,aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),displacement,3,,0,1,0,0,0,0,166
-kara_khanid_khanate,Kara-Khanid Khanate,malwa_sultanate,Malwa Sultanate,displacement,3,,0,1,0,0,0,0,180
-kara_khanid_khanate,Kara-Khanid Khanate,jaunpur_sultanate,Jaunpur Sultanate,displacement,3,,0,1,0,0,0,0,182
-kara_khanid_khanate,Kara-Khanid Khanate,gujarat_sultanate,Gujarat Sultanate,displacement,3,,0,1,0,0,0,0,195
-kara_khanid_khanate,Kara-Khanid Khanate,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,229
-tulunid_dynasty,Tulunid Dynasty,ghaznavid_empire,Ghaznavid Empire,displacement,3,,0,1,0,0,0,0,72
-tulunid_dynasty,Tulunid Dynasty,seljuk_empire,Seljuk Empire,displacement,3,,0,1,0,0,0,0,132
-tulunid_dynasty,Tulunid Dynasty,seljuk_rum,Sultanate of Rum,displacement,3,,0,1,0,0,0,0,172
-tulunid_dynasty,Tulunid Dynasty,khwarazmian_empire,Khwarazmian Empire,displacement,3,,0,1,0,0,0,0,295
-ikhshidid_dynasty,Ikhshidid Dynasty,seljuk_empire,Seljuk Empire,displacement,3,,0,1,0,0,0,0,68
-ikhshidid_dynasty,Ikhshidid Dynasty,seljuk_rum,Sultanate of Rum,displacement,3,,0,1,0,0,0,0,108
-ikhshidid_dynasty,Ikhshidid Dynasty,khwarazmian_empire,Khwarazmian Empire,displacement,3,,0,1,0,0,0,0,231
-ikhshidid_dynasty,Ikhshidid Dynasty,delhi_sultanate,Delhi Sultanate,displacement,3,,0,1,0,0,0,0,237
-ghaznavid_empire,Ghaznavid Empire,zangid_atabegate,Zangid Atabegate,displacement,3,,0,1,0,0,0,0,-59
-ghaznavid_empire,Ghaznavid Empire,mamluk_sultanate,Mamluk Sultanate,displacement,3,,0,1,0,0,0,0,64
-ghaznavid_empire,Ghaznavid Empire,ottoman_empire,Ottoman Empire,displacement,3,,0,1,0,0,0,0,113
-ghaznavid_empire,Ghaznavid Empire,madurai_sultanate,Madurai Sultanate,displacement,3,,0,1,0,0,0,0,149
-ghaznavid_empire,Ghaznavid Empire,bahmani_sultanate,Bahmani Sultanate,displacement,3,,0,1,0,0,0,0,161
-ghaznavid_empire,Ghaznavid Empire,bengal_sultanate,Bengal Sultanate,displacement,3,,0,1,0,0,0,0,166
-ghaznavid_empire,Ghaznavid Empire,kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),displacement,3,,0,1,0,0,0,0,188
-ghaznavid_empire,Ghaznavid Empire,aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),displacement,3,,0,1,0,0,0,0,192
-ghaznavid_empire,Ghaznavid Empire,malwa_sultanate,Malwa Sultanate,displacement,3,,0,1,0,0,0,0,206
-ghaznavid_empire,Ghaznavid Empire,jaunpur_sultanate,Jaunpur Sultanate,displacement,3,,0,1,0,0,0,0,208
-ghaznavid_empire,Ghaznavid Empire,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,255
-ghaznavid_empire,Ghaznavid Empire,kazakh_khanate,Kazakh Khanate,displacement,3,,0,1,0,0,0,0,279
-seljuk_empire,Seljuk Empire,mamluk_sultanate,Mamluk Sultanate,displacement,3,,0,1,0,0,0,0,56
-seljuk_empire,Seljuk Empire,madurai_sultanate,Madurai Sultanate,displacement,3,,0,1,0,0,0,0,141
-seljuk_empire,Seljuk Empire,bahmani_sultanate,Bahmani Sultanate,displacement,3,,0,1,0,0,0,0,153
-seljuk_empire,Seljuk Empire,bengal_sultanate,Bengal Sultanate,displacement,3,,0,1,0,0,0,0,158
-seljuk_empire,Seljuk Empire,malwa_sultanate,Malwa Sultanate,displacement,3,,0,1,0,0,0,0,198
-seljuk_empire,Seljuk Empire,jaunpur_sultanate,Jaunpur Sultanate,displacement,3,,0,1,0,0,0,0,200
-seljuk_empire,Seljuk Empire,gujarat_sultanate,Gujarat Sultanate,displacement,3,,0,1,0,0,0,0,213
-seljuk_empire,Seljuk Empire,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,247
-seljuk_empire,Seljuk Empire,kazakh_khanate,Kazakh Khanate,displacement,3,,0,1,0,0,0,0,271
-seljuk_rum,Sultanate of Rum,zangid_atabegate,Zangid Atabegate,displacement,3,,0,1,0,0,0,0,-180
-seljuk_rum,Sultanate of Rum,mamluk_sultanate,Mamluk Sultanate,displacement,3,,0,1,0,0,0,0,-57
-seljuk_rum,Sultanate of Rum,kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),displacement,3,,0,1,0,0,0,0,67
-seljuk_rum,Sultanate of Rum,malwa_sultanate,Malwa Sultanate,displacement,3,,0,1,0,0,0,0,85
-seljuk_rum,Sultanate of Rum,jaunpur_sultanate,Jaunpur Sultanate,displacement,3,,0,1,0,0,0,0,87
-seljuk_rum,Sultanate of Rum,gujarat_sultanate,Gujarat Sultanate,displacement,3,,0,1,0,0,0,0,100
-seljuk_rum,Sultanate of Rum,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,134
-seljuk_rum,Sultanate of Rum,kazakh_khanate,Kazakh Khanate,displacement,3,,0,1,0,0,0,0,158
-seljuk_rum,Sultanate of Rum,khanate_of_bukhara,Khanate of Bukhara,displacement,3,,0,1,0,0,0,0,193
-seljuk_rum,Sultanate of Rum,khanate_of_khiva,Khanate of Khiva,displacement,3,,0,1,0,0,0,0,204
-seljuk_rum,Sultanate of Rum,yarkand_khanate,Yarkand Khanate,displacement,3,,0,1,0,0,0,0,207
-zangid_atabegate,Zangid Atabegate,madurai_sultanate,Madurai Sultanate,displacement,3,,0,1,0,0,0,0,85
-zangid_atabegate,Zangid Atabegate,bahmani_sultanate,Bahmani Sultanate,displacement,3,,0,1,0,0,0,0,97
-zangid_atabegate,Zangid Atabegate,bengal_sultanate,Bengal Sultanate,displacement,3,,0,1,0,0,0,0,102
-zangid_atabegate,Zangid Atabegate,timurid_empire,Timurid Empire,displacement,3,,0,1,0,0,0,0,120
-zangid_atabegate,Zangid Atabegate,malwa_sultanate,Malwa Sultanate,displacement,3,,0,1,0,0,0,0,142
-zangid_atabegate,Zangid Atabegate,jaunpur_sultanate,Jaunpur Sultanate,displacement,3,,0,1,0,0,0,0,144
-zangid_atabegate,Zangid Atabegate,gujarat_sultanate,Gujarat Sultanate,displacement,3,,0,1,0,0,0,0,157
-zangid_atabegate,Zangid Atabegate,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,191
-zangid_atabegate,Zangid Atabegate,kazakh_khanate,Kazakh Khanate,displacement,3,,0,1,0,0,0,0,215
-zangid_atabegate,Zangid Atabegate,khanate_of_bukhara,Khanate of Bukhara,displacement,3,,0,1,0,0,0,0,250
-zangid_atabegate,Zangid Atabegate,khanate_of_khiva,Khanate of Khiva,displacement,3,,0,1,0,0,0,0,261
-zangid_atabegate,Zangid Atabegate,yarkand_khanate,Yarkand Khanate,displacement,3,,0,1,0,0,0,0,264
-zangid_atabegate,Zangid Atabegate,mughal_empire,Mughal Empire,displacement,3,,0,1,0,0,0,0,276
-khwarazmian_empire,Khwarazmian Empire,ottoman_empire,Ottoman Empire,displacement,3,,0,1,0,0,0,0,79
-khwarazmian_empire,Khwarazmian Empire,madurai_sultanate,Madurai Sultanate,displacement,3,,0,1,0,0,0,0,115
-khwarazmian_empire,Khwarazmian Empire,bahmani_sultanate,Bahmani Sultanate,displacement,3,,0,1,0,0,0,0,127
-khwarazmian_empire,Khwarazmian Empire,bengal_sultanate,Bengal Sultanate,displacement,3,,0,1,0,0,0,0,132
-khwarazmian_empire,Khwarazmian Empire,kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),displacement,3,,0,1,0,0,0,0,154
-khwarazmian_empire,Khwarazmian Empire,aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),displacement,3,,0,1,0,0,0,0,158
-khwarazmian_empire,Khwarazmian Empire,malwa_sultanate,Malwa Sultanate,displacement,3,,0,1,0,0,0,0,172
-khwarazmian_empire,Khwarazmian Empire,jaunpur_sultanate,Jaunpur Sultanate,displacement,3,,0,1,0,0,0,0,174
-khwarazmian_empire,Khwarazmian Empire,gujarat_sultanate,Gujarat Sultanate,displacement,3,,0,1,0,0,0,0,187
-khwarazmian_empire,Khwarazmian Empire,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,221
-khwarazmian_empire,Khwarazmian Empire,kazakh_khanate,Kazakh Khanate,displacement,3,,0,1,0,0,0,0,245
-khwarazmian_empire,Khwarazmian Empire,yarkand_khanate,Yarkand Khanate,displacement,3,,0,1,0,0,0,0,294
-delhi_sultanate,Delhi Sultanate,mamluk_sultanate,Mamluk Sultanate,displacement,3,,0,1,0,0,0,0,-276
-delhi_sultanate,Delhi Sultanate,ottoman_empire,Ottoman Empire,displacement,3,,0,1,0,0,0,0,-227
-delhi_sultanate,Delhi Sultanate,madurai_sultanate,Madurai Sultanate,displacement,3,,0,1,0,0,0,0,-191
-delhi_sultanate,Delhi Sultanate,bahmani_sultanate,Bahmani Sultanate,displacement,3,,0,1,0,0,0,0,-179
-delhi_sultanate,Delhi Sultanate,kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),displacement,3,,0,1,0,0,0,0,-152
-delhi_sultanate,Delhi Sultanate,aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),displacement,3,,0,1,0,0,0,0,-148
-delhi_sultanate,Delhi Sultanate,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,-85
-delhi_sultanate,Delhi Sultanate,kazakh_khanate,Kazakh Khanate,displacement,3,,0,1,0,0,0,0,-61
-delhi_sultanate,Delhi Sultanate,khanate_of_kokand,Khanate of Kokand,displacement,3,,0,1,0,0,0,0,183
-delhi_sultanate,Delhi Sultanate,hyderabad_state,Nizam of Hyderabad,displacement,3,,0,1,0,0,0,0,198
-mamluk_sultanate,Mamluk Sultanate,madurai_sultanate,Madurai Sultanate,displacement,3,,0,1,0,0,0,0,-182
-mamluk_sultanate,Mamluk Sultanate,bengal_sultanate,Bengal Sultanate,displacement,3,,0,1,0,0,0,0,-165
-mamluk_sultanate,Mamluk Sultanate,timurid_empire,Timurid Empire,displacement,3,,0,1,0,0,0,0,-147
-mamluk_sultanate,Mamluk Sultanate,kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),displacement,3,,0,1,0,0,0,0,-143
-mamluk_sultanate,Mamluk Sultanate,aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),displacement,3,,0,1,0,0,0,0,-139
-mamluk_sultanate,Mamluk Sultanate,malwa_sultanate,Malwa Sultanate,displacement,3,,0,1,0,0,0,0,-125
-mamluk_sultanate,Mamluk Sultanate,jaunpur_sultanate,Jaunpur Sultanate,displacement,3,,0,1,0,0,0,0,-123
-mamluk_sultanate,Mamluk Sultanate,gujarat_sultanate,Gujarat Sultanate,displacement,3,,0,1,0,0,0,0,-110
-mamluk_sultanate,Mamluk Sultanate,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,-76
-mamluk_sultanate,Mamluk Sultanate,kazakh_khanate,Kazakh Khanate,displacement,3,,0,1,0,0,0,0,-52
-mamluk_sultanate,Mamluk Sultanate,khanate_of_kokand,Khanate of Kokand,displacement,3,,0,1,0,0,0,0,192
-mamluk_sultanate,Mamluk Sultanate,hyderabad_state,Nizam of Hyderabad,displacement,3,,0,1,0,0,0,0,207
-ottoman_empire,Ottoman Empire,madurai_sultanate,Madurai Sultanate,displacement,3,,0,1,0,0,0,0,-587
-ottoman_empire,Ottoman Empire,bahmani_sultanate,Bahmani Sultanate,displacement,3,,0,1,0,0,0,0,-575
-ottoman_empire,Ottoman Empire,bengal_sultanate,Bengal Sultanate,displacement,3,,0,1,0,0,0,0,-570
-ottoman_empire,Ottoman Empire,timurid_empire,Timurid Empire,displacement,3,,0,1,0,0,0,0,-552
-ottoman_empire,Ottoman Empire,malwa_sultanate,Malwa Sultanate,displacement,3,,0,1,0,0,0,0,-530
-ottoman_empire,Ottoman Empire,jaunpur_sultanate,Jaunpur Sultanate,displacement,3,,0,1,0,0,0,0,-528
-ottoman_empire,Ottoman Empire,gujarat_sultanate,Gujarat Sultanate,displacement,3,,0,1,0,0,0,0,-515
-ottoman_empire,Ottoman Empire,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,-481
-ottoman_empire,Ottoman Empire,kazakh_khanate,Kazakh Khanate,displacement,3,,0,1,0,0,0,0,-457
-ottoman_empire,Ottoman Empire,khanate_of_bukhara,Khanate of Bukhara,displacement,3,,0,1,0,0,0,0,-422
-ottoman_empire,Ottoman Empire,khanate_of_khiva,Khanate of Khiva,displacement,3,,0,1,0,0,0,0,-411
-ottoman_empire,Ottoman Empire,yarkand_khanate,Yarkand Khanate,displacement,3,,0,1,0,0,0,0,-408
-ottoman_empire,Ottoman Empire,mughal_empire,Mughal Empire,displacement,3,,0,1,0,0,0,0,-396
-ottoman_empire,Ottoman Empire,khanate_of_kokand,Khanate of Kokand,displacement,3,,0,1,0,0,0,0,-213
-ottoman_empire,Ottoman Empire,hyderabad_state,Nizam of Hyderabad,displacement,3,,0,1,0,0,0,0,-198
-madurai_sultanate,Madurai Sultanate,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,63
-madurai_sultanate,Madurai Sultanate,kazakh_khanate,Kazakh Khanate,displacement,3,,0,1,0,0,0,0,87
-madurai_sultanate,Madurai Sultanate,khanate_of_bukhara,Khanate of Bukhara,displacement,3,,0,1,0,0,0,0,122
-madurai_sultanate,Madurai Sultanate,khanate_of_khiva,Khanate of Khiva,displacement,3,,0,1,0,0,0,0,133
-madurai_sultanate,Madurai Sultanate,yarkand_khanate,Yarkand Khanate,displacement,3,,0,1,0,0,0,0,136
-bahmani_sultanate,Bahmani Sultanate,bengal_sultanate,Bengal Sultanate,displacement,3,,0,1,0,0,0,0,-175
-bahmani_sultanate,Bahmani Sultanate,timurid_empire,Timurid Empire,displacement,3,,0,1,0,0,0,0,-157
-bahmani_sultanate,Bahmani Sultanate,kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),displacement,3,,0,1,0,0,0,0,-153
-bahmani_sultanate,Bahmani Sultanate,aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),displacement,3,,0,1,0,0,0,0,-149
-bahmani_sultanate,Bahmani Sultanate,malwa_sultanate,Malwa Sultanate,displacement,3,,0,1,0,0,0,0,-135
-bahmani_sultanate,Bahmani Sultanate,jaunpur_sultanate,Jaunpur Sultanate,displacement,3,,0,1,0,0,0,0,-133
-bahmani_sultanate,Bahmani Sultanate,gujarat_sultanate,Gujarat Sultanate,displacement,3,,0,1,0,0,0,0,-120
-bahmani_sultanate,Bahmani Sultanate,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,-86
-bahmani_sultanate,Bahmani Sultanate,kazakh_khanate,Kazakh Khanate,displacement,3,,0,1,0,0,0,0,-62
-bahmani_sultanate,Bahmani Sultanate,khanate_of_kokand,Khanate of Kokand,displacement,3,,0,1,0,0,0,0,182
-bengal_sultanate,Bengal Sultanate,timurid_empire,Timurid Empire,displacement,3,,0,1,0,0,0,0,-206
-bengal_sultanate,Bengal Sultanate,kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),displacement,3,,0,1,0,0,0,0,-202
-bengal_sultanate,Bengal Sultanate,aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),displacement,3,,0,1,0,0,0,0,-198
-bengal_sultanate,Bengal Sultanate,gujarat_sultanate,Gujarat Sultanate,displacement,3,,0,1,0,0,0,0,-169
-bengal_sultanate,Bengal Sultanate,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,-135
-bengal_sultanate,Bengal Sultanate,kazakh_khanate,Kazakh Khanate,displacement,3,,0,1,0,0,0,0,-111
-bengal_sultanate,Bengal Sultanate,khanate_of_bukhara,Khanate of Bukhara,displacement,3,,0,1,0,0,0,0,-76
-bengal_sultanate,Bengal Sultanate,khanate_of_khiva,Khanate of Khiva,displacement,3,,0,1,0,0,0,0,-65
-bengal_sultanate,Bengal Sultanate,yarkand_khanate,Yarkand Khanate,displacement,3,,0,1,0,0,0,0,-62
-bengal_sultanate,Bengal Sultanate,khanate_of_kokand,Khanate of Kokand,displacement,3,,0,1,0,0,0,0,133
-bengal_sultanate,Bengal Sultanate,hyderabad_state,Nizam of Hyderabad,displacement,3,,0,1,0,0,0,0,148
-timurid_empire,Timurid Empire,malwa_sultanate,Malwa Sultanate,displacement,3,,0,1,0,0,0,0,-115
-timurid_empire,Timurid Empire,jaunpur_sultanate,Jaunpur Sultanate,displacement,3,,0,1,0,0,0,0,-113
-timurid_empire,Timurid Empire,gujarat_sultanate,Gujarat Sultanate,displacement,3,,0,1,0,0,0,0,-100
-timurid_empire,Timurid Empire,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,-66
-timurid_empire,Timurid Empire,hyderabad_state,Nizam of Hyderabad,displacement,3,,0,1,0,0,0,0,217
-kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),malwa_sultanate,Malwa Sultanate,displacement,3,,0,1,0,0,0,0,-76
-kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),jaunpur_sultanate,Jaunpur Sultanate,displacement,3,,0,1,0,0,0,0,-74
-kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),gujarat_sultanate,Gujarat Sultanate,displacement,3,,0,1,0,0,0,0,-61
-kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),mughal_empire,Mughal Empire,displacement,3,,0,1,0,0,0,0,58
-kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),khanate_of_kokand,Khanate of Kokand,displacement,3,,0,1,0,0,0,0,241
-kara_koyunlu,Kara Koyunlu (Black Sheep Turkmen),hyderabad_state,Nizam of Hyderabad,displacement,3,,0,1,0,0,0,0,256
-aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),malwa_sultanate,Malwa Sultanate,displacement,3,,0,1,0,0,0,0,-116
-aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),jaunpur_sultanate,Jaunpur Sultanate,displacement,3,,0,1,0,0,0,0,-114
-aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),gujarat_sultanate,Gujarat Sultanate,displacement,3,,0,1,0,0,0,0,-101
-aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,-67
-aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),khanate_of_kokand,Khanate of Kokand,displacement,3,,0,1,0,0,0,0,201
-aq_qoyunlu,Aq Qoyunlu (White Sheep Turkmen),hyderabad_state,Nizam of Hyderabad,displacement,3,,0,1,0,0,0,0,216
-malwa_sultanate,Malwa Sultanate,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,-121
-malwa_sultanate,Malwa Sultanate,kazakh_khanate,Kazakh Khanate,displacement,3,,0,1,0,0,0,0,-97
-malwa_sultanate,Malwa Sultanate,khanate_of_bukhara,Khanate of Bukhara,displacement,3,,0,1,0,0,0,0,-62
-malwa_sultanate,Malwa Sultanate,khanate_of_khiva,Khanate of Khiva,displacement,3,,0,1,0,0,0,0,-51
-malwa_sultanate,Malwa Sultanate,khanate_of_kokand,Khanate of Kokand,displacement,3,,0,1,0,0,0,0,147
-jaunpur_sultanate,Jaunpur Sultanate,khanate_of_kokand,Khanate of Kokand,displacement,3,,0,1,0,0,0,0,230
-gujarat_sultanate,Gujarat Sultanate,crimean_khanate,Crimean Khanate,displacement,3,,0,1,0,0,0,0,-132
-gujarat_sultanate,Gujarat Sultanate,kazakh_khanate,Kazakh Khanate,displacement,3,,0,1,0,0,0,0,-108
-gujarat_sultanate,Gujarat Sultanate,khanate_of_bukhara,Khanate of Bukhara,displacement,3,,0,1,0,0,0,0,-73
-gujarat_sultanate,Gujarat Sultanate,khanate_of_khiva,Khanate of Khiva,displacement,3,,0,1,0,0,0,0,-62
-gujarat_sultanate,Gujarat Sultanate,yarkand_khanate,Yarkand Khanate,displacement,3,,0,1,0,0,0,0,-59
-gujarat_sultanate,Gujarat Sultanate,khanate_of_kokand,Khanate of Kokand,displacement,3,,0,1,0,0,0,0,136
-crimean_khanate,Crimean Khanate,khanate_of_bukhara,Khanate of Bukhara,displacement,3,,0,1,0,0,0,0,-283
-crimean_khanate,Crimean Khanate,khanate_of_khiva,Khanate of Khiva,displacement,3,,0,1,0,0,0,0,-272
-crimean_khanate,Crimean Khanate,yarkand_khanate,Yarkand Khanate,displacement,3,,0,1,0,0,0,0,-269
-crimean_khanate,Crimean Khanate,mughal_empire,Mughal Empire,displacement,3,,0,1,0,0,0,0,-257
-crimean_khanate,Crimean Khanate,khanate_of_kokand,Khanate of Kokand,displacement,3,,0,1,0,0,0,0,-74
-crimean_khanate,Crimean Khanate,hyderabad_state,Nizam of Hyderabad,displacement,3,,0,1,0,0,0,0,-59
-crimean_khanate,Crimean Khanate,republic_of_turkey,Republic of Turkey,displacement,3,,0,1,0,0,0,0,140
-kazakh_khanate,Kazakh Khanate,khanate_of_bukhara,Khanate of Bukhara,displacement,3,,0,1,0,0,0,0,-231
-kazakh_khanate,Kazakh Khanate,khanate_of_khiva,Khanate of Khiva,displacement,3,,0,1,0,0,0,0,-220
-kazakh_khanate,Kazakh Khanate,mughal_empire,Mughal Empire,displacement,3,,0,1,0,0,0,0,-205
-kazakh_khanate,Kazakh Khanate,republic_of_turkey,Republic of Turkey,displacement,3,,0,1,0,0,0,0,192
-khanate_of_bukhara,Khanate of Bukhara,mughal_empire,Mughal Empire,displacement,3,,0,1,0,0,0,0,-259
-khanate_of_bukhara,Khanate of Bukhara,hyderabad_state,Nizam of Hyderabad,displacement,3,,0,1,0,0,0,0,-61
-khanate_of_bukhara,Khanate of Bukhara,republic_of_turkey,Republic of Turkey,displacement,3,,0,1,0,0,0,0,138
-khanate_of_khiva,Khanate of Khiva,mughal_empire,Mughal Empire,displacement,3,,0,1,0,0,0,0,-394
-khanate_of_khiva,Khanate of Khiva,hyderabad_state,Nizam of Hyderabad,displacement,3,,0,1,0,0,0,0,-196
-yarkand_khanate,Yarkand Khanate,mughal_empire,Mughal Empire,displacement,3,,0,1,0,0,0,0,-179
-yarkand_khanate,Yarkand Khanate,republic_of_turkey,Republic of Turkey,displacement,3,,0,1,0,0,0,0,218
-mughal_empire,Mughal Empire,khanate_of_kokand,Khanate of Kokand,displacement,3,,0,1,0,0,0,0,-148
-mughal_empire,Mughal Empire,republic_of_turkey,Republic of Turkey,displacement,3,,0,1,0,0,0,0,66
-khanate_of_kokand,Khanate of Kokand,hyderabad_state,Nizam of Hyderabad,displacement,3,,0,1,0,0,0,0,-152
-himyarite_kingdom,Himyarite Kingdom,palmyrene_empire,Palmyrene Empire,displacement,3,,0,1,0,0,0,0,-265
-himyarite_kingdom,Himyarite Kingdom,al_andalus,Al-Andalus,displacement,3,,0,1,0,0,0,0,186
-kushan_empire,Kushan Empire,avar_khaganate,Avar Khaganate,displacement,3,,0,1,0,0,0,0,193
-kingdom_of_england,Kingdom of England,british_raj,British Raj,displacement,3,,0,1,0,0,0,0,151
-holy_roman_empire,Holy Roman Empire,teutonic_order,Teutonic Order (Monastic State),displacement,3,,0,1,0,0,0,0,-576
-chagatai_khanate,Chagatai Khanate,ilkhanate,Ilkhanate,displacement,3,,0,1,0,0,0,0,-91
-chagatai_khanate,Chagatai Khanate,yuan_dynasty,Yuan Dynasty,displacement,3,,0,1,0,0,0,0,-76
-golden_horde,Golden Horde,ilkhanate,Ilkhanate,displacement,3,,0,1,0,0,0,0,-246
-golden_horde,Golden Horde,yuan_dynasty,Yuan Dynasty,displacement,3,,0,1,0,0,0,0,-231
-golden_horde,Golden Horde,jalayirid_sultanate,Jalayirid Sultanate,displacement,3,,0,1,0,0,0,0,-167
-golden_horde,Golden Horde,north_yuan,North Yuan,displacement,3,,0,1,0,0,0,0,-134
-ilkhanate,Ilkhanate,yuan_dynasty,Yuan Dynasty,displacement,3,,0,1,0,0,0,0,-64
-ilkhanate,Ilkhanate,dzungar_khanate,Dzungar Khanate,displacement,3,,0,1,0,0,0,0,299
-yuan_dynasty,Yuan Dynasty,dzungar_khanate,Dzungar Khanate,displacement,3,,0,1,0,0,0,0,266
-yuan_dynasty,Yuan Dynasty,khoshut_khanate,Khoshut Khanate,displacement,3,,0,1,0,0,0,0,274
-jalayirid_sultanate,Jalayirid Sultanate,moghulistan,Moghulistan Khanate,displacement,3,,0,1,0,0,0,0,-85
-jalayirid_sultanate,Jalayirid Sultanate,north_yuan,North Yuan,displacement,3,,0,1,0,0,0,0,-64
-jalayirid_sultanate,Jalayirid Sultanate,dzungar_khanate,Dzungar Khanate,displacement,3,,0,1,0,0,0,0,202
-jalayirid_sultanate,Jalayirid Sultanate,khoshut_khanate,Khoshut Khanate,displacement,3,,0,1,0,0,0,0,210
-moghulistan,Moghulistan Khanate,north_yuan,North Yuan,displacement,3,,0,1,0,0,0,0,-94
-dzungar_khanate,Dzungar Khanate,mongolian_peoples_republic,Mongolian People's Republic,displacement,3,,0,1,0,0,0,0,169
-khoshut_khanate,Khoshut Khanate,mongolian_peoples_republic,Mongolian People's Republic,displacement,3,,0,1,0,0,0,0,207
-lakhmid_kingdom,Lakhmid Kingdom,aghlabid_dynasty,Aghlabid Dynasty,displacement,3,,0,1,0,0,0,0,198
-kingdom_of_egypt,Kingdom of Egypt,mahdist_state,Mahdist State,displacement,3,,0,1,0,0,0,0,-67
-mahdist_state,Mahdist State,republic_of_egypt,Republic of Egypt,displacement,3,,0,1,0,0,0,0,54
-mahdist_state,Mahdist State,republic_of_iraq,Republic of Iraq,displacement,3,,0,1,0,0,0,0,60
-sur_empire,Sur Empire,hotak_dynasty,Hotak Dynasty,displacement,3,,0,1,0,0,0,0,153
+cao_wei,Cao Wei,eastern_wu,Eastern Wu,displacement,3,,0,0,0,1,0,0,-43
+shu_han,Shu Han,eastern_wu,Eastern Wu,displacement,3,,0,0,0,1,0,0,-41
+eastern_jin,Eastern Jin Dynasty,northern_dynasties,Northern Dynasties,displacement,3,,0,0,0,1,0,0,-34
+vandal_kingdom,Vandal Kingdom of North Africa,carolingian_empire,Frankish Kingdom / Carolingian Empire,displacement,3,,0,0,0,1,0,0,-47
+vandal_kingdom,Vandal Kingdom of North Africa,ostrogothic_kingdom,Ostrogothic Kingdom of Italy,displacement,3,,0,0,0,1,0,0,-40
+vandal_kingdom,Vandal Kingdom of North Africa,lombard_kingdom,Kingdom of the Lombards,displacement,3,,0,0,0,1,0,0,35
 chalukya_dynasty,Chalukya Dynasty (Badami),pratihara_dynasty,Pratihara Dynasty,displacement,3,,0,0,0,1,0,0,-27
 pratihara_dynasty,Pratihara Dynasty,hoysala_dynasty,Hoysala Empire,displacement,3,,0,0,0,1,0,0,-30
+rashidun_caliphate,Rashidun Caliphate,al_andalus,Al-Andalus,displacement,3,,0,0,0,1,0,0,50
+kingdom_of_egypt,Kingdom of Egypt,kingdom_of_iraq,Kingdom of Iraq,displacement,3,,0,0,0,1,0,0,-31
+kingdom_of_egypt,Kingdom of Egypt,saudi_arabia,Kingdom of Saudi Arabia,displacement,3,,0,0,0,1,0,0,-20
+kingdom_of_iraq,Kingdom of Iraq,saudi_arabia,Kingdom of Saudi Arabia,displacement,3,,0,0,0,1,0,0,-26
+kingdom_of_iraq,Kingdom of Iraq,kingdom_of_jordan,Hashemite Kingdom of Jordan,displacement,3,,0,0,0,1,0,0,-12
 kievan_rus_regime,Kievan Rus,serbian_empire,Serbian Empire (Nemanjić Dynasty),displacement,3,,0,0,0,1,0,0,-50
+seljuk_empire,Seljuk Empire,delhi_sultanate,Delhi Sultanate,displacement,3,,0,0,0,1,0,0,12
+khwarazmian_empire,Khwarazmian Empire,delhi_sultanate,Delhi Sultanate,displacement,3,,0,0,0,1,0,0,-14
 khwarazmian_empire,Khwarazmian Empire,ilkhanate,Ilkhanate,displacement,3,,0,0,0,1,0,0,36
 delhi_sultanate,Delhi Sultanate,safavid_empire,Safavid Empire,displacement,3,,0,0,0,1,0,0,-25
+timurid_empire,Timurid Empire,mughal_empire,Mughal Empire,displacement,3,,0,0,0,1,0,0,19
 madurai_sultanate,Madurai Sultanate,jalayirid_sultanate,Jalayirid Sultanate,displacement,3,,0,0,0,1,0,0,-43
+madurai_sultanate,Madurai Sultanate,malwa_sultanate,Malwa Sultanate,displacement,3,,0,0,0,1,0,0,14
+madurai_sultanate,Madurai Sultanate,jaunpur_sultanate,Jaunpur Sultanate,displacement,3,,0,0,0,1,0,0,16
+madurai_sultanate,Madurai Sultanate,gujarat_sultanate,Gujarat Sultanate,displacement,3,,0,0,0,1,0,0,29
 jalayirid_sultanate,Jalayirid Sultanate,malwa_sultanate,Malwa Sultanate,displacement,3,,0,0,0,1,0,0,-40
 jalayirid_sultanate,Jalayirid Sultanate,jaunpur_sultanate,Jaunpur Sultanate,displacement,3,,0,0,0,1,0,0,-38
 jalayirid_sultanate,Jalayirid Sultanate,gujarat_sultanate,Gujarat Sultanate,displacement,3,,0,0,0,1,0,0,-25
@@ -1153,9 +783,22 @@ mamluk_sultanate,Mamluk Sultanate,kingdom_of_egypt,Kingdom of Egypt,contraction,
 samanid_empire,Samanid Empire,khwarazmian_empire,Khwarazmian Empire,contraction,2,,0,0,0,1,0,0,201
 almohad_caliphate,Almohad Caliphate,saadian_dynasty,Saadian Dynasty,contraction,2,,0,0,0,1,0,0,280
 abbasid_caliphate,Abbasid Caliphate,chagatai_khanate,Chagatai Khanate,contraction,2,,0,0,0,0,1,0,-32
+cao_wei,Cao Wei,eastern_jin,Eastern Jin Dynasty,displacement,2,,0,0,0,1,0,0,52
+cao_wei,Cao Wei,southern_dynasties,Southern Dynasties,displacement,2,,0,0,0,1,0,0,155
+shu_han,Shu Han,eastern_jin,Eastern Jin Dynasty,displacement,2,,0,0,0,1,0,0,54
+shu_han,Shu Han,southern_dynasties,Southern Dynasties,displacement,2,,0,0,0,1,0,0,157
+eastern_wu,Eastern Wu,northern_dynasties,Northern Dynasties,displacement,2,,0,0,0,1,0,0,106
+northern_dynasties,Northern Dynasties,southern_dynasties,Southern Dynasties,displacement,2,,0,0,0,1,0,0,-161
+nabataean_kingdom,Nabataean Kingdom,palmyrene_empire,Palmyrene Empire,displacement,2,,0,0,0,1,0,0,154
+visigothic_kingdom,Visigothic Kingdom,vandal_kingdom,Vandal Kingdom of North Africa,displacement,2,,0,0,0,1,0,0,-282
+visigothic_kingdom,Visigothic Kingdom,odoacer_kingdom,Kingdom of Odoacer,displacement,2,,0,0,0,1,0,0,-235
+visigothic_kingdom,Visigothic Kingdom,carolingian_empire,Frankish Kingdom / Carolingian Empire,displacement,2,,0,0,0,1,0,0,-225
+visigothic_kingdom,Visigothic Kingdom,ostrogothic_kingdom,Ostrogothic Kingdom of Italy,displacement,2,,0,0,0,1,0,0,-218
+visigothic_kingdom,Visigothic Kingdom,lombard_kingdom,Kingdom of the Lombards,displacement,2,,0,0,0,1,0,0,-143
 visigothic_kingdom,Visigothic Kingdom,holy_roman_empire,Holy Roman Empire,displacement,2,,0,0,0,1,0,0,251
 visigothic_kingdom,Visigothic Kingdom,kingdom_of_poland,Kingdom of Poland,displacement,2,,0,0,0,1,0,0,255
 visigothic_kingdom,Visigothic Kingdom,kingdom_of_hungary,Kingdom of Hungary,displacement,2,,0,0,0,1,0,0,289
+vandal_kingdom,Vandal Kingdom of North Africa,odoacer_kingdom,Kingdom of Odoacer,displacement,2,,0,0,0,1,0,0,-57
 carolingian_empire,Frankish Kingdom / Carolingian Empire,kingdom_of_poland,Kingdom of Poland,displacement,2,,0,0,0,1,0,0,123
 carolingian_empire,Frankish Kingdom / Carolingian Empire,kingdom_of_hungary,Kingdom of Hungary,displacement,2,,0,0,0,1,0,0,157
 lombard_kingdom,Kingdom of the Lombards,kingdom_of_poland,Kingdom of Poland,displacement,2,,0,0,0,1,0,0,192
@@ -1163,48 +806,82 @@ lombard_kingdom,Kingdom of the Lombards,kingdom_of_hungary,Kingdom of Hungary,di
 holy_roman_empire,Holy Roman Empire,kingdom_of_poland,Kingdom of Poland,displacement,2,,0,0,0,1,0,0,-840
 holy_roman_empire,Holy Roman Empire,kingdom_of_hungary,Kingdom of Hungary,displacement,2,,0,0,0,1,0,0,-806
 kingdom_of_poland,Kingdom of Poland,kingdom_of_hungary,Kingdom of Hungary,displacement,2,,0,0,0,1,0,0,-569
+macedonian_empire,Macedonian Empire (Alexander),indo_greek_kingdom,Indo-Greek Kingdom,displacement,2,,0,0,0,1,0,0,143
+greco_bactrian_kingdom,Greco-Bactrian Kingdom,indo_greek_kingdom,Indo-Greek Kingdom,displacement,2,,0,0,0,1,0,0,-55
+vakataka_dynasty,Vakataka Dynasty,gupta_empire,Gupta Empire,displacement,2,,0,0,0,1,0,0,-180
+vakataka_dynasty,Vakataka Dynasty,kamarupa_kingdom,Kamarupa Kingdom,displacement,2,,0,0,0,1,0,0,-150
+vakataka_dynasty,Vakataka Dynasty,harsha_empire,Harsha Empire,displacement,2,,0,0,0,1,0,0,106
+vakataka_dynasty,Vakataka Dynasty,pratihara_dynasty,Pratihara Dynasty,displacement,2,,0,0,0,1,0,0,230
 gupta_empire,Gupta Empire,rashtrakuta_dynasty,Rashtrakuta Dynasty,displacement,2,,0,0,0,1,0,0,203
+gupta_empire,Gupta Empire,yadava_dynasty,Yadava Dynasty (Devagiri),displacement,2,,0,0,0,1,0,0,300
 kamarupa_kingdom,Kamarupa Kingdom,chalukya_dynasty,Chalukya Dynasty (Badami),displacement,2,,0,0,0,1,0,0,-597
 kamarupa_kingdom,Kamarupa Kingdom,rashtrakuta_dynasty,Rashtrakuta Dynasty,displacement,2,,0,0,0,1,0,0,-387
+kamarupa_kingdom,Kamarupa Kingdom,yadava_dynasty,Yadava Dynasty (Devagiri),displacement,2,,0,0,0,1,0,0,-290
 kamarupa_kingdom,Kamarupa Kingdom,western_chalukya,Western Chalukya Empire,displacement,2,,0,0,0,1,0,0,-167
 kamarupa_kingdom,Kamarupa Kingdom,hoysala_dynasty,Hoysala Empire,displacement,2,,0,0,0,1,0,0,-134
 chalukya_dynasty,Chalukya Dynasty (Badami),harsha_empire,Harsha Empire,displacement,2,,0,0,0,1,0,0,-151
 harsha_empire,Harsha Empire,rashtrakuta_dynasty,Rashtrakuta Dynasty,displacement,2,,0,0,0,1,0,0,106
+harsha_empire,Harsha Empire,yadava_dynasty,Yadava Dynasty (Devagiri),displacement,2,,0,0,0,1,0,0,203
 pratihara_dynasty,Pratihara Dynasty,rashtrakuta_dynasty,Rashtrakuta Dynasty,displacement,2,,0,0,0,1,0,0,-283
+pratihara_dynasty,Pratihara Dynasty,yadava_dynasty,Yadava Dynasty (Devagiri),displacement,2,,0,0,0,1,0,0,-186
 pratihara_dynasty,Pratihara Dynasty,western_chalukya,Western Chalukya Empire,displacement,2,,0,0,0,1,0,0,-63
 rashtrakuta_dynasty,Rashtrakuta Dynasty,sena_dynasty,Sena Dynasty,displacement,2,,0,0,0,1,0,0,88
 rashtrakuta_dynasty,Rashtrakuta Dynasty,gajapati_dynasty,Gajapati Dynasty (Odisha),displacement,2,,0,0,0,1,0,0,96
+yadava_dynasty,Yadava Dynasty (Devagiri),sena_dynasty,Sena Dynasty,displacement,2,,0,0,0,1,0,0,-247
+yadava_dynasty,Yadava Dynasty (Devagiri),gajapati_dynasty,Gajapati Dynasty (Odisha),displacement,2,,0,0,0,1,0,0,-239
 western_chalukya,Western Chalukya Empire,sena_dynasty,Sena Dynasty,displacement,2,,0,0,0,1,0,0,-119
 western_chalukya,Western Chalukya Empire,gajapati_dynasty,Gajapati Dynasty (Odisha),displacement,2,,0,0,0,1,0,0,-111
 hoysala_dynasty,Hoysala Empire,sena_dynasty,Sena Dynasty,displacement,2,,0,0,0,1,0,0,-276
 hoysala_dynasty,Hoysala Empire,gajapati_dynasty,Gajapati Dynasty (Odisha),displacement,2,,0,0,0,1,0,0,-268
+goktürk_khaganate,Göktürk Khaganate,khazar_khaganate,Khazar Khaganate,displacement,2,,0,0,0,1,0,0,-94
 avar_khaganate,Avar Khaganate,khazar_khaganate,Khazar Khaganate,displacement,2,,0,0,0,1,0,0,-154
 north_yuan,North Yuan,crimean_khanate,Crimean Khanate,displacement,2,,0,0,0,1,0,0,-194
 north_yuan,North Yuan,kazakh_khanate,Kazakh Khanate,displacement,2,,0,0,0,1,0,0,-170
+crimean_khanate,Crimean Khanate,kazakh_khanate,Kazakh Khanate,displacement,2,,0,0,0,1,0,0,-318
 crimean_khanate,Crimean Khanate,mongolian_peoples_republic,Mongolian People's Republic,displacement,2,,0,0,0,1,0,0,141
 kazakh_khanate,Kazakh Khanate,mongolian_peoples_republic,Mongolian People's Republic,displacement,2,,0,0,0,1,0,0,193
+five_dynasties,Five Dynasties (North China),ten_kingdoms,Ten Kingdoms (South China),displacement,2,,0,0,0,1,0,0,-53
+five_dynasties,Five Dynasties (North China),southern_song,Southern Song Dynasty,displacement,2,,0,0,0,1,0,0,167
+al_andalus,Al-Andalus,abbasid_caliphate,Abbasid Caliphate,displacement,2,,0,0,0,1,0,0,-742
+al_andalus,Al-Andalus,fatimid_caliphate,Fatimid Caliphate,displacement,2,,0,0,0,1,0,0,-583
 al_andalus,Al-Andalus,ayyubid_sultanate,Ayyubid Sultanate,displacement,2,,0,0,0,1,0,0,-321
 al_andalus,Al-Andalus,mamluk_sultanate,Mamluk Sultanate,displacement,2,,0,0,0,1,0,0,-242
 al_andalus,Al-Andalus,bahmani_sultanate,Bahmani Sultanate,displacement,2,,0,0,0,1,0,0,-145
 abbasid_caliphate,Abbasid Caliphate,bahmani_sultanate,Bahmani Sultanate,displacement,2,,0,0,0,1,0,0,89
 fatimid_caliphate,Fatimid Caliphate,bahmani_sultanate,Bahmani Sultanate,displacement,2,,0,0,0,1,0,0,176
 ayyubid_sultanate,Ayyubid Sultanate,bahmani_sultanate,Bahmani Sultanate,displacement,2,,0,0,0,1,0,0,87
+mamluk_sultanate,Mamluk Sultanate,bahmani_sultanate,Bahmani Sultanate,displacement,2,,0,0,0,1,0,0,-170
 bahmani_sultanate,Bahmani Sultanate,kingdom_of_egypt,Kingdom of Egypt,displacement,2,,0,0,0,1,0,0,278
 first_bulgarian_empire,First Bulgarian Empire,kievan_rus_regime,Kievan Rus,displacement,2,,0,0,0,1,0,0,-136
 kievan_rus_regime,Kievan Rus,second_bulgarian_empire,Second Bulgarian Empire,displacement,2,,0,0,0,1,0,0,-55
 kievan_rus_regime,Kievan Rus,bosnian_kingdom,Bosnian Kingdom,displacement,2,,0,0,0,1,0,0,137
 samanid_empire,Samanid Empire,seljuk_rum,Sultanate of Rum,displacement,2,,0,0,0,1,0,0,78
 samanid_empire,Samanid Empire,delhi_sultanate,Delhi Sultanate,displacement,2,,0,0,0,1,0,0,207
+ghaznavid_empire,Ghaznavid Empire,seljuk_rum,Sultanate of Rum,displacement,2,,0,0,0,1,0,0,-109
+seljuk_empire,Seljuk Empire,seljuk_rum,Sultanate of Rum,displacement,2,,0,0,0,1,0,0,-117
+seljuk_rum,Sultanate of Rum,khwarazmian_empire,Khwarazmian Empire,displacement,2,,0,0,0,1,0,0,-107
+seljuk_rum,Sultanate of Rum,delhi_sultanate,Delhi Sultanate,displacement,2,,0,0,0,1,0,0,-101
 seljuk_rum,Sultanate of Rum,ilkhanate,Ilkhanate,displacement,2,,0,0,0,1,0,0,-51
+seljuk_rum,Sultanate of Rum,timurid_empire,Timurid Empire,displacement,2,,0,0,0,1,0,0,63
 seljuk_rum,Sultanate of Rum,safavid_empire,Safavid Empire,displacement,2,,0,0,0,1,0,0,194
+seljuk_rum,Sultanate of Rum,mughal_empire,Mughal Empire,displacement,2,,0,0,0,1,0,0,219
 khwarazmian_empire,Khwarazmian Empire,safavid_empire,Safavid Empire,displacement,2,,0,0,0,1,0,0,281
 delhi_sultanate,Delhi Sultanate,ilkhanate,Ilkhanate,displacement,2,,0,0,0,1,0,0,-270
+delhi_sultanate,Delhi Sultanate,timurid_empire,Timurid Empire,displacement,2,,0,0,0,1,0,0,-156
 ilkhanate,Ilkhanate,mughal_empire,Mughal Empire,displacement,2,,0,0,0,1,0,0,191
 safavid_empire,Safavid Empire,mughal_empire,Mughal Empire,displacement,2,,0,0,0,1,0,0,-210
+kingdom_of_france,Kingdom of France,kingdom_of_jerusalem,Kingdom of Jerusalem,displacement,2,,0,0,0,1,0,0,-693
+kingdom_of_france,Kingdom of France,latin_empire,Latin Empire,displacement,2,,0,0,0,1,0,0,-588
+kingdom_of_jerusalem,Kingdom of Jerusalem,angevin_empire,Angevin Empire,displacement,2,,0,0,0,1,0,0,-137
+kingdom_of_jerusalem,Kingdom of Jerusalem,latin_empire,Latin Empire,displacement,2,,0,0,0,1,0,0,-87
 teutonic_order,Teutonic Order (Monastic State),kalmar_union,Kalmar Union,displacement,2,,0,0,0,1,0,0,-128
+teutonic_order,Teutonic Order (Monastic State),habsburg_monarchy,Habsburg Monarchy,displacement,2,,0,0,0,1,0,0,-87
 kalmar_union,Kalmar Union,habsburg_monarchy,Habsburg Monarchy,displacement,2,,0,0,0,1,0,0,-85
 kalmar_union,Kalmar Union,kingdom_of_prussia,Kingdom of Prussia,displacement,2,,0,0,0,1,0,0,178
+novgorod_republic,Novgorod Republic,cossack_hetmanate,Cossack Hetmanate,displacement,2,,0,0,0,1,0,0,171
+galicia_volhynia,Principality of Galicia-Volhynia,cossack_hetmanate,Cossack Hetmanate,displacement,2,,0,0,0,1,0,0,300
 grand_duchy_of_lithuania,Grand Duchy of Lithuania,cossack_hetmanate,Cossack Hetmanate,displacement,2,,0,0,0,1,0,0,80
+kingdom_of_great_britain,Kingdom of Great Britain,british_raj,British Raj,displacement,2,,0,0,0,1,0,0,57
 nanda_empire,Nanda Empire,indo_scythian_kingdom,Indo-Scythian Kingdom,displacement,2,,0,0,0,1,0,0,122
 buyid_dynasty,Buyid Dynasty,ghorid_dynasty,Ghorid Sultanate,displacement,2,,0,0,0,1,0,0,86
 buyid_dynasty,Buyid Dynasty,madurai_sultanate,Madurai Sultanate,displacement,2,,0,0,0,1,0,0,273
@@ -1214,8 +891,13 @@ ghorid_dynasty,Ghorid Sultanate,gujarat_sultanate,Gujarat Sultanate,displacement
 madurai_sultanate,Madurai Sultanate,sur_empire,Sur Empire,displacement,2,,0,0,0,1,0,0,162
 jalayirid_sultanate,Jalayirid Sultanate,sur_empire,Sur Empire,displacement,2,,0,0,0,1,0,0,108
 jalayirid_sultanate,Jalayirid Sultanate,hyderabad_state,Nizam of Hyderabad,displacement,2,,0,0,0,1,0,0,292
+malwa_sultanate,Malwa Sultanate,gujarat_sultanate,Gujarat Sultanate,displacement,2,,0,0,0,1,0,0,-155
+malwa_sultanate,Malwa Sultanate,hyderabad_state,Nizam of Hyderabad,displacement,2,,0,0,0,1,0,0,162
 malwa_sultanate,Malwa Sultanate,zand_dynasty,Zand Dynasty,displacement,2,,0,0,0,1,0,0,189
+jaunpur_sultanate,Jaunpur Sultanate,gujarat_sultanate,Gujarat Sultanate,displacement,2,,0,0,0,1,0,0,-72
+jaunpur_sultanate,Jaunpur Sultanate,hyderabad_state,Nizam of Hyderabad,displacement,2,,0,0,0,1,0,0,245
 jaunpur_sultanate,Jaunpur Sultanate,zand_dynasty,Zand Dynasty,displacement,2,,0,0,0,1,0,0,272
+gujarat_sultanate,Gujarat Sultanate,hyderabad_state,Nizam of Hyderabad,displacement,2,,0,0,0,1,0,0,151
 gujarat_sultanate,Gujarat Sultanate,zand_dynasty,Zand Dynasty,displacement,2,,0,0,0,1,0,0,178
 sur_empire,Sur Empire,hyderabad_state,Nizam of Hyderabad,displacement,2,,0,0,0,1,0,0,168
 sur_empire,Sur Empire,zand_dynasty,Zand Dynasty,displacement,2,,0,0,0,1,0,0,195
@@ -1261,6 +943,8 @@ kara_khanid_khanate,Kara-Khanid Khanate,kazan_khanate,Kazan Khanate,displacement
 moghulistan,Moghulistan Khanate,khanate_of_kokand,Khanate of Kokand,displacement,2,,0,0,0,1,0,0,247
 kazan_khanate,Kazan Khanate,khanate_of_bukhara,Khanate of Bukhara,displacement,2,,0,0,0,1,0,0,-52
 kazan_khanate,Kazan Khanate,khanate_of_kokand,Khanate of Kokand,displacement,2,,0,0,0,1,0,0,157
+khanate_of_bukhara,Khanate of Bukhara,yarkand_khanate,Yarkand Khanate,displacement,2,,0,0,0,1,0,0,-271
+khanate_of_khiva,Khanate of Khiva,yarkand_khanate,Yarkand Khanate,displacement,2,,0,0,0,1,0,0,-406
 byzantine_empire,Byzantine Empire,ottoman_empire,Ottoman Empire,expansion,2,anatolia|balkans,2,0,0,0,0,0,-154
 croatian_kingdom,Croatian Kingdom,latin_empire,Latin Empire,expansion,2,balkans,1,0,0,0,1,0,102
 serbian_empire,Serbian Empire (Nemanjić Dynasty),latin_empire,Latin Empire,expansion,2,balkans,1,0,1,0,0,0,-185

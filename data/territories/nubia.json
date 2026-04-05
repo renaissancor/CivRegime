@@ -1,0 +1,57 @@
+{
+  "id": "nubia",
+  "name": "nubia",
+  "regime_count": 10,
+  "regimes": [
+    {
+      "regime_id": "old_kingdom_egypt",
+      "start": -2686,
+      "end": -2181
+    },
+    {
+      "regime_id": "new_kingdom_egypt",
+      "start": -1550,
+      "end": -1070
+    },
+    {
+      "regime_id": "meroitic_kingdom",
+      "start": -656,
+      "end": 350
+    },
+    {
+      "regime_id": "aksumite_kingdom",
+      "start": 100,
+      "end": 940
+    },
+    {
+      "regime_id": "darfur_sultanate",
+      "start": 1603,
+      "end": 1916
+    },
+    {
+      "regime_id": "funj_sultanate",
+      "start": 1504,
+      "end": 1821
+    },
+    {
+      "regime_id": "mahdist_state",
+      "start": 1885,
+      "end": 1898
+    },
+    {
+      "regime_id": "makuria_kingdom",
+      "start": 340,
+      "end": 1364
+    },
+    {
+      "regime_id": "solomonic_dynasty",
+      "start": 1270,
+      "end": 1974
+    },
+    {
+      "regime_id": "zagwe_dynasty",
+      "start": 900,
+      "end": 1270
+    }
+  ]
+}

@@ -11,10 +11,12 @@
     "validate": "node scripts/validate.js",
     "make:regimes": "node code/makejson/regimes.js",
     "make:successions": "node code/makejson/successions.js",
+    "make:states": "node code/makejson/states.js",
+    "make:territories": "node code/makejson/territories.js",
     "make:ethnicities": "node code/makejson/ethnicities.js",
     "make:languages": "node code/makejson/languages.js",
     "make:religions": "node code/makejson/religions.js",
-    "make:all": "node code/makejson/ethnicities.js && node code/makejson/languages.js && node code/makejson/religions.js && node code/makejson/regimes.js && node code/makejson/successions.js",
+    "make:all": "node code/makejson/ethnicities.js && node code/makejson/languages.js && node code/makejson/religions.js && node code/makejson/states.js && node code/makejson/territories.js && node code/makejson/regimes.js && node code/makejson/successions.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
