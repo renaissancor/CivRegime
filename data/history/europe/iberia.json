@@ -1,26 +1,39 @@
 {
   "id": "iberia",
-  "title": "History of Iberia (Spain · Portugal · Al-Andalus)",
+  "title": "History of Iberia (Spain & Portugal)",
   "columns": [
-    { "id": "era",      "name": "Era",                                      "slots": 1, "type": "era" },
-    { "id": "north",    "name": "Northern Kingdoms (Castile · León · Aragon · Portugal)", "slots": 1 },
-    { "id": "south",    "name": "Southern Iberia (Al-Andalus · Reconquered)",             "slots": 1 }
+    { "id": "era",      "name": "Era",                                              "slots": 1, "type": "era" },
+    { "id": "portugal", "name": "Portugal / NW Iberia (Gallaecia · Lusitania)",     "slots": 1 },
+    { "id": "castile",  "name": "Castile · León (Asturias · North-Central)",        "slots": 1 },
+    { "id": "aragon",   "name": "Aragon · Navarre · Catalonia (Northeast)",         "slots": 1 },
+    { "id": "andalus",  "name": "Al-Andalus / Southern Iberia (Baetica)",           "slots": 1 }
   ],
   "rows": [
     {
       "era": { "label": "Ancient", "rowspan": 2 },
       "cells": [
         { "stack": [
-            { "label": "Iberian peoples (northeast)",            "note": "c.1000–200 BCE" },
-            { "label": "Celtic tribes (interior · northwest)",   "note": "c.800–200 BCE" },
-            { "label": "Celtiberian cultures",                   "note": "c.600–200 BCE" }
+            { "label": "Cynetes / Conii (far southwest)",      "note": "pre-Roman" },
+            { "label": "Lusitanians",                          "note": "c.1000 BCE–" },
+            { "label": "Celts (NW Gallaecia)",                 "note": "c.800 BCE–" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Celtiberians",                         "note": "c.800–200 BCE" },
+            { "label": "Iberians (eastern & southern)",        "note": "c.800 BCE–" },
+            { "label": "Basques (Pyrenees — continuous)",      "note": "c.1000 BCE–" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Basques (Vascones · Pyrenees)",        "note": "c.1000 BCE– (pre-IE)" },
+            { "label": "Iberians (Mediterranean coast)",       "note": "c.800 BCE–" },
+            { "label": "Greek colonies (Emporion · Rhode)",    "note": "c.600 BCE–" }
           ], "span": 1
         },
         { "stack": [
             { "label": "Tartessian civilization (Guadalquivir)", "note": "c.1100–500 BCE" },
-            { "label": "Phoenician colonies (Gadir/Cádiz)",      "note": "from c.1100 BCE" },
-            { "label": "Greek colonies (Emporion)",              "note": "from c.600 BCE" },
-            { "label": "Carthaginian expansion (New Carthage)",  "note": "c.237–206 BCE" }
+            { "label": "Phoenician colonies (Gadir · Málaga · Sexi)", "note": "c.1100 BCE–" },
+            { "label": "Carthaginian expansion (New Carthage)", "note": "c.237–206 BCE" }
           ], "span": 1
         }
       ]
@@ -29,49 +42,51 @@
       "era": null,
       "cells": [
         { "stack": [
-            { "regime": "roman_republic", "label": "Roman Republic (Hispania Citerior)", "note": "206–27 BCE" },
-            { "regime": "roman_empire_pagan", "label": "Roman Empire (Hispania provinces)", "note": "27 BCE–380 CE" }
+            { "regime": "roman_republic",     "label": "Roman Republic — Lusitania (Sertorius revolt 80–72 BCE)", "note": "206–27 BCE" },
+            { "regime": "roman_empire_pagan", "label": "Roman Empire — Gallaecia · Lusitania", "note": "27 BCE–380 CE" }
           ], "span": 1
         },
         { "stack": [
-            { "regime": "roman_republic", "label": "Roman Republic (Hispania Ulterior)", "note": "206–27 BCE" },
-            { "regime": "roman_empire_pagan", "label": "Roman Empire (Baetica province)","note": "27 BCE–380 CE" }
+            { "regime": "roman_republic",     "label": "Roman Republic — Hispania Citerior", "note": "206–27 BCE" },
+            { "regime": "roman_empire_pagan", "label": "Roman Empire — Tarraconensis",       "note": "27 BCE–380 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "roman_republic",     "label": "Roman Republic — Tarraconensis",    "note": "206–27 BCE" },
+            { "regime": "roman_empire_pagan", "label": "Roman Empire — Tarraconensis",      "note": "27 BCE–380 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "roman_republic",     "label": "Roman Republic — Hispania Ulterior","note": "206–27 BCE" },
+            { "regime": "roman_empire_pagan", "label": "Roman Empire — Baetica Province",   "note": "27 BCE–380 CE" }
           ], "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Late Antique / Germanic", "rowspan": 1 },
+      "era": { "label": "Late Antique / Germanic", "rowspan": 2 },
       "cells": [
         { "stack": [
-            { "regime": "roman_empire_christian", "label": "Roman Empire (Christian)", "note": "380–395" },
-            { "regime": "western_roman_empire",   "label": "Western Roman Empire",     "note": "395–476" },
-            { "label": "Suebi Kingdom (northwest)","note": "409–585" },
-            { "regime": "visigothic_kingdom", "label": "Visigothic Kingdom (capital: Toledo)", "note": "418–711" }
+            { "regime": "roman_empire_christian", "label": "Western Roman Empire",           "note": "380–409" },
+            { "label": "Suebi settle Gallaecia",               "note": "409–" },
+            { "label": "Alans in Lusitania (briefly)",         "note": "409–418" },
+            { "label": "Vandals — passing through",           "note": "409–429" }
           ], "span": 1
         },
         { "stack": [
-            { "regime": "roman_empire_christian", "label": "Roman Empire (Christian)", "note": "380–395" },
-            { "regime": "western_roman_empire",   "label": "Western Roman Empire",     "note": "395–476" },
-            { "label": "Vandal passage (409–429 then Africa)", "note": "" },
-            { "regime": "visigothic_kingdom", "label": "Visigothic Kingdom (Baetica)", "note": "507–711" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Islamic Iberia", "rowspan": 2 },
-      "cells": [
-        { "stack": [
-            { "label": "Umayyad conquest — Battle of Guadalete", "note": "711–714" },
-            { "label": "Kingdom of Asturias",                    "note": "718–924" },
-            { "label": "Kingdom of León",                        "note": "910–1230" },
-            { "label": "County of Castile → Kingdom",            "note": "932–1230" }
+            { "regime": "roman_empire_christian", "label": "Western Roman Empire",           "note": "380–476" },
+            { "label": "Alans in Carthaginensis",              "note": "409–418" },
+            { "label": "Vandals in Baetica → Africa",          "note": "409–429" }
           ], "span": 1
         },
         { "stack": [
-            { "regime": "umayyad_caliphate", "label": "Umayyad Caliphate (Al-Andalus governor)", "note": "714–750" },
-            { "regime": "al_andalus", "label": "Umayyad Emirate / Caliphate of Córdoba", "note": "756–1031" }
+            { "regime": "roman_empire_christian", "label": "Western Roman Empire",           "note": "380–476" },
+            { "regime": "visigothic_kingdom",     "label": "Visigothic Kingdom (Toulouse)",  "note": "418–507" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "roman_empire_christian", "label": "Western Roman Empire",           "note": "380–476" },
+            { "label": "Vandals in Baetica → North Africa 429","note": "" }
           ], "span": 1
         }
       ]
@@ -80,15 +95,127 @@
       "era": null,
       "cells": [
         { "stack": [
-            { "label": "Kingdom of Navarre",                     "note": "824–1512" },
-            { "label": "County of Portugal → Kingdom",          "note": "868–1139" },
-            { "label": "Kingdom of Aragon",                      "note": "1035–1479" },
-            { "label": "Crown of Castile (after León merger)",   "note": "1230–1479" }
+            { "label": "Suebi Kingdom (Gallaecia · NW Iberia)", "note": "409–585" },
+            { "regime": "visigothic_kingdom",     "label": "Visigothic Kingdom absorbs Suebi", "note": "585" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "visigothic_kingdom",     "label": "Visigothic Kingdom (Toledo capital after 507)", "note": "507–711" },
+            { "label": "Theodoric/Ostrogothic regency",        "note": "507–526" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "visigothic_kingdom",     "label": "Visigothic Kingdom",              "note": "507–711" },
+            { "label": "Theodoric/Ostrogothic regency",        "note": "507–526" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "visigothic_kingdom",     "label": "Visigothic Kingdom",              "note": "507–711" },
+            { "regime": "byzantine_empire",       "label": "Byzantine Spania Province",       "note": "554–624" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Early Reconquista (718–950)", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "regime": "umayyad_caliphate", "label": "Umayyad conquest",                   "note": "711–718" },
+            { "label": "Asturias / Galicia reconquest of north", "note": "718–" },
+            { "label": "Galicia emerging (under Asturias)",    "note": "800s" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "umayyad_caliphate", "label": "Umayyad conquest",                   "note": "711–718" },
+            { "label": "Kingdom of Asturias",                  "note": "718–924" },
+            { "label": "Pelayo's Reconquista begins",          "note": "c.718" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "umayyad_caliphate",    "label": "Umayyad conquest (partial)",       "note": "714–718" },
+            { "label": "Frankish Marca Hispanica (Charlemagne)", "note": "778–" },
+            { "label": "Kingdom of Pamplona/Navarre",          "note": "824–" },
+            { "label": "County of Aragon (under Navarre)",     "note": "828–" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "umayyad_caliphate",    "label": "Umayyad Caliphate (Al-Andalus)",   "note": "711–750" },
+            { "regime": "al_andalus",           "label": "Emirate of Córdoba (Umayyad)",     "note": "756–929" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Kingdom of Galicia",                   "note": "910–1230" },
+            { "label": "County of Portugal (under Galicia)",   "note": "868–1095" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of León",                      "note": "910–1230" },
+            { "label": "County of Castile (growing autonomy)", "note": "932–1029" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Navarre (dominant in north)", "note": "824–1234" },
+            { "label": "County of Barcelona (West Frankish fief)", "note": "801–988" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "al_andalus", "label": "Caliphate of Córdoba",                      "note": "929–1031" },
+            { "label": "Height of Islamic Spain — Córdoba largest European city", "note": "" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "High Reconquista (950–1230)", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "County of Portugal (autonomous)",      "note": "1095–1139" },
+            { "label": "Kingdom of Portugal (Afonso I)",       "note": "1139–" },
+            { "label": "Burgundian dynasty",                   "note": "1139–1385" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of León-Castile (Sancho III)", "note": "1037" },
+            { "label": "Kingdom of Castile (separate)",        "note": "1065–1230" },
+            { "label": "Conquest of Toledo",                   "note": "1085" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Aragon",                    "note": "1035–1137" },
+            { "label": "Crown of Aragon (Aragon + Catalonia)", "note": "1137–1469" },
+            { "label": "Kingdom of Navarre (separate)",        "note": "1035–1512" }
           ], "span": 1
         },
         { "stack": [
             { "regime": "al_andalus", "label": "Taifa Kingdoms (reinos de taifas)", "note": "1031–1086" },
-            { "regime": "almoravid_dynasty", "label": "Almoravid Dynasty",          "note": "1086–1147" },
+            { "regime": "almoravid_dynasty", "label": "Almoravid Dynasty",          "note": "1086–1147" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Kingdom of Portugal (Burgundian)",     "note": "–1385" },
+            { "label": "Aviz dynasty (João I)",                "note": "1385–1495" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Crown of Castile (Castile + León merged)", "note": "1230–1479" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Crown of Aragon (Sicily 1282, Sardinia 1323)", "note": "1137–1469" },
+            { "label": "Kingdom of Navarre (French connection)", "note": "–1512" }
+          ], "span": 1
+        },
+        { "stack": [
             { "regime": "almohad_caliphate", "label": "Almohad Caliphate",          "note": "1147–1269" },
             { "regime": "al_andalus", "label": "Nasrid Emirate of Granada",         "note": "1230–1492" }
           ], "span": 1
@@ -96,18 +223,44 @@
       ]
     },
     {
-      "era": { "label": "United Spain & Empire", "rowspan": 2 },
+      "era": { "label": "Late Reconquista (1230–1492)", "rowspan": 1 },
       "cells": [
         { "stack": [
-            { "label": "Crown of Castile + Aragon (Ferdinand & Isabella)", "note": "1479–1516" },
-            { "label": "Fall of Granada — Reconquista complete", "note": "1492" },
-            { "label": "Columbus reaches Americas",              "note": "1492" }
+            { "label": "Kingdom of Portugal (Aviz dynasty)",   "note": "1385–1495" },
+            { "label": "Age of Discovery begins (Henry the Navigator)", "note": "1415–" }
           ], "span": 1
         },
         { "stack": [
-            { "label": "Fall of Granada",                        "note": "1492 — end of Al-Andalus" },
-            { "label": "Spanish Inquisition (Moriscos expelled)", "note": "1492–1609" }
+            { "label": "Crown of Castile",                     "note": "–1479" },
+            { "label": "Castile + Aragon (Ferdinand & Isabella)", "note": "1469–" }
           ], "span": 1
+        },
+        { "stack": [
+            { "label": "Crown of Aragon (Naples 1442, Mediterranean empire)", "note": "" },
+            { "label": "Navarre → annexed by Castile",         "note": "1512" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "al_andalus", "label": "Nasrid Emirate of Granada",         "note": "1230–1492" },
+            { "label": "Fall of Granada",                      "note": "1492 — end of Al-Andalus" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Habsburg Era", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Kingdom of Portugal — Aviz-Beja dynasty", "note": "1495–1580" },
+            { "label": "Vasco da Gama · Cabral · Magellan",     "note": "1498–1521" },
+            { "label": "Portuguese Empire peak",                "note": "16th c." }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Spain (Habsburg — Carlos I / Philip II)", "note": "1516–1700" },
+            { "label": "Columbus 1492, American Empire",        "note": "" },
+            { "label": "Moriscos expelled",                     "note": "1609" }
+          ], "span": 3
         }
       ]
     },
@@ -115,42 +268,81 @@
       "era": null,
       "cells": [
         { "stack": [
-            { "label": "Habsburg Spain (Carlos I / Felipe II)",   "note": "1516–1700" },
-            { "label": "Kingdom of Portugal (union 1580–1640)",   "note": "" },
-            { "label": "Bourbon Spain",                          "note": "1700–1808" },
-            { "label": "Napoleonic invasion / War of Independence","note": "1808–1814" }
+            { "label": "Iberian Union (Philip II absorbs Portugal)", "note": "1580–1640" },
+            { "label": "Braganza Restoration",                  "note": "1640" },
+            { "label": "Kingdom of Portugal (Braganza dynasty)", "note": "1640–1910" }
           ], "span": 1
         },
         { "stack": [
-            { "label": "Habsburg / Bourbon Spanish crown",        "note": "1492–1808" },
-            { "label": "Reconquered south fully integrated",      "note": "" }
-          ], "span": 1
+            { "label": "Habsburg Spain — Armada defeat (1588), decline", "note": "" },
+            { "label": "Bourbon Spain (War of Spanish Succession)", "note": "1700–1714" }
+          ], "span": 3
         }
       ]
     },
     {
-      "era": { "label": "Modern", "rowspan": 1 },
+      "era": { "label": "Bourbon / Napoleonic", "rowspan": 1 },
       "cells": [
         { "stack": [
-            { "label": "Liberal constitutional Spain",           "note": "1812–1936" },
-            { "label": "Spanish Republic / Civil War",           "note": "1931–1939" },
-            { "label": "Francoist Spain",                        "note": "1939–1975" },
-            { "label": "Kingdom of Spain (democracy)",           "note": "1978–" }
+            { "label": "Kingdom of Portugal (Braganza)",        "note": "–1807" },
+            { "label": "Pombal reforms",                       "note": "1755–1777" },
+            { "label": "Napoleonic invasion — court to Brazil", "note": "1807" },
+            { "label": "United Kingdom Portugal-Brazil-Algarves", "note": "1815–1822" }
           ], "span": 1
         },
         { "stack": [
-            { "label": "Kingdom of Portugal",                    "note": "1640–1910" },
-            { "label": "Portuguese Republic",                    "note": "1910–" }
+            { "label": "Bourbon Spain (Philip V → Carlos III enlightenment)", "note": "1700–1808" },
+            { "label": "Napoleonic Spain (José I Bonaparte)",  "note": "1808–1813" },
+            { "label": "Peninsular War / War of Independence", "note": "1808–1814" },
+            { "label": "Bourbon restored (Fernando VII)",       "note": "1814" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": { "label": "Liberal Monarchies & Republics", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Constitutional Portugal (Braganza)",    "note": "1820–1910" },
+            { "label": "Saxe-Coburg-Gotha dynasty",            "note": "1853–1910" },
+            { "label": "First Portuguese Republic",            "note": "1910–1926" }
           ], "span": 1
+        },
+        { "stack": [
+            { "label": "Liberal constitutional Spain",         "note": "1820–1873" },
+            { "label": "First Spanish Republic",               "note": "1873–1874" },
+            { "label": "Restoration (Bourbon — Alfonso XII)",  "note": "1874–1923" },
+            { "label": "Primo de Rivera dictatorship",         "note": "1923–1930" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "National Dictatorship (Carmona / Salazar)", "note": "1926–1933" },
+            { "label": "Estado Novo (Salazar 1933–1968 · Caetano 1968–74)", "note": "" },
+            { "label": "Carnation Revolution",                 "note": "1974" },
+            { "label": "Third Portuguese Republic",            "note": "1976–" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Second Spanish Republic",              "note": "1931–1939" },
+            { "label": "Spanish Civil War",                    "note": "1936–1939" },
+            { "label": "Francoist Spain (Estado Español)",     "note": "1939–1975" },
+            { "label": "Kingdom of Spain (Juan Carlos I — democracy)", "note": "1978–" }
+          ], "span": 3
         }
       ]
     }
   ],
   "footnotes": [
-    "Battle of Guadalete (711): the Umayyad general Tariq ibn Ziyad crossed from North Africa with a small force and defeated the Visigothic king Roderic; within three years almost the entire peninsula was under Arab-Berber control — one of the fastest conquests in history; the name 'Gibraltar' derives from Jabal Tariq (Tariq's Mountain)",
-    "Umayyad Caliphate of Córdoba (929–1031): Abd al-Rahman III declared himself Caliph in 929, making Córdoba one of the largest and most cultured cities in Europe; its Great Mosque (Mezquita), the library of 400,000 volumes, and its multi-faith intellectual culture represented Islamic civilization's apex in the West",
-    "Reconquista: the gradual Christian reconquest was not a unified crusade but a complex political process spanning 780 years (718–1492); Muslim, Christian, and Jewish populations coexisted and intermingled throughout; the fall of Granada in 1492 coincided with Columbus's voyage — both initiated by Queen Isabella",
-    "Almoravids and Almohads: both were Berber reform movements from the western Sahara/Atlas who were invited by Andalusian taifa rulers to halt Christian advances; the Almohads destroyed the sophisticated Andalusian culture they came to defend, persecuting Maimonides and Averroes alike",
-    "1492 — Spain's pivotal year: three events in one year: conquest of Granada ending 780 years of Reconquista; the Alhambra Decree expelling Jews; Columbus's voyage that began the American Empire; together these define the birth of modern Spain"
+    "Basques: the only pre-Indo-European people of Western Europe to preserve their language into the modern era; their origin is uncertain (possibly Mesolithic Iberian survivors); they maintained practical autonomy through most of Roman, Visigothic, and medieval Spanish rule due to their mountain strongholds in the Pyrenees",
+    "Byzantine Spania (554–624 CE): the Eastern Roman Empire exploited Visigothic dynastic conflicts to land an army in southeastern Spain in 554 under Athanagild; the province included Cartagena, Málaga, and parts of Baetica; it was gradually reconquered by the Visigothic King Suinthila, who expelled the Byzantines by 624",
+    "Caliphate of Córdoba (929–1031): Abd al-Rahman III's proclamation of the Caliphate made Córdoba the largest city in Europe (estimated population 500,000); his library reportedly held 400,000 volumes; the court hosted scholars from across the Islamic world and tolerantly employed Christians (mozarabes) and Jews in administration",
+    "County of Portugal (868–1139): created as a frontier county of the Kingdom of León; the county was given to Count Henry of Burgundy in 1095 as a reward for Crusade service; his son Afonso Henriques declared Portuguese independence after the Battle of Ourique (1139), recognized by León in 1143",
+    "Iberian Union (1580–1640): Philip II of Spain inherited Portugal after the childless death of King Sebastião in the Battle of Alcácer Quibir (1578); the union was accepted by Portuguese elites under the condition of administrative separation; the Portuguese Restoration War (1640–1668) reestablished independence under the Braganza dynasty",
+    "Carnation Revolution (25 April 1974): a nearly bloodless military coup by the Armed Forces Movement ended 48 years of the Estado Novo dictatorship; soldiers placed carnations in their rifle barrels; the revolution triggered rapid decolonization of Portugal's African empire (Angola, Mozambique, Guinea-Bissau) and transition to parliamentary democracy"
   ]
 }
