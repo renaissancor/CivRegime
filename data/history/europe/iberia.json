@@ -1,0 +1,156 @@
+{
+  "id": "iberia",
+  "title": "History of Iberia (Spain · Portugal · Al-Andalus)",
+  "columns": [
+    { "id": "era",      "name": "Era",                                      "slots": 1, "type": "era" },
+    { "id": "north",    "name": "Northern Kingdoms (Castile · León · Aragon · Portugal)", "slots": 1 },
+    { "id": "south",    "name": "Southern Iberia (Al-Andalus · Reconquered)",             "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Iberian peoples (northeast)",            "note": "c.1000–200 BCE" },
+            { "label": "Celtic tribes (interior · northwest)",   "note": "c.800–200 BCE" },
+            { "label": "Celtiberian cultures",                   "note": "c.600–200 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Tartessian civilization (Guadalquivir)", "note": "c.1100–500 BCE" },
+            { "label": "Phoenician colonies (Gadir/Cádiz)",      "note": "from c.1100 BCE" },
+            { "label": "Greek colonies (Emporion)",              "note": "from c.600 BCE" },
+            { "label": "Carthaginian expansion (New Carthage)",  "note": "c.237–206 BCE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "roman_republic", "label": "Roman Republic (Hispania Citerior)", "note": "206–27 BCE" },
+            { "regime": "roman_empire_pagan", "label": "Roman Empire (Hispania provinces)", "note": "27 BCE–380 CE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "roman_republic", "label": "Roman Republic (Hispania Ulterior)", "note": "206–27 BCE" },
+            { "regime": "roman_empire_pagan", "label": "Roman Empire (Baetica province)","note": "27 BCE–380 CE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Late Antique / Germanic", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "regime": "roman_empire_christian", "label": "Roman Empire (Christian)", "note": "380–395" },
+            { "regime": "western_roman_empire",   "label": "Western Roman Empire",     "note": "395–476" },
+            { "label": "Suebi Kingdom (northwest)","note": "409–585" },
+            { "regime": "visigothic_kingdom", "label": "Visigothic Kingdom (capital: Toledo)", "note": "418–711" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "roman_empire_christian", "label": "Roman Empire (Christian)", "note": "380–395" },
+            { "regime": "western_roman_empire",   "label": "Western Roman Empire",     "note": "395–476" },
+            { "label": "Vandal passage (409–429 then Africa)", "note": "" },
+            { "regime": "visigothic_kingdom", "label": "Visigothic Kingdom (Baetica)", "note": "507–711" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Islamic Iberia", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Umayyad conquest — Battle of Guadalete", "note": "711–714" },
+            { "label": "Kingdom of Asturias",                    "note": "718–924" },
+            { "label": "Kingdom of León",                        "note": "910–1230" },
+            { "label": "County of Castile → Kingdom",            "note": "932–1230" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "umayyad_caliphate", "label": "Umayyad Caliphate (Al-Andalus governor)", "note": "714–750" },
+            { "regime": "al_andalus", "label": "Umayyad Emirate / Caliphate of Córdoba", "note": "756–1031" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Kingdom of Navarre",                     "note": "824–1512" },
+            { "label": "County of Portugal → Kingdom",          "note": "868–1139" },
+            { "label": "Kingdom of Aragon",                      "note": "1035–1479" },
+            { "label": "Crown of Castile (after León merger)",   "note": "1230–1479" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "al_andalus", "label": "Taifa Kingdoms (reinos de taifas)", "note": "1031–1086" },
+            { "regime": "almoravid_dynasty", "label": "Almoravid Dynasty",          "note": "1086–1147" },
+            { "regime": "almohad_caliphate", "label": "Almohad Caliphate",          "note": "1147–1269" },
+            { "regime": "al_andalus", "label": "Nasrid Emirate of Granada",         "note": "1230–1492" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "United Spain & Empire", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Crown of Castile + Aragon (Ferdinand & Isabella)", "note": "1479–1516" },
+            { "label": "Fall of Granada — Reconquista complete", "note": "1492" },
+            { "label": "Columbus reaches Americas",              "note": "1492" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Fall of Granada",                        "note": "1492 — end of Al-Andalus" },
+            { "label": "Spanish Inquisition (Moriscos expelled)", "note": "1492–1609" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Habsburg Spain (Carlos I / Felipe II)",   "note": "1516–1700" },
+            { "label": "Kingdom of Portugal (union 1580–1640)",   "note": "" },
+            { "label": "Bourbon Spain",                          "note": "1700–1808" },
+            { "label": "Napoleonic invasion / War of Independence","note": "1808–1814" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Habsburg / Bourbon Spanish crown",        "note": "1492–1808" },
+            { "label": "Reconquered south fully integrated",      "note": "" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Modern", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Liberal constitutional Spain",           "note": "1812–1936" },
+            { "label": "Spanish Republic / Civil War",           "note": "1931–1939" },
+            { "label": "Francoist Spain",                        "note": "1939–1975" },
+            { "label": "Kingdom of Spain (democracy)",           "note": "1978–" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Portugal",                    "note": "1640–1910" },
+            { "label": "Portuguese Republic",                    "note": "1910–" }
+          ], "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Battle of Guadalete (711): the Umayyad general Tariq ibn Ziyad crossed from North Africa with a small force and defeated the Visigothic king Roderic; within three years almost the entire peninsula was under Arab-Berber control — one of the fastest conquests in history; the name 'Gibraltar' derives from Jabal Tariq (Tariq's Mountain)",
+    "Umayyad Caliphate of Córdoba (929–1031): Abd al-Rahman III declared himself Caliph in 929, making Córdoba one of the largest and most cultured cities in Europe; its Great Mosque (Mezquita), the library of 400,000 volumes, and its multi-faith intellectual culture represented Islamic civilization's apex in the West",
+    "Reconquista: the gradual Christian reconquest was not a unified crusade but a complex political process spanning 780 years (718–1492); Muslim, Christian, and Jewish populations coexisted and intermingled throughout; the fall of Granada in 1492 coincided with Columbus's voyage — both initiated by Queen Isabella",
+    "Almoravids and Almohads: both were Berber reform movements from the western Sahara/Atlas who were invited by Andalusian taifa rulers to halt Christian advances; the Almohads destroyed the sophisticated Andalusian culture they came to defend, persecuting Maimonides and Averroes alike",
+    "1492 — Spain's pivotal year: three events in one year: conquest of Granada ending 780 years of Reconquista; the Alhambra Decree expelling Jews; Columbus's voyage that began the American Empire; together these define the birth of modern Spain"
+  ]
+}
