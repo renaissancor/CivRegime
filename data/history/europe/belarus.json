@@ -107,22 +107,25 @@
       "cells": [
         { "stack": [
             { "label": "Russian Empire — Partitions of Poland", "note": "1772 (1st) · 1793 (2nd) · 1795 (3rd)" },
+            { "label": "Duchy of Warsaw (briefly)", "note": "1807–1815" },
             { "label": "Guberniyas: Grodno · Minsk · Vitebsk · Mogilev · Vilna" }
           ], "span": 3
         }
       ]
     },
     {
-      "era": { "label": "Revolution / Interwar", "rowspan": 2 },
+      "era": { "label": "Revolution / Interwar", "rowspan": 3 },
       "cells": [
         { "stack": [
             { "label": "German occupation (Ober Ost)", "note": "1915–1918" },
-            { "label": "BNR declared", "note": "March 1918 — brief" },
+            { "label": "Belarusian People's Republic (BNR)", "note": "March 1918 — under German occupation" },
             { "label": "Second Polish Republic (Kresy)", "note": "Treaty of Riga 1921" }
           ], "span": 1
         },
         { "stack": [
-            { "label": "German occupation → Byelorussian SSR (BSSR)", "note": "1919" }
+            { "label": "Central Belarusian Rada",               "note": "1918" },
+            { "label": "Lithuanian-Byelorussian SSR (LitBel)",  "note": "Feb–Aug 1919" },
+            { "label": "Byelorussian Soviet Socialist Republic (BSSR)", "note": "1919–" }
           ], "span": 2
         }
       ]
@@ -135,7 +138,20 @@
           ], "span": 1
         },
         { "stack": [
-            { "label": "Byelorussian Soviet Socialist Republic (BSSR)" }
+            { "label": "Byelorussian SSR (in USSR)" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Second Polish Republic (Kresy)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Byelorussian SSR — collectivisation · purges", "note": "1930s" }
           ], "span": 2
         }
       ]

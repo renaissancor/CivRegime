@@ -1,0 +1,242 @@
+{
+  "id": "armenia",
+  "title": "History of Armenia",
+  "columns": [
+    { "id": "era",        "name": "Era",                                                         "slots": 1, "type": "era" },
+    { "id": "main",       "name": "Greater Armenia (main dynasties)",                            "slots": 1 },
+    { "id": "peripheral", "name": "Sub-kingdoms · Cilicia · Artsakh (Peripheral)",               "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Prehistoric", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Shulaveri-Shomu culture",                "note": "c.6000–4000 BCE" },
+            { "label": "Kura-Araxes culture",                    "note": "c.3500–2200 BCE" },
+            { "label": "Trialeti-Vanadzor culture",              "note": "c.2200–1500 BCE" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": { "label": "Early Antiquity", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "regime": "mitanni_empire",  "label": "Mitanni Empire — suzerainty",    "note": "c.1500–1260 BCE" },
+            { "regime": "hittite_empire",  "label": "Hittite Empire — suzerainty",    "note": "c.1400–1200 BCE" },
+            { "label": "Hayasa-Azzi confederation",              "note": "c.1600–1200 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Nairi kingdoms (highland confederation)", "note": "c.1300–860 BCE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "kingdom_of_urartu", "label": "Kingdom of Urartu",            "note": "860–590 BCE" },
+            { "label": "Median Empire",                          "note": "590–550 BCE" },
+            { "regime": "achaemenid_empire", "label": "Achaemenid Persia — Armenian satrapy", "note": "550–330 BCE" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": { "label": "Ancient", "rowspan": 4 },
+      "cells": [
+        { "stack": [
+            { "label": "Orontid (Yervandid) dynasty",            "note": "570–200 BCE" },
+            { "regime": "seleucid_empire", "label": "Seleucid suzerainty",            "note": "312–190 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Lesser Armenia (Sophene · Commagene)",   "note": "from 3rd c. BCE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "kingdom_of_armenia", "label": "Artaxiad (Artasiad) Armenia", "note": "190 BCE–1 CE" },
+            { "label": "Tigranes II 'the Great' — peak empire", "note": "83–69 BCE" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Sophene · Lesser Armenia",               "note": "client kingdoms" },
+            { "label": "Kingdom of Commagene",                   "note": "163 BCE–72 CE" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "kingdom_of_armenia", "label": "Arsacid Armenia",             "note": "1–428 CE" },
+            { "label": "Christianity adopted (St. Gregory)",     "note": "301 CE — first Christian state" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "roman_empire_pagan", "label": "Roman Armenia (province)",    "note": "114–118 CE" },
+            { "regime": "roman_empire_christian", "label": "Byzantine Armenia (eastern thema)", "note": "387–636" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "sassanid_empire", "label": "Sassanid Marzpanate (Persarmenia)", "note": "428–652" },
+            { "label": "Battle of Avarayr",                      "note": "451 — Christianity defended against Zoroastrian conversion" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "byzantine_empire", "label": "Byzantine Armenia (thema)",      "note": "387–636" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval", "rowspan": 5 },
+      "cells": [
+        { "stack": [
+            { "regime": "rashidun_caliphate", "label": "Rashidun Caliphate (Arminiya)", "note": "640s–661" },
+            { "regime": "umayyad_caliphate",  "label": "Umayyad Caliphate (Arminiya)", "note": "661–750" },
+            { "regime": "abbasid_caliphate",  "label": "Abbasid Caliphate (Arminiya)", "note": "750–885" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "regime": "bagratid_armenia", "label": "Bagratid Armenia (capital: Ani)", "note": "885–1064", "span": 1 },
+        { "stack": [
+            { "label": "Taron principality",                     "note": "885–966" },
+            { "label": "Syunik · Gadman · Parstos kingdoms",     "note": "9th–11th c." },
+            { "label": "Vaspurakan Kingdom",                     "note": "908–1021" },
+            { "label": "Vanand · Lori · Artsakh kingdoms",       "note": "10th–11th c." }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "seljuk_empire", "label": "Seljuk conquest — Ani falls",      "note": "1064" },
+            { "label": "Shadarmenid dynasty (Ahlat)",            "note": "1100–1207" },
+            { "label": "Zakarid Armenia (under Georgia)",        "note": "1200–1350" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Cilician Armenia",            "note": "1080–1375" },
+            { "label": "Hasan-Jalalid dynasty (Artsakh)",        "note": "1214–1261" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "mongol_empire", "label": "Mongol Empire",                    "note": "1236–1256" },
+            { "regime": "ilkhanate",     "label": "Ilkhanate",                        "note": "1256–1335" },
+            { "label": "Chobanid dynasty",                       "note": "1335–1357" },
+            { "label": "Jalayirid Sultanate",                    "note": "1357–1410" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Zakarid nobles (Proshians · Orbelians)", "note": "under Mongols" },
+            { "label": "Hasan-Jalalid (Artsakh · Karabakh)",    "note": "1261–1500s" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "timurid_empire", "label": "Timurid Empire",                 "note": "1405–1468" },
+            { "regime": "kara_koyunlu",   "label": "Kara Koyunlu (Black Sheep)",     "note": "1374–1468" },
+            { "regime": "aq_qoyunlu",     "label": "Aq Qoyunlu (White Sheep)",       "note": "1468–1501" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Artsakh Melikdoms (5 melikdoms of Karabakh)", "note": "c.1400–1822" },
+            { "label": "Proshian lords · Hasan-Jalalid remnants",     "note": "–16th c." }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Early Modern", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "regime": "ottoman_empire", "label": "Ottoman Empire (western — Six Vilayets)", "note": "1514–1828" },
+            { "label": "Armenian uprisings · Adana massacre",    "note": "1895–1909" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "safavid_empire", "label": "Safavid Persia (eastern Armenia)", "note": "1502–1736" },
+            { "label": "Artsakh Melikdoms (continued)",          "note": "under Safavid" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "regime": "ottoman_empire", "label": "Ottoman Empire — Armenian Genocide", "note": "1915–1923" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "regime": "afsharid_dynasty", "label": "Afsharid suzerainty",           "note": "1736–1796" },
+            { "label": "Erivan Khanate · Nakhchivan Khanate",    "note": "1747–1828" },
+            { "label": "Karabakh Khanate",                       "note": "1747–1806" },
+            { "regime": "qajar_dynasty",   "label": "Qajar Iran (suzerain)",           "note": "1796–1828" },
+            { "regime": "russian_empire",  "label": "Russian Empire (after Turkmenchay)", "note": "1828–1917" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Transcaucasian Democratic Federative Republic", "note": "1918" },
+            { "label": "Armenian First Republic",                "note": "1918–1920" },
+            { "label": "Armenian–Georgian War",                  "note": "1918" },
+            { "label": "Armenian–Azerbaijani War (Karabakh)",    "note": "1918–1920" }
+          ], "span": 2
+        }
+      ]
+    },
+    {
+      "era": { "label": "Modern", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "regime": "soviet_union", "label": "Transcaucasian SFSR", "note": "1922–1936" },
+            { "regime": "soviet_union", "label": "Armenian SSR",        "note": "1936–1991" },
+            { "label": "Republic of Armenia (Second Republic)",  "note": "1991–" }
+          ], "span": 2
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Battle of Avarayr (451 CE): the Armenian nobility under Vard Mamikonian fought the Sassanid Persian army to defend Christianity; though militarily a defeat, it became the founding myth of Armenian national identity — the Sassanids eventually granted Armenia religious autonomy (Treaty of Nvarsak, 484); it is commemorated as a national holiday in Armenia",
+    "Tigranes II 'the Great' (95–55 BCE): expanded Artaxiad Armenia into a brief empire stretching from the Caspian Sea to the Mediterranean, including Syria, Cilicia, and parts of Mesopotamia; after defeat by Lucullus and Pompey he became a Roman ally, but Armenia retained its kingdom as a Roman client state",
+    "Kingdom of Cilician Armenia (1080–1375): Armenian nobles fleeing Seljuk conquest established a kingdom in Cilicia (SE Anatolia/NW Syria) that flourished through Crusader alliances; it was the last independent Armenian state before the modern republic, eventually destroyed by the Mamluk Sultanate",
+    "Armenian Genocide (1915–1923): Ottoman authorities systematically deported and massacred the Armenian population; estimates of deaths range from 600,000 to 1.5 million; recognized as genocide by most historians and numerous states; the survivors formed diaspora communities across the Middle East, Europe, and Americas",
+    "Artsakh (Karabakh) Melikdoms (c.1400–1822): five hereditary Armenian Christian principalities (meliks) in the Karabakh highlands maintained de facto autonomy under successive Turkmen, Safavid, and Qajar overlords; they conducted Armenian–Russian diplomacy and briefly resisted Persian authority in the 1720s with Russian encouragement",
+    "First Republic of Armenia (1918–1920): the first modern Armenian state; fought border wars simultaneously with Georgia (over Lori) and Azerbaijan (over Karabakh/Nakhchivan); overwhelmed by the Red Army invasion in December 1920 and incorporated into the Transcaucasian SFSR"
+  ]
+}

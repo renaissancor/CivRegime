@@ -79,7 +79,7 @@
       ]
     },
     {
-      "era": { "label": "Early Medieval", "rowspan": 2 },
+      "era": { "label": "Early Medieval", "rowspan": 3 },
       "cells": [
         { "stack": [
             { "label": "White Croats · Dulebes · Volhynians (E. Slavic tribes)" }
@@ -96,6 +96,23 @@
         { "stack": [
             { "label": "Tivertsi · Ulichians · Antes (Slavic)" },
             { "label": "Pechenegs (from c.900)" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Khazar Khaganate · Byzantine Chersonesus" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Rus' Khaganate (Varangian polity)", "note": "c.830–882" }
+          ], "span": 3
+        },
+        { "stack": [
+            { "label": "Rus' Khaganate steppe fringe" }
           ], "span": 1
         },
         { "stack": [
@@ -253,25 +270,36 @@
       ]
     },
     {
-      "era": { "label": "Revolution / Interwar", "rowspan": 2 },
+      "era": { "label": "Revolution / Interwar", "rowspan": 3 },
       "cells": [
         { "stack": [
             { "label": "West Ukrainian People's Republic (ZUNR)", "note": "1918–1919" },
+            { "label": "Carpatho-Ukraine (brief)", "note": "March 1939" },
             { "label": "Poland — Eastern Galicia (Treaty of Riga 1921)" },
             { "label": "Romania — Bukovina · Czechoslovakia — Ruthenia" }
           ], "span": 1
         },
         { "stack": [
-            { "label": "Ukrainian People's Republic (UNR)", "note": "1917–1921" },
-            { "label": "Ukrainian Soviet Socialist Republic (UkrSSR)", "note": "1922–" }
-          ], "span": 2
-        },
-        { "stack": [
-            { "label": "UkrSSR · Donetsk-Kryvyi Rih Soviet Republic (brief)", "note": "1918" }
+            { "label": "Ukrainian People's Republic (UNR)", "note": "1917–1918 · 1918–1921" },
+            { "label": "Ukrainian State (Hetmanate — Skoropadsky)", "note": "Apr–Dec 1918" },
+            { "label": "Ukrainian Soviet Socialist Republic (UkrSSR)", "note": "1919–" }
           ], "span": 1
         },
         { "stack": [
-            { "label": "Crimean ASSR", "note": "1921" }
+            { "label": "South Russian Government (Denikin)", "note": "1919–1920" },
+            { "label": "Kholodnyi Yar partisan republic",   "note": "1918–1922" },
+            { "label": "Donetsk-Kryvyi Rih Soviet Republic (brief)", "note": "1918" },
+            { "label": "UkrSSR" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Makhnovshchina (Free Territory — Makhno)", "note": "1918–1921" },
+            { "label": "Odessa SR · Tavrida SR (brief)",    "note": "1918" },
+            { "label": "UkrSSR" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Crimean SSR (brief) → Crimean ASSR", "note": "1918 / 1921" }
           ], "span": 1
         }
       ]
@@ -298,10 +326,26 @@
       ]
     },
     {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Soviet occupation (Molotov-Ribbentrop) → joins UkrSSR", "note": "1939" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Ukrainian SSR" }
+          ], "span": 3
+        },
+        { "stack": [
+            { "label": "Crimean ASSR" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
       "era": { "label": "WWII", "rowspan": 1 },
       "cells": [
         { "stack": [
-            { "label": "Soviet occupation (Molotov-Ribbentrop)", "note": "1939 — joins UkrSSR" },
             { "label": "Nazi Germany — General Government / Distrikt Galizien", "note": "1941–1944" },
             { "label": "UPA (Ukrainian Insurgent Army) resistance" }
           ], "span": 1
