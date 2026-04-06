@@ -1,0 +1,237 @@
+{
+  "id": "baltic",
+  "title": "History of the Baltic States (Estonia · Latvia · Lithuania)",
+  "columns": [
+    { "id": "era",       "name": "Era",                                                        "slots": 1, "type": "era" },
+    { "id": "estonia",   "name": "Estonia (Tallinn · Saaremaa · Tartu)",                      "slots": 1 },
+    { "id": "latvia",    "name": "Latvia (Riga · Courland · Semigallia · Latgale)",            "slots": 1 },
+    { "id": "lithuania", "name": "Lithuania (Vilnius · Kaunas · Samogitia)",                   "slots": 1 }
+  ],
+  "rows": [
+    {
+      "era": { "label": "Ancient", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Estonian (Chudic) tribes",               "note": "Saare · Läänlased · Virulased · Ugaunians" },
+            { "label": "Livonian coastal tribes (N. fringe)",    "note": "Finno-Ugric" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Livonians (Līvi) · Latgallians",        "note": "Finno-Ugric / Baltic" },
+            { "label": "Couronians · Semigallians · Selonians",  "note": "Baltic tribes" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Lithuanians · Samogitians",              "note": "Baltic tribes — Aukštaitians" },
+            { "label": "Prussian / Yotvingian neighbors",        "note": "" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Medieval", "rowspan": 3 },
+      "cells": [
+        { "stack": [
+            { "label": "Northern Crusade begins",                "note": "1198–" },
+            { "label": "Livonian Brothers of the Sword",         "note": "founded 1202" },
+            { "label": "Terra Mariana (papal fief)",             "note": "1207" },
+            { "label": "Danish conquest — N. Estonia",           "note": "1219 (Lyndanisse / Tallinn)" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Grand Duchy of Lithuania founded",       "note": "1253 — Mindaugas crowned" },
+            { "label": "Pagan resistance to crusaders",          "note": "successful until 14th c." }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Danish Duchy of Estonia",                "note": "1219–1346" },
+            { "label": "Livonian Order purchases N. Estonia",    "note": "1346" },
+            { "label": "Bishopric of Ösel-Wiek (Saaremaa)",     "note": "part of Confederation" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Livonian Confederation",                 "note": "1228–1561" },
+            { "label": "Livonian Order · Archbishopric of Riga", "note": "" },
+            { "label": "Bishoprics of Dorpat · Courland · Ösel-Wiek", "note": "" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Grand Duchy of Lithuania (peak power)",  "note": "14th–15th c." },
+            { "label": "Battle of Grunwald",                     "note": "1410 — GDL+Poland defeat Teutonic Order" },
+            { "label": "Union of Krewo (with Poland)",           "note": "1385 — Jagiellonian era" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Livonian Confederation (continued)",     "note": "–1561" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "label": "Polish-Lithuanian Commonwealth",         "note": "Union of Lublin 1569" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Early Modern", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "Swedish Empire — N. Estonia",            "note": "1561–1710" },
+            { "label": "Polish-Lithuanian — Tartu/S. Estonia",   "note": "1561–1629" },
+            { "label": "Denmark-Norway — Saaremaa (Ösel)",       "note": "1559–1645" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Duchy of Livonia (Polish-Lithuanian)",   "note": "1561–1621" },
+            { "label": "Swedish Livonia",                        "note": "1621–1710" },
+            { "label": "Duchy of Courland-Semigallia (Polish vassal)", "note": "1562–1795" },
+            { "label": "Polish Livonia / Latgale (Inflanty)",    "note": "1561–1772" }
+          ], "span": 1
+        },
+        { "label": "Polish-Lithuanian Commonwealth", "note": "1569–1795", "span": 1 }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Swedish Empire — Swedish Estonia + Swedish Livonia", "note": "1645–1710" },
+            { "label": "Baltic German noble class",              "note": "dominant landowners" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Swedish Livonia (Riga region)",          "note": "1621–1710" },
+            { "label": "Duchy of Courland-Semigallia",           "note": "semi-independent · overseas colonies" }
+          ], "span": 1
+        },
+        { "label": "Polish-Lithuanian Commonwealth (–1795)", "note": "", "span": 1 }
+      ]
+    },
+    {
+      "era": { "label": "Russian Empire", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "regime": "russian_empire", "label": "Russian Empire (Great Northern War)", "note": "1710" },
+            { "label": "Governorate of Estonia (Reval)",         "note": "1710–1917" },
+            { "label": "Governorate of Livonia (Riga)",          "note": "1710–1917" }
+          ], "span": 2
+        },
+        { "stack": [
+            { "regime": "russian_empire", "label": "Russian Empire (Partitions of Poland)", "note": "1795" },
+            { "label": "Governorate of Courland",                "note": "1795–1917" },
+            { "label": "Kovno · Vilna Governorates (Lithuania)", "note": "1795–1917" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Modern", "rowspan": 2 },
+      "cells": [
+        { "stack": [
+            { "label": "German occupation (Ober Ost)",           "note": "1915–1918" },
+            { "label": "Republic of Estonia",                    "note": "1918 — War of Independence 1918–1920" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Republic of Latvia",                     "note": "1918 — War of Independence 1918–1920" },
+            { "label": "Duchy of Courland puppet (German)",      "note": "1918 — brief" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Kingdom of Lithuania (German protectorate)", "note": "1918 — rejected" },
+            { "label": "Republic of Lithuania",                  "note": "1918–" },
+            { "label": "Central Lithuania (Vilna dispute)",      "note": "1920–1922 → Poland" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        { "stack": [
+            { "label": "Estonian First Republic",                "note": "1918–1940" },
+            { "label": "Päts coup (authoritarian)",              "note": "1934" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Latvian First Republic",                 "note": "1918–1940" },
+            { "label": "Ulmanis coup (authoritarian)",           "note": "1934" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Lithuanian First Republic",              "note": "1918–1940" },
+            { "label": "Smetona (authoritarian 1926)",           "note": "" },
+            { "label": "Klaipeda: seized from Germany 1923 → ceded back 1939", "note": "" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "WWII", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Soviet occupation (Molotov-Ribbentrop Pact)", "note": "1940 — Baltic SSRs declared" },
+            { "label": "Nazi Germany — Reichskommissariat Ostland", "note": "1941–1944" },
+            { "label": "Lithuanian Provisional Government (brief)", "note": "1941 — suppressed by Germans" },
+            { "label": "Soviet reconquest",                      "note": "1944" }
+          ], "span": 3
+        }
+      ]
+    },
+    {
+      "era": { "label": "Soviet", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Estonian SSR",                           "note": "1940–1941 · 1944–1991" },
+            { "label": "Mass deportations",                      "note": "1941 · 1949" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Latvian SSR",                            "note": "1940–1941 · 1944–1991" },
+            { "label": "Mass deportations",                      "note": "1941 · 1949" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Lithuanian SSR",                         "note": "1940–1941 · 1944–1991" },
+            { "label": "Mass deportations",                      "note": "1941 · 1949" }
+          ], "span": 1
+        }
+      ]
+    },
+    {
+      "era": { "label": "Contemporary", "rowspan": 1 },
+      "cells": [
+        { "stack": [
+            { "label": "Singing Revolution",                     "note": "1987–1991" },
+            { "label": "Republic of Estonia",                    "note": "1991– · EU & NATO 2004" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Republic of Latvia",                     "note": "1991– · EU & NATO 2004" }
+          ], "span": 1
+        },
+        { "stack": [
+            { "label": "Republic of Lithuania",                  "note": "1991– · EU & NATO 2004" }
+          ], "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Northern Crusade (1198–1290): a series of campaigns by the Teutonic Order, Livonian Brothers of the Sword, and Danish crown to Christianize the Baltic peoples; the conquest of Estonia and Latvia was brutal and systematic; the Lithuanians resisted successfully until voluntary conversion in 1386–1387 as part of the Polish union",
+    "Battle of Grunwald (1410): the Grand Duchy of Lithuania and the Kingdom of Poland decisively defeated the Teutonic Knights, ending the Order's expansion eastward; one of the largest battles of medieval Europe; deeply embedded in Polish, Lithuanian, and Belarusian national memory",
+    "Duchy of Courland-Semigallia (1562–1795): a Polish vassal duchy in western Latvia notable for its overseas colonial ambitions — it established colonies in Gambia (Fort Jacob) and Tobago in the 17th century, remarkable achievements for a small landlocked duchy",
+    "Soviet deportations (June 1941 & March 1949): the NKVD deported tens of thousands of Baltic civilians to Siberia and Kazakhstan in two major operations; the 1949 'Operation Priboi' targeted farming families as part of forced collectivisation, deporting roughly 90,000 people from all three republics in a single week",
+    "Singing Revolution (1987–1991): the Baltic independence movements were characterized by mass nonviolent demonstrations, most famously the Baltic Way (23 August 1989) in which approximately two million people formed a 675-km human chain across all three republics on the 50th anniversary of the Molotov-Ribbentrop Pact",
+    "Lithuanian Provisional Government (June 1941): when German forces arrived, Lithuanian nationalists declared a government and broadcast independence on radio; it lasted six weeks before the Nazis dissolved it and installed direct occupation — Germany was unwilling to allow even puppet Baltic states"
+  ]
+}
