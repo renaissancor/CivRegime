@@ -2,9 +2,9 @@
   "id": "moghulistan",
   "name": "Moghulistan Khanate",
   "ruling_ethnicity": "mongol",
-  "cultural_language": "chagatai_turkic",
+  "cultural_language": "chagatai",
   "ideology": {
-    "religion": "sunni_islam",
+    "religion": "sunni",
     "government": "khanate"
   },
   "territories": [

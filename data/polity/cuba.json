@@ -1,0 +1,15 @@
+{
+  "id": "cuba",
+  "name": "Republic of Cuba",
+  "ruling_ethnicity": "spanish",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "republic"
+  },
+  "territories": [
+    "caribbean"
+  ],
+  "start": 1902,
+  "end": null
+}

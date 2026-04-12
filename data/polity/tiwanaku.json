@@ -1,0 +1,15 @@
+{
+  "id": "tiwanaku",
+  "name": "Tiwanaku",
+  "ruling_ethnicity": "aymara",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "divine_monarchy"
+  },
+  "territories": [
+    "andes"
+  ],
+  "start": 550,
+  "end": 1000,
+  "note": "Andean highland civilization"
+}

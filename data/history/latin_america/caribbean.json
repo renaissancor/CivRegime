@@ -1,0 +1,156 @@
+{
+  "id": "caribbean",
+  "title": "History of the Caribbean",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "greater_antilles",
+      "name": "Greater Antilles",
+      "slots": 2
+    },
+    {
+      "id": "lesser_antilles",
+      "name": "Lesser Antilles",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Pre-Columbian",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Taíno (Arawak) — Cuba · Hispaniola · Jamaica · Puerto Rico",
+          "span": 2,
+          "regime": "taino"
+        },
+        {
+          "label": "Carib peoples — Lesser Antilles",
+          "span": 1,
+          "regime": "carib_peoples"
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Colonial",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Spanish Caribbean (Cuba · Hispaniola · Puerto Rico)",
+          "span": 1,
+          "regime": "spanish_caribbean"
+        },
+        {
+          "label": "British Jamaica (1655–)",
+          "span": 1,
+          "regime": "british_caribbean"
+        },
+        {
+          "stack": [
+            {
+              "label": "British Caribbean",
+              "note": "Barbados 1627 · Trinidad 1797",
+              "regime": "british_caribbean"
+            },
+            {
+              "label": "French Caribbean",
+              "note": "Martinique · Guadeloupe 1635",
+              "regime": "french_caribbean"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Independence Movements",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Haiti (1804) — slave revolution",
+              "note": "first Black republic",
+              "regime": "haiti"
+            },
+            {
+              "label": "Dominican Republic (1844)",
+              "note": "independence from Haiti",
+              "regime": "dominican_republic"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "label": "Spanish Cuba · Puerto Rico (Spanish until 1898)",
+          "span": 1,
+          "regime": "spanish_caribbean"
+        },
+        {
+          "stack": [
+            {
+              "label": "British Caribbean (colonial)",
+              "regime": "british_caribbean"
+            },
+            {
+              "label": "French Caribbean (colonial)",
+              "regime": "french_caribbean"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Modern",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Cuba (1902) — Revolution 1959",
+              "regime": "cuba"
+            },
+            {
+              "label": "Dominican Republic",
+              "regime": "dominican_republic"
+            },
+            {
+              "label": "Haiti",
+              "regime": "haiti"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "label": "Jamaica (1962) · Trinidad (1962) · Bahamas (1973)",
+          "span": 1
+        },
+        {
+          "label": "Barbados (1966) · Dominica (1978) · St. Lucia (1979)",
+          "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "The Taíno were nearly wiped out within decades of Columbus's 1492 arrival; the Carib resisted colonization longer in the Lesser Antilles",
+    "Haiti's 1804 revolution was the first successful slave uprising to create a nation-state",
+    "Spain lost Cuba and Puerto Rico to the US in the Spanish-American War (1898)",
+    "Cuba's 1959 revolution under Fidel Castro established a socialist state that persists today",
+    "Most British Caribbean colonies gained independence in the 1960s–1980s; French overseas departments remain part of France"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "spanish_florida",
+  "name": "Spanish Florida",
+  "ruling_ethnicity": "spanish",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "us_south"
+  ],
+  "start": 1513,
+  "end": 1821,
+  "note": "Spanish colonial territory"
+}

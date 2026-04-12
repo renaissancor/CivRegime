@@ -2,7 +2,7 @@
   "id": "parthian_empire",
   "name": "Parthian Empire (Arsacid)",
   "ruling_ethnicity": "parthian",
-  "cultural_language": "parthian_lang",
+  "cultural_language": "parthian",
   "ideology": {
     "religion": "zoroastrianism",
     "government": "feudal_monarchy"

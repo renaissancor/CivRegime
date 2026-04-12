@@ -1,0 +1,17 @@
+{
+  "id": "cherokee_nation",
+  "name": "Cherokee Nation",
+  "ruling_ethnicity": "cherokee",
+  "cultural_language": "cherokee",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "us_south",
+    "us_east"
+  ],
+  "start": 1540,
+  "end": 1838,
+  "note": "Pre-removal Cherokee territory"
+}

@@ -2,7 +2,7 @@
   "id": "croatian_kingdom",
   "name": "Croatian Kingdom",
   "ruling_ethnicity": "croatian",
-  "cultural_language": "croatian",
+  "cultural_language": "serbo_croatian",
   "ideology": {
     "religion": "roman_catholicism",
     "government": "monarchy"

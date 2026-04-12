@@ -4,70 +4,25 @@
  */
 
 let regimesData = [];
-let successionsData = [];
-let territoriesData = [];
 let selectedRegimeId = null;
-let successionsByRegime = {};
 let regimeById = {};
 
-// Load from /api/db
-fetch('/api/db').then(r => r.json()).then(db => {
-  regimesData = db.regimes || [];
-  successionsData = db.successions || [];
-  territoriesData = db.territories || [];
-
-  // Build lookup
+// Load lightweight polity list for sidebar
+fetch('/api/polity').then(r => r.json()).then(polities => {
+  regimesData = polities;
   regimeById = {};
   regimesData.forEach(r => { regimeById[r.id] = r; });
 
-  buildSuccessionLookup();
   renderRegimeList();
   attachEventListeners();
+
+  // Deep-link: ?id=roman_empire
+  const params = new URLSearchParams(location.search);
+  if (params.get('id')) selectRegime(params.get('id'));
 }).catch(err => {
   console.error('Error loading data:', err);
   document.getElementById('empty-state').textContent = 'Error loading data. Check console.';
 });
-
-function buildSuccessionLookup() {
-  successionsByRegime = {};
-  regimesData.forEach(r => {
-    successionsByRegime[r.id] = { successors: [], predecessors: [] };
-  });
-
-  successionsData.forEach(s => {
-    if (!successionsByRegime[s.from]) {
-      successionsByRegime[s.from] = { successors: [], predecessors: [] };
-    }
-    if (!successionsByRegime[s.to]) {
-      successionsByRegime[s.to] = { successors: [], predecessors: [] };
-    }
-
-    const fromR = regimeById[s.from];
-    const toR = regimeById[s.to];
-
-    successionsByRegime[s.from].successors.push({
-      regime_id: s.to,
-      regime_name: toR ? toR.name : s.to,
-      territorial_direction: s.territorial_direction || 'unknown',
-      same_ethnicity: s.same_ethnicity,
-      same_language: s.same_language,
-      same_religion: s.same_religion,
-      shared_territories: s.shared_territories || [],
-      temporal_gap: s.temporal_gap_years,
-    });
-
-    successionsByRegime[s.to].predecessors.push({
-      regime_id: s.from,
-      regime_name: fromR ? fromR.name : s.from,
-      territorial_direction: s.territorial_direction || 'unknown',
-      same_ethnicity: s.same_ethnicity,
-      same_language: s.same_language,
-      same_religion: s.same_religion,
-      shared_territories: s.shared_territories || [],
-      temporal_gap: s.temporal_gap_years,
-    });
-  });
-}
 
 function renderRegimeList() {
   const sidebar = document.getElementById('regime-list');
@@ -150,16 +105,20 @@ function dirLabel(dir) { return (DIR_META[dir] || {}).label || dir; }
 
 // ── Render regime detail ────────────────────────────────────────────────────
 
-function renderRegimeDetails(regimeId) {
+async function renderRegimeDetails(regimeId) {
   const header = document.getElementById('regime-header');
-  const regime = regimeById[regimeId];
+  header.innerHTML = '<div id="empty-state" style="color:#718096">Loading...</div>';
 
-  if (!regime) {
+  let regime;
+  try {
+    const r = await fetch(`/api/polity/${regimeId}`);
+    if (!r.ok) throw new Error('Not found');
+    regime = await r.json();
+  } catch {
     header.innerHTML = '<div id="empty-state">Regime not found</div>';
     return;
   }
 
-  const successions = successionsByRegime[regimeId] || { successors: [], predecessors: [] };
   const dateRange = formatDateRange(regime.start, regime.end);
 
   let html = `
@@ -209,36 +168,38 @@ function renderRegimeDetails(regimeId) {
 
   html += '</div>';
 
-  // Predecessors
-  if (successions.predecessors.length > 0) {
+  // Predecessors (from /api/polity/:id response)
+  const predecessors = regime.predecessors || [];
+  if (predecessors.length > 0) {
     html += `
       <div class="succession-section">
-        <div class="succession-title">Predecessors (${successions.predecessors.length})</div>
+        <div class="succession-title">Predecessors (${predecessors.length})</div>
         <div class="succession-list">
     `;
-    successions.predecessors.forEach(pred => {
+    predecessors.forEach(pred => {
       html += `
-        <div class="succession-badge ${pred.territorial_direction}" data-regime-id="${pred.regime_id}"
-             title="${pred.regime_name} — ${dirLabel(pred.territorial_direction)}">
-          ${pred.regime_name} ${gapLabel(pred.temporal_gap)}${continuityIcons(pred)}
+        <div class="succession-badge ${pred.territorial_direction || 'unknown'}" data-regime-id="${pred.id}"
+             title="${pred.name} — ${dirLabel(pred.territorial_direction)}">
+          ${pred.name} ${continuityIcons(pred)}
         </div>
       `;
     });
     html += '</div></div>';
   }
 
-  // Successors
-  if (successions.successors.length > 0) {
+  // Successors (from /api/polity/:id response)
+  const successors = regime.successors || [];
+  if (successors.length > 0) {
     html += `
       <div class="succession-section">
-        <div class="succession-title">Successors (${successions.successors.length})</div>
+        <div class="succession-title">Successors (${successors.length})</div>
         <div class="succession-list">
     `;
-    successions.successors.forEach(succ => {
+    successors.forEach(succ => {
       html += `
-        <div class="succession-badge ${succ.territorial_direction}" data-regime-id="${succ.regime_id}"
-             title="${succ.regime_name} — ${dirLabel(succ.territorial_direction)}">
-          ${succ.regime_name} ${gapLabel(succ.temporal_gap)}${continuityIcons(succ)}
+        <div class="succession-badge ${succ.territorial_direction || 'unknown'}" data-regime-id="${succ.id}"
+             title="${succ.name} — ${dirLabel(succ.territorial_direction)}">
+          ${succ.name} ${continuityIcons(succ)}
         </div>
       `;
     });
@@ -291,7 +252,6 @@ function renderRegimeDetails(regimeId) {
         <span><span style="background:#60a5fa33;color:#60a5fa;padding:1px 3px;border-radius:2px;font-weight:600;font-size:9px">L</span> Same language</span>
         <span><span style="background:#c084fc33;color:#c084fc;padding:1px 3px;border-radius:2px;font-weight:600;font-size:9px">R</span> Same religion</span>
       </div>
-      <div style="margin-top:8px;font-size:10px;color:#4a5568">Temporal gap (e.g. <span style="color:#718096">+5y</span>) shows years between predecessor's end and successor's start.</div>
     </div>
   `;
 
@@ -302,7 +262,7 @@ function renderRegimeDetails(regimeId) {
     badge.style.cursor = 'pointer';
     badge.addEventListener('click', () => {
       const rid = badge.dataset.regimeId;
-      if (rid && regimeById[rid]) selectRegime(rid);
+      if (rid) selectRegime(rid);
     });
   });
 }

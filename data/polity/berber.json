@@ -1,7 +1,7 @@
 {
   "id": "berber",
   "name": "Berber / Mauretania",
-  "ruling_ethnicity": "berber",
+  "ruling_ethnicity": "berber_amazigh_cluster",
   "cultural_language": "berber",
   "ideology": {
     "government": "tribal_confederation"

@@ -2,7 +2,7 @@
   "id": "samanid_empire",
   "name": "Samanid Empire",
   "ruling_ethnicity": "persian",
-  "cultural_language": "new_persian",
+  "cultural_language": "new_persian_farsi",
   "ideology": {
     "religion": "sunni",
     "government": "absolute_monarchy"

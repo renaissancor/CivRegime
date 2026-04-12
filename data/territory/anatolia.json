@@ -1,0 +1,71 @@
+{
+  "id": "anatolia",
+  "name": "anatolia",
+  "regime_count": 13,
+  "regimes": [
+    {
+      "regime_id": "hittite_empire",
+      "start": -1600,
+      "end": -1180
+    },
+    {
+      "regime_id": "neo_assyrian_empire",
+      "start": -911,
+      "end": -609
+    },
+    {
+      "regime_id": "achaemenid_empire",
+      "start": -550,
+      "end": -330
+    },
+    {
+      "regime_id": "macedonian_empire",
+      "start": -336,
+      "end": -323
+    },
+    {
+      "regime_id": "seleucid_empire",
+      "start": -312,
+      "end": -63
+    },
+    {
+      "regime_id": "roman_empire",
+      "start": -27,
+      "end": 380
+    },
+    {
+      "regime_id": "roman_empire",
+      "start": 380,
+      "end": 395
+    },
+    {
+      "regime_id": "byzantine_empire",
+      "start": 395,
+      "end": 1453
+    },
+    {
+      "regime_id": "seljuk_rum",
+      "start": 1077,
+      "end": 1307
+    },
+    {
+      "regime_id": "ottoman_empire",
+      "start": 1299,
+      "end": 1922
+    },
+    {
+      "regime_id": "republic_of_turkey",
+      "start": 1923
+    },
+    {
+      "regime_id": "aq_qoyunlu",
+      "start": 1378,
+      "end": 1508
+    },
+    {
+      "regime_id": "latin_empire",
+      "start": 1204,
+      "end": 1261
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "republic_of_brazil",
+  "name": "Federative Republic of Brazil",
+  "ruling_ethnicity": "portuguese",
+  "cultural_language": "portuguese",
+  "ideology": {
+    "religion": "catholic",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "amazonia",
+    "patagonia"
+  ],
+  "start": 1889,
+  "end": null
+}

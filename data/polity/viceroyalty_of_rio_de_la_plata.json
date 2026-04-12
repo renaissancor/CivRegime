@@ -1,0 +1,17 @@
+{
+  "id": "viceroyalty_of_rio_de_la_plata",
+  "name": "Viceroyalty of Río de la Plata",
+  "ruling_ethnicity": "spanish",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "patagonia",
+    "andes"
+  ],
+  "start": 1776,
+  "end": 1816,
+  "note": "Spanish colonial southern South America"
+}

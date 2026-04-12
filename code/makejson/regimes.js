@@ -3,9 +3,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const CSV_FILE     = path.join(__dirname, '../../csvs/regimes.csv');
-const FIGURES_FILE = path.join(__dirname, '../../csvs/figures.csv');
-const DATA_DIR     = path.join(__dirname, '../../data/regimes');
+const CSV_FILE     = path.join(__dirname, '../../csvs/polity.csv');
+const FIGURES_FILE = path.join(__dirname, '../../csvs/figure.csv');
+const DATA_DIR     = path.join(__dirname, '../../data/polity');
 
 function parseCSV(content) {
   const lines = content.split('\n').filter(l => l.trim());

@@ -2,7 +2,7 @@
   "id": "phoenician_states",
   "name": "Phoenician City-States (Tyre, Sidon, Byblos)",
   "ruling_ethnicity": "phoenician",
-  "cultural_language": "phoenician_language",
+  "cultural_language": "phoenician_punic",
   "ideology": {
     "religion": "canaanite_religion",
     "government": "oligarchic_republic"

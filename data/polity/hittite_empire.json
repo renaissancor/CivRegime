@@ -2,7 +2,7 @@
   "id": "hittite_empire",
   "name": "Hittite Empire",
   "ruling_ethnicity": "hittite",
-  "cultural_language": "hittite_lang",
+  "cultural_language": "hittite",
   "ideology": {
     "religion": "anatolian_paganism",
     "government": "imperial_monarchy"

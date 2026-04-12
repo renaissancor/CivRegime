@@ -1,0 +1,15 @@
+{
+  "id": "ancestral_pueblo",
+  "name": "Ancestral Puebloans",
+  "ruling_ethnicity": "navajo",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "us_west"
+  ],
+  "start": 100,
+  "end": 1300,
+  "note": "Mesa Verde and Chaco Canyon builders"
+}

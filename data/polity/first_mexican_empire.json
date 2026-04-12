@@ -1,0 +1,16 @@
+{
+  "id": "first_mexican_empire",
+  "name": "First Mexican Empire",
+  "ruling_ethnicity": "mestizo",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "mesoamerica"
+  ],
+  "start": 1821,
+  "end": 1823,
+  "note": "Iturbide's short-lived empire"
+}

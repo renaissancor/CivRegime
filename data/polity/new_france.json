@@ -1,0 +1,18 @@
+{
+  "id": "new_france",
+  "name": "New France",
+  "ruling_ethnicity": "french",
+  "cultural_language": "french",
+  "ideology": {
+    "religion": "catholic",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "quebec",
+    "us_midwest",
+    "atlantic_canada"
+  ],
+  "start": 1534,
+  "end": 1763,
+  "note": "French colonial territory"
+}

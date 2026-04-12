@@ -2,310 +2,803 @@
   "id": "pakistan",
   "title": "History of Pakistan (Sindh / Punjab / Gandhara-Kashmir)",
   "columns": [
-    { "id": "era",    "name": "Era",                       "slots": 1, "type": "era" },
-    { "id": "south",  "name": "South (Sindh / Lower Indus)", "slots": 1 },
-    { "id": "center", "name": "Central (Punjab)",           "slots": 1 },
-    { "id": "north",  "name": "North (Gandhara / Kashmir)", "slots": 1 }
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "south",
+      "name": "South (Sindh / Lower Indus)",
+      "slots": 1
+    },
+    {
+      "id": "center",
+      "name": "Central (Punjab)",
+      "slots": 1
+    },
+    {
+      "id": "north",
+      "name": "North (Gandhara / Kashmir)",
+      "slots": 1
+    }
   ],
   "rows": [
     {
-      "era": { "label": "Prehistoric", "rowspan": 1 },
+      "era": {
+        "label": "Prehistoric",
+        "rowspan": 1
+      },
       "cells": [
-        { "stack": [
-            { "label": "Soanian culture (Lower Palaeolithic)",               "note": "c.500,000–100,000 BCE" },
-            { "label": "Chalcolithic (Copper-Stone Age)",                    "note": "c.7000–3300 BCE" },
-            { "label": "Mehrgarh — earliest Neolithic farming in South Asia","note": "c.7000–2500 BCE" }
-          ], "span": 3
+        {
+          "stack": [
+            {
+              "label": "Soanian culture (Lower Palaeolithic)",
+              "note": "c.500,000–100,000 BCE",
+              "regime": "soanian_culture"
+            },
+            {
+              "label": "Chalcolithic (Copper-Stone Age)",
+              "note": "c.7000–3300 BCE",
+              "regime": "chalcolithic_culture"
+            },
+            {
+              "label": "Mehrgarh — earliest Neolithic farming in South Asia",
+              "note": "c.7000–2500 BCE",
+              "regime": "mehrgarh_culture"
+            }
+          ],
+          "span": 3
         }
       ]
     },
     {
-      "era": { "label": "Proto-Ancient", "rowspan": 2 },
+      "era": {
+        "label": "Proto-Ancient",
+        "rowspan": 2
+      },
       "cells": [
-        { "stack": [
-            { "label": "Dravidian / pre-Aryan populations",                  "note": "c.3300 BCE onward" },
-            { "label": "Indus Valley Civilization (Harappa · Kot Diji · Amri-Nal · Mohenjo-daro · Ganeriwal)", "note": "c.3300–1300 BCE" }
-          ], "span": 3
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Aryan migration · Iron Age introduction",            "note": "c.1500–1000 BCE" },
-            { "label": "Vedic Age (dawn) — Jhukar culture · Cemetery H culture", "note": "c.1900–1300 BCE" },
-            { "label": "Vedic Age (early / late) — Aryan expansion",         "note": "c.1500–500 BCE" }
-          ], "span": 3
-        }
-      ]
-    },
-    {
-      "era": { "label": "Ancient", "rowspan": 5 },
-      "cells": [
-        { "stack": [
-            { "label": "Indigenous communities",                             "note": null },
-            { "label": "Sindhu Sauvira Kingdom (Abhira)",                    "note": "c.600–325 BCE" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Paurava (Porus) Kingdom",                           "note": "c.400–326 BCE" },
-            { "label": "Kekaya Kingdom",                                    "note": "c.600–325 BCE" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Kashmir (early kingdoms)",                           "note": "c.600 BCE onward" },
-            { "label": "Gandhara Kingdom (Taxila)",                          "note": "c.600–325 BCE" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "regime": "achaemenid_empire", "label": "Achaemenid Empire — Sindh frontier",    "note": "c.520–330 BCE" },
-            { "regime": "nanda_empire",      "label": "Nanda Empire",                          "note": "c.345–322 BCE" },
-            { "label": "Alexander's Campaign — Peithon · Eudemos (Diadochi governors)",        "note": "326–316 BCE" },
-            { "regime": "seleucid_empire",   "label": "Seleucid Empire",                       "note": "312–305 BCE" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "achaemenid_empire", "label": "Achaemenid Empire — Gandhara Satrapy",  "note": "c.520–330 BCE" },
-            { "label": "Alexander the Great — Battle of the Hydaspes vs Porus", "note": "326 BCE" },
-            { "regime": "seleucid_empire",   "label": "Seleucid Empire",                       "note": "312–305 BCE" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Dravidian / pre-Aryan populations",
+              "note": "c.3300 BCE onward",
+              "regime": "dravidian"
+            },
+            {
+              "label": "Indus Valley Civilization (Harappa · Kot Diji · Amri-Nal · Mohenjo-daro · Ganeriwal)",
+              "note": "c.3300–1300 BCE",
+              "regime": "indus_valley_civilization_culture"
+            }
+          ],
+          "span": 3
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "regime": "maurya_empire",         "label": "Maurya Empire",                     "note": "305–185 BCE" },
-            { "regime": "greco_bactrian_kingdom", "label": "Greco-Bactrian Kingdom (influence)","note": "c.250–180 BCE" },
-            { "regime": "shunga_dynasty",         "label": "Shunga Dynasty (upper Sindh)",      "note": "185–73 BCE" },
-            { "regime": "indo_greek_kingdom",     "label": "Indo-Greek Kingdom (lower Sindh)",  "note": "c.180–10 BCE" },
-            { "regime": "indo_scythian_kingdom",  "label": "Indo-Scythians — Western Satraps",  "note": "c.100 BCE–400 CE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Vedic Age (dawn) — Jhukar culture · Cemetery H culture",
+              "note": "c.1900–1300 BCE; Aryan migration · Iron Age introduction (c.1500–1000 BCE)",
+              "regime": "vedic_age_culture"
+            },
+            {
+              "label": "Vedic Age (early / late) — Aryan expansion",
+              "note": "c.1500–500 BCE"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Ancient",
+        "rowspan": 5
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Indigenous communities",
+              "note": null,
+              "regime": "indigenous_communities"
+            },
+            {
+              "label": "Sindhu Sauvira Kingdom (Abhira)",
+              "note": "c.600–325 BCE",
+              "regime": "sindhu_sauvira_kingdom"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "regime": "maurya_empire",          "label": "Maurya Empire",                    "note": "305–185 BCE" },
-            { "regime": "indo_greek_kingdom",     "label": "Indo-Greek Kingdom (Menander I / Milinda)", "note": "c.180–10 BCE" },
-            { "regime": "indo_scythian_kingdom",  "label": "Indo-Scythians — Northern Satraps","note": "c.80 BCE–50 CE" },
-            { "regime": "indo_parthian_kingdom",  "label": "Indo-Parthian Kingdom (Gondophares)", "note": "c.19 BCE–226 CE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Paurava (Porus) Kingdom",
+              "note": "c.400–326 BCE",
+              "regime": "paurava_kingdom"
+            },
+            {
+              "label": "Kekaya Kingdom",
+              "note": "c.600–325 BCE",
+              "regime": "kekaya_kingdom"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "regime": "maurya_empire",          "label": "Maurya Empire — Taxila as provincial capital", "note": "305–185 BCE" },
-            { "regime": "greco_bactrian_kingdom", "label": "Greco-Bactrian Kingdom (Gandhara)", "note": "c.250–180 BCE" },
-            { "regime": "indo_greek_kingdom",     "label": "Indo-Greek Kingdom",                "note": "c.180–10 BCE" },
-            { "regime": "indo_parthian_kingdom",  "label": "Indo-Parthian Kingdom",             "note": "c.19 BCE–50 CE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Kashmir (early kingdoms)",
+              "note": "c.600 BCE onward",
+              "regime": "kashmir"
+            },
+            {
+              "label": "Gandhara Kingdom (Taxila)",
+              "note": "c.600–325 BCE",
+              "regime": "gandhara_kingdom"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "regime": "kushan_empire",              "label": "Kushan Empire",                 "note": "c.30–375 CE" },
-            { "regime": "sassanid_empire",             "label": "Sassanid Empire (western Sindh frontier)", "note": "c.230–365" },
-            { "regime": "kushano_sasanian_kingdom",    "label": "Kushano-Sasanian Kingdom",     "note": "c.230–365" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "achaemenid_empire",
+              "label": "Achaemenid Empire — Sindh frontier",
+              "note": "c.520–330 BCE; Alexander's Campaign — Peithon · Eudemos (Diadochi governors) (326–316 BCE)"
+            },
+            {
+              "regime": "nanda_empire",
+              "label": "Nanda Empire",
+              "note": "c.345–322 BCE"
+            },
+            {
+              "regime": "seleucid_empire",
+              "label": "Seleucid Empire",
+              "note": "312–305 BCE"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "regime": "kushan_empire",              "label": "Kushan Empire",                 "note": "c.30–375 CE" },
-            { "label": "Indian small states (Eastern Kushan · Madraka · Yaudheya · Kashmir)", "note": "c.200–400 CE" },
-            { "label": "Kidarites",                                                            "note": "c.350–467" },
-            { "regime": "gupta_empire",               "label": "Gupta Empire (Punjab frontier)","note": "c.320–550" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "kushan_empire",              "label": "Kushan Empire — Gandhara Buddhist art flourishes", "note": "c.30–375 CE" },
-            { "label": "Kidarites",                                                            "note": "c.350–467" },
-            { "regime": "hephthalite_empire",         "label": "Alchon Huns (Hephthalites)",    "note": "c.460–565" },
-            { "regime": "sassanid_empire",             "label": "Sassanid Empire (western influence)", "note": "c.560–651" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "achaemenid_empire",
+              "label": "Achaemenid Empire — Gandhara Satrapy",
+              "note": "c.520–330 BCE; Alexander the Great — Battle of the Hydaspes vs Porus (326 BCE)"
+            },
+            {
+              "regime": "seleucid_empire",
+              "label": "Seleucid Empire",
+              "note": "312–305 BCE"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Rai Dynasty of Sindh",                               "note": "c.489–632" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "maurya_empire",
+              "label": "Maurya Empire",
+              "note": "305–185 BCE"
+            },
+            {
+              "regime": "greco_bactrian_kingdom",
+              "label": "Greco-Bactrian Kingdom (influence)",
+              "note": "c.250–180 BCE"
+            },
+            {
+              "regime": "shunga_dynasty",
+              "label": "Shunga Dynasty (upper Sindh)",
+              "note": "185–73 BCE"
+            },
+            {
+              "regime": "indo_greek_kingdom",
+              "label": "Indo-Greek Kingdom (lower Sindh)",
+              "note": "c.180–10 BCE"
+            },
+            {
+              "regime": "indo_scythian_kingdom",
+              "label": "Indo-Scythians — Western Satraps",
+              "note": "c.100 BCE–400 CE"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Malwa Kingdom",                                      "note": "c.500–625" },
-            { "label": "Kanauj Kingdom",                                     "note": "c.550–647" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "maurya_empire",
+              "label": "Maurya Empire",
+              "note": "305–185 BCE"
+            },
+            {
+              "regime": "indo_greek_kingdom",
+              "label": "Indo-Greek Kingdom (Menander I / Milinda)",
+              "note": "c.180–10 BCE"
+            },
+            {
+              "regime": "indo_scythian_kingdom",
+              "label": "Indo-Scythians — Northern Satraps",
+              "note": "c.80 BCE–50 CE"
+            },
+            {
+              "regime": "indo_parthian_kingdom",
+              "label": "Indo-Parthian Kingdom (Gondophares)",
+              "note": "c.19 BCE–226 CE"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "regime": "hephthalite_empire", "label": "Alchon Huns (declining)",   "note": "c.500–565" },
-            { "label": "Turk Shahis (Kabul & Gandhara)",                     "note": "c.565–870" },
-            { "label": "Kashmir (Karkota dynasty)",                          "note": "c.625–855" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Medieval", "rowspan": 5 },
-      "cells": [
-        { "stack": [
-            { "regime": "rashidun_caliphate", "label": "Rashidun Caliphate (frontier raids)", "note": "c.644–661" },
-            { "label": "Brahman dynasty of Sindh",                           "note": "c.632–711" },
-            { "label": "Arab conquest of Sindh (Muhammad bin Qasim)",         "note": "711–712" },
-            { "regime": "umayyad_caliphate",  "label": "Umayyad Caliphate — Sindh Province",  "note": "712–750" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "harsha_empire",      "label": "Vardhana (Harsha) dynasty",            "note": "606–647" },
-            { "label": "Indo-Afghan small states",                           "note": "c.650–730" },
-            { "regime": "pratihara_dynasty",  "label": "Pratihara Dynasty — repelled Arab invasions", "note": "c.730–1036" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Turk Shahis → Hindu Shahis (Gandhara)",              "note": "c.565–1026" },
-            { "label": "Kashmir (Karkota → Utpala → Lohara dynasties)",      "note": "c.625–1339" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "regime": "abbasid_caliphate",  "label": "Abbasid Caliphate — Sindh Province",  "note": "750–854" },
-            { "label": "Habbari dynasty (Sindh — local Arab emirate)",       "note": "c.854–1011" },
-            { "label": "Soomra dynasty (Sindh — Ismaili)",                   "note": "c.1011–1351" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Tahirid dynasty (nominal)",                          "note": "821–873" },
-            { "regime": "saffarid_dynasty",   "label": "Saffarid Dynasty",                    "note": "861–900" },
-            { "regime": "ghaznavid_empire",   "label": "Ghaznavid Empire — Mahmud's 17 raids into India", "note": "977–1186" }
-          ], "span": 2
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Soomra Sindh (continuing)",                          "note": "c.1011–1351" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "ghorid_dynasty",     "label": "Ghorid Sultanate — Muhammad of Ghor conquers Punjab", "note": "1175–1206" },
-            { "regime": "delhi_sultanate",    "label": "Delhi Sultanate (Mamluk / Slave dynasty)", "note": "1206–1290" },
-            { "regime": "mongol_empire",      "label": "Mongol Empire — invasions repelled",   "note": "1221–1303" },
-            { "regime": "delhi_sultanate",    "label": "Delhi Sultanate (Khalji dynasty)",      "note": "1290–1320" }
-          ], "span": 2
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Samma dynasty (Sindh)",                              "note": "c.1351–1524" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "delhi_sultanate",    "label": "Delhi Sultanate (Tughluq dynasty)",     "note": "1320–1413" },
-            { "regime": "chagatai_khanate",   "label": "Eastern Chagatai Khanate (incursions)", "note": "1340s–1400" },
-            { "regime": "delhi_sultanate",    "label": "Delhi Sultanate (Sayyid dynasty)",      "note": "1414–1451" },
-            { "regime": "timurid_empire",     "label": "Timurid Empire — Timur sacks Delhi (1398)", "note": "1398–1507" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Kashmir Sultanate (Shah Mir dynasty)",               "note": "1339–1586" },
-            { "label": "Kart dynasty (Gandhara periphery)",                  "note": "c.1244–1389" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "maurya_empire",
+              "label": "Maurya Empire — Taxila as provincial capital",
+              "note": "305–185 BCE"
+            },
+            {
+              "regime": "greco_bactrian_kingdom",
+              "label": "Greco-Bactrian Kingdom (Gandhara)",
+              "note": "c.250–180 BCE"
+            },
+            {
+              "regime": "indo_greek_kingdom",
+              "label": "Indo-Greek Kingdom",
+              "note": "c.180–10 BCE"
+            },
+            {
+              "regime": "indo_parthian_kingdom",
+              "label": "Indo-Parthian Kingdom",
+              "note": "c.19 BCE–50 CE"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Arghun dynasty (Sindh)",                             "note": "1520–1554" },
-            { "label": "Tarkhan dynasty (Sindh)",                            "note": "1554–1591" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "kushan_empire",
+              "label": "Kushan Empire",
+              "note": "c.30–375 CE"
+            },
+            {
+              "regime": "sassanid_empire",
+              "label": "Sassanid Empire (western Sindh frontier)",
+              "note": "c.230–365"
+            },
+            {
+              "regime": "kushano_sasanian_kingdom",
+              "label": "Kushano-Sasanian Kingdom",
+              "note": "c.230–365"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Multan Emirate (Langah Sultanate)",                  "note": "1445–1526" },
-            { "regime": "delhi_sultanate",    "label": "Delhi Sultanate (Lodi dynasty)",        "note": "1451–1526" },
-            { "label": "Babur — Battle of Panipat (1526)",                   "note": "1526" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "kushan_empire",
+              "label": "Kushan Empire",
+              "note": "c.30–375 CE"
+            },
+            {
+              "label": "Indian small states (Eastern Kushan · Madraka · Yaudheya · Kashmir)",
+              "note": "c.200–400 CE",
+              "regime": "indian_small_states"
+            },
+            {
+              "label": "Kidarites",
+              "note": "c.350–467",
+              "regime": "kidarites"
+            },
+            {
+              "regime": "gupta_empire",
+              "label": "Gupta Empire (Punjab frontier)",
+              "note": "c.320–550"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Kashmir Sultanate (continuing)",                     "note": "1339–1586" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Modern", "rowspan": 2 },
-      "cells": [
-        { "stack": [
-            { "regime": "mughal_empire",      "label": "Mughal Empire — Sindh Subah",          "note": "1591–1739" },
-            { "label": "Kalhora dynasty (Sindh — Mughal vassals → independent)", "note": "1701–1783" },
-            { "label": "Talpur dynasty (Sindh)",                             "note": "1783–1843" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "mughal_empire",      "label": "Mughal Empire — Punjab & Lahore Subah", "note": "1526–1739" },
-            { "label": "Sur dynasty (Afghan interregnum)",                   "note": "1540–1556" },
-            { "label": "Hotak dynasty (invasion of Punjab)",                 "note": "1709–1738" },
-            { "regime": "afsharid_dynasty",   "label": "Afsharid dynasty — Nadir Shah sacks Delhi (1739)", "note": "1738–1747" },
-            { "regime": "durrani_empire",     "label": "Durrani Empire — Punjab as Afghan territory", "note": "1747–1799" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "mughal_empire",      "label": "Mughal Empire — Kashmir Subah",        "note": "1586–1739" },
-            { "regime": "durrani_empire",     "label": "Durrani Empire — Kashmir",              "note": "1752–1819" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "kushan_empire",
+              "label": "Kushan Empire — Gandhara Buddhist art flourishes",
+              "note": "c.30–375 CE"
+            },
+            {
+              "label": "Kidarites",
+              "note": "c.350–467",
+              "regime": "kidarites"
+            },
+            {
+              "regime": "hephthalite_empire",
+              "label": "Alchon Huns (Hephthalites)",
+              "note": "c.460–565"
+            },
+            {
+              "regime": "sassanid_empire",
+              "label": "Sassanid Empire (western influence)",
+              "note": "c.560–651"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "regime": "sikh_empire",        "label": "Sikh Empire (Sindh frontier raids)",    "note": "1799–1843" },
-            { "regime": "british_raj",        "label": "British East India Company — conquers Sindh (1843)", "note": "1843–1858" },
-            { "regime": "british_raj",        "label": "British Indian Empire",                 "note": "1858–1947" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Rai Dynasty of Sindh",
+              "note": "c.489–632",
+              "regime": "rai_dynasty_of_sindh"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "regime": "sikh_empire",        "label": "Sikh Empire — Ranjit Singh (Lahore)",   "note": "1799–1849" },
-            { "regime": "british_raj",        "label": "British East India Company — Anglo-Sikh Wars (1845–49)", "note": "1849–1858" },
-            { "regime": "british_raj",        "label": "British Indian Empire — Punjab Province", "note": "1858–1947" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Malwa Kingdom",
+              "note": "c.500–625",
+              "regime": "malwa_kingdom"
+            },
+            {
+              "label": "Kanauj Kingdom",
+              "note": "c.550–647",
+              "regime": "kanauj_kingdom"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "regime": "sikh_empire",        "label": "Sikh Empire — conquers Kashmir (1819)", "note": "1819–1846" },
-            { "label": "Jammu & Kashmir (Dogra dynasty — British princely state)", "note": "1846–1947" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "hephthalite_empire",
+              "label": "Alchon Huns (declining)",
+              "note": "c.500–565"
+            },
+            {
+              "label": "Turk Shahis (Kabul & Gandhara)",
+              "note": "c.565–870",
+              "regime": "turk_shahis"
+            },
+            {
+              "label": "Kashmir (Karkota dynasty)",
+              "note": "c.625–855",
+              "regime": "kashmir"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Contemporary", "rowspan": 2 },
+      "era": {
+        "label": "Medieval",
+        "rowspan": 5
+      },
       "cells": [
-        { "stack": [
-            { "label": "Dominion of Pakistan (West Pakistan)",               "note": "1947–1956" }
-          ], "span": 3
+        {
+          "stack": [
+            {
+              "regime": "rashidun_caliphate",
+              "label": "Rashidun Caliphate (frontier raids)",
+              "note": "c.644–661; Arab conquest of Sindh (Muhammad bin Qasim) (711–712)"
+            },
+            {
+              "label": "Brahman dynasty of Sindh",
+              "note": "c.632–711",
+              "regime": "brahman_dynasty_of_sindh"
+            },
+            {
+              "regime": "umayyad_caliphate",
+              "label": "Umayyad Caliphate — Sindh Province",
+              "note": "712–750"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "harsha_empire",
+              "label": "Vardhana (Harsha) dynasty",
+              "note": "606–647"
+            },
+            {
+              "label": "Indo-Afghan small states",
+              "note": "c.650–730",
+              "regime": "indo_afghan_small_states"
+            },
+            {
+              "regime": "pratihara_dynasty",
+              "label": "Pratihara Dynasty — repelled Arab invasions",
+              "note": "c.730–1036"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Turk Shahis → Hindu Shahis (Gandhara)",
+              "note": "c.565–1026"
+            },
+            {
+              "label": "Kashmir (Karkota → Utpala → Lohara dynasties)",
+              "note": "c.625–1339"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "regime": "pakistan", "label": "Islamic Republic of Pakistan",      "span": 3 }
+        {
+          "stack": [
+            {
+              "regime": "abbasid_caliphate",
+              "label": "Abbasid Caliphate — Sindh Province",
+              "note": "750–854"
+            },
+            {
+              "label": "Habbari dynasty (Sindh — local Arab emirate)",
+              "note": "c.854–1011",
+              "regime": "habbari_dynasty"
+            },
+            {
+              "label": "Soomra dynasty (Sindh — Ismaili)",
+              "note": "c.1011–1351",
+              "regime": "soomra_dynasty"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Tahirid dynasty (nominal)",
+              "note": "821–873"
+            },
+            {
+              "regime": "saffarid_dynasty",
+              "label": "Saffarid Dynasty",
+              "note": "861–900"
+            },
+            {
+              "regime": "ghaznavid_empire",
+              "label": "Ghaznavid Empire — Mahmud's 17 raids into India",
+              "note": "977–1186"
+            }
+          ],
+          "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Soomra Sindh (continuing)",
+              "note": "c.1011–1351",
+              "regime": "soomra_sindh"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "ghorid_dynasty",
+              "label": "Ghorid Sultanate — Muhammad of Ghor conquers Punjab",
+              "note": "1175–1206"
+            },
+            {
+              "regime": "delhi_sultanate",
+              "label": "Delhi Sultanate (Mamluk / Slave dynasty)",
+              "note": "1206–1290"
+            },
+            {
+              "regime": "mongol_empire",
+              "label": "Mongol Empire — invasions repelled",
+              "note": "1221–1303"
+            },
+            {
+              "regime": "delhi_sultanate",
+              "label": "Delhi Sultanate (Khalji dynasty)",
+              "note": "1290–1320"
+            }
+          ],
+          "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Samma dynasty (Sindh)",
+              "note": "c.1351–1524",
+              "regime": "samma_dynasty"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "delhi_sultanate",
+              "label": "Delhi Sultanate (Tughluq dynasty)",
+              "note": "1320–1413"
+            },
+            {
+              "regime": "chagatai_khanate",
+              "label": "Eastern Chagatai Khanate (incursions)",
+              "note": "1340s–1400"
+            },
+            {
+              "regime": "delhi_sultanate",
+              "label": "Delhi Sultanate (Sayyid dynasty)",
+              "note": "1414–1451"
+            },
+            {
+              "regime": "timurid_empire",
+              "label": "Timurid Empire — Timur sacks Delhi (1398)",
+              "note": "1398–1507"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kashmir Sultanate (Shah Mir dynasty)",
+              "note": "1339–1586",
+              "regime": "kashmir_sultanate"
+            },
+            {
+              "label": "Kart dynasty (Gandhara periphery)",
+              "note": "c.1244–1389"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Arghun dynasty (Sindh)",
+              "note": "1520–1554",
+              "regime": "arghun_dynasty"
+            },
+            {
+              "label": "Tarkhan dynasty (Sindh)",
+              "note": "1554–1591",
+              "regime": "han_dynasty"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Multan Emirate (Langah Sultanate)",
+              "note": "1445–1526",
+              "regime": "multan_emirate"
+            },
+            {
+              "regime": "delhi_sultanate",
+              "label": "Delhi Sultanate (Lodi dynasty)",
+              "note": "1451–1526; Babur — Battle of Panipat (1526) (1526)"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kashmir Sultanate (continuing)",
+              "note": "1339–1586",
+              "regime": "kashmir_sultanate"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Modern",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "mughal_empire",
+              "label": "Mughal Empire — Sindh Subah",
+              "note": "1591–1739"
+            },
+            {
+              "label": "Kalhora dynasty (Sindh — Mughal vassals → independent)",
+              "note": "1701–1783"
+            },
+            {
+              "label": "Talpur dynasty (Sindh)",
+              "note": "1783–1843",
+              "regime": "talpur_dynasty"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "mughal_empire",
+              "label": "Mughal Empire — Punjab & Lahore Subah",
+              "note": "1526–1739"
+            },
+            {
+              "label": "Sur dynasty (Afghan interregnum)",
+              "note": "1540–1556"
+            },
+            {
+              "label": "Hotak dynasty (invasion of Punjab)",
+              "note": "1709–1738",
+              "regime": "hotak_dynasty"
+            },
+            {
+              "regime": "afsharid_dynasty",
+              "label": "Afsharid dynasty — Nadir Shah sacks Delhi (1739)",
+              "note": "1738–1747"
+            },
+            {
+              "regime": "durrani_empire",
+              "label": "Durrani Empire — Punjab as Afghan territory",
+              "note": "1747–1799"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "mughal_empire",
+              "label": "Mughal Empire — Kashmir Subah",
+              "note": "1586–1739"
+            },
+            {
+              "regime": "durrani_empire",
+              "label": "Durrani Empire — Kashmir",
+              "note": "1752–1819"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "sikh_empire",
+              "label": "Sikh Empire (Sindh frontier raids)",
+              "note": "1799–1843"
+            },
+            {
+              "regime": "british_raj",
+              "label": "British East India Company — conquers Sindh (1843)",
+              "note": "1843–1858"
+            },
+            {
+              "regime": "british_raj",
+              "label": "British Indian Empire",
+              "note": "1858–1947"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "sikh_empire",
+              "label": "Sikh Empire — Ranjit Singh (Lahore)",
+              "note": "1799–1849"
+            },
+            {
+              "regime": "british_raj",
+              "label": "British East India Company — Anglo-Sikh Wars (1845–49)",
+              "note": "1849–1858"
+            },
+            {
+              "regime": "british_raj",
+              "label": "British Indian Empire — Punjab Province",
+              "note": "1858–1947"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "sikh_empire",
+              "label": "Sikh Empire — conquers Kashmir (1819)",
+              "note": "1819–1846"
+            },
+            {
+              "label": "Jammu & Kashmir (Dogra dynasty — British princely state)",
+              "note": "1846–1947",
+              "regime": "jammu_kashmir"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Dominion of Pakistan (West Pakistan)",
+              "note": "1947–1956",
+              "regime": "pakistan"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "regime": "pakistan",
+          "label": "Islamic Republic of Pakistan",
+          "span": 3
+        }
       ]
     }
   ],

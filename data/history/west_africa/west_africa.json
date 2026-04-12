@@ -1,0 +1,519 @@
+{
+  "id": "west_africa",
+  "title": "History of West Africa",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "west",
+      "name": "Western (Senegal · Guinea · Sierra Leone · Mauritania)",
+      "slots": 1
+    },
+    {
+      "id": "center",
+      "name": "Central (Mali · Burkina Faso · Niger)",
+      "slots": 1
+    },
+    {
+      "id": "east",
+      "name": "Eastern (Nigeria · Ghana · Benin · Togo)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Prehistoric",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "West African hunter-gatherers",
+              "note": "c.12,000 BCE–",
+              "regime": "west_african_hunter_gatherers"
+            },
+            {
+              "label": "Tichitt culture (Mauritania — early agropastoral)",
+              "note": "c.2000–500 BCE",
+              "regime": "tichitt_culture"
+            },
+            {
+              "label": "Dhar Néma · Dhar Tichitt · Dhar Walata",
+              "note": "",
+              "regime": "dhar_nema"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Niger-Congo language family dispersal",
+              "note": "",
+              "regime": "niger_congo_language_family_dispersal"
+            },
+            {
+              "label": "Senegambian stone circles",
+              "note": "c.300 BCE–1600 CE",
+              "regime": "senegambian_stone_circles"
+            },
+            {
+              "label": "Bura culture (Niger River bend)",
+              "note": "c.3rd–13th c.",
+              "regime": "bura_culture"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Nok culture (central Nigeria — earliest sub-Saharan sculpture)",
+              "note": "c.1000 BCE–300 CE",
+              "regime": "nok_culture"
+            },
+            {
+              "label": "Igbo-Ukwu · Ife · Jenne-Jeno (early urbanization)",
+              "note": "",
+              "regime": "igbo_ukwu_ife_jenne_jeno"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Ancient / Early Medieval",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Berber nomads (Sanhaja · Zenata · Masmuda)",
+              "note": "",
+              "regime": "berber_nomads"
+            },
+            {
+              "label": "Takrur kingdom (Senegal River — early Islam)",
+              "note": "c.800–1285",
+              "regime": "takrur_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Ghana Empire (Wagadu — Soninke)",
+              "note": "c.300–1235",
+              "regime": "ghana_empire"
+            },
+            {
+              "label": "Trans-Saharan gold and salt trade",
+              "note": "",
+              "regime": "trans_saharan_gold_and_salt_trade"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kanem Empire (Lake Chad basin)",
+              "note": "c.700–1380",
+              "regime": "kanem_empire"
+            },
+            {
+              "label": "Hausa city-states (emerging)",
+              "note": "c.1000–",
+              "regime": "hausa_city_states"
+            },
+            {
+              "label": "Ife Empire (Yoruba cultural center)",
+              "note": "c.1100–",
+              "regime": "ife_empire"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Medieval",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "almoravid_dynasty",
+              "label": "Almoravid Sultanate (Berber — conquers Ghana)",
+              "note": "c.1040–1147"
+            },
+            {
+              "label": "Soninke petty kingdoms (post-Ghana)",
+              "note": "",
+              "regime": "soninke_petty_kingdoms"
+            },
+            {
+              "label": "Jolof Empire (Wolof — Senegambia)",
+              "note": "c.1350–1549",
+              "regime": "jolof_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Sosso Empire (Susu — brief)",
+              "note": "c.1180–1235",
+              "regime": "sosso_empire"
+            },
+            {
+              "label": "Mali Empire (Mandinka — Sundiata Keita)",
+              "note": "c.1235–1600",
+              "regime": "mali_empire"
+            },
+            {
+              "label": "Mansa Musa — richest person in history",
+              "note": "r.1312–1337",
+              "regime": "mansa_musa"
+            },
+            {
+              "label": "Timbuktu · Djenné (Islamic scholarship centers)",
+              "note": "",
+              "regime": "timbuktu_djenne"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Benin Empire (Edo people — Benin City)",
+              "note": "c.1180–1897",
+              "regime": "benin_empire"
+            },
+            {
+              "label": "Oyo Empire (Yoruba — emerging)",
+              "note": "c.1300–",
+              "regime": "oyo_empire"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Mali Empire (western provinces declining)",
+              "note": ""
+            },
+            {
+              "label": "Kaabu kingdom (Mandinka — Casamance/Guinea-Bissau)",
+              "note": "c.1537–1867",
+              "regime": "kaabu_kingdom"
+            },
+            {
+              "label": "Futa Jallon imamate (Fulani jihad state)",
+              "note": "c.1727–1896",
+              "regime": "futa_jallon_imamate"
+            },
+            {
+              "label": "Futa Toro imamate",
+              "note": "c.1776–1861",
+              "regime": "futa_toro_imamate"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Songhai Empire (Gao — Sunni Ali · Askia Muhammad)",
+              "note": "c.1430–1591",
+              "regime": "songhai_empire"
+            },
+            {
+              "label": "Saadi dynasty (Morocco) destroys Songhai",
+              "note": "1591",
+              "regime": "saadi_dynasty_destroys_songhai"
+            },
+            {
+              "label": "Dendi kingdom (Songhai successor — south)",
+              "note": "1591–1901",
+              "regime": "dendi_kingdom"
+            },
+            {
+              "label": "Tuareg confederations (Saharan nomads)",
+              "note": "",
+              "regime": "tuareg_confederations"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Oyo Empire (Yoruba — peak)",
+              "note": "c.1600–1836",
+              "regime": "oyo_empire"
+            },
+            {
+              "label": "Ashanti Empire (Akan — Gold Coast)",
+              "note": "c.1670–1902",
+              "regime": "ashanti_empire"
+            },
+            {
+              "label": "Dahomey kingdom (Fon people)",
+              "note": "c.1600–1904",
+              "regime": "dahomey_kingdom"
+            },
+            {
+              "label": "Hausa city-states (Kano · Katsina · Zazzau etc.)",
+              "note": "",
+              "regime": "hausa_city_states"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Jihad States / 19th c.",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Futa Jallon imamate",
+              "note": "c.1727–1896",
+              "regime": "futa_jallon_imamate"
+            },
+            {
+              "label": "Samori Ture — Wassoulou Empire (resists French)",
+              "note": "c.1878–1898"
+            },
+            {
+              "label": "European coastal forts (Portuguese · Dutch · British · French)",
+              "note": "15th c.–",
+              "regime": "european_coastal_forts"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Bambara Empire (Ségou · Kaarta)",
+              "note": "c.1640–1861",
+              "regime": "bambara_empire"
+            },
+            {
+              "label": "Massina Empire (Fulani theocratic state)",
+              "note": "1818–1862",
+              "regime": "massina_empire"
+            },
+            {
+              "label": "Toucouleur Empire (El Hadj Umar Tall)",
+              "note": "1848–1893",
+              "regime": "toucouleur_empire"
+            },
+            {
+              "label": "Kenedugu kingdom",
+              "note": "c.1650–1898",
+              "regime": "kenedugu_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Sokoto Caliphate (Fulani jihad — Usman dan Fodio)",
+              "note": "1804–1903",
+              "regime": "sokoto_caliphate"
+            },
+            {
+              "label": "Bornu Empire (Kanem-Bornu successor)",
+              "note": "1380–1893",
+              "regime": "bornu_empire"
+            },
+            {
+              "label": "Benin Empire (declining — British punitive expedition 1897)",
+              "note": ""
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Colonial",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "French West Africa (AOF — Afrique-Occidentale française)",
+              "note": "1895–1958",
+              "regime": "french_west_africa"
+            },
+            {
+              "label": "French Sudan · Senegal · Guinea · Mauritania · Côte d'Ivoire · Dahomey · Upper Volta · Niger",
+              "note": "",
+              "regime": "french_sudan"
+            },
+            {
+              "label": "Sierra Leone (British colony)",
+              "note": "1808–1961",
+              "regime": "sierra_leone"
+            },
+            {
+              "label": "Liberia (independent — Americo-Liberian republic)",
+              "note": "1847–",
+              "regime": "liberia"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "British West Africa",
+              "note": "",
+              "regime": "british_west_africa"
+            },
+            {
+              "label": "Gold Coast (Ghana — British colony)",
+              "note": "1874–1957",
+              "regime": "gold_coast"
+            },
+            {
+              "label": "Nigeria (British — Northern + Southern protectorates merged 1914)",
+              "note": "1901–1960"
+            },
+            {
+              "label": "Togoland (German → French/British mandate)",
+              "note": "1884–1960"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Independent states (1958–1975):",
+              "note": "",
+              "regime": "independent_states"
+            },
+            {
+              "label": "Guinea (1958) · Mali (1960) · Senegal (1960) · Mauritania (1960)",
+              "note": "",
+              "regime": "guinea_mali_senegal_mauritania"
+            },
+            {
+              "label": "Sierra Leone (1961) · Gambia (1965) · Guinea-Bissau (1974) · Cabo Verde (1975)",
+              "note": "",
+              "regime": "sierra_leone"
+            },
+            {
+              "label": "Mali-Senegal Federation (brief)",
+              "note": "1959–1960",
+              "regime": "mali_senegal_federation"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Mali Republic",
+              "note": "1960–",
+              "regime": "mali_republic"
+            },
+            {
+              "label": "Burkina Faso (formerly Upper Volta)",
+              "note": "1960–",
+              "regime": "burkina_faso"
+            },
+            {
+              "label": "Niger Republic",
+              "note": "1960–",
+              "regime": "niger_republic"
+            },
+            {
+              "label": "Côte d'Ivoire",
+              "note": "1960–",
+              "regime": "cote_divoire"
+            },
+            {
+              "label": "Azawad (Tuareg separatist — unrecognized)",
+              "note": "2012",
+              "regime": "azawad"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Ghana (first sub-Saharan independence — Nkrumah)",
+              "note": "1957–"
+            },
+            {
+              "label": "Nigeria (independent — civil war / Biafra 1967–70)",
+              "note": "1960–"
+            },
+            {
+              "label": "Togo (1960) · Benin (1960)",
+              "note": "",
+              "regime": "togo_benin"
+            },
+            {
+              "label": "ECOWAS (Economic Community of West African States)",
+              "note": "1975–",
+              "regime": "ecowas"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Ghana Empire (c.300–1235): not located in modern Ghana but in southeastern Mauritania and western Mali; the Soninke empire controlled trans-Saharan gold-salt trade routes; its capital Kumbi Saleh may have housed 30,000 people; Almoravid pressure and internal fragmentation led to its decline, succeeded by the Mali Empire",
+    "Mali Empire (c.1235–1600): founded by Sundiata Keita after defeating the Sosso at the Battle of Kirina; Mansa Musa's pilgrimage to Mecca (1324) distributed so much gold that he depressed gold prices in Egypt for a decade; Timbuktu and Djenné became centers of Islamic learning with the University of Sankore reportedly housing 25,000 students",
+    "Songhai Empire (c.1430–1591): the largest empire in African history by area, centered on the Niger River city of Gao; Askia Muhammad (r.1493–1528) organized it into provinces with a professional bureaucracy; its destruction by a Moroccan Saadi expedition armed with firearms (Battle of Tondibi, 1591) ended the era of great Sahelian empires",
+    "Sokoto Caliphate (1804–1903): founded by Usman dan Fodio's Fulani jihad against the Hausa city-states, it was the largest state in 19th-century Africa with perhaps 10 million subjects; it reformed Islamic practice, expanded education, and created a federal system of emirates; the British conquered it in 1903 but preserved its emirate structure through indirect rule",
+    "Ashanti Empire (c.1670–1902): the Akan-speaking Ashanti built a powerful centralized state in the Gold Coast (modern Ghana), united by the Golden Stool (Sika Dwa Kofi); they fought four wars against the British before annexation in 1902; the Ashanti king (Asantehene) remains culturally significant today",
+    "Trans-Saharan trade: for over a millennium, camel caravans carried gold, salt, slaves, and luxury goods between West Africa and the Mediterranean; this trade created the wealth of Ghana, Mali, and Songhai; the shift to Atlantic maritime trade (Portuguese from the 1440s) gradually reoriented West African economies coastward",
+    "Scramble for Africa in West Africa: France dominated the interior (French West Africa covered 4.7 million km²), while Britain controlled the most economically valuable coastal territories (Nigeria, Gold Coast, Sierra Leone); the Berlin Conference (1884–85) formalized partition; independence came mostly in 1960, the 'Year of Africa'"
+  ]
+}

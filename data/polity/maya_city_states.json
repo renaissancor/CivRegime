@@ -1,0 +1,16 @@
+{
+  "id": "maya_city_states",
+  "name": "Maya City-States (Tikal, Calakmul)",
+  "ruling_ethnicity": "maya",
+  "cultural_language": "mayan",
+  "ideology": {
+    "religion": "maya_religion",
+    "government": "city_state"
+  },
+  "territories": [
+    "mesoamerica"
+  ],
+  "start": 250,
+  "end": 900,
+  "note": "Classic Maya period"
+}

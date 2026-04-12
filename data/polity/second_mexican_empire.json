@@ -1,0 +1,16 @@
+{
+  "id": "second_mexican_empire",
+  "name": "Second Mexican Empire",
+  "ruling_ethnicity": "mestizo",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "mesoamerica"
+  ],
+  "start": 1864,
+  "end": 1867,
+  "note": "Maximilian's French-backed empire"
+}

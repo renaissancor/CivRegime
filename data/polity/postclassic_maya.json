@@ -1,0 +1,16 @@
+{
+  "id": "postclassic_maya",
+  "name": "Postclassic Maya (Mayapan, K'iche')",
+  "ruling_ethnicity": "maya",
+  "cultural_language": "mayan",
+  "ideology": {
+    "religion": "maya_religion",
+    "government": "city_state"
+  },
+  "territories": [
+    "mesoamerica"
+  ],
+  "start": 900,
+  "end": 1524,
+  "note": "Postclassic Maya kingdoms"
+}

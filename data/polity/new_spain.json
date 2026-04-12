@@ -1,0 +1,19 @@
+{
+  "id": "new_spain",
+  "name": "Viceroyalty of New Spain",
+  "ruling_ethnicity": "spanish",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "mesoamerica",
+    "us_west",
+    "us_south",
+    "caribbean"
+  ],
+  "start": 1521,
+  "end": 1821,
+  "note": "Spanish colonial empire in the Americas"
+}

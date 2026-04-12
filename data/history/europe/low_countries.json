@@ -1,0 +1,751 @@
+{
+  "id": "low_countries",
+  "title": "History of the Low Countries (Netherlands · Belgium · Luxembourg)",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "north",
+      "name": "Northern Netherlands (Frisia · Holland · Utrecht)",
+      "slots": 1
+    },
+    {
+      "id": "flemish",
+      "name": "Flanders & Brabant (Flemish Low Countries)",
+      "slots": 1
+    },
+    {
+      "id": "walloon",
+      "name": "Wallonia & Luxembourg (Liège · Hainaut · Namur)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Ancient",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Frisii (Frisian tribes)",
+              "note": "c.500 BCE–",
+              "regime": "frisii"
+            },
+            {
+              "label": "Batavi · Cananefates (Rhine delta)",
+              "note": "",
+              "regime": "batavi_cananefates"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Belgae (Celtic-Germanic tribes)",
+              "note": "c.300 BCE–",
+              "regime": "belgae"
+            },
+            {
+              "label": "Menapii · Nervii · Morini · Eburones",
+              "note": "",
+              "regime": "menapii_nervii_morini_eburones"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Belgae (Aduatuci · Treveri · Tungri)",
+              "note": "c.300 BCE–",
+              "regime": "belgae"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "roman_republic",
+              "label": "Roman Republic (Gallic Wars — Caesar)",
+              "note": "57–27 BCE"
+            },
+            {
+              "regime": "roman_empire",
+              "label": "Roman Empire — Germania Inferior",
+              "note": "27 BCE–; Batavian Revolt 69–70 CE"
+            },
+            {
+              "label": "Frisii beyond the limes (unconquered)",
+              "note": "",
+              "regime": "frisii_beyond_the_limes"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "roman_republic",
+              "label": "Roman Republic — Gallia Belgica",
+              "note": "57–27 BCE"
+            },
+            {
+              "regime": "roman_empire",
+              "label": "Roman Empire — Gallia Belgica · Germania Inferior",
+              "note": "27 BCE–"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "roman_republic",
+              "label": "Roman Republic — Gallia Belgica",
+              "note": "57–27 BCE"
+            },
+            {
+              "regime": "roman_empire",
+              "label": "Roman Empire — Gallia Belgica · Germania Superior",
+              "note": "27 BCE–"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Late Roman / Migration",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "western_roman_empire",
+              "label": "Western Roman Empire (declining)",
+              "note": "395–476; Salian Franks settle Toxandria c.350"
+            },
+            {
+              "label": "Frisian Kingdom (independent coastal Frisia)",
+              "note": "c.500–734",
+              "regime": "frisian_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "western_roman_empire",
+              "label": "Western Roman Empire",
+              "note": "395–476"
+            },
+            {
+              "label": "Frankish Kingdom (Clovis I)",
+              "note": "481–511",
+              "regime": "carolingian_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "western_roman_empire",
+              "label": "Western Roman Empire",
+              "note": "395–476"
+            },
+            {
+              "label": "Frankish Kingdom (Clovis I)",
+              "note": "481–511",
+              "regime": "carolingian_empire"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Early Medieval",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Frankish Kingdom (conquest of Frisia — Charles Martel · Boniface)",
+              "note": "689–734",
+              "regime": "carolingian_empire"
+            },
+            {
+              "regime": "carolingian_empire",
+              "label": "Carolingian Empire",
+              "note": "751–843"
+            },
+            {
+              "label": "Duchy of Lotharingia (Lower Lorraine)",
+              "note": "843–959; Treaty of Verdun 843 → Middle Francia",
+              "regime": "duchy_of_lotharingia"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "High Medieval",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "holy_roman_empire",
+              "label": "Holy Roman Empire — German Kingdom",
+              "note": "962–"
+            },
+            {
+              "label": "Bishopric of Utrecht",
+              "note": "695–1528",
+              "regime": "bishopric_of_utrecht"
+            },
+            {
+              "label": "Duchy of Guelders (Gelre)",
+              "note": "1046–1543",
+              "regime": "duchy_of_guelders"
+            },
+            {
+              "label": "County of Holland",
+              "note": "862–1432",
+              "regime": "county_of_holland"
+            },
+            {
+              "label": "Lordship of Frisia (Frisian freedom — no feudal lords)",
+              "note": "c.1100–1498",
+              "regime": "lordship_of_frisia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "holy_roman_empire",
+              "label": "Holy Roman Empire",
+              "note": ""
+            },
+            {
+              "label": "County of Flanders (French fief)",
+              "note": "862–1384",
+              "regime": "county_of_flanders"
+            },
+            {
+              "label": "Duchy of Brabant",
+              "note": "1183–1430",
+              "regime": "duchy_of_brabant"
+            },
+            {
+              "label": "Duchy of Limburg",
+              "note": "1065–1288",
+              "regime": "duchy_of_limburg"
+            },
+            {
+              "label": "County of Brussels (within Brabant)",
+              "note": "",
+              "regime": "county_of_brussels"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "holy_roman_empire",
+              "label": "Holy Roman Empire",
+              "note": ""
+            },
+            {
+              "label": "Prince-Bishopric of Liège (imperial immediacy)",
+              "note": "985–1795",
+              "regime": "prince_bishopric_of_liege"
+            },
+            {
+              "label": "County of Namur",
+              "note": "946–1421",
+              "regime": "county_of_namur"
+            },
+            {
+              "label": "County of Hainaut",
+              "note": "862–1432",
+              "regime": "county_of_hainaut"
+            },
+            {
+              "label": "County / Duchy of Luxembourg",
+              "note": "963–1443",
+              "regime": "county"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Burgundian Netherlands (Holland · Hainaut · Zeeland)",
+              "note": "1432–",
+              "regime": "burgundian_netherlands"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Burgundian Netherlands (Flanders · Brabant)",
+              "note": "1384/1430–",
+              "regime": "burgundian_netherlands"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Burgundian Netherlands (Namur · Luxembourg)",
+              "note": "1421/1443–",
+              "regime": "burgundian_netherlands"
+            },
+            {
+              "label": "Prince-Bishopric of Liège (resists Burgundy)",
+              "note": ""
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Burgundian / Habsburg",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Burgundian Netherlands (Valois-Burgundy)",
+              "note": "1384–1477",
+              "regime": "burgundian_netherlands"
+            },
+            {
+              "label": "Habsburg Netherlands (Mary of Burgundy → Maximilian)",
+              "note": "1477–1556; Pragmatic Sanction 1549 unifies 17 Provinces"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Spanish Netherlands (Philip II)",
+              "note": "1556–",
+              "regime": "spanish_netherlands"
+            },
+            {
+              "label": "Dutch Revolt (Eighty Years' War)",
+              "note": "1568–1648; Union of Utrecht 1579 — northern provinces rebel"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Early Modern",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Dutch Republic (Republic of the Seven United Provinces)",
+              "note": "1581–1795",
+              "regime": "dutch_republic"
+            },
+            {
+              "label": "Dutch colonial empire (VOC · WIC — East Indies · Caribbean · Cape)",
+              "note": "1602–",
+              "regime": "dutch_colonial_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Spanish Netherlands (southern provinces remain loyal)",
+              "note": "1579–1714",
+              "regime": "spanish_netherlands"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Spanish Netherlands",
+              "note": "1579–1714",
+              "regime": "spanish_netherlands"
+            },
+            {
+              "label": "Prince-Bishopric of Liège (still independent)",
+              "note": "",
+              "regime": "prince_bishopric_of_liege"
+            },
+            {
+              "label": "Duchy of Luxembourg (Spanish)",
+              "note": "",
+              "regime": "duchy_of_luxembourg"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "label": "Dutch Republic (declining — stadholderless periods)",
+          "note": "1702–1747; rivalry with Britain",
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Austrian Netherlands (Treaty of Utrecht)",
+              "note": "1714–1794"
+            },
+            {
+              "regime": "habsburg_monarchy",
+              "label": "Habsburg Monarchy rule",
+              "note": ""
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Austrian Netherlands",
+              "note": "1714–1794",
+              "regime": "austrian_netherlands"
+            },
+            {
+              "label": "Prince-Bishopric of Liège (independent until 1795)",
+              "note": "",
+              "regime": "prince_bishopric_of_liege"
+            },
+            {
+              "label": "United Belgian States",
+              "note": "1790; Brabantine Revolution 1789–1790",
+              "regime": "united_belgian_states"
+            },
+            {
+              "label": "Austrian rule restored",
+              "note": "1790–1794"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "French / Napoleonic",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Batavian Republic (French client state)",
+              "note": "1795–1801",
+              "regime": "batavian_republic"
+            },
+            {
+              "label": "Batavian Commonwealth",
+              "note": "1801–1806",
+              "regime": "batavian_commonwealth"
+            },
+            {
+              "label": "Kingdom of Holland (Louis Bonaparte)",
+              "note": "1806–1810",
+              "regime": "kingdom_of_holland"
+            },
+            {
+              "label": "Annexed into French First Empire",
+              "note": "1810–1813"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "French Republic annexes Southern Netherlands",
+              "note": "1794–1804",
+              "regime": "french_republic_annexes_southern_netherlands"
+            },
+            {
+              "label": "French First Empire",
+              "note": "1804–1814",
+              "regime": "french_first_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "French Republic annexes Liège · Luxembourg",
+              "note": "1795–1804",
+              "regime": "french_republic_annexes_liege"
+            },
+            {
+              "label": "French First Empire",
+              "note": "1804–1814",
+              "regime": "french_first_empire"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "United Kingdom Era",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Sovereign Principality of the United Netherlands",
+              "note": "1813–1815",
+              "regime": "sovereign_principality_of_the_united_netherlands"
+            },
+            {
+              "label": "United Kingdom of the Netherlands (William I — Congress of Vienna)",
+              "note": "1815–1839",
+              "regime": "united_kingdom"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "United Kingdom of the Netherlands",
+              "note": "1815–1830",
+              "regime": "united_kingdom"
+            },
+            {
+              "label": "Kingdom of Belgium (Leopold I — Saxe-Coburg)",
+              "note": "1830–; Belgian Revolution 1830",
+              "regime": "kingdom_of_belgium"
+            },
+            {
+              "label": "Grand Duchy of Luxembourg (personal union with NL → independent)",
+              "note": "1839/1890"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Modern",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Kingdom of the Netherlands",
+              "note": "1839–",
+              "regime": "kingdom_of_the_netherlands"
+            },
+            {
+              "label": "Dutch colonial empire (East Indies · Suriname · Antilles)",
+              "note": "",
+              "regime": "dutch_colonial_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Belgium",
+              "note": "1830–",
+              "regime": "kingdom_of_belgium"
+            },
+            {
+              "label": "Belgian colonial empire (Congo Free State → Belgian Congo)",
+              "note": "1885–1960"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Grand Duchy of Luxembourg",
+              "note": "1890– (full independence)",
+              "regime": "grand_duchy_of_luxembourg"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "nazi_germany",
+              "label": "Nazi Germany — Reichskommissariat Niederlande",
+              "note": "1940–1945"
+            },
+            {
+              "label": "Dutch government-in-exile (London)",
+              "note": "1940–1945"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "nazi_germany",
+              "label": "Nazi Germany — Military Administration Belgium-Northern France",
+              "note": "1940–1944"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "nazi_germany",
+              "label": "Nazi Germany — occupied Luxembourg",
+              "note": "1940–1944"
+            },
+            {
+              "label": "Grand Duchess Charlotte in exile",
+              "note": ""
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Kingdom of the Netherlands",
+              "note": "1945–",
+              "regime": "kingdom_of_the_netherlands"
+            },
+            {
+              "label": "Benelux economic union",
+              "note": "1948",
+              "regime": "benelux_economic_union"
+            },
+            {
+              "label": "Founding member of ECSC · EEC · EU",
+              "note": "1952–"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Belgium",
+              "note": "1945–",
+              "regime": "kingdom_of_belgium"
+            },
+            {
+              "label": "Federalization (Flemish · Walloon · Brussels regions)",
+              "note": "1970–1993",
+              "regime": "federalization"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Grand Duchy of Luxembourg",
+              "note": "1945–",
+              "regime": "grand_duchy_of_luxembourg"
+            },
+            {
+              "label": "Benelux · ECSC · EEC founding member",
+              "note": ""
+            }
+          ],
+          "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Frisian Kingdom (c.500–734): the Frisii controlled the North Sea coast from modern Flanders to northern Germany; they were the last Germanic people in the Low Countries to be conquered by the Franks; Charles Martel defeated King Radbod's successors and Boniface's mission Christianized the region",
+    "County of Flanders (862–1384): one of the wealthiest territories in medieval Europe; Bruges and Ghent were among the largest cities north of the Alps; Flemish cloth trade with English wool created Europe's first proto-industrial economy; the Battle of the Golden Spurs (1302) saw Flemish urban militia defeat French cavalry — a foundational event in Flemish identity",
+    "Burgundian Netherlands (1384–1477): the Valois Dukes of Burgundy assembled the Low Countries through marriage, purchase, and war; the Pragmatic Sanction of 1549 under Charles V formally unified the Seventeen Provinces; this created the administrative framework that later defined both the Netherlands and Belgium",
+    "Dutch Republic (1581–1795): the Republic of the Seven United Provinces was the first major republic in modern European history; the Dutch Golden Age produced Rembrandt, Vermeer, Spinoza, and Huygens; the VOC (Dutch East India Company, 1602) was the world's first publicly traded company; Amsterdam became the global center of finance",
+    "Belgian Revolution (1830): the southern provinces revolted against Dutch rule driven by linguistic, religious (Catholic vs Protestant), and economic grievances; the great powers recognized Belgian independence and guaranteed its perpetual neutrality (violated by Germany in 1914); Leopold I of Saxe-Coburg-Gotha became the first King",
+    "Congo Free State (1885–1908): Leopold II's personal colony in central Africa was notorious for brutal exploitation of the rubber trade; international outcry (E.D. Morel, Roger Casement) forced Belgium to annex the territory as Belgian Congo in 1908; the Congo gained independence in 1960 amid political crisis",
+    "Benelux (1948): Belgium, the Netherlands, and Luxembourg formed the first post-war European economic union, serving as a model and catalyst for the broader European Coal and Steel Community (1952) and eventually the European Economic Community (1957); all three host major EU institutions today"
+  ]
+}

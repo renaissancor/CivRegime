@@ -1,0 +1,16 @@
+{
+  "id": "plymouth_colony",
+  "name": "Plymouth Colony",
+  "ruling_ethnicity": "english",
+  "cultural_language": "english",
+  "ideology": {
+    "religion": "protestant",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "us_east"
+  ],
+  "start": 1620,
+  "end": 1691,
+  "note": "Pilgrim settlement"
+}

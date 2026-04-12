@@ -2,9 +2,9 @@
   "id": "kingdom_of_jordan",
   "name": "Hashemite Kingdom of Jordan",
   "ruling_ethnicity": "arab",
-  "cultural_language": "arabic",
+  "cultural_language": "classical_arabic",
   "ideology": {
-    "religion": "sunni_islam",
+    "religion": "sunni",
     "government": "constitutional_monarchy"
   },
   "territories": [

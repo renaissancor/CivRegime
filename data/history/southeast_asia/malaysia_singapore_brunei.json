@@ -1,0 +1,562 @@
+{
+  "id": "malaysia_singapore_brunei",
+  "title": "History of Malaysia, Singapore & Brunei",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "peninsula",
+      "name": "Malay Peninsula (Malaya)",
+      "slots": 1
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore (Singapura)",
+      "slots": 1
+    },
+    {
+      "id": "borneo",
+      "name": "Northern Borneo (Sarawak · Sabah)",
+      "slots": 1
+    },
+    {
+      "id": "brunei",
+      "name": "Brunei (Brunei Darussalam)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Ancient",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Malay petty kingdoms (kerajaan)",
+              "note": "pre-3rd c.",
+              "regime": "malay_petty_kingdoms"
+            },
+            {
+              "label": "Langkasuka (northeast Malay coast)",
+              "note": "c.2nd–14th c.",
+              "regime": "langkasuka"
+            },
+            {
+              "label": "Pahang kingdom (early)",
+              "note": "c.5th c.–",
+              "regime": "pahang_kingdom"
+            },
+            {
+              "label": "Melayu kingdom (Jambi — Sumatra influence)",
+              "note": "c.7th c."
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Singapura kingdom (Temasek)",
+              "note": "c.1299–1398",
+              "regime": "singapura_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Tribal societies (Dayak · Kadazan · Murut)",
+              "note": "pre-historic–",
+              "regime": "tribal_societies"
+            },
+            {
+              "label": "Vijayapura (early Borneo polity)",
+              "note": "",
+              "regime": "vijayapura"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Early Brunei polity",
+              "note": "",
+              "regime": "early_brunei_polity"
+            },
+            {
+              "label": "Chinese trade contacts",
+              "note": "7th c.–",
+              "regime": "chinese_trade_contacts"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Srivijaya (Sumatran thalassocracy — dominates Strait of Malacca)",
+              "note": "c.650–1025",
+              "regime": "srivijaya"
+            },
+            {
+              "label": "Singhasari / Majapahit influence",
+              "note": "13th–14th c."
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Srivijaya influence (Borneo coast)",
+              "note": "c.650–1025"
+            },
+            {
+              "label": "Majapahit Empire (Javanese overlordship)",
+              "note": "1293–c.1400",
+              "regime": "majapahit_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Srivijaya influence",
+              "note": ""
+            },
+            {
+              "label": "Brunei Sultanate (emerging — Islamization)",
+              "note": "c.14th c.–"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Islamic Period",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Malacca Sultanate (Melaka — regional entrepôt)",
+              "note": "1400–1511",
+              "regime": "malacca_sultanate"
+            },
+            {
+              "label": "Islamization of Malay world",
+              "note": "15th c."
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Sulu Sultanate (influence on NE Borneo)",
+              "note": "c.1405–"
+            },
+            {
+              "label": "Sarawak Sultanate",
+              "note": "",
+              "regime": "sarawak_sultanate"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Brunei Sultanate (peak — controls most of Borneo coast)",
+              "note": "15th–16th c.",
+              "regime": "brunei_sultanate"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Portuguese Malacca",
+              "note": "1511–1641",
+              "regime": "portuguese_malacca"
+            },
+            {
+              "label": "Johor Sultanate (Malacca successor)",
+              "note": "1528–",
+              "regime": "johor_sultanate"
+            },
+            {
+              "label": "Pahang · Selangor · Negeri Sembilan · Perak sultanates",
+              "note": "",
+              "regime": "pahang_selangor_negeri_sembilan_perak_sultanates"
+            },
+            {
+              "label": "Terengganu · Kelantan · Kedah · Perlis sultanates",
+              "note": "",
+              "regime": "terengganu_kelantan_kedah_perlis_sultanates"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Johor Sultanate (controls Singapore)",
+              "note": "16th–19th c.",
+              "regime": "johor_sultanate"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Sulu Sultanate (NE Borneo)",
+              "note": "",
+              "regime": "sulu_sultanate"
+            },
+            {
+              "label": "Sarawak under Brunei suzerainty",
+              "note": ""
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Brunei Sultanate (declining — cedes territory)",
+              "note": "17th–19th c."
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Colonial",
+        "rowspan": 3
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Dutch Malacca",
+              "note": "1641–1824",
+              "regime": "dutch_malacca"
+            },
+            {
+              "label": "Straits Settlements (Penang · Malacca · Singapore — British)",
+              "note": "1826–1946",
+              "regime": "straits_settlements"
+            },
+            {
+              "label": "Federated Malay States (Perak · Selangor · Pahang · Negeri Sembilan)",
+              "note": "1895–1946",
+              "regime": "federated_malay_states"
+            },
+            {
+              "label": "Unfederated Malay States (Johor · Kedah · Kelantan · Terengganu · Perlis)",
+              "note": "1909–1946",
+              "regime": "unfederated_malay_states"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "British Singapore (Stamford Raffles — founded 1819)",
+              "note": "1819–1942",
+              "regime": "british_singapore"
+            },
+            {
+              "label": "Straits Settlements (Crown Colony)",
+              "note": "1867–1946",
+              "regime": "straits_settlements"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Sarawak (James Brooke — White Rajahs)",
+              "note": "1841–1946",
+              "regime": "kingdom_of_sarawak"
+            },
+            {
+              "label": "British North Borneo (Chartered Company)",
+              "note": "1882–1946",
+              "regime": "british_north_borneo"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Brunei Sultanate (British protectorate)",
+              "note": "1888–1984",
+              "regime": "brunei_sultanate"
+            },
+            {
+              "label": "British Residency system",
+              "note": "1906–",
+              "regime": "british_residency_system"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Japanese-occupied Malaya",
+              "note": "1942–1945",
+              "regime": "japanese_occupied_malaya"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Japanese-occupied Singapore (Syonan-to)",
+              "note": "1942–1945",
+              "regime": "japanese_occupied_singapore"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Japanese-occupied North Borneo",
+              "note": "1942–1945",
+              "regime": "japanese_occupied_north_borneo"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Japanese-occupied Brunei",
+              "note": "1941–1945",
+              "regime": "japanese_occupied_brunei"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "British Military Administration",
+              "note": "1945–1946",
+              "regime": "british_military_administration"
+            },
+            {
+              "label": "Malayan Union (failed — Malay opposition)",
+              "note": "1946–1948",
+              "regime": "malayan_union"
+            },
+            {
+              "label": "Federation of Malaya",
+              "note": "1948–1957",
+              "regime": "federation_of_malaya"
+            },
+            {
+              "label": "Malayan Emergency (communist insurgency)",
+              "note": "1948–1960"
+            },
+            {
+              "label": "Federation of Malaya (independent)",
+              "note": "1957–1963",
+              "regime": "federation_of_malaya"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "British Singapore (Crown Colony)",
+              "note": "1946–1959",
+              "regime": "british_singapore"
+            },
+            {
+              "label": "State of Singapore (self-governing)",
+              "note": "1959–1963",
+              "regime": "state_of_singapore"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Crown Colony of Sarawak",
+              "note": "1946–1963",
+              "regime": "crown_colony_of_sarawak"
+            },
+            {
+              "label": "Crown Colony of North Borneo",
+              "note": "1946–1963",
+              "regime": "crown_colony_of_north_borneo"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Brunei (British protectorate — oil wealth)",
+              "note": "1945–1984",
+              "regime": "brunei"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Malaysia (federation — Malaya + Sarawak + Sabah + Singapore)",
+              "note": "1963–",
+              "regime": "malaysia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Malaysia (Singapore joins federation)",
+              "note": "1963–1965"
+            },
+            {
+              "label": "Republic of Singapore (expelled / independent)",
+              "note": "1965–",
+              "regime": "republic_of_singapore"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Malaysia (Sarawak + Sabah join federation)",
+              "note": "1963–",
+              "regime": "malaysia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Brunei (declines to join Malaysia)",
+              "note": "1963"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Malaysia",
+              "note": "1963–; constitutional monarchy, ASEAN founder",
+              "regime": "malaysia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Republic of Singapore",
+              "note": "1965–; city-state, global financial center",
+              "regime": "republic_of_singapore"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Malaysia (East Malaysia — Sarawak · Sabah)",
+              "note": "1963–",
+              "regime": "malaysia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Brunei Darussalam (full independence)",
+              "note": "1984–; absolute monarchy, oil-rich"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Srivijaya (c.650–1025): a Malay Buddhist thalassocracy based in Sumatra that dominated the Strait of Malacca and controlled maritime trade between China and India; its influence extended across the Malay Peninsula and Borneo coast; Chola naval raids from India fatally weakened it in 1025",
+    "Malacca Sultanate (1400–1511): founded by Parameswara (a Srivijayan prince), Malacca became the greatest entrepôt in Southeast Asia and the primary vector for Islamization of the Malay world; its capture by the Portuguese in 1511 disrupted but did not destroy Malay Muslim political culture — successor sultanates (Johor, Perak, Pahang) carried on the tradition",
+    "Brunei Sultanate: at its peak in the 15th–16th centuries, Brunei controlled most of coastal Borneo and parts of the Philippines (Sulu, Manila); European colonialism and the Brooke dynasty in Sarawak gradually reduced it to its present tiny territory; the discovery of oil (1929) transformed it into one of the world's wealthiest states per capita",
+    "White Rajahs of Sarawak (1841–1946): James Brooke, a British adventurer, was granted Sarawak by the Sultan of Brunei for suppressing a rebellion; the Brooke family ruled as personal monarchs for three generations — one of the most unusual colonial arrangements in history; Sarawak became a Crown Colony in 1946",
+    "Malayan Emergency (1948–1960): a communist insurgency led predominantly by ethnic Chinese guerrillas; the British and Malayan forces defeated it through a combination of military operations and winning Malay 'hearts and minds' (the Briggs Plan); the Emergency shaped Malaysia's ethnic politics and security outlook for decades",
+    "Singapore's expulsion (1965): Singapore was expelled from the Malaysian federation after political tensions between the PAP (Lee Kuan Yew) and UMNO over racial policies and economic vision; Lee famously wept at the press conference; the tiny city-state subsequently built one of the world's most successful economies through export-oriented industrialization and strict governance",
+    "Malaysian federation (1963): the merger of Malaya, Singapore, Sarawak, and North Borneo (Sabah) was partly motivated by fear of communist expansion and the need to balance Singapore's Chinese majority with Borneo's indigenous populations; Brunei declined to join, partly due to disputes over oil revenues and the sultan's political status"
+  ]
+}

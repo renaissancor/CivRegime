@@ -1,0 +1,31 @@
+{
+  "id": "britannia",
+  "name": "britannia",
+  "regime_count": 5,
+  "regimes": [
+    {
+      "regime_id": "roman_empire",
+      "start": -27,
+      "end": 380
+    },
+    {
+      "regime_id": "kingdom_of_england",
+      "start": 927,
+      "end": 1707
+    },
+    {
+      "regime_id": "angevin_empire",
+      "start": 1154,
+      "end": 1204
+    },
+    {
+      "regime_id": "kingdom_of_great_britain",
+      "start": 1707,
+      "end": 1801
+    },
+    {
+      "regime_id": "united_kingdom",
+      "start": 1801
+    }
+  ]
+}

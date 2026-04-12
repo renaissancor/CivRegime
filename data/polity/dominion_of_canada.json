@@ -1,0 +1,18 @@
+{
+  "id": "dominion_of_canada",
+  "name": "Dominion of Canada",
+  "ruling_ethnicity": "english",
+  "cultural_language": "english",
+  "ideology": {
+    "religion": "protestant",
+    "government": "constitutional_monarchy"
+  },
+  "territories": [
+    "quebec",
+    "atlantic_canada",
+    "western_canada"
+  ],
+  "start": 1867,
+  "end": 1982,
+  "note": "British dominion"
+}

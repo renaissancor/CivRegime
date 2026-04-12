@@ -1,0 +1,16 @@
+{
+  "id": "colombia",
+  "name": "Republic of Colombia",
+  "ruling_ethnicity": "mestizo",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "andes",
+    "caribbean"
+  ],
+  "start": 1831,
+  "end": null
+}

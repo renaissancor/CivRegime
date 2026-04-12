@@ -1,69 +1,58 @@
-# CivRegime Inheritance Framework (CRIF)
+# CivRegime — Historical Polity Database
 
-**CRIF** is a formal taxonomy and data schema for mapping the historical continuity and legitimacy of state transitions. It categorizes successions based on **Ethnic DNA (Software)** and **Territorial Locus (Hardware)** — the two independent axes that define whether one regime is a legitimate heir to another.
+A structured database of historical political entities (polities), their successions, and regional timelines. Maps the continuity and legitimacy of state transitions across world history.
 
-The framework makes patterns like the Persian cultural thread, the Mongol succession crisis, and the Tang → Ming continuity debate formally representable and queryable.
-
----
-
-## Core Philosophy: The Hardware-Software Model
+## Core Model
 
 ```
 Regime = Ethnicity (who rules) × Territory (where) × Ideology (why) × Time (when)
 ```
 
-- **Civilization DNA (Software):** The linguistic, religious, and ethnic identity of the ruling people. It flows like a river across borders — the same people can move territories.
-- **Territorial Locus (Hardware):** The physical geography. It stays static but accumulates layers of different rulers over time.
-- **Regime (The Instance):** A concrete political entity (Roman Republic, Ottoman Empire, Tang Dynasty) at the intersection of Civilization × Territory × Time.
+- **Civilization DNA (Software):** The linguistic, religious, and ethnic identity of the ruling people
+- **Territorial Locus (Hardware):** The physical geography — stays static but accumulates layers of rulers
+- **Polity (The Instance):** A concrete political entity at the intersection of Civilization × Territory × Time
+- **Regime (The Period):** A dynasty or ruling period within a polity
+
+### Three-Tier Political Hierarchy
+
+```
+State  → political continuity    (e.g., "Roman State", "French State")
+Polity → political entity        (e.g., Roman Republic, Kingdom of France)  [268 records]
+Regime → dynasty/ruling period   (e.g., Julio-Claudian, Bourbon dynasty)   [~2,500 from panels]
+```
 
 ---
 
-## Succession Matrix
+## Data at a Glance
 
-Transitions between Regimes are typed by what the two regimes share:
+| Entity | Count | Location |
+|--------|-------|----------|
+| Polities (political entities) | 268 | `data/regimes/*.json` |
+| Polity successions | 1,243 | `data/successions/all.json` |
+| History panels | 61 | `data/history/*/*.json` |
+| Territories | 79 | `data/territories/` |
+| Provinces (GeoJSON) | 53 | `data/provinces/` |
+| Languages | 691 | `data/languages/` (hierarchical tree) |
+| Ethnicities | 276 | `data/ethnicities/` (hierarchical tree) |
+| Religions | 255 | `data/religions/` (hierarchical tree) |
+| Ideologies | ~30 | `data/ideologies.json` |
 
-| Type | Name | Same Ethnicity | Same Territory | Legitimacy |
-| :--- | :--- | :---: | :---: | :--- |
-| **A** | Direct Lineage | ✅ | ✅ | Orthodox — the gold standard |
-| **A-** | Direct (ideology gap) | ✅ | ✅ | Weakened — same people, same land, religion changed |
-| **B** | Cultural Migration | ✅ | ❌ | Successor — same people moved |
-| **C** | Locus Inheritance | ❌ | ✅ | Claimant — conquered the land |
-| **D** | Arbitrary Jump | ❌ | ❌ | **Ahistorical / Invalid** |
+### History Panel Coverage (61 panels)
 
-Type D transitions are flagged as invalid unless an explicit intermediary regime is identified.
-
----
-
-## Data Structure
-
-```
-data/
-  regimes/              ← one JSON file per geographic cluster (recursive subdirs supported)
-    ancient_near_east.json
-    east_asia.json
-    europe/
-      medieval_west.json
-      ...
-  successions/          ← directed edges between regimes, one file per region
-  territory/            ← one JSON file per territory, grouped by region
-    middle_east/
-    east_asia/
-    ...
-  religions/            ← directory tree; parent derived from filesystem path
-    abrahamic/
-      index.json        ← branch node
-      islam/
-        sunni/
-          sunni_hanafi.json
-  languages/            ← directory tree (same convention as religions)
-    indo_european/
-    afroasiatic/
-    ...
-  ethnicities/          ← flat directory of ethnicity files
-  ideologies.json       ← flat array of government forms
-```
-
-All cross-references use string IDs as foreign keys. The validator checks all references resolve.
+| Region | Panels |
+|--------|--------|
+| **Western Europe** | Britain & Ireland, France, Low Countries, Scandinavia/Nordic, Italy, Iberia |
+| **Central Europe** | Germany, Switzerland & Austria, Poland, Czechia & Slovakia, Hungary, Slovenia |
+| **Balkans** | Greece, N. Macedonia, Bulgaria, Serbia/Kosovo/Montenegro, Bosnia, Croatia, Albania, Romania |
+| **Eastern Europe** | Baltic States, Belarus, Ukraine, Russia |
+| **East Asia** | China, Japan, Korea, Mongolia, Manchuria, Tibet |
+| **South Asia** | India, Pakistan, Sri Lanka |
+| **Central Asia & Persia** | Iran, Afghanistan, Uzbekistan, Turkmenistan, Xinjiang, Kazakhstan |
+| **Middle East** | Anatolia, Iraq, Levant, Egypt, Arabia, Yemen, Georgia, Armenia, Azerbaijan, Morocco |
+| **Southeast Asia** | Vietnam, Thailand/Cambodia/Laos, Myanmar, Indonesia, Malaysia/Singapore/Brunei |
+| **North Africa** | Algeria, Tunisia, Libya, Sudan |
+| **East Africa** | Ethiopia, Somalia |
+| **West Africa** | West Africa |
 
 ---
 
@@ -71,53 +60,98 @@ All cross-references use string IDs as foreign keys. The validator checks all re
 
 ```bash
 npm install
-npm start        # Express server at http://localhost:3000 — opens graph visualizer
-npm run validate # Check all FK integrity, required fields, date validity
+npm start        # Express server at http://localhost:3000
 ```
 
-### Visualizer
+### Frontend Pages
 
-The web visualizer (`public/`) is a D3.js force-directed graph:
-- Nodes = regimes, colored by `ruling_ethnicity`
-- Edges = succession types A/A-/B/C/D (each a distinct color)
-- Left sidebar: filter by ruling ethnicity, territory, or religion (sub-branches included automatically)
-- Click a node for full regime detail panel
+- `/` — Regime browser
+- `/history/` — History panel viewer (interactive timeline grids)
+- `/succession-graph.html` — D3.js force-directed succession graph
+- `/territory/` — Territory browser
+- `/ethnicity/`, `/language/`, `/religion/` — Taxonomy browsers
 
 ---
 
-## Current Data (as of 2026-03)
+## Architecture
 
-| Entity | Count |
-|---|---|
-| Regimes | 56 |
-| Successions | 70 |
-| Territories | 25 |
-| Languages | 118 |
-| Religions | 52 |
-| Ethnicities | 43 |
+### Current: JSON-First
 
-Coverage: Ancient Near East, Egypt, Persia/Iran, Islamic Caliphates, Steppe/Nomadic, Turkic Empires, East Asia (China), South Asia (India), Mediterranean Europe.
+```
+data/
+  regimes/*.json         ← 268 polity records (text IDs, one file each)
+  successions/all.json   ← 1,243 succession edges
+  history/*/*.json       ← 61 regional timeline panels
+  territories/           ← 79 macro geographic zones
+  provinces/             ← 53 GeoJSON subunits
+  languages/             ← 691 nodes (directory tree → parent derived from path)
+  religions/             ← 255 nodes (directory tree)
+  ethnicities/           ← 276 nodes (directory tree)
+  ideologies.json        ← ~30 government forms
+  states.json            ← political continuity groupings
+```
 
-Planned: Medieval Europe, Sub-Saharan Africa, Southeast Asia, Japan/Korea, Americas.
+All cross-references use string IDs as foreign keys. The server loads JSON at startup via `data/index.js`.
+
+### Future: DuckDB RDBMS
+
+The project is transitioning to a DuckDB relational database (`civregime.db`) with a normalized schema:
+
+- **24 tables** designed (see `docs/erd.sql`)
+- **Polity/Regime split**: current "regime" records become "polities"; dynasty-level data becomes "regimes"
+- **History panels** decompose into `history_cells` table with FK links
+- **Succession graph** at two levels: polity-to-polity (macro) and regime-to-regime (dynasty)
+
+See `docs/erd.md` for the full ERD and `docs/TODO.md` for the migration roadmap.
 
 ---
 
 ## Documentation
 
 | File | Contents |
-|---|---|
-| `docs/data-model.md` | Full entity schema and edge type reference |
-| `docs/regime.md` | Regime fields, figures, regime vs dynasty distinction |
-| `docs/succession.md` | Succession type logic, path validation, edge cases |
-| `docs/ideology.md` | Ideology vs policy distinction, examples |
-| `docs/ethnicity.md` | Ethnicity model |
+|------|----------|
+| `docs/erd.sql` | Full DDL schema (v2 — Polity/Regime split) |
+| `docs/erd.md` | Visual ERD diagram, table summary, example queries |
+| `docs/TODO.md` | 9-phase RDBMS migration roadmap |
+| `docs/ARCHITECTURE.md` | System architecture and data flow |
+| `docs/data-model.md` | Entity schema and edge type reference |
+| `docs/regime.md` | Polity fields, figures, polity vs regime distinction |
+| `docs/succession.md` | Succession type logic and edge cases |
+| `docs/ideology.md` | Ideology vs policy distinction |
+| `docs/ethnicity.md` | Ethnicity model and tree structure |
 | `docs/religion.md` | Religion taxonomy |
+| `data/README.md` | Data directory guide and file formats |
+
+---
+
+## Succession Model
+
+Transitions between polities are typed by what they share:
+
+| Metric | Description |
+|--------|-------------|
+| `same_ethnicity` | Ruling ethnicity matches |
+| `same_language` | Cultural language matches |
+| `same_religion` | State religion matches |
+| `same_state` | Both belong to same state grouping |
+| `territorial_direction` | expansion / contraction / stable |
+| `strength` | Computed continuity score (0–20) |
+| `temporal_gap_years` | Gap between end of predecessor and start of successor |
+
+Succession edges are stored in `data/successions/all.json` with shared territory lists.
 
 ---
 
 ## Roadmap
 
-- **Phase 1 (in progress):** Data construction — Classical, Medieval, Early Modern eras globally
-- **Phase 2:** Validation engine — compute succession continuity scores (`territory_overlap × ethnicity_match × ideology_distance`)
-- **Phase 3:** Map visualization — add `geo` polygon data to territory files, render as world map
-- **Phase 4:** Path queries — "find all valid succession paths from Regime A to Regime Z"
+See `docs/TODO.md` for the full 9-phase plan. Summary:
+
+- **Phase 1** ✅ Schema & foundation (ERD, DuckDB schema, auto-linking)
+- **Phase 2** Migrate existing JSON → DuckDB tables
+- **Phase 3** Extract ~2,500 regimes from history panels
+- **Phase 4** Derive dynasty-level successions from panel stack order
+- **Phase 5** Populate history panel tables (cells, columns)
+- **Phase 6** Enrich polity data (fill stubs with ethnicity, language, religion)
+- **Phase 7** Frontend RDBMS integration (API endpoints, dynamic panels)
+- **Phase 8** Advanced features (interactive map, timeline, global queries)
+- **Phase 9** Geographic expansion (Americas, sub-Saharan Africa, Oceania)

@@ -1,0 +1,15 @@
+{
+  "id": "zapotec",
+  "name": "Zapotec (Monte Albán)",
+  "ruling_ethnicity": "mesoamerican_cluster",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "city_state"
+  },
+  "territories": [
+    "mesoamerica"
+  ],
+  "start": -500,
+  "end": 900,
+  "note": "Oaxacan civilization"
+}

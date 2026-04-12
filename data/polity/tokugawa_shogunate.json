@@ -2,9 +2,9 @@
   "id": "tokugawa_shogunate",
   "name": "Tokugawa Shogunate (Edo Period)",
   "ruling_ethnicity": "yamato",
-  "cultural_language": "early_modern_japanese",
+  "cultural_language": "middle_japanese",
   "ideology": {
-    "religion": "neo_confucianism_shinto",
+    "religion": "neo_confucian_shinto",
     "government": "shogunate"
   },
   "territories": [

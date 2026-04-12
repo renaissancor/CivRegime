@@ -2,9 +2,9 @@
   "id": "xiongnu",
   "name": "Xiongnu Confederation",
   "ruling_ethnicity": "turkic_cluster",
-  "cultural_language": "old_turkic",
+  "cultural_language": "old_turkic_orkhon_runic",
   "ideology": {
-    "religion": "tengriism",
+    "religion": "tengrism",
     "government": "khaganate"
   },
   "territories": [

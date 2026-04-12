@@ -18,11 +18,14 @@ function rootColor(nodeId, allLanguages) {
 }
 
 async function init() {
-  const db = await fetch('/api/db').then(r => r.json());
+  const [languages, polities] = await Promise.all([
+    fetch('/api/taxonomy/language').then(r => r.json()),
+    fetch('/api/polity').then(r => r.json()),
+  ]);
 
   // Map language id → regimes that use it as cultural_language
   const regimesByLang = new Map();
-  for (const r of db.regimes) {
+  for (const r of polities) {
     const lang = r.cultural_language;
     if (lang) {
       if (!regimesByLang.has(lang)) regimesByLang.set(lang, []);
@@ -31,7 +34,7 @@ async function init() {
   }
 
   // Root families
-  const roots = db.languages.filter(l => l.parent == null);
+  const roots = languages.filter(l => l.parent == null);
   roots.forEach((l, i) => { familyColor[l.id] = FAMILY_PALETTE[i % FAMILY_PALETTE.length]; });
 
   // Sidebar
@@ -39,7 +42,7 @@ async function init() {
   const allBtn = document.createElement('button');
   allBtn.className = 'family-btn active';
   allBtn.dataset.family = 'all';
-  allBtn.textContent = 'All Languages';
+  allBtn.textContent = 'All';
   list.appendChild(allBtn);
   for (const root of roots) {
     const btn = document.createElement('button');
@@ -55,10 +58,10 @@ async function init() {
     if (!btn) return;
     list.querySelectorAll('.family-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    renderTree(btn.dataset.family, db.languages, regimesByLang);
+    renderTree(btn.dataset.family, languages, regimesByLang);
   });
 
-  renderTree('all', db.languages, regimesByLang);
+  renderTree('all', languages, regimesByLang);
 }
 
 function renderTree(familyId, allLanguages, regimesByLang) {

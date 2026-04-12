@@ -2,9 +2,9 @@
   "id": "khanate_of_kokand",
   "name": "Khanate of Kokand",
   "ruling_ethnicity": "turkic_cluster",
-  "cultural_language": "chagatai_turkic",
+  "cultural_language": "chagatai",
   "ideology": {
-    "religion": "sunni_islam",
+    "religion": "sunni",
     "government": "khanate"
   },
   "territories": [

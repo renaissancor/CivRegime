@@ -1,0 +1,15 @@
+{
+  "id": "bolivia",
+  "name": "Republic of Bolivia",
+  "ruling_ethnicity": "mestizo",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "andes"
+  ],
+  "start": 1825,
+  "end": null
+}

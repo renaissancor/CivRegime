@@ -2,7 +2,7 @@
   "id": "tibetan_empire",
   "name": "Tibetan Empire",
   "ruling_ethnicity": "tibetan",
-  "cultural_language": "old_tibetan",
+  "cultural_language": "classical_tibetan",
   "ideology": {
     "religion": "buddhism",
     "government": "imperial_monarchy"

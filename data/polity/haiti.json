@@ -1,0 +1,16 @@
+{
+  "id": "haiti",
+  "name": "Republic of Haiti",
+  "ruling_ethnicity": "haitian_creole",
+  "cultural_language": "french",
+  "ideology": {
+    "religion": "catholic",
+    "government": "republic"
+  },
+  "territories": [
+    "caribbean"
+  ],
+  "start": 1804,
+  "end": null,
+  "note": "First Black republic"
+}

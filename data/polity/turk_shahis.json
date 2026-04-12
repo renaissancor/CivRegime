@@ -1,7 +1,7 @@
 {
   "id": "turk_shahis",
   "name": "Türk Shahis",
-  "ruling_ethnicity": "turkic",
+  "ruling_ethnicity": "turkic_cluster",
   "ideology": {
     "religion": "buddhism",
     "government": "monarchy"

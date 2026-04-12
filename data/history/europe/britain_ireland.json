@@ -1,0 +1,737 @@
+{
+  "id": "britain_ireland",
+  "title": "History of the United Kingdom & Ireland",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "ireland",
+      "name": "Ireland (Éire · Hibernia)",
+      "slots": 1
+    },
+    {
+      "id": "scotland",
+      "name": "Scotland (Alba · Caledonia)",
+      "slots": 1
+    },
+    {
+      "id": "wales",
+      "name": "Wales (Cymru · Cambria)",
+      "slots": 1
+    },
+    {
+      "id": "england",
+      "name": "England (Anglia · Lloegr)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Ancient",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Hibernia",
+              "note": "pre-Roman",
+              "regime": "hibernia"
+            },
+            {
+              "label": "Gaelic peoples (Goídil)",
+              "note": "c.500 BCE–",
+              "regime": "gaelic_peoples"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Caledonia",
+              "note": "pre-Roman",
+              "regime": "caledonia"
+            },
+            {
+              "label": "Picts (Cruithne)",
+              "note": "c.300 BCE–",
+              "regime": "picts"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Britons (Brythonic Celts)",
+              "note": "c.800 BCE–",
+              "regime": "britons"
+            }
+          ],
+          "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "label": "Outside Roman control",
+          "note": "Hibernia unconquered",
+          "span": 1
+        },
+        {
+          "label": "Outside Roman control",
+          "note": "Caledonia — Hadrian's Wall frontier",
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "roman_empire",
+              "label": "Roman Britain (Britannia)",
+              "note": "43–410 CE; Roman withdrawal c.410"
+            }
+          ],
+          "span": 2
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Post-Roman",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Ard Rí (High Kings of Ireland)",
+              "note": "5th c.–",
+              "regime": "ard_ri"
+            },
+            {
+              "label": "Gaelic petty kingdoms (Tuatha)",
+              "note": "",
+              "regime": "gaelic_petty_kingdoms"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Pictish kingdoms",
+              "note": "c.300–843",
+              "regime": "pictish_kingdoms"
+            },
+            {
+              "label": "Dál Riata (Gaelic colony from Ireland)",
+              "note": "c.500–843",
+              "regime": "dal_riata"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Gwynedd",
+              "note": "c.450–1283",
+              "regime": "kingdom_of_gwynedd"
+            },
+            {
+              "label": "Kingdom of Dyfed",
+              "note": "c.410–920",
+              "regime": "kingdom_of_dyfed"
+            },
+            {
+              "label": "Other Welsh kingdoms (Powys · Morgannwg · Deheubarth)",
+              "note": "",
+              "regime": "other_welsh_kingdoms"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Britons vs Anglo-Saxons",
+              "note": "c.450–600; Angles · Saxons · Jutes migration",
+              "regime": "britons_vs_anglo_saxons"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Gaelic local kingdoms",
+              "note": "",
+              "regime": "gaelic_local_kingdoms"
+            },
+            {
+              "label": "Norse-Gaels (Dublin · Waterford · Limerick)",
+              "note": "9th–11th c.",
+              "regime": "norse_gaels"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Pictland",
+              "note": "–843",
+              "regime": "pictland"
+            },
+            {
+              "label": "Kingdom of Alba",
+              "note": "843–; Kenneth MacAlpin unifies Picts + Scots",
+              "regime": "kingdom_of_alba"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Welsh kingdoms (resisting Anglo-Saxon expansion)",
+              "note": ""
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Heptarchy — Anglo-Saxon kingdoms",
+              "note": "c.500–927",
+              "regime": "heptarchy"
+            },
+            {
+              "label": "Northumbria · Mercia · East Anglia",
+              "note": "(Anglian)",
+              "regime": "northumbria_mercia_east_anglia"
+            },
+            {
+              "label": "Wessex · Essex · Sussex · Kent",
+              "note": "(Saxon / Jutish)",
+              "regime": "wessex_essex_sussex_kent"
+            },
+            {
+              "label": "Danelaw (Viking-controlled eastern England)",
+              "note": "865–954",
+              "regime": "danelaw"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Medieval",
+        "rowspan": 4
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Gaelic Ireland (provincial kingdoms)",
+              "note": "",
+              "regime": "gaelic_ireland"
+            },
+            {
+              "label": "Kingdom of Dublin (Norse-Gaelic)",
+              "note": "853–1170",
+              "regime": "kingdom_of_dublin"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_scotland",
+              "label": "Kingdom of Scotland",
+              "note": "843–"
+            },
+            {
+              "label": "House of Alpin → Dunkeld → Canmore",
+              "note": ""
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Deheubarth (Hywel Dda — Welsh law codified)",
+              "note": "920–1197",
+              "regime": "deheubarth"
+            },
+            {
+              "label": "Gwynedd",
+              "note": "c.450–1283; Gruffudd ap Llywelyn briefly unifies Wales 1055–1063",
+              "regime": "gwynedd"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_england",
+              "label": "Kingdom of England — Wessex dynasty",
+              "note": "927–1013"
+            },
+            {
+              "label": "North Sea Empire (Cnut — England + Denmark + Norway)",
+              "note": "1016–1035",
+              "regime": "north_sea_empire"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Lordship of Ireland (under English Crown)",
+              "note": "1171–1541; Norman-English invasion 1169",
+              "regime": "lordship_of_ireland"
+            },
+            {
+              "label": "Gaelic resurgence outside the Pale",
+              "note": "13th–15th c.",
+              "regime": "gaelic_resurgence_outside_the_pale"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_scotland",
+              "label": "Kingdom of Scotland",
+              "note": ""
+            },
+            {
+              "label": "Wars of Scottish Independence",
+              "note": "1296–1328; Wallace · Bruce"
+            },
+            {
+              "label": "House of Bruce → Stewart/Stuart",
+              "note": "1306–"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Principality of Wales (Llywelyn the Great · Llywelyn the Last)",
+              "note": "1216–1283",
+              "regime": "principality_of_wales"
+            },
+            {
+              "label": "Wales under English Crown",
+              "note": "1284–; conquered by Edward I in 1283",
+              "regime": "wales_under_english_crown"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_england",
+              "label": "Kingdom of England — Norman dynasty",
+              "note": "1066–1154"
+            },
+            {
+              "regime": "kingdom_of_england",
+              "label": "Angevin dynasty (Angevin Empire)",
+              "note": "1154–1216; Magna Carta 1215"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "label": "Lordship of Ireland",
+          "note": "Pale shrinking; Gaelic lords dominant outside",
+          "span": 1,
+          "regime": "lordship_of_ireland"
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_scotland",
+              "label": "Kingdom of Scotland — Stuart dynasty",
+              "note": "1371–1603"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Wales under English law (Laws in Wales Acts)",
+              "note": "1535–1542",
+              "regime": "wales_under_english_law"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_england",
+              "label": "Kingdom of England — Plantagenet dynasty",
+              "note": "1216–1399"
+            },
+            {
+              "label": "Hundred Years' War (England vs France)",
+              "note": "1337–1453",
+              "regime": "hundred_years_war"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Ireland",
+              "note": "1541–1800; Henry VIII — Crown of Ireland Act; Tudor plantation begins 1550s",
+              "regime": "kingdom_of_ireland"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "regime": "kingdom_of_scotland",
+          "label": "Kingdom of Scotland — Stuart",
+          "note": "–1603",
+          "span": 1
+        },
+        {
+          "label": "Wales integrated into England",
+          "note": "Laws in Wales Acts 1535–1542",
+          "span": 1,
+          "regime": "wales_integrated_into_england"
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_england",
+              "label": "Kingdom of England — Lancaster dynasty",
+              "note": "1399–1461"
+            },
+            {
+              "regime": "kingdom_of_england",
+              "label": "Kingdom of England — York dynasty (Wars of the Roses)",
+              "note": "1461–1485"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Early Modern",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "label": "Kingdom of Ireland (Tudor rule — plantations)",
+          "note": "1541–",
+          "span": 1,
+          "regime": "kingdom_of_ireland"
+        },
+        {
+          "regime": "kingdom_of_scotland",
+          "label": "Kingdom of Scotland",
+          "note": "(personal union with England from 1603)",
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_england",
+              "label": "Kingdom of England — Tudor dynasty",
+              "note": "1485–1603"
+            },
+            {
+              "label": "Elizabethan era",
+              "note": "1558–1603; English Reformation 1534; first colonial ventures"
+            }
+          ],
+          "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "label": "Kingdom of Ireland",
+          "note": "Ulster Plantation (1606–); Confederate Ireland (1642–1652)",
+          "span": 1,
+          "regime": "kingdom_of_ireland"
+        },
+        {
+          "regime": "kingdom_of_scotland",
+          "label": "Kingdom of Scotland — Stuart dynasty",
+          "note": "",
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_england",
+              "label": "Kingdom of England — Stuart dynasty",
+              "note": "1603–1649"
+            },
+            {
+              "label": "English Civil War",
+              "note": "1642–1651"
+            },
+            {
+              "label": "Commonwealth of England",
+              "note": "1649–1653",
+              "regime": "commonwealth_of_england"
+            },
+            {
+              "label": "Commonwealth of England, Scotland & Ireland (Cromwell)",
+              "note": "1653–1659",
+              "regime": "commonwealth_of_england_scotland_ireland"
+            }
+          ],
+          "span": 2
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Union Era",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "label": "Kingdom of Ireland",
+          "note": "Penal Laws against Catholics",
+          "span": 1,
+          "regime": "kingdom_of_ireland"
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_england",
+              "label": "Kingdom of England — Stuart Restoration",
+              "note": "1660–1688; Glorious Revolution 1688; Bill of Rights 1689"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "label": "Kingdom of Ireland (separate parliament)",
+          "note": "Grattan's Parliament 1782–1800",
+          "span": 1,
+          "regime": "kingdom_of_ireland"
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_great_britain",
+              "label": "Kingdom of Great Britain (Acts of Union — England + Scotland)",
+              "note": "1707–1801"
+            },
+            {
+              "label": "Hanoverian dynasty — Georgian era",
+              "note": "1714–1837"
+            },
+            {
+              "label": "First British Empire (American colonies · India)",
+              "note": "–1783",
+              "regime": "first_british_empire"
+            },
+            {
+              "label": "Second British Empire (India · Africa · Pacific)",
+              "note": "1783–",
+              "regime": "second_british_empire"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Imperial Era",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "united_kingdom",
+              "label": "United Kingdom of Great Britain & Ireland",
+              "note": "1801–1922; Act of Union 1800/1801"
+            },
+            {
+              "label": "Irish Home Rule movement (Parnell · Redmond)",
+              "note": "1870s–1914",
+              "regime": "irish_home_rule_movement"
+            },
+            {
+              "label": "Victorian era — height of British Empire",
+              "note": "1837–1901"
+            },
+            {
+              "label": "Edwardian era",
+              "note": "1901–1910"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Irish War of Independence",
+              "note": "1919–1921; Easter Rising 1916"
+            },
+            {
+              "label": "Irish Free State (Dominion)",
+              "note": "1922–1937",
+              "regime": "irish_free_state"
+            },
+            {
+              "label": "Republic of Ireland (Éire)",
+              "note": "1937–",
+              "regime": "republic_of_ireland"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Northern Ireland (UK — devolved government)",
+              "note": "1921–",
+              "regime": "northern_ireland"
+            },
+            {
+              "label": "The Troubles",
+              "note": "1968–1998; Good Friday Agreement 1998",
+              "regime": "the_troubles"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "united_kingdom",
+              "label": "United Kingdom of Great Britain & Northern Ireland",
+              "note": "1922–"
+            },
+            {
+              "label": "Windsor dynasty",
+              "note": "1917–; renamed from Saxe-Coburg-Gotha",
+              "regime": "windsor_dynasty"
+            },
+            {
+              "label": "World War I · World War II",
+              "note": "1914–1918 / 1939–1945"
+            },
+            {
+              "label": "Decolonization (India 1947 · Africa 1960s)",
+              "note": "",
+              "regime": "decolonization"
+            },
+            {
+              "label": "Scottish devolution (Scottish Parliament restored)",
+              "note": "1999"
+            },
+            {
+              "label": "Welsh devolution (Senedd Cymru)",
+              "note": "1999",
+              "regime": "welsh_devolution"
+            }
+          ],
+          "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "label": "Republic of Ireland",
+          "note": "EU member (1973–); Celtic Tiger (1990s–2000s)",
+          "span": 1,
+          "regime": "republic_of_ireland"
+        },
+        {
+          "stack": [
+            {
+              "regime": "united_kingdom",
+              "label": "United Kingdom",
+              "note": "Brexit (EU withdrawal) 2016/2020"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Heptarchy (c.500–927): the seven major Anglo-Saxon kingdoms — Northumbria, Mercia, East Anglia, Wessex, Essex, Sussex, and Kent — competed for dominance (bretwalda); Wessex under Alfred the Great (871–899) resisted Viking invasion and his grandson Æthelstan unified England by conquering the last Viking stronghold of York in 927",
+    "Danelaw (865–954): following the Great Heathen Army's invasion, eastern and northern England came under Scandinavian law and settlement; the cultural impact was profound — English absorbed thousands of Norse words (law, sky, they, window) and the Danelaw's administrative divisions (ridings, wapentakes) persisted for centuries",
+    "Norman Conquest (1066): William the Conqueror's victory at Hastings replaced the Anglo-Saxon aristocracy wholesale; the Domesday Book (1086) documented England's resources; Norman French became the language of court and law, creating the dual vocabulary characteristic of modern English (beef/cow, pork/pig, court/yard)",
+    "Angevin Empire (1154–1216): at its height under Henry II, the Plantagenet domains stretched from Scotland to the Pyrenees, including England, Normandy, Anjou, Aquitaine, and Brittany; this was a feudal confederation rather than a centralized state, and most of the French territories were lost under King John by 1214",
+    "Kingdom of Ireland (1541–1800): Henry VIII declared himself King of Ireland, beginning centuries of English/British rule; successive plantations (particularly Ulster, 1606) displaced the native Catholic population; the Penal Laws (1695–1829) systematically excluded Catholics from political and economic life",
+    "Acts of Union (1707 & 1800): the 1707 Act merged the English and Scottish parliaments to create Great Britain, driven partly by Scotland's financial crisis after the Darien Scheme; the 1800 Act incorporated Ireland after the 1798 rebellion, creating the United Kingdom of Great Britain and Ireland",
+    "Great Famine (1845–1852): the potato blight devastated Ireland, killing approximately 1 million and forcing another 1 million to emigrate; Ireland's population fell from 8.2 million (1841) to 6.6 million (1851) and continued declining to 4.4 million by 1911; the famine radicalized Irish nationalism and fueled the diaspora"
+  ]
+}

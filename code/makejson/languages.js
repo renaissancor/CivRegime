@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const TREE_FILE = path.join(__dirname, '../../docs/tree/language.md');
-const DATA_DIR = path.join(__dirname, '../../data/languages');
+const DATA_DIR = path.join(__dirname, '../../data/language');
 
 function generateLanguageFiles() {
   const markdown = fs.readFileSync(TREE_FILE, 'utf-8');

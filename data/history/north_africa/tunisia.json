@@ -2,113 +2,268 @@
   "id": "tunisia",
   "title": "History of Tunisia (Ifriqiya)",
   "columns": [
-    { "id": "era",      "name": "Era",              "slots": 1, "type": "era" },
-    { "id": "tunis",    "name": "Tunis / North",    "slots": 1 },
-    { "id": "kairouan", "name": "Kairouan / South", "slots": 1 }
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "tunis",
+      "name": "Tunis / North",
+      "slots": 1
+    },
+    {
+      "id": "kairouan",
+      "name": "Kairouan / South",
+      "slots": 1
+    }
   ],
   "rows": [
     {
-      "era": { "label": "Ancient", "rowspan": 2 },
+      "era": {
+        "label": "Ancient",
+        "rowspan": 2
+      },
       "cells": [
-        { "stack": [
-            { "label": "Berber / Numidian peoples",                           "note": "prehistoric" },
-            { "label": "Phoenician Utica",                                     "note": "c.1100 BCE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Berber / Numidian peoples",
+              "note": "prehistoric",
+              "regime": "numidia"
+            },
+            {
+              "label": "Phoenician Utica",
+              "note": "c.1100 BCE",
+              "regime": "phoenician_utica"
+            }
+          ],
+          "span": 1
         },
-        { "label": "Numidian hinterland",                                      "span": 1 }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Carthage (Punic civilization)",                        "note": "c.814–146 BCE" },
-            { "label": "Roman Province of Africa (Proconsularis)",             "note": "146 BCE–429 CE" },
-            { "label": "Vandal Kingdom",                                       "note": "429–534" },
-            { "regime": "byzantine_empire", "label": "Byzantine Exarchate of Africa", "note": "534–647" }
-          ], "span": 2
-        }
-      ]
-    },
-    {
-      "era": { "label": "Medieval", "rowspan": 3 },
-      "cells": [
-        { "stack": [
-            { "regime": "rashidun_caliphate", "label": "Rashidun Caliphate",  "note": "647–661" },
-            { "regime": "umayyad_caliphate",  "label": "Umayyad Caliphate",   "note": "661–750" }
-          ], "span": 2
+        {
+          "label": "Numidian hinterland",
+          "span": 1,
+          "regime": "numidia"
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Fihrid governors (Abbasid)",                           "note": "750–771" },
-            { "label": "Muhallabid governors",                                 "note": "771–793" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Carthage (Punic civilization)",
+              "note": "c.814–146 BCE",
+              "regime": "carthage"
+            },
+            {
+              "label": "Roman Province of Africa (Proconsularis)",
+              "note": "146 BCE–429 CE",
+              "regime": "roman_province_of_africa"
+            },
+            {
+              "label": "Vandal Kingdom",
+              "note": "429–534",
+              "regime": "vandal_kingdom"
+            },
+            {
+              "regime": "byzantine_empire",
+              "label": "Byzantine Exarchate of Africa",
+              "note": "534–647"
+            }
+          ],
+          "span": 2
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Medieval",
+        "rowspan": 3
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "rashidun_caliphate",
+              "label": "Rashidun Caliphate",
+              "note": "647–661"
+            },
+            {
+              "regime": "umayyad_caliphate",
+              "label": "Umayyad Caliphate",
+              "note": "661–750"
+            }
+          ],
+          "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Fihrid governors (Abbasid)",
+              "note": "750–771",
+              "regime": "fihrid_governors"
+            },
+            {
+              "label": "Muhallabid governors",
+              "note": "771–793",
+              "regime": "muhallabid_governors"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Aghlabid dynasty (capital: Kairouan)",                 "note": "800–909" },
-            { "regime": "fatimid_caliphate", "label": "Fatimid Caliphate (al-Mahdiyya)", "note": "909–969" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Aghlabid dynasty (capital: Kairouan)",
+              "note": "800–909",
+              "regime": "aghlabid_dynasty"
+            },
+            {
+              "regime": "fatimid_caliphate",
+              "label": "Fatimid Caliphate (al-Mahdiyya)",
+              "note": "909–969"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Zirid dynasty",                                        "note": "969–1148" },
-            { "label": "Norman Kingdom (raids · Mahdia 1148–1160)",            "note": "1134–1160" },
-            { "label": "Almohad Caliphate",                                    "note": "1159–1229" },
-            { "label": "Banu Ghaniya (Almoravid rebels)",                     "note": "1184–1228" },
-            { "label": "Hafsid dynasty",                                       "note": "1229–1574" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Zirid dynasty",
+              "note": "969–1148; Norman Kingdom (raids · Mahdia 1148–1160) (1134–1160)",
+              "regime": "zirid_dynasty"
+            },
+            {
+              "label": "Almohad Caliphate",
+              "note": "1159–1229",
+              "regime": "almohad_caliphate"
+            },
+            {
+              "label": "Banu Ghaniya (Almoravid rebels)",
+              "note": "1184–1228",
+              "regime": "banu_ghaniya"
+            },
+            {
+              "label": "Hafsid dynasty",
+              "note": "1229–1574",
+              "regime": "hafsid_dynasty"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
-      "era": { "label": "Early Modern", "rowspan": 1 },
+      "era": {
+        "label": "Early Modern",
+        "rowspan": 1
+      },
       "cells": [
-        { "stack": [
-            { "regime": "ottoman_empire", "label": "Ottoman Empire (Eyalet of Tunis)", "note": "1574–1612" },
-            { "label": "Muradid Bey dynasty",                                  "note": "1613–1705" },
-            { "label": "Husainid Bey dynasty",                                 "note": "1705–1957" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "regime": "ottoman_empire",
+              "label": "Ottoman Empire (Eyalet of Tunis)",
+              "note": "1574–1612"
+            },
+            {
+              "label": "Muradid Bey dynasty",
+              "note": "1613–1705",
+              "regime": "muradid_bey_dynasty"
+            },
+            {
+              "label": "Husainid Bey dynasty",
+              "note": "1705–1957",
+              "regime": "husainid_bey_dynasty"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
-      "era": { "label": "Modern", "rowspan": 1 },
+      "era": {
+        "label": "Modern",
+        "rowspan": 1
+      },
       "cells": [
-        { "stack": [
-            { "label": "French Protectorate of Tunisia",                       "note": "1881–1942" },
-            { "label": "Axis occupation (Vichy → German)",                     "note": "1942–1943" },
-            { "label": "French Protectorate restored",                         "note": "1943–1956" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "French Protectorate of Tunisia",
+              "note": "1881–1942"
+            },
+            {
+              "label": "Axis occupation (Vichy → German)",
+              "note": "1942–1943"
+            },
+            {
+              "label": "French Protectorate restored",
+              "note": "1943–1956"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
-      "era": { "label": "Contemporary", "rowspan": 2 },
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 2
+      },
       "cells": [
-        { "stack": [
-            { "label": "Kingdom of Tunisia",                                   "note": "1956–1957" },
-            { "label": "First Republic — Bourguiba",                           "note": "1957–1987" },
-            { "label": "Ben Ali regime",                                       "note": "1987–2011" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Tunisia",
+              "note": "1956–1957",
+              "regime": "kingdom_of_tunisia"
+            },
+            {
+              "label": "First Republic — Bourguiba",
+              "note": "1957–1987",
+              "regime": "first_republic"
+            },
+            {
+              "label": "Ben Ali regime",
+              "note": "1987–2011",
+              "regime": "ben_ali_regime"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Tunisian Revolution",                                  "note": "2011" },
-            { "label": "Second Republic (NCA · Essebsi)",                      "note": "2011–2019" },
-            { "label": "Kais Saied — new constitution",                        "note": "2019–" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Second Republic (NCA · Essebsi)",
+              "note": "2011–2019; Tunisian Revolution (2011)",
+              "regime": "second_republic"
+            },
+            {
+              "label": "Kais Saied — new constitution",
+              "note": "2019–",
+              "regime": "kais_saied"
+            }
+          ],
+          "span": 2
         }
       ]
     }

@@ -1,0 +1,347 @@
+{
+  "id": "myanmar",
+  "title": "History of Myanmar (Burma)",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "upper",
+      "name": "Upper Burma (Ava · Mandalay)",
+      "slots": 1
+    },
+    {
+      "id": "lower",
+      "name": "Lower Burma (Pegu · Rangoon)",
+      "slots": 1
+    },
+    {
+      "id": "arakan",
+      "name": "Arakan (Rakhine · Mrauk U)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Ancient",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Pyu city-states (Beikthano · Halin · Sri Ksetra)",
+              "note": "c.200 BCE–1050 CE",
+              "regime": "pyu_city_states"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Mon kingdoms (Suvarnabhumi · Thaton)",
+              "note": "c.300 BCE–",
+              "regime": "mon_kingdoms"
+            },
+            {
+              "label": "Dvaravati influence",
+              "note": ""
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Dhanyawadi · Vesali (early Arakanese kingdoms)",
+              "note": "c.4th–11th c.",
+              "regime": "dhanyawadi_vesali"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Bagan",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Pagan Kingdom (Bagan dynasty — first unified Burma)",
+              "note": "1044–1297",
+              "regime": "pagan_kingdom"
+            },
+            {
+              "label": "Theravada Buddhism adopted as state religion",
+              "note": "",
+              "regime": "theravada_buddhism_adopted_as_state_religion"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Arakan (under Bagan influence, then independent)",
+              "note": ""
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Fragmentation",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Myinsaing kingdom",
+              "note": "1297–1313",
+              "regime": "myinsaing_kingdom"
+            },
+            {
+              "label": "Sagaing kingdom · Pinya kingdom",
+              "note": "1315–1364",
+              "regime": "sagaing_kingdom"
+            },
+            {
+              "label": "Ava kingdom (Inwa — Shan-Burman)",
+              "note": "1364–1555",
+              "regime": "ava_kingdom"
+            },
+            {
+              "label": "Shan states (Mong Mao · Hsenwi · Kengtung etc.)",
+              "note": "13th–16th c.",
+              "regime": "shan_states"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Hanthawaddy kingdom (Mon — Pegu/Bago)",
+              "note": "1287–1539",
+              "regime": "hanthawaddy_kingdom"
+            },
+            {
+              "label": "Yuan dynasty — Mien Province (brief Mongol intervention)",
+              "note": "1287–",
+              "regime": "yuan_dynasty"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Arakan kingdom (Laungkyet dynasty)",
+              "note": "c.1237–1430",
+              "regime": "arakan_kingdom"
+            },
+            {
+              "label": "Mrauk U kingdom (Arakanese golden age)",
+              "note": "1430–1785"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Toungoo",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Toungoo dynasty (reunifies Burma — Tabinshwehti · Bayinnaung)",
+              "note": "1510–1599",
+              "regime": "toungoo_dynasty"
+            },
+            {
+              "label": "Restored Toungoo dynasty (Nyaungyan)",
+              "note": "1599–1752"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Mrauk U kingdom (Arakan — independent)",
+              "note": "1430–1785",
+              "regime": "mrauk_u_kingdom"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Konbaung",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Konbaung dynasty (Alaungpaya — last Burmese dynasty)",
+              "note": "1752–1885",
+              "regime": "konbaung_dynasty"
+            },
+            {
+              "label": "Conquers Arakan (1785) · Manipur · Assam",
+              "note": "",
+              "regime": "conquers_arakan"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Arakan conquered by Konbaung Burma",
+              "note": "1785",
+              "regime": "arakan_conquered_by_konbaung_burma"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "British Colonial",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Anglo-Burmese Wars (1824 · 1852 · 1885)",
+              "note": ""
+            },
+            {
+              "label": "Upper Burma (annexed — British India)",
+              "note": "1885–1937"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Lower Burma (British — annexed after 1st & 2nd wars)",
+              "note": "1824/1852–"
+            },
+            {
+              "label": "Rangoon becomes colonial capital",
+              "note": "",
+              "regime": "rangoon_becomes_colonial_capital"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Arakan (British — annexed after 1st Anglo-Burmese War)",
+              "note": "1824–"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "British Burma (province of British India)",
+              "note": "1886–1937",
+              "regime": "british_burma"
+            },
+            {
+              "label": "British Burma (separate colony)",
+              "note": "1937–1942",
+              "regime": "british_burma"
+            },
+            {
+              "label": "Japanese occupation — State of Burma (Ba Maw)",
+              "note": "1942–1945"
+            },
+            {
+              "label": "British Burma (restored)",
+              "note": "1945–1948"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Union of Burma (independence — Aung San)",
+              "note": "1948–1962"
+            },
+            {
+              "label": "Socialist Republic of the Union of Burma (Ne Win — military)",
+              "note": "1962–1988",
+              "regime": "socialist_republic_of_the_union_of_burma"
+            },
+            {
+              "label": "Union of Myanmar (SLORC/SPDC — military junta)",
+              "note": "1988–2011",
+              "regime": "union_of_myanmar"
+            },
+            {
+              "label": "Republic of the Union of Myanmar (semi-civilian)",
+              "note": "2011–2021",
+              "regime": "republic_of_the_union_of_myanmar"
+            },
+            {
+              "label": "Military coup · Civil war · National Unity Government (NUG)",
+              "note": "2021–"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Pyu city-states (c.200 BCE–1050 CE): the earliest urban civilization in Burma; the Pyu were Tibeto-Burman speakers who practiced Theravada Buddhism, Hinduism, and indigenous religions; their cities (Sri Ksetra, Halin, Beikthano) are UNESCO World Heritage sites; the Nanzhao raids of 832 devastated Halin and weakened Pyu power",
+    "Pagan Kingdom (1044–1297): Anawrahta unified Burma and adopted Theravada Buddhism from the Mon, building thousands of temples at Bagan; at its peak it was one of the largest cities in the world; Mongol pressure (not a full conquest) contributed to its fragmentation after 1287",
+    "Mrauk U kingdom (1430–1785): the Arakanese golden age; Mrauk U was a cosmopolitan port kingdom trading with the Portuguese, Mughals, and Dutch; it issued trilingual coins (Arakanese, Persian, Portuguese); its conquest by the Konbaung dynasty in 1785 triggered the Rohingya diaspora's earliest modern phase",
+    "Konbaung dynasty (1752–1885): founded by Alaungpaya, it was the last Burmese dynasty; Bayinnaung-like in ambition, it conquered Arakan, Manipur, and Assam, provoking British India; the three Anglo-Burmese Wars (1824, 1852, 1885) progressively dismembered the kingdom until total annexation",
+    "Shan states: the Shan (Tai) peoples established numerous principalities (mong) across the highlands of eastern Burma from the 13th century; they were never fully integrated into lowland Burmese kingdoms; the Panglong Agreement (1947) promised autonomy but was never honored, fueling decades of ethnic insurgency",
+    "Japanese occupation (1942–1945): Japan conquered Burma in early 1942, establishing the nominally independent State of Burma under Ba Maw; Aung San initially collaborated but switched sides in 1945; the Burma Road (connecting China to Allied supply lines) made Burma a critical WWII theater",
+    "2021 coup and civil war: the Tatmadaw (military) overthrew Aung San Suu Kyi's NLD government on 1 February 2021; mass protests were met with lethal force; the National Unity Government (NUG) and People's Defence Forces (PDF) launched armed resistance; the ongoing civil war has displaced millions and fragmented the country along ethnic lines"
+  ]
+}

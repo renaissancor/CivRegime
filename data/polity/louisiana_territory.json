@@ -1,0 +1,17 @@
+{
+  "id": "louisiana_territory",
+  "name": "Louisiana Territory (French)",
+  "ruling_ethnicity": "french",
+  "cultural_language": "french",
+  "ideology": {
+    "religion": "catholic",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "us_midwest",
+    "us_south"
+  ],
+  "start": 1682,
+  "end": 1803,
+  "note": "French then briefly Spanish territory"
+}

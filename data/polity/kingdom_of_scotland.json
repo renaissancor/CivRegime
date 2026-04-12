@@ -2,7 +2,7 @@
   "id": "kingdom_of_scotland",
   "name": "Kingdom of Scotland",
   "ruling_ethnicity": "scottish_gaelic",
-  "cultural_language": "scots_gaelic",
+  "cultural_language": "scottish_gaelic",
   "ideology": {
     "religion": "catholic",
     "government": "feudal_monarchy"

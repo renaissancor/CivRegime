@@ -1,0 +1,767 @@
+{
+  "id": "germany",
+  "title": "History of Germany (Deutsche Geschichte)",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "west",
+      "name": "Western Germany (Rhineland · Franconia)",
+      "slots": 1
+    },
+    {
+      "id": "south",
+      "name": "Southern / Central (Bavaria · Swabia · Saxony)",
+      "slots": 1
+    },
+    {
+      "id": "north",
+      "name": "Northern / Eastern (Lower Saxony · Brandenburg)",
+      "slots": 1
+    },
+    {
+      "id": "prussia",
+      "name": "Prussia (Preußen · East Prussia)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Ancient",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Celtic La Tène culture (Rhineland · southern Germany)",
+              "note": "c.450–50 BCE",
+              "regime": "celtic_la_tene_culture"
+            },
+            {
+              "regime": "roman_republic",
+              "label": "Roman Republic — Gallic Wars (Caesar)",
+              "note": "58–50 BCE"
+            },
+            {
+              "regime": "roman_empire",
+              "label": "Roman Empire — Germania Superior · Inferior",
+              "note": "12 BCE–"
+            },
+            {
+              "label": "Limes Germanicus (frontier wall)",
+              "note": "c.83–260 CE",
+              "regime": "limes_germanicus"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Germanic tribes: Suebi · Alemanni · Marcomanni",
+              "note": "",
+              "regime": "germanic_tribes_suebi"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Germanic tribes: Saxons · Angles · Jutes · Frisians",
+              "note": "",
+              "regime": "germanic_tribes_saxons"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Baltic peoples (Prussians — pre-Germanic)",
+              "note": "",
+              "regime": "baltic_peoples"
+            },
+            {
+              "label": "Goths · Vandals · Burgundians (originate in N. Germany/Scandinavia)",
+              "note": "",
+              "regime": "goths_vandals_burgundians"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "western_roman_empire",
+              "label": "Western Roman Empire (Rhineland)",
+              "note": "–476"
+            },
+            {
+              "label": "Frankish settlement (Ripuarian · Salian Franks)",
+              "note": "c.350–",
+              "regime": "frankish_settlement"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Hunnic invasions — Germanic displacement",
+              "note": "c.375–453",
+              "regime": "hunnic_invasions"
+            },
+            {
+              "label": "Alemanni · Bavarii settling south",
+              "note": "",
+              "regime": "alemanni_bavarii_settling_south"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Migration Period — Angles/Saxons to Britain",
+              "note": "c.400–600"
+            },
+            {
+              "label": "Saxons remain in northern Germany",
+              "note": "",
+              "regime": "saxons_remain_in_northern_germany"
+            },
+            {
+              "label": "Slavic settlement (Obotrites · Veleti · Sorbs — east of Elbe)",
+              "note": "c.600–",
+              "regime": "slavic_settlement"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Baltic Prussians (pagan tribal society)",
+              "note": "",
+              "regime": "baltic_prussians"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Frankish / Carolingian",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Frankish Kingdom — Merovingian then Carolingian",
+              "note": "481–843",
+              "regime": "carolingian_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "carolingian_empire",
+              "label": "Carolingian Empire (Charlemagne)",
+              "note": "800–843"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Saxon Wars (Charlemagne — conquest & forced Christianization)",
+              "note": "772–804"
+            },
+            {
+              "label": "Slavic tribes east of Elbe (Obotrites · Veleti · Sorbs)",
+              "note": "",
+              "regime": "slavic_tribes_east_of_elbe"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Baltic Prussians (outside Frankish reach)",
+              "note": "",
+              "regime": "baltic_prussians"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "East Francia / German Kingdom",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "East Francia (Louis the German)",
+              "note": "843–",
+              "regime": "east_francia"
+            },
+            {
+              "label": "Stem duchies: Franconia · Lotharingia (Lorraine)",
+              "note": "",
+              "regime": "stem_duchies_franconia"
+            },
+            {
+              "label": "German Kingdom (Regnum Teutonicorum)",
+              "note": "919–",
+              "regime": "german_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Stem duchies: Saxony · Bavaria · Swabia",
+              "note": "",
+              "regime": "stem_duchies_saxony"
+            },
+            {
+              "label": "Otto I — Holy Roman Emperor",
+              "note": "962; Battle of Lechfeld (955) stops Magyars",
+              "regime": "otto_i"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Duchy of Saxony (Ottonian heartland)",
+              "note": "",
+              "regime": "duchy_of_saxony"
+            },
+            {
+              "label": "Slavic Polabian tribes (Obotrites · Veleti) — independent",
+              "note": "",
+              "regime": "slavic_polabian_tribes"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Baltic Prussians (pagan, independent)",
+              "note": "",
+              "regime": "baltic_prussians"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "High Medieval HRE",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "holy_roman_empire",
+              "label": "Holy Roman Empire",
+              "note": "962–1806"
+            },
+            {
+              "label": "Ottonian dynasty (Saxony-based)",
+              "note": "962–1024",
+              "regime": "ottonian_dynasty"
+            },
+            {
+              "label": "Salian dynasty",
+              "note": "1024–1125; Investiture Controversy (Canossa)",
+              "regime": "salian_dynasty"
+            },
+            {
+              "label": "Hohenstaufen dynasty (Frederick Barbarossa · Frederick II)",
+              "note": "1138–1254",
+              "regime": "hohenstaufen_dynasty"
+            }
+          ],
+          "span": 3
+        },
+        {
+          "stack": [
+            {
+              "label": "Baltic Prussians (pagan, resisting Christianization)",
+              "note": ""
+            },
+            {
+              "regime": "teutonic_order",
+              "label": "Teutonic Order — crusade against Prussians",
+              "note": "1226–"
+            },
+            {
+              "label": "Prussian Crusade (Baltic pagans conquered · Germanized)",
+              "note": "1230–1283"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Rhineland: Archbishoprics of Cologne · Mainz · Trier (prince-electors)",
+              "note": "",
+              "regime": "rhineland_archbishoprics_of_cologne"
+            },
+            {
+              "label": "Free Imperial Cities (Frankfurt · Nuremberg · Augsburg)",
+              "note": "",
+              "regime": "free_imperial_cities"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Welf vs Hohenstaufen rivalry",
+              "note": "12th–13th c.",
+              "regime": "welf_vs_hohenstaufen_rivalry"
+            },
+            {
+              "label": "Great Interregnum",
+              "note": "1254–1273"
+            },
+            {
+              "label": "Wittelsbach Bavaria · Habsburg Austria (growing)",
+              "note": "",
+              "regime": "wittelsbach_bavaria"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Ostsiedlung (German eastward colonization)",
+              "note": "12th–14th c.",
+              "regime": "ostsiedlung"
+            },
+            {
+              "label": "Margraviate of Brandenburg (Ascanian → Wittelsbach → Luxembourg)",
+              "note": "1157–"
+            },
+            {
+              "label": "Hanseatic League (Lübeck · Hamburg · Bremen)",
+              "note": "13th–15th c.",
+              "regime": "hanseatic_league"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "teutonic_order",
+              "label": "Teutonic Order State (Monastic State of Prussia)",
+              "note": "1230–1525"
+            },
+            {
+              "label": "Livonian Order (Baltic crusader branch)",
+              "note": "1237–1561"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Reformation / Early Modern",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "holy_roman_empire",
+              "label": "Holy Roman Empire — Habsburg era",
+              "note": "1438–1806"
+            },
+            {
+              "label": "Reformation splits Germany: Protestant north vs Catholic south",
+              "note": "1517–"
+            }
+          ],
+          "span": 3
+        },
+        {
+          "stack": [
+            {
+              "label": "Duchy of Prussia (Teutonic Order secularized)",
+              "note": "1525–",
+              "regime": "teutonic_order"
+            },
+            {
+              "label": "Brandenburg-Prussia personal union (Hohenzollern)",
+              "note": "1618",
+              "regime": "brandenburg_prussia_personal_union"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Thirty Years' War (devastates Germany — ~30% population loss)",
+              "note": "1618–1648"
+            },
+            {
+              "label": "~300 sovereign territories · 'Kleinstaaterei'",
+              "note": "Peace of Westphalia (1648) — HRE becomes loose confederation"
+            }
+          ],
+          "span": 3
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_prussia",
+              "label": "Brandenburg-Prussia (Frederick William — the Great Elector)",
+              "note": "1640–1688"
+            },
+            {
+              "regime": "kingdom_of_prussia",
+              "label": "Kingdom of Prussia (Frederick I)",
+              "note": "1701–"
+            },
+            {
+              "label": "Frederick the Great — military power",
+              "note": "1740–1786",
+              "regime": "frederick_the_great"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Napoleonic / Restoration",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "French occupation of Rhineland",
+              "note": "1794–1813"
+            },
+            {
+              "label": "Confederation of the Rhine (French satellite)",
+              "note": "1806–1813; Holy Roman Empire dissolved (1806)",
+              "regime": "confederation_of_the_rhine"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "French occupation of northern Germany",
+              "note": "1806–1813"
+            },
+            {
+              "label": "Kingdom of Westphalia (Napoleon's brother Jérôme)",
+              "note": "1807–1813",
+              "regime": "kingdom_of_westphalia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_prussia",
+              "label": "Kingdom of Prussia",
+              "note": "defeated at Jena (1806); reforms follow"
+            },
+            {
+              "label": "Prussian reforms (Stein · Hardenberg · Scharnhorst)",
+              "note": "1807–1813"
+            },
+            {
+              "label": "Wars of Liberation — Prussia leads anti-Napoleon coalition",
+              "note": "1813–1815"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "German Confederation (Deutscher Bund — 39 states)",
+              "note": "1815–1866",
+              "regime": "german_confederation"
+            },
+            {
+              "regime": "habsburg_monarchy",
+              "label": "Austrian Empire (president of Confederation)",
+              "note": ""
+            }
+          ],
+          "span": 2
+        },
+        {
+          "label": "German Confederation (northern members)",
+          "note": "",
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_prussia",
+              "label": "Kingdom of Prussia — Bismarck era",
+              "note": "1862–"
+            },
+            {
+              "label": "North German Confederation (Prussian-led)",
+              "note": "1867–1871",
+              "regime": "north_german_confederation"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "German Empire",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "german_empire",
+              "label": "German Empire (Deutsches Kaiserreich)",
+              "note": "1871–1918"
+            },
+            {
+              "label": "Kulturkampf (anti-Catholic) · Anti-Socialist Laws",
+              "note": "",
+              "regime": "kulturkampf_anti_socialist_laws"
+            },
+            {
+              "label": "German colonial empire (Africa · Pacific)",
+              "note": "1884–1919",
+              "regime": "german_colonial_empire"
+            },
+            {
+              "label": "Wilhelmine era (Kaiser Wilhelm II — aggressive foreign policy)",
+              "note": "1888–1918"
+            },
+            {
+              "label": "World War I",
+              "note": "1914–1918"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Weimar & Nazi",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "weimar_republic",
+              "label": "Weimar Republic (Weimarer Republik)",
+              "note": "1918–1933"
+            },
+            {
+              "label": "Free State of Prussia (largest German state)",
+              "note": "",
+              "regime": "free_state_of_prussia"
+            },
+            {
+              "label": "Rhineland Republic (separatist, failed) · Saar (League mandate)",
+              "note": "",
+              "regime": "rhineland_republic"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "nazi_germany",
+              "label": "Nazi Germany (Third Reich — Hitler)",
+              "note": "1933–1945"
+            },
+            {
+              "label": "World War II · Holocaust (6 million Jews murdered)",
+              "note": "1939–1945"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Division",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Allied occupation (four zones: US · UK · France · Soviet)",
+              "note": "1945–1949"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "federal_republic_germany",
+              "label": "Federal Republic of Germany (West Germany — Bonn)",
+              "note": "1949–1990"
+            },
+            {
+              "label": "Wirtschaftswunder (economic miracle — Adenauer · Erhard)",
+              "note": "1950s–60s",
+              "regime": "wirtschaftswunder"
+            },
+            {
+              "label": "NATO member (1955) · EEC founding member (1957)",
+              "note": ""
+            },
+            {
+              "label": "Saar Protectorate rejoins West Germany",
+              "note": "1957",
+              "regime": "saar_protectorate_rejoins_west_germany"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "regime": "east_germany",
+              "label": "German Democratic Republic (East Germany — Berlin)",
+              "note": "1949–1990"
+            },
+            {
+              "label": "Soviet satellite state (SED one-party rule)",
+              "note": "",
+              "regime": "soviet_satellite_state"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Former East Prussia: divided between Soviet Union (Kaliningrad) and Poland",
+              "note": "1945–",
+              "regime": "soviet_union"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Reunification",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "federal_republic_germany",
+              "label": "Federal Republic of Germany (reunified)",
+              "note": "3 October 1990"
+            },
+            {
+              "label": "EU founding member · Eurozone (2002) · Berlin restored as capital (1999)",
+              "note": ""
+            },
+            {
+              "label": "Largest economy in Europe · NATO member",
+              "note": ""
+            }
+          ],
+          "span": 4
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Battle of Teutoburg Forest (9 CE): Arminius (Hermann), a Romanized Cherusci chieftain, lured three Roman legions under Varus into an ambush in the forests of northwestern Germany; the annihilation of ~20,000 soldiers permanently halted Roman expansion east of the Rhine — the single most consequential event in ancient Germanic history",
+    "Holy Roman Empire (962–1806): Voltaire's famous quip that it was 'neither holy, nor Roman, nor an empire' captured its paradox — a decentralized federation of hundreds of sovereign territories united under an elected emperor; at its peak under the Hohenstaufen it rivaled any European power; by the late period it was effectively a legal framework rather than a state",
+    "Golden Bull (1356): Emperor Charles IV's decree established the seven prince-electors (three archbishops + four secular rulers) who chose the emperor; it formalized the HRE's decentralized constitution and guaranteed the electors' sovereignty — cementing the fragmentation that would define German politics until Bismarck",
+    "Thirty Years' War (1618–1648): beginning as a religious conflict in Bohemia, it engulfed all of Germany and killed approximately 8 million people (~30% of the German population); the Peace of Westphalia enshrined state sovereignty and religious tolerance but left Germany fragmented into ~300 sovereign territories",
+    "Prussian rise (1640–1871): from a peripheral Brandenburg electorate, the Hohenzollern dynasty built a militarized state that became a European great power under Frederick the Great; Bismarck unified Germany through three wars (Denmark 1864, Austria 1866, France 1870–71), establishing the Kleindeutschland solution that excluded Austria",
+    "Weimar Republic (1918–1933): Germany's first democracy was born in defeat and burdened by Versailles; despite cultural brilliance (Bauhaus, Einstein, Mann), it was undermined by hyperinflation, political extremism, and the Great Depression; Hitler's appointment as Chancellor (30 January 1933) and the Enabling Act ended democratic governance",
+    "German division (1949–1990): the Cold War split produced two German states with radically different systems; West Germany's Wirtschaftswunder made it Europe's economic powerhouse, while East Germany became the most industrialized Soviet satellite; the Berlin Wall (1961–1989) became the iconic symbol of the Iron Curtain; reunification on 3 October 1990 was achieved through East German accession to the Federal Republic"
+  ]
+}

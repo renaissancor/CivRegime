@@ -1,0 +1,17 @@
+{
+  "id": "empire_of_brazil",
+  "name": "Empire of Brazil",
+  "ruling_ethnicity": "portuguese",
+  "cultural_language": "portuguese",
+  "ideology": {
+    "religion": "catholic",
+    "government": "constitutional_monarchy"
+  },
+  "territories": [
+    "amazonia",
+    "patagonia"
+  ],
+  "start": 1822,
+  "end": 1889,
+  "note": "Independent Brazilian monarchy"
+}

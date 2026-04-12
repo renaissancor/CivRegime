@@ -2,7 +2,7 @@
   "id": "jin_jurchen",
   "name": "Jin Dynasty (Jurchen)",
   "ruling_ethnicity": "jurchen",
-  "cultural_language": "jurchen_lang",
+  "cultural_language": "jurchen",
   "ideology": {
     "religion": "buddhism",
     "government": "dual_administration"

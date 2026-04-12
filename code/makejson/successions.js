@@ -3,8 +3,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const CSV_FILE = path.join(__dirname, '../../csvs/successions.csv');
-const OUT_FILE = path.join(__dirname, '../../data/successions/all.json');
+const CSV_FILE = path.join(__dirname, '../../csvs/polity_succession.csv');
+const OUT_FILE = path.join(__dirname, '../../data/succession/all.json');
 
 function parseCSV(content) {
   const lines = content.split('\n').filter(l => l.trim());

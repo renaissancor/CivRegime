@@ -1,0 +1,15 @@
+{
+  "id": "dominican_republic",
+  "name": "Dominican Republic",
+  "ruling_ethnicity": "mestizo",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "caribbean"
+  ],
+  "start": 1844,
+  "end": null
+}

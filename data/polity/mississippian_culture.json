@@ -1,0 +1,17 @@
+{
+  "id": "mississippian_culture",
+  "name": "Mississippian Culture",
+  "ruling_ethnicity": "mississippian",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "us_east",
+    "us_south",
+    "us_midwest"
+  ],
+  "start": 800,
+  "end": 1600,
+  "note": "Cahokia-centered mound-building civilization"
+}

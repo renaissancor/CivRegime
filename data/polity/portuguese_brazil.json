@@ -1,0 +1,17 @@
+{
+  "id": "portuguese_brazil",
+  "name": "Portuguese Brazil",
+  "ruling_ethnicity": "portuguese",
+  "cultural_language": "portuguese",
+  "ideology": {
+    "religion": "catholic",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "amazonia",
+    "patagonia"
+  ],
+  "start": 1500,
+  "end": 1822,
+  "note": "Portuguese colonial territory"
+}

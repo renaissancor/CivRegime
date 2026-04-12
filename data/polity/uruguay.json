@@ -1,0 +1,15 @@
+{
+  "id": "uruguay",
+  "name": "Oriental Republic of Uruguay",
+  "ruling_ethnicity": "mestizo",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "patagonia"
+  ],
+  "start": 1828,
+  "end": null
+}

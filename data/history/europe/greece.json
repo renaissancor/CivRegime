@@ -2,283 +2,655 @@
   "id": "greece",
   "title": "History of Greece",
   "columns": [
-    { "id": "era",    "name": "Era",                      "slots": 1, "type": "era" },
-    { "id": "north",  "name": "N. Greece / Macedonia",    "slots": 1 },
-    { "id": "center", "name": "Central Greece / Attica",  "slots": 1 },
-    { "id": "south",  "name": "Peloponnese",              "slots": 1 },
-    { "id": "west",   "name": "Epirus & Islands",         "slots": 1 }
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "north",
+      "name": "N. Greece / Macedonia",
+      "slots": 1
+    },
+    {
+      "id": "center",
+      "name": "Central Greece / Attica",
+      "slots": 1
+    },
+    {
+      "id": "south",
+      "name": "Peloponnese",
+      "slots": 1
+    },
+    {
+      "id": "west",
+      "name": "Epirus & Islands",
+      "slots": 1
+    }
   ],
   "rows": [
     {
-      "era": { "label": "Prehistoric", "rowspan": 2 },
+      "era": {
+        "label": "Prehistoric",
+        "rowspan": 2
+      },
       "cells": [
-        { "stack": [
-            { "label": "Minoan civilization — Crete & Cyclades", "note": "c.3000–1100 BCE" }
-          ], "span": 4
+        {
+          "stack": [
+            {
+              "label": "Minoan civilization — Crete & Cyclades",
+              "note": "c.3000–1100 BCE",
+              "regime": "minoan_civilization_culture"
+            }
+          ],
+          "span": 4
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Mycenaean civilization — Mycenae · Tiryns · Pylos", "note": "c.1600–1100 BCE" },
-            { "label": "Greek Dark Ages — migrations · depopulation",        "note": "c.1100–800 BCE" }
-          ], "span": 4
+        {
+          "stack": [
+            {
+              "label": "Mycenaean civilization — Mycenae · Tiryns · Pylos",
+              "note": "c.1600–1100 BCE",
+              "regime": "mycenaean_civilization_culture"
+            },
+            {
+              "label": "Greek Dark Ages — migrations · depopulation",
+              "note": "c.1100–800 BCE"
+            }
+          ],
+          "span": 4
         }
       ]
     },
     {
-      "era": { "label": "Archaic", "rowspan": 1 },
+      "era": {
+        "label": "Archaic",
+        "rowspan": 1
+      },
       "cells": [
-        { "stack": [
-            { "label": "Macedonian kingdom — Argead dynasty forming", "note": "c.700s BCE" },
-            { "label": "Thessalian League" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Macedonian kingdom — Argead dynasty forming",
+              "note": "c.700s BCE"
+            },
+            {
+              "label": "Thessalian League",
+              "regime": "thessalian_league"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Athens — Draco · Solon · Peisistratos tyranny", "note": "c.621–510 BCE" },
-            { "label": "Boeotian city-states (Thebes · Plataea)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Athens — Draco · Solon · Peisistratos tyranny",
+              "note": "c.621–510 BCE",
+              "regime": "athens"
+            },
+            {
+              "label": "Boeotian city-states (Thebes · Plataea)",
+              "regime": "boeotian_city_states"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Sparta — Lycurgan constitution · Peloponnesian League" },
-            { "label": "Corinth · Argos" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Sparta — Lycurgan constitution · Peloponnesian League",
+              "regime": "sparta"
+            },
+            {
+              "label": "Corinth · Argos",
+              "regime": "corinth_argos"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Epirus — Molossian / Aeacid tribal confederacy" },
-            { "label": "Corcyra (Corfu) — Corinthian colony", "note": "c.734 BCE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Epirus — Molossian / Aeacid tribal confederacy",
+              "regime": "epirus"
+            },
+            {
+              "label": "Corcyra (Corfu) — Corinthian colony",
+              "note": "c.734 BCE",
+              "regime": "corcyra"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Classical", "rowspan": 3 },
+      "era": {
+        "label": "Classical",
+        "rowspan": 3
+      },
       "cells": [
-        { "stack": [
-            { "label": "Persian Wars — Marathon · Thermopylae · Salamis · Plataea", "note": "490–479 BCE" }
-          ], "span": 4
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Macedonian kingdom (Argead dynasty)" },
-            { "label": "Thessaly (Aleuadae)" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Athens — Pericles · Delian League", "note": "478–404 BCE" },
-            { "label": "Parthenon · Socrates · Thucydides" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Sparta — Peloponnesian League hegemon" },
-            { "label": "Corinth · Argos · Olympia" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Kingdom of Epirus — Molossian / Aeacid dynasty" },
-            { "label": "Corcyra (allied then neutral)" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Macedonia — Philip II · Battle of Chaeronea · League of Corinth", "note": "338–337 BCE" },
-            { "label": "Alexander III — conquest of Persia",                               "note": "336–323 BCE" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Athens — Second Athenian League",                  "note": "378–355 BCE" },
-            { "label": "Thebes — Epaminondas · Sacred Band · Leuctra",     "note": "371–362 BCE" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Sparta — post-Leuctra decline" },
-            { "label": "Corinth · Argos (Macedonian clients)" }
-          ], "span": 1
-        },
-        { "label": "Kingdom of Epirus — Aeacid dynasty · expansion", "span": 1 }
-      ]
-    },
-    {
-      "era": { "label": "Hellenistic", "rowspan": 2 },
-      "cells": [
-        { "stack": [
-            { "label": "Lysimachus — Thrace & Macedonia",   "note": "306–281 BCE" },
-            { "label": "Antipater → Cassander — Macedonia", "note": "321–297 BCE" },
-            { "label": "Antigonus I Monophthalmus",         "note": "–301 BCE" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Demetrius Poliorcetes — Athens", "note": "307–302 BCE" },
-            { "label": "Aetolian League forming" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Demetrius · Antigonid claimants" },
-            { "label": "Achaean League forming",         "note": "280 BCE" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Epirus — Pyrrhus of Epirus",       "note": "r.306–272 BCE" },
-            { "label": "Pyrrhic War — Italy & Sicily",     "note": "280–275 BCE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Persian Wars — Marathon · Thermopylae · Salamis · Plataea",
+              "note": "490–479 BCE"
+            }
+          ],
+          "span": 4
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Antigonus II Gonatas — Macedonia", "note": "276–168 BCE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Macedonian kingdom (Argead dynasty)",
+              "regime": "macedonian_kingdom"
+            },
+            {
+              "label": "Thessaly (Aleuadae)",
+              "regime": "thessaly"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Boeotian League" },
-            { "label": "Aetolian League — dominant central power" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Athens — Pericles · Delian League",
+              "note": "478–404 BCE",
+              "regime": "athens"
+            },
+            {
+              "label": "Parthenon · Socrates · Thucydides",
+              "regime": "parthenon_socrates_thucydides"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Achaean League — Aratus of Sicyon",       "note": "251–213 BCE" },
-            { "label": "Cleomenes III of Sparta — reform wars",   "note": "235–222 BCE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Sparta — Peloponnesian League hegemon",
+              "regime": "sparta"
+            },
+            {
+              "label": "Corinth · Argos · Olympia",
+              "regime": "corinth_argos_olympia"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Kingdom of Epirus — post-Pyrrhus fragmentation" },
-            { "label": "Epirote Republic / League",  "note": "from c.232 BCE" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Roman", "rowspan": 1 },
-      "cells": [
-        { "regime": "roman_empire_pagan", "label": "Roman Macedonia province", "span": 1 },
-        { "regime": "roman_empire_pagan", "label": "Roman Achaea province — Athens as cultural centre", "span": 3 }
-      ]
-    },
-    {
-      "era": { "label": "Byzantine", "rowspan": 3 },
-      "cells": [
-        { "stack": [
-            { "label": "Eastern Roman / Byzantine Empire" },
-            { "label": "Diocletian · Constantine I · Justinian I", "note": "284–565 CE" },
-            { "label": "Thessaloniki — key western city · themes system" }
-          ], "span": 4
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Epirus — Molossian / Aeacid dynasty",
+              "regime": "kingdom_of_epirus"
+            },
+            {
+              "label": "Corcyra (allied then neutral)",
+              "regime": "corcyra"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Latin Empire — Constantinople-based", "note": "1204–1261" },
-            { "label": "Empire of Thessalonica",              "note": "1224–1246" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Macedonia — Philip II · Battle of Chaeronea · League of Corinth",
+              "note": "338–337 BCE"
+            },
+            {
+              "label": "Alexander III — conquest of Persia",
+              "note": "336–323 BCE"
+            }
+          ],
+          "span": 1
         },
-        { "label": "Duchy of Athens — de la Roche (Frankish)", "span": 1 },
-        { "label": "Principality of Achaea — Villehardouin (Frankish)", "span": 1 },
-        { "label": "Despotate of Epirus — Angelos dynasty", "span": 1 }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Byzantine Empire restored — Palaiologos dynasty", "note": "1261–1453" },
-            { "label": "Thessaly — semi-independent state",                "note": "1268–1393" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Athens — Second Athenian League",
+              "note": "378–355 BCE",
+              "regime": "athens"
+            },
+            {
+              "label": "Thebes — Epaminondas · Sacred Band · Leuctra",
+              "note": "371–362 BCE",
+              "regime": "thebes"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Despotate of Morea — Palaiologos", "note": "1349–1460" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Sparta — post-Leuctra decline"
+            },
+            {
+              "label": "Corinth · Argos (Macedonian clients)",
+              "regime": "corinth_argos"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Despotate of Epirus (continuing)" },
-            { "label": "Venice — Ionian Islands & Crete", "note": "from 1204" }
-          ], "span": 1
+        {
+          "label": "Kingdom of Epirus — Aeacid dynasty · expansion",
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Ottoman", "rowspan": 1 },
+      "era": {
+        "label": "Hellenistic",
+        "rowspan": 2
+      },
       "cells": [
-        { "regime": "ottoman_empire", "label": "Ottoman Empire — Greek millet · Phanariots · Klephts", "span": 3 },
-        { "stack": [
-            { "label": "Ottoman Empire" },
-            { "label": "Venice — Crete (until 1669) · Ionian Islands (until 1797)" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Modern", "rowspan": 3 },
-      "cells": [
-        { "stack": [
-            { "label": "Greek War of Independence",             "note": "1821–1829" },
-            { "label": "First Hellenic Republic — Kapodistrias", "note": "1822–1832" }
-          ], "span": 4
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Kingdom of Greece — Wittelsbach dynasty (Otto I)",    "note": "1832–1862" },
-            { "label": "Kingdom of Greece — Glücksburg dynasty (George I —)", "note": "1863–1924" },
-            { "label": "Megali Idea · Balkan Wars 1912–13 · WWI · Smyrna disaster 1922" }
-          ], "span": 4
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Second Hellenic Republic",                          "note": "1924–1935" },
-            { "label": "Kingdom — Glücksburg · Metaxas 4th of August regime", "note": "1935–1941" },
-            { "label": "State of Greece (Axis puppet)",                     "note": "1941–1944" }
-          ], "span": 3
+        {
+          "stack": [
+            {
+              "label": "Lysimachus — Thrace & Macedonia",
+              "note": "306–281 BCE",
+              "regime": "lysimachus"
+            },
+            {
+              "label": "Antipater → Cassander — Macedonia",
+              "note": "321–297 BCE"
+            },
+            {
+              "label": "Antigonus I Monophthalmus",
+              "note": "–301 BCE",
+              "regime": "antigonus_i_monophthalmus"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Greek Government in Exile — Cairo · London", "note": "1941–1944" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Contemporary", "rowspan": 3 },
-      "cells": [
-        { "split": [
-            { "label": "Kingdom of Greece — government forces" },
-            { "label": "National Liberation Front / Democratic Army (EAM-ELAS)" }
-          ], "span": 4
+        {
+          "stack": [
+            {
+              "label": "Demetrius Poliorcetes — Athens",
+              "note": "307–302 BCE",
+              "regime": "demetrius_poliorcetes"
+            },
+            {
+              "label": "Aetolian League forming"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Demetrius · Antigonid claimants",
+              "regime": "demetrius_antigonid_claimants"
+            },
+            {
+              "label": "Achaean League forming",
+              "note": "280 BCE"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Epirus — Pyrrhus of Epirus",
+              "note": "r.306–272 BCE",
+              "regime": "epirus"
+            },
+            {
+              "label": "Pyrrhic War — Italy & Sicily",
+              "note": "280–275 BCE"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Kingdom of Greece — Glücksburg dynasty", "note": "1949–1967" },
-            { "label": "Military Junta (Colonels' Regime)",       "note": "1967–1974" }
-          ], "span": 4
+        {
+          "stack": [
+            {
+              "label": "Antigonus II Gonatas — Macedonia",
+              "note": "276–168 BCE",
+              "regime": "antigonus_ii_gonatas"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Boeotian League",
+              "regime": "boeotian_league"
+            },
+            {
+              "label": "Aetolian League — dominant central power",
+              "regime": "aetolian_league"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Achaean League — Aratus of Sicyon",
+              "note": "251–213 BCE",
+              "regime": "achaean_league"
+            },
+            {
+              "label": "Cleomenes III of Sparta — reform wars",
+              "note": "235–222 BCE"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Epirus — post-Pyrrhus fragmentation"
+            },
+            {
+              "label": "Epirote Republic / League",
+              "note": "from c.232 BCE",
+              "regime": "epirote_republic"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Roman",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "regime": "roman_empire",
+          "label": "Roman Macedonia province",
+          "span": 1
+        },
+        {
+          "regime": "roman_empire",
+          "label": "Roman Achaea province — Athens as cultural centre",
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Byzantine",
+        "rowspan": 3
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Eastern Roman / Byzantine Empire",
+              "regime": "byzantine_empire"
+            },
+            {
+              "label": "Diocletian · Constantine I · Justinian I",
+              "note": "284–565 CE",
+              "regime": "diocletian_constantine_i_justinian_i"
+            },
+            {
+              "label": "Thessaloniki — key western city · themes system",
+              "regime": "thessaloniki"
+            }
+          ],
+          "span": 4
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "label": "Third Hellenic Republic — EU member (1981) · Eurozone (2001)", "span": 4 }
+        {
+          "stack": [
+            {
+              "label": "Latin Empire — Constantinople-based",
+              "note": "1204–1261",
+              "regime": "latin_empire"
+            },
+            {
+              "label": "Empire of Thessalonica",
+              "note": "1224–1246",
+              "regime": "empire_of_thessalonica"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "label": "Duchy of Athens — de la Roche (Frankish)",
+          "span": 1,
+          "regime": "duchy_of_athens"
+        },
+        {
+          "label": "Principality of Achaea — Villehardouin (Frankish)",
+          "span": 1,
+          "regime": "principality_of_achaea"
+        },
+        {
+          "label": "Despotate of Epirus — Angelos dynasty",
+          "span": 1,
+          "regime": "despotate_of_epirus"
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Byzantine Empire restored — Palaiologos dynasty",
+              "note": "1261–1453",
+              "regime": "byzantine_empire"
+            },
+            {
+              "label": "Thessaly — semi-independent state",
+              "note": "1268–1393",
+              "regime": "thessaly"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Despotate of Morea — Palaiologos",
+              "note": "1349–1460",
+              "regime": "despotate_of_morea"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Despotate of Epirus (continuing)",
+              "regime": "despotate_of_epirus"
+            },
+            {
+              "label": "Venice — Ionian Islands & Crete",
+              "note": "from 1204",
+              "regime": "republic_of_venice"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Ottoman",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "regime": "ottoman_empire",
+          "label": "Ottoman Empire — Greek millet · Phanariots · Klephts",
+          "span": 3
+        },
+        {
+          "stack": [
+            {
+              "label": "Ottoman Empire",
+              "regime": "ottoman_empire"
+            },
+            {
+              "label": "Venice — Crete (until 1669) · Ionian Islands (until 1797)",
+              "regime": "republic_of_venice"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Modern",
+        "rowspan": 3
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Greek War of Independence",
+              "note": "1821–1829"
+            },
+            {
+              "label": "First Hellenic Republic — Kapodistrias",
+              "note": "1822–1832",
+              "regime": "first_hellenic_republic"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Greece — Wittelsbach dynasty (Otto I)",
+              "note": "1832–1862",
+              "regime": "kingdom_of_greece"
+            },
+            {
+              "label": "Kingdom of Greece — Glücksburg dynasty (George I —)",
+              "note": "1863–1924",
+              "regime": "kingdom_of_greece"
+            },
+            {
+              "label": "Megali Idea · Balkan Wars 1912–13 · WWI · Smyrna disaster 1922"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Second Hellenic Republic",
+              "note": "1924–1935",
+              "regime": "second_hellenic_republic"
+            },
+            {
+              "label": "Kingdom — Glücksburg · Metaxas 4th of August regime",
+              "note": "1935–1941",
+              "regime": "kingdom"
+            },
+            {
+              "label": "State of Greece (Axis puppet)",
+              "note": "1941–1944",
+              "regime": "state_of_greece"
+            }
+          ],
+          "span": 3
+        },
+        {
+          "stack": [
+            {
+              "label": "Greek Government in Exile — Cairo · London",
+              "note": "1941–1944"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 3
+      },
+      "cells": [
+        {
+          "split": [
+            {
+              "label": "Kingdom of Greece — government forces",
+              "regime": "kingdom_of_greece"
+            },
+            {
+              "label": "National Liberation Front / Democratic Army (EAM-ELAS)",
+              "regime": "national_liberation_front"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Greece — Glücksburg dynasty",
+              "note": "1949–1967",
+              "regime": "kingdom_of_greece"
+            },
+            {
+              "label": "Military Junta (Colonels' Regime)",
+              "note": "1967–1974",
+              "regime": "military_junta"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "label": "Third Hellenic Republic — EU member (1981) · Eurozone (2001)",
+          "span": 4
+        }
       ]
     }
   ],

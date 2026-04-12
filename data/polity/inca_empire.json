@@ -1,0 +1,16 @@
+{
+  "id": "inca_empire",
+  "name": "Inca Empire (Tawantinsuyu)",
+  "ruling_ethnicity": "inca",
+  "cultural_language": "quechua",
+  "ideology": {
+    "religion": "inca_religion",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "andes"
+  ],
+  "start": 1438,
+  "end": 1533,
+  "note": "Largest pre-Columbian empire"
+}

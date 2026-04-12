@@ -1,0 +1,365 @@
+{
+  "id": "united_states",
+  "title": "History of the United States",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "east",
+      "name": "East",
+      "slots": 1
+    },
+    {
+      "id": "south",
+      "name": "South",
+      "slots": 1
+    },
+    {
+      "id": "midwest",
+      "name": "Midwest / Plains",
+      "slots": 1
+    },
+    {
+      "id": "west",
+      "name": "West",
+      "slots": 1
+    },
+    {
+      "id": "alaska",
+      "name": "Alaska",
+      "slots": 1
+    },
+    {
+      "id": "hawaii",
+      "name": "Hawaiʻi",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Pre-Columbian",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Mississippian Culture — Cahokia",
+              "note": "800–1600",
+              "regime": "mississippian_culture"
+            },
+            {
+              "label": "Iroquois Confederacy",
+              "note": "c. 1450–",
+              "regime": "iroquois_confederacy"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "label": "Cherokee · Creek · Seminole",
+          "span": 1,
+          "regime": "cherokee_nation"
+        },
+        {
+          "label": "Mississippian · Siouan peoples",
+          "span": 1,
+          "regime": "mississippian_culture"
+        },
+        {
+          "label": "Ancestral Puebloans · Navajo · Apache",
+          "span": 1,
+          "regime": "ancestral_pueblo"
+        },
+        {
+          "label": "Yupik · Inuit · Aleut peoples",
+          "span": 1
+        },
+        {
+          "label": "Native Hawaiian (Polynesian settlement c. 1000)",
+          "span": 1,
+          "regime": "hawaii_kingdom"
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Early Colonial",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Jamestown (1607)",
+              "note": "1607–1624",
+              "regime": "jamestown_colony"
+            },
+            {
+              "label": "Plymouth (1620)",
+              "note": "1620–1691",
+              "regime": "plymouth_colony"
+            },
+            {
+              "label": "New Amsterdam (Dutch)",
+              "note": "1626–1664",
+              "regime": "new_amsterdam"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "label": "Spanish Florida",
+          "span": 1,
+          "regime": "spanish_florida"
+        },
+        {
+          "label": "New France — Louisiana",
+          "span": 1,
+          "regime": "new_france"
+        },
+        {
+          "label": "New Spain (Nueva España)",
+          "span": 1,
+          "regime": "new_spain"
+        },
+        {
+          "label": "Indigenous peoples",
+          "span": 1
+        },
+        {
+          "label": "Native Hawaiian kingdoms",
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Thirteen Colonies",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Thirteen Colonies (British)",
+          "span": 2,
+          "regime": "thirteen_colonies"
+        },
+        {
+          "stack": [
+            {
+              "label": "Louisiana Territory (French)",
+              "note": "1682–1762",
+              "regime": "louisiana_territory"
+            },
+            {
+              "label": "Louisiana (Spanish)",
+              "note": "1762–1800"
+            },
+            {
+              "label": "Louisiana (French again)",
+              "note": "1800–1803",
+              "regime": "louisiana_territory"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "label": "New Spain",
+          "span": 1,
+          "regime": "new_spain"
+        },
+        {
+          "label": "Russian America",
+          "span": 1,
+          "regime": "russian_alaska"
+        },
+        {
+          "label": "Hawaiian chiefdoms",
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Independence & Early Republic",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "United States of America (1776–)",
+          "span": 2,
+          "regime": "united_states"
+        },
+        {
+          "label": "Louisiana Purchase (1803) → US territory",
+          "span": 1,
+          "regime": "united_states"
+        },
+        {
+          "label": "New Spain → Mexico (1821)",
+          "span": 1,
+          "regime": "new_spain"
+        },
+        {
+          "label": "Russian America",
+          "span": 1,
+          "regime": "russian_alaska"
+        },
+        {
+          "label": "Kingdom of Hawaiʻi (1795–)",
+          "span": 1,
+          "regime": "hawaii_kingdom"
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Territorial Expansion",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "United States",
+          "span": 2,
+          "regime": "united_states"
+        },
+        {
+          "label": "Indian Removal · Trail of Tears · Sioux Wars",
+          "span": 1,
+          "regime": "united_states"
+        },
+        {
+          "stack": [
+            {
+              "label": "Republic of Texas (1836–1846)",
+              "note": "1836–1846",
+              "regime": "texas_republic"
+            },
+            {
+              "label": "California Republic (1846)",
+              "note": "1846",
+              "regime": "california_republic"
+            },
+            {
+              "label": "Mexican Cession → US territory",
+              "note": "1848",
+              "regime": "united_states"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "label": "Russian America",
+          "span": 1,
+          "regime": "russian_alaska"
+        },
+        {
+          "label": "Kingdom of Hawaiʻi",
+          "span": 1,
+          "regime": "hawaii_kingdom"
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Civil War",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Union (United States)",
+          "span": 1,
+          "regime": "united_states"
+        },
+        {
+          "label": "Confederate States of America (1861–1865)",
+          "span": 1,
+          "regime": "confederate_states"
+        },
+        {
+          "label": "Union territories",
+          "span": 1,
+          "regime": "united_states"
+        },
+        {
+          "label": "Union territories",
+          "span": 1,
+          "regime": "united_states"
+        },
+        {
+          "label": "Alaska Purchase (1867) → US territory",
+          "span": 1,
+          "regime": "united_states"
+        },
+        {
+          "label": "Kingdom of Hawaiʻi",
+          "span": 1,
+          "regime": "hawaii_kingdom"
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Reconstruction & Gilded Age",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "United States",
+          "span": 4,
+          "regime": "united_states"
+        },
+        {
+          "label": "Alaska Territory",
+          "span": 1,
+          "regime": "united_states"
+        },
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Hawaiʻi (overthrown 1893)",
+              "note": "–1893",
+              "regime": "hawaii_kingdom"
+            },
+            {
+              "label": "Republic of Hawaiʻi (1894–1898)",
+              "note": "1894–1898",
+              "regime": "hawaii_republic"
+            },
+            {
+              "label": "Hawaii Territory (1898–)",
+              "note": "1898–",
+              "regime": "united_states"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Modern",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "United States of America (50 states)",
+          "span": 6,
+          "regime": "united_states"
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "The Thirteen Colonies (1607–1776) were British possessions along the Atlantic seaboard; independence declared July 4, 1776",
+    "Louisiana Purchase (1803) from France doubled US territory; Mexican Cession (1848) added the Southwest",
+    "Alaska was purchased from Russia in 1867; Hawaiʻi was annexed in 1898 after the overthrow of Queen Liliʻuokalani",
+    "The Confederate States existed 1861–1865 during the Civil War; Reconstruction followed 1865–1877",
+    "Alaska and Hawaiʻi became the 49th and 50th states in 1959"
+  ]
+}

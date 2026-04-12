@@ -1,0 +1,353 @@
+{
+  "id": "sri_lanka",
+  "title": "History of Sri Lanka (ශ්‍රී ලංකා · இலங்கை)",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "sinhala",
+      "name": "Sinhalese Kingdoms (Southwest · Central)",
+      "slots": 1
+    },
+    {
+      "id": "tamil",
+      "name": "Tamil / Northern (Jaffna · Vanni)",
+      "slots": 1
+    },
+    {
+      "id": "east",
+      "name": "Eastern / Ruhuna (Southeast coast)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Ancient",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Tambapanni kingdom (legendary Vijaya — Sinhalese origin)",
+              "note": "c.543 BCE (trad.)",
+              "regime": "tambapanni_kingdom"
+            },
+            {
+              "label": "Anuradhapura kingdom (Sinhalese — Theravada Buddhism)",
+              "note": "c.377 BCE–1017 CE",
+              "regime": "anuradhapura_kingdom"
+            },
+            {
+              "label": "Great Chronicle (Mahavamsa) traditions",
+              "note": "",
+              "regime": "great_chronicle_traditions"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Ruhuna kingdom (southeastern principality)",
+              "note": "c.200 BCE–",
+              "regime": "ruhuna_kingdom"
+            },
+            {
+              "label": "Often semi-independent from Anuradhapura",
+              "note": "",
+              "regime": "often_semi_independent_from_anuradhapura"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Anuradhapura",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Anuradhapura kingdom (continued — great irrigation works)",
+              "note": "c.377 BCE–1017",
+              "regime": "anuradhapura_kingdom"
+            },
+            {
+              "label": "South Indian invasions (Chola · Pandya · Pallava raids)",
+              "note": "recurring"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Ruhuna (refuge for Sinhalese kings during invasions)",
+              "note": ""
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Polonnaruwa",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "chola_empire",
+              "label": "Chola Empire (conquest of Anuradhapura)",
+              "note": "1017–1070"
+            },
+            {
+              "label": "Polonnaruwa kingdom (Vijayabahu I recovers from Chola)",
+              "note": "1070–1232",
+              "regime": "polonnaruwa_kingdom"
+            },
+            {
+              "label": "Parakramabahu I (golden age — unifier)",
+              "note": "r.1153–1186"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Ruhuna (base for Sinhalese reconquest)",
+              "note": "",
+              "regime": "ruhuna"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Fragmentation",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Dambadeniya kingdom",
+              "note": "1232–1293",
+              "regime": "dambadeniya_kingdom"
+            },
+            {
+              "label": "Gampola kingdom",
+              "note": "1341–1408",
+              "regime": "gampola_kingdom"
+            },
+            {
+              "label": "Kotte kingdom (western lowlands)",
+              "note": "1412–1597",
+              "regime": "kotte_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Jaffna kingdom (Tamil — Aryacakravarti dynasty)",
+              "note": "c.1215–1619",
+              "regime": "jaffna_kingdom"
+            },
+            {
+              "label": "Vanni chieftaincies (Tamil-Sinhalese borderlands)",
+              "note": "",
+              "regime": "vanni_chieftaincies"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Ruhuna (declining as separate entity)",
+              "note": ""
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Kotte kingdom (splits — Sitawaka rivalry)",
+              "note": "",
+              "regime": "kotte_kingdom"
+            },
+            {
+              "label": "Sitawaka kingdom (aggressive — nearly conquers all)",
+              "note": "1521–1594",
+              "regime": "sitawaka_kingdom"
+            },
+            {
+              "label": "Kandy kingdom (central highlands)",
+              "note": "1469–1815",
+              "regime": "kandy_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Jaffna kingdom (Tamil — declining under Portuguese pressure)",
+              "note": "–1619"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Raigama principality",
+              "note": "",
+              "regime": "raigama_principality"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Colonial",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Portuguese Ceylon (coastal lowlands)",
+              "note": "1505–1658",
+              "regime": "portuguese_ceylon"
+            },
+            {
+              "label": "Dutch Ceylon (VOC — replaces Portuguese)",
+              "note": "1658–1796",
+              "regime": "dutch_ceylon"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Portuguese conquer Jaffna",
+              "note": "1619",
+              "regime": "portuguese_conquer_jaffna"
+            },
+            {
+              "label": "Dutch replace Portuguese in north",
+              "note": "1658",
+              "regime": "dutch_replace_portuguese_in_north"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kandy kingdom (independent — resists all three colonial powers)",
+              "note": "1469–1815"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "British Ceylon (Crown Colony)",
+              "note": "1796–1948",
+              "regime": "british_ceylon"
+            },
+            {
+              "label": "Kandy convention (British annex Kandy)",
+              "note": "1815",
+              "regime": "kandy_convention"
+            },
+            {
+              "label": "Plantation economy (tea · rubber · coconut)",
+              "note": "19th c.",
+              "regime": "plantation_economy"
+            },
+            {
+              "label": "Tamil laborers brought from India (estate Tamils)",
+              "note": "19th c.",
+              "regime": "tamil_laborers_brought_from_india"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Dominion of Ceylon (independent)",
+              "note": "1948–1972",
+              "regime": "dominion_of_ceylon"
+            },
+            {
+              "label": "Republic of Sri Lanka",
+              "note": "1972–",
+              "regime": "republic_of_sri_lanka"
+            },
+            {
+              "label": "Sri Lankan Civil War (Sinhalese vs Tamil LTTE)",
+              "note": "1983–2009"
+            },
+            {
+              "label": "Post-war Sri Lanka",
+              "note": "2009–"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Anuradhapura kingdom (c.377 BCE–1017 CE): one of the longest-lasting kingdoms in Asian history; its massive dagobas (stupas) and sophisticated irrigation tank system (wewa) supported a civilization of perhaps 2 million; Theravada Buddhism was introduced from India during the reign of Devanampiya Tissa (c.250 BCE) and became central to Sinhalese identity",
+    "Chola conquest (1017–1070): the South Indian Chola Empire under Rajendra I conquered Anuradhapura and moved the capital to Polonnaruwa; Vijayabahu I liberated the island in 1070 from Ruhuna, establishing the Polonnaruwa period; this Chola interlude deeply shaped Tamil-Sinhalese ethnic dynamics",
+    "Polonnaruwa and Parakramabahu I (r.1153–1186): the greatest medieval Sinhalese king; he unified the island, reformed the sangha (Buddhist monastic order), built the Parakrama Samudra reservoir, and even launched an overseas expedition to Burma; Polonnaruwa's ruins are a UNESCO World Heritage site",
+    "Jaffna kingdom (c.1215–1619): the most significant Tamil polity in Sri Lankan history, ruled by the Aryacakravarti dynasty; it controlled the northern peninsula and maintained close ties with South Indian Tamil kingdoms; Portuguese conquest in 1619 ended Tamil political independence in Sri Lanka",
+    "Kandy kingdom (1469–1815): the last independent Sinhalese kingdom, surviving in the central highlands for over three centuries; it resisted Portuguese, Dutch, and initially British colonizers; the Sacred Tooth Relic of the Buddha in Kandy remains the most sacred object in Sinhalese Buddhism; British annexation in 1815 ended 2,300 years of indigenous monarchy",
+    "British Ceylon (1796–1948): the British unified the island under one administration for the first time; they introduced plantation agriculture (coffee, then tea after the 1869 blight), building roads and railways; they also brought Tamil laborers from South India, creating the 'estate Tamil' community distinct from the indigenous Jaffna Tamils",
+    "Sri Lankan Civil War (1983–2009): decades of ethnic tension between the Sinhalese majority and Tamil minority erupted into full civil war; the LTTE (Liberation Tigers of Tamil Eelam) fought for an independent Tamil state in the north and east; the war ended with the LTTE's military defeat in 2009, but ethnic reconciliation remains incomplete"
+  ]
+}

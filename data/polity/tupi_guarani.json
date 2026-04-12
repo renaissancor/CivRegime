@@ -1,0 +1,15 @@
+{
+  "id": "tupi_guarani",
+  "name": "Tupí-Guaraní Peoples",
+  "ruling_ethnicity": "tupi",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "amazonia"
+  ],
+  "start": -500,
+  "end": 1600,
+  "note": "Coastal and Amazonian Brazil"
+}

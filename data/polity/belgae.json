@@ -1,7 +1,7 @@
 {
   "id": "belgae",
   "name": "Belgae",
-  "ruling_ethnicity": "celtic",
+  "ruling_ethnicity": "celtic_peoples",
   "cultural_language": "gaulish",
   "ideology": {
     "religion": "celtic_paganism",

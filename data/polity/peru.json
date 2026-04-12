@@ -1,0 +1,15 @@
+{
+  "id": "peru",
+  "name": "Republic of Peru",
+  "ruling_ethnicity": "mestizo",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "andes"
+  ],
+  "start": 1824,
+  "end": null
+}

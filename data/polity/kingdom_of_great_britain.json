@@ -2,7 +2,7 @@
   "id": "kingdom_of_great_britain",
   "name": "Kingdom of Great Britain",
   "ruling_ethnicity": "english",
-  "cultural_language": "modern_english",
+  "cultural_language": "english",
   "ideology": {
     "religion": "protestant",
     "government": "constitutional_monarchy"

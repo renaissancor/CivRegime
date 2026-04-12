@@ -3,9 +3,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const TERRITORIES_CSV = path.join(__dirname, '../../csvs/territories.csv');
-const PERIODS_CSV = path.join(__dirname, '../../csvs/territory_periods.csv');
-const OUTPUT_DIR = path.join(__dirname, '../../data/territories');
+const TERRITORIES_CSV = path.join(__dirname, '../../csvs/territory.csv');
+const PERIODS_CSV = path.join(__dirname, '../../csvs/polity_territory.csv');
+const OUTPUT_DIR = path.join(__dirname, '../../data/territory');
 
 function loadCSV(file) {
   const lines = fs.readFileSync(file, 'utf8').trim().split('\n');

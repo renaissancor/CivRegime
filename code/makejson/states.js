@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const CSV_FILE = path.join(__dirname, '../../csvs/states.csv');
+const CSV_FILE = path.join(__dirname, '../../csvs/state.csv');
 const OUTPUT_FILE = path.join(__dirname, '../../data/states.json');
 
 function loadCSV(file) {

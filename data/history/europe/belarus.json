@@ -2,184 +2,383 @@
   "id": "belarus",
   "title": "History of Belarus",
   "columns": [
-    { "id": "era",  "name": "Era",                              "slots": 1, "type": "era" },
-    { "id": "west", "name": "W. Belarus (Grodno · Brest)",     "slots": 1 },
-    { "id": "cent", "name": "C. Belarus (Minsk · Polotsk)",    "slots": 1 },
-    { "id": "east", "name": "E. Belarus (Vitebsk · Mogilev)",  "slots": 1 }
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "west",
+      "name": "W. Belarus (Grodno · Brest)",
+      "slots": 1
+    },
+    {
+      "id": "cent",
+      "name": "C. Belarus (Minsk · Polotsk)",
+      "slots": 1
+    },
+    {
+      "id": "east",
+      "name": "E. Belarus (Vitebsk · Mogilev)",
+      "slots": 1
+    }
   ],
   "rows": [
     {
-      "era": { "label": "Ancient", "rowspan": 1 },
+      "era": {
+        "label": "Ancient",
+        "rowspan": 1
+      },
       "cells": [
-        { "stack": [
-            { "label": "Baltic tribes (Yotvingians) · East Slavic Dregovich" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Baltic tribes (Yotvingians) · East Slavic Dregovich",
+              "regime": "baltic_tribes"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "East Slavic Dregovich · Krivich" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "East Slavic Dregovich · Krivich",
+              "regime": "east_slavic_dregovich"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Krivich · Radimich (East Slavic tribes)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Krivich · Radimich (East Slavic tribes)",
+              "regime": "krivich_radimich"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Early Medieval", "rowspan": 2 },
+      "era": {
+        "label": "Early Medieval",
+        "rowspan": 2
+      },
       "cells": [
-        { "stack": [
-            { "label": "Turov Principality (south)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Turov Principality (south)",
+              "regime": "turov_principality"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Polotsk Principality", "note": "c.862 — Krivich heartland" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Polotsk Principality",
+              "note": "c.862 — Krivich heartland",
+              "regime": "polotsk_principality"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Turov-Pinsk Principality" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Turov-Pinsk Principality",
+              "regime": "turov_pinsk_principality"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Polotsk Principality — peak under Vseslav Brjachislavich", "note": "r.1044–1101" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Polotsk Principality — peak under Vseslav Brjachislavich",
+              "note": "r.1044–1101",
+              "regime": "polotsk_principality"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Polotsk Principality → Vitebsk · Druts appanages" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Polotsk Principality → Vitebsk · Druts appanages"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Medieval", "rowspan": 2 },
+      "era": {
+        "label": "Medieval",
+        "rowspan": 2
+      },
       "cells": [
-        { "stack": [
-            { "label": "Turov-Pinsk · Galicia-Volhynia border" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Turov-Pinsk · Galicia-Volhynia border",
+              "regime": "turov_pinsk_galicia_volhynia_border"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Polotsk / Minsk Principalities" },
-            { "label": "Mongol invasion — indirect tributary pressure", "note": "1237–1241" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Polotsk / Minsk Principalities",
+              "note": "Mongol tributary pressure 1237–1241",
+              "regime": "polotsk"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Polotsk fragments — Vitebsk, Minsk, Druts" },
-            { "label": "Mongol Golden Horde influence" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Polotsk fragments — Vitebsk, Minsk, Druts",
+              "note": "under Mongol Golden Horde influence",
+              "regime": "polotsk_fragments"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Grand Duchy of Lithuania absorbs Belarusian principalities", "note": "14th c." }
-          ], "span": 3
+        {
+          "stack": [
+            {
+              "label": "Grand Duchy of Lithuania absorbs Belarusian principalities",
+              "note": "14th c.",
+              "regime": "grand_duchy_of_lithuania"
+            }
+          ],
+          "span": 3
         }
       ]
     },
     {
-      "era": { "label": "GDL / Commonwealth", "rowspan": 2 },
+      "era": {
+        "label": "GDL / Commonwealth",
+        "rowspan": 2
+      },
       "cells": [
-        { "stack": [
-            { "label": "Grand Duchy of Lithuania — Old Ruthenian (Belarusian) official language", "note": "14th–16th c." }
-          ], "span": 3
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Polish-Lithuanian Commonwealth (Union of Lublin 1569)" },
-            { "label": "Cossack wars · Muscovite-Polish wars · Deluge", "note": "17th c." }
-          ], "span": 3
-        }
-      ]
-    },
-    {
-      "era": { "label": "Russian Empire", "rowspan": 1 },
-      "cells": [
-        { "stack": [
-            { "label": "Russian Empire — Partitions of Poland", "note": "1772 (1st) · 1793 (2nd) · 1795 (3rd)" },
-            { "label": "Duchy of Warsaw (briefly)", "note": "1807–1815" },
-            { "label": "Guberniyas: Grodno · Minsk · Vitebsk · Mogilev · Vilna" }
-          ], "span": 3
-        }
-      ]
-    },
-    {
-      "era": { "label": "Revolution / Interwar", "rowspan": 3 },
-      "cells": [
-        { "stack": [
-            { "label": "German occupation (Ober Ost)", "note": "1915–1918" },
-            { "label": "Belarusian People's Republic (BNR)", "note": "March 1918 — under German occupation" },
-            { "label": "Second Polish Republic (Kresy)", "note": "Treaty of Riga 1921" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Central Belarusian Rada",               "note": "1918" },
-            { "label": "Lithuanian-Byelorussian SSR (LitBel)",  "note": "Feb–Aug 1919" },
-            { "label": "Byelorussian Soviet Socialist Republic (BSSR)", "note": "1919–" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Grand Duchy of Lithuania — Old Ruthenian (Belarusian) official language",
+              "note": "14th–16th c.",
+              "regime": "grand_duchy_of_lithuania"
+            }
+          ],
+          "span": 3
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Second Polish Republic — Eastern Borderlands (Kresy wschodnie)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Polish-Lithuanian Commonwealth",
+              "note": "Union of Lublin 1569; devastated by 17th c. wars (Deluge)",
+              "regime": "polish_lithuanian_commonwealth"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Russian Empire",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Russian Empire — Partitions of Poland",
+              "note": "1772 (1st) · 1793 (2nd) · 1795 (3rd)",
+              "regime": "russian_empire"
+            },
+            {
+              "label": "Duchy of Warsaw (briefly)",
+              "note": "1807–1815"
+            },
+            {
+              "label": "Guberniyas: Grodno · Minsk · Vitebsk · Mogilev · Vilna",
+              "regime": "guberniyas_grodno"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Revolution / Interwar",
+        "rowspan": 3
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "German occupation (Ober Ost)",
+              "note": "1915–1918"
+            },
+            {
+              "label": "Belarusian People's Republic (BNR)",
+              "note": "March 1918 — under German occupation",
+              "regime": "belarusian_peoples_republic"
+            },
+            {
+              "label": "Second Polish Republic (Kresy)",
+              "note": "Treaty of Riga 1921",
+              "regime": "second_polish_republic"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Byelorussian SSR (in USSR)" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Central Belarusian Rada",
+              "note": "1918",
+              "regime": "central_belarusian_rada"
+            },
+            {
+              "label": "Lithuanian-Byelorussian SSR (LitBel)",
+              "note": "Feb–Aug 1919",
+              "regime": "lithuanian_byelorussian_ssr"
+            },
+            {
+              "label": "Byelorussian Soviet Socialist Republic (BSSR)",
+              "note": "1919–",
+              "regime": "byelorussian_soviet_socialist_republic"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Second Polish Republic (Kresy)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Second Polish Republic — Eastern Borderlands (Kresy wschodnie)",
+              "regime": "second_polish_republic"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Byelorussian SSR — collectivisation · purges", "note": "1930s" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Byelorussian SSR (in USSR)",
+              "regime": "byelorussian_ssr"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
-      "era": { "label": "WWII", "rowspan": 1 },
+      "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Soviet occupation — west joins BSSR (Molotov-Ribbentrop)", "note": "1939" },
-            { "label": "Nazi Germany — Reichskommissariat Ostland", "note": "1941–1944" },
-            { "label": "Soviet reconquest — Operation Bagration", "note": "1944" }
-          ], "span": 3
+        {
+          "stack": [
+            {
+              "label": "Second Polish Republic (Kresy)",
+              "regime": "second_polish_republic"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Byelorussian SSR — collectivisation · purges",
+              "note": "1930s",
+              "regime": "byelorussian_ssr"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
-      "era": { "label": "Soviet", "rowspan": 1 },
+      "era": {
+        "label": "WWII",
+        "rowspan": 1
+      },
       "cells": [
-        { "stack": [
-            { "label": "Byelorussian SSR — UN founding member (1945)", "note": "1944–1991" }
-          ], "span": 3
+        {
+          "stack": [
+            {
+              "label": "Soviet occupation — west joins BSSR (Molotov-Ribbentrop)",
+              "note": "1939"
+            },
+            {
+              "label": "Nazi Germany — Reichskommissariat Ostland",
+              "note": "1941–1944",
+              "regime": "nazi_germany"
+            },
+            {
+              "label": "Soviet reconquest (Operation Bagration)",
+              "note": "1944",
+              "regime": "soviet_reconquest"
+            }
+          ],
+          "span": 3
         }
       ]
     },
     {
-      "era": { "label": "Contemporary", "rowspan": 1 },
+      "era": {
+        "label": "Soviet",
+        "rowspan": 1
+      },
       "cells": [
-        { "label": "Republic of Belarus — Lukashenko (1994–) · 2020 protests · Union State with Russia (1999)", "span": 3 }
+        {
+          "stack": [
+            {
+              "label": "Byelorussian SSR — UN founding member (1945)",
+              "note": "1944–1991"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Republic of Belarus — Lukashenko (1994–) · 2020 protests · Union State with Russia (1999)",
+          "span": 3,
+          "regime": "republic_of_belarus"
+        }
       ]
     }
   ],

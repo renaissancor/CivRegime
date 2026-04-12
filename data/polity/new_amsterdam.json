@@ -1,0 +1,16 @@
+{
+  "id": "new_amsterdam",
+  "name": "New Amsterdam (Dutch)",
+  "ruling_ethnicity": "dutch",
+  "cultural_language": "dutch",
+  "ideology": {
+    "religion": "protestant",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "us_east"
+  ],
+  "start": 1626,
+  "end": 1664,
+  "note": "Dutch colonial New York"
+}

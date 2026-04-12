@@ -1,0 +1,52 @@
+{
+  "id": "iberia",
+  "name": "iberia",
+  "regime_count": 9,
+  "regimes": [
+    {
+      "regime_id": "roman_republic",
+      "start": -509,
+      "end": -27
+    },
+    {
+      "regime_id": "roman_empire",
+      "start": -27,
+      "end": 380
+    },
+    {
+      "regime_id": "roman_empire",
+      "start": 380,
+      "end": 395
+    },
+    {
+      "regime_id": "western_roman_empire",
+      "start": 395,
+      "end": 476
+    },
+    {
+      "regime_id": "visigothic_kingdom",
+      "start": 418,
+      "end": 711
+    },
+    {
+      "regime_id": "umayyad_caliphate",
+      "start": 711,
+      "end": 750
+    },
+    {
+      "regime_id": "al_andalus",
+      "start": 711,
+      "end": 1492
+    },
+    {
+      "regime_id": "almohad_caliphate",
+      "start": 1147,
+      "end": 1228
+    },
+    {
+      "regime_id": "almoravid_dynasty",
+      "start": 1086,
+      "end": 1147
+    }
+  ]
+}

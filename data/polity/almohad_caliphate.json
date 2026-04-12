@@ -1,10 +1,10 @@
 {
   "id": "almohad_caliphate",
   "name": "Almohad Caliphate",
-  "ruling_ethnicity": "berber",
+  "ruling_ethnicity": "berber_amazigh_cluster",
   "cultural_language": "classical_arabic",
   "ideology": {
-    "religion": "sunni_islam",
+    "religion": "sunni",
     "government": "theocratic_caliphate"
   },
   "territories": [

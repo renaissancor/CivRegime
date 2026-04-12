@@ -1,0 +1,16 @@
+{
+  "id": "toltec_empire",
+  "name": "Toltec Empire",
+  "ruling_ethnicity": "aztec",
+  "cultural_language": "classical_nahuatl",
+  "ideology": {
+    "religion": "aztec_religion",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "mesoamerica"
+  ],
+  "start": 900,
+  "end": 1168,
+  "note": "Tula-based predecessor to Aztecs"
+}

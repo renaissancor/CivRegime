@@ -1,0 +1,16 @@
+{
+  "id": "hawaii_republic",
+  "name": "Republic of Hawaiʻi",
+  "ruling_ethnicity": "english",
+  "cultural_language": "english",
+  "ideology": {
+    "religion": "protestant",
+    "government": "republic"
+  },
+  "territories": [
+    "hawaii"
+  ],
+  "start": 1894,
+  "end": 1898,
+  "note": "Post-monarchy republic before US annexation"
+}

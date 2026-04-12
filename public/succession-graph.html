@@ -347,12 +347,15 @@
         let filteredTypes = new Set(['same', 'expansion', 'contraction', 'displacement', 'unknown']);
         let selectedRegime = null;
 
-        // Load data from /api/db
-        fetch('/api/db').then(r => r.json()).then(db => {
-            // Build edges format from db.successions
-            const regimeMap = new Map(db.regimes.map(r => [r.id, r]));
+        // Load data from granular API endpoints
+        Promise.all([
+            fetch('/api/polity').then(r => r.json()),
+            fetch('/api/succession').then(r => r.json()),
+        ]).then(([regimes, successions]) => {
+            const db = { regimes, successions };
+            const regimeMap = new Map(regimes.map(r => [r.id, r]));
             successionsData = {
-                edges: db.successions.map(s => ({
+                edges: successions.map(s => ({
                     from: s.from,
                     from_name: regimeMap.get(s.from)?.name || s.from,
                     to: s.to,
@@ -366,15 +369,15 @@
                     same_religion: s.same_religion,
                 })),
                 stats: {
-                    total_edges: db.successions.length,
-                    by_type: db.successions.reduce((acc, s) => {
+                    total_edges: successions.length,
+                    by_type: successions.reduce((acc, s) => {
                         const dir = s.territorial_direction || 'unknown';
                         acc[dir] = (acc[dir] || 0) + 1;
                         return acc;
                     }, {}),
                 },
             };
-            regimesData = db.regimes;
+            regimesData = regimes;
             initVisualization();
         }).catch(err => console.error('Error loading data:', err));
 
@@ -430,7 +433,7 @@
                     .strength(0.3))
                 .force('charge', d3.forceManyBody().strength(-300))
                 .force('center', d3.forceCenter(width / 2, height / 2))
-                .force('collision', d3.forceCollide().radius(30));
+                .force('collision', d3.forceCollide().radius(d => Math.max(5, Math.min(20, 4 + (d.successors.length + d.predecessors.length) * 1.5)) + 15));
 
             // Draw links
             const linkElements = svg.selectAll('.link')
@@ -446,7 +449,7 @@
                 .enter()
                 .append('circle')
                 .attr('class', 'node')
-                .attr('r', 8)
+                .attr('r', d => Math.max(5, Math.min(20, 4 + (d.successors.length + d.predecessors.length) * 1.5)))
                 .attr('fill', d => {
                     const hue = (d.id.charCodeAt(0) * 137) % 360;
                     return `hsl(${hue}, 50%, 40%)`;
@@ -529,7 +532,9 @@
                         return false;
                     });
 
-                    labels.classed('hidden', d => nodes.classed('hidden'))(d) => {});
+                    labels.classed('hidden', function(d) {
+                        return d3.select(nodeElements.nodes()[nodeArray.indexOf(d)]).classed('hidden');
+                    });
                 }
             }
 

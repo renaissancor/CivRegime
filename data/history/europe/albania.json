@@ -2,257 +2,556 @@
   "id": "albania",
   "title": "History of Albania",
   "columns": [
-    { "id": "era",   "name": "Era",                              "slots": 1, "type": "era" },
-    { "id": "north", "name": "N. Albania (S: Shkodër · K: Kukës)","slots": 1 },
-    { "id": "cent",  "name": "C. Albania (D: Durrës · T: Tirana)","slots": 1 },
-    { "id": "south", "name": "S. Albania (V: Vlorë)",            "slots": 1 },
-    { "id": "east",  "name": "SE Albania (O: Lake Ohrid)",       "slots": 1 }
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "north",
+      "name": "N. Albania (S: Shkodër · K: Kukës)",
+      "slots": 1
+    },
+    {
+      "id": "cent",
+      "name": "C. Albania (D: Durrës · T: Tirana)",
+      "slots": 1
+    },
+    {
+      "id": "south",
+      "name": "S. Albania (V: Vlorë)",
+      "slots": 1
+    },
+    {
+      "id": "east",
+      "name": "SE Albania (O: Lake Ohrid)",
+      "slots": 1
+    }
   ],
   "rows": [
     {
-      "era": { "label": "Ancient", "rowspan": 3 },
+      "era": {
+        "label": "Ancient",
+        "rowspan": 3
+      },
       "cells": [
-        { "stack": [
-            { "label": "Illyrian tribes (Labeates · Ardiaei)" },
-            { "label": "Illyrian Kingdom (Shkodër capital)", "note": "c.400–168 BCE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Illyrian tribes (Labeates · Ardiaei)",
+              "regime": "illyrian_tribes"
+            },
+            {
+              "label": "Illyrian Kingdom (Shkodër capital)",
+              "note": "c.400–168 BCE",
+              "regime": "illyrian_kingdom"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Taulantii (Illyrian) · Greek colony Epidamnos/Dyrrachium", "note": "Durrës, c.625 BCE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Taulantii (Illyrian) · Greek colony Epidamnos/Dyrrachium",
+              "note": "Durrës, c.625 BCE",
+              "regime": "taulantii_greek_colony_epidamnosdyrrachium"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Illyrian tribes · Greek colonies (Apollonia · Buthrotum)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Illyrian tribes · Greek colonies (Apollonia · Buthrotum)",
+              "regime": "illyrian_tribes"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Illyrian interior · Enchelei · Macedonian border" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Illyrian interior · Enchelei · Macedonian border",
+              "regime": "illyrian_interior"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Illyrian Kingdom — Queen Teuta" },
-            { "label": "Illyrian Wars → Roman",            "note": "229, 219, 168 BCE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Illyrian Kingdom — Queen Teuta",
+              "regime": "illyrian_kingdom"
+            },
+            {
+              "label": "Roman conquest",
+              "note": "Illyrian Wars 229, 219, 168 BCE"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Antipatrid / Macedonian influence" },
-            { "label": "Illyrian Wars → Roman" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Antipatrid / Macedonian influence"
+            },
+            {
+              "label": "Roman conquest"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Pyrrhus of Epirus (south)" },
-            { "label": "Illyrian Wars → Roman" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Epirus — Pyrrhus (south)",
+              "regime": "kingdom_of_epirus"
+            },
+            {
+              "label": "Roman conquest"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Macedonian Kingdom" },
-            { "label": "Lysimachus (brief)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Macedonian Kingdom",
+              "regime": "macedonian_kingdom"
+            },
+            {
+              "label": "Lysimachus (brief)",
+              "regime": "lysimachus"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Roman Republic → Roman Empire (Illyricum / Epirus province)" },
-            { "label": "Eastern Roman / Byzantine Empire" }
-          ], "span": 4
+        {
+          "stack": [
+            {
+              "label": "Roman Republic → Roman Empire (Illyricum / Epirus province)",
+              "regime": "roman_republic"
+            },
+            {
+              "label": "Eastern Roman / Byzantine Empire",
+              "regime": "byzantine_empire"
+            }
+          ],
+          "span": 4
         }
       ]
     },
     {
-      "era": { "label": "Medieval", "rowspan": 5 },
+      "era": {
+        "label": "Medieval",
+        "rowspan": 5
+      },
       "cells": [
-        { "stack": [
-            { "label": "Dioclea / Zeta (early Serbian principality)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Dioclea / Zeta (early Serbian principality)",
+              "regime": "dioclea"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Byzantine Empire" },
-            { "label": "Norman invasion",       "note": "1082–1085 (Durrës)" },
-            { "label": "First Bulgarian Empire" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Byzantine Empire",
+              "regime": "byzantine_empire"
+            },
+            {
+              "label": "First Bulgarian Empire",
+              "regime": "first_bulgarian_empire"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Byzantine Empire" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Byzantine Empire",
+              "regime": "byzantine_empire"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "First Bulgarian Empire" },
-            { "label": "Dragovit (Slavic tribe)" },
-            { "label": "Byzantine (Lake Ohrid — Ohrid Archbishopric)" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Zeta (Balšić family)" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Principality of Arbanon", "note": "first Albanian state, 1190–1216" },
-            { "label": "Byzantine Empire" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Despotate of Epirus", "note": "from 1205" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Second Bulgarian Empire" },
-            { "label": "Nicaean Empire / Epirus" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Zeta · Serbian Kingdom" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Kingdom of Albania — Charles of Anjou", "note": "1272–1285" },
-            { "label": "Duchy of Durazzo → Thopia dynasty",    "note": "14th c." }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Despotate of Epirus · Angevin Albania" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Second Bulgarian Empire" },
-            { "label": "Byzantine" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "First Bulgarian Empire",
+              "regime": "first_bulgarian_empire"
+            },
+            {
+              "label": "Byzantine (Lake Ohrid — Ohrid Archbishopric)",
+              "regime": "byzantine_empire"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Serbian Empire → Zeta (Balšić family)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Zeta (Balšić family)",
+              "regime": "zeta"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Serbian Empire → Albanian principalities" },
-            { "label": "Venice — Durrës",    "note": "1392–1501" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Principality of Arbanon",
+              "note": "first Albanian state, 1190–1216",
+              "regime": "principality_of_arbanon"
+            },
+            {
+              "label": "Byzantine Empire",
+              "regime": "byzantine_empire"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Serbian Empire → Albanian principalities" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Despotate of Epirus",
+              "note": "from 1205",
+              "regime": "despotate_of_epirus"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Serbian Empire → Byzantine → Albanian lords" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Second Bulgarian Empire",
+              "regime": "second_bulgarian_empire"
+            },
+            {
+              "label": "Nicaean Empire / Epirus",
+              "regime": "nicaean_empire"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "League of Lezhë — Skanderbeg", "note": "1444–1479" },
-            { "label": "Ottoman conquest",              "note": "Shkodër 1479" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Zeta · Serbian Kingdom",
+              "regime": "zeta_serbian_kingdom"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Venice (Durrës until 1501)" },
-            { "label": "Ottoman conquest" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Albania — Charles of Anjou",
+              "note": "1272–1285",
+              "regime": "kingdom_of_albania"
+            },
+            {
+              "label": "Duchy of Durazzo → Thopia dynasty",
+              "note": "14th c."
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Ottoman conquest", "note": "Vlorë 1417, south 1430s" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Despotate of Epirus · Angevin Albania",
+              "regime": "despotate_of_epirus"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Ottoman conquest" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Second Bulgarian Empire",
+              "regime": "second_bulgarian_empire"
+            },
+            {
+              "label": "Byzantine",
+              "regime": "byzantine_empire"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Ottoman", "rowspan": 1 },
+      "era": null,
       "cells": [
-        { "regime": "ottoman_empire",
+        {
+          "stack": [
+            {
+              "label": "Serbian Empire → Zeta (Balšić family)",
+              "regime": "serbian_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Serbian Empire → Albanian principalities",
+              "regime": "serbian_empire"
+            },
+            {
+              "label": "Venice — Durrës",
+              "note": "1392–1501",
+              "regime": "republic_of_venice"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Serbian Empire → Albanian principalities",
+              "regime": "serbian_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Serbian Empire → Byzantine → Albanian lords",
+              "regime": "serbian_empire"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "League of Lezhë — Skanderbeg",
+              "note": "1444–1479",
+              "regime": "league_of_lezhe"
+            },
+            {
+              "label": "Ottoman conquest",
+              "note": "Shkodër 1479"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Venice (Durrës until 1501)",
+              "regime": "republic_of_venice"
+            },
+            {
+              "label": "Ottoman conquest"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Ottoman conquest",
+              "note": "Vlorë 1417, south 1430s"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Ottoman conquest"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Ottoman",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "regime": "ottoman_empire",
           "label": "Ottoman Empire (16th–19th c.) · Ali Pasha of Ioannina controls south (1788–1822)",
           "span": 4
         }
       ]
     },
     {
-      "era": { "label": "Modern", "rowspan": 4 },
+      "era": {
+        "label": "Modern",
+        "rowspan": 4
+      },
       "cells": [
-        { "stack": [
-            { "label": "Ottoman Empire · Albanian National Awakening (Rilindja)", "note": "19th c." }
-          ], "span": 4
+        {
+          "stack": [
+            {
+              "label": "Ottoman Empire · Albanian National Awakening (Rilindja)",
+              "note": "19th c.",
+              "regime": "ottoman_empire"
+            }
+          ],
+          "span": 4
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Montenegro Kingdom (Shkodër area)", "note": "1912–1913" },
-            { "label": "Serbia (Kukës / northeast)",        "note": "1912–1913" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Montenegro Kingdom (Shkodër area)",
+              "note": "1912–1913",
+              "regime": "montenegro_kingdom"
+            },
+            {
+              "label": "Serbia (Kukës / northeast)",
+              "note": "1912–1913",
+              "regime": "serbia"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Central Albanian Republic — Essad Pasha", "note": "1914" },
-            { "label": "Albanian Principality (Wilhelm of Wied)", "note": "1914" },
-            { "label": "Austria-Hungary / Italian occupation zones" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Albanian Principality (Wilhelm of Wied)",
+              "note": "1914",
+              "regime": "albanian_principality"
+            },
+            {
+              "label": "Austria-Hungary / Italian occupation zones",
+              "regime": "austria_hungary"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Italian sphere",                         "note": "Vlorë 1914" },
-            { "label": "Albanian uprising" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Italian sphere",
+              "note": "Vlorë 1914",
+              "regime": "italian_sphere"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Autonomous Republic of Northern Epirus", "note": "briefly 1914" },
-            { "label": "Greek Kingdom",                          "note": "1914–1921" },
-            { "label": "French Republic (mandate zone)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Autonomous Republic of Northern Epirus",
+              "note": "briefly 1914",
+              "regime": "autonomous_republic_of_northern_epirus"
+            },
+            {
+              "label": "Greek Kingdom",
+              "note": "1914–1921",
+              "regime": "greek_kingdom"
+            },
+            {
+              "label": "French Republic (mandate zone)",
+              "regime": "french_republic"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Albanian Republic — Fan Noli",        "note": "1924–1925" },
-            { "label": "Albanian Kingdom — Zog I",            "note": "1928–1939" },
-            { "label": "Italian Albania",                     "note": "1939–1943" },
-            { "label": "German occupation",                   "note": "1943–1944" }
-          ], "span": 4
+        {
+          "stack": [
+            {
+              "label": "Albanian Republic — Fan Noli",
+              "note": "1924–1925",
+              "regime": "albanian_republic"
+            },
+            {
+              "label": "Albanian Kingdom — Zog I",
+              "note": "1928–1939",
+              "regime": "albanian_kingdom"
+            },
+            {
+              "label": "Italian Albania",
+              "note": "1939–1943",
+              "regime": "italian_albania"
+            },
+            {
+              "label": "German occupation",
+              "note": "1943–1944"
+            }
+          ],
+          "span": 4
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "People's Republic of Albania → People's Socialist Republic", "note": "1944–1991" },
-            { "label": "Enver Hoxha — isolated Stalinist state · anti-revisionist" }
-          ], "span": 4
+        {
+          "stack": [
+            {
+              "label": "People's Republic of Albania → People's Socialist Republic",
+              "note": "1944–1991"
+            },
+            {
+              "label": "Enver Hoxha — isolated Stalinist state",
+              "note": "anti-revisionist",
+              "regime": "enver_hoxha"
+            }
+          ],
+          "span": 4
         }
       ]
     },
     {
-      "era": { "label": "Contemporary", "rowspan": 1 },
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 1
+      },
       "cells": [
-        { "label": "Republic of Albania — NATO (2009) · EU candidate", "span": 4 }
+        {
+          "label": "Republic of Albania — NATO (2009) · EU candidate",
+          "span": 4,
+          "regime": "republic_of_albania"
+        }
       ]
     }
   ],

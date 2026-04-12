@@ -1,0 +1,15 @@
+{
+  "id": "paraguay",
+  "name": "Republic of Paraguay",
+  "ruling_ethnicity": "mestizo",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "amazonia"
+  ],
+  "start": 1811,
+  "end": null
+}

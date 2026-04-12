@@ -1,0 +1,17 @@
+{
+  "id": "viceroyalty_of_peru",
+  "name": "Viceroyalty of Peru",
+  "ruling_ethnicity": "spanish",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "andes",
+    "amazonia"
+  ],
+  "start": 1542,
+  "end": 1824,
+  "note": "Spanish colonial South America"
+}

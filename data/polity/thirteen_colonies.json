@@ -1,0 +1,17 @@
+{
+  "id": "thirteen_colonies",
+  "name": "Thirteen Colonies",
+  "ruling_ethnicity": "english",
+  "cultural_language": "english",
+  "ideology": {
+    "religion": "protestant",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "us_east",
+    "us_south"
+  ],
+  "start": 1607,
+  "end": 1776,
+  "note": "British colonies on Atlantic seaboard"
+}

@@ -1,0 +1,215 @@
+{
+  "id": "south_america",
+  "title": "History of South America",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "andes",
+      "name": "Andes (Peru · Bolivia)",
+      "slots": 1
+    },
+    {
+      "id": "northern",
+      "name": "Northern (Colombia · Venezuela)",
+      "slots": 1
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "slots": 1
+    },
+    {
+      "id": "southern",
+      "name": "Southern Cone",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Pre-Columbian",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Tiwanaku (550–1000)",
+              "note": "Lake Titicaca highlands",
+              "regime": "tiwanaku"
+            },
+            {
+              "label": "Wari Empire (600–1000)",
+              "note": "first Andean empire",
+              "regime": "wari_empire"
+            },
+            {
+              "label": "Chimú Kingdom (900–1470)",
+              "note": "coastal Peru",
+              "regime": "chimu_kingdom"
+            },
+            {
+              "label": "Inca Empire (1438–1533)",
+              "note": "Tawantinsuyu",
+              "regime": "inca_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "label": "Muisca Confederation",
+          "span": 1,
+          "regime": "muisca_confederation"
+        },
+        {
+          "label": "Tupí-Guaraní peoples",
+          "span": 1,
+          "regime": "tupi_guarani"
+        },
+        {
+          "label": "Mapuche Nation",
+          "span": 1,
+          "regime": "mapuche_nation"
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Colonial",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Viceroyalty of Peru (1542–1824)",
+          "span": 1,
+          "regime": "viceroyalty_of_peru"
+        },
+        {
+          "label": "Viceroyalty of New Granada (1717–1819)",
+          "span": 1,
+          "regime": "viceroyalty_of_new_granada"
+        },
+        {
+          "label": "Portuguese Brazil (1500–1822)",
+          "span": 1,
+          "regime": "portuguese_brazil"
+        },
+        {
+          "label": "Viceroyalty of Río de la Plata (1776–1816)",
+          "span": 1,
+          "regime": "viceroyalty_of_rio_de_la_plata"
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Independence",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Peru (1824)",
+              "regime": "peru"
+            },
+            {
+              "label": "Bolivia (1825)",
+              "regime": "bolivia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Gran Colombia (1819–1831)",
+              "note": "Bolívar's united republic",
+              "regime": "gran_colombia"
+            },
+            {
+              "label": "Colombia (1831) · Venezuela (1830) · Ecuador (1830)",
+              "note": "Gran Colombia dissolved"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Empire of Brazil (1822–1889)",
+              "note": "Pedro I → Pedro II",
+              "regime": "empire_of_brazil"
+            },
+            {
+              "label": "Republic of Brazil (1889–)",
+              "regime": "republic_of_brazil"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Argentina (1816)",
+              "regime": "argentina"
+            },
+            {
+              "label": "Chile (1818)",
+              "regime": "chile"
+            },
+            {
+              "label": "Uruguay (1828)",
+              "regime": "uruguay"
+            },
+            {
+              "label": "Paraguay (1811)",
+              "regime": "paraguay"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Modern",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Peru · Bolivia · Ecuador",
+          "span": 1,
+          "regime": "peru"
+        },
+        {
+          "label": "Colombia · Venezuela",
+          "span": 1,
+          "regime": "colombia"
+        },
+        {
+          "label": "Brazil",
+          "span": 1,
+          "regime": "republic_of_brazil"
+        },
+        {
+          "label": "Argentina · Chile · Uruguay · Paraguay",
+          "span": 1,
+          "regime": "argentina"
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "The Inca Empire (Tawantinsuyu, 1438–1533) stretched 4,000 km along the Andes — the largest pre-Columbian American empire",
+    "Spanish conquest: Pizarro defeated the Inca (1533); colonial viceroyalties lasted ~300 years",
+    "Simón Bolívar and José de San Martín led South American independence movements (1810s–1820s)",
+    "Gran Colombia (1819–1831) united present-day Colombia, Venezuela, Ecuador, and Panama before dissolving",
+    "Brazil uniquely transitioned from colony to empire (1822) under the Portuguese royal house, before becoming a republic in 1889"
+  ]
+}

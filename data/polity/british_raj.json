@@ -2,7 +2,7 @@
   "id": "british_raj",
   "name": "British Raj",
   "ruling_ethnicity": "english",
-  "cultural_language": "modern_english",
+  "cultural_language": "english",
   "ideology": {
     "religion": "protestant",
     "government": "imperial_monarchy"

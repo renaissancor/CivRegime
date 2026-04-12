@@ -18,11 +18,14 @@ function rootColor(nodeId, allEthnicities) {
 }
 
 async function init() {
-  const db = await fetch('/api/db').then(r => r.json());
+  const [ethnicities, polities] = await Promise.all([
+    fetch('/api/taxonomy/ethnicity').then(r => r.json()),
+    fetch('/api/polity').then(r => r.json()),
+  ]);
 
   // Map ethnicity id → regimes that use it as ruling_ethnicity
   const regimesByEth = new Map();
-  for (const r of db.regimes) {
+  for (const r of polities) {
     const eth = r.ruling_ethnicity;
     if (eth) {
       if (!regimesByEth.has(eth)) regimesByEth.set(eth, []);
@@ -31,7 +34,7 @@ async function init() {
   }
 
   // Root families
-  const roots = db.ethnicities.filter(e => e.parent == null);
+  const roots = ethnicities.filter(e => e.parent == null);
   roots.forEach((e, i) => { familyColor[e.id] = FAMILY_PALETTE[i % FAMILY_PALETTE.length]; });
 
   // Sidebar
@@ -39,7 +42,7 @@ async function init() {
   const allBtn = document.createElement('button');
   allBtn.className = 'family-btn active';
   allBtn.dataset.family = 'all';
-  allBtn.textContent = 'All Ethnicities';
+  allBtn.textContent = 'All';
   list.appendChild(allBtn);
   for (const root of roots) {
     const btn = document.createElement('button');
@@ -55,10 +58,10 @@ async function init() {
     if (!btn) return;
     list.querySelectorAll('.family-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    renderTree(btn.dataset.family, db.ethnicities, regimesByEth);
+    renderTree(btn.dataset.family, ethnicities, regimesByEth);
   });
 
-  renderTree('all', db.ethnicities, regimesByEth);
+  renderTree('all', ethnicities, regimesByEth);
 }
 
 function renderTree(familyId, allEthnicities, regimesByEth) {

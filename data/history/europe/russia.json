@@ -2,291 +2,580 @@
   "id": "russia",
   "title": "History of Russia",
   "columns": [
-    { "id": "era",    "name": "Era",                                "slots": 1, "type": "era" },
-    { "id": "nw",     "name": "NW Russia (Novgorod · St. Petersburg)", "slots": 1 },
-    { "id": "cent",   "name": "C. Russia (Moscow · Vladimir)",        "slots": 1 },
-    { "id": "south",  "name": "S. Russia (Don · Volga · Kazan)",      "slots": 1 },
-    { "id": "sib",    "name": "Siberia & Far East",                    "slots": 1 }
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "nw",
+      "name": "NW Russia (Novgorod · St. Petersburg)",
+      "slots": 1
+    },
+    {
+      "id": "cent",
+      "name": "C. Russia (Moscow · Vladimir)",
+      "slots": 1
+    },
+    {
+      "id": "south",
+      "name": "S. Russia (Don · Volga · Kazan)",
+      "slots": 1
+    },
+    {
+      "id": "sib",
+      "name": "Siberia & Far East",
+      "slots": 1
+    }
   ],
   "rows": [
     {
-      "era": { "label": "Ancient", "rowspan": 2 },
+      "era": {
+        "label": "Ancient",
+        "rowspan": 2
+      },
       "cells": [
-        { "stack": [
-            { "label": "Finno-Ugric peoples (Chud · Veps · Merya)" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Finno-Ugric peoples (Chud · Veps · Merya)",
+              "regime": "finno_ugric_peoples"
+            }
+          ],
+          "span": 2
         },
-        { "stack": [
-            { "label": "Scythian / Sarmatian steppe fringe" },
-            { "label": "Finno-Ugric (Mordvins · Mari) · Turkic Bulgars" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Scythian / Sarmatian steppe fringe",
+              "regime": "scythian"
+            },
+            {
+              "label": "Finno-Ugric (Mordvins · Mari) · Turkic Bulgars",
+              "regime": "finno_ugric_turkic_bulgars"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Indigenous Siberian peoples (Nenets · Khanty · Evenks · Yakuts · Chukchi)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Indigenous Siberian peoples (Nenets · Khanty · Evenks · Yakuts · Chukchi)",
+              "regime": "indigenous_siberian_peoples"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "East Slavic migration northward", "note": "6th–9th c." },
-            { "label": "Varangian (Norse) trade routes" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "East Slavic migration northward",
+              "note": "6th–9th c.",
+              "regime": "east_slavic_migration_northward"
+            },
+            {
+              "label": "Varangian (Norse) trade routes",
+              "regime": "varangian_trade_routes"
+            }
+          ],
+          "span": 2
         },
-        { "stack": [
-            { "label": "Khazar Khaganate (south steppe)" },
-            { "label": "Volga Bulgaria", "note": "c.700–1238 CE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Khazar Khaganate (south steppe)",
+              "regime": "khazar_khaganate"
+            },
+            {
+              "label": "Volga Bulgaria",
+              "note": "c.700–1238 CE",
+              "regime": "volga_bulgaria"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Indigenous peoples · Göktürk Khaganate influence" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Indigenous peoples · Göktürk Khaganate influence",
+              "regime": "goktürk_khaganate"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Kievan Rus / Appanages", "rowspan": 2 },
+      "era": {
+        "label": "Kievan Rus / Appanages",
+        "rowspan": 2
+      },
       "cells": [
-        { "stack": [
-            { "label": "Novgorod Republic — Rurik dynasty", "note": "c.862 CE" },
-            { "label": "Ladoga · Staraya Russa · Pskov" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Novgorod Republic — Rurik dynasty",
+              "note": "c.862 CE",
+              "regime": "novgorod_republic"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Kievan Rus — Vladimir-Suzdal Principality" },
-            { "label": "Rostov · Vladimir · Suzdal" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Kievan Rus — Vladimir-Suzdal Principality",
+              "regime": "kievan_rus_regime"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Kievan Rus fringe · Khazar remnants" },
-            { "label": "Volga Bulgaria (Ural–Volga)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Kievan Rus fringe · Khazar remnants",
+              "regime": "kievan_rus_regime"
+            },
+            {
+              "label": "Volga Bulgaria (Ural–Volga)",
+              "regime": "volga_bulgaria"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Indigenous peoples — no Rus penetration" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Novgorod Republic (Lord Novgorod the Great)" },
-            { "label": "Mongol invasion — Novgorod spared", "note": "1237–1240" },
-            { "label": "Alexander Nevsky vs Teutonic Knights", "note": "1242" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Mongol invasion — Vladimir-Suzdal sacked", "note": "1238" },
-            { "label": "Golden Horde suzerainty — 'Tatar Yoke'" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Mongol conquest — Volga Bulgaria destroyed (1237)" },
-            { "label": "Golden Horde — Sarai (capital on lower Volga)" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Indigenous peoples" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Rise of Moscow", "rowspan": 2 },
-      "cells": [
-        { "stack": [
-            { "label": "Novgorod Republic" },
-            { "label": "Annexed by Moscow", "note": "1478" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Principality of Moscow (Muscovy)", "note": "founded c.1263" },
-            { "label": "Ivan III — Great Stand on Ugra River", "note": "1480 — end of Tatar Yoke" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Golden Horde → Kazan Khanate", "note": "1438" },
-            { "label": "Astrakhan Khanate · Nogai Horde" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Indigenous peoples" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Tsardom of Russia — Ivan IV (the Terrible)", "note": "1547" },
-            { "label": "Livonian War", "note": "1558–1583" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Tsardom of Russia" },
-            { "label": "Time of Troubles (Smuta)", "note": "1598–1613" },
-            { "label": "Romanov dynasty begins", "note": "1613" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Ivan IV conquers Kazan (1552) and Astrakhan (1556)" },
-            { "label": "Cossack expansion — Don Cossack Host" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Yermak Timofeyevich — conquest of Siberia begins", "note": "1581–1598" },
-            { "label": "Russian expansion to Pacific", "note": "by 1639" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Russian Empire", "rowspan": 3 },
-      "cells": [
-        { "stack": [
-            { "label": "Peter I — Great Northern War · St. Petersburg founded", "note": "1703" },
-            { "label": "Russian Empire proclaimed", "note": "1721" }
-          ], "span": 2
-        },
-        { "stack": [
-            { "label": "Peter I reforms · Bulavin Cossack revolt", "note": "1707" },
-            { "label": "Pugachev rebellion", "note": "1773–1775" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Russian Empire — Siberian expansion continues" },
-            { "label": "Alaska colonised (Russian America)", "note": "1784–1867" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Indigenous peoples — no Rus penetration",
+              "regime": "indigenous_peoples"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Russian Empire — Napoleonic Wars", "note": "1812 — Moscow briefly occupied" },
-            { "label": "Decembrist revolt", "note": "1825" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Novgorod Republic (Lord Novgorod the Great)",
+              "note": "Mongol invasion spared Novgorod 1237–1240; Alexander Nevsky defeats Teutonic Knights 1242",
+              "regime": "novgorod_republic"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Russian Empire — Caucasus wars" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Golden Horde suzerainty — 'Tatar Yoke'",
+              "note": "Vladimir-Suzdal sacked 1238",
+              "regime": "golden_horde"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Russian Empire — East Siberia · Amur acquired from China", "note": "1858–1860" },
-            { "label": "Alaska sold to USA", "note": "1867" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Golden Horde — Sarai (capital on lower Volga)",
+              "note": "Volga Bulgaria destroyed 1237",
+              "regime": "golden_horde"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Indigenous peoples",
+              "regime": "indigenous_peoples"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Rise of Moscow",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Novgorod Republic",
+              "note": "annexed by Moscow 1478",
+              "regime": "novgorod_republic"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Principality of Moscow (Muscovy)",
+              "note": "founded c.1263; end of Tatar Yoke 1480",
+              "regime": "principality_of_moscow"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Golden Horde → Kazan Khanate",
+              "note": "1438",
+              "regime": "golden_horde"
+            },
+            {
+              "label": "Astrakhan Khanate · Nogai Horde",
+              "regime": "astrakhan_khanate"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Indigenous peoples",
+              "regime": "indigenous_peoples"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Russian Empire — emancipation of serfs (1861) · industrialisation" },
-            { "label": "Revolutionary movement growing" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Tsardom of Russia — Ivan IV (the Terrible)",
+              "note": "1547; Livonian War 1558–1583",
+              "regime": "tsardom_russia"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Russian Empire — Trans-Siberian Railway", "note": "begun 1891" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Tsardom of Russia",
+              "note": "Time of Troubles 1598–1613; Romanov dynasty 1613",
+              "regime": "tsardom_russia"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Russian Empire — Trans-Siberian Railway · Russo-Japanese War", "note": "1904–1905" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Tsardom of Russia — Kazan conquered (1552) · Astrakhan (1556)",
+              "note": "",
+              "regime": "tsardom_russia"
+            },
+            {
+              "label": "Don Cossack Host (expansion)"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Conquest of Siberia begins (Yermak)",
+              "note": "1581–1598; expansion to Pacific by 1639"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Revolution / Civil War", "rowspan": 1 },
+      "era": {
+        "label": "Russian Empire",
+        "rowspan": 3
+      },
       "cells": [
-        { "stack": [
-            { "label": "February Revolution 1917 · October Revolution 1917" },
-            { "label": "White Army (NW) · Allied intervention", "note": "1918–1920" },
-            { "label": "Russian Soviet Federative Socialist Republic (RSFSR)" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Russian Empire (proclaimed 1721)",
+              "note": "Peter I; St. Petersburg founded 1703",
+              "regime": "russian_empire"
+            }
+          ],
+          "span": 2
         },
-        { "stack": [
-            { "label": "White Army — Volunteer Army (Denikin) · Cossack revolt" },
-            { "label": "Red Army reconquest" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Russian Empire — Volga-Don region",
+              "note": "Pugachev rebellion 1773–1775",
+              "regime": "russian_empire"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Czech Legion · White Army (Kolchak) · Red Army" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Soviet", "rowspan": 3 },
-      "cells": [
-        { "stack": [
-            { "label": "Soviet Union — Leningrad (formerly St. Petersburg)" },
-            { "label": "Leningrad Siege", "note": "1941–1944" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Soviet Union / Russian SFSR — Moscow capital" },
-            { "label": "Collectivisation · Five-Year Plans · Great Terror", "note": "1930s" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Soviet Union — Volga-Ural industrial region" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Soviet Union — Gulag system · Siberian labour camps" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Soviet Union — WWII (Great Patriotic War)", "note": "1941–1945" },
-            { "label": "Operation Barbarossa → Stalingrad (1942–43) → Berlin" }
-          ], "span": 4
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Soviet Union — Cold War · Space Race · Khrushchev Thaw" },
-            { "label": "Brezhnev era · Stagnation · Gorbachev reforms (Glasnost · Perestroika)" }
-          ], "span": 4
-        }
-      ]
-    },
-    {
-      "era": { "label": "Contemporary", "rowspan": 2 },
-      "cells": [
-        { "stack": [
-            { "label": "Russian Federation (1991)" },
-            { "label": "Chechen Wars", "note": "1994–1996 · 1999–2009" }
-          ], "span": 2
-        },
-        { "stack": [
-            { "label": "Russian Federation — Volga Federal District" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Russian Federation — Siberian · Far Eastern Federal Districts" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Russian Empire — Siberian expansion continues",
+              "regime": "russian_empire"
+            },
+            {
+              "label": "Russian America (Alaska)",
+              "note": "1784–1867",
+              "regime": "russian_america"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "label": "Russian Federation — Putin era (2000–) · Annexation of Crimea (2014) · Full-scale war in Ukraine (2022–)", "span": 4 }
+        {
+          "stack": [
+            {
+              "label": "Russian Empire — Napoleonic era",
+              "note": "Moscow occupied 1812; Decembrist revolt 1825",
+              "regime": "russian_empire"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Russian Empire — Caucasus wars",
+              "regime": "russian_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Russian Empire — East Siberia · Amur acquired from China",
+              "note": "1858–1860; Alaska sold 1867",
+              "regime": "russian_empire"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Russian Empire — emancipation of serfs (1861) · industrialisation",
+              "regime": "russian_empire"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Russian Empire — Trans-Siberian Railway",
+              "note": "begun 1891",
+              "regime": "russian_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Russian Empire — Trans-Siberian Railway · Russo-Japanese War",
+              "note": "1904–1905",
+              "regime": "russian_empire"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Revolution / Civil War",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Russian Soviet Federative Socialist Republic (RSFSR)",
+              "note": "Feb & Oct Revolutions 1917",
+              "regime": "russian_soviet_federative_socialist_republic"
+            },
+            {
+              "label": "White Army (NW) · Allied intervention",
+              "note": "1918–1920",
+              "regime": "white_army"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "White Army — Volunteer Army (Denikin) · Cossack revolt"
+            },
+            {
+              "label": "Red Army reconquest",
+              "regime": "red_army_reconquest"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Czech Legion · White Army (Kolchak) · Red Army",
+              "regime": "czech_legion"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Soviet",
+        "rowspan": 3
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Soviet Union — Leningrad (formerly St. Petersburg)",
+              "note": "Siege 1941–1944",
+              "regime": "soviet_union"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Soviet Union / Russian SFSR — Moscow capital",
+              "note": "Collectivisation · Five-Year Plans · Great Terror (1930s)",
+              "regime": "soviet_union"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Soviet Union — Volga-Ural industrial region",
+              "regime": "soviet_union"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Soviet Union — Gulag system · Siberian labour camps",
+              "regime": "soviet_union"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Soviet Union — WWII (Great Patriotic War)",
+              "note": "1941–1945",
+              "regime": "soviet_union"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Soviet Union — Cold War · Space Race · Khrushchev Thaw",
+              "note": "Brezhnev stagnation; Gorbachev Glasnost · Perestroika",
+              "regime": "soviet_union"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Russian Federation (1991)",
+              "note": "Chechen Wars 1994–1996, 1999–2009",
+              "regime": "russian_federation"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Russian Federation — Volga Federal District",
+              "regime": "russian_federation"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Russian Federation — Siberian · Far Eastern Federal Districts",
+              "regime": "russian_federation"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "label": "Russian Federation — Putin era (2000–) · Annexation of Crimea (2014) · Full-scale war in Ukraine (2022–)",
+          "span": 4,
+          "regime": "russian_federation"
+        }
       ]
     }
   ],

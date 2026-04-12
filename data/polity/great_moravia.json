@@ -1,7 +1,7 @@
 {
   "id": "great_moravia",
   "name": "Great Moravia",
-  "ruling_ethnicity": "slavic",
+  "ruling_ethnicity": "slavic_cluster",
   "cultural_language": "old_church_slavonic",
   "ideology": {
     "religion": "roman_catholicism",

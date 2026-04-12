@@ -1,7 +1,7 @@
 {
   "id": "albanian_kingdom",
   "name": "Albanian Kingdom",
-  "ruling_ethnicity": "caucasian",
+  "ruling_ethnicity": "caucasian_peoples",
   "cultural_language": "albanian",
   "ideology": {
     "government": "monarchy"

@@ -1,0 +1,15 @@
+{
+  "id": "creek_confederacy",
+  "name": "Creek Confederacy (Muscogee)",
+  "ruling_ethnicity": "creek",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "us_south"
+  ],
+  "start": 1600,
+  "end": 1832,
+  "note": "Southeastern confederacy"
+}

@@ -1,7 +1,7 @@
 {
   "id": "germanic_tribes",
   "name": "Germanic tribes",
-  "ruling_ethnicity": "germanic",
+  "ruling_ethnicity": "germanic_cluster",
   "ideology": {
     "religion": "germanic_paganism",
     "government": "tribal_confederation"

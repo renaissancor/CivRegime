@@ -1,0 +1,15 @@
+{
+  "id": "olmec",
+  "name": "Olmec Civilization",
+  "ruling_ethnicity": "mesoamerican_cluster",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "mesoamerica"
+  ],
+  "start": -1500,
+  "end": -400,
+  "note": "Mother culture of Mesoamerica"
+}

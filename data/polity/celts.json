@@ -1,7 +1,7 @@
 {
   "id": "celts",
   "name": "Celts",
-  "ruling_ethnicity": "celtic",
+  "ruling_ethnicity": "celtic_peoples",
   "ideology": {
     "religion": "celtic_paganism",
     "government": "tribal_confederation"

@@ -2,7 +2,7 @@
   "id": "manchukuo",
   "name": "Manchukuo",
   "ruling_ethnicity": "han_chinese",
-  "cultural_language": "modern_chinese",
+  "cultural_language": "modern_chinese_group",
   "ideology": {
     "religion": "chinese_folk_religion",
     "government": "absolute_monarchy"

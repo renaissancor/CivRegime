@@ -1,0 +1,15 @@
+{
+  "id": "wari_empire",
+  "name": "Wari Empire",
+  "ruling_ethnicity": "quechua",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "andes"
+  ],
+  "start": 600,
+  "end": 1000,
+  "note": "First Andean empire"
+}

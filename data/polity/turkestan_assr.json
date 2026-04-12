@@ -1,7 +1,7 @@
 {
   "id": "turkestan_assr",
   "name": "Turkestan ASSR",
-  "ruling_ethnicity": "turkic",
+  "ruling_ethnicity": "turkic_cluster",
   "ideology": {
     "government": "communist_state"
   },

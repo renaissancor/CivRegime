@@ -1,0 +1,18 @@
+{
+  "id": "canada",
+  "name": "Canada",
+  "ruling_ethnicity": "english",
+  "cultural_language": "english",
+  "ideology": {
+    "religion": "protestant",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "quebec",
+    "atlantic_canada",
+    "western_canada"
+  ],
+  "start": 1982,
+  "end": null,
+  "note": "Full sovereignty with Constitution Act 1982"
+}

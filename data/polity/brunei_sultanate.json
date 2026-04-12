@@ -2,7 +2,7 @@
   "id": "brunei_sultanate",
   "name": "Brunei Sultanate",
   "ruling_ethnicity": "malay_indonesian",
-  "cultural_language": "malay",
+  "cultural_language": "malay_indonesian",
   "ideology": {
     "religion": "sunni",
     "government": "sultanate"

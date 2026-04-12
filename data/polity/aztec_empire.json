@@ -1,0 +1,16 @@
+{
+  "id": "aztec_empire",
+  "name": "Aztec Empire (Mexico-Tenochtitlan)",
+  "ruling_ethnicity": "aztec",
+  "cultural_language": "classical_nahuatl",
+  "ideology": {
+    "religion": "aztec_religion",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "mesoamerica"
+  ],
+  "start": 1428,
+  "end": 1521,
+  "note": "Triple Alliance"
+}

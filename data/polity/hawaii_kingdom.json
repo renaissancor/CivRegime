@@ -1,0 +1,15 @@
+{
+  "id": "hawaii_kingdom",
+  "name": "Kingdom of Hawaiʻi",
+  "ruling_ethnicity": "hawaiian",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "monarchy"
+  },
+  "territories": [
+    "hawaii"
+  ],
+  "start": 1795,
+  "end": 1893,
+  "note": "Unified Hawaiian islands under Kamehameha"
+}

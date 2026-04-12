@@ -1,0 +1,16 @@
+{
+  "id": "teotihuacan",
+  "name": "Teotihuacan",
+  "ruling_ethnicity": "mesoamerican_cluster",
+  "cultural_language": "classical_nahuatl",
+  "ideology": {
+    "religion": "aztec_religion",
+    "government": "city_state"
+  },
+  "territories": [
+    "mesoamerica"
+  ],
+  "start": -100,
+  "end": 550,
+  "note": "Classic-era Mesoamerican metropolis"
+}

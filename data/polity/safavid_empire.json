@@ -2,9 +2,9 @@
   "id": "safavid_empire",
   "name": "Safavid Empire",
   "ruling_ethnicity": "persian",
-  "cultural_language": "new_persian",
+  "cultural_language": "new_persian_farsi",
   "ideology": {
-    "religion": "shia_twelver",
+    "religion": "twelver_shia",
     "government": "imamate"
   },
   "territories": [

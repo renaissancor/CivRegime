@@ -1,0 +1,507 @@
+{
+  "id": "czech_slovakia",
+  "title": "History of Czechia & Slovakia (Česko a Slovensko)",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "bohemia",
+      "name": "Bohemia (Čechy)",
+      "slots": 1
+    },
+    {
+      "id": "moravia",
+      "name": "Moravia (Morava)",
+      "slots": 1
+    },
+    {
+      "id": "slovakia",
+      "name": "Slovakia (Slovensko)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Ancient",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Celtic Boii",
+              "note": "c.400–50 BCE; give Bohemia its name",
+              "regime": "celtic_boii"
+            },
+            {
+              "label": "Germanic tribes (Marcomanni · Quadi)",
+              "note": "c.50 BCE–5th c.",
+              "regime": "germanic_tribes"
+            },
+            {
+              "label": "West Slavic settlement",
+              "note": "c.500–600",
+              "regime": "west_slavic_settlement"
+            },
+            {
+              "regime": "avar_khaganate",
+              "label": "Avar Khaganate (overlordship)",
+              "note": "c.560–626"
+            },
+            {
+              "label": "Samo's Empire (first Slavic polity)",
+              "note": "623–658",
+              "regime": "samos_empire"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Early Medieval",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "label": "Czech tribes (fragmented)",
+          "note": "7th–9th c.",
+          "span": 1,
+          "regime": "czech_tribes"
+        },
+        {
+          "stack": [
+            {
+              "label": "Duchy of Moravia (Mojmír I)",
+              "note": "c.820–833",
+              "regime": "duchy_of_moravia"
+            },
+            {
+              "label": "Great Moravia (Rastislav · Svatopluk I)",
+              "note": "833–907",
+              "regime": "great_moravia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Principality of Nitra (within Great Moravia)",
+              "note": "c.828–907",
+              "regime": "principality_of_nitra"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Duchy of Bohemia — Přemyslid dynasty",
+              "note": "c.870–1198",
+              "regime": "duchy_of_bohemia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Moravia absorbed into Bohemia",
+              "note": "after 907",
+              "regime": "moravia_absorbed_into_bohemia"
+            },
+            {
+              "label": "Margraviate of Moravia (under Bohemian crown)",
+              "note": "1182–",
+              "regime": "margraviate_of_moravia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Magyar conquest",
+              "note": "895–907; Great Moravia collapses"
+            },
+            {
+              "regime": "kingdom_of_hungary",
+              "label": "Kingdom of Hungary (Árpád dynasty)",
+              "note": "1000–1301"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "High Medieval",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_bohemia",
+              "label": "Kingdom of Bohemia — Přemyslid dynasty",
+              "note": "1198–1306"
+            },
+            {
+              "label": "Ottokar II — great power (Austria, Styria, Carinthia)",
+              "note": "1253–1278",
+              "regime": "ottokar_ii"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Margraviate of Moravia (Přemyslid appanage)",
+              "note": "1182–1306",
+              "regime": "margraviate_of_moravia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_hungary",
+              "label": "Kingdom of Hungary",
+              "note": ""
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_bohemia",
+              "label": "Kingdom of Bohemia — Piast dynasty (briefly)",
+              "note": "1300–1306"
+            },
+            {
+              "regime": "kingdom_of_bohemia",
+              "label": "Kingdom of Bohemia — Luxembourg dynasty",
+              "note": "1310–1437"
+            },
+            {
+              "label": "Charles IV — Holy Roman Emperor",
+              "note": "1346–1378; Prague = imperial capital",
+              "regime": "charles_iv"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_hungary",
+              "label": "Kingdom of Hungary — Angevin dynasty",
+              "note": "1301–1395"
+            },
+            {
+              "label": "Matthias Corvinus (briefly holds Moravia too)",
+              "note": "1469–1490"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Hussite / Late Medieval",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Hussite Wars (Bohemian Reformation)",
+              "note": "1419–1434; Jan Hus burned 1415"
+            },
+            {
+              "label": "Hussite Bohemia (Utraquists vs Catholics)",
+              "note": "1419–1436",
+              "regime": "hussite_bohemia"
+            },
+            {
+              "label": "George of Poděbrady — 'Hussite King'",
+              "note": "1458–1471",
+              "regime": "george_of_podebrady"
+            },
+            {
+              "regime": "kingdom_of_bohemia",
+              "label": "Kingdom of Bohemia — Jagiellonian dynasty",
+              "note": "1471–1526"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_hungary",
+              "label": "Kingdom of Hungary — Jagiellonian dynasty",
+              "note": "1490–1526; ends at Battle of Mohács"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Habsburg Era",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_bohemia",
+              "label": "Kingdom of Bohemia — Habsburg dynasty",
+              "note": "1526–1918"
+            },
+            {
+              "regime": "habsburg_monarchy",
+              "label": "Habsburg Monarchy",
+              "note": ""
+            },
+            {
+              "label": "Thirty Years' War",
+              "note": "1618–1648; Bohemian Revolt 1618, defeat at White Mountain 1620"
+            },
+            {
+              "label": "Forced re-Catholicization · Germanization",
+              "note": "1620s–",
+              "regime": "forced_re_catholicization"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_hungary",
+              "label": "Kingdom of Hungary — Habsburg rule",
+              "note": "1526–"
+            },
+            {
+              "regime": "ottoman_empire",
+              "label": "Ottoman Empire — Ottoman Hungary (south)",
+              "note": "1541–1699"
+            },
+            {
+              "label": "Slovakia = Habsburg Hungary's core (Pressburg/Bratislava = capital)",
+              "note": "1536–1783",
+              "regime": "slovakia_habsburg_hungarys_core"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Czech National Revival (linguistic · cultural)",
+              "note": "late 18th–19th c.",
+              "regime": "czech_national_revival"
+            },
+            {
+              "label": "Austro-Hungarian Compromise — Bohemia stays Austrian",
+              "note": "1867",
+              "regime": "austro_hungarian_compromise"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Austro-Hungarian Compromise — Slovakia stays Hungarian",
+              "note": "1867",
+              "regime": "austro_hungarian_compromise"
+            },
+            {
+              "label": "Magyarization policies (Slovak language suppressed)",
+              "note": "1867–1918",
+              "regime": "magyarization_policies"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Czechoslovakia",
+        "rowspan": 3
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "czechoslovakia",
+              "label": "Czechoslovak Republic (First Republic — T.G. Masaryk)",
+              "note": "1918–1938"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "czechoslovakia",
+              "label": "Second Republic (truncated)",
+              "note": "Oct 1938 – Mar 1939; Munich Agreement cedes Sudetenland"
+            },
+            {
+              "regime": "nazi_germany",
+              "label": "Protectorate of Bohemia & Moravia (Nazi occupation)",
+              "note": "1939–1945"
+            },
+            {
+              "label": "Czechoslovak government-in-exile (Beneš — London)",
+              "note": "1939–1945"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "First Slovak Republic (Tiso — Nazi client state)",
+              "note": "1939–1945",
+              "regime": "first_slovak_republic"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "czechoslovakia",
+              "label": "Third Republic (restored)",
+              "note": "1945–1948; Sudeten Germans expelled"
+            },
+            {
+              "regime": "czechoslovakia",
+              "label": "Czechoslovak Socialist Republic",
+              "note": "1948–1989; Communist coup Feb 1948"
+            },
+            {
+              "label": "Prague Spring — reform crushed by Warsaw Pact invasion",
+              "note": "1968"
+            },
+            {
+              "label": "Federalization (Czech SR + Slovak SR)",
+              "note": "1969",
+              "regime": "federalization"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "czechoslovakia",
+              "label": "Czechoslovak Federal Republic (post-Velvet Revolution)",
+              "note": "1989–1992"
+            },
+            {
+              "label": "Velvet Divorce (peaceful dissolution)",
+              "note": "1 January 1993"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Czech Republic (Česká republika)",
+              "note": "1993–",
+              "regime": "czech_republic"
+            },
+            {
+              "label": "NATO member (1999) · EU member (2004)",
+              "note": ""
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Slovak Republic (Slovenská republika)",
+              "note": "1993–",
+              "regime": "slovak_republic"
+            },
+            {
+              "label": "NATO (2004) · EU (2004) · Eurozone (2009)",
+              "note": "",
+              "regime": "nato_eu_eurozone"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Great Moravia (833–907): the first major West Slavic state, centered in modern Moravia and western Slovakia; Prince Rastislav invited Saints Cyril and Methodius from Byzantium in 863, who created the Glagolitic script and translated liturgical texts into Old Church Slavonic; the state collapsed under Magyar invasions after 895",
+    "Přemyslid dynasty (c.870–1306): the founding dynasty of the Czech state ruled for over four centuries; under Ottokar II (1253–1278) Bohemia briefly controlled Austria, Styria, Carinthia, and Carniola, making it one of the most powerful states in Europe before his defeat by Rudolf of Habsburg",
+    "Charles IV and the Golden Age (1346–1378): as both King of Bohemia and Holy Roman Emperor, Charles made Prague an imperial capital; he founded Charles University (1348), built the Charles Bridge, and the Golden Bull of 1356 confirmed Bohemia's electoral status; Prague was the third-largest city in Europe",
+    "Hussite Wars (1419–1434): following Jan Hus's execution, Bohemia erupted in Europe's first major proto-Protestant revolution; the Hussite armies under Jan Žižka defeated five consecutive crusades; the movement prefigured the Reformation by a century and established Czech religious distinctiveness",
+    "Battle of White Mountain (1620): the decisive Habsburg victory ended Bohemian independence for 300 years; 27 Czech Protestant leaders were executed in Old Town Square; forced re-Catholicization and Germanization followed; the Czech language nearly disappeared from public life until the National Revival",
+    "Munich Agreement (1938): Britain and France allowed Nazi Germany to annex the Sudetenland (German-speaking border regions); Czechoslovakia lost its fortifications and 30% of its territory without being consulted; Hitler occupied the rest in March 1939 — the word 'Munich' became synonymous with appeasement",
+    "Prague Spring (1968): Alexander Dubček's reform program of 'socialism with a human face' was crushed by Warsaw Pact invasion on 21 August 1968; the trauma deepened Czech-Slovak divisions and fueled the dissident movement (Charter 77) that ultimately led to the Velvet Revolution of 1989"
+  ]
+}

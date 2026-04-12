@@ -1,0 +1,16 @@
+{
+  "id": "french_caribbean",
+  "name": "French Caribbean",
+  "ruling_ethnicity": "french",
+  "cultural_language": "french",
+  "ideology": {
+    "religion": "catholic",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "caribbean"
+  ],
+  "start": 1635,
+  "end": null,
+  "note": "Martinique/Guadeloupe"
+}

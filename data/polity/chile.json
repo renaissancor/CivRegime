@@ -1,0 +1,16 @@
+{
+  "id": "chile",
+  "name": "Republic of Chile",
+  "ruling_ethnicity": "mestizo",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "patagonia",
+    "andes"
+  ],
+  "start": 1818,
+  "end": null
+}

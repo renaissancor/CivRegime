@@ -1,0 +1,155 @@
+{
+  "id": "levant",
+  "name": "levant",
+  "regime_count": 30,
+  "regimes": [
+    {
+      "regime_id": "akkadian_empire",
+      "start": -2334,
+      "end": -2154
+    },
+    {
+      "regime_id": "new_kingdom_egypt",
+      "start": -1550,
+      "end": -1070
+    },
+    {
+      "regime_id": "phoenician_states",
+      "start": -1200,
+      "end": -332
+    },
+    {
+      "regime_id": "kingdom_of_israel",
+      "start": -1047,
+      "end": -930
+    },
+    {
+      "regime_id": "kingdom_of_judah",
+      "start": -930,
+      "end": -586
+    },
+    {
+      "regime_id": "neo_assyrian_empire",
+      "start": -911,
+      "end": -609
+    },
+    {
+      "regime_id": "neo_babylonian",
+      "start": -626,
+      "end": -539
+    },
+    {
+      "regime_id": "achaemenid_empire",
+      "start": -550,
+      "end": -330
+    },
+    {
+      "regime_id": "macedonian_empire",
+      "start": -336,
+      "end": -323
+    },
+    {
+      "regime_id": "seleucid_empire",
+      "start": -312,
+      "end": -63
+    },
+    {
+      "regime_id": "ptolemaic_egypt",
+      "start": -305,
+      "end": -30
+    },
+    {
+      "regime_id": "roman_empire",
+      "start": -27,
+      "end": 380
+    },
+    {
+      "regime_id": "roman_empire",
+      "start": 380,
+      "end": 395
+    },
+    {
+      "regime_id": "byzantine_empire",
+      "start": 395,
+      "end": 636
+    },
+    {
+      "regime_id": "rashidun_caliphate",
+      "start": 632,
+      "end": 661
+    },
+    {
+      "regime_id": "umayyad_caliphate",
+      "start": 661,
+      "end": 750
+    },
+    {
+      "regime_id": "abbasid_caliphate",
+      "start": 750,
+      "end": 1258
+    },
+    {
+      "regime_id": "fatimid_caliphate",
+      "start": 909,
+      "end": 1171
+    },
+    {
+      "regime_id": "ayyubid_sultanate",
+      "start": 1171,
+      "end": 1260
+    },
+    {
+      "regime_id": "mamluk_sultanate",
+      "start": 1250,
+      "end": 1517
+    },
+    {
+      "regime_id": "ottoman_empire",
+      "start": 1517,
+      "end": 1918
+    },
+    {
+      "regime_id": "hasmonean_dynasty",
+      "start": -140,
+      "end": -37
+    },
+    {
+      "regime_id": "ikhshidid_dynasty",
+      "start": 935,
+      "end": 969
+    },
+    {
+      "regime_id": "kingdom_of_jerusalem",
+      "start": 1099,
+      "end": 1291
+    },
+    {
+      "regime_id": "kingdom_of_jordan",
+      "start": 1946
+    },
+    {
+      "regime_id": "mitanni_empire",
+      "start": -1500,
+      "end": -1300
+    },
+    {
+      "regime_id": "palmyrene_empire",
+      "start": 260,
+      "end": 273
+    },
+    {
+      "regime_id": "state_of_israel",
+      "start": 1948
+    },
+    {
+      "regime_id": "tulunid_dynasty",
+      "start": 868,
+      "end": 905
+    },
+    {
+      "regime_id": "zangid_atabegate",
+      "start": 1127,
+      "end": 1250
+    }
+  ]
+}

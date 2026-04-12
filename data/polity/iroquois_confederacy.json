@@ -1,0 +1,16 @@
+{
+  "id": "iroquois_confederacy",
+  "name": "Iroquois Confederacy (Haudenosaunee)",
+  "ruling_ethnicity": "iroquois",
+  "cultural_language": "iroquoian",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "us_east"
+  ],
+  "start": 1450,
+  "end": 1784,
+  "note": "Five/Six Nations confederacy"
+}

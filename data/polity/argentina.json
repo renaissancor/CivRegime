@@ -1,0 +1,15 @@
+{
+  "id": "argentina",
+  "name": "Argentine Republic",
+  "ruling_ethnicity": "spanish",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "patagonia"
+  ],
+  "start": 1816,
+  "end": null
+}

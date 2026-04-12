@@ -2,7 +2,7 @@
   "id": "ryukyu_kingdom",
   "name": "Ryukyu Kingdom",
   "ruling_ethnicity": "ryukyuan",
-  "cultural_language": "ryukyuan_lang",
+  "cultural_language": "ryukyuan",
   "ideology": {
     "religion": "buddhism",
     "government": "centralized_monarchy"

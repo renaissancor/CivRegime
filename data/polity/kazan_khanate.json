@@ -2,9 +2,9 @@
   "id": "kazan_khanate",
   "name": "Kazan Khanate",
   "ruling_ethnicity": "tatar",
-  "cultural_language": "chagatai_turkic",
+  "cultural_language": "chagatai",
   "ideology": {
-    "religion": "sunni_islam",
+    "religion": "sunni",
     "government": "khanate"
   },
   "territories": [

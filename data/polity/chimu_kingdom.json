@@ -1,0 +1,15 @@
+{
+  "id": "chimu_kingdom",
+  "name": "Chimú Kingdom",
+  "ruling_ethnicity": "quechua",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "monarchy"
+  },
+  "territories": [
+    "andes"
+  ],
+  "start": 900,
+  "end": 1470,
+  "note": "Coastal Andean kingdom conquered by Inca"
+}

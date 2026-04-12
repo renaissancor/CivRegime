@@ -1,0 +1,17 @@
+{
+  "id": "rupert_land",
+  "name": "Rupert's Land (Hudson's Bay Company)",
+  "ruling_ethnicity": "english",
+  "cultural_language": "english",
+  "ideology": {
+    "religion": "protestant",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "western_canada",
+    "us_midwest"
+  ],
+  "start": 1670,
+  "end": 1870,
+  "note": "HBC fur trade territory"
+}

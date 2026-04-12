@@ -2,135 +2,375 @@
   "id": "korea",
   "title": "History of Korea",
   "columns": [
-    { "id": "era",       "name": "Era",             "slots": 1, "type": "era" },
-    { "id": "manchuria", "name": "Manchuria",         "slots": 1 },
-    { "id": "peninsula", "name": "Korean Peninsula",  "slots": 3 },
-    { "id": "jeju",      "name": "Jeju Island",       "slots": 1 }
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "manchuria",
+      "name": "Manchuria",
+      "slots": 1
+    },
+    {
+      "id": "peninsula",
+      "name": "Korean Peninsula",
+      "slots": 3
+    },
+    {
+      "id": "jeju",
+      "name": "Jeju Island",
+      "slots": 1
+    }
   ],
   "rows": [
     {
-      "era": { "label": "Prehistoric", "rowspan": 1 },
+      "era": {
+        "label": "Prehistoric",
+        "rowspan": 1
+      },
       "cells": [
-        { "label": "Paleolithic / Neolithic peoples", "span": 5 }
-      ]
-    },
-    {
-      "era": { "label": "Gojoseon", "rowspan": 1 },
-      "cells": [
-        { "label": "Gojoseon",                "span": 2 },
-        { "label": "Jin state (south tribes)", "span": 2 },
-        { "label": "Tamna",                   "span": 1 }
-      ]
-    },
-    {
-      "era": { "label": "Proto-Three Kingdoms", "rowspan": 1 },
-      "cells": [
-        { "label": "Buyeo · Okjeo",            "span": 1 },
-        { "label": "Nakrang (Han commandery)", "span": 1 },
-        { "label": "Mahan Confederacy",         "span": 1 },
-        { "label": "Jinhan · Byeonhan",         "span": 1 },
-        { "label": "Tamna",                     "span": 1 }
-      ]
-    },
-    {
-      "era": { "label": "Three Kingdoms", "rowspan": 1 },
-      "cells": [
-        { "regime": "goguryeo",    "label": "Goguryeo",      "span": 2 },
-        { "regime": "baekje",      "label": "Baekje",        "span": 1 },
-        { "regime": "silla",       "label": "Silla · Gaya",  "span": 1 },
-        { "label": "Tamna",                                   "span": 1 }
-      ]
-    },
-    {
-      "era": { "label": "North-South States", "rowspan": 1 },
-      "cells": [
-        { "label": "Balhae",                                    "span": 1 },
-        { "regime": "unified_silla", "label": "Unified Silla", "span": 3 },
-        { "label": "Tamna → Silla",                            "span": 1 }
-      ]
-    },
-    {
-      "era": { "label": "Later Three Kingdoms", "rowspan": 1 },
-      "cells": [
-        { "label": "Khitan (forming)",                         "span": 1 },
-        { "label": "Later Goguryeo (Taebong)",                "span": 1 },
-        { "label": "Later Baekje",                             "span": 1 },
-        { "regime": "silla", "label": "Silla (declining)",    "span": 1 },
-        { "label": "Tamna",                                    "span": 1 }
-      ]
-    },
-    {
-      "era": { "label": "Goryeo", "rowspan": 1 },
-      "cells": [
-        { "stack": [
-            { "label": "Khitan Liao · Jurchen Jin", "note": "918–1231" },
-            { "label": "Mongol Yuan",                "note": "1231–1356" },
-            { "label": "Ming Dynasty",               "note": "1356–1392" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "goryeo", "label": "Goryeo",              "note": "918–1231" },
-            { "regime": "goryeo", "label": "Goryeo (Yuan vassal)", "note": "1231–1356" },
-            { "regime": "goryeo", "label": "Goryeo (restored)",    "note": "1356–1392" }
-          ], "span": 4
+        {
+          "label": "Paleolithic / Neolithic peoples",
+          "span": 5,
+          "regime": "paleolithic_culture"
         }
       ]
     },
     {
-      "era": { "label": "Joseon", "rowspan": 1 },
+      "era": {
+        "label": "Gojoseon",
+        "rowspan": 1
+      },
       "cells": [
-        { "stack": [
-            { "label": "Ming Dynasty", "note": "1392–1644" },
-            { "label": "Qing Dynasty", "note": "1644–1897" }
-          ], "span": 1
+        {
+          "label": "Gojoseon",
+          "span": 2,
+          "regime": "joseon"
         },
-        { "stack": [
-            { "regime": "joseon", "label": "Joseon",                               "note": "1392–1592" },
-            { "regime": "joseon", "label": "Joseon (Imjin War · Manchu invasions)", "note": "1592–1637" },
-            { "regime": "joseon", "label": "Joseon (Qing tributary)",              "note": "1637–1897" }
-          ], "span": 4
+        {
+          "label": "Jin state (south tribes)",
+          "span": 2,
+          "regime": "jin_state"
+        },
+        {
+          "label": "Tamna",
+          "span": 1,
+          "regime": "tamna"
         }
       ]
     },
     {
-      "era": { "label": "Korean Empire", "rowspan": 1 },
+      "era": {
+        "label": "Proto-Three Kingdoms",
+        "rowspan": 1
+      },
       "cells": [
-        { "label": "Qing → Russian sphere", "span": 1 },
-        { "label": "Korean Empire",          "span": 4 }
-      ]
-    },
-    {
-      "era": { "label": "Japanese Occupation", "rowspan": 1 },
-      "cells": [
-        { "label": "Manchukuo (Japan puppet)",                    "span": 1 },
-        { "regime": "japanese_korea", "label": "Japanese Korea",  "span": 4 }
-      ]
-    },
-    {
-      "era": { "label": "Modern", "rowspan": 1 },
-      "cells": [
-        { "stack": [
-            { "label": "Soviet zone → China (PRC)", "note": "1945–1949 / 1949–" }
-          ], "span": 1
+        {
+          "label": "Buyeo · Okjeo",
+          "span": 1,
+          "regime": "buyeo_okjeo"
         },
-        { "stack": [
-            { "label": "Soviet Military Government",               "note": "1945–1948" },
-            { "regime": "north_korea", "label": "North Korea (DPRK)", "note": "1948–" }
-          ], "span": 1
+        {
+          "label": "Nakrang (Han commandery)",
+          "span": 1,
+          "regime": "nakrang"
         },
-        { "stack": [
-            { "label": "US Military Government",                   "note": "1945–1948" },
-            { "regime": "south_korea", "label": "South Korea (ROK)", "note": "1948–" }
-          ], "span": 3
+        {
+          "label": "Mahan Confederacy",
+          "span": 1,
+          "regime": "mahan_confederacy"
+        },
+        {
+          "label": "Jinhan · Byeonhan",
+          "span": 1,
+          "regime": "jinhan_byeonhan"
+        },
+        {
+          "label": "Tamna",
+          "span": 1,
+          "regime": "tamna"
         }
       ]
     },
     {
-      "era": { "label": "Contemporary", "rowspan": 1 },
+      "era": {
+        "label": "Three Kingdoms",
+        "rowspan": 1
+      },
       "cells": [
-        { "label": "China",                                       "span": 1 },
-        { "regime": "north_korea", "label": "North Korea",       "span": 1 },
-        { "regime": "south_korea", "label": "South Korea",       "span": 3 }
+        {
+          "regime": "goguryeo",
+          "label": "Goguryeo",
+          "span": 2
+        },
+        {
+          "regime": "baekje",
+          "label": "Baekje",
+          "span": 1
+        },
+        {
+          "regime": "silla",
+          "label": "Silla · Gaya",
+          "span": 1
+        },
+        {
+          "label": "Tamna",
+          "span": 1,
+          "regime": "tamna"
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "North-South States",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Balhae",
+          "span": 1,
+          "regime": "balhae"
+        },
+        {
+          "regime": "unified_silla",
+          "label": "Unified Silla",
+          "span": 3
+        },
+        {
+          "label": "Tamna → Silla",
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Later Three Kingdoms",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Khitan (forming)",
+          "span": 1
+        },
+        {
+          "label": "Later Goguryeo (Taebong)",
+          "span": 1,
+          "regime": "goguryeo"
+        },
+        {
+          "label": "Later Baekje",
+          "span": 1,
+          "regime": "baekje"
+        },
+        {
+          "regime": "silla",
+          "label": "Silla (declining)",
+          "span": 1
+        },
+        {
+          "label": "Tamna",
+          "span": 1,
+          "regime": "tamna"
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Goryeo",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Khitan Liao · Jurchen Jin",
+              "note": "918–1231",
+              "regime": "khitan_liao"
+            },
+            {
+              "label": "Mongol Yuan",
+              "note": "1231–1356",
+              "regime": "mongol_yuan"
+            },
+            {
+              "label": "Ming Dynasty",
+              "note": "1356–1392",
+              "regime": "ming_dynasty"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "goryeo",
+              "label": "Goryeo",
+              "note": "918–1231"
+            },
+            {
+              "regime": "goryeo",
+              "label": "Goryeo (Yuan vassal)",
+              "note": "1231–1356"
+            },
+            {
+              "regime": "goryeo",
+              "label": "Goryeo (restored)",
+              "note": "1356–1392"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Joseon",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Ming Dynasty",
+              "note": "1392–1644",
+              "regime": "ming_dynasty"
+            },
+            {
+              "label": "Qing Dynasty",
+              "note": "1644–1897",
+              "regime": "qing_dynasty"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "joseon",
+              "label": "Joseon",
+              "note": "1392–1592"
+            },
+            {
+              "regime": "joseon",
+              "label": "Joseon (Imjin War · Manchu invasions)",
+              "note": "1592–1637"
+            },
+            {
+              "regime": "joseon",
+              "label": "Joseon (Qing tributary)",
+              "note": "1637–1897"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Korean Empire",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Qing → Russian sphere",
+          "span": 1,
+          "regime": "qing_dynasty"
+        },
+        {
+          "label": "Korean Empire",
+          "span": 4,
+          "regime": "korean_empire"
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Japanese Occupation",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Manchukuo (Japan puppet)",
+          "span": 1,
+          "regime": "manchukuo"
+        },
+        {
+          "regime": "japanese_korea",
+          "label": "Japanese Korea",
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Modern",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Soviet zone → China (PRC)",
+              "note": "1945–1949 / 1949–"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Soviet Military Government",
+              "note": "1945–1948",
+              "regime": "soviet_military_government"
+            },
+            {
+              "regime": "north_korea",
+              "label": "North Korea (DPRK)",
+              "note": "1948–"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "US Military Government",
+              "note": "1945–1948",
+              "regime": "us_military_government"
+            },
+            {
+              "regime": "south_korea",
+              "label": "South Korea (ROK)",
+              "note": "1948–"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "China",
+          "span": 1,
+          "regime": "china"
+        },
+        {
+          "regime": "north_korea",
+          "label": "North Korea",
+          "span": 1
+        },
+        {
+          "regime": "south_korea",
+          "label": "South Korea",
+          "span": 3
+        }
       ]
     }
   ],

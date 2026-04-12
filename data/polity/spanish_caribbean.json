@@ -1,0 +1,16 @@
+{
+  "id": "spanish_caribbean",
+  "name": "Spanish Caribbean (Cuba/Hispaniola/Puerto Rico)",
+  "ruling_ethnicity": "spanish",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "caribbean"
+  ],
+  "start": 1492,
+  "end": 1898,
+  "note": "Spanish colonial islands"
+}

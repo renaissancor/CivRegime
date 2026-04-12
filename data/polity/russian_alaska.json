@@ -1,0 +1,16 @@
+{
+  "id": "russian_alaska",
+  "name": "Russian America",
+  "ruling_ethnicity": "east_slavic",
+  "cultural_language": "russian",
+  "ideology": {
+    "religion": "eastern_orthodox",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "alaska"
+  ],
+  "start": 1733,
+  "end": 1867,
+  "note": "Russian colonial Alaska"
+}

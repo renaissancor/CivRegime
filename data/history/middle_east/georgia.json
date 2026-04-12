@@ -2,235 +2,583 @@
   "id": "georgia",
   "title": "History of Georgia",
   "columns": [
-    { "id": "era",   "name": "Era",                                                    "slots": 1, "type": "era" },
-    { "id": "west",  "name": "West Georgia (Colchis · Lazica · Abkhazia · Imereti)",  "slots": 1 },
-    { "id": "south", "name": "South Georgia (Tao-Klarjeti · Samtskhe · Meskheti)",   "slots": 1 },
-    { "id": "east",  "name": "East Georgia (Iberia · Kartli · Kakheti · Tbilisi)",    "slots": 1 }
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "west",
+      "name": "West Georgia (Colchis · Lazica · Abkhazia · Imereti)",
+      "slots": 1
+    },
+    {
+      "id": "south",
+      "name": "South Georgia (Tao-Klarjeti · Samtskhe · Meskheti)",
+      "slots": 1
+    },
+    {
+      "id": "east",
+      "name": "East Georgia (Iberia · Kartli · Kakheti · Tbilisi)",
+      "slots": 1
+    }
   ],
   "rows": [
     {
-      "era": { "label": "Prehistoric", "rowspan": 1 },
+      "era": {
+        "label": "Prehistoric",
+        "rowspan": 1
+      },
       "cells": [
-        { "stack": [
-            { "label": "Shulaveri-Shomu culture",                "note": "c.6000–4000 BCE" },
-            { "label": "Kura-Araxes culture",                    "note": "c.3500–2200 BCE" },
-            { "label": "Colchian Bronze culture",                "note": "c.1700–700 BCE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Shulaveri-Shomu culture",
+              "note": "c.6000–4000 BCE",
+              "regime": "shulaveri_shomu_culture"
+            },
+            {
+              "label": "Kura-Araxes culture",
+              "note": "c.3500–2200 BCE",
+              "regime": "kura_araxes_culture"
+            },
+            {
+              "label": "Colchian Bronze culture",
+              "note": "c.1700–700 BCE",
+              "regime": "colchian_bronze_culture"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Shulaveri-Shomu culture",                "note": "c.6000–4000 BCE" },
-            { "label": "Kura-Araxes culture",                    "note": "c.3500–2200 BCE" },
-            { "label": "Trialeti-Vanadzor culture",              "note": "c.2200–1500 BCE" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Shulaveri-Shomu culture",
+              "note": "c.6000–4000 BCE",
+              "regime": "shulaveri_shomu_culture"
+            },
+            {
+              "label": "Kura-Araxes culture",
+              "note": "c.3500–2200 BCE",
+              "regime": "kura_araxes_culture"
+            },
+            {
+              "label": "Trialeti-Vanadzor culture",
+              "note": "c.2200–1500 BCE",
+              "regime": "trialeti_vanadzor_culture"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
-      "era": { "label": "Early Antiquity", "rowspan": 2 },
+      "era": {
+        "label": "Early Antiquity",
+        "rowspan": 2
+      },
       "cells": [
-        { "stack": [
-            { "label": "Colchis Kingdom (Egrisi)",               "note": "c.1300–600 BCE" },
-            { "label": "Cimmerian · Scythian nomads",            "note": "c.800–600 BCE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Colchis Kingdom (Egrisi)",
+              "note": "c.1300–600 BCE",
+              "regime": "colchis_kingdom"
+            },
+            {
+              "label": "Cimmerian · Scythian nomads",
+              "note": "c.800–600 BCE",
+              "regime": "cimmerian_scythian_nomads"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Diauehi Kingdom",                        "note": "c.1115–760 BCE" },
-            { "regime": "kingdom_of_urartu", "label": "Urartu suzerainty", "note": "c.860–590 BCE" }
-          ], "span": 2
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Greek colonies (Phasis · Dioscurias)",   "note": "from c.600 BCE" },
-            { "label": "Colchis Kingdom",                        "note": "to c.100 BCE" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "achaemenid_empire", "label": "Achaemenid Persia — suzerainty",  "note": "550–330 BCE" },
-            { "label": "Kingdom of Iberia (Kartli) founded",     "note": "c.302 BCE" }
-          ], "span": 2
-        }
-      ]
-    },
-    {
-      "era": { "label": "Ancient", "rowspan": 3 },
-      "cells": [
-        { "stack": [
-            { "label": "Colchis → Pontus client kingdom",        "note": "c.100–63 BCE" },
-            { "label": "Lazica (Egrisi) Kingdom",                "note": "c.131–562 CE" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "achaemenid_empire", "label": "Achaemenid / Orontid suzerainty", "note": "550–302 BCE" },
-            { "label": "Kingdom of Iberia — Arsacid dynasty",    "note": "1st–3rd c. CE" }
-          ], "span": 2
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "regime": "roman_empire_pagan",    "label": "Roman Empire — Lazica (client)",          "note": "63 BCE–395 CE" },
-            { "regime": "byzantine_empire",      "label": "Byzantine Empire (Lazica Province)",      "note": "395–562" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "roman_empire_pagan",    "label": "Iberia — Roman client (Pompey treaty)",  "note": "65 BCE–" },
-            { "regime": "sassanid_empire",       "label": "Sassanid Iberia (Marzpanate)",           "note": "337–580" }
-          ], "span": 2
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "regime": "byzantine_empire", "label": "Byzantine Empire (Abkhazia border zone)", "note": "562–750s", "span": 1 },
-        { "stack": [
-            { "regime": "sassanid_empire",       "label": "Sassanid Persia (East Georgia)", "note": "580–628" },
-            { "regime": "khazar_khaganate",      "label": "Khazar Khaganate — raids",      "note": "627–8th c." }
-          ], "span": 2
-        }
-      ]
-    },
-    {
-      "era": { "label": "Medieval", "rowspan": 5 },
-      "cells": [
-        { "stack": [
-            { "label": "Kingdom of Abkhazia",                    "note": "c.778–1008" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Tao-Klarjeti principality",              "note": "813–1001" },
-            { "label": "Kingdom of Iberia",                      "note": "813–1008" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "rashidun_caliphate", "label": "Rashidun Caliphate (Arminiya)", "note": "640s–661" },
-            { "regime": "umayyad_caliphate",  "label": "Umayyad Caliphate (Arminiya)", "note": "661–750" },
-            { "regime": "abbasid_caliphate",  "label": "Abbasid Caliphate (Arminiya)", "note": "750–9th c." },
-            { "label": "Tbilisi Emirate",                        "note": "736–1122" },
-            { "label": "Kakheti-Hereti Kingdom",                 "note": "c.800–1010" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Diauehi Kingdom",
+              "note": "c.1115–760 BCE",
+              "regime": "diauehi_kingdom"
+            },
+            {
+              "regime": "kingdom_of_urartu",
+              "label": "Urartu suzerainty",
+              "note": "c.860–590 BCE"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Kingdom of Georgia — Golden Age",        "note": "1008–1220" },
-            { "label": "Queen Tamar (1184–1213)",                "note": "greatest extent" }
-          ], "span": 3
+        {
+          "stack": [
+            {
+              "label": "Greek colonies (Phasis · Dioscurias)",
+              "note": "from c.600 BCE",
+              "regime": "greek_colonies"
+            },
+            {
+              "label": "Colchis Kingdom",
+              "note": "to c.100 BCE",
+              "regime": "colchis_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "achaemenid_empire",
+              "label": "Achaemenid Persia — suzerainty",
+              "note": "550–330 BCE"
+            },
+            {
+              "label": "Kingdom of Iberia (Kartli) founded",
+              "note": "c.302 BCE",
+              "regime": "kingdom_of_iberia_founded"
+            }
+          ],
+          "span": 2
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Ancient",
+        "rowspan": 3
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Colchis → Pontus client kingdom",
+              "note": "c.100–63 BCE"
+            },
+            {
+              "label": "Lazica (Egrisi) Kingdom",
+              "note": "c.131–562 CE",
+              "regime": "lazica_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "achaemenid_empire",
+              "label": "Achaemenid / Orontid suzerainty",
+              "note": "550–302 BCE"
+            },
+            {
+              "label": "Kingdom of Iberia — Arsacid dynasty",
+              "note": "1st–3rd c. CE",
+              "regime": "kingdom_of_iberia"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "regime": "mongol_empire", "label": "Mongol Empire invasion", "note": "1220–1256", "span": 3 }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Kingdom of Imereti (W Georgia)",         "note": "1462–1810" },
-            { "label": "Mingrelian principalities",              "note": "from 13th c." }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "roman_empire",
+              "label": "Roman Empire — Lazica (client)",
+              "note": "63 BCE–395 CE"
+            },
+            {
+              "regime": "byzantine_empire",
+              "label": "Byzantine Empire (Lazica Province)",
+              "note": "395–562"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "regime": "ilkhanate", "label": "Ilkhanate",      "note": "1256–1335" },
-            { "label": "Samtskhe (Meskheti) principality",       "note": "c.1268–1625" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "regime": "ilkhanate", "label": "Ilkhanate",      "note": "1256–1335" },
-            { "label": "Chobanid / Jalayirid",                   "note": "1335–1410" },
-            { "label": "Kingdom of Kartli",                      "note": "1490–1762" },
-            { "label": "Kingdom of Kakheti",                     "note": "1465–1762" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "roman_empire",
+              "label": "Iberia — Roman client (Pompey treaty)",
+              "note": "65 BCE–"
+            },
+            {
+              "regime": "sassanid_empire",
+              "label": "Sassanid Iberia (Marzpanate)",
+              "note": "337–580"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Guria Principality",                     "note": "c.1320–1829" }
-          ], "span": 1
+        {
+          "regime": "byzantine_empire",
+          "label": "Byzantine Empire (Abkhazia border zone)",
+          "note": "562–750s",
+          "span": 1
         },
-        { "stack": [
-            { "label": "Timur raids",                            "note": "1386–1403" },
-            { "regime": "kara_koyunlu", "label": "Kara Koyunlu border raids", "note": "1410–1468" },
-            { "label": "Samtskhe → Ottoman suzerainty",          "note": "1625–1828" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Timur raids",                            "note": "1386–1403" },
-            { "regime": "kara_koyunlu", "label": "Kara Koyunlu",             "note": "1410–1468" },
-            { "regime": "aq_qoyunlu",   "label": "Aq Qoyunlu",              "note": "1468–1501" },
-            { "label": "Kingdom of Georgia (briefly unified)",   "note": "1490–1520" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "sassanid_empire",
+              "label": "Sassanid Persia (East Georgia)",
+              "note": "580–628"
+            },
+            {
+              "regime": "khazar_khaganate",
+              "label": "Khazar Khaganate — raids",
+              "note": "627–8th c."
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
-      "era": { "label": "Early Modern", "rowspan": 3 },
+      "era": {
+        "label": "Medieval",
+        "rowspan": 5
+      },
       "cells": [
-        { "stack": [
-            { "label": "Kingdom of Imereti",                     "note": "1460–1810" },
-            { "label": "Principality of Abkhazia",               "note": "1463–1810" },
-            { "label": "Mingrelia · Svaneti",                    "note": "principalities" },
-            { "label": "Guria",                                  "note": "to 1829" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Abkhazia",
+              "note": "c.778–1008",
+              "regime": "kingdom_of_abkhazia"
+            }
+          ],
+          "span": 1
         },
-        { "regime": "ottoman_empire",  "label": "Ottoman Empire (Samtskhe / SW Georgia)", "note": "1625–1828", "span": 1 },
-        { "stack": [
-            { "label": "Kingdom of Kartli",                      "note": "1490–1762" },
-            { "label": "Kingdom of Kakheti",                     "note": "1465–1762" },
-            { "regime": "safavid_empire",   "label": "Safavid–Ottoman frontier wars",    "note": "1502–1639" },
-            { "regime": "afsharid_dynasty", "label": "Afsharid suzerainty",              "note": "1736–1796" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Tao-Klarjeti principality",
+              "note": "813–1001",
+              "regime": "tao_klarjeti_principality"
+            },
+            {
+              "label": "Kingdom of Iberia",
+              "note": "813–1008",
+              "regime": "kingdom_of_iberia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "rashidun_caliphate",
+              "label": "Rashidun Caliphate (Arminiya)",
+              "note": "640s–661"
+            },
+            {
+              "regime": "umayyad_caliphate",
+              "label": "Umayyad Caliphate (Arminiya)",
+              "note": "661–750"
+            },
+            {
+              "regime": "abbasid_caliphate",
+              "label": "Abbasid Caliphate (Arminiya)",
+              "note": "750–9th c."
+            },
+            {
+              "label": "Tbilisi Emirate",
+              "note": "736–1122",
+              "regime": "tbilisi_emirate"
+            },
+            {
+              "label": "Kakheti-Hereti Kingdom",
+              "note": "c.800–1010",
+              "regime": "kakheti_hereti_kingdom"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "regime": "russian_empire", "label": "Russian Empire", "note": "Mingrelia 1803 · Imereti 1810 · Guria 1829 · Abkhazia 1864" }
-          ], "span": 2
-        },
-        { "stack": [
-            { "label": "Kartli-Kakheti Kingdom (united)",        "note": "1762–1801" },
-            { "regime": "russian_empire", "label": "Russian Empire (Tiflis Governorate)", "note": "1801–1917" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Georgia — Golden Age",
+              "note": "1008–1220; Queen Tamar (1184–1213) (greatest extent)"
+            }
+          ],
+          "span": 3
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Transcaucasian Democratic Federative Republic", "note": "1918" },
-            { "label": "Democratic Republic of Georgia",         "note": "1918–1921" },
-            { "label": "Armenian–Georgian War",                  "note": "1918" }
-          ], "span": 3
+        {
+          "regime": "mongol_empire",
+          "label": "Mongol Empire invasion",
+          "note": "1220–1256",
+          "span": 3
         }
       ]
     },
     {
-      "era": { "label": "Modern", "rowspan": 1 },
+      "era": null,
       "cells": [
-        { "stack": [
-            { "regime": "soviet_union", "label": "Transcaucasian SFSR", "note": "1922–1936" },
-            { "regime": "soviet_union", "label": "Georgian SSR",        "note": "1936–1991" },
-            { "label": "Republic of Georgia",                    "note": "1991–" }
-          ], "span": 3
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Imereti (W Georgia)",
+              "note": "1462–1810",
+              "regime": "kingdom_of_imereti"
+            },
+            {
+              "label": "Mingrelian principalities",
+              "note": "from 13th c.",
+              "regime": "mingrelian_principalities"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "ilkhanate",
+              "label": "Ilkhanate",
+              "note": "1256–1335"
+            },
+            {
+              "label": "Samtskhe (Meskheti) principality",
+              "note": "c.1268–1625",
+              "regime": "samtskhe_principality"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "ilkhanate",
+              "label": "Ilkhanate",
+              "note": "1256–1335"
+            },
+            {
+              "label": "Chobanid / Jalayirid",
+              "note": "1335–1410",
+              "regime": "chobanid"
+            },
+            {
+              "label": "Kingdom of Kartli",
+              "note": "1490–1762",
+              "regime": "kingdom_of_kartli"
+            },
+            {
+              "label": "Kingdom of Kakheti",
+              "note": "1465–1762",
+              "regime": "kingdom_of_kakheti"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Guria Principality",
+              "note": "c.1320–1829",
+              "regime": "guria_principality"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "kara_koyunlu",
+              "label": "Kara Koyunlu border raids",
+              "note": "1410–1468; Timur raids (1386–1403)"
+            },
+            {
+              "label": "Samtskhe → Ottoman suzerainty",
+              "note": "1625–1828"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "kara_koyunlu",
+              "label": "Kara Koyunlu",
+              "note": "1410–1468; Timur raids (1386–1403)"
+            },
+            {
+              "regime": "aq_qoyunlu",
+              "label": "Aq Qoyunlu",
+              "note": "1468–1501"
+            },
+            {
+              "label": "Kingdom of Georgia (briefly unified)",
+              "note": "1490–1520"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Early Modern",
+        "rowspan": 3
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Imereti",
+              "note": "1460–1810",
+              "regime": "kingdom_of_imereti"
+            },
+            {
+              "label": "Principality of Abkhazia",
+              "note": "1463–1810",
+              "regime": "principality_of_abkhazia"
+            },
+            {
+              "label": "Mingrelia · Svaneti",
+              "note": "principalities",
+              "regime": "mingrelia_svaneti"
+            },
+            {
+              "label": "Guria",
+              "note": "to 1829",
+              "regime": "guria"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "regime": "ottoman_empire",
+          "label": "Ottoman Empire (Samtskhe / SW Georgia)",
+          "note": "1625–1828",
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Kartli",
+              "note": "1490–1762",
+              "regime": "kingdom_of_kartli"
+            },
+            {
+              "label": "Kingdom of Kakheti",
+              "note": "1465–1762",
+              "regime": "kingdom_of_kakheti"
+            },
+            {
+              "regime": "safavid_empire",
+              "label": "Safavid–Ottoman frontier wars",
+              "note": "1502–1639"
+            },
+            {
+              "regime": "afsharid_dynasty",
+              "label": "Afsharid suzerainty",
+              "note": "1736–1796"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "russian_empire",
+              "label": "Russian Empire",
+              "note": "Mingrelia 1803 · Imereti 1810 · Guria 1829 · Abkhazia 1864"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Kartli-Kakheti Kingdom (united)",
+              "note": "1762–1801",
+              "regime": "kartli_kakheti_kingdom"
+            },
+            {
+              "regime": "russian_empire",
+              "label": "Russian Empire (Tiflis Governorate)",
+              "note": "1801–1917"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Transcaucasian Democratic Federative Republic",
+              "note": "1918; Armenian–Georgian War (1918)",
+              "regime": "transcaucasian_democratic_federative_republic"
+            },
+            {
+              "label": "Democratic Republic of Georgia",
+              "note": "1918–1921",
+              "regime": "democratic_republic_of_georgia"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Modern",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "soviet_union",
+              "label": "Transcaucasian SFSR",
+              "note": "1922–1936"
+            },
+            {
+              "regime": "soviet_union",
+              "label": "Georgian SSR",
+              "note": "1936–1991"
+            },
+            {
+              "label": "Republic of Georgia",
+              "note": "1991–",
+              "regime": "republic_of_georgia"
+            }
+          ],
+          "span": 3
         }
       ]
     }

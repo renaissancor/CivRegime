@@ -1,7 +1,7 @@
 {
   "id": "jammu_kashmir",
   "name": "Jammu & Kashmir",
-  "ruling_ethnicity": "indo_aryan",
+  "ruling_ethnicity": "indo_aryan_cluster",
   "ideology": {
     "religion": "hinduism",
     "government": "monarchy"

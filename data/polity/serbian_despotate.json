@@ -2,7 +2,7 @@
   "id": "serbian_despotate",
   "name": "Serbian Despotate",
   "ruling_ethnicity": "serbian",
-  "cultural_language": "serbian",
+  "cultural_language": "serbo_croatian",
   "ideology": {
     "religion": "eastern_orthodox",
     "government": "despotate"

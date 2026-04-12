@@ -1,0 +1,15 @@
+{
+  "id": "mexico",
+  "name": "Mexico (United Mexican States)",
+  "ruling_ethnicity": "mestizo",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "mesoamerica"
+  ],
+  "start": 1821,
+  "end": null
+}

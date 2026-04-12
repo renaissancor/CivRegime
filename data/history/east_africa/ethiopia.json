@@ -2,228 +2,470 @@
   "id": "ethiopia",
   "title": "History of Ethiopia & Eritrea",
   "columns": [
-    { "id": "era",    "name": "Era",                               "slots": 1, "type": "era" },
-    { "id": "eri",    "name": "Eritrea (Red Sea coast · Asmara)", "slots": 1 },
-    { "id": "tigray", "name": "N. Ethiopia (Tigray · Aksum)",     "slots": 1 },
-    { "id": "cent",   "name": "C/S. Ethiopia (Gondar · Addis Ababa)", "slots": 1 }
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "eri",
+      "name": "Eritrea (Red Sea coast · Asmara)",
+      "slots": 1
+    },
+    {
+      "id": "tigray",
+      "name": "N. Ethiopia (Tigray · Aksum)",
+      "slots": 1
+    },
+    {
+      "id": "cent",
+      "name": "C/S. Ethiopia (Gondar · Addis Ababa)",
+      "slots": 1
+    }
   ],
   "rows": [
     {
-      "era": { "label": "Ancient (pre-Aksum)", "rowspan": 1 },
+      "era": {
+        "label": "Ancient (pre-Aksum)",
+        "rowspan": 1
+      },
       "cells": [
-        { "stack": [
-            { "label": "Pre-Aksumite coastal trade (Adulis port)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Pre-Aksumite coastal trade (Adulis port)",
+              "regime": "pre_aksumite_coastal_trade"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "D'mt Kingdom (Ye'ha capital)", "note": "c.8th–5th c. BCE" },
-            { "label": "Pre-Aksumite chiefdoms" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "D'mt Kingdom (Ye'ha capital)",
+              "note": "c.8th–5th c. BCE",
+              "regime": "dmt_kingdom"
+            },
+            {
+              "label": "Pre-Aksumite chiefdoms",
+              "regime": "pre_aksumite_chiefdoms"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Pre-Aksumite tribes · Punt coast" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Pre-Aksumite tribes · Punt coast",
+              "regime": "pre_aksumite_tribes"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Aksumite (Christianisation)", "rowspan": 2 },
+      "era": {
+        "label": "Aksumite (Christianisation)",
+        "rowspan": 2
+      },
       "cells": [
-        { "stack": [
-            { "label": "Aksumite Kingdom — Adulis (main Red Sea port)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Aksumite Kingdom — Adulis (main Red Sea port)",
+              "regime": "aksumite_kingdom"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Aksumite Kingdom (capital: Aksum)" },
-            { "label": "Christianisation under Ezana", "note": "c.330 CE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Aksumite Kingdom (capital: Aksum)",
+              "note": "Christianisation under Ezana (c.330 CE)",
+              "regime": "aksumite_kingdom"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Aksumite expansion southward" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Islamic coastal presence — Dahlak Sultanate", "note": "8th c." }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Aksumite decline (Islamic trade disruption)" },
-            { "label": "Gudit revolt — Yodit burns Aksum", "note": "c.960 CE" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Post-Aksum fragmentation" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Medieval", "rowspan": 3 },
-      "cells": [
-        { "stack": [
-            { "label": "Dahlak Sultanate (Islamic)" },
-            { "label": "Beja / Habesha coastal lords" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Zagwe Dynasty (capital: Lalibela)", "note": "c.900–1270" },
-            { "label": "Rock-hewn churches built", "note": "12th c." }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Zagwe fringe / various Cushitic kingdoms" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Egyptian Mamluk / Ottoman coastal influence" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Solomonic restoration — Yekuno Amlak", "note": "1270" },
-            { "label": "Wars vs Ifat Sultanate" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Solomonic expansion south" },
-            { "label": "Wars vs Adal Sultanate (NW Somalia border)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Aksumite expansion southward"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Ottoman Empire — Massawa port", "note": "1557" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Islamic coastal presence — Dahlak Sultanate",
+              "note": "8th c.",
+              "regime": "islamic_coastal_presence"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Tigray lords (Ras)" },
-            { "label": "Adal-Ethiopian war — Ahmad ibn Ibrahim (Grañ)", "note": "1529–1543" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Aksumite decline (Islamic trade disruption)",
+              "note": "Gudit revolt — Yodit burns Aksum (c.960 CE)"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Gondar era — capital Fasil Ghebbi", "note": "1632–1855" },
-            { "label": "Oromo migrations into highlands" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Post-Aksum fragmentation"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Era of Princes / Reform", "rowspan": 2 },
+      "era": {
+        "label": "Medieval",
+        "rowspan": 3
+      },
       "cells": [
-        { "stack": [
-            { "label": "Egyptian Khedivate control (coastal)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Dahlak Sultanate (Islamic)",
+              "regime": "dahlak_sultanate"
+            },
+            {
+              "label": "Beja / Habesha coastal lords",
+              "regime": "beja"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Zemene Mesafint (Era of the Princes)", "note": "1769–1855" },
-            { "label": "Regional warlords (Ras) dominate" }
-          ], "span": 2
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Egyptian Khedivate → Italian territory (Assab 1882)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Zagwe Dynasty (capital: Lalibela)",
+              "note": "c.900–1270; Rock-hewn churches built (12th c.)",
+              "regime": "zagwe_dynasty"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Ethiopian reunification — Tewodros II", "note": "1855" },
-            { "label": "Yohannes IV · Battle of Adwa (Menelik II)", "note": "1896" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Ethiopian Empire — Menelik II" },
-            { "label": "Addis Ababa founded", "note": "1886" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Italian / WWII", "rowspan": 2 },
-      "cells": [
-        { "stack": [
-            { "label": "Italian Eritrea (colony)", "note": "1890–1941" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Ethiopian Empire (Haile Selassie)" },
-            { "label": "Italian invasion", "note": "1935–1936" }
-          ], "span": 2
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "British administration", "note": "1941" },
-            { "label": "Federation with Ethiopia", "note": "1952" },
-            { "label": "Annexed by Ethiopia", "note": "1962" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Italian East Africa", "note": "1936–1941" },
-            { "label": "Ethiopian Empire restored (Haile Selassie)", "note": "1941" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Italian East Africa → Ethiopian Empire" },
-            { "label": "Ogaden region (Somali borderlands)" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Contemporary", "rowspan": 2 },
-      "cells": [
-        { "stack": [
-            { "label": "Eritrean Liberation Front — independence war", "note": "1961–1991" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Ethiopian Empire (Haile Selassie)" },
-            { "label": "Derg — military communist regime", "note": "1974–1991" },
-            { "label": "Ethiopian People's Democratic Republic", "note": "1987–1991" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Derg (Mengistu Haile Mariam)" },
-            { "label": "Ogaden War with Somalia", "note": "1977–1978" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Zagwe fringe / various Cushitic kingdoms"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "State of Eritrea (independent 1993)" },
-            { "label": "Eritrea-Ethiopia War", "note": "1998–2000" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Egyptian Mamluk / Ottoman coastal influence"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Federal Democratic Republic of Ethiopia (FDRE)" },
-            { "label": "Tigray War", "note": "2020–2022" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Solomonic restoration — Yekuno Amlak",
+              "note": "1270; Wars vs Ifat Sultanate",
+              "regime": "solomonic_restoration"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "FDRE — EPRDF → Prosperity Party (Abiy Ahmed, 2018)" },
-            { "label": "Nobel Peace Prize", "note": "2019" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Solomonic expansion south",
+              "note": "Wars vs Adal Sultanate (NW Somalia border)"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Ottoman Empire — Massawa port",
+              "note": "1557",
+              "regime": "ottoman_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Tigray lords (Ras)",
+              "regime": "tigray_lords"
+            },
+            {
+              "label": "Adal-Ethiopian war — Ahmad ibn Ibrahim (Grañ)",
+              "note": "1529–1543"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Gondar era — capital Fasil Ghebbi",
+              "note": "1632–1855; Oromo migrations into highlands"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Era of Princes / Reform",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Egyptian Khedivate control (coastal)",
+              "regime": "egyptian_khedivate_control"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Zemene Mesafint (Era of the Princes)",
+              "note": "1769–1855; Regional warlords (Ras) dominate"
+            }
+          ],
+          "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Egyptian Khedivate → Italian territory (Assab 1882)"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Ethiopian reunification — Tewodros II",
+              "note": "1855"
+            },
+            {
+              "label": "Yohannes IV · Battle of Adwa (Menelik II)",
+              "note": "1896"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Ethiopian Empire — Menelik II",
+              "note": "Addis Ababa founded (1886)",
+              "regime": "ethiopian_empire"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Italian / WWII",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Italian Eritrea (colony)",
+              "note": "1890–1941",
+              "regime": "italian_eritrea"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Ethiopian Empire (Haile Selassie)",
+              "note": "Italian invasion (1935–1936)",
+              "regime": "ethiopian_empire"
+            }
+          ],
+          "span": 2
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "British administration",
+              "note": "1941",
+              "regime": "british_administration"
+            },
+            {
+              "label": "Federation with Ethiopia",
+              "note": "1952",
+              "regime": "federation_with_ethiopia"
+            },
+            {
+              "label": "Annexed by Ethiopia",
+              "note": "1962"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Italian East Africa",
+              "note": "1936–1941",
+              "regime": "italian_east_africa"
+            },
+            {
+              "label": "Ethiopian Empire restored (Haile Selassie)",
+              "note": "1941"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Italian East Africa → Ethiopian Empire"
+            },
+            {
+              "label": "Ogaden region (Somali borderlands)",
+              "regime": "ogaden_region"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Eritrean Liberation Front — independence war",
+              "note": "1961–1991"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Ethiopian Empire (Haile Selassie)",
+              "regime": "ethiopian_empire"
+            },
+            {
+              "label": "Derg — military communist regime",
+              "note": "1974–1991",
+              "regime": "derg"
+            },
+            {
+              "label": "Ethiopian People's Democratic Republic",
+              "note": "1987–1991",
+              "regime": "ethiopian_peoples_democratic_republic"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Derg (Mengistu Haile Mariam)",
+              "regime": "derg"
+            },
+            {
+              "label": "Ogaden War with Somalia",
+              "note": "1977–1978"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "State of Eritrea (independent 1993)",
+              "regime": "state_of_eritrea"
+            },
+            {
+              "label": "Eritrea-Ethiopia War",
+              "note": "1998–2000"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Federal Democratic Republic of Ethiopia (FDRE)",
+              "regime": "federal_democratic_republic_of_ethiopia"
+            },
+            {
+              "label": "Tigray War",
+              "note": "2020–2022"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "FDRE — EPRDF → Prosperity Party (Abiy Ahmed, 2018)",
+              "note": "Nobel Peace Prize (2019)"
+            }
+          ],
+          "span": 1
         }
       ]
     }

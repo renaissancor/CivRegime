@@ -1,0 +1,755 @@
+{
+  "id": "france",
+  "title": "History of France (Histoire de France)",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "north",
+      "name": "Northern / Core France (Belgica · Île-de-France)",
+      "slots": 1
+    },
+    {
+      "id": "west",
+      "name": "Western France (Brittany · Normandy)",
+      "slots": 1
+    },
+    {
+      "id": "south",
+      "name": "Southern France (Aquitania · Narbonensis)",
+      "slots": 1
+    },
+    {
+      "id": "east",
+      "name": "Eastern France (Burgundy · Alsace · Lorraine)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Prehistoric",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Neanderthals",
+              "note": "c.400,000–30,000 BCE",
+              "regime": "neanderthals"
+            },
+            {
+              "label": "Homo sapiens migration",
+              "note": "c.45,000 BCE–",
+              "regime": "homo_sapiens_migration"
+            },
+            {
+              "label": "Magdalenian culture",
+              "note": "c.17,000–12,000 BCE",
+              "regime": "magdalenian_culture"
+            },
+            {
+              "label": "Early European farmers",
+              "note": "c.5500 BCE–",
+              "regime": "early_european_farmers"
+            },
+            {
+              "label": "Atlantic megalithic culture",
+              "note": "c.4500–2000 BCE",
+              "regime": "atlantic_megalithic_culture"
+            },
+            {
+              "label": "Cardial / Impressed Ware culture",
+              "note": "c.5500–4500 BCE",
+              "regime": "cardial_culture"
+            },
+            {
+              "label": "Atlantic Bronze Age",
+              "note": "c.1300–700 BCE",
+              "regime": "atlantic_bronze_age_culture"
+            },
+            {
+              "label": "Tumulus culture → Urnfield culture",
+              "note": "c.1600–750 BCE"
+            },
+            {
+              "label": "Hallstatt culture",
+              "note": "c.800–450 BCE",
+              "regime": "hallstatt_culture"
+            },
+            {
+              "label": "La Tène culture",
+              "note": "c.450–50 BCE",
+              "regime": "la_tene_culture"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Ancient",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Belgae (Gallia Belgica)",
+              "note": "c.300 BCE–",
+              "regime": "belgae"
+            },
+            {
+              "label": "Parisii · Suessiones · Remi · Nervii",
+              "note": "",
+              "regime": "parisii_suessiones_remi_nervii"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Armoricani (Armorica)",
+              "note": "c.500 BCE–",
+              "regime": "armoricani"
+            },
+            {
+              "label": "Veneti · Osismii · Namnetes",
+              "note": "",
+              "regime": "veneti_osismii_namnetes"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Aquitani (pre-Celtic, Basque-related)",
+              "note": "c.800 BCE–",
+              "regime": "aquitani"
+            },
+            {
+              "label": "Greek Massalia (Marseille)",
+              "note": "c.600 BCE–",
+              "regime": "greek_massalia"
+            },
+            {
+              "label": "Gallia Narbonensis (first Roman province)",
+              "note": "121 BCE–",
+              "regime": "gallia_narbonensis"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Sequani · Aedui · Helvetii",
+              "note": "c.500 BCE–",
+              "regime": "sequani_aedui_helvetii"
+            },
+            {
+              "label": "Arverni",
+              "note": "c.300 BCE–",
+              "regime": "arverni"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "roman_republic",
+              "label": "Roman Republic — Gallia Belgica",
+              "note": "50–27 BCE"
+            },
+            {
+              "regime": "roman_empire",
+              "label": "Roman Empire — Gallia Belgica · Lugdunensis",
+              "note": "27 BCE–380 CE"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "roman_republic",
+              "label": "Roman Republic — Gallia Lugdunensis",
+              "note": "50–27 BCE"
+            },
+            {
+              "regime": "roman_empire",
+              "label": "Roman Empire — Gallia Lugdunensis",
+              "note": "27 BCE–380 CE"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "roman_republic",
+              "label": "Roman Republic — Narbonensis · Aquitania",
+              "note": "121/50–27 BCE"
+            },
+            {
+              "regime": "roman_empire",
+              "label": "Roman Empire — Narbonensis · Aquitania",
+              "note": "27 BCE–380 CE"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "roman_republic",
+              "label": "Roman Republic — Belgica (east)",
+              "note": "50–27 BCE"
+            },
+            {
+              "regime": "roman_empire",
+              "label": "Roman Empire — Belgica · Germania Superior",
+              "note": "27 BCE–380 CE"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Late Roman",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Gallic Empire (Postumus)",
+              "note": "260–274",
+              "regime": "gallic_empire"
+            },
+            {
+              "regime": "roman_empire",
+              "label": "Roman Empire (Christian)",
+              "note": "380–395"
+            },
+            {
+              "regime": "western_roman_empire",
+              "label": "Western Roman Empire",
+              "note": "395–476"
+            },
+            {
+              "label": "Domain of Soissons (Syagrius)",
+              "note": "457–486",
+              "regime": "domain_of_soissons"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Early Medieval",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Frankish settlement (Salian Franks)",
+              "note": "c.350–",
+              "regime": "frankish_settlement"
+            },
+            {
+              "label": "Frankish Kingdom — Merovingian dynasty",
+              "note": "481–751",
+              "regime": "carolingian_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Brythonic migration from Britain",
+              "note": "c.400–600"
+            },
+            {
+              "label": "Cornouaille",
+              "note": "5th–9th c.",
+              "regime": "cornouaille"
+            },
+            {
+              "label": "Domnonée",
+              "note": "5th–7th c.",
+              "regime": "domnonee"
+            },
+            {
+              "label": "Bro Gwened (Broërec)",
+              "note": "5th–9th c.",
+              "regime": "bro_gwened"
+            },
+            {
+              "label": "Kingdom of Brittany",
+              "note": "845–942",
+              "regime": "kingdom_of_brittany"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "visigothic_kingdom",
+              "label": "Visigothic Kingdom (Toulouse)",
+              "note": "418–507"
+            },
+            {
+              "label": "Al-Andalus (Umayyad raids into Aquitaine)",
+              "note": "719–759",
+              "regime": "al_andalus"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Burgundian Kingdom",
+              "note": "411–534",
+              "regime": "burgundian_kingdom"
+            },
+            {
+              "label": "Alemannic settlement (Alsace)",
+              "note": "5th c.–",
+              "regime": "alemannic_settlement"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Frankish Kingdom — Merovingian (Neustria · Austrasia)",
+              "note": "511–751",
+              "regime": "carolingian_empire"
+            },
+            {
+              "label": "Frankish Kingdom — Carolingian dynasty",
+              "note": "751–843",
+              "regime": "carolingian_empire"
+            },
+            {
+              "regime": "carolingian_empire",
+              "label": "Carolingian Empire (Charlemagne)",
+              "note": "800–843"
+            },
+            {
+              "label": "West Frankish Kingdom",
+              "note": "843–987",
+              "regime": "west_frankish_kingdom"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "High Medieval",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_france",
+              "label": "Kingdom of France — Capetian dynasty",
+              "note": "987–1328"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Duchy of Normandy",
+              "note": "911–1204",
+              "regime": "duchy_of_normandy"
+            },
+            {
+              "label": "Duchy of Brittany",
+              "note": "942–1532",
+              "regime": "duchy_of_brittany"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Duchy of Aquitaine",
+              "note": "877–1453",
+              "regime": "duchy_of_aquitaine"
+            },
+            {
+              "label": "County of Toulouse (Languedoc)",
+              "note": "778–1271",
+              "regime": "county_of_toulouse"
+            },
+            {
+              "label": "Albigensian Crusade",
+              "note": "1209–1229"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Duchy of Burgundy (Capetian cadet)",
+              "note": "843–1361",
+              "regime": "duchy_of_burgundy"
+            },
+            {
+              "label": "County of Burgundy (Franche-Comté)",
+              "note": "982–1678",
+              "regime": "county_of_burgundy"
+            },
+            {
+              "label": "Duchy of Lorraine",
+              "note": "959–1766",
+              "regime": "duchy_of_lorraine"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_france",
+              "label": "Kingdom of France — Valois dynasty",
+              "note": "1328–1589"
+            },
+            {
+              "label": "Hundred Years' War",
+              "note": "1337–1453",
+              "regime": "hundred_years_war"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "English Aquitaine / Gascony (Plantagenet)",
+              "note": "1154–1453",
+              "regime": "english_aquitaine"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Duchy of Burgundy — Valois-Burgundy branch",
+              "note": "1363–1477",
+              "regime": "duchy_of_burgundy"
+            },
+            {
+              "label": "Burgundian State (Low Countries + Franche-Comté)",
+              "note": "1384–1477",
+              "regime": "burgundian_state"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Early Modern",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_france",
+              "label": "Kingdom of France — Valois (continued)",
+              "note": "1328–1589"
+            },
+            {
+              "label": "Italian Wars",
+              "note": "1494–1559"
+            },
+            {
+              "label": "French Wars of Religion",
+              "note": "1562–1598"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "First Colonial Empire",
+              "note": "1534–",
+              "regime": "first_colonial_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Alsace (HRE → French acquisition)",
+              "note": "1648–1697"
+            },
+            {
+              "label": "Franche-Comté (French from 1678)",
+              "note": "1678–",
+              "regime": "franche_comte"
+            },
+            {
+              "label": "Lorraine (HRE — French influence growing)",
+              "note": ""
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_france",
+              "label": "Kingdom of France — Bourbon dynasty",
+              "note": "1589–1792"
+            }
+          ],
+          "span": 3
+        },
+        {
+          "stack": [
+            {
+              "label": "Duchy of Lorraine (ceded to France)",
+              "note": "1766",
+              "regime": "duchy_of_lorraine"
+            },
+            {
+              "label": "Alsace fully French",
+              "note": "1697–"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Revolution",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "National Assembly (Assemblée nationale)",
+              "note": "1789–1791",
+              "regime": "national_assembly"
+            },
+            {
+              "regime": "kingdom_of_france",
+              "label": "Constitutional Monarchy",
+              "note": "1789–1792"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Modern",
+        "rowspan": 3
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "French First Republic",
+              "note": "1792–1804",
+              "regime": "french_first_republic"
+            },
+            {
+              "label": "French First Empire — Bonaparte dynasty",
+              "note": "1804–1814",
+              "regime": "french_first_empire"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_france",
+              "label": "Restoration — Bourbon dynasty",
+              "note": "1814–1830"
+            },
+            {
+              "label": "Hundred Days (Napoleon returns)",
+              "note": "March–June 1815",
+              "regime": "hundred_days"
+            },
+            {
+              "regime": "kingdom_of_france",
+              "label": "July Monarchy — Bourbon-Orléans",
+              "note": "1830–1848"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "French Second Republic",
+              "note": "1848–1852",
+              "regime": "french_second_republic"
+            },
+            {
+              "label": "Second Colonial Empire",
+              "note": "1830–",
+              "regime": "second_colonial_empire"
+            },
+            {
+              "label": "French Second Empire — Bonaparte dynasty",
+              "note": "1852–1870",
+              "regime": "french_second_empire"
+            },
+            {
+              "label": "French Third Republic",
+              "note": "1870–1940",
+              "regime": "french_third_republic"
+            }
+          ],
+          "span": 3
+        },
+        {
+          "stack": [
+            {
+              "label": "Alsace-Lorraine (German Empire)",
+              "note": "1871–1918",
+              "regime": "german_empire"
+            },
+            {
+              "label": "Alsace-Lorraine returned to France",
+              "note": "1919–"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "split": [
+            {
+              "label": "Free France (de Gaulle)",
+              "note": "1940–1944",
+              "regime": "free_france"
+            },
+            {
+              "label": "Vichy France (Pétain)",
+              "note": "1940–1944",
+              "regime": "vichy_france"
+            },
+            {
+              "label": "Axis occupation",
+              "note": "1940–1944"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Provisional Government (GPRF)",
+              "note": "1944–1946",
+              "regime": "provisional_government"
+            },
+            {
+              "label": "French Fourth Republic",
+              "note": "1946–1958",
+              "regime": "french_fourth_republic"
+            },
+            {
+              "label": "French Fifth Republic",
+              "note": "1958–",
+              "regime": "french_fifth_republic"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Gallic Empire (260–274): during the Crisis of the Third Century, Postumus established a breakaway Roman state comprising Gaul, Britannia, and Hispania; it maintained Roman institutions and was eventually reabsorbed by Emperor Aurelian",
+    "Domain of Soissons (457–486): the last Roman-administered territory in Gaul, ruled by Syagrius; Clovis I's defeat of Syagrius at the Battle of Soissons (486) marked the end of Roman rule in Gaul",
+    "Treaty of Verdun (843): the partition of the Carolingian Empire created West Francia, Middle Francia, and East Francia; West Francia became the nucleus of medieval France",
+    "Burgundian State (1363–1477): the Valois Dukes of Burgundy built a powerful quasi-independent state stretching from Dijon to the Low Countries; Charles the Bold's death at Nancy (1477) ended the threat; France absorbed the Duchy while the Low Countries passed to the Habsburgs",
+    "Albigensian Crusade (1209–1229): the crusade against the Cathar heresy in Languedoc destroyed Occitan independence and brought southern France under Capetian control",
+    "French Revolution (1789): the collapse of the Ancien Régime began with the Estates-General; the Declaration of the Rights of Man established principles of popular sovereignty; the Storming of the Bastille (14 July) became the revolution's iconic moment",
+    "Vichy France (1940–1944): after the Fall of France, Pétain's regime collaborated with Nazi Germany; de Gaulle's Free France movement maintained resistance and the claim to republican legitimacy"
+  ]
+}

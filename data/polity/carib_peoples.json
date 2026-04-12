@@ -1,0 +1,15 @@
+{
+  "id": "carib_peoples",
+  "name": "Carib Peoples",
+  "ruling_ethnicity": "caribbean_indigenous",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "caribbean"
+  ],
+  "start": 1200,
+  "end": 1600,
+  "note": "Lesser Antilles and coastal South America"
+}

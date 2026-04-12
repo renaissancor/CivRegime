@@ -1,7 +1,7 @@
 {
   "id": "mauretania_kingdom",
   "name": "Mauretania Kingdom",
-  "ruling_ethnicity": "berber",
+  "ruling_ethnicity": "berber_amazigh_cluster",
   "cultural_language": "berber",
   "ideology": {
     "government": "monarchy"

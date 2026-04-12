@@ -1,0 +1,166 @@
+{
+  "id": "mexico",
+  "title": "History of Mexico & Mesoamerica",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "central",
+      "name": "Central Mexico",
+      "slots": 1
+    },
+    {
+      "id": "maya",
+      "name": "Maya Region",
+      "slots": 1
+    },
+    {
+      "id": "oaxaca",
+      "name": "Oaxaca / South",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Pre-Classic",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Olmec (La Venta · San Lorenzo)",
+          "span": 1,
+          "regime": "olmec"
+        },
+        {
+          "label": "Early Maya settlements",
+          "span": 1
+        },
+        {
+          "label": "Zapotec (early San José Mogote)",
+          "span": 1,
+          "regime": "zapotec"
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Classic",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Teotihuacan",
+          "span": 1,
+          "regime": "teotihuacan"
+        },
+        {
+          "label": "Maya City-States (Tikal · Calakmul · Palenque)",
+          "span": 1,
+          "regime": "maya_city_states"
+        },
+        {
+          "label": "Zapotec (Monte Albán)",
+          "span": 1,
+          "regime": "zapotec"
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Post-Classic",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Toltec Empire (Tula)",
+              "note": "900–1168",
+              "regime": "toltec_empire"
+            },
+            {
+              "label": "Aztec Empire (Mexico-Tenochtitlan)",
+              "note": "1428–1521",
+              "regime": "aztec_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "label": "Postclassic Maya (Mayapan · K'iche' · Uxmal)",
+          "span": 1,
+          "regime": "postclassic_maya"
+        },
+        {
+          "label": "Mixtec kingdoms",
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Colonial",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Viceroyalty of New Spain (1521–1821)",
+          "span": 3,
+          "regime": "new_spain"
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Independence",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "First Mexican Empire (Iturbide)",
+              "note": "1821–1823",
+              "regime": "first_mexican_empire"
+            },
+            {
+              "label": "First Mexican Republic",
+              "note": "1824–1864"
+            },
+            {
+              "label": "Second Mexican Empire (Maximilian)",
+              "note": "1864–1867",
+              "regime": "second_mexican_empire"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Modern",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Mexico — Revolution (1910) · PRI era · Democratic transition",
+          "span": 3,
+          "regime": "mexico"
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "The Olmec (c. 1500–400 BCE) are considered the 'mother culture' of Mesoamerica",
+    "Teotihuacan (c. 100 BCE–550 CE) was the largest city in the pre-Columbian Americas with ~125,000 population",
+    "The Aztec Triple Alliance (1428–1521) was conquered by Hernán Cortés with indigenous allies",
+    "New Spain (1521–1821) was the largest Spanish colonial viceroyalty, governed from Mexico City",
+    "The Mexican Revolution (1910–1920) ended the Porfirio Díaz dictatorship and led to the 1917 Constitution"
+  ]
+}

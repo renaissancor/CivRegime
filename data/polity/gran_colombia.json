@@ -1,0 +1,17 @@
+{
+  "id": "gran_colombia",
+  "name": "Gran Colombia",
+  "ruling_ethnicity": "spanish",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "republic"
+  },
+  "territories": [
+    "andes",
+    "caribbean"
+  ],
+  "start": 1819,
+  "end": 1831,
+  "note": "Bolívar's united republic"
+}

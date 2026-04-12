@@ -2,7 +2,7 @@
   "id": "republic_of_china",
   "name": "Republic of China",
   "ruling_ethnicity": "han_chinese",
-  "cultural_language": "modern_chinese",
+  "cultural_language": "modern_chinese_group",
   "ideology": {
     "religion": "chinese_folk_religion",
     "government": "democratic_republic"

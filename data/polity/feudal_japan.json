@@ -2,7 +2,7 @@
   "id": "feudal_japan",
   "name": "Feudal Japan",
   "ruling_ethnicity": "yamato",
-  "cultural_language": "early_modern_japanese",
+  "cultural_language": "middle_japanese",
   "ideology": {
     "religion": "shinto_buddhism",
     "government": "feudal_monarchy"

@@ -2,7 +2,7 @@
   "id": "carthage",
   "name": "Carthage (Phoenician City-State)",
   "ruling_ethnicity": "phoenician",
-  "cultural_language": "phoenician",
+  "cultural_language": "phoenician_punic",
   "ideology": {
     "religion": "phoenician_religion",
     "government": "oligarchy"

@@ -2,7 +2,7 @@
   "id": "solomonic_dynasty",
   "name": "Ethiopian Empire (Solomonic)",
   "ruling_ethnicity": "amhara",
-  "cultural_language": "geez",
+  "cultural_language": "ge'ez_classical_ethiopic",
   "ideology": {
     "religion": "ethiopian_tewahido_church",
     "government": "imperial_monarchy"

@@ -1,7 +1,7 @@
 {
   "id": "pechenegs",
   "name": "Pechenegs",
-  "ruling_ethnicity": "turkic",
+  "ruling_ethnicity": "turkic_cluster",
   "ideology": {
     "religion": "tengrism",
     "government": "tribal_confederation"

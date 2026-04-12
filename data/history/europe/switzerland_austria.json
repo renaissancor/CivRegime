@@ -1,0 +1,754 @@
+{
+  "id": "switzerland_austria",
+  "title": "History of Switzerland & Austria (Schweiz · Österreich)",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "west_swiss",
+      "name": "Western Switzerland (Romandie · Burgundian)",
+      "slots": 1
+    },
+    {
+      "id": "east_swiss",
+      "name": "Eastern Switzerland (Alemannic · Schwyz · Graubünden)",
+      "slots": 1
+    },
+    {
+      "id": "austria",
+      "name": "Austria (Österreich · Noricum)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Ancient",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Helvetii (Celtic — western Swiss Plateau)",
+              "note": "c.300 BCE–",
+              "regime": "helvetii"
+            },
+            {
+              "label": "La Tène culture heartland (Neuchâtel)",
+              "note": "c.450–50 BCE",
+              "regime": "la_tene_culture_heartland_culture"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Raetians (Alpine — Graubünden · Tyrol)",
+              "note": "pre-Roman",
+              "regime": "raetians"
+            },
+            {
+              "label": "Helvetii (eastern)",
+              "note": "",
+              "regime": "helvetii"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Noricum (Celtic — allied with Rome)",
+              "note": "c.400–15 BCE",
+              "regime": "kingdom_of_noricum"
+            },
+            {
+              "label": "Taurisci · Boii",
+              "note": "",
+              "regime": "taurisci_boii"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "roman_empire",
+              "label": "Roman Empire — Gallia Belgica / Germania Superior",
+              "note": "58 BCE–, after Caesar defeats Helvetii at Bibracte"
+            },
+            {
+              "label": "Aventicum (Avenches) — Helvetian capital",
+              "note": "",
+              "regime": "aventicum"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "roman_empire",
+              "label": "Roman Empire — Raetia Province",
+              "note": "15 BCE–"
+            },
+            {
+              "label": "Curia Raetorum (Chur) — Roman Alpine hub",
+              "note": "",
+              "regime": "curia_raetorum"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "roman_empire",
+              "label": "Roman Empire — Noricum · Pannonia",
+              "note": "15 BCE–"
+            },
+            {
+              "label": "Vindobona (Vienna) — legionary fortress",
+              "note": "c.97 CE",
+              "regime": "vindobona"
+            },
+            {
+              "label": "Carnuntum — Danube frontier capital",
+              "note": ""
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Late Roman / Migration",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "western_roman_empire",
+              "label": "Western Roman Empire",
+              "note": "395–476"
+            },
+            {
+              "label": "First Burgundian Kingdom (Worms → Sapaudia/Savoy)",
+              "note": "411–534"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "western_roman_empire",
+              "label": "Western Roman Empire",
+              "note": "395–476"
+            },
+            {
+              "label": "Alemannic settlement (eastern Swiss Plateau · Swabia)",
+              "note": "c.400–",
+              "regime": "alemannic_settlement"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "western_roman_empire",
+              "label": "Western Roman Empire",
+              "note": "395–476"
+            },
+            {
+              "regime": "ostrogothic_kingdom",
+              "label": "Ostrogothic Kingdom",
+              "note": "493–553"
+            },
+            {
+              "regime": "lombard_kingdom",
+              "label": "Lombard Kingdom (parts of Tyrol · Carinthia)",
+              "note": "568–774"
+            },
+            {
+              "label": "Avar Khaganate (eastern frontier raids)",
+              "note": "c.560–796",
+              "regime": "avar_khaganate"
+            },
+            {
+              "label": "Bavarian tribal duchy (overlordship of eastern Alps)",
+              "note": "c.550–788",
+              "regime": "bavarian_tribal_duchy"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Carolingian / Early Medieval",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Frankish Kingdom — Burgundy conquered",
+              "note": "534",
+              "regime": "carolingian_empire"
+            },
+            {
+              "regime": "carolingian_empire",
+              "label": "Carolingian Empire",
+              "note": "751–843"
+            },
+            {
+              "label": "Kingdom of Upper Burgundy (High Burgundy)",
+              "note": "888–1032",
+              "regime": "kingdom_of_upper_burgundy"
+            },
+            {
+              "label": "Second Burgundian Kingdom",
+              "note": "933–1032",
+              "regime": "second_burgundian_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Frankish Kingdom — Alemannia conquered",
+              "note": "496/746",
+              "regime": "carolingian_empire"
+            },
+            {
+              "regime": "carolingian_empire",
+              "label": "Carolingian Empire",
+              "note": "751–843"
+            },
+            {
+              "label": "Duchy of Swabia (Alemannia)",
+              "note": "909–1268",
+              "regime": "duchy_of_swabia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Frankish Kingdom — Bavaria conquered",
+              "note": "788",
+              "regime": "carolingian_empire"
+            },
+            {
+              "regime": "carolingian_empire",
+              "label": "Carolingian Empire",
+              "note": "751–843"
+            },
+            {
+              "label": "Duchy of Bavaria (Carolingian then Ottonian)",
+              "note": "788–",
+              "regime": "duchy_of_bavaria"
+            },
+            {
+              "label": "Hungarian Grand Principality (overlordship)",
+              "note": "c.900–955",
+              "regime": "hungarian_grand_principality"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "High Medieval",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "holy_roman_empire",
+              "label": "Holy Roman Empire",
+              "note": "962–"
+            },
+            {
+              "label": "Burgundy absorbed into HRE",
+              "note": "1032–1034",
+              "regime": "burgundy_absorbed_into_hre"
+            },
+            {
+              "label": "Zähringen dynasty — founding of Bern · Fribourg",
+              "note": "12th c.",
+              "regime": "zahringen_dynasty"
+            },
+            {
+              "label": "Savoy influence (Vaud · Valais)",
+              "note": ""
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "holy_roman_empire",
+              "label": "Holy Roman Empire",
+              "note": ""
+            },
+            {
+              "label": "Duchy of Swabia (fragmented after 1268)",
+              "note": "",
+              "regime": "duchy_of_swabia"
+            },
+            {
+              "label": "Habsburg origin — castle in Aargau, Switzerland",
+              "note": "c.1020",
+              "regime": "habsburg_origin"
+            },
+            {
+              "label": "Imperial immediacy of forest cantons",
+              "note": "1231–",
+              "regime": "imperial_immediacy_of_forest_cantons"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "holy_roman_empire",
+              "label": "Holy Roman Empire — German Kingdom",
+              "note": "962–"
+            },
+            {
+              "label": "March of Austria (Marchia Orientalis) — Babenberg dynasty",
+              "note": "976–1246",
+              "regime": "march_of_austria"
+            },
+            {
+              "label": "Duchy of Austria",
+              "note": "1156–",
+              "regime": "duchy_of_austria"
+            },
+            {
+              "label": "Babenberg extinction → Přemyslid interlude (Ottokar II)",
+              "note": "1246–1278"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Savoy dominance in Vaud · Geneva region",
+              "note": "13th–16th c.",
+              "regime": "savoy_dominance_in_vaud"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Old Swiss Confederacy (Eidgenossenschaft)",
+              "note": "1291–, founded by oath of Uri · Schwyz · Unterwalden",
+              "regime": "old_swiss_confederacy"
+            },
+            {
+              "label": "Eight Cantons (Luzern · Zürich · Bern · Glarus join)",
+              "note": "1332–1353",
+              "regime": "eight_cantons"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "habsburg_monarchy",
+              "label": "Habsburg dynasty takes Austria (Rudolf I)",
+              "note": "1278–, after Battle of Marchfeld"
+            },
+            {
+              "label": "Archduchy of Austria (Privilegium Maius — forged charter)",
+              "note": "1358/1453",
+              "regime": "archduchy_of_austria"
+            },
+            {
+              "label": "Habsburg expansion (Tyrol · Carinthia · Styria · Carniola)",
+              "note": "14th c."
+            },
+            {
+              "label": "Loss of Swiss territories to Confederacy",
+              "note": "14th–15th c.",
+              "regime": "loss_of_swiss_territories_to_confederacy"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Late Medieval / Reformation",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Old Swiss Confederacy — Thirteen Cantons",
+              "note": "1481–1798",
+              "regime": "old_swiss_confederacy"
+            },
+            {
+              "label": "Burgundian Wars — Charles the Bold defeated",
+              "note": "1474–1477"
+            },
+            {
+              "label": "Swabian War — de facto independence from HRE",
+              "note": "1499"
+            },
+            {
+              "label": "Confessional division (Catholic vs Reformed cantons)",
+              "note": "after Zwingli (Zürich) and Calvin (Geneva) reforms, 1520s–1530s"
+            },
+            {
+              "label": "Swiss mercenaries — most feared infantry in Europe",
+              "note": "15th–16th c.",
+              "regime": "swiss_mercenaries"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "regime": "habsburg_monarchy",
+              "label": "Habsburg Empire (Maximilian I — 'the Last Knight')",
+              "note": "1493–1519"
+            },
+            {
+              "label": "Habsburg division: Spanish vs Austrian branch",
+              "note": "1556",
+              "regime": "habsburg_division_spanish_vs_austrian_branch"
+            },
+            {
+              "label": "Austrian Habsburgs — Ferdinand I",
+              "note": "1556–1564",
+              "regime": "austrian_habsburgs"
+            },
+            {
+              "label": "Ottoman sieges of Vienna",
+              "note": "1529 · 1683"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Early Modern",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Swiss neutrality in Thirty Years' War",
+              "note": "1618–1648"
+            },
+            {
+              "label": "Peace of Westphalia — Swiss independence recognized (de jure)",
+              "note": "1648"
+            },
+            {
+              "label": "Villmergen Wars (Catholic-Protestant internal conflicts)",
+              "note": "1656 · 1712"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "regime": "habsburg_monarchy",
+              "label": "Habsburg Monarchy — Austrian branch",
+              "note": ""
+            },
+            {
+              "label": "Thirty Years' War — devastation of HRE",
+              "note": "1618–1648"
+            },
+            {
+              "label": "War of Spanish Succession — Austria gains Netherlands · Naples · Milan",
+              "note": "1701–1714"
+            },
+            {
+              "label": "Pragmatic Sanction (Maria Theresa's succession)",
+              "note": "1713",
+              "regime": "pragmatic_sanction"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Napoleonic",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Helvetic Republic (French client state — centralized)",
+              "note": "1798–1803, after French invasion collapses Old Confederacy",
+              "regime": "helvetic_republic"
+            },
+            {
+              "label": "Act of Mediation (Napoleon restores cantonal system)",
+              "note": "1803–1815"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "regime": "habsburg_monarchy",
+              "label": "Austrian Empire (proclaimed by Francis II)",
+              "note": "1804"
+            },
+            {
+              "label": "Holy Roman Empire dissolved (Francis abdicates as Emperor)",
+              "note": "1806",
+              "regime": "holy_roman_empire"
+            },
+            {
+              "label": "Napoleonic Wars — multiple defeats by France",
+              "note": "1805–1809"
+            },
+            {
+              "label": "Metternich era — Congress of Vienna architect",
+              "note": "1814–1815"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "19th Century",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Swiss Confederation restored (Congress of Vienna)",
+              "note": "1815"
+            },
+            {
+              "label": "Perpetual neutrality guaranteed by great powers",
+              "note": "1815"
+            },
+            {
+              "label": "Swiss Federal State (modern constitution)",
+              "note": "1848, after Sonderbund War (1847) resolves Catholic-Protestant divide",
+              "regime": "swiss_federal_state"
+            },
+            {
+              "label": "Direct democracy · federal system · armed neutrality",
+              "note": ""
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "regime": "habsburg_monarchy",
+              "label": "Austrian Empire",
+              "note": "1804–1867"
+            },
+            {
+              "label": "German Confederation (Austria as president)",
+              "note": "1815–1866",
+              "regime": "german_confederation"
+            },
+            {
+              "label": "Austro-Prussian War — Austria excluded from Germany",
+              "note": "1866"
+            },
+            {
+              "regime": "habsburg_monarchy",
+              "label": "Austria-Hungary (Dual Monarchy — Ausgleich)",
+              "note": "1867–1918"
+            },
+            {
+              "label": "Multinational empire (Germans · Hungarians · Czechs · Poles · South Slavs)",
+              "note": "",
+              "regime": "multinational_empire"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "World Wars",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Switzerland — neutral in World War I",
+              "note": "1914–1918"
+            },
+            {
+              "label": "Switzerland — neutral in World War II",
+              "note": "1939–1945"
+            },
+            {
+              "label": "Controversies (Nazi gold · refugee policy)",
+              "note": ""
+            },
+            {
+              "label": "International organizations base (League of Nations · later UN)",
+              "note": "Geneva",
+              "regime": "international_organizations_base"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "World War I — Austria-Hungary collapses",
+              "note": "1914–1918",
+              "regime": "world_war_i"
+            },
+            {
+              "label": "Republic of German-Austria (sought union with Germany)",
+              "note": "1918–1919",
+              "regime": "republic_of_german_austria"
+            },
+            {
+              "label": "First Austrian Republic",
+              "note": "1919–1934",
+              "regime": "first_austrian_republic"
+            },
+            {
+              "label": "Austrofascist Federal State (Dollfuß · Schuschnigg)",
+              "note": "1934–1938",
+              "regime": "austrofascist_federal_state"
+            },
+            {
+              "regime": "nazi_germany",
+              "label": "Anschluss — annexed by Nazi Germany",
+              "note": "1938–1945"
+            },
+            {
+              "label": "Allied occupation (four zones)",
+              "note": "1945–1955"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Swiss Confederation",
+              "note": "1848–",
+              "regime": "swiss_confederation"
+            },
+            {
+              "label": "International neutrality (not in NATO · UN member only 2002)",
+              "note": ""
+            },
+            {
+              "label": "Global financial center (Zürich · Geneva)",
+              "note": "",
+              "regime": "global_financial_center"
+            },
+            {
+              "label": "Not an EU member (bilateral agreements)",
+              "note": ""
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Second Austrian Republic",
+              "note": "1955–",
+              "regime": "second_austrian_republic"
+            },
+            {
+              "label": "Austrian State Treaty — sovereignty restored · permanent neutrality",
+              "note": "1955"
+            },
+            {
+              "label": "EU member (1995) · not in NATO (neutral)",
+              "note": ""
+            },
+            {
+              "label": "Vienna — UN/OSCE/OPEC headquarters",
+              "note": "",
+              "regime": "vienna"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "La Tène culture (c.450–50 BCE): named after a site on Lake Neuchâtel in Switzerland, this is the defining archaeological culture of the later Celtic/Iron Age; La Tène art and metalwork spread across Europe from Iberia to Anatolia; the Helvetii who inhabited the Swiss Plateau were among the most powerful Celtic tribes",
+    "Rütlischwur and the Old Swiss Confederacy (1291): according to tradition, representatives of Uri, Schwyz, and Unterwalden swore a mutual defense pact on the Rütli meadow; the Confederacy gradually expanded by defeating Habsburg armies at Morgarten (1315), Sempach (1386), and Näfels (1388); Swiss independence was a direct rejection of Habsburg authority",
+    "Habsburg rise (1278–): Rudolf I of Habsburg seized Austria from Ottokar II of Bohemia at the Battle on the Marchfeld (1278); from this base, the Habsburgs built the most enduring European dynasty, eventually ruling Austria, Hungary, Bohemia, the Low Countries, Spain, and vast colonial territories — all from a family whose original castle stood in Swiss Aargau",
+    "Swiss Reformation: Huldrych Zwingli's reforms in Zürich (1523) and John Calvin's theocratic Geneva (1541) made Switzerland a cradle of Reformed Protestantism; the confessional split between Catholic and Protestant cantons shaped Swiss politics for centuries and was only resolved by the Sonderbund War of 1847",
+    "Peace of Westphalia (1648): the treaties ending the Thirty Years' War formally recognized Swiss independence from the Holy Roman Empire, confirming a de facto situation that had existed since the Swabian War of 1499; Switzerland's neutrality tradition dates from this era",
+    "Anschluss (1938): Hitler's annexation of Austria into Nazi Germany was met with enthusiastic popular support in many quarters; Austria was treated as a German province ('Ostmark') until 1945; the post-war Moscow Declaration (1943) called Austria 'the first free country to fall victim to Hitlerite aggression', establishing the framework for Austrian sovereignty",
+    "Austrian neutrality (1955): the Austrian State Treaty restored full sovereignty on the condition of permanent neutrality (modeled partly on Swiss neutrality); unlike Switzerland's centuries-old tradition, Austrian neutrality was a Cold War compromise — yet it became a core national identity, enabling Vienna to host major international organizations"
+  ]
+}

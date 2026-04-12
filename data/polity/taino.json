@@ -1,0 +1,15 @@
+{
+  "id": "taino",
+  "name": "Taíno",
+  "ruling_ethnicity": "caribbean_indigenous",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "caribbean"
+  ],
+  "start": 1200,
+  "end": 1524,
+  "note": "Arawak peoples of the Caribbean"
+}

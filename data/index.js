@@ -73,21 +73,16 @@ const DATA = __dirname;
 
 const db = {
   // Regime data — flat directories, one file per geographic cluster
-  regimes:     loadDir(path.join(DATA, 'regimes')),
-  successions: loadDir(path.join(DATA, 'successions')),
+  regimes:     loadDir(path.join(DATA, 'polity')),
+  successions: loadDir(path.join(DATA, 'succession')),
 
-  // Territories — macro geographic zones, one file per territory
-  // Each file contains metadata + periods[] of historical regime control
-  territories: loadDir(path.join(DATA, 'territories')),
+  territories: loadDir(path.join(DATA, 'territory')),
 
-  // Taxonomies — directory trees, parent derived from path
-  religions:   loadTree(path.join(DATA, 'religions')),
-  languages:   loadTree(path.join(DATA, 'languages')),
-  ethnicities: loadTree(path.join(DATA, 'ethnicities')),
+  religions:   loadTree(path.join(DATA, 'religion')),
+  languages:   loadTree(path.join(DATA, 'language')),
+  ethnicities: loadTree(path.join(DATA, 'ethnicity')),
 
-  // Provinces — atomic map units (GeoJSON Features), one file per province
-  // Each file contains: territory FK, simple regime control timeline, geometry (null until added)
-  provinces: loadDir(path.join(DATA, 'provinces')),
+  provinces: loadDir(path.join(DATA, 'province')),
 
   // Lookup table — stays as single flat file
   ideologies: loadJSON(path.join(DATA, 'ideologies.json')),

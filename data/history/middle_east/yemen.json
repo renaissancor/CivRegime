@@ -1,0 +1,432 @@
+{
+  "id": "yemen",
+  "title": "History of Yemen (تاريخ اليمن)",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "west",
+      "name": "Western Yemen (Saba · Zaidi Highlands)",
+      "slots": 1
+    },
+    {
+      "id": "south",
+      "name": "Southern Yemen (Aden · Hadramaut)",
+      "slots": 1
+    },
+    {
+      "id": "east",
+      "name": "Eastern Yemen (Hadramaut · Mahra)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Ancient",
+        "rowspan": 3
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_saba",
+              "label": "Kingdom of Saba (Sheba — Ma'rib)",
+              "note": "c.1200–275 BCE"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Qataban kingdom",
+              "note": "c.800–200 BCE",
+              "regime": "qataban_kingdom"
+            },
+            {
+              "label": "Awsan kingdom",
+              "note": "",
+              "regime": "awsan_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Hadramaut kingdom",
+              "note": "c.800 BCE–300 CE",
+              "regime": "hadramaut_kingdom"
+            },
+            {
+              "label": "Ma'in kingdom (Minaean)",
+              "note": "c.700–100 BCE",
+              "regime": "main_kingdom"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "kingdom_of_saba",
+              "label": "Saba (revived — Hamdan dynasty)",
+              "note": "c.275 BCE–"
+            },
+            {
+              "regime": "himyarite_kingdom",
+              "label": "Himyarite Kingdom (absorbs Saba)",
+              "note": "c.110 BCE–525 CE"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Qataban (declining — absorbed by Himyar)",
+              "note": "–c.200 CE"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Hadramaut (absorbed by Himyar)",
+              "note": "–c.300 CE",
+              "regime": "hadramaut"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "himyarite_kingdom",
+              "label": "Himyarite Kingdom (unified Yemen)",
+              "note": "c.300–525"
+            },
+            {
+              "label": "Himyar — Jewish (Yathar dynasty)",
+              "note": "c.380–525",
+              "regime": "himyar"
+            },
+            {
+              "label": "Himyar — Christian (Aksumite vassal)",
+              "note": "525–570",
+              "regime": "himyar"
+            },
+            {
+              "regime": "aksumite_kingdom",
+              "label": "Aksumite occupation",
+              "note": "525–570"
+            },
+            {
+              "label": "Sassanid Persian rule",
+              "note": "570–630",
+              "regime": "sassanid_persian_rule"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Islamic / Medieval",
+        "rowspan": 3
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Rashidun · Umayyad · Abbasid caliphates",
+              "note": "630–9th c.",
+              "regime": "abbasid_caliphate"
+            },
+            {
+              "label": "Zaidi Imamate (Shia — northern highlands)",
+              "note": "897–",
+              "regime": "zaidi_imamate"
+            },
+            {
+              "label": "Yu'firid dynasty",
+              "note": "847–997",
+              "regime": "yufirid_dynasty"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Ziyadid dynasty (Tihama coast)",
+              "note": "818–1018",
+              "regime": "ziyadid_dynasty"
+            },
+            {
+              "label": "Najahid dynasty",
+              "note": "1022–1158",
+              "regime": "najahid_dynasty"
+            },
+            {
+              "label": "Mahdid dynasty",
+              "note": "1159–1174",
+              "regime": "mahdid_dynasty"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Ibadi movement (Hadramaut)",
+              "note": "",
+              "regime": "ibadi_movement"
+            },
+            {
+              "label": "Hadrami local dynasties",
+              "note": "",
+              "regime": "hadrami_local_dynasties"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Sulayhid dynasty (Ismaili Shia)",
+              "note": "1047–1138",
+              "regime": "sulayhid_dynasty"
+            },
+            {
+              "label": "Hamdanid dynasty",
+              "note": "1098–1174",
+              "regime": "hamdanid_dynasty"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Zuray'id dynasty (Aden)",
+              "note": "1083–1174",
+              "regime": "zurayid_dynasty"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Ayyubid dynasty (Saladin's brother — conquers Yemen)",
+              "note": "1174–1229",
+              "regime": "ayyubid_sultanate"
+            },
+            {
+              "label": "Rasulid dynasty (Sunni — golden age of medieval Yemen)",
+              "note": "1229–1454"
+            },
+            {
+              "label": "Tahirid dynasty",
+              "note": "1454–1517",
+              "regime": "tahirid_dynasty"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Kathiri Sultanate (Hadramaut)",
+              "note": "c.1395–1967",
+              "regime": "kathiri_sultanate"
+            },
+            {
+              "label": "Qu'aiti Sultanate (Hadramaut)",
+              "note": "c.1858–1967",
+              "regime": "quaiti_sultanate"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Ottoman / Early Modern",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "regime": "ottoman_empire",
+              "label": "Ottoman Empire (1st occupation)",
+              "note": "1538–1636"
+            },
+            {
+              "label": "Zaidi Imamate (expels Ottomans — Qasimid dynasty)",
+              "note": "1636–1872",
+              "regime": "zaidi_imamate"
+            },
+            {
+              "regime": "ottoman_empire",
+              "label": "Ottoman Empire (2nd occupation)",
+              "note": "1872–1918"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "ottoman_empire",
+              "label": "Ottoman influence (coastal areas)",
+              "note": ""
+            },
+            {
+              "label": "Lahej Sultanate",
+              "note": "1728–1967",
+              "regime": "lahej_sultanate"
+            },
+            {
+              "label": "British Aden (captured 1839)",
+              "note": "1839–1967",
+              "regime": "british_aden"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kathiri · Qu'aiti sultanates (Hadramaut)",
+              "note": "",
+              "regime": "kathiri_quaiti_sultanates"
+            },
+            {
+              "label": "British Aden Protectorate (Eastern)",
+              "note": "1888–1967",
+              "regime": "british_aden_protectorate"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "North-South Split",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Mutawakkilite Kingdom of Yemen (Zaidi — Hamid al-Din)",
+              "note": "1918–1962",
+              "regime": "mutawakkilite_kingdom_of_yemen"
+            },
+            {
+              "label": "Yemen Arab Republic (North Yemen)",
+              "note": "1962–1990",
+              "regime": "yemen_arab_republic"
+            },
+            {
+              "label": "North Yemen Civil War (royalists vs republicans)",
+              "note": "1962–1970"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Federation of South Arabia (British-backed)",
+              "note": "1962–1967",
+              "regime": "federation_of_south_arabia"
+            },
+            {
+              "label": "People's Democratic Republic of Yemen (South Yemen — Marxist)",
+              "note": "1967–1990",
+              "regime": "peoples_democratic_republic_of_yemen"
+            }
+          ],
+          "span": 2
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Republic of Yemen (unified)",
+              "note": "1990–",
+              "regime": "republic_of_yemen"
+            },
+            {
+              "label": "South Yemen secession attempt (civil war)",
+              "note": "1994"
+            },
+            {
+              "label": "Yemeni Revolution (Arab Spring)",
+              "note": "2011–2012"
+            },
+            {
+              "label": "Yemeni Civil War (Houthi vs government · Saudi intervention)",
+              "note": "2014–"
+            },
+            {
+              "label": "Supreme Political Council (Houthi — Sana'a)",
+              "note": "2016–",
+              "regime": "supreme_political_council"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Kingdom of Saba (c.1200–275 BCE): the biblical Sheba; centered on Ma'rib and its great dam (one of the engineering wonders of the ancient world); Sabaean inscriptions are among the earliest South Semitic texts; the Ma'rib Dam's final collapse (c.570 CE) became a symbol of civilizational decline in Islamic tradition",
+    "Himyarite Kingdom (c.110 BCE–525 CE): unified all of Yemen under one crown; uniquely, the late Himyarite kings adopted Judaism (Yathar/Yusuf dynasty); the persecution of Christians at Najran provoked Aksumite Ethiopia's invasion in 525; the Himyarite era represents the last indigenous Yemeni great power",
+    "Incense trade: ancient Yemen's wealth rested on the frankincense and myrrh trade — aromatics essential to religious rituals across the ancient Mediterranean and Near East; the 'Incense Road' connected Hadramaut to Gaza and Petra; Roman demand made South Arabia one of the wealthiest regions in the ancient world (Arabia Felix — 'Fortunate Arabia')",
+    "Zaidi Imamate (897–1962): the longest-lasting state in Yemeni history; Zaidi Shia imams ruled the northern highlands almost continuously for over a millennium; their theological tradition emphasizes the imam as both spiritual and temporal leader from the Prophet's family; the Houthi movement draws on this Zaidi heritage",
+    "Rasulid dynasty (1229–1454): widely considered the golden age of medieval Yemen; the Rasulids patronized architecture, scholarship, and agriculture; they compiled encyclopedic works on astronomy, agriculture, and medicine; Aden flourished as an Indian Ocean entrepôt",
+    "British Aden (1839–1967): Britain seized Aden as a coaling station on the route to India; it became one of the world's busiest ports; the hinterland was organized into the Aden Protectorate with dozens of minor sultanates; independence in 1967 produced the only Marxist state in the Arab world",
+    "Yemeni Civil War (2014–): the Houthi movement (Ansar Allah — Zaidi revivalist) seized Sana'a in 2014; Saudi Arabia and the UAE intervened militarily in 2015; the war has created what the UN called 'the world's worst humanitarian crisis' with over 150,000 dead and millions displaced"
+  ]
+}

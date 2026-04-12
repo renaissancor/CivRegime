@@ -1,0 +1,17 @@
+{
+  "id": "viceroyalty_of_new_granada",
+  "name": "Viceroyalty of New Granada",
+  "ruling_ethnicity": "spanish",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "andes",
+    "caribbean"
+  ],
+  "start": 1717,
+  "end": 1819,
+  "note": "Spanish colonial northern South America"
+}

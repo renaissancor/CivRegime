@@ -1,7 +1,7 @@
 {
   "id": "sfr_yugoslavia",
   "name": "SFR Yugoslavia",
-  "ruling_ethnicity": "slavic",
+  "ruling_ethnicity": "slavic_cluster",
   "cultural_language": "serbo_croatian",
   "ideology": {
     "government": "communist_state"

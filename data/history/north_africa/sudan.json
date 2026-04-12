@@ -2,267 +2,579 @@
   "id": "sudan",
   "title": "History of Sudan & South Sudan",
   "columns": [
-    { "id": "era",   "name": "Era",                                     "slots": 1, "type": "era" },
-    { "id": "north", "name": "N. Sudan / Nubia (Napata · Dongola)",    "slots": 1 },
-    { "id": "cent",  "name": "C. Sudan (Meroe · Khartoum)",            "slots": 1 },
-    { "id": "alwa",  "name": "C-S. Sudan / Alwa (Blue Nile · Sennar)", "slots": 1 },
-    { "id": "east",  "name": "E. Sudan / Beja (Red Sea · Kassala)",    "slots": 1 },
-    { "id": "west",  "name": "W. Sudan / Darfur",                      "slots": 1 },
-    { "id": "south", "name": "South Sudan (Upper Nile · Equatoria)",   "slots": 1 }
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "north",
+      "name": "N. Sudan / Nubia (Napata · Dongola)",
+      "slots": 1
+    },
+    {
+      "id": "cent",
+      "name": "C. Sudan (Meroe · Khartoum)",
+      "slots": 1
+    },
+    {
+      "id": "alwa",
+      "name": "C-S. Sudan / Alwa (Blue Nile · Sennar)",
+      "slots": 1
+    },
+    {
+      "id": "east",
+      "name": "E. Sudan / Beja (Red Sea · Kassala)",
+      "slots": 1
+    },
+    {
+      "id": "west",
+      "name": "W. Sudan / Darfur",
+      "slots": 1
+    },
+    {
+      "id": "south",
+      "name": "South Sudan (Upper Nile · Equatoria)",
+      "slots": 1
+    }
   ],
   "rows": [
     {
-      "era": { "label": "Very Ancient", "rowspan": 1 },
+      "era": {
+        "label": "Very Ancient",
+        "rowspan": 1
+      },
       "cells": [
-        { "stack": [
-            { "label": "Egyptian New Kingdom — Nubia (Kush as vassal)", "note": "c.1550–1070 BCE" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Egyptian New Kingdom — Nubia (Kush as vassal)",
+              "note": "c.1550–1070 BCE",
+              "regime": "egyptian_new_kingdom"
+            }
+          ],
+          "span": 2
         },
-        { "stack": [
-            { "label": "Nilotic peoples (proto-Nilo-Saharan)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Nilotic peoples (proto-Nilo-Saharan)",
+              "regime": "nilotic_peoples"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Punt (Egyptian trading land)", "note": "Red Sea coast" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Punt (Egyptian trading land)",
+              "note": "Red Sea coast",
+              "regime": "punt"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Luo / Fur peoples" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Luo / Fur peoples",
+              "regime": "luo"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Luo / Nilotic peoples" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Luo / Nilotic peoples",
+              "regime": "luo"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Ancient", "rowspan": 2 },
+      "era": {
+        "label": "Ancient",
+        "rowspan": 2
+      },
       "cells": [
-        { "stack": [
-            { "label": "Kush Kingdom — Napata phase", "note": "c.780–300 BCE" },
-            { "label": "Kushite 25th Dynasty of Egypt", "note": "747–656 BCE" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Kush Kingdom — Napata phase",
+              "note": "c.780–300 BCE",
+              "regime": "kush_kingdom"
+            },
+            {
+              "label": "Kushite 25th Dynasty of Egypt",
+              "note": "747–656 BCE",
+              "regime": "kushite_25th_dynasty_of_egypt"
+            }
+          ],
+          "span": 2
         },
-        { "stack": [
-            { "label": "Alwa (forming)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Alwa (forming)"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Blemmyes (nomadic eastern desert)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Blemmyes (nomadic eastern desert)",
+              "regime": "blemmyes"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Nile peoples · Dagu" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Nile peoples · Dagu",
+              "regime": "nile_peoples"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Nilotic peoples (Luo · proto-Dinka)" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Roman client / Nobatia forming" },
-            { "label": "Meroite-Roman conflict & diplomacy", "note": "23–21 BCE" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Kush Kingdom — Meroe phase", "note": "c.300 BCE–350 CE" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Alwa Kingdom (forming)" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Blemmyes · early Beja" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Dagu · Zaghawa (early)" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Nilotic peoples" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Medieval", "rowspan": 3 },
-      "cells": [
-        { "stack": [
-            { "label": "Nobatia (Christian)", "note": "c.400–650 CE" },
-            { "label": "Makuria / Dongola (Christian)", "note": "c.580–1323" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Makuria (southern territory)" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Alwa Kingdom (Christian Nubian)", "note": "c.6th c.–1504" },
-            { "label": "Aksumite Christian influence" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Beja (Christian / Islamicising)" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Kanem Empire (eastern influence)" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Nilotic peoples" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": null,
-      "cells": [
-        { "stack": [
-            { "label": "Makuria (Dongola) — Baqt Treaty", "note": "652 CE" },
-            { "label": "Umayyad / Abbasid raids" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Makuria · Banu Kanz (forming)" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Alwa Kingdom" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Beja (Islamicising)" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Kanem Empire · Daju" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Nilotic peoples" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Nilotic peoples (Luo · proto-Dinka)",
+              "regime": "nilotic_peoples"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Dongola Kingdom (declining)" },
-            { "label": "Mamluk interference", "note": "1276 · 1317" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Roman client / Nobatia forming",
+              "note": "Meroite-Roman conflict & diplomacy (23–21 BCE)"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Banu Kanz (Arab-Nubian dynasty)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Kush Kingdom — Meroe phase",
+              "note": "c.300 BCE–350 CE",
+              "regime": "kush_kingdom"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Alwa declining → Funj forming" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Alwa Kingdom (forming)"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Beja (Hadendoa · Bisharin)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Blemmyes · early Beja",
+              "regime": "blemmyes_early_beja"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Tunjur dynasty" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Dagu · Zaghawa (early)",
+              "regime": "dagu_zaghawa"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Nilotic peoples" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Nilotic peoples",
+              "regime": "nilotic_peoples"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Early Modern", "rowspan": 1 },
+      "era": {
+        "label": "Medieval",
+        "rowspan": 3
+      },
       "cells": [
-        { "stack": [
-            { "label": "Ayyubid → Mamluk dynasty (N. Sudan)" },
-            { "label": "Ottoman Empire suzerainty", "note": "from 1517" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Nobatia (Christian)",
+              "note": "c.400–650 CE",
+              "regime": "nobatia"
+            },
+            {
+              "label": "Makuria / Dongola (Christian)",
+              "note": "c.580–1323",
+              "regime": "makuria_kingdom"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Ottoman Egypt border · Funj tributary" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Makuria (southern territory)",
+              "regime": "makuria_kingdom"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Funj Sultanate (Sennar Sultanate)", "note": "1504–1821" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Alwa Kingdom (Christian Nubian)",
+              "note": "c.6th c.–1504; Aksumite Christian influence",
+              "regime": "alwa_kingdom"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Beja (under Ottoman / Funj suzerainty)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Beja (Christian / Islamicising)",
+              "regime": "beja"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Darfur Sultanate (Keira dynasty)", "note": "c.1603–1874" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Kanem Empire (eastern influence)"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Nilotic peoples (Shilluk · Dinka · Nuer)" }
-          ], "span": 1
-        }
-      ]
-    },
-    {
-      "era": { "label": "Modern", "rowspan": 2 },
-      "cells": [
-        { "stack": [
-            { "label": "Muhammad Ali dynasty — Turco-Egyptian Sudan", "note": "conquered 1820–1821" }
-          ], "span": 6
+        {
+          "stack": [
+            {
+              "label": "Nilotic peoples",
+              "regime": "nilotic_peoples"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Mahdist State (Muhammad Ahmad · Khalifa Abdallahi)", "note": "1881–1898" },
-            { "label": "Anglo-Egyptian Sudan (Condominium)", "note": "1899–1956" }
-          ], "span": 6
-        }
-      ]
-    },
-    {
-      "era": { "label": "Contemporary", "rowspan": 2 },
-      "cells": [
-        { "stack": [
-            { "label": "Republic of Sudan (independence 1956)" },
-            { "label": "Nimeiry · Bashir regime (1989–2019) · transitional government" }
-          ], "span": 4
+        {
+          "stack": [
+            {
+              "label": "Makuria (Dongola) — Baqt Treaty",
+              "note": "652 CE; Umayyad / Abbasid raids",
+              "regime": "makuria_kingdom"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Republic of Sudan" },
-            { "label": "Darfur conflict", "note": "2003–" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Makuria · Banu Kanz (forming)"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Republic of Sudan (Southern Sudan)" },
-            { "label": "South Sudan referendum", "note": "2011" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Alwa Kingdom",
+              "regime": "alwa_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Beja (Islamicising)",
+              "regime": "beja"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kanem Empire · Daju",
+              "regime": "kanem_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Nilotic peoples",
+              "regime": "nilotic_peoples"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Republic of Sudan — Sudan civil war", "note": "RSF vs SAF, 2023–" }
-          ], "span": 5
+        {
+          "stack": [
+            {
+              "label": "Dongola Kingdom (declining)",
+              "note": "Mamluk interference (1276 · 1317)"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Republic of South Sudan (2011)" },
-            { "label": "South Sudanese civil war", "note": "2013–2020 · ongoing instability" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Banu Kanz (Arab-Nubian dynasty)",
+              "regime": "banu_kanz"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Alwa declining → Funj forming"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Beja (Hadendoa · Bisharin)",
+              "regime": "beja"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Tunjur dynasty",
+              "regime": "tunjur_dynasty"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Nilotic peoples",
+              "regime": "nilotic_peoples"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Early Modern",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Ayyubid → Mamluk dynasty (N. Sudan)",
+              "regime": "ayyubid_sultanate"
+            },
+            {
+              "label": "Ottoman Empire suzerainty",
+              "note": "from 1517",
+              "regime": "ottoman_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Ottoman Egypt border · Funj tributary",
+              "regime": "ottoman_egypt_border"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Funj Sultanate (Sennar Sultanate)",
+              "note": "1504–1821",
+              "regime": "funj_sultanate"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Beja (under Ottoman / Funj suzerainty)"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Darfur Sultanate (Keira dynasty)",
+              "note": "c.1603–1874",
+              "regime": "darfur_sultanate"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Nilotic peoples (Shilluk · Dinka · Nuer)",
+              "regime": "nilotic_peoples"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Modern",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Muhammad Ali dynasty — Turco-Egyptian Sudan",
+              "note": "conquered 1820–1821",
+              "regime": "muhammad_ali_dynasty"
+            }
+          ],
+          "span": 6
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Mahdist State (Muhammad Ahmad · Khalifa Abdallahi)",
+              "note": "1881–1898",
+              "regime": "mahdist_state"
+            },
+            {
+              "label": "Anglo-Egyptian Sudan (Condominium)",
+              "note": "1899–1956",
+              "regime": "anglo_egyptian_sudan"
+            }
+          ],
+          "span": 6
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Republic of Sudan (independence 1956)"
+            },
+            {
+              "label": "Nimeiry · Bashir regime (1989–2019) · transitional government",
+              "regime": "nimeiry_bashir_regime_transitional_government"
+            }
+          ],
+          "span": 4
+        },
+        {
+          "stack": [
+            {
+              "label": "Republic of Sudan",
+              "regime": "republic_of_sudan"
+            },
+            {
+              "label": "Darfur conflict",
+              "note": "2003–",
+              "regime": "darfur_conflict"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Republic of Sudan (Southern Sudan)",
+              "regime": "republic_of_sudan"
+            },
+            {
+              "label": "South Sudan referendum",
+              "note": "2011",
+              "regime": "south_sudan_referendum"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Republic of Sudan — Sudan civil war",
+              "note": "RSF vs SAF, 2023–"
+            }
+          ],
+          "span": 5
+        },
+        {
+          "stack": [
+            {
+              "label": "Republic of South Sudan (2011)",
+              "regime": "republic_of_south_sudan"
+            },
+            {
+              "label": "South Sudanese civil war",
+              "note": "2013–2020 · ongoing instability"
+            }
+          ],
+          "span": 1
         }
       ]
     }

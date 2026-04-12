@@ -1,0 +1,20 @@
+{
+  "id": "united_states",
+  "name": "United States of America",
+  "ruling_ethnicity": "english",
+  "cultural_language": "english",
+  "ideology": {
+    "religion": "protestant",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "us_east",
+    "us_south",
+    "us_midwest",
+    "us_west",
+    "alaska",
+    "hawaii"
+  ],
+  "start": 1776,
+  "end": null
+}

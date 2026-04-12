@@ -2,148 +2,321 @@
   "id": "north_macedonia",
   "title": "History of North Macedonia",
   "columns": [
-    { "id": "era",    "name": "Era",                              "slots": 1, "type": "era" },
-    { "id": "west",   "name": "W. Macedonia (Ohrid · Bitola)",   "slots": 1 },
-    { "id": "center", "name": "C. Macedonia (Skopje · Vardar)",  "slots": 1 },
-    { "id": "east",   "name": "E. Macedonia (Štip · Strumica)",  "slots": 1 }
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "west",
+      "name": "W. Macedonia (Ohrid · Bitola)",
+      "slots": 1
+    },
+    {
+      "id": "center",
+      "name": "C. Macedonia (Skopje · Vardar)",
+      "slots": 1
+    },
+    {
+      "id": "east",
+      "name": "E. Macedonia (Štip · Strumica)",
+      "slots": 1
+    }
   ],
   "rows": [
     {
-      "era": { "label": "Ancient", "rowspan": 2 },
+      "era": {
+        "label": "Ancient",
+        "rowspan": 2
+      },
       "cells": [
-        { "stack": [
-            { "label": "Paeonians (indigenous)", "note": "c.700–358 BCE" },
-            { "label": "Ancient Greek influence (south)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Paeonians (indigenous)",
+              "note": "c.700–358 BCE",
+              "regime": "paeonians"
+            },
+            {
+              "label": "Ancient Greek influence (south)"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Kingdom of Paeonia", "note": "c.600 BCE–" },
-            { "label": "Persian satrapy (briefly)", "note": "c.513–479 BCE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Paeonia",
+              "note": "c.600 BCE–",
+              "regime": "kingdom_of_paeonia"
+            },
+            {
+              "label": "Persian satrapy (briefly)",
+              "note": "c.513–479 BCE"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Kingdom of Paeonia" },
-            { "label": "Thracian borderlands" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Paeonia",
+              "regime": "kingdom_of_paeonia"
+            },
+            {
+              "label": "Thracian borderlands",
+              "regime": "thracian_borderlands"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Macedonian Kingdom — Philip II conquered Paeonia", "note": "358 BCE" },
-            { "label": "Roman Macedonia province",                          "note": "148 BCE–" },
-            { "label": "Hunnic raids · Germanic migrations",                "note": "4th–6th c. CE" }
-          ], "span": 3
+        {
+          "stack": [
+            {
+              "label": "Macedonian Kingdom — Philip II conquered Paeonia",
+              "note": "358 BCE",
+              "regime": "macedonian_kingdom"
+            },
+            {
+              "label": "Roman Macedonia province",
+              "note": "148 BCE–",
+              "regime": "roman_macedonia_province"
+            },
+            {
+              "label": "Hunnic raids · Germanic migrations",
+              "note": "4th–6th c. CE",
+              "regime": "hunnic_raids"
+            }
+          ],
+          "span": 3
         }
       ]
     },
     {
-      "era": { "label": "Medieval", "rowspan": 4 },
+      "era": {
+        "label": "Medieval",
+        "rowspan": 4
+      },
       "cells": [
-        { "stack": [
-            { "label": "Byzantine Empire" },
-            { "label": "South Slavic migration southward", "note": "6th–7th c." }
-          ], "span": 3
+        {
+          "stack": [
+            {
+              "label": "Byzantine Empire",
+              "regime": "byzantine_empire"
+            },
+            {
+              "label": "South Slavic migration southward",
+              "note": "6th–7th c.",
+              "regime": "south_slavic_migration_southward"
+            }
+          ],
+          "span": 3
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Byzantine Empire (Ohrid — major cultural centre)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Byzantine Empire (Ohrid — major cultural centre)",
+              "regime": "byzantine_empire"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "First Bulgarian Empire", "note": "864–1018" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "First Bulgarian Empire",
+              "note": "864–1018",
+              "regime": "first_bulgarian_empire"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Byzantine reconquest (1018) — Ohrid Archbishopric" },
-            { "label": "Second Bulgarian Empire", "note": "1185–" },
-            { "label": "Serbian Empire — Stefan Dušan", "note": "1331–1371" }
-          ], "span": 3
+        {
+          "stack": [
+            {
+              "label": "Byzantine reconquest (1018) — Ohrid Archbishopric",
+              "regime": "byzantine_reconquest"
+            },
+            {
+              "label": "Second Bulgarian Empire",
+              "note": "1185–",
+              "regime": "second_bulgarian_empire"
+            },
+            {
+              "label": "Serbian Empire — Stefan Dušan",
+              "note": "1331–1371",
+              "regime": "serbian_empire"
+            }
+          ],
+          "span": 3
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Medieval Serbian Principality (fragmented)", "note": "after 1371" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Medieval Serbian Principality (fragmented)",
+              "note": "after 1371",
+              "regime": "medieval_serbian_principality"
+            }
+          ],
+          "span": 2
         },
-        { "stack": [
-            { "label": "Ottoman — early conquest", "note": "from 1385" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Ottoman — early conquest",
+              "note": "from 1385",
+              "regime": "ottoman_empire"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Ottoman", "rowspan": 1 },
+      "era": {
+        "label": "Ottoman",
+        "rowspan": 1
+      },
       "cells": [
-        { "regime": "ottoman_empire",
+        {
+          "regime": "ottoman_empire",
           "label": "Ottoman Empire — Monastir, Kosovo & Salonika vilayets",
           "span": 3
         }
       ]
     },
     {
-      "era": { "label": "Modern", "rowspan": 4 },
+      "era": {
+        "label": "Modern",
+        "rowspan": 4
+      },
       "cells": [
-        { "stack": [
-            { "label": "Kruševo Republic (Ilinden Uprising)", "note": "August 1903 — 10 days" },
-            { "label": "Ottoman Empire (suppressed uprising)" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Kruševo Republic (Ilinden Uprising)",
+              "note": "August 1903 — 10 days"
+            },
+            {
+              "label": "Ottoman Empire (suppressed uprising)",
+              "regime": "ottoman_empire"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Ottoman Empire" },
-            { "label": "Serbia — after First Balkan War", "note": "1912" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Ottoman Empire",
+              "regime": "ottoman_empire"
+            },
+            {
+              "label": "Serbia — after First Balkan War",
+              "note": "1912"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Kingdom of Serbs, Croats & Slovenes → Yugoslavia", "note": "1918–1941" },
-            { "label": "Vardar Banovina" }
-          ], "span": 3
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Serbs, Croats & Slovenes → Yugoslavia",
+              "note": "1918–1941"
+            },
+            {
+              "label": "Vardar Banovina",
+              "regime": "vardar_banovina"
+            }
+          ],
+          "span": 3
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Italian Albania (occupied western districts)", "note": "1941–1943" },
-            { "label": "Albanian Kingdom",                             "note": "1943–1944" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Italian Albania (occupied western districts)",
+              "note": "1941–1943",
+              "regime": "italian_albania"
+            },
+            {
+              "label": "Albanian Kingdom",
+              "note": "1943–1944",
+              "regime": "albanian_kingdom"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Bulgarian Kingdom — occupation",  "note": "1941–1944" },
-            { "label": "Independent State of Macedonia", "note": "briefly Sept–Nov 1944" }
-          ], "span": 2
+        {
+          "stack": [
+            {
+              "label": "Bulgarian Kingdom — occupation",
+              "note": "1941–1944"
+            },
+            {
+              "label": "Independent State of Macedonia",
+              "note": "briefly Sept–Nov 1944",
+              "regime": "independent_state_of_macedonia"
+            }
+          ],
+          "span": 2
         }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "stack": [
-            { "label": "Yugoslav Partisans → SFR Yugoslavia", "note": "from 1944" },
-            { "label": "Socialist Republic of Macedonia" },
-            { "label": "Republic of Macedonia",  "note": "1991–2019" },
-            { "label": "North Macedonia",        "note": "2019–present" }
-          ], "span": 3
+        {
+          "stack": [
+            {
+              "label": "Yugoslav Partisans → SFR Yugoslavia",
+              "note": "from 1944"
+            },
+            {
+              "label": "Socialist Republic of Macedonia",
+              "regime": "socialist_republic_of_macedonia"
+            },
+            {
+              "label": "Republic of Macedonia",
+              "note": "1991–2019",
+              "regime": "republic_of_macedonia"
+            },
+            {
+              "label": "North Macedonia",
+              "note": "2019–present",
+              "regime": "north_macedonia"
+            }
+          ],
+          "span": 3
         }
       ]
     }

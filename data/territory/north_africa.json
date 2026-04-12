@@ -1,0 +1,116 @@
+{
+  "id": "north_africa",
+  "name": "north_africa",
+  "regime_count": 22,
+  "regimes": [
+    {
+      "regime_id": "roman_republic",
+      "start": -509,
+      "end": -27
+    },
+    {
+      "regime_id": "roman_empire",
+      "start": -27,
+      "end": 380
+    },
+    {
+      "regime_id": "roman_empire",
+      "start": 380,
+      "end": 395
+    },
+    {
+      "regime_id": "western_roman_empire",
+      "start": 395,
+      "end": 476
+    },
+    {
+      "regime_id": "vandal_kingdom",
+      "start": 429,
+      "end": 533
+    },
+    {
+      "regime_id": "byzantine_empire",
+      "start": 533,
+      "end": 698
+    },
+    {
+      "regime_id": "umayyad_caliphate",
+      "start": 661,
+      "end": 750
+    },
+    {
+      "regime_id": "abbasid_caliphate",
+      "start": 750,
+      "end": 909
+    },
+    {
+      "regime_id": "fatimid_caliphate",
+      "start": 909,
+      "end": 1171
+    },
+    {
+      "regime_id": "ottoman_empire",
+      "start": 1517,
+      "end": 1830
+    },
+    {
+      "regime_id": "aghlabid_dynasty",
+      "start": 800,
+      "end": 909
+    },
+    {
+      "regime_id": "alawite_dynasty",
+      "start": 1631
+    },
+    {
+      "regime_id": "almohad_caliphate",
+      "start": 1121,
+      "end": 1269
+    },
+    {
+      "regime_id": "almoravid_dynasty",
+      "start": 1040,
+      "end": 1147
+    },
+    {
+      "regime_id": "carthage",
+      "start": -814,
+      "end": -146
+    },
+    {
+      "regime_id": "hafsid_dynasty",
+      "start": 1229,
+      "end": 1574
+    },
+    {
+      "regime_id": "idrisid_dynasty",
+      "start": 788,
+      "end": 974
+    },
+    {
+      "regime_id": "marinid_dynasty",
+      "start": 1244,
+      "end": 1465
+    },
+    {
+      "regime_id": "numidia",
+      "start": -202,
+      "end": -46
+    },
+    {
+      "regime_id": "rustamid_dynasty",
+      "start": 776,
+      "end": 909
+    },
+    {
+      "regime_id": "saadian_dynasty",
+      "start": 1549,
+      "end": 1659
+    },
+    {
+      "regime_id": "zirid_dynasty",
+      "start": 972,
+      "end": 1148
+    }
+  ]
+}

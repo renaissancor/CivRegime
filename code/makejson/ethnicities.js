@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const TREE_FILE = path.join(__dirname, '../../docs/tree/ethnicity.md');
-const DATA_DIR = path.join(__dirname, '../../data/ethnicities');
+const DATA_DIR = path.join(__dirname, '../../data/ethnicity');
 
 function generateEthnicityFiles() {
   const markdown = fs.readFileSync(TREE_FILE, 'utf-8');

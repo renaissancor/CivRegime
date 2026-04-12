@@ -1,0 +1,16 @@
+{
+  "id": "venezuela",
+  "name": "Republic of Venezuela",
+  "ruling_ethnicity": "mestizo",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "andes",
+    "caribbean"
+  ],
+  "start": 1830,
+  "end": null
+}

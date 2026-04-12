@@ -1,0 +1,16 @@
+{
+  "id": "california_republic",
+  "name": "California Republic",
+  "ruling_ethnicity": "english",
+  "cultural_language": "english",
+  "ideology": {
+    "religion": "protestant",
+    "government": "republic"
+  },
+  "territories": [
+    "us_west"
+  ],
+  "start": 1846,
+  "end": 1846,
+  "note": "Brief independence before US annexation"
+}

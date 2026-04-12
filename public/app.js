@@ -46,16 +46,22 @@ function buildEthClusters(ethnicities) {
 }
 
 async function init() {
-  const db = await fetch('/api/db').then(r => r.json());
+  const [regimes, successions, ethnicities, territories] = await Promise.all([
+    fetch('/api/polity').then(r => r.json()),
+    fetch('/api/succession').then(r => r.json()),
+    fetch('/api/taxonomy/ethnicity').then(r => r.json()),
+    fetch('/api/territory').then(r => r.json()),
+  ]);
 
-  const nodeById = new Map(db.regimes.map(r => [r.id, r]));
+  const db = { regimes, successions, ethnicities, territories };
+  const nodeById = new Map(regimes.map(r => [r.id, r]));
 
-  allNodes = db.regimes.map(r => ({
+  allNodes = regimes.map(r => ({
     ...r,
     _duration: Math.max(20, (r.end || 2000) - (r.start || 0)),
   }));
 
-  allLinks = db.successions
+  allLinks = successions
     .filter(s => nodeById.has(s.from) && nodeById.has(s.to))
     .map(s => ({
       source: s.from,
@@ -67,7 +73,7 @@ async function init() {
       shared_territories: s.shared_territories || [],
     }));
 
-  buildEthClusters(db.ethnicities);
+  buildEthClusters(ethnicities);
   buildFilters(db);
   buildGraph(db);
   setupFilterListeners(db);
@@ -365,7 +371,7 @@ function showDetail(regime) {
 
     ${territories ? `
     <div class="detail-section">
-      <div class="section-title">Territories</div>
+      <div class="section-title">Territory</div>
       <div style="margin-top:4px">${territories}</div>
     </div>` : ''}
 

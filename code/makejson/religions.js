@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const TREE_FILE = path.join(__dirname, '../../docs/tree/religion.md');
-const DATA_DIR = path.join(__dirname, '../../data/religions');
+const DATA_DIR = path.join(__dirname, '../../data/religion');
 
 function generateReligionFiles() {
   const markdown = fs.readFileSync(TREE_FILE, 'utf-8');

@@ -1,0 +1,16 @@
+{
+  "id": "jamestown_colony",
+  "name": "Jamestown Colony",
+  "ruling_ethnicity": "english",
+  "cultural_language": "english",
+  "ideology": {
+    "religion": "protestant",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "us_east"
+  ],
+  "start": 1607,
+  "end": 1624,
+  "note": "First permanent English settlement"
+}

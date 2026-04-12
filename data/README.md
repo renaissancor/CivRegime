@@ -36,15 +36,17 @@ data/
   │   ├── sub_saharan_african_bloc/
   │   └── ... (11+ blocs, 203+ groups)
   │
-  ├── history/              ← Regional history panels (hand-curated, one file per region)
-  │   ├── central_asia/     (afghanistan, turkmenistan, uzbekistan, xinjiang)
+  ├── history/              ← Regional history panels (hand-curated, 61 files)
+  │   ├── central_asia/     (afghanistan, kazakhstan, turkmenistan, uzbekistan, xinjiang)
   │   ├── east_africa/      (ethiopia, somalia)
-  │   ├── east_asia/        (japan, korea, manchuria, tibet)
-  │   ├── europe/           (albania, belarus, bosnia, bulgaria, croatia, greece, ...)
-  │   ├── middle_east/      (anatolia, arabia, egypt, iraq, levant, morocco)
+  │   ├── east_asia/        (china, japan, korea, manchuria, mongolia, tibet)
+  │   ├── europe/           (24 panels — W/Central/Balkans/Eastern Europe)
+  │   ├── middle_east/      (anatolia, arabia, yemen, egypt, iraq, levant, morocco, ...)
   │   ├── north_africa/     (algeria, libya, sudan, tunisia)
   │   ├── persia_central_asia/ (iran)
-  │   └── south_asia/       (india, pakistan)
+  │   ├── south_asia/       (india, pakistan, sri_lanka)
+  │   ├── southeast_asia/   (vietnam, thailand/cambodia/laos, myanmar, indonesia, malaysia/singapore/brunei)
+  │   └── west_africa/      (west_africa)
   │
   ├── index.js              ← Data loader (loads all JSON files)
   └── ideologies.json       ← Static lookup table (government forms)
@@ -461,12 +463,12 @@ db.tree.languages('indo_european')  // all descendants
 
 | Entity | Location | Loading | Count |
 |---|---|---|---|
-| Regimes | `regimes/*.json` | `loadDir` (flat) | 268 |
-| Successions | `successions/*.json` | `loadDir` (flat) | ~70 |
-| History | `history/*/*.json` | served statically | 35 |
-| Languages | `languages/*/` | `loadTree` (hierarchical) | 552 |
-| Religions | `religions/*/` | `loadTree` (hierarchical) | 193 |
-| Ethnicities | `ethnicities/*/` | `loadTree` (hierarchical) | 203 |
-| Ideologies | `ideologies.json` | `loadJSON` (static) | 15 |
-| Provinces | `provinces/*.geojson` | `loadDir` (flat) | ~100+ |
-| Territories | `territories/*.json` | `loadDir` (flat) | 40+ |
+| Polities (regimes) | `regimes/*.json` | `loadDir` (flat) | 268 |
+| Successions | `successions/all.json` | `loadDir` (flat) | 1,243 |
+| History panels | `history/*/*.json` | served statically | 61 |
+| Languages | `languages/*/` | `loadTree` (hierarchical) | 691 |
+| Religions | `religions/*/` | `loadTree` (hierarchical) | 255 |
+| Ethnicities | `ethnicities/*/` | `loadTree` (hierarchical) | 276 |
+| Ideologies | `ideologies.json` | `loadJSON` (static) | ~30 |
+| Provinces | `provinces/*.geojson` | `loadDir` (flat) | 53 |
+| Territories | `territories/*.json` | `loadDir` (flat) | 79 |

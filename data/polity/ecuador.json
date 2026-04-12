@@ -1,0 +1,15 @@
+{
+  "id": "ecuador",
+  "name": "Republic of Ecuador",
+  "ruling_ethnicity": "mestizo",
+  "cultural_language": "spanish",
+  "ideology": {
+    "religion": "catholic",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "andes"
+  ],
+  "start": 1830,
+  "end": null
+}

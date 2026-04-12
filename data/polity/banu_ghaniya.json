@@ -1,8 +1,8 @@
 {
   "id": "banu_ghaniya",
   "name": "Banu Ghaniya",
-  "ruling_ethnicity": "berber",
-  "cultural_language": "arabic",
+  "ruling_ethnicity": "berber_amazigh_cluster",
+  "cultural_language": "classical_arabic",
   "ideology": {
     "religion": "sunni",
     "government": "emirate"

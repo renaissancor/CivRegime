@@ -1,0 +1,548 @@
+{
+  "id": "thailand_cambodia_laos",
+  "title": "History of Thailand, Cambodia & Laos",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand (Siam · ไทย)",
+      "slots": 1
+    },
+    {
+      "id": "cambodia",
+      "name": "Cambodia (Khmer · កម្ពុជា)",
+      "slots": 1
+    },
+    {
+      "id": "laos",
+      "name": "Laos (ລາວ)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Ancient",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Mon peoples (Dvaravati kingdom)",
+              "note": "c.6th–11th c.",
+              "regime": "mon_peoples"
+            },
+            {
+              "label": "Tai migration from southern China",
+              "note": "c.8th–13th c."
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Funan (Óc Eo — Indianized kingdom)",
+              "note": "c.1st–6th c.",
+              "regime": "funan"
+            },
+            {
+              "label": "Chenla (Water Chenla · Land Chenla)",
+              "note": "c.550–802",
+              "regime": "chenla"
+            },
+            {
+              "label": "Sailendra (brief Javanese overlordship)",
+              "note": "c.790–802",
+              "regime": "sailendra"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Ancient Lao peoples (Tai-Lao migration)",
+              "note": "c.8th–13th c.",
+              "regime": "ancient_lao_peoples"
+            },
+            {
+              "label": "Mon-Khmer settlement (pre-Tai)",
+              "note": "",
+              "regime": "mon_khmer_settlement"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Khmer Empire",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Khmer Empire (dominates central Thailand / Isan)",
+              "note": "802–",
+              "regime": "khmer_empire"
+            },
+            {
+              "label": "Lavo / Lopburi (Khmer vassal)",
+              "note": "",
+              "regime": "lavo"
+            },
+            {
+              "label": "Hariphunchai (Mon kingdom — Lamphun)",
+              "note": "c.750–1292",
+              "regime": "hariphunchai"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Khmer Empire (Angkor — Jayavarman II to Jayavarman VII)",
+              "note": "802–c.1431",
+              "regime": "khmer_empire"
+            },
+            {
+              "label": "Angkor Wat · Angkor Thom · Bayon",
+              "note": "",
+              "regime": "angkor_wat"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Khmer Empire (overlordship of Lao territories)",
+              "note": "",
+              "regime": "khmer_empire"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Tai Kingdoms",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Lanna kingdom (Chiang Mai — northern Thai)",
+              "note": "1292–1558",
+              "regime": "lanna_kingdom"
+            },
+            {
+              "label": "Sukhothai kingdom (first major Thai state)",
+              "note": "c.1238–1438",
+              "regime": "sukhothai_kingdom"
+            },
+            {
+              "label": "Ayutthaya kingdom (Siam — dominant Thai state)",
+              "note": "1351–1767",
+              "regime": "ayutthaya_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Khmer Empire (declining under Thai pressure)",
+              "note": "13th–15th c."
+            },
+            {
+              "label": "Post-Angkor Cambodia (Phnom Penh · Lovek · Oudong)",
+              "note": "c.1431–",
+              "regime": "post_angkor_cambodia"
+            },
+            {
+              "label": "Siamese and Vietnamese pressure",
+              "note": "",
+              "regime": "siamese_and_vietnamese_pressure"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Lan Xang kingdom (Million Elephants — Fa Ngum)",
+              "note": "1353–1707",
+              "regime": "lan_xang_kingdom"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Ayutthaya kingdom (continued)",
+              "note": "1351–1767",
+              "regime": "ayutthaya_kingdom"
+            },
+            {
+              "label": "Lanna (Burmese vassal after 1558)",
+              "note": "1558–1774",
+              "regime": "lanna"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Middle Cambodia (Siamese / Vietnamese interference)",
+              "note": "16th–19th c.",
+              "regime": "middle_cambodia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Lan Xang splits into three kingdoms:",
+              "note": "1707",
+              "regime": "lan_xang_splits_into_three_kingdoms"
+            },
+            {
+              "label": "Luang Prabang kingdom",
+              "note": "1707–1893",
+              "regime": "luang_prabang_kingdom"
+            },
+            {
+              "label": "Vientiane kingdom",
+              "note": "1707–1828",
+              "regime": "vientiane_kingdom"
+            },
+            {
+              "label": "Champasak kingdom",
+              "note": "1713–1893",
+              "regime": "champasak_kingdom"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Rattanakosin / Chakri",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Thonburi kingdom (Taksin — reunification)",
+              "note": "1767–1782"
+            },
+            {
+              "label": "Rattanakosin kingdom (Chakri dynasty — Bangkok)",
+              "note": "1782–1932",
+              "regime": "rattanakosin_kingdom"
+            },
+            {
+              "label": "Siamese suzerainty over Cambodia · Lao states",
+              "note": ""
+            },
+            {
+              "label": "Siam avoids colonization (Rama IV · Rama V modernization)",
+              "note": ""
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Cambodia (Siamese-Vietnamese dual suzerainty)",
+              "note": "1802–1863"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Siamese suzerainty over Lao kingdoms",
+              "note": ""
+            },
+            {
+              "label": "Vientiane destroyed by Siam",
+              "note": "1828",
+              "regime": "vientiane_destroyed_by_siam"
+            },
+            {
+              "label": "Luang Prabang · Champasak (Siamese vassals)",
+              "note": "",
+              "regime": "luang_prabang"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Colonial / WWII",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Siam (independent — Chakri dynasty continues)",
+              "note": "",
+              "regime": "siam"
+            },
+            {
+              "label": "Unequal treaties with Britain · France",
+              "note": "",
+              "regime": "unequal_treaties_with_britain"
+            },
+            {
+              "label": "Cedes Lao/Cambodian territories to France",
+              "note": "1893/1907",
+              "regime": "cedes_laocambodian_territories_to_france"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "French Protectorate of Cambodia",
+              "note": "1863–1953"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "French Laos (protectorate — part of Indochina)",
+              "note": "1893–1953",
+              "regime": "french_laos"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Thailand (renamed from Siam)",
+              "note": "1939",
+              "regime": "kingdom_of_thailand"
+            },
+            {
+              "label": "Japanese alliance / occupation",
+              "note": "1941–1945"
+            },
+            {
+              "label": "Chakri dynasty (constitutional monarchy from 1932)",
+              "note": "",
+              "regime": "chakri_dynasty"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Japanese-occupied Cambodia (nominal Norodom rule)",
+              "note": "1941–1945"
+            },
+            {
+              "label": "Kingdom of Cambodia (First Kingdom — independent)",
+              "note": "1953–1970",
+              "regime": "kingdom_of_cambodia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Japanese-occupied Laos (nominal king)",
+              "note": "1941–1945"
+            },
+            {
+              "label": "Kingdom of Laos (independent)",
+              "note": "1953–1975",
+              "regime": "kingdom_of_laos"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Cold War",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Thailand (Chakri dynasty)",
+              "note": "",
+              "regime": "kingdom_of_thailand"
+            },
+            {
+              "label": "Military coups · US alliance · anti-communist",
+              "note": "",
+              "regime": "military_coups"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Khmer Republic (Lon Nol — US-backed)",
+              "note": "1970–1975",
+              "regime": "khmer_republic"
+            },
+            {
+              "label": "GRUNK (Sihanouk — royalist resistance in exile)",
+              "note": "1970–1975"
+            },
+            {
+              "label": "Democratic Kampuchea (Khmer Rouge — Pol Pot)",
+              "note": "1975–1979",
+              "regime": "democratic_kampuchea"
+            },
+            {
+              "label": "People's Republic of Kampuchea (Vietnamese-backed)",
+              "note": "1979–1989",
+              "regime": "peoples_republic_of_kampuchea"
+            },
+            {
+              "label": "State of Cambodia",
+              "note": "1989–1993",
+              "regime": "state_of_cambodia"
+            },
+            {
+              "label": "UNTAC (UN transitional authority)",
+              "note": "1992–1993",
+              "regime": "untac"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Lao People's Democratic Republic (communist — Pathet Lao)",
+              "note": "1975–",
+              "regime": "lao_peoples_democratic_republic"
+            },
+            {
+              "label": "Vietnamese-aligned · Soviet bloc",
+              "note": "",
+              "regime": "vietnamese_aligned_soviet_bloc"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Thailand (Chakri dynasty)",
+              "note": "",
+              "regime": "kingdom_of_thailand"
+            },
+            {
+              "label": "Constitutional crises · coups (2006 · 2014)",
+              "note": "",
+              "regime": "constitutional_crises"
+            },
+            {
+              "label": "ASEAN member · major regional economy",
+              "note": ""
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Cambodia (Second Kingdom — Sihanouk restored)",
+              "note": "1993–"
+            },
+            {
+              "label": "Hun Sen era (CPP dominance)",
+              "note": "1985–2023",
+              "regime": "hun_sen_era"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Lao PDR (one-party communist state)",
+              "note": "1975–",
+              "regime": "lao_pdr"
+            },
+            {
+              "label": "Economic reform (New Economic Mechanism)",
+              "note": "1986–"
+            },
+            {
+              "label": "ASEAN member",
+              "note": "1997"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Khmer Empire (802–c.1431): founded by Jayavarman II, it became the largest pre-modern state in mainland Southeast Asia; Angkor at its peak had a population exceeding 750,000; Jayavarman VII (1181–1218) built Angkor Thom and the Bayon; Thai pressure and ecological collapse (water management failure) contributed to its decline and the abandonment of Angkor",
+    "Sukhothai (c.1238–1438): traditionally considered the first Thai kingdom; King Ramkhamhaeng allegedly invented the Thai script (1292); its political model emphasized paternalistic kingship (pho khun); it was absorbed by the rising Ayutthaya kingdom in 1438",
+    "Ayutthaya (1351–1767): the dominant Siamese kingdom for four centuries, rivaling Ming China in diplomatic reach; it controlled much of mainland Southeast Asia; the Burmese sacked and destroyed Ayutthaya in 1767, one of the most devastating events in Thai history; Taksin rebuilt from Thonburi, then the Chakri dynasty moved to Bangkok",
+    "Lan Xang (1353–1707): the 'Kingdom of a Million Elephants', founded by Fa Ngum with Khmer backing; at its peak it controlled most of modern Laos and parts of Thailand's Isan region; internal succession disputes split it into the three kingdoms of Luang Prabang, Vientiane, and Champasak in 1707, all eventually falling under Siamese suzerainty",
+    "Siam's independence: Thailand (Siam) is the only Southeast Asian country never colonized by a European power; Rama IV (Mongkut) and Rama V (Chulalongkorn) pursued modernization and played Britain and France against each other; the price was ceding Lao territories to France (1893) and Malay territories to Britain (1909)",
+    "Khmer Rouge (1975–1979): Pol Pot's regime emptied cities, abolished money, and attempted agrarian revolution; an estimated 1.5–2 million Cambodians (25% of the population) died from execution, starvation, and forced labor; Vietnam invaded in 1979 and installed a client government; the Khmer Rouge fought on until final collapse in 1999",
+    "Lao People's Democratic Republic (1975–): the Pathet Lao abolished the monarchy and established a one-party communist state closely aligned with Vietnam; Laos remains one of the few communist states worldwide; economic reforms since 1986 have opened it to foreign investment while maintaining political control"
+  ]
+}

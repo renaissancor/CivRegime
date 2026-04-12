@@ -1,8 +1,8 @@
 {
   "id": "second_turkic_khaganate",
   "name": "Second Türkic Khaganate",
-  "ruling_ethnicity": "turkic",
-  "cultural_language": "old_turkic",
+  "ruling_ethnicity": "turkic_cluster",
+  "cultural_language": "old_turkic_orkhon_runic",
   "ideology": {
     "religion": "tengrism",
     "government": "khaganate"

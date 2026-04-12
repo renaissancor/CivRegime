@@ -2,7 +2,7 @@
   "id": "egyptian_new_kingdom",
   "name": "Egyptian New Kingdom",
   "ruling_ethnicity": "egyptian",
-  "cultural_language": "egyptian",
+  "cultural_language": "late_egyptian_demotic",
   "ideology": {
     "religion": "egyptian_religion",
     "government": "divine_monarchy"

@@ -1,0 +1,244 @@
+{
+  "id": "canada",
+  "title": "History of Canada",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "west_north",
+      "name": "West & North",
+      "slots": 1
+    },
+    {
+      "id": "central",
+      "name": "Central (Québec / Ontario)",
+      "slots": 2
+    },
+    {
+      "id": "atlantic",
+      "name": "Atlantic",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Indigenous",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "First Nations · Inuit · Métis — Haida · Cree · Blackfoot · Dene",
+          "span": 1
+        },
+        {
+          "label": "First Nations — Iroquois · Algonquin · Huron-Wendat",
+          "span": 2,
+          "regime": "iroquois_confederacy"
+        },
+        {
+          "label": "First Nations — Miꞌkmaq · Beothuk",
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "French Colonial",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Rupert's Land (HBC, 1670–)",
+          "span": 1,
+          "regime": "rupert_land"
+        },
+        {
+          "label": "New France (Nouvelle-France)",
+          "span": 2,
+          "regime": "new_france"
+        },
+        {
+          "stack": [
+            {
+              "label": "Acadia (French)",
+              "note": "1604–1713",
+              "regime": "new_france"
+            },
+            {
+              "label": "Newfoundland Colony (English)",
+              "note": "1610–",
+              "regime": "thirteen_colonies"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "British Colonial",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Rupert's Land (HBC)",
+          "span": 1,
+          "regime": "rupert_land"
+        },
+        {
+          "stack": [
+            {
+              "label": "Province of Quebec (1763–1791)",
+              "note": "1763–1791",
+              "regime": "thirteen_colonies"
+            },
+            {
+              "label": "Upper Canada (Ontario)",
+              "note": "1791–1841",
+              "regime": "thirteen_colonies"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Province of Quebec",
+              "note": "1763–1791",
+              "regime": "thirteen_colonies"
+            },
+            {
+              "label": "Lower Canada (Québec)",
+              "note": "1791–1841",
+              "regime": "thirteen_colonies"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Nova Scotia (1710–)",
+              "note": "1710–",
+              "regime": "thirteen_colonies"
+            },
+            {
+              "label": "New Brunswick (1784–)",
+              "note": "1784–"
+            },
+            {
+              "label": "Prince Edward Island (1769–)",
+              "note": "1769–"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Province of Canada",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Rupert's Land (HBC)",
+              "note": "–1870",
+              "regime": "rupert_land"
+            },
+            {
+              "label": "British Columbia Colony",
+              "note": "1858–1871"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "label": "Province of Canada (United, 1841–1867)",
+          "span": 2
+        },
+        {
+          "label": "Maritime colonies",
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Confederation",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Manitoba (1870) · BC (1871) · Saskatchewan/Alberta (1905)",
+              "note": "provinces join",
+              "regime": "dominion_of_canada"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "label": "Dominion of Canada (1867–)",
+          "span": 2,
+          "regime": "dominion_of_canada"
+        },
+        {
+          "stack": [
+            {
+              "label": "Founding provinces (NS, NB, 1867)",
+              "note": "1867–",
+              "regime": "dominion_of_canada"
+            },
+            {
+              "label": "PEI (1873) · Newfoundland (1949)",
+              "note": "later joins"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Dominion Era",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Dominion of Canada — World Wars · Westminster Statute (1931)",
+          "span": 4,
+          "regime": "dominion_of_canada"
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Modern",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "label": "Canada — Constitution Act 1982 · Nunavut (1999) · 10 provinces + 3 territories",
+          "span": 4,
+          "regime": "canada"
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "New France (1534–1763) was ceded to Britain after the Seven Years' War; Quebec Act (1774) preserved French civil law",
+    "Rupert's Land was administered by the Hudson's Bay Company (1670–1870) before transfer to Canada",
+    "Confederation in 1867 united Ontario, Québec, Nova Scotia, and New Brunswick; other provinces joined later",
+    "Newfoundland remained a separate British dominion until joining Canada in 1949",
+    "The Constitution Act 1982 patriated the constitution from Britain, granting full sovereignty"
+  ]
+}

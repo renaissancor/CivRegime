@@ -2,148 +2,447 @@
   "id": "anatolia",
   "title": "History of Anatolia",
   "columns": [
-    { "id": "era",     "name": "Era",              "slots": 1, "type": "era" },
-    { "id": "west",    "name": "Western Anatolia", "slots": 1 },
-    { "id": "central", "name": "Central Anatolia", "slots": 1 },
-    { "id": "east",    "name": "Eastern Anatolia", "slots": 1 }
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "west",
+      "name": "Western Anatolia",
+      "slots": 1
+    },
+    {
+      "id": "central",
+      "name": "Central Anatolia",
+      "slots": 1
+    },
+    {
+      "id": "east",
+      "name": "Eastern Anatolia",
+      "slots": 1
+    }
   ],
   "rows": [
     {
-      "era": { "label": "Prehistoric", "rowspan": 1 },
+      "era": {
+        "label": "Prehistoric",
+        "rowspan": 1
+      },
       "cells": [
-        { "stack": [
-            { "label": "Neanderthals",                         "note": "c.200,000–40,000 BCE" },
-            { "label": "Homo sapiens migration",               "note": "c.40,000 BCE onward" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Neanderthals",
+              "note": "c.200,000–40,000 BCE",
+              "regime": "neanderthals"
+            },
+            {
+              "label": "Homo sapiens migration",
+              "note": "c.40,000 BCE onward",
+              "regime": "homo_sapiens_migration"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "label": "Neolithic settlements",                "note": "c.10,000 BCE" },
-            { "label": "Çatalhöyük · Göbekli Tepe · Çayönü",  "note": "c.9500–5700 BCE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Neolithic settlements",
+              "note": "c.10,000 BCE",
+              "regime": "neolithic_settlements_culture"
+            },
+            {
+              "label": "Çatalhöyük · Göbekli Tepe · Çayönü",
+              "note": "c.9500–5700 BCE",
+              "regime": "catalhoyuk_gobekli_tepe_cayonu"
+            }
+          ],
+          "span": 1
         },
-        { "label": "Nevali Çori · Yumuktepe",                  "span": 1 }
-      ]
-    },
-    {
-      "era": { "label": "Early Ancient", "rowspan": 1 },
-      "cells": [
-        { "stack": [
-            { "label": "Indo-European migrations",             "note": "c.2000 BCE" },
-            { "label": "Troy",                                 "note": "c.3000–1180 BCE" },
-            { "label": "Mycenaean culture",                    "note": "c.1600–1180 BCE" },
-            { "label": "Bronze Age Collapse",                  "note": "c.1200 BCE" },
-            { "label": "Ancient Greek colonies",               "note": "c.1000–546 BCE" },
-            { "label": "Phrygian Kingdom",                     "note": "c.1200–695 BCE" },
-            { "label": "Lydia",                                "note": "c.695–546 BCE" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Akkadian Empire (campaigns)",          "note": "c.2334–2100 BCE" },
-            { "label": "Gutians",                              "note": "c.2100–2000 BCE" },
-            { "label": "Hatti",                                "note": "c.2400–1800 BCE" },
-            { "label": "Old Assyrian colonies (Kārum Kanesh)", "note": "c.1950–1750 BCE" },
-            { "label": "Hittite Empire",                       "note": "c.1650–1178 BCE" },
-            { "label": "Bronze Age Collapse",                  "note": "c.1200 BCE" },
-            { "label": "Neo-Hittite kingdoms",                 "note": "c.1180–700 BCE" }
-          ], "span": 1
-        },
-        { "stack": [
-            { "label": "Mitanni Empire",                       "note": "c.1500–1300 BCE" },
-            { "label": "Middle Assyrian Empire",               "note": "c.1392–1056 BCE" },
-            { "label": "Bronze Age Collapse",                  "note": "c.1200 BCE" },
-            { "label": "Neo-Hittite kingdoms",                 "note": "c.1180–700 BCE" },
-            { "label": "Neo-Assyrian Empire",                  "note": "912–612 BCE" },
-            { "label": "Medes",                                "note": "c.678–550 BCE" }
-          ], "span": 1
+        {
+          "label": "Nevali Çori · Yumuktepe",
+          "span": 1,
+          "regime": "nevali_cori"
         }
       ]
     },
     {
-      "era": { "label": "Classical Antiquity", "rowspan": 1 },
+      "era": {
+        "label": "Early Ancient",
+        "rowspan": 1
+      },
       "cells": [
-        { "stack": [
-            { "regime": "achaemenid_empire", "label": "Hellespontine-Phrygia · Lydia Satrapies", "note": "546–330 BCE" },
-            { "label": "Alexander · Diadochi (Lysimachus)",    "note": "334–281 BCE" },
-            { "label": "Bithynia · Antigonid · Pergamon",      "note": "281–133 BCE" },
-            { "label": "Roman Republic · Empire",              "note": "133 BCE–395 CE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Indo-European migrations",
+              "note": "c.2000 BCE; Bronze Age Collapse (c.1200 BCE)"
+            },
+            {
+              "label": "Troy",
+              "note": "c.3000–1180 BCE",
+              "regime": "troy"
+            },
+            {
+              "label": "Mycenaean culture",
+              "note": "c.1600–1180 BCE",
+              "regime": "mycenaean_culture"
+            },
+            {
+              "label": "Ancient Greek colonies",
+              "note": "c.1000–546 BCE",
+              "regime": "ancient_greek_colonies"
+            },
+            {
+              "label": "Phrygian Kingdom",
+              "note": "c.1200–695 BCE",
+              "regime": "phrygian_kingdom"
+            },
+            {
+              "label": "Lydia",
+              "note": "c.695–546 BCE",
+              "regime": "lydia"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "regime": "achaemenid_empire", "label": "Cappadocia Satrapy",             "note": "546–330 BCE" },
-            { "label": "Alexander · Diadochi (Antigonus)",     "note": "334–301 BCE" },
-            { "label": "Seleucid Empire · Galatia · Paphlagonia", "note": "301–64 BCE" },
-            { "label": "Roman Republic · Empire",              "note": "64 BCE–395 CE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Akkadian Empire (campaigns)",
+              "note": "c.2334–2100 BCE; Bronze Age Collapse (c.1200 BCE)",
+              "regime": "akkadian_empire"
+            },
+            {
+              "label": "Gutians",
+              "note": "c.2100–2000 BCE",
+              "regime": "gutians"
+            },
+            {
+              "label": "Hatti",
+              "note": "c.2400–1800 BCE",
+              "regime": "hatti"
+            },
+            {
+              "label": "Old Assyrian colonies (Kārum Kanesh)",
+              "note": "c.1950–1750 BCE",
+              "regime": "old_assyrian_colonies"
+            },
+            {
+              "label": "Hittite Empire",
+              "note": "c.1650–1178 BCE",
+              "regime": "hittite_empire"
+            },
+            {
+              "label": "Neo-Hittite kingdoms",
+              "note": "c.1180–700 BCE",
+              "regime": "neo_hittite_kingdoms"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "regime": "achaemenid_empire", "label": "Armenia Satrapy",                "note": "546–330 BCE" },
-            { "label": "Alexander · Diadochi (Seleucid)",      "note": "334–281 BCE" },
-            { "label": "Pontus · Cappadocia · Armenia",        "note": "281–64 BCE" },
-            { "label": "Roman Republic · Empire",              "note": "64 BCE–395 CE" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "label": "Mitanni Empire",
+              "note": "c.1500–1300 BCE; Bronze Age Collapse (c.1200 BCE)",
+              "regime": "mitanni_empire"
+            },
+            {
+              "label": "Middle Assyrian Empire",
+              "note": "c.1392–1056 BCE",
+              "regime": "middle_assyrian_empire"
+            },
+            {
+              "label": "Neo-Hittite kingdoms",
+              "note": "c.1180–700 BCE",
+              "regime": "neo_hittite_kingdoms"
+            },
+            {
+              "label": "Neo-Assyrian Empire",
+              "note": "912–612 BCE",
+              "regime": "neo_assyrian_empire"
+            },
+            {
+              "label": "Medes",
+              "note": "c.678–550 BCE",
+              "regime": "medes"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Medieval", "rowspan": 1 },
+      "era": {
+        "label": "Classical Antiquity",
+        "rowspan": 1
+      },
       "cells": [
-        { "stack": [
-            { "regime": "byzantine_empire", "label": "Byzantine Empire",                "note": "395–1071" },
-            { "regime": "seljuk_empire",    "label": "Seljuk · 1st Beyliks (Smyrna · Germiyan · Menteshe · Saruhan · Karasi · Hamid)", "note": "1071–1204" },
-            { "label": "Latin Empire · Nicaea Empire",                                  "note": "1204–1261" },
-            { "regime": "byzantine_empire", "label": "Byzantine (Palaiologos)",         "note": "1261–1354" },
-            { "label": "2nd Beyliks (Aydin · Germiyan · Menteshe · Saruhan · Karasi)", "note": "c.1300–1390" },
-            { "regime": "ottoman_empire",   "label": "Ottoman Beylik → Sultanate",      "note": "1299–1453" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "achaemenid_empire",
+              "label": "Hellespontine-Phrygia · Lydia Satrapies",
+              "note": "546–330 BCE"
+            },
+            {
+              "label": "Alexander · Diadochi (Lysimachus)",
+              "note": "334–281 BCE",
+              "regime": "alexander_diadochi"
+            },
+            {
+              "label": "Bithynia · Antigonid · Pergamon",
+              "note": "281–133 BCE",
+              "regime": "bithynia_antigonid_pergamon"
+            },
+            {
+              "label": "Roman Republic · Empire",
+              "note": "133 BCE–395 CE",
+              "regime": "roman_republic"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "regime": "byzantine_empire", "label": "Byzantine Empire",                "note": "395–1071" },
-            { "regime": "seljuk_empire",    "label": "Seljuk · Rum Sultanate · Danishmend · Mengujek", "note": "1071–1243" },
-            { "label": "Mongol suzerainty · Rum Sultanate",                             "note": "1243–1308" },
-            { "label": "2nd Beyliks (Karaman · Eretnid · Jandarid · Ahi Brotherhood)", "note": "c.1300–1390" },
-            { "regime": "ottoman_empire",   "label": "Ottoman Sultanate (Ankara · Interregnum)", "note": "1390–1453" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "achaemenid_empire",
+              "label": "Cappadocia Satrapy",
+              "note": "546–330 BCE"
+            },
+            {
+              "label": "Alexander · Diadochi (Antigonus)",
+              "note": "334–301 BCE",
+              "regime": "alexander_diadochi"
+            },
+            {
+              "label": "Seleucid Empire · Galatia · Paphlagonia",
+              "note": "301–64 BCE",
+              "regime": "seleucid_empire"
+            },
+            {
+              "label": "Roman Republic · Empire",
+              "note": "64 BCE–395 CE",
+              "regime": "roman_republic"
+            }
+          ],
+          "span": 1
         },
-        { "stack": [
-            { "regime": "byzantine_empire", "label": "Byzantine Empire",                "note": "395–1071" },
-            { "regime": "seljuk_empire",    "label": "Seljuk · 1st Beyliks (Shah-Armen · Saltuk · Artuqid)", "note": "1071–1200" },
-            { "label": "Cilician Armenia",                                              "note": "1080–1375" },
-            { "label": "Trebizond Empire",                                              "note": "1204–1461" },
-            { "label": "Mongol Il-Khanate",                                             "note": "1243–1335" },
-            { "label": "Mamluk · Ramazan · Dulkadir",                                  "note": "14th–15th c." },
-            { "regime": "ottoman_empire",   "label": "Ottoman Sultanate",               "note": "late 15th c." }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "achaemenid_empire",
+              "label": "Armenia Satrapy",
+              "note": "546–330 BCE"
+            },
+            {
+              "label": "Alexander · Diadochi (Seleucid)",
+              "note": "334–281 BCE",
+              "regime": "alexander_diadochi"
+            },
+            {
+              "label": "Pontus · Cappadocia · Armenia",
+              "note": "281–64 BCE",
+              "regime": "pontus_cappadocia_armenia"
+            },
+            {
+              "label": "Roman Republic · Empire",
+              "note": "64 BCE–395 CE",
+              "regime": "roman_republic"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Ottoman · Modern", "rowspan": 2 },
+      "era": {
+        "label": "Medieval",
+        "rowspan": 1
+      },
       "cells": [
-        { "regime": "ottoman_empire", "label": "Ottoman Empire", "span": 3 }
+        {
+          "stack": [
+            {
+              "regime": "byzantine_empire",
+              "label": "Byzantine Empire",
+              "note": "395–1071"
+            },
+            {
+              "regime": "seljuk_empire",
+              "label": "Seljuk · 1st Beyliks (Smyrna · Germiyan · Menteshe · Saruhan · Karasi · Hamid)",
+              "note": "1071–1204"
+            },
+            {
+              "label": "Latin Empire · Nicaea Empire",
+              "note": "1204–1261",
+              "regime": "latin_empire"
+            },
+            {
+              "regime": "byzantine_empire",
+              "label": "Byzantine (Palaiologos)",
+              "note": "1261–1354"
+            },
+            {
+              "label": "2nd Beyliks (Aydin · Germiyan · Menteshe · Saruhan · Karasi)",
+              "note": "c.1300–1390",
+              "regime": "2nd_beyliks"
+            },
+            {
+              "regime": "ottoman_empire",
+              "label": "Ottoman Beylik → Sultanate",
+              "note": "1299–1453"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "byzantine_empire",
+              "label": "Byzantine Empire",
+              "note": "395–1071"
+            },
+            {
+              "regime": "seljuk_empire",
+              "label": "Seljuk · Rum Sultanate · Danishmend · Mengujek",
+              "note": "1071–1243"
+            },
+            {
+              "label": "Mongol suzerainty · Rum Sultanate",
+              "note": "1243–1308"
+            },
+            {
+              "label": "2nd Beyliks (Karaman · Eretnid · Jandarid · Ahi Brotherhood)",
+              "note": "c.1300–1390",
+              "regime": "2nd_beyliks"
+            },
+            {
+              "regime": "ottoman_empire",
+              "label": "Ottoman Sultanate (Ankara · Interregnum)",
+              "note": "1390–1453"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "regime": "byzantine_empire",
+              "label": "Byzantine Empire",
+              "note": "395–1071"
+            },
+            {
+              "regime": "seljuk_empire",
+              "label": "Seljuk · 1st Beyliks (Shah-Armen · Saltuk · Artuqid)",
+              "note": "1071–1200"
+            },
+            {
+              "label": "Cilician Armenia",
+              "note": "1080–1375",
+              "regime": "cilician_armenia"
+            },
+            {
+              "label": "Trebizond Empire",
+              "note": "1204–1461",
+              "regime": "trebizond_empire"
+            },
+            {
+              "label": "Mongol Il-Khanate",
+              "note": "1243–1335",
+              "regime": "mongol_il_khanate"
+            },
+            {
+              "label": "Mamluk · Ramazan · Dulkadir",
+              "note": "14th–15th c.",
+              "regime": "mamluk_ramazan_dulkadir"
+            },
+            {
+              "regime": "ottoman_empire",
+              "label": "Ottoman Sultanate",
+              "note": "late 15th c."
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Ottoman · Modern",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "regime": "ottoman_empire",
+          "label": "Ottoman Empire",
+          "span": 3
+        }
       ]
     },
     {
       "era": null,
       "cells": [
-        { "label": "Greek occupation (Megali Idea)",             "span": 1 },
-        { "stack": [
-            { "regime": "ottoman_empire", "label": "Ottoman Empire",   "note": "to 1920" },
-            { "label": "Ankara Government",                            "note": "1920–1923" }
-          ], "span": 1
+        {
+          "label": "Greek occupation (Megali Idea)",
+          "span": 1
         },
-        { "split": [
-            { "label": "French mandate (Cilicia)",                     "note": "1918–1921" },
-            { "label": "British mandate",                              "note": "1918–1920" },
-            { "label": "Armenian Republic",                            "note": "1918–1920" },
-            { "label": "Kurdistan (proposed — Sèvres)",                "note": "1920" }
-          ], "span": 1
+        {
+          "stack": [
+            {
+              "regime": "ottoman_empire",
+              "label": "Ottoman Empire",
+              "note": "to 1920"
+            },
+            {
+              "label": "Ankara Government",
+              "note": "1920–1923",
+              "regime": "ankara_government"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "split": [
+            {
+              "label": "French mandate (Cilicia)",
+              "note": "1918–1921",
+              "regime": "french_mandate"
+            },
+            {
+              "label": "British mandate",
+              "note": "1918–1920",
+              "regime": "british_mandate"
+            },
+            {
+              "label": "Armenian Republic",
+              "note": "1918–1920",
+              "regime": "armenian_republic"
+            },
+            {
+              "label": "Kurdistan (proposed — Sèvres)",
+              "note": "1920",
+              "regime": "kurdistan"
+            }
+          ],
+          "span": 1
         }
       ]
     },
     {
-      "era": { "label": "Contemporary", "rowspan": 1 },
+      "era": {
+        "label": "Contemporary",
+        "rowspan": 1
+      },
       "cells": [
-        { "label": "Republic of Turkey", "span": 3 }
+        {
+          "label": "Republic of Turkey",
+          "span": 3,
+          "regime": "republic_of_turkey"
+        }
       ]
     }
   ],

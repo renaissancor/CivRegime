@@ -2,9 +2,9 @@
   "id": "qing_dynasty",
   "name": "Qing Dynasty (Manchu)",
   "ruling_ethnicity": "jurchen",
-  "cultural_language": "manchu_lang",
+  "cultural_language": "manchu",
   "ideology": {
-    "religion": "vajrayana",
+    "religion": "vajrayana_buddhism",
     "government": "dual_administration"
   },
   "territories": [

@@ -1,0 +1,16 @@
+{
+  "id": "british_caribbean",
+  "name": "British Caribbean",
+  "ruling_ethnicity": "english",
+  "cultural_language": "english",
+  "ideology": {
+    "religion": "protestant",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "caribbean"
+  ],
+  "start": 1624,
+  "end": 1962,
+  "note": "British colonial islands"
+}

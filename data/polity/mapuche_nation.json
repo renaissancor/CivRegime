@@ -1,0 +1,15 @@
+{
+  "id": "mapuche_nation",
+  "name": "Mapuche Nation",
+  "ruling_ethnicity": "mapuche",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "patagonia"
+  ],
+  "start": 1400,
+  "end": 1883,
+  "note": "Southern Chile and Argentina"
+}

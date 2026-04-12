@@ -1,0 +1,16 @@
+{
+  "id": "sioux_nations",
+  "name": "Sioux Nations (Lakota/Dakota)",
+  "ruling_ethnicity": "sioux_lakota",
+  "ideology": {
+    "religion": "indigenous_american_traditions",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "us_midwest",
+    "us_west"
+  ],
+  "start": 1680,
+  "end": 1876,
+  "note": "Plains nations"
+}

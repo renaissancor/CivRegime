@@ -2,7 +2,7 @@
   "id": "mongol_il_khanate",
   "name": "Mongol Il-Khanate",
   "ruling_ethnicity": "mongol",
-  "cultural_language": "persian",
+  "cultural_language": "old_persian",
   "ideology": {
     "religion": "sunni",
     "government": "khanate"
