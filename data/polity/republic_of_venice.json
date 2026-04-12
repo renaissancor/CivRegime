@@ -1,0 +1,16 @@
+{
+  "id": "republic_of_venice",
+  "name": "Venice",
+  "ruling_ethnicity": "italian",
+  "cultural_language": "italian",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "republic"
+  },
+  "territories": [
+    "italy",
+    "balkans"
+  ],
+  "start": 697,
+  "end": 1797
+}

@@ -1,0 +1,13 @@
+{
+  "id": "beja",
+  "name": "Beja / Habesha coastal lords",
+  "ruling_ethnicity": "beja",
+  "ideology": {
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "nubia"
+  ],
+  "start": -2000,
+  "end": 1500
+}

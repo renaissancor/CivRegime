@@ -1,0 +1,40 @@
+{
+  "id": "grand_duchy_of_lithuania",
+  "name": "Grand Duchy of Lithuania",
+  "ruling_ethnicity": "lithuanian",
+  "cultural_language": "old_east_slavic",
+  "ideology": {
+    "religion": "lithuanian_paganism",
+    "government": "grand_duchy"
+  },
+  "territories": [
+    "lithuania",
+    "kievan_rus"
+  ],
+  "start": 1236,
+  "end": 1569,
+  "note": "The last pagan state in Europe, Christianised only in 1387 when Jogaila married Jadwiga of Poland. At its peak the Grand Duchy stretched from the Baltic to the Black Sea, encompassing most of modern Ukraine and Belarus. Its administrative language was Ruthenian (Old East Slavic), not Lithuanian.",
+  "figures": [
+    {
+      "id": "mindaugas",
+      "name": "Mindaugas",
+      "role": "founder",
+      "years": "1203/1263",
+      "significance": "First and only King of Lithuania; united the Baltic tribes; briefly converted to Christianity for political reasons; assassinated by rivals"
+    },
+    {
+      "id": "algirdas",
+      "name": "Algirdas",
+      "role": "ruler",
+      "years": "1296/1377",
+      "significance": "Greatest territorial expansionist; pushed Lithuanian rule deep into Rus, reaching Crimea; a pagan ruling over a mostly Orthodox population"
+    },
+    {
+      "id": "vytautas_great",
+      "name": "Vytautas the Great",
+      "role": "ruler",
+      "years": "1350/1430",
+      "significance": "Defeated the Teutonic Knights at Grunwald (1410) alongside Poland; greatest Lithuanian ruler; at his peak controlled more territory than any contemporary European monarch"
+    }
+  ]
+}

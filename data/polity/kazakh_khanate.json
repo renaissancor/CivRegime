@@ -1,0 +1,32 @@
+{
+  "id": "kazakh_khanate",
+  "name": "Kazakh Khanate",
+  "ruling_ethnicity": "turkic_cluster",
+  "cultural_language": "old_turkic",
+  "ideology": {
+    "religion": "sunni",
+    "government": "khanate"
+  },
+  "territories": [
+    "central_asian_steppe"
+  ],
+  "start": 1465,
+  "end": 1731,
+  "note": "Emerged from the Uzbek (Shaybanid) breakup when Janybek and Giray led a nomadic confederation into the Kazakh steppe. The three zhuz (hordes: Great, Middle, Small) structure defined Kazakh society. Gradually subordinated by Russian expansion; the Small Zhuz accepted Russian protectorate in 1731 under Dzungar pressure.",
+  "figures": [
+    {
+      "id": "janybek_khan",
+      "name": "Janybek Khan",
+      "role": "founder",
+      "years": "/1480",
+      "significance": "Co-founder of the Kazakh Khanate with Giray; established Kazakh identity as distinct from Uzbeks"
+    },
+    {
+      "id": "ablai_khan",
+      "name": "Ablai Khan",
+      "role": "ruler",
+      "years": "1711/1781",
+      "significance": "Greatest 18th-century Kazakh ruler; united the zhuz against the Dzungars; played Russia and China against each other"
+    }
+  ]
+}

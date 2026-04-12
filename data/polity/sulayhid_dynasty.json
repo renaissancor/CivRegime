@@ -1,0 +1,15 @@
+{
+  "id": "sulayhid_dynasty",
+  "name": "Sulayhid Dynasty",
+  "ruling_ethnicity": "arab",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "ismaili_shia",
+    "government": "monarchy"
+  },
+  "territories": [
+    "arabia"
+  ],
+  "start": 1047,
+  "end": 1138
+}

@@ -1,3 +1,9 @@
+/* ── State Timeline ─────────────────────────────────────────────
+   Shows polities as vertical bars on a time axis, colored by
+   ethnicity, with succession arrows connecting them.
+   Sidebar groups by territory (until state_id is populated).
+   ─────────────────────────────────────────────────────────────── */
+
 const ETHNICITY_PALETTE = [
   '#4ade80','#60a5fa','#fb923c','#f87171',
   '#a78bfa','#34d399','#fbbf24','#f472b6',
@@ -16,116 +22,85 @@ function formatYear(y) {
   return y < 0 ? `${Math.abs(y)} BC` : `${y} CE`;
 }
 
-// All unique time boundary events across all periods in a territory
-function timeEvents(periods, NOW) {
-  const s = new Set();
-  for (const p of periods) { s.add(p.start); s.add(p.end ?? NOW); }
-  return [...s].sort((a, b) => a - b);
-}
+const ARROW_COLORS = {
+  same: '#4ade80',
+  expansion: '#60a5fa',
+  contraction: '#facc15',
+  displacement: '#fb923c',
+  unknown: '#718096',
+};
 
-// Build an SVG path for one period.
-// The bar expands to full innerW when alone, splits proportionally when coexisting.
-// Periods active at the same time are sorted by start (then regime id) for stable left→right order.
-function buildPath(period, periods, events, yScale, innerW, NOW) {
-  const pEnd = period.end ?? NOW;
-  const GAP = 2; // px padding between adjacent bars
+// ── Data ────────────────────────────────────────────────────────
 
-  const slices = [];
-  for (let i = 0; i < events.length - 1; i++) {
-    const t0 = events[i], t1 = events[i + 1];
-    if (t0 >= pEnd || t1 <= period.start) continue;
-
-    const mid = (t0 + t1) / 2;
-    const active = periods
-      .filter(p => p.start <= mid && (p.end ?? NOW) > mid)
-      .sort((a, b) => a.start - b.start || (a.regime || '').localeCompare(b.regime || ''));
-
-    if (active.length === 0) continue;
-
-    const n = active.length;
-    let idx = -1;
-    for (let j = 0; j < active.length; j++) {
-      if (active[j] === period) {
-        idx = j;
-        break;
-      }
-    }
-    if (idx < 0) continue;
-
-    slices.push({
-      t0, t1,
-      x1: (idx / n) * innerW + GAP,
-      x2: ((idx + 1) / n) * innerW - GAP,
-    });
-  }
-
-  if (!slices.length) return { paths: [], labelX: 0, labelY: 0, labelH: 0 };
-
-  // Build path: left edge downward, then right edge upward, close with Z.
-  const pts = [];
-
-  // Left edge (top → bottom)
-  pts.push([slices[0].x1, yScale(slices[0].t0)]);
-  for (let i = 0; i < slices.length; i++) {
-    const { x1, t1 } = slices[i];
-    const y1 = yScale(t1);
-    const nextX1 = slices[i + 1]?.x1;
-    if (nextX1 != null && nextX1 !== x1) {
-      pts.push([x1, y1], [nextX1, y1]);
-    } else {
-      pts.push([x1, y1]);
-    }
-  }
-
-  // Right edge (bottom → top)
-  const last = slices[slices.length - 1];
-  pts.push([last.x2, yScale(last.t1)]);
-  for (let i = slices.length - 1; i >= 0; i--) {
-    const { x2, t0 } = slices[i];
-    const y0 = yScale(t0);
-    const prevX2 = slices[i - 1]?.x2;
-    if (prevX2 != null && prevX2 !== x2) {
-      pts.push([x2, y0], [prevX2, y0]);
-    } else {
-      pts.push([x2, y0]);
-    }
-  }
-
-  const path = 'M' + pts.map(([x, y]) => `${x.toFixed(1)},${y.toFixed(1)}`).join('L') + 'Z';
-
-  // Label: centre of the tallest slice
-  const best = slices.reduce((a, s) => {
-    const h = yScale(s.t1) - yScale(s.t0);
-    return h > (yScale(a.t1) - yScale(a.t0)) ? s : a;
-  }, slices[0]);
-
-  return {
-    path,
-    labelX: (best.x1 + best.x2) / 2,
-    labelY: (yScale(best.t0) + yScale(best.t1)) / 2 + 4,
-    labelH: yScale(best.t1) - yScale(best.t0),
-  };
-}
+let allPolities = [];
+let polityById = {};
+let allSuccessions = [];
+let allTerritories = [];
 
 async function init() {
-  const db = await fetch('/api/db').then(r => r.json());
-  const regimeById = new Map(db.regimes.map(r => [r.id, r]));
+  const [polities, successions, territories] = await Promise.all([
+    fetch('/api/polity').then(r => r.json()),
+    fetch('/api/succession').then(r => r.json()),
+    fetch('/api/territory').then(r => r.json()),
+  ]);
 
-  const list = document.getElementById('territory-list');
-  const grouped = [...d3.group(db.territories, t => t.region || 'other').entries()]
-    .sort((a, b) => a[0].localeCompare(b[0]));
+  allPolities = polities;
+  polityById = {};
+  polities.forEach(p => { polityById[p.id] = p; });
+  allSuccessions = successions;
+  allTerritories = territories;
 
-  for (const [region, items] of grouped) {
+  buildSidebar(territories);
+
+  // Deep-link support
+  const params = new URLSearchParams(location.search);
+  const tid = params.get('id');
+  if (tid) {
+    const el = document.querySelector(`[data-id="${tid}"]`);
+    if (el) {
+      el.classList.add('active');
+      el.scrollIntoView({ block: 'center' });
+      selectTerritory(tid);
+    }
+  }
+}
+
+// ── Sidebar ─────────────────────────────────────────────────────
+
+function buildSidebar(territories) {
+  const list = document.getElementById('sidebar-list');
+  list.innerHTML = '';
+
+  // Group by region
+  const grouped = new Map();
+  for (const t of territories) {
+    const region = t.region || 'other';
+    if (!grouped.has(region)) grouped.set(region, []);
+    grouped.get(region).push(t);
+  }
+
+  // Count polities per territory for display
+  const terrPolityCount = {};
+  for (const p of allPolities) {
+    for (const tid of p.territories || []) {
+      terrPolityCount[tid] = (terrPolityCount[tid] || 0) + 1;
+    }
+  }
+
+  const sortedRegions = [...grouped.keys()].sort();
+  for (const region of sortedRegions) {
     const label = document.createElement('div');
-    label.className = 'region-label';
+    label.className = 'group-label';
     label.textContent = region.replace(/_/g, ' ');
     list.appendChild(label);
 
-    for (const t of [...items].sort((a, b) => a.name.localeCompare(b.name))) {
+    const items = grouped.get(region).sort((a, b) => a.name.localeCompare(b.name));
+    for (const t of items) {
       const el = document.createElement('div');
-      el.className = 'territory-item';
+      el.className = 'sidebar-item';
       el.dataset.id = t.id;
-      el.textContent = t.name;
+      const count = terrPolityCount[t.id] || 0;
+      el.innerHTML = `${t.name} <span class="count">${count}</span>`;
       list.appendChild(el);
     }
   }
@@ -133,222 +108,258 @@ async function init() {
   list.addEventListener('click', e => {
     const el = e.target.closest('[data-id]');
     if (!el) return;
-    list.querySelectorAll('.territory-item').forEach(i => i.classList.remove('active'));
+    list.querySelectorAll('.sidebar-item').forEach(i => i.classList.remove('active'));
     el.classList.add('active');
-    const t = db.territories.find(t => t.id === el.dataset.id);
-    if (t) renderTimeline(t, regimeById);
+    selectTerritory(el.dataset.id);
+    history.replaceState(null, '', `?id=${el.dataset.id}`);
   });
 }
 
-function renderTimeline(territory, regimeById) {
-  document.getElementById('territory-title').textContent = territory.name;
-  document.getElementById('territory-desc').textContent = territory.description || '';
-  document.getElementById('empty-state')?.remove();
+// ── Select territory ────────────────────────────────────────────
 
-  const container = document.getElementById('timeline-container');
-  container.innerHTML = '';
+function selectTerritory(territoryId) {
+  const territory = allTerritories.find(t => t.id === territoryId);
+  const name = territory?.name || territoryId.replace(/_/g, ' ');
 
-  const NOW = 2026;
-  // Use original period objects, normalize fields
-  const rawPeriods = territory.periods || territory.regimes || [];
-  const periods = [];
+  document.getElementById('main-title').textContent = name;
+  document.getElementById('main-subtitle').textContent = '';
 
-  for (const r of rawPeriods) {
-    if (r.start == null) continue; // Skip entries without start
-    r.regime = r.regime || r.regime_id;
-    r.start = Number(r.start);
-    if (r.end != null) r.end = Number(r.end);
-    periods.push(r);
-  }
+  // Find polities that control this territory
+  const polities = allPolities.filter(p =>
+    (p.territories || []).includes(territoryId)
+  );
 
-  if (!periods.length) {
-    container.innerHTML = '<div style="color:#4a5568;padding:40px 0">No period data for this territory yet.</div>';
-    buildLegend([]);
+  if (!polities.length) {
+    document.getElementById('chart-container').innerHTML =
+      '<div id="empty-state">No polities found for this territory</div>';
+    document.getElementById('legend').innerHTML = '';
+    document.getElementById('main-subtitle').textContent = '0 polities';
     return;
   }
 
-  const yMin = d3.min(periods, p => p.start);
-  const yMax = d3.max(periods, p => p.end != null ? p.end : NOW);
-  const events = timeEvents(periods, NOW);
+  document.getElementById('main-subtitle').textContent = `${polities.length} polities`;
 
-  const margin  = { top: 28, right: 16, bottom: 28, left: 84 };
-  const H       = Math.max(container.clientHeight || 500, 400);
-  const innerH  = H - margin.top - margin.bottom;
-  const innerW  = Math.max((container.clientWidth || 600) - margin.left - margin.right, 100);
+  // Find successions between these polities
+  const idSet = new Set(polities.map(p => p.id));
+  const successions = allSuccessions.filter(s => idSet.has(s.from) && idSet.has(s.to));
+
+  renderTimeline(polities, successions, territoryId);
+}
+
+// ── Lane assignment (interval scheduling) ───────────────────────
+// Assign each polity to an X-lane so overlapping polities don't
+// share the same column. Greedy left-most-lane-first algorithm.
+
+function assignLanes(polities, NOW) {
+  const sorted = [...polities].sort((a, b) => (a.start ?? -5000) - (b.start ?? -5000));
+  const laneEnds = []; // laneEnds[i] = latest end year in lane i
+  const assignment = new Map();
+
+  for (const p of sorted) {
+    const pStart = p.start ?? -5000;
+    const pEnd = p.end ?? NOW;
+
+    // Find first lane where this polity fits (no overlap)
+    let placed = false;
+    for (let i = 0; i < laneEnds.length; i++) {
+      if (laneEnds[i] <= pStart) {
+        laneEnds[i] = pEnd;
+        assignment.set(p.id, i);
+        placed = true;
+        break;
+      }
+    }
+    if (!placed) {
+      assignment.set(p.id, laneEnds.length);
+      laneEnds.push(pEnd);
+    }
+  }
+
+  return { assignment, laneCount: laneEnds.length };
+}
+
+// ── Timeline renderer ───────────────────────────────────────────
+
+function renderTimeline(polities, successions, territoryId) {
+  const container = document.getElementById('chart-container');
+  container.innerHTML = '';
+
+  const NOW = 2026;
+  const yMin = d3.min(polities, p => p.start ?? -3000);
+  const yMax = d3.max(polities, p => p.end ?? NOW);
+
+  const { assignment, laneCount } = assignLanes(polities, NOW);
+
+  const margin = { top: 20, right: 24, bottom: 20, left: 80 };
+  const W = container.clientWidth || 800;
+  const H = Math.max(container.clientHeight || 500, 400);
+  const innerW = W - margin.left - margin.right;
+  const innerH = H - margin.top - margin.bottom;
+
+  const barW = Math.max(Math.min(innerW / (laneCount || 1), 120), 24);
+  const chartW = barW * (laneCount || 1);
+  const GAP = 4; // gap between bars
 
   const svgEl = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svgEl.setAttribute('width', margin.left + innerW + margin.right);
+  svgEl.setAttribute('width', W);
   svgEl.setAttribute('height', H);
   container.appendChild(svgEl);
 
   const svg = d3.select(svgEl);
 
-  const clipId = `clip-${territory.id.replace(/\W/g, '_')}`;
+  const clipId = `clip-state-${territoryId.replace(/\W/g, '_')}`;
   svg.append('defs').append('clipPath').attr('id', clipId)
-    .append('rect').attr('width', innerW).attr('height', innerH);
+    .append('rect').attr('width', innerW + 10).attr('height', innerH);
 
-  const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
-
-  // Horizontal dividing line at top
-  g.append('line')
-    .attr('x1', 0).attr('y1', 0)
-    .attr('x2', innerW).attr('y2', 0)
-    .attr('stroke', '#2d3748').attr('stroke-width', 1);
-
-  // Kingdom labels above the dividing line
-  svg.append('text')
-    .attr('x', margin.left + innerW / 4)
-    .attr('y', margin.top - 8)
-    .attr('text-anchor', 'middle')
-    .attr('font-size', 12)
-    .attr('font-weight', '600')
-    .attr('fill', '#a0aec0')
-    .text('Kingdom of Denmark');
-
-  svg.append('text')
-    .attr('x', margin.left + innerW / 2)
-    .attr('y', margin.top - 8)
-    .attr('text-anchor', 'middle')
-    .attr('font-size', 12)
-    .attr('font-weight', '600')
-    .attr('fill', '#a0aec0')
-    .text('Kingdom of Norway');
+  const root = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+  const yOrig = d3.scaleLinear().domain([yMin, yMax]).range([0, innerH]);
 
   // Chart border
-  g.append('rect')
+  root.append('rect')
     .attr('x', 0).attr('y', 0).attr('width', innerW).attr('height', innerH)
     .attr('fill', 'none').attr('stroke', '#2d3748').attr('stroke-width', 1);
 
-  const barsG = g.append('g').attr('clip-path', `url(#${clipId})`);
-  const labsG = g.append('g').attr('clip-path', `url(#${clipId})`).attr('pointer-events', 'none');
-  const axisG = g.append('g');
-
-  const yOrig = d3.scaleLinear().domain([yMin, yMax]).range([0, innerH]);
+  const barsG = root.append('g').attr('clip-path', `url(#${clipId})`);
+  const arrowG = root.append('g').attr('clip-path', `url(#${clipId})`);
+  const labsG = root.append('g').attr('clip-path', `url(#${clipId})`).attr('pointer-events', 'none');
+  const axisG = root.append('g');
 
   const tip = document.getElementById('tooltip');
 
-  // Collect vertical divider lines between coexisting regimes
-  function getDividers(periods, events, yScale, innerW, NOW) {
-    const dividers = [];
-    for (let i = 0; i < events.length - 1; i++) {
-      const t0 = events[i], t1 = events[i + 1];
-      const mid = (t0 + t1) / 2;
-      const active = periods
-        .filter(p => p.start <= mid && (p.end ?? NOW) > mid)
-        .sort((a, b) => a.start - b.start || (a.regime || '').localeCompare(b.regime || ''));
-
-      if (active.length < 2) continue; // Only dividers when 2+ regimes coexist
-
-      // For each boundary between consecutive regimes, draw a vertical line
-      for (let j = 0; j < active.length - 1; j++) {
-        const n = active.length;
-        const x = ((j + 1) / n) * innerW;
-        dividers.push({
-          x,
-          y0: yScale(t0),
-          y1: yScale(t1),
-        });
-      }
-    }
-
-    // Deduplicate and merge adjacent segments at same x position
-    const byX = new Map();
-    for (const d of dividers) {
-      const key = d.x.toFixed(1);
-      if (!byX.has(key)) byX.set(key, []);
-      byX.get(key).push(d);
-    }
-
-    const result = [];
-    for (const segs of byX.values()) {
-      segs.sort((a, b) => a.y0 - b.y0);
-      let merged = [{ y0: segs[0].y0, y1: segs[0].y1 }];
-      for (let i = 1; i < segs.length; i++) {
-        const last = merged[merged.length - 1];
-        if (Math.abs(segs[i].y0 - last.y1) < 2) {
-          last.y1 = segs[i].y1;
-        } else {
-          merged.push({ y0: segs[i].y0, y1: segs[i].y1 });
-        }
-      }
-      for (const seg of merged) {
-        result.push({ x: segs[0].x, y0: seg.y0, y1: seg.y1 });
-      }
-    }
-    return result;
-  }
-
-  // Collect transition lines where regime count changes
-  function getTransitions(periods, events, yScale, NOW) {
-    const transitions = [];
-    for (let i = 0; i < events.length - 1; i++) {
-      const t0 = events[i];
-      const midBefore = i === 0 ? t0 : (events[i - 1] + t0) / 2;
-      const midAfter = (t0 + events[i + 1]) / 2;
-
-      const countBefore = periods.filter(p => p.start <= midBefore && (p.end ?? NOW) > midBefore).length;
-      const countAfter = periods.filter(p => p.start <= midAfter && (p.end ?? NOW) > midAfter).length;
-
-      if (countBefore !== countAfter) {
-        transitions.push({
-          y: yScale(t0),
-          count: `${countBefore} → ${countAfter}`,
-        });
-      }
-    }
-    return transitions;
+  // ── Arrow marker defs ──
+  const defs = svg.select('defs');
+  for (const [dir, color] of Object.entries(ARROW_COLORS)) {
+    defs.append('marker')
+      .attr('id', `arrow-${dir}`)
+      .attr('viewBox', '0 0 10 10')
+      .attr('refX', 10).attr('refY', 5)
+      .attr('markerWidth', 6).attr('markerHeight', 6)
+      .attr('orient', 'auto')
+      .append('path')
+      .attr('d', 'M0,0 L10,5 L0,10 Z')
+      .attr('fill', color);
   }
 
   function redraw(yScale) {
-    const pathData = periods.map(p => ({
-      period: p,
-      ...buildPath(p, periods, events, yScale, innerW, NOW),
-    }));
+    // ── Bars ──
+    const barData = polities.map(p => {
+      const lane = assignment.get(p.id) || 0;
+      const pStart = p.start ?? yMin;
+      const pEnd = p.end ?? NOW;
+      const x = lane * barW + GAP;
+      const w = barW - GAP * 2;
+      const y0 = yScale(pStart);
+      const y1 = yScale(pEnd);
+      return { polity: p, x, w, y: y0, h: y1 - y0, lane, yMid: (y0 + y1) / 2 };
+    });
 
-    // Bars
-    barsG.selectAll('path')
-      .data(pathData, d => d.period.regime || String(d.period.start))
-      .join('path')
-      .attr('d', d => d.path)
-      .attr('fill', d => d.period.regime
-        ? ethnicColor(regimeById.get(d.period.regime)?.ruling_ethnicity || d.period.regime)
-        : '#252e42')
+    const barById = {};
+    barData.forEach(b => { barById[b.polity.id] = b; });
+
+    barsG.selectAll('rect.polity-bar')
+      .data(barData, d => d.polity.id)
+      .join('rect')
+      .attr('class', 'polity-bar')
+      .attr('x', d => d.x)
+      .attr('y', d => d.y)
+      .attr('width', d => d.w)
+      .attr('height', d => Math.max(d.h, 2))
+      .attr('rx', 3)
+      .attr('fill', d => ethnicColor(d.polity.ruling_ethnicity))
       .attr('stroke', '#0f1117')
       .attr('stroke-width', 1)
+      .attr('cursor', 'pointer')
       .on('mouseover', (e, d) => {
-        const r = regimeById.get(d.period.regime);
+        const p = d.polity;
         tip.innerHTML = [
-          `<strong>${r?.name || d.period.regime || 'Uncontrolled'}</strong>`,
-          `${formatYear(d.period.start)} – ${formatYear(d.period.end)}`,
-          r?.ruling_ethnicity ? `Ethnicity: ${r.ruling_ethnicity}` : '',
-          r?.ideology?.religion ? `Religion: ${r.ideology.religion}` : '',
-          d.period.note ? `<em>${d.period.note}</em>` : '',
+          `<strong>${p.name || p.id}</strong>`,
+          `${formatYear(p.start)} – ${formatYear(p.end)}`,
+          p.ruling_ethnicity ? `Ethnicity: ${p.ruling_ethnicity}` : '',
+          p.cultural_language ? `Language: ${p.cultural_language}` : '',
+          p.government ? `Government: ${p.government}` : '',
         ].filter(Boolean).join('<br>');
         tip.classList.add('visible');
       })
       .on('mousemove', e => {
         tip.style.left = (e.clientX + 14) + 'px';
-        tip.style.top  = (e.clientY - 12) + 'px';
+        tip.style.top = (e.clientY - 12) + 'px';
       })
-      .on('mouseout', () => tip.classList.remove('visible'));
+      .on('mouseout', () => tip.classList.remove('visible'))
+      .on('click', (e, d) => {
+        window.open(`/regime/?id=${d.polity.id}`, '_blank');
+      });
 
-    // Labels
-    labsG.selectAll('text')
-      .data(pathData, d => d.period.regime || String(d.period.start))
+    // ── Labels ──
+    labsG.selectAll('text.bar-label')
+      .data(barData, d => d.polity.id)
       .join('text')
-      .attr('x', d => d.labelX)
-      .attr('y', d => d.labelY)
+      .attr('class', 'bar-label')
+      .attr('x', d => d.x + d.w / 2)
+      .attr('y', d => d.y + d.h / 2 + 4)
       .attr('text-anchor', 'middle')
-      .attr('font-size', 11)
+      .attr('font-size', d => d.h > 30 ? 11 : (d.h > 16 ? 9 : 0))
       .attr('fill', '#0f1117')
       .attr('font-weight', '600')
       .text(d => {
-        if (!d.period.regime) return '';
-        const name = regimeById.get(d.period.regime)?.name || d.period.regime;
-        return name;
+        if (d.h < 16) return '';
+        const name = d.polity.name || d.polity.id;
+        const maxChars = Math.floor(d.w / 6);
+        return name.length > maxChars ? name.slice(0, maxChars - 1) + '…' : name;
       });
 
-    // Left axis
+    // ── Succession arrows ──
+    const arrowData = successions
+      .map(s => {
+        const from = barById[s.from];
+        const to = barById[s.to];
+        if (!from || !to) return null;
+        const dir = (s.territorial_direction || 'unknown').toLowerCase();
+        return { s, from, to, dir };
+      })
+      .filter(Boolean);
+
+    arrowG.selectAll('path.succession-arrow')
+      .data(arrowData, d => `${d.s.from}-${d.s.to}`)
+      .join('path')
+      .attr('class', d => `succession-arrow ${d.dir}`)
+      .attr('d', d => {
+        // Arrow from bottom of predecessor to top of successor
+        const x1 = d.from.x + d.from.w / 2;
+        const y1 = d.from.y + d.from.h;
+        const x2 = d.to.x + d.to.w / 2;
+        const y2 = d.to.y;
+
+        // If same lane, slight S-curve to the right
+        if (d.from.lane === d.to.lane) {
+          const off = barW * 0.4;
+          const midY = (y1 + y2) / 2;
+          return `M${x1},${y1} C${x1 + off},${midY} ${x2 + off},${midY} ${x2},${y2}`;
+        }
+
+        // Different lanes: smooth cubic bezier
+        const midY = (y1 + y2) / 2;
+        return `M${x1},${y1} C${x1},${midY} ${x2},${midY} ${x2},${y2}`;
+      })
+      .attr('marker-end', d => `url(#arrow-${d.dir})`)
+      .on('mouseover', (e, d) => {
+        const fromName = polityById[d.s.from]?.name || d.s.from;
+        const toName = polityById[d.s.to]?.name || d.s.to;
+        tip.innerHTML = [
+          `<strong>${fromName} → ${toName}</strong>`,
+          `Direction: ${d.dir}`,
+          d.s.same_ethnicity ? 'Same ethnicity' : 'Different ethnicity',
+          d.s.same_language ? 'Same language' : 'Different language',
+          d.s.same_religion ? 'Same religion' : 'Different religion',
+        ].join('<br>');
+        tip.classList.add('visible');
+      })
+      .on('mousemove', e => {
+        tip.style.left = (e.clientX + 14) + 'px';
+        tip.style.top = (e.clientY - 12) + 'px';
+      })
+      .on('mouseout', () => tip.classList.remove('visible'));
+
+    // ── Y axis ──
     const tickCount = Math.min(14, Math.max(4, Math.floor(innerH / 55)));
     axisG.call(
       d3.axisLeft(yScale).ticks(tickCount).tickFormat(y => formatYear(Math.round(y)))
@@ -357,31 +368,49 @@ function renderTimeline(territory, regimeById) {
     axisG.selectAll('.domain, line').attr('stroke', '#2d3748');
   }
 
+  // ── Zoom ──
   svg.call(
-    d3.zoom().scaleExtent([0.4, 40])
+    d3.zoom().scaleExtent([0.3, 50])
       .on('zoom', e => redraw(e.transform.rescaleY(yOrig)))
   );
 
   redraw(yOrig);
 
-  // Legend
-  const seen = new Map();
-  for (const p of periods) {
-    if (p.regime) {
-      const r = regimeById.get(p.regime);
-      if (r && !seen.has(r.ruling_ethnicity)) seen.set(r.ruling_ethnicity, ethnicColor(r.ruling_ethnicity));
-    }
-  }
-  buildLegend([...seen.entries()]);
+  // ── Legend ──
+  buildLegend(polities);
 }
 
-function buildLegend(entries) {
+// ── Legend ───────────────────────────────────────────────────────
+
+function buildLegend(polities) {
   const legend = document.getElementById('legend');
   legend.innerHTML = '';
-  for (const [label, color] of entries) {
+
+  // Ethnicity-based legend
+  const seen = new Map();
+  for (const p of polities) {
+    const eth = p.ruling_ethnicity;
+    if (eth && !seen.has(eth)) seen.set(eth, ethnicColor(eth));
+  }
+
+  for (const [label, color] of seen) {
     const item = document.createElement('div');
     item.className = 'legend-item';
     item.innerHTML = `<div class="legend-swatch" style="background:${color}"></div>${label}`;
+    legend.appendChild(item);
+  }
+
+  // Arrow direction legend
+  if (legend.children.length) {
+    const sep = document.createElement('div');
+    sep.style.cssText = 'width:1px;height:16px;background:#2d3748;margin:0 4px';
+    legend.appendChild(sep);
+  }
+
+  for (const [dir, color] of Object.entries(ARROW_COLORS)) {
+    const item = document.createElement('div');
+    item.className = 'legend-item';
+    item.innerHTML = `<div class="legend-swatch" style="background:${color};border-radius:50%"></div>${dir}`;
     legend.appendChild(item);
   }
 }

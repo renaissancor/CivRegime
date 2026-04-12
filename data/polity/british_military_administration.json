@@ -1,0 +1,14 @@
+{
+  "id": "british_military_administration",
+  "name": "British Military Administration",
+  "ruling_ethnicity": "english",
+  "cultural_language": "english",
+  "ideology": {
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "north_africa"
+  ],
+  "start": 1943,
+  "end": 1951
+}

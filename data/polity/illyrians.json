@@ -1,0 +1,13 @@
+{
+  "id": "illyrians",
+  "name": "Illyrians",
+  "ruling_ethnicity": "ancient_european",
+  "ideology": {
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "balkans"
+  ],
+  "start": -1000,
+  "end": -168
+}

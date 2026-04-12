@@ -1,0 +1,12 @@
+{
+  "id": "transcaucasian_democratic_federative_republic",
+  "name": "Transcaucasian Democratic Federative Republic",
+  "ideology": {
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "caucasus"
+  ],
+  "start": 1918,
+  "end": 1918
+}

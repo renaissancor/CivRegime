@@ -1,0 +1,15 @@
+{
+  "id": "saka",
+  "name": "Saka / Massagetae",
+  "ruling_ethnicity": "scythian",
+  "ideology": {
+    "religion": "scythian_religion",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "central_asian_steppe",
+    "khorasan"
+  ],
+  "start": -900,
+  "end": -200
+}

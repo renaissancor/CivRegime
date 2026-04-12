@@ -1,0 +1,13 @@
+{
+  "id": "illyrian_kingdom",
+  "name": "Illyrian Kingdom",
+  "ruling_ethnicity": "ancient_european",
+  "ideology": {
+    "government": "monarchy"
+  },
+  "territories": [
+    "balkans"
+  ],
+  "start": -400,
+  "end": -168
+}

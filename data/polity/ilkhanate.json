@@ -1,0 +1,35 @@
+{
+  "id": "ilkhanate",
+  "name": "Ilkhanate",
+  "ruling_ethnicity": "mongol",
+  "cultural_language": "new_persian",
+  "ideology": {
+    "religion": "sunni_hanafi",
+    "government": "khanate"
+  },
+  "territories": [
+    "iran_plateau",
+    "mesopotamia",
+    "khorasan",
+    "caucasus"
+  ],
+  "start": 1256,
+  "end": 1335,
+  "note": "Started Tengriist/Buddhist; converted to Sunni Islam and were fully Persianized — Persian remained the language of court and literature",
+  "figures": [
+    {
+      "id": "hulagu_khan",
+      "name": "Hulagu Khan",
+      "role": "founder",
+      "years": "1217/1265",
+      "significance": "Sacked Baghdad (1258), ending the Abbasid Caliphate"
+    },
+    {
+      "id": "ghazan_khan",
+      "name": "Ghazan Khan",
+      "role": "reformer",
+      "years": "1271/1304",
+      "significance": "Converted to Sunni Islam (1295) — the ideological turning point that fully Persianized the Ilkhanate"
+    }
+  ]
+}

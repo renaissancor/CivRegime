@@ -1,0 +1,16 @@
+{
+  "id": "kidarites",
+  "name": "Kidarites / Alchon Huns",
+  "ruling_ethnicity": "steppe_nomadic",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "khaganate"
+  },
+  "territories": [
+    "khorasan",
+    "transoxiana",
+    "indus_valley"
+  ],
+  "start": 350,
+  "end": 475
+}

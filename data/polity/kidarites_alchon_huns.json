@@ -1,0 +1,14 @@
+{
+  "id": "kidarites_alchon_huns",
+  "name": "Kidarites / Alchon Huns",
+  "ruling_ethnicity": "steppe_nomadic",
+  "ideology": {
+    "government": "khaganate"
+  },
+  "territories": [
+    "khorasan",
+    "transoxiana"
+  ],
+  "start": 350,
+  "end": 530
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ming_dynasty",
+  "name": "Ming Dynasty",
+  "ruling_ethnicity": "han_chinese",
+  "cultural_language": "mandarin",
+  "ideology": {
+    "religion": "neo_confucianism",
+    "government": "chinese_imperial"
+  },
+  "territories": [
+    "yellow_river",
+    "yangtze"
+  ],
+  "start": 1368,
+  "end": 1644,
+  "note": "Founded as an explicit rejection of Mongol rule; strong Han nativist and Confucian identity; the 'most Chinese' of dynasties",
+  "figures": [
+    {
+      "id": "zhu_yuanzhang",
+      "name": "Zhu Yuanzhang (Hongwu Emperor)",
+      "role": "founder",
+      "years": "1328/1398",
+      "significance": "Rose from orphaned peasant to emperor; expelled the Mongols"
+    },
+    {
+      "id": "zheng_he",
+      "name": "Zheng He",
+      "role": "general",
+      "years": "1371/1433",
+      "significance": "Led seven maritime expeditions reaching Arabia and East Africa; commanded fleets that dwarfed anything in Europe"
+    },
+    {
+      "id": "yongle_emperor",
+      "name": "Yongle Emperor",
+      "role": "ruler",
+      "years": "1360/1424",
+      "significance": "Built the Forbidden City; commissioned the Yongle Encyclopedia"
+    }
+  ]
+}

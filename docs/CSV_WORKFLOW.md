@@ -11,11 +11,11 @@ Open any CSV file in `csvs/` with a spreadsheet editor (Excel, LibreOffice Calc,
 ```bash
 # Regenerate all outputs
 node code/csv2json/states.js
-node code/csv2json/regimes.js
+node code/csv2json/polity.js
 node code/csv2json/territories.js
 
 # Or run all at once
-node code/csv2json/states.js && node code/csv2json/regimes.js && node code/csv2json/territories.js
+node code/csv2json/states.js && node code/csv2json/polity.js && node code/csv2json/territories.js
 ```
 
 ### 3. Refresh Frontend
@@ -46,14 +46,14 @@ id,name,description
 
 ---
 
-### **regimes.csv** - Historical Eras
-The main historical data. Each row represents an era or regime with ruling culture, ideology, and timespan.
+### **polity.csv** - Historical Eras
+The main historical data. Each row represents an era or polity with ruling culture, ideology, and timespan.
 
 **Columns:**
 - `id`: Unique text identifier (e.g., "roman_empire_pagan")
 - `name`: Display name (e.g., "Roman Empire (Pagan)")
-- `state_id`: FK to STATES.id (groups regimes into political continuities)
-- `id_ruling_ethnicity`: FK to ETHNICITIES.id (numeric ID of ruling culture)
+- `state_id`: FK to STATES.id (groups polities into political continuities)
+- `id_ruling_ethnicity`: FK to ETHNICITY.id (numeric ID of ruling culture)
 - `id_ruling_language`: FK to LANGUAGES.id (numeric ID of official language)
 - `id_ruling_religion`: FK to RELIGIONS.id (numeric ID of official religion)
 - `start`: Start year (negative = BCE, e.g., -27 for 27 BCE)
@@ -68,9 +68,9 @@ byzantine_empire,Byzantine Empire,,,,15,395,1453
 ```
 
 **When to edit:**
-- Add a new regime by inserting a new row
-- Update regime name, dates, or cultural references
-- Reassign a regime to a different state via `state_id`
+- Add a new polity by inserting a new row
+- Update polity name, dates, or cultural references
+- Reassign a polity to a different state via `state_id`
 - Correct spelling or simplify redundant names
 
 **Common edits:**
@@ -78,16 +78,16 @@ byzantine_empire,Byzantine Empire,,,,15,395,1453
 # Change end date
 roman_empire_pagan,Roman Empire (Pagan),roman_state,,335,106,-27,410
 
-# Add new regime
+# Add new polity
 northern_song,Northern Song Dynasty,,,572,171,960,1127
 
-# Remove regime (delete entire row, not just mark)
+# Remove polity (delete entire row, not just mark)
 ```
 
 ---
 
 ### **territories.csv** - Geographic Regions
-List of territories (geographic regions) controlled by regimes. Territory control periods are stored separately in `territory_periods.csv`.
+List of territories (geographic regions) controlled by polities. Territory control periods are stored separately in `polity_territory.csv`.
 
 **Columns:**
 - `id`: Unique identifier (numeric or text, e.g., 1 or "egypt")
@@ -108,22 +108,22 @@ id,name
 - Rename territories for clarity
 - Remove territories (delete entire row)
 
-**Note:** Territory control history is managed in `territory_periods.csv`, not here.
+**Note:** Territory control history is managed in `polity_territory.csv`, not here.
 
 ---
 
-### **territory_periods.csv** - Territory Control Timeline
-Junction table linking territories to the regimes that controlled them, with start/end dates.
+### **polity_territory.csv** - Territory Control Timeline
+Junction table linking territories to the polities that controlled them, with start/end dates.
 
 **Columns:**
 - `territory_id`: FK to TERRITORIES.id (text)
-- `regime_id`: FK to REGIMES.id (text)
+- `polity_id`: FK to POLITIES.id (text)
 - `start`: Period start year (negative = BCE)
 - `end`: Period end year (blank for ongoing)
 
 **Example:**
 ```csv
-territory_id,regime_id,start,end
+territory_id,polity_id,start,end
 egypt,old_kingdom_egypt,-2686,-2181
 egypt,new_kingdom_egypt,-1550,-1070
 egypt,ptolemaic_egypt,-305,-30
@@ -131,25 +131,25 @@ egypt,roman_empire_pagan,-27,380
 ```
 
 **When to edit:**
-- Add a new regime control period for a territory
-- Update dates when a regime's control period changes
-- Add a regime controlling a new territory
+- Add a new polity control period for a territory
+- Update dates when a polity's control period changes
+- Add a polity controlling a new territory
 
 **Rules:**
-- One row per territory-regime period combination
-- Dates may overlap for the same territory when multiple regimes coexisted (e.g., HRE and Kingdom of Prussia both in Germany)
-- Use the text ID from `regimes.csv`
+- One row per territory-polity period combination
+- Dates may overlap for the same territory when multiple polities coexisted (e.g., HRE and Kingdom of Prussia both in Germany)
+- Use the text ID from `polity.csv`
 
 ---
 
-### **ethnicities.csv** - Ethnic/Cultural Hierarchy
+### **ethnicity.csv** - Ethnic/Cultural Hierarchy
 Hierarchical tree of ethnic and cultural groups. Forms a tree structure via `parent_id` self-reference.
 
 **Columns:**
 - `id`: Numeric identifier (1, 2, 3...)
 - `old_id`: Original semantic ID for reference (e.g., "han_chinese")
 - `name`: Display name (e.g., "Han Chinese")
-- `parent_id`: FK to ETHNICITIES.id (numeric, NULL for roots)
+- `parent_id`: FK to ETHNICITY.id (numeric, NULL for roots)
 - `description`: Optional notes
 - `founded`: Founding year (optional)
 
@@ -179,7 +179,7 @@ Indo-European (id=1, parent=NULL)
 ---
 
 ### **languages.csv** - Language Hierarchy
-Hierarchical tree of languages. Structure identical to `ethnicities.csv`.
+Hierarchical tree of languages. Structure identical to `ethnicity.csv`.
 
 **Columns:**
 - `id`: Numeric identifier
@@ -197,7 +197,7 @@ Hierarchical tree of languages. Structure identical to `ethnicities.csv`.
 ---
 
 ### **religions.csv** - Religion Hierarchy
-Hierarchical tree of religions and denominations. Structure identical to `ethnicities.csv`.
+Hierarchical tree of religions and denominations. Structure identical to `ethnicity.csv`.
 
 **Columns:**
 - `id`: Numeric identifier
@@ -255,17 +255,17 @@ id,old_id,name,parent_id
 When you run the generation scripts, they check for common errors:
 
 ### Foreign Key Violations
-If `regimes.csv` references an ethnicity, language, or religion ID that doesn't exist, the script warns you:
+If `polity.csv` references an ethnicity, language, or religion ID that doesn't exist, the script warns you:
 ```
-ERROR: Regime 1 references id_ruling_ethnicity=999, but no ethnicity with id=999 exists
+ERROR: Polity 1 references id_ruling_ethnicity=999, but no ethnicity with id=999 exists
 ```
 
-**Fix:** Update the regimes.csv row to reference a valid ID.
+**Fix:** Update the polity.csv row to reference a valid ID.
 
 ### Missing State
-If a regime references a `state_id` that doesn't exist in `states.csv`:
+If a polity references a `state_id` that doesn't exist in `states.csv`:
 ```
-WARNING: Regime 1 references state_id=999, but no state with id=999 exists
+WARNING: Polity 1 references state_id=999, but no state with id=999 exists
 ```
 
 **Fix:** Either create the state in `states.csv` or set `state_id` to an existing state (or NULL).
@@ -282,21 +282,21 @@ WARNING: Ethnicity 100 has parent_id=999, which doesn't exist
 
 ## Workflow Examples
 
-### Add a New Regime
-1. Open `csvs/regimes.csv`
+### Add a New Polity
+1. Open `csvs/polity.csv`
 2. Add a new row (sorted by start date):
    ```csv
    northern_song,Northern Song Dynasty,,,572,171,960,1127
    ```
-3. Run: `node code/csv2json/regimes.js`
-4. Check `data/regimes/northern_song.json` to verify output
+3. Run: `node code/csv2json/polity.js`
+4. Check `data/polity/northern_song.json` to verify output
 
 ### Add a Territory and Its Control History
 1. Open `csvs/territories.csv`
    ```csv
    anatolia,anatolia
    ```
-2. Open `csvs/territory_periods.csv` and add control periods:
+2. Open `csvs/polity_territory.csv` and add control periods:
    ```csv
    anatolia,hittite_empire,-1600,-1180
    anatolia,achaemenid_empire,-550,-330
@@ -319,7 +319,7 @@ WARNING: Ethnicity 100 has parent_id=999, which doesn't exist
 
 ## Tips and Best Practices
 
-1. **Backup before major edits**: Make a git commit before bulk edits to territory_periods or regimes
+1. **Backup before major edits**: Make a git commit before bulk edits to polity_territory or polity
 2. **Use consistent date format**: Negative for BCE, positive for CE (e.g., -27 for 27 BCE)
 3. **Keep parent_id consistent**: In tree structures, ensure parent exists before referencing it
 4. **Avoid duplicate IDs**: Each entity must have a unique ID within its table
@@ -332,7 +332,7 @@ WARNING: Ethnicity 100 has parent_id=999, which doesn't exist
 
 **JSON files not updating?**
 - Make sure you saved the CSV file (not just closed the editor)
-- Run the generation script again: `node code/csv2json/regimes.js`
+- Run the generation script again: `node code/csv2json/polity.js`
 - Check the console output for errors
 
 **Foreign key errors?**

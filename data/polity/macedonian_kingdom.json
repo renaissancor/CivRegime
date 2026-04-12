@@ -1,0 +1,15 @@
+{
+  "id": "macedonian_kingdom",
+  "name": "Macedonian Kingdom",
+  "ruling_ethnicity": "ancient_greek",
+  "cultural_language": "ancient_greek",
+  "ideology": {
+    "religion": "greek_paganism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "balkans"
+  ],
+  "start": -808,
+  "end": -168
+}

@@ -1,0 +1,19 @@
+{
+  "id": "hephthalite_empire",
+  "name": "Hephthalite Empire",
+  "ruling_ethnicity": "central_asian_steppe_bloc",
+  "cultural_language": "bactrian",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "transoxiana",
+    "khorasan",
+    "punjab",
+    "indus_valley"
+  ],
+  "start": 440,
+  "end": 565,
+  "note": "The 'White Huns' who dominated Central and South Asia. Mihirakula was their most feared ruler in India. Defeated the Gupta Empire and the Sasanids. Destroyed by a Sasanid-Göktürk alliance c.560. Left lasting impact on the ethnic composition of Afghanistan and Pakistan."
+}

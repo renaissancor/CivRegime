@@ -1,0 +1,15 @@
+{
+  "id": "second_polish_republic",
+  "name": "Second Polish Republic",
+  "ruling_ethnicity": "polish",
+  "cultural_language": "polish",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "poland"
+  ],
+  "start": 1918,
+  "end": 1939
+}

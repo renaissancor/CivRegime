@@ -1,0 +1,26 @@
+{
+  "id": "kingdom_of_great_britain",
+  "name": "Kingdom of Great Britain",
+  "ruling_ethnicity": "english",
+  "cultural_language": "modern_english",
+  "ideology": {
+    "religion": "protestant",
+    "government": "constitutional_monarchy"
+  },
+  "territories": [
+    "britannia",
+    "scotland"
+  ],
+  "start": 1707,
+  "end": 1801,
+  "note": "The Acts of Union 1707 merged England and Scotland into a single kingdom with one parliament. Scotland retained its distinct legal and church systems.",
+  "figures": [
+    {
+      "id": "walpole",
+      "name": "Robert Walpole",
+      "role": "administrator",
+      "years": "1676/1745",
+      "significance": "First de facto Prime Minister of Great Britain; established the convention of cabinet government"
+    }
+  ]
+}

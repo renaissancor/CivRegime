@@ -1,0 +1,15 @@
+{
+  "id": "rouran_khaganate",
+  "name": "Rouran Khaganate",
+  "ruling_ethnicity": "mongol",
+  "ideology": {
+    "religion": "tengrism",
+    "government": "khaganate"
+  },
+  "territories": [
+    "mongolian_plateau",
+    "central_asian_steppe"
+  ],
+  "start": 330,
+  "end": 555
+}

@@ -1,0 +1,16 @@
+{
+  "id": "hungary",
+  "name": "Hungary",
+  "ruling_ethnicity": "magyar",
+  "cultural_language": "hungarian",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "hungary",
+    "balkans"
+  ],
+  "start": 1000,
+  "end": 1946
+}

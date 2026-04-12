@@ -1,0 +1,15 @@
+{
+  "id": "karabakh_khanate",
+  "name": "Karabakh Khanate",
+  "ruling_ethnicity": "azerbaijani",
+  "cultural_language": "azerbaijani",
+  "ideology": {
+    "religion": "shia",
+    "government": "khanate"
+  },
+  "territories": [
+    "caucasus"
+  ],
+  "start": 1747,
+  "end": 1822
+}

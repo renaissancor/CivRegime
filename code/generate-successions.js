@@ -50,9 +50,9 @@ function parseCSV(content) {
 
 // ── Load all data ───────────────────────────────────────────────────────────
 
-const regimesRaw = parseCSV(fs.readFileSync(path.join(__dirname, '../csvs/regimes.csv'), 'utf8'));
-const tpRaw      = parseCSV(fs.readFileSync(path.join(__dirname, '../csvs/territory_periods.csv'), 'utf8'));
-const ethRaw     = parseCSV(fs.readFileSync(path.join(__dirname, '../csvs/ethnicities.csv'), 'utf8'));
+const regimesRaw = parseCSV(fs.readFileSync(path.join(__dirname, '../csvs/polity.csv'), 'utf8'));
+const tpRaw      = parseCSV(fs.readFileSync(path.join(__dirname, '../csvs/polity_territory.csv'), 'utf8'));
+const ethRaw     = parseCSV(fs.readFileSync(path.join(__dirname, '../csvs/ethnicity.csv'), 'utf8'));
 
 // Map string old_id → numeric id for ethnicities
 const ethOldToNum = {};
@@ -401,7 +401,7 @@ edges.forEach(e => {
   ].join(','));
 });
 
-const csvPath = path.join(__dirname, '../csvs/successions.csv');
+const csvPath = path.join(__dirname, '../csvs/polity_succession.csv');
 fs.writeFileSync(csvPath, csvLines.join('\n'), 'utf8');
 
 // ── Stats ───────────────────────────────────────────────────────────────────

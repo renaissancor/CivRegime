@@ -1,0 +1,12 @@
+{
+  "id": "brunei_sultanate",
+  "name": "Brunei Sultanate",
+  "ruling_ethnicity": "malay_indonesian",
+  "cultural_language": "malay",
+  "ideology": {
+    "religion": "sunni",
+    "government": "sultanate"
+  },
+  "start": 1368,
+  "end": null
+}

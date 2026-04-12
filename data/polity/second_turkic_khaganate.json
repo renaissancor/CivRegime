@@ -1,0 +1,16 @@
+{
+  "id": "second_turkic_khaganate",
+  "name": "Second Türkic Khaganate",
+  "ruling_ethnicity": "turkic",
+  "cultural_language": "old_turkic",
+  "ideology": {
+    "religion": "tengrism",
+    "government": "khaganate"
+  },
+  "territories": [
+    "mongolian_plateau",
+    "central_asian_steppe"
+  ],
+  "start": 682,
+  "end": 744
+}

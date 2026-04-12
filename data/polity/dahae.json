@@ -1,0 +1,14 @@
+{
+  "id": "dahae",
+  "name": "Dahae",
+  "ruling_ethnicity": "steppe_nomadic",
+  "ideology": {
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "central_asian_steppe",
+    "khorasan"
+  ],
+  "start": -700,
+  "end": -200
+}

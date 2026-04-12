@@ -1,0 +1,41 @@
+{
+  "id": "timurid_empire",
+  "name": "Timurid Empire",
+  "ruling_ethnicity": "turkic_cluster",
+  "cultural_language": "new_persian",
+  "ideology": {
+    "religion": "sunni_hanafi",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "khorasan",
+    "transoxiana",
+    "iran_plateau"
+  ],
+  "start": 1370,
+  "end": 1507,
+  "note": "Timur was Barlas Turkic; court was thoroughly Persian — Samarkand and Herat became the greatest centers of Persian poetry and miniature painting",
+  "figures": [
+    {
+      "id": "timur",
+      "name": "Timur (Tamerlane)",
+      "role": "founder",
+      "years": "1336/1405",
+      "significance": "Last great nomadic conqueror; made Samarkand the most dazzling city of the age"
+    },
+    {
+      "id": "ulugh_beg",
+      "name": "Ulugh Beg",
+      "role": "ruler",
+      "years": "1394/1449",
+      "significance": "Astronomer-king; built the Samarkand observatory"
+    },
+    {
+      "id": "babur_timurid",
+      "name": "Babur",
+      "role": "last_ruler",
+      "years": "1483/1530",
+      "significance": "Last Timurid; lost Samarkand and conquered India instead; founded the Mughal Empire"
+    }
+  ]
+}

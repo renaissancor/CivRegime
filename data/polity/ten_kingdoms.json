@@ -1,0 +1,11 @@
+{
+  "id": "ten_kingdoms",
+  "name": "Ten Kingdoms (South China)",
+  "ruling_ethnicity": "han_chinese",
+  "cultural_language": "middle_chinese",
+  "ideology": {
+    "religion": "neo_confucianism"
+  },
+  "start": 907,
+  "end": 979
+}

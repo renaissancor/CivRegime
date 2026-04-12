@@ -1,0 +1,16 @@
+{
+  "id": "hasmonean_dynasty",
+  "name": "Hasmonean Dynasty",
+  "ruling_ethnicity": "hebrew",
+  "cultural_language": "hebrew",
+  "ideology": {
+    "religion": "judaism",
+    "government": "theocratic_monarchy"
+  },
+  "territories": [
+    "levant"
+  ],
+  "start": -140,
+  "end": -37,
+  "note": "Jewish priestly dynasty that won independence from the Seleucids through the Maccabean Revolt (167–160 BCE). Established the last independent Jewish state before modern Israel. Internal civil war invited Roman intervention (63 BCE) leading to eventual replacement by the Herodian dynasty."
+}

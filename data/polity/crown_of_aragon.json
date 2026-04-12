@@ -1,0 +1,16 @@
+{
+  "id": "crown_of_aragon",
+  "name": "Crown of Aragon",
+  "ruling_ethnicity": "catalan",
+  "cultural_language": "catalan",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "iberia",
+    "italy"
+  ],
+  "start": 1164,
+  "end": 1716
+}

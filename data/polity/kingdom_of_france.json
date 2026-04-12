@@ -1,0 +1,56 @@
+{
+  "id": "kingdom_of_france",
+  "name": "Kingdom of France",
+  "ruling_ethnicity": "french",
+  "cultural_language": "french",
+  "ideology": {
+    "religion": "catholic",
+    "government": "absolute_monarchy"
+  },
+  "territories": [
+    "gaul"
+  ],
+  "start": 987,
+  "end": 1792,
+  "policies": [
+    "edict_of_nantes"
+  ],
+  "note": "Capetian (987–1328), Valois (1328–1589), Bourbon (1589–1792) — three dynasties but one continuous institution. The most powerful western European monarchy of the High and Late Middle Ages. Absolute monarchy reached its apogee under Louis XIV.",
+  "figures": [
+    {
+      "id": "hugh_capet",
+      "name": "Hugh Capet",
+      "role": "founder",
+      "years": "941/996",
+      "significance": "Founded the Capetian dynasty that ruled France continuously for 800 years"
+    },
+    {
+      "id": "philip_ii_augustus",
+      "name": "Philip II Augustus",
+      "role": "ruler",
+      "years": "1165/1223",
+      "significance": "Tripled royal territory; defeated the Plantagenets and Holy Roman Empire at Bouvines (1214) — the battle that made France the dominant western power"
+    },
+    {
+      "id": "louis_ix",
+      "name": "Louis IX (Saint Louis)",
+      "role": "ruler",
+      "years": "1214/1270",
+      "significance": "The ideal medieval Christian king; reformed justice, lived ascetically, led two crusades; canonised 1297"
+    },
+    {
+      "id": "joan_of_arc",
+      "name": "Joan of Arc",
+      "role": "cultural",
+      "years": "1412/1431",
+      "significance": "Turned the Hundred Years' War; her voices inspired Charles VII's reconquest of France from England; burned by the English, canonised 1920"
+    },
+    {
+      "id": "louis_xiv",
+      "name": "Louis XIV",
+      "role": "ruler",
+      "years": "1638/1715",
+      "significance": "The Sun King; ruled 72 years personally; built Versailles; made France the cultural hegemon of Europe; 'L'état, c'est moi'"
+    }
+  ]
+}

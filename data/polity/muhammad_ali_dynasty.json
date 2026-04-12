@@ -1,0 +1,16 @@
+{
+  "id": "muhammad_ali_dynasty",
+  "name": "Muhammad Ali dynasty",
+  "ruling_ethnicity": "arab",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni",
+    "government": "monarchy"
+  },
+  "territories": [
+    "egypt",
+    "nubia"
+  ],
+  "start": 1805,
+  "end": 1953
+}

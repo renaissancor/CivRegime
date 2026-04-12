@@ -1,0 +1,12 @@
+{
+  "id": "sulu_sultanate",
+  "name": "Sulu Sultanate",
+  "ruling_ethnicity": "malay_indonesian",
+  "cultural_language": "malay",
+  "ideology": {
+    "religion": "sunni",
+    "government": "sultanate"
+  },
+  "start": 1405,
+  "end": 1915
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mauretania_kingdom",
+  "name": "Mauretania Kingdom",
+  "ruling_ethnicity": "berber",
+  "cultural_language": "berber",
+  "ideology": {
+    "government": "monarchy"
+  },
+  "territories": [
+    "north_africa"
+  ],
+  "start": -285,
+  "end": 40
+}

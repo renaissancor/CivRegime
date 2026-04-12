@@ -1,0 +1,15 @@
+{
+  "id": "republic_of_yemen",
+  "name": "Republic of Yemen",
+  "ruling_ethnicity": "arab",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "arabia"
+  ],
+  "start": 1990,
+  "end": null
+}

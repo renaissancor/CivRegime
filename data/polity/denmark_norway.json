@@ -1,0 +1,15 @@
+{
+  "id": "denmark_norway",
+  "name": "Denmark-Norway",
+  "ruling_ethnicity": "scandinavian",
+  "cultural_language": "danish",
+  "ideology": {
+    "religion": "lutheranism",
+    "government": "absolute_monarchy"
+  },
+  "territories": [
+    "scandinavia"
+  ],
+  "start": 1524,
+  "end": 1814
+}

@@ -1,0 +1,15 @@
+{
+  "id": "italian_albania",
+  "name": "Italian Albania",
+  "ruling_ethnicity": "italian",
+  "cultural_language": "italian",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "balkans"
+  ],
+  "start": 1939,
+  "end": 1943
+}

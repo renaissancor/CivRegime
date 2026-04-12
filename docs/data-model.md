@@ -10,8 +10,8 @@ The entire project is a **property graph** — multiple node types connected by 
 | `data/languages/` (directory tree) | Language | A language in a phylogenetic tree. Parent derived from filesystem path. |
 | `data/religions/` (directory tree) | Religion | A religion or religious branch in a taxonomy tree. Parent derived from filesystem path. |
 | `data/ideologies.json` | Ideology | A government form or state philosophy. Kept as a single flat file. |
-| `data/ethnicities/` (flat directory) | Ethnicity | A people defined by language, origin, and ancestry. |
-| `data/regimes/` (flat directory, subdirs supported) | Regime | A specific political entity at the intersection of Ethnicity × Territory × Ideology × Time. |
+| `data/ethnicity/` (flat directory) | Ethnicity | A people defined by language, origin, and ancestry. |
+| `data/polity/` (flat directory, subdirs supported) | Regime | A specific political entity at the intersection of Ethnicity × Territory × Ideology × Time. |
 | `data/successions/` (flat directory) | Succession | A directed edge between two Regimes, typed A/A-/B/C/D. |
 
 ## Edge Types

@@ -1,0 +1,32 @@
+{
+  "id": "khwarazmian_empire",
+  "name": "Khwarazmian Empire",
+  "ruling_ethnicity": "turkic_cluster",
+  "cultural_language": "new_persian",
+  "ideology": {
+    "religion": "sunni",
+    "government": "absolute_monarchy"
+  },
+  "territories": [
+    "transoxiana"
+  ],
+  "start": 1200,
+  "end": 1220,
+  "note": "Shah Ala ad-Din Muhammad II rapidly built a vast empire covering Persia and Central Asia — briefly the most powerful state in the Islamic world. His catastrophic decision to execute Genghis Khan's trade envoys (1218) provoked the Mongol invasion. Within three years his empire was destroyed, millions killed, and the cities of Central Asia — Samarkand, Bukhara, Merv, Nishapur — were annihilated. The Khwarazmian destruction was one of the worst demographic catastrophes in history.",
+  "figures": [
+    {
+      "id": "ala_ad_din_muhammad",
+      "name": "Ala ad-Din Muhammad II",
+      "role": "ruler",
+      "years": "1169/1220",
+      "significance": "Built the Khwarazmian Empire to its peak then destroyed it by executing Genghis Khan's merchants and diplomats; triggered the Mongol invasion that killed millions and permanently depopulated Central Asia; fled across Persia pursued by Mongol forces, dying on a Caspian island"
+    },
+    {
+      "id": "jalal_ad_din",
+      "name": "Jalal ad-Din Mingburnu",
+      "role": "military",
+      "years": "1199/1231",
+      "significance": "Last Khwarazmian Shah; fought desperately against the Mongols for 13 years; won the Battle of Parwan (1221) — the only defeat Genghis Khan's forces suffered in Central Asia; never gave up resistance until killed by assassins"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "jammu_kashmir",
+  "name": "Jammu & Kashmir",
+  "ruling_ethnicity": "indo_aryan",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "punjab"
+  ],
+  "start": 1846,
+  "end": 1947
+}

@@ -1,0 +1,27 @@
+{
+  "id": "seleucid_empire",
+  "name": "Seleucid Empire",
+  "ruling_ethnicity": "ancient_greek",
+  "cultural_language": "koine_greek",
+  "ideology": {
+    "religion": "hellenic_paganism",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "anatolia",
+    "levant",
+    "mesopotamia",
+    "iran_plateau"
+  ],
+  "start": -312,
+  "end": -63,
+  "figures": [
+    {
+      "id": "seleucus_i",
+      "name": "Seleucus I Nicator",
+      "role": "founder",
+      "years": "-358/-281",
+      "significance": "Founded dozens of Greek cities across Persia and Central Asia"
+    }
+  ]
+}

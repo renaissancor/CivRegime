@@ -1,0 +1,16 @@
+{
+  "id": "turgesh_khaganate",
+  "name": "Turgesh Khaganate",
+  "ruling_ethnicity": "turkic",
+  "cultural_language": "old_turkic",
+  "ideology": {
+    "religion": "tengrism",
+    "government": "khaganate"
+  },
+  "territories": [
+    "central_asian_steppe",
+    "transoxiana"
+  ],
+  "start": 699,
+  "end": 766
+}

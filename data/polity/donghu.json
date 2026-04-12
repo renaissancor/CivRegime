@@ -1,0 +1,14 @@
+{
+  "id": "donghu",
+  "name": "Donghu",
+  "ruling_ethnicity": "steppe_nomadic",
+  "ideology": {
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "manchuria",
+    "mongolian_plateau"
+  ],
+  "start": -700,
+  "end": -209
+}

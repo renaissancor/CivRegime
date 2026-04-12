@@ -1,0 +1,26 @@
+{
+  "id": "mamluk_sultanate",
+  "name": "Mamluk Sultanate",
+  "ruling_ethnicity": "turkic_cluster",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni_shafi",
+    "government": "sultanate"
+  },
+  "territories": [
+    "egypt",
+    "levant"
+  ],
+  "start": 1250,
+  "end": 1517,
+  "note": "Turkic slave-soldier rulers but court and administration were Arabic-Islamic",
+  "figures": [
+    {
+      "id": "baybars",
+      "name": "Baybars",
+      "role": "founder",
+      "years": "1223/1277",
+      "significance": "Defeated the Mongols at Ain Jalut (1260); expelled the Crusaders"
+    }
+  ]
+}

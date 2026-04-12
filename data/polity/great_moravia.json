@@ -1,0 +1,16 @@
+{
+  "id": "great_moravia",
+  "name": "Great Moravia",
+  "ruling_ethnicity": "slavic",
+  "cultural_language": "old_church_slavonic",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "principality"
+  },
+  "territories": [
+    "bohemia",
+    "hungary"
+  ],
+  "start": 833,
+  "end": 907
+}

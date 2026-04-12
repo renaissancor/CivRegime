@@ -1,0 +1,16 @@
+{
+  "id": "italy",
+  "name": "Italy",
+  "ruling_ethnicity": "italian",
+  "cultural_language": "italian",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "constitutional_monarchy"
+  },
+  "territories": [
+    "italy",
+    "balkans"
+  ],
+  "start": 1861,
+  "end": 1946
+}

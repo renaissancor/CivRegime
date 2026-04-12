@@ -1,0 +1,16 @@
+{
+  "id": "dzungar_khanate",
+  "name": "Dzungar Khanate",
+  "ruling_ethnicity": "mongol",
+  "cultural_language": "oirat",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "central_asian_steppe"
+  ],
+  "start": 1634,
+  "end": 1755,
+  "note": "Last great nomadic empire of Central Asia. The Oirat Mongol Dzungars controlled a vast territory from Kazakhstan to Tibet. Their wars with the Qing dynasty spanned a century. The Qing genocide of the Dzungars (1755–1758) killed an estimated 80% of the Dzungar population — one of the 18th century's greatest atrocities."
+}

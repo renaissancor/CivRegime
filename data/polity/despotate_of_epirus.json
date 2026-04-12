@@ -1,0 +1,15 @@
+{
+  "id": "despotate_of_epirus",
+  "name": "Despotate of Epirus",
+  "ruling_ethnicity": "ancient_greek",
+  "cultural_language": "byzantine_greek",
+  "ideology": {
+    "religion": "eastern_orthodox",
+    "government": "despotate"
+  },
+  "territories": [
+    "balkans"
+  ],
+  "start": 1205,
+  "end": 1479
+}

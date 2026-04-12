@@ -1,0 +1,32 @@
+{
+  "id": "kingdom_of_iraq",
+  "name": "Kingdom of Iraq",
+  "ruling_ethnicity": "arab",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni",
+    "government": "constitutional_monarchy"
+  },
+  "territories": [
+    "mesopotamia"
+  ],
+  "start": 1921,
+  "end": 1958,
+  "note": "Created by Britain from three Ottoman vilayets (Mosul, Baghdad, Basra) under League of Nations Mandate. Faisal I (son of Sharif Hussein) installed as king. Iraq gained nominal independence in 1932 (first Arab state to join the League of Nations) while British advisors and air bases remained. The 1948 Arab–Israeli War and 1958 military coup ended the Hashemite monarchy.",
+  "figures": [
+    {
+      "id": "faisal_i_iraq",
+      "name": "Faisal I",
+      "role": "founder",
+      "years": "1885/1933",
+      "significance": "Arab Revolt leader imposed as king of Iraq by Churchill at the Cairo Conference (1921); built a fragile national identity across Sunni, Shia, and Kurdish communities; died before his work was complete"
+    },
+    {
+      "id": "nuri_al_said",
+      "name": "Nuri al-Said",
+      "role": "ruler",
+      "years": "1888/1958",
+      "significance": "Pro-British Prime Minister who dominated Iraqi politics 1930–1958; lynched by a mob during the 1958 revolution alongside the royal family"
+    }
+  ]
+}

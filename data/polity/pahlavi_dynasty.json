@@ -1,0 +1,10 @@
+{
+  "id": "pahlavi_dynasty",
+  "name": "Pahlavi Dynasty",
+  "ruling_ethnicity": "persian",
+  "ideology": {
+    "religion": "shia_islam"
+  },
+  "start": 1925,
+  "end": 1979
+}

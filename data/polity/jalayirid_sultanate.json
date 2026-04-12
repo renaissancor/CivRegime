@@ -1,0 +1,17 @@
+{
+  "id": "jalayirid_sultanate",
+  "name": "Jalayirid Sultanate",
+  "ruling_ethnicity": "mongol",
+  "cultural_language": "new_persian_farsi",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "sultanate"
+  },
+  "territories": [
+    "mesopotamia",
+    "iran_plateau"
+  ],
+  "start": 1335,
+  "end": 1432,
+  "note": "Mongol successor state in Iraq and western Iran after the Il-Khanate's collapse. Ahmad Jalayir patronised Persian miniature painting — the Baghdad school flourished under his rule. Destroyed by Timur's invasions and Turkmen tribal pressure."
+}

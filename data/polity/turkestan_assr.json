@@ -1,0 +1,14 @@
+{
+  "id": "turkestan_assr",
+  "name": "Turkestan ASSR",
+  "ruling_ethnicity": "turkic",
+  "ideology": {
+    "government": "communist_state"
+  },
+  "territories": [
+    "central_asian_steppe",
+    "transoxiana"
+  ],
+  "start": 1918,
+  "end": 1924
+}

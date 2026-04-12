@@ -1,0 +1,15 @@
+{
+  "id": "muhallabid_governors",
+  "name": "Muhallabid governors",
+  "ruling_ethnicity": "arab",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni",
+    "government": "emirate"
+  },
+  "territories": [
+    "north_africa"
+  ],
+  "start": 771,
+  "end": 793
+}

@@ -1,0 +1,15 @@
+{
+  "id": "principality_of_transylvania",
+  "name": "Principality of Transylvania",
+  "ruling_ethnicity": "magyar",
+  "cultural_language": "hungarian",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "principality"
+  },
+  "territories": [
+    "hungary"
+  ],
+  "start": 1570,
+  "end": 1711
+}

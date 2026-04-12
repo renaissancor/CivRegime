@@ -1,0 +1,16 @@
+{
+  "id": "sajid_dynasty",
+  "name": "Sajid dynasty",
+  "ruling_ethnicity": "arab",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni",
+    "government": "emirate"
+  },
+  "territories": [
+    "caucasus",
+    "iran_plateau"
+  ],
+  "start": 889,
+  "end": 929
+}

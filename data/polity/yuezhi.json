@@ -1,0 +1,14 @@
+{
+  "id": "yuezhi",
+  "name": "Yuezhi",
+  "ruling_ethnicity": "steppe_nomadic",
+  "ideology": {
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "central_asian_steppe",
+    "transoxiana"
+  ],
+  "start": -300,
+  "end": -130
+}

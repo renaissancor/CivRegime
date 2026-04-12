@@ -1,9 +1,9 @@
-# Missing Regimes — To Be Added
+# Missing Polities — To Be Added
 
-Regimes referenced in `data/history/*/*.json` labels that do not yet exist in `csvs/regimes.csv`. Grouped by region. Add one by one as needed.
+Polities referenced in `data/history/*/*.json` labels that do not yet exist in `csvs/polity.csv`. Grouped by region. Add one by one as needed.
 
 > **Last updated:** 2026-04-01  
-> **Total CSV regimes:** 268  
+> **Total CSV polities:** 268  
 > **Remaining missing:** ~18
 
 ---
@@ -44,7 +44,7 @@ Regimes referenced in `data/history/*/*.json` labels that do not yet exist in `c
 
 ## Europe
 
-(All major missing regimes have been added.)
+(All major missing polities have been added.)
 
 ## North Africa
 
@@ -56,7 +56,7 @@ Regimes referenced in `data/history/*/*.json` labels that do not yet exist in `c
 
 ## Recently Added (this session)
 
-The following 69 regimes were added to `csvs/regimes.csv` and generated as JSON:
+The following 69 polities were added to `csvs/polity.csv` and generated as JSON:
 
 **South Asian (22):** nanda_empire, shunga_dynasty, kushan_empire, indo_greek_kingdom, indo_scythian_kingdom, indo_parthian_kingdom, kushano_sasanian_kingdom, hephthalite_empire, pratihara_dynasty, ghorid_dynasty, durrani_empire, chola_empire, pandya_dynasty, pallava_dynasty, chalukya_dynasty, western_chalukya, rashtrakuta_dynasty, hoysala_dynasty, kakatiya_dynasty, sur_empire, bengal_sultanate, mysore_kingdom
 

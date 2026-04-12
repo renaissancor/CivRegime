@@ -1,0 +1,15 @@
+{
+  "id": "celts",
+  "name": "Celts",
+  "ruling_ethnicity": "celtic",
+  "ideology": {
+    "religion": "celtic_paganism",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "iberia",
+    "gaul"
+  ],
+  "start": -600,
+  "end": -200
+}

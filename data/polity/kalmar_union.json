@@ -1,0 +1,25 @@
+{
+  "id": "kalmar_union",
+  "name": "Kalmar Union",
+  "ruling_ethnicity": "scandinavian",
+  "cultural_language": "german",
+  "ideology": {
+    "religion": "catholic",
+    "government": "personal_union"
+  },
+  "territories": [
+    "scandinavia"
+  ],
+  "start": 1397,
+  "end": 1523,
+  "note": "Personal union of Denmark, Norway, and Sweden under one crown, dominated by Denmark. Sweden repeatedly rebelled; the Stockholm Bloodbath of 1520 (Danish massacre of Swedish nobles) triggered the final Swedish revolt under Gustav Vasa.",
+  "figures": [
+    {
+      "id": "margaret_i_kalmar",
+      "name": "Margaret I",
+      "role": "founder",
+      "years": "1353/1412",
+      "significance": "Created the union in 1397 at Kalmar; the only person to successfully govern all three Scandinavian kingdoms"
+    }
+  ]
+}

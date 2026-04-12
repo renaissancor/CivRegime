@@ -1,0 +1,13 @@
+{
+  "id": "zunbil_dynasty",
+  "name": "Zunbil dynasty",
+  "ruling_ethnicity": "steppe_nomadic",
+  "ideology": {
+    "government": "monarchy"
+  },
+  "territories": [
+    "khorasan"
+  ],
+  "start": 680,
+  "end": 870
+}

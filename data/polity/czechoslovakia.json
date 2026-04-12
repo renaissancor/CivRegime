@@ -1,0 +1,42 @@
+{
+  "id": "czechoslovakia",
+  "name": "Czechoslovakia",
+  "ruling_ethnicity": "czech",
+  "cultural_language": "czech",
+  "ideology": {
+    "religion": "catholic",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "bohemia"
+  ],
+  "start": 1918,
+  "end": 1993,
+  "policies": [
+    "prague_spring"
+  ],
+  "note": "Created from the Habsburg collapse at Versailles — the most successful democratic state in interwar Central Europe. Munich Agreement (1938) forced it to cede the Sudetenland to Hitler; fully occupied 1939. Liberated 1945; Communist coup 1948. The Prague Spring (1968) — Alexander Dubček's 'socialism with a human face' — was crushed by Soviet tanks. Velvet Revolution (1989) ended communism peacefully. Velvet Divorce (1993) split into Czech Republic and Slovakia.",
+  "figures": [
+    {
+      "id": "masaryk_tg",
+      "name": "Tomáš Garrigue Masaryk",
+      "role": "founder",
+      "years": "1850/1937",
+      "significance": "Philosopher-president who created Czechoslovakia through diplomacy at Versailles; a genuine liberal democrat who built Central Europe's most successful interwar state; his son Jan was defenestrated after the Communist coup"
+    },
+    {
+      "id": "dubcek",
+      "name": "Alexander Dubček",
+      "role": "ruler",
+      "years": "1921/1992",
+      "significance": "Led the Prague Spring — 'socialism with a human face'; removed by Soviets; worked as a forest ranger for 20 years; returned as Speaker of Parliament after the Velvet Revolution"
+    },
+    {
+      "id": "havel",
+      "name": "Václav Havel",
+      "role": "ruler",
+      "years": "1936/2011",
+      "significance": "Playwright turned dissident turned president; led the Velvet Revolution (1989); first post-communist President; the most admired European political figure of his generation"
+    }
+  ]
+}

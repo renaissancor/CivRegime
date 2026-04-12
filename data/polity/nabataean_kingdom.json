@@ -1,0 +1,25 @@
+{
+  "id": "nabataean_kingdom",
+  "name": "Nabataean Kingdom",
+  "ruling_ethnicity": "semitic_cluster",
+  "cultural_language": "aramaic",
+  "ideology": {
+    "religion": "arabian_paganism",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "arabia"
+  ],
+  "start": -115,
+  "end": 106,
+  "note": "The Nabataeans were Arab traders who built Petra as their capital in the Jordanian desert — one of antiquity's great architectural achievements (the 'rose-red city'). They controlled the spice trade routes between Arabia, Egypt, and the Mediterranean. Annexed by the Roman Emperor Trajan as the province Arabia Petraea in 106 CE. Their distinctive Aramaic script evolved into modern Arabic script.",
+  "figures": [
+    {
+      "id": "aretas_iv",
+      "name": "Aretas IV",
+      "role": "ruler",
+      "years": "-9/40",
+      "significance": "Greatest Nabataean king; ruled 49 years; his building programme created much of what survives at Petra; his daughter married Herod Antipas, whose divorce triggered John the Baptist's execution"
+    }
+  ]
+}

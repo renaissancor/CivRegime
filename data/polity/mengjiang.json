@@ -1,0 +1,14 @@
+{
+  "id": "mengjiang",
+  "name": "Mengjiang",
+  "ruling_ethnicity": "mongol",
+  "cultural_language": "mongolian",
+  "ideology": {
+    "government": "puppet_state"
+  },
+  "territories": [
+    "mongolian_plateau"
+  ],
+  "start": 1936,
+  "end": 1945
+}

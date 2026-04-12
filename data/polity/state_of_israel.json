@@ -1,0 +1,16 @@
+{
+  "id": "state_of_israel",
+  "name": "State of Israel",
+  "ruling_ethnicity": "hebrew",
+  "cultural_language": "hebrew",
+  "ideology": {
+    "religion": "judaism",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "levant"
+  ],
+  "start": 1948,
+  "end": null,
+  "note": "Founded on May 14, 1948 following the UN Partition Plan and the end of the British Mandate. Wars with Arab neighbours (1948, 1967, 1973) expanded its territory. The Israeli-Palestinian conflict remains one of the world's most intractable disputes. A technologically advanced democracy with compulsory military service."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "croatian_kingdom",
+  "name": "Croatian Kingdom",
+  "ruling_ethnicity": "croatian",
+  "cultural_language": "croatian",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "balkans"
+  ],
+  "start": 925,
+  "end": 1102,
+  "note": "Tomislav was the first Croatian king (925). The kingdom reached its peak under Petar Kresimir IV. After a succession crisis, Croatia entered a personal union with Hungary (1102) that lasted until 1918. The Pacta Conventa defined Croatian autonomy within the union."
+}

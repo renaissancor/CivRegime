@@ -1,0 +1,16 @@
+{
+  "id": "tahirid_dynasty",
+  "name": "Tahirid dynasty",
+  "ruling_ethnicity": "persian",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni",
+    "government": "emirate"
+  },
+  "territories": [
+    "khorasan",
+    "iran_plateau"
+  ],
+  "start": 821,
+  "end": 873
+}

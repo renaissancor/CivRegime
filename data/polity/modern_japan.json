@@ -1,0 +1,15 @@
+{
+  "id": "modern_japan",
+  "name": "Modern Japan (Postwar)",
+  "ruling_ethnicity": "yamato",
+  "cultural_language": "japanese_cluster",
+  "ideology": {
+    "government": "constitutional_monarchy"
+  },
+  "territories": [
+    "japanese_archipelago"
+  ],
+  "start": 1947,
+  "end": null,
+  "note": "Post-1947 Japan following American occupation and the 1947 Constitution. Parliamentary democracy with a figurehead emperor; economic miracle and rise as a technology and manufacturing superpower."
+}

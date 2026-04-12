@@ -51,7 +51,7 @@ The regime is the **node** in the succession graph. Everything else (ethnicity, 
 
 | Field | Type | Description |
 |---|---|---|
-| `ruling_ethnicity` | ref → ethnicities | The dynasty's ethnic origin — who holds power |
+| `ruling_ethnicity` | ref → ethnicity | The dynasty's ethnic origin — who holds power |
 | `cultural_language` | ref → languages | The language the court actually operates in |
 | `ideology.religion` | ref → religions | The fixed state religion — existential identity |
 | `ideology.government` | ref → ideologies | The fixed government form — existential structure |

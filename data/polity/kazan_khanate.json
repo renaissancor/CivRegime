@@ -1,0 +1,16 @@
+{
+  "id": "kazan_khanate",
+  "name": "Kazan Khanate",
+  "ruling_ethnicity": "tatar",
+  "cultural_language": "chagatai_turkic",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "khanate"
+  },
+  "territories": [
+    "pontic_steppe"
+  ],
+  "start": 1438,
+  "end": 1552,
+  "note": "Tatar successor state of the Golden Horde on the middle Volga. A wealthy trading state controlling the Volga-Kama confluence. Ivan the Terrible's conquest of Kazan (1552) was a pivotal moment in Russian expansion eastward. The siege is commemorated by St. Basil's Cathedral in Moscow."
+}

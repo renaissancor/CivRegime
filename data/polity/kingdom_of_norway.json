@@ -1,0 +1,39 @@
+{
+  "id": "kingdom_of_norway",
+  "name": "Kingdom of Norway",
+  "ruling_ethnicity": "scandinavian",
+  "cultural_language": "old_norse",
+  "ideology": {
+    "religion": "germanic_paganism",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "scandinavia"
+  ],
+  "start": 872,
+  "end": 1380,
+  "note": "Harald Fairhair unified Norway c.872. Norway entered personal union with Denmark in 1380 after the Oldenburg succession; effectively under Danish rule until 1814.",
+  "figures": [
+    {
+      "id": "harald_fairhair",
+      "name": "Harald Fairhair",
+      "role": "founder",
+      "years": "850/933",
+      "significance": "First King of Norway; his centralisation drove many Norse families to settle Iceland and the Atlantic islands"
+    },
+    {
+      "id": "olaf_haraldsson",
+      "name": "Olaf II Haraldsson (Saint Olaf)",
+      "role": "ruler",
+      "years": "995/1030",
+      "significance": "Completed Norway's Christianisation; killed at Stiklestad; became Norway's patron saint"
+    },
+    {
+      "id": "haakon_iv",
+      "name": "Haakon IV Haakonsson",
+      "role": "ruler",
+      "years": "1204/1263",
+      "significance": "Peak of medieval Norwegian power; incorporated Iceland and Greenland; died following the Battle of Largs against Scotland"
+    }
+  ]
+}

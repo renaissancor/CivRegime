@@ -1,0 +1,17 @@
+{
+  "id": "hotak_dynasty",
+  "name": "Hotak Dynasty",
+  "ruling_ethnicity": "pashtun",
+  "cultural_language": "pashto",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "tribal_monarchy"
+  },
+  "territories": [
+    "khorasan",
+    "iran_plateau"
+  ],
+  "start": 1709,
+  "end": 1738,
+  "note": "Ghilzai Pashtun dynasty that overthrew Safavid rule. Mirwais Hotak revolted in Kandahar (1709). His son Mahmud conquered Isfahan (1722) and ended the Safavid dynasty — one of the most dramatic reversals in Persian history. Defeated by Nadir Shah (Afsharid) by 1738."
+}

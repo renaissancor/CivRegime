@@ -1,0 +1,17 @@
+{
+  "id": "middle_assyrian_empire",
+  "name": "Middle Assyrian Empire",
+  "ruling_ethnicity": "assyrian",
+  "cultural_language": "akkadian",
+  "ideology": {
+    "religion": "mesopotamian_religion",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "mesopotamia",
+    "anatolia",
+    "levant"
+  ],
+  "start": -1392,
+  "end": -1056
+}

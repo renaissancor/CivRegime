@@ -1,0 +1,16 @@
+{
+  "id": "hyderabad_state",
+  "name": "Nizam of Hyderabad",
+  "ruling_ethnicity": "turkic_cluster",
+  "cultural_language": "new_persian_farsi",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "monarchy"
+  },
+  "territories": [
+    "deccan"
+  ],
+  "start": 1724,
+  "end": 1948,
+  "note": "Founded by Asaf Jah I (Nizam-ul-Mulk) after the Mughal Empire's decline. The richest princely state in British India. The Nizam was reputedly the wealthiest man in the world in the 1930s. Integrated into India by military action (Operation Polo) in 1948."
+}

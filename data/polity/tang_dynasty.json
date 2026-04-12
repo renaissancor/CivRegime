@@ -1,0 +1,43 @@
+{
+  "id": "tang_dynasty",
+  "name": "Tang Dynasty",
+  "ruling_ethnicity": "han_chinese",
+  "cultural_language": "middle_chinese",
+  "ideology": {
+    "religion": "confucianism",
+    "government": "chinese_imperial"
+  },
+  "territories": [
+    "yellow_river",
+    "yangtze"
+  ],
+  "start": 618,
+  "end": 907,
+  "policies": [
+    "huichang_suppression"
+  ],
+  "note": "Tang royal family had partial Xianbei ancestry but identified as Han; cosmopolitan — Buddhism, Taoism, Nestorian Christianity, and Islam all coexisted; Confucian exam system perfected",
+  "figures": [
+    {
+      "id": "emperor_taizong",
+      "name": "Emperor Taizong (Li Shimin)",
+      "role": "ruler",
+      "years": "598/649",
+      "significance": "Considered China greatest emperor; his Zhenguan era is the model of virtuous governance"
+    },
+    {
+      "id": "wu_zetian",
+      "name": "Wu Zetian",
+      "role": "ruler",
+      "years": "624/705",
+      "significance": "The only woman in Chinese history to hold the title of Empress Regnant"
+    },
+    {
+      "id": "li_bai",
+      "name": "Li Bai",
+      "role": "cultural",
+      "years": "701/762",
+      "significance": "Greatest Tang poet; defines the image of Tang cosmopolitan culture"
+    }
+  ]
+}

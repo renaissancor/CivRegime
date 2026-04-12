@@ -1,0 +1,17 @@
+{
+  "id": "latin_empire",
+  "name": "Latin Empire",
+  "ruling_ethnicity": "french",
+  "cultural_language": "french",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "balkans",
+    "anatolia"
+  ],
+  "start": 1204,
+  "end": 1261,
+  "note": "Crusader state established after the Fourth Crusade's sack of Constantinople (1204). A catastrophic blow to Byzantine civilization. Baldwin of Flanders was the first Latin Emperor. Constantly under pressure from the Byzantine successor states (Nicaea, Epirus, Trebizond). Recaptured by Michael VIII Palaiologos of Nicaea in 1261."
+}

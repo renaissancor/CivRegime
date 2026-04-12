@@ -1,0 +1,25 @@
+{
+  "id": "harsha_empire",
+  "name": "Harsha Empire",
+  "ruling_ethnicity": "indo_aryan_cluster",
+  "cultural_language": "classical_sanskrit",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "ganges_plain"
+  ],
+  "start": 606,
+  "end": 647,
+  "note": "Last major Hindu-Buddhist empire of the Ganges plain before the Islamic conquests. Harsha personally wrote Sanskrit plays and patronised the scholar Xuanzang (the Chinese pilgrim whose journey inspired Journey to the West). His empire collapsed immediately after his death, leaving no successors.",
+  "figures": [
+    {
+      "id": "harshavardhana",
+      "name": "Harshavardhana",
+      "role": "ruler",
+      "years": "590/647",
+      "significance": "Unified northern India after the Gupta collapse; patron of Nalanda university; personally practiced Buddhism while ruling a Hindu state; wrote three Sanskrit plays"
+    }
+  ]
+}

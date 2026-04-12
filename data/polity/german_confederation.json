@@ -1,0 +1,16 @@
+{
+  "id": "german_confederation",
+  "name": "German Confederation (Deutscher Bund",
+  "ruling_ethnicity": "german",
+  "cultural_language": "german",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "confederation"
+  },
+  "territories": [
+    "germany",
+    "bohemia"
+  ],
+  "start": 1815,
+  "end": 1866
+}

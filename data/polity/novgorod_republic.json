@@ -1,0 +1,16 @@
+{
+  "id": "novgorod_republic",
+  "name": "Novgorod Republic",
+  "ruling_ethnicity": "east_slavic",
+  "cultural_language": "old_east_slavic",
+  "ideology": {
+    "religion": "eastern_orthodox",
+    "government": "oligarchy"
+  },
+  "territories": [
+    "kievan_rus"
+  ],
+  "start": 1136,
+  "end": 1478,
+  "note": "One of the most important medieval Russian polities. Governed by a popular assembly (veche) and elected posadniks. A major trading partner of the Hanseatic League. Survived the Mongol invasion by paying tribute without being sacked. Annexed by Ivan III of Moscow in 1478."
+}

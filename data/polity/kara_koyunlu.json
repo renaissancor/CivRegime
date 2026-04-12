@@ -1,0 +1,17 @@
+{
+  "id": "kara_koyunlu",
+  "name": "Kara Koyunlu (Black Sheep Turkmen)",
+  "ruling_ethnicity": "turkic_cluster",
+  "cultural_language": "azerbaijani",
+  "ideology": {
+    "religion": "shia",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "iran_plateau",
+    "mesopotamia"
+  ],
+  "start": 1374,
+  "end": 1468,
+  "note": "Turkmen tribal confederation in eastern Anatolia, Azerbaijan, and Iraq. Jahan Shah briefly controlled a vast territory from Baghdad to Kerman. Patrons of Turkmen and Persian art. Destroyed by their rivals the Aq Qoyunlu at the Battle of Chapakchur (1467)."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "gutian_dynasty",
+  "name": "Gutian dynasty",
+  "ideology": {
+    "government": "monarchy"
+  },
+  "territories": [
+    "mesopotamia",
+    "iran_plateau"
+  ],
+  "start": -2141,
+  "end": -2050
+}

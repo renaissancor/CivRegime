@@ -1,0 +1,16 @@
+{
+  "id": "feudal_japan",
+  "name": "Feudal Japan",
+  "ruling_ethnicity": "yamato",
+  "cultural_language": "early_modern_japanese",
+  "ideology": {
+    "religion": "shinto_buddhism",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "japanese_archipelago"
+  ],
+  "start": 1185,
+  "end": 1603,
+  "note": "The Kamakura, Muromachi, and Sengoku periods. Decentralized feudal system with competing daimyo (lords) and regional warlords. Ends with the unification by Oda Nobunaga and Toyotomi Hideyoshi, preparing ground for Tokugawa shogunate."
+}

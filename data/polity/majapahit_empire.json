@@ -1,0 +1,12 @@
+{
+  "id": "majapahit_empire",
+  "name": "Majapahit Empire",
+  "ruling_ethnicity": "javanese",
+  "cultural_language": "javanese",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "divine_monarchy"
+  },
+  "start": 1293,
+  "end": 1527
+}

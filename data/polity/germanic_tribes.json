@@ -1,0 +1,15 @@
+{
+  "id": "germanic_tribes",
+  "name": "Germanic tribes",
+  "ruling_ethnicity": "germanic",
+  "ideology": {
+    "religion": "germanic_paganism",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "germany",
+    "bohemia"
+  ],
+  "start": -200,
+  "end": 500
+}

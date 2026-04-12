@@ -1,0 +1,14 @@
+{
+  "id": "kangju",
+  "name": "Kangju",
+  "ruling_ethnicity": "steppe_nomadic",
+  "ideology": {
+    "government": "monarchy"
+  },
+  "territories": [
+    "transoxiana",
+    "central_asian_steppe"
+  ],
+  "start": -200,
+  "end": 400
+}

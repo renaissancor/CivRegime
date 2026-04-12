@@ -1,0 +1,16 @@
+{
+  "id": "rustamid_dynasty",
+  "name": "Rustamid Dynasty",
+  "ruling_ethnicity": "persian",
+  "cultural_language": "classical_arabic",
+  "ideology": {
+    "religion": "ibadi_islam",
+    "government": "imamate"
+  },
+  "territories": [
+    "north_africa"
+  ],
+  "start": 776,
+  "end": 909,
+  "note": "Ibadi Muslim dynasty in central Algeria (Tahert). One of the few Ibadi states in history. A haven of religious tolerance where Ibadi, Sunni, Shia, Christian, and Jewish communities coexisted. Destroyed by the Fatimid conquest."
+}

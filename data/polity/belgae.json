@@ -1,0 +1,15 @@
+{
+  "id": "belgae",
+  "name": "Belgae",
+  "ruling_ethnicity": "celtic",
+  "cultural_language": "gaulish",
+  "ideology": {
+    "religion": "celtic_paganism",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "gaul"
+  ],
+  "start": -300,
+  "end": -50
+}

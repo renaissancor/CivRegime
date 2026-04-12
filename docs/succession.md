@@ -14,9 +14,9 @@ The connection is measured by:
 
 ## Core Data Structure
 
-### TERRITORY_PERIODS: The Foundation
+### polity_territory: The Foundation
 
-The `TERRITORY_PERIODS` table is the source of truth for succession:
+The `polity_territory` table is the source of truth for succession:
 
 ```csv
 territory_id,regime_id,start,end
@@ -193,10 +193,10 @@ Roman Empire (Christian): 380 to 476 (Western), continues Eastern as Byzantine
 ## Implementation Notes
 
 ### Data Sources
-- **Succession data** comes from `TERRITORY_PERIODS` table
-- **Ethnicity data** from `REGIMES.id_ruling_ethnicity`
-- **Religion data** from `REGIMES.id_ruling_religion`
-- **Timeline data** from `REGIMES.start` and `REGIMES.end`
+- **Succession data** comes from `polity_territory` table
+- **Ethnicity data** from `polity.id_ruling_ethnicity`
+- **Religion data** from `polity.id_ruling_religion`
+- **Timeline data** from `polity.start` and `polity.end`
 
 ### Visualization
 A succession graph should:

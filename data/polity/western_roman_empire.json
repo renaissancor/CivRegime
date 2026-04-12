@@ -1,0 +1,35 @@
+{
+  "id": "western_roman_empire",
+  "name": "Western Roman Empire",
+  "ruling_ethnicity": "roman",
+  "cultural_language": "latin",
+  "ideology": {
+    "religion": "catholic",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "italy",
+    "balkans",
+    "iberia",
+    "gaul",
+    "north_africa"
+  ],
+  "start": 395,
+  "end": 476,
+  "figures": [
+    {
+      "id": "flavius_aetius",
+      "name": "Flavius Aetius",
+      "role": "general",
+      "years": "391/454",
+      "significance": "Last great Roman general; defeated Attila at Catalaunian Fields"
+    },
+    {
+      "id": "romulus_augustulus",
+      "name": "Romulus Augustulus",
+      "role": "last_ruler",
+      "years": "461/511",
+      "significance": "Last Western Roman emperor; deposed by Odoacer in 476"
+    }
+  ]
+}

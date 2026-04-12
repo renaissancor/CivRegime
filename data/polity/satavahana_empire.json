@@ -1,0 +1,32 @@
+{
+  "id": "satavahana_empire",
+  "name": "Satavahana Empire",
+  "ruling_ethnicity": "dravidian_cluster",
+  "cultural_language": "pali",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "deccan"
+  ],
+  "start": -230,
+  "end": 220,
+  "note": "First great Deccan empire; established the bridge between northern Aryan and southern Dravidian cultures. Patronised both Hinduism and Buddhism. Their trade networks stretched to Rome.",
+  "figures": [
+    {
+      "id": "simuka",
+      "name": "Simuka",
+      "role": "founder",
+      "years": "?/-207",
+      "significance": "Founded the Satavahana dynasty after defeating the Maurya successor states"
+    },
+    {
+      "id": "gautamiputra_satakarni",
+      "name": "Gautamiputra Satakarni",
+      "role": "ruler",
+      "years": "78/102",
+      "significance": "Greatest Satavahana ruler; defeated the Western Satraps (Saka rulers); the first major Indian king to claim exclusively Indian descent against foreign rulers"
+    }
+  ]
+}

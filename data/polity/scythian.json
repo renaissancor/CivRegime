@@ -1,0 +1,15 @@
+{
+  "id": "scythian",
+  "name": "Scythian / Sarmatian steppe fringe",
+  "ruling_ethnicity": "scythian",
+  "ideology": {
+    "religion": "scythian_religion",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "pontic_steppe",
+    "iran_plateau"
+  ],
+  "start": -700,
+  "end": -200
+}

@@ -1,0 +1,16 @@
+{
+  "id": "khanate_of_kokand",
+  "name": "Khanate of Kokand",
+  "ruling_ethnicity": "turkic_cluster",
+  "cultural_language": "chagatai_turkic",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "khanate"
+  },
+  "territories": [
+    "transoxiana"
+  ],
+  "start": 1709,
+  "end": 1876,
+  "note": "Uzbek khanate in the Fergana Valley. Expanded into Tashkent and parts of southern Kazakhstan and Xinjiang. The most commercially active of the three Central Asian khanates. Conquered by the Russian Empire under General Skobelev (1876)."
+}

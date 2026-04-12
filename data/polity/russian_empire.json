@@ -1,0 +1,42 @@
+{
+  "id": "russian_empire",
+  "name": "Russian Empire",
+  "ruling_ethnicity": "east_slavic",
+  "cultural_language": "russian",
+  "ideology": {
+    "religion": "eastern_orthodox",
+    "government": "absolute_monarchy"
+  },
+  "territories": [
+    "kievan_rus"
+  ],
+  "start": 1721,
+  "end": 1917,
+  "policies": [
+    "westernisation"
+  ],
+  "note": "Peter the Great declared the Russian Empire in 1721 after the Great Northern War victory over Sweden. Peter's Westernisation programme transformed Russia into a European Great Power. Catherine the Great (1762–1796) expanded the empire south (Crimea) and west (Poland partitions). 19th-century Russia was the largest state in the world by land area. Defeated in Crimea (1853–56) and Japan (1904–5); autocracy resisted reform until too late; collapsed in Revolution 1917.",
+  "figures": [
+    {
+      "id": "peter_great",
+      "name": "Peter the Great",
+      "role": "founder",
+      "years": "1672/1725",
+      "significance": "Transformed Russia from an isolated Muscovite tsardom into a European Great Power; founded St Petersburg; built the Russian navy; defeated Sweden at Poltava; declared the Russian Empire"
+    },
+    {
+      "id": "catherine_great",
+      "name": "Catherine the Great",
+      "role": "ruler",
+      "years": "1729/1796",
+      "significance": "Greatest Russian tsarina; conquered Crimea; participated in the three Polish partitions; corresponded with Voltaire and Diderot; patron of the Enlightenment while ruling autocratically"
+    },
+    {
+      "id": "nicholas_ii",
+      "name": "Nicholas II",
+      "role": "ruler",
+      "years": "1868/1918",
+      "significance": "Last tsar; stubborn defender of autocracy against all reform; Russia's defeats in WWI triggered the Revolutions of 1917; abdicated February 1917; executed with his family by Bolsheviks July 1918"
+    }
+  ]
+}

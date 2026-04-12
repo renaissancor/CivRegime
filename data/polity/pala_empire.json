@@ -1,0 +1,32 @@
+{
+  "id": "pala_empire",
+  "name": "Pala Empire",
+  "ruling_ethnicity": "indo_aryan_cluster",
+  "cultural_language": "pali",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "ganges_plain"
+  ],
+  "start": 750,
+  "end": 1200,
+  "note": "The last great Buddhist empire of India; patrons of Nalanda and Vikramashila universities — the apex of Indian Buddhist scholarship. Their fall to the Ghurids (1203) and the subsequent destruction of Nalanda (1203) effectively ended institutional Buddhism in India.",
+  "figures": [
+    {
+      "id": "dharmapala",
+      "name": "Dharmapala",
+      "role": "ruler",
+      "years": "770/810",
+      "significance": "Second and greatest Pala king; expanded the empire from Bengal to Afghanistan; built Vikramashila university"
+    },
+    {
+      "id": "devapala",
+      "name": "Devapala",
+      "role": "ruler",
+      "years": "810/850",
+      "significance": "Extended Pala power to its greatest extent; maintained relations with Srivijaya in Southeast Asia; endowed Nalanda monastery"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>CivRegime Graph</title>
+  <title>CivRegime — Graph</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -235,11 +235,12 @@
 
 <nav class="topnav">
   <span class="nav-brand">CivRegime</span>
-  <a href="/" class="nav-link active">Regimes</a>
-  <a href="/religion/" class="nav-link">Religions</a>
-  <a href="/language/" class="nav-link">Languages</a>
-  <a href="/ethnicity/" class="nav-link">Ethnicities</a>
-  <a href="/territory/" class="nav-link">Territories</a>
+  <a href="/" class="nav-link active">Graph</a>
+  <a href="/regime/" class="nav-link">Polity</a>
+  <a href="/religion/" class="nav-link">Religion</a>
+  <a href="/language/" class="nav-link">Language</a>
+  <a href="/ethnicity/" class="nav-link">Ethnicity</a>
+  <a href="/territory/" class="nav-link">Territory</a>
   <a href="/history/" class="nav-link">History</a>
 </nav>
 <div class="main-row">
@@ -249,7 +250,7 @@
   <div class="filter-group">
     <label>Filter by</label>
     <select id="filter-type">
-      <option value="all">All Regimes</option>
+      <option value="all">All Polities</option>
       <option value="ethnicity">Ruling Ethnicity</option>
       <option value="territory">Territory</option>
       <option value="religion">Religion</option>
@@ -272,7 +273,7 @@
     <div class="legend-item"><div class="legend-dot" style="background:#718096"></div> Unknown — insufficient territory data</div>
   </div>
 
-  <div class="section-title" id="list-title" style="display:none">Matching Regimes</div>
+  <div class="section-title" id="list-title" style="display:none">Matching Polities</div>
   <div id="regime-list"></div>
 </div>
 

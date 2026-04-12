@@ -1,0 +1,15 @@
+{
+  "id": "hindu_shahis",
+  "name": "Hindu Shahis",
+  "ruling_ethnicity": "indo_aryan",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "khorasan",
+    "punjab"
+  ],
+  "start": 850,
+  "end": 1026
+}

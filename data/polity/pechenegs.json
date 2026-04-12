@@ -1,0 +1,15 @@
+{
+  "id": "pechenegs",
+  "name": "Pechenegs",
+  "ruling_ethnicity": "turkic",
+  "ideology": {
+    "religion": "tengrism",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "pontic_steppe",
+    "balkans"
+  ],
+  "start": 860,
+  "end": 1091
+}

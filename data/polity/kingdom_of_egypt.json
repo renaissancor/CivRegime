@@ -1,0 +1,39 @@
+{
+  "id": "kingdom_of_egypt",
+  "name": "Kingdom of Egypt",
+  "ruling_ethnicity": "arab",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni",
+    "government": "absolute_monarchy"
+  },
+  "territories": [
+    "egypt"
+  ],
+  "start": 1805,
+  "end": 1952,
+  "note": "Muhammad Ali Pasha (an Albanian Ottoman officer) seized power in 1805 and founded a modernising dynasty that ruled Egypt for 147 years. He built a modern army, industrialised cotton, and made Egypt semi-independent of Constantinople. His descendants built the Suez Canal (opened 1869) but went bankrupt — British occupation followed (1882). Egypt became a Kingdom nominally independent in 1922 but with British troops remaining. Farouk's corruption and the 1948 Arab–Israeli War defeat triggered the 1952 military coup.",
+  "figures": [
+    {
+      "id": "muhammad_ali",
+      "name": "Muhammad Ali",
+      "role": "founder",
+      "years": "1769/1849",
+      "significance": "The 'Father of Modern Egypt'; Albanian-born Ottoman officer who modernised Egypt's army and economy; his descendants ruled until 1952"
+    },
+    {
+      "id": "ismail_the_magnificent",
+      "name": "Ismail the Magnificent",
+      "role": "ruler",
+      "years": "1830/1895",
+      "significance": "Built the Suez Canal (1869); modernised Cairo on Haussmann's Paris model; went bankrupt and sold the Canal shares to Britain — triggering the occupation"
+    },
+    {
+      "id": "farouk_i",
+      "name": "Farouk I",
+      "role": "ruler",
+      "years": "1920/1965",
+      "significance": "Last king; his dissolute lifestyle and defeat in 1948 made him a symbol of Arab weakness; overthrown by the Free Officers (Naguib and Nasser) in July 1952"
+    }
+  ]
+}

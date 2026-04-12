@@ -1,0 +1,14 @@
+{
+  "id": "histri",
+  "name": "Histri",
+  "ruling_ethnicity": "ancient_european",
+  "ideology": {
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "balkans",
+    "italy"
+  ],
+  "start": -1000,
+  "end": -177
+}

@@ -1,0 +1,40 @@
+{
+  "id": "samanid_empire",
+  "name": "Samanid Empire",
+  "ruling_ethnicity": "persian",
+  "cultural_language": "new_persian",
+  "ideology": {
+    "religion": "sunni",
+    "government": "absolute_monarchy"
+  },
+  "territories": [
+    "transoxiana",
+    "khorasan"
+  ],
+  "start": 819,
+  "end": 999,
+  "note": "The Samanids were the first Persian dynasty to rule independently after the Arab conquest — an Iranian Renaissance. Under their patronage, Bukhara became one of the Islamic world's great centres of learning. They championed New Persian (Dari) as a literary language: Rudaki wrote there, and Ferdowsi began his Shahnameh at their court. The Samanid bureaucratic model became the template for subsequent Persian and Turkic administrations. Destroyed by the Ghaznavids (east) and Qarakhanids (north).",
+  "figures": [
+    {
+      "id": "ismail_samani",
+      "name": "Ismail Samani",
+      "role": "founder",
+      "years": "849/907",
+      "significance": "Unified the Samanid domains and defeated the Saffarids; made Bukhara the capital of the Persian Renaissance; his mausoleum in Bukhara is one of the earliest surviving Islamic buildings in Central Asia"
+    },
+    {
+      "id": "rudaki",
+      "name": "Rudaki",
+      "role": "cultural",
+      "years": "858/941",
+      "significance": "Father of Persian poetry; wrote the first major poems in New Persian at the Samanid court; his work established the conventions of classical Persian verse — though only fragments survive"
+    },
+    {
+      "id": "avicenna_samanid",
+      "name": "Ibn Sina (Avicenna)",
+      "role": "cultural",
+      "years": "980/1037",
+      "significance": "Greatest medieval physician and philosopher; his Canon of Medicine was the primary medical textbook in Europe until the 17th century; grew up in Bukhara using the Samanid royal library"
+    }
+  ]
+}

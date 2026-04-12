@@ -1,0 +1,17 @@
+{
+  "id": "northern_wei",
+  "name": "Northern Wei tributary",
+  "ruling_ethnicity": "steppe_nomadic",
+  "cultural_language": "old_chinese",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "chinese_imperial"
+  },
+  "territories": [
+    "yellow_river",
+    "mongolian_plateau",
+    "manchuria"
+  ],
+  "start": 386,
+  "end": 535
+}

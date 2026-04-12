@@ -1,0 +1,35 @@
+{
+  "id": "safavid_empire",
+  "name": "Safavid Empire",
+  "ruling_ethnicity": "persian",
+  "cultural_language": "new_persian",
+  "ideology": {
+    "religion": "shia_twelver",
+    "government": "imamate"
+  },
+  "territories": [
+    "iran_plateau",
+    "mesopotamia",
+    "khorasan",
+    "caucasus"
+  ],
+  "start": 1501,
+  "end": 1736,
+  "note": "Established Twelver Shia as state religion; this religious identity is what NOW defines Iran as distinct from Sunni Turkic/Arab neighbors — same Persian ethnicity as the Timurids but a completely different civilizational identity",
+  "figures": [
+    {
+      "id": "shah_ismail_i",
+      "name": "Shah Ismail I",
+      "role": "founder",
+      "years": "1487/1524",
+      "significance": "Forcibly converted Iran from Sunni to Shia Islam; created the civilizational identity that defines Iran today"
+    },
+    {
+      "id": "shah_abbas_i",
+      "name": "Shah Abbas I (The Great)",
+      "role": "ruler",
+      "years": "1571/1629",
+      "significance": "Rebuilt Isfahan; zenith of Safavid power and Persian art"
+    }
+  ]
+}

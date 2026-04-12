@@ -1,0 +1,18 @@
+{
+  "id": "austrian_empire",
+  "name": "Austrian Empire",
+  "ruling_ethnicity": "german",
+  "cultural_language": "german",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "italy",
+    "hungary",
+    "bohemia",
+    "balkans"
+  ],
+  "start": 1804,
+  "end": 1867
+}

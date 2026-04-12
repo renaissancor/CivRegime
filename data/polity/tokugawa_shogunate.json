@@ -1,0 +1,28 @@
+{
+  "id": "tokugawa_shogunate",
+  "name": "Tokugawa Shogunate (Edo Period)",
+  "ruling_ethnicity": "yamato",
+  "cultural_language": "early_modern_japanese",
+  "ideology": {
+    "religion": "neo_confucianism_shinto",
+    "government": "shogunate"
+  },
+  "territories": [
+    "japanese_archipelago"
+  ],
+  "start": 1603,
+  "end": 1868,
+  "policies": [
+    "sakoku_edict"
+  ],
+  "note": "A period of isolation (Sakoku) and peace under the Tokugawa shoguns. Decentralized but tightly controlled feudalism.",
+  "figures": [
+    {
+      "id": "tokugawa_ieyasu",
+      "name": "Tokugawa Ieyasu",
+      "role": "founder",
+      "years": "1543/1616",
+      "significance": "Unified Japan after the Battle of Sekigahara (1600) and founded the Tokugawa Shogunate."
+    }
+  ]
+}

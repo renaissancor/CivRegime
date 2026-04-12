@@ -1,0 +1,16 @@
+{
+  "id": "carthage",
+  "name": "Carthage (Phoenician City-State)",
+  "ruling_ethnicity": "phoenician",
+  "cultural_language": "phoenician",
+  "ideology": {
+    "religion": "phoenician_religion",
+    "government": "oligarchy"
+  },
+  "territories": [
+    "north_africa"
+  ],
+  "start": -814,
+  "end": -146,
+  "note": "Founded by Phoenicians from Tyre. Dominated western Mediterranean trade. The three Punic Wars against Rome (264–146 BCE) were among the most consequential conflicts in ancient history. Hannibal Barca's crossing of the Alps (218 BCE) nearly destroyed Rome. Carthage was razed in 146 BCE; later refounded as a Roman colony."
+}

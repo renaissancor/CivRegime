@@ -1,0 +1,18 @@
+{
+  "id": "french_first_empire",
+  "name": "French First Empire",
+  "ruling_ethnicity": "french",
+  "cultural_language": "french",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "gaul",
+    "germany",
+    "italy",
+    "iberia"
+  ],
+  "start": 1804,
+  "end": 1814
+}

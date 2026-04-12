@@ -1,0 +1,16 @@
+{
+  "id": "ifat_sultanate",
+  "name": "Ifat Sultanate",
+  "ruling_ethnicity": "somali",
+  "cultural_language": "classical_arabic",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "sultanate"
+  },
+  "territories": [
+    "arabia"
+  ],
+  "start": 1285,
+  "end": 1415,
+  "note": "Medieval Muslim sultanate on the Ethiopian coast. Fought prolonged wars with the Solomonic Ethiopian Empire. The Walashma dynasty ruled both Ifat and its successor state Adal. A crucial link in Indian Ocean trade networks."
+}

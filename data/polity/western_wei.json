@@ -1,0 +1,15 @@
+{
+  "id": "western_wei",
+  "name": "Western Wei / Northern Zhou tributary",
+  "ruling_ethnicity": "steppe_nomadic",
+  "cultural_language": "old_chinese",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "chinese_imperial"
+  },
+  "territories": [
+    "yellow_river"
+  ],
+  "start": 535,
+  "end": 557
+}

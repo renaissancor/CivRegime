@@ -1,0 +1,15 @@
+{
+  "id": "ziyadid_dynasty",
+  "name": "Ziyadid Dynasty",
+  "ruling_ethnicity": "arab",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni",
+    "government": "emirate"
+  },
+  "territories": [
+    "arabia"
+  ],
+  "start": 819,
+  "end": 1018
+}

@@ -1,0 +1,16 @@
+{
+  "id": "vichy_france",
+  "name": "Vichy France",
+  "ruling_ethnicity": "french",
+  "cultural_language": "french",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "puppet_state"
+  },
+  "territories": [
+    "gaul",
+    "north_africa"
+  ],
+  "start": 1940,
+  "end": 1944
+}

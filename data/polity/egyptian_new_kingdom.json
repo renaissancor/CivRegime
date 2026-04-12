@@ -1,0 +1,17 @@
+{
+  "id": "egyptian_new_kingdom",
+  "name": "Egyptian New Kingdom",
+  "ruling_ethnicity": "egyptian",
+  "cultural_language": "egyptian",
+  "ideology": {
+    "religion": "egyptian_religion",
+    "government": "divine_monarchy"
+  },
+  "territories": [
+    "egypt",
+    "levant",
+    "nubia"
+  ],
+  "start": -1550,
+  "end": -1069
+}

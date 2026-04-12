@@ -1,0 +1,15 @@
+{
+  "id": "western_liao",
+  "name": "Western Liao",
+  "ruling_ethnicity": "khitan",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "chinese_imperial"
+  },
+  "territories": [
+    "central_asian_steppe",
+    "transoxiana"
+  ],
+  "start": 1124,
+  "end": 1218
+}

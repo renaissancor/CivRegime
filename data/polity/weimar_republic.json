@@ -1,0 +1,35 @@
+{
+  "id": "weimar_republic",
+  "name": "Weimar Republic",
+  "ruling_ethnicity": "german",
+  "cultural_language": "german",
+  "ideology": {
+    "religion": "protestant",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "germany"
+  ],
+  "start": 1918,
+  "end": 1933,
+  "policies": [
+    "article_48"
+  ],
+  "note": "Germany's first democracy, proclaimed on November 9, 1918 as the Kaiser abdicated. Named after Weimar where the constitution was drafted. The republic faced hyperinflation (1923), the Great Depression (1929), political violence from left and right, and structural constitutional weaknesses (Article 48 emergency powers). Despite cultural brilliance (Bauhaus, Expressionism, cabaret), it was too fragile to survive the economic catastrophe. Hitler was appointed Chancellor on January 30, 1933.",
+  "figures": [
+    {
+      "id": "ebert",
+      "name": "Friedrich Ebert",
+      "role": "founder",
+      "years": "1871/1925",
+      "significance": "First President; Social Democrat who proclaimed the Republic; made the fateful deal with the military (Ebert-Groener Pact) that preserved the old officer corps — the army that would later undermine democracy"
+    },
+    {
+      "id": "stresemann",
+      "name": "Gustav Stresemann",
+      "role": "ruler",
+      "years": "1878/1929",
+      "significance": "Chancellor then Foreign Minister; stabilised the currency; negotiated the Dawes Plan and Locarno Treaties; brought Germany back into international society; Nobel Peace Prize 1926; his death removed the Republic's ablest defender"
+    }
+  ]
+}

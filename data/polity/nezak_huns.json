@@ -1,0 +1,14 @@
+{
+  "id": "nezak_huns",
+  "name": "Nezak Huns",
+  "ruling_ethnicity": "steppe_nomadic",
+  "ideology": {
+    "government": "khanate"
+  },
+  "territories": [
+    "khorasan",
+    "indus_valley"
+  ],
+  "start": 475,
+  "end": 560
+}

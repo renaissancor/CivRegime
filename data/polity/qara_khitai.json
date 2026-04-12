@@ -1,0 +1,17 @@
+{
+  "id": "qara_khitai",
+  "name": "Qara Khitai (Western Liao)",
+  "ruling_ethnicity": "khitan",
+  "cultural_language": "classical_chinese",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "central_asian_steppe",
+    "transoxiana"
+  ],
+  "start": 1124,
+  "end": 1218,
+  "note": "Empire founded by Khitan refugees from the Jurchen conquest of the Liao dynasty. Yelu Dashi defeated the Seljuk Sultan Sanjar at the Battle of Qatwan (1141) — reverberating through Christendom as the legend of Prester John. Conquered by the Mongols (Kuchlug and then Genghis Khan)."
+}

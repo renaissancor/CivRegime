@@ -1,0 +1,14 @@
+{
+  "id": "sfr_yugoslavia",
+  "name": "SFR Yugoslavia",
+  "ruling_ethnicity": "slavic",
+  "cultural_language": "serbo_croatian",
+  "ideology": {
+    "government": "communist_state"
+  },
+  "territories": [
+    "balkans"
+  ],
+  "start": 1945,
+  "end": 1992
+}

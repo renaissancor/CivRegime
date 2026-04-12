@@ -1,0 +1,15 @@
+{
+  "id": "cimmerian_scythian_nomads",
+  "name": "Cimmerian / Scythian nomads",
+  "ruling_ethnicity": "scythian",
+  "ideology": {
+    "religion": "scythian_religion",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "caucasus",
+    "pontic_steppe"
+  ],
+  "start": -800,
+  "end": -300
+}

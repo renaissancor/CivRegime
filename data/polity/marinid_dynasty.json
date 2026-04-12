@@ -1,0 +1,16 @@
+{
+  "id": "marinid_dynasty",
+  "name": "Marinid Dynasty",
+  "ruling_ethnicity": "berber_amazigh_cluster",
+  "cultural_language": "classical_arabic",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "sultanate"
+  },
+  "territories": [
+    "north_africa"
+  ],
+  "start": 1244,
+  "end": 1465,
+  "note": "Zenata Berber dynasty that replaced the Almohads in Morocco. Built the famous Bou Inania Madrasa in Fez. Attempted to reconquer al-Andalus but defeated at the Battle of Rio Salado (1340). Their decline opened Morocco to Portuguese coastal incursions."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "silla",
+  "name": "Silla",
+  "ruling_ethnicity": "korean",
+  "cultural_language": "old_korean",
+  "ideology": {
+    "religion": "buddhism"
+  },
+  "start": -57,
+  "end": 668
+}

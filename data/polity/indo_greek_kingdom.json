@@ -1,0 +1,17 @@
+{
+  "id": "indo_greek_kingdom",
+  "name": "Indo-Greek Kingdom",
+  "ruling_ethnicity": "ancient_greek",
+  "cultural_language": "ancient_greek",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "punjab",
+    "indus_valley"
+  ],
+  "start": -180,
+  "end": -10,
+  "note": "Hellenistic kingdoms in northwestern India and Pakistan. Menander I (Milinda) was the most famous ruler — the Buddhist text Milinda Panha records his dialogues with the monk Nagasena. The Indo-Greeks introduced Hellenistic art to South Asia, foundational to Gandhara Buddhist art."
+}

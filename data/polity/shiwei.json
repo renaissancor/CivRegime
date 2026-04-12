@@ -1,0 +1,14 @@
+{
+  "id": "shiwei",
+  "name": "Shiwei",
+  "ruling_ethnicity": "steppe_nomadic",
+  "ideology": {
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "manchuria",
+    "mongolian_plateau"
+  ],
+  "start": 388,
+  "end": 907
+}

@@ -1,0 +1,42 @@
+{
+  "id": "maurya_empire",
+  "name": "Maurya Empire",
+  "ruling_ethnicity": "indo_aryan_cluster",
+  "cultural_language": "classical_sanskrit",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "ganges_plain",
+    "indus_valley",
+    "punjab",
+    "deccan"
+  ],
+  "start": -322,
+  "end": -185,
+  "note": "Ashoka converted to Buddhism and propagated it across Asia — a major religious shift mid-dynasty that changed the empire's entire ideological character",
+  "figures": [
+    {
+      "id": "chandragupta_maurya",
+      "name": "Chandragupta Maurya",
+      "role": "founder",
+      "years": "-340/-298",
+      "significance": "Unified India for the first time; expelled Macedonian garrisons"
+    },
+    {
+      "id": "kautilya",
+      "name": "Kautilya (Chanakya)",
+      "role": "administrator",
+      "years": "-375/-283",
+      "significance": "Author of the Arthashastra — the first systematic treatise on statecraft"
+    },
+    {
+      "id": "ashoka",
+      "name": "Ashoka the Great",
+      "role": "reformer",
+      "years": "-304/-232",
+      "significance": "Converted to Buddhism after Kalinga War; spread Buddhism to Central Asia, Sri Lanka, Southeast Asia"
+    }
+  ]
+}

@@ -1,319 +1,194 @@
-# CivRegime Architecture Overview
+# CivRegime Architecture
 
-## Design Philosophy
+## Evolution
 
-CivRegime is a **CSV-first historical simulation** system where:
+The project has gone through three architectural phases:
 
-1. **CSV is the single source of truth** for all historical data
-2. **Relational database normalization** principles organize data into clear tables
-3. **Numeric IDs** ensure consistency across tree structures (ethnicities, languages, religions)
-4. **JSON generation** converts CSV → JSON for frontend consumption
-5. **Visualizations** render from generated JSON files
+1. **CSV-first (early):** CSVs as source of truth, numeric IDs, JSON generated from CSV
+2. **JSON-first (current):** JSON files as source of truth, text IDs, direct editing
+3. **RDBMS (planned):** DuckDB as source of truth, JSON generated from DB queries
 
-The system prioritizes **data maintainability** (humans edit CSVs easily) and **frontend performance** (pre-computed JSON).
+### Why the shift?
+- CSV with numeric IDs was hard to maintain as the dataset grew (268 polities, 1,243 successions)
+- Text IDs (`ottoman_empire` vs `42`) are self-documenting and prevent errors
+- History panels (61 files) are hand-curated and don't fit a CSV workflow
+- A relational database enables complex queries (succession chains, temporal overlap, cross-referencing)
 
 ---
 
-## Data Architecture
-
-### Three-Layer Model
+## Current Architecture (JSON-First)
 
 ```
-┌─────────────────────────────────────────┐
-│  CSV Files (csvs/)                      │
-│  Source of Truth                        │
-│  ├─ states.csv                          │
-│  ├─ regimes.csv                         │
-│  ├─ territories.csv                     │
-│  ├─ territory_periods.csv               │
-│  ├─ ethnicities.csv (hierarchical)      │
-│  ├─ languages.csv (hierarchical)        │
-│  └─ religions.csv (hierarchical)        │
-└─────────────────────────────────────────┘
-            ↓ [generation scripts]
 ┌─────────────────────────────────────────┐
 │  JSON Files (data/)                     │
-│  Generated Output                       │
-│  ├─ data/states.json (single file)      │
-│  ├─ data/regimes/*.json (138 files)     │
-│  └─ data/territories/*.json (39 files)  │
+│  Source of Truth                        │
+│  ├── polity/*.json       (268 files)    │  ← polities (was regimes/)
+│  ├── successions/all.json (1,243 edges) │
+│  ├── history/*/*.json    (61 panels)    │
+│  ├── territories/        (79 files)     │
+│  ├── provinces/          (53 GeoJSON)   │
+│  ├── languages/          (691 nodes)    │  ← directory tree
+│  ├── religions/          (255 nodes)    │  ← directory tree
+│  ├── ethnicity/          (276 nodes)    │  ← directory tree
+│  ├── ideologies.json     (~30 entries)  │
+│  └── states.json         (2 entries)    │
 └─────────────────────────────────────────┘
-            ↓ [frontend]
+            ↓ data/index.js
 ┌─────────────────────────────────────────┐
-│  Visualizations                         │
-│  Interactive maps, charts, trees        │
+│  In-Memory Database (server.js)         │
+│  ├── db.polity[]                        │
+│  ├── db.successions[]                   │
+│  ├── db.religions[] (with tree helpers) │
+│  ├── db.languages[] (with tree helpers) │
+│  ├── db.ethnicity[]                     │
+│  ├── db.ideologies[]                    │
+│  ├── db.territories[]                   │
+│  └── db.provinces[]                     │
+└─────────────────────────────────────────┘
+            ↓ Express static + API
+┌─────────────────────────────────────────┐
+│  Frontend (public/)                     │
+│  ├── index.html        (polity browser) │
+│  ├── history/index.html (panel viewer)  │
+│  ├── succession-graph.html (D3 graph)   │
+│  ├── territory/, ethnicity/, etc.       │
+│  └── Fetches JSON directly from /data/  │
 └─────────────────────────────────────────┘
 ```
 
-### Core Tables
+### Data Loading (data/index.js)
 
-**STATES** (2 rows)
-- Groups related regimes under long-term political continuities
-- Example: "Roman State" contains both "Roman Empire (Pagan)" and "Roman Empire (Christian)"
-- Maps: 1:N to REGIMES
+Three loading strategies:
+- **`loadDir(dir)`** — flat recursive load of all JSONs into array (polity, successions, territories, provinces)
+- **`loadTree(dir)`** — taxonomy loader that derives `parent` from directory structure (religions, languages, ethnicity)
+- **`loadJSON(file)`** — single file load (ideologies)
 
-**REGIMES** (138 rows)
-- Historical eras/regimes with ruling culture, language, and religion
-- Each belongs to exactly one STATE
-- Has start/end dates
-- References: id_ruling_ethnicity, id_ruling_language, id_ruling_religion (numeric FKs)
+### History Panels
 
-**TERRITORIES** (39 rows)
-- Geographic regions/areas
-- No direct regime reference; control history is in TERRITORY_PERIODS
+History panels are served as static JSON and rendered client-side. Each panel defines:
+- `columns[]` — geographic sub-regions (e.g., Northern France, Southern France)
+- `rows[]` — temporal rows with `era` labels
+- `cells[]` — each cell contains a `label`, optional `regime` FK, `note`, and `span`
+- `stack[]` — multiple entries per cell (sequential rulers)
+- `split[]` — concurrent entities (e.g., Free France / Vichy France)
+- `footnotes[]` — explanatory notes
 
-**TERRITORY_PERIODS** (301 rows)
-- Junction table tracking which regime controlled which territory during which period
-- Enables many-to-many relationship between TERRITORIES and REGIMES
-- Each row: `territory_id`, `regime_id`, `start_year`, `end_year`
+---
 
-**ETHNICITIES, LANGUAGES, RELIGIONS** (~260 rows each)
-- Hierarchical trees (self-referential via `parent_id`)
-- Use numeric IDs (1, 2, 3...) to avoid semantic inconsistencies
-- Include `old_id` column for reference to original semantic IDs
+## Planned Architecture (DuckDB RDBMS)
+
+```
+┌─────────────────────────────────────────┐
+│  DuckDB (civregime.db)                  │
+│  Source of Truth                        │
+│  24 tables (see docs/erd.sql)           │
+│  ├── Taxonomy: ethnicities, languages,  │
+│  │   religions, ideologies              │
+│  ├── Geography: territories, provinces  │
+│  ├── Political: states → polities →     │
+│  │   regimes (3-tier hierarchy)         │
+│  ├── Successions: polity-level +        │
+│  │   regime-level (dynasty)             │
+│  ├── Panel: history_panels, columns,    │
+│  │   cells                              │
+│  └── People: figures                    │
+└─────────────────────────────────────────┘
+            ↓ API layer (server.js)
+┌─────────────────────────────────────────┐
+│  REST API                               │
+│  GET /api/panel/:id                     │
+│  GET /api/polity/:id                    │
+│  GET /api/regime/:id                    │
+│  GET /api/territory/:id?year=1200       │
+│  GET /api/succession-chain/:from/:to    │
+└─────────────────────────────────────────┘
+            ↓
+┌─────────────────────────────────────────┐
+│  Frontend (same public/ pages)          │
+│  Panels generated from DB queries       │
+│  instead of static JSON                 │
+└─────────────────────────────────────────┘
+```
+
+### Three-Tier Political Hierarchy
+
+The key architectural change is splitting the current `polity` concept into three levels:
+
+| Tier | Table | Count | Example |
+|------|-------|-------|---------|
+| **State** | `states` | ~20 | Roman State, French State |
+| **Polity** | `polities` | 268+ | Roman Republic, Kingdom of France |
+| **Regime** | `regimes` | ~2,500 | Julio-Claudian, Bourbon dynasty |
+
+- **State** = political continuity across polity changes (Roman Republic → Roman Empire = same "Roman State")
+- **Polity** = a political entity (what current `data/polity/*.json` records are)
+- **Regime** = a dynasty or ruling period within a polity (what history panel labels describe)
+
+Current `data/polity/` files are the polity-level records (formerly `data/regimes/`).
+
+### Succession at Two Levels
+
+```
+Polity successions (macro):  Roman Republic → Roman Empire → Byzantine Empire
+Regime successions (micro):  Julio-Claudian → Flavian → Antonine → Severan
+```
+
+Both are directed graphs. Polity successions exist today (1,243 edges). Regime successions will be derived from history panel stack order (~2,300 edges).
+
+---
+
+## Foreign Key Reference Map
+
+```
+polity.ruling_ethnicity  → ethnicities.id
+polity.cultural_language → languages.id
+polity.religion          → religions.id
+polity.government        → ideologies.id
+polity.state_id          → states.id
+
+regime.polity_id         → polities.id
+
+history_cell.regime_id   → regimes.id
+history_cell.polity_id   → polities.id
+history_cell.culture_id  → cultures.id
+history_cell.column_id   → history_columns.id
+
+polity_succession.from/to → polities.id
+regime_succession.from/to → regimes.id
+
+figure.regime_id         → regimes.id
+figure.polity_id         → polities.id
+
+polity_territory.polity_id    → polities.id
+polity_territory.territory_id → territories.id
+
+province.territory_id    → territories.id
+```
 
 ---
 
 ## Key Design Decisions
 
-### 1. Numeric IDs for Tree Structures
-**Problem:** Text-based semantic IDs (e.g., "han", "han_chinese", "Han Chinese") cause inconsistency when the same entity is referenced from different sources.
+### 1. Text IDs (not numeric)
+All entities use human-readable text IDs (`ottoman_empire`, not `42`). Self-documenting, stable across imports, easy to reference in history panels.
 
-**Solution:** All tree structures use numeric IDs (1, 2, 3...), with `old_id` column preserving original semantic IDs.
+### 2. Polity/Regime Split
+Polities are the political entity (the state). Regimes are dynasties/periods within. This avoids the question "is Capetian France the same as Bourbon France?" — they're different regimes of the same polity.
 
-**Benefit:** Consistency, stability (IDs don't change on rename), simple FK relationships.
+### 3. History Panels as First-Class Data
+Panels aren't just visualization — they're the richest source of regime data. The ~4,600 cells contain temporal, geographic, and succession information that the RDBMS will normalize.
 
-### 2. Junction Table for Territory-Regime Relationships
-**Problem:** Territories are controlled by multiple regimes over time (many-to-many with dates).
+### 4. Taxonomy Trees via Directory Structure
+Languages, religions, and ethnicities use filesystem hierarchy to encode parent-child relationships. `languages/indo_european/germanic/west_germanic/english.json` → parent is `west_germanic`. No explicit parent field needed in source files.
 
-**Solution:** Separate `TERRITORY_PERIODS` table that merges into JSON for frontend.
-
-**Benefit:** Normalized schema, clean query semantics, easy to update control history.
-
-### 3. State Grouping
-**Problem:** Distinguishing between "same political entity undergoing change" vs. "new regime" is semantically unclear.
-
-**Solution:** Two-level hierarchy: STATES (political continuity) group REGIMES (eras).
-
-**Benefit:** Clarity about what makes something "the same state" vs. "a new era within the state".
-
-### 4. CSV as Source of Truth
-**Problem:** Data locked in code or markdown is hard to maintain and version control.
-
-**Solution:** CSV files are the authoritative source; JSON is generated.
-
-**Benefit:** Easy to edit (spreadsheet tools), version control friendly, decouples maintenance from deployment.
+### 5. DuckDB over SQLite
+DuckDB was chosen for analytical query power (column-oriented, complex JOINs, recursive CTEs for succession chains). The existing `civregime.db` file uses DuckDB format.
 
 ---
 
-## Data Flow
+## See Also
 
-### Adding a New Regime
-
-```
-1. Open csvs/regimes.csv
-   ↓
-2. Add row: "139,New Kingdom Egypt,3,8,42,15,-1550,-1070"
-   ↓
-3. Run: node code/csv2json/regimes.js
-   ↓
-4. Script generates: data/regimes/139.json
-   ↓
-5. Frontend loads updated JSON on next page load
-   ↓
-6. Visualizations reflect new regime
-```
-
-### Adding Territory Control Period
-
-```
-1. Open csvs/territories.csv
-   └─ Add row: "40,Anatolia"
-   
-2. Open csvs/territory_periods.csv
-   ├─ Add row: "40,5,-2686,-2181,Old Kingdom Egypt"
-   ├─ Add row: "40,15,-1200,-500,Hittite Empire"
-   └─ ...more periods...
-   
-3. Run: node code/csv2json/territories.js
-   
-4. Script merges territory_periods.csv into territory JSON
-   └─ Generates: data/territories/40.json with embedded timeline
-   
-5. Frontend loads, visualizations show territory control history
-```
-
-### Reorganizing Religion Tree
-
-```
-1. Edit csvs/religions.csv
-   ├─ Change parent_id values to rearrange hierarchy
-   ├─ Add new religions with parent_id pointing to parent
-   └─ Example: Add "Protestantism" with parent_id pointing to "Christianity"
-   
-2. No generation script needed for trees yet
-   (Trees can be queried directly from CSV)
-   
-3. Frontend or tools reconstruct tree from parent_id column
-```
-
----
-
-## Foreign Key Validation
-
-The generation scripts validate foreign key consistency:
-
-- Each regime must reference valid ethnicity_id, language_id, religion_id
-- Each regime must reference valid state_id (if populated)
-- Each territory_period must reference valid territory_id and regime_id
-- Each tree node's parent_id must reference a valid parent (or be NULL for roots)
-
-**On FK violation**, the script warns and skips the invalid row.
-
----
-
-## File Organization
-
-```
-project-root/
-├── csvs/                          # CSV source files
-│   ├── states.csv
-│   ├── regimes.csv
-│   ├── territories.csv
-│   ├── territory_periods.csv
-│   ├── ethnicities.csv
-│   ├── languages.csv
-│   └── religions.csv
-│
-├── code/csv2json/                 # Generation scripts
-│   ├── states.js
-│   ├── regimes.js
-│   └── territories.js
-│
-├── data/                          # Generated JSON output
-│   ├── states.json
-│   ├── regimes/                   # 138 regime files
-│   │   ├── 1.json
-│   │   ├── 2.json
-│   │   └── ...
-│   └── territories/               # 39 territory files
-│       ├── 1.json
-│       ├── 2.json
-│       └── ...
-│
-└── docs/                          # Documentation
-    ├── README.md                  # This directory's guide
-    ├── ERD.md                     # Entity-Relationship Diagram
-    ├── CSV_WORKFLOW.md            # Practical editing guide
-    ├── ARCHITECTURE.md            # This file
-    ├── regime.md                  # Entity semantics
-    ├── ethnicity.md
-    ├── religion.md
-    └── language.md
-```
-
----
-
-## Common Tasks
-
-### Edit a Regime Name
-```bash
-1. Open csvs/regimes.csv
-2. Find the regime, update the "name" column
-3. Save the file
-4. Run: node code/csv2json/regimes.js
-5. Reload browser (Ctrl+F5)
-```
-
-### Update Territory Control Dates
-```bash
-1. Open csvs/territory_periods.csv
-2. Find the row with territory_id and regime_id
-3. Update start/end dates
-4. Save the file
-5. Run: node code/csv2json/territories.js
-6. Reload browser
-```
-
-### Add a New Territory
-```bash
-1. Open csvs/territories.csv, add: "40,New Territory Name"
-2. Open csvs/territory_periods.csv, add control periods:
-   - "40,regime_id,start_year,end_year"
-   - (repeat for each regime that controlled it)
-3. Save both files
-4. Run both scripts:
-   - node code/csv2json/territories.js
-5. Reload browser
-```
-
-### Remove Unused Language/Ethnicity/Religion
-```bash
-1. Open csvs/languages.csv (or ethnicities/religions)
-2. Delete the row with the unused entry
-3. (Optional) Verify no regimes reference this ID in regimes.csv
-4. Save the file
-5. Rebuild: node code/csv2json/regimes.js
-6. Reload browser
-```
-
----
-
-## Performance Characteristics
-
-| Operation | Speed | Notes |
-|-----------|-------|-------|
-| Generate states.json | <100ms | Single file, minimal processing |
-| Generate 138 regimes | 500ms-1s | Reads CSV, writes 138 files |
-| Generate 39 territories | 1-2s | Reads territories.csv + territory_periods.csv (301 rows), merges |
-| Load regimes.json | ~50ms | Single network request |
-| Load all territories | ~200ms | 39 separate requests (optimize: combine into single file if needed) |
-| Edit CSV + regenerate | 2-3s | Human-perceived latency is page reload, not script |
-
----
-
-## Future Enhancements
-
-### Not Yet Implemented
-
-1. **Tree generation to JSON**: Currently ethnicities, languages, religions stay in CSV. Could generate to `data/ethnicities/*.json` similar to regimes.
-
-2. **SQLite/DuckDB backend**: Schema is normalized for database. Could swap CSV storage with SQLite for query power while keeping same API.
-
-3. **Metadata enrichment**: Currently CSVs have sparse metadata. Could populate descriptions, founding dates, etc. via LLM pipeline.
-
-4. **Validation framework**: More comprehensive FK/constraint checking with detailed error reports.
-
-5. **Diff/merge tools**: Tools to manage CSV conflicts in version control (diffs are hard to read in CSV).
-
-6. **Batch import tools**: Scripts to import historical data from external sources (Wikipedia, academic databases).
-
----
-
-## Debugging
-
-### JSON files aren't updating after editing CSV
-- Verify CSV was saved
-- Run generation script with verbose output: `node code/csv2json/regimes.js 2>&1`
-- Check `data/regimes/` timestamps (newer than your CSV edit?)
-
-### Foreign key validation errors
-- Check spelling and numeric IDs
-- Verify referenced ID exists in the target table
-- Look at error message for which regime/territory has the invalid FK
-
-### Visualizations not showing new data
-- Hard-refresh browser (Ctrl+F5)
-- Check browser console (F12) for JavaScript errors
-- Verify JSON file exists: `ls -la data/regimes/` (for regimes) or `data/territories/` (for territories)
-
----
-
-## Related Documentation
-
-- **`ERD.md`** — Complete ER diagram and table schemas
-- **`CSV_WORKFLOW.md`** — Step-by-step guide to editing CSVs
-- **`README.md`** — Overview of all docs
-- **`regime.md`** — Regime semantics and examples
-- **`ethnicity.md`** — Ethnicity tree structure
-- **`religion.md`** — Religion tree structure
+- `docs/erd.sql` — Full DDL schema
+- `docs/erd.md` — Visual ERD diagram
+- `docs/TODO.md` — Migration roadmap
+- `data/README.md` — Data file formats and loading pipeline

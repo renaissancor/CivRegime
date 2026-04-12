@@ -1,0 +1,15 @@
+{
+  "id": "hungarian_grand_principality",
+  "name": "Hungarian Grand Principality",
+  "ruling_ethnicity": "magyar",
+  "cultural_language": "hungarian",
+  "ideology": {
+    "religion": "tengrism",
+    "government": "grand_principality"
+  },
+  "territories": [
+    "hungary"
+  ],
+  "start": 895,
+  "end": 1000
+}

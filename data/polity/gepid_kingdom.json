@@ -1,0 +1,15 @@
+{
+  "id": "gepid_kingdom",
+  "name": "Gepid Kingdom",
+  "ruling_ethnicity": "germanic",
+  "ideology": {
+    "religion": "arianism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "hungary",
+    "balkans"
+  ],
+  "start": 454,
+  "end": 567
+}

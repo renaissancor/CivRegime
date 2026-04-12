@@ -1,0 +1,16 @@
+{
+  "id": "palmyrene_empire",
+  "name": "Palmyrene Empire",
+  "ruling_ethnicity": "semitic_cluster",
+  "cultural_language": "aramaic",
+  "ideology": {
+    "religion": "ancient_near_eastern_religion",
+    "government": "monarchy"
+  },
+  "territories": [
+    "levant"
+  ],
+  "start": 260,
+  "end": 273,
+  "note": "Queen Zenobia's breakaway empire that briefly controlled Syria, Egypt, and much of Anatolia. Palmyra was a fabulously wealthy caravan city linking Rome and Persia. Defeated by the Roman Emperor Aurelian (272–273). Zenobia was paraded in golden chains through Rome."
+}

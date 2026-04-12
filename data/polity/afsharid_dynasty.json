@@ -1,0 +1,10 @@
+{
+  "id": "afsharid_dynasty",
+  "name": "Afsharid Dynasty",
+  "ruling_ethnicity": "persian",
+  "ideology": {
+    "religion": "shia_islam"
+  },
+  "start": 1736,
+  "end": 1796
+}

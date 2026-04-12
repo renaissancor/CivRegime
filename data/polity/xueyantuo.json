@@ -1,0 +1,15 @@
+{
+  "id": "xueyantuo",
+  "name": "Xueyantuo",
+  "ruling_ethnicity": "turkic",
+  "cultural_language": "old_turkic",
+  "ideology": {
+    "religion": "tengrism",
+    "government": "khaganate"
+  },
+  "territories": [
+    "mongolian_plateau"
+  ],
+  "start": 628,
+  "end": 646
+}

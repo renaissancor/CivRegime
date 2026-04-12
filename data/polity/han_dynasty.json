@@ -1,0 +1,40 @@
+{
+  "id": "han_dynasty",
+  "name": "Han Dynasty",
+  "ruling_ethnicity": "han_chinese",
+  "cultural_language": "old_chinese",
+  "ideology": {
+    "religion": "confucianism",
+    "government": "chinese_imperial"
+  },
+  "territories": [
+    "yellow_river",
+    "yangtze"
+  ],
+  "start": -206,
+  "end": 220,
+  "note": "Established Confucianism as state ideology and the civil examination system — the template all later Chinese dynasties followed",
+  "figures": [
+    {
+      "id": "liu_bang",
+      "name": "Liu Bang (Emperor Gaozu)",
+      "role": "founder",
+      "years": "-256/-195",
+      "significance": "Rose from peasant to emperor; the Han ethnic identity is named after his dynasty"
+    },
+    {
+      "id": "emperor_wu_han",
+      "name": "Emperor Wu of Han",
+      "role": "ruler",
+      "years": "-157/-87",
+      "significance": "Established Confucianism as state ideology; opened the Silk Road"
+    },
+    {
+      "id": "sima_qian",
+      "name": "Sima Qian",
+      "role": "cultural",
+      "years": "-145/-86",
+      "significance": "Father of Chinese historiography; his Records of the Grand Historian defined the writing of Chinese history for 2000 years"
+    }
+  ]
+}

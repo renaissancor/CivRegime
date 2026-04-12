@@ -1,0 +1,12 @@
+{
+  "id": "punt",
+  "name": "Punt (Egyptian trading land",
+  "ideology": {
+    "government": "monarchy"
+  },
+  "territories": [
+    "nubia"
+  ],
+  "start": -2500,
+  "end": -1000
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mongol_il_khanate",
+  "name": "Mongol Il-Khanate",
+  "ruling_ethnicity": "mongol",
+  "cultural_language": "persian",
+  "ideology": {
+    "religion": "sunni",
+    "government": "khanate"
+  },
+  "territories": [
+    "iran_plateau",
+    "mesopotamia",
+    "anatolia",
+    "caucasus"
+  ],
+  "start": 1256,
+  "end": 1335
+}

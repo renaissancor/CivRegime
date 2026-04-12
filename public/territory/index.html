@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>CivRegime — Territory Timeline</title>
+  <title>CivRegime — Territory</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body { display: flex; flex-direction: column; height: 100vh; background: #0f1117; color: #e2e8f0; font-family: 'Segoe UI', system-ui, sans-serif; font-size: 13px; overflow: hidden; }
@@ -18,54 +18,63 @@
     #sidebar { width: 220px; flex-shrink: 0; background: #161b27; border-right: 1px solid #2d3748; display: flex; flex-direction: column; overflow-y: auto; padding-bottom: 16px; }
     #sidebar-header { padding: 16px 16px 8px; }
     #sidebar-header h2 { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: #718096; }
-    .region-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; color: #4a5568; padding: 10px 16px 4px; }
-    .territory-item { padding: 6px 16px; cursor: pointer; color: #a0aec0; font-size: 12px; transition: background 0.1s, color 0.1s; }
-    .territory-item:hover { background: #1e2535; color: #e2e8f0; }
-    .territory-item.active { background: #252e42; color: #f6ad55; }
+    .group-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; color: #4a5568; padding: 10px 16px 4px; }
+    .sidebar-item { padding: 6px 16px; cursor: pointer; color: #a0aec0; font-size: 12px; transition: background 0.1s, color 0.1s; }
+    .sidebar-item:hover { background: #1e2535; color: #e2e8f0; }
+    .sidebar-item.active { background: #252e42; color: #f6ad55; }
+    .sidebar-item .count { font-size: 10px; color: #4a5568; margin-left: 4px; }
 
-    #main { flex: 1; display: flex; flex-direction: column; overflow: hidden; padding: 24px 32px; gap: 12px; }
+    #main { flex: 1; display: flex; flex-direction: column; overflow: hidden; padding: 20px 24px; gap: 8px; }
 
-    #territory-header { flex-shrink: 0; }
-    #territory-title { font-size: 20px; font-weight: 600; color: #f6ad55; }
-    #territory-desc { font-size: 12px; color: #718096; margin-top: 4px; line-height: 1.5; max-width: 700px; }
+    #title-bar { flex-shrink: 0; display: flex; align-items: baseline; gap: 16px; }
+    #title-bar h1 { font-size: 20px; font-weight: 600; color: #f6ad55; }
+    #title-bar .subtitle { font-size: 12px; color: #718096; }
 
-    #timeline-container { flex: 1; overflow: hidden; position: relative; }
-    #timeline-container svg { display: block; cursor: grab; }
-    #timeline-container svg:active { cursor: grabbing; }
-    #timeline-container svg text { font-family: 'Segoe UI', system-ui, sans-serif; }
+    #chart-container { flex: 1; overflow: hidden; position: relative; }
+    #chart-container svg { display: block; cursor: grab; }
+    #chart-container svg:active { cursor: grabbing; }
 
     #empty-state { display: flex; align-items: center; justify-content: center; height: 100%; color: #4a5568; font-size: 14px; }
 
+    #tooltip { position: fixed; background: #1e2535; border: 1px solid #2d3748; border-radius: 4px; padding: 8px 10px; font-size: 11px; color: #e2e8f0; pointer-events: none; opacity: 0; transition: opacity 0.15s; z-index: 100; max-width: 280px; line-height: 1.6; }
+    #tooltip.visible { opacity: 1; }
+
     #legend { display: flex; flex-wrap: wrap; gap: 8px; flex-shrink: 0; padding-top: 8px; border-top: 1px solid #2d3748; }
     .legend-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: #a0aec0; }
-    .legend-swatch { width: 12px; height: 12px; border-radius: 2px; }
+    .legend-swatch { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
 
-    #tooltip { position: fixed; background: #1e2535; border: 1px solid #2d3748; border-radius: 4px; padding: 8px 10px; font-size: 11px; color: #e2e8f0; pointer-events: none; opacity: 0; transition: opacity 0.15s; z-index: 100; max-width: 220px; line-height: 1.6; }
-    #tooltip.visible { opacity: 1; }
+    .succession-arrow { fill: none; stroke-width: 1.5; opacity: 0.6; }
+    .succession-arrow:hover { opacity: 1; stroke-width: 2.5; }
+    .succession-arrow.same { stroke: #4ade80; }
+    .succession-arrow.expansion { stroke: #60a5fa; }
+    .succession-arrow.contraction { stroke: #facc15; }
+    .succession-arrow.displacement { stroke: #fb923c; }
+    .succession-arrow.unknown { stroke: #718096; }
   </style>
 </head>
 <body>
 <nav class="topnav">
   <span class="nav-brand">CivRegime</span>
-  <a href="/" class="nav-link">Regimes</a>
-  <a href="/religion/" class="nav-link">Religions</a>
-  <a href="/language/" class="nav-link">Languages</a>
-  <a href="/ethnicity/" class="nav-link">Ethnicities</a>
-  <a href="/territory/" class="nav-link active">Territories</a>
+  <a href="/" class="nav-link">Graph</a>
+  <a href="/regime/" class="nav-link">Polity</a>
+  <a href="/religion/" class="nav-link">Religion</a>
+  <a href="/language/" class="nav-link">Language</a>
+  <a href="/ethnicity/" class="nav-link">Ethnicity</a>
+  <a href="/territory/" class="nav-link active">Territory</a>
   <a href="/history/" class="nav-link">History</a>
 </nav>
 <div class="main-row">
   <div id="sidebar">
-    <div id="sidebar-header"><h2>Territories</h2></div>
-    <div id="territory-list"></div>
+    <div id="sidebar-header"><h2>Territory</h2></div>
+    <div id="sidebar-list"></div>
   </div>
   <div id="main">
-    <div id="territory-header">
-      <div id="territory-title">Select a territory</div>
-      <div id="territory-desc"></div>
+    <div id="title-bar">
+      <h1 id="main-title">Select a territory</h1>
+      <span class="subtitle" id="main-subtitle"></span>
     </div>
-    <div id="timeline-container">
-      <div id="empty-state">← Choose a territory to view its history</div>
+    <div id="chart-container">
+      <div id="empty-state">← Choose a territory to view its polity timeline</div>
     </div>
     <div id="legend"></div>
   </div>

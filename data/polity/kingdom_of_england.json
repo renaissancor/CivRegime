@@ -1,0 +1,57 @@
+{
+  "id": "kingdom_of_england",
+  "name": "Kingdom of England",
+  "ruling_ethnicity": "english",
+  "cultural_language": "middle_english",
+  "ideology": {
+    "religion": "catholic",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "britannia"
+  ],
+  "start": 927,
+  "end": 1707,
+  "policies": [
+    "magna_carta",
+    "english_reformation"
+  ],
+  "note": "Founded by Æthelstan; the Norman Conquest of 1066 replaced the Anglo-Saxon ruling class with a French-speaking Norman aristocracy, creating the distinctive Anglo-Norman culture. By 1300 English had re-emerged as the dominant tongue with heavy French vocabulary.",
+  "figures": [
+    {
+      "id": "alfred_the_great",
+      "name": "Alfred the Great",
+      "role": "founder",
+      "years": "849/899",
+      "significance": "Defended Wessex against the Great Heathen Army; unified the English against the Vikings; laid the foundation for the unified Kingdom of England"
+    },
+    {
+      "id": "william_conqueror",
+      "name": "William I the Conqueror",
+      "role": "ruler",
+      "years": "1028/1087",
+      "significance": "Norman duke who conquered England at Hastings (1066); transformed English society, language, and architecture overnight"
+    },
+    {
+      "id": "edward_i",
+      "name": "Edward I",
+      "role": "ruler",
+      "years": "1239/1307",
+      "significance": "Conquered Wales, attempted conquest of Scotland; reformed English law; expelled the Jews (1290)"
+    },
+    {
+      "id": "henry_v",
+      "name": "Henry V",
+      "role": "ruler",
+      "years": "1386/1422",
+      "significance": "Won Agincourt (1415) against impossible odds; by Treaty of Troyes was heir to the French throne — died at 35 with it nearly in reach"
+    },
+    {
+      "id": "elizabeth_i",
+      "name": "Elizabeth I",
+      "role": "ruler",
+      "years": "1533/1603",
+      "significance": "Elizabethan golden age; defeated the Spanish Armada (1588); presided over Shakespeare, Marlowe, and the birth of English colonialism"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "gajapati_dynasty",
+  "name": "Gajapati Dynasty (Odisha)",
+  "ruling_ethnicity": "indo_aryan_cluster",
+  "cultural_language": "classical_sanskrit",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "ganges_plain"
+  ],
+  "start": 1078,
+  "end": 1541,
+  "note": "Eastern Indian dynasty ruling from Cuttack. Kapilendra Deva expanded the kingdom to its greatest extent. Patrons of the Jagannath temple at Puri. The title 'Gajapati' (Lord of Elephants) was one of the four traditional Indian royal titles."
+}

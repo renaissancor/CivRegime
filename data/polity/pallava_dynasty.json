@@ -1,0 +1,16 @@
+{
+  "id": "pallava_dynasty",
+  "name": "Pallava Dynasty",
+  "ruling_ethnicity": "dravidian_cluster",
+  "cultural_language": "tamil",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "deccan"
+  ],
+  "start": 275,
+  "end": 897,
+  "note": "Major South Indian dynasty centred on Kanchipuram. Pioneered Dravidian temple architecture — the Shore Temple and rathas at Mahabalipuram are their masterwork. Narasimhavarman I defeated the Chalukya Pulakeshin II. Patrons of Sanskrit and Tamil literature."
+}

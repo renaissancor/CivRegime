@@ -1,0 +1,15 @@
+{
+  "id": "turk_shahis",
+  "name": "Türk Shahis",
+  "ruling_ethnicity": "turkic",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "khorasan",
+    "indus_valley"
+  ],
+  "start": 665,
+  "end": 879
+}

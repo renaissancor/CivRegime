@@ -1,0 +1,16 @@
+{
+  "id": "xianbei",
+  "name": "Xianbei",
+  "ruling_ethnicity": "steppe_nomadic",
+  "ideology": {
+    "religion": "tengrism",
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "mongolian_plateau",
+    "manchuria",
+    "central_asian_steppe"
+  ],
+  "start": 93,
+  "end": 234
+}

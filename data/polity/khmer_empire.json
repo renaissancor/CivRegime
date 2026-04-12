@@ -1,0 +1,12 @@
+{
+  "id": "khmer_empire",
+  "name": "Khmer Empire",
+  "ruling_ethnicity": "khmer",
+  "cultural_language": "khmer",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "divine_monarchy"
+  },
+  "start": 802,
+  "end": 1431
+}

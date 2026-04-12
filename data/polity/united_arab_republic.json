@@ -1,0 +1,16 @@
+{
+  "id": "united_arab_republic",
+  "name": "United Arab Republic",
+  "ruling_ethnicity": "arab",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "egypt",
+    "levant"
+  ],
+  "start": 1958,
+  "end": 1961
+}

@@ -1,0 +1,11 @@
+{
+  "id": "funan",
+  "name": "Funan (Óc Eo",
+  "ruling_ethnicity": "khmer",
+  "ideology": {
+    "religion": "hinduism",
+    "government": "divine_monarchy"
+  },
+  "start": 50,
+  "end": 550
+}

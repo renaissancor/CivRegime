@@ -1,0 +1,15 @@
+{
+  "id": "kingdom_of_epirus",
+  "name": "Kingdom of Epirus",
+  "ruling_ethnicity": "ancient_greek",
+  "cultural_language": "ancient_greek",
+  "ideology": {
+    "religion": "greek_paganism",
+    "government": "monarchy"
+  },
+  "territories": [
+    "balkans"
+  ],
+  "start": -470,
+  "end": -167
+}

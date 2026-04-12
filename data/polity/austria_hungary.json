@@ -1,0 +1,18 @@
+{
+  "id": "austria_hungary",
+  "name": "Austria-Hungary / Italian occupation zones",
+  "ruling_ethnicity": "german",
+  "cultural_language": "german",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "constitutional_monarchy"
+  },
+  "territories": [
+    "hungary",
+    "bohemia",
+    "balkans",
+    "italy"
+  ],
+  "start": 1867,
+  "end": 1918
+}

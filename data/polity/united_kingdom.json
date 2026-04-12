@@ -1,0 +1,34 @@
+{
+  "id": "united_kingdom",
+  "name": "United Kingdom of Great Britain and Ireland",
+  "ruling_ethnicity": "english",
+  "cultural_language": "modern_english",
+  "ideology": {
+    "religion": "protestant",
+    "government": "constitutional_monarchy"
+  },
+  "territories": [
+    "britannia",
+    "scotland",
+    "ireland"
+  ],
+  "start": 1801,
+  "end": null,
+  "note": "Acts of Union 1800 added Ireland; the Irish Free State left in 1922, creating the United Kingdom of Great Britain and Northern Ireland.",
+  "figures": [
+    {
+      "id": "wellington",
+      "name": "Duke of Wellington",
+      "role": "military",
+      "years": "1769/1852",
+      "significance": "Defeated Napoleon at Waterloo; later Prime Minister"
+    },
+    {
+      "id": "victoria",
+      "name": "Queen Victoria",
+      "role": "ruler",
+      "years": "1819/1901",
+      "significance": "Ruled 63 years; the British Empire reached its greatest extent under her reign"
+    }
+  ]
+}

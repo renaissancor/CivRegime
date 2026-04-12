@@ -1,0 +1,14 @@
+{
+  "id": "kanem_empire",
+  "name": "Kanem Empire / Daju",
+  "ruling_ethnicity": "dinka",
+  "ideology": {
+    "religion": "sunni",
+    "government": "monarchy"
+  },
+  "territories": [
+    "nubia"
+  ],
+  "start": 700,
+  "end": 1380
+}

@@ -1,0 +1,15 @@
+{
+  "id": "later_jin",
+  "name": "Later Jin",
+  "ruling_ethnicity": "han",
+  "cultural_language": "old_chinese",
+  "ideology": {
+    "religion": "buddhism",
+    "government": "chinese_imperial"
+  },
+  "territories": [
+    "yellow_river"
+  ],
+  "start": 936,
+  "end": 947
+}

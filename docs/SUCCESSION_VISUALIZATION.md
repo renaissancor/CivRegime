@@ -2,24 +2,24 @@
 
 ## Overview
 
-The succession graph visualizes **how regimes succeed one another** based on territorial control (TERRITORY_PERIODS) and cultural continuity (ethnicity, language, religion).
+The succession graph visualizes **how polities succeed one another** based on territorial control (POLITY_TERRITORY) and cultural continuity (ethnicity, language, religion).
 
 ---
 
 ## Data Pipeline for Succession Graph
 
-### Step 1: Build Regime-Territory Map
-From `TERRITORY_PERIODS`, create a map of which regimes controlled which territories:
+### Step 1: Build Polity-Territory Map
+From `POLITY_TERRITORY`, create a map of which polities controlled which territories:
 
 ```javascript
-const regimeTerritoriesMap = {};
+const polityTerritoriesMap = {};
 
-territoryPeriods.forEach(period => {
-  // period = { territory_id, regime_id, start, end }
-  if (!regimeTerritoriesMap[period.regime_id]) {
-    regimeTerritoriesMap[period.regime_id] = [];
+polityTerritories.forEach(period => {
+  // period = { territory_id, polity_id, start, end }
+  if (!polityTerritoriesMap[period.polity_id]) {
+    polityTerritoriesMap[period.polity_id] = [];
   }
-  regimeTerritoriesMap[period.regime_id].push({
+  polityTerritoriesMap[period.polity_id].push({
     territory: period.territory_id,
     start: period.start,
     end: period.end
@@ -35,17 +35,17 @@ territoryPeriods.forEach(period => {
 ```
 
 ### Step 2: Find Succession Edges
-For each regime, find which regimes succeed it:
+For each polity, find which polities succeed it:
 
 ```javascript
 const successionEdges = [];
 
-regimes.forEach(regime => {
-  const successors = findSuccessors(regime, regimeTerritoriesMap, regimes);
+polities.forEach(polity => {
+  const successors = findSuccessors(polity, polityTerritoriesMap, polities);
   
   successors.forEach(successor => {
     successionEdges.push({
-      from: regime.id,
+      from: polity.id,
       to: successor.id,
       type: successor.type,  // "direct", "weak", "ethnic", "none"
       sharedTerritories: successor.territories,
@@ -63,25 +63,25 @@ Visualize edges with different colors based on type.
 ## Successor Detection Algorithm
 
 ```javascript
-function findSuccessors(regime, regimeTerritoriesMap, allRegimes) {
-  const regimeTerritoriesAtEnd = regimeTerritoriesMap[regime.id]
-    .filter(t => t.end === regime.end);
+function findSuccessors(polity, polityTerritoriesMap, allPolities) {
+  const polityTerritoriesAtEnd = polityTerritoriesMap[polity.id]
+    .filter(t => t.end === polity.end);
   
   const successors = [];
   
-  allRegimes.forEach(candidate => {
-    if (candidate.id === regime.id) return; // Skip self
+  allPolities.forEach(candidate => {
+    if (candidate.id === polity.id) return; // Skip self
     
-    // Does candidate control any territories regime controlled at end?
-    const sharedTerritories = regimeTerritoriesMap[candidate.id]
-      .filter(ct => regimeTerritoriesAtEnd.some(rt => rt.territory === ct.territory))
+    // Does candidate control any territories polity controlled at end?
+    const sharedTerritories = polityTerritoriesMap[candidate.id]
+      .filter(ct => polityTerritoriesAtEnd.some(pt => pt.territory === ct.territory))
       .map(t => t.territory);
     
     // Does candidate have same ethnicity?
-    const sameEthnicity = candidate.ethnicity_id === regime.ethnicity_id;
+    const sameEthnicity = candidate.ethnicity_id === polity.ethnicity_id;
     
-    // Does candidate start when regime ends (temporal continuity)?
-    const continuousTransition = candidate.start === regime.end;
+    // Does candidate start when polity ends (temporal continuity)?
+    const continuousTransition = candidate.start === polity.end;
     
     // Classify succession
     let type = "none";
@@ -91,7 +91,7 @@ function findSuccessors(regime, regimeTerritoriesMap, allRegimes) {
       } else {
         type = "weak";
       }
-    } else if (sameEthnicity && candidate.start <= regime.end + 100) {
+    } else if (sameEthnicity && candidate.start <= polity.end + 100) {
       // Allow small gaps for ethnic continuity (migrations, etc.)
       type = "ethnic";
     }
@@ -116,7 +116,7 @@ function findSuccessors(regime, regimeTerritoriesMap, allRegimes) {
 
 ### 1. Linear Timeline
 
-Shows regimes as bars on a timeline, with succession arrows connecting them.
+Shows polities as bars on a timeline, with succession arrows connecting them.
 
 ```
 Timeline:
@@ -131,21 +131,21 @@ Timeline:
 ```
 
 **Best for:**
-- Seeing regime duration and relative timing
+- Seeing polity duration and relative timing
 - Following a single region's history
 - Spotting succession gaps
 
 **Implementation:**
 - X-axis: years
 - Y-axis: territories (stacked)
-- Rectangles: regimes
+- Rectangles: polities
 - Arrows: succession edges
 
 ---
 
 ### 2. Flow Diagram (Directed Graph)
 
-Shows regimes as nodes, succession relationships as directed edges.
+Shows polities as nodes, succession relationships as directed edges.
 
 ```
       ┌──────────────────┐
@@ -165,11 +165,11 @@ Shows regimes as nodes, succession relationships as directed edges.
 
 **Best for:**
 - Showing succession chains (A → B → C)
-- Visualizing multiple successors (one regime → many)
+- Visualizing multiple successors (one polity → many)
 - Understanding ethnic/cultural lineages
 
 **Implementation:**
-- Nodes: regimes
+- Nodes: polities
 - Edges: colored by succession type
 - Layout: hierarchical or force-directed
 
@@ -177,7 +177,7 @@ Shows regimes as nodes, succession relationships as directed edges.
 
 ### 3. Territory Timeline (per Territory)
 
-Shows which regimes controlled a single territory over time.
+Shows which polities controlled a single territory over time.
 
 ```
 Egypt Control History:
@@ -195,18 +195,18 @@ Egypt Control History:
 - Long-term territorial continuity
 
 **Implementation:**
-- Horizontal bars for each regime controlling the territory
-- Label with regime name and ethnicity
+- Horizontal bars for each polity controlling the territory
+- Label with polity name and ethnicity
 - Arrows showing transitions
 
 ---
 
 ### 4. Sankey Diagram (Flow by Territory)
 
-Shows how territorial control flows from one regime to the next.
+Shows how territorial control flows from one polity to the next.
 
 ```
-Regime A          Territory Control Flow          Regime B
+Polity A          Territory Control Flow          Polity B
   │                                                 │
   ├─ Egypt ────────────────────────────────────→ Egypt
   ├─ Mesopotamia ────────────────┐
@@ -224,7 +224,7 @@ Regime A          Territory Control Flow          Regime B
 **Implementation:**
 - Flow width proportional to number of shared territories
 - Colors represent ethnicity or dynasty
-- Nodes are regimes, edges are territories
+- Nodes are polities, edges are territories
 
 ---
 
@@ -252,51 +252,51 @@ Use consistent colors across all visualizations:
 
 ```javascript
 import { useEffect, useState } from 'react';
-import { RegimeSuccessionGraph } from './components';
+import { PolitySuccessionGraph } from './components';
 
-export function SuccessionViewer({ regimes, territoryPeriods }) {
+export function SuccessionViewer({ polities, polityTerritories }) {
   const [edges, setEdges] = useState([]);
   
   useEffect(() => {
-    const regimeMap = {};
-    territoryPeriods.forEach(period => {
-      if (!regimeMap[period.regime_id]) {
-        regimeMap[period.regime_id] = [];
+    const polityMap = {};
+    polityTerritories.forEach(period => {
+      if (!polityMap[period.polity_id]) {
+        polityMap[period.polity_id] = [];
       }
-      regimeMap[period.regime_id].push(period);
+      polityMap[period.polity_id].push(period);
     });
     
     const successionEdges = [];
-    regimes.forEach(regime => {
-      const regimeEndTerritories = regimeMap[regime.id]
-        .filter(p => p.end === regime.end)
+    polities.forEach(polity => {
+      const polityEndTerritories = polityMap[polity.id]
+        .filter(p => p.end === polity.end)
         .map(p => p.territory_id);
       
-      regimes.forEach(candidate => {
-        if (candidate.id === regime.id) return;
+      polities.forEach(candidate => {
+        if (candidate.id === polity.id) return;
         
-        const candidateStartTerritories = regimeMap[candidate.id]
+        const candidateStartTerritories = polityMap[candidate.id]
           .filter(p => p.start === candidate.start)
           .map(p => p.territory_id);
         
-        const shared = regimeEndTerritories.filter(t => 
+        const shared = polityEndTerritories.filter(t => 
           candidateStartTerritories.includes(t)
         );
         
-        const sameEthnicity = candidate.ethnicity_id === regime.ethnicity_id;
+        const sameEthnicity = candidate.ethnicity_id === polity.ethnicity_id;
         
         let type = "none";
         if (shared.length > 0) {
-          type = sameEthnicity && candidate.start === regime.end 
+          type = sameEthnicity && candidate.start === polity.end 
             ? "direct" 
             : "weak";
-        } else if (sameEthnicity && Math.abs(candidate.start - regime.end) < 50) {
+        } else if (sameEthnicity && Math.abs(candidate.start - polity.end) < 50) {
           type = "ethnic";
         }
         
         if (type !== "none") {
           successionEdges.push({
-            from: regime.id,
+            from: polity.id,
             to: candidate.id,
             type,
             territories: shared
@@ -306,9 +306,9 @@ export function SuccessionViewer({ regimes, territoryPeriods }) {
     });
     
     setEdges(successionEdges);
-  }, [regimes, territoryPeriods]);
+  }, [polities, polityTerritories]);
   
-  return <RegimeSuccessionGraph nodes={regimes} edges={edges} />;
+  return <PolitySuccessionGraph nodes={polities} edges={edges} />;
 }
 ```
 
@@ -317,12 +317,12 @@ export function SuccessionViewer({ regimes, territoryPeriods }) {
 ```javascript
 import * as d3 from 'd3';
 
-function renderSuccessionGraph(svgSelector, regimes, edges) {
+function renderSuccessionGraph(svgSelector, polities, edges) {
   const svg = d3.select(svgSelector);
   const width = svg.attr('width');
   const height = svg.attr('height');
   
-  const simulation = d3.forceSimulation(regimes)
+  const simulation = d3.forceSimulation(polities)
     .force('link', d3.forceLink(edges).id(d => d.id).distance(100))
     .force('charge', d3.forceManyBody().strength(-300))
     .force('center', d3.forceCenter(width / 2, height / 2));
@@ -339,7 +339,7 @@ function renderSuccessionGraph(svgSelector, regimes, edges) {
     .attr('stroke-width', 2);
   
   const nodes = svg.selectAll('.node')
-    .data(regimes)
+    .data(polities)
     .enter()
     .append('circle')
     .attr('class', 'node')
@@ -351,7 +351,7 @@ function renderSuccessionGraph(svgSelector, regimes, edges) {
       .on('end', dragended));
   
   const labels = svg.selectAll('.label')
-    .data(regimes)
+    .data(polities)
     .enter()
     .append('text')
     .attr('class', 'label')
@@ -381,12 +381,12 @@ function renderSuccessionGraph(svgSelector, regimes, edges) {
 ## Interactive Features
 
 ### Hover Effects
-- **Hover regime:** Highlight all edges (successors + predecessors)
+- **Hover polity:** Highlight all edges (successors + predecessors)
 - **Hover edge:** Highlight shared territories in tooltip
-- **Hover territory:** Show all regimes that controlled it
+- **Hover territory:** Show all polities that controlled it
 
 ### Click/Selection
-- **Click regime:** Show detailed info (name, dates, territories, ruling ethnicity)
+- **Click polity:** Show detailed info (name, dates, territories, ruling ethnicity)
 - **Click edge:** Show succession details (transition type, shared territories, temporal gap)
 - **Filter by ethnicity:** Show only regimes with selected ethnicity
 
@@ -398,12 +398,12 @@ function renderSuccessionGraph(svgSelector, regimes, edges) {
 
 ## Performance Optimization
 
-For large graphs (300+ regimes, 1000+ edges):
+For large graphs (300+ polities, 1000+ edges):
 
 1. **Level-of-Detail (LOD):**
-   - At zoom < 0.3: Show only major regimes (large empires)
-   - At zoom < 0.7: Show major + medium regimes
-   - At full zoom: Show all regimes
+   - At zoom < 0.3: Show only major polities (large empires)
+   - At zoom < 0.7: Show major + medium polities
+   - At full zoom: Show all polities
 
 2. **Edge Culling:**
    - Hide weak/ethnic edges unless specifically toggled
@@ -417,7 +417,7 @@ For large graphs (300+ regimes, 1000+ edges):
 
 ## Examples to Implement
 
-1. **Egypt's 3000-year history:** Territory timeline showing 20+ regimes
+1. **Egypt's 3000-year history:** Territory timeline showing 20+ polities
 2. **Turkic succession chain:** Seljuk → Seljuk Rum → Ottoman (direct succession)
 3. **Rome's fragmentation:** Western Roman Empire → Visigothic, Frankish, etc. (multiple weak successors)
 4. **Conquest chains:** Persian → Macedonian → Seleucid → Roman (all weak successions on same territory)

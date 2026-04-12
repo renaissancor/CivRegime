@@ -1,0 +1,27 @@
+{
+  "id": "hunnic_empire",
+  "name": "Hunnic Empire",
+  "ruling_ethnicity": "central_asian_steppe_bloc",
+  "cultural_language": "old_turkic",
+  "ideology": {
+    "religion": "tengriism",
+    "government": "khaganate"
+  },
+  "territories": [
+    "central_asian_steppe",
+    "pontic_steppe",
+    "hungary"
+  ],
+  "start": 350,
+  "end": 453,
+  "note": "Attila's confederation devastated the Roman Empire and triggered the Great Migration. The Huns are of uncertain ethnic origin (possibly Turkic, possibly mixed). Their western empire collapsed immediately after Attila's death (453).",
+  "figures": [
+    {
+      "id": "attila",
+      "name": "Attila",
+      "role": "ruler",
+      "years": "406/453",
+      "significance": "Scourge of God; defeated Roman and Germanic armies; received tribute from both Eastern and Western Rome; his death at a wedding feast collapsed the empire overnight"
+    }
+  ]
+}

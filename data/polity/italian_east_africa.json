@@ -1,0 +1,15 @@
+{
+  "id": "italian_east_africa",
+  "name": "Italian East Africa",
+  "ruling_ethnicity": "italian",
+  "cultural_language": "italian",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "colonial_administration"
+  },
+  "territories": [
+    "nubia"
+  ],
+  "start": 1936,
+  "end": 1941
+}

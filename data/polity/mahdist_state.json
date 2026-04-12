@@ -1,0 +1,16 @@
+{
+  "id": "mahdist_state",
+  "name": "Mahdist State",
+  "ruling_ethnicity": "arab",
+  "cultural_language": "classical_arabic",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "theocratic_state"
+  },
+  "territories": [
+    "nubia"
+  ],
+  "start": 1885,
+  "end": 1898,
+  "note": "Founded by Muhammad Ahmad (the Mahdi) who proclaimed a religious revolution against Egyptian-Ottoman rule. The siege and fall of Khartoum (1885), killing General Gordon, shocked the British Empire. Destroyed by Kitchener's Anglo-Egyptian force at Omdurman (1898)."
+}

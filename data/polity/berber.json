@@ -1,0 +1,14 @@
+{
+  "id": "berber",
+  "name": "Berber / Mauretania",
+  "ruling_ethnicity": "berber",
+  "cultural_language": "berber",
+  "ideology": {
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "north_africa"
+  ],
+  "start": -3000,
+  "end": -200
+}

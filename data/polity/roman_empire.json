@@ -1,0 +1,26 @@
+{
+  "id": "roman_empire",
+  "name": "Roman Empire",
+  "ruling_ethnicity": "roman",
+  "cultural_language": "latin",
+  "ideology": {
+    "government": "imperial_monarchy"
+  },
+  "territories": [
+    "italy",
+    "anatolia",
+    "levant",
+    "egypt",
+    "balkans",
+    "iberia",
+    "gaul",
+    "north_africa"
+  ],
+  "start": -27,
+  "end": 395,
+  "policies": [
+    "pax_romana",
+    "edict_of_milan",
+    "edict_of_thessalonica"
+  ]
+}

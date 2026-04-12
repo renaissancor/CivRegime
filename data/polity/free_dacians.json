@@ -1,0 +1,14 @@
+{
+  "id": "free_dacians",
+  "name": "Free Dacians / Carpi",
+  "ruling_ethnicity": "ancient_european",
+  "ideology": {
+    "government": "tribal_confederation"
+  },
+  "territories": [
+    "hungary",
+    "balkans"
+  ],
+  "start": 106,
+  "end": 381
+}

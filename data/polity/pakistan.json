@@ -1,0 +1,40 @@
+{
+  "id": "pakistan",
+  "name": "Pakistan",
+  "ruling_ethnicity": "indo_aryan_cluster",
+  "cultural_language": "urdu",
+  "ideology": {
+    "religion": "sunni",
+    "government": "democratic_republic"
+  },
+  "territories": [
+    "indus_valley",
+    "punjab"
+  ],
+  "start": 1947,
+  "end": null,
+  "note": "Created as a Muslim homeland by the partition of British India. Jinnah's death (1948) left Pakistan without a founder statesman. Three wars with India (1947, 1965, 1971); Bangladesh broke away in 1971 after the Pakistani Army's genocide in East Pakistan. Nuclear power since 1998. Chronic alternation between civilian and military government; the Army as the dominant political institution. ISI intelligence services and Islamist politics complicate democratisation.",
+  "figures": [
+    {
+      "id": "muhammad_ali_jinnah",
+      "name": "Muhammad Ali Jinnah",
+      "role": "founder",
+      "years": "1876/1948",
+      "significance": "Founded Pakistan through sheer force of will and political skill; the Quaid-e-Azam ('Great Leader'); his secular vision for Pakistan was quickly displaced after his death"
+    },
+    {
+      "id": "zulfikar_ali_bhutto",
+      "name": "Zulfikar Ali Bhutto",
+      "role": "ruler",
+      "years": "1928/1979",
+      "significance": "First elected Prime Minister; oversaw 1971 defeat and Bangladesh; launched nuclear programme; executed by Zia ul-Haq after a military coup — his death created the Bhutto political dynasty through his daughter Benazir"
+    },
+    {
+      "id": "benazir_bhutto",
+      "name": "Benazir Bhutto",
+      "role": "ruler",
+      "years": "1953/2007",
+      "significance": "First female Prime Minister of a Muslim-majority country; twice elected and twice dismissed; assassinated at a political rally"
+    }
+  ]
+}

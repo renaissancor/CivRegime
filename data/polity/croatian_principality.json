@@ -1,0 +1,15 @@
+{
+  "id": "croatian_principality",
+  "name": "Croatian Principality",
+  "ruling_ethnicity": "croatian",
+  "cultural_language": "serbo_croatian",
+  "ideology": {
+    "religion": "roman_catholicism",
+    "government": "principality"
+  },
+  "territories": [
+    "balkans"
+  ],
+  "start": 641,
+  "end": 925
+}

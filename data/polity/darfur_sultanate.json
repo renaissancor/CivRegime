@@ -1,0 +1,16 @@
+{
+  "id": "darfur_sultanate",
+  "name": "Darfur Sultanate",
+  "ruling_ethnicity": "cushitic_cluster",
+  "cultural_language": "classical_arabic",
+  "ideology": {
+    "religion": "sunni_islam",
+    "government": "sultanate"
+  },
+  "territories": [
+    "nubia"
+  ],
+  "start": 1603,
+  "end": 1916,
+  "note": "Fur dynasty controlling western Sudan. The Keira dynasty built a powerful state based on trans-Saharan trade. Ahmad Bukr introduced Islam. Conquered by the British-Egyptian Mahdist War aftermath but briefly revived (1898–1916). Its legacy shapes Darfur's political identity today."
+}

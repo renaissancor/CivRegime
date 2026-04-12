@@ -1,0 +1,26 @@
+{
+  "id": "avar_khaganate",
+  "name": "Avar Khaganate",
+  "ruling_ethnicity": "central_asian_steppe_bloc",
+  "cultural_language": "old_turkic",
+  "ideology": {
+    "religion": "tengriism",
+    "government": "khaganate"
+  },
+  "territories": [
+    "hungary",
+    "central_asian_steppe"
+  ],
+  "start": 568,
+  "end": 804,
+  "note": "Avars (steppe nomads of uncertain Mongolian/Turkic origin) conquered the Carpathian basin in 568 after the Lombards left for Italy. They raided Byzantium and the Frankish kingdoms repeatedly. Charlemagne destroyed the Avar state in a series of campaigns (791-796) and dismantled their treasury ('the Ring').",
+  "figures": [
+    {
+      "id": "bayan_i",
+      "name": "Bayan I",
+      "role": "founder",
+      "years": "/602",
+      "significance": "First great Avar Khagan; defeated the Frankish kingdom; established Avar dominance over the middle Danube basin"
+    }
+  ]
+}

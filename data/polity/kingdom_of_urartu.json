@@ -1,0 +1,32 @@
+{
+  "id": "kingdom_of_urartu",
+  "name": "Kingdom of Urartu",
+  "ruling_ethnicity": "caucasian_peoples",
+  "cultural_language": "aramaic",
+  "ideology": {
+    "religion": "zoroastrianism",
+    "government": "feudal_monarchy"
+  },
+  "territories": [
+    "caucasus"
+  ],
+  "start": -860,
+  "end": -590,
+  "note": "The Iron Age kingdom centered on Lake Van (modern eastern Turkey/Armenia). Urartu was a major rival of the Neo-Assyrian Empire for control of the Armenian Highlands. Known for impressive metalwork (Urartian bronzes) and large-scale irrigation systems. Destroyed by the Scythian/Median coalition around 590 BCE. The Armenian people are their cultural successors.",
+  "figures": [
+    {
+      "id": "sarduri_i",
+      "name": "Sarduri I",
+      "role": "founder",
+      "years": "?/-825",
+      "significance": "First ruler to call himself King of Urartu; established Tushpa (Van) as capital; began the first confrontations with Assyria"
+    },
+    {
+      "id": "argishti_i",
+      "name": "Argishti I",
+      "role": "ruler",
+      "years": "?/-764",
+      "significance": "Greatest Urartian king; expanded to the Ararat valley and Transcaucasia; founded Erebuni fortress (modern Yerevan)"
+    }
+  ]
+}

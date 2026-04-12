@@ -1,0 +1,42 @@
+{
+  "id": "rashidun_caliphate",
+  "name": "Rashidun Caliphate",
+  "ruling_ethnicity": "semitic_cluster",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni",
+    "government": "caliphate"
+  },
+  "territories": [
+    "arabia",
+    "levant",
+    "mesopotamia",
+    "egypt",
+    "iran_plateau"
+  ],
+  "start": 632,
+  "end": 661,
+  "figures": [
+    {
+      "id": "abu_bakr",
+      "name": "Abu Bakr",
+      "role": "founder",
+      "years": "573/634",
+      "significance": "First Caliph; held the Muslim community together after Muhammad death"
+    },
+    {
+      "id": "umar_ibn_khattab",
+      "name": "Umar ibn al-Khattab",
+      "role": "ruler",
+      "years": "584/644",
+      "significance": "Conquered Persia, Syria, and Egypt in a decade; established Islamic governance foundations"
+    },
+    {
+      "id": "khalid_ibn_walid",
+      "name": "Khalid ibn al-Walid",
+      "role": "general",
+      "years": "585/642",
+      "significance": "Undefeated general; called the Sword of Allah"
+    }
+  ]
+}

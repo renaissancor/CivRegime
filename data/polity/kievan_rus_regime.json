@@ -1,0 +1,39 @@
+{
+  "id": "kievan_rus_regime",
+  "name": "Kievan Rus",
+  "ruling_ethnicity": "east_slavic",
+  "cultural_language": "old_church_slavonic",
+  "ideology": {
+    "religion": "eastern_orthodox",
+    "government": "grand_principality"
+  },
+  "territories": [
+    "kievan_rus"
+  ],
+  "start": 882,
+  "end": 1240,
+  "note": "Founded by Varangian (Norse) Rurikids who were rapidly absorbed into Slavic culture. Christianisation under Vladimir I in 988 tied Rus to Constantinople and Eastern Orthodoxy — the defining civilisational choice. Fragmented into competing principalities after Yaroslav's death; destroyed by the Mongol invasion 1237–1241.",
+  "figures": [
+    {
+      "id": "rurik",
+      "name": "Rurik",
+      "role": "founder",
+      "years": "830/879",
+      "significance": "Legendary Varangian founder of the Rurikid dynasty; invited to rule Novgorod; his descendants ruled Russia until 1598"
+    },
+    {
+      "id": "vladimir_great",
+      "name": "Vladimir I the Great",
+      "role": "ruler",
+      "years": "958/1015",
+      "significance": "Baptised himself and all of Kiev in the Dnieper in 988 — the Christianisation of Rus. Chose Orthodoxy over Catholicism, Islam, or Judaism after famously sending envoys to observe each faith's worship"
+    },
+    {
+      "id": "yaroslav_wise",
+      "name": "Yaroslav the Wise",
+      "role": "ruler",
+      "years": "978/1054",
+      "significance": "Peak of Kievan Rus; codified the Rus Pravda (first law code); built Saint Sophia in Kiev; married his daughters to the kings of France, Hungary, and Norway"
+    }
+  ]
+}

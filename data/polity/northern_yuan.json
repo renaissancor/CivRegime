@@ -1,0 +1,15 @@
+{
+  "id": "northern_yuan",
+  "name": "Northern Yuan",
+  "ruling_ethnicity": "mongol",
+  "cultural_language": "mongolian",
+  "ideology": {
+    "religion": "vajrayana_buddhism",
+    "government": "khaganate"
+  },
+  "territories": [
+    "mongolian_plateau"
+  ],
+  "start": 1368,
+  "end": 1635
+}

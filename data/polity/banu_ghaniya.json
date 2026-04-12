@@ -1,0 +1,15 @@
+{
+  "id": "banu_ghaniya",
+  "name": "Banu Ghaniya",
+  "ruling_ethnicity": "berber",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "sunni",
+    "government": "emirate"
+  },
+  "territories": [
+    "north_africa"
+  ],
+  "start": 1148,
+  "end": 1237
+}

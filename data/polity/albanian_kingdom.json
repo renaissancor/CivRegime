@@ -1,0 +1,14 @@
+{
+  "id": "albanian_kingdom",
+  "name": "Albanian Kingdom",
+  "ruling_ethnicity": "caucasian",
+  "cultural_language": "albanian",
+  "ideology": {
+    "government": "monarchy"
+  },
+  "territories": [
+    "balkans"
+  ],
+  "start": 1928,
+  "end": 1939
+}

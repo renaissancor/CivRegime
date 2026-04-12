@@ -1,0 +1,15 @@
+{
+  "id": "hephthalites",
+  "name": "Hephthalites",
+  "ruling_ethnicity": "steppe_nomadic",
+  "ideology": {
+    "government": "khaganate"
+  },
+  "territories": [
+    "khorasan",
+    "transoxiana",
+    "central_asian_steppe"
+  ],
+  "start": 440,
+  "end": 560
+}

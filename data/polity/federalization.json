@@ -1,0 +1,14 @@
+{
+  "id": "federalization",
+  "name": "Federalization",
+  "ruling_ethnicity": "czech",
+  "cultural_language": "czech",
+  "ideology": {
+    "government": "communist_state"
+  },
+  "territories": [
+    "bohemia"
+  ],
+  "start": 1969,
+  "end": 1992
+}

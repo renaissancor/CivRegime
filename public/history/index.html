@@ -300,11 +300,12 @@
 
 <nav class="topnav">
   <span class="nav-brand">CivRegime</span>
-  <a href="/" class="nav-link">Regimes</a>
-  <a href="/religion/" class="nav-link">Religions</a>
-  <a href="/language/" class="nav-link">Languages</a>
-  <a href="/ethnicity/" class="nav-link">Ethnicities</a>
-  <a href="/territory/" class="nav-link">Territories</a>
+  <a href="/" class="nav-link">Graph</a>
+  <a href="/regime/" class="nav-link">Polity</a>
+  <a href="/religion/" class="nav-link">Religion</a>
+  <a href="/language/" class="nav-link">Language</a>
+  <a href="/ethnicity/" class="nav-link">Ethnicity</a>
+  <a href="/territory/" class="nav-link">Territory</a>
   <a href="/history/" class="nav-link active">History</a>
 </nav>
 
@@ -330,19 +331,18 @@
       slavic: 'eth-slavic', russian: 'eth-slavic',
     };
 
-    const regimeCache = {};
+    // Bulk color map: polity_id → ruling_ethnicity (loaded once)
+    let colorMap = {};
 
-    async function getRegimeColor(id) {
-      if (!id || regimeCache[id] !== undefined) return;
+    async function loadColorMap() {
       try {
-        const r = await fetch(`../data/regimes/${id}.json`);
-        regimeCache[id] = r.ok ? await r.json() : null;
-      } catch { regimeCache[id] = null; }
+        colorMap = await fetch('/api/polity/colors').then(r => r.json());
+      } catch { colorMap = {}; }
     }
 
     function colorOf(item) {
-      if (item.regime && regimeCache[item.regime]) {
-        const eth = (regimeCache[item.regime].ruling_ethnicity || '').toLowerCase();
+      if (item.regime && colorMap[item.regime] != null) {
+        const eth = (colorMap[item.regime] || '').toLowerCase();
         return ETH_CLASS[eth] || 'eth-default';
       }
       return item.regime ? 'eth-default' : (item.label ? 'eth-indigenous' : 'eth-default');
@@ -351,7 +351,7 @@
     function innerHtml(item, noteClass) {
       const label = item.label || item.regime || '';
       const body  = item.regime
-        ? `<a href="../regime/index.html?id=${item.regime}" title="${item.regime}">${label}</a>`
+        ? `<a href="/regime/?id=${item.regime}" title="${item.regime}">${label}</a>`
         : (label || '—');
       return body + (item.note ? `<span class="${noteClass}">${item.note}</span>` : '');
     }
@@ -364,15 +364,6 @@
       const contentCols = panel.columns.filter(c => c.type !== 'era');
       const totalSlots  = contentCols.reduce((s, c) => s + c.slots, 0);
       const eraOff      = eraCol ? 1 : 0;   // grid column offset for era col
-
-      // Pre-resolve all regime colors in one pass
-      const ids = panel.rows
-        .flatMap(r => r.cells || [])
-        .flatMap(c => c.stack ? c.stack.map(s => s.regime)
-                    : c.split ? c.split.map(s => s.regime)
-                    : [c.regime])
-        .filter(Boolean);
-      await Promise.all([...new Set(ids)].map(getRegimeColor));
 
       // Era-start rows → draw separator border
       let prevEra = null;
@@ -446,7 +437,7 @@
             const label = cell.label || cell.regime || '';
             const cls   = colorOf(cell);
             const body  = cell.regime
-              ? `<a href="../regime/index.html?id=${cell.regime}" title="${cell.regime}">${label}</a>`
+              ? `<a href="/regime/?id=${cell.regime}" title="${cell.regime}">${label}</a>`
               : (label || '—');
             html += `<div class="grid-cell ${label ? cls : 'empty'} ${sep}" style="${pos}">${body}</div>`;
           }
@@ -477,6 +468,7 @@
       { name: 'South Asia', panels: [
         { id: 'south_asia/india',      label: 'India'    },
         { id: 'south_asia/pakistan',    label: 'Pakistan' },
+        { id: 'south_asia/sri_lanka',  label: 'Sri Lanka' },
       ]},
       { name: 'Central Asia & Persia', panels: [
         { id: 'persia_central_asia/iran',    label: 'Iran'          },
@@ -493,23 +485,49 @@
         { id: 'middle_east/levant',    label: 'Levant'    },
         { id: 'middle_east/egypt',     label: 'Egypt'     },
         { id: 'middle_east/arabia',    label: 'Arabia'    },
+        { id: 'middle_east/yemen',     label: 'Yemen'     },
       ]},
-      { name: 'Europe', panels: [
+      { name: 'Western Europe', panels: [
+        { id: 'europe/britain_ireland',  label: 'Britain & Ireland' },
+        { id: 'europe/france',           label: 'France'        },
+        { id: 'europe/low_countries',    label: 'Low Countries' },
+        { id: 'europe/scandinavia',      label: 'Nordic Countries' },
         { id: 'europe/italy',            label: 'Italy'         },
         { id: 'europe/iberia',           label: 'Iberia'        },
+      ]},
+      { name: 'Central Europe', panels: [
+        { id: 'europe/germany',          label: 'Germany'       },
+        { id: 'europe/switzerland_austria', label: 'Switzerland & Austria' },
+        { id: 'europe/poland',           label: 'Poland'        },
+        { id: 'europe/czech_slovakia',   label: 'Czechia & Slovakia' },
         { id: 'europe/hungary',          label: 'Hungary'       },
+        { id: 'europe/slovenia',         label: 'Slovenia'      },
+      ]},
+      { name: 'Balkans', panels: [
         { id: 'europe/greece',           label: 'Greece'        },
         { id: 'europe/north_macedonia',  label: 'N. Macedonia'  },
         { id: 'europe/bulgaria',         label: 'Bulgaria'      },
-        { id: 'europe/serbia',           label: 'Serbia/Kosovo' },
+        { id: 'europe/serbia',           label: 'Serbia/Kosovo/Montenegro' },
         { id: 'europe/bosnia',           label: 'Bosnia'        },
         { id: 'europe/croatia',          label: 'Croatia'       },
         { id: 'europe/albania',          label: 'Albania'       },
-        { id: 'europe/slovenia',         label: 'Slovenia'      },
         { id: 'europe/romania',          label: 'Romania'       },
+      ]},
+      { name: 'Eastern Europe', panels: [
+        { id: 'europe/baltic',           label: 'Baltic States' },
         { id: 'europe/belarus',          label: 'Belarus'       },
         { id: 'europe/ukraine',          label: 'Ukraine'       },
         { id: 'europe/russia',           label: 'Russia'        },
+      ]},
+      { name: 'Southeast Asia', panels: [
+        { id: 'southeast_asia/vietnam',  label: 'Vietnam'      },
+        { id: 'southeast_asia/thailand_cambodia_laos', label: 'Thailand · Cambodia · Laos' },
+        { id: 'southeast_asia/myanmar',  label: 'Myanmar'      },
+        { id: 'southeast_asia/indonesia',  label: 'Indonesia'    },
+        { id: 'southeast_asia/malaysia_singapore_brunei', label: 'Malaysia · Singapore · Brunei' },
+      ]},
+      { name: 'West Africa', panels: [
+        { id: 'west_africa/west_africa', label: 'West Africa'   },
       ]},
       { name: 'North Africa', panels: [
         { id: 'middle_east/morocco',     label: 'Morocco'  },
@@ -549,7 +567,7 @@
       document.getElementById('panel-container').innerHTML = '<p id="loading">Loading...</p>';
       buildSelector(id);
       try {
-        const r = await fetch(`../data/history/${id}.json`);
+        const r = await fetch(`/api/panel/${id}`);
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         await renderPanel(await r.json());
       } catch (e) {
@@ -558,8 +576,11 @@
       }
     }
 
-    buildSelector(PANELS[0].id);
-    loadPanel(PANELS[0].id);
+    // Load color map once, then show first panel
+    loadColorMap().then(() => {
+      buildSelector(PANELS[0].id);
+      loadPanel(PANELS[0].id);
+    });
   </script>
 </div>
 </body>

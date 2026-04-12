@@ -1,0 +1,16 @@
+{
+  "id": "hamdanid_emirate",
+  "name": "Hamdanid Emirate",
+  "ruling_ethnicity": "arab",
+  "cultural_language": "arabic",
+  "ideology": {
+    "religion": "shia",
+    "government": "emirate"
+  },
+  "territories": [
+    "mesopotamia",
+    "levant"
+  ],
+  "start": 890,
+  "end": 1004
+}
