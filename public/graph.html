@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CivRegime - Succession Graph (Force)</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            overflow: hidden;
+        }
+
+        /* ── Top nav bar ── */
+        #topnav {
+            height: 40px;
+            background: #202020;
+            border-bottom: 1px solid #444;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            gap: 24px;
+            font-size: 13px;
+            flex-shrink: 0;
+        }
+
+        #topnav a {
+            color: #999;
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+
+        #topnav a:hover { color: #e0e0e0; }
+        #topnav a.active { color: #4a9eff; font-weight: 600; }
+
+        #topnav .brand {
+            color: #f6ad55;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            font-size: 14px;
+            margin-right: 12px;
+        }
+
+        /* ── Main layout ── */
+        #container {
+            display: flex;
+            height: calc(100vh - 40px);
+        }
+
+        #canvas {
+            flex: 1;
+            background: #1a1a1a;
+        }
+
+        /* ── Right sidebar ── */
+        #sidebar {
+            width: 350px;
+            background: #252525;
+            border-left: 1px solid #444;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            flex-shrink: 0;
+        }
+
+        .controls {
+            padding: 16px 20px;
+            border-bottom: 1px solid #444;
+        }
+
+        .control-group {
+            margin-bottom: 14px;
+        }
+
+        .control-group:last-child {
+            margin-bottom: 0;
+        }
+
+        label {
+            display: block;
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #999;
+            margin-bottom: 6px;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+        }
+
+        select, input[type="text"] {
+            width: 100%;
+            padding: 7px 10px;
+            background: #333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+
+        select:focus, input:focus {
+            outline: none;
+            border-color: #4a9eff;
+            box-shadow: 0 0 4px rgba(74, 158, 255, 0.3);
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 5px 10px;
+            background: #333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 11px;
+            transition: all 0.15s;
+        }
+
+        .filter-btn.active {
+            background: #4a9eff;
+            border-color: #4a9eff;
+            color: #fff;
+        }
+
+        .filter-btn:hover {
+            border-color: #666;
+        }
+
+        /* ── Legend ── */
+        .legend-section {
+            padding: 14px 20px;
+            border-bottom: 1px solid #444;
+        }
+
+        .legend-section .section-title {
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #999;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            margin-bottom: 10px;
+        }
+
+        .legend-block {
+            background: #2a2a2a;
+            border-radius: 4px;
+            padding: 10px 12px;
+            margin-bottom: 10px;
+        }
+
+        .legend-block:last-child { margin-bottom: 0; }
+
+        .legend-block-title {
+            font-size: 10px;
+            text-transform: uppercase;
+            color: #777;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+            font-size: 12px;
+            color: #ccc;
+        }
+
+        .legend-item:last-child { margin-bottom: 0; }
+
+        .legend-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 8px;
+            flex-shrink: 0;
+        }
+
+        .legend-line {
+            width: 20px;
+            height: 2px;
+            margin-right: 8px;
+            border-radius: 1px;
+            flex-shrink: 0;
+        }
+
+        /* ── Stats ── */
+        .stats {
+            padding: 14px 20px;
+            border-bottom: 1px solid #444;
+        }
+
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 6px 0;
+            border-bottom: 1px solid #333;
+            font-size: 12px;
+        }
+
+        .stat-item:last-child { border-bottom: none; }
+        .stat-label { color: #999; }
+
+        .stat-value {
+            font-weight: 600;
+            color: #e0e0e0;
+        }
+
+        .stat-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 2px;
+            margin-right: 6px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        /* ── Details panel ── */
+        .details {
+            flex: 1;
+            padding: 14px 20px;
+            overflow-y: auto;
+        }
+
+        .no-selection {
+            color: #666;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .detail-section {
+            margin-bottom: 16px;
+        }
+
+        .detail-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #4a9eff;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            border-bottom: 1px solid #444;
+            padding-bottom: 6px;
+        }
+
+        .detail-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            font-size: 12px;
+            border-bottom: 1px solid #333;
+        }
+
+        .detail-item:last-child { border-bottom: none; }
+        .detail-label { color: #999; }
+
+        .detail-value {
+            color: #e0e0e0;
+            font-weight: 500;
+        }
+
+        /* ── D3 graph elements ── */
+        .node-circle {
+            stroke: #1a1a1a;
+            stroke-width: 1.5px;
+            cursor: pointer;
+            transition: stroke-width 0.1s;
+        }
+
+        .node-circle:hover {
+            stroke: #fff;
+            stroke-width: 3px;
+        }
+
+        .node-circle.selected {
+            stroke: #fff;
+            stroke-width: 3px;
+        }
+
+        .node-circle.dimmed { opacity: 0.08; }
+        .link-line.dimmed { opacity: 0.02; }
+        .node-label.dimmed { opacity: 0; }
+
+        .node-label {
+            font-size: 9px;
+            pointer-events: none;
+            text-anchor: middle;
+            fill: #ccc;
+            paint-order: stroke;
+            stroke: #1a1a1a;
+            stroke-width: 3px;
+            stroke-linejoin: round;
+        }
+
+        .link-line {
+            pointer-events: none;
+        }
+
+        .link-line.highlighted {
+            opacity: 0.9 !important;
+            stroke-width: 3px !important;
+        }
+
+        /* ── Tooltip ── */
+        .tooltip {
+            position: absolute;
+            background: #2a2a2a;
+            color: #e0e0e0;
+            padding: 10px 14px;
+            border-radius: 4px;
+            font-size: 12px;
+            border: 1px solid #555;
+            pointer-events: none;
+            z-index: 1000;
+            max-width: 280px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+            line-height: 1.5;
+        }
+
+        .tooltip strong {
+            color: #fff;
+            font-size: 13px;
+        }
+
+        .tooltip .tt-row {
+            margin-top: 3px;
+            color: #bbb;
+        }
+
+        .tooltip .tt-label {
+            color: #888;
+        }
+
+        /* ── Loading ── */
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: calc((100% - 350px) / 2);
+            transform: translate(-50%, -50%);
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top navigation -->
+    <nav id="topnav">
+        <span class="brand">CivRegime</span>
+        <a href="/graph.html" class="active">Graph</a>
+        <a href="/regime/">Polity</a>
+        <a href="/religion/">Religion</a>
+        <a href="/language/">Language</a>
+        <a href="/ethnicity/">Ethnicity</a>
+        <a href="/territory/">Territory</a>
+        <a href="/history/">History</a>
+    </nav>
+
+    <div id="container">
+        <svg id="canvas"></svg>
+
+        <div id="sidebar">
+            <!-- Controls -->
+            <div class="controls">
+                <div class="control-group">
+                    <label>Search Polity</label>
+                    <input type="text" id="searchInput" placeholder="Type to search...">
+                </div>
+
+                <div class="control-group">
+                    <label>Territorial Direction</label>
+                    <div class="filter-buttons" id="directionFilters">
+                        <button class="filter-btn active" data-type="same">Same</button>
+                        <button class="filter-btn active" data-type="expansion">Expansion</button>
+                        <button class="filter-btn active" data-type="contraction">Contraction</button>
+                        <button class="filter-btn active" data-type="displacement">Displacement</button>
+                        <button class="filter-btn active" data-type="unknown">Unknown</button>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>View Mode</label>
+                    <select id="viewMode">
+                        <option value="all">All Successions</option>
+                        <option value="successors">Successors Only</option>
+                        <option value="predecessors">Predecessors Only</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label>Color By</label>
+                    <select id="colorMode">
+                        <option value="region">Territory / Region</option>
+                        <option value="religion">Religion</option>
+                        <option value="ethnicity">Ethnicity</option>
+                        <option value="government">Government Type</option>
+                        <option value="community">Community (auto-detected)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Legend -->
+            <div class="legend-section">
+                <div class="section-title">Legend</div>
+                <div class="legend-block" id="nodeLegend"></div>
+                <div class="legend-block">
+                    <div class="legend-block-title">Edge Color (Direction)</div>
+                    <div class="legend-item"><span class="legend-line" style="background:#4ade80"></span>Same</div>
+                    <div class="legend-item"><span class="legend-line" style="background:#60a5fa"></span>Expansion</div>
+                    <div class="legend-item"><span class="legend-line" style="background:#facc15"></span>Contraction</div>
+                    <div class="legend-item"><span class="legend-line" style="background:#fb923c"></span>Displacement</div>
+                    <div class="legend-item"><span class="legend-line" style="background:#718096"></span>Unknown</div>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats" id="statsSection">
+                <div class="section-title" style="font-size:11px;text-transform:uppercase;color:#999;font-weight:600;letter-spacing:0.04em;margin-bottom:10px;">Stats</div>
+                <div id="statsContainer"></div>
+            </div>
+
+            <!-- Details panel -->
+            <div class="details">
+                <div id="detailsContainer" class="no-selection">Click a node to view details.</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="loading">Loading graph data...</div>
+    <div id="tooltip" class="tooltip" style="display:none;"></div>
+
+    <script>
+    // ───────────────────────────────────────
+    // Constants
+    // ───────────────────────────────────────
+    const EDGE_COLORS = {
+        same:         '#4ade80',
+        expansion:    '#60a5fa',
+        contraction:  '#facc15',
+        displacement: '#fb923c',
+        unknown:      '#718096',
+    };
+
+    const REGION_COLORS = {
+        'Middle East':  '#e07c5a',
+        'Central Asia': '#c084fc',
+        'East Asia':    '#f472b6',
+        'South Asia':   '#fb923c',
+        'Europe':       '#60a5fa',
+        'Africa':       '#4ade80',
+        'Americas':     '#facc15',
+        'Unknown':      '#718096',
+    };
+
+    // ── Categorical color palettes ──
+    const RELIGION_COLORS = {
+        'sunni':            '#2dd4bf', 'sunni_hanafi':     '#2dd4bf', 'sunni_shafi':      '#2dd4bf',
+        'sunni_islam':      '#2dd4bf', 'shia':             '#14b8a6', 'twelver_shia':     '#14b8a6',
+        'ismaili_shia':     '#14b8a6',
+        'catholic':         '#818cf8', 'roman_catholicism':'#818cf8',
+        'eastern_orthodox': '#a78bfa', 'protestant':       '#6366f1', 'lutheranism':      '#6366f1',
+        'buddhism':         '#fbbf24', 'vajrayana_buddhism':'#f59e0b',
+        'hinduism':         '#fb923c', 'confucianism':     '#f472b6', 'neo_confucianism': '#f472b6',
+        'neo_confucian_shinto':'#ec4899',
+        'zoroastrianism':   '#34d399', 'tengrism':         '#a3e635',
+        'shinto_buddhism':  '#ec4899', 'state_shinto':     '#ec4899',
+        'judaism':          '#60a5fa', 'rabbinic_judaism': '#60a5fa',
+        'indigenous_american_traditions':'#84cc16',
+        'aztec_religion':   '#84cc16', 'maya_religion':    '#84cc16', 'inca_religion':    '#84cc16',
+    };
+    const RELIGION_FALLBACK = '#718096';
+
+    const GOVERNMENT_COLORS = {
+        'imperial_monarchy':    '#ef4444', 'divine_monarchy':      '#ef4444',
+        'monarchy':             '#f97316', 'constitutional_monarchy':'#f97316',
+        'feudal_monarchy':      '#f97316',
+        'sultanate':            '#f59e0b', 'caliphate':            '#eab308',
+        'theocratic_caliphate': '#eab308', 'theocratic_monarchy':  '#eab308',
+        'republic':             '#22c55e', 'democratic_republic':  '#22c55e',
+        'city_state':           '#06b6d4',
+        'khaganate':            '#c084fc', 'tribal_confederation': '#a78bfa',
+        'colonial_administration':'#94a3b8',
+        'communist_state':      '#dc2626',
+        'principality':         '#fb923c', 'emirate':              '#f59e0b',
+    };
+    const GOVERNMENT_FALLBACK = '#718096';
+
+    // Dynamic hashing for ethnicity (too many to enumerate)
+    const ETHNICITY_PALETTE = [
+        '#ef4444','#f97316','#f59e0b','#eab308','#84cc16','#22c55e',
+        '#14b8a6','#06b6d4','#3b82f6','#6366f1','#8b5cf6','#a855f7',
+        '#d946ef','#ec4899','#f43f5e','#fb7185','#fdba74','#fde047',
+        '#a3e635','#4ade80','#2dd4bf','#38bdf8','#818cf8','#c084fc',
+    ];
+    const ethColorCache = {};
+    function getEthnicityColor(eth) {
+        if (!eth) return '#718096';
+        if (ethColorCache[eth]) return ethColorCache[eth];
+        let hash = 0;
+        for (let i = 0; i < eth.length; i++) hash = ((hash << 5) - hash + eth.charCodeAt(i)) | 0;
+        ethColorCache[eth] = ETHNICITY_PALETTE[Math.abs(hash) % ETHNICITY_PALETTE.length];
+        return ethColorCache[eth];
+    }
+
+    // ── Louvain community detection ──
+    // Discovers natural clusters from succession graph structure alone
+    const COMMUNITY_PALETTE = [
+        '#ef4444','#f97316','#eab308','#22c55e','#14b8a6','#06b6d4',
+        '#3b82f6','#6366f1','#a855f7','#ec4899','#f43f5e','#84cc16',
+        '#fb923c','#fbbf24','#4ade80','#2dd4bf','#38bdf8','#818cf8',
+        '#c084fc','#f472b6','#fdba74','#fde047','#a3e635','#fb7185',
+    ];
+
+    function louvainCommunities(nodeIds, edges) {
+        // Initialize: each node in its own community
+        const community = {};
+        nodeIds.forEach((id, i) => community[id] = i);
+
+        // Build adjacency with weights
+        const adj = {};
+        nodeIds.forEach(id => adj[id] = {});
+        let totalWeight = 0;
+        edges.forEach(e => {
+            const s = typeof e.source === 'object' ? e.source.id : e.source;
+            const t = typeof e.target === 'object' ? e.target.id : e.target;
+            if (!adj[s] || !adj[t]) return;
+            adj[s][t] = (adj[s][t] || 0) + 1;
+            adj[t][s] = (adj[t][s] || 0) + 1;
+            totalWeight += 2;
+        });
+
+        // Degree (sum of edge weights)
+        const degree = {};
+        nodeIds.forEach(id => {
+            degree[id] = Object.values(adj[id]).reduce((a, b) => a + b, 0);
+        });
+
+        const m2 = totalWeight; // 2 * total edges
+
+        if (m2 === 0) {
+            nodeIds.forEach((id, i) => community[id] = 0);
+            return community;
+        }
+
+        // Iterate: try moving each node to neighbor's community
+        let improved = true;
+        let iterations = 0;
+        while (improved && iterations < 20) {
+            improved = false;
+            iterations++;
+            for (const node of nodeIds) {
+                const currentComm = community[node];
+
+                // Sum of weights to each neighboring community
+                const commWeights = {};
+                for (const [neighbor, w] of Object.entries(adj[node])) {
+                    const nc = community[neighbor];
+                    commWeights[nc] = (commWeights[nc] || 0) + w;
+                }
+
+                // Sum of degrees in each community
+                const commDegreeSum = {};
+                nodeIds.forEach(id => {
+                    const c = community[id];
+                    commDegreeSum[c] = (commDegreeSum[c] || 0) + degree[id];
+                });
+
+                // Current modularity contribution
+                const ki = degree[node];
+                let bestComm = currentComm;
+                let bestGain = 0;
+
+                // Weight to own community (excluding self-loops)
+                const wCurrent = commWeights[currentComm] || 0;
+                const sigmaCurrent = commDegreeSum[currentComm] - ki;
+
+                for (const [comm, wComm] of Object.entries(commWeights)) {
+                    const c = parseInt(comm) || comm;
+                    if (c === currentComm) continue;
+                    const sigmaC = commDegreeSum[c] || 0;
+
+                    // Modularity gain of moving node to community c
+                    const gain = (wComm - wCurrent) / m2
+                        - ki * (sigmaC - sigmaCurrent) / (m2 * m2);
+
+                    if (gain > bestGain) {
+                        bestGain = gain;
+                        bestComm = c;
+                    }
+                }
+
+                if (bestComm !== currentComm) {
+                    community[node] = bestComm;
+                    improved = true;
+                }
+            }
+        }
+
+        // Renumber communities 0..N-1 sorted by size (largest = 0)
+        const commCounts = {};
+        nodeIds.forEach(id => {
+            commCounts[community[id]] = (commCounts[community[id]] || 0) + 1;
+        });
+        const sorted = Object.entries(commCounts).sort((a, b) => b[1] - a[1]);
+        const remap = {};
+        sorted.forEach(([c, _], i) => remap[c] = i);
+        nodeIds.forEach(id => community[id] = remap[community[id]]);
+
+        return community;
+    }
+
+    // Color-by accessor
+    function getNodeColor(node, mode) {
+        switch (mode) {
+            case 'religion':
+                return RELIGION_COLORS[node.religion] || RELIGION_FALLBACK;
+            case 'ethnicity':
+                return getEthnicityColor(node.ethnicity);
+            case 'government':
+                return GOVERNMENT_COLORS[node.government] || GOVERNMENT_FALLBACK;
+            case 'community':
+                return COMMUNITY_PALETTE[node.community % COMMUNITY_PALETTE.length] || '#718096';
+            default: // region
+                return REGION_COLORS[node.region] || REGION_COLORS['Unknown'];
+        }
+    }
+
+    // Build legend for current mode
+    function buildNodeLegend(mode, nodes) {
+        const container = document.getElementById('nodeLegend');
+        let entries;
+        if (mode === 'region') {
+            entries = Object.entries(REGION_COLORS);
+        } else if (mode === 'community') {
+            // Group nodes by community, show top communities with member names
+            const commNodes = {};
+            nodes.forEach(n => {
+                const c = n.community ?? 0;
+                if (!commNodes[c]) commNodes[c] = [];
+                commNodes[c].push(n.name);
+            });
+            const sorted = Object.entries(commNodes)
+                .sort((a, b) => b[1].length - a[1].length)
+                .slice(0, 15);
+            entries = sorted.map(([c, members]) => {
+                const color = COMMUNITY_PALETTE[parseInt(c) % COMMUNITY_PALETTE.length];
+                const sample = members.slice(0, 3).join(', ') + (members.length > 3 ? '...' : '');
+                return [`#${parseInt(c)+1} (${members.length}) ${sample}`, color];
+            });
+        } else {
+            const counts = {};
+            nodes.forEach(n => {
+                const val = n[mode] || 'unknown';
+                counts[val] = (counts[val] || 0) + 1;
+            });
+            const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 15);
+            if (mode === 'religion') {
+                entries = sorted.map(([k, c]) => [k, RELIGION_COLORS[k] || RELIGION_FALLBACK]);
+            } else if (mode === 'government') {
+                entries = sorted.map(([k, c]) => [k, GOVERNMENT_COLORS[k] || GOVERNMENT_FALLBACK]);
+            } else {
+                entries = sorted.map(([k, c]) => [k, getEthnicityColor(k)]);
+            }
+        }
+        const title = {
+            region: 'Macro-Region', religion: 'Religion', ethnicity: 'Ethnicity',
+            government: 'Government', community: 'Community (Louvain)'
+        }[mode];
+        container.innerHTML = `<div class="legend-block-title">Node Color (${title})</div>`
+            + entries.map(([label, color]) =>
+                `<div class="legend-item"><span class="legend-dot" style="background:${color}"></span><span style="font-size:11px">${label.replace(/_/g, ' ')}</span></div>`
+            ).join('');
+    }
+
+    // Territory -> macro-region mapping
+    const TERRITORY_REGION = {};
+    const mappings = {
+        'Middle East': [
+            'mesopotamia','levant','anatolia','egypt','arabia',
+            'iran_plateau','caucasus','khorasan',
+        ],
+        'Central Asia': [
+            'central_asian_steppe','transoxiana','mongolian_plateau','manchuria',
+        ],
+        'East Asia': [
+            'yellow_river','yangtze','korean_peninsula','japanese_archipelago',
+        ],
+        'South Asia': [
+            'ganges_plain','indus_valley','punjab','deccan',
+        ],
+        'Europe': [
+            'gaul','germany','italy','iberia','britannia','ireland','scotland',
+            'scandinavia','balkans','hungary','bohemia','poland','prussia',
+            'lithuania','kievan_rus','pontic_steppe',
+        ],
+        'Africa': [
+            'north_africa','nubia',
+        ],
+        'Americas': [
+            'mesoamerica','caribbean','andes','amazonia','patagonia',
+            'us_east','us_south','us_midwest','us_west','alaska','hawaii',
+            'quebec','atlantic_canada','western_canada',
+        ],
+    };
+    for (const [region, territories] of Object.entries(mappings)) {
+        for (const t of territories) TERRITORY_REGION[t] = region;
+    }
+
+    function getMacroRegion(polityData) {
+        if (!polityData) return 'Unknown';
+        // Check territory field (could be array or string)
+        const terr = polityData.territory || polityData.territories || [];
+        const terrArray = Array.isArray(terr) ? terr : [terr];
+        for (const t of terrArray) {
+            if (TERRITORY_REGION[t]) return TERRITORY_REGION[t];
+        }
+        // Fallback: check capital_territory or primary_territory
+        if (polityData.capital_territory && TERRITORY_REGION[polityData.capital_territory]) {
+            return TERRITORY_REGION[polityData.capital_territory];
+        }
+        return 'Unknown';
+    }
+
+    // Macro-region target positions (fractions of viewport)
+    const REGION_POSITIONS = {
+        'Middle East':  { fx: 0.30, fy: 0.50 },
+        'Central Asia': { fx: 0.50, fy: 0.20 },
+        'East Asia':    { fx: 0.75, fy: 0.20 },
+        'South Asia':   { fx: 0.80, fy: 0.50 },
+        'Europe':       { fx: 0.20, fy: 0.35 },
+        'Africa':       { fx: 0.25, fy: 0.75 },
+        'Americas':     { fx: 0.75, fy: 0.75 },
+        'Unknown':      { fx: 0.50, fy: 0.50 },
+    };
+
+    // ───────────────────────────────────────
+    // State
+    // ───────────────────────────────────────
+    let filteredTypes = new Set(['same', 'expansion', 'contraction', 'displacement', 'unknown']);
+    let selectedNode = null;
+    let currentZoomK = 1;
+
+    // ───────────────────────────────────────
+    // Data loading
+    // ───────────────────────────────────────
+    Promise.all([
+        fetch('/api/polity').then(r => r.json()),
+        fetch('/api/succession').then(r => r.json()),
+    ]).then(([polities, successions]) => {
+        document.getElementById('loading').remove();
+        buildGraph(polities, successions);
+    }).catch(err => {
+        document.getElementById('loading').textContent = 'Error loading data: ' + err.message;
+        console.error('Data load error:', err);
+    });
+
+    // ───────────────────────────────────────
+    // Graph builder
+    // ───────────────────────────────────────
+    function buildGraph(polities, successions) {
+        const sidebarW = 350;
+        const navH = 40;
+        let width = window.innerWidth - sidebarW;
+        let height = window.innerHeight - navH;
+
+        const polityMap = new Map(polities.map(p => [p.id, p]));
+
+        // Build node & link data
+        const nodeMap = new Map();
+        const links = [];
+
+        function ensureNode(id, name) {
+            if (!nodeMap.has(id)) {
+                const p = polityMap.get(id);
+                const region = getMacroRegion(p);
+                nodeMap.set(id, {
+                    id,
+                    name: name || (p ? p.name : id),
+                    region,
+                    religion: p?.ideology?.religion || null,
+                    ethnicity: p?.ruling_ethnicity || null,
+                    government: p?.government || null,
+                    start_year: p ? p.start : null,
+                    end_year: p ? p.end : null,
+                    territory: p ? (p.territory || p.territories || []) : [],
+                    successors: [],
+                    predecessors: [],
+                });
+            }
+            return nodeMap.get(id);
+        }
+
+        successions.forEach(s => {
+            const fromName = polityMap.get(s.from)?.name || s.from;
+            const toName = polityMap.get(s.to)?.name || s.to;
+            const fromNode = ensureNode(s.from, fromName);
+            const toNode = ensureNode(s.to, toName);
+
+            fromNode.successors.push(s.to);
+            toNode.predecessors.push(s.from);
+
+            links.push({
+                source: s.from,
+                target: s.to,
+                territorial_direction: s.territorial_direction || 'unknown',
+                shared_territories: s.shared_territories || [],
+                temporal_gap_years: s.temporal_gap_years,
+            });
+        });
+
+        const nodes = Array.from(nodeMap.values());
+
+        // Precompute degree
+        nodes.forEach(n => {
+            n.degree = n.successors.length + n.predecessors.length;
+            n.radius = Math.max(5, Math.min(20, 4 + n.degree * 1.5));
+        });
+
+        // ── Louvain community detection ──
+        const communityMap = louvainCommunities(nodes.map(n => n.id), links);
+        nodes.forEach(n => n.community = communityMap[n.id]);
+        const numCommunities = new Set(Object.values(communityMap)).size;
+        console.log(`Louvain: ${numCommunities} communities detected`);
+
+        // ── SVG setup ──
+        const svg = d3.select('#canvas')
+            .attr('width', width)
+            .attr('height', height);
+
+        // Zoom container
+        const g = svg.append('g');
+
+        const zoomBehavior = d3.zoom()
+            .scaleExtent([0.1, 8])
+            .on('zoom', (event) => {
+                g.attr('transform', event.transform);
+                currentZoomK = event.transform.k;
+                updateLabelVisibility();
+            });
+
+        svg.call(zoomBehavior);
+
+        // ── Links ──
+        const linkGroup = g.append('g').attr('class', 'links');
+        const linkElements = linkGroup.selectAll('line')
+            .data(links)
+            .join('line')
+            .attr('class', 'link-line')
+            .attr('stroke', d => EDGE_COLORS[d.territorial_direction] || EDGE_COLORS.unknown)
+            .attr('stroke-width', 1.5)
+            .attr('opacity', 0.3);
+
+        // ── Nodes ──
+        const nodeGroup = g.append('g').attr('class', 'nodes');
+        const nodeElements = nodeGroup.selectAll('circle')
+            .data(nodes)
+            .join('circle')
+            .attr('class', 'node-circle')
+            .attr('r', d => d.radius)
+            .attr('fill', d => getNodeColor(d, 'region'));
+
+        // ── Labels ──
+        const labelGroup = g.append('g').attr('class', 'labels');
+        const labelElements = labelGroup.selectAll('text')
+            .data(nodes)
+            .join('text')
+            .attr('class', 'node-label')
+            .attr('dy', d => d.radius + 12)
+            .text(d => d.name.length > 12 ? d.name.substring(0, 12) + '...' : d.name);
+
+        // Initial label visibility (degree >= 3)
+        function updateLabelVisibility() {
+            const threshold = currentZoomK > 2.5 ? 1 : currentZoomK > 1.5 ? 2 : 3;
+            labelElements.attr('display', d => d.degree >= threshold ? null : 'none');
+        }
+        updateLabelVisibility();
+
+        // ── Force simulation ──
+        const simulation = d3.forceSimulation(nodes)
+            .force('link', d3.forceLink(links)
+                .id(d => d.id)
+                .distance(50)
+                .strength(0.2))
+            .force('charge', d3.forceManyBody().strength(-150))
+            .force('center', d3.forceCenter(width / 2, height / 2).strength(0.05))
+            .force('x', d3.forceX(d => {
+                const pos = REGION_POSITIONS[d.region] || REGION_POSITIONS['Unknown'];
+                return pos.fx * width;
+            }).strength(0.15))
+            .force('y', d3.forceY(d => {
+                const pos = REGION_POSITIONS[d.region] || REGION_POSITIONS['Unknown'];
+                return pos.fy * height;
+            }).strength(0.15))
+            .force('collision', d3.forceCollide().radius(d => d.radius + 2));
+
+        simulation.on('tick', () => {
+            linkElements
+                .attr('x1', d => d.source.x)
+                .attr('y1', d => d.source.y)
+                .attr('x2', d => d.target.x)
+                .attr('y2', d => d.target.y);
+
+            nodeElements
+                .attr('cx', d => d.x)
+                .attr('cy', d => d.y);
+
+            labelElements
+                .attr('x', d => d.x)
+                .attr('y', d => d.y);
+        });
+
+        // ── Drag ──
+        const dragHandler = d3.drag()
+            .on('start', (event, d) => {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            })
+            .on('drag', (event, d) => {
+                d.fx = event.x;
+                d.fy = event.y;
+            })
+            .on('end', (event, d) => {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            });
+
+        nodeElements.call(dragHandler);
+
+        // ── Tooltip ──
+        const tooltip = document.getElementById('tooltip');
+
+        nodeElements
+            .on('mouseenter', (event, d) => {
+                const terrDisplay = Array.isArray(d.territory)
+                    ? d.territory.join(', ')
+                    : (d.territory || 'unknown');
+                const years = (d.start_year != null ? d.start_year : '?')
+                    + ' - ' + (d.end_year != null ? d.end_year : '?');
+
+                tooltip.innerHTML = `
+                    <strong>${d.name}</strong>
+                    <div class="tt-row"><span class="tt-label">Years:</span> ${years}</div>
+                    <div class="tt-row"><span class="tt-label">Territory:</span> ${terrDisplay}</div>
+                    <div class="tt-row"><span class="tt-label">Region:</span> ${d.region}</div>
+                    <div class="tt-row"><span class="tt-label">Degree:</span> ${d.degree} (${d.predecessors.length} pred, ${d.successors.length} succ)</div>
+                `;
+                tooltip.style.display = 'block';
+            })
+            .on('mousemove', (event) => {
+                tooltip.style.left = (event.pageX + 14) + 'px';
+                tooltip.style.top = (event.pageY - 10) + 'px';
+            })
+            .on('mouseleave', () => {
+                tooltip.style.display = 'none';
+            });
+
+        // ── Click: highlight node + neighbors ──
+        nodeElements.on('click', (event, d) => {
+            event.stopPropagation();
+
+            if (selectedNode === d) {
+                // Deselect
+                clearSelection();
+                return;
+            }
+
+            selectedNode = d;
+
+            const neighborIds = new Set([d.id, ...d.successors, ...d.predecessors]);
+
+            nodeElements
+                .classed('selected', n => n === d)
+                .classed('dimmed', n => !neighborIds.has(n.id));
+
+            linkElements
+                .classed('dimmed', l => l.source.id !== d.id && l.target.id !== d.id)
+                .classed('highlighted', l => l.source.id === d.id || l.target.id === d.id);
+
+            labelElements
+                .classed('dimmed', n => !neighborIds.has(n.id));
+
+            showDetails(d);
+        });
+
+        // Click background to clear
+        svg.on('click', () => {
+            clearSelection();
+        });
+
+        function clearSelection() {
+            selectedNode = null;
+            nodeElements.classed('selected', false).classed('dimmed', false);
+            linkElements.classed('dimmed', false).classed('highlighted', false);
+            labelElements.classed('dimmed', false);
+            updateLabelVisibility();
+            applyFilters();
+            document.getElementById('detailsContainer').innerHTML =
+                '<span class="no-selection">Click a node to view details.</span>';
+        }
+
+        // ── Details panel ──
+        function showDetails(d) {
+            const succEdges = links.filter(l =>
+                (typeof l.source === 'object' ? l.source.id : l.source) === d.id);
+            const predEdges = links.filter(l =>
+                (typeof l.target === 'object' ? l.target.id : l.target) === d.id);
+
+            const years = (d.start_year != null ? d.start_year : '?')
+                + ' \u2013 ' + (d.end_year != null ? d.end_year : '?');
+            const terrDisplay = Array.isArray(d.territory)
+                ? d.territory.join(', ') : (d.territory || 'unknown');
+
+            let html = `
+                <div class="detail-section">
+                    <div class="detail-title">${d.name}</div>
+                    <div class="detail-item">
+                        <span class="detail-label">Years</span>
+                        <span class="detail-value">${years}</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Region</span>
+                        <span class="detail-value" style="color:${REGION_COLORS[d.region]}">${d.region}</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Territory</span>
+                        <span class="detail-value">${terrDisplay}</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Degree</span>
+                        <span class="detail-value">${d.degree}</span>
+                    </div>
+                </div>
+            `;
+
+            if (succEdges.length > 0) {
+                html += `<div class="detail-section"><div class="detail-title">Successors (${succEdges.length})</div>`;
+                succEdges.forEach(e => {
+                    const targetNode = typeof e.target === 'object' ? e.target : nodeMap.get(e.target);
+                    const dir = e.territorial_direction;
+                    html += `
+                        <div class="detail-item">
+                            <span class="detail-label">${targetNode.name}</span>
+                            <span class="detail-value" style="color:${EDGE_COLORS[dir]}">${dir}</span>
+                        </div>`;
+                });
+                html += `</div>`;
+            }
+
+            if (predEdges.length > 0) {
+                html += `<div class="detail-section"><div class="detail-title">Predecessors (${predEdges.length})</div>`;
+                predEdges.forEach(e => {
+                    const sourceNode = typeof e.source === 'object' ? e.source : nodeMap.get(e.source);
+                    const dir = e.territorial_direction;
+                    html += `
+                        <div class="detail-item">
+                            <span class="detail-label">${sourceNode.name}</span>
+                            <span class="detail-value" style="color:${EDGE_COLORS[dir]}">${dir}</span>
+                        </div>`;
+                });
+                html += `</div>`;
+            }
+
+            document.getElementById('detailsContainer').innerHTML = html;
+        }
+
+        // ── Filtering ──
+        function applyFilters() {
+            const viewMode = document.getElementById('viewMode').value;
+            const searchQuery = document.getElementById('searchInput').value.toLowerCase();
+
+            // Edge visibility by direction type
+            linkElements.attr('display', d =>
+                filteredTypes.has(d.territorial_direction) ? null : 'none');
+
+            // Determine which nodes to show/dim based on search
+            if (searchQuery) {
+                const matchIds = new Set();
+                nodes.forEach(n => {
+                    if (n.name.toLowerCase().includes(searchQuery)) matchIds.add(n.id);
+                });
+
+                nodeElements
+                    .classed('dimmed', d => !matchIds.has(d.id))
+                    .attr('display', null);
+                labelElements
+                    .classed('dimmed', d => !matchIds.has(d.id));
+                // Show labels for matched regardless of degree
+                labelElements.attr('display', d => matchIds.has(d.id) ? null : 'none');
+            } else if (!selectedNode) {
+                nodeElements.classed('dimmed', false).attr('display', null);
+                labelElements.classed('dimmed', false);
+                updateLabelVisibility();
+            }
+
+            // View mode filtering (only when a node is selected)
+            if (selectedNode && !searchQuery) {
+                const d = selectedNode;
+                const neighborIds = new Set([d.id]);
+                if (viewMode === 'all' || viewMode === 'successors') {
+                    d.successors.forEach(id => neighborIds.add(id));
+                }
+                if (viewMode === 'all' || viewMode === 'predecessors') {
+                    d.predecessors.forEach(id => neighborIds.add(id));
+                }
+
+                nodeElements.classed('dimmed', n => !neighborIds.has(n.id));
+                labelElements.classed('dimmed', n => !neighborIds.has(n.id));
+
+                linkElements
+                    .classed('dimmed', l => {
+                        if (viewMode === 'successors') return l.source.id !== d.id;
+                        if (viewMode === 'predecessors') return l.target.id !== d.id;
+                        return l.source.id !== d.id && l.target.id !== d.id;
+                    })
+                    .classed('highlighted', l => {
+                        if (viewMode === 'successors') return l.source.id === d.id;
+                        if (viewMode === 'predecessors') return l.target.id === d.id;
+                        return l.source.id === d.id || l.target.id === d.id;
+                    });
+            }
+        }
+
+        // ── Event wiring ──
+        // Direction filter buttons
+        document.querySelectorAll('#directionFilters .filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const type = btn.dataset.type;
+                btn.classList.toggle('active');
+                if (btn.classList.contains('active')) {
+                    filteredTypes.add(type);
+                } else {
+                    filteredTypes.delete(type);
+                }
+                applyFilters();
+            });
+        });
+
+        // Search input
+        document.getElementById('searchInput').addEventListener('input', () => {
+            if (selectedNode) clearSelection();
+            applyFilters();
+        });
+
+        // View mode
+        document.getElementById('viewMode').addEventListener('change', () => {
+            applyFilters();
+        });
+
+        // Color mode
+        buildNodeLegend('region', nodes);
+        document.getElementById('colorMode').addEventListener('change', () => {
+            const mode = document.getElementById('colorMode').value;
+            nodeElements.transition().duration(400)
+                .attr('fill', d => getNodeColor(d, mode));
+            buildNodeLegend(mode, nodes);
+        });
+
+        // ── Stats ──
+        const byType = successions.reduce((acc, s) => {
+            const dir = s.territorial_direction || 'unknown';
+            acc[dir] = (acc[dir] || 0) + 1;
+            return acc;
+        }, {});
+
+        let statsHtml = `
+            <div class="stat-item">
+                <span class="stat-label">Nodes</span>
+                <span class="stat-value">${nodes.length}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Edges</span>
+                <span class="stat-value">${links.length}</span>
+            </div>
+        `;
+        for (const [dir, count] of Object.entries(byType)) {
+            statsHtml += `
+                <div class="stat-item">
+                    <span class="stat-label">
+                        <span class="stat-dot" style="background:${EDGE_COLORS[dir] || '#718096'}"></span>
+                        ${dir}
+                    </span>
+                    <span class="stat-value">${count}</span>
+                </div>`;
+        }
+
+        // Region distribution
+        const byRegion = {};
+        nodes.forEach(n => { byRegion[n.region] = (byRegion[n.region] || 0) + 1; });
+        for (const [region, count] of Object.entries(byRegion).sort((a, b) => b[1] - a[1])) {
+            statsHtml += `
+                <div class="stat-item">
+                    <span class="stat-label">
+                        <span class="stat-dot" style="background:${REGION_COLORS[region] || '#718096'};border-radius:50%"></span>
+                        ${region}
+                    </span>
+                    <span class="stat-value">${count}</span>
+                </div>`;
+        }
+
+        document.getElementById('statsContainer').innerHTML = statsHtml;
+
+        // ── Window resize ──
+        window.addEventListener('resize', () => {
+            width = window.innerWidth - sidebarW;
+            height = window.innerHeight - navH;
+            svg.attr('width', width).attr('height', height);
+            simulation.force('center', d3.forceCenter(width / 2, height / 2).strength(0.05));
+            simulation.force('x', d3.forceX(d => {
+                const pos = REGION_POSITIONS[d.region] || REGION_POSITIONS['Unknown'];
+                return pos.fx * width;
+            }).strength(0.15));
+            simulation.force('y', d3.forceY(d => {
+                const pos = REGION_POSITIONS[d.region] || REGION_POSITIONS['Unknown'];
+                return pos.fy * height;
+            }).strength(0.15));
+            simulation.alpha(0.3).restart();
+        });
+    }
+    </script>
+</body>
+</html>
