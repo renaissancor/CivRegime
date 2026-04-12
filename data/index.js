@@ -82,10 +82,8 @@ const db = {
   languages:   loadTree(path.join(DATA, 'language')),
   ethnicities: loadTree(path.join(DATA, 'ethnicity')),
 
-  provinces: loadDir(path.join(DATA, 'province')),
-
-  // Lookup table — stays as single flat file
-  ideologies: loadJSON(path.join(DATA, 'ideologies.json')),
+  provinces: [],
+  ideologies: [],
 };
 
 // ── Tree query helper ─────────────────────────────────────────────────────────
