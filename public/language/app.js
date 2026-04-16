@@ -18,10 +18,16 @@ function rootColor(nodeId, allLanguages) {
 }
 
 async function init() {
-  const [languages, polities] = await Promise.all([
-    fetch('/api/taxonomy/language').then(r => r.json()),
-    fetch('/api/polity').then(r => r.json()),
-  ]);
+  let languages, polities;
+  try {
+    [languages, polities] = await Promise.all([
+      cachedFetch('/api/taxonomy/language'),
+      cachedFetch('/api/polity'),
+    ]);
+  } catch (err) {
+    showError('Failed to load language data');
+    return;
+  }
 
   // Map language id → regimes that use it as cultural_language
   const regimesByLang = new Map();

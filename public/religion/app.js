@@ -18,10 +18,16 @@ function rootColor(nodeId, allReligions) {
 }
 
 async function init() {
-  const [religions, polities] = await Promise.all([
-    fetch('/api/taxonomy/religion').then(r => r.json()),
-    fetch('/api/polity').then(r => r.json()),
-  ]);
+  let religions, polities;
+  try {
+    [religions, polities] = await Promise.all([
+      cachedFetch('/api/taxonomy/religion'),
+      cachedFetch('/api/polity'),
+    ]);
+  } catch (err) {
+    showError('Failed to load religion data');
+    return;
+  }
 
   // Map religion id → regimes that use it
   const regimesByRel = new Map();

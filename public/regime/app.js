@@ -8,7 +8,7 @@ let selectedRegimeId = null;
 let regimeById = {};
 
 // Load lightweight polity list for sidebar
-fetch('/api/polity').then(r => r.json()).then(polities => {
+cachedFetch('/api/polity').then(polities => {
   regimesData = polities;
   regimeById = {};
   regimesData.forEach(r => { regimeById[r.id] = r; });
@@ -20,8 +20,8 @@ fetch('/api/polity').then(r => r.json()).then(polities => {
   const params = new URLSearchParams(location.search);
   if (params.get('id')) selectRegime(params.get('id'));
 }).catch(err => {
-  console.error('Error loading data:', err);
-  document.getElementById('empty-state').textContent = 'Error loading data. Check console.';
+  showError('Failed to load polity data');
+  document.getElementById('empty-state').textContent = 'Error loading data.';
 });
 
 function renderRegimeList() {
@@ -111,9 +111,7 @@ async function renderRegimeDetails(regimeId) {
 
   let regime;
   try {
-    const r = await fetch(`/api/polity/${regimeId}`);
-    if (!r.ok) throw new Error('Not found');
-    regime = await r.json();
+    regime = await cachedFetch(`/api/polity/${regimeId}`);
   } catch {
     header.innerHTML = '<div id="empty-state">Regime not found</div>';
     return;

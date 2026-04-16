@@ -315,6 +315,8 @@
   <div id="panel-container"><p id="loading">Loading...</p></div>
 </div>
 
+  <script src="/shared/cache.js"></script>
+  <script src="/shared/errors.js"></script>
   <script>
     // ── Ethnicity → CSS class ─────────────────────────────────────────────────
     const ETH_CLASS = {
@@ -336,7 +338,7 @@
 
     async function loadColorMap() {
       try {
-        colorMap = await fetch('/api/polity/colors').then(r => r.json());
+        colorMap = await cachedFetch('/api/polity/colors');
       } catch { colorMap = {}; }
     }
 
@@ -578,10 +580,9 @@
       document.getElementById('panel-container').innerHTML = '<p id="loading">Loading...</p>';
       buildSelector(id);
       try {
-        const r = await fetch(`/api/panel/${id}`);
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        await renderPanel(await r.json());
+        await renderPanel(await cachedFetch(`/api/panel/${id}`));
       } catch (e) {
+        showError('Error loading panel: ' + e.message);
         document.getElementById('panel-container').innerHTML =
           `<p style="color:#fc8181">Error loading panel: ${e.message}</p>`;
       }

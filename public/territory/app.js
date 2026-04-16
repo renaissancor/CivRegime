@@ -38,11 +38,17 @@ let allSuccessions = [];
 let allTerritories = [];
 
 async function init() {
-  const [polities, successions, territories] = await Promise.all([
-    fetch('/api/polity').then(r => r.json()),
-    fetch('/api/succession').then(r => r.json()),
-    fetch('/api/territory').then(r => r.json()),
-  ]);
+  let polities, successions, territories;
+  try {
+    [polities, successions, territories] = await Promise.all([
+      cachedFetch('/api/polity'),
+      cachedFetch('/api/succession'),
+      cachedFetch('/api/territory'),
+    ]);
+  } catch (err) {
+    showError('Failed to load territory data');
+    return;
+  }
 
   allPolities = polities;
   polityById = {};

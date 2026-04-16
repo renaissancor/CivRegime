@@ -46,12 +46,18 @@ function buildEthClusters(ethnicities) {
 }
 
 async function init() {
-  const [regimes, successions, ethnicities, territories] = await Promise.all([
-    fetch('/api/polity').then(r => r.json()),
-    fetch('/api/succession').then(r => r.json()),
-    fetch('/api/taxonomy/ethnicity').then(r => r.json()),
-    fetch('/api/territory').then(r => r.json()),
-  ]);
+  let regimes, successions, ethnicities, territories;
+  try {
+    [regimes, successions, ethnicities, territories] = await Promise.all([
+      cachedFetch('/api/polity'),
+      cachedFetch('/api/succession'),
+      cachedFetch('/api/taxonomy/ethnicity'),
+      cachedFetch('/api/territory'),
+    ]);
+  } catch (err) {
+    showError('Failed to load graph data: ' + err.message);
+    return;
+  }
 
   const db = { regimes, successions, ethnicities, territories };
   const nodeById = new Map(regimes.map(r => [r.id, r]));

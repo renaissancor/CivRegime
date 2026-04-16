@@ -12,7 +12,9 @@
  *   7. Region integrity (territory FK resolves, period regime FKs resolve)
  */
 
-const db = require('../data');
+const fs   = require('fs');
+const path = require('path');
+const db   = require('../data');
 
 const VALID_SUCCESSION_TYPES = new Set(['A', 'A-', 'B', 'C', 'D']);
 
@@ -212,11 +214,123 @@ for (const province of db.provinces) {
 
 if (!badProvinces) ok('all provinces valid');
 
+// ── 8. Duplicate succession edges ────────────────────────────────────────────
+
+console.log('\n── Duplicate succession edges ───────────────────────────');
+let dupEdges = 0;
+const edgeSeen = new Set();
+for (const s of db.successions) {
+  const key = `${s.from}→${s.to}`;
+  if (edgeSeen.has(key)) {
+    err(`duplicate succession edge: ${key}`);
+    dupEdges++;
+  } else {
+    edgeSeen.add(key);
+  }
+}
+if (!dupEdges) ok('no duplicate succession edges');
+
+// ── 9. Succession shared_territories ─────────────────────────────────────────
+
+console.log('\n── Succession shared_territories ────────────────────────');
+let badSharedTerr = 0;
+for (const s of db.successions) {
+  for (const t of (s.shared_territories || [])) {
+    if (!sets.territories.has(t)) {
+      err(`succession "${s.from}" → "${s.to}": shared_territory "${t}" not found`);
+      badSharedTerr++;
+    }
+  }
+}
+if (!badSharedTerr) ok('all shared_territories resolve');
+
+// ── 10. History panel regime references ──────────────────────────────────────
+
+console.log('\n── History panel regime references ──────────────────────');
+let badPanelRefs = 0;
+let panelCount = 0;
+let cellCount = 0;
+
+function walkPanels(dir) {
+  if (!fs.existsSync(dir)) return [];
+  const panels = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (entry.isDirectory()) {
+      panels.push(...walkPanels(path.join(dir, entry.name)));
+    } else if (entry.name.endsWith('.json')) {
+      try {
+        const data = JSON.parse(fs.readFileSync(path.join(dir, entry.name), 'utf8'));
+        panels.push({ file: path.join(dir, entry.name), data });
+      } catch { /* skip malformed */ }
+    }
+  }
+  return panels;
+}
+
+const historyDir = path.join(__dirname, '..', 'data', 'history');
+const panels = walkPanels(historyDir);
+panelCount = panels.length;
+
+for (const { file, data } of panels) {
+  const panelId = data.id || path.basename(file, '.json');
+  for (const row of (data.rows || [])) {
+    for (const cell of (row.cells || [])) {
+      const entries = [...(cell.stack || []), ...(cell.split || [])];
+      for (const entry of entries) {
+        cellCount++;
+        if (entry.regime && !sets.regimes.has(entry.regime)) {
+          warn(`panel "${panelId}": regime ref "${entry.regime}" not found in polity data`);
+          badPanelRefs++;
+        }
+      }
+    }
+  }
+}
+
+if (!badPanelRefs) ok(`${panelCount} panels, ${cellCount} cells — all regime refs valid`);
+else ok(`${panelCount} panels scanned, ${badPanelRefs} unresolved regime ref(s)`);
+
+// ── 11. Taxonomy tree integrity ──────────────────────────────────────────────
+
+console.log('\n── Taxonomy tree integrity ──────────────────────────────');
+let badTaxonomy = 0;
+
+function checkTree(items, label) {
+  const ids = new Set(items.map(n => n.id));
+  for (const node of items) {
+    if (node.parent && !ids.has(node.parent)) {
+      err(`${label} "${node.id}": parent "${node.parent}" not found`);
+      badTaxonomy++;
+    }
+  }
+  // Cycle detection via tortoise-and-hare on parent chain
+  const byId = new Map(items.map(n => [n.id, n]));
+  for (const node of items) {
+    const visited = new Set();
+    let cur = node;
+    while (cur && cur.parent) {
+      if (visited.has(cur.id)) {
+        err(`${label}: cycle detected involving "${cur.id}"`);
+        badTaxonomy++;
+        break;
+      }
+      visited.add(cur.id);
+      cur = byId.get(cur.parent);
+    }
+  }
+}
+
+checkTree(db.ethnicities, 'ethnicity');
+checkTree(db.languages, 'language');
+checkTree(db.religions, 'religion');
+if (!badTaxonomy) ok('all taxonomy trees valid');
+
 // ── Summary ───────────────────────────────────────────────────────────────────
 
 console.log('\n─────────────────────────────────────────────────────────');
 console.log(`Regimes: ${db.regimes.length}  |  Successions: ${db.successions.length}  |  Territories: ${db.territories.length}  |  Provinces: ${db.provinces.length}`);
 console.log(`Languages: ${db.languages.length}  |  Religions: ${db.religions.length}  |  Ethnicities: ${db.ethnicities.length}`);
+console.log(`History panels: ${panelCount}  |  Panel cells: ${cellCount}`);
 console.log('');
 
 if (errors > 0) {

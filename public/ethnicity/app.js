@@ -18,10 +18,16 @@ function rootColor(nodeId, allEthnicities) {
 }
 
 async function init() {
-  const [ethnicities, polities] = await Promise.all([
-    fetch('/api/taxonomy/ethnicity').then(r => r.json()),
-    fetch('/api/polity').then(r => r.json()),
-  ]);
+  let ethnicities, polities;
+  try {
+    [ethnicities, polities] = await Promise.all([
+      cachedFetch('/api/taxonomy/ethnicity'),
+      cachedFetch('/api/polity'),
+    ]);
+  } catch (err) {
+    showError('Failed to load ethnicity data');
+    return;
+  }
 
   // Map ethnicity id → regimes that use it as ruling_ethnicity
   const regimesByEth = new Map();
