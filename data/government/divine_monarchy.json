@@ -1,0 +1,8 @@
+{
+  "id": "divine_monarchy",
+  "name": "Divine Monarchy",
+  "finer_type": "palace_church",
+  "weber_legitimacy": "traditional",
+  "description": "Ruler considered divine or direct agent of deity (pharaohs, Khmer devaraja)",
+  "polity_count": 10
+}

@@ -1,0 +1,8 @@
+{
+  "id": "puppet_state",
+  "name": "Puppet State",
+  "finer_type": "foreign",
+  "weber_legitimacy": "traditional",
+  "description": "Nominal sovereignty; de facto controlled by external power",
+  "polity_count": 3
+}

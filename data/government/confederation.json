@@ -1,0 +1,8 @@
+{
+  "id": "confederation",
+  "name": "Confederation",
+  "finer_type": "forum",
+  "weber_legitimacy": "rational_legal",
+  "description": "Loose union of sovereign entities; central authority limited by member consent",
+  "polity_count": 1
+}

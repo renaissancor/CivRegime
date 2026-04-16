@@ -1,0 +1,8 @@
+{
+  "id": "oligarchy",
+  "name": "Oligarchy",
+  "finer_type": "forum",
+  "weber_legitimacy": "traditional",
+  "description": "Rule by small elite group; power concentrated in wealthy or aristocratic families",
+  "polity_count": 2
+}

@@ -84,8 +84,9 @@ const db = {
 
   dynasties: loadDir(path.join(DATA, 'dynasty')),
 
+  governments: loadDir(path.join(DATA, 'government')),
+
   provinces: [],
-  ideologies: [],
 };
 
 // ── Tree query helper ─────────────────────────────────────────────────────────

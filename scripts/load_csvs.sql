@@ -10,6 +10,7 @@ DELETE FROM polity_succession;
 DELETE FROM polity_policy;
 DELETE FROM polity_territory;
 DELETE FROM polity_dynasty;
+DELETE FROM government;
 DELETE FROM dynasty;
 DELETE FROM figure;
 DELETE FROM polity;
@@ -192,6 +193,14 @@ FROM _succ
 WHERE shared_territories IS NOT NULL AND shared_territories != '';
 
 DROP TABLE _succ;
+
+-- ─── GOVERNMENT ──────────────────────────────────────────
+INSERT INTO government (id, name, finer_type, weber_legitimacy, description)
+SELECT id, name,
+       NULLIF(finer_type, ''),
+       NULLIF(weber_legitimacy, ''),
+       NULLIF(description, '')
+FROM read_csv('csvs/government.csv', auto_detect=true);
 
 -- ─── DYNASTY ─────────────────────────────────────────────
 INSERT INTO dynasty (id, name, ethnicity, origin_region, note)

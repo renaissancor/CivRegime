@@ -10,7 +10,6 @@
 -- Future tables (create when data is ready):
 --   Regime   → ruling period within a polity (e.g., Julio-Claudian)
 --   Culture  → prehistoric/archaeological entities
---   Ideology → government forms and state philosophies
 --   History panel/column/cell → panel visualization layer
 --   Province/province_period → fine-grained GeoJSON
 --
@@ -119,6 +118,17 @@ CREATE TABLE polity_succession_territory (
     succession_id INTEGER NOT NULL,
     territory_id  TEXT NOT NULL,
     PRIMARY KEY (succession_id, territory_id)
+);
+
+
+-- ─── GOVERNMENT ─────────────────────────────────────────────
+
+CREATE TABLE government (
+    id               TEXT PRIMARY KEY,
+    name             TEXT NOT NULL,
+    finer_type       TEXT,
+    weber_legitimacy TEXT,
+    description      TEXT
 );
 
 

@@ -32,7 +32,7 @@ const sets = {
   territories: new Set(db.territories.map(t => t.id)),
   languages:   new Set(db.languages.map(l => l.id)),
   religions:   new Set(db.religions.map(r => r.id)),
-  ideologies:  new Set(db.ideologies.map(i => i.id)),
+  governments: new Set((db.governments || []).map(g => g.id)),
   ethnicities: new Set(db.ethnicities.map(e => e.id)),
   provinces:   new Set(db.provinces.map(r => r.id)),
 };
@@ -57,7 +57,7 @@ checkDuplicates(db.territories, 'territories');
 checkDuplicates(db.provinces,   'provinces');
 checkDuplicates(db.languages,   'languages');
 checkDuplicates(db.religions,   'religions');
-checkDuplicates(db.ideologies,  'ideologies');
+checkDuplicates(db.governments || [],  'governments');
 checkDuplicates(db.ethnicities, 'ethnicities');
 if (!errors) ok('no duplicates');
 
@@ -108,7 +108,7 @@ for (const r of db.regimes) {
   checkFK(`${ctx} ruling_ethnicity`, r.ruling_ethnicity, sets.ethnicities);
   checkFK(`${ctx} cultural_language`, r.cultural_language, sets.languages);
   checkFK(`${ctx} ideology.religion`, r.ideology?.religion, sets.religions);
-  checkFK(`${ctx} ideology.government`, r.ideology?.government, sets.ideologies);
+  checkFK(`${ctx} ideology.government`, r.ideology?.government, sets.governments);
   for (const t of (r.territories || [])) {
     checkFK(`${ctx} territory "${t}"`, t, sets.territories);
   }
@@ -325,11 +325,27 @@ checkTree(db.languages, 'language');
 checkTree(db.religions, 'religion');
 if (!badTaxonomy) ok('all taxonomy trees valid');
 
+// ── 12. Government FK validation ────────────────────────────────────────────
+
+console.log('\n── Government FK validation ─────────────────────────────');
+let badGov = 0;
+const govSet = new Set((db.governments || []).map(g => g.id));
+
+for (const r of db.regimes) {
+  const gov = r.ideology?.government;
+  if (gov && !govSet.has(gov)) {
+    err(`polity "${r.id}": government "${gov}" not found in government.csv`);
+    badGov++;
+  }
+}
+if (!badGov) ok(`all polity government refs resolve (${govSet.size} government types)`);
+
 // ── Summary ───────────────────────────────────────────────────────────────────
 
 console.log('\n─────────────────────────────────────────────────────────');
 console.log(`Regimes: ${db.regimes.length}  |  Successions: ${db.successions.length}  |  Territories: ${db.territories.length}  |  Provinces: ${db.provinces.length}`);
 console.log(`Languages: ${db.languages.length}  |  Religions: ${db.religions.length}  |  Ethnicities: ${db.ethnicities.length}`);
+console.log(`Dynasties: ${(db.dynasties||[]).length}  |  Governments: ${(db.governments||[]).length}`);
 console.log(`History panels: ${panelCount}  |  Panel cells: ${cellCount}`);
 console.log('');
 

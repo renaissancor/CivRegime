@@ -1,0 +1,8 @@
+{
+  "id": "theocracy",
+  "name": "Theocracy",
+  "finer_type": "church",
+  "weber_legitimacy": "charismatic",
+  "description": "Rule by religious authority; political legitimacy derived from divine mandate",
+  "polity_count": 5
+}

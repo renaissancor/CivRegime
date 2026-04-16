@@ -1,5 +1,5 @@
 id,name,state_id,id_ruling_ethnicity,id_ruling_language,id_ruling_religion,government,territories,start,end,policies,note
-sumerian_city_states,"Sumerian City-States (Ur, Uruk, Lagash)",,sumerian,city_state,mesopotamian_religion,city_state,mesopotamia,-3500,-2334,,
+sumerian_city_states,"Sumerian City-States (Ur, Uruk, Lagash)",,sumerian,sumerian,mesopotamian_religion,city_state,mesopotamia,-3500,-2334,,
 berber,Berber / Mauretania,,berber_amazigh_cluster,berber,,tribal_confederation,north_africa,-3000,-200,,
 elam,Kingdom of Elam,,persian,elamite,ancient_near_eastern_religion,monarchy,iran_plateau,-2700,-539,,"One of the oldest civilisations in Iran, centred on Susa. Rivalled Mesopotamian powers for millennia. The ziggurat of Chogha Zanbil (c.1250 BCE) is a UNESCO World Heritage Site. Elamite sacked Babylon and captured the Code of Hammurabi. Absorbed into the Achaemenid Empire."
 old_kingdom_egypt,Old Kingdom Egypt,,egyptian,old_egyptian,egyptian_religion,divine_monarchy,egypt|nubia,-2686,-2181,,
@@ -17,7 +17,7 @@ mitanni_empire,Mitanni Empire,,hurrian,hurrian,mesopotamian_religion,imperial_mo
 olmec,Olmec Civilization,,mesoamerican_cluster,,indigenous_american_traditions,tribal_confederation,mesoamerica,-1500,-400,,Mother culture of Mesoamerica
 middle_assyrian_empire,Middle Assyrian Empire,,assyrian,akkadian,mesopotamian_religion,imperial_monarchy,mesopotamia|anatolia|levant,-1392,-1056,,
 kingdom_of_saba,Kingdom of Saba (Sheba),,semitic_cluster,old_south_arabian,south_arabian_religion,monarchy,arabia,-1200,-275,,"Ancient South Arabian kingdom — the Biblical Queen of Sheba's realm. Controlled the lucrative frankincense and myrrh trade. Built the Great Dam of Ma'rib, one of the engineering wonders of the ancient world. The dam's final collapse (c.570 CE) is mentioned in the Quran."
-phoenician_states,"Phoenician City-States (Tyre, Sidon, Byblos)",,phoenician,city_state,canaanite_religion,oligarchic_republic,levant,-1200,-332,,
+phoenician_states,"Phoenician City-States (Tyre, Sidon, Byblos)",,phoenician,phoenician_punic,canaanite_religion,city_state,levant,-1200,-332,,
 kingdom_of_israel,United Kingdom of Israel,,hebrew,biblical_hebrew,temple_judaism,feudal_monarchy,levant,-1047,-930,,
 zhou_dynasty,Zhou Dynasty,,han_chinese,old_chinese,chinese_folk_religion,feudal_monarchy,yellow_river|yangtze,-1046,-256,,"Late Zhou (Warring States) produced Confucius, Laozi, Mencius, Han Fei — the foundational philosophical schools that would define all subsequent Chinese governance"
 histri,Histri,,ancient_european,,,tribal_confederation,balkans|italy,-1000,-177,,

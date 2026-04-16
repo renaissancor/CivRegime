@@ -1,0 +1,8 @@
+{
+  "id": "shogunate",
+  "name": "Shogunate",
+  "finer_type": "palace_nobility",
+  "weber_legitimacy": "traditional",
+  "description": "Japanese military government; shogun holds de facto power while emperor reigns",
+  "polity_count": 1
+}

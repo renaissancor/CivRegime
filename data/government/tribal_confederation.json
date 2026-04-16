@@ -1,0 +1,8 @@
+{
+  "id": "tribal_confederation",
+  "name": "Tribal Confederation",
+  "finer_type": "nobility",
+  "weber_legitimacy": "traditional",
+  "description": "Alliance of tribal or clan groups; collective leadership through council of chiefs",
+  "polity_count": 35
+}

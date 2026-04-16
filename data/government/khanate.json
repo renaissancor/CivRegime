@@ -1,0 +1,8 @@
+{
+  "id": "khanate",
+  "name": "Khanate",
+  "finer_type": "palace",
+  "weber_legitimacy": "traditional",
+  "description": "Steppe regional sovereignty; khan as hereditary or elected tribal sovereign",
+  "polity_count": 16
+}

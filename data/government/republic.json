@@ -1,0 +1,8 @@
+{
+  "id": "republic",
+  "name": "Republic",
+  "finer_type": "forum",
+  "weber_legitimacy": "rational_legal",
+  "description": "Non-hereditary institutional rule; power held by elected or appointed officials",
+  "polity_count": 10
+}

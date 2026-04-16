@@ -1,0 +1,8 @@
+{
+  "id": "principality",
+  "name": "Principality",
+  "finer_type": "palace",
+  "weber_legitimacy": "traditional",
+  "description": "Small sovereign domain ruled by prince, grand duke, or equivalent",
+  "polity_count": 9
+}

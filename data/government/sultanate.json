@@ -1,0 +1,8 @@
+{
+  "id": "sultanate",
+  "name": "Sultanate",
+  "finer_type": "palace",
+  "weber_legitimacy": "traditional",
+  "description": "Islamic monarchy; sultan as sovereign wielding temporal authority",
+  "polity_count": 25
+}

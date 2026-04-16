@@ -1,0 +1,8 @@
+{
+  "id": "caliphate",
+  "name": "Caliphate",
+  "finer_type": "palace_church",
+  "weber_legitimacy": "traditional",
+  "description": "Islamic universal sovereignty; caliph as both political and religious leader",
+  "polity_count": 6
+}

@@ -1,0 +1,8 @@
+{
+  "id": "colonial_administration",
+  "name": "Colonial Administration",
+  "finer_type": "foreign",
+  "weber_legitimacy": "rational_legal",
+  "description": "Territory administered by foreign imperial power; no indigenous sovereignty",
+  "polity_count": 21
+}

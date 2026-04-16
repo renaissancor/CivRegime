@@ -1,0 +1,8 @@
+{
+  "id": "city_state",
+  "name": "City-State",
+  "finer_type": "forum",
+  "weber_legitimacy": "traditional",
+  "description": "Independent city-based polity; often with assembly or council governance",
+  "polity_count": 5
+}

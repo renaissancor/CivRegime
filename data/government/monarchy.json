@@ -1,0 +1,8 @@
+{
+  "id": "monarchy",
+  "name": "Monarchy",
+  "finer_type": "palace_forum",
+  "weber_legitimacy": "traditional",
+  "description": "Hereditary rule with some institutional constraints (council, assembly, custom)",
+  "polity_count": 60
+}

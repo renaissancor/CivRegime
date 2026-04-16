@@ -112,6 +112,27 @@ app.get('/api/taxonomy/:type', (req, res) => {
   res.json(data);
 });
 
+// ── API: Government ──────────────────────────────────────────
+
+const govById = {};
+(db.governments || []).forEach(g => { govById[g.id] = g; });
+
+app.get('/api/government', (req, res) => {
+  res.json(db.governments || []);
+});
+
+app.get('/api/government/:id', (req, res) => {
+  const g = govById[req.params.id];
+  if (!g) return res.status(404).json({ error: 'Not found' });
+
+  // Include polities with this government
+  const polities = (db.regimes || [])
+    .filter(r => r.ideology?.government === req.params.id)
+    .map(r => ({ id: r.id, name: r.name, start: r.start, end: r.end }));
+
+  res.json({ ...g, polities });
+});
+
 // ── API: Dynasty ─────────────────────────────────────────────
 
 const dynastyById = {};
@@ -195,4 +216,5 @@ app.listen(PORT, () => {
   console.log(`  Successions: ${db.successions?.length || 0}`);
   console.log(`  Territories: ${db.territories?.length || 0}`);
   console.log(`  Dynasties:   ${db.dynasties?.length || 0}`);
+  console.log(`  Governments: ${db.governments?.length || 0}`);
 });
