@@ -1,0 +1,531 @@
+{
+  "id": "oceania",
+  "title": "History of Oceania",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "slots": 1
+    },
+    {
+      "id": "new_zealand",
+      "name": "New Zealand / Aotearoa",
+      "slots": 1
+    },
+    {
+      "id": "melanesia",
+      "name": "Melanesia (Papua · Fiji · Vanuatu · Solomons)",
+      "slots": 1
+    },
+    {
+      "id": "micronesia",
+      "name": "Micronesia (Marianas · Carolines · Marshalls)",
+      "slots": 1
+    },
+    {
+      "id": "polynesia",
+      "name": "Polynesia (Tonga · Samoa · Hawaiʻi)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Prehistoric",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Aboriginal Australians & Torres Strait Islanders",
+              "note": "c. 65,000 BCE–; world's oldest continuous culture",
+              "regime": "aboriginal_australians"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Māori",
+              "note": "c. 1250–; Polynesian settlement of Aotearoa",
+              "regime": "maori"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Melanesians",
+              "note": "c. 30,000 BCE–; PNG highlands, Fiji, Vanuatu, Solomons",
+              "regime": "melanesians"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Micronesians",
+              "note": "c. 2000 BCE–; Marianas, Carolines, Marshalls",
+              "regime": "micronesians"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Polynesians",
+              "note": "c. 1500 BCE–; Lapita culture expansion",
+              "regime": "polynesians"
+            },
+            {
+              "label": "Tuʻi Manuʻa",
+              "note": "legendary paramount chieftaincy; Sāmoa",
+              "regime": "tui_manua"
+            },
+            {
+              "label": "Tongan Empire (Tuʻi Tonga)",
+              "note": "c. 950–1500; maritime empire across Polynesia",
+              "regime": "tongan_empire"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Early Modern / Indigenous Kingdoms",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Aboriginal Australians",
+              "note": "c. 500+ distinct language groups; no centralized state",
+              "regime": "aboriginal_australians"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Māori tribal confederation",
+              "note": "iwi and hapū confederacies; no unified polity pre-1840",
+              "regime": "maori_tribes"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Fiji (Tui Viti)",
+              "note": "c. 1871 (formal); earlier chiefdoms from c. 1500",
+              "regime": "kingdom_of_fiji"
+            },
+            {
+              "label": "Vanuatu (New Hebrides) chiefdoms",
+              "note": "independent island polities",
+              "regime": "vanuatu_chiefdoms"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Spanish East Indies",
+              "note": "Marianas & Carolines; Guam claimed 1565",
+              "regime": "spanish_east_indies"
+            },
+            {
+              "label": "Guam (Chamorro)",
+              "note": "Spanish colony from 1668",
+              "regime": "guam_spanish"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Tonga",
+              "note": "Tuʻi Kanokupolu dynasty; unified c. 1800",
+              "regime": "kingdom_of_tonga"
+            },
+            {
+              "label": "Kingdom of Sāmoa (Mālō)",
+              "note": "paramount chieftaincies; Sāmoa confederacy",
+              "regime": "kingdom_of_samoa"
+            },
+            {
+              "label": "Kingdom of Hawaiʻi",
+              "note": "1795–1893; Kamehameha I unified islands 1810",
+              "regime": "kingdom_of_hawaii"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Colonial Era",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "British Crown Colonies",
+              "note": "NSW 1788, Van Diemen's Land 1825, Victoria 1851, Queensland 1859, SA 1836, WA 1829",
+              "regime": "british_crown_colonies_australia"
+            },
+            {
+              "label": "Dominion of Australia",
+              "note": "1901; Commonwealth federation of six colonies",
+              "regime": "dominion_of_australia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "British Colony of New Zealand",
+              "note": "Treaty of Waitangi 1840; Crown Colony 1840–1907",
+              "regime": "british_colony_nz"
+            },
+            {
+              "label": "Dominion of New Zealand",
+              "note": "1907–1947",
+              "regime": "dominion_of_new_zealand"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "British Fiji",
+              "note": "1874–1970; ceded by Cakobau",
+              "regime": "british_fiji"
+            },
+            {
+              "label": "New Hebrides Condominium",
+              "note": "1906–1980; Anglo-French joint rule (Vanuatu)",
+              "regime": "new_hebrides_condominium"
+            },
+            {
+              "label": "British Papua",
+              "note": "1888–1906 → Territory of Papua (Aus.) 1906–1949",
+              "regime": "british_papua"
+            },
+            {
+              "label": "German New Guinea",
+              "note": "1884–1914 → Australian mandate 1920",
+              "regime": "german_new_guinea"
+            },
+            {
+              "label": "British Solomon Islands Protectorate",
+              "note": "1893–1978",
+              "regime": "british_solomon_islands"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Spanish East Indies (Marianas · Carolines)",
+              "note": "–1898; sold to Germany after Spanish-American War",
+              "regime": "spanish_east_indies"
+            },
+            {
+              "label": "German Micronesia (Carolines · Marshalls · Marianas)",
+              "note": "1899–1914",
+              "regime": "german_micronesia"
+            },
+            {
+              "label": "Guam — US Territory",
+              "note": "1898–; acquired after Spanish-American War",
+              "regime": "guam_us"
+            },
+            {
+              "label": "Gilbert & Ellice Islands Colony (British)",
+              "note": "1916–1979",
+              "regime": "gilbert_ellice_islands"
+            },
+            {
+              "label": "Nauru Territory",
+              "note": "German 1888–1914 → Australian League mandate 1920",
+              "regime": "nauru_territory"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Tonga (British protectorate)",
+              "note": "1900–1970; retained monarchy under British oversight",
+              "regime": "tonga_british_protectorate"
+            },
+            {
+              "label": "German Sāmoa",
+              "note": "1900–1914 (Western islands)",
+              "regime": "german_samoa"
+            },
+            {
+              "label": "American Sāmoa (US territory)",
+              "note": "1900–; Eastern islands",
+              "regime": "american_samoa"
+            },
+            {
+              "label": "Republic of Hawaiʻi",
+              "note": "1894–1898; post-coup provisional state",
+              "regime": "republic_of_hawaii"
+            },
+            {
+              "label": "Territory of Hawaiʻi (US)",
+              "note": "1898–1959; annexed after overthrow of kingdom",
+              "regime": "territory_of_hawaii"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Dominion of Australia",
+              "note": "1901–1942 (Statute of Westminster); WWI ANZAC; WWII Pacific theatre",
+              "regime": "dominion_of_australia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Dominion of New Zealand",
+              "note": "1907–1947; WWI ANZAC; WWII service",
+              "regime": "dominion_of_new_zealand"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Territory of Papua + Territory of New Guinea",
+              "note": "both under Australian administration; WWII — Kokoda Track 1942",
+              "regime": "territory_of_papua_new_guinea"
+            },
+            {
+              "label": "Japanese occupation (WWII)",
+              "note": "1942–1945; Guadalcanal, Rabaul, Bougainville",
+              "regime": "japanese_occupation_melanesia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "South Seas Mandate (Japanese)",
+              "note": "1919–1945; League of Nations C-class mandate",
+              "regime": "south_seas_mandate"
+            },
+            {
+              "label": "Japanese Pacific fortifications (WWII)",
+              "note": "Truk, Saipan, Peleliu, Marshall Islands battles",
+              "regime": "japanese_pacific_wwii"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "NZ mandate — Western Sāmoa",
+              "note": "1920–1962; League then UN trust territory",
+              "regime": "nz_mandate_samoa"
+            },
+            {
+              "label": "Territory of Hawaiʻi (WWII)",
+              "note": "Pearl Harbor attack 1941; martial law 1941–1944",
+              "regime": "territory_of_hawaii"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Post-War / Decolonisation",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Australia",
+              "note": "full independence 1942/1986; immigration reforms 1966–1973",
+              "regime": "australia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "New Zealand",
+              "note": "Statute of Westminster adopted 1947; Constitution Act 1986",
+              "regime": "new_zealand"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Territory of Papua & New Guinea",
+              "note": "merged administration 1949 under Australia",
+              "regime": "territory_of_papua_new_guinea"
+            },
+            {
+              "label": "Papua New Guinea",
+              "note": "self-government 1973; independence 1975",
+              "regime": "papua_new_guinea"
+            },
+            {
+              "label": "Fiji (independent)",
+              "note": "1970; republic after coups 1987",
+              "regime": "fiji"
+            },
+            {
+              "label": "Vanuatu",
+              "note": "1980; formerly New Hebrides",
+              "regime": "vanuatu"
+            },
+            {
+              "label": "Solomon Islands",
+              "note": "1978",
+              "regime": "solomon_islands"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Trust Territory of the Pacific Islands (US)",
+              "note": "1947–1994; UN Strategic Trust — Marianas, Carolines, Marshalls",
+              "regime": "trust_territory_pacific"
+            },
+            {
+              "label": "Nauru",
+              "note": "independence 1968; world's smallest republic",
+              "regime": "nauru"
+            },
+            {
+              "label": "Marshall Islands",
+              "note": "1979 constitution; Compact of Free Association 1986",
+              "regime": "marshall_islands"
+            },
+            {
+              "label": "Federated States of Micronesia",
+              "note": "1979 constitution; Compact of Free Association 1986",
+              "regime": "federated_states_of_micronesia"
+            },
+            {
+              "label": "Palau",
+              "note": "independence 1994; last UN trust territory to end",
+              "regime": "palau"
+            },
+            {
+              "label": "Northern Mariana Islands (US Commonwealth)",
+              "note": "1978–; self-governing US commonwealth",
+              "regime": "northern_mariana_islands"
+            },
+            {
+              "label": "Guam (US Territory)",
+              "note": "1898–; unincorporated organized US territory",
+              "regime": "guam_us"
+            },
+            {
+              "label": "Kiribati",
+              "note": "1979; formerly Gilbert Islands",
+              "regime": "kiribati"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Western Sāmoa (independent)",
+              "note": "1962; first Pacific Island nation to gain independence",
+              "regime": "western_samoa"
+            },
+            {
+              "label": "Sāmoa",
+              "note": "renamed 1997; independent state",
+              "regime": "samoa"
+            },
+            {
+              "label": "American Sāmoa (US territory)",
+              "note": "1900–; unincorporated US territory",
+              "regime": "american_samoa"
+            },
+            {
+              "label": "Tonga",
+              "note": "independence 1970; constitutional monarchy",
+              "regime": "tonga"
+            },
+            {
+              "label": "Tuvalu",
+              "note": "1978; formerly Ellice Islands",
+              "regime": "tuvalu"
+            },
+            {
+              "label": "State of Hawaiʻi (US)",
+              "note": "1959–; 50th US state",
+              "regime": "state_of_hawaii"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Aboriginal Australians are among the oldest continuous cultures on Earth, with evidence of habitation dating to at least 65,000 years ago. At the time of British colonisation in 1788 there were approximately 500 distinct language groups with populations estimated between 300,000 and 1,000,000. The frontier wars and disease epidemics of the colonial period caused catastrophic population collapse.",
+    "Treaty of Waitangi (1840): signed between the British Crown and Māori chiefs, it remains New Zealand's founding document. The Māori-language and English versions differ significantly on questions of sovereignty (kāwanatanga) versus tino rangatiratanga (chieftainship), a tension that continues to shape New Zealand constitutional law.",
+    "Tongan Empire (Tuʻi Tonga, c. 950–1500): the pre-eminent maritime polity of Polynesia, controlling trade and tribute networks across Fiji, Sāmoa, Tuvalu, and parts of Micronesia. The Tuʻi Tonga line remained a sacred chieftaincy even after political power shifted to the Tuʻi Kanokupolu dynasty.",
+    "Kokoda Track Campaign (1942): Australian and Papuan forces halted the Japanese advance across the Owen Stanley Range in one of the most gruelling land campaigns of WWII; it is commemorated as a defining moment in Australian national identity alongside Gallipoli.",
+    "Pacific Islands Trust Territory (1947–1994): the United States administered the former Japanese South Seas Mandate as the only UN Strategic Trust Territory, giving the US broad military rights. Nuclear testing was conducted in the Marshall Islands (Bikini and Enewetak atolls), displacing communities and causing lasting radiological contamination.",
+    "Kingdom of Hawaiʻi (1795–1893): unified by Kamehameha I through conquest and diplomacy; the kingdom maintained diplomatic relations with major world powers and had a written constitution. It was overthrown in 1893 by a group of American businessmen backed by US Marines; the US government formally apologized for the overthrow in 1993 (Public Law 103-150).",
+    "Fiji coups (1987, 2000, 2006): Fiji has experienced four coups since independence, largely driven by ethnic tensions between indigenous Fijians and Indo-Fijians (descendants of indentured laborers brought by the British). The country was suspended from the Commonwealth multiple times and returned to democratic elections in 2014.",
+    "Nauru (1968): the world's smallest island republic, Nauru was one of the wealthiest nations per capita in the 1970s–1980s due to phosphate mining. Near-total depletion of phosphate reserves by the 1990s caused economic collapse; Nauru has since operated an Australian immigration detention centre as a major revenue source."
+  ]
+}

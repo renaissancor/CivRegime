@@ -1,0 +1,426 @@
+{
+  "id": "peru",
+  "title": "History of Peru (Norte Chico · Coast · Highlands · Titicaca)",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "north_coast",
+      "name": "North Coast (Lambayeque · Trujillo)",
+      "slots": 1
+    },
+    {
+      "id": "south_coast",
+      "name": "South Coast (Ica · Nazca)",
+      "slots": 1
+    },
+    {
+      "id": "central_highlands",
+      "name": "Central Highlands (Junín · Ancash)",
+      "slots": 1
+    },
+    {
+      "id": "south_highlands",
+      "name": "Southern Highlands (Cusco · Titicaca)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Preceramic (3000–1800 BCE)",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Caral-Supe / Norte Chico (c. 3000–1800 BCE)",
+              "note": "Oldest urban center in the Americas; monumental pyramids at Caral",
+              "regime": "caral_supe"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Preceramic coastal settlements",
+              "note": "Chilca, Paloma fishing communities"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kotosh (c. 3000–1500 BCE)",
+              "note": "Temple of the Crossed Hands; early ceremonial architecture",
+              "regime": "kotosh"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Chiripa (c. 1500–100 BCE)",
+              "note": "Early Titicaca Basin settlement; precursor to Tiwanaku tradition",
+              "regime": "chiripa"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Initial Period / Early Horizon (1800–200 BCE)",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Cupisnique (1500–500 BCE)",
+              "note": "North-coast Chavín-related tradition; Huaca de los Reyes",
+              "regime": "cupisnique"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Paracas (c. 800–100 BCE)",
+              "note": "Famous for elaborate textiles and cranial surgery",
+              "regime": "paracas"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Chavín (c. 900–200 BCE)",
+              "note": "Chavín de Huántar; pan-Andean religious influence; jaguar and serpent iconography",
+              "regime": "chavin"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Pucará (c. 500–200 BCE)",
+              "note": "Titicaca Basin polity; stone sculpture tradition",
+              "regime": "pucara"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Early Intermediate (200 BCE – 600 CE)",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Virú / Gallinazo (200 BCE – 300 CE)",
+              "note": "Moche Valley predecessors; fortified settlements",
+              "regime": "viru"
+            },
+            {
+              "label": "Moche (c. 100–700 CE)",
+              "note": "Huaca del Sol y de la Luna; elaborate ceramics; Sipán royal tombs",
+              "regime": "moche"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Nazca (c. 100–700 CE)",
+              "note": "Nazca Lines geoglyphs; polychrome pottery; Cahuachi ceremonial center",
+              "regime": "nazca"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Lima Culture (c. 200–700 CE)",
+              "note": "Maranga and Pachacámac complexes; central coast hegemony",
+              "regime": "lima_culture"
+            },
+            {
+              "label": "Recuay (200 BCE – 600 CE)",
+              "note": "Ancash highlands; stone sculpture; warrior cult",
+              "regime": "recuay"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Tiwanaku (c. 550–1000 CE)",
+              "note": "Lake Titicaca highlands; Gateway of the Sun; raised-field agriculture",
+              "regime": "tiwanaku"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Middle Horizon (600–1000)",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Moche decline / Lambayeque (Sicán) (c. 700–1375)",
+              "note": "Successor to Moche; Batán Grande gold workshops; Naylamp dynasty legend",
+              "regime": "lambayeque_sican"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Wari influence on south coast",
+              "note": "Wari administrative centers at Pachacámac and Nazca region"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Wari Empire (c. 600–1000)",
+              "note": "First Andean empire; road system prefiguring Inca; capital at Ayacucho",
+              "regime": "wari_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Tiwanaku (continued)",
+              "note": "Tiwanaku and Wari: two parallel Middle Horizon empires; collapsed c. 1000",
+              "regime": "tiwanaku"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Late Intermediate (1000–1438)",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Chimú Kingdom (c. 900–1470)",
+              "note": "Chan Chan capital (largest adobe city); conquered Lambayeque c. 1375",
+              "regime": "chimu_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Chincha Kingdom (c. 1000–1476)",
+              "note": "Major maritime trading polity; long-distance exchange with Ecuador",
+              "regime": "chincha_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Chanka Confederation",
+              "note": "Andahuaylas-based; rival of Cusco; defeated by Pachacuti c. 1438",
+              "regime": "chanka_confederation"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Cusco (c. 1200–1438)",
+              "note": "Early Inca polity; Manco Cápac legendary founder; regional power before Pachacuti",
+              "regime": "kingdom_of_cusco"
+            },
+            {
+              "label": "Colla / Lupaca Kingdoms",
+              "note": "Aymara kingdoms in Titicaca Basin; post-Tiwanaku successor states",
+              "regime": "colla_kingdom"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Late Horizon — Inca (1438–1533)",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Inca Empire / Tawantinsuyu (1438–1533)",
+              "note": "Pachacuti → Túpac Inca → Huayna Cápac; 10 million km²; Quechua lingua franca; mit'a labor system",
+              "regime": "inca_empire"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Conquest & Neo-Inca (1532–1572)",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Spanish Conquest (1532–1542)",
+              "note": "Pizarro captures Atahualpa at Cajamarca (1532); fall of Cusco (1533)",
+              "regime": "spanish_conquest_peru"
+            }
+          ],
+          "span": 3
+        },
+        {
+          "stack": [
+            {
+              "label": "Neo-Inca State of Vilcabamba (1537–1572)",
+              "note": "Manco Inca's resistance state in jungle; last ruler Túpac Amaru executed 1572",
+              "regime": "neo_inca_vilcabamba"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Colonial (1542–1824)",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Viceroyalty of Peru (1542–1824)",
+              "note": "Lima as capital of all Spanish South America until 18th-c. Bourbon reforms",
+              "regime": "viceroyalty_of_peru"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Túpac Amaru II Rebellion (1780–1783)",
+              "note": "Indigenous-mestizo uprising; largest colonial rebellion; 100,000 dead"
+            },
+            {
+              "label": "Bourbon Reforms",
+              "note": "Viceroyalty split: New Granada (1717), Río de la Plata (1776); Intendancy system"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Independence & Republic (1821–)",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Protectorate of Peru (1821–1822)",
+              "note": "San Martín declares independence 28 Jul 1821",
+              "regime": "protectorate_of_peru"
+            },
+            {
+              "label": "Republic of Peru (1824–)",
+              "note": "Battle of Ayacucho (1824) secures independence; caudillo era follows",
+              "regime": "republic_of_peru"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "War of the Pacific (1879–1884)",
+              "note": "Peru and Bolivia vs Chile; Peru lost Tarapacá, Arica, Tacna"
+            },
+            {
+              "label": "Guano Era & Civilismo",
+              "note": "Guano exports fund modernization 1840s–1870s; Civilist Party era"
+            },
+            {
+              "label": "Modern Peru",
+              "note": "Leguía oncenio (1919–1930), Velasco military reform (1968–1975), Sendero Luminoso (1980–2000), democratic era"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Caral-Supe (c. 3000–1800 BCE) is the oldest known civilization in the Americas, contemporary with Egyptian and Sumerian civilizations",
+    "Chavín de Huántar (c. 900–200 BCE) served as a pan-Andean pilgrimage center; its iconography spread across Peru, defining the Early Horizon",
+    "The Moche (100–700 CE) produced some of the finest ceramics in pre-Columbian America; the Sipán royal tombs rival Tutankhamun in richness",
+    "Wari and Tiwanaku (c. 600–1000) were parallel Middle Horizon empires — Wari centered in Ayacucho, Tiwanaku at Lake Titicaca — whose collapse led to regional fragmentation",
+    "The Chimú Kingdom built Chan Chan, the largest adobe city in the world (20 km²), before being conquered by the Inca c. 1470",
+    "Tawantinsuyu ('four parts together') stretched from Colombia to Chile — the largest empire in pre-Columbian America, administered via quipu record-keeping and the Qhapaq Ñan road network",
+    "The Neo-Inca State at Vilcabamba (1537–1572) maintained Inca resistance for 36 years; Túpac Amaru I was the last Sapa Inca, executed in Cusco's plaza",
+    "Túpac Amaru II's rebellion (1780–83) was the largest anti-colonial uprising in the Americas, involving 100,000+ participants across Peru and Bolivia",
+    "The Viceroyalty of Peru was initially the sole Spanish viceroyalty in South America (1542), governing from Panama to Patagonia before Bourbon-era splits",
+    "The War of the Pacific (1879–1884) cost Peru its southern nitrate-rich territories; the national trauma shaped Peruvian politics for decades"
+  ]
+}

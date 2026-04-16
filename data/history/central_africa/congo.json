@@ -1,0 +1,280 @@
+{
+  "id": "congo",
+  "title": "History of the Congo (Democratic Republic)",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "lower_congo",
+      "name": "Lower Congo (Kongo region)",
+      "slots": 1
+    },
+    {
+      "id": "central_basin",
+      "name": "Central Basin",
+      "slots": 1
+    },
+    {
+      "id": "luba_lunda",
+      "name": "Luba-Lunda (Katanga · Kasai)",
+      "slots": 1
+    },
+    {
+      "id": "eastern_congo",
+      "name": "Eastern Congo (Kivu)",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Prehistoric",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Tribal societies · Bantu expansion",
+              "note": "c. 1000 BCE–",
+              "regime": "bantu_expansion"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Indigenous Kingdoms",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Kongo",
+              "note": "c. 1390–1914",
+              "regime": "kongo_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kuba Kingdom",
+              "note": "c. 1625–1900",
+              "regime": "kuba_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Luba Kingdom",
+              "note": "c. 1585–1889",
+              "regime": "luba_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Tribal chiefdoms · Great Lakes peoples",
+              "regime": "great_lakes_chiefdoms"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Kongo (Portuguese contact)",
+              "note": "Portuguese missionaries, slave trade",
+              "regime": "kongo_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Kuba Kingdom",
+              "regime": "kuba_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Luba Kingdom",
+              "regime": "luba_kingdom"
+            },
+            {
+              "label": "Lunda Kingdom",
+              "note": "c. 1665–1887",
+              "regime": "lunda_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Arab-Swahili slave trade network",
+              "regime": "arab_swahili_trade"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "European Scramble",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "International African Association",
+              "note": "1876; Leopold II of Belgium",
+              "regime": "international_african_association"
+            },
+            {
+              "label": "International Association of the Congo",
+              "note": "1879–1885",
+              "regime": "international_association_congo"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Congo Free State",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Congo Free State (Leopold II — personal colony)",
+              "note": "1885–1908; rubber exploitation, mass atrocities",
+              "regime": "congo_free_state"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Belgian Congo",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Belgian Congo",
+              "note": "1908–1960; Belgian colonial administration",
+              "regime": "belgian_congo"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Independence & Modern",
+        "rowspan": 4
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Republic of the Congo",
+              "note": "1960–1964; Patrice Lumumba, Moïse Tshombe (Katanga secession)",
+              "regime": "republic_of_congo"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Democratic Republic of the Congo",
+              "note": "1964–1971; Mobutu Sese Seko rises to power",
+              "regime": "drc"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Zaire",
+              "note": "1971–1997; Mobutu Sese Seko regime, kleptocracy",
+              "regime": "zaire"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Democratic Republic of the Congo",
+              "note": "1997–; Laurent-Désiré Kabila → Joseph Kabila → Félix Tshisekedi",
+              "regime": "drc"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Kingdom of Kongo (c. 1390–1914): One of the largest and most powerful pre-colonial African states, centred at Mbanza Kongo (São Salvador); converted to Christianity after Portuguese contact (1483); maintained diplomatic relations with European powers; gradually fragmented under Portuguese, then Belgian, pressure.",
+    "Luba Kingdom (c. 1585–1889): A centralised state in the Katanga-Kasai region known for its sacred kingship (Mulopwe) and sophisticated political culture; conquered by Belgian forces in 1889.",
+    "Lunda Kingdom (c. 1665–1887): An expansive empire that spread Lunda political culture across much of central Africa; founded by Mwata Yamvo; its sub-kingdoms extended into present-day Angola and Zambia.",
+    "Kuba Kingdom (c. 1625–1900): A confederation of Bantu-speaking peoples in the Kasai region famous for its intricate raffia textiles and art; resisted external domination longer than most central African kingdoms.",
+    "Congo Free State (1885–1908): Leopold II's personal private colony, established at the Berlin Conference (1884–85); the site of one of history's worst colonial atrocities — forced rubber quotas enforced by mutilation and mass killing; international outcry led to Belgian state annexation in 1908.",
+    "Belgian Congo (1908–1960): After Belgium assumed control, some of the worst abuses were curtailed but racial segregation and economic exploitation continued; uranium from the Congo was used in the Manhattan Project; independence granted 30 June 1960.",
+    "Katanga Secession (1960–1963): Mineral-rich Katanga province declared independence under Moïse Tshombe days after independence; UN intervened; ended with military reintegration in 1963.",
+    "Zaire / Mobutu era (1971–1997): Mobutu Sese Seko renamed the country Zaire and instituted Authenticité (African authenticity) nationalism; ruled as a kleptocrat backed by the West during the Cold War; regime collapsed during the First Congo War.",
+    "Congo Wars (1996–2003): First Congo War (1996–97) ended Mobutu's rule; Second Congo War (1998–2003), called 'Africa's World War', involved nine nations and resulted in an estimated 5.4 million deaths, the deadliest conflict since World War II.",
+    "Eastern Congo instability (2003–present): Despite formal peace, eastern Congo (Kivu provinces) has remained a conflict zone with dozens of armed groups; M23 rebellion (2012–13, resurgent 2022–) backed by Rwanda remains an ongoing crisis."
+  ]
+}

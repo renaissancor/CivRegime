@@ -1,0 +1,261 @@
+{
+  "id": "philippines",
+  "title": "History of the Philippines",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "luzon",
+      "name": "Luzon (Manila · Tondo)",
+      "slots": 1
+    },
+    {
+      "id": "visayas",
+      "name": "Visayas (Cebu · Butuan)",
+      "slots": 1
+    },
+    {
+      "id": "mindanao",
+      "name": "Mindanao & Sulu",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Prehistoric",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Austronesian peoples",
+              "note": "c. 3000 BCE–",
+              "regime": "austronesian_peoples"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Pre-colonial Kingdoms",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Tondo (Indianized river kingdom)",
+              "note": "c. 900–1589",
+              "regime": "tondo_kingdom"
+            },
+            {
+              "label": "Namayan (polity on Pasig River)",
+              "note": "c. 1175–1571",
+              "regime": "namayan"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Rajahnate of Butuan",
+              "note": "c. 1001–1521",
+              "regime": "rajahnate_of_butuan"
+            },
+            {
+              "label": "Rajahnate of Cebu",
+              "note": "c. 1300–1565",
+              "regime": "rajahnate_of_cebu"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Sultanate of Sulu",
+              "note": "c. 1405–1915",
+              "regime": "sultanate_of_sulu"
+            },
+            {
+              "label": "Sultanate of Maguindanao",
+              "note": "c. 1500–1888",
+              "regime": "sultanate_of_maguindanao"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Spanish Colonial",
+        "rowspan": 2
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Captaincy General of the Philippines (Spanish East Indies)",
+              "note": "1565–1898",
+              "regime": "captaincy_general_philippines"
+            },
+            {
+              "label": "Viceroyalty of New Spain (administrative oversight)",
+              "note": "1565–1821",
+              "regime": "viceroyalty_new_spain"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Sultanate of Sulu (resists Spain — partial independence)",
+              "note": "1565–1898",
+              "regime": "sultanate_of_sulu"
+            },
+            {
+              "label": "Sultanate of Maguindanao (resists Spain)",
+              "note": "1565–1888",
+              "regime": "sultanate_of_maguindanao"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": null,
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Philippine Revolution (Katipunan uprising)",
+              "note": "1896–1898"
+            },
+            {
+              "label": "First Philippine Republic (Malolos Republic)",
+              "note": "1899–1901",
+              "regime": "first_philippine_republic"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Sultanate of Sulu (continuing resistance)",
+              "note": "–1915",
+              "regime": "sultanate_of_sulu"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "American Period",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "US Military Government",
+              "note": "1898–1901",
+              "regime": "us_military_government_philippines"
+            },
+            {
+              "label": "Insular Government of the Philippine Islands",
+              "note": "1901–1935",
+              "regime": "insular_government_philippines"
+            },
+            {
+              "label": "Commonwealth of the Philippines",
+              "note": "1935–1942",
+              "regime": "philippine_commonwealth"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Japanese Occupation",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Second Philippine Republic (Japanese puppet state)",
+              "note": "1943–1945",
+              "regime": "second_philippine_republic"
+            }
+          ],
+          "span": 2
+        },
+        {
+          "stack": [
+            {
+              "label": "Commonwealth government-in-exile (Washington D.C.)",
+              "note": "1942–1945",
+              "regime": "philippine_commonwealth"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Independence & Modern",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Third Republic of the Philippines",
+              "note": "1946–1972",
+              "regime": "third_philippine_republic"
+            },
+            {
+              "label": "Fourth Republic — Marcos martial law era",
+              "note": "1972–1986",
+              "regime": "fourth_philippine_republic"
+            },
+            {
+              "label": "Fifth Republic — post-EDSA People Power",
+              "note": "1986–",
+              "regime": "fifth_philippine_republic"
+            }
+          ],
+          "span": 3
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Austronesian settlement (c. 3000 BCE): Austronesian-speaking peoples from Taiwan migrated southward through the Philippines, spreading throughout Maritime Southeast Asia and the Pacific; the Philippine archipelago served as a key waypoint in this expansion; indigenous Negrito peoples (Aeta, Agta) predate the Austronesian migrations",
+    "Pre-colonial polities: the Philippines had no single unified state before Spanish colonization; instead hundreds of barangays (kinship-based communities) and several larger polities coexisted; Tondo was the most prominent Luzon polity, with ties to Majapahit and later Brunei; the Rajahnate of Butuan is documented in Chinese Song dynasty records as early as 1001 CE",
+    "Islamization of Mindanao and Sulu: Islam arrived in the Sulu archipelago via Muslim traders from Borneo and Malacca in the late 14th–early 15th century; the Sultanate of Sulu (c. 1405) and Sultanate of Maguindanao (c. 1500) were established before Spanish arrival; both sultanates successfully resisted full Spanish conquest, maintaining de facto autonomy throughout the colonial period",
+    "Spanish colonial period (1565–1898): Spain claimed the archipelago through Legazpi's expedition in 1565, naming it after Philip II; Manila was founded in 1571 on the site of the former Tondo polity; the Philippines was administered as part of the Viceroyalty of New Spain (Mexico) until 1821, then directly from Madrid; the Manila Galleon trade linked Acapulco to Manila for 250 years",
+    "Philippine Revolution and First Republic (1896–1901): the Katipunan secret society launched the revolution against Spain in 1896; Emilio Aguinaldo proclaimed independence on 12 June 1898 (now Independence Day); the Malolos Constitution established the First Philippine Republic in 1899, the first constitutional republic in Asia; the Philippine–American War (1899–1902) ended the republic",
+    "American colonial period (1898–1946): the US acquired the Philippines from Spain for $20 million via the Treaty of Paris (1898); the Insular Government introduced public education (English-medium), infrastructure, and Philippine autonomy under the Jones Act (1916); the Tydings–McDuffie Act (1934) created the Commonwealth as a transition to independence",
+    "Japanese Occupation (1942–1945): Japan invaded in December 1941 and established the Second Philippine Republic under José Laurel in 1943 as a nominally independent puppet state; President Quezon led the Commonwealth government-in-exile from Washington; the Battle of Manila (1945) caused catastrophic civilian casualties and destroyed the historic walled city of Intramuros",
+    "Marcos era and EDSA Revolution: Ferdinand Marcos declared martial law in September 1972, effectively ending the Third Republic; his authoritarian Fourth Republic lasted until the People Power Revolution (EDSA Revolution) of February 1986, which peacefully ousted Marcos and restored democracy under Corazon Aquino; the Fifth Republic has operated continuously since then"
+  ]
+}

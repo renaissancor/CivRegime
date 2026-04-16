@@ -1,0 +1,891 @@
+{
+  "id": "southern_africa",
+  "title": "History of Southern Africa",
+  "columns": [
+    {
+      "id": "era",
+      "name": "Era",
+      "slots": 1,
+      "type": "era"
+    },
+    {
+      "id": "zimbabwe",
+      "name": "Zimbabwe Plateau (Great Zimbabwe · Mutapa)",
+      "slots": 1
+    },
+    {
+      "id": "zululand",
+      "name": "Zululand & Natal",
+      "slots": 1
+    },
+    {
+      "id": "cape",
+      "name": "Cape & Western",
+      "slots": 1
+    },
+    {
+      "id": "transvaal",
+      "name": "Transvaal & Orange Free State",
+      "slots": 1
+    },
+    {
+      "id": "mozambique",
+      "name": "Mozambique Coast",
+      "slots": 1
+    }
+  ],
+  "rows": [
+    {
+      "era": {
+        "label": "Prehistoric",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "San (Bushmen) hunter-gatherers",
+              "note": "c.100,000 BCE–",
+              "regime": "san_peoples"
+            },
+            {
+              "label": "Later Stone Age — Zimbabwe Plateau",
+              "note": "",
+              "regime": "san_peoples"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "San (Bushmen) hunter-gatherers",
+              "note": "c.100,000 BCE–",
+              "regime": "san_peoples"
+            },
+            {
+              "label": "San rock art tradition",
+              "note": "",
+              "regime": "san_peoples"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "San (Bushmen) hunter-gatherers",
+              "note": "c.100,000 BCE–",
+              "regime": "san_peoples"
+            },
+            {
+              "label": "Later Stone Age — Cape region",
+              "note": "",
+              "regime": "san_peoples"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "San (Bushmen) hunter-gatherers",
+              "note": "c.100,000 BCE–",
+              "regime": "san_peoples"
+            },
+            {
+              "label": "Later Stone Age — interior plateau",
+              "note": "",
+              "regime": "san_peoples"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "San (Bushmen) hunter-gatherers",
+              "note": "c.100,000 BCE–",
+              "regime": "san_peoples"
+            },
+            {
+              "label": "Later Stone Age — coastal Mozambique",
+              "note": "",
+              "regime": "san_peoples"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Bantu Expansion & Early Iron Age",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Bantu-speaking farmers arrive",
+              "note": "c.300–1000",
+              "regime": "bantu_expansion"
+            },
+            {
+              "label": "Cattle-keeping, iron-smelting communities",
+              "note": "",
+              "regime": "bantu_expansion"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Bantu-speaking farmers arrive",
+              "note": "c.300–1000",
+              "regime": "bantu_expansion"
+            },
+            {
+              "label": "Nguni-speaking ancestors settle Natal coast",
+              "note": "",
+              "regime": "bantu_expansion"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Bantu-speaking farmers arrive",
+              "note": "c.300–1000",
+              "regime": "bantu_expansion"
+            },
+            {
+              "label": "Khoikhoi (Khoekhoe) herders",
+              "note": "",
+              "regime": "khoikhoi_herders"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Bantu-speaking farmers arrive",
+              "note": "c.300–1000",
+              "regime": "bantu_expansion"
+            },
+            {
+              "label": "Sotho-Tswana ancestors settle highveld",
+              "note": "",
+              "regime": "bantu_expansion"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Bantu-speaking farmers arrive",
+              "note": "c.300–1000",
+              "regime": "bantu_expansion"
+            },
+            {
+              "label": "Early coastal trade with East Africa",
+              "note": "",
+              "regime": "swahili_coast_trade"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Mapungubwe & Early States",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Mapungubwe",
+              "note": "c.1075–1220",
+              "regime": "kingdom_of_mapungubwe"
+            },
+            {
+              "label": "First class-based society in southern Africa; gold artifacts",
+              "note": "",
+              "regime": "kingdom_of_mapungubwe"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Scattered Nguni chiefdoms",
+              "note": "c.1075–1220",
+              "regime": "nguni_chiefdoms"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Scattered Khoisan and Bantu chiefdoms",
+              "note": "c.1075–1220",
+              "regime": "khoisan_chiefdoms"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Scattered Sotho-Tswana chiefdoms",
+              "note": "c.1075–1220",
+              "regime": "sotho_tswana_chiefdoms"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Swahili coast trade networks",
+              "note": "c.1075–1220",
+              "regime": "swahili_coast_trade"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Great Zimbabwe",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Kingdom of Great Zimbabwe",
+              "note": "c.1220–1450",
+              "regime": "great_zimbabwe"
+            },
+            {
+              "label": "Major stone-walled city; gold trade to Swahili coast",
+              "note": "",
+              "regime": "great_zimbabwe"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Scattered Nguni chiefdoms",
+              "note": "c.1220–1450",
+              "regime": "nguni_chiefdoms"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Scattered Khoisan and Bantu chiefdoms",
+              "note": "c.1220–1450",
+              "regime": "khoisan_chiefdoms"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Scattered Sotho-Tswana chiefdoms",
+              "note": "c.1220–1450",
+              "regime": "sotho_tswana_chiefdoms"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Sofala trade post — gold export route",
+              "note": "c.1220–1450",
+              "regime": "sofala_trade"
+            },
+            {
+              "label": "Gold from Great Zimbabwe via Sofala to Swahili coast",
+              "note": "",
+              "regime": "sofala_trade"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Mutapa & Rozvi",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Mutapa Empire (Mwene Mutapa)",
+              "note": "c.1430–1760",
+              "regime": "mutapa_empire"
+            },
+            {
+              "label": "Rozvi Empire (Changamire dynasty)",
+              "note": "c.1660–1830s",
+              "regime": "rozvi_empire"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Scattered Nguni chiefdoms",
+              "note": "c.1430–1800",
+              "regime": "nguni_chiefdoms"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Khoikhoi herders & San hunter-gatherers",
+              "note": "c.1430–1652",
+              "regime": "khoikhoi_herders"
+            },
+            {
+              "label": "Dutch East India Company (VOC) — Cape Colony",
+              "note": "1652–1795",
+              "regime": "dutch_cape_colony"
+            },
+            {
+              "label": "Batavian Republic (briefly)",
+              "note": "1803–1806",
+              "regime": "batavian_republic_cape"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Sotho-Tswana chiefdoms (highveld)",
+              "note": "c.1430–1800",
+              "regime": "sotho_tswana_chiefdoms"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Portuguese Mozambique",
+              "note": "c.1505–1975",
+              "regime": "portuguese_mozambique"
+            },
+            {
+              "label": "Sofala (1505) · Mozambique Island — Estado da India",
+              "note": "",
+              "regime": "portuguese_mozambique"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Mfecane & Zulu Rise",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Rozvi Empire (collapsing — Nguni raids)",
+              "note": "c.1810–1838",
+              "regime": "rozvi_empire"
+            },
+            {
+              "label": "Ndebele Kingdom (Matabele — Mzilikazi)",
+              "note": "1838–1893",
+              "regime": "ndebele_kingdom"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Zulu Kingdom (Shaka)",
+              "note": "1816–1879",
+              "regime": "zulu_kingdom"
+            },
+            {
+              "label": "Mfecane (Difaqane) — mass migrations & wars",
+              "note": "c.1815–1840",
+              "regime": "mfecane"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "British Cape Colony",
+              "note": "1806–1910",
+              "regime": "british_cape_colony"
+            },
+            {
+              "label": "Cape Frontier Wars (Xhosa resistance)",
+              "note": "1779–1879",
+              "regime": "cape_frontier_wars"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Voortrekker migration (Great Trek)",
+              "note": "1835–1840",
+              "regime": "voortrekker_republics"
+            },
+            {
+              "label": "South African Republic (ZAR)",
+              "note": "1852–1902",
+              "regime": "south_african_republic_zar"
+            },
+            {
+              "label": "Orange Free State",
+              "note": "1854–1902",
+              "regime": "orange_free_state"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Portuguese Mozambique",
+              "note": "c.1505–1975",
+              "regime": "portuguese_mozambique"
+            },
+            {
+              "label": "Gaza Empire (Nguni state in Mozambique)",
+              "note": "1824–1895",
+              "regime": "gaza_empire"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Colonial & Scramble",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "British South Africa Company (BSAC)",
+              "note": "1890–1923",
+              "regime": "bsac_rhodesia"
+            },
+            {
+              "label": "Rhodesia (Southern & Northern)",
+              "note": "1890–",
+              "regime": "bsac_rhodesia"
+            },
+            {
+              "label": "First & Second Matabele Wars",
+              "note": "1893, 1896",
+              "regime": "bsac_rhodesia"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "British annexation of Zululand",
+              "note": "1887",
+              "regime": "british_zululand"
+            },
+            {
+              "label": "Anglo-Zulu War",
+              "note": "1879",
+              "regime": "anglo_zulu_war"
+            },
+            {
+              "label": "Colony of Natal",
+              "note": "1843–1910",
+              "regime": "colony_of_natal"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "British Cape Colony",
+              "note": "1806–1910",
+              "regime": "british_cape_colony"
+            },
+            {
+              "label": "Discovery of diamonds (Kimberley)",
+              "note": "1867",
+              "regime": "diamond_discovery_cape"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "South African Republic (ZAR)",
+              "note": "1852–1902",
+              "regime": "south_african_republic_zar"
+            },
+            {
+              "label": "Orange Free State",
+              "note": "1854–1902",
+              "regime": "orange_free_state"
+            },
+            {
+              "label": "Anglo-Boer Wars",
+              "note": "1880–1881, 1899–1902",
+              "regime": "anglo_boer_wars"
+            },
+            {
+              "label": "Discovery of gold (Witwatersrand)",
+              "note": "1886",
+              "regime": "gold_discovery_rand"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Portuguese Mozambique",
+              "note": "c.1505–1975",
+              "regime": "portuguese_mozambique"
+            },
+            {
+              "label": "Gaza Empire defeated by Portugal",
+              "note": "1895",
+              "regime": "portuguese_mozambique"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Union & Federation",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Southern Rhodesia (self-governing colony)",
+              "note": "1923–1953",
+              "regime": "southern_rhodesia"
+            },
+            {
+              "label": "Federation of Rhodesia and Nyasaland",
+              "note": "1953–1963",
+              "regime": "federation_rhodesia_nyasaland"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Union of South Africa — Natal Province",
+              "note": "1910–1961",
+              "regime": "union_of_south_africa"
+            },
+            {
+              "label": "African National Congress founded",
+              "note": "1912",
+              "regime": "union_of_south_africa"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Union of South Africa — Cape Province",
+              "note": "1910–1961",
+              "regime": "union_of_south_africa"
+            },
+            {
+              "label": "National Party rises — segregation laws",
+              "note": "1948",
+              "regime": "union_of_south_africa"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Union of South Africa — Transvaal & OFS",
+              "note": "1910–1961",
+              "regime": "union_of_south_africa"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Portuguese Mozambique",
+              "note": "c.1505–1975",
+              "regime": "portuguese_mozambique"
+            },
+            {
+              "label": "Mozambique Company concession",
+              "note": "1891–1942",
+              "regime": "portuguese_mozambique"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Apartheid & UDI",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Rhodesia UDI (Ian Smith)",
+              "note": "1965–1979",
+              "regime": "rhodesia_udi"
+            },
+            {
+              "label": "Zimbabwe-Rhodesia (brief transition)",
+              "note": "1979",
+              "regime": "zimbabwe_rhodesia"
+            },
+            {
+              "label": "Bush War / Zimbabwe Liberation War",
+              "note": "1964–1979",
+              "regime": "rhodesia_udi"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Republic of South Africa — Natal",
+              "note": "1961–1994",
+              "regime": "apartheid_south_africa"
+            },
+            {
+              "label": "KwaZulu bantustan",
+              "note": "1970–1994",
+              "regime": "kwazulu_bantustan"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Republic of South Africa / Apartheid era",
+              "note": "1961–1994",
+              "regime": "apartheid_south_africa"
+            },
+            {
+              "label": "Sharpeville Massacre",
+              "note": "1960",
+              "regime": "apartheid_south_africa"
+            },
+            {
+              "label": "Soweto Uprising",
+              "note": "1976",
+              "regime": "apartheid_south_africa"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Republic of South Africa — Transvaal & OFS",
+              "note": "1961–1994",
+              "regime": "apartheid_south_africa"
+            },
+            {
+              "label": "Bophuthatswana · Venda bantustans",
+              "note": "1977–1994",
+              "regime": "apartheid_bantustans"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Mozambique independence (FRELIMO)",
+              "note": "1975",
+              "regime": "republic_of_mozambique"
+            },
+            {
+              "label": "Mozambican Civil War (FRELIMO vs RENAMO)",
+              "note": "1977–1992",
+              "regime": "mozambican_civil_war"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    },
+    {
+      "era": {
+        "label": "Modern",
+        "rowspan": 1
+      },
+      "cells": [
+        {
+          "stack": [
+            {
+              "label": "Republic of Zimbabwe (Mugabe)",
+              "note": "1980–",
+              "regime": "republic_of_zimbabwe"
+            },
+            {
+              "label": "Gukurahundi massacres (Matabeleland)",
+              "note": "1983–1987",
+              "regime": "republic_of_zimbabwe"
+            },
+            {
+              "label": "Land reform crisis · hyperinflation",
+              "note": "2000s",
+              "regime": "republic_of_zimbabwe"
+            },
+            {
+              "label": "Emmerson Mnangagwa (post-Mugabe)",
+              "note": "2017–",
+              "regime": "republic_of_zimbabwe"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Post-apartheid Republic of South Africa — KwaZulu-Natal",
+              "note": "1994–",
+              "regime": "post_apartheid_south_africa"
+            },
+            {
+              "label": "ANC governance · Zuma era",
+              "note": "",
+              "regime": "post_apartheid_south_africa"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Post-apartheid Republic of South Africa",
+              "note": "1994–",
+              "regime": "post_apartheid_south_africa"
+            },
+            {
+              "label": "Nelson Mandela — first democratic election",
+              "note": "1994",
+              "regime": "post_apartheid_south_africa"
+            },
+            {
+              "label": "Cape Town · Western Cape Province",
+              "note": "",
+              "regime": "post_apartheid_south_africa"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Post-apartheid Republic of South Africa — Gauteng",
+              "note": "1994–",
+              "regime": "post_apartheid_south_africa"
+            },
+            {
+              "label": "Johannesburg · Pretoria (Tshwane)",
+              "note": "",
+              "regime": "post_apartheid_south_africa"
+            }
+          ],
+          "span": 1
+        },
+        {
+          "stack": [
+            {
+              "label": "Republic of Mozambique",
+              "note": "1990–",
+              "regime": "republic_of_mozambique"
+            },
+            {
+              "label": "Peace agreement · multiparty elections",
+              "note": "1992–1994",
+              "regime": "republic_of_mozambique"
+            },
+            {
+              "label": "Maputo — major regional port",
+              "note": "",
+              "regime": "republic_of_mozambique"
+            }
+          ],
+          "span": 1
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "Kingdom of Mapungubwe (c.1075–1220): Located at the confluence of the Limpopo and Shashe rivers (modern Zimbabwe-South Africa-Botswana border), Mapungubwe was the first class-stratified society in southern Africa; its rulers were buried on a hilltop separate from commoners with golden artefacts including the famous golden rhinoceros; abandoned c.1290 possibly due to climate change.",
+    "Kingdom of Great Zimbabwe (c.1220–1450): The largest medieval stone structure in sub-Saharan Africa, Great Zimbabwe at its peak housed 10,000–18,000 people; its rulers controlled the gold trade between the interior plateau and the Swahili coast ports; the site gives modern Zimbabwe its name; decline was likely caused by overgrazing, deforestation, and shifting trade routes.",
+    "Mutapa Empire (c.1430–1760): Founded by Nyatsimba Mutota after the fall of Great Zimbabwe; controlled gold and ivory trade; Portuguese traders and missionaries penetrated the empire from the coast, eventually making it a vassal state (1629); it survived in diminished form until Rozvi expansion displaced it.",
+    "Rozvi Empire / Changamire dynasty (c.1660–1830s): The Rozvi expelled the Portuguese from the Zimbabwe Plateau in 1693; their capital Khami and other stone-walled sites continued the Great Zimbabwe building tradition; the empire was destroyed by Ngoni (Nguni) raiding groups displaced by the Mfecane.",
+    "Mfecane (c.1815–1840): A period of widespread chaos and warfare in southern Africa triggered by the rise of the Zulu Kingdom under Shaka; mass migrations created new states as far north as Tanzania; the Ndebele (Matabele) under Mzilikazi fled Shaka and settled in the Zimbabwe Plateau; the Sotho under Moshoeshoe founded Lesotho; population dislocations affected millions.",
+    "Zulu Kingdom (1816–1879): Shaka kaSenzangakhona revolutionized Zulu military tactics (the 'bull horn' formation, the short stabbing spear); the kingdom expanded rapidly and absorbed neighboring chiefdoms; after Shaka's assassination (1828), it continued under Dingane, Mpande, and Cetshwayo; the Anglo-Zulu War (1879) ended with British victory after the shock defeat at Isandlwana.",
+    "Anglo-Boer Wars (1880–1881, 1899–1902): The First Boer War ended in Boer victory at Majuba Hill; the Second Boer War (South African War) was the largest British campaign since the Napoleonic Wars; Britain used concentration camps in which ~26,000 Boer civilians and ~14,000–20,000 Black Africans died; the Boer republics were absorbed into the British Empire.",
+    "Union of South Africa (1910–1961): Created by the South Africa Act 1909 uniting Cape, Natal, Transvaal, and OFS; a self-governing dominion within the British Empire; the 1913 Natives Land Act restricted Black land ownership to 7% of the country; the National Party victory in 1948 institutionalized apartheid.",
+    "Apartheid era (1948–1994): The system of institutionalized racial segregation classified the population into White, Coloured, Indian, and Black groups; the Sharpeville Massacre (1960) and Soweto Uprising (1976) became international symbols of resistance; Nelson Mandela was imprisoned 1964–1990; F.W. de Klerk unbanned the ANC (1990), leading to negotiations and the first fully democratic election in April 1994.",
+    "Portuguese Mozambique (1505–1975): Portugal established Sofala (1505) and Mozambique Island as bases for the Indian Ocean trade; the colony was chronically underdeveloped; after the Carnation Revolution in Lisbon (1974), FRELIMO took power; the subsequent civil war with RENAMO (backed by apartheid South Africa and Rhodesia) caused over one million deaths."
+  ]
+}
