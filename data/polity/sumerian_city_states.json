@@ -2,7 +2,7 @@
   "id": "sumerian_city_states",
   "name": "Sumerian City-States (Ur, Uruk, Lagash)",
   "ruling_ethnicity": "sumerian",
-  "cultural_language": "sumerian",
+  "cultural_language": "city_state",
   "ideology": {
     "religion": "mesopotamian_religion",
     "government": "city_state"
