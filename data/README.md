@@ -401,7 +401,7 @@ Checks:
 
 **"Invalid succession type"**
 - Must be one of: `A`, `A-`, `B`, `C`, `D`
-- See `docs/succession.md` for semantics
+- See `docs/model/succession.md` for semantics
 
 ---
 

@@ -97,12 +97,12 @@ All cross-references use string IDs as foreign keys. The server loads JSON at st
 
 The project is transitioning to a DuckDB relational database (`civregime.db`) with a normalized schema:
 
-- **24 tables** designed (see `docs/erd.sql`)
+- **24 tables** designed (see `docs/model/erd.sql`)
 - **Polity/Regime split**: current "regime" records become "polities"; dynasty-level data becomes "regimes"
 - **History panels** decompose into `history_cells` table with FK links
 - **Succession graph** at two levels: polity-to-polity (macro) and regime-to-regime (dynasty)
 
-See `docs/erd.md` for the full ERD and `docs/TODO.md` for the migration roadmap.
+See `docs/model/erd.md` for the full ERD and `docs/TODO.md` for the migration roadmap.
 
 ---
 
@@ -110,16 +110,19 @@ See `docs/erd.md` for the full ERD and `docs/TODO.md` for the migration roadmap.
 
 | File | Contents |
 |------|----------|
-| `docs/erd.sql` | Full DDL schema (v2 — Polity/Regime split) |
-| `docs/erd.md` | Visual ERD diagram, table summary, example queries |
+| `docs/README.md` | Documentation index |
 | `docs/TODO.md` | 9-phase RDBMS migration roadmap |
 | `docs/ARCHITECTURE.md` | System architecture and data flow |
-| `docs/data-model.md` | Entity schema and edge type reference |
-| `docs/regime.md` | Polity fields, figures, polity vs regime distinction |
-| `docs/succession.md` | Succession type logic and edge cases |
-| `docs/ideology.md` | Ideology vs policy distinction |
-| `docs/ethnicity.md` | Ethnicity model and tree structure |
-| `docs/religion.md` | Religion taxonomy |
+| `docs/model/erd.sql` | Full DDL schema (v2 — Polity/Regime split) |
+| `docs/model/erd.md` | Visual ERD diagram, table summary, example queries |
+| `docs/model/data-model.md` | Entity schema and edge type reference |
+| `docs/model/regime.md` | Polity fields, figures, polity vs regime distinction |
+| `docs/model/succession.md` | Succession type logic and edge cases |
+| `docs/model/ideology.md` | Ideology vs policy distinction |
+| `docs/model/ethnicity.md` | Ethnicity model and tree structure |
+| `docs/model/religion.md` | Religion taxonomy |
+| `docs/migration/` | CSV workflow, merge map, missing polities |
+| `docs/frontend/` | Succession graph visualization |
 | `data/README.md` | Data directory guide and file formats |
 
 ---

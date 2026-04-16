@@ -4,7 +4,7 @@
 - [x] Design three-tier ERD (State → Polity → Regime)
 - [x] Create DuckDB schema (`civregime.db`) — 24 tables
 - [x] Auto-link 637 panel labels to existing polity IDs
-- [x] Document ERD (`docs/erd.sql`, `docs/erd.md`)
+- [x] Document ERD (`docs/model/erd.sql`, `docs/model/erd.md`)
 
 ## Phase 2: Migrate Existing Data → DuckDB ✅ (done)
 - [x] **P2.1** Migrate taxonomy trees (ethnicity → 256, languages → 691, religions → 256)
@@ -32,7 +32,7 @@ Extracted 4,572 labels from 61 history panels. Analysis complete. Now need manua
 - [x] **P3.2** Categorize labels: 1,451 linked, 1,064 polity, 475 regime, 355 people, 369 event, 126 culture, 732 unclassified
 - [x] **P3.3** Normalize & deduplicate labels → `csvs/canonical_entities.csv` (`scripts/normalize_labels.js`)
 - [x] **P3.4** Identify temporal/spatial overlaps → `csvs/overlap_candidates.csv`, `csvs/timeline_sorted.csv` (`scripts/find_overlaps.js`)
-- [x] **P3.5** Document naming architecture → `docs/naming.md`
+- [x] **P3.5** Document naming architecture → `docs/model/naming.md`
 
 ### Phase 3 Curation (todo — manual + scripted)
 - [ ] **P3.6** Pick one panel (gold standard), manually curate all labels:
@@ -143,8 +143,8 @@ Key patterns to resolve:
 
 | Doc | Purpose |
 |-----|---------|
-| `docs/naming.md` | Entity ID naming conventions and collision resolution |
-| `docs/ideology.md` | Ideology vs policy distinction; government form = ideology |
-| `docs/data-model.md` | Property graph model, edge types |
-| `docs/erd.sql` | Full DDL schema (24 tables) |
-| `docs/erd.md` | Visual ERD and example queries |
+| `docs/model/naming.md` | Entity ID naming conventions and collision resolution |
+| `docs/model/ideology.md` | Ideology vs policy distinction; government form = ideology |
+| `docs/model/data-model.md` | Property graph model, edge types |
+| `docs/model/erd.sql` | Full DDL schema (24 tables) |
+| `docs/model/erd.md` | Visual ERD and example queries |

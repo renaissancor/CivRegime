@@ -1,71 +1,112 @@
 # CivRegime Architecture
 
-## Evolution
+## Core Principle: CSV as Source of Truth
 
-The project has gone through three architectural phases:
+**CSV is the canonical format for all flat/relational data.** CSVs are human-readable, spreadsheet-editable, git-diffable, and directly loadable by DuckDB. As the dataset scales toward thousands of entities, CSV remains the most practical format for bulk authoring and review.
 
-1. **CSV-first (early):** CSVs as source of truth, numeric IDs, JSON generated from CSV
-2. **JSON-first (current):** JSON files as source of truth, text IDs, direct editing
-3. **RDBMS (planned):** DuckDB as source of truth, JSON generated from DB queries
+**JSON is reserved for two roles:**
+1. **History panels** — inherently nested (rows → cells → stacks → splits), cannot be flattened to CSV
+2. **Frontend serving** — generated from CSV/DuckDB, not hand-edited
 
-### Why the shift?
-- CSV with numeric IDs was hard to maintain as the dataset grew (268 polities, 1,243 successions)
-- Text IDs (`ottoman_empire` vs `42`) are self-documenting and prevent errors
-- History panels (61 files) are hand-curated and don't fit a CSV workflow
-- A relational database enables complex queries (succession chains, temporal overlap, cross-referencing)
+```
+CSV files (csvs/)              ← source of truth for flat data
+  ├── polity.csv                  428 polities
+  ├── polity_territory.csv        939 territory links
+  ├── successions.csv             1,995 edges
+  ├── territories.csv             53 territories
+  ├── ethnicity.csv               276 nodes
+  ├── languages.csv               691 nodes
+  ├── religions.csv               255 nodes
+  ├── states.csv                  2 states
+  └── figures.csv                 285 figures
+
+JSON files (data/history/)     ← source of truth for nested data
+  └── {region}/{country}.json     66 history panels, ~4,300 cells
+
+DuckDB (civregime.db)          ← query engine, loads from both
+  └── 24 tables (see docs/model/erd.sql)
+
+JSON files (data/)             ← generated output for frontend
+  ├── polity/*.json               generated from CSV
+  ├── succession/all.json         generated from CSV
+  ├── territory/*.json            generated from CSV
+  ├── ethnicity/                  generated from CSV (tree)
+  ├── language/                   generated from CSV (tree)
+  └── religion/                   generated from CSV (tree)
+```
+
+### Why CSV over JSON for flat data?
+
+| | CSV | JSON |
+|---|---|---|
+| **Read 1,000 rows** | Open in spreadsheet, sort/filter | Scattered across 1,000 files |
+| **Bulk edit** | Find/replace in one file | Script across 1,000 files |
+| **DuckDB load** | `read_csv_auto()` — native | Requires custom loader |
+| **Git diff** | One changed row = one line | Entire object block changes |
+| **Validation** | Column constraints, FK checks | Schema must be defined separately |
 
 ---
 
-## Current Architecture (JSON-First)
+## Data Flow
 
 ```
-┌─────────────────────────────────────────┐
-│  JSON Files (data/)                     │
-│  Source of Truth                        │
-│  ├── polity/*.json       (268 files)    │  ← polities (was regimes/)
-│  ├── successions/all.json (1,243 edges) │
-│  ├── history/*/*.json    (61 panels)    │
-│  ├── territories/        (79 files)     │
-│  ├── provinces/          (53 GeoJSON)   │
-│  ├── languages/          (691 nodes)    │  ← directory tree
-│  ├── religions/          (255 nodes)    │  ← directory tree
-│  ├── ethnicity/          (276 nodes)    │  ← directory tree
-│  ├── ideologies.json     (~30 entries)  │
-│  └── states.json         (2 entries)    │
-└─────────────────────────────────────────┘
-            ↓ data/index.js
-┌─────────────────────────────────────────┐
-│  In-Memory Database (server.js)         │
-│  ├── db.polity[]                        │
-│  ├── db.successions[]                   │
-│  ├── db.religions[] (with tree helpers) │
-│  ├── db.languages[] (with tree helpers) │
-│  ├── db.ethnicity[]                     │
-│  ├── db.ideologies[]                    │
-│  ├── db.territories[]                   │
-│  └── db.provinces[]                     │
-└─────────────────────────────────────────┘
-            ↓ Express static + API
-┌─────────────────────────────────────────┐
-│  Frontend (public/)                     │
-│  ├── index.html        (polity browser) │
-│  ├── history/index.html (panel viewer)  │
-│  ├── succession-graph.html (D3 graph)   │
-│  ├── territory/, ethnicity/, etc.       │
-│  └── Fetches JSON directly from /data/  │
-└─────────────────────────────────────────┘
+┌─────────────────────────────────┐
+│  CSVs (csvs/)                   │
+│  Source of truth (flat data)    │
+│  Human-editable, git-diffable   │
+└─────────────┬───────────────────┘
+              │
+    ┌─────────┴─────────┐
+    ▼                   ▼
+┌────────────┐   ┌──────────────────┐
+│  DuckDB    │   │  code/makejson/  │
+│  Analytics │   │  CSV → JSON      │
+│  Queries   │   │  for frontend    │
+└────────────┘   └───────┬──────────┘
+                         ▼
+              ┌──────────────────────┐
+              │  JSON (data/)        │
+              │  Generated output    │
+              │  + history panels    │
+              └──────────┬───────────┘
+                         ▼ data/index.js
+              ┌──────────────────────┐
+              │  In-Memory DB        │
+              │  (server.js)         │
+              └──────────┬───────────┘
+                         ▼ Express API
+              ┌──────────────────────┐
+              │  Frontend (public/)  │
+              │  Vanilla JS + D3     │
+              └──────────────────────┘
 ```
 
 ### Data Loading (data/index.js)
 
-Three loading strategies:
-- **`loadDir(dir)`** — flat recursive load of all JSONs into array (polity, successions, territories, provinces)
+Three loading strategies for generated JSON:
+- **`loadDir(dir)`** — flat recursive load of all JSONs into array (polity, successions, territories)
 - **`loadTree(dir)`** — taxonomy loader that derives `parent` from directory structure (religions, languages, ethnicity)
 - **`loadJSON(file)`** — single file load (ideologies)
 
-### History Panels
+### Generation Pipeline
 
-History panels are served as static JSON and rendered client-side. Each panel defines:
+```bash
+npm run make:all    # regenerate all JSON from CSVs
+npm run validate    # check data integrity (npm test)
+```
+
+Individual generators in `code/makejson/`:
+- `regimes.js` — csvs/polity.csv → data/polity/*.json
+- `successions.js` — csvs/successions.csv → data/succession/all.json
+- `territories.js` — csvs/territories.csv → data/territory/*.json
+- `ethnicities.js`, `languages.js`, `religions.js` — tree CSVs → directory trees
+
+---
+
+## History Panels
+
+History panels are the exception to CSV-first — they remain as hand-curated JSON because their structure is inherently nested:
+
 - `columns[]` — geographic sub-regions (e.g., Northern France, Southern France)
 - `rows[]` — temporal rows with `era` labels
 - `cells[]` — each cell contains a `label`, optional `regime` FK, `note`, and `span`
@@ -73,15 +114,17 @@ History panels are served as static JSON and rendered client-side. Each panel de
 - `split[]` — concurrent entities (e.g., Free France / Vichy France)
 - `footnotes[]` — explanatory notes
 
+Phase 5 of the roadmap will normalize panels into DuckDB tables (`history_panels`, `history_columns`, `history_cells`), but the source JSON files remain authoritative until then.
+
 ---
 
-## Planned Architecture (DuckDB RDBMS)
+## Planned: DuckDB RDBMS
 
 ```
 ┌─────────────────────────────────────────┐
 │  DuckDB (civregime.db)                  │
-│  Source of Truth                        │
-│  24 tables (see docs/erd.sql)           │
+│  24 tables (see docs/model/erd.sql)     │
+│  Loaded from CSVs + history JSONs       │
 │  ├── Taxonomy: ethnicities, languages,  │
 │  │   religions, ideologies              │
 │  ├── Geography: territories, provinces  │
@@ -93,26 +136,9 @@ History panels are served as static JSON and rendered client-side. Each panel de
 │  │   cells                              │
 │  └── People: figures                    │
 └─────────────────────────────────────────┘
-            ↓ API layer (server.js)
-┌─────────────────────────────────────────┐
-│  REST API                               │
-│  GET /api/panel/:id                     │
-│  GET /api/polity/:id                    │
-│  GET /api/regime/:id                    │
-│  GET /api/territory/:id?year=1200       │
-│  GET /api/succession-chain/:from/:to    │
-└─────────────────────────────────────────┘
-            ↓
-┌─────────────────────────────────────────┐
-│  Frontend (same public/ pages)          │
-│  Panels generated from DB queries       │
-│  instead of static JSON                 │
-└─────────────────────────────────────────┘
 ```
 
 ### Three-Tier Political Hierarchy
-
-The key architectural change is splitting the current `polity` concept into three levels:
 
 | Tier | Table | Count | Example |
 |------|-------|-------|---------|
@@ -121,10 +147,8 @@ The key architectural change is splitting the current `polity` concept into thre
 | **Regime** | `regimes` | ~2,500 | Julio-Claudian, Bourbon dynasty |
 
 - **State** = political continuity across polity changes (Roman Republic → Roman Empire = same "Roman State")
-- **Polity** = a political entity (what current `data/polity/*.json` records are)
+- **Polity** = a political entity (what current `csvs/polity.csv` rows are)
 - **Regime** = a dynasty or ruling period within a polity (what history panel labels describe)
-
-Current `data/polity/` files are the polity-level records (formerly `data/regimes/`).
 
 ### Succession at Two Levels
 
@@ -133,7 +157,7 @@ Polity successions (macro):  Roman Republic → Roman Empire → Byzantine Empir
 Regime successions (micro):  Julio-Claudian → Flavian → Antonine → Severan
 ```
 
-Both are directed graphs. Polity successions exist today (1,243 edges). Regime successions will be derived from history panel stack order (~2,300 edges).
+Both are directed graphs. Polity successions exist today (1,995 edges in CSV). Regime successions will be derived from history panel stack order (~2,300 edges).
 
 ---
 
@@ -169,26 +193,27 @@ province.territory_id    → territories.id
 
 ## Key Design Decisions
 
-### 1. Text IDs (not numeric)
-All entities use human-readable text IDs (`ottoman_empire`, not `42`). Self-documenting, stable across imports, easy to reference in history panels.
+### 1. CSV-first for flat data
+CSVs are the source of truth. JSON is generated output. At 400+ polities and growing, CSV is the only format that scales for human editing, bulk operations, and direct DuckDB ingestion.
 
-### 2. Polity/Regime Split
-Polities are the political entity (the state). Regimes are dynasties/periods within. This avoids the question "is Capetian France the same as Bourbon France?" — they're different regimes of the same polity.
+### 2. Text IDs (not numeric)
+All entities use human-readable text IDs (`ottoman_empire`, not `42`). Self-documenting, stable across imports, easy to reference in history panels and CSVs.
 
-### 3. History Panels as First-Class Data
-Panels aren't just visualization — they're the richest source of regime data. The ~4,600 cells contain temporal, geographic, and succession information that the RDBMS will normalize.
+### 3. Polity/Regime Split
+Polities are the political entity. Regimes are dynasties/periods within. This avoids the question "is Capetian France the same as Bourbon France?" — they're different regimes of the same polity.
 
-### 4. Taxonomy Trees via Directory Structure
-Languages, religions, and ethnicities use filesystem hierarchy to encode parent-child relationships. `languages/indo_european/germanic/west_germanic/english.json` → parent is `west_germanic`. No explicit parent field needed in source files.
+### 4. History Panels as First-Class Data
+Panels aren't just visualization — they're the richest source of regime data. The ~4,300 cells contain temporal, geographic, and succession information that the RDBMS will normalize.
 
 ### 5. DuckDB over SQLite
-DuckDB was chosen for analytical query power (column-oriented, complex JOINs, recursive CTEs for succession chains). The existing `civregime.db` file uses DuckDB format.
+DuckDB was chosen for analytical query power (column-oriented, complex JOINs, recursive CTEs for succession chains).
 
 ---
 
 ## See Also
 
-- `docs/erd.sql` — Full DDL schema
-- `docs/erd.md` — Visual ERD diagram
+- `docs/model/erd.sql` — Full DDL schema
+- `docs/model/erd.md` — Visual ERD diagram
 - `docs/TODO.md` — Migration roadmap
+- `docs/migration/csv_workflow.md` — CSV editing guide
 - `data/README.md` — Data file formats and loading pipeline
