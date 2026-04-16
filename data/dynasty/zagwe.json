@@ -1,0 +1,14 @@
+{
+  "id": "zagwe",
+  "name": "Zagwe",
+  "ethnicity": "cushitic_cluster",
+  "origin_region": "east_africa",
+  "note": "Agaw dynasty before Solomonic restoration",
+  "polities": [
+    {
+      "polity_id": "zagwe_dynasty",
+      "start": 900,
+      "end": 1270
+    }
+  ]
+}

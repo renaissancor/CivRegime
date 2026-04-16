@@ -1,0 +1,14 @@
+{
+  "id": "saadian",
+  "name": "Saadian",
+  "ethnicity": "berber",
+  "origin_region": "north_africa",
+  "note": "Sharifian dynasty in Morocco",
+  "polities": [
+    {
+      "polity_id": "saadian_dynasty",
+      "start": 1549,
+      "end": 1659
+    }
+  ]
+}

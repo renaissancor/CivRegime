@@ -1,0 +1,19 @@
+{
+  "id": "chalukya",
+  "name": "Chalukya",
+  "ethnicity": "dravidian_cluster",
+  "origin_region": "india",
+  "note": "Kannada dynasty in Deccan",
+  "polities": [
+    {
+      "polity_id": "chalukya_dynasty",
+      "start": 543,
+      "end": 753
+    },
+    {
+      "polity_id": "vijayanagara_empire",
+      "start": 1336,
+      "end": 1646
+    }
+  ]
+}

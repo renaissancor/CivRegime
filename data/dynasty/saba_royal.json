@@ -1,0 +1,14 @@
+{
+  "id": "saba_royal",
+  "name": "Saba Royal",
+  "ethnicity": "semitic_cluster",
+  "origin_region": "arabia",
+  "note": "Mukarribs and Kings of Saba",
+  "polities": [
+    {
+      "polity_id": "kingdom_of_saba",
+      "start": -1000,
+      "end": -275
+    }
+  ]
+}

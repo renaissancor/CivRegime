@@ -1,0 +1,14 @@
+{
+  "id": "funan_royal",
+  "name": "Funan Royal",
+  "ethnicity": "khmer",
+  "origin_region": "southeast_asia",
+  "note": "Indianized dynasty of Funan",
+  "polities": [
+    {
+      "polity_id": "funan",
+      "start": 100,
+      "end": 550
+    }
+  ]
+}

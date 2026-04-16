@@ -1,0 +1,14 @@
+{
+  "id": "khazar",
+  "name": "Khazar",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "central_asian_steppe",
+  "note": "Khazar khagan dynasty",
+  "polities": [
+    {
+      "polity_id": "khazar_khaganate",
+      "start": 650,
+      "end": 969
+    }
+  ]
+}

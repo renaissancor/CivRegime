@@ -1,0 +1,14 @@
+{
+  "id": "ryukyu_sho",
+  "name": "Shō",
+  "ethnicity": "ryukyuan",
+  "origin_region": "japan",
+  "note": "Ryukyu royal dynasty",
+  "polities": [
+    {
+      "polity_id": "ryukyu_kingdom",
+      "start": 1429,
+      "end": 1879
+    }
+  ]
+}

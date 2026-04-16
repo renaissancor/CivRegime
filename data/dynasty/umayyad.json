@@ -1,0 +1,24 @@
+{
+  "id": "umayyad",
+  "name": "Umayyad",
+  "ethnicity": "arab",
+  "origin_region": "levant",
+  "note": "First hereditary caliphate dynasty",
+  "polities": [
+    {
+      "polity_id": "umayyad_caliphate",
+      "start": 661,
+      "end": 750
+    },
+    {
+      "polity_id": "al_andalus",
+      "start": 756,
+      "end": 1031
+    },
+    {
+      "polity_id": "muhallabid_governors",
+      "start": 771,
+      "end": 793
+    }
+  ]
+}

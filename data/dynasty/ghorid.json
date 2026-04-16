@@ -1,0 +1,19 @@
+{
+  "id": "ghorid",
+  "name": "Ghorid",
+  "ethnicity": "pashtun",
+  "origin_region": "khorasan",
+  "note": "Dynasty from Ghor in central Afghanistan",
+  "polities": [
+    {
+      "polity_id": "ghorid_dynasty",
+      "start": 879,
+      "end": 1215
+    },
+    {
+      "polity_id": "sur_empire",
+      "start": 1540,
+      "end": 1556
+    }
+  ]
+}

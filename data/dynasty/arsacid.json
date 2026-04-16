@@ -1,0 +1,14 @@
+{
+  "id": "arsacid",
+  "name": "Arsacid",
+  "ethnicity": "parthian",
+  "origin_region": "iran_plateau",
+  "note": "Parthian dynasty founded by Arsaces I",
+  "polities": [
+    {
+      "polity_id": "parthian_empire",
+      "start": -247,
+      "end": 224
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "joseon_yi",
+  "name": "Yi",
+  "ethnicity": "korean",
+  "origin_region": "korea",
+  "note": "Joseon dynasty royal family",
+  "polities": [
+    {
+      "polity_id": "joseon",
+      "start": 1392,
+      "end": 1897
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aghlabid",
+  "name": "Aghlabid",
+  "ethnicity": "arab",
+  "origin_region": "north_africa",
+  "note": "Governors under Abbasids in Ifriqiya",
+  "polities": [
+    {
+      "polity_id": "aghlabid_dynasty",
+      "start": 800,
+      "end": 909
+    }
+  ]
+}

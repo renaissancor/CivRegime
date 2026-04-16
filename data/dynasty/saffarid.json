@@ -1,0 +1,14 @@
+{
+  "id": "saffarid",
+  "name": "Saffarid",
+  "ethnicity": "persian",
+  "origin_region": "khorasan",
+  "note": "Founded by Yaqub ibn Laith",
+  "polities": [
+    {
+      "polity_id": "saffarid_dynasty",
+      "start": 861,
+      "end": 1003
+    }
+  ]
+}

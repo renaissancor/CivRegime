@@ -1,0 +1,14 @@
+{
+  "id": "achaemenid",
+  "name": "Achaemenid",
+  "ethnicity": "persian",
+  "origin_region": "iran_plateau",
+  "note": "Founded by Cyrus the Great",
+  "polities": [
+    {
+      "polity_id": "achaemenid_empire",
+      "start": -550,
+      "end": -330
+    }
+  ]
+}

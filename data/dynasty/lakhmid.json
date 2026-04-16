@@ -1,0 +1,14 @@
+{
+  "id": "lakhmid",
+  "name": "Lakhmid",
+  "ethnicity": "arab",
+  "origin_region": "mesopotamia",
+  "note": "Pre-Islamic Arab vassal dynasty",
+  "polities": [
+    {
+      "polity_id": "lakhmid_kingdom",
+      "start": 300,
+      "end": 602
+    }
+  ]
+}

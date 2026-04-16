@@ -1,0 +1,14 @@
+{
+  "id": "indo_scythian",
+  "name": "Indo-Scythian",
+  "ethnicity": "scythian",
+  "origin_region": "india",
+  "note": "Saka dynasty in India",
+  "polities": [
+    {
+      "polity_id": "indo_scythian_kingdom",
+      "start": -110,
+      "end": 400
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "idrisid",
+  "name": "Idrisid",
+  "ethnicity": "arab",
+  "origin_region": "north_africa",
+  "note": "Sharifs descended from Idris I",
+  "polities": [
+    {
+      "polity_id": "idrisid_dynasty",
+      "start": 789,
+      "end": 974
+    }
+  ]
+}

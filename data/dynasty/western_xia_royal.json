@@ -1,0 +1,14 @@
+{
+  "id": "western_xia_royal",
+  "name": "Weiming",
+  "ethnicity": "central_asian_steppe_bloc",
+  "origin_region": "yellow_river",
+  "note": "Tangut imperial clan",
+  "polities": [
+    {
+      "polity_id": "western_xia",
+      "start": 1038,
+      "end": 1227
+    }
+  ]
+}

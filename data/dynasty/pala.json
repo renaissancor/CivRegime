@@ -1,0 +1,14 @@
+{
+  "id": "pala",
+  "name": "Pala",
+  "ethnicity": "indo_aryan_cluster",
+  "origin_region": "india",
+  "note": "Bengali Buddhist dynasty",
+  "polities": [
+    {
+      "polity_id": "pala_empire",
+      "start": 750,
+      "end": 1161
+    }
+  ]
+}

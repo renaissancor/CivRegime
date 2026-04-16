@@ -1,0 +1,14 @@
+{
+  "id": "hyderabad_asaf_jahi",
+  "name": "Asaf Jahi",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "india",
+  "note": "Nizams of Hyderabad",
+  "polities": [
+    {
+      "polity_id": "hyderabad_state",
+      "start": 1724,
+      "end": 1948
+    }
+  ]
+}

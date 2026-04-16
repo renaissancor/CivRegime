@@ -1,0 +1,19 @@
+{
+  "id": "bourbon",
+  "name": "Bourbon",
+  "ethnicity": "french",
+  "origin_region": "gaul",
+  "note": "Capetian cadet branch",
+  "polities": [
+    {
+      "polity_id": "kingdom_of_france",
+      "start": 1589,
+      "end": 1792
+    },
+    {
+      "polity_id": "french_first_empire",
+      "start": 1804,
+      "end": 1815
+    }
+  ]
+}

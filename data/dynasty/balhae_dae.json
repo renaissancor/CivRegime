@@ -1,0 +1,14 @@
+{
+  "id": "balhae_dae",
+  "name": "Dae",
+  "ethnicity": "korean",
+  "origin_region": "manchuria",
+  "note": "Balhae royal family",
+  "polities": [
+    {
+      "polity_id": "balhae",
+      "start": 698,
+      "end": 926
+    }
+  ]
+}

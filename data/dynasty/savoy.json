@@ -1,0 +1,19 @@
+{
+  "id": "savoy",
+  "name": "Savoy",
+  "ethnicity": "italian",
+  "origin_region": "italy",
+  "note": "Italian royal house",
+  "polities": [
+    {
+      "polity_id": "italy",
+      "start": 1861,
+      "end": 1946
+    },
+    {
+      "polity_id": "kingdom_of_italy",
+      "start": 1861,
+      "end": 1946
+    }
+  ]
+}

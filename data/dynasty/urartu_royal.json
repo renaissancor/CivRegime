@@ -1,0 +1,14 @@
+{
+  "id": "urartu_royal",
+  "name": "Urartu Royal",
+  "ethnicity": "caucasian_peoples",
+  "origin_region": "caucasus",
+  "note": "Royal house of Urartu",
+  "polities": [
+    {
+      "polity_id": "kingdom_of_urartu",
+      "start": -860,
+      "end": -590
+    }
+  ]
+}

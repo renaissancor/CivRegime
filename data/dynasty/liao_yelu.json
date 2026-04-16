@@ -1,0 +1,14 @@
+{
+  "id": "liao_yelu",
+  "name": "Yelü",
+  "ethnicity": "khitan",
+  "origin_region": "manchuria",
+  "note": "Liao dynasty Khitan clan",
+  "polities": [
+    {
+      "polity_id": "liao_dynasty",
+      "start": 916,
+      "end": 1125
+    }
+  ]
+}

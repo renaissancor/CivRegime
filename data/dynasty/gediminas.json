@@ -1,0 +1,14 @@
+{
+  "id": "gediminas",
+  "name": "Gediminid",
+  "ethnicity": "lithuanian",
+  "origin_region": "balkans",
+  "note": "Lithuanian grand ducal dynasty",
+  "polities": [
+    {
+      "polity_id": "grand_duchy_of_lithuania",
+      "start": 1316,
+      "end": 1569
+    }
+  ]
+}

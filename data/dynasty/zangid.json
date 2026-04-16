@@ -1,0 +1,14 @@
+{
+  "id": "zangid",
+  "name": "Zangid",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "mesopotamia",
+  "note": "Turkic atabeg dynasty",
+  "polities": [
+    {
+      "polity_id": "zangid_atabegate",
+      "start": 1127,
+      "end": 1250
+    }
+  ]
+}

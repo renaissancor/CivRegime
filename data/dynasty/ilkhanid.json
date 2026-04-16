@@ -1,0 +1,19 @@
+{
+  "id": "ilkhanid",
+  "name": "Ilkhanid",
+  "ethnicity": "mongol",
+  "origin_region": "iran_plateau",
+  "note": "Borjigin branch in Persia",
+  "polities": [
+    {
+      "polity_id": "ilkhanate",
+      "start": 1256,
+      "end": 1335
+    },
+    {
+      "polity_id": "mongol_il_khanate",
+      "start": 1256,
+      "end": 1335
+    }
+  ]
+}

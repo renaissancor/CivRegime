@@ -1,0 +1,14 @@
+{
+  "id": "sajid",
+  "name": "Sajid",
+  "ethnicity": "arab",
+  "origin_region": "caucasus",
+  "note": "Arab dynasty in Azerbaijan",
+  "polities": [
+    {
+      "polity_id": "sajid_dynasty",
+      "start": 889,
+      "end": 929
+    }
+  ]
+}

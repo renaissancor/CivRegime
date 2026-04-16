@@ -1,0 +1,14 @@
+{
+  "id": "crimean_giray",
+  "name": "Giray",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "pontic_steppe",
+  "note": "Borjigin-descended Crimean dynasty",
+  "polities": [
+    {
+      "polity_id": "crimean_khanate",
+      "start": 1441,
+      "end": 1783
+    }
+  ]
+}

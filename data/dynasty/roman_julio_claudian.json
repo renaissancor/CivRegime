@@ -1,0 +1,29 @@
+{
+  "id": "roman_julio_claudian",
+  "name": "Julio-Claudian",
+  "ethnicity": "roman",
+  "origin_region": "italy",
+  "note": "First Roman imperial dynasty",
+  "polities": [
+    {
+      "polity_id": "roman_kingdom",
+      "start": -753,
+      "end": -509
+    },
+    {
+      "polity_id": "roman_empire",
+      "start": -27,
+      "end": 395
+    },
+    {
+      "polity_id": "byzantine_empire",
+      "start": 395,
+      "end": 518
+    },
+    {
+      "polity_id": "western_roman_empire",
+      "start": 395,
+      "end": 476
+    }
+  ]
+}

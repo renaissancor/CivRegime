@@ -1,0 +1,14 @@
+{
+  "id": "dogra",
+  "name": "Dogra",
+  "ethnicity": "indo_aryan",
+  "origin_region": "punjab",
+  "note": "Dogra Rajput dynasty of Jammu",
+  "polities": [
+    {
+      "polity_id": "jammu_kashmir",
+      "start": 1846,
+      "end": 1947
+    }
+  ]
+}

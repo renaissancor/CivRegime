@@ -1,0 +1,14 @@
+{
+  "id": "sargonid",
+  "name": "Sargonid",
+  "ethnicity": "akkadian",
+  "origin_region": "mesopotamia",
+  "note": "Dynasty of Sargon of Akkad",
+  "polities": [
+    {
+      "polity_id": "akkadian_empire",
+      "start": -2334,
+      "end": -2154
+    }
+  ]
+}

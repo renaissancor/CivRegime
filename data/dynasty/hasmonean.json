@@ -1,0 +1,14 @@
+{
+  "id": "hasmonean",
+  "name": "Hasmonean",
+  "ethnicity": "hebrew",
+  "origin_region": "levant",
+  "note": "Maccabean priestly dynasty",
+  "polities": [
+    {
+      "polity_id": "hasmonean_dynasty",
+      "start": -164,
+      "end": -37
+    }
+  ]
+}

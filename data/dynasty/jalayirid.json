@@ -1,0 +1,14 @@
+{
+  "id": "jalayirid",
+  "name": "Jalayirid",
+  "ethnicity": "mongol",
+  "origin_region": "mesopotamia",
+  "note": "Mongol successor dynasty in Iraq",
+  "polities": [
+    {
+      "polity_id": "jalayirid_sultanate",
+      "start": 1335,
+      "end": 1432
+    }
+  ]
+}

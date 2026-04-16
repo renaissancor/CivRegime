@@ -1,0 +1,14 @@
+{
+  "id": "shunga",
+  "name": "Shunga",
+  "ethnicity": "indo_aryan_cluster",
+  "origin_region": "india",
+  "note": "Brahmin dynasty after Maurya",
+  "polities": [
+    {
+      "polity_id": "shunga_dynasty",
+      "start": -185,
+      "end": -73
+    }
+  ]
+}

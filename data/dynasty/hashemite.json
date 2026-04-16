@@ -1,0 +1,29 @@
+{
+  "id": "hashemite",
+  "name": "Hashemite",
+  "ethnicity": "arab",
+  "origin_region": "arabia",
+  "note": "Sharifs of Mecca",
+  "polities": [
+    {
+      "polity_id": "brunei_sultanate",
+      "start": 1368,
+      "end": null
+    },
+    {
+      "polity_id": "sulu_sultanate",
+      "start": 1405,
+      "end": 1915
+    },
+    {
+      "polity_id": "kingdom_of_iraq",
+      "start": 1921,
+      "end": 1958
+    },
+    {
+      "polity_id": "kingdom_of_jordan",
+      "start": 1921,
+      "end": null
+    }
+  ]
+}

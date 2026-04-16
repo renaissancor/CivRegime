@@ -1,0 +1,14 @@
+{
+  "id": "pallava",
+  "name": "Pallava",
+  "ethnicity": "dravidian_cluster",
+  "origin_region": "india",
+  "note": "South Indian dynasty at Kanchipuram",
+  "polities": [
+    {
+      "polity_id": "pallava_dynasty",
+      "start": 275,
+      "end": 897
+    }
+  ]
+}

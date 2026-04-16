@@ -1,0 +1,14 @@
+{
+  "id": "satavahana",
+  "name": "Satavahana",
+  "ethnicity": "dravidian_cluster",
+  "origin_region": "india",
+  "note": "Andhra dynasty",
+  "polities": [
+    {
+      "polity_id": "satavahana_empire",
+      "start": -230,
+      "end": 220
+    }
+  ]
+}

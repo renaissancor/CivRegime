@@ -1,0 +1,34 @@
+{
+  "id": "rurikid",
+  "name": "Rurikid",
+  "ethnicity": "east_slavic",
+  "origin_region": "russia",
+  "note": "Varangian-origin dynasty of Rus",
+  "polities": [
+    {
+      "polity_id": "kievan_rus_regime",
+      "start": 882,
+      "end": 1240
+    },
+    {
+      "polity_id": "hungarian_grand_principality",
+      "start": 895,
+      "end": 1000
+    },
+    {
+      "polity_id": "galicia_volhynia",
+      "start": 1199,
+      "end": 1349
+    },
+    {
+      "polity_id": "principality_of_wallachia",
+      "start": 1330,
+      "end": 1859
+    },
+    {
+      "polity_id": "principality_of_moldavia",
+      "start": 1346,
+      "end": 1859
+    }
+  ]
+}

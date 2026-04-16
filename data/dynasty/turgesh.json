@@ -1,0 +1,14 @@
+{
+  "id": "turgesh",
+  "name": "Turgesh",
+  "ethnicity": "turkic",
+  "origin_region": "central_asian_steppe",
+  "note": "Turkic tribal dynasty",
+  "polities": [
+    {
+      "polity_id": "turgesh_khaganate",
+      "start": 699,
+      "end": 766
+    }
+  ]
+}

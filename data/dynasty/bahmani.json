@@ -1,0 +1,14 @@
+{
+  "id": "bahmani",
+  "name": "Bahmani",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "india",
+  "note": "Deccan sultanate dynasty",
+  "polities": [
+    {
+      "polity_id": "bahmani_sultanate",
+      "start": 1347,
+      "end": 1527
+    }
+  ]
+}

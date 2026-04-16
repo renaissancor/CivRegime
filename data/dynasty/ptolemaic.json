@@ -1,0 +1,14 @@
+{
+  "id": "ptolemaic",
+  "name": "Ptolemaic",
+  "ethnicity": "ancient_greek",
+  "origin_region": "egypt",
+  "note": "Macedonian dynasty in Egypt",
+  "polities": [
+    {
+      "polity_id": "ptolemaic_egypt",
+      "start": -305,
+      "end": -30
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "dacian_royal",
+  "name": "Dacian Royal",
+  "ethnicity": "thracian",
+  "origin_region": "balkans",
+  "note": "Burebista and Decebalus dynasty",
+  "polities": [
+    {
+      "polity_id": "dacian_kingdom",
+      "start": -168,
+      "end": -106
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "maurya",
+  "name": "Maurya",
+  "ethnicity": "indo_aryan_cluster",
+  "origin_region": "india",
+  "note": "Chandragupta Maurya's dynasty",
+  "polities": [
+    {
+      "polity_id": "maurya_empire",
+      "start": -322,
+      "end": -185
+    }
+  ]
+}

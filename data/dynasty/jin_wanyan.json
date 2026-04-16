@@ -1,0 +1,19 @@
+{
+  "id": "jin_wanyan",
+  "name": "Wanyan",
+  "ethnicity": "jurchen",
+  "origin_region": "manchuria",
+  "note": "Jin dynasty Jurchen clan",
+  "polities": [
+    {
+      "polity_id": "jin_dynasty",
+      "start": 1115,
+      "end": 1234
+    },
+    {
+      "polity_id": "jin_jurchen",
+      "start": 1115,
+      "end": 1234
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "rouran",
+  "name": "Rouran",
+  "ethnicity": "mongol",
+  "origin_region": "mongolian_plateau",
+  "note": "Proto-Mongol khagan clan",
+  "polities": [
+    {
+      "polity_id": "rouran_khaganate",
+      "start": 330,
+      "end": 555
+    }
+  ]
+}

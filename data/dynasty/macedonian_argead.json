@@ -1,0 +1,29 @@
+{
+  "id": "macedonian_argead",
+  "name": "Argead",
+  "ethnicity": "ancient_greek",
+  "origin_region": "balkans",
+  "note": "Philip II and Alexander's dynasty",
+  "polities": [
+    {
+      "polity_id": "macedonian_kingdom",
+      "start": -808,
+      "end": -168
+    },
+    {
+      "polity_id": "kingdom_of_epirus",
+      "start": -306,
+      "end": -168
+    },
+    {
+      "polity_id": "lysimachus",
+      "start": 306,
+      "end": 281
+    },
+    {
+      "polity_id": "macedonian_empire",
+      "start": 336,
+      "end": 323
+    }
+  ]
+}

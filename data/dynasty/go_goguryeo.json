@@ -1,0 +1,14 @@
+{
+  "id": "go_goguryeo",
+  "name": "Go",
+  "ethnicity": "korean",
+  "origin_region": "manchuria",
+  "note": "Royal family of Goguryeo",
+  "polities": [
+    {
+      "polity_id": "goguryeo",
+      "start": -37,
+      "end": 668
+    }
+  ]
+}

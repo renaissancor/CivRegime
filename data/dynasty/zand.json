@@ -1,0 +1,14 @@
+{
+  "id": "zand",
+  "name": "Zand",
+  "ethnicity": "persian",
+  "origin_region": "iran_plateau",
+  "note": "Lak tribal dynasty",
+  "polities": [
+    {
+      "polity_id": "zand_dynasty",
+      "start": 1751,
+      "end": 1794
+    }
+  ]
+}

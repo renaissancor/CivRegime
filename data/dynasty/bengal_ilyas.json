@@ -1,0 +1,14 @@
+{
+  "id": "bengal_ilyas",
+  "name": "Ilyas Shahi",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "india",
+  "note": "Bengal sultanate dynasty",
+  "polities": [
+    {
+      "polity_id": "bengal_sultanate",
+      "start": 1342,
+      "end": 1487
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "rajasa",
+  "name": "Rajasa",
+  "ethnicity": "javanese",
+  "origin_region": "southeast_asia",
+  "note": "Singhasari-Majapahit dynasty",
+  "polities": [
+    {
+      "polity_id": "majapahit_empire",
+      "start": 1293,
+      "end": 1527
+    }
+  ]
+}

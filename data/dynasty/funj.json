@@ -1,0 +1,14 @@
+{
+  "id": "funj",
+  "name": "Funj",
+  "ethnicity": "nubian",
+  "origin_region": "nubia",
+  "note": "Funj royal house",
+  "polities": [
+    {
+      "polity_id": "funj_sultanate",
+      "start": 1504,
+      "end": 1821
+    }
+  ]
+}

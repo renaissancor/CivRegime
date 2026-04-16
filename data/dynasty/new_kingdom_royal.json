@@ -1,0 +1,19 @@
+{
+  "id": "new_kingdom_royal",
+  "name": "New Kingdom Royal",
+  "ethnicity": "egyptian",
+  "origin_region": "egypt",
+  "note": "18th-20th dynasty pharaohs",
+  "polities": [
+    {
+      "polity_id": "egyptian_new_kingdom",
+      "start": -1550,
+      "end": -1077
+    },
+    {
+      "polity_id": "new_kingdom_egypt",
+      "start": -1550,
+      "end": -1077
+    }
+  ]
+}

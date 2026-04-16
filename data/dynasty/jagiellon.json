@@ -1,0 +1,14 @@
+{
+  "id": "jagiellon",
+  "name": "Jagiellon",
+  "ethnicity": "polish",
+  "origin_region": "poland",
+  "note": "Gediminid branch ruling Poland-Lithuania",
+  "polities": [
+    {
+      "polity_id": "polish_lithuanian_commonwealth",
+      "start": 1386,
+      "end": 1572
+    }
+  ]
+}

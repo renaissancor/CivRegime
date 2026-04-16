@@ -1,0 +1,14 @@
+{
+  "id": "stuart",
+  "name": "Stuart",
+  "ethnicity": "scottish_gaelic",
+  "origin_region": "britain",
+  "note": "Scottish-English royal house",
+  "polities": [
+    {
+      "polity_id": "kingdom_of_scotland",
+      "start": 1371,
+      "end": 1707
+    }
+  ]
+}

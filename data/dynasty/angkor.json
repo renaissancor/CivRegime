@@ -1,0 +1,14 @@
+{
+  "id": "angkor",
+  "name": "Angkor",
+  "ethnicity": "khmer",
+  "origin_region": "southeast_asia",
+  "note": "Khmer devaraja dynasty",
+  "polities": [
+    {
+      "polity_id": "khmer_empire",
+      "start": 802,
+      "end": 1431
+    }
+  ]
+}

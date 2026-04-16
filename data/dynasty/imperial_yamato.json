@@ -1,0 +1,34 @@
+{
+  "id": "imperial_yamato",
+  "name": "Imperial Yamato",
+  "ethnicity": "yamato",
+  "origin_region": "japan",
+  "note": "Japanese imperial house",
+  "polities": [
+    {
+      "polity_id": "yamato_period",
+      "start": 250,
+      "end": 710
+    },
+    {
+      "polity_id": "feudal_japan",
+      "start": 1185,
+      "end": 1868
+    },
+    {
+      "polity_id": "empire_of_japan",
+      "start": 1868,
+      "end": 1947
+    },
+    {
+      "polity_id": "japanese_korea",
+      "start": 1910,
+      "end": 1945
+    },
+    {
+      "polity_id": "modern_japan",
+      "start": 1947,
+      "end": null
+    }
+  ]
+}

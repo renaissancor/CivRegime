@@ -1,0 +1,14 @@
+{
+  "id": "pandya",
+  "name": "Pandya",
+  "ethnicity": "dravidian_cluster",
+  "origin_region": "india",
+  "note": "Ancient Tamil dynasty of Madurai",
+  "polities": [
+    {
+      "polity_id": "pandya_dynasty",
+      "start": -300,
+      "end": 1345
+    }
+  ]
+}

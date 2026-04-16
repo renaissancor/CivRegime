@@ -1,0 +1,14 @@
+{
+  "id": "solomonic",
+  "name": "Solomonic",
+  "ethnicity": "amhara",
+  "origin_region": "east_africa",
+  "note": "Ethiopian dynasty claiming Solomonic descent",
+  "polities": [
+    {
+      "polity_id": "solomonic_dynasty",
+      "start": 1270,
+      "end": 1974
+    }
+  ]
+}

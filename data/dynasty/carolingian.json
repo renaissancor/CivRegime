@@ -1,0 +1,14 @@
+{
+  "id": "carolingian",
+  "name": "Carolingian",
+  "ethnicity": "germanic_peoples",
+  "origin_region": "gaul",
+  "note": "Frankish dynasty of Charlemagne",
+  "polities": [
+    {
+      "polity_id": "carolingian_empire",
+      "start": 751,
+      "end": 888
+    }
+  ]
+}

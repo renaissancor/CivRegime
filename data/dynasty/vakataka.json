@@ -1,0 +1,14 @@
+{
+  "id": "vakataka",
+  "name": "Vakataka",
+  "ethnicity": "indo_aryan_cluster",
+  "origin_region": "india",
+  "note": "Deccan dynasty contemporary with Gupta",
+  "polities": [
+    {
+      "polity_id": "vakataka_dynasty",
+      "start": 250,
+      "end": 500
+    }
+  ]
+}

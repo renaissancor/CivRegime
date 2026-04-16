@@ -1,0 +1,19 @@
+{
+  "id": "lombard_royal",
+  "name": "Lombard Royal",
+  "ethnicity": "germanic_peoples",
+  "origin_region": "italy",
+  "note": "Germanic dynasty in Italy",
+  "polities": [
+    {
+      "polity_id": "odoacer_kingdom",
+      "start": 476,
+      "end": 493
+    },
+    {
+      "polity_id": "lombard_kingdom",
+      "start": 568,
+      "end": 774
+    }
+  ]
+}

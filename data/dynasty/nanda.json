@@ -1,0 +1,14 @@
+{
+  "id": "nanda",
+  "name": "Nanda",
+  "ethnicity": "indo_aryan_cluster",
+  "origin_region": "india",
+  "note": "Magadha dynasty before Maurya",
+  "polities": [
+    {
+      "polity_id": "nanda_empire",
+      "start": -345,
+      "end": -322
+    }
+  ]
+}

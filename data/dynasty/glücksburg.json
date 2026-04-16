@@ -1,0 +1,14 @@
+{
+  "id": "glücksburg",
+  "name": "Glücksburg",
+  "ethnicity": "german",
+  "origin_region": "balkans",
+  "note": "Modern Greek royal house",
+  "polities": [
+    {
+      "polity_id": "kingdom_of_greece",
+      "start": 1863,
+      "end": 1924
+    }
+  ]
+}

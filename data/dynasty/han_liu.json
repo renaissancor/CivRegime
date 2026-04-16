@@ -1,0 +1,34 @@
+{
+  "id": "han_liu",
+  "name": "Liu",
+  "ethnicity": "han_chinese",
+  "origin_region": "yellow_river",
+  "note": "Han dynasty imperial clan",
+  "polities": [
+    {
+      "polity_id": "han_dynasty",
+      "start": -206,
+      "end": 220
+    },
+    {
+      "polity_id": "western_han",
+      "start": -202,
+      "end": -9
+    },
+    {
+      "polity_id": "later_liang",
+      "start": 907,
+      "end": 923
+    },
+    {
+      "polity_id": "later_jin",
+      "start": 936,
+      "end": 947
+    },
+    {
+      "polity_id": "later_han",
+      "start": 947,
+      "end": 950
+    }
+  ]
+}

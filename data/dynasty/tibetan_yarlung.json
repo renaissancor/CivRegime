@@ -1,0 +1,14 @@
+{
+  "id": "tibetan_yarlung",
+  "name": "Yarlung",
+  "ethnicity": "tibetan",
+  "origin_region": "tibet",
+  "note": "Tibetan imperial dynasty",
+  "polities": [
+    {
+      "polity_id": "tibetan_empire",
+      "start": 618,
+      "end": 842
+    }
+  ]
+}

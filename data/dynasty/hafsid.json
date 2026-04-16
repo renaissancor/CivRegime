@@ -1,0 +1,14 @@
+{
+  "id": "hafsid",
+  "name": "Hafsid",
+  "ethnicity": "berber",
+  "origin_region": "north_africa",
+  "note": "Almohad successor dynasty in Tunis",
+  "polities": [
+    {
+      "polity_id": "hafsid_dynasty",
+      "start": 1229,
+      "end": 1574
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "makuria_royal",
+  "name": "Makuria Royal",
+  "ethnicity": "nubian",
+  "origin_region": "nubia",
+  "note": "Christian Nubian dynasty",
+  "polities": [
+    {
+      "polity_id": "makuria_kingdom",
+      "start": 350,
+      "end": 1504
+    }
+  ]
+}

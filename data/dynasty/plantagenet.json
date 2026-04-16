@@ -1,0 +1,29 @@
+{
+  "id": "plantagenet",
+  "name": "Plantagenet",
+  "ethnicity": "french",
+  "origin_region": "gaul",
+  "note": "Anglo-French dynasty ruling England",
+  "polities": [
+    {
+      "polity_id": "kingdom_of_jerusalem",
+      "start": 1099,
+      "end": 1291
+    },
+    {
+      "polity_id": "angevin_empire",
+      "start": 1154,
+      "end": 1214
+    },
+    {
+      "polity_id": "kingdom_of_england",
+      "start": 1154,
+      "end": 1399
+    },
+    {
+      "polity_id": "latin_empire",
+      "start": 1204,
+      "end": 1261
+    }
+  ]
+}

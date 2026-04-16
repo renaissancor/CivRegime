@@ -1,0 +1,14 @@
+{
+  "id": "safavid",
+  "name": "Safavid",
+  "ethnicity": "persian",
+  "origin_region": "iran_plateau",
+  "note": "Sufi order dynasty",
+  "polities": [
+    {
+      "polity_id": "safavid_empire",
+      "start": 1501,
+      "end": 1736
+    }
+  ]
+}

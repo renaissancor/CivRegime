@@ -1,0 +1,14 @@
+{
+  "id": "sena",
+  "name": "Sena",
+  "ethnicity": "indo_aryan_cluster",
+  "origin_region": "india",
+  "note": "Bengali Hindu dynasty",
+  "polities": [
+    {
+      "polity_id": "sena_dynasty",
+      "start": 1070,
+      "end": 1230
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "danish_royal",
+  "name": "Danish Royal",
+  "ethnicity": "scandinavian",
+  "origin_region": "scandinavia",
+  "note": "Medieval Danish royal house",
+  "polities": [
+    {
+      "polity_id": "kingdom_of_denmark",
+      "start": 936,
+      "end": null
+    },
+    {
+      "polity_id": "kalmar_union",
+      "start": 1397,
+      "end": 1523
+    },
+    {
+      "polity_id": "denmark_norway",
+      "start": 1536,
+      "end": 1814
+    }
+  ]
+}

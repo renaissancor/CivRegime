@@ -1,0 +1,19 @@
+{
+  "id": "aisin_gioro",
+  "name": "Aisin Gioro",
+  "ethnicity": "jurchen",
+  "origin_region": "manchuria",
+  "note": "Manchu imperial clan of Qing dynasty",
+  "polities": [
+    {
+      "polity_id": "qing_dynasty",
+      "start": 1636,
+      "end": 1912
+    },
+    {
+      "polity_id": "manchukuo",
+      "start": 1932,
+      "end": 1945
+    }
+  ]
+}

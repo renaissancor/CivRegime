@@ -1,0 +1,14 @@
+{
+  "id": "mamluk_bahri",
+  "name": "Bahri Mamluk",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "egypt",
+  "note": "Turkic slave-soldier dynasty",
+  "polities": [
+    {
+      "polity_id": "mamluk_sultanate",
+      "start": 1250,
+      "end": 1517
+    }
+  ]
+}

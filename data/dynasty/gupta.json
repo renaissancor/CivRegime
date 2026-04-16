@@ -1,0 +1,14 @@
+{
+  "id": "gupta",
+  "name": "Gupta",
+  "ethnicity": "indo_aryan_cluster",
+  "origin_region": "india",
+  "note": "North Indian imperial dynasty",
+  "polities": [
+    {
+      "polity_id": "gupta_empire",
+      "start": 320,
+      "end": 550
+    }
+  ]
+}

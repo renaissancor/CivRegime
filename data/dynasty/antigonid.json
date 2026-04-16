@@ -1,0 +1,14 @@
+{
+  "id": "antigonid",
+  "name": "Antigonid",
+  "ethnicity": "ancient_greek",
+  "origin_region": "balkans",
+  "note": "Successor dynasty of Antigonus",
+  "polities": [
+    {
+      "polity_id": "despotate_of_epirus",
+      "start": 1205,
+      "end": 1318
+    }
+  ]
+}

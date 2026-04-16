@@ -9,6 +9,8 @@ DELETE FROM polity_succession_territory;
 DELETE FROM polity_succession;
 DELETE FROM polity_policy;
 DELETE FROM polity_territory;
+DELETE FROM polity_dynasty;
+DELETE FROM dynasty;
 DELETE FROM figure;
 DELETE FROM polity;
 DELETE FROM religion;
@@ -190,6 +192,21 @@ FROM _succ
 WHERE shared_territories IS NOT NULL AND shared_territories != '';
 
 DROP TABLE _succ;
+
+-- ─── DYNASTY ─────────────────────────────────────────────
+INSERT INTO dynasty (id, name, ethnicity, origin_region, note)
+SELECT id, name,
+       NULLIF(ethnicity, ''),
+       NULLIF(origin_region, ''),
+       NULLIF(note, '')
+FROM read_csv('csvs/dynasty.csv', auto_detect=true);
+
+-- ─── POLITY_DYNASTY ──────────────────────────────────────
+INSERT INTO polity_dynasty (polity_id, dynasty_id, start_year, end_year)
+SELECT polity_id, dynasty_id,
+       TRY_CAST("start" AS INTEGER),
+       TRY_CAST("end" AS INTEGER)
+FROM read_csv('csvs/polity_dynasty.csv', auto_detect=true);
 
 -- ─── FIGURE ───────────────────────────────────────────────
 -- regime_id in CSV = polity_id in ERD (old naming)

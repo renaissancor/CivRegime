@@ -1,0 +1,14 @@
+{
+  "id": "gutian",
+  "name": "Gutian",
+  "ethnicity": "gutian",
+  "origin_region": "mesopotamia",
+  "note": "Zagros mountain dynasty",
+  "polities": [
+    {
+      "polity_id": "gutian_dynasty",
+      "start": -2141,
+      "end": -2050
+    }
+  ]
+}

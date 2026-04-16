@@ -1,0 +1,14 @@
+{
+  "id": "indo_greek",
+  "name": "Indo-Greek",
+  "ethnicity": "ancient_greek",
+  "origin_region": "india",
+  "note": "Hellenistic kings of Bactria-India",
+  "polities": [
+    {
+      "polity_id": "indo_greek_kingdom",
+      "start": -180,
+      "end": -10
+    }
+  ]
+}

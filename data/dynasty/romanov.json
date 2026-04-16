@@ -1,0 +1,14 @@
+{
+  "id": "romanov",
+  "name": "Romanov",
+  "ethnicity": "east_slavic",
+  "origin_region": "russia",
+  "note": "Russian imperial dynasty",
+  "polities": [
+    {
+      "polity_id": "russian_empire",
+      "start": 1613,
+      "end": 1917
+    }
+  ]
+}

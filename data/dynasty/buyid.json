@@ -1,0 +1,14 @@
+{
+  "id": "buyid",
+  "name": "Buyid",
+  "ethnicity": "persian",
+  "origin_region": "iran_plateau",
+  "note": "Daylamite dynasty",
+  "polities": [
+    {
+      "polity_id": "buyid_dynasty",
+      "start": 934,
+      "end": 1062
+    }
+  ]
+}

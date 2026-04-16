@@ -1,0 +1,49 @@
+{
+  "id": "habsburg",
+  "name": "Habsburg",
+  "ethnicity": "german",
+  "origin_region": "germany",
+  "note": "Austrian royal house",
+  "polities": [
+    {
+      "polity_id": "holy_roman_empire",
+      "start": 1438,
+      "end": 1806
+    },
+    {
+      "polity_id": "habsburg_monarchy",
+      "start": 1526,
+      "end": 1804
+    },
+    {
+      "polity_id": "hungary",
+      "start": 1526,
+      "end": 1918
+    },
+    {
+      "polity_id": "kingdom_of_bohemia",
+      "start": 1526,
+      "end": 1918
+    },
+    {
+      "polity_id": "kingdom_of_hungary",
+      "start": 1526,
+      "end": 1918
+    },
+    {
+      "polity_id": "principality_of_transylvania",
+      "start": 1570,
+      "end": 1711
+    },
+    {
+      "polity_id": "austrian_empire",
+      "start": 1804,
+      "end": 1867
+    },
+    {
+      "polity_id": "austria_hungary",
+      "start": 1867,
+      "end": 1918
+    }
+  ]
+}

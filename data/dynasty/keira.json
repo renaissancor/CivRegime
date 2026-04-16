@@ -1,0 +1,19 @@
+{
+  "id": "keira",
+  "name": "Keira",
+  "ethnicity": "cushitic_cluster",
+  "origin_region": "nubia",
+  "note": "Royal dynasty of Darfur",
+  "polities": [
+    {
+      "polity_id": "kanem_empire",
+      "start": 700,
+      "end": 1380
+    },
+    {
+      "polity_id": "darfur_sultanate",
+      "start": 1603,
+      "end": 1874
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "sulayhid",
+  "name": "Sulayhid",
+  "ethnicity": "arab",
+  "origin_region": "arabia",
+  "note": "Ismaili dynasty in Yemen",
+  "polities": [
+    {
+      "polity_id": "sulayhid_dynasty",
+      "start": 1047,
+      "end": 1138
+    }
+  ]
+}

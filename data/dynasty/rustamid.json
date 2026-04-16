@@ -1,0 +1,14 @@
+{
+  "id": "rustamid",
+  "name": "Rustamid",
+  "ethnicity": "persian",
+  "origin_region": "north_africa",
+  "note": "Ibadi dynasty in Tahert",
+  "polities": [
+    {
+      "polity_id": "rustamid_dynasty",
+      "start": 776,
+      "end": 909
+    }
+  ]
+}

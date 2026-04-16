@@ -1,0 +1,14 @@
+{
+  "id": "sassanid",
+  "name": "Sassanid",
+  "ethnicity": "persian",
+  "origin_region": "iran_plateau",
+  "note": "Last pre-Islamic Persian dynasty",
+  "polities": [
+    {
+      "polity_id": "kushano_sasanian_kingdom",
+      "start": 230,
+      "end": 365
+    }
+  ]
+}

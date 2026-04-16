@@ -1,0 +1,14 @@
+{
+  "id": "qin_ying",
+  "name": "Ying",
+  "ethnicity": "han_chinese",
+  "origin_region": "yellow_river",
+  "note": "Qin dynasty imperial clan",
+  "polities": [
+    {
+      "polity_id": "qin_dynasty",
+      "start": -221,
+      "end": -206
+    }
+  ]
+}

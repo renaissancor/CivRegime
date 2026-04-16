@@ -1,0 +1,14 @@
+{
+  "id": "kazan_giray",
+  "name": "Kazan Giray",
+  "ethnicity": "tatar",
+  "origin_region": "russia",
+  "note": "Borjigin branch in Kazan",
+  "polities": [
+    {
+      "polity_id": "kazan_khanate",
+      "start": 1438,
+      "end": 1552
+    }
+  ]
+}

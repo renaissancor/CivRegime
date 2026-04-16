@@ -1,0 +1,14 @@
+{
+  "id": "old_kingdom_royal",
+  "name": "Old Kingdom Royal",
+  "ethnicity": "egyptian",
+  "origin_region": "egypt",
+  "note": "Pharaonic dynasties of Old Kingdom",
+  "polities": [
+    {
+      "polity_id": "old_kingdom_egypt",
+      "start": -2686,
+      "end": -2181
+    }
+  ]
+}

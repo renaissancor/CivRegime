@@ -1,0 +1,14 @@
+{
+  "id": "kim_silla",
+  "name": "Kim",
+  "ethnicity": "korean",
+  "origin_region": "korea",
+  "note": "Royal family of Silla",
+  "polities": [
+    {
+      "polity_id": "unified_silla",
+      "start": 668,
+      "end": 935
+    }
+  ]
+}

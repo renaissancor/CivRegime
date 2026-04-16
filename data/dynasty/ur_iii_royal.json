@@ -1,0 +1,14 @@
+{
+  "id": "ur_iii_royal",
+  "name": "Ur-Nammuid",
+  "ethnicity": "sumerian",
+  "origin_region": "mesopotamia",
+  "note": "Third Dynasty of Ur",
+  "polities": [
+    {
+      "polity_id": "ur_iii",
+      "start": -2112,
+      "end": -2004
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ghaznavid",
+  "name": "Ghaznavid",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "khorasan",
+  "note": "Turkic dynasty from Ghazni",
+  "polities": [
+    {
+      "polity_id": "ghaznavid_empire",
+      "start": 977,
+      "end": 1186
+    }
+  ]
+}

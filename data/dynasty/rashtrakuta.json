@@ -1,0 +1,14 @@
+{
+  "id": "rashtrakuta",
+  "name": "Rashtrakuta",
+  "ethnicity": "dravidian_cluster",
+  "origin_region": "india",
+  "note": "Deccan dynasty",
+  "polities": [
+    {
+      "polity_id": "rashtrakuta_dynasty",
+      "start": 753,
+      "end": 982
+    }
+  ]
+}

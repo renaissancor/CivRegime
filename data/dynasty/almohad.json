@@ -1,0 +1,14 @@
+{
+  "id": "almohad",
+  "name": "Almohad",
+  "ethnicity": "berber",
+  "origin_region": "north_africa",
+  "note": "Ibn Tumart's Masmuda Berber movement",
+  "polities": [
+    {
+      "polity_id": "almohad_caliphate",
+      "start": 1121,
+      "end": 1269
+    }
+  ]
+}

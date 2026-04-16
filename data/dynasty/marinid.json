@@ -1,0 +1,14 @@
+{
+  "id": "marinid",
+  "name": "Marinid",
+  "ethnicity": "berber",
+  "origin_region": "north_africa",
+  "note": "Zenata Berber dynasty",
+  "polities": [
+    {
+      "polity_id": "marinid_dynasty",
+      "start": 1244,
+      "end": 1465
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "seleucid",
+  "name": "Seleucid",
+  "ethnicity": "ancient_greek",
+  "origin_region": "levant",
+  "note": "Successor dynasty of Seleucus",
+  "polities": [
+    {
+      "polity_id": "seleucid_empire",
+      "start": -312,
+      "end": -63
+    }
+  ]
+}

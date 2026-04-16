@@ -1,0 +1,14 @@
+{
+  "id": "amorite",
+  "name": "Amorite",
+  "ethnicity": "babylonian",
+  "origin_region": "mesopotamia",
+  "note": "Old Babylonian dynasty of Hammurabi",
+  "polities": [
+    {
+      "polity_id": "old_babylonian",
+      "start": -1894,
+      "end": -1595
+    }
+  ]
+}

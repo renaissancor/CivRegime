@@ -1,0 +1,14 @@
+{
+  "id": "kakatiya",
+  "name": "Kakatiya",
+  "ethnicity": "dravidian_cluster",
+  "origin_region": "india",
+  "note": "Telugu dynasty of Warangal",
+  "polities": [
+    {
+      "polity_id": "kakatiya_dynasty",
+      "start": 1163,
+      "end": 1323
+    }
+  ]
+}

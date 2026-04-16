@@ -1,0 +1,14 @@
+{
+  "id": "fatimid",
+  "name": "Fatimid",
+  "ethnicity": "arab",
+  "origin_region": "north_africa",
+  "note": "Ismaili Shia caliphs claiming descent from Fatimah",
+  "polities": [
+    {
+      "polity_id": "fatimid_caliphate",
+      "start": 909,
+      "end": 1171
+    }
+  ]
+}

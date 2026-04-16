@@ -1,0 +1,14 @@
+{
+  "id": "himyarite",
+  "name": "Himyarite",
+  "ethnicity": "semitic_cluster",
+  "origin_region": "arabia",
+  "note": "South Arabian royal house",
+  "polities": [
+    {
+      "polity_id": "himyarite_kingdom",
+      "start": -110,
+      "end": 525
+    }
+  ]
+}

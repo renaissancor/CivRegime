@@ -1,0 +1,14 @@
+{
+  "id": "hindu_shahi",
+  "name": "Hindu Shahi",
+  "ethnicity": "indo_aryan",
+  "origin_region": "khorasan",
+  "note": "Turk Shahi successor dynasty in Gandhara",
+  "polities": [
+    {
+      "polity_id": "hindu_shahis",
+      "start": 843,
+      "end": 1026
+    }
+  ]
+}

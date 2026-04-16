@@ -1,0 +1,24 @@
+{
+  "id": "aksumite",
+  "name": "Aksumite",
+  "ethnicity": "cushitic_cluster",
+  "origin_region": "east_africa",
+  "note": "Royal house of Aksum",
+  "polities": [
+    {
+      "polity_id": "punt",
+      "start": -2500,
+      "end": -1069
+    },
+    {
+      "polity_id": "meroitic_kingdom",
+      "start": -800,
+      "end": 350
+    },
+    {
+      "polity_id": "aksumite_kingdom",
+      "start": 100,
+      "end": 940
+    }
+  ]
+}

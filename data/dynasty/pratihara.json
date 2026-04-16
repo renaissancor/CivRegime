@@ -1,0 +1,14 @@
+{
+  "id": "pratihara",
+  "name": "Pratihara",
+  "ethnicity": "indo_aryan_cluster",
+  "origin_region": "india",
+  "note": "Rajput dynasty of Kannauj",
+  "polities": [
+    {
+      "polity_id": "pratihara_dynasty",
+      "start": 730,
+      "end": 1036
+    }
+  ]
+}

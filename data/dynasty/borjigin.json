@@ -1,0 +1,84 @@
+{
+  "id": "borjigin",
+  "name": "Borjigin",
+  "ethnicity": "mongol",
+  "origin_region": "mongolian_plateau",
+  "note": "Genghis Khan's clan",
+  "polities": [
+    {
+      "polity_id": "first_bulgarian_empire",
+      "start": 681,
+      "end": 1018
+    },
+    {
+      "polity_id": "second_bulgarian_empire",
+      "start": 1185,
+      "end": 1396
+    },
+    {
+      "polity_id": "mongol_empire",
+      "start": 1206,
+      "end": 1368
+    },
+    {
+      "polity_id": "chagatai_khanate",
+      "start": 1227,
+      "end": 1347
+    },
+    {
+      "polity_id": "golden_horde",
+      "start": 1227,
+      "end": 1502
+    },
+    {
+      "polity_id": "yuan_dynasty",
+      "start": 1271,
+      "end": 1368
+    },
+    {
+      "polity_id": "moghulistan",
+      "start": 1347,
+      "end": 1462
+    },
+    {
+      "polity_id": "north_yuan",
+      "start": 1368,
+      "end": 1388
+    },
+    {
+      "polity_id": "northern_yuan",
+      "start": 1368,
+      "end": 1635
+    },
+    {
+      "polity_id": "kazakh_khanate",
+      "start": 1465,
+      "end": 1847
+    },
+    {
+      "polity_id": "khanate_of_bukhara",
+      "start": 1500,
+      "end": 1785
+    },
+    {
+      "polity_id": "khanate_of_khiva",
+      "start": 1511,
+      "end": 1920
+    },
+    {
+      "polity_id": "yarkand_khanate",
+      "start": 1514,
+      "end": 1705
+    },
+    {
+      "polity_id": "khanate_of_kokand",
+      "start": 1709,
+      "end": 1876
+    },
+    {
+      "polity_id": "karabakh_khanate",
+      "start": 1748,
+      "end": 1822
+    }
+  ]
+}

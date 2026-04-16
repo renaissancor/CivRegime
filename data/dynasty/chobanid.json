@@ -1,0 +1,14 @@
+{
+  "id": "chobanid",
+  "name": "Chobanid",
+  "ethnicity": "mongol",
+  "origin_region": "iran_plateau",
+  "note": "Mongol successor dynasty in Persia",
+  "polities": [
+    {
+      "polity_id": "chobanid_dynasty",
+      "start": 1335,
+      "end": 1357
+    }
+  ]
+}

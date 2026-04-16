@@ -1,0 +1,14 @@
+{
+  "id": "western_chalukya",
+  "name": "Western Chalukya",
+  "ethnicity": "dravidian_cluster",
+  "origin_region": "india",
+  "note": "Kalyani Chalukya branch",
+  "polities": [
+    {
+      "polity_id": "western_chalukya",
+      "start": 973,
+      "end": 1189
+    }
+  ]
+}

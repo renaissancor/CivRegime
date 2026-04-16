@@ -1,0 +1,14 @@
+{
+  "id": "swedish_royal",
+  "name": "Swedish Royal",
+  "ethnicity": "scandinavian",
+  "origin_region": "scandinavia",
+  "note": "Swedish royal house",
+  "polities": [
+    {
+      "polity_id": "kingdom_of_sweden",
+      "start": 970,
+      "end": null
+    }
+  ]
+}

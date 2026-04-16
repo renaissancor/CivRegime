@@ -1,0 +1,14 @@
+{
+  "id": "neo_assyrian_royal",
+  "name": "Neo-Assyrian Royal",
+  "ethnicity": "assyrian",
+  "origin_region": "mesopotamia",
+  "note": "Sargonid dynasty of Assyria",
+  "polities": [
+    {
+      "polity_id": "neo_assyrian_empire",
+      "start": -911,
+      "end": -609
+    }
+  ]
+}

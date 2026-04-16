@@ -112,6 +112,35 @@ app.get('/api/taxonomy/:type', (req, res) => {
   res.json(data);
 });
 
+// ── API: Dynasty ─────────────────────────────────────────────
+
+const dynastyById = {};
+(db.dynasties || []).forEach(d => { dynastyById[d.id] = d; });
+
+app.get('/api/dynasty', (req, res) => {
+  const list = (db.dynasties || []).map(d => ({
+    id: d.id,
+    name: d.name,
+    ethnicity: d.ethnicity || null,
+    origin_region: d.origin_region || null,
+    polity_count: (d.polities || []).length,
+  }));
+  res.json(list);
+});
+
+app.get('/api/dynasty/:id', (req, res) => {
+  const d = dynastyById[req.params.id];
+  if (!d) return res.status(404).json({ error: 'Not found' });
+
+  // Enrich polity links with names
+  const polities = (d.polities || []).map(p => ({
+    ...p,
+    name: regimeById[p.polity_id]?.name || p.polity_id,
+  }));
+
+  res.json({ ...d, polities });
+});
+
 // ── API: History panels ──────────────────────────────────────
 
 const HISTORY_DIR = path.join(__dirname, 'data', 'history');
@@ -165,4 +194,5 @@ app.listen(PORT, () => {
   console.log(`  Polities:    ${db.regimes?.length || 0}`);
   console.log(`  Successions: ${db.successions?.length || 0}`);
   console.log(`  Territories: ${db.territories?.length || 0}`);
+  console.log(`  Dynasties:   ${db.dynasties?.length || 0}`);
 });

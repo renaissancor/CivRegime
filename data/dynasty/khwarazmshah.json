@@ -1,0 +1,14 @@
+{
+  "id": "khwarazmshah",
+  "name": "Khwarazmshah",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "transoxiana",
+  "note": "Anushtegin dynasty",
+  "polities": [
+    {
+      "polity_id": "khwarazmian_empire",
+      "start": 1077,
+      "end": 1231
+    }
+  ]
+}

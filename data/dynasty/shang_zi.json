@@ -1,0 +1,14 @@
+{
+  "id": "shang_zi",
+  "name": "Zi",
+  "ethnicity": "han_chinese",
+  "origin_region": "yellow_river",
+  "note": "Shang dynasty royal clan",
+  "polities": [
+    {
+      "polity_id": "shang_dynasty",
+      "start": -1600,
+      "end": -1046
+    }
+  ]
+}

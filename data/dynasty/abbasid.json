@@ -1,0 +1,14 @@
+{
+  "id": "abbasid",
+  "name": "Abbasid",
+  "ethnicity": "arab",
+  "origin_region": "mesopotamia",
+  "note": "Descended from Abbas ibn Abd al-Muttalib",
+  "polities": [
+    {
+      "polity_id": "abbasid_caliphate",
+      "start": 750,
+      "end": 1258
+    }
+  ]
+}

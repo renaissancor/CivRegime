@@ -1,0 +1,14 @@
+{
+  "id": "kushan",
+  "name": "Kushan",
+  "ethnicity": "central_asian_steppe_bloc",
+  "origin_region": "india",
+  "note": "Yuezhi-origin imperial dynasty",
+  "polities": [
+    {
+      "polity_id": "kushan_empire",
+      "start": 30,
+      "end": 375
+    }
+  ]
+}

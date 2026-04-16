@@ -1,0 +1,14 @@
+{
+  "id": "tulunid",
+  "name": "Tulunid",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "egypt",
+  "note": "Turkic dynasty in Egypt",
+  "polities": [
+    {
+      "polity_id": "tulunid_dynasty",
+      "start": 868,
+      "end": 905
+    }
+  ]
+}

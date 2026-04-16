@@ -82,6 +82,8 @@ const db = {
   languages:   loadTree(path.join(DATA, 'language')),
   ethnicities: loadTree(path.join(DATA, 'ethnicity')),
 
+  dynasties: loadDir(path.join(DATA, 'dynasty')),
+
   provinces: [],
   ideologies: [],
 };

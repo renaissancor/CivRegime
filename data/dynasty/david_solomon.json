@@ -1,0 +1,19 @@
+{
+  "id": "david_solomon",
+  "name": "Davidic",
+  "ethnicity": "hebrew",
+  "origin_region": "levant",
+  "note": "House of David",
+  "polities": [
+    {
+      "polity_id": "kingdom_of_israel",
+      "start": -1050,
+      "end": -930
+    },
+    {
+      "polity_id": "kingdom_of_judah",
+      "start": -930,
+      "end": -586
+    }
+  ]
+}

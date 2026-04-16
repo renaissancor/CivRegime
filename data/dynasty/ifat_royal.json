@@ -1,0 +1,14 @@
+{
+  "id": "ifat_royal",
+  "name": "Ifat Royal",
+  "ethnicity": "somali",
+  "origin_region": "east_africa",
+  "note": "Walashma dynasty in Ifat",
+  "polities": [
+    {
+      "polity_id": "ifat_sultanate",
+      "start": 1285,
+      "end": 1415
+    }
+  ]
+}

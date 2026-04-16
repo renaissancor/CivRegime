@@ -16,7 +16,8 @@
     "make:ethnicities": "node code/makejson/ethnicities.js",
     "make:languages": "node code/makejson/languages.js",
     "make:religions": "node code/makejson/religions.js",
-    "make:all": "node code/makejson/ethnicities.js && node code/makejson/languages.js && node code/makejson/religions.js && node code/makejson/states.js && node code/makejson/territories.js && node code/makejson/regimes.js && node code/makejson/successions.js",
+    "make:dynasties": "node code/makejson/dynasties.js",
+    "make:all": "node code/makejson/ethnicities.js && node code/makejson/languages.js && node code/makejson/religions.js && node code/makejson/states.js && node code/makejson/territories.js && node code/makejson/regimes.js && node code/makejson/successions.js && node code/makejson/dynasties.js",
     "test": "node scripts/validate.js"
   },
   "keywords": [],

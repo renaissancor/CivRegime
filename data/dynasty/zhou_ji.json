@@ -1,0 +1,14 @@
+{
+  "id": "zhou_ji",
+  "name": "Ji",
+  "ethnicity": "han_chinese",
+  "origin_region": "yellow_river",
+  "note": "Zhou dynasty royal clan",
+  "polities": [
+    {
+      "polity_id": "zhou_dynasty",
+      "start": -1046,
+      "end": -256
+    }
+  ]
+}

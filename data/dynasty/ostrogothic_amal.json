@@ -1,0 +1,14 @@
+{
+  "id": "ostrogothic_amal",
+  "name": "Amal",
+  "ethnicity": "germanic_peoples",
+  "origin_region": "italy",
+  "note": "Ostrogothic royal house",
+  "polities": [
+    {
+      "polity_id": "ostrogothic_kingdom",
+      "start": 493,
+      "end": 553
+    }
+  ]
+}

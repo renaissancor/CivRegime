@@ -1,0 +1,19 @@
+{
+  "id": "berber_tribal",
+  "name": "Berber Tribal",
+  "ethnicity": "berber",
+  "origin_region": "north_africa",
+  "note": "Pre-Roman Berber royal houses",
+  "polities": [
+    {
+      "polity_id": "mauretania_kingdom",
+      "start": -215,
+      "end": -40
+    },
+    {
+      "polity_id": "numidia",
+      "start": -202,
+      "end": -46
+    }
+  ]
+}

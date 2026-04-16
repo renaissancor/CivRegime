@@ -1,0 +1,14 @@
+{
+  "id": "elamite_royal",
+  "name": "Elamite Royal",
+  "ethnicity": "persian",
+  "origin_region": "iran_plateau",
+  "note": "Dynasty of Elam",
+  "polities": [
+    {
+      "polity_id": "elam",
+      "start": -2700,
+      "end": -539
+    }
+  ]
+}

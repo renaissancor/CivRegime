@@ -1,0 +1,29 @@
+{
+  "id": "xiongnu_royal",
+  "name": "Xiongnu Royal",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "mongolian_plateau",
+  "note": "Luandi clan",
+  "polities": [
+    {
+      "polity_id": "xiongnu",
+      "start": -209,
+      "end": -48
+    },
+    {
+      "polity_id": "kangju",
+      "start": -160,
+      "end": 200
+    },
+    {
+      "polity_id": "northern_wei",
+      "start": 386,
+      "end": 535
+    },
+    {
+      "polity_id": "western_wei",
+      "start": 535,
+      "end": 557
+    }
+  ]
+}

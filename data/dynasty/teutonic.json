@@ -1,0 +1,14 @@
+{
+  "id": "teutonic",
+  "name": "Teutonic",
+  "ethnicity": "german",
+  "origin_region": "germany",
+  "note": "Grand Masters of the Teutonic Order",
+  "polities": [
+    {
+      "polity_id": "teutonic_order",
+      "start": 1224,
+      "end": 1525
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "trpimirović",
+  "name": "Trpimirović",
+  "ethnicity": "croatian",
+  "origin_region": "balkans",
+  "note": "Croatian royal dynasty",
+  "polities": [
+    {
+      "polity_id": "croatian_principality",
+      "start": 845,
+      "end": 925
+    },
+    {
+      "polity_id": "croatian_kingdom",
+      "start": 925,
+      "end": 1102
+    }
+  ]
+}

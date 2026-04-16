@@ -1,0 +1,14 @@
+{
+  "id": "hurrian_royal",
+  "name": "Hurrian Royal",
+  "ethnicity": "hurrian",
+  "origin_region": "mesopotamia",
+  "note": "Mitanni ruling dynasty",
+  "polities": [
+    {
+      "polity_id": "mitanni_empire",
+      "start": -1500,
+      "end": -1300
+    }
+  ]
+}

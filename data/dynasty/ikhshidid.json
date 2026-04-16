@@ -1,0 +1,14 @@
+{
+  "id": "ikhshidid",
+  "name": "Ikhshidid",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "egypt",
+  "note": "Turkic dynasty in Egypt",
+  "polities": [
+    {
+      "polity_id": "ikhshidid_dynasty",
+      "start": 935,
+      "end": 969
+    }
+  ]
+}

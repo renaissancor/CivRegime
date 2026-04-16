@@ -1,0 +1,14 @@
+{
+  "id": "rashidun",
+  "name": "Rashidun",
+  "ethnicity": "arab",
+  "origin_region": "arabia",
+  "note": "First four caliphs (elected not dynastic)",
+  "polities": [
+    {
+      "polity_id": "rashidun_caliphate",
+      "start": 632,
+      "end": 661
+    }
+  ]
+}

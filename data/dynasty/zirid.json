@@ -1,0 +1,14 @@
+{
+  "id": "zirid",
+  "name": "Zirid",
+  "ethnicity": "berber",
+  "origin_region": "north_africa",
+  "note": "Sanhaja Berber dynasty",
+  "polities": [
+    {
+      "polity_id": "zirid_dynasty",
+      "start": 972,
+      "end": 1148
+    }
+  ]
+}

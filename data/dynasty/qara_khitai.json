@@ -1,0 +1,19 @@
+{
+  "id": "qara_khitai",
+  "name": "Yelü",
+  "ethnicity": "khitan",
+  "origin_region": "central_asian_steppe",
+  "note": "Khitan dynasty of Western Liao",
+  "polities": [
+    {
+      "polity_id": "qara_khitai",
+      "start": 1124,
+      "end": 1218
+    },
+    {
+      "polity_id": "western_liao",
+      "start": 1124,
+      "end": 1218
+    }
+  ]
+}

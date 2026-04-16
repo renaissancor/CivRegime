@@ -1,0 +1,14 @@
+{
+  "id": "sui_yang",
+  "name": "Yang",
+  "ethnicity": "han_chinese",
+  "origin_region": "yellow_river",
+  "note": "Sui dynasty imperial clan",
+  "polities": [
+    {
+      "polity_id": "sui_dynasty",
+      "start": 581,
+      "end": 618
+    }
+  ]
+}

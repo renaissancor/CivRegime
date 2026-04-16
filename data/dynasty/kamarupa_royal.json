@@ -1,0 +1,14 @@
+{
+  "id": "kamarupa_royal",
+  "name": "Kamarupa Royal",
+  "ethnicity": "indo_aryan_cluster",
+  "origin_region": "india",
+  "note": "Varman and Pala dynasties of Kamarupa",
+  "polities": [
+    {
+      "polity_id": "kamarupa_kingdom",
+      "start": 350,
+      "end": 1140
+    }
+  ]
+}

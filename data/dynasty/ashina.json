@@ -1,0 +1,29 @@
+{
+  "id": "ashina",
+  "name": "Ashina",
+  "ethnicity": "turkic",
+  "origin_region": "central_asian_steppe",
+  "note": "Royal clan of Göktürk khaganates",
+  "polities": [
+    {
+      "polity_id": "first_turkic_khaganate",
+      "start": 552,
+      "end": 603
+    },
+    {
+      "polity_id": "goktürk_khaganate",
+      "start": 552,
+      "end": 744
+    },
+    {
+      "polity_id": "xueyantuo",
+      "start": 628,
+      "end": 646
+    },
+    {
+      "polity_id": "second_turkic_khaganate",
+      "start": 682,
+      "end": 744
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "yadava",
+  "name": "Yadava",
+  "ethnicity": "indo_aryan_cluster",
+  "origin_region": "india",
+  "note": "Seuna dynasty of Devagiri",
+  "polities": [
+    {
+      "polity_id": "yadava_dynasty",
+      "start": 1187,
+      "end": 1317
+    }
+  ]
+}

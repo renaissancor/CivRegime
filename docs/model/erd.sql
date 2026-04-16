@@ -8,7 +8,6 @@
 --   Polity   → political entity (e.g., Roman Empire, Tang Dynasty)
 --
 -- Future tables (create when data is ready):
---   Dynasty  → ruling family (e.g., Bourbon, Borjigin)
 --   Regime   → ruling period within a polity (e.g., Julio-Claudian)
 --   Culture  → prehistoric/archaeological entities
 --   Ideology → government forms and state philosophies
@@ -123,6 +122,25 @@ CREATE TABLE polity_succession_territory (
 );
 
 
+-- ─── DYNASTY ────────────────────────────────────────────────
+
+CREATE TABLE dynasty (
+    id            TEXT PRIMARY KEY,
+    name          TEXT NOT NULL,
+    ethnicity     TEXT,
+    origin_region TEXT,
+    note          TEXT
+);
+
+CREATE TABLE polity_dynasty (
+    polity_id  TEXT NOT NULL,
+    dynasty_id TEXT NOT NULL,
+    start_year INTEGER,
+    end_year   INTEGER,
+    PRIMARY KEY (polity_id, dynasty_id, start_year)
+);
+
+
 -- ─── FIGURES ────────────────────────────────────────────────
 
 CREATE TABLE figure (
@@ -144,3 +162,5 @@ CREATE INDEX idx_polity_succession_from ON polity_succession(from_polity_id);
 CREATE INDEX idx_polity_succession_to ON polity_succession(to_polity_id);
 CREATE INDEX idx_polity_territory_territory ON polity_territory(territory_id);
 CREATE INDEX idx_figure_polity ON figure(polity_id);
+CREATE INDEX idx_polity_dynasty_dynasty ON polity_dynasty(dynasty_id);
+CREATE INDEX idx_dynasty_ethnicity ON dynasty(ethnicity);

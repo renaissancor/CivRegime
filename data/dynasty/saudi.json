@@ -1,0 +1,14 @@
+{
+  "id": "saudi",
+  "name": "Saudi",
+  "ethnicity": "arab",
+  "origin_region": "arabia",
+  "note": "House of Saud",
+  "polities": [
+    {
+      "polity_id": "saudi_arabia",
+      "start": 1932,
+      "end": null
+    }
+  ]
+}

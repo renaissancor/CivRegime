@@ -1,0 +1,14 @@
+{
+  "id": "greek_bactrian",
+  "name": "Diodotid",
+  "ethnicity": "ancient_greek",
+  "origin_region": "transoxiana",
+  "note": "Greco-Bactrian dynasty",
+  "polities": [
+    {
+      "polity_id": "greco_bactrian_kingdom",
+      "start": -256,
+      "end": -125
+    }
+  ]
+}

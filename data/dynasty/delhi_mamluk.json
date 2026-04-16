@@ -1,0 +1,34 @@
+{
+  "id": "delhi_mamluk",
+  "name": "Delhi Mamluk",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "india",
+  "note": "Slave dynasty of Delhi",
+  "polities": [
+    {
+      "polity_id": "delhi_sultanate",
+      "start": 1206,
+      "end": 1290
+    },
+    {
+      "polity_id": "madurai_sultanate",
+      "start": 1335,
+      "end": 1378
+    },
+    {
+      "polity_id": "jaunpur_sultanate",
+      "start": 1394,
+      "end": 1479
+    },
+    {
+      "polity_id": "malwa_sultanate",
+      "start": 1401,
+      "end": 1531
+    },
+    {
+      "polity_id": "gujarat_sultanate",
+      "start": 1407,
+      "end": 1573
+    }
+  ]
+}

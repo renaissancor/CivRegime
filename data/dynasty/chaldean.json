@@ -1,0 +1,14 @@
+{
+  "id": "chaldean",
+  "name": "Chaldean",
+  "ethnicity": "babylonian",
+  "origin_region": "mesopotamia",
+  "note": "Neo-Babylonian Chaldean dynasty",
+  "polities": [
+    {
+      "polity_id": "neo_babylonian",
+      "start": -626,
+      "end": -539
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "kara_khanid",
+  "name": "Kara-Khanid",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "central_asian_steppe",
+  "note": "Karluk-origin Turkic dynasty",
+  "polities": [
+    {
+      "polity_id": "kara_khanid_khanate",
+      "start": 840,
+      "end": 1212
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "tokugawa",
+  "name": "Tokugawa",
+  "ethnicity": "yamato",
+  "origin_region": "japan",
+  "note": "Shogunal dynasty of Edo period",
+  "polities": [
+    {
+      "polity_id": "tokugawa_shogunate",
+      "start": 1603,
+      "end": 1868
+    }
+  ]
+}

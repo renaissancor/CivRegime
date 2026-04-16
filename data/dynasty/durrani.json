@@ -1,0 +1,14 @@
+{
+  "id": "durrani",
+  "name": "Durrani",
+  "ethnicity": "pashtun",
+  "origin_region": "khorasan",
+  "note": "Afghan Abdali/Durrani clan",
+  "polities": [
+    {
+      "polity_id": "durrani_empire",
+      "start": 1747,
+      "end": 1823
+    }
+  ]
+}

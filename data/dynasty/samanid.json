@@ -1,0 +1,14 @@
+{
+  "id": "samanid",
+  "name": "Samanid",
+  "ethnicity": "persian",
+  "origin_region": "transoxiana",
+  "note": "Persian dynasty in Transoxiana",
+  "polities": [
+    {
+      "polity_id": "samanid_empire",
+      "start": 819,
+      "end": 999
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zhu_ming",
+  "name": "Zhu",
+  "ethnicity": "han_chinese",
+  "origin_region": "yellow_river",
+  "note": "Ming dynasty imperial clan",
+  "polities": [
+    {
+      "polity_id": "ming_dynasty",
+      "start": 1368,
+      "end": 1644
+    }
+  ]
+}

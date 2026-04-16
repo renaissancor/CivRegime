@@ -1,0 +1,14 @@
+{
+  "id": "wittelsbach",
+  "name": "Wittelsbach",
+  "ethnicity": "german",
+  "origin_region": "germany",
+  "note": "Bavarian royal house",
+  "polities": [
+    {
+      "polity_id": "albanian_kingdom",
+      "start": 1914,
+      "end": 1925
+    }
+  ]
+}

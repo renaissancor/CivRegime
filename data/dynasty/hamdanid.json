@@ -1,0 +1,14 @@
+{
+  "id": "hamdanid",
+  "name": "Hamdanid",
+  "ethnicity": "arab",
+  "origin_region": "mesopotamia",
+  "note": "Arab dynasty of Mosul and Aleppo",
+  "polities": [
+    {
+      "polity_id": "hamdanid_emirate",
+      "start": 890,
+      "end": 1004
+    }
+  ]
+}

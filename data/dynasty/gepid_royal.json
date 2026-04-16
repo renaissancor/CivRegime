@@ -1,0 +1,14 @@
+{
+  "id": "gepid_royal",
+  "name": "Gepid Royal",
+  "ethnicity": "germanic",
+  "origin_region": "balkans",
+  "note": "Germanic royal house",
+  "polities": [
+    {
+      "polity_id": "gepid_kingdom",
+      "start": 454,
+      "end": 567
+    }
+  ]
+}

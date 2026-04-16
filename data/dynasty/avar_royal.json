@@ -1,0 +1,14 @@
+{
+  "id": "avar_royal",
+  "name": "Avar Royal",
+  "ethnicity": "central_asian_steppe_bloc",
+  "origin_region": "central_asian_steppe",
+  "note": "Avar khagan dynasty",
+  "polities": [
+    {
+      "polity_id": "avar_khaganate",
+      "start": 567,
+      "end": 822
+    }
+  ]
+}

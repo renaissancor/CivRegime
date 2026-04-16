@@ -1,0 +1,14 @@
+{
+  "id": "kotromanić",
+  "name": "Kotromanić",
+  "ethnicity": "south_slavic",
+  "origin_region": "balkans",
+  "note": "Bosnian royal house",
+  "polities": [
+    {
+      "polity_id": "bosnian_kingdom",
+      "start": 1377,
+      "end": 1463
+    }
+  ]
+}

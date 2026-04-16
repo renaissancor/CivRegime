@@ -1,0 +1,14 @@
+{
+  "id": "hotak",
+  "name": "Hotak",
+  "ethnicity": "pashtun",
+  "origin_region": "khorasan",
+  "note": "Ghilzai Pashtun dynasty",
+  "polities": [
+    {
+      "polity_id": "hotak_dynasty",
+      "start": 1709,
+      "end": 1738
+    }
+  ]
+}

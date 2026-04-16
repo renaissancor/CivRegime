@@ -1,0 +1,14 @@
+{
+  "id": "hoysala",
+  "name": "Hoysala",
+  "ethnicity": "dravidian_cluster",
+  "origin_region": "india",
+  "note": "Kannada dynasty in southern Deccan",
+  "polities": [
+    {
+      "polity_id": "hoysala_dynasty",
+      "start": 1026,
+      "end": 1343
+    }
+  ]
+}

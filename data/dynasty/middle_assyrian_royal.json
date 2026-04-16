@@ -1,0 +1,14 @@
+{
+  "id": "middle_assyrian_royal",
+  "name": "Middle Assyrian Royal",
+  "ethnicity": "assyrian",
+  "origin_region": "mesopotamia",
+  "note": "Adaside dynasty",
+  "polities": [
+    {
+      "polity_id": "middle_assyrian_empire",
+      "start": -1392,
+      "end": -1056
+    }
+  ]
+}

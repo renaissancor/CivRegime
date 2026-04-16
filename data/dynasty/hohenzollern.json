@@ -1,0 +1,19 @@
+{
+  "id": "hohenzollern",
+  "name": "Hohenzollern",
+  "ethnicity": "german",
+  "origin_region": "germany",
+  "note": "Prussian-German royal house",
+  "polities": [
+    {
+      "polity_id": "german_empire",
+      "start": 1871,
+      "end": 1918
+    },
+    {
+      "polity_id": "kingdom_of_romania",
+      "start": 1881,
+      "end": 1947
+    }
+  ]
+}

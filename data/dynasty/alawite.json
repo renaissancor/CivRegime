@@ -1,0 +1,14 @@
+{
+  "id": "alawite",
+  "name": "Alawite",
+  "ethnicity": "berber",
+  "origin_region": "north_africa",
+  "note": "Sharifs of Morocco from Tafilalet",
+  "polities": [
+    {
+      "polity_id": "alawite_dynasty",
+      "start": 1631,
+      "end": null
+    }
+  ]
+}

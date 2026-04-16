@@ -1,0 +1,14 @@
+{
+  "id": "chola",
+  "name": "Chola",
+  "ethnicity": "dravidian_cluster",
+  "origin_region": "india",
+  "note": "Tamil dynasty of Thanjavur",
+  "polities": [
+    {
+      "polity_id": "chola_empire",
+      "start": -300,
+      "end": 1279
+    }
+  ]
+}

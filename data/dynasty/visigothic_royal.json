@@ -1,0 +1,14 @@
+{
+  "id": "visigothic_royal",
+  "name": "Visigothic Royal",
+  "ethnicity": "germanic_peoples",
+  "origin_region": "iberia",
+  "note": "Balti and Amal dynasties",
+  "polities": [
+    {
+      "polity_id": "visigothic_kingdom",
+      "start": 418,
+      "end": 721
+    }
+  ]
+}

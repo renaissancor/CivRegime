@@ -1,0 +1,14 @@
+{
+  "id": "vandal_royal",
+  "name": "Vandal Royal",
+  "ethnicity": "germanic_peoples",
+  "origin_region": "north_africa",
+  "note": "Hasdingi dynasty",
+  "polities": [
+    {
+      "polity_id": "vandal_kingdom",
+      "start": 435,
+      "end": 534
+    }
+  ]
+}

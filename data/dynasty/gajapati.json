@@ -1,0 +1,14 @@
+{
+  "id": "gajapati",
+  "name": "Gajapati",
+  "ethnicity": "indo_aryan_cluster",
+  "origin_region": "india",
+  "note": "Suryavamsha dynasty of Odisha",
+  "polities": [
+    {
+      "polity_id": "gajapati_dynasty",
+      "start": 1434,
+      "end": 1541
+    }
+  ]
+}

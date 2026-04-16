@@ -1,0 +1,14 @@
+{
+  "id": "ziyadid",
+  "name": "Ziyadid",
+  "ethnicity": "arab",
+  "origin_region": "arabia",
+  "note": "Arab dynasty in Yemen",
+  "polities": [
+    {
+      "polity_id": "ziyadid_dynasty",
+      "start": 818,
+      "end": 1018
+    }
+  ]
+}

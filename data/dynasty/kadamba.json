@@ -1,0 +1,14 @@
+{
+  "id": "kadamba",
+  "name": "Kadamba",
+  "ethnicity": "dravidian_cluster",
+  "origin_region": "india",
+  "note": "Early Kannada dynasty",
+  "polities": [
+    {
+      "polity_id": "kadamba_dynasty",
+      "start": 345,
+      "end": 525
+    }
+  ]
+}

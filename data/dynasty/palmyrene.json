@@ -1,0 +1,14 @@
+{
+  "id": "palmyrene",
+  "name": "Palmyrene",
+  "ethnicity": "semitic_cluster",
+  "origin_region": "levant",
+  "note": "House of Odaenathus and Zenobia",
+  "polities": [
+    {
+      "polity_id": "palmyrene_empire",
+      "start": 260,
+      "end": 273
+    }
+  ]
+}

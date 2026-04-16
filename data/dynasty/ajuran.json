@@ -1,0 +1,14 @@
+{
+  "id": "ajuran",
+  "name": "Ajuran",
+  "ethnicity": "somali",
+  "origin_region": "east_africa",
+  "note": "Gareen dynasty ruling Ajuran Sultanate",
+  "polities": [
+    {
+      "polity_id": "ajuran_sultanate",
+      "start": 1200,
+      "end": 1700
+    }
+  ]
+}

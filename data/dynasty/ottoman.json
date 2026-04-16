@@ -1,0 +1,14 @@
+{
+  "id": "ottoman",
+  "name": "Ottoman",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "anatolia",
+  "note": "House of Osman",
+  "polities": [
+    {
+      "polity_id": "ottoman_empire",
+      "start": 1299,
+      "end": 1922
+    }
+  ]
+}

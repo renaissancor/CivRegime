@@ -1,0 +1,19 @@
+{
+  "id": "nemanjić",
+  "name": "Nemanjić",
+  "ethnicity": "south_slavic",
+  "origin_region": "balkans",
+  "note": "Medieval Serbian royal dynasty",
+  "polities": [
+    {
+      "polity_id": "serbian_empire",
+      "start": 1217,
+      "end": 1371
+    },
+    {
+      "polity_id": "serbian_despotate",
+      "start": 1402,
+      "end": 1459
+    }
+  ]
+}

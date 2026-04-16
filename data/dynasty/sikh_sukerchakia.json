@@ -1,0 +1,19 @@
+{
+  "id": "sikh_sukerchakia",
+  "name": "Sukerchakia",
+  "ethnicity": "punjabi",
+  "origin_region": "punjab",
+  "note": "Sikh dynasty of Ranjit Singh",
+  "polities": [
+    {
+      "polity_id": "maratha_empire",
+      "start": 1674,
+      "end": 1818
+    },
+    {
+      "polity_id": "sikh_empire",
+      "start": 1799,
+      "end": 1849
+    }
+  ]
+}

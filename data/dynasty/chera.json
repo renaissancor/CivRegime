@@ -1,0 +1,14 @@
+{
+  "id": "chera",
+  "name": "Chera",
+  "ethnicity": "dravidian_cluster",
+  "origin_region": "india",
+  "note": "Ancient Tamil dynasty",
+  "polities": [
+    {
+      "polity_id": "chera_dynasty",
+      "start": -300,
+      "end": 1102
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "li_tang",
+  "name": "Li",
+  "ethnicity": "han_chinese",
+  "origin_region": "yellow_river",
+  "note": "Tang dynasty imperial clan",
+  "polities": [
+    {
+      "polity_id": "tang_dynasty",
+      "start": 618,
+      "end": 907
+    }
+  ]
+}

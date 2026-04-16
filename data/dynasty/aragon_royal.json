@@ -1,0 +1,14 @@
+{
+  "id": "aragon_royal",
+  "name": "House of Barcelona",
+  "ethnicity": "catalan",
+  "origin_region": "iberia",
+  "note": "Catalan counts ruling Aragon",
+  "polities": [
+    {
+      "polity_id": "crown_of_aragon",
+      "start": 1137,
+      "end": 1479
+    }
+  ]
+}

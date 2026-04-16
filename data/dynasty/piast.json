@@ -1,0 +1,19 @@
+{
+  "id": "piast",
+  "name": "Piast",
+  "ethnicity": "polish",
+  "origin_region": "poland",
+  "note": "First Polish royal dynasty",
+  "polities": [
+    {
+      "polity_id": "great_moravia",
+      "start": 833,
+      "end": 907
+    },
+    {
+      "polity_id": "kingdom_of_poland",
+      "start": 1025,
+      "end": 1370
+    }
+  ]
+}

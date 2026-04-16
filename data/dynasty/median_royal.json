@@ -1,0 +1,14 @@
+{
+  "id": "median_royal",
+  "name": "Median Royal",
+  "ethnicity": "median",
+  "origin_region": "iran_plateau",
+  "note": "Deioces dynasty of Media",
+  "polities": [
+    {
+      "polity_id": "median_kingdom",
+      "start": -678,
+      "end": -549
+    }
+  ]
+}

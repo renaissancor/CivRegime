@@ -1,0 +1,14 @@
+{
+  "id": "tahirid",
+  "name": "Tahirid",
+  "ethnicity": "persian",
+  "origin_region": "khorasan",
+  "note": "First independent Persian dynasty under Abbasids",
+  "polities": [
+    {
+      "polity_id": "tahirid_dynasty",
+      "start": 821,
+      "end": 873
+    }
+  ]
+}

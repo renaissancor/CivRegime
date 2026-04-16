@@ -1,0 +1,34 @@
+{
+  "id": "hunnic",
+  "name": "Hunnic",
+  "ethnicity": "central_asian_steppe_bloc",
+  "origin_region": "central_asian_steppe",
+  "note": "Attila's ruling clan",
+  "polities": [
+    {
+      "polity_id": "kidarites",
+      "start": 360,
+      "end": 467
+    },
+    {
+      "polity_id": "kidarites_alchon_huns",
+      "start": 360,
+      "end": 560
+    },
+    {
+      "polity_id": "hunnic_empire",
+      "start": 370,
+      "end": 469
+    },
+    {
+      "polity_id": "hephthalites",
+      "start": 440,
+      "end": 670
+    },
+    {
+      "polity_id": "nezak_huns",
+      "start": 484,
+      "end": 665
+    }
+  ]
+}

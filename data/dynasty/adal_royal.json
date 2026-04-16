@@ -1,0 +1,14 @@
+{
+  "id": "adal_royal",
+  "name": "Adal Royal",
+  "ethnicity": "somali",
+  "origin_region": "east_africa",
+  "note": "Walashma dynasty",
+  "polities": [
+    {
+      "polity_id": "adal_sultanate",
+      "start": 1415,
+      "end": 1577
+    }
+  ]
+}

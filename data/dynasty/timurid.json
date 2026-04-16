@@ -1,0 +1,14 @@
+{
+  "id": "timurid",
+  "name": "Timurid",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "transoxiana",
+  "note": "Tamerlane's dynasty",
+  "polities": [
+    {
+      "polity_id": "timurid_empire",
+      "start": 1370,
+      "end": 1507
+    }
+  ]
+}

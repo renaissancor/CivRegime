@@ -1,0 +1,24 @@
+{
+  "id": "hanover",
+  "name": "Hanoverian",
+  "ethnicity": "german",
+  "origin_region": "britain",
+  "note": "German dynasty on British throne",
+  "polities": [
+    {
+      "polity_id": "kingdom_of_great_britain",
+      "start": 1714,
+      "end": 1901
+    },
+    {
+      "polity_id": "united_kingdom",
+      "start": 1801,
+      "end": 1901
+    },
+    {
+      "polity_id": "british_raj",
+      "start": 1858,
+      "end": 1901
+    }
+  ]
+}

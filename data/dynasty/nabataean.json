@@ -1,0 +1,14 @@
+{
+  "id": "nabataean",
+  "name": "Nabataean",
+  "ethnicity": "semitic_cluster",
+  "origin_region": "levant",
+  "note": "Aretas dynasty",
+  "polities": [
+    {
+      "polity_id": "nabataean_kingdom",
+      "start": -312,
+      "end": 106
+    }
+  ]
+}

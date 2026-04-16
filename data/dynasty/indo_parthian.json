@@ -1,0 +1,14 @@
+{
+  "id": "indo_parthian",
+  "name": "Indo-Parthian",
+  "ethnicity": "parthian",
+  "origin_region": "india",
+  "note": "Gondopharid dynasty",
+  "polities": [
+    {
+      "polity_id": "indo_parthian_kingdom",
+      "start": 19,
+      "end": 226
+    }
+  ]
+}

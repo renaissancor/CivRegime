@@ -1,0 +1,14 @@
+{
+  "id": "hittite_royal",
+  "name": "Hittite Royal",
+  "ethnicity": "hittite",
+  "origin_region": "anatolia",
+  "note": "Royal dynasty of Hatti",
+  "polities": [
+    {
+      "polity_id": "hittite_empire",
+      "start": -1600,
+      "end": -1178
+    }
+  ]
+}

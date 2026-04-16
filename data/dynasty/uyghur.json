@@ -1,0 +1,14 @@
+{
+  "id": "uyghur",
+  "name": "Uyghur",
+  "ethnicity": "turkic_cluster",
+  "origin_region": "central_asian_steppe",
+  "note": "Yaghlakar clan",
+  "polities": [
+    {
+      "polity_id": "uyghur_khaganate",
+      "start": 744,
+      "end": 840
+    }
+  ]
+}

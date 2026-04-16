@@ -1,0 +1,14 @@
+{
+  "id": "harsha_pushyabhuti",
+  "name": "Pushyabhuti",
+  "ethnicity": "indo_aryan_cluster",
+  "origin_region": "india",
+  "note": "Dynasty of Emperor Harsha",
+  "polities": [
+    {
+      "polity_id": "harsha_empire",
+      "start": 606,
+      "end": 647
+    }
+  ]
+}

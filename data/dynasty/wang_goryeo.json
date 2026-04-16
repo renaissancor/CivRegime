@@ -1,0 +1,14 @@
+{
+  "id": "wang_goryeo",
+  "name": "Wang",
+  "ethnicity": "korean",
+  "origin_region": "korea",
+  "note": "Royal family of Goryeo",
+  "polities": [
+    {
+      "polity_id": "goryeo",
+      "start": 918,
+      "end": 1392
+    }
+  ]
+}

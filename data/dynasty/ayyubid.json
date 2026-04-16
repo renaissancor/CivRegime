@@ -1,0 +1,14 @@
+{
+  "id": "ayyubid",
+  "name": "Ayyubid",
+  "ethnicity": "kurdish",
+  "origin_region": "mesopotamia",
+  "note": "Founded by Saladin",
+  "polities": [
+    {
+      "polity_id": "ayyubid_sultanate",
+      "start": 1171,
+      "end": 1260
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "almoravid",
+  "name": "Almoravid",
+  "ethnicity": "berber",
+  "origin_region": "north_africa",
+  "note": "Sanhaja Berber dynasty",
+  "polities": [
+    {
+      "polity_id": "almoravid_dynasty",
+      "start": 1040,
+      "end": 1147
+    },
+    {
+      "polity_id": "banu_ghaniya",
+      "start": 1148,
+      "end": 1236
+    }
+  ]
+}

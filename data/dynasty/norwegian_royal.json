@@ -1,0 +1,14 @@
+{
+  "id": "norwegian_royal",
+  "name": "Norwegian Royal",
+  "ethnicity": "scandinavian",
+  "origin_region": "scandinavia",
+  "note": "Norwegian royal house",
+  "polities": [
+    {
+      "polity_id": "kingdom_of_norway",
+      "start": 872,
+      "end": 1380
+    }
+  ]
+}
