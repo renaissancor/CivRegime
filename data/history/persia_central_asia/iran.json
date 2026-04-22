@@ -898,7 +898,7 @@
             {
               "label": "Hotaki Afghan",
               "note": "1709–1729",
-              "regime": "hotaki_dynasty"
+              "regime": "hotak_dynasty"
             },
             {
               "regime": "afsharid_dynasty",
@@ -913,7 +913,7 @@
             {
               "label": "Hotaki Afghan",
               "note": "1709–1729",
-              "regime": "hotaki_dynasty"
+              "regime": "hotak_dynasty"
             },
             {
               "regime": "afsharid_dynasty",
@@ -928,7 +928,7 @@
             {
               "label": "Hotaki Afghan",
               "note": "1709–1729",
-              "regime": "hotaki_dynasty"
+              "regime": "hotak_dynasty"
             },
             {
               "regime": "afsharid_dynasty",
@@ -958,7 +958,7 @@
             {
               "label": "Hotaki Afghan",
               "note": "1709–1729",
-              "regime": "hotaki_dynasty"
+              "regime": "hotak_dynasty"
             },
             {
               "regime": "afsharid_dynasty",
@@ -1062,8 +1062,7 @@
             },
             {
               "label": "British India sphere",
-              "note": "19th–20th c.",
-              "regime": "british_india_sphere"
+              "note": "19th–20th c."
             }
           ],
           "span": 1

@@ -428,3 +428,27 @@ canada,Canada,,english,english,protestant,democratic_republic,quebec|atlantic_ca
 republic_of_yemen,Republic of Yemen,,arab,classical_arabic,sunni,democratic_republic,arabia,1990,,,
 russian_federation,Russian Federation,,russian,russian,,,,1991,,,
 song_dynasty,Song Dynasty,,han_chinese,middle_chinese,neo_confucianism,chinese_imperial,china_proper,960,1279,,Founded by Zhao Kuangyin (Emperor Taizu); northern (960–1127) and southern (1127–1279) periods split by Jurchen Jin conquest of the north
+bavandid_dynasty,Bavandid Dynasty,,persian,middle_persian_pahlavi,zoroastrianism,monarchy,iran_plateau,651,1349,,Caspian dynasty ruling Tabaristan/Mazandaran; outlasted the Sassanids under Umayyad/Abbasid suzerainty
+dabuyid_dynasty,Dabuyid Dynasty,,persian,middle_persian_pahlavi,zoroastrianism,monarchy,iran_plateau,642,760,,Sassanid successor dynasty in Tabaristan; resisted Arab conquest until 760 CE
+dulafid_dynasty,Dulafid Dynasty,,arab,classical_arabic,sunni,emirate,iran_plateau,840,897,,Arab emirate in Jibal (western Iran) under Abbasid suzerainty
+eldiguzid_dynasty,Eldiguzid Dynasty (Ildeguzids),,turkic_cluster,new_persian_farsi,sunni,atabegate,caucasus|iran_plateau,1136,1225,,Atabeg dynasty of Azerbaijan and Arran; Seljuk successor state
+injuid_dynasty,Injuid Dynasty,,persian,new_persian_farsi,sunni,monarchy,iran_plateau,1335,1357,,Ilkhanate successor dynasty ruling Fars from Shiraz
+kakuyid_dynasty,Kakuyid Dynasty,,persian,new_persian_farsi,shia,emirate,iran_plateau,1008,1051,,Shiite Daylamite dynasty ruling central Iran; reduced to vassals under Seljuks
+karkiya_dynasty,Kar-Kiya Dynasty,,persian,new_persian_farsi,shia,monarchy,iran_plateau,1370,1592,,Zaydi Shiite dynasty of Biyeh-pish (eastern Gilan)
+kartid_dynasty,Kartid Dynasty,,persian,new_persian_farsi,sunni,monarchy,khorasan,1245,1389,,Ilkhanate vassal dynasty ruling Khorasan from Herat; ended by Timur
+khalji_dynasty,Khalji Dynasty,,turkic_cluster,new_persian_farsi,sunni,sultanate,indus_valley|iran_plateau,1290,1320,,Turko-Afghan dynasty of Delhi Sultanate; briefly extended into eastern Iran/Baluchistan
+rawwadid_dynasty,Rawwadid Dynasty,,kurdish,new_persian_farsi,sunni,emirate,caucasus,955,1071,,Kurdicized Arab dynasty of Iranian Azerbaijan; ended by Seljuk conquest
+salgurid_dynasty,Salgurid Dynasty,,turkic_cluster,new_persian_farsi,sunni,atabegate,iran_plateau,1148,1286,,Atabeg dynasty of Fars (Persis); Seljuk/Ilkhanate vassals
+zengid_dynasty,Zengid Dynasty,,turkic_cluster,classical_arabic,sunni,atabegate,mesopotamia|levant,1127,1222,,Oghuz Turk atabeg dynasty of Mosul/Aleppo; absorbed by Ayyubids
+ziyarid_dynasty,Ziyarid Dynasty,,persian,new_persian_farsi,shia,emirate,iran_plateau,930,1090,,Daylamite dynasty ruling Tabaristan/Gorgan; cultural Persian renaissance patrons
+anshan_kingdom,Anshan Kingdom,,elamite,elamite,,city_state,iran_plateau,-2400,-550,,Elamite highland kingdom; one of the two capitals of Elam alongside Susa
+kassite_babylon,Kassite Babylon,,kassite,akkadian,mesopotamian_religion,monarchy,mesopotamia,-1600,-1155,,Kassite dynasty ruling Babylon; Middle Babylonian period
+lullubi_kingdom,Lullubi Kingdom,,,,,tribal_kingdom,iran_plateau,-2300,-1200,,Highland kingdom in the Zagros mountains; attested in Akkadian and Kassite sources
+mannai_kingdom,Mannai Kingdom,,,,,kingdom,iran_plateau,-850,-616,,Iron Age kingdom in the Lake Urmia basin; absorbed by Medes
+marhashi_kingdom,Marhashi Kingdom,,elamite,elamite,,kingdom,iran_plateau,-2500,-2000,,Bronze Age kingdom in southeastern Iran; rival of Akkad and Elam
+proto_elamite,Proto-Elamite,,,,,proto_state,iran_plateau,-3100,-2700,,Proto-urban civilization of southwestern Iran; earliest writing system in Iran
+kidarite_kingdom,Kidarite Kingdom,,turkic_cluster,,buddhism,kingdom,transoxiana|khorasan,320,467,,Hunnic kingdom in Bactria and Gandhara; precursor to the Hephthalites
+azerbaijan_peoples_government,Azerbaijan Peoples Government,,azerbaijani,azerbaijani,secular,soviet_republic,caucasus,1945,1946,,Soviet-backed separatist state in Iranian Azerbaijan; collapsed after Soviet withdrawal
+mahabad_republic,Mahabad Republic,,kurdish,kurdish,sunni,republic,iran_plateau,1946,1946,,Soviet-backed Kurdish republic; collapsed same year as Azerbaijan Peoples Government
+kalat_khanate,Kalat Khanate,,baloch,balochi,sunni,khanate,iran_plateau,1666,1955,,Baloch khanate centered on Kalat; partial sovereignty under Persian/British suzerainty
+hormuz_kingdom,Hormuz Kingdom,,persian,new_persian_farsi,sunni,kingdom,iran_plateau,1300,1622,,Persian Gulf kingdom controlling Strait of Hormuz; ended by Safavid-English expulsion of Portuguese
