@@ -173,8 +173,7 @@
             },
             {
               "label": "Venetians (Adriatic coast)",
-              "note": "c.1000 BCE–",
-              "regime": "venetians"
+              "note": "c.1000 BCE–"
             }
           ],
           "span": 1
@@ -223,8 +222,7 @@
           "stack": [
             {
               "label": "Greek colonies (Syracuse · Akragas · Selinunte)",
-              "note": "c.734 BCE–",
-              "regime": "greek_colonies"
+              "note": "c.734 BCE–"
             },
             {
               "label": "Carthaginian western Sicily",
@@ -374,8 +372,7 @@
             },
             {
               "label": "Gothic War (Byzantine reconquest)",
-              "note": "535–553",
-              "regime": "gothic_war"
+              "note": "535–553"
             }
           ],
           "span": 1
@@ -424,8 +421,7 @@
           "stack": [
             {
               "label": "Vandal raids on Sicily",
-              "note": "440s–468",
-              "regime": "vandal_raids_on_sicily"
+              "note": "440s–468"
             },
             {
               "regime": "odoacer_kingdom",
@@ -590,8 +586,7 @@
             },
             {
               "label": "Investiture Controversy",
-              "note": "1076–1122",
-              "regime": "investiture_controversy"
+              "note": "1076–1122"
             }
           ],
           "span": 1
@@ -648,13 +643,11 @@
           "stack": [
             {
               "label": "Lombard League vs Frederick Barbarossa",
-              "note": "1167–1183",
-              "regime": "lombard_league_vs_frederick_barbarossa"
+              "note": "1167–1183"
             },
             {
               "label": "City communes (Milan · Venice · Genoa · Verona)",
-              "note": "12th c.",
-              "regime": "city_communes"
+              "note": "12th c."
             }
           ],
           "span": 1
@@ -668,8 +661,7 @@
             },
             {
               "label": "Guelph vs Ghibelline",
-              "note": "12th–14th c.",
-              "regime": "guelph_vs_ghibelline"
+              "note": "12th–14th c."
             }
           ],
           "span": 1
@@ -781,13 +773,11 @@
             },
             {
               "label": "Italian Renaissance",
-              "note": "14th–16th c.",
-              "regime": "italian_renaissance"
+              "note": "14th–16th c."
             },
             {
               "label": "Republics of Siena · Lucca · Pisa",
-              "note": "",
-              "regime": "republics_of_siena"
+              "note": ""
             }
           ],
           "span": 1
@@ -817,7 +807,7 @@
           "label": "Aragonese / Spanish Kingdom of Sardinia",
           "note": "1323–1718",
           "span": 1,
-          "regime": "aragonese"
+          "regime": "aragonese_sardinia"
         }
       ]
     },
@@ -840,8 +830,7 @@
             },
             {
               "label": "Austrian Habsburg — Lombardy-Venetia",
-              "note": "1706–1796",
-              "regime": "austrian_habsburg"
+              "note": "1706–1796"
             }
           ],
           "span": 1
@@ -920,8 +909,7 @@
           "stack": [
             {
               "label": "Napoleon annexes Rome",
-              "note": "1809–1814",
-              "regime": "napoleon_annexes_rome"
+              "note": "1809–1814"
             },
             {
               "label": "Papal States (restored)",
@@ -969,8 +957,7 @@
             },
             {
               "label": "Leads Risorgimento (Cavour · Garibaldi)",
-              "note": "",
-              "regime": "leads_risorgimento"
+              "note": ""
             }
           ],
           "span": 1
@@ -989,8 +976,7 @@
             },
             {
               "label": "Lombardy 1859 · Venetia 1866",
-              "note": "",
-              "regime": "lombardy_1859"
+              "note": ""
             }
           ],
           "span": 1
@@ -1018,8 +1004,7 @@
             },
             {
               "label": "Garibaldi's Expedition of the Thousand 1860",
-              "note": "",
-              "regime": "garibaldis_expedition_of_the_thousand_1860"
+              "note": ""
             }
           ],
           "span": 1

@@ -83,8 +83,7 @@
         {
           "stack": [
             {
-              "label": "Indigenous peoples · Baiyue (百越)",
-              "regime": "indigenous_peoples"
+              "label": "Indigenous peoples · Baiyue (百越)"
             }
           ],
           "span": 1
@@ -92,8 +91,7 @@
         {
           "stack": [
             {
-              "label": "Northern steppe peoples",
-              "regime": "northern_steppe_peoples"
+              "label": "Northern steppe peoples"
             }
           ],
           "span": 1
@@ -111,8 +109,7 @@
         {
           "stack": [
             {
-              "label": "Xianyun · Quanrong",
-              "regime": "xianyun_quanrong"
+              "label": "Xianyun · Quanrong"
             }
           ],
           "span": 1
@@ -131,8 +128,7 @@
             },
             {
               "label": "Spring and Autumn (春秋)",
-              "note": "770–476 BCE",
-              "regime": "spring_and_autumn"
+              "note": "770–476 BCE"
             },
             {
               "label": "Warring States (战国)",
@@ -145,8 +141,7 @@
           "stack": [
             {
               "label": "Chu (楚) · Wu (吴) · Yue (越)",
-              "note": "major southern states",
-              "regime": "chu_wu_yue"
+              "note": "major southern states"
             },
             {
               "label": "Ba (巴) · Shu (蜀)",
@@ -163,8 +158,7 @@
               "regime": "xiongnu"
             },
             {
-              "label": "Donghu · Yuezhi",
-              "regime": "donghu_yuezhi"
+              "label": "Donghu · Yuezhi"
             }
           ],
           "span": 1
@@ -206,12 +200,10 @@
           "stack": [
             {
               "label": "Chu–Han Contention (楚汉争霸)",
-              "note": "206–202 BCE",
-              "regime": "chu_han_contention"
+              "note": "206–202 BCE"
             },
             {
-              "label": "Later Chu (後楚) · Western Chu (西楚) · Eighteen Kingdoms",
-              "regime": "later_chu"
+              "label": "Later Chu (後楚) · Western Chu (西楚) · Eighteen Kingdoms"
             }
           ],
           "span": 2
@@ -309,8 +301,7 @@
               "regime": "xiongnu"
             },
             {
-              "label": "Xianbei (鲜卑) rising",
-              "regime": "xianbei_rising"
+              "label": "Xianbei (鲜卑) rising"
             }
           ],
           "span": 1
@@ -355,8 +346,7 @@
               "regime": "xianbei"
             },
             {
-              "label": "Various steppe peoples",
-              "regime": "various_steppe_peoples"
+              "label": "Various steppe peoples"
             }
           ],
           "span": 1
@@ -379,8 +369,7 @@
         {
           "stack": [
             {
-              "label": "Five Barbarians (五胡) migrating south",
-              "regime": "five_barbarians_migrating_south"
+              "label": "Five Barbarians (五胡) migrating south"
             }
           ],
           "span": 1
@@ -394,8 +383,7 @@
           "stack": [
             {
               "label": "Sixteen Kingdoms (五胡十六国)",
-              "note": "304–439",
-              "regime": "sixteen_kingdoms"
+              "note": "304–439"
             },
             {
               "label": "Former Qin (前秦) — Fu Jian",
@@ -763,8 +751,7 @@
               "regime": "northern_yuan"
             },
             {
-              "label": "Various Mongol khanates",
-              "regime": "various_mongol_khanates"
+              "label": "Various Mongol khanates"
             }
           ],
           "span": 1
@@ -907,8 +894,7 @@
               "note": "1911/1921"
             },
             {
-              "label": "Qing court remnants (宣统小朝廷)",
-              "regime": "qing_court"
+              "label": "Qing court remnants (宣统小朝廷)"
             }
           ],
           "span": 1

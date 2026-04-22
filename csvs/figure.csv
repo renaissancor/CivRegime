@@ -60,9 +60,9 @@ kingdom_of_armenia,mesrop_mashtots,Mesrop Mashtots,cultural,362/440,Created the 
 nabataean_kingdom,aretas_iv,Aretas IV,ruler,-9/40,"Greatest Nabataean king; ruled 49 years; his building programme created much of what survives at Petra; his daughter married Herod Antipas, whose divorce triggered John the Baptist's execution"
 goguryeo,gwanggaeto_great,Gwanggaeto the Great,ruler,374/413,"Expanded Goguryeo to its greatest extent — 64 walled cities and 1,400 villages conquered; his stele is the primary source for early Korean history; called 'Great King who Broadly Extended Territory'"
 goguryeo,eulji_mundeok,Eulji Mundeok,military,?/?,Defeated Sui Emperor Yang's million-man invasion (612) using strategic retreat and the Battle of Salsu; one of the greatest defensive victories in East Asian history; the Sui Dynasty never recovered
-roman_empire_pagan,augustus,Augustus (Octavian),founder,-63/14,Created the imperial system; the Pax Romana began with him
-roman_empire_pagan,marcus_aurelius,Marcus Aurelius,ruler,121/180,Philosopher-emperor; his Meditations is the definitive Stoic text
-roman_empire_pagan,constantine_i,Constantine I,reformer,272/337,Legalized Christianity; founded Constantinople; shifted imperial ideology
+roman_empire,augustus,Augustus (Octavian),founder,-63/14,Created the imperial system; the Pax Romana began with him
+roman_empire,marcus_aurelius,Marcus Aurelius,ruler,121/180,Philosopher-emperor; his Meditations is the definitive Stoic text
+roman_empire,constantine_i,Constantine I,reformer,272/337,Legalized Christianity; founded Constantinople; shifted imperial ideology
 sassanid_empire,ardashir_i,Ardashir I,founder,180/242,Overthrew the Parthians; revived Persian and Zoroastrian identity
 sassanid_empire,shapur_i,Shapur I,ruler,215/272,Captured Roman Emperor Valerian — the only Roman emperor taken prisoner by a foreign enemy
 sassanid_empire,khosrow_i,Khosrow I (Anushirvan),ruler,501/579,The ideal Persian king; reformed taxation; translated Greek philosophy into Pahlavi
@@ -70,7 +70,7 @@ yamato_period,prince_shotoku,Prince Shotoku,ruler,574/622,Authored the Seventeen
 gupta_empire,samudragupta,Samudragupta,ruler,335/380,Military genius and poet; the Napoleon and Augustus of India
 gupta_empire,aryabhata,Aryabhata,cultural,476/550,Calculated pi; proposed a heliocentric model; developed zero as a number
 hunnic_empire,attila,Attila,ruler,406/453,Scourge of God; defeated Roman and Germanic armies; received tribute from both Eastern and Western Rome; his death at a wedding feast collapsed the empire overnight
-roman_empire_christian,theodosius_i,Theodosius I,ruler,346/395,Made Christianity the state religion; the last emperor to rule unified empire
+roman_empire,theodosius_i,Theodosius I,ruler,346/395,Made Christianity the state religion; the last emperor to rule unified empire
 western_roman_empire,flavius_aetius,Flavius Aetius,general,391/454,Last great Roman general; defeated Attila at Catalaunian Fields
 western_roman_empire,romulus_augustulus,Romulus Augustulus,last_ruler,461/511,Last Western Roman emperor; deposed by Odoacer in 476
 byzantine_empire,justinian_i,Justinian I,ruler,482/565,Reconquered the Western Mediterranean; codified Roman law (Corpus Juris Civilis)
@@ -166,7 +166,7 @@ seljuk_empire,alp_arslan,Alp Arslan,ruler,1029/1072,Defeated Byzantium at Manzik
 seljuk_empire,nizam_al_mulk,Nizam al-Mulk,administrator,1018/1092,Grand vizier; his Siyasatnama is the masterwork of Persian administrative theory
 seljuk_empire,omar_khayyam,Omar Khayyam,cultural,1048/1131,"Mathematician, astronomer, and poet (Rubaiyat); pinnacle of Seljuk Persian intellectual culture"
 seljuk_rum,rumi,Jalal ad-Din Rumi,cultural,1207/1273,Composed the Masnavi in Persian at the Konya court; founder of the Mevlevi order; most widely read poet in the world
-jin_dynasty_jurchen,wanyan_aguda,Wanyan Aguda (Emperor Taizu of Jin),founder,1068/1123,United the Jurchen tribes; created the Jurchen script to resist cultural assimilation
+jin_jurchen,wanyan_aguda,Wanyan Aguda (Emperor Taizu of Jin),founder,1068/1123,United the Jurchen tribes; created the Jurchen script to resist cultural assimilation
 angevin_empire,henry_ii_angevin,Henry II Plantagenet,founder,1133/1189,Built the Angevin Empire through inheritance and marriage to Eleanor of Aquitaine; ruled more French territory than the King of France himself; married his daughters into European royalty
 angevin_empire,john_lacking,John Lackland (Jean sans Terre),ruler,1166/1216,Lost Normandy and the Angevin lands to Philip II of France; his incompetence ended the continental empire. Forced to sign Magna Carta (1215); a byword for disastrous kingship
 ayyubid_sultanate,saladin,Saladin (Salah ad-Din),founder,1137/1193,Recaptured Jerusalem from the Crusaders (1187); defining figure of Islamic resistance to the Crusades
