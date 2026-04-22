@@ -1891,7 +1891,6 @@ gajapati_dynasty,Gajapati Dynasty (Odisha),ghorid_dynasty,Ghorid Sultanate,expan
 gajapati_dynasty,Gajapati Dynasty (Odisha),delhi_sultanate,Delhi Sultanate,expansion,1,ganges_plain,1,0,0,0,0,0,-335
 kingdom_of_hungary,Kingdom of Hungary,ottoman_empire,Ottoman Empire,expansion,1,hungary,1,0,0,0,0,0,-227
 habsburg_monarchy,Habsburg Monarchy,ottoman_empire,Ottoman Empire,expansion,1,hungary,1,0,0,0,0,0,-619
-al_andalus,Al-Andalus,umayyad_caliphate,Umayyad Caliphate,expansion,1,iberia,1,0,0,0,0,0,-831
 gupta_empire,Gupta Empire,hephthalite_empire,Hephthalite Empire,expansion,1,indus_valley,1,0,0,0,0,0,-110
 elam,Kingdom of Elam,median_kingdom,Median Kingdom,expansion,1,iran_plateau,1,0,0,0,0,0,-139
 lombard_kingdom,Kingdom of the Lombards,carolingian_empire,Frankish Kingdom / Carolingian Empire,expansion,1,italy,1,0,0,0,0,0,-288
@@ -1933,7 +1932,6 @@ khanate_of_khiva,Khanate of Khiva,russian_empire,Russian Empire,expansion,1,tran
 khanate_of_kokand,Khanate of Kokand,russian_empire,Russian Empire,expansion,1,transoxiana,1,0,0,0,0,0,-155
 southern_song,Southern Song Dynasty,mongol_empire,Mongol Empire,expansion,1,yangtze,1,0,0,0,0,0,-73
 gujarat_sultanate,Gujarat Sultanate,durrani_empire,Durrani Empire,expansion,1,,0,0,0,0,1,0,174
-byzantine_empire,Byzantine Empire,western_roman_empire,Western Roman Empire,same,1,balkans,1,0,0,0,0,0,-1058
 first_bulgarian_empire,First Bulgarian Empire,croatian_kingdom,Croatian Kingdom,same,1,balkans,1,0,0,0,0,0,-93
 croatian_kingdom,Croatian Kingdom,second_bulgarian_empire,Second Bulgarian Empire,same,1,balkans,1,0,0,0,0,0,83
 croatian_kingdom,Croatian Kingdom,serbian_empire,Serbian Empire (Nemanjić Dynasty),same,1,balkans,1,0,0,0,0,0,88
@@ -1974,7 +1972,6 @@ phoenician_states,"Phoenician City-States (Tyre, Sidon, Byblos)",kingdom_of_isra
 phoenician_states,"Phoenician City-States (Tyre, Sidon, Byblos)",kingdom_of_judah,Kingdom of Judah,same,1,levant,1,0,0,0,0,0,-598
 buyid_dynasty,Buyid Dynasty,zangid_atabegate,Zangid Atabegate,same,1,mesopotamia,1,0,0,0,0,0,65
 carthage,Carthage (Phoenician City-State),numidia,Kingdom of Numidia,same,1,north_africa,1,0,0,0,0,0,-56
-western_roman_empire,Western Roman Empire,byzantine_empire,Byzantine Empire,same,1,north_africa,1,0,0,0,0,0,-81
 aksumite_kingdom,Aksumite Kingdom,makuria_kingdom,Kingdom of Makuria,same,1,nubia,1,0,0,0,0,0,-600
 makuria_kingdom,Kingdom of Makuria,zagwe_dynasty,Zagwe Dynasty,same,1,nubia,1,0,0,0,0,0,-464
 makuria_kingdom,Kingdom of Makuria,solomonic_dynasty,Ethiopian Empire (Solomonic),same,1,nubia,1,0,0,0,0,0,-94
