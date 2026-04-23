@@ -49,17 +49,17 @@ function parseInt2(value) {
 function loadFiguresByRegime() {
   if (!fs.existsSync(FIGURES_FILE)) return new Map();
   const content = fs.readFileSync(FIGURES_FILE, 'utf-8');
-  const rows = parseCSV(content).filter(r => r.regime_id);
+  const rows = parseCSV(content).filter(r => r.polity_id);
   const byRegime = new Map();
   for (const row of rows) {
-    if (!byRegime.has(row.regime_id)) byRegime.set(row.regime_id, []);
+    if (!byRegime.has(row.polity_id)) byRegime.set(row.polity_id, []);
     const fig = {};
     if (row.figure_id)    fig.id           = row.figure_id;
     if (row.name)         fig.name         = row.name;
     if (row.role)         fig.role         = row.role;
     if (row.years)        fig.years        = row.years;
     if (row.significance) fig.significance = row.significance;
-    byRegime.get(row.regime_id).push(fig);
+    byRegime.get(row.polity_id).push(fig);
   }
   return byRegime;
 }

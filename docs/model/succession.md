@@ -1,14 +1,16 @@
 # Succession Logic
 
+In this file, **Polity** = the top-level political entity (dir: `data/polity/`). The future dynasty-tier **Regime** is defined in [`erd.md`](./erd.md).
+
 ## What is Succession?
 
-Succession is **continuity between regimes**. In the CivRegime model, it answers: "When one regime ends and another begins, is there a connection between them?"
+Succession is **continuity between polities**. In the CivRegime model, it answers: "When one polity ends and another begins, is there a connection between them?"
 
 The connection is measured by:
-1. **Territorial Continuity** — Did the successor regime control any of the predecessor's territories?
+1. **Territorial Continuity** — Did the successor polity control any of the predecessor's territories?
 2. **Cultural Continuity** — Did the successor share ethnicity, language, or ideology with the predecessor?
 3. **Temporal Proximity** — Was the transition immediate or separated by years/centuries?
-4. **State Membership** — Do both regimes belong to the same STATE (political continuity)?
+4. **State Membership** — Do both polities belong to the same STATE (political continuity)?
 
 ---
 
@@ -26,18 +28,18 @@ egypt,7,-2055,-1650    # Middle Kingdom Egypt
 egypt,8,-1550,-1070    # New Kingdom Egypt
 ```
 
-**Key insight:** When we see regime 1 ending in Egypt (-2181) and regime 5 immediately taking over, that's a **direct succession on the same territory**.
+**Key insight:** When we see polity 1 ending in Egypt (-2181) and polity 5 immediately taking over, that's a **direct succession on the same territory**.
 
 ---
 
 ## Succession Categories
 
 ### 1. **Direct Succession** (Same Territory, Same Ethnicity)
-One regime directly succeeds another on the same territory with shared cultural identity.
+One polity directly succeeds another on the same territory with shared cultural identity.
 
 **Pattern in data:**
-- Territory T: Regime A (-100 to 0) → Regime B (0 to 100)
-- Both regimes have same or closely-related ethnicity
+- Territory T: Polity A (-100 to 0) → Polity B (0 to 100)
+- Both polities have same or closely-related ethnicity
 - No gap in timeline (end of A = start of B)
 
 **Examples:**
@@ -49,10 +51,10 @@ One regime directly succeeds another on the same territory with shared cultural 
 ---
 
 ### 2. **Weak Direct Succession** (Same Territory, Different Ethnicity)
-New regime conquers and holds the same territory but brings a different culture/ethnicity.
+New polity conquers and holds the same territory but brings a different culture/ethnicity.
 
 **Pattern in data:**
-- Territory T: Regime A (ethnicity X, -100 to 0) → Regime B (ethnicity Y, 0 to 100)
+- Territory T: Polity A (ethnicity X, -100 to 0) → Polity B (ethnicity Y, 0 to 100)
 - Different ethnicities/cultures
 - Same territory controlled continuously
 
@@ -69,8 +71,8 @@ New regime conquers and holds the same territory but brings a different culture/
 Same ethnic/cultural group controls new territories (migration, expansion, diaspora).
 
 **Pattern in data:**
-- Territory T1: Regime A (ethnicity X, -100 to 0)
-- Territory T2: Regime B (ethnicity X, 0 to 100)
+- Territory T1: Polity A (ethnicity X, -100 to 0)
+- Territory T2: Polity B (ethnicity X, 0 to 100)
 - Same ethnicity, but different territories
 
 **Examples:**
@@ -83,11 +85,11 @@ Same ethnic/cultural group controls new territories (migration, expansion, diasp
 ---
 
 ### 4. **No Direct Succession** (Different Territory, Different Ethnicity)
-Regimes are completely unrelated — no territorial overlap and no shared culture.
+Polities are completely unrelated — no territorial overlap and no shared culture.
 
 **Pattern in data:**
-- Regime A: ethnicity X, territory T1, (-100 to 0)
-- Regime B: ethnicity Y, territory T2, (50 to 150)
+- Polity A: ethnicity X, territory T1, (-100 to 0)
+- Polity B: ethnicity Y, territory T2, (50 to 150)
 - No overlap on territory, no shared ethnicity
 - Possible temporal gap
 
@@ -101,24 +103,24 @@ Regimes are completely unrelated — no territorial overlap and no shared cultur
 
 ## Building Succession Graphs
 
-### Algorithm: Find Successors for Regime R
+### Algorithm: Find Successors for Polity P
 
 1. **Same Territory, Same Ethnicity:**
-   - Find all territories T controlled by regime R
-   - For each T, find which regime controls T immediately after R ends
+   - Find all territories T controlled by polity P
+   - For each T, find which polity controls T immediately after P ends
    - If successor has same ethnicity → **Direct Succession** ✅
 
 2. **Same Territory, Different Ethnicity:**
-   - For each T, find successor regime
+   - For each T, find successor polity
    - If successor has different ethnicity → **Weak Succession** 🔗
 
 3. **Same Ethnicity, Different Territory:**
-   - Find all regimes with same ethnicity as R
-   - Check if they controlled territories R didn't
+   - Find all polities with same ethnicity as P
+   - Check if they controlled territories P didn't
    - If timeline overlaps or immediately follows → **Ethnic Migration** 🔗
 
 4. **No Match:**
-   - If successor regime has different ethnicity AND different territories → **No Direct Succession**
+   - If successor polity has different ethnicity AND different territories → **No Direct Succession**
    - May need multi-hop path (e.g., A → B → C)
 
 ---
@@ -129,8 +131,8 @@ Regimes are completely unrelated — no territorial overlap and no shared cultur
 
 ```
 1. Old Kingdom Egypt ends at year -2181, controls territory "egypt"
-2. Find regime controlling "egypt" starting at -2181
-   → First Intermediate Period (regime 5)
+2. Find polity controlling "egypt" starting at -2181
+   → First Intermediate Period (polity 5)
 3. Check ethnicity: both Egyptian
 4. Result: DIRECT SUCCESSION ✅
 ```
@@ -139,7 +141,7 @@ Regimes are completely unrelated — no territorial overlap and no shared cultur
 
 ```
 1. Seljuk Rum controls: anatolia, levant, mesopotamia
-2. Find regimes taking over each territory around 1308:
+2. Find polities taking over each territory around 1308:
    - anatolia → Ottoman (Turkic) ✅
    - levant → Mamluk (Arabic) 🔗
    - mesopotamia → Timur/Timurid (Turko-Mongol) 🔗
@@ -188,6 +190,8 @@ Roman Empire (Christian): 380 to 476 (Western), continues Eastern as Byzantine
 
 **Verdict:** This is technically DIRECT SUCCESSION by territorial and ethnic measures, but **ideologically it's a break**. The religion shift was deliberate and civilization-defining. The succession is "technically continuous, spiritually revolutionary."
 
+This is where the future **Regime** tier (defined in `erd.md`) will subdivide the Roman polity into separate regimes by ideology and dynasty.
+
 ---
 
 ## Implementation Notes
@@ -200,8 +204,8 @@ Roman Empire (Christian): 380 to 476 (Western), continues Eastern as Byzantine
 
 ### Visualization
 A succession graph should:
-1. Show regimes as nodes
-2. Draw edges between regimes with succession relationships
+1. Show polities as nodes
+2. Draw edges between polities with succession relationships
 3. Color edges by type:
    - **Green** = Direct succession (same territory, same ethnicity)
    - **Yellow** = Weak succession (same territory, different ethnicity)
@@ -211,18 +215,18 @@ A succession graph should:
 
 ### Example Query in Code
 ```javascript
-// Find successor of regime R
-const successors = regimes
+// Find successor of polity P
+const successors = polities
   .filter(succ => {
-    // Check if this regime controls any of R's territories
-    const sharesTerritory = R.territories.some(t => 
+    // Check if this polity controls any of P's territories
+    const sharesTerritory = P.territories.some(t => 
       succ.territories.includes(t) && 
-      succ.start <= R.end &&
-      succ.end >= R.end
+      succ.start <= P.end &&
+      succ.end >= P.end
     );
     
     // Check if same ethnicity
-    const sameEthnicity = succ.ethnicity_id === R.ethnicity_id;
+    const sameEthnicity = succ.ethnicity_id === P.ethnicity_id;
     
     return sharesTerritory || sameEthnicity;
   });
@@ -239,12 +243,12 @@ When a large empire splinters into multiple successor states:
 - **Result:** Multiple weak successors, no single "true successor"
 
 ### Long Gaps
-Regime A controls territory T (0-100), then T is controlled by unrelated regimes (100-300), then regime B (also ethnicity X) controls T (300-400).
+Polity A controls territory T (0-100), then T is controlled by unrelated polities (100-300), then polity B (also ethnicity X) controls T (300-400).
 - A and B share ethnicity but not continuous territory
 - **Result:** Not a direct successor, but ethnic continuity exists
 
 ### Reconquest After Loss
-Regime A controls territory T (-100 to 0), loses it, then a related regime B (same ethnicity) reconquers it (50-150).
+Polity A controls territory T (-100 to 0), loses it, then a related polity B (same ethnicity) reconquers it (50-150).
 - Territory control is discontinuous
 - **Result:** Weak succession (ethnicity matters, but not territorial continuity)
 

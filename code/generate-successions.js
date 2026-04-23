@@ -66,15 +66,15 @@ const regimes = regimesRaw.map(r => ({
   ethStr:   r.id_ruling_ethnicity || null,
   lang:     r.id_ruling_language  || null,
   rel:      r.id_ruling_religion  || null,
-  start:    parseInt(r.start),
-  end:      r.end ? parseInt(r.end) : null,
+  start:    parseInt(r.start_year),
+  end:      r.end_year ? parseInt(r.end_year) : null,
 }));
 
 const tp = tpRaw.map(t => ({
   territory_id: t.territory_id,
-  regime_id:    t.regime_id,
-  start:        parseInt(t.start),
-  end:          t.end ? parseInt(t.end) : null,
+  polity_id:    t.polity_id,
+  start:        parseInt(t.start_year),
+  end:          t.end_year ? parseInt(t.end_year) : null,
 }));
 
 // ── Ethnicity tree ancestry ─────────────────────────────────────────────────
@@ -118,8 +118,8 @@ regimes.forEach(r => { regimeById[r.id] = r; });
 // Territories per regime
 const regimeTerritories = {};
 tp.forEach(p => {
-  if (!regimeTerritories[p.regime_id]) regimeTerritories[p.regime_id] = [];
-  regimeTerritories[p.regime_id].push(p);
+  if (!regimeTerritories[p.polity_id]) regimeTerritories[p.polity_id] = [];
+  regimeTerritories[p.polity_id].push(p);
 });
 
 // Territory periods grouped by territory
@@ -167,28 +167,28 @@ Object.entries(byTerritory).forEach(([territoryId, periods]) => {
 
   for (let i = 0; i < periods.length; i++) {
     const curr = periods[i];
-    const fromR = regimeById[curr.regime_id];
+    const fromR = regimeById[curr.polity_id];
     if (!fromR) continue;
 
     for (let j = i + 1; j < periods.length; j++) {
       const next = periods[j];
-      if (curr.regime_id === next.regime_id) continue;
-      const toR = regimeById[next.regime_id];
+      if (curr.polity_id === next.polity_id) continue;
+      const toR = regimeById[next.polity_id];
       if (!toR) continue;
 
       const gap = next.start - (curr.end || next.start);
       if (gap > TERRITORY_GAP) break;
 
-      addEdge(curr.regime_id, next.regime_id, { territory: territoryId });
+      addEdge(curr.polity_id, next.polity_id, { territory: territoryId });
     }
 
     // Also link overlapping periods
     for (let j = i + 1; j < periods.length; j++) {
       const other = periods[j];
-      if (curr.regime_id === other.regime_id) continue;
+      if (curr.polity_id === other.polity_id) continue;
       const aEnd = curr.end || 2025;
       if (other.start < aEnd) {
-        addEdge(curr.regime_id, other.regime_id, { territory: territoryId });
+        addEdge(curr.polity_id, other.polity_id, { territory: territoryId });
       }
     }
   }
@@ -368,7 +368,7 @@ edges.sort((a, b) => b.strength - a.strength || a.territorial_direction.localeCo
 // ── Write CSV ───────────────────────────────────────────────────────────────
 
 const headers = [
-  'from_regime_id', 'from_name', 'to_regime_id', 'to_name',
+  'from_polity_id', 'from_name', 'to_polity_id', 'to_name',
   'territorial_direction', 'strength',
   'shared_territories', 'shared_territory_count',
   'same_ethnicity', 'related_ethnicity', 'same_language', 'same_religion', 'same_state',

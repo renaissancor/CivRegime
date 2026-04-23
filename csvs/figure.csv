@@ -1,4 +1,4 @@
-regime_id,figure_id,name,role,years,significance
+polity_id,figure_id,name,role,years,significance
 sumerian_city_states,gilgamesh,Gilgamesh,ruler,-2700/-2600,Legendary king of Uruk; the Epic of Gilgamesh is the oldest known work of literature
 sumerian_city_states,ur_nammu,Ur-Nammu,founder,-2112/-2095,Author of the earliest known law code
 old_kingdom_egypt,imhotep,Imhotep,administrator,-2650/-2600,Architect of the Step Pyramid; first named architect in history; later deified
@@ -104,7 +104,6 @@ umayyad_caliphate,tariq_ibn_ziyad,Tariq ibn Ziyad,general,670/720,Conquered Visi
 first_bulgarian_empire,asparuh,Asparuh (Asparukh),founder,644/701,Led the Bulgars across the Danube and defeated Byzantium (681); founded the First Bulgarian Empire; Bulgaria is the oldest state in Europe whose name has not changed
 first_bulgarian_empire,simeon_i_great,Simeon I the Great,ruler,864/927,The Bulgarian Golden Age; defeated Byzantium multiple times; claimed title of Emperor (Tsar) of the Bulgarians and Romans; patron of Old Church Slavonic literature
 first_bulgarian_empire,basil_ii_nemesis,Basil II's Destruction,military,958/1025,"Byzantine Emperor who finally destroyed the First Bulgarian Empire; blinded 15,000 Bulgarian prisoners (1014); earned the epithet 'Bulgar-Slayer'"
-al_andalus,tariq_ibn_ziyad,Tariq ibn Ziyad,military,670/720,"Led the Umayyad invasion of Iberia (711); crossed from Africa to Gibraltar (Jabal Tariq — 'Mountain of Tariq'); his 7,000-man army destroyed the Visigothic kingdom in a single battle"
 al_andalus,abd_al_rahman_iii,Abd al-Rahman III,ruler,889/961,Declared Caliph of Córdoba (929); presided over the golden age of Al-Andalus; Córdoba under his rule was the most sophisticated city in Europe
 al_andalus,averroes,Averroes (Ibn Rushd),cultural,1126/1198,The greatest Islamic philosopher; his commentaries on Aristotle transmitted classical Greek philosophy to medieval Europe through Latin translations — sparked the European scholastic tradition
 al_andalus,boabdil,Muhammad XII (Boabdil),ruler,1460/1533,"Last ruler of Granada; surrendered the Alhambra to Ferdinand and Isabella on January 2, 1492 — the last Muslim ruler in Iberia. Legend: he wept as he left, and his mother said 'Weep like a woman for what you could not defend as a man'"
@@ -262,7 +261,6 @@ czechoslovakia,dubcek,Alexander Dubček,ruler,1921/1992,Led the Prague Spring �
 czechoslovakia,havel,Václav Havel,ruler,1936/2011,Playwright turned dissident turned president; led the Velvet Revolution (1989); first post-communist President; the most admired European political figure of his generation
 kingdom_of_iraq,faisal_i_iraq,Faisal I,founder,1885/1933,"Arab Revolt leader imposed as king of Iraq by Churchill at the Cairo Conference (1921); built a fragile national identity across Sunni, Shia, and Kurdish communities; died before his work was complete"
 kingdom_of_iraq,nuri_al_said,Nuri al-Said,ruler,1888/1958,Pro-British Prime Minister who dominated Iraqi politics 1930–1958; lynched by a mob during the 1958 revolution alongside the royal family
-republic_of_turkey,ataturk,Atatürk,founder,1881/1938,Father of modern Turkey; won the War of Independence; created a secular Western republic from Ottoman ruins; his portrait hangs in every Turkish institution — still the dominant presence in Turkish identity
 republic_of_turkey,erdogan,Erdoğan,ruler,1954/null,"Prime Minister then President; longest-serving Turkish leader since Atatürk; built infrastructure and raised living standards; also jailed journalists, purged judges, and turned Turkey in an authoritarian direction after the 2016 coup attempt"
 mongolian_peoples_republic,damdin_sukhbaatar,Damdin Sükhbaatar,founder,1893/1923,Revolutionary hero; led the Mongolian revolution with Soviet support; died young and possibly poisoned; national hero whose statue dominates Ulaanbaatar's central square
 mongolian_peoples_republic,khorloogiin_choibalsan,Khorloogiin Choibalsan,ruler,1895/1952,"The 'Mongolian Stalin'; collectivised herds, destroyed Buddhism, executed tens of thousands; also the general who defeated Japan at Khalkhin Gol (1939) alongside Zhukov"

@@ -1,5 +1,7 @@
 # Data Model Overview
 
+In this file, **Polity** = the top-level political entity (dir: `data/polity/`). The future dynasty-tier **Regime** is defined in [`erd.md`](./erd.md).
+
 The entire project is a **property graph** — multiple node types connected by typed edges.
 
 ## Node Types
@@ -11,8 +13,8 @@ The entire project is a **property graph** — multiple node types connected by 
 | `data/religions/` (directory tree) | Religion | A religion or religious branch in a taxonomy tree. Parent derived from filesystem path. |
 | `data/ideologies.json` | Ideology | A government form or state philosophy. Kept as a single flat file. |
 | `data/ethnicity/` (flat directory) | Ethnicity | A people defined by language, origin, and ancestry. |
-| `data/polity/` (flat directory, subdirs supported) | Regime | A specific political entity at the intersection of Ethnicity × Territory × Ideology × Time. |
-| `data/successions/` (flat directory) | Succession | A directed edge between two Regimes, typed A/A-/B/C/D. |
+| `data/polity/` (flat directory, subdirs supported) | Polity | A specific political entity at the intersection of Ethnicity × Territory × Ideology × Time. |
+| `data/successions/` (flat directory) | Succession | A directed edge between two Polities, typed A/A-/B/C/D. |
 
 ## Edge Types
 
@@ -24,20 +26,20 @@ Ideology        --[parentOf]-->        Ideology          (taxonomy tree)
 Ethnicity       --[speaksLanguage]--> Language
 Ethnicity       --[originatesIn]-->   Territory
 
-Regime          --[ruledBy]-->         Ethnicity         (ruling_ethnicity)
-Regime          --[courtLanguage]-->   Language          (cultural_language)
-Regime          --[hasIdeology]-->     Ideology          (ideology.government)
-Regime          --[hasReligion]-->     Religion          (ideology.religion)
-Regime          --[controlled]-->      Territory[]       (with time bounds: start/end)
+Polity          --[ruledBy]-->         Ethnicity         (ruling_ethnicity)
+Polity          --[courtLanguage]-->   Language          (cultural_language)
+Polity          --[hasIdeology]-->     Ideology          (ideology.government)
+Polity          --[hasReligion]-->     Religion          (ideology.religion)
+Polity          --[controlled]-->      Territory[]       (with time bounds: start/end)
 
-Succession      --[from]-->            Regime
-Succession      --[to]-->              Regime
+Succession      --[from]-->            Polity
+Succession      --[to]-->              Polity
 Succession      --[type]-->            A | B | C | D
 ```
 
 ## The Succession Matrix
 
-A succession edge is typed by what the two regimes share:
+A succession edge is typed by what the two polities share:
 
 | Type | Name | Same Ethnicity | Same Territory | Legitimacy |
 |---|---|:---:|:---:|---|
@@ -47,12 +49,14 @@ A succession edge is typed by what the two regimes share:
 | C | Locus Inheritance | ❌ | ✅ | Claimant — conquered the land |
 | D | Arbitrary Jump | ❌ | ❌ | **Ahistorical / Invalid** |
 
+Succession describes the relationship between two **polities** spanning centuries.
+
 ## Ideology vs Policy
 
 See `ideology.md` for the full explanation. In the data:
 
-- `regime.ideology` — **fixed**. The unchanging existential identity of the regime.
-- `regime.policies[]` — **time-bounded**. Decisions made within the regime's lifespan that do not redefine its core identity.
+- `polity.ideology` — **fixed**. The unchanging existential identity of the polity.
+- `polity.policies[]` — **time-bounded**. Decisions made within the polity's lifespan that do not redefine its core identity.
 
 ## The Persian Cultural Thread (an example of why the model matters)
 
@@ -70,4 +74,4 @@ The model makes the following pattern visible:
 
 Persian culture survived six conquests by completely different ethnic groups because it filled a functional role: the **Persianate bureaucracy** (see `ideologies.json`) was the most advanced administrative system available in the region, and every conqueror eventually adopted it.
 
-The `cultural_language` field on regimes makes this thread visible across the graph.
+The `cultural_language` field on polities makes this thread visible across the graph.

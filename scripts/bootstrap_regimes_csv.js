@@ -120,7 +120,7 @@ function main() {
   const HEADERS = [
     'id', 'name', 'state_id',
     'id_ruling_ethnicity', 'id_ruling_language', 'id_ruling_religion',
-    'government', 'territories', 'start', 'end', 'policies', 'note'
+    'government', 'territories', 'start_year', 'end_year', 'policies', 'note'
   ];
 
   // Build the merged rows
@@ -160,8 +160,8 @@ function main() {
         id_ruling_religion:   r.ideology?.religion || '',
         government:           r.ideology?.government || '',
         territories:          territoriesStr,
-        start:                r.start != null ? String(r.start) : csvRow.start || '',
-        end:                  r.end   != null ? String(r.end)   : csvRow.end   || '',
+        start_year:           r.start != null ? String(r.start) : csvRow.start_year || '',
+        end_year:             r.end   != null ? String(r.end)   : csvRow.end_year   || '',
         policies:             policiesStr,
         note:                 r.note  || '',
       };
@@ -171,7 +171,7 @@ function main() {
       if (Array.isArray(r.figures)) {
         for (const fig of r.figures) {
           figureRows.push({
-            regime_id:    r.id,
+            polity_id:    r.id,
             figure_id:    fig.id || '',
             name:         fig.name || '',
             role:         fig.role || '',
@@ -192,8 +192,8 @@ function main() {
         id_ruling_religion:   csvRow.id_ruling_religion || '',
         government:           csvRow.government || '',
         territories:          csvRow.territories || '',
-        start:                csvRow.start || '',
-        end:                  csvRow.end || '',
+        start_year:           csvRow.start_year || '',
+        end_year:             csvRow.end_year || '',
         policies:             csvRow.policies || '',
         note:                 csvRow.note || '',
       };
@@ -228,8 +228,8 @@ function main() {
         id_ruling_religion:   r.ideology?.religion || '',
         government:           r.ideology?.government || '',
         territories:          territoriesStr,
-        start:                r.start != null ? String(r.start) : '',
-        end:                  r.end   != null ? String(r.end)   : '',
+        start_year:           r.start != null ? String(r.start) : '',
+        end_year:             r.end   != null ? String(r.end)   : '',
         policies:             policiesStr,
         note:                 r.note || '',
       });
@@ -238,7 +238,7 @@ function main() {
       if (Array.isArray(r.figures)) {
         for (const fig of r.figures) {
           figureRows.push({
-            regime_id:    r.id,
+            polity_id:    r.id,
             figure_id:    fig.id || '',
             name:         fig.name || '',
             role:         fig.role || '',
@@ -260,7 +260,7 @@ function main() {
   console.log(`\nWrote ${outputRows.length} rows to ${REGIMES_CSV}`);
 
   // ── Write figures.csv ──────────────────────────────────────────────────────
-  const figHeaders = ['regime_id', 'figure_id', 'name', 'role', 'years', 'significance'];
+  const figHeaders = ['polity_id', 'figure_id', 'name', 'role', 'years', 'significance'];
   const figuresCsvLines = [figHeaders.join(',')];
   for (const fig of figureRows) {
     figuresCsvLines.push(csvRow(figHeaders.map(h => fig[h] ?? '')));

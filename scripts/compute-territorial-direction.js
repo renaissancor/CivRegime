@@ -90,8 +90,8 @@ const lines = fs.readFileSync(CSV_IN, 'utf8').split('\n').filter(l => l.trim());
 const headers = parseCSVLine(lines[0]);
 
 // Find column indices
-const fromIdx    = headers.indexOf('from_regime_id');
-const toIdx      = headers.indexOf('to_regime_id');
+const fromIdx    = headers.indexOf('from_polity_id');
+const toIdx      = headers.indexOf('to_polity_id');
 const typeIdx    = headers.indexOf('type');
 const sharedIdx  = headers.indexOf('shared_territories');
 

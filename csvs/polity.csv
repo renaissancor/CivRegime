@@ -1,4 +1,4 @@
-id,name,state_id,id_ruling_ethnicity,id_ruling_language,id_ruling_religion,government,territories,start,end,policies,note
+id,name,state_id,id_ruling_ethnicity,id_ruling_language,id_ruling_religion,government,territories,start_year,end_year,policies,note
 sumerian_city_states,"Sumerian City-States (Ur, Uruk, Lagash)",,sumerian,sumerian,mesopotamian_religion,city_state,mesopotamia,-3500,-2334,,
 berber,Berber / Mauretania,,berber_amazigh_cluster,berber,,tribal_confederation,north_africa,-3000,-200,,
 elam,Kingdom of Elam,,persian,elamite,ancient_near_eastern_religion,monarchy,iran_plateau,-2700,-539,,"One of the oldest civilisations in Iran, centred on Susa. Rivalled Mesopotamian powers for millennia. The ziggurat of Chogha Zanbil (c.1250 BCE) is a UNESCO World Heritage Site. Elamite sacked Babylon and captured the Code of Hammurabi. Absorbed into the Achaemenid Empire."
@@ -91,7 +91,7 @@ shu_han,Shu Han,,han_chinese,old_chinese,chinese_folk_religion,,,221,263,,
 eastern_wu,Eastern Wu,,han_chinese,old_chinese,chinese_folk_religion,,,222,280,,
 sassanid_empire,Sassanid Empire,,persian,middle_persian_pahlavi,zoroastrianism,theocracy,iran_plateau|mesopotamia|khorasan|caucasus,224,651,,Zoroastrianism as explicit state religion; Magi priestly class wielded significant power
 kushano_sasanian_kingdom,Kushano-Sasanian Kingdom,,persian,middle_persian_pahlavi,zoroastrianism,monarchy,khorasan|indus_valley,230,365,,Sasanian vassal state established after the Sasanids conquered the western Kushan territories. Used the title 'Kushanshah'. Mixed Kushan and Sasanian administrative traditions. Eventually displaced by the Kidarites.
-maya_city_states,"Maya City-States (Tikal, Calakmul)",,maya,mayan,city_state,city_state,mesoamerica,250,900,,Classic Maya period
+maya_city_states,"Maya City-States (Tikal, Calakmul)",,maya,mayan,,city_state,mesoamerica,250,900,,Classic Maya period
 vakataka_dynasty,Vakataka Dynasty,,indo_aryan_cluster,classical_sanskrit,hinduism,monarchy,deccan,250,500,,Major Deccan dynasty allied by marriage with the Gupta Empire. Pravarasena II commissioned the Ajanta cave paintings — among the greatest masterworks of Buddhist art. Controlled the Vidarbha region of central India.
 yamato_period,Yamato Period,,yamato,old_japanese,shinto_buddhism,absolute_monarchy,japanese_archipelago,250,710,,The emergence of the Yamato imperial line and the introduction of Buddhism and Chinese characters. Includes the Kofun and Asuka sub-periods.
 palmyrene_empire,Palmyrene Empire,,semitic_cluster,aramaic,ancient_near_eastern_religion,monarchy,levant,260,273,,"Queen Zenobia's breakaway empire that briefly controlled Syria, Egypt, and much of Anatolia. Palmyra was a fabulously wealthy caravan city linking Rome and Persia. Defeated by the Roman Emperor Aurelian (272–273). Zenobia was paraded in golden chains through Rome."
@@ -182,7 +182,7 @@ hamdanid_emirate,Hamdanid Emirate,,arab,classical_arabic,shia,emirate,mesopotami
 hungarian_grand_principality,Hungarian Grand Principality,,magyar,hungarian,tengrism,principality,hungary,895,1000,,
 kingdom_of_bohemia,Kingdom of Bohemia,,czech,czech,catholic,feudal_monarchy,bohemia,895,1526,,"Přemyslid dynasty (895–1306), then Luxembourg (1310–1437). Bohemia became the intellectual centre of the HRE under Charles IV. The Hussite movement (1419–1434) was the first successful proto-Protestant revolt in Europe, a century before Luther."
 chimu_kingdom,Chimú Kingdom,,quechua,,indigenous_american_traditions,monarchy,andes,900,1470,,Coastal Andean kingdom conquered by Inca
-postclassic_maya,"Postclassic Maya (Mayapan, K'iche')",,maya,mayan,city_state,city_state,mesoamerica,900,1524,,Postclassic Maya kingdoms
+postclassic_maya,"Postclassic Maya (Mayapan, K'iche')",,maya,mayan,,city_state,mesoamerica,900,1524,,Postclassic Maya kingdoms
 toltec_empire,Toltec Empire,,aztec,classical_nahuatl,aztec_religion,imperial_monarchy,mesoamerica,900,1168,,Tula-based predecessor to Aztecs
 zagwe_dynasty,Zagwe Dynasty,,cushitic_cluster,ge'ez_classical_ethiopic,ethiopian_tewahido_church,monarchy,nubia,900,1270,,"Ethiopian dynasty ruling from Roha (now Lalibela). King Lalibela commissioned the eleven rock-hewn churches of Lalibela — carved from solid volcanic rock, they are among the most remarkable architectural achievements in Africa. Overthrown by the Solomonic restoration."
 five_dynasties,Five Dynasties (North China),,han_chinese,middle_chinese,chinese_folk_religion,,,907,960,,
@@ -448,7 +448,7 @@ mannai_kingdom,Mannai Kingdom,,,,,monarchy,iran_plateau,-850,-616,,Iron Age king
 marhashi_kingdom,Marhashi Kingdom,,elamite,elamite,,monarchy,iran_plateau,-2500,-2000,,Bronze Age kingdom in southeastern Iran; rival of Akkad and Elam
 proto_elamite,Proto-Elamite,,,,,city_state,iran_plateau,-3100,-2700,,Proto-urban civilization of southwestern Iran; earliest writing system in Iran
 kidarite_kingdom,Kidarite Kingdom,,turkic_cluster,,buddhism,monarchy,transoxiana|khorasan,320,467,,Hunnic kingdom in Bactria and Gandhara; precursor to the Hephthalites
-azerbaijan_peoples_government,Azerbaijan Peoples Government,,azerbaijani,azerbaijani,secular,communist_state,caucasus,1945,1946,,Soviet-backed separatist state in Iranian Azerbaijan; collapsed after Soviet withdrawal
+azerbaijan_peoples_government,Azerbaijan Peoples Government,,azerbaijani,azerbaijani,,communist_state,caucasus,1945,1946,,Soviet-backed separatist state in Iranian Azerbaijan; collapsed after Soviet withdrawal
 mahabad_republic,Mahabad Republic,,kurdish,kurdish,sunni,republic,iran_plateau,1946,1946,,Soviet-backed Kurdish republic; collapsed same year as Azerbaijan Peoples Government
 kalat_khanate,Kalat Khanate,,baloch,balochi,sunni,khanate,iran_plateau,1666,1955,,Baloch khanate centered on Kalat; partial sovereignty under Persian/British suzerainty
 hormuz_kingdom,Hormuz Kingdom,,persian,new_persian_farsi,sunni,monarchy,iran_plateau,1300,1622,,Persian Gulf kingdom controlling Strait of Hormuz; ended by Safavid-English expulsion of Portuguese
@@ -472,57 +472,9 @@ later_zhou,Later Zhou (后周),,han_chinese,middle_chinese,buddhism,imperial_mon
 southern_ming,Southern Ming (南明),,han_chinese,classical_chinese_literary,neo_confucianism,imperial_monarchy,yangtze,1644,1662,,Ming loyalist regimes resisting Qing conquest from southern China; final defeat at Battle of Magong
 kingdom_of_tungning,Kingdom of Tungning (东宁),,han_chinese,classical_chinese_literary,chinese_folk_religion,monarchy,,1662,1683,,Koxinga (Zheng Chenggong) dynasty on Taiwan; last Ming loyalist holdout; annexed by Qing
 taiping_heavenly_kingdom,Taiping Heavenly Kingdom (太平天国),,han_chinese,classical_chinese_literary,christianity,theocracy,yangtze,1851,1864,,Millenarian Christian-inspired rebellion led by Hong Xiuquan; estimated 20-30 million deaths in its suppression
-chinese_empire,Empire of China (Yuan Shikai) (中华帝国),,han_chinese,mandarin,secular,imperial_monarchy,yellow_river|yangtze,1915,1916,,Yuan Shikai's 83-day monarchy restoration; collapsed under military and provincial opposition
-beiyang_government,Beiyang Government (北洋政府),,han_chinese,mandarin,secular,republic,yellow_river|yangtze,1912,1928,,Internationally recognized government of Republic of China dominated by Beiyang warlords; ended by Northern Expedition
-nationalist_government,Nationalist Government (国民政府),,han_chinese,mandarin,secular,republic,yangtze|yellow_river,1928,1949,,Kuomintang-led ROC government; nominally unified China; relocated to Taiwan after Chinese Civil War
-wuhan_government,Wuhan Government (武汉政府),,han_chinese,mandarin,secular,republic,yangtze,1927,1927,,Left-wing KMT government led by Wang Jingwei; rival to Nanjing during KMT-CCP split; merged with Nanjing late 1927
-wang_jingwei_regime,Wang Jingwei Regime (汪精卫政权),,han_chinese,mandarin,secular,puppet_state,yangtze,1940,1945,,Japanese puppet Reorganized National Government in Nanjing during Second Sino-Japanese War
-chinese_soviet_republic,Chinese Soviet Republic (中华苏维埃),,han_chinese,mandarin,secular,communist_state,yangtze,1931,1937,,CCP-led proto-state in Jiangxi; Long March followed its defeat by KMT encirclement campaigns
-magna_graecia,Magna Graecia,,hellenic_cluster,ancient_greek,,confederation,italy,-750,-280,,Greek colonial city-states in southern Italy and Sicily (Syracuse, Akragas, Selinunte, Tarentum)
-carthaginian_sardinia,Carthaginian Sardinia,,phoenician,phoenician_punic,,colonial_administration,italy,-550,-238,,Punic province on Sardinia prior to Roman annexation
-carthaginian_western_sicily,Carthaginian Western Sicily,,phoenician,phoenician_punic,,colonial_administration,italy,-550,-241,,Punic-controlled western Sicily (Motya, Panormus, Lilybaeum) until First Punic War
-phoenician_colonies,Phoenician Colonies of Sardinia,,phoenician,phoenician_punic,,confederation,italy,-900,-550,,Phoenician trading settlements (Tharros, Nora, Sulcis) preceding Carthaginian rule
-punic_coastal_settlements,Punic Coastal Settlements,,phoenician,phoenician_punic,,confederation,italy,-800,-275,,Punic coastal trading posts in Italic peninsula
-celtic_gauls,Cisalpine Celtic Gauls,,celtic_peoples,celtic_branch,,tribal_confederation,italy,-400,-222,,Insubres / Boii / Senones tribes in Po Valley before Roman subjugation
-oscan_samnite_peoples,Oscan-Samnite Peoples,,ancient_european,latin,,tribal_confederation,italy,-600,-290,,Central-southern Italic tribal confederations (Samnites, Lucani, Bruttii)
-latin_sabine_samnite_peoples,Latin-Sabine-Samnite Peoples,,ancient_european,latin,,tribal_confederation,italy,-1000,-500,,Pre-Roman Italic peoples of central peninsula
-italic_peoples,Italic Peoples,,ancient_european,latin,,tribal_confederation,italy,-1000,-500,,Oscan / Samnite / Lucanian Italic tribal groups
-ligurians_euganei_raeti,Ligurian-Euganei-Raeti Peoples,,ancient_european,,,tribal_confederation,italy,-1000,-200,,Pre-Roman Alpine and Ligurian peoples of northern Italy
-celtic_la_tene_migration,Celtic La Tène Migration,,celtic_peoples,celtic_branch,,tribal_confederation,italy,-450,-222,,Celtic La Tène culture expansion into northern Italy
-papal_states,Papal States,,italian,latin,roman_catholicism,theocracy,italy,754,1870,,Temporal papal dominion (Donation of Pepin to Italian unification); includes Avignon exile 1309-1377
-byzantine_exarchate_of_ravenna,Byzantine Exarchate of Ravenna,,hellenic_cluster,byzantine_greek,eastern_orthodox,colonial_administration,italy,584,751,,Byzantine administrative unit centered on Ravenna until Lombard conquest
-byzantine_catepanate_of_italy,Byzantine Catepanate of Italy,,hellenic_cluster,byzantine_greek,eastern_orthodox,colonial_administration,italy,965,1071,,Byzantine province in Apulia and Calabria until Norman conquest
-byzantine_sardinia,Byzantine Sardinia,,hellenic_cluster,byzantine_greek,eastern_orthodox,colonial_administration,italy,534,700,,Byzantine province on Sardinia after Justinian's reconquest
-byzantine_sicilian_theme,Byzantine Sicilian Theme,,hellenic_cluster,byzantine_greek,eastern_orthodox,colonial_administration,italy,535,827,,Byzantine military theme of Sicily until Aghlabid invasion
-lombard_duchy_of_benevento,Lombard Duchy of Benevento,,germanic_peoples,latin,catholic,feudal_monarchy,italy,571,1077,,Lombard duchy in southern Italy surviving the fall of the Lombard Kingdom
-lombard_duchy_of_spoleto,Lombard Duchy of Spoleto,,germanic_peoples,latin,catholic,feudal_monarchy,italy,570,774,,Lombard duchy in central Italy annexed into Carolingian realm
-lombard_principalities,Lombard Principalities of Southern Italy,,germanic_peoples,latin,catholic,feudal_monarchy,italy,849,1077,,Benevento / Salerno / Capua principalities after fragmentation of Benevento
-principality_of_salerno,Principality of Salerno,,germanic_peoples,latin,catholic,feudal_monarchy,italy,851,1077,,Lombard principality in southern Italy until Norman conquest
-arab_emirate_of_bari,Arab Emirate of Bari,,arab,arabic_dialects,sunni,emirate,italy,847,871,,Short-lived Aghlabid-linked emirate on Adriatic coast
-emirate_of_sicily,Emirate of Sicily,,arab,arabic_dialects,sunni,emirate,italy,831,1072,,Aghlabid then Kalbid rule over Sicily with Palermo as capital
-norman_county_of_apulia,Norman County of Apulia and Calabria,,norman,latin,catholic,feudal_monarchy,italy,1059,1130,,Hauteville Norman county preceding the Kingdom of Sicily
-norman_kingdom_of_sicily,Norman Kingdom of Sicily,,norman,latin,catholic,feudal_monarchy,italy,1130,1194,,Norman kingdom uniting Sicily and southern Italian mainland under Roger II
-hohenstaufen_sicily,Hohenstaufen Kingdom of Sicily,,german,latin,catholic,feudal_monarchy,italy,1194,1266,,Staufen rule of Sicily/southern Italy under Henry VI and Frederick II
-hohenstaufen,Hohenstaufen Imperial Italy,,german,latin,catholic,feudal_monarchy,italy,1194,1266,,Staufen dynasty's Italian holdings centered on Frederick II (distinct from Sicily kingdom)
-angevin_kingdom_of_naples,Angevin Kingdom of Naples,,french,french,catholic,feudal_monarchy,italy,1266,1442,,Capetian House of Anjou rule of mainland southern Italy after Sicilian Vespers split
-aragonese_kingdom_of_sicily,Aragonese Kingdom of Sicily,,catalan,catalan,catholic,feudal_monarchy,italy,1282,1409,,Crown of Aragon rule of Sicily following the Sicilian Vespers
-kingdom_of_sicily,Kingdom of Sicily,,italian,sicilian,catholic,feudal_monarchy,italy,1282,1816,,Long-running Sicilian kingdom (Aragonese to Spanish to Bourbon) prior to merger into Two Sicilies
-kingdom_of_naples,Kingdom of Naples,,italian,neapolitan,catholic,feudal_monarchy,italy,1282,1816,,Mainland southern Italian kingdom (Angevin to Aragonese to Bourbon to Murat)
-kingdom_of_the_two_sicilies,Kingdom of the Two Sicilies,,italian,neapolitan,catholic,feudal_monarchy,italy,1816,1861,,Bourbon union of Naples and Sicily until annexation by Sardinia-Piedmont
-tuscan_march,March of Tuscany,,italian,latin,catholic,feudal_monarchy,italy,800,1197,,Carolingian/Imperial march governing Tuscany until fragmentation into communes
-republic_of_florence,Republic of Florence,,italian,italian,catholic,republic,italy,1115,1532,,Florentine commune and Medici-led republic until transition to duchy
-grand_duchy_of_tuscany,Grand Duchy of Tuscany,,italian,italian,catholic,monarchy,italy,1569,1859,,Medici then Habsburg-Lorraine grand duchy until annexation to Sardinia
-duchy_of_milan,Duchy of Milan,,italian,lombard,catholic,feudal_monarchy,italy,1395,1535,,Visconti then Sforza duchy in Lombardy before Habsburg annexation
-spanish_duchy_of_milan,Spanish Duchy of Milan,,spanish,spanish,catholic,colonial_administration,italy,1535,1706,,Spanish Habsburg possession of Milan until War of Spanish Succession
-republic_of_genoa,Republic of Genoa,,italian,italian,catholic,republic,italy,1005,1797,,Maritime oligarchic republic in Liguria until Napoleonic abolition
-countyduchy_of_savoy,County and Duchy of Savoy,,italian,piedmontese,catholic,feudal_monarchy,italy,1003,1720,,Savoyard realm straddling Alps before elevation to Kingdom of Sardinia
-kingdom_of_sardinia,Kingdom of Sardinia,,italian,piedmontese,catholic,monarchy,italy,1324,1861,,Aragonese/Savoyard kingdom; Savoy-Piedmont core of Risorgimento after 1718
-giudicati_of_sardinia,Giudicati of Sardinia,,italian,sardinian,catholic,feudal_monarchy,italy,900,1420,,Four independent Sardinian kingdoms (Torres / Gallura / Arborea / Cagliari)
-giudicati_torres,Giudicato of Torres,,italian,sardinian,catholic,feudal_monarchy,italy,900,1259,,One of four Sardinian giudicati during medieval Sardinian independence
-aragonese_sardinia,Aragonese Sardinia,,catalan,catalan,catholic,colonial_administration,italy,1323,1718,,Crown of Aragon (then Spanish) rule of Sardinia until cession to Savoy
-pisan_county_of_cagliari,Pisan County of Cagliari,,italian,italian,catholic,feudal_monarchy,italy,1258,1323,,Pisan-controlled southern Sardinian county until Aragonese conquest
-cisalpine,Cisalpine / Italian Republic,,italian,italian,catholic,republic,italy,1797,1805,,Napoleonic client republic in northern Italy preceding Kingdom of Italy
-italian_social_republic,Italian Social Republic,,italian,italian,catholic,puppet_state,italy,1943,1945,,Axis-aligned rump state (RSI) in northern Italy under Mussolini after Allied landings
-fascist_italy,Fascist Italy,,italian,italian,roman_catholicism,monarchy,italy,1922,1943,,Mussolini-era Italian kingdom under the National Fascist Party
-italian_republic,Italian Republic,,italian,italian,roman_catholicism,republic,italy,1946,,,Post-war Italian parliamentary republic succeeding the Kingdom of Italy
-aragonese_kingdom_of_naples,Aragonese Kingdom of Naples,,catalan,catalan,catholic,feudal_monarchy,italy,1442,1503,,Aragonese (Trastámara) rule of Naples under Alfonso V and successors until French conquest
+chinese_empire,Empire of China (Yuan Shikai) (中华帝国),,han_chinese,mandarin,,imperial_monarchy,yellow_river|yangtze,1915,1916,,Yuan Shikai's 83-day monarchy restoration; collapsed under military and provincial opposition
+beiyang_government,Beiyang Government (北洋政府),,han_chinese,mandarin,,republic,yellow_river|yangtze,1912,1928,,Internationally recognized government of Republic of China dominated by Beiyang warlords; ended by Northern Expedition
+nationalist_government,Nationalist Government (国民政府),,han_chinese,mandarin,,republic,yangtze|yellow_river,1928,1949,,Kuomintang-led ROC government; nominally unified China; relocated to Taiwan after Chinese Civil War
+wuhan_government,Wuhan Government (武汉政府),,han_chinese,mandarin,,republic,yangtze,1927,1927,,Left-wing KMT government led by Wang Jingwei; rival to Nanjing during KMT-CCP split; merged with Nanjing late 1927
+wang_jingwei_regime,Wang Jingwei Regime (汪精卫政权),,han_chinese,mandarin,,puppet_state,yangtze,1940,1945,,Japanese puppet Reorganized National Government in Nanjing during Second Sino-Japanese War
+chinese_soviet_republic,Chinese Soviet Republic (中华苏维埃),,han_chinese,mandarin,,communist_state,yangtze,1931,1937,,CCP-led proto-state in Jiangxi; Long March followed its defeat by KMT encirclement campaigns

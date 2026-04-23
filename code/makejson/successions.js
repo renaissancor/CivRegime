@@ -51,8 +51,8 @@ function parsePipe(value) {
 
 function buildSuccession(row) {
   return {
-    from:                    row.from_regime_id,
-    to:                      row.to_regime_id,
+    from:                    row.from_polity_id,
+    to:                      row.to_polity_id,
     territorial_direction:   row.territorial_direction || 'unknown',
     strength:                parseInt2(row.strength),
     shared_territories:      parsePipe(row.shared_territories),
@@ -75,7 +75,7 @@ function main() {
   }
 
   const content = fs.readFileSync(CSV_FILE, 'utf-8');
-  const rows = parseCSV(content).filter(r => r.from_regime_id && r.to_regime_id);
+  const rows = parseCSV(content).filter(r => r.from_polity_id && r.to_polity_id);
   const successions = rows.map(buildSuccession);
 
   const outDir = path.dirname(OUT_FILE);

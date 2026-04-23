@@ -52,9 +52,9 @@ function generateTerritories() {
       periodsByTerritory[p.territory_id] = [];
     }
     periodsByTerritory[p.territory_id].push({
-      regime_id: p.regime_id,
-      start: parseInt(p.start),
-      ...(p.end && { end: parseInt(p.end) })
+      polity_id: p.polity_id,
+      start_year: parseInt(p.start_year),
+      ...(p.end_year && { end_year: parseInt(p.end_year) })
     });
   });
   

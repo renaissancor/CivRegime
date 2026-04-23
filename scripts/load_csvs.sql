@@ -34,60 +34,60 @@ FROM read_csv('csvs/territory.csv', auto_detect=true);
 -- Insert without parent_id first, then update parent references
 -- This avoids FK ordering issues with self-referential tables
 INSERT INTO ethnicity (id, name, description, founded)
-SELECT old_id, name,
+SELECT id, name,
        NULLIF(description, ''), NULLIF(founded, '')
 FROM (
-    SELECT e.old_id, e.name, e.description, e.founded,
-           ROW_NUMBER() OVER (PARTITION BY e.old_id ORDER BY e.id) AS rn
+    SELECT e.id, e.name, e.description, e.founded,
+           ROW_NUMBER() OVER (PARTITION BY e.id ORDER BY e.id) AS rn
     FROM read_csv('csvs/ethnicity.csv', auto_detect=true) e
 ) WHERE rn = 1;
 
 UPDATE ethnicity SET parent_id = sub.parent_text_id
 FROM (
-    SELECT e.old_id, p.old_id AS parent_text_id
+    SELECT e.id, p.id AS parent_text_id
     FROM read_csv('csvs/ethnicity.csv', auto_detect=true) e
     JOIN read_csv('csvs/ethnicity.csv', auto_detect=true) p ON e.parent_id = p.id
-    WHERE p.old_id IN (SELECT id FROM ethnicity)
+    WHERE p.id IN (SELECT id FROM ethnicity)
 ) sub
-WHERE ethnicity.id = sub.old_id;
+WHERE ethnicity.id = sub.id;
 
 -- ─── LANGUAGE ─────────────────────────────────────────────
 INSERT INTO language (id, name, description, founded)
-SELECT old_id, name,
+SELECT id, name,
        NULLIF(description, ''), NULLIF(founded, '')
 FROM (
-    SELECT e.old_id, e.name, e.description, e.founded,
-           ROW_NUMBER() OVER (PARTITION BY e.old_id ORDER BY e.id) AS rn
+    SELECT e.id, e.name, e.description, e.founded,
+           ROW_NUMBER() OVER (PARTITION BY e.id ORDER BY e.id) AS rn
     FROM read_csv('csvs/language.csv', auto_detect=true) e
 ) WHERE rn = 1;
 
 UPDATE language SET parent_id = sub.parent_text_id
 FROM (
-    SELECT e.old_id, p.old_id AS parent_text_id
+    SELECT e.id, p.id AS parent_text_id
     FROM read_csv('csvs/language.csv', auto_detect=true) e
     JOIN read_csv('csvs/language.csv', auto_detect=true) p ON e.parent_id = p.id
-    WHERE p.old_id IN (SELECT id FROM language)
+    WHERE p.id IN (SELECT id FROM language)
 ) sub
-WHERE language.id = sub.old_id;
+WHERE language.id = sub.id;
 
 -- ─── RELIGION ─────────────────────────────────────────────
 INSERT INTO religion (id, name, description, founded)
-SELECT old_id, name,
+SELECT id, name,
        NULLIF(description, ''), NULLIF(founded, '')
 FROM (
-    SELECT e.old_id, e.name, e.description, e.founded,
-           ROW_NUMBER() OVER (PARTITION BY e.old_id ORDER BY e.id) AS rn
+    SELECT e.id, e.name, e.description, e.founded,
+           ROW_NUMBER() OVER (PARTITION BY e.id ORDER BY e.id) AS rn
     FROM read_csv('csvs/religion.csv', auto_detect=true) e
 ) WHERE rn = 1;
 
 UPDATE religion SET parent_id = sub.parent_text_id
 FROM (
-    SELECT e.old_id, p.old_id AS parent_text_id
+    SELECT e.id, p.id AS parent_text_id
     FROM read_csv('csvs/religion.csv', auto_detect=true) e
     JOIN read_csv('csvs/religion.csv', auto_detect=true) p ON e.parent_id = p.id
-    WHERE p.old_id IN (SELECT id FROM religion)
+    WHERE p.id IN (SELECT id FROM religion)
 ) sub
-WHERE religion.id = sub.old_id;
+WHERE religion.id = sub.id;
 
 -- ─── COMPUTE DEPTH FOR TAXONOMY TREES ─────────────────────
 WITH RECURSIVE tree AS (
@@ -120,20 +120,21 @@ SELECT id, name,
        NULLIF(id_ruling_language, ''),
        NULLIF(id_ruling_religion, ''),
        NULLIF(government, ''),
-       TRY_CAST("start" AS INTEGER),
-       TRY_CAST("end" AS INTEGER),
+       TRY_CAST(start_year AS INTEGER),
+       TRY_CAST(end_year AS INTEGER),
        NULLIF(note, '')
 FROM read_csv('csvs/polity.csv', auto_detect=true);
 
 -- ─── POLITY_TERRITORY (from polity_territory.csv) ─────────
 INSERT INTO polity_territory (polity_id, territory_id, start_year, end_year)
-SELECT regime_id, territory_id,
-       TRY_CAST("start" AS INTEGER),
-       TRY_CAST("end" AS INTEGER)
+SELECT polity_id, territory_id,
+       TRY_CAST(start_year AS INTEGER),
+       TRY_CAST(end_year AS INTEGER)
 FROM (
-    SELECT *, ROW_NUMBER() OVER (
-        PARTITION BY regime_id, territory_id, "start" ORDER BY "end"
-    ) AS rn
+    SELECT polity_id, territory_id, start_year, end_year,
+           ROW_NUMBER() OVER (
+               PARTITION BY polity_id, territory_id, start_year ORDER BY end_year
+           ) AS rn
     FROM read_csv('csvs/polity_territory.csv', auto_detect=true)
 ) WHERE rn = 1;
 
@@ -141,8 +142,8 @@ FROM (
 WITH polity_terr AS (
     SELECT id AS polity_id,
            unnest(string_split(territories, '|')) AS territory_id,
-           TRY_CAST("start" AS INTEGER) AS start_year,
-           TRY_CAST("end" AS INTEGER) AS end_year
+           TRY_CAST(start_year AS INTEGER) AS start_year,
+           TRY_CAST(end_year AS INTEGER) AS end_year
     FROM read_csv('csvs/polity.csv', auto_detect=true)
     WHERE territories IS NOT NULL AND territories != ''
 )
@@ -163,9 +164,9 @@ WHERE policies IS NOT NULL AND policies != '';
 -- ─── POLITY_SUCCESSION ───────────────────────────────────
 CREATE TEMP TABLE _succ AS
 SELECT
-    ROW_NUMBER() OVER (ORDER BY from_regime_id, to_regime_id) AS id,
-    from_regime_id  AS from_polity_id,
-    to_regime_id    AS to_polity_id,
+    ROW_NUMBER() OVER (ORDER BY from_polity_id, to_polity_id) AS id,
+    from_polity_id,
+    to_polity_id,
     territorial_direction,
     CAST(strength AS INTEGER)          AS strength,
     CAST(temporal_gap_years AS INTEGER) AS temporal_gap_years,
@@ -213,19 +214,18 @@ FROM read_csv('csvs/dynasty.csv', auto_detect=true);
 -- ─── POLITY_DYNASTY ──────────────────────────────────────
 INSERT INTO polity_dynasty (polity_id, dynasty_id, start_year, end_year)
 SELECT polity_id, dynasty_id,
-       TRY_CAST("start" AS INTEGER),
-       TRY_CAST("end" AS INTEGER)
+       TRY_CAST(start_year AS INTEGER),
+       TRY_CAST(end_year AS INTEGER)
 FROM read_csv('csvs/polity_dynasty.csv', auto_detect=true);
 
 -- ─── FIGURE ───────────────────────────────────────────────
--- regime_id in CSV = polity_id in ERD (old naming)
 -- years format: "birth/death" e.g. "-2700/-2600", "?/-1322"
 INSERT INTO figure (id, name, polity_id, role, birth_year, death_year, significance)
-SELECT figure_id, name, regime_id, role,
+SELECT figure_id, name, polity_id, role,
     TRY_CAST(string_split(years, '/')[1] AS INTEGER),
     TRY_CAST(string_split(years, '/')[2] AS INTEGER),
     significance
 FROM (
-    SELECT *, ROW_NUMBER() OVER (PARTITION BY figure_id ORDER BY regime_id) AS rn
+    SELECT *, ROW_NUMBER() OVER (PARTITION BY figure_id ORDER BY polity_id) AS rn
     FROM read_csv('csvs/figure.csv', auto_detect=true)
 ) WHERE rn = 1;

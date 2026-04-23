@@ -1,4 +1,4 @@
-from_regime_id,from_name,to_regime_id,to_name,territorial_direction,strength,shared_territories,shared_territory_count,same_ethnicity,related_ethnicity,same_language,same_religion,same_state,temporal_gap_years
+from_polity_id,from_name,to_polity_id,to_name,territorial_direction,strength,shared_territories,shared_territory_count,same_ethnicity,related_ethnicity,same_language,same_religion,same_state,temporal_gap_years
 umayyad_caliphate,Umayyad Caliphate,abbasid_caliphate,Abbasid Caliphate,contraction,15,arabia|egypt|iran_plateau|khorasan|levant|mesopotamia|north_africa|transoxiana,8,1,0,1,0,0,0
 rashidun_caliphate,Rashidun Caliphate,umayyad_caliphate,Umayyad Caliphate,expansion,13,arabia|egypt|iran_plateau|levant|mesopotamia,5,1,0,1,1,0,0
 roman_empire,Roman Empire,western_roman_empire,Western Roman Empire,contraction,12,balkans|gaul|iberia|italy|north_africa,5,1,0,1,0,0,0
