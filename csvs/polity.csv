@@ -478,3 +478,51 @@ nationalist_government,Nationalist Government (国民政府),,han_chinese,mandar
 wuhan_government,Wuhan Government (武汉政府),,han_chinese,mandarin,,republic,yangtze,1927,1927,,Left-wing KMT government led by Wang Jingwei; rival to Nanjing during KMT-CCP split; merged with Nanjing late 1927
 wang_jingwei_regime,Wang Jingwei Regime (汪精卫政权),,han_chinese,mandarin,,puppet_state,yangtze,1940,1945,,Japanese puppet Reorganized National Government in Nanjing during Second Sino-Japanese War
 chinese_soviet_republic,Chinese Soviet Republic (中华苏维埃),,han_chinese,mandarin,,communist_state,yangtze,1931,1937,,CCP-led proto-state in Jiangxi; Long March followed its defeat by KMT encirclement campaigns
+magna_graecia,Magna Graecia,,hellenic_cluster,ancient_greek,,city_state_league,italy,-750,-280,,Greek colonial city-states in southern Italy and Sicily (Syracuse, Akragas, Selinunte, Tarentum)
+carthaginian_sardinia,Carthaginian Sardinia,,phoenician,phoenician_punic,,province,italy,-550,-238,,Punic province on Sardinia prior to Roman annexation
+carthaginian_western_sicily,Carthaginian Western Sicily,,phoenician,phoenician_punic,,province,italy,-550,-241,,Punic-controlled western Sicily (Motya, Panormus, Lilybaeum) until First Punic War
+phoenician_colonies,Phoenician Colonies of Sardinia,,phoenician,phoenician_punic,,city_state_league,italy,-900,-550,,Phoenician trading settlements (Tharros, Nora, Sulcis) preceding Carthaginian rule
+punic_coastal_settlements,Punic Coastal Settlements,,phoenician,phoenician_punic,,city_state_league,italy,-800,-275,,Punic coastal trading posts in Italic peninsula
+celtic_gauls,Cisalpine Celtic Gauls,,celtic_peoples,celtic_branch,,tribal_confederation,italy,-400,-222,,Insubres / Boii / Senones tribes in Po Valley before Roman subjugation
+oscan_samnite_peoples,Oscan-Samnite Peoples,,ancient_european,latin,,tribal_confederation,italy,-600,-290,,Central-southern Italic tribal confederations (Samnites, Lucani, Bruttii)
+latin_sabine_samnite_peoples,Latin-Sabine-Samnite Peoples,,ancient_european,latin,,tribal_confederation,italy,-1000,-500,,Pre-Roman Italic peoples of central peninsula
+italic_peoples,Italic Peoples,,ancient_european,latin,,tribal_confederation,italy,-1000,-500,,Oscan / Samnite / Lucanian Italic tribal groups
+ligurians_euganei_raeti,Ligurian-Euganei-Raeti Peoples,,ancient_european,,,tribal_confederation,italy,-1000,-200,,Pre-Roman Alpine and Ligurian peoples of northern Italy
+celtic_la_tene_migration,Celtic La Tène Migration,,celtic_peoples,celtic_branch,,tribal_confederation,italy,-450,-222,,Celtic La Tène culture expansion into northern Italy
+papal_states,Papal States,,italian,latin,roman_catholicism,theocracy,italy,754,1870,,Temporal papal dominion (Donation of Pepin to Italian unification); includes Avignon exile 1309-1377
+byzantine_exarchate_of_ravenna,Byzantine Exarchate of Ravenna,,hellenic_cluster,byzantine_greek,eastern_orthodox,province,italy,584,751,,Byzantine administrative unit centered on Ravenna until Lombard conquest
+byzantine_catepanate_of_italy,Byzantine Catepanate of Italy,,hellenic_cluster,byzantine_greek,eastern_orthodox,province,italy,965,1071,,Byzantine province in Apulia and Calabria until Norman conquest
+byzantine_sardinia,Byzantine Sardinia,,hellenic_cluster,byzantine_greek,eastern_orthodox,province,italy,534,700,,Byzantine province on Sardinia after Justinian's reconquest
+byzantine_sicilian_theme,Byzantine Sicilian Theme,,hellenic_cluster,byzantine_greek,eastern_orthodox,province,italy,535,827,,Byzantine military theme of Sicily until Aghlabid invasion
+lombard_duchy_of_benevento,Lombard Duchy of Benevento,,germanic_peoples,latin,catholic,feudal_monarchy,italy,571,1077,,Lombard duchy in southern Italy surviving the fall of the Lombard Kingdom
+lombard_duchy_of_spoleto,Lombard Duchy of Spoleto,,germanic_peoples,latin,catholic,feudal_monarchy,italy,570,774,,Lombard duchy in central Italy annexed into Carolingian realm
+lombard_principalities,Lombard Principalities of Southern Italy,,germanic_peoples,latin,catholic,feudal_monarchy,italy,849,1077,,Benevento / Salerno / Capua principalities after fragmentation of Benevento
+principality_of_salerno,Principality of Salerno,,germanic_peoples,latin,catholic,feudal_monarchy,italy,851,1077,,Lombard principality in southern Italy until Norman conquest
+arab_emirate_of_bari,Arab Emirate of Bari,,arab,arabic_dialects,sunni,emirate,italy,847,871,,Short-lived Aghlabid-linked emirate on Adriatic coast
+emirate_of_sicily,Emirate of Sicily,,arab,arabic_dialects,sunni,emirate,italy,831,1072,,Aghlabid then Kalbid rule over Sicily with Palermo as capital
+norman_county_of_apulia,Norman County of Apulia and Calabria,,norman,latin,catholic,feudal_monarchy,italy,1059,1130,,Hauteville Norman county preceding the Kingdom of Sicily
+norman_kingdom_of_sicily,Norman Kingdom of Sicily,,norman,latin,catholic,feudal_monarchy,italy,1130,1194,,Norman kingdom uniting Sicily and southern Italian mainland under Roger II
+hohenstaufen_sicily,Hohenstaufen Kingdom of Sicily,,german,latin,catholic,feudal_monarchy,italy,1194,1266,,Staufen rule of Sicily/southern Italy under Henry VI and Frederick II
+hohenstaufen,Hohenstaufen Imperial Italy,,german,latin,catholic,feudal_monarchy,italy,1194,1266,,Staufen dynasty's Italian holdings centered on Frederick II (distinct from Sicily kingdom)
+angevin_kingdom_of_naples,Angevin Kingdom of Naples,,french,french,catholic,feudal_monarchy,italy,1266,1442,,Capetian House of Anjou rule of mainland southern Italy after Sicilian Vespers split
+aragonese_kingdom_of_sicily,Aragonese Kingdom of Sicily,,catalan,catalan,catholic,feudal_monarchy,italy,1282,1409,,Crown of Aragon rule of Sicily following the Sicilian Vespers
+kingdom_of_sicily,Kingdom of Sicily,,italian,sicilian,catholic,feudal_monarchy,italy,1282,1816,,Long-running Sicilian kingdom (Aragonese to Spanish to Bourbon) prior to merger into Two Sicilies
+kingdom_of_naples,Kingdom of Naples,,italian,neapolitan,catholic,feudal_monarchy,italy,1282,1816,,Mainland southern Italian kingdom (Angevin to Aragonese to Bourbon to Murat)
+kingdom_of_the_two_sicilies,Kingdom of the Two Sicilies,,italian,neapolitan,catholic,feudal_monarchy,italy,1816,1861,,Bourbon union of Naples and Sicily until annexation by Sardinia-Piedmont
+tuscan_march,March of Tuscany,,italian,latin,catholic,feudal_monarchy,italy,800,1197,,Carolingian/Imperial march governing Tuscany until fragmentation into communes
+republic_of_florence,Republic of Florence,,italian,italian,catholic,republic,italy,1115,1532,,Florentine commune and Medici-led republic until transition to duchy
+grand_duchy_of_tuscany,Grand Duchy of Tuscany,,italian,italian,catholic,monarchy,italy,1569,1859,,Medici then Habsburg-Lorraine grand duchy until annexation to Sardinia
+duchy_of_milan,Duchy of Milan,,italian,lombard,catholic,feudal_monarchy,italy,1395,1535,,Visconti then Sforza duchy in Lombardy before Habsburg annexation
+spanish_duchy_of_milan,Spanish Duchy of Milan,,spanish,spanish,catholic,province,italy,1535,1706,,Spanish Habsburg possession of Milan until War of Spanish Succession
+republic_of_genoa,Republic of Genoa,,italian,italian,catholic,republic,italy,1005,1797,,Maritime oligarchic republic in Liguria until Napoleonic abolition
+countyduchy_of_savoy,County and Duchy of Savoy,,italian,piedmontese,catholic,feudal_monarchy,italy,1003,1720,,Savoyard realm straddling Alps before elevation to Kingdom of Sardinia
+kingdom_of_sardinia,Kingdom of Sardinia,,italian,piedmontese,catholic,monarchy,italy,1324,1861,,Aragonese/Savoyard kingdom; Savoy-Piedmont core of Risorgimento after 1718
+giudicati_of_sardinia,Giudicati of Sardinia,,italian,sardinian,catholic,feudal_monarchy,italy,900,1420,,Four independent Sardinian kingdoms (Torres / Gallura / Arborea / Cagliari)
+giudicati_torres,Giudicato of Torres,,italian,sardinian,catholic,feudal_monarchy,italy,900,1259,,One of four Sardinian giudicati during medieval Sardinian independence
+aragonese_sardinia,Aragonese Sardinia,,catalan,catalan,catholic,province,italy,1323,1718,,Crown of Aragon (then Spanish) rule of Sardinia until cession to Savoy
+pisan_county_of_cagliari,Pisan County of Cagliari,,italian,italian,catholic,feudal_monarchy,italy,1258,1323,,Pisan-controlled southern Sardinian county until Aragonese conquest
+cisalpine,Cisalpine / Italian Republic,,italian,italian,catholic,republic,italy,1797,1805,,Napoleonic client republic in northern Italy preceding Kingdom of Italy
+italian_social_republic,Italian Social Republic,,italian,italian,catholic,fascist,italy,1943,1945,,Axis-aligned rump state (RSI) in northern Italy under Mussolini after Allied landings
+fascist_italy,Fascist Italy,,italian,italian,roman_catholicism,fascist,italy,1922,1943,,Mussolini-era Italian kingdom under the National Fascist Party
+italian_republic,Italian Republic,,italian,italian,roman_catholicism,republic,italy,1946,,,Post-war Italian parliamentary republic succeeding the Kingdom of Italy
+aragonese_kingdom_of_naples,Aragonese Kingdom of Naples,,catalan,catalan,catholic,feudal_monarchy,italy,1442,1503,,Aragonese (Trastámara) rule of Naples under Alfonso V and successors until French conquest

@@ -539,7 +539,8 @@
           "stack": [
             {
               "label": "Byzantine Sardinia → Giudicati emerging",
-              "note": "c.700–900"
+              "note": "c.700–900",
+              "regime": "byzantine_sardinia"
             },
             {
               "label": "Giudicati of Sardinia (4 kingdoms)",
@@ -913,7 +914,8 @@
             },
             {
               "label": "Papal States (restored)",
-              "note": "1814–1870"
+              "note": "1814–1870",
+              "regime": "papal_states"
             }
           ],
           "span": 1

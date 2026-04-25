@@ -44,7 +44,7 @@ hephthalites,existing_polity,Hephthalites,5,afghanistan|kazakhstan|turkmenistan|
 kushano_sasanian_kingdom,existing_polity,Kushano-Sasanian Kingdom (south),5,afghanistan|turkmenistan|uzbekistan|india|pakistan,Kushano-Sasanian Kingdom (south) | Kushano-Sasanian Kingdom | Kushano-Sasanian / Sassanid | Kushano-Sasanian (western frontier)
 ghorid_dynasty,existing_polity,Ghorid dynasty,5,afghanistan|turkmenistan|iran|india|pakistan,Ghorid dynasty | Ghorid dynasty (Balkh capital at times) | Ghurid Sultanate | Ghorid Sultanate — Muhammad of Ghor | Ghorid Sultanate — Muhammad of Ghor conquers Punjab
 khwarazmian_empire,existing_polity,Khwarazmian Empire,5,afghanistan|turkmenistan|uzbekistan|xinjiang|iran,Khwarazmian Empire | Khwarazmian Empire (Anushteginid) | Khwarazmian Empire (Anushteginid — capital: Urgench) | Khwarazmian Empire (brief)
-yuezhi,existing_polity,Yuezhi,5,kazakhstan|turkmenistan|uzbekistan|xinjiang|mongolia,Yuezhi (before westward migration) | Yuezhi (Da Yuezhi) | Yuezhi (before westward migration 176 BCE) | Yuezhi (月氏)
+yuezhi,existing_polity,Yuezhi (before westward migration),5,kazakhstan|turkmenistan|uzbekistan|xinjiang|mongolia,Yuezhi (before westward migration) | Yuezhi (Da Yuezhi) | Yuezhi (before westward migration 176 BCE) | Yuezhi (月氏)
 xiongnu,existing_polity,Xiongnu Confederation (western fringe),5,kazakhstan|xinjiang|china|manchuria|mongolia,Xiongnu Confederation (western fringe) | Xiongnu Confederation | Yueban Kingdom (remnant Xiongnu) | Xiongnu (supreme after 176 BCE) | Xiongnu dominance (interlude) | Xiongnu (dominant in north) | Yueban (悅般 — Northern Xiongnu remnant) | Lushui Hu (盧水胡 — Xiongnu-related) | Xiongnu confederation forming | Xiongnu Empire (匈奴) | Xiongnu Empire | Xiongnu — split into Northern / Southern | Southern Xiongnu (vassals) | Northern Xiongnu → expelled westward | Xiongnu — from 209 BCE | Xiongnu forming | Northern Xiongnu (北匈奴) | Southern Xiongnu (南匈奴)
 golden_horde,existing_polity,Golden Horde (Blue Horde — Ural),5,kazakhstan|uzbekistan|romania|russia|ukraine,Golden Horde (Blue Horde — Ural) | Golden Horde (White Horde — Aral) | Golden Horde (Kipchak Khanate) | Golden Horde (post-Mongol invasion) | Golden Horde suzerainty — 'Tatar Yoke' | Golden Horde — Sarai (capital on lower Volga) | Golden Horde → Kazan Khanate | Mongol Golden Horde suzerainty | Mongol Golden Horde | Mongol Golden Horde — Crimean ulus | Golden Horde disintegrating
 aq_qoyunlu,existing_polity,Aq Qoyunlu (White Sheep — western fringe),5,turkmenistan|armenia|azerbaijan|georgia|iran,Aq Qoyunlu (White Sheep — western fringe) | Aq Qoyunlu (White Sheep) | Aq Qoyunlu
@@ -54,7 +54,7 @@ ming_dynasty,existing_polity,Ming Dynasty (明),5,china|korea|manchuria|mongolia
 first_bulgarian_empire,existing_polity,First Bulgarian Empire,5,albania|bulgaria|north_macedonia|romania|serbia,First Bulgarian Empire | First Bulgarian Empire — Krum · Boris I · Simeon I | First Bulgarian Empire (partly) | vs First Bulgarian Empire · Frankish pressure
 republic_of_venice,existing_polity,Venice — Durrës,5,albania|croatia|greece|italy|slovenia,Venice — Durrës | Venice (Durrës until 1501) | Venice — acquiring coastal towns | Venice — Dalmatian cities | Venice Republic (acquiring coastal towns) | Venice Republic (most of coast) | Venice Republic | Venice — Ionian Islands & Crete | Venice — Crete (until 1669) · Ionian Islands (until 1797) | Republic of Venice | Venice — Istrian coastal towns | Venice Republic (coast)
 kingdom_of_hungary,existing_polity,Croatia → Kingdom of Hungary,5,bosnia|czech_slovakia|hungary|romania|serbia,Croatia → Kingdom of Hungary | Kingdom of Hungary (nominal suzerainty) | Kingdom of Hungary | Kingdom of Hungary (Árpád dynasty) | Kingdom of Hungary — Angevin dynasty | Kingdom of Hungary — Jagiellonian dynasty | Kingdom of Hungary — Habsburg rule | Kingdom of Hungary (Stephen I) | Kingdom of Hungary (Angevin then Jagiellonian) | Kingdom of Hungary (Horthy regency) | Kingdom of Hungary — Transylvania (with Saxon colonists) | Kingdom of Hungary → Eastern Kingdom of Hungary | Kingdom of Hungary forming | Kingdom of Hungary — Belgrade | Kingdom of Hungary → Habsburg Empire
-austrian_empire,existing_polity,Austrian Empire,5,croatia|italy|romania|slovenia|ukraine,Austrian Empire → Austria-Hungary | Austrian Empire — Lombardy-Venetia | Austrian Empire → Austria-Hungary — Duchy of Styria | Austrian Empire — Galicia
+austrian_empire,existing_polity,Austrian Empire → Austria-Hungary,5,croatia|italy|romania|slovenia|ukraine,Austrian Empire → Austria-Hungary | Austrian Empire — Lombardy-Venetia | Austrian Empire → Austria-Hungary — Duchy of Styria | Austrian Empire — Galicia
 almohad_caliphate,existing_polity,Almohad Caliphate,5,iberia|morocco|algeria|libya|tunisia,Almohad Caliphate | Almohad dynasty (al-Muwahhidun) — Masmuda Berber from High Atlas; unified Morocco + Iberia + Algeria
 bmac_culture,unresolved_polity,BMAC / Oxus Civilization,4,afghanistan|turkmenistan|uzbekistan|iran,BMAC / Oxus Civilization | BMAC (Bactria–Margiana Archaeological Complex) | Oxus / BMAC culture
 maurya_empire,existing_polity,Maurya Empire,4,afghanistan|iran|india|pakistan,Maurya Empire | Mauryan Empire (briefly) | Maurya Empire — Pataliputra capital · Chandragupta · Ashoka | Maurya Empire — Taxila as provincial capital
@@ -77,7 +77,6 @@ second_bulgarian_empire,existing_polity,Second Bulgarian Empire,4,albania|bulgar
 polish_lithuanian_commonwealth,existing_polity,Polish-Lithuanian Commonwealth,4,baltic|belarus|poland|ukraine,Polish-Lithuanian Commonwealth | Polish-Lithuanian Commonwealth (–1795) | Polish-Lithuanian Commonwealth (Rzeczpospolita — 'First Republic')
 sfr_yugoslavia,existing_polity,SFR Yugoslavia — Socialist Republic of Bosnia & Herzegovina (1945–1992),4,bosnia|croatia|serbia|slovenia,SFR Yugoslavia — Socialist Republic of Bosnia & Herzegovina (1945–1992) | SFR Yugoslavia — Socialist Republic of Croatia | SFR Yugoslavia — Socialist Republic of Serbia | SFR Yugoslavia — Socialist Republic of Slovenia (1945–1991)
 gepid_kingdom,existing_polity,Gepid Kingdom,4,croatia|hungary|romania|serbia,Gepid Kingdom | Gepid Kingdom (Great Plain · Tisza) | Gepid Kingdom (Transylvania)
-greek_colonies,unresolved_polity,Greek colonies (Emporion · Rhode),4,iberia|italy|ukraine|georgia,Greek colonies (Emporion · Rhode) | Greek colonies (Syracuse · Akragas · Selinunte) | Greek colonies (Olbia · Tyras) | Greek colonies (Phasis · Dioscurias)
 almoravid_dynasty,existing_polity,Almoravid Dynasty,4,iberia|morocco|algeria|west_africa,"Almoravid Dynasty | Almoravid dynasty (al-Murabitun) — originated in Western Sahara Sanhaja; unified Morocco, Iberia | Almoravid (Murabitun) | Almoravid Sultanate (Berber — conquers Ghana)"
 vandal_kingdom,existing_polity,Vandal Kingdom (Sardinia),4,italy|algeria|libya|tunisia,Vandal Kingdom (Sardinia) | Vandal Kingdom (transit) | Vandal Kingdom
 akkadian_empire,existing_polity,Akkadian Empire (campaigns),4,anatolia|arabia|iraq|iran,Akkadian Empire (campaigns) | Akkadian Empire
@@ -93,12 +92,11 @@ delhi_sultanate,existing_polity,Delhi Sultanate — Khalji / Tughluq (raids),3,a
 hotak_dynasty,existing_polity,Hotak dynasty (Ghilzai Pashtun — founded in Kandahar),3,afghanistan|iran|pakistan,Hotak dynasty (Ghilzai Pashtun — founded in Kandahar) | Hotak dynasty (briefly held Kabul) | Hotaki Afghan | Hotak dynasty (invasion of Punjab)
 mughal_empire,existing_polity,Mughal Empire (Shah Jahan conquered Balkh 1646),3,afghanistan|india|pakistan,Mughal Empire (Shah Jahan conquered Balkh 1646) | Mughal Empire (Babur — Kabul capital 1504) | Mughal Empire — Akbar the Great | Mughal Empire — Bengal Subah | Mughal Empire — Jahangir · Shah Jahan · Aurangzeb | Mughal conquest of Deccan Sultanates (Aurangzeb) | Mughal Empire (crumbling) | Mughal Empire (nominal) | Mughal Empire — Sindh Subah | Mughal Empire — Punjab & Lahore Subah | Mughal Empire — Kashmir Subah
 turgesh_khaganate,existing_polity,Turgesh Khaganate,3,kazakhstan|uzbekistan|xinjiang,Turgesh Khaganate | Turgesh Khaganate (Ili Valley)
-pechenegs,existing_polity,Pechenegs,3,kazakhstan|romania|ukraine,Pechenegs (origin here → move west) | Pechenegs (from c.895 CE) | Pechenegs → Cumans | Pechenegs → Cumans (dominant) | Pechenegs (from c.900)
+pechenegs,existing_polity,Pechenegs (origin here → move west),3,kazakhstan|romania|ukraine,Pechenegs (origin here → move west) | Pechenegs (from c.895 CE) | Pechenegs → Cumans | Pechenegs → Cumans (dominant) | Pechenegs (from c.900)
 qara_khitai,existing_polity,Qara Khitai (Western Liao),3,kazakhstan|uzbekistan|xinjiang,Qara Khitai (Western Liao) | Qara Khitai / Western Liao
 turkestan_assr,existing_polity,Turkestan ASSR,3,kazakhstan|turkmenistan|uzbekistan,Turkestan ASSR | Turkestan ASSR (Semirechye) | Turkestan ASSR (Fergana Oblast) | Turkestan ASSR (Fergana)
 tibetan_empire,existing_polity,Tibetan Empire (吐蕃) occupation,3,xinjiang|china|tibet,Tibetan Empire (吐蕃) occupation | Tibetan Empire | Tibetan Empire (吐蕃) | Tibetan Empire — Songtsen Gampo · Trisong Detsen | Tibetan Empire (periphery)
 republic_of_china,existing_polity,Republic of China — Xinjiang Province,3,xinjiang|china|mongolia,Republic of China — Xinjiang Province | Republic of China (中华民国) | Republic of China (中华民国) — Taiwan | Republic of China
-indigenous_peoples,people,Indigenous peoples,3,china|russia|united_states,Indigenous peoples · Baiyue (百越) | Indigenous peoples — no Rus penetration | Indigenous peoples
 han_dynasty,existing_polity,Han — Western Regions Protectorate (西域都护),3,china|pakistan|vietnam,Han — Western Regions Protectorate (西域都护) | Tarkhan dynasty (Sindh) | Han dynasty — Giao Chỉ (Jiaozhou)
 liao_dynasty,existing_polity,Liao Dynasty (辽/契丹),3,china|manchuria|mongolia,Liao Dynasty (辽/契丹) | Liao Dynasty (辽) | Liao — Khitan Empire | Liao dynasty (遼)
 western_xia,existing_polity,Western Xia (西夏),3,china|mongolia|tibet,Western Xia (西夏) | Western Xia (Tangut Empire)
@@ -115,7 +113,7 @@ hunnic_raids,unresolved_polity,Hunnic raids,3,bulgaria|north_macedonia|serbia,Hu
 hungary,existing_polity,Hungary — Baranja occupied,3,croatia|serbia|slovenia,Hungary — Baranja occupied | Hungary — Vojvodina re-occupied | Hungary — Prekmurje
 neanderthals,unresolved_polity,Neanderthals,3,france|anatolia|iraq,Neanderthals | Neanderthals (Shanidar Cave)
 dacian_kingdom,existing_polity,Dacian Kingdom,3,hungary|romania|ukraine,Dacian Kingdom | Dacian Kingdom — Sarmizegetusa Regia (capital) | Dacian / Thracian tribes
-phoenician_colonies,unresolved_polity,Phoenician colonies (Gadir · Málaga · Sexi),3,iberia|italy|libya,Phoenician colonies (Gadir · Málaga · Sexi) | Phoenician colonies (Tharros · Nora · Sulcis) | Phoenician colonies (Oea · Sabratha · Leptis Magna)
+phoenician_colonies,existing_polity,Phoenician colonies (Gadir · Málaga · Sexi),3,iberia|italy|libya,Phoenician colonies (Gadir · Málaga · Sexi) | Phoenician colonies (Tharros · Nora · Sulcis) | Phoenician colonies (Oea · Sabratha · Leptis Magna)
 hittite_empire,existing_polity,Hittite Empire,3,anatolia|armenia|levant,Hittite Empire | Hittite Empire — suzerainty
 mongol_il_khanate,existing_polity,Mongol Il-Khanate,3,anatolia|iraq|levant,Mongol Il-Khanate | Mongol · Il-Khanate | Mongol Il-Khanate (raids)
 neo_babylonian,existing_polity,Neo-Babylonian,3,arabia|iraq|levant,Neo-Babylonian | Neo-Babylonian Empire
@@ -137,7 +135,7 @@ helmand_culture,unresolved_polity,Helmand culture (Helmand Civilization),2,afgha
 kidarites_alchon_huns,existing_polity,Kidarites · Alchon Huns (Zabulistan),2,afghanistan|xinjiang,Kidarites · Alchon Huns (Zabulistan) | Kidarites · Alchon Huns
 first_turkic_khaganate,existing_polity,First Türkic Empire (Tokharistan),2,afghanistan|mongolia,First Türkic Empire (Tokharistan) | First Türkic Empire | First Turkic Khaganate (突厥)
 nezak_huns,existing_polity,Nezak Huns (brief),2,afghanistan|india,Nezak Huns (brief) | Nezak Huns | Nezak Huns · Turk Shahis (Gandhara)
-zunbil_dynasty,existing_polity,Zunbil dynasty,2,afghanistan|india,Zunbil dynasty (Zabulistan — resisted Arab conquest for 200 years) | Zunbil dynasty (finally conquered by Saffarids) | Zunbil dynasty (Zabulistan)
+zunbil_dynasty,existing_polity,Zunbil dynasty (Zabulistan — resisted Arab conquest for 200 years),2,afghanistan|india,Zunbil dynasty (Zabulistan — resisted Arab conquest for 200 years) | Zunbil dynasty (finally conquered by Saffarids) | Zunbil dynasty (Zabulistan)
 turk_shahis,existing_polity,Türk Shahis (Buddhist Kabul rulers),2,afghanistan|pakistan,Türk Shahis (Buddhist Kabul rulers) | Türk Shahis → Hindu Shahis (drove out Türk Shahis) | Turk Shahis (Kabul & Gandhara) | Turk Shahis → Hindu Shahis (Gandhara)
 hindu_shahis,existing_polity,Hindu Shahis (eastern reaches to 1026),2,afghanistan|india,Hindu Shahis (eastern reaches to 1026) | Hindu Shahis (NW India & Gandhara)
 kelteminar_culture,unresolved_polity,Kelteminar culture,2,kazakhstan|uzbekistan,Kelteminar culture
@@ -163,6 +161,7 @@ punt,existing_polity,Punt (Egyptian trading land — incense coast),2,somalia|su
 azanian_coast,unresolved_polity,Azanian coast (Greek/Arab trade),2,somalia|swahili_coast,Azanian coast (Greek/Arab trade) | Bantu-speaking coastal peoples — early fishing & herding communities
 italian_somaliland,unresolved_polity,Italian Somaliland,2,somalia|swahili_coast,Italian Somaliland | Italian Somaliland — Mogadishu
 somali_republic,unresolved_polity,Somali Republic (union with south),2,somalia|swahili_coast,Somali Republic (union with south) | Somali Republic (1960) | Somalia (independent 1960) — Mogadishu capital
+indigenous_peoples,people,Indigenous peoples,2,china|united_states,Indigenous peoples · Baiyue (百越) | Indigenous peoples
 qin_dynasty,existing_polity,Qin Dynasty (秦),2,china|manchuria,Qin Dynasty (秦) | Qin
 western_han,existing_polity,Western Han (西汉/前汉),2,china|manchuria,Western Han (西汉/前汉) | Western Han
 western_jin,existing_polity,Western Jin (西晋),2,china|manchuria,Western Jin (西晋) | Western Jin — Liaodong & Xuantu
@@ -195,7 +194,7 @@ independent_state_of_croatia,existing_polity,Independent State of Croatia (NDH) 
 hundred_years_war,unresolved_polity,Hundred Years' War (England vs France),2,britain_ireland|france,Hundred Years' War (England vs France) | Hundred Years' War
 byzantine_reconquest,unresolved_polity,Byzantine reconquest — Basil II,2,bulgaria|north_macedonia,Byzantine reconquest — Basil II | Byzantine reconquest (1018) — Ohrid Archbishopric
 histri,existing_polity,Histri (Illyrian),2,croatia|slovenia,Histri (Illyrian)
-italy,existing_polity,Italy,2,croatia|slovenia,Italy — Istria (Treaty of Rapallo 1920) | Italy — Zadar & some coastal towns | Italy — annexed Istria | Italy (1941–43) → Germany / NDH (1943–45) | Italy — Istria (continued)
+italy,existing_polity,Italy — Istria (Treaty of Rapallo 1920),2,croatia|slovenia,Italy — Istria (Treaty of Rapallo 1920) | Italy — Zadar & some coastal towns | Italy — annexed Istria | Italy (1941–43) → Germany / NDH (1943–45) | Italy — Istria (continued)
 germanic_tribes,existing_polity,Germanic tribes (Marcomanni · Quadi),2,czech_slovakia|poland,Germanic tribes (Marcomanni · Quadi) | Germanic tribes (Lugii · Vandals · Goths · Burgundians)
 west_slavic_settlement,unresolved_polity,West Slavic settlement,2,czech_slovakia|poland,West Slavic settlement | West Slavic settlement (Polanie · Vistulans · Slenzans · Pomeranians)
 great_moravia,existing_polity,Great Moravia (Rastislav · Svatopluk I),2,czech_slovakia|poland,Great Moravia (Rastislav · Svatopluk I) | Great Moravia (brief overlordship of Vistulans)
@@ -264,7 +263,7 @@ berber,existing_polity,Berber / Mauretania,2,morocco|libya,Berber / Mauretania |
 mauretania_kingdom,existing_polity,Mauretania Kingdom,2,morocco|algeria,Mauretania Kingdom
 muhallabid_governors,existing_polity,Muhallabid governors,2,libya|tunisia,Muhallabid governors
 british_military_administration,existing_polity,British Military Administration,2,libya|malaysia_singapore_brunei,British Military Administration
-kanem_empire,existing_polity,Kanem Empire,2,sudan|west_africa,Kanem Empire (eastern influence) | Kanem Empire · Daju | Kanem Empire (Lake Chad basin)
+kanem_empire,existing_polity,Kanem Empire (eastern influence),2,sudan|west_africa,Kanem Empire (eastern influence) | Kanem Empire · Daju | Kanem Empire (Lake Chad basin)
 iroquois_confederacy,existing_polity,First Nations — Iroquois · Algonquin · Huron-Wendat,2,canada|united_states,First Nations — Iroquois · Algonquin · Huron-Wendat | Iroquois Confederacy
 new_france,existing_polity,New France (Nouvelle-France),2,canada|united_states,New France (Nouvelle-France) | Acadia (French) | New France — Louisiana
 thirteen_colonies,existing_polity,Newfoundland Colony (English),2,canada|united_states,Newfoundland Colony (English) | Province of Quebec (1763–1791) | Upper Canada (Ontario) | Province of Quebec | Lower Canada (Québec) | Nova Scotia (1710–) | Thirteen Colonies (British)
@@ -1066,79 +1065,80 @@ terramare_culture,unresolved_polity,Terramare culture,1,italy,Terramare culture
 proto_villanovan_culture,unresolved_polity,Proto-Villanovan culture,1,italy,Proto-Villanovan culture
 villanovan_culture,unresolved_polity,Villanovan culture,1,italy,Villanovan culture | Villanovan culture (central)
 este_golasecca_cultures_culture,unresolved_polity,Este · Golasecca cultures,1,italy,Este · Golasecca cultures
-celtic_la_tene_migration,unresolved_polity,Celtic La Tène migration,1,italy,Celtic La Tène migration
+celtic_la_tene_migration,existing_polity,Celtic La Tène migration,1,italy,Celtic La Tène migration
 rinaldone_gaudo_cultures_culture,unresolved_polity,Rinaldone · Gaudo cultures,1,italy,Rinaldone · Gaudo cultures
 apennine_culture,unresolved_polity,Apennine culture,1,italy,Apennine culture
 latial_culture,unresolved_polity,Latial culture,1,italy,Latial culture
-italic_peoples,unresolved_polity,Italic peoples (Oscan · Samnite · Lucanian),1,italy,Italic peoples (Oscan · Samnite · Lucanian)
+italic_peoples,existing_polity,Italic peoples (Oscan · Samnite · Lucanian),1,italy,Italic peoples (Oscan · Samnite · Lucanian)
 sicanian_sicel_elymian_peoples,unresolved_polity,Sicanian · Sicel · Elymian peoples,1,italy,Sicanian · Sicel · Elymian peoples
 castelluccio_culture,unresolved_polity,Castelluccio culture,1,italy,Castelluccio culture
 thapsos_culture,unresolved_polity,Thapsos culture,1,italy,Thapsos culture
 pantalica_culture,unresolved_polity,Pantalica culture,1,italy,Pantalica culture
 ozieri_arzachena_cultures_culture,unresolved_polity,Ozieri · Arzachena cultures,1,italy,Ozieri · Arzachena cultures
 nuragic_civilization_culture,unresolved_polity,Nuragic civilization,1,italy,Nuragic civilization
-ligurians_euganei_raeti,unresolved_polity,Ligurians · Euganei · Raeti,1,italy,Ligurians · Euganei · Raeti
-celtic_gauls,unresolved_polity,Celtic Gauls (Insubres · Boii · Senones),1,italy,Celtic Gauls (Insubres · Boii · Senones)
+ligurians_euganei_raeti,existing_polity,Ligurians · Euganei · Raeti,1,italy,Ligurians · Euganei · Raeti
+celtic_gauls,existing_polity,Celtic Gauls (Insubres · Boii · Senones),1,italy,Celtic Gauls (Insubres · Boii · Senones)
 venetians,polity,Venetians,1,italy,Venetians (Adriatic coast)
 etruscan_civilization_culture,unresolved_polity,Etruscan civilization (Tyrrhenia),1,italy,Etruscan civilization (Tyrrhenia)
-latin_sabine_samnite_peoples,unresolved_polity,Latin · Sabine · Samnite peoples,1,italy,Latin · Sabine · Samnite peoples
-magna_graecia,unresolved_polity,Magna Graecia (Greek colonies),1,italy,Magna Graecia (Greek colonies)
-oscan_samnite_peoples,unresolved_polity,Oscan · Samnite peoples,1,italy,Oscan · Samnite peoples
-punic_coastal_settlements,unresolved_polity,Punic coastal settlements,1,italy,Punic coastal settlements
-carthaginian_western_sicily,unresolved_polity,Carthaginian western Sicily,1,italy,Carthaginian western Sicily
-carthaginian_sardinia,unresolved_polity,Carthaginian Sardinia,1,italy,Carthaginian Sardinia
+latin_sabine_samnite_peoples,existing_polity,Latin · Sabine · Samnite peoples,1,italy,Latin · Sabine · Samnite peoples
+magna_graecia,existing_polity,Magna Graecia (Greek colonies),1,italy,Magna Graecia (Greek colonies)
+oscan_samnite_peoples,existing_polity,Oscan · Samnite peoples,1,italy,Oscan · Samnite peoples
+punic_coastal_settlements,existing_polity,Punic coastal settlements,1,italy,Punic coastal settlements
+greek_colonies,polity,Greek colonies,1,italy,Greek colonies (Syracuse · Akragas · Selinunte)
+carthaginian_western_sicily,existing_polity,Carthaginian western Sicily,1,italy,Carthaginian western Sicily
+carthaginian_sardinia,existing_polity,Carthaginian Sardinia,1,italy,Carthaginian Sardinia
 odoacer_kingdom,existing_polity,Kingdom of Odoacer,1,italy,Kingdom of Odoacer | Kingdom of Odoacer (Ravenna) | Kingdom of Odoacer (Sicily)
 gothic_war,people,Gothic War,1,italy,Gothic War (Byzantine reconquest)
-byzantine_exarchate_of_ravenna,unresolved_polity,Byzantine Exarchate of Ravenna,1,italy,Byzantine Exarchate of Ravenna
-byzantine_catepanate_of_italy,unresolved_polity,Byzantine Catepanate of Italy (Puglia · Calabria),1,italy,Byzantine Catepanate of Italy (Puglia · Calabria) | Byzantine Catepanate of Italy
+byzantine_exarchate_of_ravenna,existing_polity,Byzantine Exarchate of Ravenna,1,italy,Byzantine Exarchate of Ravenna
+byzantine_catepanate_of_italy,existing_polity,Byzantine Catepanate of Italy (Puglia · Calabria),1,italy,Byzantine Catepanate of Italy (Puglia · Calabria) | Byzantine Catepanate of Italy
 vandal_raids_on_sicily,people,Vandal raids on Sicily,1,italy,Vandal raids on Sicily
-byzantine_sicilian_theme,unresolved_polity,Byzantine Sicilian Theme,1,italy,Byzantine Sicilian Theme
-byzantine_sardinia,unresolved_polity,Byzantine Sardinia,1,italy,Byzantine Sardinia
-lombard_duchy_of_spoleto,unresolved_polity,Lombard Duchy of Spoleto,1,italy,Lombard Duchy of Spoleto
-papal_states,unresolved_polity,Papal States (formalized),1,italy,Papal States (formalized) | Papal States
-lombard_duchy_of_benevento,unresolved_polity,Lombard Duchy of Benevento,1,italy,Lombard Duchy of Benevento
-principality_of_salerno,unresolved_polity,Principality of Salerno,1,italy,Principality of Salerno
-emirate_of_sicily,unresolved_polity,Emirate of Sicily (Aghlabid then Kalbid),1,italy,"Emirate of Sicily (Aghlabid then Kalbid) | Emirate of Sicily (Arab rule, Palermo capital)"
-arab_emirate_of_bari,unresolved_polity,Arab Emirate of Bari,1,italy,Arab Emirate of Bari
-giudicati_of_sardinia,unresolved_polity,Giudicati of Sardinia (4 kingdoms),1,italy,Giudicati of Sardinia (4 kingdoms)
+byzantine_sicilian_theme,existing_polity,Byzantine Sicilian Theme,1,italy,Byzantine Sicilian Theme
+byzantine_sardinia,existing_polity,Byzantine Sardinia,1,italy,Byzantine Sardinia | Byzantine Sardinia → Giudicati emerging
+lombard_duchy_of_spoleto,existing_polity,Lombard Duchy of Spoleto,1,italy,Lombard Duchy of Spoleto
+papal_states,existing_polity,Papal States (formalized),1,italy,Papal States (formalized) | Papal States | Papal States (restored)
+lombard_duchy_of_benevento,existing_polity,Lombard Duchy of Benevento,1,italy,Lombard Duchy of Benevento
+principality_of_salerno,existing_polity,Principality of Salerno,1,italy,Principality of Salerno
+emirate_of_sicily,existing_polity,Emirate of Sicily (Aghlabid then Kalbid),1,italy,"Emirate of Sicily (Aghlabid then Kalbid) | Emirate of Sicily (Arab rule, Palermo capital)"
+arab_emirate_of_bari,existing_polity,Arab Emirate of Bari,1,italy,Arab Emirate of Bari
+giudicati_of_sardinia,existing_polity,Giudicati of Sardinia (4 kingdoms),1,italy,Giudicati of Sardinia (4 kingdoms)
 kingdom_of_italy,existing_polity,Middle Kingdom of Italy (Carolingian split),1,italy,Middle Kingdom of Italy (Carolingian split) | Kingdom of Italy (Napoleon) | Kingdom of Italy | Kingdom of Italy — Sicily 1860 | Kingdom of Italy — Sardinia (core state) | Kingdom of Italy — Liberal era
-tuscan_march,unresolved_polity,Tuscan March,1,italy,Tuscan March
+tuscan_march,existing_polity,Tuscan March,1,italy,Tuscan March
 investiture_controversy,polity,Investiture Controversy,1,italy,Investiture Controversy
-lombard_principalities,unresolved_polity,Lombard principalities (Benevento · Salerno · Capua),1,italy,Lombard principalities (Benevento · Salerno · Capua)
-giudicati_torres,unresolved_polity,Giudicati: Torres · Gallura · Arborea · Cagliari,1,italy,Giudicati: Torres · Gallura · Arborea · Cagliari
+lombard_principalities,existing_polity,Lombard principalities (Benevento · Salerno · Capua),1,italy,Lombard principalities (Benevento · Salerno · Capua)
+giudicati_torres,existing_polity,Giudicati: Torres · Gallura · Arborea · Cagliari,1,italy,Giudicati: Torres · Gallura · Arborea · Cagliari
 lombard_league_vs_frederick_barbarossa,people,Lombard League vs Frederick Barbarossa,1,italy,Lombard League vs Frederick Barbarossa
 city_communes,polity,City communes,1,italy,City communes (Milan · Venice · Genoa · Verona)
 guelph_vs_ghibelline,polity,Guelph vs Ghibelline,1,italy,Guelph vs Ghibelline
-norman_county_of_apulia,unresolved_polity,Norman County of Apulia · Calabria,1,italy,Norman County of Apulia · Calabria
-norman_kingdom_of_sicily,unresolved_polity,Norman Kingdom of Sicily (south),1,italy,Norman Kingdom of Sicily (south) | Norman Kingdom of Sicily
-hohenstaufen,unresolved_polity,Hohenstaufen (Frederick II),1,italy,Hohenstaufen (Frederick II)
-angevin_kingdom_of_naples,unresolved_polity,Angevin Kingdom of Naples,1,italy,Angevin Kingdom of Naples
-hohenstaufen_sicily,unresolved_polity,Hohenstaufen Sicily,1,italy,Hohenstaufen Sicily
-aragonese_kingdom_of_sicily,unresolved_polity,Aragonese Kingdom of Sicily,1,italy,Aragonese Kingdom of Sicily
-pisan_county_of_cagliari,unresolved_polity,Pisan County of Cagliari,1,italy,Pisan County of Cagliari
-aragonese_sardinia,unresolved_polity,Aragonese Sardinia,1,italy,Aragonese Sardinia | Aragonese / Spanish Kingdom of Sardinia
-duchy_of_milan,unresolved_polity,Duchy of Milan (Visconti then Sforza),1,italy,Duchy of Milan (Visconti then Sforza)
-republic_of_genoa,unresolved_polity,Republic of Genoa,1,italy,Republic of Genoa
-countyduchy_of_savoy,unresolved_polity,County/Duchy of Savoy,1,italy,County/Duchy of Savoy
-republic_of_florence,unresolved_polity,Republic of Florence (Medici),1,italy,Republic of Florence (Medici)
+norman_county_of_apulia,existing_polity,Norman County of Apulia · Calabria,1,italy,Norman County of Apulia · Calabria
+norman_kingdom_of_sicily,existing_polity,Norman Kingdom of Sicily (south),1,italy,Norman Kingdom of Sicily (south) | Norman Kingdom of Sicily
+hohenstaufen,existing_polity,Hohenstaufen (Frederick II),1,italy,Hohenstaufen (Frederick II)
+angevin_kingdom_of_naples,existing_polity,Angevin Kingdom of Naples,1,italy,Angevin Kingdom of Naples
+hohenstaufen_sicily,existing_polity,Hohenstaufen Sicily,1,italy,Hohenstaufen Sicily
+aragonese_kingdom_of_sicily,existing_polity,Aragonese Kingdom of Sicily,1,italy,Aragonese Kingdom of Sicily
+pisan_county_of_cagliari,existing_polity,Pisan County of Cagliari,1,italy,Pisan County of Cagliari
+aragonese_sardinia,existing_polity,Aragonese Sardinia,1,italy,Aragonese Sardinia | Aragonese / Spanish Kingdom of Sardinia
+duchy_of_milan,existing_polity,Duchy of Milan (Visconti then Sforza),1,italy,Duchy of Milan (Visconti then Sforza)
+republic_of_genoa,existing_polity,Republic of Genoa,1,italy,Republic of Genoa
+countyduchy_of_savoy,existing_polity,County/Duchy of Savoy,1,italy,County/Duchy of Savoy
+republic_of_florence,existing_polity,Republic of Florence (Medici),1,italy,Republic of Florence (Medici)
 italian_renaissance,polity,Italian Renaissance,1,italy,Italian Renaissance
 republics_of_siena,polity,Republics of Siena,1,italy,Republics of Siena · Lucca · Pisa
-aragonese_kingdom_of_naples,unresolved_polity,Aragonese Kingdom of Naples,1,italy,Aragonese Kingdom of Naples
-kingdom_of_sicily,unresolved_polity,Kingdom of Sicily (Aragonese),1,italy,Kingdom of Sicily (Aragonese) | Kingdom of Sicily (Spanish then Bourbon) | Kingdom of Sicily (British-backed Bourbon)
-spanish_duchy_of_milan,unresolved_polity,Spanish Duchy of Milan,1,italy,Spanish Duchy of Milan
+aragonese_kingdom_of_naples,existing_polity,Aragonese Kingdom of Naples,1,italy,Aragonese Kingdom of Naples
+kingdom_of_sicily,existing_polity,Kingdom of Sicily (Aragonese),1,italy,Kingdom of Sicily (Aragonese) | Kingdom of Sicily (Spanish then Bourbon) | Kingdom of Sicily (British-backed Bourbon)
+spanish_duchy_of_milan,existing_polity,Spanish Duchy of Milan,1,italy,Spanish Duchy of Milan
 austrian_habsburg,people,Austrian Habsburg,1,italy,Austrian Habsburg — Lombardy-Venetia
-grand_duchy_of_tuscany,unresolved_polity,Grand Duchy of Tuscany (Medici),1,italy,Grand Duchy of Tuscany (Medici) | Grand Duchy of Tuscany (Habsburg-Lorraine)
-kingdom_of_naples,unresolved_polity,Kingdom of Naples (Spanish then Bourbon),1,italy,Kingdom of Naples (Spanish then Bourbon) | Kingdom of Naples (Murat then Bourbon)
-kingdom_of_sardinia,unresolved_polity,"Kingdom of Sardinia (Savoy, after 1718)",1,italy,"Kingdom of Sardinia (Savoy, after 1718) | Kingdom of Sardinia (Savoy–Piedmont)"
-cisalpine,unresolved_polity,Cisalpine / Italian Republic (Napoleon),1,italy,Cisalpine / Italian Republic (Napoleon)
+grand_duchy_of_tuscany,existing_polity,Grand Duchy of Tuscany (Medici),1,italy,Grand Duchy of Tuscany (Medici) | Grand Duchy of Tuscany (Habsburg-Lorraine)
+kingdom_of_naples,existing_polity,Kingdom of Naples (Spanish then Bourbon),1,italy,Kingdom of Naples (Spanish then Bourbon) | Kingdom of Naples (Murat then Bourbon)
+kingdom_of_sardinia,existing_polity,"Kingdom of Sardinia (Savoy, after 1718)",1,italy,"Kingdom of Sardinia (Savoy, after 1718) | Kingdom of Sardinia (Savoy–Piedmont)"
+cisalpine,existing_polity,Cisalpine / Italian Republic (Napoleon),1,italy,Cisalpine / Italian Republic (Napoleon)
 napoleon_annexes_rome,polity,Napoleon annexes Rome,1,italy,Napoleon annexes Rome
-kingdom_of_the_two_sicilies,unresolved_polity,Kingdom of the Two Sicilies,1,italy,Kingdom of the Two Sicilies
+kingdom_of_the_two_sicilies,existing_polity,Kingdom of the Two Sicilies,1,italy,Kingdom of the Two Sicilies
 leads_risorgimento,polity,Leads Risorgimento,1,italy,Leads Risorgimento (Cavour · Garibaldi)
 lombardy_1859,people,Lombardy 1859,1,italy,Lombardy 1859 · Venetia 1866
 garibaldis_expedition_of_the_thousand_1860,polity,Garibaldi's Expedition of the Thousand 1860,1,italy,Garibaldi's Expedition of the Thousand 1860
-fascist_italy,unresolved_polity,Fascist Italy (Mussolini · March on Rome),1,italy,Fascist Italy (Mussolini · March on Rome)
-italian_social_republic,unresolved_polity,Italian Social Republic (RSI — northern rump),1,italy,Italian Social Republic (RSI — northern rump)
-italian_republic,unresolved_polity,Italian Republic,1,italy,Italian Republic
+fascist_italy,existing_polity,Fascist Italy (Mussolini · March on Rome),1,italy,Fascist Italy (Mussolini · March on Rome)
+italian_social_republic,existing_polity,Italian Social Republic (RSI — northern rump),1,italy,Italian Social Republic (RSI — northern rump)
+italian_republic,existing_polity,Italian Republic,1,italy,Italian Republic
 frisii,unresolved_polity,Frisii (Frisian tribes),1,low_countries,Frisii (Frisian tribes)
 batavi_cananefates,unresolved_polity,Batavi · Cananefates (Rhine delta),1,low_countries,Batavi · Cananefates (Rhine delta)
 menapii_nervii_morini_eburones,unresolved_polity,Menapii · Nervii · Morini · Eburones,1,low_countries,Menapii · Nervii · Morini · Eburones

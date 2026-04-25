@@ -105,8 +105,15 @@ function extractCore(label) {
 // Maps normalized snake_case → canonical entity ID.
 const SYNONYM_MAP = new Map([
   // ── Iran gold-standard curation ──
-  ['hotaki_afghan', 'hotaki_dynasty'],
-  ['hotaki', 'hotaki_dynasty'],
+  ['hotaki_afghan', 'hotak_dynasty'],
+  ['hotaki', 'hotak_dynasty'],
+  ['hotaki_dynasty', 'hotak_dynasty'],
+  ['anshan', 'anshan_kingdom'],
+  ['lullubi', 'lullubi_kingdom'],
+  ['mannai', 'mannai_kingdom'],
+  ['marhashi', 'marhashi_kingdom'],
+  ['kidarite', 'kidarite_kingdom'],
+  ['kar_kiya_dynasty', 'karkiya_dynasty'],
   ['ildeguzids', 'eldiguzid_dynasty'],
   ['eldiguzids', 'eldiguzid_dynasty'],
   ['inju', 'injuid_dynasty'],
@@ -163,6 +170,29 @@ const SYNONYM_MAP = new Map([
 // key = label text, value = { wrong, correct }
 const BUG_FIXES = new Map([
   ['Dabuyid Dynasty', { wrong: 'buyid_dynasty', correct: 'dabuyid_dynasty' }],
+]);
+
+// ─── STRIP LIST ───────────────────────────────────────────
+// Regime IDs that must NEVER appear as polity FKs because they describe
+// events, peoples, eras, or collectives rather than polities.
+// Source: docs/merge_map.md — gold-standard curation P3.6.
+const STRIP_LIST = new Set([
+  // Events / wars / movements
+  'chu_han_contention', 'xianbei_rising', 'gothic_war', 'investiture_controversy',
+  'vandal_raids_on_sicily', 'lombard_league_vs_frederick_barbarossa',
+  'guelph_vs_ghibelline', 'napoleon_annexes_rome', 'leads_risorgimento',
+  'lombardy_1859', 'garibaldis_expedition_of_the_thousand_1860',
+  'five_barbarians_migrating_south',
+  // Periods / eras
+  'spring_and_autumn', 'sixteen_kingdoms', 'italian_renaissance',
+  // Peoples / collectives
+  'indigenous_peoples', 'northern_steppe_peoples', 'xianyun_quanrong',
+  'donghu_yuezhi', 'various_steppe_peoples', 'various_mongol_khanates',
+  'venetians', 'greek_colonies', 'city_communes', 'austrian_habsburg', 'qing_court',
+  // Combined / multi-polity entries
+  'chu_wu_yue', 'later_chu', 'republics_of_siena',
+  // Narrative / sphere-of-influence
+  'british_india_sphere',
 ]);
 
 // Convert to snake_case ID
@@ -281,6 +311,11 @@ function typeForId(id) {
 
 // Resolve a label to a canonical entity ID
 function resolveLabel(label, existingRegimeField, panelId) {
+  // Strip non-polity IDs (events, peoples, eras, collectives) before any other check
+  if (existingRegimeField && STRIP_LIST.has(existingRegimeField)) {
+    return { id: null, strip: true };
+  }
+
   // Apply bug fixes to incorrect existing links
   const fix = BUG_FIXES.get(label);
   if (fix && existingRegimeField === fix.wrong) {
@@ -338,6 +373,7 @@ let totalCells = 0;
 let alreadyLinked = 0;
 let newlyLinked = 0;
 let bugFixed = 0;
+let stripped = 0;
 let unresolved = 0;
 let filesModified = 0;
 
@@ -358,7 +394,12 @@ for (const filePath of panelFiles) {
         // Only write item.regime when the resolved ID exists in polity.csv.
         // Speculative IDs (events misclassified as polities, candidate stubs)
         // would pollute curated panel data and re-surface as orphan FKs.
-        if (result && typeof result === 'object' && result.fixed) {
+        if (result && typeof result === 'object' && result.strip) {
+          // Non-polity ID — delete the regime field entirely
+          delete item.regime;
+          stripped++;
+          modified = true;
+        } else if (result && typeof result === 'object' && result.fixed) {
           if (existingPolities.has(result.id)) {
             item.regime = result.id;
             bugFixed++;
@@ -426,6 +467,7 @@ console.log('Cell linking:');
 console.log(`  Already linked:   ${alreadyLinked}`);
 console.log(`  Newly linked:     ${newlyLinked}`);
 console.log(`  Bug fixes:        ${bugFixed}`);
+console.log(`  Stripped:         ${stripped} (non-polity regime fields deleted)`);
 console.log(`  Unresolved:       ${unresolved} (events, ?, ambiguous)`);
 console.log(`  Files modified:   ${filesModified}`);
 console.log(`\nCanonical entities: ${canonicalEntities.size}`);
