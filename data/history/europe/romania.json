@@ -215,7 +215,8 @@
           "stack": [
             {
               "label": "Pechenegs → Cumans",
-              "note": "from c.1040"
+              "note": "from c.1040",
+              "regime": "pechenegs"
             },
             {
               "label": "Second Bulgarian Empire border",
@@ -228,7 +229,8 @@
           "stack": [
             {
               "label": "Pechenegs → Cumans (dominant)",
-              "note": "from c.1040"
+              "note": "from c.1040",
+              "regime": "pechenegs"
             }
           ],
           "span": 1
@@ -382,7 +384,8 @@
           "stack": [
             {
               "label": "Austrian Empire → Austria-Hungary",
-              "note": "in Hungarian half from 1867"
+              "note": "in Hungarian half from 1867",
+              "regime": "austrian_empire"
             }
           ],
           "span": 1
@@ -425,7 +428,8 @@
           "stack": [
             {
               "label": "Austria-Hungary → Romania",
-              "note": "Treaty of Trianon 1920"
+              "note": "Treaty of Trianon 1920",
+              "regime": "austria_hungary"
             }
           ],
           "span": 1

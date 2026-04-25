@@ -272,25 +272,32 @@ function registerEntity(entityId, name, type, panelId, originalLabel) {
   return entityId;
 }
 
+// Type a registered ID as 'existing_polity' only if it actually resolves to
+// polity.csv; otherwise it's a stale/speculative link from a prior run and
+// should be typed 'unresolved_polity' so canonical_entities.csv reflects truth.
+function typeForId(id) {
+  return existingPolities.has(id) ? 'existing_polity' : 'unresolved_polity';
+}
+
 // Resolve a label to a canonical entity ID
 function resolveLabel(label, existingRegimeField, panelId) {
   // Apply bug fixes to incorrect existing links
   const fix = BUG_FIXES.get(label);
   if (fix && existingRegimeField === fix.wrong) {
-    registerEntity(fix.correct, label, 'existing_polity', panelId, label);
+    registerEntity(fix.correct, label, typeForId(fix.correct), panelId, label);
     return { id: fix.correct, fixed: true };
   }
 
   // Normalize existing regime links via synonym map
   if (existingRegimeField && SYNONYM_MAP.has(existingRegimeField)) {
     const canonical = SYNONYM_MAP.get(existingRegimeField);
-    registerEntity(canonical, label, 'existing_polity', panelId, label);
+    registerEntity(canonical, label, typeForId(canonical), panelId, label);
     return { id: canonical, fixed: true };
   }
 
   // If cell already has a regime link, keep it
   if (existingRegimeField) {
-    registerEntity(existingRegimeField, label, 'existing_polity', panelId, label);
+    registerEntity(existingRegimeField, label, typeForId(existingRegimeField), panelId, label);
     return existingRegimeField;
   }
 
@@ -300,7 +307,7 @@ function resolveLabel(label, existingRegimeField, panelId) {
   // Try matching to existing polity
   const existingMatch = matchExistingPolity(core);
   if (existingMatch) {
-    registerEntity(existingMatch, core, 'existing_polity', panelId, label);
+    registerEntity(existingMatch, core, typeForId(existingMatch), panelId, label);
     return existingMatch;
   }
 
@@ -348,14 +355,20 @@ for (const filePath of panelFiles) {
 
         const result = resolveLabel(item.label, item.regime, panelId);
 
-        // Handle bug fix return { id, fixed: true }
+        // Only write item.regime when the resolved ID exists in polity.csv.
+        // Speculative IDs (events misclassified as polities, candidate stubs)
+        // would pollute curated panel data and re-surface as orphan FKs.
         if (result && typeof result === 'object' && result.fixed) {
-          item.regime = result.id;
-          bugFixed++;
-          modified = true;
+          if (existingPolities.has(result.id)) {
+            item.regime = result.id;
+            bugFixed++;
+            modified = true;
+          } else {
+            unresolved++;
+          }
         } else if (item.regime) {
           alreadyLinked++;
-        } else if (result) {
+        } else if (result && existingPolities.has(result)) {
           item.regime = result;
           newlyLinked++;
           modified = true;

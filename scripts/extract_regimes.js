@@ -12,9 +12,9 @@ const HISTORY_DIR = path.join(__dirname, '..', 'data', 'history');
 const OUT_FILE = path.join(__dirname, '..', 'csvs', 'panel_labels.csv');
 
 // Load existing polity IDs for matching
-const regimesCSV = fs.readFileSync(path.join(__dirname, '..', 'csvs', 'regimes.csv'), 'utf8');
+const polityCSV = fs.readFileSync(path.join(__dirname, '..', 'csvs', 'polity.csv'), 'utf8');
 const existingPolityIds = new Set(
-  regimesCSV.split('\n').slice(1).filter(Boolean).map(line => line.split(',')[0])
+  polityCSV.split('\n').slice(1).filter(Boolean).map(line => line.split(',')[0])
 );
 
 // ─── CATEGORIZATION RULES ─────────────────────────────────

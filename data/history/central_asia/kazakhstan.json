@@ -313,7 +313,8 @@
             },
             {
               "label": "Yuezhi (before westward migration)",
-              "note": "c.300–170 BCE"
+              "note": "c.300–170 BCE",
+              "regime": "yuezhi"
             }
           ],
           "span": 1
@@ -540,7 +541,8 @@
           "stack": [
             {
               "label": "Pechenegs (origin here → move west)",
-              "note": "c.860–900"
+              "note": "c.860–900",
+              "regime": "pechenegs"
             },
             {
               "label": "Cuman–Kipchak (Desht-i-Kipchak)",

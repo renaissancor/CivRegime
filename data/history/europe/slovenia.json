@@ -348,7 +348,8 @@
         {
           "stack": [
             {
-              "label": "Austrian Empire → Austria-Hungary — Duchy of Styria"
+              "label": "Austrian Empire → Austria-Hungary — Duchy of Styria",
+              "regime": "austrian_empire"
             }
           ],
           "span": 1
@@ -364,7 +365,8 @@
         {
           "stack": [
             {
-              "label": "Italy — Istria (Treaty of Rapallo 1920)"
+              "label": "Italy — Istria (Treaty of Rapallo 1920)",
+              "regime": "italy"
             }
           ],
           "span": 1

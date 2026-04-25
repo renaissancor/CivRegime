@@ -570,7 +570,8 @@
           "stack": [
             {
               "label": "Austrian Empire → Austria-Hungary",
-              "note": "Kingdom of Galicia and Lodomeria"
+              "note": "Kingdom of Galicia and Lodomeria",
+              "regime": "austrian_empire"
             },
             {
               "label": "Ukrainian national awakening (Ruthenian movement)"

@@ -77,7 +77,8 @@
           "stack": [
             {
               "label": "Macedonian kingdom — Argead dynasty forming",
-              "note": "c.700s BCE"
+              "note": "c.700s BCE",
+              "regime": "macedonian_kingdom"
             },
             {
               "label": "Thessalian League",
@@ -249,7 +250,8 @@
         },
         {
           "label": "Kingdom of Epirus — Aeacid dynasty · expansion",
-          "span": 1
+          "span": 1,
+          "regime": "kingdom_of_epirus"
         }
       ]
     },
@@ -363,7 +365,8 @@
         {
           "stack": [
             {
-              "label": "Kingdom of Epirus — post-Pyrrhus fragmentation"
+              "label": "Kingdom of Epirus — post-Pyrrhus fragmentation",
+              "regime": "kingdom_of_epirus"
             },
             {
               "label": "Epirote Republic / League",

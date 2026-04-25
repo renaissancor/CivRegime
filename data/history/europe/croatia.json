@@ -244,7 +244,8 @@
         {
           "stack": [
             {
-              "label": "Croatian Principality · Frankish suzerainty (Carolingian)"
+              "label": "Croatian Principality · Frankish suzerainty (Carolingian)",
+              "regime": "croatian_principality"
             }
           ],
           "span": 1
@@ -559,7 +560,8 @@
         {
           "stack": [
             {
-              "label": "Austrian Empire → Austria-Hungary"
+              "label": "Austrian Empire → Austria-Hungary",
+              "regime": "austrian_empire"
             },
             {
               "label": "Kingdom of Croatia-Slavonia (1868)",
@@ -579,7 +581,8 @@
         {
           "stack": [
             {
-              "label": "Italy — Istria (Treaty of Rapallo 1920)"
+              "label": "Italy — Istria (Treaty of Rapallo 1920)",
+              "regime": "italy"
             }
           ],
           "span": 1
@@ -613,7 +616,8 @@
           "stack": [
             {
               "label": "Italy — annexed Istria",
-              "note": "1941–1943"
+              "note": "1941–1943",
+              "regime": "italy"
             }
           ],
           "span": 1
@@ -621,7 +625,8 @@
         {
           "stack": [
             {
-              "label": "Italy (1941–43) → Germany / NDH (1943–45)"
+              "label": "Italy (1941–43) → Germany / NDH (1943–45)",
+              "regime": "italy"
             }
           ],
           "span": 1

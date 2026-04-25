@@ -587,7 +587,8 @@
             },
             {
               "label": "Zunbil dynasty (Zabulistan — resisted Arab conquest for 200 years)",
-              "note": "650–870"
+              "note": "650–870",
+              "regime": "zunbil_dynasty"
             },
             {
               "label": "Tocharistan Yabgu (northern Kandahar fringe)",
@@ -720,7 +721,8 @@
           "stack": [
             {
               "label": "Türk Shahis → Hindu Shahis (drove out Türk Shahis)",
-              "note": "870–1026"
+              "note": "870–1026",
+              "regime": "turk_shahis"
             },
             {
               "label": "Second Türkic Empire (nominal suzerainty)",

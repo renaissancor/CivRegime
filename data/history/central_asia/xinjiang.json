@@ -97,7 +97,8 @@
           "stack": [
             {
               "label": "Yuezhi (before westward migration 176 BCE)",
-              "note": "c.300–176 BCE"
+              "note": "c.300–176 BCE",
+              "regime": "yuezhi"
             },
             {
               "label": "Xiongnu (supreme after 176 BCE)",

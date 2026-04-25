@@ -542,7 +542,8 @@
       "cells": [
         {
           "label": "Northern Yuan (declining) · Uriyangkhai Three Guards",
-          "span": 1
+          "span": 1,
+          "regime": "northern_yuan"
         },
         {
           "regime": "ming_dynasty",

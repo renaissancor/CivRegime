@@ -555,7 +555,8 @@
         {
           "label": "German Confederation (northern members)",
           "note": "",
-          "span": 1
+          "span": 1,
+          "regime": "german_confederation"
         },
         {
           "stack": [

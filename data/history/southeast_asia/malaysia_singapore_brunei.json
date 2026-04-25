@@ -141,7 +141,8 @@
             },
             {
               "label": "Brunei Sultanate (emerging — Islamization)",
-              "note": "c.14th c.–"
+              "note": "c.14th c.–",
+              "regime": "brunei_sultanate"
             }
           ],
           "span": 1
@@ -172,7 +173,8 @@
           "stack": [
             {
               "label": "Sulu Sultanate (influence on NE Borneo)",
-              "note": "c.1405–"
+              "note": "c.1405–",
+              "regime": "sulu_sultanate"
             },
             {
               "label": "Sarawak Sultanate",
@@ -250,7 +252,8 @@
           "stack": [
             {
               "label": "Brunei Sultanate (declining — cedes territory)",
-              "note": "17th–19th c."
+              "note": "17th–19th c.",
+              "regime": "brunei_sultanate"
             }
           ],
           "span": 1
@@ -498,7 +501,8 @@
           "stack": [
             {
               "label": "Brunei (declines to join Malaysia)",
-              "note": "1963"
+              "note": "1963",
+              "regime": "brunei_sultanate"
             }
           ],
           "span": 1

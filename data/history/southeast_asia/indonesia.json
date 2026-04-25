@@ -241,7 +241,8 @@
           "stack": [
             {
               "label": "Majapahit Empire (declining)",
-              "note": "c.1400–1527"
+              "note": "c.1400–1527",
+              "regime": "majapahit_empire"
             },
             {
               "label": "Bali — Warmadiwa dynasty → Gelgel kingdom",

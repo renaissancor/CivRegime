@@ -16,14 +16,57 @@ const ENTITIES_OUT = path.join(BASE, 'csvs', 'panel_entities.csv');
 const LINKED_OUT = path.join(BASE, 'csvs', 'panel_labels_linked.csv');
 
 // Load existing polity IDs
-const regimesCSV = fs.readFileSync(path.join(BASE, 'csvs', 'regimes.csv'), 'utf8');
+const polityCSV = fs.readFileSync(path.join(BASE, 'csvs', 'polity.csv'), 'utf8');
 const existingPolities = new Map();
-for (const line of regimesCSV.split('\n').slice(1)) {
+for (const line of polityCSV.split('\n').slice(1)) {
   if (!line.trim()) continue;
   const match = line.match(/^([^,]+),(".*?"|[^,]*)/);
   if (match) {
     existingPolities.set(match[1], match[2].replace(/^"|"$/g, ''));
   }
+}
+
+// Synonym map: bare names / removed IDs → canonical polity IDs.
+// Mirrors dedup_and_link.js so both passes resolve the same way.
+const SYNONYM_MAP = new Map([
+  ['roman_empire_pagan', 'roman_empire'],
+  ['roman_empire_christian', 'roman_empire'],
+  ['il_khanate', 'ilkhanate'],
+  ['samanid_dynasty', 'samanid_empire'],
+  ['samanid', 'samanid_empire'],
+  ['ghaznavid_dynasty', 'ghaznavid_empire'],
+  ['ghaznavid', 'ghaznavid_empire'],
+  ['safavid_dynasty', 'safavid_empire'],
+  ['safavid', 'safavid_empire'],
+  ['median_empire', 'median_kingdom'],
+  ['mitanni_kingdom', 'mitanni_empire'],
+  ['almohad_dynasty', 'almohad_caliphate'],
+  ['ayyubid_dynasty', 'ayyubid_sultanate'],
+  ['ghurid_sultanate', 'ghorid_dynasty'],
+  ['ghurid', 'ghorid_dynasty'],
+  ['ghorid', 'ghorid_dynasty'],
+  ['sassanid', 'sassanid_empire'],
+  ['ottoman', 'ottoman_empire'],
+  ['mughal', 'mughal_empire'],
+  ['mughal_empire_india', 'mughal_empire'],
+  ['qing', 'qing_dynasty'],
+  ['ming', 'ming_dynasty'],
+  ['tang', 'tang_dynasty'],
+  ['sui', 'sui_dynasty'],
+  ['carolingian', 'carolingian_empire'],
+  ['frankish_kingdom', 'carolingian_empire'],
+  ['first_turkic_empire', 'first_turkic_khaganate'],
+  ['habsburg', 'habsburg_monarchy'],
+  ['habsburg_empire', 'habsburg_monarchy'],
+  ['alexander_the_great', 'macedonian_empire'],
+  ['alexander', 'macedonian_empire'],
+  ['prc', 'peoples_republic_of_china'],
+  ['venice_republic', 'republic_of_venice'],
+  ['venice', 'republic_of_venice'],
+]);
+
+function canonicalize(id) {
+  return SYNONYM_MAP.get(id) || id;
 }
 
 // ─── PARSE CSV ────────────────────────────────────────────
@@ -138,6 +181,12 @@ for (const [id, name] of existingPolities) {
 function resolveExistingPolity(label) {
   // Direct regime field link
   const normLabel = toSnakeId(stripParens(stripNativeScript(label)));
+
+  // Try synonym map first
+  if (SYNONYM_MAP.has(normLabel)) {
+    const canon = SYNONYM_MAP.get(normLabel);
+    if (existingPolities.has(canon)) return canon;
+  }
   if (existingByNorm.has(normLabel)) return existingByNorm.get(normLabel);
 
   // Try without common suffixes
@@ -151,7 +200,7 @@ function resolveExistingPolity(label) {
   return null;
 }
 
-function getOrCreateEntity(label, category, panel_id) {
+function getOrCreateEntity(label, category, panel_id, existingPolityLink) {
   const clean = stripNativeScript(label);
   const { polity: polityPart, qualifier } = splitDashLabel(clean);
   const polityClean = stripParens(polityPart);
@@ -160,8 +209,16 @@ function getOrCreateEntity(label, category, panel_id) {
   // Skip empty
   if (!normKey) return { entity_id: '', entity_type: 'skip' };
 
-  // If already linked to existing polity
-  const existingId = resolveExistingPolity(polityClean);
+  // Canonicalize an explicit existing_polity_link from the source CSV
+  // (may carry deprecated IDs like roman_empire_pagan/_christian).
+  let resolvedExistingLink = '';
+  if (existingPolityLink) {
+    const canon = canonicalize(existingPolityLink);
+    if (existingPolities.has(canon)) resolvedExistingLink = canon;
+  }
+
+  // If already linked to existing polity (via label match)
+  const existingId = resolvedExistingLink || resolveExistingPolity(polityClean);
 
   // Determine entity type from category + qualifier
   let entityType = category;
@@ -173,8 +230,9 @@ function getOrCreateEntity(label, category, panel_id) {
     entityId = existingId;
     entityType = 'existing_polity';
   } else if (category === 'linked') {
-    entityId = normKey;
-    entityType = 'existing_polity';
+    // Speculative link that no longer resolves to a polity row.
+    // Leave entity_id blank so it doesn't masquerade as resolved.
+    return { entity_id: '', entity_type: 'unresolved_link' };
   } else if (category === 'regime' || isDynastyQualifier(qualifier)) {
     // This is a dynasty/regime within a polity
     entityType = 'regime';
@@ -226,7 +284,7 @@ function getOrCreateEntity(label, category, panel_id) {
 
 for (const row of labels) {
   const { entity_id, entity_type } = getOrCreateEntity(
-    row.label, row.category, row.panel_id
+    row.label, row.category, row.panel_id, row.existing_polity_link
   );
   labelLinks.push({
     ...row,

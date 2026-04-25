@@ -1,58 +1,44 @@
 panel_id,stem,entity_a,label_a,start_a,end_a,column_a,entity_b,label_b,start_b,end_b,column_b,same_column,likely_duplicate
-afghanistan,seleucid,seleucid_empire,Seleucid Empire (Aria province),-312,-250,herat,seleucid,Seleucid → Greco-Bactrian,-312,-130,badakhshan,no,review
-afghanistan,sassanid,sassanid_empire,Sassanid Empire,224,651,herat,sassanid,Sassanid (restored in Aria),560,651,herat,yes,review
 afghanistan,tocharistan_yabgu,tocharistan_yabgu,Tocharistan Yabgu (northern Kandahar fringe),625,738,kandahar,tocharistan_yabgu_state,Tocharistan Yabgu state,625,738,balkh,no,review
-turkmenistan,sassanid,sassanid_empire,Sassanid Empire,224,651,margiana,sassanid,Sassanid (restored),560,651,margiana,yes,review
-xinjiang,kara_khanid,kara_khanid_khanate,Kara-Khanid Khanate (first Islamic Turkic state — Kashgar capital),940,1212,kashgaria,kara_khanid,Kara-Khanid (northern fringe),940,1130,dzungaria,no,review
 japan,ezo,ezo,Ezo,,,col_3,ezo_republic,Ezo Republic,,,col_3,yes,review
-japan,ryukyu,ryukyu_kingdom,Ryukyu Kingdom,,,col_4,ryukyu,Ryukyu (US administration),,,col_4,yes,review
-korea,qing,qing_dynasty,Qing Dynasty,1644,1897,manchuria,qing,Qing → Russian sphere,,,manchuria,yes,review
-manchuria,yuan,yuan_dynasty,Yuan,,,west,yuan,Yuan — Liaoyang Province,,,south,no,review
-manchuria,qing,qing,Qing,1636,,west,qing_dynasty,Qing,,,west,yes,review
 manchuria,russian,russian_empire,Russian Empire — Amur,1858,,north,russian_republic,Russian Republic,1917,,north,yes,review
 manchuria,russian,russian_empire,Russian Empire — Amur,1858,,north,russian_state,Russian State (Kolchak),1918,1920,north,yes,review
 manchuria,russian,russian_republic,Russian Republic,1917,,north,russian_state,Russian State (Kolchak),1918,1920,north,yes,review
-mongolia,tang,tang,Tang (唐),,,south,tang_dynasty,Tang dynasty (唐),,,south,yes,review
 mongolia,kyrgyz,kyrgyz_khaganate,Kyrgyz Khaganate (黠戛斯),,,central,kyrgyz,Kyrgyz (western range),,,west,no,review
 mongolia,uriankhai,uriankhai,Uriankhai (兀良哈),,,north,uriankhai_republic,Uriankhai Republic,1911,1914,north,yes,review
 tibet,zhangzhung,zhangzhung_kingdom,Zhangzhung Kingdom,-500,625,ngari,zhangzhung,Zhangzhung (continuing),,,ngari,yes,review
+tibet,mon_yul,mon_yul_kingdom,Mon-yul Kingdom,,,bhutan,mon_yul,Mon-yul / tribal communities,,,bhutan,yes,review
 tibet,sikkim,sikkim_kingdom,Sikkim Kingdom (Namgyal dynasty),1642,,sikkim,sikkim,Sikkim (British protectorate),,,sikkim,yes,review
 tibet,jammu_kashmir,jammu_kashmir,Jammu & Kashmir (Dogra princely state),1846,1947,ladakh,jammu_kashmir_state,Jammu & Kashmir State → Ladakh Union Territory,,,ladakh,yes,review
-albania,byzantine,byzantine_empire,Eastern Roman / Byzantine Empire,,,north,byzantine,Byzantine (Lake Ohrid — Ohrid Archbishopric),,,east,no,review
 albania,albanian,albanian_republic,Albanian Republic — Fan Noli,1924,1925,north,albanian_kingdom,Albanian Kingdom — Zog I,1928,1939,north,yes,review
-bulgaria,byzantine,byzantine,Byzantine (Eastern Roman),,,south,byzantine_empire,Byzantine Empire,,,cent,no,review
 croatia,roman,roman_empire,Roman Empire — Regio X (Venetia et Histria),,,istria,roman_republic,Roman Republic (Illyrian Wars),-229,-168,dalm,no,review
-croatia,byzantine,byzantine_empire,Byzantine Empire,,,istria,byzantine,Byzantine (coastal cities),,,dalm,no,review
-croatia,venice,venice,Venice — acquiring coastal towns,1000,,istria,venice_republic,Venice Republic (acquiring coastal towns),,,istria,yes,review
+france,roman,roman_republic,Roman Republic — Gallia Belgica,-27,,north,roman_empire,Roman Empire — Gallia Belgica · Lugdunensis,-27,380,north,yes,review
 france,burgundian,burgundian_kingdom,Burgundian Kingdom,411,534,east,burgundian_state,Burgundian State (Low Countries + Franche-Comté),1384,1477,east,yes,review
 france,french_first,french_first_republic,French First Republic,1792,1804,north,french_first_empire,French First Empire — Bonaparte dynasty,1804,1814,north,yes,review
 france,french_second,french_second_republic,French Second Republic,1848,1852,north,french_second_empire,French Second Empire — Bonaparte dynasty,1852,1870,north,yes,review
+germany,roman,roman_republic,Roman Republic — Gallic Wars (Caesar),-50,,west,roman_empire,Roman Empire — Germania Superior · Inferior,-12,,west,yes,review
 germany,german,german_kingdom,German Kingdom (Regnum Teutonicorum),,,west,german_confederation,German Confederation (Deutscher Bund — 39 states),1815,1866,west,yes,review
 germany,german,german_kingdom,German Kingdom (Regnum Teutonicorum),,,west,german_empire,German Empire (Deutsches Kaiserreich),1871,1918,west,yes,review
 germany,german,german_confederation,German Confederation (Deutscher Bund — 39 states),1815,1866,west,german_empire,German Empire (Deutsches Kaiserreich),1871,1918,west,yes,review
+iberia,roman,roman_republic,Roman Republic — Lusitania (Sertorius revolt 80–72 BCE),-27,,portugal,roman_empire,Roman Empire — Gallaecia · Lusitania,-27,380,portugal,yes,review
 italy,roman,roman_kingdom,Roman Kingdom,-753,-509,center,roman_republic,Roman Republic — Gallia Cisalpina,-27,,north,no,review
-north_macedonia,ottoman,ottoman,Ottoman — early conquest,1385,,east,ottoman_empire,"Ottoman Empire — Monastir, Kosovo & Salonika vilayets",,,west,no,review
+italy,roman,roman_kingdom,Roman Kingdom,-753,-509,center,roman_empire,Roman Empire (Italia),-27,380,north,no,review
+italy,roman,roman_republic,Roman Republic — Gallia Cisalpina,-27,,north,roman_empire,Roman Empire (Italia),-27,380,north,yes,review
+low_countries,roman,roman_republic,Roman Republic (Gallic Wars — Caesar),-27,,north,roman_empire,Roman Empire — Germania Inferior,-27,,north,yes,review
 slovenia,roman,roman_empire,Roman Empire — Regio X (Venetia et Histria),,,istria,roman_republic,Roman Republic → Roman Empire,,,lj,no,review
-slovenia,venice,venice,Venice — Istrian coastal towns,1267,,istria,venice_republic,Venice Republic (coast),,,istria,yes,review
+mexico,first_mexican,first_mexican_empire,First Mexican Empire (Iturbide),1821,1823,central,first_mexican_republic,First Mexican Republic,1824,1864,central,yes,review
 armenia,hasan_jalalid,hasan_jalalid_dynasty,Hasan-Jalalid dynasty (Artsakh),1214,1261,peripheral,hasan_jalalid,Hasan-Jalalid (Artsakh · Karabakh),1261,1500,peripheral,yes,review
 azerbaijan,shirvanshah,shirvanshah_kingdom,Shirvanshah Kingdom (Mazyadids),799,1538,shirvan,shirvanshah,Shirvanshah (Kesranids — under Seljuk),1027,1382,shirvan,yes,review
+egypt,roman,roman_republic,Roman Republic,-27,,lower,roman_empire,Roman Empire,-27,284,lower,yes,review
 georgia,colchis,colchis_kingdom,Colchis Kingdom (Egrisi),-1300,-600,west,colchis,Colchis → Pontus client kingdom,-63,,west,yes,review
 iraq,roman,roman_republic,Roman Republic (border campaigns),,,nw,roman_empire,Roman Empire (Mesopotamia · Assyria provinces),116,118,nw,yes,review
-levant,mitanni,mitanni_kingdom,Mitanni Kingdom,-1500,-1300,n_syria,mitanni,Mitanni,-1500,-1300,damascus,no,review
 morocco,wattasid,wattasid,Wattasid (inland),1472,1554,tangier,wattasid_dynasty,Wattasid dynasty,1472,1554,rif,no,review
-morocco,alawite,alawite_dynasty,"Alawite dynasty (Sharifs of Morocco) — unified Morocco, Marrakesh then Fes as capital",,,rif,alawite,Alawite (Tafilalet — dynasty's origin),,,wsahara,no,review
 yemen,qataban,qataban_kingdom,Qataban kingdom,-800,-200,south,qataban,Qataban (declining — absorbed by Himyar),,,south,yes,review
 yemen,hadramaut,hadramaut_kingdom,Hadramaut kingdom,-800,300,east,hadramaut,Hadramaut (absorbed by Himyar),,,east,yes,review
-algeria,byzantine,byzantine,Byzantine (coastal garrisons),533,698,algiers,byzantine_empire,Byzantine Empire,534,698,east,no,review
-algeria,zirid,zirid,Zirid (Ashir principality),972,1070,algiers,zirid_dynasty,Zirid dynasty,969,1052,east,no,review
-algeria,zayyanid_abdalwadid,zayyanid_abdalwadid_dynasty,Zayyanid / Abdalwadid dynasty (Tlemcen),1235,1556,west,zayyanid_abdalwadid,Zayyanid / Abdalwadid (–1556),1556,,west,yes,review
-algeria,hafsid,hafsid,Hafsid (nominal suzerainty),,,kabylia,hafsid_dynasty,Hafsid dynasty (Constantine),1229,1574,east,no,review
 sudan,alwa,alwa,Alwa (forming),,,alwa,alwa_kingdom,Alwa Kingdom (forming),,,alwa,yes,review
-iran,saffarid,saffarid_dynasty,Saffarid Dynasty,861,1003,khorasan,saffarid,Saffarid (remnant),1003,,sistan,no,review
-iran,safavid,safavid_empire,Safavid Empire,,,mazandaran,safavid,Safavid (collapse),1709,1736,mazandaran,yes,review
-iran,qajar,qajar,Qajar (consolidating),1794,1796,mazandaran,qajar_dynasty,Qajar Dynasty,1796,1925,mazandaran,yes,review
-india,pratihara,pratihara_dynasty,Gurjara-Pratihara Dynasty (Gujarat · Rajasthan),730,1036,indus,pratihara,Pratihara declining → Rajput fragmentation,,,upper_ganges,no,review
+united_states,hawaii,hawaii_kingdom,Native Hawaiian (Polynesian settlement c. 1000),1000,,hawaii,hawaii_republic,Republic of Hawaiʻi (1894–1898),1894,1898,hawaii,yes,review
 india,madurai_nayak,madurai_nayak_dynasty,Madurai Nayak dynasty,1529,1736,south,madurai_nayak,Madurai Nayak (continuing),,,south,yes,review
+india,carnatic,carnatic_sultanate,Carnatic Sultanate / Nawabate,,,central,carnatic,Carnatic — Anglo-French wars,,,south,no,review
 pakistan,kashmir,kashmir,Kashmir (early kingdoms),-600,,north,kashmir_sultanate,Kashmir Sultanate (Shah Mir dynasty),1339,1586,north,yes,review
 sri_lanka,ruhuna,ruhuna_kingdom,Ruhuna kingdom (southeastern principality),-200,,east,ruhuna,Ruhuna (refuge for Sinhalese kings during invasions),,,east,yes,review
 indonesia,srivijaya,srivijaya_empire,Srivijaya Empire (Palembang — maritime thalassocracy),650,1025,sumatra,srivijaya,Srivijaya (declining after Chola raids),1025,,sumatra,yes,review
@@ -60,5 +46,6 @@ malaysia_singapore_brunei,brunei,brunei_sultanate,Brunei Sultanate (emerging —
 myanmar,arakan,arakan,"Arakan (under Bagan influence, then independent)",,,arakan,arakan_kingdom,Arakan kingdom (Laungkyet dynasty),1237,1430,arakan,yes,review
 thailand_cambodia_laos,khmer,khmer_empire,Khmer Empire (dominates central Thailand / Isan),,,thailand,khmer_republic,Khmer Republic (Lon Nol — US-backed),1970,1975,cambodia,no,review
 thailand_cambodia_laos,lanna,lanna_kingdom,Lanna kingdom (Chiang Mai — northern Thai),1292,1558,thailand,lanna,Lanna (Burmese vassal after 1558),1558,1774,thailand,yes,review
+thailand_cambodia_laos,luang_prabang,luang_prabang_kingdom,Luang Prabang kingdom,1707,1893,laos,luang_prabang,Luang Prabang · Champasak (Siamese vassals),,,laos,yes,review
 west_africa,ghana,ghana_empire,Ghana Empire (Wagadu — Soninke),300,1235,center,ghana,Ghana (first sub-Saharan independence — Nkrumah),1957,,east,no,review
 west_africa,mali,mali_empire,Mali Empire (Mandinka — Sundiata Keita),1235,1600,center,mali_republic,Mali Republic,1960,,center,yes,review

@@ -159,7 +159,8 @@
           "stack": [
             {
               "label": "Funan → Chenla (Khmer predecessor)",
-              "note": "6th c.–"
+              "note": "6th c.–",
+              "regime": "funan"
             }
           ],
           "span": 1
@@ -259,7 +260,8 @@
           "stack": [
             {
               "label": "Khmer Empire (Angkor — declining)",
-              "note": "–15th c."
+              "note": "–15th c.",
+              "regime": "khmer_empire"
             }
           ],
           "span": 1

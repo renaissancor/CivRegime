@@ -448,7 +448,8 @@
           "stack": [
             {
               "label": "Turk Shahis → Hindu Shahis (Gandhara)",
-              "note": "c.565–1026"
+              "note": "c.565–1026",
+              "regime": "turk_shahis"
             },
             {
               "label": "Kashmir (Karkota → Utpala → Lohara dynasties)",
@@ -486,7 +487,8 @@
           "stack": [
             {
               "label": "Tahirid dynasty (nominal)",
-              "note": "821–873"
+              "note": "821–873",
+              "regime": "tahirid_dynasty"
             },
             {
               "regime": "saffarid_dynasty",

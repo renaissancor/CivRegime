@@ -551,7 +551,8 @@
             },
             {
               "label": "Mongol Il-Khanate (raids)",
-              "note": "1260"
+              "note": "1260",
+              "regime": "mongol_il_khanate"
             },
             {
               "regime": "mamluk_sultanate",

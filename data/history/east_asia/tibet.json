@@ -657,7 +657,8 @@
             },
             {
               "label": "Jammu & Kashmir (princely state — accession dispute)",
-              "note": null
+              "note": null,
+              "regime": "jammu_kashmir"
             }
           ],
           "span": 1

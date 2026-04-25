@@ -369,7 +369,8 @@
         {
           "stack": [
             {
-              "label": "Italian East Africa → Ethiopian Empire"
+              "label": "Italian East Africa → Ethiopian Empire",
+              "regime": "italian_east_africa"
             },
             {
               "label": "Ogaden region (Somali borderlands)",

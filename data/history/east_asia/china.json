@@ -795,7 +795,8 @@
           "stack": [
             {
               "label": "Later Jin (后金) → Qing",
-              "note": "1616/1636–"
+              "note": "1616/1636–",
+              "regime": "later_jin"
             }
           ],
           "span": 1

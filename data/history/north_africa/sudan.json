@@ -264,7 +264,8 @@
         {
           "stack": [
             {
-              "label": "Kanem Empire (eastern influence)"
+              "label": "Kanem Empire (eastern influence)",
+              "regime": "kanem_empire"
             }
           ],
           "span": 1
@@ -439,7 +440,8 @@
         {
           "stack": [
             {
-              "label": "Beja (under Ottoman / Funj suzerainty)"
+              "label": "Beja (under Ottoman / Funj suzerainty)",
+              "regime": "beja"
             }
           ],
           "span": 1

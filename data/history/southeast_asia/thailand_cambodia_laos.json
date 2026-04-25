@@ -165,7 +165,8 @@
           "stack": [
             {
               "label": "Khmer Empire (declining under Thai pressure)",
-              "note": "13th–15th c."
+              "note": "13th–15th c.",
+              "regime": "khmer_empire"
             },
             {
               "label": "Post-Angkor Cambodia (Phnom Penh · Lovek · Oudong)",

@@ -15,9 +15,9 @@ const HISTORY_DIR = path.join(BASE, 'data', 'history');
 const OUT_FILE = path.join(BASE, 'csvs', 'overlap_candidates.csv');
 
 // Load existing polity IDs
-const regimesCSV = fs.readFileSync(path.join(BASE, 'csvs', 'regimes.csv'), 'utf8');
+const polityCSV = fs.readFileSync(path.join(BASE, 'csvs', 'polity.csv'), 'utf8');
 const existingPolities = new Map();
-for (const line of regimesCSV.split('\n').slice(1)) {
+for (const line of polityCSV.split('\n').slice(1)) {
   if (!line.trim()) continue;
   const match = line.match(/^([^,]+),(".*?"|[^,]*)/);
   if (match) existingPolities.set(match[1], match[2].replace(/^"|"$/g, ''));
