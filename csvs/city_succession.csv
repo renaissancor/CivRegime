@@ -1,0 +1,8 @@
+from_city_id,to_city_id,succession_type,year,note
+ctesiphon,baghdad,capital_function,762,Abbasid foundation 35 km north of Sasanian Ctesiphon
+memphis_egypt,cairo,capital_function,969,Fatimid foundation north of long-decayed Memphis
+carthage,tunis,regional_center,698,Tunis emerged as regional center after Arab destruction of Carthage
+xianyang,xian,capital_function,-202,Han founded Chang'an after destruction of Qin Xianyang
+buda,budapest,merger,1873,
+pest,budapest,merger,1873,
+obuda,budapest,merger,1873,

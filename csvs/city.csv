@@ -1,0 +1,21 @@
+id,name,lat,lon,founding_year,abandonment_year,region,modern_country,note
+constantinople,Constantinople,41.0082,28.9784,-657,,europe,turkey,Refounded by Constantine 330 CE on site of Byzantion; Ottoman conquest 1453; officially renamed İstanbul 1930
+rome,Rome,41.9028,12.4964,-753,,europe,italy,
+athens,Athens,37.9838,23.7275,-1400,,europe,greece,
+carthage,Carthage,36.8528,10.3233,-814,698,north_africa,tunisia,Punic city destroyed 146 BCE; Roman city built atop ruins 49 BCE; Arab destruction 698 CE — modeled as one place
+tunis,Tunis,36.8065,10.1815,-300,,north_africa,tunisia,Berber-era settlement that became regional capital after Carthage's destruction
+memphis_egypt,Memphis,29.8500,31.2500,-3100,641,north_africa,egypt,Old Kingdom capital; gradually abandoned after Arab conquest
+cairo,Cairo,30.0444,31.2357,969,,north_africa,egypt,Founded by Fatimids; succeeds Memphis as regional capital
+ctesiphon,Ctesiphon,33.0936,44.5806,-129,637,west_asia,iraq,Parthian and Sasanian capital; abandoned after Arab conquest
+baghdad,Baghdad,33.3152,44.3661,762,,west_asia,iraq,Founded by al-Mansur on virgin ground; succeeds Ctesiphon as regional capital
+xianyang,Xianyang,34.3294,108.7080,-350,-206,east_asia,china,Qin capital razed by Xiang Yu; Han founded Chang'an ~10 km south
+xian,Xi'an,34.3416,108.9398,-202,,east_asia,china,Han Chang'an renamed Xi'an under Ming; succeeds Xianyang
+beijing,Beijing,39.9042,116.4074,-1045,,east_asia,china,Yuan/Ming/Qing palace cores shifted within the same place
+izmir,İzmir,38.4192,27.1287,-1100,,west_asia,turkey,Greek Smyrna; continuous occupation through Turkic rename
+konya,Konya,37.8746,32.4932,-3000,,west_asia,turkey,Greek Iconium; continuous occupation through Turkic rename
+new_york,New York,40.7128,-74.0060,1624,,north_america,united_states,Founded as New Amsterdam; renamed New York 1664
+saint_petersburg,Saint Petersburg,59.9343,30.3351,1703,,europe,russia,Renamed Petrograd 1914 Leningrad 1924 Saint Petersburg 1991
+buda,Buda,47.4969,19.0399,1241,1873,europe,hungary,West-bank royal capital; merged with Pest and Óbuda to form Budapest
+pest,Pest,47.4979,19.0561,1230,1873,europe,hungary,East-bank commercial city; merged into Budapest 1873
+obuda,Óbuda,47.5395,19.0427,89,1873,europe,hungary,Roman Aquincum origin; merged into Budapest 1873
+budapest,Budapest,47.4979,19.0402,1873,,europe,hungary,Formed by 1873 merger of Buda Pest and Óbuda

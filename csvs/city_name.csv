@@ -1,0 +1,27 @@
+city_id,name,language,start_year,end_year,note
+constantinople,Byzantion,greek,-657,330,
+constantinople,Constantinople,greek,330,1930,Official name through Byzantine and Ottoman eras
+constantinople,Konstantiniyye,ottoman_turkish,1453,1930,
+constantinople,İstanbul,turkish,1930,,Officially adopted 1930; phonetic descendant of "eis tin polin"
+constantinople,Tsargrad,old_church_slavonic,860,,Slavic name still used in some Orthodox contexts
+carthage,Qart-Hadasht,phoenician,-814,-146,
+carthage,Carthago,latin,-49,698,Roman refounding on the same hill
+xian,Chang'an,chinese,-202,1369,
+xian,Xi'an,chinese,1369,,Ming-era rename of the same site
+izmir,Smyrna,greek,-1100,,Still used by Greek speakers today
+izmir,İzmir,turkish,1300,,Phonetic descendant of "(eis tin) Smyrnan"
+konya,Iconium,greek,-3000,,Still used by Greek speakers today
+konya,Konya,turkish,1100,,
+new_york,New Amsterdam,dutch,1624,1664,
+new_york,New York,english,1664,,
+saint_petersburg,Saint Petersburg,russian,1703,1914,
+saint_petersburg,Petrograd,russian,1914,1924,Slavicized during WWI
+saint_petersburg,Leningrad,russian,1924,1991,Soviet rename
+saint_petersburg,Saint Petersburg,russian,1991,,Restored post-Soviet
+xianyang,Xianyang,chinese,-350,-206,
+beijing,Ji,chinese,-1045,938,
+beijing,Yanjing,chinese,938,1153,
+beijing,Zhongdu,chinese,1153,1264,
+beijing,Dadu,chinese,1264,1368,Yuan capital
+beijing,Beijing,chinese,1403,,Ming-era name; means "northern capital"
+beijing,Beiping,chinese,1928,1949,Republican rename
