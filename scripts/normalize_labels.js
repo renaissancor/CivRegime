@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 // ============================================================
 // Normalize panel labels into entity IDs following naming.md
-// Input:  csvs/panel_labels.csv
-// Output: csvs/panel_entities.csv  (deduplicated entity list)
-//         csvs/panel_labels_linked.csv  (labels → entity IDs)
+// Input:  csvs/derived/panel_labels.csv
+// Output: csvs/derived/panel_entities.csv         (deduplicated entity list)
+//         csvs/derived/panel_labels_linked.csv    (labels → entity IDs)
 // Usage:  node scripts/normalize_labels.js
 // ============================================================
 
@@ -11,9 +11,9 @@ const fs = require('fs');
 const path = require('path');
 
 const BASE = path.join(__dirname, '..');
-const LABELS_FILE = path.join(BASE, 'csvs', 'panel_labels.csv');
-const ENTITIES_OUT = path.join(BASE, 'csvs', 'panel_entities.csv');
-const LINKED_OUT = path.join(BASE, 'csvs', 'panel_labels_linked.csv');
+const LABELS_FILE = path.join(BASE, 'csvs', 'derived', 'panel_labels.csv');
+const ENTITIES_OUT = path.join(BASE, 'csvs', 'derived', 'panel_entities.csv');
+const LINKED_OUT = path.join(BASE, 'csvs', 'derived', 'panel_labels_linked.csv');
 
 // Load existing polity IDs
 const polityCSV = fs.readFileSync(path.join(BASE, 'csvs', 'polity.csv'), 'utf8');
@@ -153,7 +153,7 @@ function toSnakeId(name) {
     .slice(0, 60);
 }
 
-// Check if a qualifier looks like a dynasty/regime name
+// Check if a qualifier looks like a dynasty/polity name
 function isDynastyQualifier(q) {
   if (!q) return false;
   return /\b(dynasty|house|clan|regency|period)\b/i.test(q)
@@ -179,7 +179,7 @@ for (const [id, name] of existingPolities) {
 }
 
 function resolveExistingPolity(label) {
-  // Direct regime field link
+  // Direct polity field link
   const normLabel = toSnakeId(stripParens(stripNativeScript(label)));
 
   // Try synonym map first
@@ -233,9 +233,9 @@ function getOrCreateEntity(label, category, panel_id, existingPolityLink) {
     // Speculative link that no longer resolves to a polity row.
     // Leave entity_id blank so it doesn't masquerade as resolved.
     return { entity_id: '', entity_type: 'unresolved_link' };
-  } else if (category === 'regime' || isDynastyQualifier(qualifier)) {
-    // This is a dynasty/regime within a polity
-    entityType = 'regime';
+  } else if (category === 'polity' || isDynastyQualifier(qualifier)) {
+    // This is a dynasty/polity within a polity
+    entityType = 'polity';
     dynastyName = qualifier || polityClean;
     const polityId = existingId || toSnakeId(polityClean);
     const dynastySlug = toSnakeId(stripParens(dynastyName));

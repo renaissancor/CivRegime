@@ -4,7 +4,7 @@
 // overlaps within panels. Sorted by start year.
 //
 // Usage: node scripts/find_overlaps.js
-// Output: csvs/overlap_candidates.csv
+// Output: csvs/derived/overlap_candidates.csv
 // ============================================================
 
 const fs = require('fs');
@@ -12,7 +12,7 @@ const path = require('path');
 
 const BASE = path.join(__dirname, '..');
 const HISTORY_DIR = path.join(BASE, 'data', 'history');
-const OUT_FILE = path.join(BASE, 'csvs', 'overlap_candidates.csv');
+const OUT_FILE = path.join(BASE, 'csvs', 'derived', 'overlap_candidates.csv');
 
 // Load existing polity IDs
 const polityCSV = fs.readFileSync(path.join(BASE, 'csvs', 'polity.csv'), 'utf8');
@@ -60,7 +60,7 @@ function parseYears(note, label) {
     if (y > 500 && y < 2100) return { start: y, end: null };
   }
 
-  // Pattern: "-3500" (from regimes.csv style)
+  // Pattern: "-3500" (from polity.csv style)
   m = text.match(/(-?\d{3,4})\s*\/\s*(-?\d{3,4})/);
   if (m) return { start: parseInt(m[1]), end: parseInt(m[2]) };
 
@@ -138,7 +138,7 @@ for (const file of findFiles(HISTORY_DIR)) {
 
         const core = extractCore(item.label);
         const { start, end } = parseYears(item.note, item.label);
-        const entityId = item.regime || toSnakeId(core);
+        const entityId = item.polity || toSnakeId(core);
 
         allCells.push({
           panel_id: panelId,
@@ -154,7 +154,7 @@ for (const file of findFiles(HISTORY_DIR)) {
           start_year: start,
           end_year: end,
           span: span,
-          has_regime_link: !!item.regime,
+          has_polity_link: !!item.polity,
         });
       }
       colOffset += span;
@@ -240,25 +240,9 @@ for (const [stem, ids] of globalByStem) {
   });
 }
 
-// ─── SORTED TIMELINE OUTPUT ───────────────────────────────
+// ─── STATS COMPUTATION ────────────────────────────────────
 
-const withYears = allCells
-  .filter(c => c.start_year !== null)
-  .sort((a, b) => a.start_year - b.start_year);
-
-// Write timeline CSV
-const timelineOut = path.join(BASE, 'csvs', 'timeline_sorted.csv');
-{
-  const headers = ['start_year','end_year','panel_id','column_id','entity_id','core_name','label','note','has_regime_link'];
-  const lines = [headers.join(',')];
-  for (const c of withYears) {
-    lines.push(headers.map(h => {
-      const v = String(c[h] ?? '');
-      return v.includes(',') || v.includes('"') ? `"${v.replace(/"/g,'""')}"` : v;
-    }).join(','));
-  }
-  fs.writeFileSync(timelineOut, lines.join('\n') + '\n');
-}
+const withYears = allCells.filter(c => c.start_year !== null);
 
 // Write overlap candidates
 {

@@ -527,7 +527,7 @@ romanian_people_s_republic_socialist_republic_of_romania,people,Romanian People'
 romania,event,Romania,,1,romania,Romania — NATO (2004) · EU member (2007)
 scythian,existing_polity,Scythian / Sarmatian steppe fringe,,4,russia|ukraine|iran,Scythian / Sarmatian steppe fringe | Scythian Kingdom (steppe) | Scythian Kingdom | Scythian / Saka
 novgorod_republic,existing_polity,Novgorod Republic,,3,russia,Novgorod Republic — Rurik dynasty | Novgorod Republic (Lord Novgorod the Great) | Novgorod Republic
-kievan_rus_regime,existing_polity,Kievan Rus,,7,russia|ukraine,Kievan Rus — Vladimir-Suzdal Principality | Kievan Rus fringe · Khazar remnants | Kievan Rus — Volhynia principality | Kievan Rus — Kyiv (capital) | Kievan Rus — Pereyaslavl · Chernihiv | Kievan Rus steppe border · Pecheneg/Cuman raids | Kievan Rus — fragmented into principalities
+kievan_rus,existing_polity,Kievan Rus,,7,russia|ukraine,Kievan Rus — Vladimir-Suzdal Principality | Kievan Rus fringe · Khazar remnants | Kievan Rus — Volhynia principality | Kievan Rus — Kyiv (capital) | Kievan Rus — Pereyaslavl · Chernihiv | Kievan Rus steppe border · Pecheneg/Cuman raids | Kievan Rus — fragmented into principalities
 tsardom_russia,existing_polity,Tsardom of Russia,,3,russia,Tsardom of Russia — Ivan IV (the Terrible) | Tsardom of Russia | Tsardom of Russia — Kazan conquered (1552) · Astrakhan (1556)
 don_cossack_host,event,Don Cossack Host,,1,russia,Don Cossack Host (expansion)
 conquest_of_siberia_begins,event,Conquest of Siberia begins,,1,russia,Conquest of Siberia begins (Yermak)

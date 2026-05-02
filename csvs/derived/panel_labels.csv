@@ -2453,8 +2453,8 @@ russia,south,1,0,,Khazar Khaganate (south steppe),,1,khazar_khaganate,linked,kha
 russia,south,1,1,,Volga Bulgaria,c.700–1238 CE,1,volga_bulgaria,linked,volga_bulgaria
 russia,sib,1,0,,Indigenous peoples · Göktürk Khaganate influence,,1,goktürk_khaganate,linked,indigenous_peoples_gktrk_khaganate_influence
 russia,nw,2,0,Kievan Rus / Appanages,Novgorod Republic — Rurik dynasty,c.862 CE,1,novgorod_republic,linked,novgorod_republic
-russia,cent,2,0,Kievan Rus / Appanages,Kievan Rus — Vladimir-Suzdal Principality,,1,kievan_rus_regime,linked,kievan_rus
-russia,south,2,0,Kievan Rus / Appanages,Kievan Rus fringe · Khazar remnants,,1,kievan_rus_regime,linked,kievan_rus_fringe_khazar_remnants
+russia,cent,2,0,Kievan Rus / Appanages,Kievan Rus — Vladimir-Suzdal Principality,,1,kievan_rus,linked,kievan_rus
+russia,south,2,0,Kievan Rus / Appanages,Kievan Rus fringe · Khazar remnants,,1,kievan_rus,linked,kievan_rus_fringe_khazar_remnants
 russia,south,2,1,Kievan Rus / Appanages,Volga Bulgaria (Ural–Volga),,1,volga_bulgaria,linked,volga_bulgaria_ural_volga
 russia,sib,2,0,Kievan Rus / Appanages,Indigenous peoples — no Rus penetration,,1,indigenous_peoples,linked,indigenous_peoples
 russia,nw,3,0,,Novgorod Republic (Lord Novgorod the Great),Mongol invasion spared Novgorod 1237–1240; Alexander Nevsky defeats Teutonic Knights 1242,1,novgorod_republic,linked,novgorod_republic_lord_novgorod_the_great
@@ -2890,13 +2890,13 @@ ukraine,crimea,3,0,Early Medieval,Khazar Khaganate · Byzantine Chersonesus,,1,k
 ukraine,west,4,0,,Rus' Khaganate (Varangian polity),c.830–882,3,rus_khaganate,linked,rus_khaganate_varangian_polity
 ukraine,south,4,0,,Rus' Khaganate steppe fringe,,1,,polity,rus_khaganate_steppe_fringe
 ukraine,crimea,4,0,,Khazar Khaganate · Byzantine Chersonesus,,1,khazar_khaganate,linked,khazar_khaganate_byzantine_chersonesus
-ukraine,west,5,0,,Kievan Rus — Volhynia principality,,1,kievan_rus_regime,linked,kievan_rus
-ukraine,cent,5,0,,Kievan Rus — Kyiv (capital),Christianisation 988 CE,1,kievan_rus_regime,linked,kievan_rus
-ukraine,east,5,0,,Kievan Rus — Pereyaslavl · Chernihiv,,1,kievan_rus_regime,linked,kievan_rus
-ukraine,south,5,0,,Kievan Rus steppe border · Pecheneg/Cuman raids,,1,kievan_rus_regime,linked,kievan_rus_steppe_border_pechenegcuman_raids
+ukraine,west,5,0,,Kievan Rus — Volhynia principality,,1,kievan_rus,linked,kievan_rus
+ukraine,cent,5,0,,Kievan Rus — Kyiv (capital),Christianisation 988 CE,1,kievan_rus,linked,kievan_rus
+ukraine,east,5,0,,Kievan Rus — Pereyaslavl · Chernihiv,,1,kievan_rus,linked,kievan_rus
+ukraine,south,5,0,,Kievan Rus steppe border · Pecheneg/Cuman raids,,1,kievan_rus,linked,kievan_rus_steppe_border_pechenegcuman_raids
 ukraine,crimea,5,0,,Byzantine Chersonesus · Tmutarakan (Rus),,1,byzantine_chersonesus,linked,byzantine_chersonesus_tmutarakan_rus
 ukraine,west,6,0,Medieval,Principality of Galicia-Volhynia,"peak under Daniel of Galicia, r.1238–1264",1,galicia_volhynia,linked,principality_of_galicia_volhynia
-ukraine,cent,6,0,Medieval,Kievan Rus — fragmented into principalities,Kyiv sacked by Mongols 1240,2,kievan_rus_regime,linked,kievan_rus
+ukraine,cent,6,0,Medieval,Kievan Rus — fragmented into principalities,Kyiv sacked by Mongols 1240,2,kievan_rus,linked,kievan_rus
 ukraine,cent,6,1,Medieval,Mongol Golden Horde suzerainty,,2,golden_horde,linked,mongol_golden_horde_suzerainty
 ukraine,south,6,0,Medieval,Cumans (Pontic steppe),,1,cumans,linked,cumans_pontic_steppe
 ukraine,south,6,1,Medieval,Mongol Golden Horde,,1,golden_horde,linked,mongol_golden_horde

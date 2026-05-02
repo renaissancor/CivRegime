@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 // ============================================================
 // Deduplicate panel labels → canonical entities, then write
-// `regime` fields back into history JSON files.
+// `polity` fields back into history JSON files.
 //
 // Usage: node scripts/dedup_and_link.js [--dry-run]
 //
 // Outputs:
-//   csvs/canonical_entities.csv  — deduplicated entity list
-//   data/history/**/*.json       — updated with regime fields
+//   csvs/derived/canonical_entities.csv  — deduplicated entity list
+//   data/history/**/*.json               — updated with polity fields
 // ============================================================
 
 const fs = require('fs');
@@ -16,13 +16,13 @@ const path = require('path');
 const DRY_RUN = process.argv.includes('--dry-run');
 const BASE = path.join(__dirname, '..');
 const HISTORY_DIR = path.join(BASE, 'data', 'history');
-const ENTITIES_OUT = path.join(BASE, 'csvs', 'canonical_entities.csv');
+const ENTITIES_OUT = path.join(BASE, 'csvs', 'derived', 'canonical_entities.csv');
 
 // ─── LOAD EXISTING POLITIES ──────────────────────────────
 
-const regimesCSV = fs.readFileSync(path.join(BASE, 'csvs', 'polity.csv'), 'utf8');
+const politiesCSV = fs.readFileSync(path.join(BASE, 'csvs', 'polity.csv'), 'utf8');
 const existingPolities = new Map(); // id → name
-for (const line of regimesCSV.split('\n').slice(1)) {
+for (const line of politiesCSV.split('\n').slice(1)) {
   if (!line.trim()) continue;
   const match = line.match(/^([^,]+),(".*?"|[^,]*)/);
   if (match) {
@@ -166,14 +166,14 @@ const SYNONYM_MAP = new Map([
 ]);
 
 // ─── BUG FIX MAP ─────────────────────────────────────────
-// Known incorrect regime links found during curation.
+// Known incorrect polity links found during curation.
 // key = label text, value = { wrong, correct }
 const BUG_FIXES = new Map([
   ['Dabuyid Dynasty', { wrong: 'buyid_dynasty', correct: 'dabuyid_dynasty' }],
 ]);
 
 // ─── STRIP LIST ───────────────────────────────────────────
-// Regime IDs that must NEVER appear as polity FKs because they describe
+// Polity IDs that must NEVER appear as polity FKs because they describe
 // events, peoples, eras, or collectives rather than polities.
 // Source: docs/merge_map.md — gold-standard curation P3.6.
 const STRIP_LIST = new Set([
@@ -265,8 +265,8 @@ function categorize(label) {
   if (CULTURE_PAT.test(label)) return 'culture';
   if (PEOPLE_PAT.test(label)) return 'people';
   if (EVENT_PAT.test(label)) return 'event';
-  if (DYNASTY_PAT.test(label)) return 'regime';
-  if (DYNASTY_NUMBER_PAT.test(label)) return 'regime';
+  if (DYNASTY_PAT.test(label)) return 'dynasty';
+  if (DYNASTY_NUMBER_PAT.test(label)) return 'dynasty';
   return 'polity'; // default for things with entity names
 }
 
@@ -310,30 +310,30 @@ function typeForId(id) {
 }
 
 // Resolve a label to a canonical entity ID
-function resolveLabel(label, existingRegimeField, panelId) {
+function resolveLabel(label, existingPolityField, panelId) {
   // Strip non-polity IDs (events, peoples, eras, collectives) before any other check
-  if (existingRegimeField && STRIP_LIST.has(existingRegimeField)) {
+  if (existingPolityField && STRIP_LIST.has(existingPolityField)) {
     return { id: null, strip: true };
   }
 
   // Apply bug fixes to incorrect existing links
   const fix = BUG_FIXES.get(label);
-  if (fix && existingRegimeField === fix.wrong) {
+  if (fix && existingPolityField === fix.wrong) {
     registerEntity(fix.correct, label, typeForId(fix.correct), panelId, label);
     return { id: fix.correct, fixed: true };
   }
 
-  // Normalize existing regime links via synonym map
-  if (existingRegimeField && SYNONYM_MAP.has(existingRegimeField)) {
-    const canonical = SYNONYM_MAP.get(existingRegimeField);
+  // Normalize existing polity links via synonym map
+  if (existingPolityField && SYNONYM_MAP.has(existingPolityField)) {
+    const canonical = SYNONYM_MAP.get(existingPolityField);
     registerEntity(canonical, label, typeForId(canonical), panelId, label);
     return { id: canonical, fixed: true };
   }
 
-  // If cell already has a regime link, keep it
-  if (existingRegimeField) {
-    registerEntity(existingRegimeField, label, typeForId(existingRegimeField), panelId, label);
-    return existingRegimeField;
+  // If cell already has a polity link, keep it
+  if (existingPolityField) {
+    registerEntity(existingPolityField, label, typeForId(existingPolityField), panelId, label);
+    return existingPolityField;
   }
 
   const core = extractCore(label);
@@ -362,6 +362,12 @@ function resolveLabel(label, existingRegimeField, panelId) {
     entityId += '_culture';
   }
 
+  // Strip non-polity IDs that leak through label extraction
+  // (e.g., "Spring and Autumn" → spring_and_autumn, "Napoleon annexes Rome"
+  // → napoleon_annexes_rome). STRIP_LIST is now also checked here, not just
+  // on existingPolityField, so noise doesn't pollute canonical_entities.csv.
+  if (STRIP_LIST.has(entityId)) return null;
+
   registerEntity(entityId, core, cat, panelId, label);
   return entityId;
 }
@@ -389,28 +395,28 @@ for (const filePath of panelFiles) {
         if (!item.label) continue;
         totalCells++;
 
-        const result = resolveLabel(item.label, item.regime, panelId);
+        const result = resolveLabel(item.label, item.polity, panelId);
 
-        // Only write item.regime when the resolved ID exists in polity.csv.
+        // Only write item.polity when the resolved ID exists in polity.csv.
         // Speculative IDs (events misclassified as polities, candidate stubs)
         // would pollute curated panel data and re-surface as orphan FKs.
         if (result && typeof result === 'object' && result.strip) {
-          // Non-polity ID — delete the regime field entirely
-          delete item.regime;
+          // Non-polity ID — delete the polity field entirely
+          delete item.polity;
           stripped++;
           modified = true;
         } else if (result && typeof result === 'object' && result.fixed) {
           if (existingPolities.has(result.id)) {
-            item.regime = result.id;
+            item.polity = result.id;
             bugFixed++;
             modified = true;
           } else {
             unresolved++;
           }
-        } else if (item.regime) {
+        } else if (item.polity) {
           alreadyLinked++;
         } else if (result && existingPolities.has(result)) {
-          item.regime = result;
+          item.polity = result;
           newlyLinked++;
           modified = true;
         } else {
@@ -467,7 +473,7 @@ console.log('Cell linking:');
 console.log(`  Already linked:   ${alreadyLinked}`);
 console.log(`  Newly linked:     ${newlyLinked}`);
 console.log(`  Bug fixes:        ${bugFixed}`);
-console.log(`  Stripped:         ${stripped} (non-polity regime fields deleted)`);
+console.log(`  Stripped:         ${stripped} (non-polity polity fields deleted)`);
 console.log(`  Unresolved:       ${unresolved} (events, ?, ambiguous)`);
 console.log(`  Files modified:   ${filesModified}`);
 console.log(`\nCanonical entities: ${canonicalEntities.size}`);
