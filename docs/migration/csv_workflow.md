@@ -10,12 +10,12 @@ Open any CSV file in `csvs/` with a spreadsheet editor (Excel, LibreOffice Calc,
 ### 2. Run Generation Scripts
 ```bash
 # Regenerate all outputs
-node code/csv2json/states.js
+node code/makejson/civilizations.js
 node code/csv2json/polity.js
 node code/csv2json/territories.js
 
 # Or run all at once
-node code/csv2json/states.js && node code/csv2json/polity.js && node code/csv2json/territories.js
+node code/makejson/civilizations.js && node code/csv2json/polity.js && node code/csv2json/territories.js
 ```
 
 ### 3. Refresh Frontend
@@ -26,22 +26,22 @@ The frontend will automatically load the updated JSON files. Changes appear in v
 ## CSV Files and How to Edit Them
 
 ### **states.csv** - Political Continuities
-Groups related regimes under long-term political entities. Each regime must reference a state via `state_id`.
+Groups related polities under long-term political entities. Each polity must reference a state via `civilization_id`.
 
 **Columns:**
 - `id`: Numeric identifier (1, 2, 3...)
-- `name`: Display name (e.g., "Roman State")
+- `name`: Display name (e.g., "Roman Civilization")
 - `description`: Optional history/notes
 
 **Example:**
 ```csv
 id,name,description
-1,Roman State,Political continuity from Augustus to 1453
-2,Ottoman State,Political continuity from Osman I to 1923
+1,Roman Civilization,Political continuity from Augustus to 1453
+2,Ottoman Civilization,Political continuity from Osman I to 1923
 ```
 
 **When to edit:**
-- Add a new state when you have a group of regimes that represent a distinct political continuity
+- Add a new state when you have a group of polities that represent a distinct political continuity
 - Update descriptions to clarify the state's historical span
 
 ---
@@ -52,7 +52,7 @@ The main historical data. Each row represents an era or polity with ruling cultu
 **Columns:**
 - `id`: Unique text identifier (e.g., "roman_empire_pagan")
 - `name`: Display name (e.g., "Roman Empire (Pagan)")
-- `state_id`: FK to STATES.id (groups polities into political continuities)
+- `civilization_id`: FK to STATES.id (groups polities into political continuities)
 - `id_ruling_ethnicity`: FK to ETHNICITY.id (numeric ID of ruling culture)
 - `id_ruling_language`: FK to LANGUAGES.id (numeric ID of official language)
 - `id_ruling_religion`: FK to RELIGIONS.id (numeric ID of official religion)
@@ -61,22 +61,22 @@ The main historical data. Each row represents an era or polity with ruling cultu
 
 **Example:**
 ```csv
-id,name,state_id,id_ruling_ethnicity,id_ruling_language,id_ruling_religion,start,end
-roman_empire_pagan,Roman Empire (Pagan),roman_state,,335,106,-27,380
-roman_empire_christian,Roman Empire (Christian),roman_state,,335,2,380,395
+id,name,civilization_id,id_ruling_ethnicity,id_ruling_language,id_ruling_religion,start,end
+roman_empire_pagan,Roman Empire (Pagan),roman_civilization,,335,106,-27,380
+roman_empire_christian,Roman Empire (Christian),roman_civilization,,335,2,380,395
 byzantine_empire,Byzantine Empire,,,,15,395,1453
 ```
 
 **When to edit:**
 - Add a new polity by inserting a new row
 - Update polity name, dates, or cultural references
-- Reassign a polity to a different state via `state_id`
+- Reassign a polity to a different state via `civilization_id`
 - Correct spelling or simplify redundant names
 
 **Common edits:**
 ```csv
 # Change end date
-roman_empire_pagan,Roman Empire (Pagan),roman_state,,335,106,-27,410
+roman_empire_pagan,Roman Empire (Pagan),roman_civilization,,335,106,-27,410
 
 # Add new polity
 northern_song,Northern Song Dynasty,,,572,171,960,1127
@@ -262,13 +262,13 @@ ERROR: Polity 1 references id_ruling_ethnicity=999, but no ethnicity with id=999
 
 **Fix:** Update the polity.csv row to reference a valid ID.
 
-### Missing State
-If a polity references a `state_id` that doesn't exist in `states.csv`:
+### Missing Civilization
+If a polity references a `civilization_id` that doesn't exist in `states.csv`:
 ```
-WARNING: Polity 1 references state_id=999, but no state with id=999 exists
+WARNING: Polity 1 references civilization_id=999, but no state with id=999 exists
 ```
 
-**Fix:** Either create the state in `states.csv` or set `state_id` to an existing state (or NULL).
+**Fix:** Either create the state in `states.csv` or set `civilization_id` to an existing state (or NULL).
 
 ### Parent ID in Trees
 If an ethnicity/language/religion has a `parent_id` that doesn't exist:

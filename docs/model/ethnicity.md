@@ -27,7 +27,7 @@ In the data:
 - Broad groupings (`indo_aryan`, `south_slavic_eth`) exist for when granularity doesn't matter
 - Regional sub-groups exist for when it does (`bengali_eth`, `punjabi_eth`, etc.)
 
-Use the most specific level that is historically relevant for the regime in question.
+Use the most specific level that is historically relevant for the polity in question.
 
 ## The Religion Fracture
 
@@ -43,7 +43,7 @@ Serbs, Croats, and Bosniaks are a single ethnic group by every linguistic and ge
 | Croat | Roman Catholic | Habsburg Empire | Latin |
 | Bosniak | Sunni Islam | Ottoman Empire | (historically Arabic) |
 
-These three groups have different valid successors, different civilizational allegiances, and different regime inheritance chains — because they were absorbed into three different ideological spheres.
+These three groups have different valid successors, different civilizational allegiances, and different polity inheritance chains — because they were absorbed into three different ideological spheres.
 
 ### Indo-Aryan — The Layered Case
 
@@ -73,16 +73,16 @@ Same ethnic group (Persian/Iranian), same territory (Iranian Plateau), but:
 
 The Safavid revolution (1501) deliberately converted Iran to Shia Islam as a **state project** — to differentiate Iran from Ottoman Sunni power and create a distinct Iranian civilizational identity. Modern Iranian national identity is inseparable from Shia Islam, not just from Persian ethnicity.
 
-## Ethnicity in Regimes: Two Fields
+## Ethnicity in Polities: Two Fields
 
-Each regime records two ethnic dimensions:
+Each polity records two ethnic dimensions:
 
 - `ruling_ethnicity`: Who holds power (the dynasty's ancestral origin)
 - `cultural_language`: What language the court actually operates in
 
 These frequently diverge in large empires:
 
-| Regime | Ruling | Court Language | What it means |
+| Polity | Ruling | Court Language | What it means |
 |---|---|---|---|
 | Timurid | Turkic | Persian | Turkic conquerors adopted Persian high culture |
 | Mughal | Turkic | Persian | Same — Persian was the official state language |

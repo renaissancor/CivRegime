@@ -1,60 +1,60 @@
 {
   "id": "italy",
   "name": "italy",
-  "regime_count": 11,
-  "regimes": [
+  "polity_count": 11,
+  "polities": [
     {
-      "regime_id": "roman_kingdom",
+      "polity_id": "roman_kingdom",
       "start": -753,
       "end": -509
     },
     {
-      "regime_id": "roman_republic",
+      "polity_id": "roman_republic",
       "start": -509,
       "end": -27
     },
     {
-      "regime_id": "roman_empire",
+      "polity_id": "roman_empire",
       "start": -27,
       "end": 380
     },
     {
-      "regime_id": "roman_empire",
+      "polity_id": "roman_empire",
       "start": 380,
       "end": 395
     },
     {
-      "regime_id": "western_roman_empire",
+      "polity_id": "western_roman_empire",
       "start": 395,
       "end": 476
     },
     {
-      "regime_id": "odoacer_kingdom",
+      "polity_id": "odoacer_kingdom",
       "start": 476,
       "end": 493
     },
     {
-      "regime_id": "ostrogothic_kingdom",
+      "polity_id": "ostrogothic_kingdom",
       "start": 493,
       "end": 553
     },
     {
-      "regime_id": "lombard_kingdom",
+      "polity_id": "lombard_kingdom",
       "start": 568,
       "end": 774
     },
     {
-      "regime_id": "carolingian_empire",
+      "polity_id": "carolingian_empire",
       "start": 774,
       "end": 843
     },
     {
-      "regime_id": "holy_roman_empire",
+      "polity_id": "holy_roman_empire",
       "start": 962,
       "end": 1806
     },
     {
-      "regime_id": "kingdom_of_italy",
+      "polity_id": "kingdom_of_italy",
       "start": 1861,
       "end": 1946
     }

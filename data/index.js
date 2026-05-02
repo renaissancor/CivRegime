@@ -72,8 +72,8 @@ function loadTree(dir, parentId = null) {
 const DATA = __dirname;
 
 const db = {
-  // Regime data — flat directories, one file per geographic cluster
-  regimes:     loadDir(path.join(DATA, 'polity')),
+  // Polity data — flat directories, one file per geographic cluster
+  polities:     loadDir(path.join(DATA, 'polity')),
   successions: loadDir(path.join(DATA, 'succession')),
 
   territories: loadDir(path.join(DATA, 'territory')),

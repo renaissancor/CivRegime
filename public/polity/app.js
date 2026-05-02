@@ -1,19 +1,19 @@
 /**
- * Regime Viewer
- * Display regime details, succession chains, and controlled territories
+ * Polity Viewer
+ * Display polity details, succession chains, and controlled territories
  */
 
-let regimesData = [];
+let politiesData = [];
 let selectedRegimeId = null;
-let regimeById = {};
+let polityById = {};
 
 // Load lightweight polity list for sidebar
 cachedFetch('/api/polity').then(polities => {
-  regimesData = polities;
-  regimeById = {};
-  regimesData.forEach(r => { regimeById[r.id] = r; });
+  politiesData = polities;
+  polityById = {};
+  politiesData.forEach(r => { polityById[r.id] = r; });
 
-  renderRegimeList();
+  renderPolityList();
   attachEventListeners();
 
   // Deep-link: ?id=roman_empire
@@ -24,57 +24,57 @@ cachedFetch('/api/polity').then(polities => {
   document.getElementById('empty-state').textContent = 'Error loading data.';
 });
 
-function renderRegimeList() {
-  const sidebar = document.getElementById('regime-list');
+function renderPolityList() {
+  const sidebar = document.getElementById('polity-list');
 
   const grouped = {};
-  regimesData.forEach(regime => {
-    const state = regime.state_id || 'Ungrouped';
+  politiesData.forEach(polity => {
+    const state = polity.civilization_id || 'Ungrouped';
     if (!grouped[state]) grouped[state] = [];
-    grouped[state].push(regime);
+    grouped[state].push(polity);
   });
 
   let html = '';
-  Object.entries(grouped).forEach(([state, regimes]) => {
+  Object.entries(grouped).forEach(([state, polities]) => {
     if (state !== 'Ungrouped') {
       html += `<div class="state-label">${state}</div>`;
     }
-    regimes.sort((a, b) => (a.start || 0) - (b.start || 0));
-    regimes.forEach(regime => {
-      const dateRange = formatDateRange(regime.start, regime.end);
+    polities.sort((a, b) => (a.start || 0) - (b.start || 0));
+    polities.forEach(polity => {
+      const dateRange = formatDateRange(polity.start, polity.end);
       html += `
-        <div class="regime-item" data-regime-id="${regime.id}" title="${regime.name}">
-          ${regime.name}
+        <div class="polity-item" data-polity-id="${polity.id}" title="${polity.name}">
+          ${polity.name}
           <span style="color: #4a5568; font-size: 10px; display: block;">${dateRange}</span>
         </div>
       `;
     });
   });
 
-  sidebar.innerHTML = html || '<div style="padding: 16px; color: #4a5568;">No regimes loaded</div>';
+  sidebar.innerHTML = html || '<div style="padding: 16px; color: #4a5568;">No polities loaded</div>';
 }
 
 function attachEventListeners() {
-  document.querySelectorAll('.regime-item').forEach(item => {
+  document.querySelectorAll('.polity-item').forEach(item => {
     item.addEventListener('click', (e) => {
-      selectRegime(e.currentTarget.dataset.regimeId);
+      selectRegime(e.currentTarget.dataset.polityId);
     });
   });
 
-  document.getElementById('regime-search').addEventListener('input', (e) => {
+  document.getElementById('polity-search').addEventListener('input', (e) => {
     const query = e.target.value.toLowerCase();
-    document.querySelectorAll('.regime-item').forEach(item => {
+    document.querySelectorAll('.polity-item').forEach(item => {
       item.style.display = item.textContent.toLowerCase().includes(query) ? '' : 'none';
     });
   });
 }
 
-function selectRegime(regimeId) {
-  selectedRegimeId = regimeId;
-  document.querySelectorAll('.regime-item').forEach(item => {
-    item.classList.toggle('active', item.dataset.regimeId === regimeId);
+function selectRegime(polityId) {
+  selectedRegimeId = polityId;
+  document.querySelectorAll('.polity-item').forEach(item => {
+    item.classList.toggle('active', item.dataset.polityId === polityId);
   });
-  renderRegimeDetails(regimeId);
+  renderRegimeDetails(polityId);
 }
 
 // ── Succession helpers ──────────────────────────────────────────────────────
@@ -103,63 +103,63 @@ const DIR_META = {
 
 function dirLabel(dir) { return (DIR_META[dir] || {}).label || dir; }
 
-// ── Render regime detail ────────────────────────────────────────────────────
+// ── Render polity detail ────────────────────────────────────────────────────
 
-async function renderRegimeDetails(regimeId) {
-  const header = document.getElementById('regime-header');
+async function renderRegimeDetails(polityId) {
+  const header = document.getElementById('polity-header');
   header.innerHTML = '<div id="empty-state" style="color:#718096">Loading...</div>';
 
-  let regime;
+  let polity;
   try {
-    regime = await cachedFetch(`/api/polity/${regimeId}`);
+    polity = await cachedFetch(`/api/polity/${polityId}`);
   } catch {
-    header.innerHTML = '<div id="empty-state">Regime not found</div>';
+    header.innerHTML = '<div id="empty-state">Polity not found</div>';
     return;
   }
 
-  const dateRange = formatDateRange(regime.start, regime.end);
+  const dateRange = formatDateRange(polity.start, polity.end);
 
   let html = `
-    <div id="regime-title">${regime.name}</div>
-    <div class="regime-info-row">
-      <div class="regime-info-block">
-        <div class="regime-info-label">Duration</div>
-        <div class="regime-info-value">${dateRange}</div>
+    <div id="polity-title">${polity.name}</div>
+    <div class="polity-info-row">
+      <div class="polity-info-block">
+        <div class="polity-info-label">Duration</div>
+        <div class="polity-info-value">${dateRange}</div>
       </div>
   `;
 
-  if (regime.ruling_ethnicity) {
+  if (polity.ruling_ethnicity) {
     html += `
-      <div class="regime-info-block">
-        <div class="regime-info-label">Ruling Ethnicity</div>
-        <div class="regime-info-value">${regime.ruling_ethnicity}</div>
+      <div class="polity-info-block">
+        <div class="polity-info-label">Ruling Ethnicity</div>
+        <div class="polity-info-value">${polity.ruling_ethnicity}</div>
       </div>
     `;
   }
 
-  if (regime.cultural_language) {
+  if (polity.cultural_language) {
     html += `
-      <div class="regime-info-block">
-        <div class="regime-info-label">Language</div>
-        <div class="regime-info-value">${regime.cultural_language}</div>
+      <div class="polity-info-block">
+        <div class="polity-info-label">Language</div>
+        <div class="polity-info-value">${polity.cultural_language}</div>
       </div>
     `;
   }
 
-  if (regime.ideology?.religion) {
+  if (polity.ideology?.religion) {
     html += `
-      <div class="regime-info-block">
-        <div class="regime-info-label">Religion</div>
-        <div class="regime-info-value">${regime.ideology.religion}</div>
+      <div class="polity-info-block">
+        <div class="polity-info-label">Religion</div>
+        <div class="polity-info-value">${polity.ideology.religion}</div>
       </div>
     `;
   }
 
-  if (regime.ideology?.government) {
+  if (polity.ideology?.government) {
     html += `
-      <div class="regime-info-block">
-        <div class="regime-info-label">Government</div>
-        <div class="regime-info-value">${regime.ideology.government}</div>
+      <div class="polity-info-block">
+        <div class="polity-info-label">Government</div>
+        <div class="polity-info-value">${polity.ideology.government}</div>
       </div>
     `;
   }
@@ -167,7 +167,7 @@ async function renderRegimeDetails(regimeId) {
   html += '</div>';
 
   // Predecessors (from /api/polity/:id response)
-  const predecessors = regime.predecessors || [];
+  const predecessors = polity.predecessors || [];
   if (predecessors.length > 0) {
     html += `
       <div class="succession-section">
@@ -176,7 +176,7 @@ async function renderRegimeDetails(regimeId) {
     `;
     predecessors.forEach(pred => {
       html += `
-        <div class="succession-badge ${pred.territorial_direction || 'unknown'}" data-regime-id="${pred.id}"
+        <div class="succession-badge ${pred.territorial_direction || 'unknown'}" data-polity-id="${pred.id}"
              title="${pred.name} — ${dirLabel(pred.territorial_direction)}">
           ${pred.name} ${continuityIcons(pred)}
         </div>
@@ -186,7 +186,7 @@ async function renderRegimeDetails(regimeId) {
   }
 
   // Successors (from /api/polity/:id response)
-  const successors = regime.successors || [];
+  const successors = polity.successors || [];
   if (successors.length > 0) {
     html += `
       <div class="succession-section">
@@ -195,7 +195,7 @@ async function renderRegimeDetails(regimeId) {
     `;
     successors.forEach(succ => {
       html += `
-        <div class="succession-badge ${succ.territorial_direction || 'unknown'}" data-regime-id="${succ.id}"
+        <div class="succession-badge ${succ.territorial_direction || 'unknown'}" data-polity-id="${succ.id}"
              title="${succ.name} — ${dirLabel(succ.territorial_direction)}">
           ${succ.name} ${continuityIcons(succ)}
         </div>
@@ -205,7 +205,7 @@ async function renderRegimeDetails(regimeId) {
   }
 
   // Territories
-  const territories = regime.territories || [];
+  const territories = polity.territories || [];
   if (territories.length > 0) {
     html += `
       <div class="territory-section">
@@ -219,11 +219,11 @@ async function renderRegimeDetails(regimeId) {
   }
 
   // Note
-  if (regime.note) {
+  if (polity.note) {
     html += `
       <div class="territory-section">
         <div class="territory-title">Note</div>
-        <div style="font-size:12px;color:#a0aec0;line-height:1.6;margin-top:6px">${regime.note}</div>
+        <div style="font-size:12px;color:#a0aec0;line-height:1.6;margin-top:6px">${polity.note}</div>
       </div>
     `;
   }
@@ -259,7 +259,7 @@ async function renderRegimeDetails(regimeId) {
   document.querySelectorAll('.succession-badge').forEach(badge => {
     badge.style.cursor = 'pointer';
     badge.addEventListener('click', () => {
-      const rid = badge.dataset.regimeId;
+      const rid = badge.dataset.polityId;
       if (rid) selectRegime(rid);
     });
   });

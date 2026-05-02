@@ -34,7 +34,7 @@
         {
           "label": "Jōmon people",
           "span": 5,
-          "regime": "jomon_people"
+          "polity": "jomon_people"
         }
       ]
     },
@@ -47,22 +47,22 @@
         {
           "label": "Yayoi people",
           "span": 2,
-          "regime": "yayoi_people_culture"
+          "polity": "yayoi_people_culture"
         },
         {
           "label": "Hayato / Kumaso",
           "span": 1,
-          "regime": "hayato"
+          "polity": "hayato"
         },
         {
           "label": "Emishi",
           "span": 1,
-          "regime": "emishi"
+          "polity": "emishi"
         },
         {
           "label": "Ryukyuan",
           "span": 1,
-          "regime": "ryukyuan"
+          "polity": "ryukyuan"
         }
       ]
     },
@@ -73,19 +73,19 @@
       },
       "cells": [
         {
-          "regime": "yamato_period",
+          "polity": "yamato_period",
           "label": "Yamato",
           "span": 3
         },
         {
           "label": "Emishi",
           "span": 1,
-          "regime": "emishi"
+          "polity": "emishi"
         },
         {
           "label": "Ryukyuan",
           "span": 1,
-          "regime": "ryukyuan"
+          "polity": "ryukyuan"
         }
       ]
     },
@@ -96,19 +96,19 @@
       },
       "cells": [
         {
-          "regime": "yamato_period",
+          "polity": "yamato_period",
           "label": "Yamato · Soga Clan",
           "span": 3
         },
         {
           "label": "Emishi",
           "span": 1,
-          "regime": "emishi"
+          "polity": "emishi"
         },
         {
           "label": "Ryukyuan",
           "span": 1,
-          "regime": "ryukyuan"
+          "polity": "ryukyuan"
         }
       ]
     },
@@ -119,19 +119,19 @@
       },
       "cells": [
         {
-          "regime": "nara_period",
+          "polity": "nara_period",
           "label": "Japan (Ritsuryō state)",
           "span": 3
         },
         {
           "label": "Emishi",
           "span": 1,
-          "regime": "emishi"
+          "polity": "emishi"
         },
         {
           "label": "Gusuku culture",
           "span": 1,
-          "regime": "gusuku_culture"
+          "polity": "gusuku_culture"
         }
       ]
     },
@@ -142,14 +142,14 @@
       },
       "cells": [
         {
-          "regime": "heian_period",
+          "polity": "heian_period",
           "label": "Japan (Dynastic state)",
           "span": 3
         },
         {
           "label": "Emishi / Ezo",
           "span": 1,
-          "regime": "emishi"
+          "polity": "emishi"
         },
         {
           "label": "Sanzan period",
@@ -161,14 +161,14 @@
       "era": null,
       "cells": [
         {
-          "regime": "heian_period",
+          "polity": "heian_period",
           "label": "Sesshō-Kampaku regency",
           "span": 3
         },
         {
           "label": "Emishi / Ezo",
           "span": 1,
-          "regime": "emishi"
+          "polity": "emishi"
         },
         {
           "label": "Sanzan period",
@@ -180,14 +180,14 @@
       "era": null,
       "cells": [
         {
-          "regime": "heian_period",
+          "polity": "heian_period",
           "label": "Insei (Cloistered rule)",
           "span": 3
         },
         {
           "label": "Emishi / Ezo",
           "span": 1,
-          "regime": "emishi"
+          "polity": "emishi"
         },
         {
           "label": "Sanzan period",
@@ -202,14 +202,14 @@
       },
       "cells": [
         {
-          "regime": "feudal_japan",
+          "polity": "feudal_japan",
           "label": "Kamakura Shogunate",
           "span": 3
         },
         {
           "label": "Ezo",
           "span": 1,
-          "regime": "ezo"
+          "polity": "ezo"
         },
         {
           "label": "Sanzan period",
@@ -221,14 +221,14 @@
       "era": null,
       "cells": [
         {
-          "regime": "feudal_japan",
+          "polity": "feudal_japan",
           "label": "Hōjō Regency",
           "span": 3
         },
         {
           "label": "Ezo",
           "span": 1,
-          "regime": "ezo"
+          "polity": "ezo"
         },
         {
           "label": "Sanzan period",
@@ -243,14 +243,14 @@
       },
       "cells": [
         {
-          "regime": "feudal_japan",
+          "polity": "feudal_japan",
           "label": "Kenmu Restoration",
           "span": 3
         },
         {
           "label": "Ezo",
           "span": 1,
-          "regime": "ezo"
+          "polity": "ezo"
         },
         {
           "label": "Sanzan period",
@@ -267,17 +267,17 @@
         {
           "label": "Northern Court",
           "span": 2,
-          "regime": "northern_court"
+          "polity": "northern_court"
         },
         {
           "label": "Southern Court",
           "span": 1,
-          "regime": "southern_court"
+          "polity": "southern_court"
         },
         {
           "label": "Ezo",
           "span": 1,
-          "regime": "ezo"
+          "polity": "ezo"
         },
         {
           "label": "Sanzan period",
@@ -289,17 +289,17 @@
       "era": null,
       "cells": [
         {
-          "regime": "feudal_japan",
+          "polity": "feudal_japan",
           "label": "Ashikaga Shogunate",
           "span": 3
         },
         {
           "label": "Ezo",
           "span": 1,
-          "regime": "ezo"
+          "polity": "ezo"
         },
         {
-          "regime": "ryukyu_kingdom",
+          "polity": "ryukyu_kingdom",
           "label": "Ryukyu Kingdom",
           "span": 1
         }
@@ -312,17 +312,17 @@
       },
       "cells": [
         {
-          "regime": "feudal_japan",
+          "polity": "feudal_japan",
           "label": "Ashikaga Shogunate",
           "span": 3
         },
         {
           "label": "Ezo (Matsumae)",
           "span": 1,
-          "regime": "ezo"
+          "polity": "ezo"
         },
         {
-          "regime": "ryukyu_kingdom",
+          "polity": "ryukyu_kingdom",
           "label": "Ryukyu Kingdom",
           "span": 1
         }
@@ -332,17 +332,17 @@
       "era": null,
       "cells": [
         {
-          "regime": "feudal_japan",
+          "polity": "feudal_japan",
           "label": "Hosokawa / Miyoshi regency",
           "span": 3
         },
         {
           "label": "Ezo (Matsumae)",
           "span": 1,
-          "regime": "ezo"
+          "polity": "ezo"
         },
         {
-          "regime": "ryukyu_kingdom",
+          "polity": "ryukyu_kingdom",
           "label": "Ryukyu Kingdom",
           "span": 1
         }
@@ -355,17 +355,17 @@
       },
       "cells": [
         {
-          "regime": "feudal_japan",
+          "polity": "feudal_japan",
           "label": "Oda Nobunaga",
           "span": 3
         },
         {
           "label": "Ezo (Matsumae)",
           "span": 1,
-          "regime": "ezo"
+          "polity": "ezo"
         },
         {
-          "regime": "ryukyu_kingdom",
+          "polity": "ryukyu_kingdom",
           "label": "Ryukyu Kingdom",
           "span": 1
         }
@@ -375,17 +375,17 @@
       "era": null,
       "cells": [
         {
-          "regime": "feudal_japan",
+          "polity": "feudal_japan",
           "label": "Toyotomi Hideyoshi",
           "span": 3
         },
         {
           "label": "Ezo (Matsumae)",
           "span": 1,
-          "regime": "ezo"
+          "polity": "ezo"
         },
         {
-          "regime": "ryukyu_kingdom",
+          "polity": "ryukyu_kingdom",
           "label": "Ryukyu Kingdom",
           "span": 1
         }
@@ -398,17 +398,17 @@
       },
       "cells": [
         {
-          "regime": "tokugawa_shogunate",
+          "polity": "tokugawa_shogunate",
           "label": "Tokugawa Shogunate",
           "span": 3
         },
         {
           "label": "Matsumae Domain",
           "span": 1,
-          "regime": "matsumae_domain"
+          "polity": "matsumae_domain"
         },
         {
-          "regime": "ryukyu_kingdom",
+          "polity": "ryukyu_kingdom",
           "label": "Ryukyu Kingdom (Satsuma vassal)",
           "span": 1
         }
@@ -421,17 +421,17 @@
       },
       "cells": [
         {
-          "regime": "empire_of_japan",
+          "polity": "empire_of_japan",
           "label": "Meiji Restoration · Boshin War",
           "span": 3
         },
         {
           "label": "Ezo Republic",
           "span": 1,
-          "regime": "ezo_republic"
+          "polity": "ezo_republic"
         },
         {
-          "regime": "ryukyu_kingdom",
+          "polity": "ryukyu_kingdom",
           "label": "Ryukyu Domain",
           "span": 1
         }
@@ -444,7 +444,7 @@
       },
       "cells": [
         {
-          "regime": "empire_of_japan",
+          "polity": "empire_of_japan",
           "label": "Empire of Japan",
           "span": 5
         }
@@ -454,19 +454,19 @@
       "era": null,
       "cells": [
         {
-          "regime": "modern_japan",
+          "polity": "modern_japan",
           "label": "Japan (Allied Occupation → State of Japan)",
           "span": 3
         },
         {
-          "regime": "modern_japan",
+          "polity": "modern_japan",
           "label": "Japan",
           "span": 1
         },
         {
           "label": "Ryukyu (US administration)",
           "span": 1,
-          "regime": "ryukyu_kingdom"
+          "polity": "ryukyu_kingdom"
         }
       ]
     },
@@ -477,7 +477,7 @@
       },
       "cells": [
         {
-          "regime": "modern_japan",
+          "polity": "modern_japan",
           "label": "Japan",
           "span": 5
         }

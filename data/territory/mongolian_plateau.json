@@ -1,40 +1,40 @@
 {
   "id": "mongolian_plateau",
   "name": "mongolian_plateau",
-  "regime_count": 7,
-  "regimes": [
+  "polity_count": 7,
+  "polities": [
     {
-      "regime_id": "xiongnu",
+      "polity_id": "xiongnu",
       "start": -209,
       "end": 93
     },
     {
-      "regime_id": "goktürk_khaganate",
+      "polity_id": "goktürk_khaganate",
       "start": 552,
       "end": 744
     },
     {
-      "regime_id": "uyghur_khaganate",
+      "polity_id": "uyghur_khaganate",
       "start": 744,
       "end": 840
     },
     {
-      "regime_id": "mongol_empire",
+      "polity_id": "mongol_empire",
       "start": 1206,
       "end": 1368
     },
     {
-      "regime_id": "north_yuan",
+      "polity_id": "north_yuan",
       "start": 1368,
       "end": 1635
     },
     {
-      "regime_id": "qing_dynasty",
+      "polity_id": "qing_dynasty",
       "start": 1635,
       "end": 1912
     },
     {
-      "regime_id": "mongolian_peoples_republic",
+      "polity_id": "mongolian_peoples_republic",
       "start": 1924,
       "end": 1992
     }

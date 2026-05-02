@@ -41,22 +41,22 @@
             {
               "label": "Aurignacian · Kebaran cultures",
               "note": "c.45,000–12,000 BCE",
-              "regime": "aurignacian_kebaran_cultures_culture"
+              "polity": "aurignacian_kebaran_cultures_culture"
             },
             {
               "label": "Natufian culture",
               "note": "c.12,500–9,500 BCE",
-              "regime": "natufian_culture"
+              "polity": "natufian_culture"
             },
             {
               "label": "Pre-Pottery Neolithic A·B",
               "note": "c.9,500–6,400 BCE",
-              "regime": "pre_pottery_neolithic_a_culture"
+              "polity": "pre_pottery_neolithic_a_culture"
             },
             {
               "label": "Halaf · Yarmukian · Ghassulian cultures",
               "note": "c.6,400–3,500 BCE",
-              "regime": "halaf_yarmukian_ghassulian_cultures_culture"
+              "polity": "halaf_yarmukian_ghassulian_cultures_culture"
             }
           ],
           "span": 4
@@ -74,12 +74,12 @@
             {
               "label": "Ebla (c.3000–1600 BCE)",
               "note": "major bronze age city-state",
-              "regime": "ebla"
+              "polity": "ebla"
             },
             {
               "label": "Mari (c.2900–1761 BCE)",
               "note": "on middle Euphrates",
-              "regime": "mari"
+              "polity": "mari"
             }
           ],
           "span": 1
@@ -89,12 +89,12 @@
             {
               "label": "Byblos / Gubla",
               "note": "c.3000 BCE onward",
-              "regime": "byblos"
+              "polity": "byblos"
             },
             {
               "label": "Ugarit",
               "note": "c.2000–1185 BCE",
-              "regime": "ugarit"
+              "polity": "ugarit"
             }
           ],
           "span": 1
@@ -102,12 +102,12 @@
         {
           "label": "Amorite city-states",
           "span": 1,
-          "regime": "amorite_city_states"
+          "polity": "amorite_city_states"
         },
         {
           "label": "Canaanite city-states",
           "span": 1,
-          "regime": "canaanite_city_states"
+          "polity": "canaanite_city_states"
         }
       ]
     },
@@ -119,15 +119,15 @@
             {
               "label": "Yamhad (Aleppo)",
               "note": "c.1800–1600 BCE",
-              "regime": "yamhad"
+              "polity": "yamhad"
             },
             {
               "label": "Mitanni Kingdom",
               "note": "c.1500–1300 BCE",
-              "regime": "mitanni_empire"
+              "polity": "mitanni_empire"
             },
             {
-              "regime": "hittite_empire",
+              "polity": "hittite_empire",
               "label": "Hittite Empire",
               "note": "c.1350–1180 BCE"
             }
@@ -139,12 +139,12 @@
             {
               "label": "Ugarit",
               "note": "–1185 BCE",
-              "regime": "ugarit"
+              "polity": "ugarit"
             },
             {
               "label": "Egyptian New Kingdom (coastal)",
               "note": "c.1550–1150 BCE",
-              "regime": "egyptian_new_kingdom"
+              "polity": "egyptian_new_kingdom"
             }
           ],
           "span": 1
@@ -154,17 +154,17 @@
             {
               "label": "Qatna / Amorite kingdoms",
               "note": "c.2000–1600 BCE",
-              "regime": "qatna"
+              "polity": "qatna"
             },
             {
               "label": "Egyptian New Kingdom",
               "note": "c.1550–1150 BCE",
-              "regime": "egyptian_new_kingdom"
+              "polity": "egyptian_new_kingdom"
             },
             {
               "label": "Mitanni",
               "note": "c.1500–1300 BCE",
-              "regime": "mitanni_empire"
+              "polity": "mitanni_empire"
             }
           ],
           "span": 1
@@ -174,12 +174,12 @@
             {
               "label": "Egyptian New Kingdom",
               "note": "c.1550–1150 BCE",
-              "regime": "egyptian_new_kingdom"
+              "polity": "egyptian_new_kingdom"
             },
             {
               "label": "Canaanite cities (Egyptian vassals)",
               "note": "",
-              "regime": "canaanite_cities"
+              "polity": "canaanite_cities"
             }
           ],
           "span": 1
@@ -194,25 +194,25 @@
             {
               "label": "Late Bronze Age Collapse · Sea Peoples",
               "note": "c.1200–1150 BCE",
-              "regime": "late_bronze_age_collapse_culture"
+              "polity": "late_bronze_age_collapse_culture"
             },
             {
               "label": "Aramaean kingdoms (Bit Adini etc.)",
               "note": "c.1100–732 BCE",
-              "regime": "aramaean_kingdoms"
+              "polity": "aramaean_kingdoms"
             },
             {
               "label": "Neo-Hittite states",
               "note": "c.1200–700 BCE",
-              "regime": "neo_hittite_states"
+              "polity": "neo_hittite_states"
             },
             {
-              "regime": "neo_assyrian_empire",
+              "polity": "neo_assyrian_empire",
               "label": "Neo-Assyrian Empire",
               "note": "911–609 BCE"
             },
             {
-              "regime": "neo_babylonian",
+              "polity": "neo_babylonian",
               "label": "Neo-Babylonian Empire",
               "note": "609–539 BCE"
             }
@@ -222,7 +222,7 @@
         {
           "stack": [
             {
-              "regime": "phoenician_states",
+              "polity": "phoenician_states",
               "label": "Phoenician city-states (Byblos · Sidon · Tyre)",
               "note": "c.1200–332 BCE"
             }
@@ -234,15 +234,15 @@
             {
               "label": "Aram-Damascus",
               "note": "c.1200–732 BCE",
-              "regime": "aram_damascus"
+              "polity": "aram_damascus"
             },
             {
-              "regime": "neo_assyrian_empire",
+              "polity": "neo_assyrian_empire",
               "label": "Neo-Assyrian Empire",
               "note": "732–609 BCE"
             },
             {
-              "regime": "neo_babylonian",
+              "polity": "neo_babylonian",
               "label": "Neo-Babylonian Empire",
               "note": "609–539 BCE"
             }
@@ -252,12 +252,12 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_israel",
+              "polity": "kingdom_of_israel",
               "label": "United Kingdom · Israel / Judah",
               "note": "c.1000–722/586 BCE"
             },
             {
-              "regime": "kingdom_of_judah",
+              "polity": "kingdom_of_judah",
               "label": "Kingdom of Judah",
               "note": "–586 BCE"
             },
@@ -279,12 +279,12 @@
         {
           "stack": [
             {
-              "regime": "achaemenid_empire",
+              "polity": "achaemenid_empire",
               "label": "Achaemenid Empire",
               "note": "539–332 BCE"
             },
             {
-              "regime": "macedonian_empire",
+              "polity": "macedonian_empire",
               "label": "Alexander / Diadochi",
               "note": "332–301 BCE"
             }
@@ -297,24 +297,24 @@
       "era": null,
       "cells": [
         {
-          "regime": "seleucid_empire",
+          "polity": "seleucid_empire",
           "label": "Seleucid Empire",
           "span": 2
         },
         {
           "stack": [
             {
-              "regime": "ptolemaic_egypt",
+              "polity": "ptolemaic_egypt",
               "label": "Ptolemaic (Coele-Syria)",
               "note": "301–198 BCE"
             },
             {
-              "regime": "seleucid_empire",
+              "polity": "seleucid_empire",
               "label": "Seleucid Empire",
               "note": "198–63 BCE"
             },
             {
-              "regime": "nabataean_kingdom",
+              "polity": "nabataean_kingdom",
               "label": "Nabataean Kingdom",
               "note": "c.168 BCE–106 CE"
             }
@@ -324,19 +324,19 @@
         {
           "stack": [
             {
-              "regime": "ptolemaic_egypt",
+              "polity": "ptolemaic_egypt",
               "label": "Ptolemaic (Coele-Syria)",
               "note": "301–198 BCE"
             },
             {
-              "regime": "seleucid_empire",
+              "polity": "seleucid_empire",
               "label": "Seleucid Empire",
               "note": "198–141 BCE"
             },
             {
               "label": "Hasmonean dynasty",
               "note": "141–63 BCE",
-              "regime": "hasmonean_dynasty"
+              "polity": "hasmonean_dynasty"
             }
           ],
           "span": 1
@@ -352,14 +352,14 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Republic · Roman Empire",
               "note": "64 BCE–"
             },
             {
               "label": "Syria province (capital Antioch)",
               "note": "64 BCE–637 CE",
-              "regime": "syria_province"
+              "polity": "syria_province"
             }
           ],
           "span": 2
@@ -367,12 +367,12 @@
         {
           "stack": [
             {
-              "regime": "nabataean_kingdom",
+              "polity": "nabataean_kingdom",
               "label": "Nabataean Kingdom",
               "note": "–106 CE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Arabia Petraea",
               "note": "106–637 CE"
             }
@@ -384,12 +384,12 @@
             {
               "label": "Judaea province (Roman)",
               "note": "63 BCE–135 CE",
-              "regime": "judaea_province"
+              "polity": "judaea_province"
             },
             {
               "label": "Syria Palaestina",
               "note": "135–390 CE",
-              "regime": "syria_palaestina"
+              "polity": "syria_palaestina"
             }
           ],
           "span": 1
@@ -402,17 +402,17 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire (Christian) · Byzantine",
               "note": "284–611"
             },
             {
-              "regime": "sassanid_empire",
+              "polity": "sassanid_empire",
               "label": "Sassanid occupation",
               "note": "611–628"
             },
             {
-              "regime": "byzantine_empire",
+              "polity": "byzantine_empire",
               "label": "Byzantine restored",
               "note": "628–636"
             }
@@ -424,20 +424,20 @@
             {
               "label": "Palmyrene Empire (Zenobia)",
               "note": "270–273",
-              "regime": "palmyrene_empire"
+              "polity": "palmyrene_empire"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Byzantine",
               "note": "273–611"
             },
             {
-              "regime": "sassanid_empire",
+              "polity": "sassanid_empire",
               "label": "Sassanid",
               "note": "611–628"
             },
             {
-              "regime": "byzantine_empire",
+              "polity": "byzantine_empire",
               "label": "Byzantine restored",
               "note": "628–636"
             }
@@ -447,17 +447,17 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Byzantine",
               "note": "–611"
             },
             {
-              "regime": "sassanid_empire",
+              "polity": "sassanid_empire",
               "label": "Sassanid",
               "note": "611–628"
             },
             {
-              "regime": "byzantine_empire",
+              "polity": "byzantine_empire",
               "label": "Byzantine restored",
               "note": "628–636"
             }
@@ -475,37 +475,37 @@
         {
           "stack": [
             {
-              "regime": "rashidun_caliphate",
+              "polity": "rashidun_caliphate",
               "label": "Rashidun Caliphate",
               "note": "636–661"
             },
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate (capital: Damascus)",
               "note": "661–750"
             },
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid Caliphate",
               "note": "750–878"
             },
             {
               "label": "Tulunid dynasty",
               "note": "878–905",
-              "regime": "tulunid_dynasty"
+              "polity": "tulunid_dynasty"
             },
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid restored",
               "note": "905–941"
             },
             {
               "label": "Ikhshidid dynasty",
               "note": "941–969",
-              "regime": "ikhshidid_dynasty"
+              "polity": "ikhshidid_dynasty"
             },
             {
-              "regime": "fatimid_caliphate",
+              "polity": "fatimid_caliphate",
               "label": "Fatimid Caliphate",
               "note": "969–1070"
             }
@@ -522,40 +522,40 @@
             {
               "label": "Hamdanid Emirate (Aleppo)",
               "note": "944–1003",
-              "regime": "hamdanid_emirate"
+              "polity": "hamdanid_emirate"
             },
             {
-              "regime": "byzantine_empire",
+              "polity": "byzantine_empire",
               "label": "Byzantine (recovered Antioch)",
               "note": "969–1084"
             },
             {
               "label": "Mirdasid dynasty (Aleppo)",
               "note": "1024–1080",
-              "regime": "mirdasid_dynasty"
+              "polity": "mirdasid_dynasty"
             },
             {
-              "regime": "seljuk_empire",
+              "polity": "seljuk_empire",
               "label": "Seljuk Empire",
               "note": "1070–1128"
             },
             {
               "label": "Zangid Atabegate (Aleppo · Mosul)",
               "note": "1128–1183",
-              "regime": "zangid_atabegate"
+              "polity": "zangid_atabegate"
             },
             {
-              "regime": "ayyubid_sultanate",
+              "polity": "ayyubid_sultanate",
               "label": "Ayyubid",
               "note": "1183–1260"
             },
             {
               "label": "Mongol Il-Khanate (raids)",
               "note": "1260",
-              "regime": "mongol_il_khanate"
+              "polity": "mongol_il_khanate"
             },
             {
-              "regime": "mamluk_sultanate",
+              "polity": "mamluk_sultanate",
               "label": "Mamluk Sultanate",
               "note": "1260–1516"
             }
@@ -565,7 +565,7 @@
         {
           "stack": [
             {
-              "regime": "fatimid_caliphate",
+              "polity": "fatimid_caliphate",
               "label": "Fatimid Caliphate",
               "note": "969–1099"
             },
@@ -578,12 +578,12 @@
               "note": "1102–1289"
             },
             {
-              "regime": "ayyubid_sultanate",
+              "polity": "ayyubid_sultanate",
               "label": "Ayyubid",
               "note": "partial"
             },
             {
-              "regime": "mamluk_sultanate",
+              "polity": "mamluk_sultanate",
               "label": "Mamluk Sultanate",
               "note": "1268–1516"
             }
@@ -593,27 +593,27 @@
         {
           "stack": [
             {
-              "regime": "fatimid_caliphate",
+              "polity": "fatimid_caliphate",
               "label": "Fatimid Caliphate",
               "note": "969–1076"
             },
             {
-              "regime": "seljuk_empire",
+              "polity": "seljuk_empire",
               "label": "Seljuk (Damascus)",
               "note": "1076–1104"
             },
             {
               "label": "Burid dynasty (Damascus)",
               "note": "1104–1154",
-              "regime": "burid_dynasty"
+              "polity": "burid_dynasty"
             },
             {
               "label": "Zangid / Ayyubid (Damascus)",
               "note": "1154–1260",
-              "regime": "zangid"
+              "polity": "zangid"
             },
             {
-              "regime": "mamluk_sultanate",
+              "polity": "mamluk_sultanate",
               "label": "Mamluk Sultanate",
               "note": "1260–1516"
             }
@@ -623,22 +623,22 @@
         {
           "stack": [
             {
-              "regime": "fatimid_caliphate",
+              "polity": "fatimid_caliphate",
               "label": "Fatimid Caliphate",
               "note": "969–1099"
             },
             {
               "label": "Kingdom of Jerusalem (Crusader)",
               "note": "1099–1291",
-              "regime": "kingdom_of_jerusalem"
+              "polity": "kingdom_of_jerusalem"
             },
             {
-              "regime": "ayyubid_sultanate",
+              "polity": "ayyubid_sultanate",
               "label": "Ayyubid",
               "note": "1187–1229 / 1244"
             },
             {
-              "regime": "mamluk_sultanate",
+              "polity": "mamluk_sultanate",
               "label": "Mamluk Sultanate",
               "note": "1291–1516"
             }
@@ -654,7 +654,7 @@
       },
       "cells": [
         {
-          "regime": "ottoman_empire",
+          "polity": "ottoman_empire",
           "label": "Ottoman Empire — Bilad al-Sham provinces (Damascus · Aleppo · Sidon · Tripoli · Jerusalem)",
           "span": 4
         }
@@ -671,17 +671,17 @@
             {
               "label": "OETA North (British/Faisal)",
               "note": "1918–1920",
-              "regime": "oeta_north"
+              "polity": "oeta_north"
             },
             {
               "label": "Arab Kingdom of Syria (Faisal)",
               "note": "1920",
-              "regime": "arab_kingdom_of_syria"
+              "polity": "arab_kingdom_of_syria"
             },
             {
               "label": "French Mandate Syria",
               "note": "1920–1946",
-              "regime": "french_mandate_syria"
+              "polity": "french_mandate_syria"
             }
           ],
           "span": 1
@@ -691,12 +691,12 @@
             {
               "label": "OETA West (British/French)",
               "note": "1918–1920",
-              "regime": "oeta_west"
+              "polity": "oeta_west"
             },
             {
               "label": "French Mandate Lebanon",
               "note": "1920–1943",
-              "regime": "french_mandate_lebanon"
+              "polity": "french_mandate_lebanon"
             }
           ],
           "span": 1
@@ -706,12 +706,12 @@
             {
               "label": "OETA East (British/Faisal)",
               "note": "1918–1920",
-              "regime": "oeta_east"
+              "polity": "oeta_east"
             },
             {
               "label": "British Mandate Transjordan",
               "note": "1921–1946",
-              "regime": "british_mandate_transjordan"
+              "polity": "british_mandate_transjordan"
             }
           ],
           "span": 1
@@ -721,12 +721,12 @@
             {
               "label": "OETA South (British)",
               "note": "1918–1920",
-              "regime": "oeta_south"
+              "polity": "oeta_south"
             },
             {
               "label": "British Mandate Palestine",
               "note": "1920–1948",
-              "regime": "british_mandate_palestine"
+              "polity": "british_mandate_palestine"
             }
           ],
           "span": 1
@@ -747,14 +747,14 @@
         {
           "label": "Hashemite Kingdom of Jordan (1946)",
           "span": 1,
-          "regime": "kingdom_of_jordan"
+          "polity": "kingdom_of_jordan"
         },
         {
           "stack": [
             {
               "label": "State of Israel (1948)",
               "note": "Palestinian displacement (Nakba) (1948)",
-              "regime": "state_of_israel"
+              "polity": "state_of_israel"
             }
           ],
           "span": 1
@@ -772,17 +772,17 @@
             {
               "label": "Syrian 1st Republic · Ba'athist Syria",
               "note": "1946–1971",
-              "regime": "syrian_1st_republic"
+              "polity": "syrian_1st_republic"
             },
             {
               "label": "United Arab Republic (with Egypt)",
               "note": "1958–1961",
-              "regime": "united_arab_republic"
+              "polity": "united_arab_republic"
             },
             {
               "label": "Ba'athist Syrian Arab Republic",
               "note": "1963–2011",
-              "regime": "baathist_syrian_arab_republic"
+              "polity": "baathist_syrian_arab_republic"
             }
           ],
           "span": 1
@@ -790,24 +790,24 @@
         {
           "label": "Lebanese Republic",
           "span": 1,
-          "regime": "lebanese_republic"
+          "polity": "lebanese_republic"
         },
         {
           "label": "Hashemite Kingdom of Jordan",
           "span": 1,
-          "regime": "kingdom_of_jordan"
+          "polity": "kingdom_of_jordan"
         },
         {
           "split": [
             {
               "label": "State of Israel",
               "note": "1948–",
-              "regime": "state_of_israel"
+              "polity": "state_of_israel"
             },
             {
               "label": "Palestinian territories (PLO/PA)",
               "note": "1964/1994–",
-              "regime": "palestinian_territories"
+              "polity": "palestinian_territories"
             }
           ],
           "span": 1
@@ -822,17 +822,17 @@
             {
               "label": "Assad / SAR",
               "note": "2011–2024",
-              "regime": "assad"
+              "polity": "assad"
             },
             {
               "label": "Rebels / HTS",
               "note": "2011–",
-              "regime": "rebels"
+              "polity": "rebels"
             },
             {
               "label": "AANES (Rojava)",
               "note": "2012–",
-              "regime": "aanes"
+              "polity": "aanes"
             }
           ],
           "span": 1
@@ -840,24 +840,24 @@
         {
           "label": "Lebanese Republic",
           "span": 1,
-          "regime": "lebanese_republic"
+          "polity": "lebanese_republic"
         },
         {
           "label": "Hashemite Kingdom of Jordan",
           "span": 1,
-          "regime": "kingdom_of_jordan"
+          "polity": "kingdom_of_jordan"
         },
         {
           "split": [
             {
               "label": "State of Israel",
               "note": "",
-              "regime": "state_of_israel"
+              "polity": "state_of_israel"
             },
             {
               "label": "Gaza · West Bank (PA/Hamas)",
               "note": "",
-              "regime": "gaza_west_bank"
+              "polity": "gaza_west_bank"
             }
           ],
           "span": 1

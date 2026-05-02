@@ -41,7 +41,7 @@
             {
               "label": "Bantu-speaking coastal peoples — early fishing & herding communities",
               "note": "Periplus of the Erythraean Sea mentions Azania (c. 1st c. CE)",
-              "regime": "azanian_coast"
+              "polity": "azanian_coast"
             }
           ],
           "span": 4
@@ -59,7 +59,7 @@
             {
               "label": "Mogadishu emerges as Arab-Somali trading center",
               "note": "c. 9th c.",
-              "regime": "early_mogadishu"
+              "polity": "early_mogadishu"
             }
           ],
           "span": 1
@@ -69,7 +69,7 @@
             {
               "label": "Mombasa & Malindi — early coral-stone settlements",
               "note": "trade with Arabia, Persia, India",
-              "regime": "early_swahili_towns"
+              "polity": "early_swahili_towns"
             }
           ],
           "span": 1
@@ -79,7 +79,7 @@
             {
               "label": "Early Kilwa settlement — Shirazi founders tradition",
               "note": "Swahili language emerges (Bantu + Arabic)",
-              "regime": "early_kilwa"
+              "polity": "early_kilwa"
             }
           ],
           "span": 1
@@ -88,7 +88,7 @@
           "stack": [
             {
               "label": "Early Zanzibar settlement — Shirazi & Bantu peoples",
-              "regime": "early_zanzibar"
+              "polity": "early_zanzibar"
             }
           ],
           "span": 1
@@ -106,15 +106,15 @@
             {
               "label": "Sultanate of Mogadishu",
               "note": "c. 900–1500s; Ibn Battuta visits (1331)",
-              "regime": "sultanate_of_mogadishu"
+              "polity": "sultanate_of_mogadishu"
             },
             {
               "label": "Pate Island city-state",
-              "regime": "pate_city_state"
+              "polity": "pate_city_state"
             },
             {
               "label": "Lamu city-state",
-              "regime": "lamu_city_state"
+              "polity": "lamu_city_state"
             }
           ],
           "span": 1
@@ -123,11 +123,11 @@
           "stack": [
             {
               "label": "Mombasa city-state",
-              "regime": "mombasa_city_state"
+              "polity": "mombasa_city_state"
             },
             {
               "label": "Malindi city-state",
-              "regime": "malindi_city_state"
+              "polity": "malindi_city_state"
             }
           ],
           "span": 1
@@ -137,11 +137,11 @@
             {
               "label": "Kilwa Sultanate",
               "note": "c. 957–1513; controls gold trade from Sofala/Great Zimbabwe; Great Mosque built",
-              "regime": "kilwa_sultanate"
+              "polity": "kilwa_sultanate"
             },
             {
               "label": "Sofala — gold trade entrepôt",
-              "regime": "sofala_trade_port"
+              "polity": "sofala_trade_port"
             }
           ],
           "span": 1
@@ -150,7 +150,7 @@
           "stack": [
             {
               "label": "Shirazi settlements — early Zanzibar town",
-              "regime": "shirazi_zanzibar"
+              "polity": "shirazi_zanzibar"
             }
           ],
           "span": 1
@@ -168,11 +168,11 @@
             {
               "label": "Portuguese sack Mogadishu (1499) — fail to hold",
               "note": "Vasco da Gama arrives 1498",
-              "regime": "portuguese_east_africa"
+              "polity": "portuguese_east_africa"
             },
             {
               "label": "Pate & Lamu — periodic Portuguese raids; local resistance",
-              "regime": "pate_city_state"
+              "polity": "pate_city_state"
             }
           ],
           "span": 1
@@ -182,11 +182,11 @@
             {
               "label": "Fort Jesus built in Mombasa",
               "note": "1593; Portuguese Estado da India control",
-              "regime": "fort_jesus_mombasa"
+              "polity": "fort_jesus_mombasa"
             },
             {
               "label": "Malindi — Portuguese ally port",
-              "regime": "portuguese_east_africa"
+              "polity": "portuguese_east_africa"
             }
           ],
           "span": 1
@@ -196,11 +196,11 @@
             {
               "label": "Portuguese destroy Kilwa (1505); occupy Sofala",
               "note": "Kilwa Sultanate collapses; trade disrupted",
-              "regime": "portuguese_east_africa"
+              "polity": "portuguese_east_africa"
             },
             {
               "label": "Comoros — Portuguese contact",
-              "regime": "portuguese_east_africa"
+              "polity": "portuguese_east_africa"
             }
           ],
           "span": 1
@@ -209,7 +209,7 @@
           "stack": [
             {
               "label": "Portuguese presence — Zanzibar & Pemba",
-              "regime": "portuguese_east_africa"
+              "polity": "portuguese_east_africa"
             }
           ],
           "span": 1
@@ -227,11 +227,11 @@
             {
               "label": "Mogadishu — local Somali sultanates",
               "note": "loose Omani influence; Pate Chronicle records Omani clashes",
-              "regime": "sultanate_of_mogadishu"
+              "polity": "sultanate_of_mogadishu"
             },
             {
               "label": "Pate Sultanate — resists Omani dominance",
-              "regime": "pate_city_state"
+              "polity": "pate_city_state"
             }
           ],
           "span": 1
@@ -241,11 +241,11 @@
             {
               "label": "Mazrui dynasty — Mombasa (Omani governors turned rebels)",
               "note": "c. 1735–1837; Fort Jesus repeatedly contested",
-              "regime": "mazrui_dynasty"
+              "polity": "mazrui_dynasty"
             },
             {
               "label": "Malindi under Omani/Mazrui authority",
-              "regime": "mazrui_dynasty"
+              "polity": "mazrui_dynasty"
             }
           ],
           "span": 1
@@ -255,11 +255,11 @@
             {
               "label": "Kilwa Sultanate revived under Omani patronage",
               "note": "Omani expel Portuguese — siege of Fort Jesus 1696–1698",
-              "regime": "kilwa_sultanate"
+              "polity": "kilwa_sultanate"
             },
             {
               "label": "Sofala — declining; Comoros — Omani influence",
-              "regime": "busaidi_dynasty"
+              "polity": "busaidi_dynasty"
             }
           ],
           "span": 1
@@ -268,7 +268,7 @@
           "stack": [
             {
               "label": "Busaidi dynasty — Zanzibar & Pemba growing as slave trade hub",
-              "regime": "busaidi_dynasty"
+              "polity": "busaidi_dynasty"
             }
           ],
           "span": 1
@@ -286,7 +286,7 @@
             {
               "label": "Northern coast — nominally under Zanzibar authority",
               "note": "Mogadishu retains local autonomy",
-              "regime": "zanzibar_sultanate"
+              "polity": "zanzibar_sultanate"
             }
           ],
           "span": 1
@@ -296,7 +296,7 @@
             {
               "label": "Mombasa under Zanzibar Sultanate",
               "note": "Mazrui defeated by Busaidi (1837); Mombasa incorporated",
-              "regime": "zanzibar_sultanate"
+              "polity": "zanzibar_sultanate"
             }
           ],
           "span": 1
@@ -306,7 +306,7 @@
             {
               "label": "Kilwa & Sofala under Zanzibar Sultanate",
               "note": "clove plantations; slave trade routes to interior",
-              "regime": "zanzibar_sultanate"
+              "polity": "zanzibar_sultanate"
             }
           ],
           "span": 1
@@ -316,7 +316,7 @@
             {
               "label": "Zanzibar Sultanate — capital (Seyyid Said moves court 1840)",
               "note": "clove plantations peak; slave market at Stone Town",
-              "regime": "zanzibar_sultanate"
+              "polity": "zanzibar_sultanate"
             }
           ],
           "span": 1
@@ -334,11 +334,11 @@
             {
               "label": "Italian Somaliland — Mogadishu",
               "note": "1889; Berlin Conference 1884–1885",
-              "regime": "italian_somaliland"
+              "polity": "italian_somaliland"
             },
             {
               "label": "British Kenya coast — Lamu & Pate",
-              "regime": "british_east_africa"
+              "polity": "british_east_africa"
             }
           ],
           "span": 1
@@ -348,7 +348,7 @@
             {
               "label": "British East Africa (Kenya) — Mombasa as main port",
               "note": "Uganda Railway terminus; East Africa Protectorate 1895",
-              "regime": "british_east_africa"
+              "polity": "british_east_africa"
             }
           ],
           "span": 1
@@ -358,17 +358,17 @@
             {
               "label": "German East Africa (Tanganyika) — Kilwa & Sofala coast",
               "note": "1885–1919; Maji Maji Rebellion 1905–1907",
-              "regime": "german_east_africa"
+              "polity": "german_east_africa"
             },
             {
               "label": "British Tanganyika (League of Nations mandate)",
               "note": "1919–1961",
-              "regime": "british_tanganyika"
+              "polity": "british_tanganyika"
             },
             {
               "label": "Comoros — French colony",
               "note": "1912",
-              "regime": "french_comoros"
+              "polity": "french_comoros"
             }
           ],
           "span": 1
@@ -378,7 +378,7 @@
             {
               "label": "British Protectorate of Zanzibar",
               "note": "1890–1963; Heligoland–Zanzibar Treaty 1890; slave trade abolished 1897",
-              "regime": "british_zanzibar"
+              "polity": "british_zanzibar"
             }
           ],
           "span": 1
@@ -395,12 +395,12 @@
           "stack": [
             {
               "label": "Somalia (independent 1960) — Mogadishu capital",
-              "regime": "somali_republic"
+              "polity": "somali_republic"
             },
             {
               "label": "Kenya — Lamu & northern coast",
               "note": "independence 1963",
-              "regime": "republic_of_kenya"
+              "polity": "republic_of_kenya"
             }
           ],
           "span": 1
@@ -410,7 +410,7 @@
             {
               "label": "Republic of Kenya — Mombasa port",
               "note": "independence 1963",
-              "regime": "republic_of_kenya"
+              "polity": "republic_of_kenya"
             }
           ],
           "span": 1
@@ -419,12 +419,12 @@
           "stack": [
             {
               "label": "Tanganyika independent (1961) → Tanzania (1964)",
-              "regime": "united_republic_of_tanzania"
+              "polity": "united_republic_of_tanzania"
             },
             {
               "label": "Comoros independent from France",
               "note": "1975",
-              "regime": "republic_of_comoros"
+              "polity": "republic_of_comoros"
             }
           ],
           "span": 1
@@ -434,7 +434,7 @@
             {
               "label": "Zanzibar Revolution — Arab sultanate overthrown",
               "note": "January 1964; union with Tanganyika → Tanzania",
-              "regime": "united_republic_of_tanzania"
+              "polity": "united_republic_of_tanzania"
             }
           ],
           "span": 1

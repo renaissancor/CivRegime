@@ -41,7 +41,7 @@
             {
               "label": "Tribal societies · Bantu expansion",
               "note": "c. 1000 BCE–",
-              "regime": "bantu_expansion"
+              "polity": "bantu_expansion"
             }
           ],
           "span": 4
@@ -59,7 +59,7 @@
             {
               "label": "Kingdom of Kongo",
               "note": "c. 1390–1914",
-              "regime": "kongo_kingdom"
+              "polity": "kongo_kingdom"
             }
           ],
           "span": 1
@@ -69,7 +69,7 @@
             {
               "label": "Kuba Kingdom",
               "note": "c. 1625–1900",
-              "regime": "kuba_kingdom"
+              "polity": "kuba_kingdom"
             }
           ],
           "span": 1
@@ -79,7 +79,7 @@
             {
               "label": "Luba Kingdom",
               "note": "c. 1585–1889",
-              "regime": "luba_kingdom"
+              "polity": "luba_kingdom"
             }
           ],
           "span": 1
@@ -88,7 +88,7 @@
           "stack": [
             {
               "label": "Tribal chiefdoms · Great Lakes peoples",
-              "regime": "great_lakes_chiefdoms"
+              "polity": "great_lakes_chiefdoms"
             }
           ],
           "span": 1
@@ -103,7 +103,7 @@
             {
               "label": "Kingdom of Kongo (Portuguese contact)",
               "note": "Portuguese missionaries, slave trade",
-              "regime": "kongo_kingdom"
+              "polity": "kongo_kingdom"
             }
           ],
           "span": 1
@@ -112,7 +112,7 @@
           "stack": [
             {
               "label": "Kuba Kingdom",
-              "regime": "kuba_kingdom"
+              "polity": "kuba_kingdom"
             }
           ],
           "span": 1
@@ -121,12 +121,12 @@
           "stack": [
             {
               "label": "Luba Kingdom",
-              "regime": "luba_kingdom"
+              "polity": "luba_kingdom"
             },
             {
               "label": "Lunda Kingdom",
               "note": "c. 1665–1887",
-              "regime": "lunda_kingdom"
+              "polity": "lunda_kingdom"
             }
           ],
           "span": 1
@@ -135,7 +135,7 @@
           "stack": [
             {
               "label": "Arab-Swahili slave trade network",
-              "regime": "arab_swahili_trade"
+              "polity": "arab_swahili_trade"
             }
           ],
           "span": 1
@@ -153,12 +153,12 @@
             {
               "label": "International African Association",
               "note": "1876; Leopold II of Belgium",
-              "regime": "international_african_association"
+              "polity": "international_african_association"
             },
             {
               "label": "International Association of the Congo",
               "note": "1879–1885",
-              "regime": "international_association_congo"
+              "polity": "international_association_congo"
             }
           ],
           "span": 4
@@ -176,7 +176,7 @@
             {
               "label": "Congo Free State (Leopold II — personal colony)",
               "note": "1885–1908; rubber exploitation, mass atrocities",
-              "regime": "congo_free_state"
+              "polity": "congo_free_state"
             }
           ],
           "span": 4
@@ -194,7 +194,7 @@
             {
               "label": "Belgian Congo",
               "note": "1908–1960; Belgian colonial administration",
-              "regime": "belgian_congo"
+              "polity": "belgian_congo"
             }
           ],
           "span": 4
@@ -212,7 +212,7 @@
             {
               "label": "Republic of the Congo",
               "note": "1960–1964; Patrice Lumumba, Moïse Tshombe (Katanga secession)",
-              "regime": "republic_of_congo"
+              "polity": "republic_of_congo"
             }
           ],
           "span": 4
@@ -227,7 +227,7 @@
             {
               "label": "Democratic Republic of the Congo",
               "note": "1964–1971; Mobutu Sese Seko rises to power",
-              "regime": "drc"
+              "polity": "drc"
             }
           ],
           "span": 4
@@ -242,7 +242,7 @@
             {
               "label": "Zaire",
               "note": "1971–1997; Mobutu Sese Seko regime, kleptocracy",
-              "regime": "zaire"
+              "polity": "zaire"
             }
           ],
           "span": 4
@@ -257,7 +257,7 @@
             {
               "label": "Democratic Republic of the Congo",
               "note": "1997–; Laurent-Désiré Kabila → Joseph Kabila → Félix Tshisekedi",
-              "regime": "drc"
+              "polity": "drc"
             }
           ],
           "span": 4

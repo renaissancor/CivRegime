@@ -1,58 +1,58 @@
 {
   "id": "korean_peninsula",
   "name": "korean_peninsula",
-  "regime_count": 11,
-  "regimes": [
+  "polity_count": 11,
+  "polities": [
     {
-      "regime_id": "silla",
+      "polity_id": "silla",
       "start": -57,
       "end": 668
     },
     {
-      "regime_id": "goguryeo",
+      "polity_id": "goguryeo",
       "start": -37,
       "end": 668
     },
     {
-      "regime_id": "baekje",
+      "polity_id": "baekje",
       "start": -18,
       "end": 660
     },
     {
-      "regime_id": "unified_silla",
+      "polity_id": "unified_silla",
       "start": 668,
       "end": 935
     },
     {
-      "regime_id": "goryeo",
+      "polity_id": "goryeo",
       "start": 918,
       "end": 1392
     },
     {
-      "regime_id": "joseon",
+      "polity_id": "joseon",
       "start": 1392,
       "end": 1897
     },
     {
-      "regime_id": "empire_of_japan",
+      "polity_id": "empire_of_japan",
       "start": 1868,
       "end": 1947
     },
     {
-      "regime_id": "japanese_korea",
+      "polity_id": "japanese_korea",
       "start": 1910,
       "end": 1945
     },
     {
-      "regime_id": "south_korea",
+      "polity_id": "south_korea",
       "start": 1948
     },
     {
-      "regime_id": "north_korea",
+      "polity_id": "north_korea",
       "start": 1948
     },
     {
-      "regime_id": "balhae",
+      "polity_id": "balhae",
       "start": 698,
       "end": 926
     }

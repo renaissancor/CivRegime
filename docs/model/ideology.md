@@ -2,15 +2,15 @@
 
 ## The Core Distinction
 
-**Ideology** is the regime's existential reason to exist. It does not change. If it changes, the regime has ended and a new one has begun — even if the same dynasty continues sitting on the throne.
+**Ideology** is the polity's existential reason to exist. It does not change. If it changes, the polity has ended and a new one has begun — even if the same dynasty continues sitting on the throne.
 
-**Policy** is a time-bounded decision made by rulers within the regime. It can change, reverse, or expire without threatening the regime's identity.
+**Policy** is a time-bounded decision made by rulers within the polity. It can change, reverse, or expire without threatening the polity's identity.
 
 ---
 
 ## Ideology
 
-A regime's ideology has three components in the data model:
+A polity's ideology has three components in the data model:
 
 ```json
 "ideology": {
@@ -20,13 +20,13 @@ A regime's ideology has three components in the data model:
 }
 ```
 
-- **religion**: The state religion that defines the regime's legitimacy and civilizational allegiance. Changing this ends the regime.
+- **religion**: The state religion that defines the polity's legitimacy and civilizational allegiance. Changing this ends the polity.
 - **government**: The structural form of power (khaganate, caliphate, Chinese imperial bureaucracy, etc.).
-- **philosophy**: The intellectual/moral framework of governance (Legalism, Confucian statecraft, Zoroastrian statecraft, Sharia-based governance, etc.). Optional — not all regimes have a distinct state philosophy separate from religion.
+- **philosophy**: The intellectual/moral framework of governance (Legalism, Confucian statecraft, Zoroastrian statecraft, Sharia-based governance, etc.). Optional — not all polities have a distinct state philosophy separate from religion.
 
 ### Examples of Ideology as Existential Identity
 
-| Regime | Core Ideology | Why it Cannot Change |
+| Polity | Core Ideology | Why it Cannot Change |
 |---|---|---|
 | Byzantine Empire | Eastern Orthodox + Caesaropapism | The emperor is God's representative on Earth; losing Orthodoxy would destroy the basis of all political legitimacy |
 | Soviet Union | Communism | The state exists explicitly to implement communism; without it, there is no justification for the party's monopoly on power |
@@ -40,7 +40,7 @@ A regime's ideology has three components in the data model:
 
 ## Policy
 
-A policy is a time-bounded decision that does **not** redefine the regime's core identity.
+A policy is a time-bounded decision that does **not** redefine the polity's core identity.
 
 ```json
 "policies": [
@@ -60,7 +60,7 @@ A policy is a time-bounded decision that does **not** redefine the regime's core
 - In 312 AD, Constantine issued the Edict of Milan tolerating Christianity. This was **policy**.
 - In 380 AD, Theodosius I made Christianity the only legal religion. This hardened into **ideology**.
 - The Byzantine Empire inherited Christianity as fixed **ideology** — not policy.
-- The Roman Empire that preceded it (pagan) is a different regime in ideological terms, despite physical continuity.
+- The Roman Empire that preceded it (pagan) is a different polity in ideological terms, despite physical continuity.
 
 **Akbar's Din-i-Ilahi (Mughal Empire)**
 - Akbar's syncretic experiment (1582–1605) was personal **policy**.
@@ -74,7 +74,7 @@ A policy is a time-bounded decision that does **not** redefine the regime's core
 
 **Khazar Conversion to Judaism**
 - The Khazar ruling class converting to Judaism was an **ideological shift**, not policy.
-- It redefined the regime's civilizational allegiance and is why the Khazar Khaganate is a distinct civilizational case.
+- It redefined the polity's civilizational allegiance and is why the Khazar Khaganate is a distinct civilizational case.
 
 ---
 
@@ -83,7 +83,7 @@ A policy is a time-bounded decision that does **not** redefine the regime's core
 When evaluating whether a succession is valid:
 - **Same ideology** → strong continuity, reinforces Type A
 - **Same ethnicity, different ideology** → weakened continuity; Sunni Timurid → Shia Safavid on the same Iranian territory is more disruptive than a simple Type C despite Persian ethnic continuity
-- **Religion split within same ethnicity** → creates entirely separate regimes: Serb (Orthodox) vs Croat (Catholic) vs Bosniak (Muslim) are the same South Slavic people but three distinct civilizational identities with different valid successors
+- **Religion split within same ethnicity** → creates entirely separate polities: Serb (Orthodox) vs Croat (Catholic) vs Bosniak (Muslim) are the same South Slavic people but three distinct civilizational identities with different valid successors
 
 The Safavid/Timurid case is instructive: same territory (Iran), same broad ethnicity (Persian/Iranian), but the Shia vs Sunni divide means these are NOT a smooth Type A succession. The ideological discontinuity is a Type D in religious terms even where ethnic and territorial continuity exists.
 
@@ -93,6 +93,6 @@ The Safavid/Timurid case is instructive: same territory (Iran), same broad ethni
 
 The **government form** is also part of ideology, not policy.
 
-A caliphate is not merely a government style — it is a claim to be the legitimate ruler of all Muslims globally. An empire that claims the caliphate and then abandons it has ended. This is why the end of the Ottoman Caliphate in 1924 is considered the end of the Ottoman regime even though the sultanate had been abolished in 1922 — the two were the regime's twin ideological pillars.
+A caliphate is not merely a government style — it is a claim to be the legitimate ruler of all Muslims globally. An empire that claims the caliphate and then abandons it has ended. This is why the end of the Ottoman Caliphate in 1924 is considered the end of the Ottoman polity even though the sultanate had been abolished in 1922 — the two were the polity's twin ideological pillars.
 
 Similarly, the Chinese Imperial Bureaucracy (Son of Heaven, Confucian exam system, mandate of heaven) was not a governing choice — it was the definition of what it meant to rule China. Every non-Han dynasty that wanted to rule China (Jurchen Jin, Mongol Yuan, Manchu Qing) had to either adopt this system (thereby legitimizing themselves) or rule as a foreign occupier.

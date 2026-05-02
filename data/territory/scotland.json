@@ -1,20 +1,20 @@
 {
   "id": "scotland",
   "name": "scotland",
-  "regime_count": 3,
-  "regimes": [
+  "polity_count": 3,
+  "polities": [
     {
-      "regime_id": "kingdom_of_scotland",
+      "polity_id": "kingdom_of_scotland",
       "start": 843,
       "end": 1707
     },
     {
-      "regime_id": "kingdom_of_great_britain",
+      "polity_id": "kingdom_of_great_britain",
       "start": 1707,
       "end": 1801
     },
     {
-      "regime_id": "united_kingdom",
+      "polity_id": "united_kingdom",
       "start": 1801
     }
   ]

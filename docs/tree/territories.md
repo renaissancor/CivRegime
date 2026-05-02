@@ -1,17 +1,17 @@
-# Territories and Regime Chronologies
+# Territories and Polity Chronologies
 
-This document maps each territory to the regimes that controlled it, in chronological order.
+This document maps each territory to the polities that controlled it, in chronological order.
 Use this to:
-- Verify regime-territory relationships
+- Verify polity-territory relationships
 - Identify gaps or overlaps in coverage
-- Spot potential data errors (regimes that coexist for the same territory)
+- Spot potential data errors (polities that coexist for the same territory)
 
 Total territories: 39
-Total regimes: 138
+Total polities: 138
 
 ## anatolia
 
-Controlled by 11 regimes:
+Controlled by 11 polities:
 
 1. Hittite Empire (hittite) -1600 – -1180
 2. Neo-Assyrian Empire (assyrian_eth) -911 – -609
@@ -27,13 +27,13 @@ Controlled by 11 regimes:
 
 ## aquitaine
 
-Controlled by 1 regimes:
+Controlled by 1 polities:
 
 1. Angevin Empire (french) 1154 – 1204
 
 ## arabia
 
-Controlled by 3 regimes:
+Controlled by 3 polities:
 
 1. Nabataean Kingdom (semitic) -115 – 106
 2. Rashidun Caliphate (semitic) 632 – 661
@@ -41,7 +41,7 @@ Controlled by 3 regimes:
 
 ## balkans
 
-Controlled by 8 regimes:
+Controlled by 8 polities:
 
 1. Roman Republic (latin) -509 – -27
 2. Roman Empire (Pagan) (latin) -27 – 380
@@ -54,7 +54,7 @@ Controlled by 8 regimes:
 
 ## bohemia
 
-Controlled by 4 regimes:
+Controlled by 4 polities:
 
 1. Kingdom of Bohemia (czech) 895 – 1526
 2. Holy Roman Empire (german) 962 – 1806
@@ -63,7 +63,7 @@ Controlled by 4 regimes:
 
 ## britannia
 
-Controlled by 3 regimes:
+Controlled by 3 polities:
 
 1. Kingdom of England (english) 927 – 1707
 2. Kingdom of Great Britain (english) 1707 – 1801
@@ -71,7 +71,7 @@ Controlled by 3 regimes:
 
 ## caucasus
 
-Controlled by 9 regimes:
+Controlled by 9 polities:
 
 1. Kingdom of Urartu (caucasian) -860 – -590
 2. Median Kingdom (median) -678 – -550
@@ -85,7 +85,7 @@ Controlled by 9 regimes:
 
 ## central_asian_steppe
 
-Controlled by 9 regimes:
+Controlled by 9 polities:
 
 1. Xiongnu Confederation (turkic) -209 – 93
 2. Hunnic Empire (steppe_nomadic) 350 – 453
@@ -99,7 +99,7 @@ Controlled by 9 regimes:
 
 ## deccan
 
-Controlled by 8 regimes:
+Controlled by 8 polities:
 
 1. Maurya Empire (indo_aryan) -322 – -185
 2. Satavahana Empire (dravidian) -230 – 220
@@ -112,7 +112,7 @@ Controlled by 8 regimes:
 
 ## egypt
 
-Controlled by 17 regimes:
+Controlled by 17 polities:
 
 1. Old Kingdom Egypt (egyptian_native) -2686 – -2181
 2. New Kingdom Egypt (egyptian_native) -1550 – -1070
@@ -134,7 +134,7 @@ Controlled by 17 regimes:
 
 ## ganges_plain
 
-Controlled by 8 regimes:
+Controlled by 8 polities:
 
 1. Maurya Empire (indo_aryan) -322 – -185
 2. Gupta Empire (indo_aryan) 320 – 550
@@ -147,7 +147,7 @@ Controlled by 8 regimes:
 
 ## gaul
 
-Controlled by 7 regimes:
+Controlled by 7 polities:
 
 1. Roman Republic (latin) -509 – -27
 2. Roman Empire (Pagan) (latin) -27 – 380
@@ -159,7 +159,7 @@ Controlled by 7 regimes:
 
 ## germany
 
-Controlled by 5 regimes:
+Controlled by 5 polities:
 
 1. Frankish Kingdom / Carolingian Empire (germanic) 486 – 843
 2. Holy Roman Empire (german) 962 – 1806
@@ -169,7 +169,7 @@ Controlled by 5 regimes:
 
 ## hungary
 
-Controlled by 4 regimes:
+Controlled by 4 polities:
 
 1. Hunnic Empire (steppe_nomadic) 350 – 453
 2. Avar Khaganate (steppe_nomadic) 568 – 804
@@ -178,7 +178,7 @@ Controlled by 4 regimes:
 
 ## iberia
 
-Controlled by 7 regimes:
+Controlled by 7 polities:
 
 1. Roman Republic (latin) -509 – -27
 2. Roman Empire (Pagan) (latin) -27 – 380
@@ -190,7 +190,7 @@ Controlled by 7 regimes:
 
 ## indus_valley
 
-Controlled by 7 regimes:
+Controlled by 7 polities:
 
 1. Maurya Empire (indo_aryan) -322 – -185
 2. Gupta Empire (indo_aryan) 320 – 550
@@ -202,7 +202,7 @@ Controlled by 7 regimes:
 
 ## iran_plateau
 
-Controlled by 14 regimes:
+Controlled by 14 polities:
 
 1. Median Kingdom (median) -678 – -550
 2. Achaemenid Empire (persian) -550 – -330
@@ -221,13 +221,13 @@ Controlled by 14 regimes:
 
 ## ireland
 
-Controlled by 1 regimes:
+Controlled by 1 polities:
 
 1. United Kingdom of Great Britain and Ireland (english) 1801 – ?
 
 ## italy
 
-Controlled by 11 regimes:
+Controlled by 11 polities:
 
 1. Roman Kingdom (latin) -753 – -509
 2. Roman Republic (latin) -509 – -27
@@ -243,7 +243,7 @@ Controlled by 11 regimes:
 
 ## japanese_archipelago
 
-Controlled by 5 regimes:
+Controlled by 5 polities:
 
 1. Yamato Period (yamato) 250 – 710
 2. Feudal Japan (yamato) 1185 – 1603
@@ -253,7 +253,7 @@ Controlled by 5 regimes:
 
 ## khorasan
 
-Controlled by 11 regimes:
+Controlled by 11 polities:
 
 1. Achaemenid Empire (persian) -550 – -330
 2. Macedonian Empire (Alexander) (macedonian) -336 – -323
@@ -269,7 +269,7 @@ Controlled by 11 regimes:
 
 ## kievan_rus
 
-Controlled by 4 regimes:
+Controlled by 4 polities:
 
 1. Kievan Rus (east_slavic) 882 – 1240
 2. Grand Duchy of Lithuania (lithuanian) 1236 – 1569
@@ -278,7 +278,7 @@ Controlled by 4 regimes:
 
 ## korean_peninsula
 
-Controlled by 8 regimes:
+Controlled by 8 polities:
 
 1. Three Kingdoms of Korea (korean_eth) -57 – 668
 2. Goguryeo (korean_eth) 37 – 668
@@ -291,7 +291,7 @@ Controlled by 8 regimes:
 
 ## levant
 
-Controlled by 21 regimes:
+Controlled by 21 polities:
 
 1. Akkadian Empire (akkadian_eth) -2334 – -2154
 2. New Kingdom Egypt (egyptian_native) -1550 – -1070
@@ -317,14 +317,14 @@ Controlled by 21 regimes:
 
 ## lithuania
 
-Controlled by 2 regimes:
+Controlled by 2 polities:
 
 1. Grand Duchy of Lithuania (lithuanian) 1236 – 1569
 2. Polish-Lithuanian Commonwealth (polish) 1569 – 1795
 
 ## manchuria
 
-Controlled by 11 regimes:
+Controlled by 11 polities:
 
 1. Three Kingdoms of Korea (korean_eth) -57 – 668
 2. Goguryeo (korean_eth) 37 – 668
@@ -340,7 +340,7 @@ Controlled by 11 regimes:
 
 ## mesopotamia
 
-Controlled by 21 regimes:
+Controlled by 21 polities:
 
 1. Sumerian City-States (Ur, Uruk, Lagash) (sumerian) -3500 – -2334
 2. Akkadian Empire (akkadian_eth) -2334 – -2154
@@ -366,7 +366,7 @@ Controlled by 21 regimes:
 
 ## mongolian_plateau
 
-Controlled by 7 regimes:
+Controlled by 7 polities:
 
 1. Xiongnu Confederation (turkic) -209 – 93
 2. Göktürk Khaganate (turkic) 552 – 744
@@ -378,7 +378,7 @@ Controlled by 7 regimes:
 
 ## north_africa
 
-Controlled by 8 regimes:
+Controlled by 8 polities:
 
 1. Roman Republic (latin) -509 – -27
 2. Roman Empire (Pagan) (latin) -27 – 380
@@ -391,7 +391,7 @@ Controlled by 8 regimes:
 
 ## nubia
 
-Controlled by 3 regimes:
+Controlled by 3 polities:
 
 1. Old Kingdom Egypt (egyptian_native) -2686 – -2181
 2. New Kingdom Egypt (egyptian_native) -1550 – -1070
@@ -399,14 +399,14 @@ Controlled by 3 regimes:
 
 ## poland
 
-Controlled by 2 regimes:
+Controlled by 2 polities:
 
 1. Kingdom of Poland (polish) 966 – 1569
 2. Polish-Lithuanian Commonwealth (polish) 1569 – 1795
 
 ## pontic_steppe
 
-Controlled by 4 regimes:
+Controlled by 4 polities:
 
 1. Hunnic Empire (steppe_nomadic) 350 – 453
 2. Khazar Khaganate (turkic) 650 – 969
@@ -415,13 +415,13 @@ Controlled by 4 regimes:
 
 ## prussia
 
-Controlled by 1 regimes:
+Controlled by 1 polities:
 
 1. Teutonic Order (Monastic State) (german) 1230 – 1525
 
 ## punjab
 
-Controlled by 7 regimes:
+Controlled by 7 polities:
 
 1. Maurya Empire (indo_aryan) -322 – -185
 2. Ghaznavid Empire (turkic) 977 – 1186
@@ -433,7 +433,7 @@ Controlled by 7 regimes:
 
 ## scandinavia
 
-Controlled by 4 regimes:
+Controlled by 4 polities:
 
 1. Kingdom of Norway (norse) 872 – 1380
 2. Kingdom of Denmark (norse) 936 – ?
@@ -442,7 +442,7 @@ Controlled by 4 regimes:
 
 ## scotland
 
-Controlled by 3 regimes:
+Controlled by 3 polities:
 
 1. Kingdom of Scotland (gaelic) 843 – 1707
 2. Kingdom of Great Britain (english) 1707 – 1801
@@ -450,7 +450,7 @@ Controlled by 3 regimes:
 
 ## transoxiana
 
-Controlled by 11 regimes:
+Controlled by 11 polities:
 
 1. Achaemenid Empire (persian) -550 – -330
 2. Macedonian Empire (Alexander) (macedonian) -336 – -323
@@ -466,7 +466,7 @@ Controlled by 11 regimes:
 
 ## yangtze
 
-Controlled by 12 regimes:
+Controlled by 12 polities:
 
 1. Zhou Dynasty (han) -1046 – -256
 2. Qin Dynasty (han) -221 – -206
@@ -483,7 +483,7 @@ Controlled by 12 regimes:
 
 ## yellow_river
 
-Controlled by 15 regimes:
+Controlled by 15 polities:
 
 1. Shang Dynasty (han) -1600 – -1046
 2. Zhou Dynasty (han) -1046 – -256

@@ -36,7 +36,7 @@
             {
               "label": "Dacian Kingdom — Sarmizegetusa Regia (capital)",
               "note": "c.82 BCE–106 CE",
-              "regime": "dacian_kingdom"
+              "polity": "dacian_kingdom"
             }
           ],
           "span": 1
@@ -45,7 +45,7 @@
           "stack": [
             {
               "label": "Dacia — Getae / Dacian tribes",
-              "regime": "dacia"
+              "polity": "dacia"
             }
           ],
           "span": 1
@@ -54,7 +54,7 @@
           "stack": [
             {
               "label": "Free Dacians — Carpi (east of Roman reach)",
-              "regime": "free_dacians"
+              "polity": "free_dacians"
             }
           ],
           "span": 1
@@ -69,12 +69,12 @@
             {
               "label": "Roman Dacia province",
               "note": "106–271 CE — Trajan's conquest",
-              "regime": "roman_dacia_province"
+              "polity": "roman_dacia_province"
             },
             {
               "label": "Roman withdrawal · Goths settle",
               "note": "271 CE",
-              "regime": "roman_withdrawal"
+              "polity": "roman_withdrawal"
             }
           ],
           "span": 1
@@ -83,7 +83,7 @@
           "stack": [
             {
               "label": "Roman Empire (partly) · Goths · Sarmatians · Alans",
-              "regime": "roman_empire"
+              "polity": "roman_empire"
             }
           ],
           "span": 1
@@ -92,7 +92,7 @@
           "stack": [
             {
               "label": "Free Dacians / Carpi · Goths · Alans",
-              "regime": "free_dacians"
+              "polity": "free_dacians"
             }
           ],
           "span": 1
@@ -107,16 +107,16 @@
             {
               "label": "Gepid Kingdom",
               "note": "454–567 CE",
-              "regime": "gepid_kingdom"
+              "polity": "gepid_kingdom"
             },
             {
               "label": "Avar Khaganate",
               "note": "567–796 CE",
-              "regime": "avar_khaganate"
+              "polity": "avar_khaganate"
             },
             {
               "label": "Slavic migration",
-              "regime": "slavic_migration"
+              "polity": "slavic_migration"
             }
           ],
           "span": 1
@@ -125,12 +125,12 @@
           "stack": [
             {
               "label": "Hunnic Empire → Goths/Sarmatians",
-              "regime": "hunnic_empire"
+              "polity": "hunnic_empire"
             },
             {
               "label": "Slavic migration",
               "note": "6th–7th c.",
-              "regime": "slavic_migration"
+              "polity": "slavic_migration"
             }
           ],
           "span": 1
@@ -139,11 +139,11 @@
           "stack": [
             {
               "label": "Hunnic Empire · Alans · Free Dacians remnants",
-              "regime": "hunnic_empire"
+              "polity": "hunnic_empire"
             },
             {
               "label": "Slavic migration",
-              "regime": "slavic_migration"
+              "polity": "slavic_migration"
             }
           ],
           "span": 1
@@ -160,12 +160,12 @@
           "stack": [
             {
               "label": "Avar Khaganate (declining) · Vlachs",
-              "regime": "avar_khaganate"
+              "polity": "avar_khaganate"
             },
             {
               "label": "Hungarian conquest of Transylvania",
               "note": "c.895–1000 CE",
-              "regime": "hungarian_conquest_of_transylvania"
+              "polity": "hungarian_conquest_of_transylvania"
             }
           ],
           "span": 1
@@ -174,11 +174,11 @@
           "stack": [
             {
               "label": "First Bulgarian Empire (partly)",
-              "regime": "first_bulgarian_empire"
+              "polity": "first_bulgarian_empire"
             },
             {
               "label": "Vlachs (Romanized populations)",
-              "regime": "vlachs"
+              "polity": "vlachs"
             }
           ],
           "span": 1
@@ -187,11 +187,11 @@
           "stack": [
             {
               "label": "First Bulgarian Empire",
-              "regime": "first_bulgarian_empire"
+              "polity": "first_bulgarian_empire"
             },
             {
               "label": "Pechenegs (from c.895 CE)",
-              "regime": "pechenegs"
+              "polity": "pechenegs"
             }
           ],
           "span": 1
@@ -206,7 +206,7 @@
             {
               "label": "Kingdom of Hungary — Transylvania (with Saxon colonists)",
               "note": "11th–13th c.",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 1
@@ -216,11 +216,11 @@
             {
               "label": "Pechenegs → Cumans",
               "note": "from c.1040",
-              "regime": "pechenegs"
+              "polity": "pechenegs"
             },
             {
               "label": "Second Bulgarian Empire border",
-              "regime": "second_bulgarian_empire"
+              "polity": "second_bulgarian_empire"
             }
           ],
           "span": 1
@@ -230,7 +230,7 @@
             {
               "label": "Pechenegs → Cumans (dominant)",
               "note": "from c.1040",
-              "regime": "pechenegs"
+              "polity": "pechenegs"
             }
           ],
           "span": 1
@@ -245,7 +245,7 @@
             {
               "label": "Kingdom of Hungary",
               "note": "Mongol invasion 1241–42",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 1
@@ -254,12 +254,12 @@
           "stack": [
             {
               "label": "Golden Horde (post-Mongol invasion)",
-              "regime": "golden_horde"
+              "polity": "golden_horde"
             },
             {
               "label": "Principality of Wallachia",
               "note": "founded c.1290–1330, Basarab I",
-              "regime": "principality_of_wallachia"
+              "polity": "principality_of_wallachia"
             }
           ],
           "span": 1
@@ -268,12 +268,12 @@
           "stack": [
             {
               "label": "Golden Horde (post-Mongol invasion)",
-              "regime": "golden_horde"
+              "polity": "golden_horde"
             },
             {
               "label": "Principality of Moldavia",
               "note": "founded c.1359, Bogdan I",
-              "regime": "principality_of_moldavia"
+              "polity": "principality_of_moldavia"
             }
           ],
           "span": 1
@@ -288,12 +288,12 @@
             {
               "label": "Kingdom of Hungary → Eastern Kingdom of Hungary",
               "note": "after Mohács 1526",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             },
             {
               "label": "Principality of Transylvania",
               "note": "1570–",
-              "regime": "principality_of_transylvania"
+              "polity": "principality_of_transylvania"
             }
           ],
           "span": 1
@@ -302,12 +302,12 @@
           "stack": [
             {
               "label": "Principality of Wallachia",
-              "regime": "principality_of_wallachia"
+              "polity": "principality_of_wallachia"
             },
             {
               "label": "Ottoman vassal",
               "note": "c.1417 (fully 1460s)",
-              "regime": "ottoman_empire"
+              "polity": "ottoman_empire"
             }
           ],
           "span": 1
@@ -317,12 +317,12 @@
             {
               "label": "Principality of Moldavia — Stephen the Great",
               "note": "r.1457–1504",
-              "regime": "principality_of_moldavia"
+              "polity": "principality_of_moldavia"
             },
             {
               "label": "Ottoman vassal",
               "note": "1538",
-              "regime": "ottoman_empire"
+              "polity": "ottoman_empire"
             }
           ],
           "span": 1
@@ -337,7 +337,7 @@
             {
               "label": "Habsburg Grand Principality of Transylvania",
               "note": "from 1688",
-              "regime": "habsburg_grand_principality_of_transylvania"
+              "polity": "habsburg_grand_principality_of_transylvania"
             }
           ],
           "span": 1
@@ -347,7 +347,7 @@
             {
               "label": "Ottoman Wallachia — Phanariot governors",
               "note": "from 1716",
-              "regime": "ottoman_wallachia"
+              "polity": "ottoman_wallachia"
             }
           ],
           "span": 1
@@ -357,17 +357,17 @@
             {
               "label": "Ottoman Moldavia — Phanariot governors",
               "note": "from 1711",
-              "regime": "ottoman_moldavia"
+              "polity": "ottoman_moldavia"
             },
             {
               "label": "Habsburg — Duchy of Bukovina",
               "note": "1775 (NW Moldavia)",
-              "regime": "habsburg_monarchy"
+              "polity": "habsburg_monarchy"
             },
             {
               "label": "Russian Empire annexes Bessarabia",
               "note": "1812",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 1
@@ -385,7 +385,7 @@
             {
               "label": "Austrian Empire → Austria-Hungary",
               "note": "in Hungarian half from 1867",
-              "regime": "austrian_empire"
+              "polity": "austrian_empire"
             }
           ],
           "span": 1
@@ -395,12 +395,12 @@
             {
               "label": "United Principalities of Moldavia & Wallachia",
               "note": "1859 — Alexandru Ioan Cuza",
-              "regime": "united_principalities_of_moldavia_wallachia"
+              "polity": "united_principalities_of_moldavia_wallachia"
             },
             {
               "label": "Kingdom of Romania",
               "note": "1881–",
-              "regime": "kingdom_of_romania"
+              "polity": "kingdom_of_romania"
             }
           ],
           "span": 1
@@ -409,12 +409,12 @@
           "stack": [
             {
               "label": "United Principalities → Kingdom of Romania (Romanian Moldavia)",
-              "regime": "kingdom_of_romania"
+              "polity": "kingdom_of_romania"
             },
             {
               "label": "Russian Empire — Bessarabia (east of Prut)",
               "note": "1812–1918",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 1
@@ -429,7 +429,7 @@
             {
               "label": "Austria-Hungary → Romania",
               "note": "Treaty of Trianon 1920",
-              "regime": "austria_hungary"
+              "polity": "austria_hungary"
             }
           ],
           "span": 1
@@ -438,12 +438,12 @@
           "stack": [
             {
               "label": "Kingdom of Romania (fully independent 1877)",
-              "regime": "kingdom_of_romania"
+              "polity": "kingdom_of_romania"
             },
             {
               "label": "Greater Romania (post-WWI)",
               "note": "from 1918–1920",
-              "regime": "greater_romania"
+              "polity": "greater_romania"
             }
           ],
           "span": 1
@@ -453,12 +453,12 @@
             {
               "label": "Kingdom of Romania — Bessarabia rejoins",
               "note": "1918",
-              "regime": "kingdom_of_romania"
+              "polity": "kingdom_of_romania"
             },
             {
               "label": "Soviet Moldavian ASSR (east bank of Dniester)",
               "note": "1924–1940",
-              "regime": "soviet_moldavian_assr"
+              "polity": "soviet_moldavian_assr"
             }
           ],
           "span": 1
@@ -472,7 +472,7 @@
           "stack": [
             {
               "label": "Romania (Greater Romania)",
-              "regime": "romania"
+              "polity": "romania"
             },
             {
               "label": "N. Transylvania → Hungary (Second Vienna Award)",
@@ -480,7 +480,7 @@
             },
             {
               "label": "S. Transylvania remains Romania",
-              "regime": "s_transylvania_remains_romania"
+              "polity": "s_transylvania_remains_romania"
             }
           ],
           "span": 1
@@ -489,17 +489,17 @@
           "stack": [
             {
               "label": "Kingdom of Romania",
-              "regime": "kingdom_of_romania"
+              "polity": "kingdom_of_romania"
             },
             {
               "label": "National Legionary State (Iron Guard)",
               "note": "Sept 1940–Jan 1941",
-              "regime": "national_legionary_state"
+              "polity": "national_legionary_state"
             },
             {
               "label": "Romania (Antonescu, Axis-allied)",
               "note": "1941–1944",
-              "regime": "romania"
+              "polity": "romania"
             }
           ],
           "span": 1
@@ -509,12 +509,12 @@
             {
               "label": "Soviet Moldavian SSR",
               "note": "1940–1941",
-              "regime": "soviet_moldavian_ssr"
+              "polity": "soviet_moldavian_ssr"
             },
             {
               "label": "Romania reoccupies Bessarabia",
               "note": "1941–1944",
-              "regime": "romania_reoccupies_bessarabia"
+              "polity": "romania_reoccupies_bessarabia"
             },
             {
               "label": "Soviet Moldavian SSR (restored)",
@@ -537,7 +537,7 @@
             {
               "label": "Nicolae Ceaușescu regime",
               "note": "1965–1989",
-              "regime": "nicolae_ceausescu_regime"
+              "polity": "nicolae_ceausescu_regime"
             }
           ],
           "span": 2
@@ -547,7 +547,7 @@
             {
               "label": "Soviet Union — Moldavian SSR",
               "note": "1944–1991",
-              "regime": "soviet_union"
+              "polity": "soviet_union"
             }
           ],
           "span": 1
@@ -565,7 +565,7 @@
             {
               "label": "Romania — democracy",
               "note": "from 1989",
-              "regime": "romania"
+              "polity": "romania"
             }
           ],
           "span": 2
@@ -575,7 +575,7 @@
             {
               "label": "Republic of Moldova (independent 1991)",
               "note": "Transnistrian War 1992 — frozen conflict",
-              "regime": "republic_of_moldova"
+              "polity": "republic_of_moldova"
             }
           ],
           "span": 1
@@ -593,11 +593,11 @@
           "split": [
             {
               "label": "Republic of Moldova — EU candidate (2022)",
-              "regime": "republic_of_moldova"
+              "polity": "republic_of_moldova"
             },
             {
               "label": "Transnistria (unrecognised)",
-              "regime": "transnistria"
+              "polity": "transnistria"
             }
           ],
           "span": 1

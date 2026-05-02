@@ -41,22 +41,22 @@
             {
               "label": "Tiwanaku (550–1000)",
               "note": "Lake Titicaca highlands",
-              "regime": "tiwanaku"
+              "polity": "tiwanaku"
             },
             {
               "label": "Wari Empire (600–1000)",
               "note": "first Andean empire",
-              "regime": "wari_empire"
+              "polity": "wari_empire"
             },
             {
               "label": "Chimú Kingdom (900–1470)",
               "note": "coastal Peru",
-              "regime": "chimu_kingdom"
+              "polity": "chimu_kingdom"
             },
             {
               "label": "Inca Empire (1438–1533)",
               "note": "Tawantinsuyu",
-              "regime": "inca_empire"
+              "polity": "inca_empire"
             }
           ],
           "span": 1
@@ -64,17 +64,17 @@
         {
           "label": "Muisca Confederation",
           "span": 1,
-          "regime": "muisca_confederation"
+          "polity": "muisca_confederation"
         },
         {
           "label": "Tupí-Guaraní peoples",
           "span": 1,
-          "regime": "tupi_guarani"
+          "polity": "tupi_guarani"
         },
         {
           "label": "Mapuche Nation",
           "span": 1,
-          "regime": "mapuche_nation"
+          "polity": "mapuche_nation"
         }
       ]
     },
@@ -87,22 +87,22 @@
         {
           "label": "Viceroyalty of Peru (1542–1824)",
           "span": 1,
-          "regime": "viceroyalty_of_peru"
+          "polity": "viceroyalty_of_peru"
         },
         {
           "label": "Viceroyalty of New Granada (1717–1819)",
           "span": 1,
-          "regime": "viceroyalty_of_new_granada"
+          "polity": "viceroyalty_of_new_granada"
         },
         {
           "label": "Portuguese Brazil (1500–1822)",
           "span": 1,
-          "regime": "portuguese_brazil"
+          "polity": "portuguese_brazil"
         },
         {
           "label": "Viceroyalty of Río de la Plata (1776–1816)",
           "span": 1,
-          "regime": "viceroyalty_of_rio_de_la_plata"
+          "polity": "viceroyalty_of_rio_de_la_plata"
         }
       ]
     },
@@ -116,11 +116,11 @@
           "stack": [
             {
               "label": "Peru (1824)",
-              "regime": "peru"
+              "polity": "peru"
             },
             {
               "label": "Bolivia (1825)",
-              "regime": "bolivia"
+              "polity": "bolivia"
             }
           ],
           "span": 1
@@ -130,7 +130,7 @@
             {
               "label": "Gran Colombia (1819–1831)",
               "note": "Bolívar's united republic",
-              "regime": "gran_colombia"
+              "polity": "gran_colombia"
             },
             {
               "label": "Colombia (1831) · Venezuela (1830) · Ecuador (1830)",
@@ -144,11 +144,11 @@
             {
               "label": "Empire of Brazil (1822–1889)",
               "note": "Pedro I → Pedro II",
-              "regime": "empire_of_brazil"
+              "polity": "empire_of_brazil"
             },
             {
               "label": "Republic of Brazil (1889–)",
-              "regime": "republic_of_brazil"
+              "polity": "republic_of_brazil"
             }
           ],
           "span": 1
@@ -157,19 +157,19 @@
           "stack": [
             {
               "label": "Argentina (1816)",
-              "regime": "argentina"
+              "polity": "argentina"
             },
             {
               "label": "Chile (1818)",
-              "regime": "chile"
+              "polity": "chile"
             },
             {
               "label": "Uruguay (1828)",
-              "regime": "uruguay"
+              "polity": "uruguay"
             },
             {
               "label": "Paraguay (1811)",
-              "regime": "paraguay"
+              "polity": "paraguay"
             }
           ],
           "span": 1
@@ -185,22 +185,22 @@
         {
           "label": "Peru · Bolivia · Ecuador",
           "span": 1,
-          "regime": "peru"
+          "polity": "peru"
         },
         {
           "label": "Colombia · Venezuela",
           "span": 1,
-          "regime": "colombia"
+          "polity": "colombia"
         },
         {
           "label": "Brazil",
           "span": 1,
-          "regime": "republic_of_brazil"
+          "polity": "republic_of_brazil"
         },
         {
           "label": "Argentina · Chile · Uruguay · Paraguay",
           "span": 1,
-          "regime": "argentina"
+          "polity": "argentina"
         }
       ]
     }

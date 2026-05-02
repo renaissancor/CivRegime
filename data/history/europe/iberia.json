@@ -41,17 +41,17 @@
             {
               "label": "Cynetes / Conii (far southwest)",
               "note": "pre-Roman",
-              "regime": "cynetes"
+              "polity": "cynetes"
             },
             {
               "label": "Lusitanians",
               "note": "c.1000 BCE–",
-              "regime": "lusitanians"
+              "polity": "lusitanians"
             },
             {
               "label": "Celts (NW Gallaecia)",
               "note": "c.800 BCE–",
-              "regime": "celts"
+              "polity": "celts"
             }
           ],
           "span": 1
@@ -61,17 +61,17 @@
             {
               "label": "Celtiberians",
               "note": "c.800–200 BCE",
-              "regime": "celtiberians"
+              "polity": "celtiberians"
             },
             {
               "label": "Iberians (eastern & southern)",
               "note": "c.800 BCE–",
-              "regime": "iberians"
+              "polity": "iberians"
             },
             {
               "label": "Basques (Pyrenees — continuous)",
               "note": "c.1000 BCE–",
-              "regime": "basques"
+              "polity": "basques"
             }
           ],
           "span": 1
@@ -81,12 +81,12 @@
             {
               "label": "Basques (Vascones · Pyrenees)",
               "note": "c.1000 BCE– (pre-IE)",
-              "regime": "basques"
+              "polity": "basques"
             },
             {
               "label": "Iberians (Mediterranean coast)",
               "note": "c.800 BCE–",
-              "regime": "iberians"
+              "polity": "iberians"
             },
             {
               "label": "Greek colonies (Emporion · Rhode)",
@@ -100,17 +100,17 @@
             {
               "label": "Tartessian civilization (Guadalquivir)",
               "note": "c.1100–500 BCE",
-              "regime": "tartessian_civilization_culture"
+              "polity": "tartessian_civilization_culture"
             },
             {
               "label": "Phoenician colonies (Gadir · Málaga · Sexi)",
               "note": "c.1100 BCE–",
-              "regime": "phoenician_colonies"
+              "polity": "phoenician_colonies"
             },
             {
               "label": "Carthaginian expansion (New Carthage)",
               "note": "c.237–206 BCE",
-              "regime": "carthage"
+              "polity": "carthage"
             }
           ],
           "span": 1
@@ -123,12 +123,12 @@
         {
           "stack": [
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic — Lusitania (Sertorius revolt 80–72 BCE)",
               "note": "206–27 BCE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Gallaecia · Lusitania",
               "note": "27 BCE–380 CE"
             }
@@ -138,12 +138,12 @@
         {
           "stack": [
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic — Hispania Citerior",
               "note": "206–27 BCE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Tarraconensis",
               "note": "27 BCE–380 CE"
             }
@@ -153,12 +153,12 @@
         {
           "stack": [
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic — Tarraconensis",
               "note": "206–27 BCE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Tarraconensis",
               "note": "27 BCE–380 CE"
             }
@@ -168,12 +168,12 @@
         {
           "stack": [
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic — Hispania Ulterior",
               "note": "206–27 BCE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Baetica Province",
               "note": "27 BCE–380 CE"
             }
@@ -191,24 +191,24 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Western Roman Empire",
               "note": "380–409"
             },
             {
               "label": "Suebi settle Gallaecia",
               "note": "409–",
-              "regime": "suebi_settle_gallaecia"
+              "polity": "suebi_settle_gallaecia"
             },
             {
               "label": "Alans in Lusitania (briefly)",
               "note": "409–418",
-              "regime": "alans_in_lusitania"
+              "polity": "alans_in_lusitania"
             },
             {
               "label": "Vandals — passing through",
               "note": "409–429",
-              "regime": "vandals"
+              "polity": "vandals"
             }
           ],
           "span": 1
@@ -216,14 +216,14 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Western Roman Empire",
               "note": "380–476"
             },
             {
               "label": "Alans in Carthaginensis",
               "note": "409–418",
-              "regime": "alans_in_carthaginensis"
+              "polity": "alans_in_carthaginensis"
             },
             {
               "label": "Vandals in Baetica → Africa",
@@ -235,12 +235,12 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Western Roman Empire",
               "note": "380–476"
             },
             {
-              "regime": "visigothic_kingdom",
+              "polity": "visigothic_kingdom",
               "label": "Visigothic Kingdom (Toulouse)",
               "note": "418–507"
             }
@@ -250,7 +250,7 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Western Roman Empire",
               "note": "380–476"
             },
@@ -271,10 +271,10 @@
             {
               "label": "Suebi Kingdom (Gallaecia · NW Iberia)",
               "note": "409–585",
-              "regime": "suebi_kingdom"
+              "polity": "suebi_kingdom"
             },
             {
-              "regime": "visigothic_kingdom",
+              "polity": "visigothic_kingdom",
               "label": "Visigothic Kingdom absorbs Suebi",
               "note": "585"
             }
@@ -284,14 +284,14 @@
         {
           "stack": [
             {
-              "regime": "visigothic_kingdom",
+              "polity": "visigothic_kingdom",
               "label": "Visigothic Kingdom (Toledo capital after 507)",
               "note": "507–711"
             },
             {
               "label": "Theodoric/Ostrogothic regency",
               "note": "507–526",
-              "regime": "theodoricostrogothic_regency"
+              "polity": "theodoricostrogothic_regency"
             }
           ],
           "span": 1
@@ -299,14 +299,14 @@
         {
           "stack": [
             {
-              "regime": "visigothic_kingdom",
+              "polity": "visigothic_kingdom",
               "label": "Visigothic Kingdom",
               "note": "507–711"
             },
             {
               "label": "Theodoric/Ostrogothic regency",
               "note": "507–526",
-              "regime": "theodoricostrogothic_regency"
+              "polity": "theodoricostrogothic_regency"
             }
           ],
           "span": 1
@@ -314,12 +314,12 @@
         {
           "stack": [
             {
-              "regime": "visigothic_kingdom",
+              "polity": "visigothic_kingdom",
               "label": "Visigothic Kingdom",
               "note": "507–711"
             },
             {
-              "regime": "byzantine_empire",
+              "polity": "byzantine_empire",
               "label": "Byzantine Spania Province",
               "note": "554–624"
             }
@@ -337,19 +337,19 @@
         {
           "stack": [
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad conquest",
               "note": "711–718"
             },
             {
               "label": "Asturias / Galicia reconquest of north",
               "note": "718–",
-              "regime": "asturias"
+              "polity": "asturias"
             },
             {
               "label": "Galicia emerging (under Asturias)",
               "note": "800s",
-              "regime": "galicia_emerging"
+              "polity": "galicia_emerging"
             }
           ],
           "span": 1
@@ -357,14 +357,14 @@
         {
           "stack": [
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad conquest",
               "note": "711–718"
             },
             {
               "label": "Kingdom of Asturias",
               "note": "718–924",
-              "regime": "kingdom_of_asturias"
+              "polity": "kingdom_of_asturias"
             },
             {
               "label": "Pelayo's Reconquista begins",
@@ -376,24 +376,24 @@
         {
           "stack": [
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad conquest (partial)",
               "note": "714–718"
             },
             {
               "label": "Frankish Marca Hispanica (Charlemagne)",
               "note": "778–",
-              "regime": "frankish_marca_hispanica"
+              "polity": "frankish_marca_hispanica"
             },
             {
               "label": "Kingdom of Pamplona/Navarre",
               "note": "824–",
-              "regime": "kingdom_of_pamplonanavarre"
+              "polity": "kingdom_of_pamplonanavarre"
             },
             {
               "label": "County of Aragon (under Navarre)",
               "note": "828–",
-              "regime": "county_of_aragon"
+              "polity": "county_of_aragon"
             }
           ],
           "span": 1
@@ -401,12 +401,12 @@
         {
           "stack": [
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate (Al-Andalus)",
               "note": "711–750"
             },
             {
-              "regime": "al_andalus",
+              "polity": "al_andalus",
               "label": "Emirate of Córdoba (Umayyad)",
               "note": "756–929"
             }
@@ -423,12 +423,12 @@
             {
               "label": "Kingdom of Galicia",
               "note": "910–1230",
-              "regime": "kingdom_of_galicia"
+              "polity": "kingdom_of_galicia"
             },
             {
               "label": "County of Portugal (under Galicia)",
               "note": "868–1095",
-              "regime": "county_of_portugal"
+              "polity": "county_of_portugal"
             }
           ],
           "span": 1
@@ -438,12 +438,12 @@
             {
               "label": "Kingdom of León",
               "note": "910–1230",
-              "regime": "kingdom_of_leon"
+              "polity": "kingdom_of_leon"
             },
             {
               "label": "County of Castile (growing autonomy)",
               "note": "932–1029",
-              "regime": "county_of_castile"
+              "polity": "county_of_castile"
             }
           ],
           "span": 1
@@ -453,12 +453,12 @@
             {
               "label": "Kingdom of Navarre (dominant in north)",
               "note": "824–1234",
-              "regime": "kingdom_of_navarre"
+              "polity": "kingdom_of_navarre"
             },
             {
               "label": "County of Barcelona (West Frankish fief)",
               "note": "801–988",
-              "regime": "county_of_barcelona"
+              "polity": "county_of_barcelona"
             }
           ],
           "span": 1
@@ -466,14 +466,14 @@
         {
           "stack": [
             {
-              "regime": "al_andalus",
+              "polity": "al_andalus",
               "label": "Caliphate of Córdoba",
               "note": "929–1031"
             },
             {
               "label": "Height of Islamic Spain — Córdoba largest European city",
               "note": "",
-              "regime": "height_of_islamic_spain"
+              "polity": "height_of_islamic_spain"
             }
           ],
           "span": 1
@@ -491,17 +491,17 @@
             {
               "label": "County of Portugal (autonomous)",
               "note": "1095–1139",
-              "regime": "county_of_portugal"
+              "polity": "county_of_portugal"
             },
             {
               "label": "Kingdom of Portugal (Afonso I)",
               "note": "1139–",
-              "regime": "kingdom_of_portugal"
+              "polity": "kingdom_of_portugal"
             },
             {
               "label": "Burgundian dynasty",
               "note": "1139–1385",
-              "regime": "burgundian_dynasty"
+              "polity": "burgundian_dynasty"
             }
           ],
           "span": 1
@@ -511,12 +511,12 @@
             {
               "label": "Kingdom of León-Castile (Sancho III)",
               "note": "1037",
-              "regime": "kingdom_of_leon_castile"
+              "polity": "kingdom_of_leon_castile"
             },
             {
               "label": "Kingdom of Castile (separate)",
               "note": "1065–1230",
-              "regime": "kingdom_of_castile"
+              "polity": "kingdom_of_castile"
             },
             {
               "label": "Conquest of Toledo",
@@ -530,17 +530,17 @@
             {
               "label": "Kingdom of Aragon",
               "note": "1035–1137",
-              "regime": "kingdom_of_aragon"
+              "polity": "kingdom_of_aragon"
             },
             {
               "label": "Crown of Aragon (Aragon + Catalonia)",
               "note": "1137–1469",
-              "regime": "crown_of_aragon"
+              "polity": "crown_of_aragon"
             },
             {
               "label": "Kingdom of Navarre (separate)",
               "note": "1035–1512",
-              "regime": "kingdom_of_navarre"
+              "polity": "kingdom_of_navarre"
             }
           ],
           "span": 1
@@ -548,12 +548,12 @@
         {
           "stack": [
             {
-              "regime": "al_andalus",
+              "polity": "al_andalus",
               "label": "Taifa Kingdoms (reinos de taifas)",
               "note": "1031–1086"
             },
             {
-              "regime": "almoravid_dynasty",
+              "polity": "almoravid_dynasty",
               "label": "Almoravid Dynasty",
               "note": "1086–1147"
             }
@@ -570,12 +570,12 @@
             {
               "label": "Kingdom of Portugal (Burgundian)",
               "note": "–1385",
-              "regime": "kingdom_of_portugal"
+              "polity": "kingdom_of_portugal"
             },
             {
               "label": "Aviz dynasty (João I)",
               "note": "1385–1495",
-              "regime": "aviz_dynasty"
+              "polity": "aviz_dynasty"
             }
           ],
           "span": 1
@@ -594,12 +594,12 @@
             {
               "label": "Crown of Aragon (Sicily 1282, Sardinia 1323)",
               "note": "1137–1469",
-              "regime": "crown_of_aragon"
+              "polity": "crown_of_aragon"
             },
             {
               "label": "Kingdom of Navarre (French connection)",
               "note": "–1512",
-              "regime": "kingdom_of_navarre"
+              "polity": "kingdom_of_navarre"
             }
           ],
           "span": 1
@@ -607,12 +607,12 @@
         {
           "stack": [
             {
-              "regime": "almohad_caliphate",
+              "polity": "almohad_caliphate",
               "label": "Almohad Caliphate",
               "note": "1147–1269"
             },
             {
-              "regime": "al_andalus",
+              "polity": "al_andalus",
               "label": "Nasrid Emirate of Granada",
               "note": "1230–1492"
             }
@@ -632,7 +632,7 @@
             {
               "label": "Kingdom of Portugal (Aviz dynasty)",
               "note": "1385–1495",
-              "regime": "kingdom_of_portugal"
+              "polity": "kingdom_of_portugal"
             },
             {
               "label": "Age of Discovery begins (Henry the Navigator)",
@@ -646,12 +646,12 @@
             {
               "label": "Crown of Castile",
               "note": "–1479",
-              "regime": "crown_of_castile"
+              "polity": "crown_of_castile"
             },
             {
               "label": "Castile + Aragon (Ferdinand & Isabella)",
               "note": "1469–",
-              "regime": "castile_aragon"
+              "polity": "castile_aragon"
             }
           ],
           "span": 1
@@ -661,7 +661,7 @@
             {
               "label": "Crown of Aragon (Naples 1442, Mediterranean empire)",
               "note": "",
-              "regime": "crown_of_aragon"
+              "polity": "crown_of_aragon"
             },
             {
               "label": "Navarre → annexed by Castile",
@@ -673,7 +673,7 @@
         {
           "stack": [
             {
-              "regime": "al_andalus",
+              "polity": "al_andalus",
               "label": "Nasrid Emirate of Granada",
               "note": "1230–1492"
             },
@@ -697,17 +697,17 @@
             {
               "label": "Kingdom of Portugal — Aviz-Beja dynasty",
               "note": "1495–1580",
-              "regime": "kingdom_of_portugal"
+              "polity": "kingdom_of_portugal"
             },
             {
               "label": "Vasco da Gama · Cabral · Magellan",
               "note": "1498–1521",
-              "regime": "vasco_da_gama"
+              "polity": "vasco_da_gama"
             },
             {
               "label": "Portuguese Empire peak",
               "note": "16th c.",
-              "regime": "portuguese_empire_peak"
+              "polity": "portuguese_empire_peak"
             }
           ],
           "span": 1
@@ -717,17 +717,17 @@
             {
               "label": "Kingdom of Spain (Habsburg — Carlos I / Philip II)",
               "note": "1516–1700",
-              "regime": "kingdom_of_spain"
+              "polity": "kingdom_of_spain"
             },
             {
               "label": "Columbus 1492, American Empire",
               "note": "",
-              "regime": "columbus_1492_american_empire"
+              "polity": "columbus_1492_american_empire"
             },
             {
               "label": "Moriscos expelled",
               "note": "1609",
-              "regime": "moriscos_expelled"
+              "polity": "moriscos_expelled"
             }
           ],
           "span": 3
@@ -742,17 +742,17 @@
             {
               "label": "Iberian Union (Philip II absorbs Portugal)",
               "note": "1580–1640",
-              "regime": "iberian_union"
+              "polity": "iberian_union"
             },
             {
               "label": "Braganza Restoration",
               "note": "1640",
-              "regime": "braganza_restoration"
+              "polity": "braganza_restoration"
             },
             {
               "label": "Kingdom of Portugal (Braganza dynasty)",
               "note": "1640–1910",
-              "regime": "kingdom_of_portugal"
+              "polity": "kingdom_of_portugal"
             }
           ],
           "span": 1
@@ -783,7 +783,7 @@
             {
               "label": "Kingdom of Portugal (Braganza)",
               "note": "–1807",
-              "regime": "kingdom_of_portugal"
+              "polity": "kingdom_of_portugal"
             },
             {
               "label": "Pombal reforms",
@@ -796,7 +796,7 @@
             {
               "label": "United Kingdom Portugal-Brazil-Algarves",
               "note": "1815–1822",
-              "regime": "united_kingdom"
+              "polity": "united_kingdom"
             }
           ],
           "span": 1
@@ -810,7 +810,7 @@
             {
               "label": "Napoleonic Spain (José I Bonaparte)",
               "note": "1808–1813",
-              "regime": "napoleonic_spain"
+              "polity": "napoleonic_spain"
             },
             {
               "label": "Peninsular War / War of Independence",
@@ -836,17 +836,17 @@
             {
               "label": "Constitutional Portugal (Braganza)",
               "note": "1820–1910",
-              "regime": "constitutional_portugal"
+              "polity": "constitutional_portugal"
             },
             {
               "label": "Saxe-Coburg-Gotha dynasty",
               "note": "1853–1910",
-              "regime": "saxe_coburg_gotha_dynasty"
+              "polity": "saxe_coburg_gotha_dynasty"
             },
             {
               "label": "First Portuguese Republic",
               "note": "1910–1926",
-              "regime": "first_portuguese_republic"
+              "polity": "first_portuguese_republic"
             }
           ],
           "span": 1
@@ -856,22 +856,22 @@
             {
               "label": "Liberal constitutional Spain",
               "note": "1820–1873",
-              "regime": "liberal_constitutional_spain"
+              "polity": "liberal_constitutional_spain"
             },
             {
               "label": "First Spanish Republic",
               "note": "1873–1874",
-              "regime": "first_spanish_republic"
+              "polity": "first_spanish_republic"
             },
             {
               "label": "Restoration (Bourbon — Alfonso XII)",
               "note": "1874–1923",
-              "regime": "restoration"
+              "polity": "restoration"
             },
             {
               "label": "Primo de Rivera dictatorship",
               "note": "1923–1930",
-              "regime": "primo_de_rivera_dictatorship"
+              "polity": "primo_de_rivera_dictatorship"
             }
           ],
           "span": 3
@@ -886,12 +886,12 @@
             {
               "label": "National Dictatorship (Carmona / Salazar)",
               "note": "1926–1933",
-              "regime": "national_dictatorship"
+              "polity": "national_dictatorship"
             },
             {
               "label": "Estado Novo (Salazar 1933–1968 · Caetano 1968–74)",
               "note": "",
-              "regime": "estado_novo"
+              "polity": "estado_novo"
             },
             {
               "label": "Carnation Revolution",
@@ -900,7 +900,7 @@
             {
               "label": "Third Portuguese Republic",
               "note": "1976–",
-              "regime": "third_portuguese_republic"
+              "polity": "third_portuguese_republic"
             }
           ],
           "span": 1
@@ -910,7 +910,7 @@
             {
               "label": "Second Spanish Republic",
               "note": "1931–1939",
-              "regime": "second_spanish_republic"
+              "polity": "second_spanish_republic"
             },
             {
               "label": "Spanish Civil War",
@@ -919,12 +919,12 @@
             {
               "label": "Francoist Spain (Estado Español)",
               "note": "1939–1975",
-              "regime": "francoist_spain"
+              "polity": "francoist_spain"
             },
             {
               "label": "Kingdom of Spain (Juan Carlos I — democracy)",
               "note": "1978–",
-              "regime": "kingdom_of_spain"
+              "polity": "kingdom_of_spain"
             }
           ],
           "span": 3

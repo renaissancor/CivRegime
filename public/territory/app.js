@@ -1,7 +1,7 @@
 /* ── State Timeline ─────────────────────────────────────────────
    Shows polities as vertical bars on a time axis, colored by
    ethnicity, with succession arrows connecting them.
-   Sidebar groups by territory (until state_id is populated).
+   Sidebar groups by territory (until civilization_id is populated).
    ─────────────────────────────────────────────────────────────── */
 
 const ETHNICITY_PALETTE = [
@@ -292,7 +292,7 @@ function renderTimeline(polities, successions, territoryId) {
       })
       .on('mouseout', () => tip.classList.remove('visible'))
       .on('click', (e, d) => {
-        window.open(`/regime/?id=${d.polity.id}`, '_blank');
+        window.open(`/polity/?id=${d.polity.id}`, '_blank');
       });
 
     // ── Labels ──

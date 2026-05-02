@@ -1,6 +1,6 @@
 /**
  * One-time migration script.
- * Splits regimes.json → data/regimes/*.json
+ * Splits polities.json → data/polity/*.json
  * Splits successions.json → data/successions/*.json
  */
 
@@ -13,7 +13,7 @@ function write(filePath, data) {
   console.log(`  wrote ${path.basename(filePath)}  (${data.length} entries)`);
 }
 
-// ── Regime groupings ──────────────────────────────────────────────────────────
+// ── Polity groupings ──────────────────────────────────────────────────────────
 
 const REGIME_GROUPS = {
   'ancient_near_east': [
@@ -64,35 +64,35 @@ const SUCCESSION_GROUPS = {
   'east_asia':            ['east_asia'],
 };
 
-// ── Split regimes ─────────────────────────────────────────────────────────────
+// ── Split polities ─────────────────────────────────────────────────────────────
 
-console.log('\nSplitting regimes.json →');
+console.log('\nSplitting polities.json →');
 
-const regimeIndex = new Map(db.regimes.map(r => [r.id, r]));
+const polityIndex = new Map(db.polities.map(r => [r.id, r]));
 const assigned = new Set();
 
-const REGIMES_DIR = path.join(__dirname, '../data/regimes');
+const REGIMES_DIR = path.join(__dirname, '../data/polity');
 
 for (const [group, ids] of Object.entries(REGIME_GROUPS)) {
-  const regimes = ids
+  const polities = ids
     .map(id => {
-      const r = regimeIndex.get(id);
-      if (!r) console.warn(`  ⚠  unknown regime id: ${id}`);
+      const r = polityIndex.get(id);
+      if (!r) console.warn(`  ⚠  unknown polity id: ${id}`);
       return r;
     })
     .filter(Boolean);
 
-  regimes.forEach(r => assigned.add(r.id));
-  write(path.join(REGIMES_DIR, `${group}.json`), regimes);
+  polities.forEach(r => assigned.add(r.id));
+  write(path.join(REGIMES_DIR, `${group}.json`), polities);
 }
 
-// Catch any regimes not assigned to a group
-const unassigned = db.regimes.filter(r => !assigned.has(r.id));
+// Catch any polities not assigned to a group
+const unassigned = db.polities.filter(r => !assigned.has(r.id));
 if (unassigned.length > 0) {
-  console.warn(`\n  ⚠  ${unassigned.length} unassigned regimes → data/regimes/_unassigned.json`);
+  console.warn(`\n  ⚠  ${unassigned.length} unassigned polities → data/polity/_unassigned.json`);
   write(path.join(REGIMES_DIR, '_unassigned.json'), unassigned);
 } else {
-  console.log('  ✓ all regimes assigned');
+  console.log('  ✓ all polities assigned');
 }
 
 // ── Split successions ─────────────────────────────────────────────────────────
@@ -101,10 +101,10 @@ console.log('\nSplitting successions.json →');
 
 const SUCCESSIONS_DIR = path.join(__dirname, '../data/successions');
 
-// Build regime → group lookup
-const regimeToGroup = {};
+// Build polity → group lookup
+const polityToGroup = {};
 for (const [group, ids] of Object.entries(REGIME_GROUPS)) {
-  ids.forEach(id => { regimeToGroup[id] = group; });
+  ids.forEach(id => { polityToGroup[id] = group; });
 }
 
 // Build group → succession-file lookup (reverse of SUCCESSION_GROUPS)
@@ -117,8 +117,8 @@ const successionBuckets = {};
 const crossRegion = [];
 
 for (const s of db.successions) {
-  const fromGroup = regimeToGroup[s.from];
-  const toGroup   = regimeToGroup[s.to];
+  const fromGroup = polityToGroup[s.from];
+  const toGroup   = polityToGroup[s.to];
   const fromFile  = groupToFile[fromGroup];
   const toFile    = groupToFile[toGroup];
 
@@ -139,5 +139,5 @@ if (crossRegion.length > 0) {
   write(path.join(SUCCESSIONS_DIR, 'cross_region.json'), crossRegion);
 }
 
-console.log('\nDone. Old flat files (regimes.json, successions.json) are still present.');
+console.log('\nDone. Old flat files (polities.json, successions.json) are still present.');
 console.log('Review the output, then delete them and update data/index.js.\n');

@@ -36,12 +36,12 @@
             {
               "label": "Illyrian / Pannonian tribes",
               "note": "c.1000–35 BCE",
-              "regime": "illyrian"
+              "polity": "illyrian"
             },
             {
               "label": "Celtic La Tène culture (Boii · Taurisci · Azali)",
               "note": "c.450–35 BCE",
-              "regime": "celtic_la_tene_culture"
+              "polity": "celtic_la_tene_culture"
             }
           ],
           "span": 1
@@ -51,18 +51,18 @@
             {
               "label": "Scythian tribes",
               "note": "c.600–200 BCE",
-              "regime": "scythian_tribes"
+              "polity": "scythian_tribes"
             },
             {
               "label": "Sarmatian Iazyges (Great Plain)",
               "note": "c.50 BCE–380 CE",
-              "regime": "sarmatian_iazyges"
+              "polity": "sarmatian_iazyges"
             }
           ],
           "span": 1
         },
         {
-          "regime": "dacian_kingdom",
+          "polity": "dacian_kingdom",
           "label": "Dacian Kingdom",
           "note": "82 BCE–106 CE",
           "span": 1
@@ -75,17 +75,17 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Pannonia Province",
               "note": "35 BCE–380 CE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire (Christian)",
               "note": "380–395"
             },
             {
-              "regime": "western_roman_empire",
+              "polity": "western_roman_empire",
               "label": "Western Roman Empire",
               "note": "395–433"
             }
@@ -97,7 +97,7 @@
             {
               "label": "Sarmatian Iazyges (Roman clients)",
               "note": "1st–4th c.",
-              "regime": "sarmatian_iazyges"
+              "polity": "sarmatian_iazyges"
             }
           ],
           "span": 1
@@ -105,14 +105,14 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Dacia Province",
               "note": "106–271 CE"
             },
             {
               "label": "Free Dacians / Carpi",
               "note": "after 271",
-              "regime": "free_dacians"
+              "polity": "free_dacians"
             }
           ],
           "span": 1
@@ -128,7 +128,7 @@
         {
           "stack": [
             {
-              "regime": "hunnic_empire",
+              "polity": "hunnic_empire",
               "label": "Hunnic Empire (capital near Tisza)",
               "note": "433–453"
             }
@@ -145,12 +145,12 @@
             {
               "label": "Ostrogothic Kingdom (Pannonia)",
               "note": "453–473",
-              "regime": "ostrogothic_kingdom"
+              "polity": "ostrogothic_kingdom"
             },
             {
               "label": "Lombards (Pannonia)",
               "note": "547–568",
-              "regime": "lombards"
+              "polity": "lombards"
             }
           ],
           "span": 1
@@ -160,7 +160,7 @@
             {
               "label": "Gepid Kingdom (Great Plain · Tisza)",
               "note": "454–567",
-              "regime": "gepid_kingdom"
+              "polity": "gepid_kingdom"
             }
           ],
           "span": 1
@@ -170,7 +170,7 @@
             {
               "label": "Gepid Kingdom (Transylvania)",
               "note": "454–567",
-              "regime": "gepid_kingdom"
+              "polity": "gepid_kingdom"
             }
           ],
           "span": 1
@@ -183,7 +183,7 @@
         {
           "stack": [
             {
-              "regime": "avar_khaganate",
+              "polity": "avar_khaganate",
               "label": "Avar Khaganate",
               "note": "568–804; destroyed by Charlemagne 791–796"
             },
@@ -197,7 +197,7 @@
         {
           "stack": [
             {
-              "regime": "avar_khaganate",
+              "polity": "avar_khaganate",
               "label": "Avar Khaganate (Carpathian core)",
               "note": "568–804"
             },
@@ -211,7 +211,7 @@
         {
           "stack": [
             {
-              "regime": "avar_khaganate",
+              "polity": "avar_khaganate",
               "label": "Avar Khaganate",
               "note": "568–804"
             },
@@ -235,10 +235,10 @@
             {
               "label": "Hungarian Grand Principality (Árpád conquest)",
               "note": "895–1000",
-              "regime": "hungarian_grand_principality"
+              "polity": "hungarian_grand_principality"
             },
             {
-              "regime": "kingdom_of_hungary",
+              "polity": "kingdom_of_hungary",
               "label": "Kingdom of Hungary (Stephen I)",
               "note": "1000–1116"
             }
@@ -253,7 +253,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_hungary",
+              "polity": "kingdom_of_hungary",
               "label": "Kingdom of Hungary (Árpád dynasty)",
               "note": "1116–1301; Golden Bull 1222"
             }
@@ -268,12 +268,12 @@
         {
           "stack": [
             {
-              "regime": "mongol_empire",
+              "polity": "mongol_empire",
               "label": "Mongol Invasion",
               "note": "1241–1242 (Battle of Mohi)"
             },
             {
-              "regime": "kingdom_of_hungary",
+              "polity": "kingdom_of_hungary",
               "label": "Kingdom of Hungary (Angevin then Jagiellonian)",
               "note": "1301–1526"
             }
@@ -293,7 +293,7 @@
             {
               "label": "Royal Hungary (Habsburg)",
               "note": "1527–1699; after Battle of Mohács 1526",
-              "regime": "royal_hungary"
+              "polity": "royal_hungary"
             }
           ],
           "span": 1
@@ -301,7 +301,7 @@
         {
           "stack": [
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Hungary (Buda Eyalet)",
               "note": "1541–1699"
             }
@@ -313,12 +313,12 @@
             {
               "label": "Eastern Hungarian Kingdom",
               "note": "1526–1570",
-              "regime": "eastern_hungarian_kingdom"
+              "polity": "eastern_hungarian_kingdom"
             },
             {
               "label": "Principality of Transylvania (Ottoman vassal, de facto autonomous)",
               "note": "1570–1711",
-              "regime": "principality_of_transylvania"
+              "polity": "principality_of_transylvania"
             }
           ],
           "span": 1
@@ -331,7 +331,7 @@
         {
           "stack": [
             {
-              "regime": "habsburg_monarchy",
+              "polity": "habsburg_monarchy",
               "label": "Habsburg Kingdom of Hungary",
               "note": "1699–1867; reconquest of Buda 1686"
             }
@@ -343,10 +343,10 @@
             {
               "label": "Principality of Transylvania",
               "note": "–1711",
-              "regime": "principality_of_transylvania"
+              "polity": "principality_of_transylvania"
             },
             {
-              "regime": "habsburg_monarchy",
+              "polity": "habsburg_monarchy",
               "label": "Habsburg (Transylvania reintegrated)",
               "note": "1711–1867"
             }
@@ -364,7 +364,7 @@
         {
           "stack": [
             {
-              "regime": "habsburg_monarchy",
+              "polity": "habsburg_monarchy",
               "label": "Austrian Empire — Kingdom of Hungary",
               "note": "1804–1867"
             }
@@ -381,7 +381,7 @@
             {
               "label": "Austro-Hungarian Empire (Transleithania = Hungary)",
               "note": "1867–1918",
-              "regime": "austro_hungarian_empire"
+              "polity": "austro_hungarian_empire"
             }
           ],
           "span": 3
@@ -399,17 +399,17 @@
             {
               "label": "First Hungarian Republic",
               "note": "1918–1919",
-              "regime": "first_hungarian_republic"
+              "polity": "first_hungarian_republic"
             },
             {
               "label": "Hungarian Soviet Republic (Béla Kun)",
               "note": "1919 (133 days)",
-              "regime": "hungarian_soviet_republic"
+              "polity": "hungarian_soviet_republic"
             },
             {
               "label": "Hungarian Republic (transitional)",
               "note": "1919–1920; Romanian occupation 1919",
-              "regime": "hungarian_republic"
+              "polity": "hungarian_republic"
             }
           ],
           "span": 3
@@ -424,7 +424,7 @@
             {
               "label": "Kingdom of Hungary (Horthy regency)",
               "note": "1920–1944; Treaty of Trianon 1920 (−67% territory); joins Axis 1940",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 2
@@ -434,7 +434,7 @@
             {
               "label": "Transylvania to Romania (Trianon 1920)",
               "note": "1920–1940",
-              "regime": "transylvania_to_romania"
+              "polity": "transylvania_to_romania"
             },
             {
               "label": "Northern Transylvania returned (Second Vienna Award)",
@@ -457,22 +457,22 @@
             {
               "label": "Arrow Cross / Szálasi (Government of National Unity)",
               "note": "1944–1945",
-              "regime": "arrow_cross"
+              "polity": "arrow_cross"
             },
             {
               "label": "Second Hungarian Republic",
               "note": "1946–1949",
-              "regime": "second_hungarian_republic"
+              "polity": "second_hungarian_republic"
             },
             {
               "label": "Hungarian People's Republic",
               "note": "1949–1989; 1956 revolution crushed by Soviets",
-              "regime": "hungarian_peoples_republic"
+              "polity": "hungarian_peoples_republic"
             },
             {
               "label": "Third Hungarian Republic",
               "note": "1989–",
-              "regime": "third_hungarian_republic"
+              "polity": "third_hungarian_republic"
             }
           ],
           "span": 3

@@ -29,12 +29,12 @@
         {
           "label": "Taíno (Arawak) — Cuba · Hispaniola · Jamaica · Puerto Rico",
           "span": 2,
-          "regime": "taino"
+          "polity": "taino"
         },
         {
           "label": "Carib peoples — Lesser Antilles",
           "span": 1,
-          "regime": "carib_peoples"
+          "polity": "carib_peoples"
         }
       ]
     },
@@ -47,24 +47,24 @@
         {
           "label": "Spanish Caribbean (Cuba · Hispaniola · Puerto Rico)",
           "span": 1,
-          "regime": "spanish_caribbean"
+          "polity": "spanish_caribbean"
         },
         {
           "label": "British Jamaica (1655–)",
           "span": 1,
-          "regime": "british_caribbean"
+          "polity": "british_caribbean"
         },
         {
           "stack": [
             {
               "label": "British Caribbean",
               "note": "Barbados 1627 · Trinidad 1797",
-              "regime": "british_caribbean"
+              "polity": "british_caribbean"
             },
             {
               "label": "French Caribbean",
               "note": "Martinique · Guadeloupe 1635",
-              "regime": "french_caribbean"
+              "polity": "french_caribbean"
             }
           ],
           "span": 1
@@ -82,12 +82,12 @@
             {
               "label": "Haiti (1804) — slave revolution",
               "note": "first Black republic",
-              "regime": "haiti"
+              "polity": "haiti"
             },
             {
               "label": "Dominican Republic (1844)",
               "note": "independence from Haiti",
-              "regime": "dominican_republic"
+              "polity": "dominican_republic"
             }
           ],
           "span": 1
@@ -95,17 +95,17 @@
         {
           "label": "Spanish Cuba · Puerto Rico (Spanish until 1898)",
           "span": 1,
-          "regime": "spanish_caribbean"
+          "polity": "spanish_caribbean"
         },
         {
           "stack": [
             {
               "label": "British Caribbean (colonial)",
-              "regime": "british_caribbean"
+              "polity": "british_caribbean"
             },
             {
               "label": "French Caribbean (colonial)",
-              "regime": "french_caribbean"
+              "polity": "french_caribbean"
             }
           ],
           "span": 1
@@ -122,15 +122,15 @@
           "stack": [
             {
               "label": "Cuba (1902) — Revolution 1959",
-              "regime": "cuba"
+              "polity": "cuba"
             },
             {
               "label": "Dominican Republic",
-              "regime": "dominican_republic"
+              "polity": "dominican_republic"
             },
             {
               "label": "Haiti",
-              "regime": "haiti"
+              "polity": "haiti"
             }
           ],
           "span": 1

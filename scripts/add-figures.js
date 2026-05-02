@@ -1,5 +1,5 @@
 const fs = require('fs');
-const regimes = JSON.parse(fs.readFileSync('data/regimes.json', 'utf8'));
+const polities = JSON.parse(fs.readFileSync('data/polity.json', 'utf8'));
 
 const figures = {
   sumerian_city_states: [
@@ -224,7 +224,7 @@ const figures = {
   ]
 };
 
-regimes.forEach(r => { r.figures = figures[r.id] || []; });
-fs.writeFileSync('data/regimes.json', JSON.stringify(regimes, null, 2));
-const total = regimes.reduce((n, r) => n + r.figures.length, 0);
-console.log('done', regimes.filter(r => r.figures.length > 0).length, 'regimes with figures,', total, 'total figures');
+polities.forEach(r => { r.figures = figures[r.id] || []; });
+fs.writeFileSync('data/polity.json', JSON.stringify(polities, null, 2));
+const total = polities.reduce((n, r) => n + r.figures.length, 0);
+console.log('done', polities.filter(r => r.figures.length > 0).length, 'polities with figures,', total, 'total figures');

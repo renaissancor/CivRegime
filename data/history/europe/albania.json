@@ -40,12 +40,12 @@
           "stack": [
             {
               "label": "Illyrian tribes (Labeates · Ardiaei)",
-              "regime": "illyrian_tribes"
+              "polity": "illyrian_tribes"
             },
             {
               "label": "Illyrian Kingdom (Shkodër capital)",
               "note": "c.400–168 BCE",
-              "regime": "illyrian_kingdom"
+              "polity": "illyrian_kingdom"
             }
           ],
           "span": 1
@@ -55,7 +55,7 @@
             {
               "label": "Taulantii (Illyrian) · Greek colony Epidamnos/Dyrrachium",
               "note": "Durrës, c.625 BCE",
-              "regime": "taulantii_greek_colony_epidamnosdyrrachium"
+              "polity": "taulantii_greek_colony_epidamnosdyrrachium"
             }
           ],
           "span": 1
@@ -64,7 +64,7 @@
           "stack": [
             {
               "label": "Illyrian tribes · Greek colonies (Apollonia · Buthrotum)",
-              "regime": "illyrian_tribes"
+              "polity": "illyrian_tribes"
             }
           ],
           "span": 1
@@ -73,7 +73,7 @@
           "stack": [
             {
               "label": "Illyrian interior · Enchelei · Macedonian border",
-              "regime": "illyrian_interior"
+              "polity": "illyrian_interior"
             }
           ],
           "span": 1
@@ -87,7 +87,7 @@
           "stack": [
             {
               "label": "Illyrian Kingdom — Queen Teuta",
-              "regime": "illyrian_kingdom"
+              "polity": "illyrian_kingdom"
             },
             {
               "label": "Roman conquest",
@@ -111,7 +111,7 @@
           "stack": [
             {
               "label": "Kingdom of Epirus — Pyrrhus (south)",
-              "regime": "kingdom_of_epirus"
+              "polity": "kingdom_of_epirus"
             },
             {
               "label": "Roman conquest"
@@ -123,11 +123,11 @@
           "stack": [
             {
               "label": "Macedonian Kingdom",
-              "regime": "macedonian_kingdom"
+              "polity": "macedonian_kingdom"
             },
             {
               "label": "Lysimachus (brief)",
-              "regime": "lysimachus"
+              "polity": "lysimachus"
             }
           ],
           "span": 1
@@ -141,11 +141,11 @@
           "stack": [
             {
               "label": "Roman Republic → Roman Empire (Illyricum / Epirus province)",
-              "regime": "roman_republic"
+              "polity": "roman_republic"
             },
             {
               "label": "Eastern Roman / Byzantine Empire",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 4
@@ -162,7 +162,7 @@
           "stack": [
             {
               "label": "Dioclea / Zeta (early Serbian principality)",
-              "regime": "dioclea"
+              "polity": "dioclea"
             }
           ],
           "span": 1
@@ -171,11 +171,11 @@
           "stack": [
             {
               "label": "Byzantine Empire",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             },
             {
               "label": "First Bulgarian Empire",
-              "regime": "first_bulgarian_empire"
+              "polity": "first_bulgarian_empire"
             }
           ],
           "span": 1
@@ -184,7 +184,7 @@
           "stack": [
             {
               "label": "Byzantine Empire",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -193,11 +193,11 @@
           "stack": [
             {
               "label": "First Bulgarian Empire",
-              "regime": "first_bulgarian_empire"
+              "polity": "first_bulgarian_empire"
             },
             {
               "label": "Byzantine (Lake Ohrid — Ohrid Archbishopric)",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -211,7 +211,7 @@
           "stack": [
             {
               "label": "Zeta (Balšić family)",
-              "regime": "zeta"
+              "polity": "zeta"
             }
           ],
           "span": 1
@@ -221,11 +221,11 @@
             {
               "label": "Principality of Arbanon",
               "note": "first Albanian state, 1190–1216",
-              "regime": "principality_of_arbanon"
+              "polity": "principality_of_arbanon"
             },
             {
               "label": "Byzantine Empire",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -235,7 +235,7 @@
             {
               "label": "Despotate of Epirus",
               "note": "from 1205",
-              "regime": "despotate_of_epirus"
+              "polity": "despotate_of_epirus"
             }
           ],
           "span": 1
@@ -244,11 +244,11 @@
           "stack": [
             {
               "label": "Second Bulgarian Empire",
-              "regime": "second_bulgarian_empire"
+              "polity": "second_bulgarian_empire"
             },
             {
               "label": "Nicaean Empire / Epirus",
-              "regime": "nicaean_empire"
+              "polity": "nicaean_empire"
             }
           ],
           "span": 1
@@ -262,7 +262,7 @@
           "stack": [
             {
               "label": "Zeta · Serbian Kingdom",
-              "regime": "zeta_serbian_kingdom"
+              "polity": "zeta_serbian_kingdom"
             }
           ],
           "span": 1
@@ -272,7 +272,7 @@
             {
               "label": "Kingdom of Albania — Charles of Anjou",
               "note": "1272–1285",
-              "regime": "kingdom_of_albania"
+              "polity": "kingdom_of_albania"
             },
             {
               "label": "Duchy of Durazzo → Thopia dynasty",
@@ -285,7 +285,7 @@
           "stack": [
             {
               "label": "Despotate of Epirus · Angevin Albania",
-              "regime": "despotate_of_epirus"
+              "polity": "despotate_of_epirus"
             }
           ],
           "span": 1
@@ -294,11 +294,11 @@
           "stack": [
             {
               "label": "Second Bulgarian Empire",
-              "regime": "second_bulgarian_empire"
+              "polity": "second_bulgarian_empire"
             },
             {
               "label": "Byzantine",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -312,7 +312,7 @@
           "stack": [
             {
               "label": "Serbian Empire → Zeta (Balšić family)",
-              "regime": "serbian_empire"
+              "polity": "serbian_empire"
             }
           ],
           "span": 1
@@ -321,12 +321,12 @@
           "stack": [
             {
               "label": "Serbian Empire → Albanian principalities",
-              "regime": "serbian_empire"
+              "polity": "serbian_empire"
             },
             {
               "label": "Venice — Durrës",
               "note": "1392–1501",
-              "regime": "republic_of_venice"
+              "polity": "republic_of_venice"
             }
           ],
           "span": 1
@@ -335,7 +335,7 @@
           "stack": [
             {
               "label": "Serbian Empire → Albanian principalities",
-              "regime": "serbian_empire"
+              "polity": "serbian_empire"
             }
           ],
           "span": 1
@@ -344,7 +344,7 @@
           "stack": [
             {
               "label": "Serbian Empire → Byzantine → Albanian lords",
-              "regime": "serbian_empire"
+              "polity": "serbian_empire"
             }
           ],
           "span": 1
@@ -359,7 +359,7 @@
             {
               "label": "League of Lezhë — Skanderbeg",
               "note": "1444–1479",
-              "regime": "league_of_lezhe"
+              "polity": "league_of_lezhe"
             },
             {
               "label": "Ottoman conquest",
@@ -372,7 +372,7 @@
           "stack": [
             {
               "label": "Venice (Durrës until 1501)",
-              "regime": "republic_of_venice"
+              "polity": "republic_of_venice"
             },
             {
               "label": "Ottoman conquest"
@@ -406,7 +406,7 @@
       },
       "cells": [
         {
-          "regime": "ottoman_empire",
+          "polity": "ottoman_empire",
           "label": "Ottoman Empire (16th–19th c.) · Ali Pasha of Ioannina controls south (1788–1822)",
           "span": 4
         }
@@ -423,7 +423,7 @@
             {
               "label": "Ottoman Empire · Albanian National Awakening (Rilindja)",
               "note": "19th c.",
-              "regime": "ottoman_empire"
+              "polity": "ottoman_empire"
             }
           ],
           "span": 4
@@ -438,12 +438,12 @@
             {
               "label": "Montenegro Kingdom (Shkodër area)",
               "note": "1912–1913",
-              "regime": "montenegro_kingdom"
+              "polity": "montenegro_kingdom"
             },
             {
               "label": "Serbia (Kukës / northeast)",
               "note": "1912–1913",
-              "regime": "serbia"
+              "polity": "serbia"
             }
           ],
           "span": 1
@@ -453,11 +453,11 @@
             {
               "label": "Albanian Principality (Wilhelm of Wied)",
               "note": "1914",
-              "regime": "albanian_principality"
+              "polity": "albanian_principality"
             },
             {
               "label": "Austria-Hungary / Italian occupation zones",
-              "regime": "austria_hungary"
+              "polity": "austria_hungary"
             }
           ],
           "span": 1
@@ -467,7 +467,7 @@
             {
               "label": "Italian sphere",
               "note": "Vlorë 1914",
-              "regime": "italian_sphere"
+              "polity": "italian_sphere"
             }
           ],
           "span": 1
@@ -477,16 +477,16 @@
             {
               "label": "Autonomous Republic of Northern Epirus",
               "note": "briefly 1914",
-              "regime": "autonomous_republic_of_northern_epirus"
+              "polity": "autonomous_republic_of_northern_epirus"
             },
             {
               "label": "Greek Kingdom",
               "note": "1914–1921",
-              "regime": "greek_kingdom"
+              "polity": "greek_kingdom"
             },
             {
               "label": "French Republic (mandate zone)",
-              "regime": "french_republic"
+              "polity": "french_republic"
             }
           ],
           "span": 1
@@ -501,17 +501,17 @@
             {
               "label": "Albanian Republic — Fan Noli",
               "note": "1924–1925",
-              "regime": "albanian_republic"
+              "polity": "albanian_republic"
             },
             {
               "label": "Albanian Kingdom — Zog I",
               "note": "1928–1939",
-              "regime": "albanian_kingdom"
+              "polity": "albanian_kingdom"
             },
             {
               "label": "Italian Albania",
               "note": "1939–1943",
-              "regime": "italian_albania"
+              "polity": "italian_albania"
             },
             {
               "label": "German occupation",
@@ -534,7 +534,7 @@
             {
               "label": "Enver Hoxha — isolated Stalinist state",
               "note": "anti-revisionist",
-              "regime": "enver_hoxha"
+              "polity": "enver_hoxha"
             }
           ],
           "span": 4
@@ -550,7 +550,7 @@
         {
           "label": "Republic of Albania — NATO (2009) · EU candidate",
           "span": 4,
-          "regime": "republic_of_albania"
+          "polity": "republic_of_albania"
         }
       ]
     }

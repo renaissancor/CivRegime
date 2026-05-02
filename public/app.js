@@ -46,9 +46,9 @@ function buildEthClusters(ethnicities) {
 }
 
 async function init() {
-  let regimes, successions, ethnicities, territories;
+  let polities, successions, ethnicities, territories;
   try {
-    [regimes, successions, ethnicities, territories] = await Promise.all([
+    [polities, successions, ethnicities, territories] = await Promise.all([
       cachedFetch('/api/polity'),
       cachedFetch('/api/succession'),
       cachedFetch('/api/taxonomy/ethnicity'),
@@ -59,10 +59,10 @@ async function init() {
     return;
   }
 
-  const db = { regimes, successions, ethnicities, territories };
-  const nodeById = new Map(regimes.map(r => [r.id, r]));
+  const db = { polities, successions, ethnicities, territories };
+  const nodeById = new Map(polities.map(r => [r.id, r]));
 
-  allNodes = regimes.map(r => ({
+  allNodes = polities.map(r => ({
     ...r,
     _duration: Math.max(20, (r.end || 2000) - (r.start || 0)),
   }));
@@ -215,7 +215,7 @@ function buildFilters(db) {
 
     if (type === 'all') {
       group.style.display = 'none';
-      clearRegimeList();
+      clearPolityList();
       applyFilter();
       return;
     }
@@ -227,7 +227,7 @@ function buildFilters(db) {
     let options = [];
     if (type === 'ethnicity') {
       const counts = {};
-      db.regimes.forEach(r => {
+      db.polities.forEach(r => {
         if (!r.ruling_ethnicity) return;
         const cluster = ethClusterMap[r.ruling_ethnicity] || r.ruling_ethnicity;
         counts[cluster] = (counts[cluster] || 0) + 1;
@@ -239,7 +239,7 @@ function buildFilters(db) {
       });
     } else if (type === 'territory') {
       const counts = {};
-      db.regimes.forEach(r => (r.territories || []).forEach(t => { counts[t] = (counts[t] || 0) + 1; }));
+      db.polities.forEach(r => (r.territories || []).forEach(t => { counts[t] = (counts[t] || 0) + 1; }));
       options = Object.entries(counts).sort((a, b) => b[1] - a[1]);
       options.forEach(([v, n]) => {
         const terr = db.territories.find(t => t.id === v);
@@ -247,7 +247,7 @@ function buildFilters(db) {
       });
     } else if (type === 'religion') {
       const counts = {};
-      db.regimes.forEach(r => { const rel = r.ideology?.religion; if (rel) counts[rel] = (counts[rel] || 0) + 1; });
+      db.polities.forEach(r => { const rel = r.ideology?.religion; if (rel) counts[rel] = (counts[rel] || 0) + 1; });
       options = Object.entries(counts).sort((a, b) => b[1] - a[1]);
       options.forEach(([v, n]) => {
         filterValue.innerHTML += `<option value="${v}">${v}  (${n})</option>`;
@@ -269,7 +269,7 @@ function applyFilter(db) {
   if (type === 'all' || !value) {
     nodeSelection.attr('opacity', 1);
     linkSelection.attr('opacity', 0.7);
-    clearRegimeList();
+    clearPolityList();
     return;
   }
 
@@ -290,34 +290,34 @@ function applyFilter(db) {
   });
 
   const matched = allNodes.filter(n => matchIds.has(n.id));
-  renderRegimeList(matched);
+  renderPolityList(matched);
 }
 
-function renderRegimeList(regimes) {
-  const list  = document.getElementById('regime-list');
+function renderPolityList(polities) {
+  const list  = document.getElementById('polity-list');
   const title = document.getElementById('list-title');
 
-  if (regimes.length === 0) {
+  if (polities.length === 0) {
     list.innerHTML = '';
     title.style.display = 'none';
     return;
   }
 
   title.style.display = 'block';
-  list.innerHTML = regimes
+  list.innerHTML = polities
     .sort((a, b) => a.start - b.start)
     .map(r => {
       const s = formatYear(r.start);
       const e = formatYear(r.end);
-      return `<div class="regime-item" onclick="focusNode('${r.id}')">
+      return `<div class="polity-item" onclick="focusNode('${r.id}')">
         <strong>${r.name}</strong>
         <span>${s} — ${e}</span>
       </div>`;
     }).join('');
 }
 
-function clearRegimeList() {
-  document.getElementById('regime-list').innerHTML = '';
+function clearPolityList() {
+  document.getElementById('polity-list').innerHTML = '';
   document.getElementById('list-title').style.display = 'none';
 }
 
@@ -338,20 +338,20 @@ function focusNode(id) {
 
 // ── Detail Panel ─────────────────────────────────────────────────────────────
 
-function showDetail(regime) {
+function showDetail(polity) {
   const panel = document.getElementById('detail-panel');
   const inner = document.getElementById('detail-inner');
 
-  const figures = (regime.figures || []).map(f =>
+  const figures = (polity.figures || []).map(f =>
     `<div class="figure-item">${f.name}<span class="role">${f.role}</span>
      ${f.years ? `<span style="color:#718096;font-size:10px"> ${f.years}</span>` : ''}</div>`
   ).join('');
 
-  const territories = (regime.territories || []).map(t =>
+  const territories = (polity.territories || []).map(t =>
     `<span class="tag">${t}</span>`
   ).join('');
 
-  const policies = (regime.policies || []).map(p =>
+  const policies = (polity.policies || []).map(p =>
     `<div style="font-size:11px;margin-bottom:4px">
        <strong style="color:#e2e8f0">${p.name || p.id}</strong>
        <span style="color:#718096"> ${p.start}–${p.end}</span>
@@ -361,17 +361,17 @@ function showDetail(regime) {
 
   inner.innerHTML = `
     <button class="close-btn" onclick="closeDetail()">✕</button>
-    <h2>${regime.name}</h2>
-    <div class="dates">${formatYear(regime.start)} — ${formatYear(regime.end)}
-      <span style="color:#4a5568"> · ${Math.abs((regime.end || 2000) - (regime.start || 0))} years</span>
+    <h2>${polity.name}</h2>
+    <div class="dates">${formatYear(polity.start)} — ${formatYear(polity.end)}
+      <span style="color:#4a5568"> · ${Math.abs((polity.end || 2000) - (polity.start || 0))} years</span>
     </div>
 
     <div class="detail-section">
       <div class="kv">
-        <label>Ethnicity</label><span>${regime.ruling_ethnicity || '—'}</span>
-        <label>Court Language</label><span>${regime.cultural_language || '—'}</span>
-        <label>Religion</label><span>${regime.ideology?.religion || '—'}</span>
-        <label>Government</label><span>${regime.ideology?.government || '—'}</span>
+        <label>Ethnicity</label><span>${polity.ruling_ethnicity || '—'}</span>
+        <label>Court Language</label><span>${polity.cultural_language || '—'}</span>
+        <label>Religion</label><span>${polity.ideology?.religion || '—'}</span>
+        <label>Government</label><span>${polity.ideology?.government || '—'}</span>
       </div>
     </div>
 
@@ -393,10 +393,10 @@ function showDetail(regime) {
       <div style="margin-top:4px">${policies}</div>
     </div>` : ''}
 
-    ${regime.note ? `
+    ${polity.note ? `
     <div class="detail-section">
       <div class="section-title">Note</div>
-      <div class="note-text" style="margin-top:4px">${regime.note}</div>
+      <div class="note-text" style="margin-top:4px">${polity.note}</div>
     </div>` : ''}
   `;
 

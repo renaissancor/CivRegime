@@ -1,6 +1,6 @@
 # Succession Logic
 
-In this file, **Polity** = the top-level political entity (dir: `data/polity/`). The future dynasty-tier **Regime** is defined in [`erd.md`](./erd.md).
+In this file, **Polity** = the top-level political entity (dir: `data/polity/`). The future dynasty-tier **Polity** is defined in [`erd.md`](./erd.md).
 
 ## What is Succession?
 
@@ -10,7 +10,7 @@ The connection is measured by:
 1. **Territorial Continuity** — Did the successor polity control any of the predecessor's territories?
 2. **Cultural Continuity** — Did the successor share ethnicity, language, or ideology with the predecessor?
 3. **Temporal Proximity** — Was the transition immediate or separated by years/centuries?
-4. **State Membership** — Do both polities belong to the same STATE (political continuity)?
+4. **Civilization Membership** — Do both polities belong to the same CIVILIZATION (political continuity)?
 
 ---
 
@@ -21,7 +21,7 @@ The connection is measured by:
 The `polity_territory` table is the source of truth for succession:
 
 ```csv
-territory_id,regime_id,start,end
+territory_id,polity_id,start,end
 egypt,1,-2686,-2181    # Old Kingdom Egypt
 egypt,5,-2181,-2055    # First Intermediate Period
 egypt,7,-2055,-1650    # Middle Kingdom Egypt
@@ -190,7 +190,7 @@ Roman Empire (Christian): 380 to 476 (Western), continues Eastern as Byzantine
 
 **Verdict:** This is technically DIRECT SUCCESSION by territorial and ethnic measures, but **ideologically it's a break**. The religion shift was deliberate and civilization-defining. The succession is "technically continuous, spiritually revolutionary."
 
-This is where the future **Regime** tier (defined in `erd.md`) will subdivide the Roman polity into separate regimes by ideology and dynasty.
+This is where the future **Polity** tier (defined in `erd.md`) will subdivide the Roman polity into separate polities by ideology and dynasty.
 
 ---
 
@@ -237,7 +237,7 @@ const successors = polities
 ## Edge Cases
 
 ### Simultaneous Collapse
-When a large empire splinters into multiple successor states:
+When a large empire splinters into multiple successor civilizations:
 - Roman Empire → Visigothic Kingdom (Spain), Frankish Kingdom (France), etc.
 - Each gets partial territory but none controls the whole
 - **Result:** Multiple weak successors, no single "true successor"

@@ -6,7 +6,7 @@
   "note": "Varangian-origin dynasty of Rus",
   "polities": [
     {
-      "polity_id": "kievan_rus_regime",
+      "polity_id": "kievan_rus",
       "start": 882,
       "end": 1240
     },

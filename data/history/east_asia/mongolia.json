@@ -41,7 +41,7 @@
             {
               "label": "Xiongnu forming",
               "note": "central steppe confederation",
-              "regime": "xiongnu"
+              "polity": "xiongnu"
             }
           ],
           "span": 1
@@ -51,7 +51,7 @@
             {
               "label": "Yuezhi (月氏)",
               "note": "~5th–2nd c. BCE, Indo-European nomads",
-              "regime": "yuezhi"
+              "polity": "yuezhi"
             }
           ],
           "span": 1
@@ -61,7 +61,7 @@
             {
               "label": "Donghu (東胡)",
               "note": "~4th–2nd c. BCE, eastern steppe",
-              "regime": "donghu"
+              "polity": "donghu"
             }
           ],
           "span": 1
@@ -70,7 +70,7 @@
           "stack": [
             {
               "label": "Steppe nomadic peoples",
-              "regime": "steppe_nomadic_peoples"
+              "polity": "steppe_nomadic_peoples"
             }
           ],
           "span": 1
@@ -84,7 +84,7 @@
           "label": "Xiongnu Empire (匈奴)",
           "note": "209 BCE – 1st c. CE, Modu Chanyu unifies steppe",
           "span": 4,
-          "regime": "xiongnu"
+          "polity": "xiongnu"
         }
       ]
     },
@@ -96,7 +96,7 @@
             {
               "label": "Northern Xiongnu (北匈奴)",
               "note": "→ expelled westward ~89 CE",
-              "regime": "xiongnu"
+              "polity": "xiongnu"
             }
           ],
           "span": 2
@@ -106,7 +106,7 @@
             {
               "label": "Xianbei (鮮卑) · Wuhuan (烏桓)",
               "note": "rising in former Donghu lands",
-              "regime": "xianbei_wuhuan"
+              "polity": "xianbei_wuhuan"
             }
           ],
           "span": 1
@@ -116,7 +116,7 @@
             {
               "label": "Southern Xiongnu (南匈奴)",
               "note": "Han dynasty vassals",
-              "regime": "xiongnu"
+              "polity": "xiongnu"
             }
           ],
           "span": 1
@@ -130,13 +130,13 @@
           "label": "Xianbei (鮮卑) — dominant steppe power",
           "note": "~2nd–4th c., Tiele (鐵勒) Turkic groups emerge",
           "span": 3,
-          "regime": "xianbei"
+          "polity": "xianbei"
         },
         {
           "stack": [
             {
               "label": "Xianbei branches migrating south",
-              "regime": "xianbei_branches_migrating_south"
+              "polity": "xianbei_branches_migrating_south"
             }
           ],
           "span": 1
@@ -151,7 +151,7 @@
             {
               "label": "Rouran Khaganate (柔然)",
               "note": "~330–555",
-              "regime": "rouran_khaganate"
+              "polity": "rouran_khaganate"
             }
           ],
           "span": 1
@@ -161,7 +161,7 @@
             {
               "label": "Tiele / Gaoche (高車)",
               "note": "subject to Rouran",
-              "regime": "tiele"
+              "polity": "tiele"
             }
           ],
           "span": 2
@@ -171,12 +171,12 @@
             {
               "label": "Northern Wei (北魏)",
               "note": "386–534, Xianbei Tuoba",
-              "regime": "northern_wei"
+              "polity": "northern_wei"
             },
             {
               "label": "Western Wei (西魏) · Eastern Wei (東魏)",
               "note": "534–557",
-              "regime": "western_wei"
+              "polity": "western_wei"
             }
           ],
           "span": 1
@@ -190,19 +190,19 @@
           "label": "First Turkic Khaganate (突厥)",
           "note": "552–603, defeats Rouran",
           "span": 3,
-          "regime": "first_turkic_khaganate"
+          "polity": "first_turkic_khaganate"
         },
         {
           "stack": [
             {
               "label": "Northern Zhou (北周)",
               "note": "557–581",
-              "regime": "northern_zhou"
+              "polity": "northern_zhou"
             },
             {
               "label": "Northern Qi (北齊)",
               "note": "550–577",
-              "regime": "northern_qi"
+              "polity": "northern_qi"
             }
           ],
           "span": 1
@@ -217,7 +217,7 @@
             {
               "label": "Eastern Turkic Khaganate (東突厥)",
               "note": "583–630",
-              "regime": "eastern_turkic_khaganate"
+              "polity": "eastern_turkic_khaganate"
             }
           ],
           "span": 1
@@ -227,12 +227,12 @@
             {
               "label": "Western Turkic Khaganate (西突厥)",
               "note": "583–659",
-              "regime": "western_turkic_khaganate"
+              "polity": "western_turkic_khaganate"
             },
             {
               "label": "Shatuo (沙陀)",
               "note": "Turkic group",
-              "regime": "shatuo"
+              "polity": "shatuo"
             }
           ],
           "span": 1
@@ -241,7 +241,7 @@
           "stack": [
             {
               "label": "Various Tiele groups",
-              "regime": "various_tiele_groups"
+              "polity": "various_tiele_groups"
             }
           ],
           "span": 1
@@ -251,12 +251,12 @@
             {
               "label": "Sui (隋)",
               "note": "581–618",
-              "regime": "sui_dynasty"
+              "polity": "sui_dynasty"
             },
             {
               "label": "Tang (唐)",
               "note": "from 618",
-              "regime": "tang_dynasty"
+              "polity": "tang_dynasty"
             }
           ],
           "span": 1
@@ -271,12 +271,12 @@
             {
               "label": "Xueyantuo (薛延陀)",
               "note": "628–646",
-              "regime": "xueyantuo"
+              "polity": "xueyantuo"
             },
             {
               "label": "Tang Jimi rule (安北都護府)",
               "note": "from 630",
-              "regime": "tang_jimi_rule"
+              "polity": "tang_jimi_rule"
             }
           ],
           "span": 3
@@ -285,7 +285,7 @@
           "stack": [
             {
               "label": "Tang dynasty (唐)",
-              "regime": "tang_dynasty"
+              "polity": "tang_dynasty"
             }
           ],
           "span": 1
@@ -299,13 +299,13 @@
           "label": "Second Turkic Khaganate (後突厥)",
           "note": "682–744",
           "span": 3,
-          "regime": "second_turkic_khaganate"
+          "polity": "second_turkic_khaganate"
         },
         {
           "stack": [
             {
               "label": "Tang dynasty (唐)",
-              "regime": "tang_dynasty"
+              "polity": "tang_dynasty"
             }
           ],
           "span": 1
@@ -319,13 +319,13 @@
           "label": "Uyghur Khaganate (回鶻)",
           "note": "744–840, capital Ordu-Baliq",
           "span": 3,
-          "regime": "uyghur_khaganate"
+          "polity": "uyghur_khaganate"
         },
         {
           "stack": [
             {
               "label": "Tang dynasty (唐)",
-              "regime": "tang_dynasty"
+              "polity": "tang_dynasty"
             }
           ],
           "span": 1
@@ -340,7 +340,7 @@
             {
               "label": "Kyrgyz Khaganate (黠戛斯)",
               "note": "840–~920s",
-              "regime": "kyrgyz_khaganate"
+              "polity": "kyrgyz_khaganate"
             }
           ],
           "span": 1
@@ -349,7 +349,7 @@
           "stack": [
             {
               "label": "Kyrgyz (western range)",
-              "regime": "kyrgyz"
+              "polity": "kyrgyz"
             }
           ],
           "span": 1
@@ -359,7 +359,7 @@
             {
               "label": "Shiwei (室韋)",
               "note": "proto-Mongolic peoples",
-              "regime": "shiwei"
+              "polity": "shiwei"
             }
           ],
           "span": 1
@@ -369,7 +369,7 @@
             {
               "label": "Khitan (契丹)",
               "note": "rising power",
-              "regime": "khitan"
+              "polity": "khitan"
             }
           ],
           "span": 1
@@ -387,7 +387,7 @@
             {
               "label": "Zubu (阻卜)",
               "note": "steppe tribal confederation",
-              "regime": "zubu"
+              "polity": "zubu"
             }
           ],
           "span": 2
@@ -396,7 +396,7 @@
           "stack": [
             {
               "label": "Proto-Mongolic forest peoples",
-              "regime": "proto_mongolic_forest_peoples"
+              "polity": "proto_mongolic_forest_peoples"
             }
           ],
           "span": 1
@@ -406,12 +406,12 @@
             {
               "label": "Liao dynasty (遼)",
               "note": "907–1125, Khitan",
-              "regime": "liao_dynasty"
+              "polity": "liao_dynasty"
             },
             {
               "label": "Western Xia (西夏)",
               "note": "1038–1227, Tangut",
-              "regime": "western_xia"
+              "polity": "western_xia"
             }
           ],
           "span": 1
@@ -426,12 +426,12 @@
             {
               "label": "Kerait (克烈)",
               "note": "central Mongolia",
-              "regime": "kerait"
+              "polity": "kerait"
             },
             {
               "label": "Khamag Mongol (蒙兀國)",
               "note": "Onon–Kerulen rivers",
-              "regime": "khamag_mongol"
+              "polity": "khamag_mongol"
             }
           ],
           "span": 1
@@ -441,12 +441,12 @@
             {
               "label": "Naiman (乃蠻)",
               "note": "western Mongolia",
-              "regime": "naiman"
+              "polity": "naiman"
             },
             {
               "label": "Western Liao (西遼)",
               "note": "1124–1218, Qara Khitai",
-              "regime": "western_liao"
+              "polity": "western_liao"
             }
           ],
           "span": 1
@@ -456,12 +456,12 @@
             {
               "label": "Merkit (蔑兒乞)",
               "note": "Baikal region",
-              "regime": "merkit"
+              "polity": "merkit"
             },
             {
               "label": "Tatar (塔塔兒)",
               "note": "eastern steppe",
-              "regime": "tatar"
+              "polity": "tatar"
             }
           ],
           "span": 1
@@ -471,7 +471,7 @@
             {
               "label": "Jin dynasty (金)",
               "note": "1115–1234, Jurchen",
-              "regime": "jin_dynasty"
+              "polity": "jin_dynasty"
             }
           ],
           "span": 1
@@ -485,7 +485,7 @@
           "label": "Mongol Empire (蒙古帝國)",
           "note": "1206–1271, Chinggis Khan unifies the steppe",
           "span": 4,
-          "regime": "mongol_empire"
+          "polity": "mongol_empire"
         }
       ]
     },
@@ -497,7 +497,7 @@
             {
               "label": "Yuan dynasty (元)",
               "note": "1271–1368, Kublai Khan",
-              "regime": "yuan_dynasty"
+              "polity": "yuan_dynasty"
             }
           ],
           "span": 1
@@ -507,12 +507,12 @@
             {
               "label": "Chagatai Khanate (察合台汗國)",
               "note": "1227–1347",
-              "regime": "chagatai_khanate"
+              "polity": "chagatai_khanate"
             },
             {
               "label": "Ogedei Khanate (窩闊台汗國)",
               "note": "1227–1310",
-              "regime": "ogedei_khanate"
+              "polity": "ogedei_khanate"
             }
           ],
           "span": 1
@@ -521,7 +521,7 @@
           "stack": [
             {
               "label": "Yuan territory",
-              "regime": "yuan_territory"
+              "polity": "yuan_territory"
             }
           ],
           "span": 1
@@ -531,7 +531,7 @@
             {
               "label": "Yuan dynasty",
               "note": "Kipchak Khanate (Golden Horde) · Ilkhanate (distant)",
-              "regime": "yuan_dynasty"
+              "polity": "yuan_dynasty"
             }
           ],
           "span": 1
@@ -546,7 +546,7 @@
             {
               "label": "Northern Yuan (北元)",
               "note": "1368–1635",
-              "regime": "northern_yuan"
+              "polity": "northern_yuan"
             }
           ],
           "span": 1
@@ -556,7 +556,7 @@
             {
               "label": "Oirat (瓦剌)",
               "note": "Four Oirat confederation",
-              "regime": "oirat"
+              "polity": "oirat"
             }
           ],
           "span": 1
@@ -566,7 +566,7 @@
             {
               "label": "Uriankhai (兀良哈)",
               "note": "forest Mongols",
-              "regime": "uriankhai"
+              "polity": "uriankhai"
             }
           ],
           "span": 1
@@ -576,7 +576,7 @@
             {
               "label": "Ming dynasty (明)",
               "note": "1368–1644",
-              "regime": "ming_dynasty"
+              "polity": "ming_dynasty"
             }
           ],
           "span": 1
@@ -591,7 +591,7 @@
             {
               "label": "Khalkha (喀爾喀)",
               "note": "Left Wing tümen",
-              "regime": "khalkha"
+              "polity": "khalkha"
             }
           ],
           "span": 1
@@ -601,7 +601,7 @@
             {
               "label": "Oirat (瓦剌/衛拉特)",
               "note": "western confederation",
-              "regime": "oirat"
+              "polity": "oirat"
             }
           ],
           "span": 1
@@ -610,11 +610,11 @@
           "stack": [
             {
               "label": "Uriankhai (兀良哈)",
-              "regime": "uriankhai"
+              "polity": "uriankhai"
             },
             {
               "label": "Uriankhai Three Guards (兀良哈三衛)",
-              "regime": "uriankhai_three_guards"
+              "polity": "uriankhai_three_guards"
             }
           ],
           "span": 1
@@ -624,15 +624,15 @@
             {
               "label": "Chahar (察哈爾) · Tümed (土默特)",
               "note": "Right Wing tümens",
-              "regime": "chahar_tumed"
+              "polity": "chahar_tumed"
             },
             {
               "label": "Ordos (鄂爾多斯) · Yongshebu (永謝布)",
-              "regime": "ordos_yongshebu"
+              "polity": "ordos_yongshebu"
             },
             {
               "label": "Ming dynasty (明)",
-              "regime": "ming_dynasty"
+              "polity": "ming_dynasty"
             }
           ],
           "span": 1
@@ -647,7 +647,7 @@
             {
               "label": "Khalkha (喀爾喀)",
               "note": "submits to Qing 1691",
-              "regime": "khalkha"
+              "polity": "khalkha"
             }
           ],
           "span": 1
@@ -657,7 +657,7 @@
             {
               "label": "Dzungar Khanate (準噶爾)",
               "note": "1634–1758",
-              "regime": "dzungar_khanate"
+              "polity": "dzungar_khanate"
             }
           ],
           "span": 1
@@ -666,7 +666,7 @@
           "stack": [
             {
               "label": "Uriankhai",
-              "regime": "uriankhai"
+              "polity": "uriankhai"
             }
           ],
           "span": 1
@@ -676,7 +676,7 @@
             {
               "label": "Qing dynasty (清)",
               "note": "from 1636, conquers Chahar 1635",
-              "regime": "qing_dynasty"
+              "polity": "qing_dynasty"
             }
           ],
           "span": 1
@@ -691,7 +691,7 @@
             {
               "label": "Outer Mongolia (外蒙古)",
               "note": "Khalkha Four Aimags under Qing",
-              "regime": "outer_mongolia"
+              "polity": "outer_mongolia"
             }
           ],
           "span": 2
@@ -701,7 +701,7 @@
             {
               "label": "Russian Empire",
               "note": "Treaty of Kyakhta 1727",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 1
@@ -711,7 +711,7 @@
             {
               "label": "Inner Mongolia (内蒙古)",
               "note": "Qing leagues and banners",
-              "regime": "inner_mongolia"
+              "polity": "inner_mongolia"
             }
           ],
           "span": 1
@@ -729,7 +729,7 @@
             {
               "label": "Bogd Khanate",
               "note": "1911–1919, independence declared",
-              "regime": "bogd_khanate"
+              "polity": "bogd_khanate"
             },
             {
               "label": "ROC occupation",
@@ -746,12 +746,12 @@
           "stack": [
             {
               "label": "Russian Empire",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             },
             {
               "label": "Uriankhai Republic",
               "note": "~1911–1914",
-              "regime": "uriankhai_republic"
+              "polity": "uriankhai_republic"
             }
           ],
           "span": 1
@@ -761,7 +761,7 @@
             {
               "label": "Republic of China",
               "note": "Beiyang Government",
-              "regime": "republic_of_china"
+              "polity": "republic_of_china"
             }
           ],
           "span": 1
@@ -776,7 +776,7 @@
             {
               "label": "Mongolian People's Republic",
               "note": "1924–1992",
-              "regime": "mongolian_peoples_republic"
+              "polity": "mongolian_peoples_republic"
             }
           ],
           "span": 2
@@ -785,17 +785,17 @@
           "stack": [
             {
               "label": "Soviet Union",
-              "regime": "soviet_union"
+              "polity": "soviet_union"
             },
             {
               "label": "Tuvan People's Republic",
               "note": "1921–1944",
-              "regime": "tuvan_peoples_republic"
+              "polity": "tuvan_peoples_republic"
             },
             {
               "label": "Buryat ASSR",
               "note": "from 1923",
-              "regime": "buryat_assr"
+              "polity": "buryat_assr"
             }
           ],
           "span": 1
@@ -804,17 +804,17 @@
           "stack": [
             {
               "label": "ROC Nationalist Government",
-              "regime": "roc_nationalist_government"
+              "polity": "roc_nationalist_government"
             },
             {
               "label": "Manchukuo",
               "note": "1932–1945, eastern Inner Mongolia",
-              "regime": "manchukuo"
+              "polity": "manchukuo"
             },
             {
               "label": "Mengjiang (蒙疆)",
               "note": "1936–1945, Japanese puppet state",
-              "regime": "mengjiang"
+              "polity": "mengjiang"
             }
           ],
           "span": 1
@@ -829,7 +829,7 @@
             {
               "label": "Mongolian People's Republic",
               "note": "Soviet satellite state",
-              "regime": "mongolian_peoples_republic"
+              "polity": "mongolian_peoples_republic"
             }
           ],
           "span": 2
@@ -838,16 +838,16 @@
           "stack": [
             {
               "label": "Soviet Union",
-              "regime": "soviet_union"
+              "polity": "soviet_union"
             },
             {
               "label": "Tuva ASSR",
               "note": "from 1944",
-              "regime": "tuva_assr"
+              "polity": "tuva_assr"
             },
             {
               "label": "Buryat ASSR",
-              "regime": "buryat_assr"
+              "polity": "buryat_assr"
             }
           ],
           "span": 1
@@ -857,17 +857,17 @@
             {
               "label": "Soviet military administration",
               "note": "1945",
-              "regime": "soviet_military_administration"
+              "polity": "soviet_military_administration"
             },
             {
               "label": "Inner Mongolian People's Republic",
               "note": "1945, brief",
-              "regime": "mongolian_peoples_republic"
+              "polity": "mongolian_peoples_republic"
             },
             {
               "label": "PRC — Inner Mongolia Autonomous Region",
               "note": "内蒙古自治区, from 1947",
-              "regime": "peoples_republic_of_china"
+              "polity": "peoples_republic_of_china"
             }
           ],
           "span": 1
@@ -882,7 +882,7 @@
             {
               "label": "Mongolia (Монгол Улс)",
               "note": "democratic transition 1990, constitution 1992",
-              "regime": "mongolia"
+              "polity": "mongolia"
             }
           ],
           "span": 2
@@ -891,17 +891,17 @@
           "stack": [
             {
               "label": "Russian Federation",
-              "regime": "russian_federation"
+              "polity": "russian_federation"
             },
             {
               "label": "Tuva Republic (Тыва)",
               "note": "from 1992",
-              "regime": "tuva_republic"
+              "polity": "tuva_republic"
             },
             {
               "label": "Buryatia Republic (Бурятия)",
               "note": "from 1992",
-              "regime": "buryatia_republic"
+              "polity": "buryatia_republic"
             }
           ],
           "span": 1
@@ -911,7 +911,7 @@
             {
               "label": "PRC — Inner Mongolia Autonomous Region",
               "note": "内蒙古自治区",
-              "regime": "peoples_republic_of_china"
+              "polity": "peoples_republic_of_china"
             }
           ],
           "span": 1

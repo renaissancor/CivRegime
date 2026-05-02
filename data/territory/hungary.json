@@ -1,30 +1,30 @@
 {
   "id": "hungary",
   "name": "hungary",
-  "regime_count": 5,
-  "regimes": [
+  "polity_count": 5,
+  "polities": [
     {
-      "regime_id": "hunnic_empire",
+      "polity_id": "hunnic_empire",
       "start": 350,
       "end": 453
     },
     {
-      "regime_id": "avar_khaganate",
+      "polity_id": "avar_khaganate",
       "start": 568,
       "end": 804
     },
     {
-      "regime_id": "kingdom_of_hungary",
+      "polity_id": "kingdom_of_hungary",
       "start": 1000,
       "end": 1526
     },
     {
-      "regime_id": "ottoman_empire",
+      "polity_id": "ottoman_empire",
       "start": 1526,
       "end": 1699
     },
     {
-      "regime_id": "habsburg_monarchy",
+      "polity_id": "habsburg_monarchy",
       "start": 1526,
       "end": 1918
     }

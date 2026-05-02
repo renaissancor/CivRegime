@@ -41,22 +41,22 @@
             {
               "label": "Celtic La Tène culture (Rhineland · southern Germany)",
               "note": "c.450–50 BCE",
-              "regime": "celtic_la_tene_culture"
+              "polity": "celtic_la_tene_culture"
             },
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic — Gallic Wars (Caesar)",
               "note": "58–50 BCE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Germania Superior · Inferior",
               "note": "12 BCE–"
             },
             {
               "label": "Limes Germanicus (frontier wall)",
               "note": "c.83–260 CE",
-              "regime": "limes_germanicus"
+              "polity": "limes_germanicus"
             }
           ],
           "span": 1
@@ -66,7 +66,7 @@
             {
               "label": "Germanic tribes: Suebi · Alemanni · Marcomanni",
               "note": "",
-              "regime": "germanic_tribes_suebi"
+              "polity": "germanic_tribes_suebi"
             }
           ],
           "span": 1
@@ -76,7 +76,7 @@
             {
               "label": "Germanic tribes: Saxons · Angles · Jutes · Frisians",
               "note": "",
-              "regime": "germanic_tribes_saxons"
+              "polity": "germanic_tribes_saxons"
             }
           ],
           "span": 1
@@ -86,12 +86,12 @@
             {
               "label": "Baltic peoples (Prussians — pre-Germanic)",
               "note": "",
-              "regime": "baltic_peoples"
+              "polity": "baltic_peoples"
             },
             {
               "label": "Goths · Vandals · Burgundians (originate in N. Germany/Scandinavia)",
               "note": "",
-              "regime": "goths_vandals_burgundians"
+              "polity": "goths_vandals_burgundians"
             }
           ],
           "span": 1
@@ -104,14 +104,14 @@
         {
           "stack": [
             {
-              "regime": "western_roman_empire",
+              "polity": "western_roman_empire",
               "label": "Western Roman Empire (Rhineland)",
               "note": "–476"
             },
             {
               "label": "Frankish settlement (Ripuarian · Salian Franks)",
               "note": "c.350–",
-              "regime": "frankish_settlement"
+              "polity": "frankish_settlement"
             }
           ],
           "span": 1
@@ -121,12 +121,12 @@
             {
               "label": "Hunnic invasions — Germanic displacement",
               "note": "c.375–453",
-              "regime": "hunnic_invasions"
+              "polity": "hunnic_invasions"
             },
             {
               "label": "Alemanni · Bavarii settling south",
               "note": "",
-              "regime": "alemanni_bavarii_settling_south"
+              "polity": "alemanni_bavarii_settling_south"
             }
           ],
           "span": 1
@@ -140,12 +140,12 @@
             {
               "label": "Saxons remain in northern Germany",
               "note": "",
-              "regime": "saxons_remain_in_northern_germany"
+              "polity": "saxons_remain_in_northern_germany"
             },
             {
               "label": "Slavic settlement (Obotrites · Veleti · Sorbs — east of Elbe)",
               "note": "c.600–",
-              "regime": "slavic_settlement"
+              "polity": "slavic_settlement"
             }
           ],
           "span": 1
@@ -155,7 +155,7 @@
             {
               "label": "Baltic Prussians (pagan tribal society)",
               "note": "",
-              "regime": "baltic_prussians"
+              "polity": "baltic_prussians"
             }
           ],
           "span": 1
@@ -173,7 +173,7 @@
             {
               "label": "Frankish Kingdom — Merovingian then Carolingian",
               "note": "481–843",
-              "regime": "carolingian_empire"
+              "polity": "carolingian_empire"
             }
           ],
           "span": 1
@@ -181,7 +181,7 @@
         {
           "stack": [
             {
-              "regime": "carolingian_empire",
+              "polity": "carolingian_empire",
               "label": "Carolingian Empire (Charlemagne)",
               "note": "800–843"
             }
@@ -197,7 +197,7 @@
             {
               "label": "Slavic tribes east of Elbe (Obotrites · Veleti · Sorbs)",
               "note": "",
-              "regime": "slavic_tribes_east_of_elbe"
+              "polity": "slavic_tribes_east_of_elbe"
             }
           ],
           "span": 1
@@ -207,7 +207,7 @@
             {
               "label": "Baltic Prussians (outside Frankish reach)",
               "note": "",
-              "regime": "baltic_prussians"
+              "polity": "baltic_prussians"
             }
           ],
           "span": 1
@@ -225,17 +225,17 @@
             {
               "label": "East Francia (Louis the German)",
               "note": "843–",
-              "regime": "east_francia"
+              "polity": "east_francia"
             },
             {
               "label": "Stem duchies: Franconia · Lotharingia (Lorraine)",
               "note": "",
-              "regime": "stem_duchies_franconia"
+              "polity": "stem_duchies_franconia"
             },
             {
               "label": "German Kingdom (Regnum Teutonicorum)",
               "note": "919–",
-              "regime": "german_kingdom"
+              "polity": "german_kingdom"
             }
           ],
           "span": 1
@@ -245,12 +245,12 @@
             {
               "label": "Stem duchies: Saxony · Bavaria · Swabia",
               "note": "",
-              "regime": "stem_duchies_saxony"
+              "polity": "stem_duchies_saxony"
             },
             {
               "label": "Otto I — Holy Roman Emperor",
               "note": "962; Battle of Lechfeld (955) stops Magyars",
-              "regime": "otto_i"
+              "polity": "otto_i"
             }
           ],
           "span": 1
@@ -260,12 +260,12 @@
             {
               "label": "Duchy of Saxony (Ottonian heartland)",
               "note": "",
-              "regime": "duchy_of_saxony"
+              "polity": "duchy_of_saxony"
             },
             {
               "label": "Slavic Polabian tribes (Obotrites · Veleti) — independent",
               "note": "",
-              "regime": "slavic_polabian_tribes"
+              "polity": "slavic_polabian_tribes"
             }
           ],
           "span": 1
@@ -275,7 +275,7 @@
             {
               "label": "Baltic Prussians (pagan, independent)",
               "note": "",
-              "regime": "baltic_prussians"
+              "polity": "baltic_prussians"
             }
           ],
           "span": 1
@@ -291,24 +291,24 @@
         {
           "stack": [
             {
-              "regime": "holy_roman_empire",
+              "polity": "holy_roman_empire",
               "label": "Holy Roman Empire",
               "note": "962–1806"
             },
             {
               "label": "Ottonian dynasty (Saxony-based)",
               "note": "962–1024",
-              "regime": "ottonian_dynasty"
+              "polity": "ottonian_dynasty"
             },
             {
               "label": "Salian dynasty",
               "note": "1024–1125; Investiture Controversy (Canossa)",
-              "regime": "salian_dynasty"
+              "polity": "salian_dynasty"
             },
             {
               "label": "Hohenstaufen dynasty (Frederick Barbarossa · Frederick II)",
               "note": "1138–1254",
-              "regime": "hohenstaufen_dynasty"
+              "polity": "hohenstaufen_dynasty"
             }
           ],
           "span": 3
@@ -320,7 +320,7 @@
               "note": ""
             },
             {
-              "regime": "teutonic_order",
+              "polity": "teutonic_order",
               "label": "Teutonic Order — crusade against Prussians",
               "note": "1226–"
             },
@@ -341,12 +341,12 @@
             {
               "label": "Rhineland: Archbishoprics of Cologne · Mainz · Trier (prince-electors)",
               "note": "",
-              "regime": "rhineland_archbishoprics_of_cologne"
+              "polity": "rhineland_archbishoprics_of_cologne"
             },
             {
               "label": "Free Imperial Cities (Frankfurt · Nuremberg · Augsburg)",
               "note": "",
-              "regime": "free_imperial_cities"
+              "polity": "free_imperial_cities"
             }
           ],
           "span": 1
@@ -356,7 +356,7 @@
             {
               "label": "Welf vs Hohenstaufen rivalry",
               "note": "12th–13th c.",
-              "regime": "welf_vs_hohenstaufen_rivalry"
+              "polity": "welf_vs_hohenstaufen_rivalry"
             },
             {
               "label": "Great Interregnum",
@@ -365,7 +365,7 @@
             {
               "label": "Wittelsbach Bavaria · Habsburg Austria (growing)",
               "note": "",
-              "regime": "wittelsbach_bavaria"
+              "polity": "wittelsbach_bavaria"
             }
           ],
           "span": 1
@@ -375,7 +375,7 @@
             {
               "label": "Ostsiedlung (German eastward colonization)",
               "note": "12th–14th c.",
-              "regime": "ostsiedlung"
+              "polity": "ostsiedlung"
             },
             {
               "label": "Margraviate of Brandenburg (Ascanian → Wittelsbach → Luxembourg)",
@@ -384,7 +384,7 @@
             {
               "label": "Hanseatic League (Lübeck · Hamburg · Bremen)",
               "note": "13th–15th c.",
-              "regime": "hanseatic_league"
+              "polity": "hanseatic_league"
             }
           ],
           "span": 1
@@ -392,7 +392,7 @@
         {
           "stack": [
             {
-              "regime": "teutonic_order",
+              "polity": "teutonic_order",
               "label": "Teutonic Order State (Monastic State of Prussia)",
               "note": "1230–1525"
             },
@@ -414,7 +414,7 @@
         {
           "stack": [
             {
-              "regime": "holy_roman_empire",
+              "polity": "holy_roman_empire",
               "label": "Holy Roman Empire — Habsburg era",
               "note": "1438–1806"
             },
@@ -430,12 +430,12 @@
             {
               "label": "Duchy of Prussia (Teutonic Order secularized)",
               "note": "1525–",
-              "regime": "teutonic_order"
+              "polity": "teutonic_order"
             },
             {
               "label": "Brandenburg-Prussia personal union (Hohenzollern)",
               "note": "1618",
-              "regime": "brandenburg_prussia_personal_union"
+              "polity": "brandenburg_prussia_personal_union"
             }
           ],
           "span": 1
@@ -461,19 +461,19 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_prussia",
+              "polity": "kingdom_of_prussia",
               "label": "Brandenburg-Prussia (Frederick William — the Great Elector)",
               "note": "1640–1688"
             },
             {
-              "regime": "kingdom_of_prussia",
+              "polity": "kingdom_of_prussia",
               "label": "Kingdom of Prussia (Frederick I)",
               "note": "1701–"
             },
             {
               "label": "Frederick the Great — military power",
               "note": "1740–1786",
-              "regime": "frederick_the_great"
+              "polity": "frederick_the_great"
             }
           ],
           "span": 1
@@ -495,7 +495,7 @@
             {
               "label": "Confederation of the Rhine (French satellite)",
               "note": "1806–1813; Holy Roman Empire dissolved (1806)",
-              "regime": "confederation_of_the_rhine"
+              "polity": "confederation_of_the_rhine"
             }
           ],
           "span": 2
@@ -509,7 +509,7 @@
             {
               "label": "Kingdom of Westphalia (Napoleon's brother Jérôme)",
               "note": "1807–1813",
-              "regime": "kingdom_of_westphalia"
+              "polity": "kingdom_of_westphalia"
             }
           ],
           "span": 1
@@ -517,7 +517,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_prussia",
+              "polity": "kingdom_of_prussia",
               "label": "Kingdom of Prussia",
               "note": "defeated at Jena (1806); reforms follow"
             },
@@ -542,10 +542,10 @@
             {
               "label": "German Confederation (Deutscher Bund — 39 states)",
               "note": "1815–1866",
-              "regime": "german_confederation"
+              "polity": "german_confederation"
             },
             {
-              "regime": "habsburg_monarchy",
+              "polity": "habsburg_monarchy",
               "label": "Austrian Empire (president of Confederation)",
               "note": ""
             }
@@ -556,19 +556,19 @@
           "label": "German Confederation (northern members)",
           "note": "",
           "span": 1,
-          "regime": "german_confederation"
+          "polity": "german_confederation"
         },
         {
           "stack": [
             {
-              "regime": "kingdom_of_prussia",
+              "polity": "kingdom_of_prussia",
               "label": "Kingdom of Prussia — Bismarck era",
               "note": "1862–"
             },
             {
               "label": "North German Confederation (Prussian-led)",
               "note": "1867–1871",
-              "regime": "north_german_confederation"
+              "polity": "north_german_confederation"
             }
           ],
           "span": 1
@@ -584,19 +584,19 @@
         {
           "stack": [
             {
-              "regime": "german_empire",
+              "polity": "german_empire",
               "label": "German Empire (Deutsches Kaiserreich)",
               "note": "1871–1918"
             },
             {
               "label": "Kulturkampf (anti-Catholic) · Anti-Socialist Laws",
               "note": "",
-              "regime": "kulturkampf_anti_socialist_laws"
+              "polity": "kulturkampf_anti_socialist_laws"
             },
             {
               "label": "German colonial empire (Africa · Pacific)",
               "note": "1884–1919",
-              "regime": "german_colonial_empire"
+              "polity": "german_colonial_empire"
             },
             {
               "label": "Wilhelmine era (Kaiser Wilhelm II — aggressive foreign policy)",
@@ -620,19 +620,19 @@
         {
           "stack": [
             {
-              "regime": "weimar_republic",
+              "polity": "weimar_republic",
               "label": "Weimar Republic (Weimarer Republik)",
               "note": "1918–1933"
             },
             {
               "label": "Free State of Prussia (largest German state)",
               "note": "",
-              "regime": "free_state_of_prussia"
+              "polity": "free_state_of_prussia"
             },
             {
               "label": "Rhineland Republic (separatist, failed) · Saar (League mandate)",
               "note": "",
-              "regime": "rhineland_republic"
+              "polity": "rhineland_republic"
             }
           ],
           "span": 4
@@ -645,7 +645,7 @@
         {
           "stack": [
             {
-              "regime": "nazi_germany",
+              "polity": "nazi_germany",
               "label": "Nazi Germany (Third Reich — Hitler)",
               "note": "1933–1945"
             },
@@ -681,14 +681,14 @@
         {
           "stack": [
             {
-              "regime": "federal_republic_germany",
+              "polity": "federal_republic_germany",
               "label": "Federal Republic of Germany (West Germany — Bonn)",
               "note": "1949–1990"
             },
             {
               "label": "Wirtschaftswunder (economic miracle — Adenauer · Erhard)",
               "note": "1950s–60s",
-              "regime": "wirtschaftswunder"
+              "polity": "wirtschaftswunder"
             },
             {
               "label": "NATO member (1955) · EEC founding member (1957)",
@@ -697,7 +697,7 @@
             {
               "label": "Saar Protectorate rejoins West Germany",
               "note": "1957",
-              "regime": "saar_protectorate_rejoins_west_germany"
+              "polity": "saar_protectorate_rejoins_west_germany"
             }
           ],
           "span": 2
@@ -705,14 +705,14 @@
         {
           "stack": [
             {
-              "regime": "east_germany",
+              "polity": "east_germany",
               "label": "German Democratic Republic (East Germany — Berlin)",
               "note": "1949–1990"
             },
             {
               "label": "Soviet satellite state (SED one-party rule)",
               "note": "",
-              "regime": "soviet_satellite_state"
+              "polity": "soviet_satellite_state"
             }
           ],
           "span": 1
@@ -722,7 +722,7 @@
             {
               "label": "Former East Prussia: divided between Soviet Union (Kaliningrad) and Poland",
               "note": "1945–",
-              "regime": "soviet_union"
+              "polity": "soviet_union"
             }
           ],
           "span": 1
@@ -738,7 +738,7 @@
         {
           "stack": [
             {
-              "regime": "federal_republic_germany",
+              "polity": "federal_republic_germany",
               "label": "Federal Republic of Germany (reunified)",
               "note": "3 October 1990"
             },

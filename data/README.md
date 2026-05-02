@@ -1,13 +1,13 @@
 # Data Structure & Loading Pipeline
 
-This directory contains all structured data for the CivRegime Inheritance Framework. It includes both hand-curated regime/succession data and auto-generated taxonomies (languages, religions, ethnicities).
+This directory contains all structured data for the CivRegime Inheritance Framework. It includes both hand-curated polity/succession data and auto-generated taxonomies (languages, religions, ethnicities).
 
 ## Directory Organization
 
 ```
 data/
-  ├── regimes/              ← Historical regimes (auto-generated from CSV, one file per regime)
-  ├── successions/          ← Succession edges between regimes (one file per region)
+  ├── polities/              ← Historical polities (auto-generated from CSV, one file per polity)
+  ├── successions/          ← Succession edges between polities (one file per region)
   ├── provinces/            ← GeoJSON province subunits (one file per province)
   ├── territories/          ← Macro geographic zones (one file per territory)
   │
@@ -54,10 +54,10 @@ data/
 
 ## Data File Formats
 
-### Regimes (Auto-Generated from CSV)
-**Source:** `csvs/regimes.csv`  
-**Output:** `regimes/*.json` (one file per regime)  
-**Generator:** `npm run make:regimes` or `node code/makejson/regimes.js`
+### Polities (Auto-Generated from CSV)
+**Source:** `csvs/polity.csv`  
+**Output:** `polities/*.json` (one file per polity)  
+**Generator:** `npm run make:polities` or `node code/makejson/polities.js`
 
 ```json
 {
@@ -160,7 +160,7 @@ data/
 
 ### History Panels (Hand-Curated)
 **Location:** `history/{region}/{country}.json`  
-**Structure:** Regional history tables with era columns and regime references.
+**Structure:** Regional history tables with era columns and polity references.
 
 ```json
 {
@@ -176,7 +176,7 @@ data/
     {
       "era": { "label": "Ancient", "rowspan": 3 },
       "cells": [
-        { "regime": "achaemenid_empire", "label": "Achaemenid Empire", "span": 3 }
+        { "polity": "achaemenid_empire", "label": "Achaemenid Empire", "span": 3 }
       ]
     }
   ],
@@ -186,9 +186,9 @@ data/
 
 Cells can contain:
 - `label` — display text
-- `regime` — FK to regime ID (enables linking and colour-coding)
+- `polity` — FK to polity ID (enables linking and colour-coding)
 - `span` — how many columns the cell spans
-- `stack` — array of `{label, note, regime?}` for stacked entries in a single cell
+- `stack` — array of `{label, note, polity?}` for stacked entries in a single cell
 - `split` — array of `{label}` for civil war / parallel entities
 
 ### Static Lookup Tables
@@ -217,8 +217,8 @@ The data loader reads all files and constructs the in-memory database:
 
 ```javascript
 const db = {
-  // Hand-curated regime history
-  regimes: loadDir('data/regimes'),           // flat array
+  // Hand-curated polity history
+  polities: loadDir('data/polity'),           // flat array
   successions: loadDir('data/successions'),   // flat array
   
   // Auto-generated taxonomies (load as trees)
@@ -240,7 +240,7 @@ const db = {
 #### `loadDir(dir)` — Flat File Loading
 Recursively loads all JSON files into a flat array.
 
-**Used for:** regimes, successions (where order doesn't matter)
+**Used for:** polities, successions (where order doesn't matter)
 
 ```javascript
 function loadDir(dir) {
@@ -250,15 +250,15 @@ function loadDir(dir) {
 }
 ```
 
-**Example:** `regimes/` contains one file per regime:
+**Example:** `polities/` contains one file per polity:
 ```
-regimes/
+polities/
   kushan_empire.json
   roman_republic.json
   tang_dynasty.json
 ```
 
-Result: Single flat array of all regimes.
+Result: Single flat array of all polities.
 
 #### `loadTree(dir)` — Hierarchical Loading
 Recursively loads JSON files while preserving parent-child relationships from directory structure.
@@ -302,7 +302,7 @@ Used by the web visualizer for filtering (e.g., "show all Germanic languages").
 
 ### Cross-Domain References
 
-Regimes reference taxonomies by ID:
+Polities reference taxonomies by ID:
 ```json
 {
   "id": "ming_dynasty",
@@ -323,11 +323,11 @@ Every taxonomy node has a `parent` field:
 
 ### Self-References (Optional)
 
-Regime succession is a DAG (directed acyclic graph):
+Polity succession is a DAG (directed acyclic graph):
 ```json
 {
-  "from": "roman_republic",    // FK to regimes
-  "to": "roman_empire_pagan",   // FK to regimes
+  "from": "roman_republic",    // FK to polities
+  "to": "roman_empire_pagan",   // FK to polities
   "type": "A"
 }
 ```
@@ -385,7 +385,7 @@ Checks:
 - ✓ Required fields present (id, name, parent)
 - ✓ All parent references exist within the same taxonomy
 - ✓ No circular parent chains
-- ✓ All regime FK references resolve
+- ✓ All polity FK references resolve
 - ✓ Succession type is valid (A, A-, B, C, or D)
 - ✓ No orphaned nodes in taxonomies
 
@@ -408,7 +408,7 @@ Checks:
 ## Performance Notes
 
 ### File Count
-- 268 regime files (auto-generated from CSV)
+- 268 polity files (auto-generated from CSV)
 - 552 language files
 - 193 religion files
 - 203 ethnicity files
@@ -440,12 +440,12 @@ db.tree.languages('indo_european')  // all descendants
 
 ## Contributing Data
 
-### Adding Regimes
-1. Add a row to `csvs/regimes.csv` with all required fields
-2. Run: `npm run make:regimes` to generate the JSON file
+### Adding Polities
+1. Add a row to `csvs/polity.csv` with all required fields
+2. Run: `npm run make:polities` to generate the JSON file
 3. Create corresponding succession edges in `csvs/successions.csv`
 4. Run: `npm run make:successions` to regenerate
-5. Optionally add regime links in `data/history/*/*.json` panels
+5. Optionally add polity links in `data/history/*/*.json` panels
 
 ### Adding Taxonomy Nodes
 1. Edit the markdown source: `docs/tree/language.md` (etc.)
@@ -463,7 +463,7 @@ db.tree.languages('indo_european')  // all descendants
 
 | Entity | Location | Loading | Count |
 |---|---|---|---|
-| Polities (regimes) | `regimes/*.json` | `loadDir` (flat) | 268 |
+| Polities (polities) | `polities/*.json` | `loadDir` (flat) | 268 |
 | Successions | `successions/all.json` | `loadDir` (flat) | 1,243 |
 | History panels | `history/*/*.json` | served statically | 61 |
 | Languages | `languages/*/` | `loadTree` (hierarchical) | 691 |

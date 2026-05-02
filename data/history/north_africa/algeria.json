@@ -41,12 +41,12 @@
             {
               "label": "Capsian culture / Berber peoples",
               "note": "prehistoric",
-              "regime": "capsian_culture"
+              "polity": "capsian_culture"
             },
             {
               "label": "Phoenician coastal settlements (c.900 BCE)",
               "note": "Tipasa · Iol/Cherchell · Hippo Regius",
-              "regime": "phoenician_coastal_settlements"
+              "polity": "phoenician_coastal_settlements"
             }
           ],
           "span": 4
@@ -61,22 +61,22 @@
             {
               "label": "Mauretania Kingdom",
               "note": "c.200 BCE–44 CE",
-              "regime": "mauretania_kingdom"
+              "polity": "mauretania_kingdom"
             },
             {
               "label": "Roman Mauretania Caesariensis",
               "note": "44 CE–429",
-              "regime": "roman_mauretania_caesariensis"
+              "polity": "roman_mauretania_caesariensis"
             },
             {
               "label": "Vandal Kingdom (transit)",
               "note": "c.429",
-              "regime": "vandal_kingdom"
+              "polity": "vandal_kingdom"
             },
             {
               "label": "Mauro-Roman Kingdom · Altava Kingdom",
               "note": "c.430–708",
-              "regime": "roman_kingdom"
+              "polity": "roman_kingdom"
             }
           ],
           "span": 1
@@ -90,12 +90,12 @@
             {
               "label": "Roman Mauretania Caesariensis",
               "note": "44 CE–429",
-              "regime": "roman_mauretania_caesariensis"
+              "polity": "roman_mauretania_caesariensis"
             },
             {
               "label": "Byzantine (coastal garrisons)",
               "note": "533–698",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -103,27 +103,27 @@
         {
           "label": "Independent Berber / Imazighen",
           "span": 1,
-          "regime": "independent_berber"
+          "polity": "independent_berber"
         },
         {
           "stack": [
             {
               "label": "Numidia (Massinissa)",
               "note": "c.202–46 BCE",
-              "regime": "numidia"
+              "polity": "numidia"
             },
             {
               "label": "Roman Numidia (Africa Proconsularis)",
               "note": "46 BCE–429 CE",
-              "regime": "numidia"
+              "polity": "numidia"
             },
             {
               "label": "Vandal Kingdom",
               "note": "429–534",
-              "regime": "vandal_kingdom"
+              "polity": "vandal_kingdom"
             },
             {
-              "regime": "byzantine_empire",
+              "polity": "byzantine_empire",
               "label": "Byzantine Empire",
               "note": "534–698"
             }
@@ -141,12 +141,12 @@
         {
           "stack": [
             {
-              "regime": "rashidun_caliphate",
+              "polity": "rashidun_caliphate",
               "label": "Rashidun Caliphate",
               "note": "647–661"
             },
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate",
               "note": "661–750"
             }
@@ -163,17 +163,17 @@
             {
               "label": "Rustamid dynasty (Tiaret, Ibadi)",
               "note": "777–909",
-              "regime": "rustamid_dynasty"
+              "polity": "rustamid_dynasty"
             },
             {
               "label": "Ifranid dynasty (Zenata Berbers)",
               "note": "c.790–1066",
-              "regime": "ifranid_dynasty"
+              "polity": "ifranid_dynasty"
             },
             {
               "label": "Almoravid (Murabitun)",
               "note": "1054–1147",
-              "regime": "almoravid_dynasty"
+              "polity": "almoravid_dynasty"
             }
           ],
           "span": 1
@@ -181,19 +181,19 @@
         {
           "stack": [
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid / Muhallabid governors",
               "note": "750–800"
             },
             {
-              "regime": "fatimid_caliphate",
+              "polity": "fatimid_caliphate",
               "label": "Fatimid Caliphate",
               "note": "909–972"
             },
             {
               "label": "Zirid (Ashir principality)",
               "note": "972–1070",
-              "regime": "zirid_dynasty"
+              "polity": "zirid_dynasty"
             }
           ],
           "span": 1
@@ -201,14 +201,14 @@
         {
           "stack": [
             {
-              "regime": "fatimid_caliphate",
+              "polity": "fatimid_caliphate",
               "label": "Fatimid suzerainty",
               "note": "909–1014"
             },
             {
               "label": "Hammadid dynasty (Qal'a des Beni Hammad)",
               "note": "1014–1152",
-              "regime": "hammadid_dynasty"
+              "polity": "hammadid_dynasty"
             }
           ],
           "span": 1
@@ -218,17 +218,17 @@
             {
               "label": "Aghlabid dynasty",
               "note": "800–909",
-              "regime": "aghlabid_dynasty"
+              "polity": "aghlabid_dynasty"
             },
             {
-              "regime": "fatimid_caliphate",
+              "polity": "fatimid_caliphate",
               "label": "Fatimid Caliphate",
               "note": "909–969; Banu Hilal / Banu Sulaym invasion (1048 onward)"
             },
             {
               "label": "Zirid dynasty",
               "note": "969–1052",
-              "regime": "zirid_dynasty"
+              "polity": "zirid_dynasty"
             }
           ],
           "span": 1
@@ -243,12 +243,12 @@
             {
               "label": "Almohad Caliphate",
               "note": "1147–1229; Marinid raids (border pressure) (13th–15th c.)",
-              "regime": "almohad_caliphate"
+              "polity": "almohad_caliphate"
             },
             {
               "label": "Zayyanid / Abdalwadid dynasty (Tlemcen)",
               "note": "1235–1556",
-              "regime": "zayyanid"
+              "polity": "zayyanid"
             }
           ],
           "span": 1
@@ -258,7 +258,7 @@
             {
               "label": "Almohad Caliphate",
               "note": "1147–1229",
-              "regime": "almohad_caliphate"
+              "polity": "almohad_caliphate"
             },
             {
               "label": "Zayyanid suzerainty (coastal)",
@@ -272,17 +272,17 @@
             {
               "label": "Almohad Caliphate",
               "note": "1147–1229",
-              "regime": "almohad_caliphate"
+              "polity": "almohad_caliphate"
             },
             {
               "label": "Banu Ghaniya (Balearic Almoravid remnants)",
               "note": "c.1184–1228",
-              "regime": "banu_ghaniya"
+              "polity": "banu_ghaniya"
             },
             {
               "label": "Hafsid (nominal suzerainty)",
               "note": "partial",
-              "regime": "hafsid_dynasty"
+              "polity": "hafsid_dynasty"
             }
           ],
           "span": 1
@@ -292,12 +292,12 @@
             {
               "label": "Almohad Caliphate",
               "note": "1147–1229",
-              "regime": "almohad_caliphate"
+              "polity": "almohad_caliphate"
             },
             {
               "label": "Hafsid dynasty (Constantine)",
               "note": "1229–1574",
-              "regime": "hafsid_dynasty"
+              "polity": "hafsid_dynasty"
             }
           ],
           "span": 1
@@ -315,15 +315,15 @@
             {
               "label": "Zayyanid / Abdalwadid (–1556)",
               "note": "",
-              "regime": "zayyanid"
+              "polity": "zayyanid"
             },
             {
               "label": "Spanish Oran (1509–1708)",
               "note": "",
-              "regime": "spanish_oran"
+              "polity": "spanish_oran"
             },
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Regency (west)",
               "note": "after 1556"
             }
@@ -331,7 +331,7 @@
           "span": 1
         },
         {
-          "regime": "ottoman_empire",
+          "polity": "ottoman_empire",
           "label": "Ottoman Regency of Algiers",
           "span": 1
         },
@@ -340,12 +340,12 @@
             {
               "label": "Kuku Kingdom (Kabylie)",
               "note": "1510–1638",
-              "regime": "kuku_kingdom"
+              "polity": "kuku_kingdom"
             },
             {
               "label": "Aït Abbas Emirate",
               "note": "1510–1872",
-              "regime": "ait_abbas_emirate"
+              "polity": "ait_abbas_emirate"
             }
           ],
           "span": 1
@@ -355,10 +355,10 @@
             {
               "label": "Hafsid dynasty (–1574)",
               "note": "",
-              "regime": "hafsid_dynasty"
+              "polity": "hafsid_dynasty"
             },
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Constantine province",
               "note": "1574–"
             }
@@ -375,7 +375,7 @@
             {
               "label": "Ottoman Regency (Oran province)",
               "note": "",
-              "regime": "ottoman_regency"
+              "polity": "ottoman_regency"
             },
             {
               "label": "Spanish Oran (restored 1732–1792)",
@@ -384,7 +384,7 @@
             {
               "label": "Emirate of Abdelkader (partial)",
               "note": "1832–1847",
-              "regime": "emirate_of_abdelkader"
+              "polity": "emirate_of_abdelkader"
             }
           ],
           "span": 1
@@ -392,7 +392,7 @@
         {
           "stack": [
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Regency of Algiers (–1830)",
               "note": ""
             },
@@ -412,17 +412,17 @@
             {
               "label": "Ottoman Constantine",
               "note": "",
-              "regime": "ottoman_constantine"
+              "polity": "ottoman_constantine"
             },
             {
               "label": "Tuggurt Sultanate (south)",
               "note": "1644–1854",
-              "regime": "tuggurt_sultanate"
+              "polity": "tuggurt_sultanate"
             },
             {
               "label": "French Algeria — east",
               "note": "1837–",
-              "regime": "french_algeria"
+              "polity": "french_algeria"
             }
           ],
           "span": 1
@@ -440,17 +440,17 @@
             {
               "label": "French Algeria (settled colonialism)",
               "note": "1848–1940",
-              "regime": "french_algeria"
+              "polity": "french_algeria"
             },
             {
               "label": "Vichy France / Free France",
               "note": "1940–1944",
-              "regime": "vichy_france"
+              "polity": "vichy_france"
             },
             {
               "label": "French Algeria (4th Republic)",
               "note": "1944–1958",
-              "regime": "french_algeria"
+              "polity": "french_algeria"
             },
             {
               "label": "Algerian War of Independence",
@@ -472,7 +472,7 @@
             {
               "label": "People's Democratic Republic of Algeria (FLN one-party state)",
               "note": "1962–1989",
-              "regime": "peoples_democratic_republic_of_algeria"
+              "polity": "peoples_democratic_republic_of_algeria"
             },
             {
               "label": "Algerian Civil War (Black Decade)",
@@ -481,7 +481,7 @@
             {
               "label": "People's Democratic Republic of Algeria",
               "note": "2002–",
-              "regime": "peoples_democratic_republic_of_algeria"
+              "polity": "peoples_democratic_republic_of_algeria"
             }
           ],
           "span": 4

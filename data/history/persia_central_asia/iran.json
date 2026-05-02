@@ -63,17 +63,17 @@
         {
           "label": "Kura-Araxes culture",
           "span": 1,
-          "regime": "kura_araxes_culture"
+          "polity": "kura_araxes_culture"
         },
         {
           "label": "Dalma culture",
           "span": 1,
-          "regime": "dalma_culture"
+          "polity": "dalma_culture"
         },
         {
           "label": "Zayanderud culture",
           "span": 1,
-          "regime": "zayanderud_culture"
+          "polity": "zayanderud_culture"
         },
         {
           "label": "?",
@@ -82,17 +82,17 @@
         {
           "label": "Helmand culture",
           "span": 1,
-          "regime": "helmand_culture"
+          "polity": "helmand_culture"
         },
         {
           "label": "Oxus / BMAC culture",
           "span": 1,
-          "regime": "bmac_culture"
+          "polity": "bmac_culture"
         },
         {
           "label": "Jiroft culture",
           "span": 1,
-          "regime": "jiroft_culture"
+          "polity": "jiroft_culture"
         }
       ]
     },
@@ -109,19 +109,19 @@
         {
           "label": "Kura-Araxes / Urartu",
           "span": 1,
-          "regime": "kura_araxes_culture"
+          "polity": "kura_araxes_culture"
         },
         {
           "stack": [
             {
               "label": "Lullubi Kingdom",
               "note": "c.2300–1200 BCE",
-              "regime": "lullubi_kingdom"
+              "polity": "lullubi_kingdom"
             },
             {
               "label": "Kassite Babylon",
               "note": "c.1600–1155 BCE",
-              "regime": "kassite_babylon"
+              "polity": "kassite_babylon"
             }
           ],
           "span": 1
@@ -131,12 +131,12 @@
             {
               "label": "Proto-Elamite",
               "note": "c.3100–2700 BCE",
-              "regime": "proto_elamite"
+              "polity": "proto_elamite"
             },
             {
               "label": "Elam",
               "note": "c.2700–539 BCE",
-              "regime": "elam"
+              "polity": "elam"
             }
           ],
           "span": 1
@@ -144,7 +144,7 @@
         {
           "label": "Marhashi",
           "span": 1,
-          "regime": "marhashi_kingdom"
+          "polity": "marhashi_kingdom"
         },
         {
           "label": "?",
@@ -153,7 +153,7 @@
         {
           "label": "Jiroft / Helmand",
           "span": 1,
-          "regime": "jiroft_culture"
+          "polity": "jiroft_culture"
         },
         {
           "label": "?",
@@ -173,12 +173,12 @@
             {
               "label": "Urartu",
               "note": "c.860–590 BCE",
-              "regime": "kingdom_of_urartu"
+              "polity": "kingdom_of_urartu"
             },
             {
               "label": "Mannai Kingdom",
               "note": "c.850–616 BCE",
-              "regime": "mannai_kingdom"
+              "polity": "mannai_kingdom"
             }
           ],
           "span": 1
@@ -186,32 +186,32 @@
         {
           "stack": [
             {
-              "regime": "akkadian_empire",
+              "polity": "akkadian_empire",
               "label": "Akkadian Empire",
               "note": "c.2334–2154 BCE"
             },
             {
               "label": "Gutian dynasty",
               "note": "c.2154–2112 BCE",
-              "regime": "gutian_dynasty"
+              "polity": "gutian_dynasty"
             },
             {
               "label": "Ur III (Neo-Sumerian)",
               "note": "2112–2004 BCE",
-              "regime": "ur_iii"
+              "polity": "ur_iii"
             },
             {
-              "regime": "old_babylonian",
+              "polity": "old_babylonian",
               "label": "Old Babylonian",
               "note": "c.1894–1595 BCE"
             },
             {
-              "regime": "neo_assyrian_empire",
+              "polity": "neo_assyrian_empire",
               "label": "Neo-Assyrian Empire",
               "note": "911–609 BCE"
             },
             {
-              "regime": "median_kingdom",
+              "polity": "median_kingdom",
               "label": "Median Kingdom",
               "note": "678–550 BCE"
             }
@@ -223,12 +223,12 @@
             {
               "label": "Elam (continued)",
               "note": "c.2700–539 BCE",
-              "regime": "elam"
+              "polity": "elam"
             },
             {
               "label": "Anshan Kingdom",
               "note": "c.2400–550 BCE",
-              "regime": "anshan_kingdom"
+              "polity": "anshan_kingdom"
             }
           ],
           "span": 1
@@ -236,14 +236,14 @@
         {
           "label": "Elam / coastal tribes",
           "span": 1,
-          "regime": "elam"
+          "polity": "elam"
         },
         {
           "stack": [
             {
               "label": "Scythian / Saka",
               "note": "c.700–300 BCE",
-              "regime": "scythian"
+              "polity": "scythian"
             }
           ],
           "span": 1
@@ -251,7 +251,7 @@
         {
           "label": "Jiroft / Helmand",
           "span": 1,
-          "regime": "jiroft_culture"
+          "polity": "jiroft_culture"
         },
         {
           "label": "?",
@@ -266,7 +266,7 @@
       },
       "cells": [
         {
-          "regime": "achaemenid_empire",
+          "polity": "achaemenid_empire",
           "label": "Achaemenid Empire",
           "span": 8
         }
@@ -283,10 +283,10 @@
             {
               "label": "Macedonian / Diadochi",
               "note": "334–312 BCE",
-              "regime": "macedonian_empire"
+              "polity": "macedonian_empire"
             },
             {
-              "regime": "seleucid_empire",
+              "polity": "seleucid_empire",
               "label": "Seleucid Empire",
               "note": "312–247 BCE"
             }
@@ -296,17 +296,17 @@
         {
           "label": "Seleucid Empire",
           "span": 1,
-          "regime": "seleucid_empire"
+          "polity": "seleucid_empire"
         },
         {
           "stack": [
             {
               "label": "Macedonian / Diadochi",
               "note": "334–312 BCE",
-              "regime": "macedonian_empire"
+              "polity": "macedonian_empire"
             },
             {
-              "regime": "seleucid_empire",
+              "polity": "seleucid_empire",
               "label": "Seleucid Empire",
               "note": "312–247 BCE"
             }
@@ -316,7 +316,7 @@
         {
           "label": "Mauryan Empire (briefly)",
           "span": 1,
-          "regime": "maurya_empire"
+          "polity": "maurya_empire"
         }
       ]
     },
@@ -324,7 +324,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "parthian_empire",
+          "polity": "parthian_empire",
           "label": "Parthian Empire",
           "span": 5
         },
@@ -333,12 +333,12 @@
             {
               "label": "Greco-Bactrian Kingdom",
               "note": "256–125 BCE",
-              "regime": "greco_bactrian_kingdom"
+              "polity": "greco_bactrian_kingdom"
             },
             {
               "label": "Kushan Empire",
               "note": "30–375 CE",
-              "regime": "kushan_empire"
+              "polity": "kushan_empire"
             }
           ],
           "span": 2
@@ -346,7 +346,7 @@
         {
           "label": "Kushan / Saka",
           "span": 1,
-          "regime": "kushan_empire"
+          "polity": "kushan_empire"
         }
       ]
     },
@@ -357,7 +357,7 @@
       },
       "cells": [
         {
-          "regime": "sassanid_empire",
+          "polity": "sassanid_empire",
           "label": "Sassanid Empire",
           "span": 6
         },
@@ -366,17 +366,17 @@
             {
               "label": "Kidarite / Chionite",
               "note": "c.320–467 CE",
-              "regime": "kidarite_kingdom"
+              "polity": "kidarite_kingdom"
             },
             {
               "label": "Hephthalite Empire",
               "note": "467–557 CE",
-              "regime": "hephthalite_empire"
+              "polity": "hephthalite_empire"
             },
             {
               "label": "Göktürk Khaganate",
               "note": "557–651 CE",
-              "regime": "goktürk_khaganate"
+              "polity": "goktürk_khaganate"
             }
           ],
           "span": 2
@@ -392,17 +392,17 @@
         {
           "stack": [
             {
-              "regime": "rashidun_caliphate",
+              "polity": "rashidun_caliphate",
               "label": "Rashidun Caliphate",
               "note": "637–661"
             },
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate",
               "note": "661–750"
             },
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid Caliphate",
               "note": "750–"
             }
@@ -419,12 +419,12 @@
             {
               "label": "Dabuyid Dynasty",
               "note": "642–760",
-              "regime": "dabuyid_dynasty"
+              "polity": "dabuyid_dynasty"
             },
             {
               "label": "Bavandid Dynasty",
               "note": "651–1349",
-              "regime": "bavandid_dynasty"
+              "polity": "bavandid_dynasty"
             }
           ],
           "span": 1
@@ -434,12 +434,12 @@
             {
               "label": "Sajid Dynasty",
               "note": "889–929",
-              "regime": "sajid_dynasty"
+              "polity": "sajid_dynasty"
             },
             {
               "label": "Rawwadid Dynasty",
               "note": "c.955–1071",
-              "regime": "rawwadid_dynasty"
+              "polity": "rawwadid_dynasty"
             }
           ],
           "span": 1
@@ -449,12 +449,12 @@
             {
               "label": "Dulafid Dynasty",
               "note": "840–897",
-              "regime": "dulafid_dynasty"
+              "polity": "dulafid_dynasty"
             },
             {
               "label": "Buyid Dynasty",
               "note": "934–1055",
-              "regime": "buyid_dynasty"
+              "polity": "buyid_dynasty"
             }
           ],
           "span": 1
@@ -464,22 +464,22 @@
             {
               "label": "Tahirid Dynasty",
               "note": "821–873",
-              "regime": "tahirid_dynasty"
+              "polity": "tahirid_dynasty"
             },
             {
               "label": "Ziyarid Dynasty",
               "note": "930–1090",
-              "regime": "ziyarid_dynasty"
+              "polity": "ziyarid_dynasty"
             },
             {
               "label": "Buyid Dynasty",
               "note": "934–1055",
-              "regime": "buyid_dynasty"
+              "polity": "buyid_dynasty"
             },
             {
               "label": "Kakuyid Dynasty",
               "note": "1008–1051",
-              "regime": "kakuyid_dynasty"
+              "polity": "kakuyid_dynasty"
             }
           ],
           "span": 1
@@ -489,12 +489,12 @@
             {
               "label": "Abbasid Caliphate",
               "note": "750–",
-              "regime": "abbasid_caliphate"
+              "polity": "abbasid_caliphate"
             },
             {
               "label": "Buyid Dynasty",
               "note": "934–1055",
-              "regime": "buyid_dynasty"
+              "polity": "buyid_dynasty"
             }
           ],
           "span": 1
@@ -504,20 +504,20 @@
             {
               "label": "Tahirid Dynasty",
               "note": "821–873",
-              "regime": "tahirid_dynasty"
+              "polity": "tahirid_dynasty"
             },
             {
               "label": "Saffarid Dynasty",
               "note": "861–1003",
-              "regime": "saffarid_dynasty"
+              "polity": "saffarid_dynasty"
             },
             {
-              "regime": "samanid_empire",
+              "polity": "samanid_empire",
               "label": "Samanid Empire",
               "note": "875–999"
             },
             {
-              "regime": "ghaznavid_empire",
+              "polity": "ghaznavid_empire",
               "label": "Ghaznavid Empire",
               "note": "977–1186"
             }
@@ -529,15 +529,15 @@
             {
               "label": "Saffarid Dynasty",
               "note": "861–1003",
-              "regime": "saffarid_dynasty"
+              "polity": "saffarid_dynasty"
             },
             {
-              "regime": "samanid_empire",
+              "polity": "samanid_empire",
               "label": "Samanid Empire",
               "note": "875–999"
             },
             {
-              "regime": "ghaznavid_empire",
+              "polity": "ghaznavid_empire",
               "label": "Ghaznavid Empire",
               "note": "977–1186"
             }
@@ -549,10 +549,10 @@
             {
               "label": "Saffarid Dynasty",
               "note": "861–1003",
-              "regime": "saffarid_dynasty"
+              "polity": "saffarid_dynasty"
             },
             {
-              "regime": "ghaznavid_empire",
+              "polity": "ghaznavid_empire",
               "label": "Ghaznavid Empire",
               "note": "977–1186"
             }
@@ -572,7 +572,7 @@
             {
               "label": "Bavandid / Paduspanid",
               "note": "c.750–1597",
-              "regime": "bavandid_dynasty"
+              "polity": "bavandid_dynasty"
             }
           ],
           "span": 1
@@ -582,10 +582,10 @@
             {
               "label": "Ildeguzids (Eldiguzids)",
               "note": "1136–1225",
-              "regime": "eldiguzid_dynasty"
+              "polity": "eldiguzid_dynasty"
             },
             {
-              "regime": "mongol_empire",
+              "polity": "mongol_empire",
               "label": "Mongol Empire",
               "note": "1256–"
             }
@@ -595,17 +595,17 @@
         {
           "stack": [
             {
-              "regime": "seljuk_empire",
+              "polity": "seljuk_empire",
               "label": "Seljuk Empire",
               "note": "1037–1194"
             },
             {
               "label": "Zengid Dynasty",
               "note": "1127–1222",
-              "regime": "zengid_dynasty"
+              "polity": "zengid_dynasty"
             },
             {
-              "regime": "mongol_empire",
+              "polity": "mongol_empire",
               "label": "Mongol Conquest",
               "note": "1220–1256"
             }
@@ -615,17 +615,17 @@
         {
           "stack": [
             {
-              "regime": "seljuk_empire",
+              "polity": "seljuk_empire",
               "label": "Seljuk Empire",
               "note": "1037–1194"
             },
             {
               "label": "Khwarazmian Empire",
               "note": "1077–1231",
-              "regime": "khwarazmian_empire"
+              "polity": "khwarazmian_empire"
             },
             {
-              "regime": "mongol_empire",
+              "polity": "mongol_empire",
               "label": "Mongol Conquest",
               "note": "1220–1256"
             }
@@ -635,14 +635,14 @@
         {
           "stack": [
             {
-              "regime": "seljuk_empire",
+              "polity": "seljuk_empire",
               "label": "Seljuk Empire",
               "note": "1037–1194"
             },
             {
               "label": "Salgurid Dynasty (Kerman)",
               "note": "1148–1286",
-              "regime": "salgurid_dynasty"
+              "polity": "salgurid_dynasty"
             }
           ],
           "span": 1
@@ -650,24 +650,24 @@
         {
           "stack": [
             {
-              "regime": "seljuk_empire",
+              "polity": "seljuk_empire",
               "label": "Seljuk Empire",
               "note": "1037–1194"
             },
             {
               "label": "Khwarazmian Empire",
               "note": "1077–1231",
-              "regime": "khwarazmian_empire"
+              "polity": "khwarazmian_empire"
             },
             {
-              "regime": "ghaznavid_empire",
+              "polity": "ghaznavid_empire",
               "label": "Ghaznavid Empire",
               "note": "–1186"
             },
             {
               "label": "Ghurid Sultanate",
               "note": "1175–1215",
-              "regime": "ghorid_dynasty"
+              "polity": "ghorid_dynasty"
             }
           ],
           "span": 1
@@ -677,12 +677,12 @@
             {
               "label": "Saffarid (remnant)",
               "note": "–1003",
-              "regime": "saffarid_dynasty"
+              "polity": "saffarid_dynasty"
             },
             {
               "label": "Ghaznavid / Ghurid",
               "note": "977–1215",
-              "regime": "ghaznavid_empire"
+              "polity": "ghaznavid_empire"
             }
           ],
           "span": 1
@@ -692,12 +692,12 @@
             {
               "label": "Ghaznavid / Ghurid",
               "note": "977–1215",
-              "regime": "ghaznavid_empire"
+              "polity": "ghaznavid_empire"
             },
             {
               "label": "Khalji Dynasty",
               "note": "1290–1320",
-              "regime": "khalji_dynasty"
+              "polity": "khalji_dynasty"
             }
           ],
           "span": 1
@@ -712,12 +712,12 @@
             {
               "label": "Bavandid / Maraashi",
               "note": "c.750–1597",
-              "regime": "bavandid_dynasty"
+              "polity": "bavandid_dynasty"
             },
             {
               "label": "Kar-Kiya Dynasty",
               "note": "1370–1592",
-              "regime": "karkiya_dynasty"
+              "polity": "karkiya_dynasty"
             }
           ],
           "span": 1
@@ -725,24 +725,24 @@
         {
           "stack": [
             {
-              "regime": "ilkhanate",
+              "polity": "ilkhanate",
               "label": "Ilkhanate",
               "note": "1256–1335"
             },
             {
               "label": "Chobanid / Jalayirid",
               "note": "1335–1410",
-              "regime": "chobanid_dynasty"
+              "polity": "chobanid_dynasty"
             },
             {
               "label": "Kara Koyunlu (Black Sheep)",
               "note": "1374–1468",
-              "regime": "kara_koyunlu"
+              "polity": "kara_koyunlu"
             },
             {
               "label": "Aq Qoyunlu (White Sheep)",
               "note": "1468–1501",
-              "regime": "aq_qoyunlu"
+              "polity": "aq_qoyunlu"
             }
           ],
           "span": 1
@@ -750,24 +750,24 @@
         {
           "stack": [
             {
-              "regime": "ilkhanate",
+              "polity": "ilkhanate",
               "label": "Ilkhanate",
               "note": "1256–1335"
             },
             {
               "label": "Jalayirid Sultanate",
               "note": "1335–1432",
-              "regime": "jalayirid_sultanate"
+              "polity": "jalayirid_sultanate"
             },
             {
               "label": "Kara Koyunlu",
               "note": "1374–1468",
-              "regime": "kara_koyunlu"
+              "polity": "kara_koyunlu"
             },
             {
               "label": "Aq Qoyunlu",
               "note": "1468–1501",
-              "regime": "aq_qoyunlu"
+              "polity": "aq_qoyunlu"
             }
           ],
           "span": 1
@@ -775,17 +775,17 @@
         {
           "stack": [
             {
-              "regime": "ilkhanate",
+              "polity": "ilkhanate",
               "label": "Ilkhanate",
               "note": "1256–1335"
             },
             {
               "label": "Injuid / Muzaffarid",
               "note": "1335–1393",
-              "regime": "injuid_dynasty"
+              "polity": "injuid_dynasty"
             },
             {
-              "regime": "timurid_empire",
+              "polity": "timurid_empire",
               "label": "Timurid Empire",
               "note": "1370–1506"
             }
@@ -795,19 +795,19 @@
         {
           "stack": [
             {
-              "regime": "ilkhanate",
+              "polity": "ilkhanate",
               "label": "Ilkhanate",
               "note": "1256–1335"
             },
             {
               "label": "Inju / Muzaffarid",
               "note": "1335–1393",
-              "regime": "injuid_dynasty"
+              "polity": "injuid_dynasty"
             },
             {
               "label": "Hormuz Kingdom",
               "note": "1300–1622",
-              "regime": "hormuz_kingdom"
+              "polity": "hormuz_kingdom"
             }
           ],
           "span": 1
@@ -815,17 +815,17 @@
         {
           "stack": [
             {
-              "regime": "ilkhanate",
+              "polity": "ilkhanate",
               "label": "Ilkhanate",
               "note": "1256–1335"
             },
             {
               "label": "Kartid / Sarbadaran",
               "note": "1245–1389",
-              "regime": "kartid_dynasty"
+              "polity": "kartid_dynasty"
             },
             {
-              "regime": "timurid_empire",
+              "polity": "timurid_empire",
               "label": "Timurid Empire",
               "note": "1370–1506"
             }
@@ -835,17 +835,17 @@
         {
           "stack": [
             {
-              "regime": "ilkhanate",
+              "polity": "ilkhanate",
               "label": "Ilkhanate",
               "note": "1256–1335"
             },
             {
               "label": "Kartid Dynasty",
               "note": "1245–1381",
-              "regime": "kartid_dynasty"
+              "polity": "kartid_dynasty"
             },
             {
-              "regime": "timurid_empire",
+              "polity": "timurid_empire",
               "label": "Timurid Empire",
               "note": "1370–1506"
             }
@@ -855,12 +855,12 @@
         {
           "stack": [
             {
-              "regime": "ilkhanate",
+              "polity": "ilkhanate",
               "label": "Ilkhanate",
               "note": "1256–1335"
             },
             {
-              "regime": "timurid_empire",
+              "polity": "timurid_empire",
               "label": "Timurid Empire",
               "note": "1370–1506"
             }
@@ -876,7 +876,7 @@
       },
       "cells": [
         {
-          "regime": "safavid_empire",
+          "polity": "safavid_empire",
           "label": "Safavid Empire",
           "span": 8
         }
@@ -893,15 +893,15 @@
             {
               "label": "Safavid (collapse)",
               "note": "1709–1736",
-              "regime": "safavid_empire"
+              "polity": "safavid_empire"
             },
             {
               "label": "Hotaki Afghan",
               "note": "1709–1729",
-              "regime": "hotak_dynasty"
+              "polity": "hotak_dynasty"
             },
             {
-              "regime": "afsharid_dynasty",
+              "polity": "afsharid_dynasty",
               "label": "Afsharid Dynasty",
               "note": "1736–1796"
             }
@@ -913,10 +913,10 @@
             {
               "label": "Hotaki Afghan",
               "note": "1709–1729",
-              "regime": "hotak_dynasty"
+              "polity": "hotak_dynasty"
             },
             {
-              "regime": "afsharid_dynasty",
+              "polity": "afsharid_dynasty",
               "label": "Afsharid Dynasty",
               "note": "1736–1796"
             }
@@ -928,17 +928,17 @@
             {
               "label": "Hotaki Afghan",
               "note": "1709–1729",
-              "regime": "hotak_dynasty"
+              "polity": "hotak_dynasty"
             },
             {
-              "regime": "afsharid_dynasty",
+              "polity": "afsharid_dynasty",
               "label": "Afsharid Dynasty",
               "note": "1736–1796"
             },
             {
               "label": "Zand Dynasty",
               "note": "1751–1794",
-              "regime": "zand_dynasty"
+              "polity": "zand_dynasty"
             }
           ],
           "span": 1
@@ -946,7 +946,7 @@
         {
           "stack": [
             {
-              "regime": "afsharid_dynasty",
+              "polity": "afsharid_dynasty",
               "label": "Afsharid Dynasty",
               "note": "1736–1796"
             }
@@ -958,17 +958,17 @@
             {
               "label": "Hotaki Afghan",
               "note": "1709–1729",
-              "regime": "hotak_dynasty"
+              "polity": "hotak_dynasty"
             },
             {
-              "regime": "afsharid_dynasty",
+              "polity": "afsharid_dynasty",
               "label": "Afsharid Dynasty",
               "note": "1736–1796"
             },
             {
               "label": "Durrani Empire",
               "note": "1747–1823",
-              "regime": "durrani_empire"
+              "polity": "durrani_empire"
             }
           ],
           "span": 1
@@ -983,17 +983,17 @@
             {
               "label": "Qajar (consolidating)",
               "note": "1794–1796",
-              "regime": "qajar_dynasty"
+              "polity": "qajar_dynasty"
             },
             {
-              "regime": "qajar_dynasty",
+              "polity": "qajar_dynasty",
               "label": "Qajar Dynasty",
               "note": "1796–1925"
             },
             {
               "label": "Russian Empire (ceded territories)",
               "note": "1813/1828–",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 1
@@ -1003,17 +1003,17 @@
             {
               "label": "Qajar (consolidating)",
               "note": "1794–1796",
-              "regime": "qajar_dynasty"
+              "polity": "qajar_dynasty"
             },
             {
-              "regime": "qajar_dynasty",
+              "polity": "qajar_dynasty",
               "label": "Qajar Dynasty",
               "note": "1796–1925"
             },
             {
               "label": "Russian Empire (occupied)",
               "note": "1813–",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 1
@@ -1023,10 +1023,10 @@
             {
               "label": "Zand Dynasty",
               "note": "–1794",
-              "regime": "zand_dynasty"
+              "polity": "zand_dynasty"
             },
             {
-              "regime": "qajar_dynasty",
+              "polity": "qajar_dynasty",
               "label": "Qajar Dynasty",
               "note": "1796–1925"
             }
@@ -1034,21 +1034,21 @@
           "span": 2
         },
         {
-          "regime": "qajar_dynasty",
+          "polity": "qajar_dynasty",
           "label": "Qajar Dynasty",
           "span": 2
         },
         {
           "stack": [
             {
-              "regime": "qajar_dynasty",
+              "polity": "qajar_dynasty",
               "label": "Qajar Dynasty",
               "note": "1796–1925"
             },
             {
               "label": "Kalat Khanate",
               "note": "partial, 1666–1955",
-              "regime": "kalat_khanate"
+              "polity": "kalat_khanate"
             }
           ],
           "span": 1
@@ -1056,7 +1056,7 @@
         {
           "stack": [
             {
-              "regime": "qajar_dynasty",
+              "polity": "qajar_dynasty",
               "label": "Qajar Dynasty",
               "note": "1796–1925"
             },
@@ -1076,7 +1076,7 @@
       },
       "cells": [
         {
-          "regime": "pahlavi_dynasty",
+          "polity": "pahlavi_dynasty",
           "label": "Pahlavi Dynasty",
           "span": 8
         }
@@ -1086,7 +1086,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "pahlavi_dynasty",
+          "polity": "pahlavi_dynasty",
           "label": "Pahlavi Dynasty",
           "span": 6
         },
@@ -1095,12 +1095,12 @@
             {
               "label": "Mahabad Republic",
               "note": "Kurdish, 1946",
-              "regime": "mahabad_republic"
+              "polity": "mahabad_republic"
             },
             {
               "label": "Azerbaijan People's Government",
               "note": "Soviet-backed, 1945–46",
-              "regime": "azerbaijan_peoples_government"
+              "polity": "azerbaijan_peoples_government"
             }
           ],
           "span": 2
@@ -1114,7 +1114,7 @@
       },
       "cells": [
         {
-          "regime": "islamic_republic_iran",
+          "polity": "islamic_republic_iran",
           "label": "Islamic Republic of Iran",
           "span": 8
         }

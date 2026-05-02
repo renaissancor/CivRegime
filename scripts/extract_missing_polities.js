@@ -108,11 +108,11 @@ function scanPanels() {
           const data = JSON.parse(fs.readFileSync(path.join(dir, f.name), 'utf8'));
           for (const row of data.rows || []) {
             function process(cell) {
-              if (!cell.regime) return;
-              if (!polityInfo.has(cell.regime)) {
-                polityInfo.set(cell.regime, { labels: new Set(), panels: new Set() });
+              if (!cell.polity) return;
+              if (!polityInfo.has(cell.polity)) {
+                polityInfo.set(cell.polity, { labels: new Set(), panels: new Set() });
               }
-              const info = polityInfo.get(cell.regime);
+              const info = polityInfo.get(cell.polity);
               if (cell.label) info.labels.add(cell.label);
               info.panels.add(panelId);
             }
@@ -158,7 +158,7 @@ function main() {
   const polityInfo = scanPanels();
 
   console.log(`Existing polities in CSV: ${csvIds.size}`);
-  console.log(`Unique regime IDs in panels: ${polityInfo.size}`);
+  console.log(`Unique polity IDs in panels: ${polityInfo.size}`);
 
   // Separate missing IDs into polity vs non-polity
   const missing = [];
@@ -201,7 +201,7 @@ function main() {
 
   // Write mode
   if (writeMode && missing.length > 0) {
-    // header: id,name,state_id,id_ruling_ethnicity,id_ruling_language,id_ruling_religion,government,territories,start,end,policies,note
+    // header: id,name,civilization_id,id_ruling_ethnicity,id_ruling_language,id_ruling_religion,government,territories,start,end,policies,note
     const stubs = missing.map(m => {
       return [m.id, esc(m.name), '', '', '', '', '', '', '', '', '', ''].join(',');
     });

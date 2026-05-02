@@ -4,11 +4,11 @@
 -- Singular table names. No FK enforcement (data has gaps).
 --
 -- Hierarchy:
---   State    → political continuity (e.g., Roman State, Chinese State)
+--   Civilization    → political continuity (e.g., Roman Civilization, Chinese Civilization)
 --   Polity   → political entity (e.g., Roman Empire, Tang Dynasty)
 --
 -- Future tables (create when data is ready):
---   Regime   → ruling period within a polity (e.g., Julio-Claudian)
+--   Dynasty  → ruling family, cross-cutting via polity_dynasty
 --   Culture  → prehistoric/archaeological entities
 --   History panel/column/cell → panel visualization layer
 --   Province/province_period → fine-grained GeoJSON
@@ -62,7 +62,7 @@ CREATE TABLE religion (
 
 -- ─── POLITICAL HIERARCHY ────────────────────────────────────
 
-CREATE TABLE state (
+CREATE TABLE civilization (
     id          TEXT PRIMARY KEY,
     name        TEXT NOT NULL,
     description TEXT
@@ -71,7 +71,7 @@ CREATE TABLE state (
 CREATE TABLE polity (
     id                TEXT PRIMARY KEY,
     name              TEXT NOT NULL,
-    state_id          TEXT,
+    civilization_id          TEXT,
     ruling_ethnicity  TEXT,
     cultural_language TEXT,
     religion          TEXT,
@@ -110,7 +110,7 @@ CREATE TABLE polity_succession (
     related_ethnicity     BOOLEAN,
     same_language         BOOLEAN,
     same_religion         BOOLEAN,
-    same_state            BOOLEAN,
+    same_civilization            BOOLEAN,
     UNIQUE (from_polity_id, to_polity_id)
 );
 
@@ -166,7 +166,7 @@ CREATE TABLE figure (
 
 -- ─── INDEXES ────────────────────────────────────────────────
 
-CREATE INDEX idx_polity_state ON polity(state_id);
+CREATE INDEX idx_polity_civilization ON polity(civilization_id);
 CREATE INDEX idx_polity_years ON polity(start_year, end_year);
 CREATE INDEX idx_polity_succession_from ON polity_succession(from_polity_id);
 CREATE INDEX idx_polity_succession_to ON polity_succession(to_polity_id);

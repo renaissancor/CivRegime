@@ -36,17 +36,17 @@
             {
               "label": "Tambapanni kingdom (legendary Vijaya — Sinhalese origin)",
               "note": "c.543 BCE (trad.)",
-              "regime": "tambapanni_kingdom"
+              "polity": "tambapanni_kingdom"
             },
             {
               "label": "Anuradhapura kingdom (Sinhalese — Theravada Buddhism)",
               "note": "c.377 BCE–1017 CE",
-              "regime": "anuradhapura_kingdom"
+              "polity": "anuradhapura_kingdom"
             },
             {
               "label": "Great Chronicle (Mahavamsa) traditions",
               "note": "",
-              "regime": "great_chronicle_traditions"
+              "polity": "great_chronicle_traditions"
             }
           ],
           "span": 2
@@ -56,12 +56,12 @@
             {
               "label": "Ruhuna kingdom (southeastern principality)",
               "note": "c.200 BCE–",
-              "regime": "ruhuna_kingdom"
+              "polity": "ruhuna_kingdom"
             },
             {
               "label": "Often semi-independent from Anuradhapura",
               "note": "",
-              "regime": "often_semi_independent_from_anuradhapura"
+              "polity": "often_semi_independent_from_anuradhapura"
             }
           ],
           "span": 1
@@ -79,7 +79,7 @@
             {
               "label": "Anuradhapura kingdom (continued — great irrigation works)",
               "note": "c.377 BCE–1017",
-              "regime": "anuradhapura_kingdom"
+              "polity": "anuradhapura_kingdom"
             },
             {
               "label": "South Indian invasions (Chola · Pandya · Pallava raids)",
@@ -108,14 +108,14 @@
         {
           "stack": [
             {
-              "regime": "chola_empire",
+              "polity": "chola_empire",
               "label": "Chola Empire (conquest of Anuradhapura)",
               "note": "1017–1070"
             },
             {
               "label": "Polonnaruwa kingdom (Vijayabahu I recovers from Chola)",
               "note": "1070–1232",
-              "regime": "polonnaruwa_kingdom"
+              "polity": "polonnaruwa_kingdom"
             },
             {
               "label": "Parakramabahu I (golden age — unifier)",
@@ -129,7 +129,7 @@
             {
               "label": "Ruhuna (base for Sinhalese reconquest)",
               "note": "",
-              "regime": "ruhuna"
+              "polity": "ruhuna"
             }
           ],
           "span": 1
@@ -147,17 +147,17 @@
             {
               "label": "Dambadeniya kingdom",
               "note": "1232–1293",
-              "regime": "dambadeniya_kingdom"
+              "polity": "dambadeniya_kingdom"
             },
             {
               "label": "Gampola kingdom",
               "note": "1341–1408",
-              "regime": "gampola_kingdom"
+              "polity": "gampola_kingdom"
             },
             {
               "label": "Kotte kingdom (western lowlands)",
               "note": "1412–1597",
-              "regime": "kotte_kingdom"
+              "polity": "kotte_kingdom"
             }
           ],
           "span": 1
@@ -167,12 +167,12 @@
             {
               "label": "Jaffna kingdom (Tamil — Aryacakravarti dynasty)",
               "note": "c.1215–1619",
-              "regime": "jaffna_kingdom"
+              "polity": "jaffna_kingdom"
             },
             {
               "label": "Vanni chieftaincies (Tamil-Sinhalese borderlands)",
               "note": "",
-              "regime": "vanni_chieftaincies"
+              "polity": "vanni_chieftaincies"
             }
           ],
           "span": 1
@@ -196,17 +196,17 @@
             {
               "label": "Kotte kingdom (splits — Sitawaka rivalry)",
               "note": "",
-              "regime": "kotte_kingdom"
+              "polity": "kotte_kingdom"
             },
             {
               "label": "Sitawaka kingdom (aggressive — nearly conquers all)",
               "note": "1521–1594",
-              "regime": "sitawaka_kingdom"
+              "polity": "sitawaka_kingdom"
             },
             {
               "label": "Kandy kingdom (central highlands)",
               "note": "1469–1815",
-              "regime": "kandy_kingdom"
+              "polity": "kandy_kingdom"
             }
           ],
           "span": 1
@@ -225,7 +225,7 @@
             {
               "label": "Raigama principality",
               "note": "",
-              "regime": "raigama_principality"
+              "polity": "raigama_principality"
             }
           ],
           "span": 1
@@ -243,12 +243,12 @@
             {
               "label": "Portuguese Ceylon (coastal lowlands)",
               "note": "1505–1658",
-              "regime": "portuguese_ceylon"
+              "polity": "portuguese_ceylon"
             },
             {
               "label": "Dutch Ceylon (VOC — replaces Portuguese)",
               "note": "1658–1796",
-              "regime": "dutch_ceylon"
+              "polity": "dutch_ceylon"
             }
           ],
           "span": 1
@@ -258,12 +258,12 @@
             {
               "label": "Portuguese conquer Jaffna",
               "note": "1619",
-              "regime": "portuguese_conquer_jaffna"
+              "polity": "portuguese_conquer_jaffna"
             },
             {
               "label": "Dutch replace Portuguese in north",
               "note": "1658",
-              "regime": "dutch_replace_portuguese_in_north"
+              "polity": "dutch_replace_portuguese_in_north"
             }
           ],
           "span": 1
@@ -287,22 +287,22 @@
             {
               "label": "British Ceylon (Crown Colony)",
               "note": "1796–1948",
-              "regime": "british_ceylon"
+              "polity": "british_ceylon"
             },
             {
               "label": "Kandy convention (British annex Kandy)",
               "note": "1815",
-              "regime": "kandy_convention"
+              "polity": "kandy_convention"
             },
             {
               "label": "Plantation economy (tea · rubber · coconut)",
               "note": "19th c.",
-              "regime": "plantation_economy"
+              "polity": "plantation_economy"
             },
             {
               "label": "Tamil laborers brought from India (estate Tamils)",
               "note": "19th c.",
-              "regime": "tamil_laborers_brought_from_india"
+              "polity": "tamil_laborers_brought_from_india"
             }
           ],
           "span": 3
@@ -320,12 +320,12 @@
             {
               "label": "Dominion of Ceylon (independent)",
               "note": "1948–1972",
-              "regime": "dominion_of_ceylon"
+              "polity": "dominion_of_ceylon"
             },
             {
               "label": "Republic of Sri Lanka",
               "note": "1972–",
-              "regime": "republic_of_sri_lanka"
+              "polity": "republic_of_sri_lanka"
             },
             {
               "label": "Sri Lankan Civil War (Sinhalese vs Tamil LTTE)",

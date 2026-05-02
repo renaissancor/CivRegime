@@ -1,109 +1,109 @@
 {
   "id": "yellow_river",
   "name": "yellow_river",
-  "regime_count": 21,
-  "regimes": [
+  "polity_count": 21,
+  "polities": [
     {
-      "regime_id": "shang_dynasty",
+      "polity_id": "shang_dynasty",
       "start": -1600,
       "end": -1046
     },
     {
-      "regime_id": "zhou_dynasty",
+      "polity_id": "zhou_dynasty",
       "start": -1046,
       "end": -256
     },
     {
-      "regime_id": "qin_dynasty",
+      "polity_id": "qin_dynasty",
       "start": -221,
       "end": -206
     },
     {
-      "regime_id": "han_dynasty",
+      "polity_id": "han_dynasty",
       "start": -206,
       "end": 220
     },
     {
-      "regime_id": "cao_wei",
+      "polity_id": "cao_wei",
       "start": 220,
       "end": 265
     },
     {
-      "regime_id": "western_jin",
+      "polity_id": "western_jin",
       "start": 265,
       "end": 316
     },
     {
-      "regime_id": "northern_dynasties",
+      "polity_id": "northern_dynasties",
       "start": 386,
       "end": 581
     },
     {
-      "regime_id": "sui_dynasty",
+      "polity_id": "sui_dynasty",
       "start": 581,
       "end": 618
     },
     {
-      "regime_id": "tang_dynasty",
+      "polity_id": "tang_dynasty",
       "start": 618,
       "end": 907
     },
     {
-      "regime_id": "five_dynasties",
+      "polity_id": "five_dynasties",
       "start": 907,
       "end": 960
     },
     {
-      "regime_id": "northern_song",
+      "polity_id": "northern_song",
       "start": 960,
       "end": 1127
     },
     {
-      "regime_id": "liao_dynasty",
+      "polity_id": "liao_dynasty",
       "start": 907,
       "end": 1125
     },
     {
-      "regime_id": "jin_jurchen",
+      "polity_id": "jin_jurchen",
       "start": 1115,
       "end": 1234
     },
     {
-      "regime_id": "mongol_empire",
+      "polity_id": "mongol_empire",
       "start": 1206,
       "end": 1368
     },
     {
-      "regime_id": "yuan_dynasty",
+      "polity_id": "yuan_dynasty",
       "start": 1271,
       "end": 1368
     },
     {
-      "regime_id": "ming_dynasty",
+      "polity_id": "ming_dynasty",
       "start": 1368,
       "end": 1644
     },
     {
-      "regime_id": "qing_dynasty",
+      "polity_id": "qing_dynasty",
       "start": 1644,
       "end": 1912
     },
     {
-      "regime_id": "republic_of_china",
+      "polity_id": "republic_of_china",
       "start": 1912,
       "end": 1949
     },
     {
-      "regime_id": "peoples_republic_of_china",
+      "polity_id": "peoples_republic_of_china",
       "start": 1949
     },
     {
-      "regime_id": "jin_jurchen",
+      "polity_id": "jin_jurchen",
       "start": 1127,
       "end": 1234
     },
     {
-      "regime_id": "shu_han",
+      "polity_id": "shu_han",
       "start": 221,
       "end": 263
     }

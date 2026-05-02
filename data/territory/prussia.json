@@ -1,30 +1,30 @@
 {
   "id": "prussia",
   "name": "prussia",
-  "regime_count": 5,
-  "regimes": [
+  "polity_count": 5,
+  "polities": [
     {
-      "regime_id": "teutonic_order",
+      "polity_id": "teutonic_order",
       "start": 1230,
       "end": 1525
     },
     {
-      "regime_id": "kingdom_of_prussia",
+      "polity_id": "kingdom_of_prussia",
       "start": 1525,
       "end": 1918
     },
     {
-      "regime_id": "german_empire",
+      "polity_id": "german_empire",
       "start": 1871,
       "end": 1918
     },
     {
-      "regime_id": "weimar_republic",
+      "polity_id": "weimar_republic",
       "start": 1918,
       "end": 1933
     },
     {
-      "regime_id": "nazi_germany",
+      "polity_id": "nazi_germany",
       "start": 1933,
       "end": 1945
     }

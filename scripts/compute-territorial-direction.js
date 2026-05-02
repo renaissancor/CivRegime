@@ -2,7 +2,7 @@
 
 /**
  * Computes territorial_direction for each succession based on
- * from/to regime territory data. Rewrites successions.csv in place
+ * from/to polity territory data. Rewrites successions.csv in place
  * with the type column replaced by territorial_direction.
  *
  * Values:
@@ -16,30 +16,30 @@
 const fs = require('fs');
 const path = require('path');
 
-const REG_DIR = path.join(__dirname, '../data/regimes');
+const POL_DIR = path.join(__dirname, '../data/polity');
 const CSV_IN  = path.join(__dirname, '../csvs/successions.csv');
 const CSV_OUT = CSV_IN; // overwrite in place
 
-// ── Load regimes ────────────────────────────────────────────────────────────
+// ── Load polities ────────────────────────────────────────────────────────────
 
-const regimes = {};
-for (const f of fs.readdirSync(REG_DIR)) {
+const polities = {};
+for (const f of fs.readdirSync(POL_DIR)) {
   if (!f.endsWith('.json')) continue;
-  const r = JSON.parse(fs.readFileSync(path.join(REG_DIR, f), 'utf8'));
-  regimes[r.id] = r;
+  const r = JSON.parse(fs.readFileSync(path.join(POL_DIR, f), 'utf8'));
+  polities[r.id] = r;
 }
 
 // ── Compute direction ───────────────────────────────────────────────────────
 
 function computeDirection(fromId, toId) {
-  const fromR = regimes[fromId];
-  const toR   = regimes[toId];
+  const fromR = polities[fromId];
+  const toR   = polities[toId];
   const fromT = new Set(fromR?.territories || []);
   const toT   = new Set(toR?.territories || []);
 
   if (fromT.size === 0 || toT.size === 0) return 'unknown';
 
-  // Compute actual intersection from regime territory data
+  // Compute actual intersection from polity territory data
   const intersection = [...fromT].filter(t => toT.has(t));
   const overlapCount = intersection.length;
 

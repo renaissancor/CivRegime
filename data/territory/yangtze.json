@@ -1,95 +1,95 @@
 {
   "id": "yangtze",
   "name": "yangtze",
-  "regime_count": 18,
-  "regimes": [
+  "polity_count": 18,
+  "polities": [
     {
-      "regime_id": "zhou_dynasty",
+      "polity_id": "zhou_dynasty",
       "start": -1046,
       "end": -256
     },
     {
-      "regime_id": "qin_dynasty",
+      "polity_id": "qin_dynasty",
       "start": -221,
       "end": -206
     },
     {
-      "regime_id": "han_dynasty",
+      "polity_id": "han_dynasty",
       "start": -206,
       "end": 220
     },
     {
-      "regime_id": "eastern_wu",
+      "polity_id": "eastern_wu",
       "start": 222,
       "end": 280
     },
     {
-      "regime_id": "western_jin",
+      "polity_id": "western_jin",
       "start": 280,
       "end": 316
     },
     {
-      "regime_id": "eastern_jin",
+      "polity_id": "eastern_jin",
       "start": 317,
       "end": 420
     },
     {
-      "regime_id": "southern_dynasties",
+      "polity_id": "southern_dynasties",
       "start": 420,
       "end": 589
     },
     {
-      "regime_id": "sui_dynasty",
+      "polity_id": "sui_dynasty",
       "start": 581,
       "end": 618
     },
     {
-      "regime_id": "tang_dynasty",
+      "polity_id": "tang_dynasty",
       "start": 618,
       "end": 907
     },
     {
-      "regime_id": "ten_kingdoms",
+      "polity_id": "ten_kingdoms",
       "start": 907,
       "end": 979
     },
     {
-      "regime_id": "northern_song",
+      "polity_id": "northern_song",
       "start": 960,
       "end": 1127
     },
     {
-      "regime_id": "southern_song",
+      "polity_id": "southern_song",
       "start": 1127,
       "end": 1279
     },
     {
-      "regime_id": "mongol_empire",
+      "polity_id": "mongol_empire",
       "start": 1206,
       "end": 1368
     },
     {
-      "regime_id": "yuan_dynasty",
+      "polity_id": "yuan_dynasty",
       "start": 1271,
       "end": 1368
     },
     {
-      "regime_id": "ming_dynasty",
+      "polity_id": "ming_dynasty",
       "start": 1368,
       "end": 1644
     },
     {
-      "regime_id": "qing_dynasty",
+      "polity_id": "qing_dynasty",
       "start": 1644,
       "end": 1912
     },
     {
-      "regime_id": "republic_of_china",
+      "polity_id": "republic_of_china",
       "start": 1912,
       "end": 1949
     },
     {
-      "regime_id": "peoples_republic_of_china",
+      "polity_id": "peoples_republic_of_china",
       "start": 1949
     }
   ]

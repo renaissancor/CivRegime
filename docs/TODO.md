@@ -1,7 +1,7 @@
 # CivRegime TODO — RDBMS Migration Roadmap
 
 ## Phase 1: Schema & Foundation ✅ (done)
-- [x] Design three-tier ERD (State → Polity → Regime)
+- [x] Design two-tier ERD (Civilization → Polity), with Dynasty as cross-cutting tag
 - [x] Create DuckDB schema (`civregime.db`) — 24 tables
 - [x] Auto-link 637 panel labels to existing polity IDs
 - [x] Document ERD (`docs/model/erd.sql`, `docs/model/erd.md`)
@@ -13,7 +13,7 @@
 - [x] **P2.4** Load 268 polity records into `polities` table (from `polity.csv`)
 - [x] **P2.5** Migrate successions (1,243 → `polity_succession`) + 1,099 shared territory links
 - [x] **P2.6** Migrate figures (285 records → `figures` table)
-- [x] **P2.7** Migrate states (2 records loaded)
+- [x] **P2.7** Migrate civilizations (2 records loaded)
 - [x] **P2.8** Compute taxonomy tree depths (recursive CTE, max depth 3)
 - [x] **P2.9** Build `polity_territory` (939 records from `polity_territory.csv` + `polity.csv` gap-fill)
 - [x] **P2.10** Build `polity_policy` (26 records)
@@ -28,26 +28,26 @@
 Extracted 4,572 labels from 61 history panels. Analysis complete. Now need manual curation before bulk-writing.
 
 ### Phase 3 Analysis (done)
-- [x] **P3.1** Extract all labels from 61 panel JSONs → `csvs/panel_labels.csv` (`scripts/extract_regimes.js`)
-- [x] **P3.2** Categorize labels: 1,451 linked, 1,064 polity, 475 regime, 355 people, 369 event, 126 culture, 732 unclassified
+- [x] **P3.1** Extract all labels from 61 panel JSONs → `csvs/panel_labels.csv` (`scripts/extract_labels.js`)
+- [x] **P3.2** Categorize labels: 1,451 linked, 1,064 polity, 475 dynasty, 355 people, 369 event, 126 culture, 732 unclassified
 - [x] **P3.3** Normalize & deduplicate labels → `csvs/canonical_entities.csv` (`scripts/normalize_labels.js`)
 - [x] **P3.4** Identify temporal/spatial overlaps → `csvs/overlap_candidates.csv`, `csvs/timeline_sorted.csv` (`scripts/find_overlaps.js`)
 - [x] **P3.5** Document naming architecture → `docs/model/naming.md`
 
 ### Phase 3 Curation (todo — manual + scripted)
 - [ ] **P3.6** Pick one panel (gold standard), manually curate all labels:
-  - Assign correct `regime` IDs to every cell
+  - Assign correct `polity` IDs to every cell
   - Fix duplicates (e.g., `sassanid` → `sassanid_empire`)
-  - Verify category assignments (polity / regime / culture / people / event)
+  - Verify category assignments (polity / dynasty / culture / people / event)
   - Validate against `csvs/overlap_candidates.csv` for that panel
 - [ ] **P3.7** Build merge map from gold-standard experience:
   - Bare names → existing polity IDs (`sassanid` → `sassanid_empire`, `qing` → `qing_dynasty`)
   - Cross-panel synonyms (`il_khanate` = `ilkhanate`)
   - Type-suffix normalization (`safavid_dynasty` = `safavid_empire` = `safavid`)
 - [ ] **P3.8** Apply merge map to `dedup_and_link.js`, re-run for all 61 panels
-- [ ] **P3.9** Write `regime` fields into history JSONs for confident matches
+- [ ] **P3.9** Write `polity` fields into history JSONs for confident matches
 - [ ] **P3.10** Create new polity stubs in DuckDB for genuinely new entities (~400–800 expected)
-- [ ] **P3.11** Create regime records (dynasty-level) in DuckDB (~400+ expected)
+- [ ] **P3.11** Populate `dynasties` table from dynasty-category labels (~400+ expected)
 - [ ] **P3.12** Populate `cultures` table from culture-category labels (~100 records)
 - [ ] **P3.13** Review remaining unclassified labels — reclassify or mark as label-only
 
@@ -59,35 +59,34 @@ Key patterns to resolve:
 - `roman_republic` vs `roman_empire` vs `roman_kingdom` (genuinely different — keep separate)
 
 ## Phase 4: Derive Successions
-- [ ] **P4.1** Derive regime_successions from panel stack order (~2,300 edges):
+- [ ] **P4.1** Derive polity_successions from panel stack order (~2,300 edges):
   - Adjacent items in same stack = succession
   - Infer type: same polity → `inheritance`; different polity → `conquest`/`revolution`
   - Temporal gap > 0 → possible interregnum
 - [ ] **P4.2** Cross-validate panel-derived successions against existing polity_succession
-- [ ] **P4.3** Build state groupings: cluster polities into ~20–30 state records by succession chains
-  - Use connected component analysis on polity_succession with `same_state = true`
+- [ ] **P4.3** Build civilization groupings: cluster polities into ~20–30 civilization records by succession chains
+  - Use connected component analysis on polity_succession with `same_civilization = true`
 
 ## Phase 5: Populate History Panel Tables
 - [ ] **P5.1** Create `history_panels` (61 records) and `history_columns` (~180 records)
-- [ ] **P5.2** Create `history_cells` (~4,600 records) with FK links to regime/polity/culture
+- [ ] **P5.2** Create `history_cells` (~4,600 records) with FK links to polity/polity/culture
 - [ ] **P5.3** Refactor frontend to render panels from DB queries instead of static JSON
-- [ ] **P5.4** Add API endpoints: `GET /api/panel/:id`, `GET /api/polity/:id`, `GET /api/regime/:id`
+- [ ] **P5.4** Add API endpoints: `GET /api/panel/:id`, `GET /api/polity/:id`, `GET /api/dynasty/:id`
 
 ## Phase 6: Enrich Polity Data
 - [ ] **P6.1** Fill in polity stubs (ruling_ethnicity, cultural_language, religion, government, territories)
   - Priority: major civilizations first (Roman, Chinese, Ottoman, Mongol, etc.)
   - Use history panel context to infer attributes
-- [ ] **P6.2** Expand figures table — key rulers for each regime
+- [ ] **P6.2** Expand figures table — key rulers for each polity
 - [ ] **P6.3** Add `polity_territory` temporal data (which territory, when)
 - [ ] **P6.4** Add `province_periods` for finer-grained geographic control
 
 ## Phase 7: Frontend RDBMS Integration
 - [ ] **P7.1** Add DuckDB backend to `server.js`
 - [ ] **P7.2** Serve history panels from DB (deprecate JSON files)
-- [ ] **P7.3** Build polity detail page (succession graph + regime timeline + territories)
-- [ ] **P7.4** Build regime detail page (figures, predecessor/successor)
-- [ ] **P7.5** Cross-linking: click a regime in a panel → polity detail page
-- [ ] **P7.6** Search: find polities/regimes by name, time range, territory, ethnicity
+- [ ] **P7.3** Build polity detail page (succession graph + polity timeline + territories)
+- [ ] **P7.4** Cross-linking: click a polity in a panel → polity detail page
+- [ ] **P7.5** Search: find polities by name, time range, territory, ethnicity
 
 ## Phase 8: Advanced Features
 - [ ] **P8.1** Interactive map: show polity territories at any given year
@@ -95,7 +94,7 @@ Key patterns to resolve:
 - [ ] **P8.3** Succession graph visualization (full graph, not just per-panel)
 - [ ] **P8.4** "What existed in year X?" global query across all regions
 - [ ] **P8.5** Export: generate static panels from DB for offline use
-- [ ] **P8.6** Data validation: ensure all panel cells link to a polity/regime/culture
+- [ ] **P8.6** Data validation: ensure all panel cells link to a polity/polity/culture
 
 ## Phase 9: Geographic Expansion (History Panels)
 - [ ] **P9.1** Americas: Mesoamerica (Maya/Aztec), Andes (Inca), North America, Brazil
@@ -108,9 +107,8 @@ Key patterns to resolve:
 |--------|-----------------|---------------|---------------|
 | States | 2 | ~20 | ~30 |
 | Polities | 268 | ~700–1,100 | ~1,500 (enriched) |
-| Regimes | 0 | ~400+ | ~2,500 |
-| Polity successions | 1,243 | 1,243 | ~2,000 |
-| Regime successions | 0 | ~2,300 | ~2,500 |
+| Polities | 0 | ~400+ | ~2,500 |
+| Polity successions | 1,995 | ~3,000 | ~4,500 |
 | Cultures | 0 | ~100 | ~150 |
 | Figures | 285 | ~285 | ~1,000 |
 | History panels | 61 (JSON) | 61 (DB) | 70+ |
@@ -121,9 +119,9 @@ Key patterns to resolve:
 | Script | Purpose |
 |--------|---------|
 | `scripts/load_csvs.sql` | Load all CSVs into DuckDB (idempotent) |
-| `scripts/extract_regimes.js` | Extract & categorize labels from panel JSONs |
+| `scripts/extract_labels.js` | Extract & categorize labels from panel JSONs |
 | `scripts/normalize_labels.js` | Normalize labels, resolve to entity IDs, deduplicate |
-| `scripts/dedup_and_link.js` | Deduplicate + write `regime` fields back into JSONs |
+| `scripts/dedup_and_link.js` | Deduplicate + write `polity` fields back into JSONs |
 | `scripts/find_overlaps.js` | Find temporal/spatial overlaps for dedup review |
 | `scripts/json_to_csv.js` | Convert JSON data files to CSVs |
 | `scripts/validate.js` | Validate data integrity |
@@ -133,7 +131,7 @@ Key patterns to resolve:
 | Route | Purpose |
 |-------|---------|
 | `GET /api/polity/:id` | Polity detail |
-| `GET /api/regime/:id` | Regime (dynasty) detail |
+| `GET /api/dynasty/:id` | Dynasty detail |
 | `GET /api/succession-chain/:from/:to` | Succession chain query |
 | `GET /api/territory/:id` | Territory detail |
 | `GET /api/taxonomy/ethnicity` | Ethnicity taxonomy |

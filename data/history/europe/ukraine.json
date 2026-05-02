@@ -46,11 +46,11 @@
             {
               "label": "Trypillia culture",
               "note": "c.5500–2750 BCE",
-              "regime": "trypillia_culture"
+              "polity": "trypillia_culture"
             },
             {
               "label": "Dacian / Thracian tribes",
-              "regime": "dacian_kingdom"
+              "polity": "dacian_kingdom"
             }
           ],
           "span": 1
@@ -59,11 +59,11 @@
           "stack": [
             {
               "label": "Trypillia culture",
-              "regime": "trypillia_culture"
+              "polity": "trypillia_culture"
             },
             {
               "label": "Scythian steppe fringe",
-              "regime": "scythian_steppe_fringe"
+              "polity": "scythian_steppe_fringe"
             }
           ],
           "span": 2
@@ -72,7 +72,7 @@
           "stack": [
             {
               "label": "Scythian Kingdom (steppe)",
-              "regime": "scythian_kingdom"
+              "polity": "scythian_kingdom"
             },
             {
               "label": "Greek colonies (Olbia · Tyras)"
@@ -84,12 +84,12 @@
           "stack": [
             {
               "label": "Taurians (indigenous)",
-              "regime": "taurians"
+              "polity": "taurians"
             },
             {
               "label": "Greek colony — Chersonesus",
               "note": "c.421 BCE",
-              "regime": "greek_colony"
+              "polity": "greek_colony"
             }
           ],
           "span": 1
@@ -103,7 +103,7 @@
           "stack": [
             {
               "label": "Bastarnae / Celtic tribes · Dacians",
-              "regime": "bastarnae"
+              "polity": "bastarnae"
             }
           ],
           "span": 1
@@ -112,7 +112,7 @@
           "stack": [
             {
               "label": "Scythian Kingdom",
-              "regime": "scythian_kingdom"
+              "polity": "scythian_kingdom"
             }
           ],
           "span": 2
@@ -121,11 +121,11 @@
           "stack": [
             {
               "label": "Scythian Kingdom · Sarmatians (Roxolani)",
-              "regime": "scythian_kingdom"
+              "polity": "scythian_kingdom"
             },
             {
               "label": "Greek colonies on Black Sea coast",
-              "regime": "greek_colonies_on_black_sea_coast"
+              "polity": "greek_colonies_on_black_sea_coast"
             }
           ],
           "span": 1
@@ -135,11 +135,11 @@
             {
               "label": "Bosporan Kingdom (Crimea)",
               "note": "438 BCE–370 CE",
-              "regime": "bosporan_kingdom"
+              "polity": "bosporan_kingdom"
             },
             {
               "label": "Scythian kingdom in Crimea",
-              "regime": "scythian_kingdom_in_crimea"
+              "polity": "scythian_kingdom_in_crimea"
             }
           ],
           "span": 1
@@ -153,11 +153,11 @@
           "stack": [
             {
               "label": "Gothic Kingdom (Chernjakhov culture)",
-              "regime": "gothic_kingdom_culture"
+              "polity": "gothic_kingdom_culture"
             },
             {
               "label": "Hunnic Empire → Slavic migration",
-              "regime": "hunnic_empire"
+              "polity": "hunnic_empire"
             }
           ],
           "span": 3
@@ -166,11 +166,11 @@
           "stack": [
             {
               "label": "Sarmatians (Alans) → Hunnic Empire",
-              "regime": "hunnic_empire"
+              "polity": "hunnic_empire"
             },
             {
               "label": "Slavic migration (Antes · Sklavenoi)",
-              "regime": "slavic_migration"
+              "polity": "slavic_migration"
             }
           ],
           "span": 1
@@ -179,12 +179,12 @@
           "stack": [
             {
               "label": "Crimean Goths · Byzantine (Chersonesus)",
-              "regime": "crimean_goths"
+              "polity": "crimean_goths"
             },
             {
               "label": "Khazar Khaganate (partly)",
               "note": "7th–10th c.",
-              "regime": "khazar_khaganate"
+              "polity": "khazar_khaganate"
             }
           ],
           "span": 1
@@ -201,7 +201,7 @@
           "stack": [
             {
               "label": "White Croats · Dulebes · Volhynians (E. Slavic tribes)",
-              "regime": "white_croats"
+              "polity": "white_croats"
             }
           ],
           "span": 1
@@ -210,7 +210,7 @@
           "stack": [
             {
               "label": "Polyanians · Drevlyanians · Ulichians",
-              "regime": "polyanians_drevlyanians_ulichians"
+              "polity": "polyanians_drevlyanians_ulichians"
             }
           ],
           "span": 1
@@ -219,7 +219,7 @@
           "stack": [
             {
               "label": "Severians · Vyatichi",
-              "regime": "severians_vyatichi"
+              "polity": "severians_vyatichi"
             }
           ],
           "span": 1
@@ -228,11 +228,11 @@
           "stack": [
             {
               "label": "Tivertsi · Ulichians · Antes (Slavic)",
-              "regime": "tivertsi_ulichians_antes"
+              "polity": "tivertsi_ulichians_antes"
             },
             {
               "label": "Pechenegs (from c.900)",
-              "regime": "pechenegs"
+              "polity": "pechenegs"
             }
           ],
           "span": 1
@@ -241,7 +241,7 @@
           "stack": [
             {
               "label": "Khazar Khaganate · Byzantine Chersonesus",
-              "regime": "khazar_khaganate"
+              "polity": "khazar_khaganate"
             }
           ],
           "span": 1
@@ -256,7 +256,7 @@
             {
               "label": "Rus' Khaganate (Varangian polity)",
               "note": "c.830–882",
-              "regime": "rus_khaganate"
+              "polity": "rus_khaganate"
             }
           ],
           "span": 3
@@ -273,7 +273,7 @@
           "stack": [
             {
               "label": "Khazar Khaganate · Byzantine Chersonesus",
-              "regime": "khazar_khaganate"
+              "polity": "khazar_khaganate"
             }
           ],
           "span": 1
@@ -287,7 +287,7 @@
           "stack": [
             {
               "label": "Kievan Rus — Volhynia principality",
-              "regime": "kievan_rus_regime"
+              "polity": "kievan_rus"
             }
           ],
           "span": 1
@@ -297,7 +297,7 @@
             {
               "label": "Kievan Rus — Kyiv (capital)",
               "note": "Christianisation 988 CE",
-              "regime": "kievan_rus_regime"
+              "polity": "kievan_rus"
             }
           ],
           "span": 1
@@ -306,7 +306,7 @@
           "stack": [
             {
               "label": "Kievan Rus — Pereyaslavl · Chernihiv",
-              "regime": "kievan_rus_regime"
+              "polity": "kievan_rus"
             }
           ],
           "span": 1
@@ -315,7 +315,7 @@
           "stack": [
             {
               "label": "Kievan Rus steppe border · Pecheneg/Cuman raids",
-              "regime": "kievan_rus_regime"
+              "polity": "kievan_rus"
             }
           ],
           "span": 1
@@ -324,7 +324,7 @@
           "stack": [
             {
               "label": "Byzantine Chersonesus · Tmutarakan (Rus)",
-              "regime": "byzantine_chersonesus"
+              "polity": "byzantine_chersonesus"
             }
           ],
           "span": 1
@@ -342,7 +342,7 @@
             {
               "label": "Principality of Galicia-Volhynia",
               "note": "peak under Daniel of Galicia, r.1238–1264",
-              "regime": "galicia_volhynia"
+              "polity": "galicia_volhynia"
             }
           ],
           "span": 1
@@ -352,11 +352,11 @@
             {
               "label": "Kievan Rus — fragmented into principalities",
               "note": "Kyiv sacked by Mongols 1240",
-              "regime": "kievan_rus_regime"
+              "polity": "kievan_rus"
             },
             {
               "label": "Mongol Golden Horde suzerainty",
-              "regime": "golden_horde"
+              "polity": "golden_horde"
             }
           ],
           "span": 2
@@ -365,11 +365,11 @@
           "stack": [
             {
               "label": "Cumans (Pontic steppe)",
-              "regime": "cumans"
+              "polity": "cumans"
             },
             {
               "label": "Mongol Golden Horde",
-              "regime": "golden_horde"
+              "polity": "golden_horde"
             }
           ],
           "span": 1
@@ -378,7 +378,7 @@
           "stack": [
             {
               "label": "Mongol Golden Horde — Crimean ulus",
-              "regime": "golden_horde"
+              "polity": "golden_horde"
             }
           ],
           "span": 1
@@ -393,11 +393,11 @@
             {
               "label": "Kingdom of Poland — Galicia",
               "note": "1349",
-              "regime": "kingdom_of_poland"
+              "polity": "kingdom_of_poland"
             },
             {
               "label": "Grand Duchy of Lithuania — Volhynia",
-              "regime": "grand_duchy_of_lithuania"
+              "polity": "grand_duchy_of_lithuania"
             }
           ],
           "span": 1
@@ -406,7 +406,7 @@
           "stack": [
             {
               "label": "Grand Duchy of Lithuania (Kyiv principality)",
-              "regime": "grand_duchy_of_lithuania"
+              "polity": "grand_duchy_of_lithuania"
             }
           ],
           "span": 2
@@ -418,7 +418,7 @@
             },
             {
               "label": "Golden Horde disintegrating",
-              "regime": "golden_horde"
+              "polity": "golden_horde"
             }
           ],
           "span": 1
@@ -428,12 +428,12 @@
             {
               "label": "Crimean Khanate",
               "note": "founded 1441",
-              "regime": "crimean_khanate"
+              "polity": "crimean_khanate"
             },
             {
               "label": "Ottoman vassal",
               "note": "from 1475",
-              "regime": "ottoman_empire"
+              "polity": "ottoman_empire"
             }
           ],
           "span": 1
@@ -447,11 +447,11 @@
           "stack": [
             {
               "label": "Polish-Lithuanian Commonwealth",
-              "regime": "polish_lithuanian_commonwealth"
+              "polity": "polish_lithuanian_commonwealth"
             },
             {
               "label": "Cossack Hetmanate (right bank — brief)",
-              "regime": "cossack_hetmanate"
+              "polity": "cossack_hetmanate"
             }
           ],
           "span": 1
@@ -461,7 +461,7 @@
             {
               "label": "Cossack Hetmanate — Bohdan Khmelnytsky uprising",
               "note": "1648",
-              "regime": "cossack_hetmanate"
+              "polity": "cossack_hetmanate"
             },
             {
               "label": "Pereiaslav Agreement → Left Bank to Muscovy",
@@ -475,11 +475,11 @@
             {
               "label": "Cossack Hetmanate (Left Bank)",
               "note": "Treaty of Andrusovo 1667",
-              "regime": "cossack_hetmanate"
+              "polity": "cossack_hetmanate"
             },
             {
               "label": "Sloboda Ukraine (Cossack settlements)",
-              "regime": "sloboda_ukraine"
+              "polity": "sloboda_ukraine"
             }
           ],
           "span": 1
@@ -488,7 +488,7 @@
           "stack": [
             {
               "label": "Zaporozhian Host (Sich)",
-              "regime": "zaporozhian_host"
+              "polity": "zaporozhian_host"
             },
             {
               "label": "Ottoman-Cossack buffer / raiding zone"
@@ -500,7 +500,7 @@
           "stack": [
             {
               "label": "Crimean Khanate (Ottoman vassal)",
-              "regime": "crimean_khanate"
+              "polity": "crimean_khanate"
             }
           ],
           "span": 1
@@ -517,12 +517,12 @@
           "stack": [
             {
               "label": "Polish-Lithuanian Commonwealth",
-              "regime": "polish_lithuanian_commonwealth"
+              "polity": "polish_lithuanian_commonwealth"
             },
             {
               "label": "Austrian Empire — Galicia",
               "note": "1st Partition 1772",
-              "regime": "austrian_empire"
+              "polity": "austrian_empire"
             }
           ],
           "span": 1
@@ -532,7 +532,7 @@
             {
               "label": "Russian Empire absorbs Right Bank",
               "note": "Partitions 1793–1795",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 2
@@ -542,7 +542,7 @@
             {
               "label": "Russian Empire — New Russia (Novorossiya)",
               "note": "1764; Zaporozhian Sich abolished 1775",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 1
@@ -552,7 +552,7 @@
             {
               "label": "Russian Empire — Crimea annexed",
               "note": "1783",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 1
@@ -570,7 +570,7 @@
             {
               "label": "Austrian Empire → Austria-Hungary",
               "note": "Kingdom of Galicia and Lodomeria",
-              "regime": "austrian_empire"
+              "polity": "austrian_empire"
             },
             {
               "label": "Ukrainian national awakening (Ruthenian movement)"
@@ -582,7 +582,7 @@
           "stack": [
             {
               "label": "Russian Empire — Kyiv guberniya",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 2
@@ -591,7 +591,7 @@
           "stack": [
             {
               "label": "Russian Empire — Novorossiya · Odessa (founded 1794)",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 1
@@ -601,7 +601,7 @@
             {
               "label": "Russian Empire — Taurida guberniya",
               "note": "Crimean War 1853–1856",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 1
@@ -619,19 +619,19 @@
             {
               "label": "West Ukrainian People's Republic (ZUNR)",
               "note": "1918–1919",
-              "regime": "west_ukrainian_peoples_republic"
+              "polity": "west_ukrainian_peoples_republic"
             },
             {
               "label": "Poland — Eastern Galicia (Treaty of Riga 1921)"
             },
             {
               "label": "Romania — Bukovina · Czechoslovakia — Ruthenia",
-              "regime": "czechoslovakia"
+              "polity": "czechoslovakia"
             },
             {
               "label": "Carpatho-Ukraine (brief)",
               "note": "March 1939",
-              "regime": "carpatho_ukraine"
+              "polity": "carpatho_ukraine"
             }
           ],
           "span": 1
@@ -641,17 +641,17 @@
             {
               "label": "Ukrainian People's Republic (UNR)",
               "note": "1917–1918 · 1918–1921",
-              "regime": "ukrainian_peoples_republic"
+              "polity": "ukrainian_peoples_republic"
             },
             {
               "label": "Ukrainian State (Hetmanate — Skoropadsky)",
               "note": "Apr–Dec 1918",
-              "regime": "ukrainian_state"
+              "polity": "ukrainian_state"
             },
             {
               "label": "Ukrainian Soviet Socialist Republic (UkrSSR)",
               "note": "1919–",
-              "regime": "ukrainian_soviet_socialist_republic"
+              "polity": "ukrainian_soviet_socialist_republic"
             }
           ],
           "span": 1
@@ -661,21 +661,21 @@
             {
               "label": "South Russian Government (Denikin)",
               "note": "1919–1920",
-              "regime": "south_russian_government"
+              "polity": "south_russian_government"
             },
             {
               "label": "Donetsk-Kryvyi Rih Soviet Republic (brief)",
               "note": "1918",
-              "regime": "donetsk_kryvyi_rih_soviet_republic"
+              "polity": "donetsk_kryvyi_rih_soviet_republic"
             },
             {
               "label": "Kholodnyi Yar partisan republic",
               "note": "1918–1922",
-              "regime": "kholodnyi_yar_partisan_republic"
+              "polity": "kholodnyi_yar_partisan_republic"
             },
             {
               "label": "UkrSSR",
-              "regime": "ukrssr"
+              "polity": "ukrssr"
             }
           ],
           "span": 1
@@ -685,16 +685,16 @@
             {
               "label": "Makhnovshchina (Free Territory — Makhno)",
               "note": "1918–1921",
-              "regime": "makhnovshchina"
+              "polity": "makhnovshchina"
             },
             {
               "label": "Odessa SR · Tavrida SR (brief)",
               "note": "1918",
-              "regime": "odessa_sr"
+              "polity": "odessa_sr"
             },
             {
               "label": "UkrSSR",
-              "regime": "ukrssr"
+              "polity": "ukrssr"
             }
           ],
           "span": 1
@@ -717,7 +717,7 @@
           "stack": [
             {
               "label": "Second Polish Republic (Galicia)",
-              "regime": "second_polish_republic"
+              "polity": "second_polish_republic"
             }
           ],
           "span": 1
@@ -744,7 +744,7 @@
           "stack": [
             {
               "label": "Crimean ASSR",
-              "regime": "crimean_assr"
+              "polity": "crimean_assr"
             }
           ],
           "span": 1
@@ -767,7 +767,7 @@
           "stack": [
             {
               "label": "Ukrainian SSR",
-              "regime": "ukrainian_ssr"
+              "polity": "ukrainian_ssr"
             }
           ],
           "span": 3
@@ -776,7 +776,7 @@
           "stack": [
             {
               "label": "Crimean ASSR",
-              "regime": "crimean_assr"
+              "polity": "crimean_assr"
             }
           ],
           "span": 1
@@ -794,7 +794,7 @@
             {
               "label": "Nazi Germany — General Government / Distrikt Galizien",
               "note": "1941–1944; UPA resistance",
-              "regime": "nazi_germany"
+              "polity": "nazi_germany"
             }
           ],
           "span": 1
@@ -804,7 +804,7 @@
             {
               "label": "Nazi Germany — Reichskommissariat Ukraine",
               "note": "1941–1944; UPA resistance",
-              "regime": "nazi_germany"
+              "polity": "nazi_germany"
             }
           ],
           "span": 2
@@ -814,11 +814,11 @@
             {
               "label": "Romanian-administered Transnistria (partly)",
               "note": "1941–1944",
-              "regime": "romanian_administered_transnistria"
+              "polity": "romanian_administered_transnistria"
             },
             {
               "label": "Reichskommissariat Ukraine",
-              "regime": "reichskommissariat_ukraine"
+              "polity": "reichskommissariat_ukraine"
             }
           ],
           "span": 1
@@ -828,7 +828,7 @@
             {
               "label": "Nazi Germany occupation",
               "note": "1941–1944; Crimean Tatars deported 1944",
-              "regime": "nazi_germany"
+              "polity": "nazi_germany"
             }
           ],
           "span": 1
@@ -850,7 +850,7 @@
             {
               "label": "Transcarpathia from Czechoslovakia",
               "note": "1945",
-              "regime": "czechoslovakia"
+              "polity": "czechoslovakia"
             }
           ],
           "span": 1
@@ -859,7 +859,7 @@
           "stack": [
             {
               "label": "Ukrainian SSR",
-              "regime": "ukrainian_ssr"
+              "polity": "ukrainian_ssr"
             }
           ],
           "span": 2
@@ -868,7 +868,7 @@
           "stack": [
             {
               "label": "Ukrainian SSR — Odessa · Donbas industrial region",
-              "regime": "ukrainian_ssr"
+              "polity": "ukrainian_ssr"
             }
           ],
           "span": 1
@@ -878,7 +878,7 @@
             {
               "label": "Crimean Oblast transferred from Russian SFSR to UkrSSR",
               "note": "1954",
-              "regime": "crimean_oblast_transferred_from_russian_sfsr_to_ukrssr"
+              "polity": "crimean_oblast_transferred_from_russian_sfsr_to_ukrssr"
             }
           ],
           "span": 1
@@ -896,7 +896,7 @@
             {
               "label": "Ukraine (independent 1991)",
               "note": "Orange Revolution 2004; Euromaidan 2013–2014",
-              "regime": "ukraine"
+              "polity": "ukraine"
             }
           ],
           "span": 2
@@ -906,7 +906,7 @@
             {
               "label": "Ukraine — Donbas conflict",
               "note": "2014–",
-              "regime": "ukraine"
+              "polity": "ukraine"
             },
             {
               "label": "Russian occupation (DPR/LPR)",
@@ -919,7 +919,7 @@
           "stack": [
             {
               "label": "Ukraine",
-              "regime": "ukraine"
+              "polity": "ukraine"
             }
           ],
           "span": 1
@@ -929,7 +929,7 @@
             {
               "label": "Russia annexes Crimea",
               "note": "2014 — internationally unrecognised",
-              "regime": "russia_annexes_crimea"
+              "polity": "russia_annexes_crimea"
             }
           ],
           "span": 1
@@ -951,7 +951,7 @@
             },
             {
               "label": "Ukraine (partial control)",
-              "regime": "ukraine"
+              "polity": "ukraine"
             }
           ],
           "span": 1
@@ -960,11 +960,11 @@
           "split": [
             {
               "label": "Russia — Odessa oblast threatened",
-              "regime": "russia"
+              "polity": "russia"
             },
             {
               "label": "Ukraine (partial control)",
-              "regime": "ukraine"
+              "polity": "ukraine"
             }
           ],
           "span": 1
@@ -973,7 +973,7 @@
           "stack": [
             {
               "label": "Russia (occupied · unrecognised)",
-              "regime": "russia"
+              "polity": "russia"
             }
           ],
           "span": 1

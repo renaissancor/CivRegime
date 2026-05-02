@@ -79,4 +79,4 @@ The ethnicity tree is organized by **Affinity Bloc > People Cluster > Ethnic Gro
 
 ***
 
-**I have finished the ethnicity reference. Shall I proceed to the final one, `regime.md`?**
+**I have finished the ethnicity reference.**

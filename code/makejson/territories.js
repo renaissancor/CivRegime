@@ -66,8 +66,8 @@ function generateTerritories() {
       const territory = {
         id: t.id,
         name: t.name,
-        regime_count: periodsByTerritory[t.id]?.length || 0,
-        regimes: periodsByTerritory[t.id] || []
+        polity_count: periodsByTerritory[t.id]?.length || 0,
+        polities: periodsByTerritory[t.id] || []
       };
       
       const filePath = path.join(OUTPUT_DIR, `${t.id}.json`);
@@ -80,7 +80,7 @@ function generateTerritories() {
   });
   
   console.log(`\n✓ Generated ${created} territory files`);
-  console.log(`  Total regime control periods: ${periods.length}`);
+  console.log(`  Total polity control periods: ${periods.length}`);
   if (errors > 0) console.log(`✗ ${errors} errors`);
   
   process.exit(errors > 0 ? 1 : 0);

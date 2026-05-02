@@ -36,17 +36,17 @@
             {
               "label": "West African hunter-gatherers",
               "note": "c.12,000 BCE–",
-              "regime": "west_african_hunter_gatherers"
+              "polity": "west_african_hunter_gatherers"
             },
             {
               "label": "Tichitt culture (Mauritania — early agropastoral)",
               "note": "c.2000–500 BCE",
-              "regime": "tichitt_culture"
+              "polity": "tichitt_culture"
             },
             {
               "label": "Dhar Néma · Dhar Tichitt · Dhar Walata",
               "note": "",
-              "regime": "dhar_nema"
+              "polity": "dhar_nema"
             }
           ],
           "span": 1
@@ -56,17 +56,17 @@
             {
               "label": "Niger-Congo language family dispersal",
               "note": "",
-              "regime": "niger_congo_language_family_dispersal"
+              "polity": "niger_congo_language_family_dispersal"
             },
             {
               "label": "Senegambian stone circles",
               "note": "c.300 BCE–1600 CE",
-              "regime": "senegambian_stone_circles"
+              "polity": "senegambian_stone_circles"
             },
             {
               "label": "Bura culture (Niger River bend)",
               "note": "c.3rd–13th c.",
-              "regime": "bura_culture"
+              "polity": "bura_culture"
             }
           ],
           "span": 1
@@ -76,12 +76,12 @@
             {
               "label": "Nok culture (central Nigeria — earliest sub-Saharan sculpture)",
               "note": "c.1000 BCE–300 CE",
-              "regime": "nok_culture"
+              "polity": "nok_culture"
             },
             {
               "label": "Igbo-Ukwu · Ife · Jenne-Jeno (early urbanization)",
               "note": "",
-              "regime": "igbo_ukwu_ife_jenne_jeno"
+              "polity": "igbo_ukwu_ife_jenne_jeno"
             }
           ],
           "span": 1
@@ -99,12 +99,12 @@
             {
               "label": "Berber nomads (Sanhaja · Zenata · Masmuda)",
               "note": "",
-              "regime": "berber_nomads"
+              "polity": "berber_nomads"
             },
             {
               "label": "Takrur kingdom (Senegal River — early Islam)",
               "note": "c.800–1285",
-              "regime": "takrur_kingdom"
+              "polity": "takrur_kingdom"
             }
           ],
           "span": 1
@@ -114,12 +114,12 @@
             {
               "label": "Ghana Empire (Wagadu — Soninke)",
               "note": "c.300–1235",
-              "regime": "ghana_empire"
+              "polity": "ghana_empire"
             },
             {
               "label": "Trans-Saharan gold and salt trade",
               "note": "",
-              "regime": "trans_saharan_gold_and_salt_trade"
+              "polity": "trans_saharan_gold_and_salt_trade"
             }
           ],
           "span": 1
@@ -129,17 +129,17 @@
             {
               "label": "Kanem Empire (Lake Chad basin)",
               "note": "c.700–1380",
-              "regime": "kanem_empire"
+              "polity": "kanem_empire"
             },
             {
               "label": "Hausa city-states (emerging)",
               "note": "c.1000–",
-              "regime": "hausa_city_states"
+              "polity": "hausa_city_states"
             },
             {
               "label": "Ife Empire (Yoruba cultural center)",
               "note": "c.1100–",
-              "regime": "ife_empire"
+              "polity": "ife_empire"
             }
           ],
           "span": 1
@@ -155,19 +155,19 @@
         {
           "stack": [
             {
-              "regime": "almoravid_dynasty",
+              "polity": "almoravid_dynasty",
               "label": "Almoravid Sultanate (Berber — conquers Ghana)",
               "note": "c.1040–1147"
             },
             {
               "label": "Soninke petty kingdoms (post-Ghana)",
               "note": "",
-              "regime": "soninke_petty_kingdoms"
+              "polity": "soninke_petty_kingdoms"
             },
             {
               "label": "Jolof Empire (Wolof — Senegambia)",
               "note": "c.1350–1549",
-              "regime": "jolof_empire"
+              "polity": "jolof_empire"
             }
           ],
           "span": 1
@@ -177,22 +177,22 @@
             {
               "label": "Sosso Empire (Susu — brief)",
               "note": "c.1180–1235",
-              "regime": "sosso_empire"
+              "polity": "sosso_empire"
             },
             {
               "label": "Mali Empire (Mandinka — Sundiata Keita)",
               "note": "c.1235–1600",
-              "regime": "mali_empire"
+              "polity": "mali_empire"
             },
             {
               "label": "Mansa Musa — richest person in history",
               "note": "r.1312–1337",
-              "regime": "mansa_musa"
+              "polity": "mansa_musa"
             },
             {
               "label": "Timbuktu · Djenné (Islamic scholarship centers)",
               "note": "",
-              "regime": "timbuktu_djenne"
+              "polity": "timbuktu_djenne"
             }
           ],
           "span": 1
@@ -202,12 +202,12 @@
             {
               "label": "Benin Empire (Edo people — Benin City)",
               "note": "c.1180–1897",
-              "regime": "benin_empire"
+              "polity": "benin_empire"
             },
             {
               "label": "Oyo Empire (Yoruba — emerging)",
               "note": "c.1300–",
-              "regime": "oyo_empire"
+              "polity": "oyo_empire"
             }
           ],
           "span": 1
@@ -226,17 +226,17 @@
             {
               "label": "Kaabu kingdom (Mandinka — Casamance/Guinea-Bissau)",
               "note": "c.1537–1867",
-              "regime": "kaabu_kingdom"
+              "polity": "kaabu_kingdom"
             },
             {
               "label": "Futa Jallon imamate (Fulani jihad state)",
               "note": "c.1727–1896",
-              "regime": "futa_jallon_imamate"
+              "polity": "futa_jallon_imamate"
             },
             {
               "label": "Futa Toro imamate",
               "note": "c.1776–1861",
-              "regime": "futa_toro_imamate"
+              "polity": "futa_toro_imamate"
             }
           ],
           "span": 1
@@ -246,22 +246,22 @@
             {
               "label": "Songhai Empire (Gao — Sunni Ali · Askia Muhammad)",
               "note": "c.1430–1591",
-              "regime": "songhai_empire"
+              "polity": "songhai_empire"
             },
             {
               "label": "Saadi dynasty (Morocco) destroys Songhai",
               "note": "1591",
-              "regime": "saadi_dynasty_destroys_songhai"
+              "polity": "saadi_dynasty_destroys_songhai"
             },
             {
               "label": "Dendi kingdom (Songhai successor — south)",
               "note": "1591–1901",
-              "regime": "dendi_kingdom"
+              "polity": "dendi_kingdom"
             },
             {
               "label": "Tuareg confederations (Saharan nomads)",
               "note": "",
-              "regime": "tuareg_confederations"
+              "polity": "tuareg_confederations"
             }
           ],
           "span": 1
@@ -271,22 +271,22 @@
             {
               "label": "Oyo Empire (Yoruba — peak)",
               "note": "c.1600–1836",
-              "regime": "oyo_empire"
+              "polity": "oyo_empire"
             },
             {
               "label": "Ashanti Empire (Akan — Gold Coast)",
               "note": "c.1670–1902",
-              "regime": "ashanti_empire"
+              "polity": "ashanti_empire"
             },
             {
               "label": "Dahomey kingdom (Fon people)",
               "note": "c.1600–1904",
-              "regime": "dahomey_kingdom"
+              "polity": "dahomey_kingdom"
             },
             {
               "label": "Hausa city-states (Kano · Katsina · Zazzau etc.)",
               "note": "",
-              "regime": "hausa_city_states"
+              "polity": "hausa_city_states"
             }
           ],
           "span": 1
@@ -304,7 +304,7 @@
             {
               "label": "Futa Jallon imamate",
               "note": "c.1727–1896",
-              "regime": "futa_jallon_imamate"
+              "polity": "futa_jallon_imamate"
             },
             {
               "label": "Samori Ture — Wassoulou Empire (resists French)",
@@ -313,7 +313,7 @@
             {
               "label": "European coastal forts (Portuguese · Dutch · British · French)",
               "note": "15th c.–",
-              "regime": "european_coastal_forts"
+              "polity": "european_coastal_forts"
             }
           ],
           "span": 1
@@ -323,22 +323,22 @@
             {
               "label": "Bambara Empire (Ségou · Kaarta)",
               "note": "c.1640–1861",
-              "regime": "bambara_empire"
+              "polity": "bambara_empire"
             },
             {
               "label": "Massina Empire (Fulani theocratic state)",
               "note": "1818–1862",
-              "regime": "massina_empire"
+              "polity": "massina_empire"
             },
             {
               "label": "Toucouleur Empire (El Hadj Umar Tall)",
               "note": "1848–1893",
-              "regime": "toucouleur_empire"
+              "polity": "toucouleur_empire"
             },
             {
               "label": "Kenedugu kingdom",
               "note": "c.1650–1898",
-              "regime": "kenedugu_kingdom"
+              "polity": "kenedugu_kingdom"
             }
           ],
           "span": 1
@@ -348,12 +348,12 @@
             {
               "label": "Sokoto Caliphate (Fulani jihad — Usman dan Fodio)",
               "note": "1804–1903",
-              "regime": "sokoto_caliphate"
+              "polity": "sokoto_caliphate"
             },
             {
               "label": "Bornu Empire (Kanem-Bornu successor)",
               "note": "1380–1893",
-              "regime": "bornu_empire"
+              "polity": "bornu_empire"
             },
             {
               "label": "Benin Empire (declining — British punitive expedition 1897)",
@@ -375,22 +375,22 @@
             {
               "label": "French West Africa (AOF — Afrique-Occidentale française)",
               "note": "1895–1958",
-              "regime": "french_west_africa"
+              "polity": "french_west_africa"
             },
             {
               "label": "French Sudan · Senegal · Guinea · Mauritania · Côte d'Ivoire · Dahomey · Upper Volta · Niger",
               "note": "",
-              "regime": "french_sudan"
+              "polity": "french_sudan"
             },
             {
               "label": "Sierra Leone (British colony)",
               "note": "1808–1961",
-              "regime": "sierra_leone"
+              "polity": "sierra_leone"
             },
             {
               "label": "Liberia (independent — Americo-Liberian republic)",
               "note": "1847–",
-              "regime": "liberia"
+              "polity": "liberia"
             }
           ],
           "span": 2
@@ -400,12 +400,12 @@
             {
               "label": "British West Africa",
               "note": "",
-              "regime": "british_west_africa"
+              "polity": "british_west_africa"
             },
             {
               "label": "Gold Coast (Ghana — British colony)",
               "note": "1874–1957",
-              "regime": "gold_coast"
+              "polity": "gold_coast"
             },
             {
               "label": "Nigeria (British — Northern + Southern protectorates merged 1914)",
@@ -431,22 +431,22 @@
             {
               "label": "Independent states (1958–1975):",
               "note": "",
-              "regime": "independent_states"
+              "polity": "independent_states"
             },
             {
               "label": "Guinea (1958) · Mali (1960) · Senegal (1960) · Mauritania (1960)",
               "note": "",
-              "regime": "guinea_mali_senegal_mauritania"
+              "polity": "guinea_mali_senegal_mauritania"
             },
             {
               "label": "Sierra Leone (1961) · Gambia (1965) · Guinea-Bissau (1974) · Cabo Verde (1975)",
               "note": "",
-              "regime": "sierra_leone"
+              "polity": "sierra_leone"
             },
             {
               "label": "Mali-Senegal Federation (brief)",
               "note": "1959–1960",
-              "regime": "mali_senegal_federation"
+              "polity": "mali_senegal_federation"
             }
           ],
           "span": 1
@@ -456,27 +456,27 @@
             {
               "label": "Mali Republic",
               "note": "1960–",
-              "regime": "mali_republic"
+              "polity": "mali_republic"
             },
             {
               "label": "Burkina Faso (formerly Upper Volta)",
               "note": "1960–",
-              "regime": "burkina_faso"
+              "polity": "burkina_faso"
             },
             {
               "label": "Niger Republic",
               "note": "1960–",
-              "regime": "niger_republic"
+              "polity": "niger_republic"
             },
             {
               "label": "Côte d'Ivoire",
               "note": "1960–",
-              "regime": "cote_divoire"
+              "polity": "cote_divoire"
             },
             {
               "label": "Azawad (Tuareg separatist — unrecognized)",
               "note": "2012",
-              "regime": "azawad"
+              "polity": "azawad"
             }
           ],
           "span": 1
@@ -494,12 +494,12 @@
             {
               "label": "Togo (1960) · Benin (1960)",
               "note": "",
-              "regime": "togo_benin"
+              "polity": "togo_benin"
             },
             {
               "label": "ECOWAS (Economic Community of West African States)",
               "note": "1975–",
-              "regime": "ecowas"
+              "polity": "ecowas"
             }
           ],
           "span": 1

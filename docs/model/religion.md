@@ -4,14 +4,14 @@
 
 Religion in this framework is **not** a cultural descriptor — it is a **civilizational boundary**.
 
-The same ethnic group under different religions produces different regimes with different valid successors. This is not a subtle distinction. It is the primary reason why:
+The same ethnic group under different religions produces different polities with different valid successors. This is not a subtle distinction. It is the primary reason why:
 - A Serb, a Croat, and a Bosniak are linguistically and genetically near-identical, yet belong to different civilizational spheres (Orthodox/Byzantine, Catholic/Habsburg, Muslim/Ottoman)
 - A Hindu Punjabi, a Muslim Punjabi, and a Sikh Punjabi are the same people with the same language, yet produced completely different political identities
 - Urdu and Hindi are the same spoken language — mutually intelligible — yet represent distinct civilizational identities purely through script and religious vocabulary
 
-## Religion as Regime Identity
+## Religion as Polity Identity
 
-Religion is part of a regime's fixed **ideology** (see `ideology.md`). It does not change mid-regime without marking the end of that regime.
+Religion is part of a polity's fixed **ideology** (see `ideology.md`). It does not change mid-polity without marking the end of that polity.
 
 ### The Zoroastrian/Islamic Break in Persia
 
@@ -80,7 +80,7 @@ The ruling class of the Khazar Khaganate converted to Rabbinic Judaism. Possibly
 Kublai Khan adopted Tibetan Buddhism and appointed the Phags-pa Lama as the imperial preceptor. This served multiple functions: spiritual, and as legitimization over both Tibetan and Mongol subjects. Qing dynasty later did the same.
 
 **Roman Empire — Mid-Dynasty Conversion**
-Constantine's conversion (312) began as policy; Theodosius I's edict (380) made Christianity the only legal religion. This is the rare case where a **policy became an ideology mid-regime** — but it is better modeled as the Roman Empire being an ideological predecessor to the Byzantine Empire, rather than the same regime with a changed ideology.
+Constantine's conversion (312) began as policy; Theodosius I's edict (380) made Christianity the only legal religion. This is the rare case where a **policy became an ideology mid-polity** — but it is better modeled as the Roman Empire being an ideological predecessor to the Byzantine Empire, rather than the same polity with a changed ideology.
 
 ## Religion and Succession Logic
 

@@ -31,12 +31,12 @@
             {
               "label": "Manna Kingdom",
               "note": "c.850–616 BCE",
-              "regime": "manna_kingdom"
+              "polity": "manna_kingdom"
             },
             {
               "label": "Cimmerian · Scythian nomads",
               "note": "c.800–600 BCE",
-              "regime": "cimmerian_scythian_nomads"
+              "polity": "cimmerian_scythian_nomads"
             }
           ],
           "span": 2
@@ -51,15 +51,15 @@
             {
               "label": "Median Empire",
               "note": "678–550 BCE",
-              "regime": "median_kingdom"
+              "polity": "median_kingdom"
             },
             {
-              "regime": "achaemenid_empire",
+              "polity": "achaemenid_empire",
               "label": "Achaemenid Persia (satrapy)",
               "note": "550–330 BCE"
             },
             {
-              "regime": "seleucid_empire",
+              "polity": "seleucid_empire",
               "label": "Seleucid / Atropatenian suzerainty",
               "note": "330–200 BCE"
             },
@@ -83,10 +83,10 @@
             {
               "label": "Caucasian Albania (Arran)",
               "note": "c.200 BCE–705 CE",
-              "regime": "caucasian_albania"
+              "polity": "caucasian_albania"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman suzerainty (Pompey)",
               "note": "66 BCE–"
             }
@@ -98,7 +98,7 @@
             {
               "label": "Caucasian Albania (northeast portion)",
               "note": "part of Albania",
-              "regime": "caucasian_albania"
+              "polity": "caucasian_albania"
             }
           ],
           "span": 1
@@ -111,12 +111,12 @@
         {
           "stack": [
             {
-              "regime": "parthian_empire",
+              "polity": "parthian_empire",
               "label": "Parthian suzerainty",
               "note": "1st–3rd c. CE"
             },
             {
-              "regime": "sassanid_empire",
+              "polity": "sassanid_empire",
               "label": "Sassanid Persia (full control)",
               "note": "510–628"
             }
@@ -134,24 +134,24 @@
         {
           "stack": [
             {
-              "regime": "rashidun_caliphate",
+              "polity": "rashidun_caliphate",
               "label": "Rashidun Caliphate (Arminiya)",
               "note": "640s–661"
             },
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate (Arminiya)",
               "note": "661–750"
             },
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid Caliphate (Arminiya)",
               "note": "750–9th c."
             },
             {
               "label": "Mihranid dynasty remnants",
               "note": "to c.821",
-              "regime": "mihranid_dynasty"
+              "polity": "mihranid_dynasty"
             }
           ],
           "span": 2
@@ -166,12 +166,12 @@
             {
               "label": "Sajid dynasty (Arran)",
               "note": "889–929",
-              "regime": "sajid_dynasty"
+              "polity": "sajid_dynasty"
             },
             {
               "label": "Salarid dynasty",
               "note": "941–981",
-              "regime": "salarid_dynasty"
+              "polity": "salarid_dynasty"
             }
           ],
           "span": 1
@@ -181,7 +181,7 @@
             {
               "label": "Shirvanshah Kingdom (Mazyadids)",
               "note": "799–1538",
-              "regime": "shirvanshah_kingdom"
+              "polity": "shirvanshah_kingdom"
             }
           ],
           "span": 1
@@ -194,14 +194,14 @@
         {
           "stack": [
             {
-              "regime": "seljuk_empire",
+              "polity": "seljuk_empire",
               "label": "Seljuk Empire",
               "note": "1054–1194"
             },
             {
               "label": "Eldiguzid (Ildenizid) Atabegs of Azerbaijan",
               "note": "1136–1225",
-              "regime": "eldiguzid_atabegs_of_azerbaijan"
+              "polity": "eldiguzid_atabegs_of_azerbaijan"
             }
           ],
           "span": 1
@@ -211,7 +211,7 @@
             {
               "label": "Shirvanshah (Kesranids — under Seljuk)",
               "note": "1027–1382",
-              "regime": "shirvanshah"
+              "polity": "shirvanshah"
             }
           ],
           "span": 1
@@ -224,19 +224,19 @@
         {
           "stack": [
             {
-              "regime": "mongol_empire",
+              "polity": "mongol_empire",
               "label": "Mongol Empire",
               "note": "1220–1256"
             },
             {
-              "regime": "ilkhanate",
+              "polity": "ilkhanate",
               "label": "Ilkhanate",
               "note": "1256–1335"
             },
             {
               "label": "Chobanid dynasty",
               "note": "1335–1357",
-              "regime": "chobanid_dynasty"
+              "polity": "chobanid_dynasty"
             }
           ],
           "span": 1
@@ -244,12 +244,12 @@
         {
           "stack": [
             {
-              "regime": "mongol_empire",
+              "polity": "mongol_empire",
               "label": "Mongol Empire",
               "note": "1220–1256"
             },
             {
-              "regime": "ilkhanate",
+              "polity": "ilkhanate",
               "label": "Ilkhanate",
               "note": "1256–1335"
             },
@@ -270,20 +270,20 @@
             {
               "label": "Jalayirid Sultanate",
               "note": "1357–1410",
-              "regime": "jalayirid_sultanate"
+              "polity": "jalayirid_sultanate"
             },
             {
-              "regime": "timurid_empire",
+              "polity": "timurid_empire",
               "label": "Timurid Empire",
               "note": "1405–1468"
             },
             {
-              "regime": "kara_koyunlu",
+              "polity": "kara_koyunlu",
               "label": "Kara Koyunlu (Black Sheep)",
               "note": "1410–1468"
             },
             {
-              "regime": "aq_qoyunlu",
+              "polity": "aq_qoyunlu",
               "label": "Aq Qoyunlu (White Sheep)",
               "note": "1468–1501"
             }
@@ -295,7 +295,7 @@
             {
               "label": "Shirvanshah (Khalilullahids — semi-independent)",
               "note": "1382–1538",
-              "regime": "shirvanshah"
+              "polity": "shirvanshah"
             }
           ],
           "span": 1
@@ -311,19 +311,19 @@
         {
           "stack": [
             {
-              "regime": "safavid_empire",
+              "polity": "safavid_empire",
               "label": "Safavid Empire",
               "note": "1501–1736; Ottoman–Safavid wars over Azerbaijan (1514–1639)"
             },
             {
               "label": "Karabakh Khanate",
               "note": "1747–1806",
-              "regime": "karabakh_khanate"
+              "polity": "karabakh_khanate"
             },
             {
               "label": "Baku Khanate",
               "note": "1747–1806",
-              "regime": "baku_khanate"
+              "polity": "baku_khanate"
             }
           ],
           "span": 1
@@ -331,17 +331,17 @@
         {
           "stack": [
             {
-              "regime": "safavid_empire",
+              "polity": "safavid_empire",
               "label": "Safavid Empire — Shirvanshah abolished",
               "note": "1538"
             },
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman occupation (Shirvan)",
               "note": "1578–1603"
             },
             {
-              "regime": "safavid_empire",
+              "polity": "safavid_empire",
               "label": "Safavid (Shirvan province restored)",
               "note": "1603–1736"
             }
@@ -356,12 +356,12 @@
         {
           "stack": [
             {
-              "regime": "afsharid_dynasty",
+              "polity": "afsharid_dynasty",
               "label": "Afsharid suzerainty",
               "note": "1736–1796"
             },
             {
-              "regime": "qajar_dynasty",
+              "polity": "qajar_dynasty",
               "label": "Qajar Iran (suzerain of khanates)",
               "note": "1796–1828"
             }
@@ -371,17 +371,17 @@
         {
           "stack": [
             {
-              "regime": "afsharid_dynasty",
+              "polity": "afsharid_dynasty",
               "label": "Afsharid suzerainty",
               "note": "1736–1796"
             },
             {
               "label": "Shirvan Khanate",
               "note": "1748–1806",
-              "regime": "shirvan_khanate"
+              "polity": "shirvan_khanate"
             },
             {
-              "regime": "qajar_dynasty",
+              "polity": "qajar_dynasty",
               "label": "Qajar Iran",
               "note": "1796–1806"
             }
@@ -396,12 +396,12 @@
         {
           "stack": [
             {
-              "regime": "russian_empire",
+              "polity": "russian_empire",
               "label": "Russian Empire (Gulistan Treaty)",
               "note": "1813; Baku oil boom (1870s–1900s)"
             },
             {
-              "regime": "russian_empire",
+              "polity": "russian_empire",
               "label": "Russian Empire (Baku Governorate)",
               "note": "1806–1917"
             }
@@ -421,12 +421,12 @@
             {
               "label": "Transcaucasian Democratic Federative Republic",
               "note": "1918; Armenian–Azerbaijani War (Karabakh) (1918–1920)",
-              "regime": "transcaucasian_democratic_federative_republic"
+              "polity": "transcaucasian_democratic_federative_republic"
             },
             {
               "label": "Azerbaijan Democratic Republic",
               "note": "1918–1920",
-              "regime": "azerbaijan_democratic_republic"
+              "polity": "azerbaijan_democratic_republic"
             }
           ],
           "span": 2
@@ -439,24 +439,24 @@
         {
           "stack": [
             {
-              "regime": "soviet_union",
+              "polity": "soviet_union",
               "label": "Transcaucasian SFSR",
               "note": "1922–1936"
             },
             {
-              "regime": "soviet_union",
+              "polity": "soviet_union",
               "label": "Azerbaijan SSR",
               "note": "1936–1991"
             },
             {
               "label": "Republic of Azerbaijan",
               "note": "1991–",
-              "regime": "republic_of_azerbaijan"
+              "polity": "republic_of_azerbaijan"
             },
             {
               "label": "Artsakh Republic (de facto Karabakh state — dissolved 2023)",
               "note": "1991–2023",
-              "regime": "artsakh_republic"
+              "polity": "artsakh_republic"
             }
           ],
           "span": 2

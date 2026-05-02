@@ -1,12 +1,12 @@
 [
   {
-    "id": "roman_state",
-    "name": "Roman State",
+    "id": "roman_civilization",
+    "name": "Roman Civilization",
     "description": "Political continuity from Augustus to 1453"
   },
   {
-    "id": "ottoman_state",
-    "name": "Ottoman State",
+    "id": "ottoman_civilization",
+    "name": "Ottoman Civilization",
     "description": "Political continuity from Osman I to Mehmed VI"
   }
 ]

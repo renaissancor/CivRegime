@@ -36,27 +36,27 @@
             {
               "label": "Celtic Boii",
               "note": "c.400–50 BCE; give Bohemia its name",
-              "regime": "celtic_boii"
+              "polity": "celtic_boii"
             },
             {
               "label": "Germanic tribes (Marcomanni · Quadi)",
               "note": "c.50 BCE–5th c.",
-              "regime": "germanic_tribes"
+              "polity": "germanic_tribes"
             },
             {
               "label": "West Slavic settlement",
               "note": "c.500–600",
-              "regime": "west_slavic_settlement"
+              "polity": "west_slavic_settlement"
             },
             {
-              "regime": "avar_khaganate",
+              "polity": "avar_khaganate",
               "label": "Avar Khaganate (overlordship)",
               "note": "c.560–626"
             },
             {
               "label": "Samo's Empire (first Slavic polity)",
               "note": "623–658",
-              "regime": "samos_empire"
+              "polity": "samos_empire"
             }
           ],
           "span": 3
@@ -73,19 +73,19 @@
           "label": "Czech tribes (fragmented)",
           "note": "7th–9th c.",
           "span": 1,
-          "regime": "czech_tribes"
+          "polity": "czech_tribes"
         },
         {
           "stack": [
             {
               "label": "Duchy of Moravia (Mojmír I)",
               "note": "c.820–833",
-              "regime": "duchy_of_moravia"
+              "polity": "duchy_of_moravia"
             },
             {
               "label": "Great Moravia (Rastislav · Svatopluk I)",
               "note": "833–907",
-              "regime": "great_moravia"
+              "polity": "great_moravia"
             }
           ],
           "span": 1
@@ -95,7 +95,7 @@
             {
               "label": "Principality of Nitra (within Great Moravia)",
               "note": "c.828–907",
-              "regime": "principality_of_nitra"
+              "polity": "principality_of_nitra"
             }
           ],
           "span": 1
@@ -110,7 +110,7 @@
             {
               "label": "Duchy of Bohemia — Přemyslid dynasty",
               "note": "c.870–1198",
-              "regime": "duchy_of_bohemia"
+              "polity": "duchy_of_bohemia"
             }
           ],
           "span": 1
@@ -120,12 +120,12 @@
             {
               "label": "Moravia absorbed into Bohemia",
               "note": "after 907",
-              "regime": "moravia_absorbed_into_bohemia"
+              "polity": "moravia_absorbed_into_bohemia"
             },
             {
               "label": "Margraviate of Moravia (under Bohemian crown)",
               "note": "1182–",
-              "regime": "margraviate_of_moravia"
+              "polity": "margraviate_of_moravia"
             }
           ],
           "span": 1
@@ -137,7 +137,7 @@
               "note": "895–907; Great Moravia collapses"
             },
             {
-              "regime": "kingdom_of_hungary",
+              "polity": "kingdom_of_hungary",
               "label": "Kingdom of Hungary (Árpád dynasty)",
               "note": "1000–1301"
             }
@@ -155,14 +155,14 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_bohemia",
+              "polity": "kingdom_of_bohemia",
               "label": "Kingdom of Bohemia — Přemyslid dynasty",
               "note": "1198–1306"
             },
             {
               "label": "Ottokar II — great power (Austria, Styria, Carinthia)",
               "note": "1253–1278",
-              "regime": "ottokar_ii"
+              "polity": "ottokar_ii"
             }
           ],
           "span": 1
@@ -172,7 +172,7 @@
             {
               "label": "Margraviate of Moravia (Přemyslid appanage)",
               "note": "1182–1306",
-              "regime": "margraviate_of_moravia"
+              "polity": "margraviate_of_moravia"
             }
           ],
           "span": 1
@@ -180,7 +180,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_hungary",
+              "polity": "kingdom_of_hungary",
               "label": "Kingdom of Hungary",
               "note": ""
             }
@@ -195,19 +195,19 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_bohemia",
+              "polity": "kingdom_of_bohemia",
               "label": "Kingdom of Bohemia — Piast dynasty (briefly)",
               "note": "1300–1306"
             },
             {
-              "regime": "kingdom_of_bohemia",
+              "polity": "kingdom_of_bohemia",
               "label": "Kingdom of Bohemia — Luxembourg dynasty",
               "note": "1310–1437"
             },
             {
               "label": "Charles IV — Holy Roman Emperor",
               "note": "1346–1378; Prague = imperial capital",
-              "regime": "charles_iv"
+              "polity": "charles_iv"
             }
           ],
           "span": 2
@@ -215,7 +215,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_hungary",
+              "polity": "kingdom_of_hungary",
               "label": "Kingdom of Hungary — Angevin dynasty",
               "note": "1301–1395"
             },
@@ -243,15 +243,15 @@
             {
               "label": "Hussite Bohemia (Utraquists vs Catholics)",
               "note": "1419–1436",
-              "regime": "hussite_bohemia"
+              "polity": "hussite_bohemia"
             },
             {
               "label": "George of Poděbrady — 'Hussite King'",
               "note": "1458–1471",
-              "regime": "george_of_podebrady"
+              "polity": "george_of_podebrady"
             },
             {
-              "regime": "kingdom_of_bohemia",
+              "polity": "kingdom_of_bohemia",
               "label": "Kingdom of Bohemia — Jagiellonian dynasty",
               "note": "1471–1526"
             }
@@ -261,7 +261,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_hungary",
+              "polity": "kingdom_of_hungary",
               "label": "Kingdom of Hungary — Jagiellonian dynasty",
               "note": "1490–1526; ends at Battle of Mohács"
             }
@@ -279,12 +279,12 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_bohemia",
+              "polity": "kingdom_of_bohemia",
               "label": "Kingdom of Bohemia — Habsburg dynasty",
               "note": "1526–1918"
             },
             {
-              "regime": "habsburg_monarchy",
+              "polity": "habsburg_monarchy",
               "label": "Habsburg Monarchy",
               "note": ""
             },
@@ -295,7 +295,7 @@
             {
               "label": "Forced re-Catholicization · Germanization",
               "note": "1620s–",
-              "regime": "forced_re_catholicization"
+              "polity": "forced_re_catholicization"
             }
           ],
           "span": 2
@@ -303,19 +303,19 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_hungary",
+              "polity": "kingdom_of_hungary",
               "label": "Kingdom of Hungary — Habsburg rule",
               "note": "1526–"
             },
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Empire — Ottoman Hungary (south)",
               "note": "1541–1699"
             },
             {
               "label": "Slovakia = Habsburg Hungary's core (Pressburg/Bratislava = capital)",
               "note": "1536–1783",
-              "regime": "slovakia_habsburg_hungarys_core"
+              "polity": "slovakia_habsburg_hungarys_core"
             }
           ],
           "span": 1
@@ -330,12 +330,12 @@
             {
               "label": "Czech National Revival (linguistic · cultural)",
               "note": "late 18th–19th c.",
-              "regime": "czech_national_revival"
+              "polity": "czech_national_revival"
             },
             {
               "label": "Austro-Hungarian Compromise — Bohemia stays Austrian",
               "note": "1867",
-              "regime": "austro_hungarian_compromise"
+              "polity": "austro_hungarian_compromise"
             }
           ],
           "span": 2
@@ -345,12 +345,12 @@
             {
               "label": "Austro-Hungarian Compromise — Slovakia stays Hungarian",
               "note": "1867",
-              "regime": "austro_hungarian_compromise"
+              "polity": "austro_hungarian_compromise"
             },
             {
               "label": "Magyarization policies (Slovak language suppressed)",
               "note": "1867–1918",
-              "regime": "magyarization_policies"
+              "polity": "magyarization_policies"
             }
           ],
           "span": 1
@@ -366,7 +366,7 @@
         {
           "stack": [
             {
-              "regime": "czechoslovakia",
+              "polity": "czechoslovakia",
               "label": "Czechoslovak Republic (First Republic — T.G. Masaryk)",
               "note": "1918–1938"
             }
@@ -381,12 +381,12 @@
         {
           "stack": [
             {
-              "regime": "czechoslovakia",
+              "polity": "czechoslovakia",
               "label": "Second Republic (truncated)",
               "note": "Oct 1938 – Mar 1939; Munich Agreement cedes Sudetenland"
             },
             {
-              "regime": "nazi_germany",
+              "polity": "nazi_germany",
               "label": "Protectorate of Bohemia & Moravia (Nazi occupation)",
               "note": "1939–1945"
             },
@@ -402,7 +402,7 @@
             {
               "label": "First Slovak Republic (Tiso — Nazi client state)",
               "note": "1939–1945",
-              "regime": "first_slovak_republic"
+              "polity": "first_slovak_republic"
             }
           ],
           "span": 1
@@ -415,12 +415,12 @@
         {
           "stack": [
             {
-              "regime": "czechoslovakia",
+              "polity": "czechoslovakia",
               "label": "Third Republic (restored)",
               "note": "1945–1948; Sudeten Germans expelled"
             },
             {
-              "regime": "czechoslovakia",
+              "polity": "czechoslovakia",
               "label": "Czechoslovak Socialist Republic",
               "note": "1948–1989; Communist coup Feb 1948"
             },
@@ -431,7 +431,7 @@
             {
               "label": "Federalization (Czech SR + Slovak SR)",
               "note": "1969",
-              "regime": "federalization"
+              "polity": "federalization"
             }
           ],
           "span": 3
@@ -447,7 +447,7 @@
         {
           "stack": [
             {
-              "regime": "czechoslovakia",
+              "polity": "czechoslovakia",
               "label": "Czechoslovak Federal Republic (post-Velvet Revolution)",
               "note": "1989–1992"
             },
@@ -468,7 +468,7 @@
             {
               "label": "Czech Republic (Česká republika)",
               "note": "1993–",
-              "regime": "czech_republic"
+              "polity": "czech_republic"
             },
             {
               "label": "NATO member (1999) · EU member (2004)",
@@ -482,12 +482,12 @@
             {
               "label": "Slovak Republic (Slovenská republika)",
               "note": "1993–",
-              "regime": "slovak_republic"
+              "polity": "slovak_republic"
             },
             {
               "label": "NATO (2004) · EU (2004) · Eurozone (2009)",
               "note": "",
-              "regime": "nato_eu_eurozone"
+              "polity": "nato_eu_eurozone"
             }
           ],
           "span": 1

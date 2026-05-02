@@ -36,7 +36,7 @@
             {
               "label": "Yellow River Civilization (黄河文明)",
               "note": "Yangshao · Longshan cultures",
-              "regime": "yellow_river_civilization_culture"
+              "polity": "yellow_river_civilization_culture"
             }
           ],
           "span": 1
@@ -46,7 +46,7 @@
             {
               "label": "Yangtze River Civilizations",
               "note": "Hemudu · Liangzhu cultures",
-              "regime": "yangtze_river_civilizations_culture"
+              "polity": "yangtze_river_civilizations_culture"
             }
           ],
           "span": 1
@@ -55,7 +55,7 @@
           "stack": [
             {
               "label": "Steppe · desert cultures",
-              "regime": "steppe_desert_cultures_culture"
+              "polity": "steppe_desert_cultures_culture"
             }
           ],
           "span": 1
@@ -70,12 +70,12 @@
             {
               "label": "Xia (夏)",
               "note": "~2070–1600 BCE",
-              "regime": "xia"
+              "polity": "xia"
             },
             {
               "label": "Shang (商)",
               "note": "~1600–1046 BCE",
-              "regime": "shang_dynasty"
+              "polity": "shang_dynasty"
             }
           ],
           "span": 1
@@ -104,7 +104,7 @@
         {
           "label": "Western Zhou (西周) — 1046–771 BCE",
           "span": 2,
-          "regime": "western_zhou"
+          "polity": "western_zhou"
         },
         {
           "stack": [
@@ -124,7 +124,7 @@
             {
               "label": "Eastern Zhou (东周)",
               "note": "770–256 BCE",
-              "regime": "eastern_zhou"
+              "polity": "eastern_zhou"
             },
             {
               "label": "Spring and Autumn (春秋)",
@@ -146,7 +146,7 @@
             {
               "label": "Ba (巴) · Shu (蜀)",
               "note": "southwestern states",
-              "regime": "ba_shu"
+              "polity": "ba_shu"
             }
           ],
           "span": 1
@@ -155,7 +155,7 @@
           "stack": [
             {
               "label": "Xiongnu confederation forming",
-              "regime": "xiongnu"
+              "polity": "xiongnu"
             },
             {
               "label": "Donghu · Yuezhi"
@@ -176,7 +176,7 @@
             {
               "label": "Qin Dynasty (秦)",
               "note": "221–206 BCE — first unified empire",
-              "regime": "qin_dynasty"
+              "polity": "qin_dynasty"
             }
           ],
           "span": 2
@@ -186,7 +186,7 @@
             {
               "label": "Xiongnu Empire (匈奴)",
               "note": "Modu Chanyu",
-              "regime": "xiongnu"
+              "polity": "xiongnu"
             }
           ],
           "span": 1
@@ -212,7 +212,7 @@
           "stack": [
             {
               "label": "Xiongnu Empire",
-              "regime": "xiongnu"
+              "polity": "xiongnu"
             }
           ],
           "span": 1
@@ -227,7 +227,7 @@
             {
               "label": "Western Han (西汉/前汉)",
               "note": "202 BCE – 9 CE",
-              "regime": "western_han"
+              "polity": "western_han"
             }
           ],
           "span": 2
@@ -236,12 +236,12 @@
           "stack": [
             {
               "label": "Xiongnu Empire",
-              "regime": "xiongnu"
+              "polity": "xiongnu"
             },
             {
               "label": "Han — Western Regions Protectorate (西域都护)",
               "note": "60 BCE",
-              "regime": "han_dynasty"
+              "polity": "han_dynasty"
             }
           ],
           "span": 1
@@ -256,12 +256,12 @@
             {
               "label": "Xin (新) — Wang Mang",
               "note": "9–23 CE",
-              "regime": "xin"
+              "polity": "xin"
             },
             {
               "label": "Xuan Han (玄汉)",
               "note": "23–25 CE",
-              "regime": "xuan_han"
+              "polity": "xuan_han"
             }
           ],
           "span": 2
@@ -270,7 +270,7 @@
           "stack": [
             {
               "label": "Xiongnu — split into Northern / Southern",
-              "regime": "xiongnu"
+              "polity": "xiongnu"
             }
           ],
           "span": 1
@@ -285,7 +285,7 @@
             {
               "label": "Eastern Han (东汉/后汉)",
               "note": "25–220 CE, capital Luoyang",
-              "regime": "eastern_han"
+              "polity": "eastern_han"
             }
           ],
           "span": 2
@@ -294,11 +294,11 @@
           "stack": [
             {
               "label": "Southern Xiongnu (vassals)",
-              "regime": "xiongnu"
+              "polity": "xiongnu"
             },
             {
               "label": "Northern Xiongnu → expelled westward",
-              "regime": "xiongnu"
+              "polity": "xiongnu"
             },
             {
               "label": "Xianbei (鲜卑) rising"
@@ -319,7 +319,7 @@
             {
               "label": "Cao Wei (曹魏)",
               "note": "220–265",
-              "regime": "cao_wei"
+              "polity": "cao_wei"
             }
           ],
           "span": 1
@@ -329,12 +329,12 @@
             {
               "label": "Shu Han (蜀汉)",
               "note": "221–263, Sichuan",
-              "regime": "shu_han"
+              "polity": "shu_han"
             },
             {
               "label": "Eastern Wu (东吴)",
               "note": "222–280, Jiangnan",
-              "regime": "eastern_wu"
+              "polity": "eastern_wu"
             }
           ],
           "span": 1
@@ -343,7 +343,7 @@
           "stack": [
             {
               "label": "Xianbei (Murong · Tuoba)",
-              "regime": "xianbei"
+              "polity": "xianbei"
             },
             {
               "label": "Various steppe peoples"
@@ -361,7 +361,7 @@
             {
               "label": "Western Jin (西晋)",
               "note": "265–316, brief reunification; War of the Eight Princes (291–306)",
-              "regime": "western_jin"
+              "polity": "western_jin"
             }
           ],
           "span": 2
@@ -388,7 +388,7 @@
             {
               "label": "Former Qin (前秦) — Fu Jian",
               "note": "351–394, briefly reunifies north",
-              "regime": "former_qin"
+              "polity": "former_qin"
             }
           ],
           "span": 1
@@ -398,12 +398,12 @@
             {
               "label": "Eastern Jin (东晋)",
               "note": "317–420, capital Jiankang",
-              "regime": "eastern_jin"
+              "polity": "eastern_jin"
             },
             {
               "label": "Huan Chu (桓楚) — usurpation",
               "note": "403–404",
-              "regime": "huan_chu"
+              "polity": "huan_chu"
             }
           ],
           "span": 1
@@ -413,7 +413,7 @@
             {
               "label": "Rouran Khaganate (柔然)",
               "note": "330–555",
-              "regime": "rouran_khaganate"
+              "polity": "rouran_khaganate"
             }
           ],
           "span": 1
@@ -428,7 +428,7 @@
             {
               "label": "Northern Wei (北魏)",
               "note": "386–534",
-              "regime": "northern_wei"
+              "polity": "northern_wei"
             },
             {
               "label": "→ Eastern Wei (东魏) + Western Wei (西魏)"
@@ -444,27 +444,27 @@
             {
               "label": "Liu Song (刘宋)",
               "note": "420–479",
-              "regime": "liu_song"
+              "polity": "liu_song"
             },
             {
               "label": "Southern Qi (南齐)",
               "note": "479–502",
-              "regime": "southern_qi"
+              "polity": "southern_qi"
             },
             {
               "label": "Liang (梁)",
               "note": "502–557",
-              "regime": "liang"
+              "polity": "liang"
             },
             {
               "label": "Later Liang (後梁)",
               "note": "555–587, Western Wei vassal",
-              "regime": "later_liang"
+              "polity": "later_liang"
             },
             {
               "label": "Chen (陈)",
               "note": "557–589",
-              "regime": "chen"
+              "polity": "chen"
             }
           ],
           "span": 1
@@ -474,7 +474,7 @@
             {
               "label": "Rouran → Göktürk Khaganate (突厥)",
               "note": "552–",
-              "regime": "goktürk_khaganate"
+              "polity": "goktürk_khaganate"
             }
           ],
           "span": 1
@@ -492,7 +492,7 @@
             {
               "label": "Sui Dynasty (隋)",
               "note": "581–618, reunification",
-              "regime": "sui_dynasty"
+              "polity": "sui_dynasty"
             }
           ],
           "span": 2
@@ -501,7 +501,7 @@
           "stack": [
             {
               "label": "Göktürk Khaganate (Eastern · Western)",
-              "regime": "goktürk_khaganate"
+              "polity": "goktürk_khaganate"
             }
           ],
           "span": 1
@@ -516,12 +516,12 @@
             {
               "label": "Tang Dynasty (唐)",
               "note": "618–907; An Lushan Rebellion (安史之乱) (755–763); Pseudo-Yan (僞燕) · Huang Qi (黃齊) (rebel states)",
-              "regime": "tang_dynasty"
+              "polity": "tang_dynasty"
             },
             {
               "label": "Wu Zhou (武周) — Empress Wu Zetian",
               "note": "690–705",
-              "regime": "wu_zhou"
+              "polity": "wu_zhou"
             }
           ],
           "span": 2
@@ -533,12 +533,12 @@
             },
             {
               "label": "Tibetan Empire (吐蕃)",
-              "regime": "tibetan_empire"
+              "polity": "tibetan_empire"
             },
             {
               "label": "Uyghur Khaganate (回鹘)",
               "note": "744–840",
-              "regime": "uyghur_khaganate"
+              "polity": "uyghur_khaganate"
             }
           ],
           "span": 1
@@ -556,27 +556,27 @@
             {
               "label": "Later Liang (后梁)",
               "note": "907–923",
-              "regime": "later_liang"
+              "polity": "later_liang"
             },
             {
               "label": "Later Tang (后唐)",
               "note": "923–937",
-              "regime": "later_tang"
+              "polity": "later_tang"
             },
             {
               "label": "Later Jin (后晋)",
               "note": "936–947",
-              "regime": "later_jin"
+              "polity": "later_jin"
             },
             {
               "label": "Later Han (后汉)",
               "note": "947–951",
-              "regime": "later_han"
+              "polity": "later_han"
             },
             {
               "label": "Later Zhou (后周)",
               "note": "951–960",
-              "regime": "later_zhou"
+              "polity": "later_zhou"
             }
           ],
           "span": 1
@@ -586,7 +586,7 @@
             {
               "label": "Ten Kingdoms (十国)",
               "note": "907–979, various southern states",
-              "regime": "ten_kingdoms"
+              "polity": "ten_kingdoms"
             }
           ],
           "span": 1
@@ -596,7 +596,7 @@
             {
               "label": "Liao Dynasty (辽/契丹)",
               "note": "907–1125, Khitan; Sixteen Prefectures (燕云十六州) ceded (938)",
-              "regime": "liao_dynasty"
+              "polity": "liao_dynasty"
             }
           ],
           "span": 1
@@ -614,7 +614,7 @@
             {
               "label": "Northern Song (北宋)",
               "note": "960–1127, capital Kaifeng",
-              "regime": "northern_song"
+              "polity": "northern_song"
             }
           ],
           "span": 2
@@ -623,12 +623,12 @@
           "stack": [
             {
               "label": "Liao Dynasty (辽)",
-              "regime": "liao_dynasty"
+              "polity": "liao_dynasty"
             },
             {
               "label": "Western Xia (西夏)",
               "note": "1038–1227, Tangut",
-              "regime": "western_xia"
+              "polity": "western_xia"
             }
           ],
           "span": 1
@@ -643,7 +643,7 @@
             {
               "label": "Jin Dynasty (金)",
               "note": "1115–1234, Jurchen; Jingkang Incident — fall of Northern Song (1127)",
-              "regime": "jin_dynasty"
+              "polity": "jin_dynasty"
             }
           ],
           "span": 1
@@ -653,7 +653,7 @@
             {
               "label": "Southern Song (南宋)",
               "note": "1127–1279, capital Lin'an (Hangzhou)",
-              "regime": "southern_song"
+              "polity": "southern_song"
             }
           ],
           "span": 1
@@ -663,16 +663,16 @@
             {
               "label": "Western Liao (西辽/哈喇契丹)",
               "note": "1124–1218",
-              "regime": "western_liao"
+              "polity": "western_liao"
             },
             {
               "label": "Western Xia (西夏)",
-              "regime": "western_xia"
+              "polity": "western_xia"
             },
             {
               "label": "Mongol Empire — Genghis Khan",
               "note": "1206–",
-              "regime": "mongol_empire"
+              "polity": "mongol_empire"
             }
           ],
           "span": 1
@@ -696,7 +696,7 @@
             {
               "label": "Southern Song (南宋)",
               "note": "resists until 1279",
-              "regime": "southern_song"
+              "polity": "southern_song"
             }
           ],
           "span": 1
@@ -705,7 +705,7 @@
           "stack": [
             {
               "label": "Mongol Empire (大蒙古国)",
-              "regime": "mongol_empire"
+              "polity": "mongol_empire"
             }
           ],
           "span": 1
@@ -720,7 +720,7 @@
             {
               "label": "Yuan Dynasty (元) — Kublai Khan",
               "note": "1271–1368",
-              "regime": "yuan_dynasty"
+              "polity": "yuan_dynasty"
             }
           ],
           "span": 3
@@ -738,7 +738,7 @@
             {
               "label": "Ming Dynasty (明)",
               "note": "1368–1644",
-              "regime": "ming_dynasty"
+              "polity": "ming_dynasty"
             }
           ],
           "span": 2
@@ -748,7 +748,7 @@
             {
               "label": "Northern Yuan (北元)",
               "note": "1368–1635",
-              "regime": "northern_yuan"
+              "polity": "northern_yuan"
             },
             {
               "label": "Various Mongol khanates"
@@ -766,7 +766,7 @@
             {
               "label": "Shun (顺) — Li Zicheng",
               "note": "1644; Qing conquest of north (1644)",
-              "regime": "shun"
+              "polity": "shun"
             }
           ],
           "span": 1
@@ -776,17 +776,17 @@
             {
               "label": "Southern Ming (南明)",
               "note": "1644–1662",
-              "regime": "southern_ming"
+              "polity": "southern_ming"
             },
             {
               "label": "Wu Zhou (吴周) — Wu Sangui",
               "note": "1673–1681",
-              "regime": "wu_zhou"
+              "polity": "wu_zhou"
             },
             {
               "label": "Kingdom of Tungning (东宁)",
               "note": "1662–1683, Taiwan",
-              "regime": "kingdom_of_tungning"
+              "polity": "kingdom_of_tungning"
             }
           ],
           "span": 1
@@ -796,7 +796,7 @@
             {
               "label": "Later Jin (后金) → Qing",
               "note": "1616/1636–",
-              "regime": "later_jin"
+              "polity": "later_jin"
             }
           ],
           "span": 1
@@ -811,7 +811,7 @@
             {
               "label": "Qing Dynasty (清)",
               "note": "1644–1912; Kangxi · Yongzheng · Qianlong — golden age",
-              "regime": "qing_dynasty"
+              "polity": "qing_dynasty"
             }
           ],
           "span": 2
@@ -824,7 +824,7 @@
             {
               "label": "Dzungar Khanate conquest",
               "note": "1755–1758",
-              "regime": "dzungar_khanate"
+              "polity": "dzungar_khanate"
             }
           ],
           "span": 1
@@ -843,7 +843,7 @@
             {
               "label": "Taiping Heavenly Kingdom (太平天国)",
               "note": "1851–1864",
-              "regime": "taiping_heavenly_kingdom"
+              "polity": "taiping_heavenly_kingdom"
             }
           ],
           "span": 2
@@ -869,12 +869,12 @@
             {
               "label": "Republic of China (中华民国)",
               "note": "1912–",
-              "regime": "republic_of_china"
+              "polity": "republic_of_china"
             },
             {
               "label": "Beiyang Government (北洋政府)",
               "note": "1912–1928",
-              "regime": "beiyang_government"
+              "polity": "beiyang_government"
             },
             {
               "label": "Warlord Era (军阀混战)",
@@ -883,7 +883,7 @@
             {
               "label": "Chinese Empire — Yuan Shikai",
               "note": "1915–1916",
-              "regime": "chinese_empire"
+              "polity": "chinese_empire"
             }
           ],
           "span": 2
@@ -910,17 +910,17 @@
             {
               "label": "Nationalist Government (国民政府)",
               "note": "1928–1949",
-              "regime": "nationalist_government"
+              "polity": "nationalist_government"
             },
             {
               "label": "Wuhan Government (武汉政府)",
               "note": "1927",
-              "regime": "wuhan_government"
+              "polity": "wuhan_government"
             },
             {
               "label": "Chinese Soviet Republic (中华苏维埃)",
               "note": "1931–1937, Jiangxi",
-              "regime": "chinese_soviet_republic"
+              "polity": "chinese_soviet_republic"
             }
           ],
           "span": 2
@@ -930,12 +930,12 @@
             {
               "label": "Manchukuo (满洲国)",
               "note": "1932–1945, Japanese puppet",
-              "regime": "manchukuo"
+              "polity": "manchukuo"
             },
             {
               "label": "Mengjiang",
               "note": "1936–1945, Inner Mongolia",
-              "regime": "mengjiang"
+              "polity": "mengjiang"
             }
           ],
           "span": 1
@@ -954,7 +954,7 @@
             {
               "label": "Wang Jingwei regime (汪精卫政权)",
               "note": "1940–1945, Nanjing",
-              "regime": "wang_jingwei_regime"
+              "polity": "wang_jingwei_regime"
             },
             {
               "label": "Chinese Civil War (国共内战)",
@@ -968,7 +968,7 @@
             {
               "label": "Manchukuo · Japanese occupation",
               "note": "Soviet entry into Manchuria (1945)",
-              "regime": "manchukuo"
+              "polity": "manchukuo"
             }
           ],
           "span": 1
@@ -986,12 +986,12 @@
             {
               "label": "People's Republic of China (中华人民共和国)",
               "note": "1949–",
-              "regime": "peoples_republic_of_china"
+              "polity": "peoples_republic_of_china"
             },
             {
               "label": "Republic of China (中华民国) — Taiwan",
               "note": "1949– retreat to Taiwan",
-              "regime": "republic_of_china"
+              "polity": "republic_of_china"
             }
           ],
           "span": 3

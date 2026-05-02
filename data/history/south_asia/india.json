@@ -50,7 +50,7 @@
             {
               "label": "Gandhara (Taxila) · Kuru Kingdom",
               "note": null,
-              "regime": "gandhara_kuru_kingdom"
+              "polity": "gandhara_kuru_kingdom"
             }
           ],
           "span": 1
@@ -60,7 +60,7 @@
             {
               "label": "Kuru Kingdom · Panchala Kingdom",
               "note": "c.1200–500 BCE; Painted Grey Ware culture",
-              "regime": "kuru_kingdom"
+              "polity": "kuru_kingdom"
             }
           ],
           "span": 1
@@ -70,12 +70,12 @@
             {
               "label": "Magadha (early Janapada)",
               "note": null,
-              "regime": "magadha"
+              "polity": "magadha"
             },
             {
               "label": "Adivasi tribal communities",
               "note": null,
-              "regime": "adivasi_tribal_communities"
+              "polity": "adivasi_tribal_communities"
             }
           ],
           "span": 1
@@ -83,12 +83,12 @@
         {
           "label": "Assaka (Deccan Janapada)",
           "span": 1,
-          "regime": "assaka"
+          "polity": "assaka"
         },
         {
           "label": "Prehistoric (megalithic cultures)",
           "span": 1,
-          "regime": "prehistoric_culture"
+          "polity": "prehistoric_culture"
         }
       ]
     },
@@ -101,7 +101,7 @@
         {
           "stack": [
             {
-              "regime": "achaemenid_empire",
+              "polity": "achaemenid_empire",
               "label": "Achaemenid Empire — Gandhara & Hindush Satrapies",
               "note": "c.520–330 BCE; Persian-Greek cultural influx"
             }
@@ -113,12 +113,12 @@
             {
               "label": "Second Urbanisation wave",
               "note": "c.600–300 BCE",
-              "regime": "second_urbanisation_wave"
+              "polity": "second_urbanisation_wave"
             },
             {
               "label": "Shramana movements — Jainism · Buddhism · Ajivika · Yoga",
               "note": null,
-              "regime": "shramana_movements"
+              "polity": "shramana_movements"
             }
           ],
           "span": 1
@@ -128,10 +128,10 @@
             {
               "label": "Shishunaga dynasty (Magadha)",
               "note": "c.413–345 BCE",
-              "regime": "shishunaga_dynasty"
+              "polity": "shishunaga_dynasty"
             },
             {
-              "regime": "nanda_empire",
+              "polity": "nanda_empire",
               "label": "Nanda Empire",
               "note": "c.345–322 BCE"
             }
@@ -141,12 +141,12 @@
         {
           "label": "Assaka (continuing)",
           "span": 1,
-          "regime": "assaka"
+          "polity": "assaka"
         },
         {
           "label": "Prehistoric",
           "span": 1,
-          "regime": "prehistoric"
+          "polity": "prehistoric"
         }
       ]
     },
@@ -159,12 +159,12 @@
         {
           "stack": [
             {
-              "regime": "seleucid_empire",
+              "polity": "seleucid_empire",
               "label": "Seleucid Empire (briefly)",
               "note": "312–305 BCE; Alexander the Great (Hydaspes · Gedrosia) (326–325 BCE)"
             },
             {
-              "regime": "maurya_empire",
+              "polity": "maurya_empire",
               "label": "Maurya Empire",
               "note": "322–185 BCE"
             }
@@ -172,14 +172,14 @@
           "span": 1
         },
         {
-          "regime": "maurya_empire",
+          "polity": "maurya_empire",
           "label": "Maurya Empire — Pataliputra capital · Chandragupta · Ashoka",
           "span": 3
         },
         {
           "stack": [
             {
-              "regime": "satavahana_empire",
+              "polity": "satavahana_empire",
               "label": "Satavahana Dynasty (emerging)",
               "note": "c.230 BCE"
             },
@@ -201,12 +201,12 @@
         {
           "stack": [
             {
-              "regime": "indo_greek_kingdom",
+              "polity": "indo_greek_kingdom",
               "label": "Indo-Greek Kingdom (Menander I / Milinda)",
               "note": "c.180–10 BCE"
             },
             {
-              "regime": "indo_scythian_kingdom",
+              "polity": "indo_scythian_kingdom",
               "label": "Indo-Scythians",
               "note": "c.100 BCE onward"
             }
@@ -216,19 +216,19 @@
         {
           "stack": [
             {
-              "regime": "shunga_dynasty",
+              "polity": "shunga_dynasty",
               "label": "Shunga Dynasty",
               "note": "185–73 BCE"
             },
             {
               "label": "Kanva dynasty",
               "note": "73–28 BCE",
-              "regime": "kanva_dynasty"
+              "polity": "kanva_dynasty"
             },
             {
               "label": "Kuninda Kingdom",
               "note": null,
-              "regime": "kuninda_kingdom"
+              "polity": "kuninda_kingdom"
             }
           ],
           "span": 1
@@ -238,18 +238,18 @@
             {
               "label": "Mahameghavahana dynasty (Kalinga)",
               "note": "c.100 BCE–400 CE",
-              "regime": "mahameghavahana_dynasty"
+              "polity": "mahameghavahana_dynasty"
             },
             {
               "label": "Adivasi tribal communities",
               "note": null,
-              "regime": "adivasi_tribal_communities"
+              "polity": "adivasi_tribal_communities"
             }
           ],
           "span": 1
         },
         {
-          "regime": "satavahana_empire",
+          "polity": "satavahana_empire",
           "label": "Satavahana Dynasty — Deccan overlords",
           "span": 1
         },
@@ -273,17 +273,17 @@
         {
           "stack": [
             {
-              "regime": "indo_scythian_kingdom",
+              "polity": "indo_scythian_kingdom",
               "label": "Indo-Scythians — Western Satraps",
               "note": "c.100 BCE–400 CE"
             },
             {
-              "regime": "indo_parthian_kingdom",
+              "polity": "indo_parthian_kingdom",
               "label": "Indo-Parthian Kingdom (Gondophares)",
               "note": "c.19 BCE–226 CE"
             },
             {
-              "regime": "kushan_empire",
+              "polity": "kushan_empire",
               "label": "Kushan Empire",
               "note": "c.30–375 CE"
             }
@@ -293,12 +293,12 @@
         {
           "stack": [
             {
-              "regime": "kushan_empire",
+              "polity": "kushan_empire",
               "label": "Kushan Empire (Mathura second capital)",
               "note": "c.30–375 CE"
             },
             {
-              "regime": "kushano_sasanian_kingdom",
+              "polity": "kushano_sasanian_kingdom",
               "label": "Kushano-Sasanian (western frontier)",
               "note": "c.230–365"
             }
@@ -310,18 +310,18 @@
             {
               "label": "Kamarupa Kingdom (Assam / NE India)",
               "note": "c.350–1140",
-              "regime": "kamarupa_kingdom"
+              "polity": "kamarupa_kingdom"
             },
             {
               "label": "Adivasi tribal communities",
               "note": null,
-              "regime": "adivasi_tribal_communities"
+              "polity": "adivasi_tribal_communities"
             }
           ],
           "span": 1
         },
         {
-          "regime": "satavahana_empire",
+          "polity": "satavahana_empire",
           "label": "Satavahana Dynasty (declining)",
           "span": 1
         },
@@ -332,12 +332,12 @@
               "note": null
             },
             {
-              "regime": "chola_empire",
+              "polity": "chola_empire",
               "label": "Chola (early — Sangam period)",
               "note": null
             },
             {
-              "regime": "pandya_dynasty",
+              "polity": "pandya_dynasty",
               "label": "Pandya Dynasty",
               "note": null
             }
@@ -357,10 +357,10 @@
             {
               "label": "Kidarites (Hunnic)",
               "note": "c.350–467",
-              "regime": "kidarites"
+              "polity": "kidarites"
             },
             {
-              "regime": "hephthalite_empire",
+              "polity": "hephthalite_empire",
               "label": "Hephthalites — Alchon Huns (Toramana · Mihirakula)",
               "note": "c.460–528"
             }
@@ -370,7 +370,7 @@
         {
           "stack": [
             {
-              "regime": "gupta_empire",
+              "polity": "gupta_empire",
               "label": "Gupta Empire — Golden Age of India",
               "note": "c.320–550 CE; Chandragupta I · Samudragupta · Chandragupta II · Kumaragupta"
             }
@@ -382,17 +382,17 @@
             {
               "label": "Andhra Ikshvaku",
               "note": "c.210–340",
-              "regime": "andhra_ikshvaku"
+              "polity": "andhra_ikshvaku"
             },
             {
               "label": "Vakataka Dynasty",
               "note": "c.250–500",
-              "regime": "vakataka_dynasty"
+              "polity": "vakataka_dynasty"
             },
             {
               "label": "Kadamba Dynasty",
               "note": "c.345–525",
-              "regime": "kadamba_dynasty"
+              "polity": "kadamba_dynasty"
             }
           ],
           "span": 1
@@ -402,7 +402,7 @@
             {
               "label": "Western Ganga Dynasty",
               "note": "c.350–1000",
-              "regime": "western_ganga_dynasty"
+              "polity": "western_ganga_dynasty"
             },
             {
               "label": "Kalabhra interregnum",
@@ -424,17 +424,17 @@
             {
               "label": "Nezak Huns · Turk Shahis (Gandhara)",
               "note": "c.565–870",
-              "regime": "nezak_huns"
+              "polity": "nezak_huns"
             },
             {
               "label": "Zunbil dynasty (Zabulistan)",
               "note": "c.650–870",
-              "regime": "zunbil_dynasty"
+              "polity": "zunbil_dynasty"
             },
             {
               "label": "Maitraka dynasty (Gujarat)",
               "note": "c.475–776",
-              "regime": "maitraka_dynasty"
+              "polity": "maitraka_dynasty"
             }
           ],
           "span": 1
@@ -442,14 +442,14 @@
         {
           "stack": [
             {
-              "regime": "harsha_empire",
+              "polity": "harsha_empire",
               "label": "Vardhana dynasty — Harsha (Kannauj)",
               "note": "606–647 CE"
             },
             {
               "label": "Karkota dynasty (Kashmir)",
               "note": "c.625–855",
-              "regime": "karkota_dynasty"
+              "polity": "karkota_dynasty"
             }
           ],
           "span": 1
@@ -459,12 +459,12 @@
             {
               "label": "Kamarupa Kingdom (Bhaskaravarman — Harsha's ally)",
               "note": null,
-              "regime": "kamarupa_kingdom"
+              "polity": "kamarupa_kingdom"
             },
             {
               "label": "Adivasi tribal communities",
               "note": null,
-              "regime": "adivasi_tribal_communities"
+              "polity": "adivasi_tribal_communities"
             }
           ],
           "span": 1
@@ -472,19 +472,19 @@
         {
           "stack": [
             {
-              "regime": "chalukya_dynasty",
+              "polity": "chalukya_dynasty",
               "label": "Chalukya Dynasty (Badami) — Pulakeshin II defeated Harsha",
               "note": "543–757"
             },
             {
               "label": "Eastern Chalukya (Vengi)",
               "note": "c.624–1189",
-              "regime": "eastern_chalukya"
+              "polity": "eastern_chalukya"
             },
             {
               "label": "Vishnukundina Dynasty",
               "note": "c.420–624",
-              "regime": "vishnukundina_dynasty"
+              "polity": "vishnukundina_dynasty"
             }
           ],
           "span": 1
@@ -492,12 +492,12 @@
         {
           "stack": [
             {
-              "regime": "pallava_dynasty",
+              "polity": "pallava_dynasty",
               "label": "Pallava Dynasty (Kanchipuram)",
               "note": "c.275–897"
             },
             {
-              "regime": "pandya_dynasty",
+              "polity": "pandya_dynasty",
               "label": "Pandya Dynasty (Madurai)",
               "note": null
             }
@@ -517,10 +517,10 @@
             {
               "label": "Hindu Shahis (NW India & Gandhara)",
               "note": "c.843–1026",
-              "regime": "hindu_shahis"
+              "polity": "hindu_shahis"
             },
             {
-              "regime": "pratihara_dynasty",
+              "polity": "pratihara_dynasty",
               "label": "Gurjara-Pratihara Dynasty (Gujarat · Rajasthan)",
               "note": "c.730–1036"
             }
@@ -528,14 +528,14 @@
           "span": 1
         },
         {
-          "regime": "pratihara_dynasty",
+          "polity": "pratihara_dynasty",
           "label": "Gurjara-Pratihara Dynasty — Kannauj hegemon · Tripartite Struggle",
           "span": 1
         },
         {
           "stack": [
             {
-              "regime": "pala_empire",
+              "polity": "pala_empire",
               "label": "Pala Empire (Bihar & Bengal)",
               "note": "c.750–1161; Nalanda · Vikramashila Buddhist universities"
             }
@@ -545,20 +545,20 @@
         {
           "stack": [
             {
-              "regime": "rashtrakuta_dynasty",
+              "polity": "rashtrakuta_dynasty",
               "label": "Rashtrakuta Dynasty — Ellora · Kailasa temple",
               "note": "753–982"
             },
             {
               "label": "Eastern Chalukya (Vengi, continuing)",
               "note": null,
-              "regime": "eastern_chalukya"
+              "polity": "eastern_chalukya"
             }
           ],
           "span": 1
         },
         {
-          "regime": "chola_empire",
+          "polity": "chola_empire",
           "label": "Chola Empire (re-emerging under Vijayalaya)",
           "span": 1
         }
@@ -573,14 +573,14 @@
         {
           "stack": [
             {
-              "regime": "ghaznavid_empire",
+              "polity": "ghaznavid_empire",
               "label": "Ghaznavid Empire — Mahmud's 17 raids",
               "note": "977–1186"
             },
             {
               "label": "Rajput kingdoms (Guhila · Chavda · Chahamana)",
               "note": null,
-              "regime": "rajput_kingdoms"
+              "polity": "rajput_kingdoms"
             }
           ],
           "span": 1
@@ -590,12 +590,12 @@
             {
               "label": "Rajput kingdoms — Chandela · Paramara · Tomara · Kalachuri",
               "note": null,
-              "regime": "rajput_kingdoms"
+              "polity": "rajput_kingdoms"
             },
             {
               "label": "Pratihara declining → Rajput fragmentation",
               "note": null,
-              "regime": "pratihara_dynasty"
+              "polity": "pratihara_dynasty"
             }
           ],
           "span": 1
@@ -603,19 +603,19 @@
         {
           "stack": [
             {
-              "regime": "pala_empire",
+              "polity": "pala_empire",
               "label": "Pala Empire (declining)",
               "note": null
             },
             {
               "label": "Kamboja-Pala interlude",
               "note": null,
-              "regime": "kamboja_pala_interlude"
+              "polity": "kamboja_pala_interlude"
             },
             {
               "label": "Sena Dynasty",
               "note": "c.1070–1230",
-              "regime": "sena_dynasty"
+              "polity": "sena_dynasty"
             }
           ],
           "span": 1
@@ -623,14 +623,14 @@
         {
           "stack": [
             {
-              "regime": "western_chalukya",
+              "polity": "western_chalukya",
               "label": "Western Chalukya Empire (Kalyani)",
               "note": "973–1189"
             },
             {
               "label": "Eastern Chalukya (continuing)",
               "note": null,
-              "regime": "eastern_chalukya"
+              "polity": "eastern_chalukya"
             }
           ],
           "span": 1
@@ -638,7 +638,7 @@
         {
           "stack": [
             {
-              "regime": "chola_empire",
+              "polity": "chola_empire",
               "label": "Chola Empire — Rajaraja I · Rajendra I · maritime empire",
               "note": "985–1070"
             }
@@ -656,12 +656,12 @@
         {
           "stack": [
             {
-              "regime": "ghorid_dynasty",
+              "polity": "ghorid_dynasty",
               "label": "Ghorid Sultanate — Muhammad of Ghor",
               "note": "1175–1206"
             },
             {
-              "regime": "delhi_sultanate",
+              "polity": "delhi_sultanate",
               "label": "Delhi Sultanate (Mamluk / Slave dynasty)",
               "note": "1206–1290"
             }
@@ -671,7 +671,7 @@
         {
           "stack": [
             {
-              "regime": "delhi_sultanate",
+              "polity": "delhi_sultanate",
               "label": "Delhi Sultanate expansion into Bengal",
               "note": "Sena Dynasty (falling to Bakhtiyar Khalji 1203)"
             }
@@ -683,17 +683,17 @@
             {
               "label": "Yadava dynasty (Devagiri)",
               "note": "c.850–1317",
-              "regime": "yadava_dynasty"
+              "polity": "yadava_dynasty"
             },
             {
-              "regime": "kakatiya_dynasty",
+              "polity": "kakatiya_dynasty",
               "label": "Kakatiya Dynasty (Warangal)",
               "note": "1083–1323"
             },
             {
               "label": "Gajapati dynasty (Odisha)",
               "note": "c.1078–1541",
-              "regime": "gajapati_dynasty"
+              "polity": "gajapati_dynasty"
             }
           ],
           "span": 1
@@ -701,17 +701,17 @@
         {
           "stack": [
             {
-              "regime": "hoysala_dynasty",
+              "polity": "hoysala_dynasty",
               "label": "Hoysala Empire (Belur · Halebidu)",
               "note": "1006–1346"
             },
             {
-              "regime": "pandya_dynasty",
+              "polity": "pandya_dynasty",
               "label": "Pandya Dynasty (resurgent)",
               "note": null
             },
             {
-              "regime": "chola_empire",
+              "polity": "chola_empire",
               "label": "Chola Empire (declining)",
               "note": "to 1279"
             }
@@ -724,7 +724,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "delhi_sultanate",
+          "polity": "delhi_sultanate",
           "label": "Delhi Sultanate (Khalji dynasty) — Alauddin Khalji · Malik Kafur raids Deccan & South",
           "note": "1290–1320",
           "span": 3
@@ -732,7 +732,7 @@
         {
           "stack": [
             {
-              "regime": "delhi_sultanate",
+              "polity": "delhi_sultanate",
               "label": "Delhi Sultanate — Khalji conquests in Deccan",
               "note": "1296–1318"
             }
@@ -744,7 +744,7 @@
             {
               "label": "Madurai Sultanate",
               "note": "1335–1378",
-              "regime": "madurai_sultanate"
+              "polity": "madurai_sultanate"
             }
           ],
           "span": 1
@@ -760,22 +760,22 @@
         {
           "stack": [
             {
-              "regime": "delhi_sultanate",
+              "polity": "delhi_sultanate",
               "label": "Delhi Sultanate (Tughluq dynasty)",
               "note": "1320–1413"
             },
             {
               "label": "Malwa Sultanate · Gujarat Sultanate · Multan Emirate",
               "note": null,
-              "regime": "gujarat_sultanate"
+              "polity": "gujarat_sultanate"
             },
             {
-              "regime": "timurid_empire",
+              "polity": "timurid_empire",
               "label": "Timurid Empire — Timur sacks Delhi (1398)",
               "note": null
             },
             {
-              "regime": "delhi_sultanate",
+              "polity": "delhi_sultanate",
               "label": "Delhi Sultanate (Sayyid dynasty)",
               "note": "1414–1451"
             },
@@ -789,19 +789,19 @@
         {
           "stack": [
             {
-              "regime": "delhi_sultanate",
+              "polity": "delhi_sultanate",
               "label": "Delhi Sultanate (Tughluq)",
               "note": null
             },
             {
               "label": "Jaunpur Sultanate",
               "note": "1394–1479",
-              "regime": "jaunpur_sultanate"
+              "polity": "jaunpur_sultanate"
             },
             {
               "label": "Hindu remnant states",
               "note": null,
-              "regime": "hindu_remnant_states"
+              "polity": "hindu_remnant_states"
             }
           ],
           "span": 1
@@ -809,14 +809,14 @@
         {
           "stack": [
             {
-              "regime": "bengal_sultanate",
+              "polity": "bengal_sultanate",
               "label": "Bengal Sultanate",
               "note": "1352–1576"
             },
             {
               "label": "Ilyas Shahi · Hussain Shahi dynasties",
               "note": null,
-              "regime": "ilyas_shahi"
+              "polity": "ilyas_shahi"
             }
           ],
           "span": 1
@@ -824,7 +824,7 @@
         {
           "stack": [
             {
-              "regime": "bahmani_sultanate",
+              "polity": "bahmani_sultanate",
               "label": "Bahmani Sultanate",
               "note": "1347–1527"
             },
@@ -836,7 +836,7 @@
           "span": 1
         },
         {
-          "regime": "vijayanagara_empire",
+          "polity": "vijayanagara_empire",
           "label": "Vijayanagara Empire — last great Hindu empire of South India",
           "note": "1336–1646",
           "span": 1
@@ -852,7 +852,7 @@
         {
           "stack": [
             {
-              "regime": "delhi_sultanate",
+              "polity": "delhi_sultanate",
               "label": "Delhi Sultanate (Lodi dynasty)",
               "note": "1451–1526"
             },
@@ -861,12 +861,12 @@
               "note": null
             },
             {
-              "regime": "sur_empire",
+              "polity": "sur_empire",
               "label": "Sur Empire (Sher Shah Suri)",
               "note": "1540–1556"
             },
             {
-              "regime": "mughal_empire",
+              "polity": "mughal_empire",
               "label": "Mughal Empire — Akbar the Great",
               "note": "1556 onward"
             }
@@ -876,12 +876,12 @@
         {
           "stack": [
             {
-              "regime": "bengal_sultanate",
+              "polity": "bengal_sultanate",
               "label": "Bengal Sultanate (to 1576)",
               "note": null
             },
             {
-              "regime": "mughal_empire",
+              "polity": "mughal_empire",
               "label": "Mughal Empire — Bengal Subah",
               "note": "1576 onward"
             }
@@ -893,7 +893,7 @@
             {
               "label": "Deccan Sultanates (continuing)",
               "note": null,
-              "regime": "deccan_sultanates"
+              "polity": "deccan_sultanates"
             }
           ],
           "span": 1
@@ -903,15 +903,15 @@
             {
               "label": "Madurai Nayak dynasty",
               "note": "1529–1736",
-              "regime": "madurai_nayak_dynasty"
+              "polity": "madurai_nayak_dynasty"
             },
             {
-              "regime": "mysore_kingdom",
+              "polity": "mysore_kingdom",
               "label": "Mysore Kingdom (Wodeyar)",
               "note": "from 1399"
             },
             {
-              "regime": "vijayanagara_empire",
+              "polity": "vijayanagara_empire",
               "label": "Vijayanagara (Aravidu dynasty — declining)",
               "note": null
             }
@@ -927,19 +927,19 @@
       },
       "cells": [
         {
-          "regime": "mughal_empire",
+          "polity": "mughal_empire",
           "label": "Mughal Empire — Jahangir · Shah Jahan · Aurangzeb",
           "span": 3
         },
         {
           "stack": [
             {
-              "regime": "mughal_empire",
+              "polity": "mughal_empire",
               "label": "Mughal conquest of Deccan Sultanates (Aurangzeb)",
               "note": null
             },
             {
-              "regime": "maratha_empire",
+              "polity": "maratha_empire",
               "label": "Maratha Empire (rising — Shivaji)",
               "note": "from 1674"
             }
@@ -951,10 +951,10 @@
             {
               "label": "Madurai Nayak (continuing)",
               "note": null,
-              "regime": "madurai_nayak"
+              "polity": "madurai_nayak"
             },
             {
-              "regime": "mysore_kingdom",
+              "polity": "mysore_kingdom",
               "label": "Mysore Kingdom",
               "note": null
             }
@@ -972,27 +972,27 @@
         {
           "stack": [
             {
-              "regime": "mughal_empire",
+              "polity": "mughal_empire",
               "label": "Mughal Empire (crumbling)",
               "note": null
             },
             {
-              "regime": "afsharid_dynasty",
+              "polity": "afsharid_dynasty",
               "label": "Afsharid — Nadir Shah sacks Delhi (1739)",
               "note": null
             },
             {
-              "regime": "durrani_empire",
+              "polity": "durrani_empire",
               "label": "Durrani Empire (Punjab raids · Battle of Panipat 1761)",
               "note": null
             },
             {
               "label": "Rajput states · Awadh Nawabate · Rohilkhand",
               "note": null,
-              "regime": "rajput_states"
+              "polity": "rajput_states"
             },
             {
-              "regime": "maratha_empire",
+              "polity": "maratha_empire",
               "label": "Maratha Empire (Peshwa dominance)",
               "note": null
             }
@@ -1002,12 +1002,12 @@
         {
           "stack": [
             {
-              "regime": "mughal_empire",
+              "polity": "mughal_empire",
               "label": "Mughal Empire (nominal)",
               "note": null
             },
             {
-              "regime": "maratha_empire",
+              "polity": "maratha_empire",
               "label": "Maratha Empire — controls Delhi (from 1771)",
               "note": null
             }
@@ -1021,7 +1021,7 @@
               "note": null
             },
             {
-              "regime": "british_raj",
+              "polity": "british_raj",
               "label": "British Bengal (Company rule)",
               "note": "from 1757; Battle of Plassey (1757) — British East India Company"
             }
@@ -1033,17 +1033,17 @@
             {
               "label": "Hyderabad (Nizam — Asaf Jahi dynasty)",
               "note": "from 1724",
-              "regime": "hyderabad_state"
+              "polity": "hyderabad_state"
             },
             {
-              "regime": "maratha_empire",
+              "polity": "maratha_empire",
               "label": "Maratha Empire (Deccan heartland)",
               "note": null
             },
             {
               "label": "Carnatic Sultanate / Nawabate",
               "note": null,
-              "regime": "carnatic_sultanate"
+              "polity": "carnatic_sultanate"
             }
           ],
           "span": 1
@@ -1051,7 +1051,7 @@
         {
           "stack": [
             {
-              "regime": "mysore_kingdom",
+              "polity": "mysore_kingdom",
               "label": "Mysore Kingdom — Hyder Ali · Tipu Sultan",
               "note": null
             },
@@ -1060,7 +1060,7 @@
               "note": null
             },
             {
-              "regime": "maratha_empire",
+              "polity": "maratha_empire",
               "label": "Maratha Empire (southern campaigns)",
               "note": null
             }
@@ -1078,14 +1078,14 @@
         {
           "stack": [
             {
-              "regime": "sikh_empire",
+              "polity": "sikh_empire",
               "label": "Sikh Empire — Ranjit Singh (Punjab)",
               "note": "1799–1849"
             },
             {
               "label": "Sindh Nawabs · Kalat Khanate",
               "note": null,
-              "regime": "sindh_nawabs"
+              "polity": "sindh_nawabs"
             }
           ],
           "span": 1
@@ -1093,7 +1093,7 @@
         {
           "stack": [
             {
-              "regime": "british_raj",
+              "polity": "british_raj",
               "label": "British East India Company — Company Raj",
               "note": "Anglo-Maratha Wars · Anglo-Mysore Wars · Anglo-Sikh Wars; Colonisation of the Indian subcontinent"
             }
@@ -1108,7 +1108,7 @@
         {
           "stack": [
             {
-              "regime": "british_raj",
+              "polity": "british_raj",
               "label": "British Indian Empire (British Raj)",
               "note": "1858–1947; Sepoy Mutiny / Indian Rebellion (1857–1858); End of Mughal Empire (1857) · Transition from Company to Crown rule"
             }
@@ -1126,7 +1126,7 @@
         {
           "stack": [
             {
-              "regime": "british_raj",
+              "polity": "british_raj",
               "label": "British Raj — World War I · Non-cooperation · Quit India · World War II",
               "note": "Statute of Westminster (1931) — Dominion sovereignty; Post-WWII: Dominion of Pakistan · Dominion of India (1947)"
             }
@@ -1139,12 +1139,12 @@
       "era": null,
       "cells": [
         {
-          "regime": "pakistan",
+          "polity": "pakistan",
           "label": "Pakistan (West Pakistan)",
           "span": 1
         },
         {
-          "regime": "republic_of_india",
+          "polity": "republic_of_india",
           "label": "Republic of India",
           "span": 3
         },
@@ -1153,12 +1153,12 @@
             {
               "label": "East Pakistan (1947–1971)",
               "note": "Bangladesh Liberation War (1971)",
-              "regime": "pakistan"
+              "polity": "pakistan"
             },
             {
               "label": "People's Republic of Bangladesh",
               "note": "from 1971",
-              "regime": "peoples_republic_of_bangladesh"
+              "polity": "peoples_republic_of_bangladesh"
             }
           ],
           "span": 1

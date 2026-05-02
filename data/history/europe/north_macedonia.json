@@ -36,7 +36,7 @@
             {
               "label": "Paeonians (indigenous)",
               "note": "c.700–358 BCE",
-              "regime": "paeonians"
+              "polity": "paeonians"
             },
             {
               "label": "Ancient Greek influence (south)"
@@ -49,7 +49,7 @@
             {
               "label": "Kingdom of Paeonia",
               "note": "c.600 BCE–",
-              "regime": "kingdom_of_paeonia"
+              "polity": "kingdom_of_paeonia"
             },
             {
               "label": "Persian satrapy (briefly)",
@@ -62,11 +62,11 @@
           "stack": [
             {
               "label": "Kingdom of Paeonia",
-              "regime": "kingdom_of_paeonia"
+              "polity": "kingdom_of_paeonia"
             },
             {
               "label": "Thracian borderlands",
-              "regime": "thracian_borderlands"
+              "polity": "thracian_borderlands"
             }
           ],
           "span": 1
@@ -81,17 +81,17 @@
             {
               "label": "Macedonian Kingdom — Philip II conquered Paeonia",
               "note": "358 BCE",
-              "regime": "macedonian_kingdom"
+              "polity": "macedonian_kingdom"
             },
             {
               "label": "Roman Macedonia province",
               "note": "148 BCE–",
-              "regime": "roman_macedonia_province"
+              "polity": "roman_macedonia_province"
             },
             {
               "label": "Hunnic raids · Germanic migrations",
               "note": "4th–6th c. CE",
-              "regime": "hunnic_raids"
+              "polity": "hunnic_raids"
             }
           ],
           "span": 3
@@ -108,12 +108,12 @@
           "stack": [
             {
               "label": "Byzantine Empire",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             },
             {
               "label": "South Slavic migration southward",
               "note": "6th–7th c.",
-              "regime": "south_slavic_migration_southward"
+              "polity": "south_slavic_migration_southward"
             }
           ],
           "span": 3
@@ -127,7 +127,7 @@
           "stack": [
             {
               "label": "Byzantine Empire (Ohrid — major cultural centre)",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -137,7 +137,7 @@
             {
               "label": "First Bulgarian Empire",
               "note": "864–1018",
-              "regime": "first_bulgarian_empire"
+              "polity": "first_bulgarian_empire"
             }
           ],
           "span": 2
@@ -151,17 +151,17 @@
           "stack": [
             {
               "label": "Byzantine reconquest (1018) — Ohrid Archbishopric",
-              "regime": "byzantine_reconquest"
+              "polity": "byzantine_reconquest"
             },
             {
               "label": "Second Bulgarian Empire",
               "note": "1185–",
-              "regime": "second_bulgarian_empire"
+              "polity": "second_bulgarian_empire"
             },
             {
               "label": "Serbian Empire — Stefan Dušan",
               "note": "1331–1371",
-              "regime": "serbian_empire"
+              "polity": "serbian_empire"
             }
           ],
           "span": 3
@@ -176,7 +176,7 @@
             {
               "label": "Medieval Serbian Principality (fragmented)",
               "note": "after 1371",
-              "regime": "medieval_serbian_principality"
+              "polity": "medieval_serbian_principality"
             }
           ],
           "span": 2
@@ -186,7 +186,7 @@
             {
               "label": "Ottoman — early conquest",
               "note": "from 1385",
-              "regime": "ottoman_empire"
+              "polity": "ottoman_empire"
             }
           ],
           "span": 1
@@ -200,7 +200,7 @@
       },
       "cells": [
         {
-          "regime": "ottoman_empire",
+          "polity": "ottoman_empire",
           "label": "Ottoman Empire — Monastir, Kosovo & Salonika vilayets",
           "span": 3
         }
@@ -220,7 +220,7 @@
             },
             {
               "label": "Ottoman Empire (suppressed uprising)",
-              "regime": "ottoman_empire"
+              "polity": "ottoman_empire"
             }
           ],
           "span": 1
@@ -229,7 +229,7 @@
           "stack": [
             {
               "label": "Ottoman Empire",
-              "regime": "ottoman_empire"
+              "polity": "ottoman_empire"
             },
             {
               "label": "Serbia — after First Balkan War",
@@ -251,7 +251,7 @@
             },
             {
               "label": "Vardar Banovina",
-              "regime": "vardar_banovina"
+              "polity": "vardar_banovina"
             }
           ],
           "span": 3
@@ -266,12 +266,12 @@
             {
               "label": "Italian Albania (occupied western districts)",
               "note": "1941–1943",
-              "regime": "italian_albania"
+              "polity": "italian_albania"
             },
             {
               "label": "Albanian Kingdom",
               "note": "1943–1944",
-              "regime": "albanian_kingdom"
+              "polity": "albanian_kingdom"
             }
           ],
           "span": 1
@@ -285,7 +285,7 @@
             {
               "label": "Independent State of Macedonia",
               "note": "briefly Sept–Nov 1944",
-              "regime": "independent_state_of_macedonia"
+              "polity": "independent_state_of_macedonia"
             }
           ],
           "span": 2
@@ -303,17 +303,17 @@
             },
             {
               "label": "Socialist Republic of Macedonia",
-              "regime": "socialist_republic_of_macedonia"
+              "polity": "socialist_republic_of_macedonia"
             },
             {
               "label": "Republic of Macedonia",
               "note": "1991–2019",
-              "regime": "republic_of_macedonia"
+              "polity": "republic_of_macedonia"
             },
             {
               "label": "North Macedonia",
               "note": "2019–present",
-              "regime": "north_macedonia"
+              "polity": "north_macedonia"
             }
           ],
           "span": 3

@@ -41,37 +41,37 @@
             {
               "label": "Neanderthals",
               "note": "c.400,000–30,000 BCE",
-              "regime": "neanderthals"
+              "polity": "neanderthals"
             },
             {
               "label": "Homo sapiens migration",
               "note": "c.45,000 BCE–",
-              "regime": "homo_sapiens_migration"
+              "polity": "homo_sapiens_migration"
             },
             {
               "label": "Magdalenian culture",
               "note": "c.17,000–12,000 BCE",
-              "regime": "magdalenian_culture"
+              "polity": "magdalenian_culture"
             },
             {
               "label": "Early European farmers",
               "note": "c.5500 BCE–",
-              "regime": "early_european_farmers"
+              "polity": "early_european_farmers"
             },
             {
               "label": "Atlantic megalithic culture",
               "note": "c.4500–2000 BCE",
-              "regime": "atlantic_megalithic_culture"
+              "polity": "atlantic_megalithic_culture"
             },
             {
               "label": "Cardial / Impressed Ware culture",
               "note": "c.5500–4500 BCE",
-              "regime": "cardial_culture"
+              "polity": "cardial_culture"
             },
             {
               "label": "Atlantic Bronze Age",
               "note": "c.1300–700 BCE",
-              "regime": "atlantic_bronze_age_culture"
+              "polity": "atlantic_bronze_age_culture"
             },
             {
               "label": "Tumulus culture → Urnfield culture",
@@ -80,12 +80,12 @@
             {
               "label": "Hallstatt culture",
               "note": "c.800–450 BCE",
-              "regime": "hallstatt_culture"
+              "polity": "hallstatt_culture"
             },
             {
               "label": "La Tène culture",
               "note": "c.450–50 BCE",
-              "regime": "la_tene_culture"
+              "polity": "la_tene_culture"
             }
           ],
           "span": 4
@@ -103,12 +103,12 @@
             {
               "label": "Belgae (Gallia Belgica)",
               "note": "c.300 BCE–",
-              "regime": "belgae"
+              "polity": "belgae"
             },
             {
               "label": "Parisii · Suessiones · Remi · Nervii",
               "note": "",
-              "regime": "parisii_suessiones_remi_nervii"
+              "polity": "parisii_suessiones_remi_nervii"
             }
           ],
           "span": 1
@@ -118,12 +118,12 @@
             {
               "label": "Armoricani (Armorica)",
               "note": "c.500 BCE–",
-              "regime": "armoricani"
+              "polity": "armoricani"
             },
             {
               "label": "Veneti · Osismii · Namnetes",
               "note": "",
-              "regime": "veneti_osismii_namnetes"
+              "polity": "veneti_osismii_namnetes"
             }
           ],
           "span": 1
@@ -133,17 +133,17 @@
             {
               "label": "Aquitani (pre-Celtic, Basque-related)",
               "note": "c.800 BCE–",
-              "regime": "aquitani"
+              "polity": "aquitani"
             },
             {
               "label": "Greek Massalia (Marseille)",
               "note": "c.600 BCE–",
-              "regime": "greek_massalia"
+              "polity": "greek_massalia"
             },
             {
               "label": "Gallia Narbonensis (first Roman province)",
               "note": "121 BCE–",
-              "regime": "gallia_narbonensis"
+              "polity": "gallia_narbonensis"
             }
           ],
           "span": 1
@@ -153,12 +153,12 @@
             {
               "label": "Sequani · Aedui · Helvetii",
               "note": "c.500 BCE–",
-              "regime": "sequani_aedui_helvetii"
+              "polity": "sequani_aedui_helvetii"
             },
             {
               "label": "Arverni",
               "note": "c.300 BCE–",
-              "regime": "arverni"
+              "polity": "arverni"
             }
           ],
           "span": 1
@@ -171,12 +171,12 @@
         {
           "stack": [
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic — Gallia Belgica",
               "note": "50–27 BCE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Gallia Belgica · Lugdunensis",
               "note": "27 BCE–380 CE"
             }
@@ -186,12 +186,12 @@
         {
           "stack": [
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic — Gallia Lugdunensis",
               "note": "50–27 BCE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Gallia Lugdunensis",
               "note": "27 BCE–380 CE"
             }
@@ -201,12 +201,12 @@
         {
           "stack": [
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic — Narbonensis · Aquitania",
               "note": "121/50–27 BCE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Narbonensis · Aquitania",
               "note": "27 BCE–380 CE"
             }
@@ -216,12 +216,12 @@
         {
           "stack": [
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic — Belgica (east)",
               "note": "50–27 BCE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Belgica · Germania Superior",
               "note": "27 BCE–380 CE"
             }
@@ -241,22 +241,22 @@
             {
               "label": "Gallic Empire (Postumus)",
               "note": "260–274",
-              "regime": "gallic_empire"
+              "polity": "gallic_empire"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire (Christian)",
               "note": "380–395"
             },
             {
-              "regime": "western_roman_empire",
+              "polity": "western_roman_empire",
               "label": "Western Roman Empire",
               "note": "395–476"
             },
             {
               "label": "Domain of Soissons (Syagrius)",
               "note": "457–486",
-              "regime": "domain_of_soissons"
+              "polity": "domain_of_soissons"
             }
           ],
           "span": 4
@@ -274,12 +274,12 @@
             {
               "label": "Frankish settlement (Salian Franks)",
               "note": "c.350–",
-              "regime": "frankish_settlement"
+              "polity": "frankish_settlement"
             },
             {
               "label": "Frankish Kingdom — Merovingian dynasty",
               "note": "481–751",
-              "regime": "carolingian_empire"
+              "polity": "carolingian_empire"
             }
           ],
           "span": 1
@@ -293,22 +293,22 @@
             {
               "label": "Cornouaille",
               "note": "5th–9th c.",
-              "regime": "cornouaille"
+              "polity": "cornouaille"
             },
             {
               "label": "Domnonée",
               "note": "5th–7th c.",
-              "regime": "domnonee"
+              "polity": "domnonee"
             },
             {
               "label": "Bro Gwened (Broërec)",
               "note": "5th–9th c.",
-              "regime": "bro_gwened"
+              "polity": "bro_gwened"
             },
             {
               "label": "Kingdom of Brittany",
               "note": "845–942",
-              "regime": "kingdom_of_brittany"
+              "polity": "kingdom_of_brittany"
             }
           ],
           "span": 1
@@ -316,14 +316,14 @@
         {
           "stack": [
             {
-              "regime": "visigothic_kingdom",
+              "polity": "visigothic_kingdom",
               "label": "Visigothic Kingdom (Toulouse)",
               "note": "418–507"
             },
             {
               "label": "Al-Andalus (Umayyad raids into Aquitaine)",
               "note": "719–759",
-              "regime": "al_andalus"
+              "polity": "al_andalus"
             }
           ],
           "span": 1
@@ -333,12 +333,12 @@
             {
               "label": "Burgundian Kingdom",
               "note": "411–534",
-              "regime": "burgundian_kingdom"
+              "polity": "burgundian_kingdom"
             },
             {
               "label": "Alemannic settlement (Alsace)",
               "note": "5th c.–",
-              "regime": "alemannic_settlement"
+              "polity": "alemannic_settlement"
             }
           ],
           "span": 1
@@ -353,22 +353,22 @@
             {
               "label": "Frankish Kingdom — Merovingian (Neustria · Austrasia)",
               "note": "511–751",
-              "regime": "carolingian_empire"
+              "polity": "carolingian_empire"
             },
             {
               "label": "Frankish Kingdom — Carolingian dynasty",
               "note": "751–843",
-              "regime": "carolingian_empire"
+              "polity": "carolingian_empire"
             },
             {
-              "regime": "carolingian_empire",
+              "polity": "carolingian_empire",
               "label": "Carolingian Empire (Charlemagne)",
               "note": "800–843"
             },
             {
               "label": "West Frankish Kingdom",
               "note": "843–987",
-              "regime": "west_frankish_kingdom"
+              "polity": "west_frankish_kingdom"
             }
           ],
           "span": 4
@@ -384,7 +384,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_france",
+              "polity": "kingdom_of_france",
               "label": "Kingdom of France — Capetian dynasty",
               "note": "987–1328"
             }
@@ -396,12 +396,12 @@
             {
               "label": "Duchy of Normandy",
               "note": "911–1204",
-              "regime": "duchy_of_normandy"
+              "polity": "duchy_of_normandy"
             },
             {
               "label": "Duchy of Brittany",
               "note": "942–1532",
-              "regime": "duchy_of_brittany"
+              "polity": "duchy_of_brittany"
             }
           ],
           "span": 1
@@ -411,12 +411,12 @@
             {
               "label": "Duchy of Aquitaine",
               "note": "877–1453",
-              "regime": "duchy_of_aquitaine"
+              "polity": "duchy_of_aquitaine"
             },
             {
               "label": "County of Toulouse (Languedoc)",
               "note": "778–1271",
-              "regime": "county_of_toulouse"
+              "polity": "county_of_toulouse"
             },
             {
               "label": "Albigensian Crusade",
@@ -430,17 +430,17 @@
             {
               "label": "Duchy of Burgundy (Capetian cadet)",
               "note": "843–1361",
-              "regime": "duchy_of_burgundy"
+              "polity": "duchy_of_burgundy"
             },
             {
               "label": "County of Burgundy (Franche-Comté)",
               "note": "982–1678",
-              "regime": "county_of_burgundy"
+              "polity": "county_of_burgundy"
             },
             {
               "label": "Duchy of Lorraine",
               "note": "959–1766",
-              "regime": "duchy_of_lorraine"
+              "polity": "duchy_of_lorraine"
             }
           ],
           "span": 1
@@ -453,14 +453,14 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_france",
+              "polity": "kingdom_of_france",
               "label": "Kingdom of France — Valois dynasty",
               "note": "1328–1589"
             },
             {
               "label": "Hundred Years' War",
               "note": "1337–1453",
-              "regime": "hundred_years_war"
+              "polity": "hundred_years_war"
             }
           ],
           "span": 2
@@ -470,7 +470,7 @@
             {
               "label": "English Aquitaine / Gascony (Plantagenet)",
               "note": "1154–1453",
-              "regime": "english_aquitaine"
+              "polity": "english_aquitaine"
             }
           ],
           "span": 1
@@ -480,12 +480,12 @@
             {
               "label": "Duchy of Burgundy — Valois-Burgundy branch",
               "note": "1363–1477",
-              "regime": "duchy_of_burgundy"
+              "polity": "duchy_of_burgundy"
             },
             {
               "label": "Burgundian State (Low Countries + Franche-Comté)",
               "note": "1384–1477",
-              "regime": "burgundian_state"
+              "polity": "burgundian_state"
             }
           ],
           "span": 1
@@ -501,7 +501,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_france",
+              "polity": "kingdom_of_france",
               "label": "Kingdom of France — Valois (continued)",
               "note": "1328–1589"
             },
@@ -521,7 +521,7 @@
             {
               "label": "First Colonial Empire",
               "note": "1534–",
-              "regime": "first_colonial_empire"
+              "polity": "first_colonial_empire"
             }
           ],
           "span": 1
@@ -535,7 +535,7 @@
             {
               "label": "Franche-Comté (French from 1678)",
               "note": "1678–",
-              "regime": "franche_comte"
+              "polity": "franche_comte"
             },
             {
               "label": "Lorraine (HRE — French influence growing)",
@@ -552,7 +552,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_france",
+              "polity": "kingdom_of_france",
               "label": "Kingdom of France — Bourbon dynasty",
               "note": "1589–1792"
             }
@@ -564,7 +564,7 @@
             {
               "label": "Duchy of Lorraine (ceded to France)",
               "note": "1766",
-              "regime": "duchy_of_lorraine"
+              "polity": "duchy_of_lorraine"
             },
             {
               "label": "Alsace fully French",
@@ -586,10 +586,10 @@
             {
               "label": "National Assembly (Assemblée nationale)",
               "note": "1789–1791",
-              "regime": "national_assembly"
+              "polity": "national_assembly"
             },
             {
-              "regime": "kingdom_of_france",
+              "polity": "kingdom_of_france",
               "label": "Constitutional Monarchy",
               "note": "1789–1792"
             }
@@ -609,12 +609,12 @@
             {
               "label": "French First Republic",
               "note": "1792–1804",
-              "regime": "french_first_republic"
+              "polity": "french_first_republic"
             },
             {
               "label": "French First Empire — Bonaparte dynasty",
               "note": "1804–1814",
-              "regime": "french_first_empire"
+              "polity": "french_first_empire"
             }
           ],
           "span": 4
@@ -627,17 +627,17 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_france",
+              "polity": "kingdom_of_france",
               "label": "Restoration — Bourbon dynasty",
               "note": "1814–1830"
             },
             {
               "label": "Hundred Days (Napoleon returns)",
               "note": "March–June 1815",
-              "regime": "hundred_days"
+              "polity": "hundred_days"
             },
             {
-              "regime": "kingdom_of_france",
+              "polity": "kingdom_of_france",
               "label": "July Monarchy — Bourbon-Orléans",
               "note": "1830–1848"
             }
@@ -654,22 +654,22 @@
             {
               "label": "French Second Republic",
               "note": "1848–1852",
-              "regime": "french_second_republic"
+              "polity": "french_second_republic"
             },
             {
               "label": "Second Colonial Empire",
               "note": "1830–",
-              "regime": "second_colonial_empire"
+              "polity": "second_colonial_empire"
             },
             {
               "label": "French Second Empire — Bonaparte dynasty",
               "note": "1852–1870",
-              "regime": "french_second_empire"
+              "polity": "french_second_empire"
             },
             {
               "label": "French Third Republic",
               "note": "1870–1940",
-              "regime": "french_third_republic"
+              "polity": "french_third_republic"
             }
           ],
           "span": 3
@@ -679,7 +679,7 @@
             {
               "label": "Alsace-Lorraine (German Empire)",
               "note": "1871–1918",
-              "regime": "german_empire"
+              "polity": "german_empire"
             },
             {
               "label": "Alsace-Lorraine returned to France",
@@ -701,12 +701,12 @@
             {
               "label": "Free France (de Gaulle)",
               "note": "1940–1944",
-              "regime": "free_france"
+              "polity": "free_france"
             },
             {
               "label": "Vichy France (Pétain)",
               "note": "1940–1944",
-              "regime": "vichy_france"
+              "polity": "vichy_france"
             },
             {
               "label": "Axis occupation",
@@ -725,17 +725,17 @@
             {
               "label": "Provisional Government (GPRF)",
               "note": "1944–1946",
-              "regime": "provisional_government"
+              "polity": "provisional_government"
             },
             {
               "label": "French Fourth Republic",
               "note": "1946–1958",
-              "regime": "french_fourth_republic"
+              "polity": "french_fourth_republic"
             },
             {
               "label": "French Fifth Republic",
               "note": "1958–",
-              "regime": "french_fifth_republic"
+              "polity": "french_fifth_republic"
             }
           ],
           "span": 4

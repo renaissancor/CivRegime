@@ -36,17 +36,17 @@
             {
               "label": "Malay peoples (Austronesian settlement)",
               "note": "c.2000 BCE–",
-              "regime": "malay_peoples"
+              "polity": "malay_peoples"
             },
             {
               "label": "Melayu kingdom (Jambi)",
               "note": "c.7th c.",
-              "regime": "melayu_kingdom"
+              "polity": "melayu_kingdom"
             },
             {
               "label": "Kandari kingdom",
               "note": "",
-              "regime": "kandari_kingdom"
+              "polity": "kandari_kingdom"
             }
           ],
           "span": 1
@@ -56,22 +56,22 @@
             {
               "label": "Buni culture (West Java)",
               "note": "c.400 BCE–100 CE",
-              "regime": "buni_culture"
+              "polity": "buni_culture"
             },
             {
               "label": "Salaka kingdom",
               "note": "",
-              "regime": "salaka_kingdom"
+              "polity": "salaka_kingdom"
             },
             {
               "label": "Tarumanagara (West Java — Indianized)",
               "note": "c.358–669",
-              "regime": "tarumanagara"
+              "polity": "tarumanagara"
             },
             {
               "label": "Kalingga kingdom (Central Java)",
               "note": "c.6th–7th c.",
-              "regime": "kalingga_kingdom"
+              "polity": "kalingga_kingdom"
             }
           ],
           "span": 1
@@ -81,12 +81,12 @@
             {
               "label": "Austronesian settlement",
               "note": "c.2000 BCE–",
-              "regime": "austronesian_settlement"
+              "polity": "austronesian_settlement"
             },
             {
               "label": "Kutai Martadipura (East Kalimantan — earliest inscriptions)",
               "note": "c.350–",
-              "regime": "kutai_martadipura"
+              "polity": "kutai_martadipura"
             }
           ],
           "span": 1
@@ -101,17 +101,17 @@
             {
               "label": "Srivijaya Empire (Palembang — maritime thalassocracy)",
               "note": "c.650–1025",
-              "regime": "srivijaya_empire"
+              "polity": "srivijaya_empire"
             },
             {
               "label": "Dominates Strait of Malacca · Malay world",
               "note": "",
-              "regime": "dominates_strait_of_malacca"
+              "polity": "dominates_strait_of_malacca"
             },
             {
               "label": "Dharmasraya (Srivijaya successor in Jambi)",
               "note": "c.1025–1347",
-              "regime": "dharmasraya"
+              "polity": "dharmasraya"
             }
           ],
           "span": 1
@@ -121,17 +121,17 @@
             {
               "label": "Galuh kingdom (West Java)",
               "note": "c.669–",
-              "regime": "galuh_kingdom"
+              "polity": "galuh_kingdom"
             },
             {
               "label": "Mataram–Medang kingdom (Central Java)",
               "note": "c.716–1006",
-              "regime": "mataram_medang_kingdom"
+              "polity": "mataram_medang_kingdom"
             },
             {
               "label": "Sanjaya dynasty · Sailendra dynasty · Isyana dynasty",
               "note": "",
-              "regime": "sanjaya_dynasty"
+              "polity": "sanjaya_dynasty"
             },
             {
               "label": "Kahuripan → Kediri kingdom (East Java)",
@@ -140,7 +140,7 @@
             {
               "label": "Kanjuruhan kingdom (East Java)",
               "note": "c.760–",
-              "regime": "kanjuruhan_kingdom"
+              "polity": "kanjuruhan_kingdom"
             }
           ],
           "span": 1
@@ -150,12 +150,12 @@
             {
               "label": "Early Maluku states (Gapi kingdom etc.)",
               "note": "",
-              "regime": "early_maluku_states"
+              "polity": "early_maluku_states"
             },
             {
               "label": "Luwu · Gowa · Banggai kingdoms (Sulawesi)",
               "note": "",
-              "regime": "luwu_gowa_banggai_kingdoms"
+              "polity": "luwu_gowa_banggai_kingdoms"
             }
           ],
           "span": 1
@@ -177,12 +177,12 @@
             {
               "label": "Dharmasraya (Sumatran successor state)",
               "note": "c.1183–1347",
-              "regime": "dharmasraya"
+              "polity": "dharmasraya"
             },
             {
               "label": "Pagaruyung kingdom (Minangkabau highlands)",
               "note": "c.1347–",
-              "regime": "pagaruyung_kingdom"
+              "polity": "pagaruyung_kingdom"
             }
           ],
           "span": 1
@@ -192,17 +192,17 @@
             {
               "label": "Sunda kingdom (West Java)",
               "note": "c.669–1579",
-              "regime": "sunda_kingdom"
+              "polity": "sunda_kingdom"
             },
             {
               "label": "Singhasari kingdom (East Java)",
               "note": "1222–1292",
-              "regime": "singhasari_kingdom"
+              "polity": "singhasari_kingdom"
             },
             {
               "label": "Majapahit Empire (greatest Indonesian state)",
               "note": "1293–c.1527",
-              "regime": "majapahit_empire"
+              "polity": "majapahit_empire"
             }
           ],
           "span": 1
@@ -212,12 +212,12 @@
             {
               "label": "Ternate Sultanate · Tidore Sultanate (Maluku — spice islands)",
               "note": "c.1257–",
-              "regime": "ternate_sultanate"
+              "polity": "ternate_sultanate"
             },
             {
               "label": "Kutai Kartanegara (East Kalimantan)",
               "note": "",
-              "regime": "kutai_kartanegara"
+              "polity": "kutai_kartanegara"
             }
           ],
           "span": 1
@@ -232,7 +232,7 @@
             {
               "label": "Samudra Pasai Sultanate (first Islamic state in SE Asia)",
               "note": "c.1267–1521",
-              "regime": "samudra_pasai_sultanate"
+              "polity": "samudra_pasai_sultanate"
             }
           ],
           "span": 1
@@ -242,7 +242,7 @@
             {
               "label": "Majapahit Empire (declining)",
               "note": "c.1400–1527",
-              "regime": "majapahit_empire"
+              "polity": "majapahit_empire"
             },
             {
               "label": "Bali — Warmadiwa dynasty → Gelgel kingdom",
@@ -256,12 +256,12 @@
             {
               "label": "Brunei Sultanate (NW Borneo)",
               "note": "",
-              "regime": "brunei_sultanate"
+              "polity": "brunei_sultanate"
             },
             {
               "label": "Sulu Sultanate (NE Borneo)",
               "note": "",
-              "regime": "sulu_sultanate"
+              "polity": "sulu_sultanate"
             }
           ],
           "span": 1
@@ -279,22 +279,22 @@
             {
               "label": "Aceh Sultanate (dominant in N. Sumatra)",
               "note": "c.1496–1903",
-              "regime": "aceh_sultanate"
+              "polity": "aceh_sultanate"
             },
             {
               "label": "Palembang Sultanate",
               "note": "c.1550–1823",
-              "regime": "palembang_sultanate"
+              "polity": "palembang_sultanate"
             },
             {
               "label": "Jambi Sultanate",
               "note": "",
-              "regime": "jambi_sultanate"
+              "polity": "jambi_sultanate"
             },
             {
               "label": "Siak Sultanate",
               "note": "",
-              "regime": "siak_sultanate"
+              "polity": "siak_sultanate"
             }
           ],
           "span": 1
@@ -304,32 +304,32 @@
             {
               "label": "Demak Sultanate (first Javanese Islamic state)",
               "note": "c.1475–1548",
-              "regime": "demak_sultanate"
+              "polity": "demak_sultanate"
             },
             {
               "label": "Pajang kingdom",
               "note": "1568–1586",
-              "regime": "pajang_kingdom"
+              "polity": "pajang_kingdom"
             },
             {
               "label": "Banten Sultanate (West Java)",
               "note": "1527–1813",
-              "regime": "banten_sultanate"
+              "polity": "banten_sultanate"
             },
             {
               "label": "Cirebon Sultanate",
               "note": "c.1445–",
-              "regime": "cirebon_sultanate"
+              "polity": "cirebon_sultanate"
             },
             {
               "label": "Mataram Sultanate (Central-East Java)",
               "note": "1586–1755",
-              "regime": "mataram_sultanate"
+              "polity": "mataram_sultanate"
             },
             {
               "label": "Bali — Gelgel kingdom · 9 successor kingdoms (Hindu)",
               "note": "",
-              "regime": "bali"
+              "polity": "bali"
             }
           ],
           "span": 1
@@ -339,17 +339,17 @@
             {
               "label": "Gowa Sultanate · Bone Sultanate (Sulawesi)",
               "note": "",
-              "regime": "gowa_sultanate"
+              "polity": "gowa_sultanate"
             },
             {
               "label": "Banjar Sultanate · Bulungan Sultanate (S/E Kalimantan)",
               "note": "",
-              "regime": "banjar_sultanate"
+              "polity": "banjar_sultanate"
             },
             {
               "label": "Ternate · Tidore sultanates (Maluku)",
               "note": "",
-              "regime": "ternate_tidore_sultanates"
+              "polity": "ternate_tidore_sultanates"
             },
             {
               "label": "Papuans (nominal Tidore suzerainty)",
@@ -371,7 +371,7 @@
             {
               "label": "VOC (Dutch East India Company) outposts",
               "note": "1602–1799",
-              "regime": "voc_outposts"
+              "polity": "voc_outposts"
             },
             {
               "label": "Aceh Sultanate (resists Dutch — Aceh War 1873–1914)",
@@ -389,22 +389,22 @@
             {
               "label": "VOC — Batavia (Jakarta) as capital",
               "note": "1619–1799",
-              "regime": "voc"
+              "polity": "voc"
             },
             {
               "label": "Mataram Sultanate splits:",
               "note": "1755",
-              "regime": "mataram_sultanate_splits"
+              "polity": "mataram_sultanate_splits"
             },
             {
               "label": "Surakarta Sunanate · Yogyakarta Sultanate",
               "note": "1755–",
-              "regime": "surakarta_sunanate"
+              "polity": "surakarta_sunanate"
             },
             {
               "label": "Blambangan / Surabaya (East Java)",
               "note": "",
-              "regime": "blambangan"
+              "polity": "blambangan"
             }
           ],
           "span": 1
@@ -414,17 +414,17 @@
             {
               "label": "VOC spice monopoly (Maluku)",
               "note": "1605–",
-              "regime": "voc_spice_monopoly"
+              "polity": "voc_spice_monopoly"
             },
             {
               "label": "Gowa Sultanate (subdued by VOC)",
               "note": "",
-              "regime": "gowa_sultanate"
+              "polity": "gowa_sultanate"
             },
             {
               "label": "Banjar Sultanate (Dutch protectorate)",
               "note": "",
-              "regime": "banjar_sultanate"
+              "polity": "banjar_sultanate"
             }
           ],
           "span": 1
@@ -439,12 +439,12 @@
             {
               "label": "Dutch East Indies (Netherlands East Indies)",
               "note": "1800–1942",
-              "regime": "dutch_east_indies"
+              "polity": "dutch_east_indies"
             },
             {
               "label": "Full colonial state (Ethical Policy from 1901)",
               "note": "",
-              "regime": "full_colonial_state"
+              "polity": "full_colonial_state"
             }
           ],
           "span": 3
@@ -462,7 +462,7 @@
             {
               "label": "Japanese-occupied East Indies",
               "note": "1942–1945",
-              "regime": "japanese_occupied_east_indies"
+              "polity": "japanese_occupied_east_indies"
             },
             {
               "label": "Indonesian National Revolution (independence war)",
@@ -471,7 +471,7 @@
             {
               "label": "Republic of the United States of Indonesia (federal)",
               "note": "1949–1950",
-              "regime": "republic_of_the_united_states_of_indonesia"
+              "polity": "republic_of_the_united_states_of_indonesia"
             }
           ],
           "span": 3
@@ -489,17 +489,17 @@
             {
               "label": "Republic of Indonesia (unitary — Sukarno)",
               "note": "1950–",
-              "regime": "republic_of_indonesia"
+              "polity": "republic_of_indonesia"
             },
             {
               "label": "Guided Democracy (Sukarno)",
               "note": "1957–1966",
-              "regime": "guided_democracy"
+              "polity": "guided_democracy"
             },
             {
               "label": "New Order (Suharto)",
               "note": "1966–1998",
-              "regime": "new_order"
+              "polity": "new_order"
             },
             {
               "label": "Reformasi (democratic reform era)",

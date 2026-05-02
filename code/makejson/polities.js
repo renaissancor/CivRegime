@@ -46,65 +46,65 @@ function parseInt2(value) {
   return isNaN(n) ? null : n;
 }
 
-function loadFiguresByRegime() {
+function loadFiguresByPolity() {
   if (!fs.existsSync(FIGURES_FILE)) return new Map();
   const content = fs.readFileSync(FIGURES_FILE, 'utf-8');
   const rows = parseCSV(content).filter(r => r.polity_id);
-  const byRegime = new Map();
+  const byPolity = new Map();
   for (const row of rows) {
-    if (!byRegime.has(row.polity_id)) byRegime.set(row.polity_id, []);
+    if (!byPolity.has(row.polity_id)) byPolity.set(row.polity_id, []);
     const fig = {};
     if (row.figure_id)    fig.id           = row.figure_id;
     if (row.name)         fig.name         = row.name;
     if (row.role)         fig.role         = row.role;
     if (row.years)        fig.years        = row.years;
     if (row.significance) fig.significance = row.significance;
-    byRegime.get(row.polity_id).push(fig);
+    byPolity.get(row.polity_id).push(fig);
   }
-  return byRegime;
+  return byPolity;
 }
 
-function buildRegime(row, figuresByRegime) {
-  const regime = {
+function buildPolity(row, figuresByPolity) {
+  const polity = {
     id: row.id,
     name: row.name,
   };
 
-  if (row.state_id)              regime.state_id        = row.state_id;
-  if (row.id_ruling_ethnicity)   regime.ruling_ethnicity = row.id_ruling_ethnicity;
-  if (row.id_ruling_language)    regime.cultural_language = row.id_ruling_language;
+  if (row.civilization_id)              polity.civilization_id        = row.civilization_id;
+  if (row.id_ruling_ethnicity)   polity.ruling_ethnicity = row.id_ruling_ethnicity;
+  if (row.id_ruling_language)    polity.cultural_language = row.id_ruling_language;
 
   const religion   = row.id_ruling_religion  || '';
   const government = row.government          || '';
   if (religion || government) {
-    regime.ideology = {};
-    if (religion)   regime.ideology.religion   = religion;
-    if (government) regime.ideology.government = government;
+    polity.ideology = {};
+    if (religion)   polity.ideology.religion   = religion;
+    if (government) polity.ideology.government = government;
   }
 
   const territories = parsePipe(row.territories);
-  if (territories.length) regime.territories = territories;
+  if (territories.length) polity.territories = territories;
 
-  regime.start = parseInt2(row.start);
-  regime.end   = parseInt2(row.end);
+  polity.start = parseInt2(row.start);
+  polity.end   = parseInt2(row.end);
 
   const policies = parsePipe(row.policies);
-  if (policies.length) regime.policies = policies;
+  if (policies.length) polity.policies = policies;
 
-  if (row.note) regime.note = row.note;
+  if (row.note) polity.note = row.note;
 
-  const figures = figuresByRegime ? (figuresByRegime.get(row.id) || []) : [];
-  if (figures.length) regime.figures = figures;
+  const figures = figuresByPolity ? (figuresByPolity.get(row.id) || []) : [];
+  if (figures.length) polity.figures = figures;
 
-  return regime;
+  return polity;
 }
 
-function generateRegimeFiles() {
+function generatePolityFiles() {
   const content = fs.readFileSync(CSV_FILE, 'utf-8');
   const rows = parseCSV(content).filter(r => r.id);
   const results = { created: [], skipped: [], errors: [] };
 
-  const figuresByRegime = loadFiguresByRegime();
+  const figuresByPolity = loadFiguresByPolity();
 
   if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
 
@@ -116,9 +116,9 @@ function generateRegimeFiles() {
   for (const row of rows) {
     try {
       if (!row.id) { results.skipped.push('(empty id)'); continue; }
-      const regime = buildRegime(row, figuresByRegime);
+      const polity = buildPolity(row, figuresByPolity);
       const outPath = path.join(DATA_DIR, `${row.id}.json`);
-      fs.writeFileSync(outPath, JSON.stringify(regime, null, 2) + '\n');
+      fs.writeFileSync(outPath, JSON.stringify(polity, null, 2) + '\n');
       results.created.push(row.id);
     } catch (err) {
       results.errors.push({ id: row.id, error: err.message });
@@ -133,14 +133,14 @@ function main() {
   console.log(`Output dir:  ${DATA_DIR}\n`);
 
   if (!fs.existsSync(CSV_FILE)) {
-    console.error('Error: regimes.csv not found');
+    console.error('Error: polity.csv not found');
     process.exit(1);
   }
 
-  const results = generateRegimeFiles();
+  const results = generatePolityFiles();
 
   console.log('=== Generation Results ===');
-  console.log(`✓ Created:  ${results.created.length} regime files`);
+  console.log(`✓ Created:  ${results.created.length} polity files`);
   console.log(`⚠ Skipped:  ${results.skipped.length}`);
   console.log(`✗ Errors:   ${results.errors.length}\n`);
 

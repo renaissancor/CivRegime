@@ -34,7 +34,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_saba",
+              "polity": "kingdom_of_saba",
               "label": "Kingdom of Saba (Sheba — Ma'rib)",
               "note": "c.1200–275 BCE"
             }
@@ -46,12 +46,12 @@
             {
               "label": "Qataban kingdom",
               "note": "c.800–200 BCE",
-              "regime": "qataban_kingdom"
+              "polity": "qataban_kingdom"
             },
             {
               "label": "Awsan kingdom",
               "note": "",
-              "regime": "awsan_kingdom"
+              "polity": "awsan_kingdom"
             }
           ],
           "span": 1
@@ -61,12 +61,12 @@
             {
               "label": "Hadramaut kingdom",
               "note": "c.800 BCE–300 CE",
-              "regime": "hadramaut_kingdom"
+              "polity": "hadramaut_kingdom"
             },
             {
               "label": "Ma'in kingdom (Minaean)",
               "note": "c.700–100 BCE",
-              "regime": "main_kingdom"
+              "polity": "main_kingdom"
             }
           ],
           "span": 1
@@ -79,12 +79,12 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_saba",
+              "polity": "kingdom_of_saba",
               "label": "Saba (revived — Hamdan dynasty)",
               "note": "c.275 BCE–"
             },
             {
-              "regime": "himyarite_kingdom",
+              "polity": "himyarite_kingdom",
               "label": "Himyarite Kingdom (absorbs Saba)",
               "note": "c.110 BCE–525 CE"
             }
@@ -105,7 +105,7 @@
             {
               "label": "Hadramaut (absorbed by Himyar)",
               "note": "–c.300 CE",
-              "regime": "hadramaut"
+              "polity": "hadramaut"
             }
           ],
           "span": 1
@@ -118,29 +118,29 @@
         {
           "stack": [
             {
-              "regime": "himyarite_kingdom",
+              "polity": "himyarite_kingdom",
               "label": "Himyarite Kingdom (unified Yemen)",
               "note": "c.300–525"
             },
             {
               "label": "Himyar — Jewish (Yathar dynasty)",
               "note": "c.380–525",
-              "regime": "himyar"
+              "polity": "himyar"
             },
             {
               "label": "Himyar — Christian (Aksumite vassal)",
               "note": "525–570",
-              "regime": "himyar"
+              "polity": "himyar"
             },
             {
-              "regime": "aksumite_kingdom",
+              "polity": "aksumite_kingdom",
               "label": "Aksumite occupation",
               "note": "525–570"
             },
             {
               "label": "Sassanid Persian rule",
               "note": "570–630",
-              "regime": "sassanid_persian_rule"
+              "polity": "sassanid_persian_rule"
             }
           ],
           "span": 3
@@ -158,17 +158,17 @@
             {
               "label": "Rashidun · Umayyad · Abbasid caliphates",
               "note": "630–9th c.",
-              "regime": "abbasid_caliphate"
+              "polity": "abbasid_caliphate"
             },
             {
               "label": "Zaidi Imamate (Shia — northern highlands)",
               "note": "897–",
-              "regime": "zaidi_imamate"
+              "polity": "zaidi_imamate"
             },
             {
               "label": "Yu'firid dynasty",
               "note": "847–997",
-              "regime": "yufirid_dynasty"
+              "polity": "yufirid_dynasty"
             }
           ],
           "span": 1
@@ -178,17 +178,17 @@
             {
               "label": "Ziyadid dynasty (Tihama coast)",
               "note": "818–1018",
-              "regime": "ziyadid_dynasty"
+              "polity": "ziyadid_dynasty"
             },
             {
               "label": "Najahid dynasty",
               "note": "1022–1158",
-              "regime": "najahid_dynasty"
+              "polity": "najahid_dynasty"
             },
             {
               "label": "Mahdid dynasty",
               "note": "1159–1174",
-              "regime": "mahdid_dynasty"
+              "polity": "mahdid_dynasty"
             }
           ],
           "span": 1
@@ -198,12 +198,12 @@
             {
               "label": "Ibadi movement (Hadramaut)",
               "note": "",
-              "regime": "ibadi_movement"
+              "polity": "ibadi_movement"
             },
             {
               "label": "Hadrami local dynasties",
               "note": "",
-              "regime": "hadrami_local_dynasties"
+              "polity": "hadrami_local_dynasties"
             }
           ],
           "span": 1
@@ -218,12 +218,12 @@
             {
               "label": "Sulayhid dynasty (Ismaili Shia)",
               "note": "1047–1138",
-              "regime": "sulayhid_dynasty"
+              "polity": "sulayhid_dynasty"
             },
             {
               "label": "Hamdanid dynasty",
               "note": "1098–1174",
-              "regime": "hamdanid_dynasty"
+              "polity": "hamdanid_dynasty"
             }
           ],
           "span": 2
@@ -233,7 +233,7 @@
             {
               "label": "Zuray'id dynasty (Aden)",
               "note": "1083–1174",
-              "regime": "zurayid_dynasty"
+              "polity": "zurayid_dynasty"
             }
           ],
           "span": 1
@@ -248,7 +248,7 @@
             {
               "label": "Ayyubid dynasty (Saladin's brother — conquers Yemen)",
               "note": "1174–1229",
-              "regime": "ayyubid_sultanate"
+              "polity": "ayyubid_sultanate"
             },
             {
               "label": "Rasulid dynasty (Sunni — golden age of medieval Yemen)",
@@ -257,7 +257,7 @@
             {
               "label": "Tahirid dynasty",
               "note": "1454–1517",
-              "regime": "tahirid_dynasty"
+              "polity": "tahirid_dynasty"
             }
           ],
           "span": 2
@@ -267,12 +267,12 @@
             {
               "label": "Kathiri Sultanate (Hadramaut)",
               "note": "c.1395–1967",
-              "regime": "kathiri_sultanate"
+              "polity": "kathiri_sultanate"
             },
             {
               "label": "Qu'aiti Sultanate (Hadramaut)",
               "note": "c.1858–1967",
-              "regime": "quaiti_sultanate"
+              "polity": "quaiti_sultanate"
             }
           ],
           "span": 1
@@ -288,17 +288,17 @@
         {
           "stack": [
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Empire (1st occupation)",
               "note": "1538–1636"
             },
             {
               "label": "Zaidi Imamate (expels Ottomans — Qasimid dynasty)",
               "note": "1636–1872",
-              "regime": "zaidi_imamate"
+              "polity": "zaidi_imamate"
             },
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Empire (2nd occupation)",
               "note": "1872–1918"
             }
@@ -308,19 +308,19 @@
         {
           "stack": [
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman influence (coastal areas)",
               "note": ""
             },
             {
               "label": "Lahej Sultanate",
               "note": "1728–1967",
-              "regime": "lahej_sultanate"
+              "polity": "lahej_sultanate"
             },
             {
               "label": "British Aden (captured 1839)",
               "note": "1839–1967",
-              "regime": "british_aden"
+              "polity": "british_aden"
             }
           ],
           "span": 1
@@ -330,12 +330,12 @@
             {
               "label": "Kathiri · Qu'aiti sultanates (Hadramaut)",
               "note": "",
-              "regime": "kathiri_quaiti_sultanates"
+              "polity": "kathiri_quaiti_sultanates"
             },
             {
               "label": "British Aden Protectorate (Eastern)",
               "note": "1888–1967",
-              "regime": "british_aden_protectorate"
+              "polity": "british_aden_protectorate"
             }
           ],
           "span": 1
@@ -353,12 +353,12 @@
             {
               "label": "Mutawakkilite Kingdom of Yemen (Zaidi — Hamid al-Din)",
               "note": "1918–1962",
-              "regime": "mutawakkilite_kingdom_of_yemen"
+              "polity": "mutawakkilite_kingdom_of_yemen"
             },
             {
               "label": "Yemen Arab Republic (North Yemen)",
               "note": "1962–1990",
-              "regime": "yemen_arab_republic"
+              "polity": "yemen_arab_republic"
             },
             {
               "label": "North Yemen Civil War (royalists vs republicans)",
@@ -372,12 +372,12 @@
             {
               "label": "Federation of South Arabia (British-backed)",
               "note": "1962–1967",
-              "regime": "federation_of_south_arabia"
+              "polity": "federation_of_south_arabia"
             },
             {
               "label": "People's Democratic Republic of Yemen (South Yemen — Marxist)",
               "note": "1967–1990",
-              "regime": "peoples_democratic_republic_of_yemen"
+              "polity": "peoples_democratic_republic_of_yemen"
             }
           ],
           "span": 2
@@ -395,7 +395,7 @@
             {
               "label": "Republic of Yemen (unified)",
               "note": "1990–",
-              "regime": "republic_of_yemen"
+              "polity": "republic_of_yemen"
             },
             {
               "label": "South Yemen secession attempt (civil war)",
@@ -412,7 +412,7 @@
             {
               "label": "Supreme Political Council (Houthi — Sana'a)",
               "note": "2016–",
-              "regime": "supreme_political_council"
+              "polity": "supreme_political_council"
             }
           ],
           "span": 3

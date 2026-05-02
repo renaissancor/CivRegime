@@ -31,12 +31,12 @@
             {
               "label": "BMAC (Bactria–Margiana Archaeological Complex)",
               "note": "c.2300–1700 BCE",
-              "regime": "bmac_culture"
+              "polity": "bmac_culture"
             },
             {
               "label": "Saka / Massagetae",
               "note": "c.900–100 BCE",
-              "regime": "saka"
+              "polity": "saka"
             }
           ],
           "span": 1
@@ -46,7 +46,7 @@
             {
               "label": "Dahae / Parni (proto-Parthian nomads)",
               "note": "c.1000–247 BCE",
-              "regime": "dahae"
+              "polity": "dahae"
             },
             {
               "label": "Media (suzerainty)",
@@ -63,54 +63,54 @@
         {
           "stack": [
             {
-              "regime": "achaemenid_empire",
+              "polity": "achaemenid_empire",
               "label": "Achaemenid Empire (Margiana Satrapy)",
               "note": "550–330 BCE"
             },
             {
               "label": "Alexander the Great · Seleucid",
               "note": "330–250 BCE",
-              "regime": "macedonian_empire"
+              "polity": "macedonian_empire"
             },
             {
               "label": "Greco-Bactrian Kingdom",
               "note": "250–130 BCE",
-              "regime": "greco_bactrian_kingdom"
+              "polity": "greco_bactrian_kingdom"
             },
             {
               "label": "Yuezhi (Da Yuezhi)",
               "note": "c.130–50 BCE",
-              "regime": "yuezhi"
+              "polity": "yuezhi"
             },
             {
               "label": "Kushan Empire",
               "note": "c.50 BCE–375 CE",
-              "regime": "kushan_empire"
+              "polity": "kushan_empire"
             },
             {
               "label": "Kushano-Sasanian Kingdom",
               "note": "c.230–365",
-              "regime": "kushano_sasanian_kingdom"
+              "polity": "kushano_sasanian_kingdom"
             },
             {
               "label": "Sassanid Empire",
               "note": "224–651",
-              "regime": "sassanid_empire"
+              "polity": "sassanid_empire"
             },
             {
               "label": "Kidarites / Xionites",
               "note": "c.350–470",
-              "regime": "kidarites"
+              "polity": "kidarites"
             },
             {
               "label": "Hephthalites",
               "note": "c.450–560",
-              "regime": "hephthalites"
+              "polity": "hephthalites"
             },
             {
               "label": "Sassanid (restored)",
               "note": "560–651",
-              "regime": "sassanid_empire"
+              "polity": "sassanid_empire"
             }
           ],
           "span": 1
@@ -118,39 +118,39 @@
         {
           "stack": [
             {
-              "regime": "achaemenid_empire",
+              "polity": "achaemenid_empire",
               "label": "Achaemenid Empire (Parthia Satrapy)",
               "note": "550–330 BCE"
             },
             {
               "label": "Alexander the Great · Seleucid",
               "note": "330–247 BCE",
-              "regime": "macedonian_empire"
+              "polity": "macedonian_empire"
             },
             {
               "label": "Parthian Empire (Arsacid dynasty — from Nisa)",
               "note": "247 BCE–224 CE",
-              "regime": "parthian_empire"
+              "polity": "parthian_empire"
             },
             {
               "label": "Sassanid Empire",
               "note": "224–651",
-              "regime": "sassanid_empire"
+              "polity": "sassanid_empire"
             },
             {
               "label": "Kidarites / Xionites",
               "note": "c.350–470",
-              "regime": "kidarites"
+              "polity": "kidarites"
             },
             {
               "label": "Hephthalites",
               "note": "c.450–560",
-              "regime": "hephthalites"
+              "polity": "hephthalites"
             },
             {
               "label": "Sassanid (restored)",
               "note": "560–651",
-              "regime": "sassanid_empire"
+              "polity": "sassanid_empire"
             }
           ],
           "span": 1
@@ -166,12 +166,12 @@
         {
           "stack": [
             {
-              "regime": "rashidun_caliphate",
+              "polity": "rashidun_caliphate",
               "label": "Rashidun Caliphate",
               "note": "651–661"
             },
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate",
               "note": "661–750"
             }
@@ -186,39 +186,39 @@
         {
           "stack": [
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid Caliphate",
               "note": "750–821"
             },
             {
               "label": "Tahirid dynasty",
               "note": "821–873",
-              "regime": "tahirid_dynasty"
+              "polity": "tahirid_dynasty"
             },
             {
               "label": "Saffarid dynasty",
               "note": "873–900",
-              "regime": "saffarid_dynasty"
+              "polity": "saffarid_dynasty"
             },
             {
               "label": "Samanid dynasty",
               "note": "900–999",
-              "regime": "samanid_empire"
+              "polity": "samanid_empire"
             },
             {
               "label": "Ghaznavid dynasty",
               "note": "999–1040",
-              "regime": "ghaznavid_empire"
+              "polity": "ghaznavid_empire"
             },
             {
               "label": "Kara-Khanid (eastern fringe)",
               "note": "c.1000–1130",
-              "regime": "kara_khanid_khanate"
+              "polity": "kara_khanid_khanate"
             },
             {
               "label": "Seljuk Empire (capital at Merv under Sultan Sanjar)",
               "note": "1040–1194",
-              "regime": "seljuk_empire"
+              "polity": "seljuk_empire"
             }
           ],
           "span": 2
@@ -233,22 +233,22 @@
             {
               "label": "Ghorid dynasty",
               "note": "1194–1215",
-              "regime": "ghorid_dynasty"
+              "polity": "ghorid_dynasty"
             },
             {
               "label": "Khwarazmian Empire (Anushteginid)",
               "note": "1194–1231",
-              "regime": "khwarazmian_empire"
+              "polity": "khwarazmian_empire"
             },
             {
               "label": "Mongol Empire",
               "note": "1220–1256",
-              "regime": "mongol_empire"
+              "polity": "mongol_empire"
             },
             {
               "label": "Il-Khanate",
               "note": "1256–1335",
-              "regime": "ilkhanate"
+              "polity": "ilkhanate"
             }
           ],
           "span": 2
@@ -263,27 +263,27 @@
             {
               "label": "Togha Temür · Sarbadars",
               "note": "1337–1381",
-              "regime": "togha_temur"
+              "polity": "togha_temur"
             },
             {
               "label": "Timurid Empire",
               "note": "1370–1507",
-              "regime": "timurid_empire"
+              "polity": "timurid_empire"
             },
             {
               "label": "Kara Koyunlu (Black Sheep — western fringe)",
               "note": "c.1380–1468",
-              "regime": "kara_koyunlu"
+              "polity": "kara_koyunlu"
             },
             {
               "label": "Timurid fragmentation",
               "note": "1450s–1507",
-              "regime": "timurid_empire"
+              "polity": "timurid_empire"
             },
             {
               "label": "Aq Qoyunlu (White Sheep — western fringe)",
               "note": "1468–1502",
-              "regime": "aq_qoyunlu"
+              "polity": "aq_qoyunlu"
             }
           ],
           "span": 1
@@ -293,27 +293,27 @@
             {
               "label": "Kart dynasty · Western Chagatai (contested)",
               "note": "1337–1381",
-              "regime": "kart_dynasty"
+              "polity": "kart_dynasty"
             },
             {
               "label": "Timurid Empire",
               "note": "1370–1507",
-              "regime": "timurid_empire"
+              "polity": "timurid_empire"
             },
             {
               "label": "Kara Koyunlu (Black Sheep)",
               "note": "c.1380–1468",
-              "regime": "kara_koyunlu"
+              "polity": "kara_koyunlu"
             },
             {
               "label": "Timurid fragmentation",
               "note": "1450s–1507",
-              "regime": "timurid_empire"
+              "polity": "timurid_empire"
             },
             {
               "label": "Aq Qoyunlu (White Sheep)",
               "note": "1468–1502",
-              "regime": "aq_qoyunlu"
+              "polity": "aq_qoyunlu"
             }
           ],
           "span": 1
@@ -331,22 +331,22 @@
             {
               "label": "Safavid dynasty (Merv contested with Khorasan)",
               "note": "1510–1510, 1598–1750",
-              "regime": "safavid_empire"
+              "polity": "safavid_empire"
             },
             {
               "label": "Khanate of Bukhara (Merv region)",
               "note": "1500s–1785",
-              "regime": "khanate_of_bukhara"
+              "polity": "khanate_of_bukhara"
             },
             {
               "label": "Afsharid dynasty (Nadir Shah — reunited Merv)",
               "note": "1736–1747",
-              "regime": "afsharid_dynasty"
+              "polity": "afsharid_dynasty"
             },
             {
               "label": "Khanate of Khiva / Bukhara (contested)",
               "note": "1747–1884",
-              "regime": "khanate_of_khiva"
+              "polity": "khanate_of_khiva"
             }
           ],
           "span": 1
@@ -356,22 +356,22 @@
             {
               "label": "Safavid dynasty",
               "note": "1502–1736",
-              "regime": "safavid_empire"
+              "polity": "safavid_empire"
             },
             {
               "label": "Turkmen Tekke (semi-independent)",
               "note": "18th–19th c.",
-              "regime": "turkmen_tekke"
+              "polity": "turkmen_tekke"
             },
             {
               "label": "Afsharid dynasty",
               "note": "1736–1796",
-              "regime": "afsharid_dynasty"
+              "polity": "afsharid_dynasty"
             },
             {
               "label": "Qajar dynasty (Iran)",
               "note": "1796–1881",
-              "regime": "qajar_dynasty"
+              "polity": "qajar_dynasty"
             }
           ],
           "span": 1
@@ -386,12 +386,12 @@
             {
               "label": "Russian Empire (Transcaspia Oblast — conquest of Merv)",
               "note": "1884",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             },
             {
               "label": "Transcaspia Oblast",
               "note": "1884–1917",
-              "regime": "transcaspia_oblast"
+              "polity": "transcaspia_oblast"
             }
           ],
           "span": 1
@@ -401,12 +401,12 @@
             {
               "label": "Russian Empire — Battle of Geok-Tepe (Tekke defeated)",
               "note": "1881",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             },
             {
               "label": "Transcaspia Oblast",
               "note": "1881–1917",
-              "regime": "transcaspia_oblast"
+              "polity": "transcaspia_oblast"
             }
           ],
           "span": 1
@@ -424,12 +424,12 @@
             {
               "label": "Tashkent Soviet (Bolshevik)",
               "note": "1917–1919",
-              "regime": "tashkent_soviet"
+              "polity": "tashkent_soviet"
             },
             {
               "label": "Transcaspian Provisional Government (anti-Bolshevik · British-backed)",
               "note": "1918–1919",
-              "regime": "transcaspian_provisional_government"
+              "polity": "transcaspian_provisional_government"
             }
           ],
           "span": 1
@@ -439,7 +439,7 @@
             {
               "label": "Transcaspian Provisional Government",
               "note": "1918–1919",
-              "regime": "transcaspian_provisional_government"
+              "polity": "transcaspian_provisional_government"
             }
           ],
           "span": 1
@@ -453,7 +453,7 @@
           "label": "Turkestan ASSR",
           "note": "1918–1924",
           "span": 2,
-          "regime": "turkestan_assr"
+          "polity": "turkestan_assr"
         }
       ]
     },
@@ -465,12 +465,12 @@
             {
               "label": "Turkmen Soviet Socialist Republic",
               "note": "1924–1991",
-              "regime": "turkmen_soviet_socialist_republic"
+              "polity": "turkmen_soviet_socialist_republic"
             },
             {
               "label": "Republic of Turkmenistan",
               "note": "1991–",
-              "regime": "republic_of_turkmenistan"
+              "polity": "republic_of_turkmenistan"
             }
           ],
           "span": 2

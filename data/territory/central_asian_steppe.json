@@ -1,100 +1,100 @@
 {
   "id": "central_asian_steppe",
   "name": "central_asian_steppe",
-  "regime_count": 19,
-  "regimes": [
+  "polity_count": 19,
+  "polities": [
     {
-      "regime_id": "xiongnu",
+      "polity_id": "xiongnu",
       "start": -209,
       "end": 93
     },
     {
-      "regime_id": "hunnic_empire",
+      "polity_id": "hunnic_empire",
       "start": 350,
       "end": 453
     },
     {
-      "regime_id": "goktürk_khaganate",
+      "polity_id": "goktürk_khaganate",
       "start": 552,
       "end": 744
     },
     {
-      "regime_id": "avar_khaganate",
+      "polity_id": "avar_khaganate",
       "start": 568,
       "end": 804
     },
     {
-      "regime_id": "uyghur_khaganate",
+      "polity_id": "uyghur_khaganate",
       "start": 744,
       "end": 840
     },
     {
-      "regime_id": "mongol_empire",
+      "polity_id": "mongol_empire",
       "start": 1206,
       "end": 1368
     },
     {
-      "regime_id": "chagatai_khanate",
+      "polity_id": "chagatai_khanate",
       "start": 1226,
       "end": 1347
     },
     {
-      "regime_id": "golden_horde",
+      "polity_id": "golden_horde",
       "start": 1242,
       "end": 1502
     },
     {
-      "regime_id": "kazakh_khanate",
+      "polity_id": "kazakh_khanate",
       "start": 1465,
       "end": 1731
     },
     {
-      "regime_id": "russian_empire",
+      "polity_id": "russian_empire",
       "start": 1731,
       "end": 1917
     },
     {
-      "regime_id": "soviet_union",
+      "polity_id": "soviet_union",
       "start": 1922,
       "end": 1991
     },
     {
-      "regime_id": "dzungar_khanate",
+      "polity_id": "dzungar_khanate",
       "start": 1634,
       "end": 1755
     },
     {
-      "regime_id": "kara_khanid_khanate",
+      "polity_id": "kara_khanid_khanate",
       "start": 840,
       "end": 1212
     },
     {
-      "regime_id": "khoshut_khanate",
+      "polity_id": "khoshut_khanate",
       "start": 1642,
       "end": 1717
     },
     {
-      "regime_id": "moghulistan",
+      "polity_id": "moghulistan",
       "start": 1347,
       "end": 1462
     },
     {
-      "regime_id": "qara_khitai",
+      "polity_id": "qara_khitai",
       "start": 1124,
       "end": 1218
     },
     {
-      "regime_id": "tibetan_empire",
+      "polity_id": "tibetan_empire",
       "start": 618,
       "end": 842
     },
     {
-      "regime_id": "western_xia",
+      "polity_id": "western_xia",
       "start": 1038,
       "end": 1227
     },
     {
-      "regime_id": "yarkand_khanate",
+      "polity_id": "yarkand_khanate",
       "start": 1514,
       "end": 1705
     }

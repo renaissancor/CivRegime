@@ -3,8 +3,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const CSV_FILE = path.join(__dirname, '../../csvs/state.csv');
-const OUTPUT_FILE = path.join(__dirname, '../../data/states.json');
+const CSV_FILE = path.join(__dirname, '../../csvs/civilization.csv');
+const OUTPUT_FILE = path.join(__dirname, '../../data/civilizations.json');
 
 function loadCSV(file) {
   const lines = fs.readFileSync(file, 'utf8').trim().split('\n');
@@ -29,16 +29,16 @@ function loadCSV(file) {
 }
 
 function generateStates() {
-  console.log(`Reading states from: ${CSV_FILE}`);
+  console.log(`Reading civilizations from: ${CSV_FILE}`);
   
   if (!fs.existsSync(CSV_FILE)) {
-    console.error('Error: states.csv not found');
+    console.error('Error: civilizations.csv not found');
     process.exit(1);
   }
   
-  const states = loadCSV(CSV_FILE);
+  const civilizations = loadCSV(CSV_FILE);
   
-  const stateObjects = states.map(s => ({
+  const stateObjects = civilizations.map(s => ({
     id: s.id,
     name: s.name,
     ...(s.description && { description: s.description })
@@ -46,7 +46,7 @@ function generateStates() {
   
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(stateObjects, null, 2) + '\n');
   
-  console.log(`✓ Generated states.json (${stateObjects.length} states)`);
+  console.log(`✓ Generated civilizations.json (${stateObjects.length} civilizations)`);
   process.exit(0);
 }
 

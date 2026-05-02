@@ -29,13 +29,13 @@ async function init() {
     return;
   }
 
-  // Map language id → regimes that use it as cultural_language
-  const regimesByLang = new Map();
+  // Map language id → polities that use it as cultural_language
+  const politiesByLang = new Map();
   for (const r of polities) {
     const lang = r.cultural_language;
     if (lang) {
-      if (!regimesByLang.has(lang)) regimesByLang.set(lang, []);
-      regimesByLang.get(lang).push(r);
+      if (!politiesByLang.has(lang)) politiesByLang.set(lang, []);
+      politiesByLang.get(lang).push(r);
     }
   }
 
@@ -64,13 +64,13 @@ async function init() {
     if (!btn) return;
     list.querySelectorAll('.family-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    renderTree(btn.dataset.family, languages, regimesByLang);
+    renderTree(btn.dataset.family, languages, politiesByLang);
   });
 
-  renderTree('all', languages, regimesByLang);
+  renderTree('all', languages, politiesByLang);
 }
 
-function renderTree(familyId, allLanguages, regimesByLang) {
+function renderTree(familyId, allLanguages, politiesByLang) {
   const svg = d3.select('#tree-svg');
   svg.selectAll('*').remove();
 
@@ -118,13 +118,13 @@ function renderTree(familyId, allLanguages, regimesByLang) {
     .attr('class', 'node')
     .attr('transform', d => `translate(${d.y},${d.x})`)
     .style('cursor', 'pointer')
-    .on('click', (e, d) => showDetail(d.data, allLanguages, regimesByLang))
+    .on('click', (e, d) => showDetail(d.data, allLanguages, politiesByLang))
     .on('mouseover', (e, d) => {
       clearTimeout(tooltipTimeout);
       const tip = document.getElementById('tooltip');
-      const count = regimesByLang.get(d.data.id)?.length || 0;
+      const count = politiesByLang.get(d.data.id)?.length || 0;
       const extinct = d.data.status === 'extinct' ? ' · extinct' : '';
-      tip.innerHTML = `<strong>${d.data.name || d.data.id}</strong>${extinct}${count ? `<br>${count} regime${count > 1 ? 's' : ''}` : ''}`;
+      tip.innerHTML = `<strong>${d.data.name || d.data.id}</strong>${extinct}${count ? `<br>${count} polity${count > 1 ? 's' : ''}` : ''}`;
       tip.classList.add('visible');
     })
     .on('mousemove', e => {
@@ -153,15 +153,15 @@ function renderTree(familyId, allLanguages, regimesByLang) {
     // Dashed stroke for extinct nodes
     .attr('stroke-dasharray', d => d.data.status === 'extinct' ? '3,2' : null);
 
-  // Regime count badge (left of node, gold)
-  node.filter(d => (regimesByLang.get(d.data.id)?.length || 0) > 0)
+  // Polity count badge (left of node, gold)
+  node.filter(d => (politiesByLang.get(d.data.id)?.length || 0) > 0)
     .append('text')
     .attr('x', -12)
     .attr('dy', '0.32em')
     .attr('text-anchor', 'middle')
     .attr('font-size', 10)
     .attr('fill', '#f6ad55')
-    .text(d => regimesByLang.get(d.data.id)?.length);
+    .text(d => politiesByLang.get(d.data.id)?.length);
 
   // Label
   node.append('text')
@@ -170,13 +170,13 @@ function renderTree(familyId, allLanguages, regimesByLang) {
     .text(d => d.data.name || d.data.id);
 }
 
-function showDetail(data, allLanguages, regimesByLang) {
+function showDetail(data, allLanguages, politiesByLang) {
   const panel   = document.getElementById('detail-panel');
   const content = document.getElementById('detail-content');
-  const regimes     = regimesByLang.get(data.id) || [];
+  const polities     = politiesByLang.get(data.id) || [];
   const descendants = getDescendants(data.id, allLanguages);
   const allLangRegimes = [...new Set(
-    [data.id, ...descendants.map(d => d.id)].flatMap(id => regimesByLang.get(id) || [])
+    [data.id, ...descendants.map(d => d.id)].flatMap(id => politiesByLang.get(id) || [])
   )];
 
   let html = `<h2>${data.name || data.id}</h2>`;
@@ -185,23 +185,23 @@ function showDetail(data, allLanguages, regimesByLang) {
   if (data.description) html += `<div class="sub" style="margin-top:4px">${data.description}</div>`;
   if (descendants.length) html += `<div class="sub">${descendants.length} descendant${descendants.length > 1 ? 's' : ''}</div>`;
 
-  if (regimes.length) {
-    html += `<div class="section-title">Uses this language directly (${regimes.length})</div>`;
-    for (const r of regimes) {
+  if (polities.length) {
+    html += `<div class="section-title">Uses this language directly (${polities.length})</div>`;
+    for (const r of polities) {
       const dates = r.end ? `${r.start}–${r.end}` : `${r.start}–`;
-      html += `<div class="regime-item"><strong>${r.name}</strong><span>${dates} · ${r.ruling_ethnicity || ''}</span></div>`;
+      html += `<div class="polity-item"><strong>${r.name}</strong><span>${dates} · ${r.ruling_ethnicity || ''}</span></div>`;
     }
   }
-  if (allLangRegimes.length > regimes.length) {
-    const sub = allLangRegimes.filter(r => !regimes.includes(r));
+  if (allLangRegimes.length > polities.length) {
+    const sub = allLangRegimes.filter(r => !polities.includes(r));
     html += `<div class="section-title">In descendant languages (${sub.length})</div>`;
     for (const r of sub) {
       const dates = r.end ? `${r.start}–${r.end}` : `${r.start}–`;
-      html += `<div class="regime-item"><strong>${r.name}</strong><span>${dates}</span></div>`;
+      html += `<div class="polity-item"><strong>${r.name}</strong><span>${dates}</span></div>`;
     }
   }
   if (!allLangRegimes.length) {
-    html += `<div class="sub" style="margin-top:8px">No regimes recorded for this language branch.</div>`;
+    html += `<div class="sub" style="margin-top:8px">No polities recorded for this language branch.</div>`;
   }
 
   content.innerHTML = html;

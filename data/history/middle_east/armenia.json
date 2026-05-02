@@ -31,17 +31,17 @@
             {
               "label": "Shulaveri-Shomu culture",
               "note": "c.6000–4000 BCE",
-              "regime": "shulaveri_shomu_culture"
+              "polity": "shulaveri_shomu_culture"
             },
             {
               "label": "Kura-Araxes culture",
               "note": "c.3500–2200 BCE",
-              "regime": "kura_araxes_culture"
+              "polity": "kura_araxes_culture"
             },
             {
               "label": "Trialeti-Vanadzor culture",
               "note": "c.2200–1500 BCE",
-              "regime": "trialeti_vanadzor_culture"
+              "polity": "trialeti_vanadzor_culture"
             }
           ],
           "span": 2
@@ -57,19 +57,19 @@
         {
           "stack": [
             {
-              "regime": "mitanni_empire",
+              "polity": "mitanni_empire",
               "label": "Mitanni Empire — suzerainty",
               "note": "c.1500–1260 BCE"
             },
             {
-              "regime": "hittite_empire",
+              "polity": "hittite_empire",
               "label": "Hittite Empire — suzerainty",
               "note": "c.1400–1200 BCE"
             },
             {
               "label": "Hayasa-Azzi confederation",
               "note": "c.1600–1200 BCE",
-              "regime": "hayasa_azzi_confederation"
+              "polity": "hayasa_azzi_confederation"
             }
           ],
           "span": 1
@@ -79,7 +79,7 @@
             {
               "label": "Nairi kingdoms (highland confederation)",
               "note": "c.1300–860 BCE",
-              "regime": "nairi_kingdoms"
+              "polity": "nairi_kingdoms"
             }
           ],
           "span": 1
@@ -92,17 +92,17 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_urartu",
+              "polity": "kingdom_of_urartu",
               "label": "Kingdom of Urartu",
               "note": "860–590 BCE"
             },
             {
               "label": "Median Empire",
               "note": "590–550 BCE",
-              "regime": "median_kingdom"
+              "polity": "median_kingdom"
             },
             {
-              "regime": "achaemenid_empire",
+              "polity": "achaemenid_empire",
               "label": "Achaemenid Persia — Armenian satrapy",
               "note": "550–330 BCE"
             }
@@ -122,10 +122,10 @@
             {
               "label": "Orontid (Yervandid) dynasty",
               "note": "570–200 BCE",
-              "regime": "orontid_dynasty"
+              "polity": "orontid_dynasty"
             },
             {
-              "regime": "seleucid_empire",
+              "polity": "seleucid_empire",
               "label": "Seleucid suzerainty",
               "note": "312–190 BCE"
             }
@@ -137,7 +137,7 @@
             {
               "label": "Lesser Armenia (Sophene · Commagene)",
               "note": "from 3rd c. BCE",
-              "regime": "lesser_armenia"
+              "polity": "lesser_armenia"
             }
           ],
           "span": 1
@@ -150,14 +150,14 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_armenia",
+              "polity": "kingdom_of_armenia",
               "label": "Artaxiad (Artasiad) Armenia",
               "note": "190 BCE–1 CE"
             },
             {
               "label": "Tigranes II 'the Great' — peak empire",
               "note": "83–69 BCE",
-              "regime": "tigranes_ii_the_great"
+              "polity": "tigranes_ii_the_great"
             }
           ],
           "span": 1
@@ -167,12 +167,12 @@
             {
               "label": "Sophene · Lesser Armenia",
               "note": "client kingdoms",
-              "regime": "sophene_lesser_armenia"
+              "polity": "sophene_lesser_armenia"
             },
             {
               "label": "Kingdom of Commagene",
               "note": "163 BCE–72 CE",
-              "regime": "kingdom_of_commagene"
+              "polity": "kingdom_of_commagene"
             }
           ],
           "span": 1
@@ -185,14 +185,14 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_armenia",
+              "polity": "kingdom_of_armenia",
               "label": "Arsacid Armenia",
               "note": "1–428 CE"
             },
             {
               "label": "Christianity adopted (St. Gregory)",
               "note": "301 CE — first Christian state",
-              "regime": "christianity_adopted"
+              "polity": "christianity_adopted"
             }
           ],
           "span": 1
@@ -200,12 +200,12 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Armenia (province)",
               "note": "114–118 CE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Byzantine Armenia (eastern thema)",
               "note": "387–636"
             }
@@ -220,7 +220,7 @@
         {
           "stack": [
             {
-              "regime": "sassanid_empire",
+              "polity": "sassanid_empire",
               "label": "Sassanid Marzpanate (Persarmenia)",
               "note": "428–652; Battle of Avarayr (451 — Christianity defended against Zoroastrian conversion)"
             }
@@ -230,7 +230,7 @@
         {
           "stack": [
             {
-              "regime": "byzantine_empire",
+              "polity": "byzantine_empire",
               "label": "Byzantine Armenia (thema)",
               "note": "387–636"
             }
@@ -248,17 +248,17 @@
         {
           "stack": [
             {
-              "regime": "rashidun_caliphate",
+              "polity": "rashidun_caliphate",
               "label": "Rashidun Caliphate (Arminiya)",
               "note": "640s–661"
             },
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate (Arminiya)",
               "note": "661–750"
             },
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid Caliphate (Arminiya)",
               "note": "750–885"
             }
@@ -271,7 +271,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "bagratid_armenia",
+          "polity": "bagratid_armenia",
           "label": "Bagratid Armenia (capital: Ani)",
           "note": "885–1064",
           "span": 1
@@ -281,22 +281,22 @@
             {
               "label": "Taron principality",
               "note": "885–966",
-              "regime": "taron_principality"
+              "polity": "taron_principality"
             },
             {
               "label": "Syunik · Gadman · Parstos kingdoms",
               "note": "9th–11th c.",
-              "regime": "syunik_gadman_parstos_kingdoms"
+              "polity": "syunik_gadman_parstos_kingdoms"
             },
             {
               "label": "Vaspurakan Kingdom",
               "note": "908–1021",
-              "regime": "vaspurakan_kingdom"
+              "polity": "vaspurakan_kingdom"
             },
             {
               "label": "Vanand · Lori · Artsakh kingdoms",
               "note": "10th–11th c.",
-              "regime": "vanand_lori_artsakh_kingdoms"
+              "polity": "vanand_lori_artsakh_kingdoms"
             }
           ],
           "span": 1
@@ -309,19 +309,19 @@
         {
           "stack": [
             {
-              "regime": "seljuk_empire",
+              "polity": "seljuk_empire",
               "label": "Seljuk conquest — Ani falls",
               "note": "1064"
             },
             {
               "label": "Shadarmenid dynasty (Ahlat)",
               "note": "1100–1207",
-              "regime": "shadarmenid_dynasty"
+              "polity": "shadarmenid_dynasty"
             },
             {
               "label": "Zakarid Armenia (under Georgia)",
               "note": "1200–1350",
-              "regime": "zakarid_armenia"
+              "polity": "zakarid_armenia"
             }
           ],
           "span": 1
@@ -331,12 +331,12 @@
             {
               "label": "Kingdom of Cilician Armenia",
               "note": "1080–1375",
-              "regime": "kingdom_of_cilician_armenia"
+              "polity": "kingdom_of_cilician_armenia"
             },
             {
               "label": "Hasan-Jalalid dynasty (Artsakh)",
               "note": "1214–1261",
-              "regime": "hasan_jalalid_dynasty"
+              "polity": "hasan_jalalid_dynasty"
             }
           ],
           "span": 1
@@ -349,24 +349,24 @@
         {
           "stack": [
             {
-              "regime": "mongol_empire",
+              "polity": "mongol_empire",
               "label": "Mongol Empire",
               "note": "1236–1256"
             },
             {
-              "regime": "ilkhanate",
+              "polity": "ilkhanate",
               "label": "Ilkhanate",
               "note": "1256–1335"
             },
             {
               "label": "Chobanid dynasty",
               "note": "1335–1357",
-              "regime": "chobanid_dynasty"
+              "polity": "chobanid_dynasty"
             },
             {
               "label": "Jalayirid Sultanate",
               "note": "1357–1410",
-              "regime": "jalayirid_sultanate"
+              "polity": "jalayirid_sultanate"
             }
           ],
           "span": 1
@@ -376,12 +376,12 @@
             {
               "label": "Zakarid nobles (Proshians · Orbelians)",
               "note": "under Mongols",
-              "regime": "zakarid_nobles"
+              "polity": "zakarid_nobles"
             },
             {
               "label": "Hasan-Jalalid (Artsakh · Karabakh)",
               "note": "1261–1500s",
-              "regime": "hasan_jalalid"
+              "polity": "hasan_jalalid"
             }
           ],
           "span": 1
@@ -394,17 +394,17 @@
         {
           "stack": [
             {
-              "regime": "timurid_empire",
+              "polity": "timurid_empire",
               "label": "Timurid Empire",
               "note": "1405–1468"
             },
             {
-              "regime": "kara_koyunlu",
+              "polity": "kara_koyunlu",
               "label": "Kara Koyunlu (Black Sheep)",
               "note": "1374–1468"
             },
             {
-              "regime": "aq_qoyunlu",
+              "polity": "aq_qoyunlu",
               "label": "Aq Qoyunlu (White Sheep)",
               "note": "1468–1501"
             }
@@ -416,12 +416,12 @@
             {
               "label": "Artsakh Melikdoms (5 melikdoms of Karabakh)",
               "note": "c.1400–1822",
-              "regime": "artsakh_melikdoms"
+              "polity": "artsakh_melikdoms"
             },
             {
               "label": "Proshian lords · Hasan-Jalalid remnants",
               "note": "–16th c.",
-              "regime": "proshian_lords"
+              "polity": "proshian_lords"
             }
           ],
           "span": 1
@@ -437,7 +437,7 @@
         {
           "stack": [
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Empire (western — Six Vilayets)",
               "note": "1514–1828; Armenian uprisings · Adana massacre (1895–1909)"
             }
@@ -447,14 +447,14 @@
         {
           "stack": [
             {
-              "regime": "safavid_empire",
+              "polity": "safavid_empire",
               "label": "Safavid Persia (eastern Armenia)",
               "note": "1502–1736"
             },
             {
               "label": "Artsakh Melikdoms (continued)",
               "note": "under Safavid",
-              "regime": "artsakh_melikdoms"
+              "polity": "artsakh_melikdoms"
             }
           ],
           "span": 1
@@ -467,7 +467,7 @@
         {
           "stack": [
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Empire — Armenian Genocide",
               "note": "1915–1923"
             }
@@ -477,27 +477,27 @@
         {
           "stack": [
             {
-              "regime": "afsharid_dynasty",
+              "polity": "afsharid_dynasty",
               "label": "Afsharid suzerainty",
               "note": "1736–1796"
             },
             {
               "label": "Erivan Khanate · Nakhchivan Khanate",
               "note": "1747–1828",
-              "regime": "erivan_khanate"
+              "polity": "erivan_khanate"
             },
             {
               "label": "Karabakh Khanate",
               "note": "1747–1806",
-              "regime": "karabakh_khanate"
+              "polity": "karabakh_khanate"
             },
             {
-              "regime": "qajar_dynasty",
+              "polity": "qajar_dynasty",
               "label": "Qajar Iran (suzerain)",
               "note": "1796–1828"
             },
             {
-              "regime": "russian_empire",
+              "polity": "russian_empire",
               "label": "Russian Empire (after Turkmenchay)",
               "note": "1828–1917"
             }
@@ -514,12 +514,12 @@
             {
               "label": "Transcaucasian Democratic Federative Republic",
               "note": "1918; Armenian–Georgian War (1918); Armenian–Azerbaijani War (Karabakh) (1918–1920)",
-              "regime": "transcaucasian_democratic_federative_republic"
+              "polity": "transcaucasian_democratic_federative_republic"
             },
             {
               "label": "Armenian First Republic",
               "note": "1918–1920",
-              "regime": "armenian_first_republic"
+              "polity": "armenian_first_republic"
             }
           ],
           "span": 2
@@ -535,19 +535,19 @@
         {
           "stack": [
             {
-              "regime": "soviet_union",
+              "polity": "soviet_union",
               "label": "Transcaucasian SFSR",
               "note": "1922–1936"
             },
             {
-              "regime": "soviet_union",
+              "polity": "soviet_union",
               "label": "Armenian SSR",
               "note": "1936–1991"
             },
             {
               "label": "Republic of Armenia (Second Republic)",
               "note": "1991–",
-              "regime": "republic_of_armenia"
+              "polity": "republic_of_armenia"
             }
           ],
           "span": 2

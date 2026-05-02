@@ -36,27 +36,27 @@
             {
               "label": "Early human presence (Homo erectus · Neanderthals · Homo sapiens)",
               "note": "c.500,000–40,000 BCE",
-              "regime": "early_human_presence"
+              "polity": "early_human_presence"
             },
             {
               "label": "Early European farmers · Danubian culture",
               "note": "c.5500 BCE–",
-              "regime": "early_european_farmers_culture"
+              "polity": "early_european_farmers_culture"
             },
             {
               "label": "Linear Pottery culture (Linearbandkeramik)",
               "note": "c.5500–4500 BCE",
-              "regime": "linear_pottery_culture"
+              "polity": "linear_pottery_culture"
             },
             {
               "label": "Corded Ware culture · Globular Amphora culture",
               "note": "c.3200–2300 BCE",
-              "regime": "corded_ware_culture"
+              "polity": "corded_ware_culture"
             },
             {
               "label": "Funnel Beaker · Bell Beaker cultures",
               "note": "",
-              "regime": "funnel_beaker_culture"
+              "polity": "funnel_beaker_culture"
             },
             {
               "label": "Únětice culture → Urnfield culture",
@@ -65,12 +65,12 @@
             {
               "label": "Lusatian culture",
               "note": "c.1300–500 BCE",
-              "regime": "lusatian_culture"
+              "polity": "lusatian_culture"
             },
             {
               "label": "Hallstatt culture · Pomeranian culture",
               "note": "c.700–300 BCE",
-              "regime": "hallstatt_culture"
+              "polity": "hallstatt_culture"
             }
           ],
           "span": 3
@@ -88,32 +88,32 @@
             {
               "label": "Celtic migrations (La Tène — Silesia · Lesser Poland)",
               "note": "c.400–100 BCE",
-              "regime": "celtic_migrations"
+              "polity": "celtic_migrations"
             },
             {
               "label": "Germanic tribes (Lugii · Vandals · Goths · Burgundians)",
               "note": "c.200 BCE–5th c.",
-              "regime": "germanic_tribes"
+              "polity": "germanic_tribes"
             },
             {
               "label": "Przeworsk culture (associated with Vandals/Lugii)",
               "note": "c.200 BCE–500 CE",
-              "regime": "przeworsk_culture"
+              "polity": "przeworsk_culture"
             },
             {
               "label": "Wielbark culture (associated with Goths)",
               "note": "c.1st–4th c. CE",
-              "regime": "wielbark_culture"
+              "polity": "wielbark_culture"
             },
             {
               "label": "Hunnic incursions",
               "note": "c.375–453",
-              "regime": "hunnic_incursions"
+              "polity": "hunnic_incursions"
             },
             {
               "label": "West Slavic settlement (Polanie · Vistulans · Slenzans · Pomeranians)",
               "note": "c.500–700",
-              "regime": "west_slavic_settlement"
+              "polity": "west_slavic_settlement"
             }
           ],
           "span": 3
@@ -131,12 +131,12 @@
             {
               "label": "Polanie (tribe around Gniezno · Poznań)",
               "note": "c.700–960",
-              "regime": "polanie"
+              "polity": "polanie"
             },
             {
               "label": "Pomeranian tribes (Baltic coast)",
               "note": "",
-              "regime": "pomeranian_tribes"
+              "polity": "pomeranian_tribes"
             }
           ],
           "span": 1
@@ -146,17 +146,17 @@
             {
               "label": "Vistulans (around Kraków)",
               "note": "c.700–",
-              "regime": "vistulans"
+              "polity": "vistulans"
             },
             {
               "label": "Great Moravia (brief overlordship of Vistulans)",
               "note": "c.875–906",
-              "regime": "great_moravia"
+              "polity": "great_moravia"
             },
             {
               "label": "Masovian tribes",
               "note": "",
-              "regime": "masovian_tribes"
+              "polity": "masovian_tribes"
             }
           ],
           "span": 1
@@ -166,7 +166,7 @@
             {
               "label": "Slenzans (Silesian tribes)",
               "note": "c.700–",
-              "regime": "slenzans"
+              "polity": "slenzans"
             },
             {
               "label": "Bohemian influence in Silesia",
@@ -188,17 +188,17 @@
             {
               "label": "Polish realm (Civitas Schinesghe) — Mieszko I",
               "note": "c.960–992; Christianization 966",
-              "regime": "polish_realm"
+              "polity": "polish_realm"
             },
             {
-              "regime": "kingdom_of_poland",
+              "polity": "kingdom_of_poland",
               "label": "Kingdom of Poland — Bolesław I the Brave",
               "note": "1025–"
             },
             {
               "label": "Piast dynasty",
               "note": "c.960–1370",
-              "regime": "piast_dynasty"
+              "polity": "piast_dynasty"
             }
           ],
           "span": 3
@@ -213,12 +213,12 @@
             {
               "label": "Duchy of Greater Poland",
               "note": "1138–1314",
-              "regime": "duchy_of_greater_poland"
+              "polity": "duchy_of_greater_poland"
             },
             {
               "label": "Duchy of Pomerania (gradually lost to HRE/Brandenburg)",
               "note": "1121–",
-              "regime": "duchy_of_pomerania"
+              "polity": "duchy_of_pomerania"
             }
           ],
           "span": 1
@@ -228,12 +228,12 @@
             {
               "label": "Duchy of Sandomierz",
               "note": "1138–1305",
-              "regime": "duchy_of_sandomierz"
+              "polity": "duchy_of_sandomierz"
             },
             {
               "label": "Duchy of Masovia",
               "note": "1138–1526",
-              "regime": "duchy_of_masovia"
+              "polity": "duchy_of_masovia"
             }
           ],
           "span": 1
@@ -243,7 +243,7 @@
             {
               "label": "Duchy of Silesia",
               "note": "1138–",
-              "regime": "duchy_of_silesia"
+              "polity": "duchy_of_silesia"
             },
             {
               "label": "Fragmentation into many Silesian duchies",
@@ -252,7 +252,7 @@
             {
               "label": "Silesian duchies become Bohemian vassals",
               "note": "1327–1335",
-              "regime": "silesian_duchies_become_bohemian_vassals"
+              "polity": "silesian_duchies_become_bohemian_vassals"
             }
           ],
           "span": 1
@@ -265,17 +265,17 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_poland",
+              "polity": "kingdom_of_poland",
               "label": "Kingdom of Poland reunified — Władysław I the Elbow-High",
               "note": "1320–"
             },
             {
               "label": "Casimir III the Great (last Piast king)",
               "note": "1333–1370",
-              "regime": "casimir_iii_the_great"
+              "polity": "casimir_iii_the_great"
             },
             {
-              "regime": "teutonic_order",
+              "polity": "teutonic_order",
               "label": "Teutonic Order in Pomerelia / Prussia (hostile neighbor)",
               "note": "1226–1525"
             }
@@ -287,12 +287,12 @@
             {
               "label": "Silesia under Bohemian Crown",
               "note": "1335–",
-              "regime": "silesia_under_bohemian_crown"
+              "polity": "silesia_under_bohemian_crown"
             },
             {
               "label": "Lost to Poland for centuries",
               "note": "",
-              "regime": "lost_to_poland_for_centuries"
+              "polity": "lost_to_poland_for_centuries"
             }
           ],
           "span": 1
@@ -308,14 +308,14 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_poland",
+              "polity": "kingdom_of_poland",
               "label": "Kingdom of Poland — Jagiellonian dynasty",
               "note": "1386–1572"
             },
             {
               "label": "Poland-Lithuania personal union (Jogaila/Władysław II)",
               "note": "1385–1386; Union of Krewo",
-              "regime": "poland_lithuania_personal_union"
+              "polity": "poland_lithuania_personal_union"
             },
             {
               "label": "Thirteen Years' War — Royal Prussia recovered",
@@ -324,7 +324,7 @@
             {
               "label": "Poland-Lithuania = largest state in Europe",
               "note": "15th–16th c.",
-              "regime": "poland_lithuania_largest_state_in_europe"
+              "polity": "poland_lithuania_largest_state_in_europe"
             }
           ],
           "span": 2
@@ -334,12 +334,12 @@
             {
               "label": "Silesia remains under Bohemian (Habsburg) Crown",
               "note": "",
-              "regime": "silesia_remains_under_bohemian_crown"
+              "polity": "silesia_remains_under_bohemian_crown"
             },
             {
               "label": "German-speaking urbanization deepens",
               "note": "",
-              "regime": "german_speaking_urbanization_deepens"
+              "polity": "german_speaking_urbanization_deepens"
             }
           ],
           "span": 1
@@ -355,19 +355,19 @@
         {
           "stack": [
             {
-              "regime": "polish_lithuanian_commonwealth",
+              "polity": "polish_lithuanian_commonwealth",
               "label": "Polish-Lithuanian Commonwealth (Rzeczpospolita — 'First Republic')",
               "note": "1569–1795"
             },
             {
               "label": "Elected monarchy (szlachta democracy — Golden Liberty)",
               "note": "Union of Lublin 1569",
-              "regime": "elected_monarchy"
+              "polity": "elected_monarchy"
             },
             {
               "label": "Height under Sigismund III · John III Sobieski",
               "note": "relief of Vienna 1683",
-              "regime": "height_under_sigismund_iii"
+              "polity": "height_under_sigismund_iii"
             },
             {
               "label": "Decline — Liberum veto · Saxon dynasty · Russian interference",
@@ -391,19 +391,19 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_prussia",
+              "polity": "kingdom_of_prussia",
               "label": "Prussian Partition (Greater Poland · Pomerania)",
               "note": "1772/1793–"
             },
             {
               "label": "Grand Duchy of Posen (Poznań)",
               "note": "1815–1848",
-              "regime": "grand_duchy_of_posen"
+              "polity": "grand_duchy_of_posen"
             },
             {
               "label": "Province of Posen · West Prussia (Germanization — Kulturkampf)",
               "note": "1848–1918",
-              "regime": "province_of_posen"
+              "polity": "province_of_posen"
             }
           ],
           "span": 1
@@ -421,12 +421,12 @@
             {
               "label": "Congress Kingdom of Poland (Russian puppet)",
               "note": "1815–1831",
-              "regime": "kingdom_of_poland"
+              "polity": "kingdom_of_poland"
             },
             {
               "label": "Privislinsky Krai (direct Russian rule)",
               "note": "1867–1915; November Uprising 1830, January Uprising 1863",
-              "regime": "privislinsky_krai"
+              "polity": "privislinsky_krai"
             }
           ],
           "span": 1
@@ -440,17 +440,17 @@
             {
               "label": "Free City of Kraków",
               "note": "1815–1846",
-              "regime": "free_city_of_krakow"
+              "polity": "free_city_of_krakow"
             },
             {
               "label": "Austrian Galicia-Lodomeria (relative autonomy)",
               "note": "1867–1918",
-              "regime": "austrian_galicia_lodomeria"
+              "polity": "austrian_galicia_lodomeria"
             },
             {
               "label": "Grand Duchy of Kraków (Austrian)",
               "note": "1846–1918",
-              "regime": "grand_duchy_of_krakow"
+              "polity": "grand_duchy_of_krakow"
             }
           ],
           "span": 1
@@ -465,7 +465,7 @@
             {
               "label": "Regency Kingdom of Poland (German puppet — WWI)",
               "note": "1916–1918",
-              "regime": "kingdom_of_poland"
+              "polity": "kingdom_of_poland"
             },
             {
               "label": "Polish independence restored",
@@ -485,7 +485,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_poland",
+              "polity": "kingdom_of_poland",
               "label": "Second Polish Republic (Józef Piłsudski)",
               "note": "1918–1939"
             },
@@ -496,7 +496,7 @@
             {
               "label": "Sanacja regime (Piłsudski's May Coup)",
               "note": "1926–1939",
-              "regime": "sanacja_regime"
+              "polity": "sanacja_regime"
             }
           ],
           "span": 3
@@ -512,12 +512,12 @@
         {
           "split": [
             {
-              "regime": "nazi_germany",
+              "polity": "nazi_germany",
               "label": "Nazi German occupation — Warthegau (annexed) · General Government",
               "note": "1939–1945"
             },
             {
-              "regime": "soviet_union",
+              "polity": "soviet_union",
               "label": "Soviet occupation — Kresy (eastern Poland annexed to Belarusian/Ukrainian SSR)",
               "note": "1939–1941"
             }
@@ -538,12 +538,12 @@
             {
               "label": "Polish Underground State (Armia Krajowa — Home Army)",
               "note": "1939–1945",
-              "regime": "polish_underground_state"
+              "polity": "polish_underground_state"
             },
             {
               "label": "Holocaust — ~3 million Polish Jews murdered; ~6 million Polish citizens killed total",
               "note": "1939–1945; Warsaw Ghetto Uprising 1943, Warsaw Uprising 1944",
-              "regime": "holocaust"
+              "polity": "holocaust"
             }
           ],
           "span": 3
@@ -561,22 +561,22 @@
             {
               "label": "Borders shifted west (Oder-Neisse line — gains Silesia · Pomerania · East Prussia; loses Kresy to USSR)",
               "note": "1945",
-              "regime": "borders_shifted_west"
+              "polity": "borders_shifted_west"
             },
             {
               "label": "Polish People's Republic (Soviet satellite state)",
               "note": "1947–1989",
-              "regime": "polish_peoples_republic"
+              "polity": "polish_peoples_republic"
             },
             {
               "label": "Solidarity (Solidarność) — Lech Wałęsa (Gdańsk Shipyard)",
               "note": "1980; Poznań protests 1956, March 1968, December strikes 1970",
-              "regime": "solidarity"
+              "polity": "solidarity"
             },
             {
               "label": "Martial law (Jaruzelski)",
               "note": "1981–1983",
-              "regime": "martial_law"
+              "polity": "martial_law"
             },
             {
               "label": "Round Table Agreement → end of communist rule",
@@ -598,7 +598,7 @@
             {
               "label": "Third Polish Republic",
               "note": "1989–",
-              "regime": "third_polish_republic"
+              "polity": "third_polish_republic"
             },
             {
               "label": "NATO member (1999) · EU member (2004)",

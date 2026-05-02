@@ -1,50 +1,50 @@
 {
   "id": "germany",
   "name": "germany",
-  "regime_count": 9,
-  "regimes": [
+  "polity_count": 9,
+  "polities": [
     {
-      "regime_id": "carolingian_empire",
+      "polity_id": "carolingian_empire",
       "start": 486,
       "end": 843
     },
     {
-      "regime_id": "holy_roman_empire",
+      "polity_id": "holy_roman_empire",
       "start": 962,
       "end": 1806
     },
     {
-      "regime_id": "kingdom_of_prussia",
+      "polity_id": "kingdom_of_prussia",
       "start": 1701,
       "end": 1918
     },
     {
-      "regime_id": "habsburg_monarchy",
+      "polity_id": "habsburg_monarchy",
       "start": 1438,
       "end": 1918
     },
     {
-      "regime_id": "german_empire",
+      "polity_id": "german_empire",
       "start": 1871,
       "end": 1918
     },
     {
-      "regime_id": "weimar_republic",
+      "polity_id": "weimar_republic",
       "start": 1918,
       "end": 1933
     },
     {
-      "regime_id": "nazi_germany",
+      "polity_id": "nazi_germany",
       "start": 1933,
       "end": 1945
     },
     {
-      "regime_id": "east_germany",
+      "polity_id": "east_germany",
       "start": 1949,
       "end": 1990
     },
     {
-      "regime_id": "federal_republic_germany",
+      "polity_id": "federal_republic_germany",
       "start": 1949
     }
   ]

@@ -31,12 +31,12 @@
             {
               "label": "Berber / Numidian peoples",
               "note": "prehistoric",
-              "regime": "numidia"
+              "polity": "numidia"
             },
             {
               "label": "Phoenician Utica",
               "note": "c.1100 BCE",
-              "regime": "phoenician_utica"
+              "polity": "phoenician_utica"
             }
           ],
           "span": 1
@@ -44,7 +44,7 @@
         {
           "label": "Numidian hinterland",
           "span": 1,
-          "regime": "numidia"
+          "polity": "numidia"
         }
       ]
     },
@@ -56,20 +56,20 @@
             {
               "label": "Carthage (Punic civilization)",
               "note": "c.814–146 BCE",
-              "regime": "carthage"
+              "polity": "carthage"
             },
             {
               "label": "Roman Province of Africa (Proconsularis)",
               "note": "146 BCE–429 CE",
-              "regime": "roman_province_of_africa"
+              "polity": "roman_province_of_africa"
             },
             {
               "label": "Vandal Kingdom",
               "note": "429–534",
-              "regime": "vandal_kingdom"
+              "polity": "vandal_kingdom"
             },
             {
-              "regime": "byzantine_empire",
+              "polity": "byzantine_empire",
               "label": "Byzantine Exarchate of Africa",
               "note": "534–647"
             }
@@ -87,12 +87,12 @@
         {
           "stack": [
             {
-              "regime": "rashidun_caliphate",
+              "polity": "rashidun_caliphate",
               "label": "Rashidun Caliphate",
               "note": "647–661"
             },
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate",
               "note": "661–750"
             }
@@ -109,12 +109,12 @@
             {
               "label": "Fihrid governors (Abbasid)",
               "note": "750–771",
-              "regime": "fihrid_governors"
+              "polity": "fihrid_governors"
             },
             {
               "label": "Muhallabid governors",
               "note": "771–793",
-              "regime": "muhallabid_governors"
+              "polity": "muhallabid_governors"
             }
           ],
           "span": 1
@@ -124,10 +124,10 @@
             {
               "label": "Aghlabid dynasty (capital: Kairouan)",
               "note": "800–909",
-              "regime": "aghlabid_dynasty"
+              "polity": "aghlabid_dynasty"
             },
             {
-              "regime": "fatimid_caliphate",
+              "polity": "fatimid_caliphate",
               "label": "Fatimid Caliphate (al-Mahdiyya)",
               "note": "909–969"
             }
@@ -144,22 +144,22 @@
             {
               "label": "Zirid dynasty",
               "note": "969–1148; Norman Kingdom (raids · Mahdia 1148–1160) (1134–1160)",
-              "regime": "zirid_dynasty"
+              "polity": "zirid_dynasty"
             },
             {
               "label": "Almohad Caliphate",
               "note": "1159–1229",
-              "regime": "almohad_caliphate"
+              "polity": "almohad_caliphate"
             },
             {
               "label": "Banu Ghaniya (Almoravid rebels)",
               "note": "1184–1228",
-              "regime": "banu_ghaniya"
+              "polity": "banu_ghaniya"
             },
             {
               "label": "Hafsid dynasty",
               "note": "1229–1574",
-              "regime": "hafsid_dynasty"
+              "polity": "hafsid_dynasty"
             }
           ],
           "span": 2
@@ -175,19 +175,19 @@
         {
           "stack": [
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Empire (Eyalet of Tunis)",
               "note": "1574–1612"
             },
             {
               "label": "Muradid Bey dynasty",
               "note": "1613–1705",
-              "regime": "muradid_bey_dynasty"
+              "polity": "muradid_bey_dynasty"
             },
             {
               "label": "Husainid Bey dynasty",
               "note": "1705–1957",
-              "regime": "husainid_bey_dynasty"
+              "polity": "husainid_bey_dynasty"
             }
           ],
           "span": 2
@@ -230,17 +230,17 @@
             {
               "label": "Kingdom of Tunisia",
               "note": "1956–1957",
-              "regime": "kingdom_of_tunisia"
+              "polity": "kingdom_of_tunisia"
             },
             {
               "label": "First Republic — Bourguiba",
               "note": "1957–1987",
-              "regime": "first_republic"
+              "polity": "first_republic"
             },
             {
               "label": "Ben Ali regime",
               "note": "1987–2011",
-              "regime": "ben_ali_regime"
+              "polity": "ben_ali_regime"
             }
           ],
           "span": 2
@@ -255,12 +255,12 @@
             {
               "label": "Second Republic (NCA · Essebsi)",
               "note": "2011–2019; Tunisian Revolution (2011)",
-              "regime": "second_republic"
+              "polity": "second_republic"
             },
             {
               "label": "Kais Saied — new constitution",
               "note": "2019–",
-              "regime": "kais_saied"
+              "polity": "kais_saied"
             }
           ],
           "span": 2

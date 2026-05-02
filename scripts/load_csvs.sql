@@ -18,12 +18,12 @@ DELETE FROM religion;
 DELETE FROM language;
 DELETE FROM ethnicity;
 DELETE FROM territory;
-DELETE FROM state;
+DELETE FROM civilization;
 
 -- ─── STATE ────────────────────────────────────────────────
-INSERT INTO state (id, name, description)
+INSERT INTO civilization (id, name, description)
 SELECT id, name, description
-FROM read_csv('csvs/state.csv', auto_detect=true);
+FROM read_csv('csvs/civilization.csv', auto_detect=true);
 
 -- ─── TERRITORY ────────────────────────────────────────────
 INSERT INTO territory (id, name)
@@ -112,10 +112,10 @@ WITH RECURSIVE tree AS (
 UPDATE religion SET depth = tree.depth FROM tree WHERE religion.id = tree.id;
 
 -- ─── POLITY (from polity.csv) ─────────────────────────────
-INSERT INTO polity (id, name, state_id, ruling_ethnicity, cultural_language,
+INSERT INTO polity (id, name, civilization_id, ruling_ethnicity, cultural_language,
                     religion, government, start_year, end_year, note)
 SELECT id, name,
-       NULLIF(state_id, ''),
+       NULLIF(civilization_id, ''),
        NULLIF(id_ruling_ethnicity, ''),
        NULLIF(id_ruling_language, ''),
        NULLIF(id_ruling_religion, ''),
@@ -174,17 +174,17 @@ SELECT
     CAST(related_ethnicity AS BOOLEAN) AS related_ethnicity,
     CAST(same_language AS BOOLEAN)     AS same_language,
     CAST(same_religion AS BOOLEAN)     AS same_religion,
-    CAST(same_state AS BOOLEAN)        AS same_state,
+    CAST(same_civilization AS BOOLEAN)        AS same_civilization,
     shared_territories
 FROM read_csv('csvs/polity_succession.csv', auto_detect=true);
 
 INSERT INTO polity_succession
     (id, from_polity_id, to_polity_id, territorial_direction, strength,
      temporal_gap_years, same_ethnicity, related_ethnicity,
-     same_language, same_religion, same_state)
+     same_language, same_religion, same_civilization)
 SELECT id, from_polity_id, to_polity_id, territorial_direction, strength,
        temporal_gap_years, same_ethnicity, related_ethnicity,
-       same_language, same_religion, same_state
+       same_language, same_religion, same_civilization
 FROM _succ;
 
 -- ─── POLITY_SUCCESSION_TERRITORY ──────────────────────────

@@ -36,12 +36,12 @@
             {
               "label": "Helvetii (Celtic — western Swiss Plateau)",
               "note": "c.300 BCE–",
-              "regime": "helvetii"
+              "polity": "helvetii"
             },
             {
               "label": "La Tène culture heartland (Neuchâtel)",
               "note": "c.450–50 BCE",
-              "regime": "la_tene_culture_heartland_culture"
+              "polity": "la_tene_culture_heartland_culture"
             }
           ],
           "span": 1
@@ -51,12 +51,12 @@
             {
               "label": "Raetians (Alpine — Graubünden · Tyrol)",
               "note": "pre-Roman",
-              "regime": "raetians"
+              "polity": "raetians"
             },
             {
               "label": "Helvetii (eastern)",
               "note": "",
-              "regime": "helvetii"
+              "polity": "helvetii"
             }
           ],
           "span": 1
@@ -66,12 +66,12 @@
             {
               "label": "Kingdom of Noricum (Celtic — allied with Rome)",
               "note": "c.400–15 BCE",
-              "regime": "kingdom_of_noricum"
+              "polity": "kingdom_of_noricum"
             },
             {
               "label": "Taurisci · Boii",
               "note": "",
-              "regime": "taurisci_boii"
+              "polity": "taurisci_boii"
             }
           ],
           "span": 1
@@ -84,14 +84,14 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Gallia Belgica / Germania Superior",
               "note": "58 BCE–, after Caesar defeats Helvetii at Bibracte"
             },
             {
               "label": "Aventicum (Avenches) — Helvetian capital",
               "note": "",
-              "regime": "aventicum"
+              "polity": "aventicum"
             }
           ],
           "span": 1
@@ -99,14 +99,14 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Raetia Province",
               "note": "15 BCE–"
             },
             {
               "label": "Curia Raetorum (Chur) — Roman Alpine hub",
               "note": "",
-              "regime": "curia_raetorum"
+              "polity": "curia_raetorum"
             }
           ],
           "span": 1
@@ -114,14 +114,14 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Noricum · Pannonia",
               "note": "15 BCE–"
             },
             {
               "label": "Vindobona (Vienna) — legionary fortress",
               "note": "c.97 CE",
-              "regime": "vindobona"
+              "polity": "vindobona"
             },
             {
               "label": "Carnuntum — Danube frontier capital",
@@ -141,7 +141,7 @@
         {
           "stack": [
             {
-              "regime": "western_roman_empire",
+              "polity": "western_roman_empire",
               "label": "Western Roman Empire",
               "note": "395–476"
             },
@@ -155,14 +155,14 @@
         {
           "stack": [
             {
-              "regime": "western_roman_empire",
+              "polity": "western_roman_empire",
               "label": "Western Roman Empire",
               "note": "395–476"
             },
             {
               "label": "Alemannic settlement (eastern Swiss Plateau · Swabia)",
               "note": "c.400–",
-              "regime": "alemannic_settlement"
+              "polity": "alemannic_settlement"
             }
           ],
           "span": 1
@@ -170,29 +170,29 @@
         {
           "stack": [
             {
-              "regime": "western_roman_empire",
+              "polity": "western_roman_empire",
               "label": "Western Roman Empire",
               "note": "395–476"
             },
             {
-              "regime": "ostrogothic_kingdom",
+              "polity": "ostrogothic_kingdom",
               "label": "Ostrogothic Kingdom",
               "note": "493–553"
             },
             {
-              "regime": "lombard_kingdom",
+              "polity": "lombard_kingdom",
               "label": "Lombard Kingdom (parts of Tyrol · Carinthia)",
               "note": "568–774"
             },
             {
               "label": "Avar Khaganate (eastern frontier raids)",
               "note": "c.560–796",
-              "regime": "avar_khaganate"
+              "polity": "avar_khaganate"
             },
             {
               "label": "Bavarian tribal duchy (overlordship of eastern Alps)",
               "note": "c.550–788",
-              "regime": "bavarian_tribal_duchy"
+              "polity": "bavarian_tribal_duchy"
             }
           ],
           "span": 1
@@ -210,22 +210,22 @@
             {
               "label": "Frankish Kingdom — Burgundy conquered",
               "note": "534",
-              "regime": "carolingian_empire"
+              "polity": "carolingian_empire"
             },
             {
-              "regime": "carolingian_empire",
+              "polity": "carolingian_empire",
               "label": "Carolingian Empire",
               "note": "751–843"
             },
             {
               "label": "Kingdom of Upper Burgundy (High Burgundy)",
               "note": "888–1032",
-              "regime": "kingdom_of_upper_burgundy"
+              "polity": "kingdom_of_upper_burgundy"
             },
             {
               "label": "Second Burgundian Kingdom",
               "note": "933–1032",
-              "regime": "second_burgundian_kingdom"
+              "polity": "second_burgundian_kingdom"
             }
           ],
           "span": 1
@@ -235,17 +235,17 @@
             {
               "label": "Frankish Kingdom — Alemannia conquered",
               "note": "496/746",
-              "regime": "carolingian_empire"
+              "polity": "carolingian_empire"
             },
             {
-              "regime": "carolingian_empire",
+              "polity": "carolingian_empire",
               "label": "Carolingian Empire",
               "note": "751–843"
             },
             {
               "label": "Duchy of Swabia (Alemannia)",
               "note": "909–1268",
-              "regime": "duchy_of_swabia"
+              "polity": "duchy_of_swabia"
             }
           ],
           "span": 1
@@ -255,22 +255,22 @@
             {
               "label": "Frankish Kingdom — Bavaria conquered",
               "note": "788",
-              "regime": "carolingian_empire"
+              "polity": "carolingian_empire"
             },
             {
-              "regime": "carolingian_empire",
+              "polity": "carolingian_empire",
               "label": "Carolingian Empire",
               "note": "751–843"
             },
             {
               "label": "Duchy of Bavaria (Carolingian then Ottonian)",
               "note": "788–",
-              "regime": "duchy_of_bavaria"
+              "polity": "duchy_of_bavaria"
             },
             {
               "label": "Hungarian Grand Principality (overlordship)",
               "note": "c.900–955",
-              "regime": "hungarian_grand_principality"
+              "polity": "hungarian_grand_principality"
             }
           ],
           "span": 1
@@ -286,19 +286,19 @@
         {
           "stack": [
             {
-              "regime": "holy_roman_empire",
+              "polity": "holy_roman_empire",
               "label": "Holy Roman Empire",
               "note": "962–"
             },
             {
               "label": "Burgundy absorbed into HRE",
               "note": "1032–1034",
-              "regime": "burgundy_absorbed_into_hre"
+              "polity": "burgundy_absorbed_into_hre"
             },
             {
               "label": "Zähringen dynasty — founding of Bern · Fribourg",
               "note": "12th c.",
-              "regime": "zahringen_dynasty"
+              "polity": "zahringen_dynasty"
             },
             {
               "label": "Savoy influence (Vaud · Valais)",
@@ -310,24 +310,24 @@
         {
           "stack": [
             {
-              "regime": "holy_roman_empire",
+              "polity": "holy_roman_empire",
               "label": "Holy Roman Empire",
               "note": ""
             },
             {
               "label": "Duchy of Swabia (fragmented after 1268)",
               "note": "",
-              "regime": "duchy_of_swabia"
+              "polity": "duchy_of_swabia"
             },
             {
               "label": "Habsburg origin — castle in Aargau, Switzerland",
               "note": "c.1020",
-              "regime": "habsburg_origin"
+              "polity": "habsburg_origin"
             },
             {
               "label": "Imperial immediacy of forest cantons",
               "note": "1231–",
-              "regime": "imperial_immediacy_of_forest_cantons"
+              "polity": "imperial_immediacy_of_forest_cantons"
             }
           ],
           "span": 1
@@ -335,19 +335,19 @@
         {
           "stack": [
             {
-              "regime": "holy_roman_empire",
+              "polity": "holy_roman_empire",
               "label": "Holy Roman Empire — German Kingdom",
               "note": "962–"
             },
             {
               "label": "March of Austria (Marchia Orientalis) — Babenberg dynasty",
               "note": "976–1246",
-              "regime": "march_of_austria"
+              "polity": "march_of_austria"
             },
             {
               "label": "Duchy of Austria",
               "note": "1156–",
-              "regime": "duchy_of_austria"
+              "polity": "duchy_of_austria"
             },
             {
               "label": "Babenberg extinction → Přemyslid interlude (Ottokar II)",
@@ -366,7 +366,7 @@
             {
               "label": "Savoy dominance in Vaud · Geneva region",
               "note": "13th–16th c.",
-              "regime": "savoy_dominance_in_vaud"
+              "polity": "savoy_dominance_in_vaud"
             }
           ],
           "span": 1
@@ -376,12 +376,12 @@
             {
               "label": "Old Swiss Confederacy (Eidgenossenschaft)",
               "note": "1291–, founded by oath of Uri · Schwyz · Unterwalden",
-              "regime": "old_swiss_confederacy"
+              "polity": "old_swiss_confederacy"
             },
             {
               "label": "Eight Cantons (Luzern · Zürich · Bern · Glarus join)",
               "note": "1332–1353",
-              "regime": "eight_cantons"
+              "polity": "eight_cantons"
             }
           ],
           "span": 1
@@ -389,14 +389,14 @@
         {
           "stack": [
             {
-              "regime": "habsburg_monarchy",
+              "polity": "habsburg_monarchy",
               "label": "Habsburg dynasty takes Austria (Rudolf I)",
               "note": "1278–, after Battle of Marchfeld"
             },
             {
               "label": "Archduchy of Austria (Privilegium Maius — forged charter)",
               "note": "1358/1453",
-              "regime": "archduchy_of_austria"
+              "polity": "archduchy_of_austria"
             },
             {
               "label": "Habsburg expansion (Tyrol · Carinthia · Styria · Carniola)",
@@ -405,7 +405,7 @@
             {
               "label": "Loss of Swiss territories to Confederacy",
               "note": "14th–15th c.",
-              "regime": "loss_of_swiss_territories_to_confederacy"
+              "polity": "loss_of_swiss_territories_to_confederacy"
             }
           ],
           "span": 1
@@ -423,7 +423,7 @@
             {
               "label": "Old Swiss Confederacy — Thirteen Cantons",
               "note": "1481–1798",
-              "regime": "old_swiss_confederacy"
+              "polity": "old_swiss_confederacy"
             },
             {
               "label": "Burgundian Wars — Charles the Bold defeated",
@@ -440,7 +440,7 @@
             {
               "label": "Swiss mercenaries — most feared infantry in Europe",
               "note": "15th–16th c.",
-              "regime": "swiss_mercenaries"
+              "polity": "swiss_mercenaries"
             }
           ],
           "span": 2
@@ -448,19 +448,19 @@
         {
           "stack": [
             {
-              "regime": "habsburg_monarchy",
+              "polity": "habsburg_monarchy",
               "label": "Habsburg Empire (Maximilian I — 'the Last Knight')",
               "note": "1493–1519"
             },
             {
               "label": "Habsburg division: Spanish vs Austrian branch",
               "note": "1556",
-              "regime": "habsburg_division_spanish_vs_austrian_branch"
+              "polity": "habsburg_division_spanish_vs_austrian_branch"
             },
             {
               "label": "Austrian Habsburgs — Ferdinand I",
               "note": "1556–1564",
-              "regime": "austrian_habsburgs"
+              "polity": "austrian_habsburgs"
             },
             {
               "label": "Ottoman sieges of Vienna",
@@ -497,7 +497,7 @@
         {
           "stack": [
             {
-              "regime": "habsburg_monarchy",
+              "polity": "habsburg_monarchy",
               "label": "Habsburg Monarchy — Austrian branch",
               "note": ""
             },
@@ -512,7 +512,7 @@
             {
               "label": "Pragmatic Sanction (Maria Theresa's succession)",
               "note": "1713",
-              "regime": "pragmatic_sanction"
+              "polity": "pragmatic_sanction"
             }
           ],
           "span": 1
@@ -530,7 +530,7 @@
             {
               "label": "Helvetic Republic (French client state — centralized)",
               "note": "1798–1803, after French invasion collapses Old Confederacy",
-              "regime": "helvetic_republic"
+              "polity": "helvetic_republic"
             },
             {
               "label": "Act of Mediation (Napoleon restores cantonal system)",
@@ -542,14 +542,14 @@
         {
           "stack": [
             {
-              "regime": "habsburg_monarchy",
+              "polity": "habsburg_monarchy",
               "label": "Austrian Empire (proclaimed by Francis II)",
               "note": "1804"
             },
             {
               "label": "Holy Roman Empire dissolved (Francis abdicates as Emperor)",
               "note": "1806",
-              "regime": "holy_roman_empire"
+              "polity": "holy_roman_empire"
             },
             {
               "label": "Napoleonic Wars — multiple defeats by France",
@@ -583,7 +583,7 @@
             {
               "label": "Swiss Federal State (modern constitution)",
               "note": "1848, after Sonderbund War (1847) resolves Catholic-Protestant divide",
-              "regime": "swiss_federal_state"
+              "polity": "swiss_federal_state"
             },
             {
               "label": "Direct democracy · federal system · armed neutrality",
@@ -595,28 +595,28 @@
         {
           "stack": [
             {
-              "regime": "habsburg_monarchy",
+              "polity": "habsburg_monarchy",
               "label": "Austrian Empire",
               "note": "1804–1867"
             },
             {
               "label": "German Confederation (Austria as president)",
               "note": "1815–1866",
-              "regime": "german_confederation"
+              "polity": "german_confederation"
             },
             {
               "label": "Austro-Prussian War — Austria excluded from Germany",
               "note": "1866"
             },
             {
-              "regime": "habsburg_monarchy",
+              "polity": "habsburg_monarchy",
               "label": "Austria-Hungary (Dual Monarchy — Ausgleich)",
               "note": "1867–1918"
             },
             {
               "label": "Multinational empire (Germans · Hungarians · Czechs · Poles · South Slavs)",
               "note": "",
-              "regime": "multinational_empire"
+              "polity": "multinational_empire"
             }
           ],
           "span": 1
@@ -646,7 +646,7 @@
             {
               "label": "International organizations base (League of Nations · later UN)",
               "note": "Geneva",
-              "regime": "international_organizations_base"
+              "polity": "international_organizations_base"
             }
           ],
           "span": 2
@@ -656,25 +656,25 @@
             {
               "label": "World War I — Austria-Hungary collapses",
               "note": "1914–1918",
-              "regime": "world_war_i"
+              "polity": "world_war_i"
             },
             {
               "label": "Republic of German-Austria (sought union with Germany)",
               "note": "1918–1919",
-              "regime": "republic_of_german_austria"
+              "polity": "republic_of_german_austria"
             },
             {
               "label": "First Austrian Republic",
               "note": "1919–1934",
-              "regime": "first_austrian_republic"
+              "polity": "first_austrian_republic"
             },
             {
               "label": "Austrofascist Federal State (Dollfuß · Schuschnigg)",
               "note": "1934–1938",
-              "regime": "austrofascist_federal_state"
+              "polity": "austrofascist_federal_state"
             },
             {
-              "regime": "nazi_germany",
+              "polity": "nazi_germany",
               "label": "Anschluss — annexed by Nazi Germany",
               "note": "1938–1945"
             },
@@ -698,7 +698,7 @@
             {
               "label": "Swiss Confederation",
               "note": "1848–",
-              "regime": "swiss_confederation"
+              "polity": "swiss_confederation"
             },
             {
               "label": "International neutrality (not in NATO · UN member only 2002)",
@@ -707,7 +707,7 @@
             {
               "label": "Global financial center (Zürich · Geneva)",
               "note": "",
-              "regime": "global_financial_center"
+              "polity": "global_financial_center"
             },
             {
               "label": "Not an EU member (bilateral agreements)",
@@ -721,7 +721,7 @@
             {
               "label": "Second Austrian Republic",
               "note": "1955–",
-              "regime": "second_austrian_republic"
+              "polity": "second_austrian_republic"
             },
             {
               "label": "Austrian State Treaty — sovereignty restored · permanent neutrality",
@@ -734,7 +734,7 @@
             {
               "label": "Vienna — UN/OSCE/OPEC headquarters",
               "note": "",
-              "regime": "vienna"
+              "polity": "vienna"
             }
           ],
           "span": 1

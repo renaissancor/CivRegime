@@ -46,7 +46,7 @@
             {
               "label": "Illyrians (Dardani)",
               "note": "indigenous western Balkans",
-              "regime": "illyrians"
+              "polity": "illyrians"
             }
           ],
           "span": 1
@@ -56,7 +56,7 @@
             {
               "label": "Illyrians · Celts (Scordisci)",
               "note": "mixed Illyro-Celtic",
-              "regime": "illyrians_celts"
+              "polity": "illyrians_celts"
             }
           ],
           "span": 1
@@ -66,7 +66,7 @@
             {
               "label": "Illyrians (Autariatae)",
               "note": "inner Balkans",
-              "regime": "illyrians"
+              "polity": "illyrians"
             }
           ],
           "span": 1
@@ -76,7 +76,7 @@
             {
               "label": "Celts (Scordisci)",
               "note": "lower Danube",
-              "regime": "celts"
+              "polity": "celts"
             }
           ],
           "span": 1
@@ -85,7 +85,7 @@
           "stack": [
             {
               "label": "Celts (Scordisci) · Dacians",
-              "regime": "celts_dacians"
+              "polity": "celts_dacians"
             }
           ],
           "span": 1
@@ -96,12 +96,12 @@
       "era": null,
       "cells": [
         {
-          "regime": "roman_empire",
+          "polity": "roman_empire",
           "label": "Roman Empire — Moesia Superior · Dardania provinces",
           "span": 3
         },
         {
-          "regime": "roman_empire",
+          "polity": "roman_empire",
           "label": "Roman Empire — Singidunum (Belgrade)",
           "span": 1
         },
@@ -109,12 +109,12 @@
           "stack": [
             {
               "label": "Roman Empire — Pannonia province",
-              "regime": "roman_empire"
+              "polity": "roman_empire"
             },
             {
               "label": "Iazyges (Sarmatian)",
               "note": "Tisza plain, 1st–4th c.",
-              "regime": "iazyges"
+              "polity": "iazyges"
             }
           ],
           "span": 1
@@ -128,17 +128,17 @@
           "stack": [
             {
               "label": "Eastern Roman (Byzantine)",
-              "regime": "eastern_roman"
+              "polity": "eastern_roman"
             },
             {
               "label": "Hunnic raids",
               "note": "4th–5th c.",
-              "regime": "hunnic_raids"
+              "polity": "hunnic_raids"
             },
             {
               "label": "South Slavic migration",
               "note": "6th–7th c.",
-              "regime": "south_slavic_migration"
+              "polity": "south_slavic_migration"
             }
           ],
           "span": 3
@@ -147,11 +147,11 @@
           "stack": [
             {
               "label": "Eastern Roman",
-              "regime": "eastern_roman"
+              "polity": "eastern_roman"
             },
             {
               "label": "Hunnic raids",
-              "regime": "hunnic_raids"
+              "polity": "hunnic_raids"
             }
           ],
           "span": 1
@@ -161,16 +161,16 @@
             {
               "label": "Gepid Kingdom",
               "note": "454–567 CE",
-              "regime": "gepid_kingdom"
+              "polity": "gepid_kingdom"
             },
             {
               "label": "Avar Khaganate",
               "note": "567–796 CE",
-              "regime": "avar_khaganate"
+              "polity": "avar_khaganate"
             },
             {
               "label": "South Slavs settling",
-              "regime": "south_slavs_settling"
+              "polity": "south_slavs_settling"
             }
           ],
           "span": 1
@@ -188,11 +188,11 @@
             {
               "label": "Serbian Principality — Vlastimirović dynasty",
               "note": "c.780–960",
-              "regime": "serbian_principality"
+              "polity": "serbian_principality"
             },
             {
               "label": "vs First Bulgarian Empire · Frankish pressure",
-              "regime": "first_bulgarian_empire"
+              "polity": "first_bulgarian_empire"
             }
           ],
           "span": 3
@@ -211,12 +211,12 @@
             {
               "label": "Magyar (Hungarian) raids · settlement",
               "note": "896–",
-              "regime": "magyar_raids"
+              "polity": "magyar_raids"
             },
             {
               "label": "Kingdom of Hungary forming",
               "note": "c.1000",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 1
@@ -230,12 +230,12 @@
           "stack": [
             {
               "label": "Byzantine Empire",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             },
             {
               "label": "Serbian Grand Principality — Vukanović dynasty",
               "note": "c.1040–1101",
-              "regime": "serbian_grand_principality"
+              "polity": "serbian_grand_principality"
             }
           ],
           "span": 1
@@ -244,7 +244,7 @@
           "stack": [
             {
               "label": "Byzantine Empire",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -253,7 +253,7 @@
           "stack": [
             {
               "label": "Serbian Grand Principality — Vukanović / Duklja",
-              "regime": "serbian_grand_principality"
+              "polity": "serbian_grand_principality"
             }
           ],
           "span": 1
@@ -262,7 +262,7 @@
           "stack": [
             {
               "label": "Byzantine Empire",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -271,7 +271,7 @@
           "stack": [
             {
               "label": "Kingdom of Hungary",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 1
@@ -285,7 +285,7 @@
           "stack": [
             {
               "label": "Byzantine Empire (contested)",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -294,7 +294,7 @@
           "stack": [
             {
               "label": "Byzantine Empire",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -304,11 +304,11 @@
             {
               "label": "Serbian Grand Principality — Nemanjić dynasty",
               "note": "c.1166–1346",
-              "regime": "serbian_grand_principality"
+              "polity": "serbian_grand_principality"
             },
             {
               "label": "Stefan Nemanja · Principality of Bosnia (west)",
-              "regime": "stefan_nemanja"
+              "polity": "stefan_nemanja"
             }
           ],
           "span": 1
@@ -317,7 +317,7 @@
           "stack": [
             {
               "label": "Byzantine Empire",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -326,7 +326,7 @@
           "stack": [
             {
               "label": "Kingdom of Hungary",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 1
@@ -341,11 +341,11 @@
             {
               "label": "Serbian Empire — Stefan Dušan",
               "note": "1346–1371",
-              "regime": "serbian_empire"
+              "polity": "serbian_empire"
             },
             {
               "label": "Nemanjić dynasty · Kosovo — cultural heartland",
-              "regime": "nemanjic_dynasty"
+              "polity": "nemanjic_dynasty"
             }
           ],
           "span": 3
@@ -354,7 +354,7 @@
           "stack": [
             {
               "label": "Serbian Empire",
-              "regime": "serbian_empire"
+              "polity": "serbian_empire"
             }
           ],
           "span": 1
@@ -363,7 +363,7 @@
           "stack": [
             {
               "label": "Kingdom of Hungary",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 1
@@ -382,7 +382,7 @@
             {
               "label": "Serbian Despotate — Lazarević dynasty",
               "note": "1402–1427",
-              "regime": "serbian_despotate"
+              "polity": "serbian_despotate"
             }
           ],
           "span": 1
@@ -391,7 +391,7 @@
           "stack": [
             {
               "label": "Serbian Principality — Lazarević dynasty",
-              "regime": "serbian_principality"
+              "polity": "serbian_principality"
             }
           ],
           "span": 1
@@ -400,7 +400,7 @@
           "stack": [
             {
               "label": "Serbian Principality — Lazarević dynasty",
-              "regime": "serbian_principality"
+              "polity": "serbian_principality"
             }
           ],
           "span": 1
@@ -410,7 +410,7 @@
             {
               "label": "Serbian Despotate — Belgrade capital",
               "note": "1402–1427",
-              "regime": "serbian_despotate"
+              "polity": "serbian_despotate"
             }
           ],
           "span": 1
@@ -419,7 +419,7 @@
           "stack": [
             {
               "label": "Kingdom of Hungary",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 1
@@ -447,7 +447,7 @@
             {
               "label": "Serbian Despotate — Branković dynasty",
               "note": "1427–1459",
-              "regime": "serbian_despotate"
+              "polity": "serbian_despotate"
             },
             {
               "label": "Ottoman conquest",
@@ -461,12 +461,12 @@
             {
               "label": "Serbian Despotate — Belgrade",
               "note": "1427–1521",
-              "regime": "serbian_despotate"
+              "polity": "serbian_despotate"
             },
             {
               "label": "Kingdom of Hungary — Belgrade",
               "note": "1521",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 1
@@ -475,7 +475,7 @@
           "stack": [
             {
               "label": "Kingdom of Hungary",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 1
@@ -486,7 +486,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "ottoman_empire",
+          "polity": "ottoman_empire",
           "label": "Ottoman Empire — conquest complete",
           "span": 4
         },
@@ -494,7 +494,7 @@
           "stack": [
             {
               "label": "Kingdom of Hungary",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 1
@@ -508,12 +508,12 @@
       },
       "cells": [
         {
-          "regime": "ottoman_empire",
+          "polity": "ottoman_empire",
           "label": "Ottoman Empire — Rumelia · Kosovo vilayet",
           "span": 3
         },
         {
-          "regime": "ottoman_empire",
+          "polity": "ottoman_empire",
           "label": "Ottoman Empire (Belgrade — key fortress)",
           "span": 1
         },
@@ -521,7 +521,7 @@
           "stack": [
             {
               "label": "Kingdom of Hungary → Habsburg Empire",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 1
@@ -532,7 +532,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "ottoman_empire",
+          "polity": "ottoman_empire",
           "label": "Ottoman Empire",
           "span": 3
         },
@@ -545,7 +545,7 @@
             {
               "label": "Habsburg Empire — Belgrade captured",
               "note": "1688",
-              "regime": "habsburg_monarchy"
+              "polity": "habsburg_monarchy"
             }
           ],
           "span": 1
@@ -554,7 +554,7 @@
           "stack": [
             {
               "label": "Habsburg Empire (Treaty of Karlowitz 1699)",
-              "regime": "habsburg_monarchy"
+              "polity": "habsburg_monarchy"
             }
           ],
           "span": 1
@@ -565,7 +565,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "ottoman_empire",
+          "polity": "ottoman_empire",
           "label": "Ottoman Empire",
           "span": 2
         },
@@ -573,7 +573,7 @@
           "stack": [
             {
               "label": "Ottoman Empire",
-              "regime": "ottoman_empire"
+              "polity": "ottoman_empire"
             },
             {
               "label": "Habsburg–Ottoman wars, Belgrade alternating"
@@ -590,7 +590,7 @@
             {
               "label": "Habsburg Empire — Belgrade",
               "note": "1718–1739 · 1789–91",
-              "regime": "habsburg_monarchy"
+              "polity": "habsburg_monarchy"
             }
           ],
           "span": 1
@@ -599,7 +599,7 @@
           "stack": [
             {
               "label": "Habsburg Empire — Vojvodina",
-              "regime": "habsburg_monarchy"
+              "polity": "habsburg_monarchy"
             }
           ],
           "span": 1
@@ -610,7 +610,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "ottoman_empire",
+          "polity": "ottoman_empire",
           "label": "Ottoman Empire",
           "span": 3
         },
@@ -627,7 +627,7 @@
             {
               "label": "Principality of Serbia — Obrenović",
               "note": "1815–",
-              "regime": "principality_of_serbia"
+              "polity": "principality_of_serbia"
             }
           ],
           "span": 1
@@ -636,12 +636,12 @@
           "stack": [
             {
               "label": "Habsburg Empire",
-              "regime": "habsburg_monarchy"
+              "polity": "habsburg_monarchy"
             },
             {
               "label": "Serbian Vojvodina (Serbian autonomy movement)",
               "note": "1848–1849",
-              "regime": "serbian_vojvodina"
+              "polity": "serbian_vojvodina"
             }
           ],
           "span": 1
@@ -655,7 +655,7 @@
       },
       "cells": [
         {
-          "regime": "ottoman_empire",
+          "polity": "ottoman_empire",
           "label": "Ottoman Empire",
           "span": 3
         },
@@ -664,12 +664,12 @@
             {
               "label": "Principality of Serbia",
               "note": "1815–1882",
-              "regime": "principality_of_serbia"
+              "polity": "principality_of_serbia"
             },
             {
               "label": "Kingdom of Serbia",
               "note": "1882–1918",
-              "regime": "kingdom_of_serbia"
+              "polity": "kingdom_of_serbia"
             }
           ],
           "span": 1
@@ -678,7 +678,7 @@
           "stack": [
             {
               "label": "Habsburg Empire → Austria-Hungary",
-              "regime": "habsburg_monarchy"
+              "polity": "habsburg_monarchy"
             }
           ],
           "span": 1
@@ -701,7 +701,7 @@
           "stack": [
             {
               "label": "Austria-Hungary — Vojvodina",
-              "regime": "austria_hungary"
+              "polity": "austria_hungary"
             }
           ],
           "span": 1
@@ -742,7 +742,7 @@
             {
               "label": "Albanian client state (Italian)  — Kosovo",
               "note": "1941–1944",
-              "regime": "albanian_client_state"
+              "polity": "albanian_client_state"
             }
           ],
           "span": 1
@@ -751,12 +751,12 @@
           "stack": [
             {
               "label": "Nazi Germany — Military Government in Serbia",
-              "regime": "nazi_germany"
+              "polity": "nazi_germany"
             },
             {
               "label": "Government of National Salvation (Nedić)",
               "note": "1941–1944",
-              "regime": "government_of_national_salvation"
+              "polity": "government_of_national_salvation"
             }
           ],
           "span": 3
@@ -766,7 +766,7 @@
             {
               "label": "Hungary — Vojvodina re-occupied",
               "note": "1941–1944",
-              "regime": "hungary"
+              "polity": "hungary"
             }
           ],
           "span": 1
@@ -784,7 +784,7 @@
             },
             {
               "label": "Kosovo — Autonomous Province (Socialist SR Serbia)",
-              "regime": "kosovo"
+              "polity": "kosovo"
             }
           ],
           "span": 1
@@ -793,7 +793,7 @@
           "stack": [
             {
               "label": "SFR Yugoslavia — Socialist Republic of Serbia",
-              "regime": "sfr_yugoslavia"
+              "polity": "sfr_yugoslavia"
             }
           ],
           "span": 4
@@ -812,7 +812,7 @@
             {
               "label": "UN Kosovo Interim Administration (UNMIK)",
               "note": "1999–2008",
-              "regime": "un_kosovo_interim_administration"
+              "polity": "un_kosovo_interim_administration"
             },
             {
               "label": "Kosovo — declared independence",
@@ -826,12 +826,12 @@
             {
               "label": "Federal Republic of Yugoslavia",
               "note": "1992–2003",
-              "regime": "federal_republic_of_yugoslavia"
+              "polity": "federal_republic_of_yugoslavia"
             },
             {
               "label": "Serbia & Montenegro",
               "note": "2003–2006",
-              "regime": "serbia_montenegro"
+              "polity": "serbia_montenegro"
             }
           ],
           "span": 4
@@ -844,12 +844,12 @@
         {
           "label": "Kosovo (partially recognised)",
           "span": 1,
-          "regime": "kosovo"
+          "polity": "kosovo"
         },
         {
           "label": "Republic of Serbia — EU candidate",
           "span": 4,
-          "regime": "republic_of_serbia"
+          "polity": "republic_of_serbia"
         }
       ]
     }

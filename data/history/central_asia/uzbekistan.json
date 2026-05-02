@@ -36,22 +36,22 @@
             {
               "label": "Kelteminar culture",
               "note": "c.6000–3000 BCE",
-              "regime": "kelteminar_culture"
+              "polity": "kelteminar_culture"
             },
             {
               "label": "Primitive nomads",
               "note": "c.3000–2000 BCE",
-              "regime": "primitive_nomads"
+              "polity": "primitive_nomads"
             },
             {
               "label": "Afanasievo culture",
               "note": "c.3300–2500 BCE",
-              "regime": "afanasievo_culture"
+              "polity": "afanasievo_culture"
             },
             {
               "label": "Indo-European influx (Avestan peoples)",
               "note": "c.2000 BCE",
-              "regime": "indo_european_influx"
+              "polity": "indo_european_influx"
             }
           ],
           "span": 1
@@ -61,12 +61,12 @@
             {
               "label": "BMAC (Bactria–Margiana Archaeological Complex)",
               "note": "c.2300–1700 BCE",
-              "regime": "bmac_culture"
+              "polity": "bmac_culture"
             },
             {
               "label": "Andronovo culture",
               "note": "c.2000–900 BCE",
-              "regime": "andronovo_culture"
+              "polity": "andronovo_culture"
             },
             {
               "label": "Indo-European migrations (West & East Iranian)",
@@ -80,17 +80,17 @@
             {
               "label": "BMAC (Bactria–Margiana Archaeological Complex)",
               "note": "c.2300–1700 BCE",
-              "regime": "bmac_culture"
+              "polity": "bmac_culture"
             },
             {
               "label": "Andronovo culture",
               "note": "c.2000–900 BCE",
-              "regime": "andronovo_culture"
+              "polity": "andronovo_culture"
             },
             {
               "label": "Indo-European migrations (East Iranian · Tocharian)",
               "note": "c.1500–800 BCE",
-              "regime": "indo_european_migrations"
+              "polity": "indo_european_migrations"
             }
           ],
           "span": 1
@@ -106,24 +106,24 @@
         {
           "stack": [
             {
-              "regime": "achaemenid_empire",
+              "polity": "achaemenid_empire",
               "label": "Achaemenid Empire (Chorasmia Satrapy)",
               "note": "550–330 BCE"
             },
             {
               "label": "Alexander the Great · Seleucid",
               "note": "330–250 BCE",
-              "regime": "macedonian_empire"
+              "polity": "macedonian_empire"
             },
             {
               "label": "Scythians / Saka",
               "note": "c.700–100 BCE",
-              "regime": "scythians"
+              "polity": "scythians"
             },
             {
               "label": "Kangju (Kang kingdom)",
               "note": "c.250 BCE–350 CE",
-              "regime": "kangju"
+              "polity": "kangju"
             },
             {
               "label": "Parthia (suzerainty)",
@@ -135,29 +135,29 @@
         {
           "stack": [
             {
-              "regime": "achaemenid_empire",
+              "polity": "achaemenid_empire",
               "label": "Achaemenid Empire (Sogdiana Satrapy)",
               "note": "550–330 BCE"
             },
             {
               "label": "Alexander the Great · Seleucid",
               "note": "330–250 BCE",
-              "regime": "macedonian_empire"
+              "polity": "macedonian_empire"
             },
             {
               "label": "Greco-Bactrian Kingdom",
               "note": "250–130 BCE",
-              "regime": "greco_bactrian_kingdom"
+              "polity": "greco_bactrian_kingdom"
             },
             {
               "label": "Yuezhi (Da Yuezhi)",
               "note": "c.130–50 BCE",
-              "regime": "yuezhi"
+              "polity": "yuezhi"
             },
             {
               "label": "Kushan Empire",
               "note": "c.50 BCE–375 CE",
-              "regime": "kushan_empire"
+              "polity": "kushan_empire"
             }
           ],
           "span": 1
@@ -165,29 +165,29 @@
         {
           "stack": [
             {
-              "regime": "achaemenid_empire",
+              "polity": "achaemenid_empire",
               "label": "Achaemenid Empire (Ferghana Satrapy)",
               "note": "550–330 BCE"
             },
             {
               "label": "Alexander the Great · Seleucid",
               "note": "330–250 BCE",
-              "regime": "macedonian_empire"
+              "polity": "macedonian_empire"
             },
             {
               "label": "Dayuan (Ferghana Kingdom — 'Heavenly Horses')",
               "note": "c.250–50 BCE",
-              "regime": "dayuan"
+              "polity": "dayuan"
             },
             {
               "label": "Wusun",
               "note": "c.160 BCE–5th c.",
-              "regime": "wusun"
+              "polity": "wusun"
             },
             {
               "label": "Kushan Empire",
               "note": "c.50 BCE–375 CE",
-              "regime": "kushan_empire"
+              "polity": "kushan_empire"
             }
           ],
           "span": 1
@@ -202,22 +202,22 @@
             {
               "label": "Afrigid dynasty (Khorezm)",
               "note": "305–995",
-              "regime": "afrigid_dynasty"
+              "polity": "afrigid_dynasty"
             },
             {
               "label": "Kushano-Sasanian / Sassanid",
               "note": "224–425",
-              "regime": "kushano_sasanian_kingdom"
+              "polity": "kushano_sasanian_kingdom"
             },
             {
               "label": "Kidarites / Xionites",
               "note": "c.350–470",
-              "regime": "kidarites"
+              "polity": "kidarites"
             },
             {
               "label": "Hephthalites",
               "note": "c.450–560",
-              "regime": "hephthalites"
+              "polity": "hephthalites"
             },
             {
               "label": "Göktürk Empire → Western Turks",
@@ -231,22 +231,22 @@
             {
               "label": "Kushano-Sasanian / Sassanid",
               "note": "224–560",
-              "regime": "kushano_sasanian_kingdom"
+              "polity": "kushano_sasanian_kingdom"
             },
             {
               "label": "Kidarites / Xionites",
               "note": "c.350–470",
-              "regime": "kidarites"
+              "polity": "kidarites"
             },
             {
               "label": "Hephthalites",
               "note": "c.450–560",
-              "regime": "hephthalites"
+              "polity": "hephthalites"
             },
             {
               "label": "Sassanid (Sogdian city-states as vassals)",
               "note": "560–651",
-              "regime": "sassanid_empire"
+              "polity": "sassanid_empire"
             },
             {
               "label": "Göktürk Empire → Western Turks",
@@ -260,17 +260,17 @@
             {
               "label": "Tocharians · local principalities",
               "note": "2nd–6th c.",
-              "regime": "tocharians_local_principalities"
+              "polity": "tocharians_local_principalities"
             },
             {
               "label": "Kidarites / Xionites",
               "note": "c.350–470",
-              "regime": "kidarites"
+              "polity": "kidarites"
             },
             {
               "label": "Hephthalites",
               "note": "c.450–560",
-              "regime": "hephthalites"
+              "polity": "hephthalites"
             },
             {
               "label": "Göktürk Empire → Western Turks",
@@ -290,19 +290,19 @@
         {
           "stack": [
             {
-              "regime": "rashidun_caliphate",
+              "polity": "rashidun_caliphate",
               "label": "Rashidun Caliphate",
               "note": "637–661"
             },
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate",
               "note": "661–750"
             },
             {
               "label": "Turgesh Khaganate",
               "note": "699–766",
-              "regime": "turgesh_khaganate"
+              "polity": "turgesh_khaganate"
             }
           ],
           "span": 1
@@ -310,19 +310,19 @@
         {
           "stack": [
             {
-              "regime": "rashidun_caliphate",
+              "polity": "rashidun_caliphate",
               "label": "Rashidun Caliphate",
               "note": "637–661; Battle of Talas (751)"
             },
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate (Transoxiana conquest)",
               "note": "705–750"
             },
             {
               "label": "Tang Anxi Protectorate",
               "note": "658–751",
-              "regime": "tang_anxi_protectorate"
+              "polity": "tang_anxi_protectorate"
             }
           ],
           "span": 1
@@ -330,14 +330,14 @@
         {
           "stack": [
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate",
               "note": "710–750; Battle of Talas (751)"
             },
             {
               "label": "Tang Anxi Protectorate",
               "note": "659–751",
-              "regime": "tang_anxi_protectorate"
+              "polity": "tang_anxi_protectorate"
             }
           ],
           "span": 1
@@ -350,34 +350,34 @@
         {
           "stack": [
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid Caliphate",
               "note": "750–821"
             },
             {
               "label": "Tahirid dynasty",
               "note": "821–873",
-              "regime": "tahirid_dynasty"
+              "polity": "tahirid_dynasty"
             },
             {
               "label": "Samanid dynasty",
               "note": "819–999",
-              "regime": "samanid_empire"
+              "polity": "samanid_empire"
             },
             {
               "label": "Afrigid dynasty (Khorezm)",
               "note": "to 995",
-              "regime": "afrigid_dynasty"
+              "polity": "afrigid_dynasty"
             },
             {
               "label": "Kara-Khanid Khanate",
               "note": "999–1212",
-              "regime": "kara_khanid_khanate"
+              "polity": "kara_khanid_khanate"
             },
             {
               "label": "Seljuk Empire",
               "note": "1040–1194",
-              "regime": "seljuk_empire"
+              "polity": "seljuk_empire"
             }
           ],
           "span": 1
@@ -385,39 +385,39 @@
         {
           "stack": [
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid Caliphate",
               "note": "750–821"
             },
             {
               "label": "Tahirid dynasty",
               "note": "821–873",
-              "regime": "tahirid_dynasty"
+              "polity": "tahirid_dynasty"
             },
             {
               "label": "Samanid dynasty (capital: Bukhara)",
               "note": "819–999",
-              "regime": "samanid_empire"
+              "polity": "samanid_empire"
             },
             {
               "label": "Ghaznavid dynasty",
               "note": "999–1040",
-              "regime": "ghaznavid_empire"
+              "polity": "ghaznavid_empire"
             },
             {
               "label": "Kara-Khanid Khanate",
               "note": "999–1212",
-              "regime": "kara_khanid_khanate"
+              "polity": "kara_khanid_khanate"
             },
             {
               "label": "Seljuk Empire",
               "note": "1040–1212",
-              "regime": "seljuk_empire"
+              "polity": "seljuk_empire"
             },
             {
               "label": "Qara Khitai (Western Liao)",
               "note": "1137–1218",
-              "regime": "qara_khitai"
+              "polity": "qara_khitai"
             }
           ],
           "span": 1
@@ -425,29 +425,29 @@
         {
           "stack": [
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid Caliphate",
               "note": "750–819"
             },
             {
               "label": "Samanid dynasty",
               "note": "819–999",
-              "regime": "samanid_empire"
+              "polity": "samanid_empire"
             },
             {
               "label": "Ghaznavid dynasty",
               "note": "999–1040",
-              "regime": "ghaznavid_empire"
+              "polity": "ghaznavid_empire"
             },
             {
               "label": "Kara-Khanid Khanate",
               "note": "999–1137",
-              "regime": "kara_khanid_khanate"
+              "polity": "kara_khanid_khanate"
             },
             {
               "label": "Qara Khitai (Western Liao)",
               "note": "1137–1218",
-              "regime": "qara_khitai"
+              "polity": "qara_khitai"
             }
           ],
           "span": 1
@@ -462,22 +462,22 @@
             {
               "label": "Khwarazmian Empire (Anushteginid — capital: Urgench)",
               "note": "1077–1231",
-              "regime": "khwarazmian_empire"
+              "polity": "khwarazmian_empire"
             },
             {
               "label": "Mongol Empire",
               "note": "1220–1260",
-              "regime": "mongol_empire"
+              "polity": "mongol_empire"
             },
             {
               "label": "Golden Horde (Kipchak Khanate)",
               "note": "1242–1502",
-              "regime": "golden_horde"
+              "polity": "golden_horde"
             },
             {
               "label": "Qunghirat dynasty",
               "note": "c.1282–1388",
-              "regime": "qunghirat_dynasty"
+              "polity": "qunghirat_dynasty"
             }
           ],
           "span": 1
@@ -487,22 +487,22 @@
             {
               "label": "Khwarazmian Empire (Anushteginid)",
               "note": "1194–1231",
-              "regime": "khwarazmian_empire"
+              "polity": "khwarazmian_empire"
             },
             {
               "label": "Mongol Empire",
               "note": "1220–1260",
-              "regime": "mongol_empire"
+              "polity": "mongol_empire"
             },
             {
               "label": "Chagatai Khanate",
               "note": "1227–1363",
-              "regime": "chagatai_khanate"
+              "polity": "chagatai_khanate"
             },
             {
               "label": "Western Chagatai Khanate",
               "note": "1347–1370",
-              "regime": "chagatai_khanate"
+              "polity": "chagatai_khanate"
             }
           ],
           "span": 1
@@ -512,22 +512,22 @@
             {
               "label": "Khwarazmian Empire",
               "note": "1194–1231",
-              "regime": "khwarazmian_empire"
+              "polity": "khwarazmian_empire"
             },
             {
               "label": "Mongol Empire",
               "note": "1220–1260",
-              "regime": "mongol_empire"
+              "polity": "mongol_empire"
             },
             {
               "label": "Chagatai Khanate",
               "note": "1227–1347",
-              "regime": "chagatai_khanate"
+              "polity": "chagatai_khanate"
             },
             {
               "label": "Eastern Chagatai (Moghulistan)",
               "note": "1347–1570",
-              "regime": "moghulistan"
+              "polity": "moghulistan"
             }
           ],
           "span": 1
@@ -545,17 +545,17 @@
             {
               "label": "Timurid Empire",
               "note": "1370–1507",
-              "regime": "timurid_empire"
+              "polity": "timurid_empire"
             },
             {
               "label": "Uzbek Khanate (Shaybani dynasty)",
               "note": "1428–1598",
-              "regime": "uzbek_khanate"
+              "polity": "uzbek_khanate"
             },
             {
               "label": "Khanate of Khiva",
               "note": "1511–1920",
-              "regime": "khanate_of_khiva"
+              "polity": "khanate_of_khiva"
             }
           ],
           "span": 1
@@ -565,27 +565,27 @@
             {
               "label": "Timurid Empire (capital: Samarkand)",
               "note": "1370–1507",
-              "regime": "timurid_empire"
+              "polity": "timurid_empire"
             },
             {
               "label": "Uzbek Khanate (Shaybani dynasty)",
               "note": "1428–1598",
-              "regime": "uzbek_khanate"
+              "polity": "uzbek_khanate"
             },
             {
               "label": "Khanate of Bukhara",
               "note": "1500–1785",
-              "regime": "khanate_of_bukhara"
+              "polity": "khanate_of_bukhara"
             },
             {
               "label": "Afsharid dynasty (suzerainty)",
               "note": "1736–1796",
-              "regime": "afsharid_dynasty"
+              "polity": "afsharid_dynasty"
             },
             {
               "label": "Emirate of Bukhara (Manghit dynasty)",
               "note": "1785–1920",
-              "regime": "emirate_of_bukhara"
+              "polity": "emirate_of_bukhara"
             }
           ],
           "span": 1
@@ -595,17 +595,17 @@
             {
               "label": "Timurid Empire",
               "note": "1370–1507",
-              "regime": "timurid_empire"
+              "polity": "timurid_empire"
             },
             {
               "label": "Uzbek Khanate",
               "note": "1428–1598",
-              "regime": "uzbek_khanate"
+              "polity": "uzbek_khanate"
             },
             {
               "label": "Khanate of Kokand",
               "note": "1709–1876",
-              "regime": "khanate_of_kokand"
+              "polity": "khanate_of_kokand"
             }
           ],
           "span": 1
@@ -620,12 +620,12 @@
             {
               "label": "Russian Empire (Khiva Protectorate)",
               "note": "1873–1920",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             },
             {
               "label": "Basmachi movement",
               "note": "1916–1934",
-              "regime": "basmachi_movement"
+              "polity": "basmachi_movement"
             }
           ],
           "span": 1
@@ -635,12 +635,12 @@
             {
               "label": "Russian Empire (Bukhara Protectorate)",
               "note": "1866–1920",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             },
             {
               "label": "Turkestan Autonomy",
               "note": "1917–1918",
-              "regime": "turkestan_autonomy"
+              "polity": "turkestan_autonomy"
             }
           ],
           "span": 1
@@ -650,17 +650,17 @@
             {
               "label": "Russian Empire (Kokand Protectorate)",
               "note": "1868–1876",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             },
             {
               "label": "Russian Empire — Fergana Oblast (direct rule)",
               "note": "1876–1917",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             },
             {
               "label": "Turkestan ASSR (Fergana Oblast)",
               "note": "1918–1924",
-              "regime": "turkestan_assr"
+              "polity": "turkestan_assr"
             }
           ],
           "span": 1
@@ -677,19 +677,19 @@
           "label": "Khorezm People's Soviet Republic",
           "note": "1920–1924",
           "span": 1,
-          "regime": "khorezm_peoples_soviet_republic"
+          "polity": "khorezm_peoples_soviet_republic"
         },
         {
           "label": "Bukhara People's Soviet Republic",
           "note": "1920–1924",
           "span": 1,
-          "regime": "bukhara_peoples_soviet_republic"
+          "polity": "bukhara_peoples_soviet_republic"
         },
         {
           "label": "Turkestan ASSR (Fergana)",
           "note": "1918–1924",
           "span": 1,
-          "regime": "turkestan_assr"
+          "polity": "turkestan_assr"
         }
       ]
     },
@@ -701,12 +701,12 @@
             {
               "label": "Uzbek Soviet Socialist Republic",
               "note": "1924–1991",
-              "regime": "uzbek_soviet_socialist_republic"
+              "polity": "uzbek_soviet_socialist_republic"
             },
             {
               "label": "Republic of Uzbekistan",
               "note": "1991–",
-              "regime": "republic_of_uzbekistan"
+              "polity": "republic_of_uzbekistan"
             }
           ],
           "span": 3

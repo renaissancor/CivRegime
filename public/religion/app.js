@@ -29,13 +29,13 @@ async function init() {
     return;
   }
 
-  // Map religion id → regimes that use it
-  const regimesByRel = new Map();
+  // Map religion id → polities that use it
+  const politiesByRel = new Map();
   for (const r of polities) {
     const rel = r.ideology?.religion;
     if (rel) {
-      if (!regimesByRel.has(rel)) regimesByRel.set(rel, []);
-      regimesByRel.get(rel).push(r);
+      if (!politiesByRel.has(rel)) politiesByRel.set(rel, []);
+      politiesByRel.get(rel).push(r);
     }
   }
 
@@ -64,13 +64,13 @@ async function init() {
     if (!btn) return;
     list.querySelectorAll('.family-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    renderTree(btn.dataset.family, religions, regimesByRel);
+    renderTree(btn.dataset.family, religions, politiesByRel);
   });
 
-  renderTree('all', religions, regimesByRel);
+  renderTree('all', religions, politiesByRel);
 }
 
-function renderTree(familyId, allReligions, regimesByRel) {
+function renderTree(familyId, allReligions, politiesByRel) {
   try {
     const svg = d3.select('#tree-svg');
     svg.selectAll('*').remove();
@@ -130,12 +130,12 @@ function renderTree(familyId, allReligions, regimesByRel) {
       .attr('class', 'node')
       .attr('transform', d => `translate(${d.y},${d.x})`)
       .style('cursor', 'pointer')
-      .on('click', (e, d) => showDetail(d.data, allReligions, regimesByRel))
+      .on('click', (e, d) => showDetail(d.data, allReligions, politiesByRel))
       .on('mouseover', (e, d) => {
         clearTimeout(tooltipTimeout);
         const tip = document.getElementById('tooltip');
-        const count = regimesByRel.get(d.data.id)?.length || 0;
-        tip.innerHTML = `<strong>${d.data.name || d.data.id}</strong>${count ? `<br>${count} regime${count > 1 ? 's' : ''}` : ''}`;
+        const count = politiesByRel.get(d.data.id)?.length || 0;
+        tip.innerHTML = `<strong>${d.data.name || d.data.id}</strong>${count ? `<br>${count} polity${count > 1 ? 's' : ''}` : ''}`;
         tip.classList.add('visible');
       })
       .on('mousemove', e => {
@@ -162,15 +162,15 @@ function renderTree(familyId, allReligions, regimesByRel) {
       .attr('stroke', d => rootColor(d.data.id, allReligions))
       .attr('stroke-width', 1.5);
 
-    // Regime count badge (left of node)
-    node.filter(d => (regimesByRel.get(d.data.id)?.length || 0) > 0)
+    // Polity count badge (left of node)
+    node.filter(d => (politiesByRel.get(d.data.id)?.length || 0) > 0)
       .append('text')
       .attr('x', -12)
       .attr('dy', '0.32em')
       .attr('text-anchor', 'middle')
       .attr('font-size', 10)
       .attr('fill', '#f6ad55')
-      .text(d => regimesByRel.get(d.data.id)?.length);
+      .text(d => politiesByRel.get(d.data.id)?.length);
 
     // Label
     node.append('text')
@@ -184,13 +184,13 @@ function renderTree(familyId, allReligions, regimesByRel) {
   }
 }
 
-function showDetail(data, allReligions, regimesByRel) {
+function showDetail(data, allReligions, politiesByRel) {
   const panel   = document.getElementById('detail-panel');
   const content = document.getElementById('detail-content');
-  const regimes     = regimesByRel.get(data.id) || [];
+  const polities     = politiesByRel.get(data.id) || [];
   const descendants = getDescendants(data.id, allReligions);
   const allRelRegimes = [...new Set(
-    [data.id, ...descendants.map(d => d.id)].flatMap(id => regimesByRel.get(id) || [])
+    [data.id, ...descendants.map(d => d.id)].flatMap(id => politiesByRel.get(id) || [])
   )];
 
   let html = `<h2>${data.name || data.id}</h2>`;
@@ -201,23 +201,23 @@ function showDetail(data, allReligions, regimesByRel) {
   if (data.description) html += `<div class="sub" style="margin-top:4px">${data.description}</div>`;
   if (descendants.length) html += `<div class="sub">${descendants.length} sub-tradition${descendants.length > 1 ? 's' : ''}</div>`;
 
-  if (regimes.length) {
-    html += `<div class="section-title">Uses this religion directly (${regimes.length})</div>`;
-    for (const r of regimes) {
+  if (polities.length) {
+    html += `<div class="section-title">Uses this religion directly (${polities.length})</div>`;
+    for (const r of polities) {
       const dates = r.end ? `${r.start}–${r.end}` : `${r.start}–`;
-      html += `<div class="regime-item"><strong>${r.name}</strong><span>${dates} · ${r.ruling_ethnicity || ''}</span></div>`;
+      html += `<div class="polity-item"><strong>${r.name}</strong><span>${dates} · ${r.ruling_ethnicity || ''}</span></div>`;
     }
   }
-  if (allRelRegimes.length > regimes.length) {
-    const sub = allRelRegimes.filter(r => !regimes.includes(r));
+  if (allRelRegimes.length > polities.length) {
+    const sub = allRelRegimes.filter(r => !polities.includes(r));
     html += `<div class="section-title">In sub-traditions (${sub.length})</div>`;
     for (const r of sub) {
       const dates = r.end ? `${r.start}–${r.end}` : `${r.start}–`;
-      html += `<div class="regime-item"><strong>${r.name}</strong><span>${dates}</span></div>`;
+      html += `<div class="polity-item"><strong>${r.name}</strong><span>${dates}</span></div>`;
     }
   }
   if (!allRelRegimes.length) {
-    html += `<div class="sub" style="margin-top:8px">No regimes recorded for this tradition.</div>`;
+    html += `<div class="sub" style="margin-top:8px">No polities recorded for this tradition.</div>`;
   }
 
   content.innerHTML = html;

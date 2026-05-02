@@ -34,7 +34,7 @@
         {
           "label": "Paleolithic / Neolithic peoples",
           "span": 5,
-          "regime": "paleolithic_culture"
+          "polity": "paleolithic_culture"
         }
       ]
     },
@@ -47,17 +47,17 @@
         {
           "label": "Gojoseon",
           "span": 2,
-          "regime": "joseon"
+          "polity": "joseon"
         },
         {
           "label": "Jin state (south tribes)",
           "span": 2,
-          "regime": "jin_state"
+          "polity": "jin_state"
         },
         {
           "label": "Tamna",
           "span": 1,
-          "regime": "tamna"
+          "polity": "tamna"
         }
       ]
     },
@@ -70,27 +70,27 @@
         {
           "label": "Buyeo · Okjeo",
           "span": 1,
-          "regime": "buyeo_okjeo"
+          "polity": "buyeo_okjeo"
         },
         {
           "label": "Nakrang (Han commandery)",
           "span": 1,
-          "regime": "nakrang"
+          "polity": "nakrang"
         },
         {
           "label": "Mahan Confederacy",
           "span": 1,
-          "regime": "mahan_confederacy"
+          "polity": "mahan_confederacy"
         },
         {
           "label": "Jinhan · Byeonhan",
           "span": 1,
-          "regime": "jinhan_byeonhan"
+          "polity": "jinhan_byeonhan"
         },
         {
           "label": "Tamna",
           "span": 1,
-          "regime": "tamna"
+          "polity": "tamna"
         }
       ]
     },
@@ -101,24 +101,24 @@
       },
       "cells": [
         {
-          "regime": "goguryeo",
+          "polity": "goguryeo",
           "label": "Goguryeo",
           "span": 2
         },
         {
-          "regime": "baekje",
+          "polity": "baekje",
           "label": "Baekje",
           "span": 1
         },
         {
-          "regime": "silla",
+          "polity": "silla",
           "label": "Silla · Gaya",
           "span": 1
         },
         {
           "label": "Tamna",
           "span": 1,
-          "regime": "tamna"
+          "polity": "tamna"
         }
       ]
     },
@@ -131,10 +131,10 @@
         {
           "label": "Balhae",
           "span": 1,
-          "regime": "balhae"
+          "polity": "balhae"
         },
         {
-          "regime": "unified_silla",
+          "polity": "unified_silla",
           "label": "Unified Silla",
           "span": 3
         },
@@ -157,22 +157,22 @@
         {
           "label": "Later Goguryeo (Taebong)",
           "span": 1,
-          "regime": "goguryeo"
+          "polity": "goguryeo"
         },
         {
           "label": "Later Baekje",
           "span": 1,
-          "regime": "baekje"
+          "polity": "baekje"
         },
         {
-          "regime": "silla",
+          "polity": "silla",
           "label": "Silla (declining)",
           "span": 1
         },
         {
           "label": "Tamna",
           "span": 1,
-          "regime": "tamna"
+          "polity": "tamna"
         }
       ]
     },
@@ -187,17 +187,17 @@
             {
               "label": "Khitan Liao · Jurchen Jin",
               "note": "918–1231",
-              "regime": "khitan_liao"
+              "polity": "khitan_liao"
             },
             {
               "label": "Mongol Yuan",
               "note": "1231–1356",
-              "regime": "mongol_yuan"
+              "polity": "mongol_yuan"
             },
             {
               "label": "Ming Dynasty",
               "note": "1356–1392",
-              "regime": "ming_dynasty"
+              "polity": "ming_dynasty"
             }
           ],
           "span": 1
@@ -205,17 +205,17 @@
         {
           "stack": [
             {
-              "regime": "goryeo",
+              "polity": "goryeo",
               "label": "Goryeo",
               "note": "918–1231"
             },
             {
-              "regime": "goryeo",
+              "polity": "goryeo",
               "label": "Goryeo (Yuan vassal)",
               "note": "1231–1356"
             },
             {
-              "regime": "goryeo",
+              "polity": "goryeo",
               "label": "Goryeo (restored)",
               "note": "1356–1392"
             }
@@ -235,12 +235,12 @@
             {
               "label": "Ming Dynasty",
               "note": "1392–1644",
-              "regime": "ming_dynasty"
+              "polity": "ming_dynasty"
             },
             {
               "label": "Qing Dynasty",
               "note": "1644–1897",
-              "regime": "qing_dynasty"
+              "polity": "qing_dynasty"
             }
           ],
           "span": 1
@@ -248,17 +248,17 @@
         {
           "stack": [
             {
-              "regime": "joseon",
+              "polity": "joseon",
               "label": "Joseon",
               "note": "1392–1592"
             },
             {
-              "regime": "joseon",
+              "polity": "joseon",
               "label": "Joseon (Imjin War · Manchu invasions)",
               "note": "1592–1637"
             },
             {
-              "regime": "joseon",
+              "polity": "joseon",
               "label": "Joseon (Qing tributary)",
               "note": "1637–1897"
             }
@@ -276,12 +276,12 @@
         {
           "label": "Qing → Russian sphere",
           "span": 1,
-          "regime": "qing_dynasty"
+          "polity": "qing_dynasty"
         },
         {
           "label": "Korean Empire",
           "span": 4,
-          "regime": "korean_empire"
+          "polity": "korean_empire"
         }
       ]
     },
@@ -294,10 +294,10 @@
         {
           "label": "Manchukuo (Japan puppet)",
           "span": 1,
-          "regime": "manchukuo"
+          "polity": "manchukuo"
         },
         {
-          "regime": "japanese_korea",
+          "polity": "japanese_korea",
           "label": "Japanese Korea",
           "span": 4
         }
@@ -323,10 +323,10 @@
             {
               "label": "Soviet Military Government",
               "note": "1945–1948",
-              "regime": "soviet_military_government"
+              "polity": "soviet_military_government"
             },
             {
-              "regime": "north_korea",
+              "polity": "north_korea",
               "label": "North Korea (DPRK)",
               "note": "1948–"
             }
@@ -338,10 +338,10 @@
             {
               "label": "US Military Government",
               "note": "1945–1948",
-              "regime": "us_military_government"
+              "polity": "us_military_government"
             },
             {
-              "regime": "south_korea",
+              "polity": "south_korea",
               "label": "South Korea (ROK)",
               "note": "1948–"
             }
@@ -359,15 +359,15 @@
         {
           "label": "China",
           "span": 1,
-          "regime": "china"
+          "polity": "china"
         },
         {
-          "regime": "north_korea",
+          "polity": "north_korea",
           "label": "North Korea",
           "span": 1
         },
         {
-          "regime": "south_korea",
+          "polity": "south_korea",
           "label": "South Korea",
           "span": 3
         }

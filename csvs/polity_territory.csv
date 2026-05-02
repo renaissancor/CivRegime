@@ -182,7 +182,7 @@ khorasan,afsharid_dynasty,1736,1796
 khorasan,qajar_dynasty,1796,1925
 khorasan,pahlavi_dynasty,1925,1979
 khorasan,islamic_republic_iran,1979,
-kievan_rus,kievan_rus_regime,882,1240
+kievan_rus,kievan_rus,882,1240
 kievan_rus,golden_horde,1240,1480
 kievan_rus,grand_duchy_of_lithuania,1236,1569
 kievan_rus,grand_duchy_moscow,1283,1547
@@ -284,7 +284,7 @@ poland,kingdom_of_prussia,1772,1918
 poland,russian_empire,1795,1917
 pontic_steppe,hunnic_empire,350,453
 pontic_steppe,khazar_khaganate,650,969
-pontic_steppe,kievan_rus_regime,882,1240
+pontic_steppe,kievan_rus,882,1240
 pontic_steppe,golden_horde,1242,1502
 pontic_steppe,crimean_khanate,1441,1783
 pontic_steppe,russian_empire,1783,1917

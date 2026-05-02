@@ -56,19 +56,19 @@ function convert() {
   console.log('Converting JSON data to CSV format...\n');
 
   // ======== REGIMES ========
-  const regimes = loadDir(path.join(DATA_DIR, 'regimes'));
-  if (regimes.length > 0) {
-    const regimeRows = regimes.map(r => ({
+  const polities = loadDir(path.join(DATA_DIR, 'polities'));
+  if (polities.length > 0) {
+    const polityRows = polities.map(r => ({
       id: r.id,
       name: r.name,
-      state_id: '', // Will be populated manually
+      civilization_id: '', // Will be populated manually
       id_ruling_ethnicity: r.ruling_ethnicity || '',
       id_ruling_language: r.cultural_language || '',
       id_ruling_religion: r.ideology?.religion || '',
       start: r.start,
       end: r.end || ''
     }));
-    writeCSV('regimes.csv', ['id', 'name', 'state_id', 'id_ruling_ethnicity', 'id_ruling_language', 'id_ruling_religion', 'start', 'end'], regimeRows);
+    writeCSV('polity.csv', ['id', 'name', 'civilization_id', 'id_ruling_ethnicity', 'id_ruling_language', 'id_ruling_religion', 'start', 'end'], polityRows);
   }
 
   // ======== TERRITORIES ========
@@ -77,9 +77,9 @@ function convert() {
     const territoryRows = territories.map(t => ({
       id: t.id,
       name: t.name,
-      regime_count: t.regime_count || 0
+      polity_count: t.polity_count || 0
     }));
-    writeCSV('territories.csv', ['id', 'name', 'regime_count'], territoryRows);
+    writeCSV('territories.csv', ['id', 'name', 'polity_count'], territoryRows);
   }
 
   // ======== ETHNICITIES (tree) ========
@@ -123,8 +123,8 @@ function convert() {
 
   // ======== STATES (template) ========
   const statesTemplate = [
-    { id: 'roman_state', name: 'Roman State', description: 'Political continuity from Augustus to 1453' },
-    { id: 'ottoman_state', name: 'Ottoman State', description: 'Political continuity from Osman I to Mehmed VI' }
+    { id: 'roman_civilization', name: 'Roman Civilization', description: 'Political continuity from Augustus to 1453' },
+    { id: 'ottoman_civilization', name: 'Ottoman Civilization', description: 'Political continuity from Osman I to Mehmed VI' }
   ];
   writeCSV('states.csv', ['id', 'name', 'description'], statesTemplate);
 

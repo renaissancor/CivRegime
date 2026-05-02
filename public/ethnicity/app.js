@@ -29,13 +29,13 @@ async function init() {
     return;
   }
 
-  // Map ethnicity id → regimes that use it as ruling_ethnicity
-  const regimesByEth = new Map();
+  // Map ethnicity id → polities that use it as ruling_ethnicity
+  const politiesByEth = new Map();
   for (const r of polities) {
     const eth = r.ruling_ethnicity;
     if (eth) {
-      if (!regimesByEth.has(eth)) regimesByEth.set(eth, []);
-      regimesByEth.get(eth).push(r);
+      if (!politiesByEth.has(eth)) politiesByEth.set(eth, []);
+      politiesByEth.get(eth).push(r);
     }
   }
 
@@ -64,13 +64,13 @@ async function init() {
     if (!btn) return;
     list.querySelectorAll('.family-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    renderTree(btn.dataset.family, ethnicities, regimesByEth);
+    renderTree(btn.dataset.family, ethnicities, politiesByEth);
   });
 
-  renderTree('all', ethnicities, regimesByEth);
+  renderTree('all', ethnicities, politiesByEth);
 }
 
-function renderTree(familyId, allEthnicities, regimesByEth) {
+function renderTree(familyId, allEthnicities, politiesByEth) {
   try {
     const svg = d3.select('#tree-svg');
     svg.selectAll('*').remove();
@@ -130,12 +130,12 @@ function renderTree(familyId, allEthnicities, regimesByEth) {
       .attr('class', 'node')
       .attr('transform', d => `translate(${d.y},${d.x})`)
       .style('cursor', 'pointer')
-      .on('click', (e, d) => showDetail(d.data, allEthnicities, regimesByEth))
+      .on('click', (e, d) => showDetail(d.data, allEthnicities, politiesByEth))
       .on('mouseover', (e, d) => {
         clearTimeout(tooltipTimeout);
         const tip = document.getElementById('tooltip');
-        const count = regimesByEth.get(d.data.id)?.length || 0;
-        tip.innerHTML = `<strong>${d.data.name || d.data.id}</strong>${count ? `<br>${count} regime${count > 1 ? 's' : ''}` : ''}`;
+        const count = politiesByEth.get(d.data.id)?.length || 0;
+        tip.innerHTML = `<strong>${d.data.name || d.data.id}</strong>${count ? `<br>${count} polity${count > 1 ? 's' : ''}` : ''}`;
         tip.classList.add('visible');
       })
       .on('mousemove', e => {
@@ -162,15 +162,15 @@ function renderTree(familyId, allEthnicities, regimesByEth) {
       .attr('stroke', d => rootColor(d.data.id, allEthnicities))
       .attr('stroke-width', 1.5);
 
-    // Regime count badge (left of node)
-    node.filter(d => (regimesByEth.get(d.data.id)?.length || 0) > 0)
+    // Polity count badge (left of node)
+    node.filter(d => (politiesByEth.get(d.data.id)?.length || 0) > 0)
       .append('text')
       .attr('x', -12)
       .attr('dy', '0.32em')
       .attr('text-anchor', 'middle')
       .attr('font-size', 10)
       .attr('fill', '#f6ad55')
-      .text(d => regimesByEth.get(d.data.id)?.length);
+      .text(d => politiesByEth.get(d.data.id)?.length);
 
     // Label
     node.append('text')
@@ -184,13 +184,13 @@ function renderTree(familyId, allEthnicities, regimesByEth) {
   }
 }
 
-function showDetail(data, allEthnicities, regimesByEth) {
+function showDetail(data, allEthnicities, politiesByEth) {
   const panel   = document.getElementById('detail-panel');
   const content = document.getElementById('detail-content');
-  const regimes     = regimesByEth.get(data.id) || [];
+  const polities     = politiesByEth.get(data.id) || [];
   const descendants = getDescendants(data.id, allEthnicities);
   const allEthRegimes = [...new Set(
-    [data.id, ...descendants.map(d => d.id)].flatMap(id => regimesByEth.get(id) || [])
+    [data.id, ...descendants.map(d => d.id)].flatMap(id => politiesByEth.get(id) || [])
   )];
 
   let html = `<h2>${data.name || data.id}</h2>`;
@@ -201,23 +201,23 @@ function showDetail(data, allEthnicities, regimesByEth) {
   if (data.description) html += `<div class="sub" style="margin-top:4px">${data.description}</div>`;
   if (descendants.length) html += `<div class="sub">${descendants.length} sub-group${descendants.length > 1 ? 's' : ''}</div>`;
 
-  if (regimes.length) {
-    html += `<div class="section-title">Ruling ethnicity in (${regimes.length})</div>`;
-    for (const r of regimes) {
+  if (polities.length) {
+    html += `<div class="section-title">Ruling ethnicity in (${polities.length})</div>`;
+    for (const r of polities) {
       const dates = r.end ? `${r.start}–${r.end}` : `${r.start}–`;
-      html += `<div class="regime-item"><strong>${r.name}</strong><span>${dates}</span></div>`;
+      html += `<div class="polity-item"><strong>${r.name}</strong><span>${dates}</span></div>`;
     }
   }
-  if (allEthRegimes.length > regimes.length) {
-    const sub = allEthRegimes.filter(r => !regimes.includes(r));
+  if (allEthRegimes.length > polities.length) {
+    const sub = allEthRegimes.filter(r => !polities.includes(r));
     html += `<div class="section-title">In sub-groups (${sub.length})</div>`;
     for (const r of sub) {
       const dates = r.end ? `${r.start}–${r.end}` : `${r.start}–`;
-      html += `<div class="regime-item"><strong>${r.name}</strong><span>${dates}</span></div>`;
+      html += `<div class="polity-item"><strong>${r.name}</strong><span>${dates}</span></div>`;
     }
   }
   if (!allEthRegimes.length) {
-    html += `<div class="sub" style="margin-top:8px">No regimes recorded for this ethnicity group.</div>`;
+    html += `<div class="sub" style="margin-top:8px">No polities recorded for this ethnicity group.</div>`;
   }
 
   content.innerHTML = html;

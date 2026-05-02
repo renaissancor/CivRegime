@@ -46,12 +46,12 @@
             {
               "label": "Homo sapiens migration",
               "note": "c.50,000 BCE",
-              "regime": "homo_sapiens_migration"
+              "polity": "homo_sapiens_migration"
             },
             {
               "label": "Neolithic farmers",
               "note": "c.7000 BCE",
-              "regime": "neolithic_farmers_culture"
+              "polity": "neolithic_farmers_culture"
             },
             {
               "label": "Aryan / East Iranian migrations",
@@ -65,17 +65,17 @@
             {
               "label": "Helmand culture (Helmand Civilization)",
               "note": "c.3200–2350 BCE",
-              "regime": "helmand_culture"
+              "polity": "helmand_culture"
             },
             {
               "label": "Mundigak — Indus-related urban site",
               "note": "c.3000–2000 BCE",
-              "regime": "mundigak"
+              "polity": "mundigak"
             },
             {
               "label": "Aryan migration · Vedic peoples",
               "note": "c.2000–1500 BCE",
-              "regime": "aryan_migration"
+              "polity": "aryan_migration"
             }
           ],
           "span": 1
@@ -85,17 +85,17 @@
             {
               "label": "BMAC / Oxus Civilization",
               "note": "c.2300–1700 BCE",
-              "regime": "bmac_culture"
+              "polity": "bmac_culture"
             },
             {
               "label": "Shortugai (Harappan colony)",
               "note": "c.2200–1800 BCE",
-              "regime": "shortugai"
+              "polity": "shortugai"
             },
             {
               "label": "Aryan migrations — proto-Bactrian pastoralists",
               "note": "c.2000–1500 BCE",
-              "regime": "aryan_migrations"
+              "polity": "aryan_migrations"
             }
           ],
           "span": 1
@@ -105,17 +105,17 @@
             {
               "label": "Indus Valley contacts",
               "note": "c.2500–1700 BCE",
-              "regime": "indus_valley_contacts"
+              "polity": "indus_valley_contacts"
             },
             {
               "label": "Mundigak (eastern contacts)",
               "note": "c.3000–2000 BCE",
-              "regime": "mundigak"
+              "polity": "mundigak"
             },
             {
               "label": "Gandara Grave Culture",
               "note": "c.1400–800 BCE",
-              "regime": "gandara_grave_culture"
+              "polity": "gandara_grave_culture"
             }
           ],
           "span": 1
@@ -125,12 +125,12 @@
             {
               "label": "Shortugai (Harappan colony — lapis lazuli source)",
               "note": "c.2200–1800 BCE",
-              "regime": "shortugai"
+              "polity": "shortugai"
             },
             {
               "label": "Neolithic highland peoples",
               "note": "c.5000 BCE onward",
-              "regime": "neolithic_highland_peoples_culture"
+              "polity": "neolithic_highland_peoples_culture"
             }
           ],
           "span": 1
@@ -148,7 +148,7 @@
             {
               "label": "East Iranian peoples (Avestan sphere — 'Haroiva')",
               "note": "c.1500–700 BCE",
-              "regime": "east_iranian_peoples"
+              "polity": "east_iranian_peoples"
             },
             {
               "label": "Media suzerainty",
@@ -166,7 +166,7 @@
             {
               "label": "Gandara · Kamboja (Rigvedic peoples)",
               "note": "c.1200–550 BCE",
-              "regime": "gandara_kamboja"
+              "polity": "gandara_kamboja"
             }
           ],
           "span": 1
@@ -176,12 +176,12 @@
             {
               "label": "Bactrian pastoralists (Avestan 'Bāxδī' — holy land)",
               "note": "c.1500–700 BCE",
-              "regime": "bactrian_pastoralists"
+              "polity": "bactrian_pastoralists"
             },
             {
               "label": "Central Asian nomadic groups",
               "note": "c.1000–600 BCE",
-              "regime": "central_asian_nomadic_groups"
+              "polity": "central_asian_nomadic_groups"
             }
           ],
           "span": 1
@@ -191,12 +191,12 @@
             {
               "label": "Gandara Grave Culture — early Indo-Aryan",
               "note": "c.1400–600 BCE",
-              "regime": "gandara_grave_culture"
+              "polity": "gandara_grave_culture"
             },
             {
               "label": "Gandara · Kamboja (eastern border peoples)",
               "note": "c.1200–550 BCE",
-              "regime": "gandara_kamboja"
+              "polity": "gandara_kamboja"
             }
           ],
           "span": 1
@@ -206,12 +206,12 @@
             {
               "label": "East Iranian highland peoples",
               "note": "c.1500 BCE",
-              "regime": "east_iranian_highland_peoples"
+              "polity": "east_iranian_highland_peoples"
             },
             {
               "label": "Nuristani / Dardic ancestors (non-Indo-Iranian)",
               "note": "c.1000 BCE",
-              "regime": "nuristani"
+              "polity": "nuristani"
             }
           ],
           "span": 1
@@ -222,31 +222,31 @@
       "era": null,
       "cells": [
         {
-          "regime": "achaemenid_empire",
+          "polity": "achaemenid_empire",
           "label": "Achaemenid Empire — Aria Satrapy",
           "note": "550–330 BCE",
           "span": 1
         },
         {
-          "regime": "achaemenid_empire",
+          "polity": "achaemenid_empire",
           "label": "Achaemenid Empire — Arachosia Satrapy",
           "note": "550–330 BCE",
           "span": 1
         },
         {
-          "regime": "achaemenid_empire",
+          "polity": "achaemenid_empire",
           "label": "Achaemenid Empire — Bactria Satrapy",
           "note": "550–330 BCE",
           "span": 1
         },
         {
-          "regime": "achaemenid_empire",
+          "polity": "achaemenid_empire",
           "label": "Achaemenid Empire — Gandhara / Paropamisadae Satrapies",
           "note": "550–330 BCE",
           "span": 1
         },
         {
-          "regime": "achaemenid_empire",
+          "polity": "achaemenid_empire",
           "label": "Achaemenid Empire — Bactria / Gandhara border",
           "note": "550–330 BCE",
           "span": 1
@@ -261,22 +261,22 @@
             {
               "label": "Alexander the Great (Alexandria in Aria)",
               "note": "330–323 BCE",
-              "regime": "macedonian_empire"
+              "polity": "macedonian_empire"
             },
             {
               "label": "Seleucid Empire (Aria province)",
               "note": "312–250 BCE",
-              "regime": "seleucid_empire"
+              "polity": "seleucid_empire"
             },
             {
               "label": "Greco-Bactrian Kingdom (influence)",
               "note": "250–130 BCE",
-              "regime": "greco_bactrian_kingdom"
+              "polity": "greco_bactrian_kingdom"
             },
             {
               "label": "Parthian Empire (Aria satrapy)",
               "note": "247 BCE–224 CE",
-              "regime": "parthian_empire"
+              "polity": "parthian_empire"
             }
           ],
           "span": 1
@@ -286,32 +286,32 @@
             {
               "label": "Alexander — Alexandria Arachosia (Kandahar)",
               "note": "330 BCE",
-              "regime": "macedonian_empire"
+              "polity": "macedonian_empire"
             },
             {
               "label": "Seleucid Empire",
               "note": "312–305 BCE",
-              "regime": "seleucid_empire"
+              "polity": "seleucid_empire"
             },
             {
               "label": "Maurya Empire",
               "note": "305–185 BCE",
-              "regime": "maurya_empire"
+              "polity": "maurya_empire"
             },
             {
               "label": "Greco-Bactrian Kingdom",
               "note": "185–130 BCE",
-              "regime": "greco_bactrian_kingdom"
+              "polity": "greco_bactrian_kingdom"
             },
             {
               "label": "Indo-Greek Kingdom",
               "note": "170–10 BCE",
-              "regime": "indo_greek_kingdom"
+              "polity": "indo_greek_kingdom"
             },
             {
               "label": "Indo-Scythian Kingdom",
               "note": "c.100 BCE–75 CE",
-              "regime": "indo_scythian_kingdom"
+              "polity": "indo_scythian_kingdom"
             }
           ],
           "span": 1
@@ -321,17 +321,17 @@
             {
               "label": "Alexander — Alexandria-on-the-Oxus (Balkh)",
               "note": "328–323 BCE",
-              "regime": "macedonian_empire"
+              "polity": "macedonian_empire"
             },
             {
               "label": "Seleucid Empire",
               "note": "312–250 BCE",
-              "regime": "seleucid_empire"
+              "polity": "seleucid_empire"
             },
             {
               "label": "Greco-Bactrian Kingdom (center — Bactra)",
               "note": "250–130 BCE",
-              "regime": "greco_bactrian_kingdom"
+              "polity": "greco_bactrian_kingdom"
             },
             {
               "label": "Yuezhi (Da Yuezhi) migration through Bactria",
@@ -340,7 +340,7 @@
             {
               "label": "Kushan Empire (origins here — Yuezhi chiefs)",
               "note": "c.50 BCE–375 CE",
-              "regime": "kushan_empire"
+              "polity": "kushan_empire"
             }
           ],
           "span": 1
@@ -350,37 +350,37 @@
             {
               "label": "Alexander — Paropamisadae / Alexandria sub Caucaso",
               "note": "329–323 BCE",
-              "regime": "macedonian_empire"
+              "polity": "macedonian_empire"
             },
             {
               "label": "Seleucid Empire",
               "note": "312–305 BCE",
-              "regime": "seleucid_empire"
+              "polity": "seleucid_empire"
             },
             {
               "label": "Maurya Empire",
               "note": "305–185 BCE",
-              "regime": "maurya_empire"
+              "polity": "maurya_empire"
             },
             {
               "label": "Greco-Bactrian Kingdom",
               "note": "185–130 BCE",
-              "regime": "greco_bactrian_kingdom"
+              "polity": "greco_bactrian_kingdom"
             },
             {
               "label": "Indo-Greek Kingdom",
               "note": "170–70 BCE",
-              "regime": "indo_greek_kingdom"
+              "polity": "indo_greek_kingdom"
             },
             {
               "label": "Indo-Parthian Kingdom",
               "note": "19 BCE–50 CE",
-              "regime": "indo_parthian_kingdom"
+              "polity": "indo_parthian_kingdom"
             },
             {
               "label": "Kushan Empire",
               "note": "c.50–375 CE",
-              "regime": "kushan_empire"
+              "polity": "kushan_empire"
             }
           ],
           "span": 1
@@ -390,17 +390,17 @@
             {
               "label": "Seleucid → Greco-Bactrian",
               "note": "312–130 BCE",
-              "regime": "seleucid_empire"
+              "polity": "seleucid_empire"
             },
             {
               "label": "Yuezhi transit",
               "note": "c.130 BCE",
-              "regime": "yuezhi_transit"
+              "polity": "yuezhi_transit"
             },
             {
               "label": "Kushan Empire",
               "note": "c.50 BCE–375 CE",
-              "regime": "kushan_empire"
+              "polity": "kushan_empire"
             }
           ],
           "span": 1
@@ -415,27 +415,27 @@
             {
               "label": "Parthian Empire (Aria)",
               "note": "247 BCE–224 CE",
-              "regime": "parthian_empire"
+              "polity": "parthian_empire"
             },
             {
               "label": "Sassanid Empire",
               "note": "224–651",
-              "regime": "sassanid_empire"
+              "polity": "sassanid_empire"
             },
             {
               "label": "Kidarites / Alchon Huns (Aria)",
               "note": "c.350–500",
-              "regime": "kidarites"
+              "polity": "kidarites"
             },
             {
               "label": "Hephthalites",
               "note": "c.450–560",
-              "regime": "hephthalites"
+              "polity": "hephthalites"
             },
             {
               "label": "Sassanid (restored in Aria)",
               "note": "560–651",
-              "regime": "sassanid_empire"
+              "polity": "sassanid_empire"
             }
           ],
           "span": 1
@@ -445,22 +445,22 @@
             {
               "label": "Kushan Empire",
               "note": "c.50–375 CE",
-              "regime": "kushan_empire"
+              "polity": "kushan_empire"
             },
             {
               "label": "Kushano-Sasanian Kingdom (south)",
               "note": "c.230–365",
-              "regime": "kushano_sasanian_kingdom"
+              "polity": "kushano_sasanian_kingdom"
             },
             {
               "label": "Kidarites · Alchon Huns (Zabulistan)",
               "note": "c.350–500",
-              "regime": "kidarites_alchon_huns"
+              "polity": "kidarites_alchon_huns"
             },
             {
               "label": "Hephthalite principalities (Zabul / Zun cult)",
               "note": "c.450–565",
-              "regime": "hephthalite_principalities"
+              "polity": "hephthalite_principalities"
             }
           ],
           "span": 1
@@ -470,27 +470,27 @@
             {
               "label": "Kushan Empire (Bactrian heartland)",
               "note": "c.50–375 CE",
-              "regime": "kushan_empire"
+              "polity": "kushan_empire"
             },
             {
               "label": "Kushano-Sasanian Kingdom",
               "note": "c.230–365",
-              "regime": "kushano_sasanian_kingdom"
+              "polity": "kushano_sasanian_kingdom"
             },
             {
               "label": "Kidarites",
               "note": "c.350–470",
-              "regime": "kidarites"
+              "polity": "kidarites"
             },
             {
               "label": "Hephthalites",
               "note": "c.450–560",
-              "regime": "hephthalites"
+              "polity": "hephthalites"
             },
             {
               "label": "First Türkic Empire (Tokharistan)",
               "note": "552–651",
-              "regime": "first_turkic_khaganate"
+              "polity": "first_turkic_khaganate"
             }
           ],
           "span": 1
@@ -500,32 +500,32 @@
             {
               "label": "Indo-Parthian Kingdom",
               "note": "19 BCE–50 CE",
-              "regime": "indo_parthian_kingdom"
+              "polity": "indo_parthian_kingdom"
             },
             {
               "label": "Kushan Empire",
               "note": "c.50–375 CE",
-              "regime": "kushan_empire"
+              "polity": "kushan_empire"
             },
             {
               "label": "Kushano-Sasanian Kingdom",
               "note": "c.230–365",
-              "regime": "kushano_sasanian_kingdom"
+              "polity": "kushano_sasanian_kingdom"
             },
             {
               "label": "Kidarites / Alchon Huns",
               "note": "c.350–500",
-              "regime": "kidarites"
+              "polity": "kidarites"
             },
             {
               "label": "Hephthalites",
               "note": "c.450–560",
-              "regime": "hephthalites"
+              "polity": "hephthalites"
             },
             {
               "label": "First Türkic Empire",
               "note": "552–651",
-              "regime": "first_turkic_khaganate"
+              "polity": "first_turkic_khaganate"
             }
           ],
           "span": 1
@@ -535,17 +535,17 @@
             {
               "label": "Kushan Empire",
               "note": "c.50–375 CE",
-              "regime": "kushan_empire"
+              "polity": "kushan_empire"
             },
             {
               "label": "Kidarites / Alchon Huns",
               "note": "c.350–500",
-              "regime": "kidarites"
+              "polity": "kidarites"
             },
             {
               "label": "Hephthalites",
               "note": "c.450–560",
-              "regime": "hephthalites"
+              "polity": "hephthalites"
             }
           ],
           "span": 1
@@ -563,15 +563,15 @@
             {
               "label": "Nezak Huns (brief)",
               "note": "c.625–650",
-              "regime": "nezak_huns"
+              "polity": "nezak_huns"
             },
             {
-              "regime": "rashidun_caliphate",
+              "polity": "rashidun_caliphate",
               "label": "Rashidun Caliphate (Herat conquered 651)",
               "note": "651–661"
             },
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate",
               "note": "661–750"
             }
@@ -583,12 +583,12 @@
             {
               "label": "Nezak Huns",
               "note": "c.625–650",
-              "regime": "nezak_huns"
+              "polity": "nezak_huns"
             },
             {
               "label": "Zunbil dynasty (Zabulistan — resisted Arab conquest for 200 years)",
               "note": "650–870",
-              "regime": "zunbil_dynasty"
+              "polity": "zunbil_dynasty"
             },
             {
               "label": "Tocharistan Yabgu (northern Kandahar fringe)",
@@ -602,15 +602,15 @@
             {
               "label": "Tocharistan Yabgu state",
               "note": "c.625–738",
-              "regime": "tocharistan_yabgu_state"
+              "polity": "tocharistan_yabgu_state"
             },
             {
-              "regime": "rashidun_caliphate",
+              "polity": "rashidun_caliphate",
               "label": "Rashidun conquest (Balkh 652)",
               "note": "652–661"
             },
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate (Tokharistan)",
               "note": "661–750"
             }
@@ -622,12 +622,12 @@
             {
               "label": "Türk Shahis (Buddhist Kabul rulers)",
               "note": "650–870",
-              "regime": "turk_shahis"
+              "polity": "turk_shahis"
             },
             {
               "label": "Tang Dynasty / Anxi Protectorate (nominal)",
               "note": "c.660–740",
-              "regime": "tang_dynasty"
+              "polity": "tang_dynasty"
             }
           ],
           "span": 1
@@ -637,7 +637,7 @@
             {
               "label": "Semi-independent highland principalities",
               "note": "7th–9th c.",
-              "regime": "semi_independent_highland_principalities"
+              "polity": "semi_independent_highland_principalities"
             }
           ],
           "span": 1
@@ -650,24 +650,24 @@
         {
           "stack": [
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid Caliphate",
               "note": "750–821"
             },
             {
               "label": "Tahirid dynasty",
               "note": "821–873",
-              "regime": "tahirid_dynasty"
+              "polity": "tahirid_dynasty"
             },
             {
               "label": "Saffarid dynasty (capital: Zaranj — rose from Sistan)",
               "note": "873–900",
-              "regime": "saffarid_dynasty"
+              "polity": "saffarid_dynasty"
             },
             {
               "label": "Samanid dynasty",
               "note": "900–999",
-              "regime": "samanid_empire"
+              "polity": "samanid_empire"
             }
           ],
           "span": 1
@@ -677,17 +677,17 @@
             {
               "label": "Zunbil dynasty (finally conquered by Saffarids)",
               "note": "to 870",
-              "regime": "zunbil_dynasty"
+              "polity": "zunbil_dynasty"
             },
             {
               "label": "Saffarid dynasty",
               "note": "870–900",
-              "regime": "saffarid_dynasty"
+              "polity": "saffarid_dynasty"
             },
             {
               "label": "Samanid dynasty",
               "note": "900–999",
-              "regime": "samanid_empire"
+              "polity": "samanid_empire"
             }
           ],
           "span": 1
@@ -695,24 +695,24 @@
         {
           "stack": [
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid Caliphate",
               "note": "750–821"
             },
             {
               "label": "Tahirid dynasty",
               "note": "821–873",
-              "regime": "tahirid_dynasty"
+              "polity": "tahirid_dynasty"
             },
             {
               "label": "Saffarid dynasty",
               "note": "873–900",
-              "regime": "saffarid_dynasty"
+              "polity": "saffarid_dynasty"
             },
             {
               "label": "Samanid dynasty",
               "note": "900–999",
-              "regime": "samanid_empire"
+              "polity": "samanid_empire"
             }
           ],
           "span": 1
@@ -722,7 +722,7 @@
             {
               "label": "Türk Shahis → Hindu Shahis (drove out Türk Shahis)",
               "note": "870–1026",
-              "regime": "turk_shahis"
+              "polity": "turk_shahis"
             },
             {
               "label": "Second Türkic Empire (nominal suzerainty)",
@@ -731,7 +731,7 @@
             {
               "label": "Saffarid · Samanid (western Kabul pressure)",
               "note": "9th–10th c.",
-              "regime": "saffarid_samanid"
+              "polity": "saffarid_samanid"
             }
           ],
           "span": 1
@@ -755,22 +755,22 @@
             {
               "label": "Ghaznavid dynasty",
               "note": "999–1140",
-              "regime": "ghaznavid_empire"
+              "polity": "ghaznavid_empire"
             },
             {
               "label": "Seljuk Empire (Herat — defeat of Ghaznavids)",
               "note": "1040–1194",
-              "regime": "seljuk_empire"
+              "polity": "seljuk_empire"
             },
             {
               "label": "Ghorid dynasty",
               "note": "1149–1215",
-              "regime": "ghorid_dynasty"
+              "polity": "ghorid_dynasty"
             },
             {
               "label": "Khwarazmian Empire",
               "note": "1215–1221",
-              "regime": "khwarazmian_empire"
+              "polity": "khwarazmian_empire"
             }
           ],
           "span": 1
@@ -780,17 +780,17 @@
             {
               "label": "Ghaznavid dynasty (capital: Ghazni near here)",
               "note": "977–1186",
-              "regime": "ghaznavid_empire"
+              "polity": "ghaznavid_empire"
             },
             {
               "label": "Ghorid dynasty",
               "note": "1149–1215",
-              "regime": "ghorid_dynasty"
+              "polity": "ghorid_dynasty"
             },
             {
               "label": "Khwarazmian Empire",
               "note": "1215–1221",
-              "regime": "khwarazmian_empire"
+              "polity": "khwarazmian_empire"
             }
           ],
           "span": 1
@@ -800,22 +800,22 @@
             {
               "label": "Ghaznavid dynasty",
               "note": "999–1040",
-              "regime": "ghaznavid_empire"
+              "polity": "ghaznavid_empire"
             },
             {
               "label": "Seljuk Empire",
               "note": "1040–1194",
-              "regime": "seljuk_empire"
+              "polity": "seljuk_empire"
             },
             {
               "label": "Ghorid dynasty (Balkh capital at times)",
               "note": "1149–1215",
-              "regime": "ghorid_dynasty"
+              "polity": "ghorid_dynasty"
             },
             {
               "label": "Khwarazmian Empire",
               "note": "1215–1221",
-              "regime": "khwarazmian_empire"
+              "polity": "khwarazmian_empire"
             }
           ],
           "span": 1
@@ -825,22 +825,22 @@
             {
               "label": "Ghaznavid dynasty (Ghazni capital)",
               "note": "977–1186",
-              "regime": "ghaznavid_empire"
+              "polity": "ghaznavid_empire"
             },
             {
               "label": "Seljuk Empire (Kabul area)",
               "note": "1040s–1186",
-              "regime": "seljuk_empire"
+              "polity": "seljuk_empire"
             },
             {
               "label": "Ghorid dynasty",
               "note": "1186–1215",
-              "regime": "ghorid_dynasty"
+              "polity": "ghorid_dynasty"
             },
             {
               "label": "Hindu Shahis (eastern reaches to 1026)",
               "note": "to 1026",
-              "regime": "hindu_shahis"
+              "polity": "hindu_shahis"
             }
           ],
           "span": 1
@@ -850,7 +850,7 @@
             {
               "label": "Ghaznavid / Ghorid",
               "note": "999–1215",
-              "regime": "ghaznavid_empire"
+              "polity": "ghaznavid_empire"
             }
           ],
           "span": 1
@@ -865,7 +865,7 @@
             {
               "label": "Mongol Empire (Herat sacked 1221; rebuilt)",
               "note": "1221–1245",
-              "regime": "mongol_empire"
+              "polity": "mongol_empire"
             },
             {
               "label": "Kart dynasty (local Persian rulers under Mongol suzerainty)",
@@ -874,12 +874,12 @@
             {
               "label": "Il-Khanate (Herat under Kart as vassals)",
               "note": "1256–1335",
-              "regime": "ilkhanate"
+              "polity": "ilkhanate"
             },
             {
               "label": "Timurid Empire (Herat — cultural golden age)",
               "note": "1381–1507",
-              "regime": "timurid_empire"
+              "polity": "timurid_empire"
             }
           ],
           "span": 1
@@ -889,27 +889,27 @@
             {
               "label": "Mongol Empire",
               "note": "1221–1260",
-              "regime": "mongol_empire"
+              "polity": "mongol_empire"
             },
             {
               "label": "Il-Khanate",
               "note": "1256–1335",
-              "regime": "ilkhanate"
+              "polity": "ilkhanate"
             },
             {
               "label": "Chagatai Khanate (southern Afghanistan)",
               "note": "1260–1370",
-              "regime": "chagatai_khanate"
+              "polity": "chagatai_khanate"
             },
             {
               "label": "Delhi Sultanate — Khalji / Tughluq (raids)",
               "note": "1290–1370",
-              "regime": "delhi_sultanate"
+              "polity": "delhi_sultanate"
             },
             {
               "label": "Timurid Empire",
               "note": "1370–1507",
-              "regime": "timurid_empire"
+              "polity": "timurid_empire"
             }
           ],
           "span": 1
@@ -919,22 +919,22 @@
             {
               "label": "Mongol Empire (Balkh destroyed 1220 — 'Mother of Cities' never fully recovered)",
               "note": "1220–1256",
-              "regime": "mongol_empire"
+              "polity": "mongol_empire"
             },
             {
               "label": "Il-Khanate",
               "note": "1256–1335",
-              "regime": "ilkhanate"
+              "polity": "ilkhanate"
             },
             {
               "label": "Chagatai Khanate (Transoxiana/Bactria)",
               "note": "1260–1370",
-              "regime": "chagatai_khanate"
+              "polity": "chagatai_khanate"
             },
             {
               "label": "Timurid Empire",
               "note": "1370–1507",
-              "regime": "timurid_empire"
+              "polity": "timurid_empire"
             }
           ],
           "span": 1
@@ -944,22 +944,22 @@
             {
               "label": "Mongol Empire",
               "note": "1221–1260",
-              "regime": "mongol_empire"
+              "polity": "mongol_empire"
             },
             {
               "label": "Chagatai Khanate (Kabul area)",
               "note": "1260–1370",
-              "regime": "chagatai_khanate"
+              "polity": "chagatai_khanate"
             },
             {
               "label": "Delhi Sultanate — Slave · Khalji · Tughluq · Sayyid · Lodi (Kabul contested)",
               "note": "1206–1451",
-              "regime": "delhi_sultanate"
+              "polity": "delhi_sultanate"
             },
             {
               "label": "Timurid Empire",
               "note": "1370–1451",
-              "regime": "timurid_empire"
+              "polity": "timurid_empire"
             }
           ],
           "span": 1
@@ -969,12 +969,12 @@
             {
               "label": "Mongol Empire → Il-Khanate → Chagatai",
               "note": "1220–1370",
-              "regime": "mongol_empire"
+              "polity": "mongol_empire"
             },
             {
               "label": "Timurid Empire",
               "note": "1370–1507",
-              "regime": "timurid_empire"
+              "polity": "timurid_empire"
             }
           ],
           "span": 1
@@ -992,17 +992,17 @@
             {
               "label": "Safavid dynasty (Herat — major Safavid city)",
               "note": "1510–1717",
-              "regime": "safavid_empire"
+              "polity": "safavid_empire"
             },
             {
               "label": "Afsharid dynasty (Nadir Shah reconquered Herat)",
               "note": "1736–1796",
-              "regime": "afsharid_dynasty"
+              "polity": "afsharid_dynasty"
             },
             {
               "label": "Durrani Empire (Ahmad Shah — Afghan unification)",
               "note": "1747–1793",
-              "regime": "durrani_empire"
+              "polity": "durrani_empire"
             }
           ],
           "span": 1
@@ -1012,22 +1012,22 @@
             {
               "label": "Safavid dynasty (disputed with Mughals)",
               "note": "1510–1709",
-              "regime": "safavid_empire"
+              "polity": "safavid_empire"
             },
             {
               "label": "Hotak dynasty (Ghilzai Pashtun — founded in Kandahar)",
               "note": "1709–1738",
-              "regime": "hotak_dynasty"
+              "polity": "hotak_dynasty"
             },
             {
               "label": "Afsharid dynasty (Nadir Shah defeated Hotakis)",
               "note": "1738–1747",
-              "regime": "afsharid_dynasty"
+              "polity": "afsharid_dynasty"
             },
             {
               "label": "Durrani Empire (original Durrani capital)",
               "note": "1747–1776",
-              "regime": "durrani_empire"
+              "polity": "durrani_empire"
             }
           ],
           "span": 1
@@ -1037,27 +1037,27 @@
             {
               "label": "Bukhara Khanate (Uzbek control of Balkh)",
               "note": "1500–1646",
-              "regime": "bukhara_khanate"
+              "polity": "bukhara_khanate"
             },
             {
               "label": "Mughal Empire (Shah Jahan conquered Balkh 1646)",
               "note": "1646–1647",
-              "regime": "mughal_empire"
+              "polity": "mughal_empire"
             },
             {
               "label": "Bukhara Khanate (recaptured)",
               "note": "1647–1736",
-              "regime": "bukhara_khanate"
+              "polity": "bukhara_khanate"
             },
             {
               "label": "Afsharid dynasty",
               "note": "1736–1747",
-              "regime": "afsharid_dynasty"
+              "polity": "afsharid_dynasty"
             },
             {
               "label": "Durrani Empire",
               "note": "1747–",
-              "regime": "durrani_empire"
+              "polity": "durrani_empire"
             }
           ],
           "span": 1
@@ -1067,22 +1067,22 @@
             {
               "label": "Mughal Empire (Babur — Kabul capital 1504)",
               "note": "1504–1738",
-              "regime": "mughal_empire"
+              "polity": "mughal_empire"
             },
             {
               "label": "Hotak dynasty (briefly held Kabul)",
               "note": "1719–1738",
-              "regime": "hotak_dynasty"
+              "polity": "hotak_dynasty"
             },
             {
               "label": "Afsharid dynasty",
               "note": "1738–1747",
-              "regime": "afsharid_dynasty"
+              "polity": "afsharid_dynasty"
             },
             {
               "label": "Durrani Empire (capital moved to Kabul 1776)",
               "note": "1747–",
-              "regime": "durrani_empire"
+              "polity": "durrani_empire"
             }
           ],
           "span": 1
@@ -1092,12 +1092,12 @@
             {
               "label": "Timurid / Mughal influence",
               "note": "15th–18th c.",
-              "regime": "timurid_empire"
+              "polity": "timurid_empire"
             },
             {
               "label": "Durrani Empire",
               "note": "1747–",
-              "regime": "durrani_empire"
+              "polity": "durrani_empire"
             }
           ],
           "span": 1
@@ -1111,20 +1111,20 @@
           "label": "Herat Emirate (Sadozai / Kuhzad)",
           "note": "1818–1863",
           "span": 1,
-          "regime": "herat_emirate"
+          "polity": "herat_emirate"
         },
         {
           "label": "Kandahar Emirate (Sadozai / Barakzai)",
           "note": "1818–1855",
           "span": 1,
-          "regime": "kandahar_emirate"
+          "polity": "kandahar_emirate"
         },
         {
           "stack": [
             {
               "label": "Maimana Khanate · Kunduz Khanate",
               "note": "1818–1850s",
-              "regime": "maimana_khanate"
+              "polity": "maimana_khanate"
             }
           ],
           "span": 1
@@ -1160,17 +1160,17 @@
             {
               "label": "Kingdom of Afghanistan",
               "note": "1919–1973",
-              "regime": "kingdom_of_afghanistan"
+              "polity": "kingdom_of_afghanistan"
             },
             {
               "label": "Republic of Afghanistan (Daoud Khan)",
               "note": "1973–1978",
-              "regime": "republic_of_afghanistan"
+              "polity": "republic_of_afghanistan"
             },
             {
               "label": "Democratic Republic of Afghanistan (PDPA)",
               "note": "1978–1992",
-              "regime": "democratic_republic_of_afghanistan"
+              "polity": "democratic_republic_of_afghanistan"
             },
             {
               "label": "Soviet-Afghan War",
@@ -1189,12 +1189,12 @@
             {
               "label": "Islamic State of Afghanistan (Mujahedeen government)",
               "note": "1992–1996",
-              "regime": "islamic_state_of_afghanistan"
+              "polity": "islamic_state_of_afghanistan"
             },
             {
               "label": "Northern Alliance stronghold (Herat — Ismail Khan)",
               "note": "1992–1995, 2001",
-              "regime": "northern_alliance_stronghold"
+              "polity": "northern_alliance_stronghold"
             }
           ],
           "span": 1
@@ -1204,7 +1204,7 @@
             {
               "label": "Taliban First Emirate",
               "note": "1996–2001",
-              "regime": "taliban_first_emirate"
+              "polity": "taliban_first_emirate"
             }
           ],
           "span": 1
@@ -1214,12 +1214,12 @@
             {
               "label": "Northern Alliance (Balkh — General Dostum base)",
               "note": "1992–2001",
-              "regime": "northern_alliance"
+              "polity": "northern_alliance"
             },
             {
               "label": "US-led coalition / NATO (ISAF)",
               "note": "2001–2021",
-              "regime": "us_led_coalition"
+              "polity": "us_led_coalition"
             }
           ],
           "span": 1
@@ -1229,12 +1229,12 @@
             {
               "label": "Islamic Republic of Afghanistan (US-backed)",
               "note": "2004–2021",
-              "regime": "islamic_republic_of_afghanistan"
+              "polity": "islamic_republic_of_afghanistan"
             },
             {
               "label": "Taliban Second Emirate",
               "note": "2021–",
-              "regime": "taliban_second_emirate"
+              "polity": "taliban_second_emirate"
             }
           ],
           "span": 2

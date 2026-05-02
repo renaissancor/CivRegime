@@ -1,25 +1,25 @@
 {
   "id": "poland",
   "name": "poland",
-  "regime_count": 4,
-  "regimes": [
+  "polity_count": 4,
+  "polities": [
     {
-      "regime_id": "kingdom_of_poland",
+      "polity_id": "kingdom_of_poland",
       "start": 966,
       "end": 1569
     },
     {
-      "regime_id": "polish_lithuanian_commonwealth",
+      "polity_id": "polish_lithuanian_commonwealth",
       "start": 1569,
       "end": 1795
     },
     {
-      "regime_id": "kingdom_of_prussia",
+      "polity_id": "kingdom_of_prussia",
       "start": 1772,
       "end": 1918
     },
     {
-      "regime_id": "russian_empire",
+      "polity_id": "russian_empire",
       "start": 1795,
       "end": 1917
     }

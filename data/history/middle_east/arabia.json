@@ -46,12 +46,12 @@
             {
               "label": "Yemeni petty kingdoms",
               "note": "Minaean · Qatabanian · Hadramawt, c.900–300 BCE",
-              "regime": "yemeni_petty_kingdoms"
+              "polity": "yemeni_petty_kingdoms"
             },
             {
               "label": "Kingdom of Saba (Sheba)",
               "note": "c.900 BCE–275 CE",
-              "regime": "kingdom_of_saba"
+              "polity": "kingdom_of_saba"
             }
           ],
           "span": 1
@@ -61,10 +61,10 @@
             {
               "label": "Magan",
               "note": "Bronze Age, c.3000–1200 BCE",
-              "regime": "magan"
+              "polity": "magan"
             },
             {
-              "regime": "achaemenid_empire",
+              "polity": "achaemenid_empire",
               "label": "Achaemenid Maka Satrapy",
               "note": "c.539–330 BCE"
             }
@@ -76,25 +76,25 @@
             {
               "label": "Dilmun",
               "note": "c.3000–800 BCE",
-              "regime": "dilmun"
+              "polity": "dilmun"
             },
             {
-              "regime": "akkadian_empire",
+              "polity": "akkadian_empire",
               "label": "Akkadian Empire",
               "note": "c.2334–2154 BCE"
             },
             {
-              "regime": "neo_assyrian_empire",
+              "polity": "neo_assyrian_empire",
               "label": "Assyrian Empire",
               "note": "c.900–612 BCE"
             },
             {
-              "regime": "neo_babylonian",
+              "polity": "neo_babylonian",
               "label": "Neo-Babylonian",
               "note": "612–539 BCE"
             },
             {
-              "regime": "achaemenid_empire",
+              "polity": "achaemenid_empire",
               "label": "Achaemenid Empire",
               "note": "539–330 BCE"
             }
@@ -106,10 +106,10 @@
             {
               "label": "Thamud / Arabian tribes",
               "note": "prehistoric – c.400 CE",
-              "regime": "thamud"
+              "polity": "thamud"
             },
             {
-              "regime": "nabataean_kingdom",
+              "polity": "nabataean_kingdom",
               "label": "Nabataean Kingdom (partial)",
               "note": "c.169 BCE–106 CE"
             }
@@ -121,10 +121,10 @@
             {
               "label": "Arabian tribes",
               "note": "",
-              "regime": "arabian_tribes"
+              "polity": "arabian_tribes"
             },
             {
-              "regime": "nabataean_kingdom",
+              "polity": "nabataean_kingdom",
               "label": "Nabataean Kingdom",
               "note": "c.169 BCE–106 CE"
             }
@@ -141,14 +141,14 @@
             {
               "label": "Himyarite Kingdom",
               "note": "110 BCE–525 CE",
-              "regime": "himyarite_kingdom"
+              "polity": "himyarite_kingdom"
             },
             {
               "label": "Aksumite occupation",
               "note": "525–575 CE"
             },
             {
-              "regime": "sassanid_empire",
+              "polity": "sassanid_empire",
               "label": "Sassanid Yemen",
               "note": "575–628 CE"
             }
@@ -158,12 +158,12 @@
         {
           "stack": [
             {
-              "regime": "parthian_empire",
+              "polity": "parthian_empire",
               "label": "Parthian Empire",
               "note": "c.250 BCE–224 CE"
             },
             {
-              "regime": "sassanid_empire",
+              "polity": "sassanid_empire",
               "label": "Sassanid Empire",
               "note": "224–651 CE"
             }
@@ -175,20 +175,20 @@
             {
               "label": "Gerrha (east coast)",
               "note": "c.650 BCE–300 CE",
-              "regime": "gerrha"
+              "polity": "gerrha"
             },
             {
               "label": "Seleucid Tylos (Bahrain)",
               "note": "c.300–100 BCE",
-              "regime": "seleucid_tylos"
+              "polity": "seleucid_tylos"
             },
             {
-              "regime": "parthian_empire",
+              "polity": "parthian_empire",
               "label": "Parthian Empire",
               "note": "c.100 BCE–224 CE"
             },
             {
-              "regime": "sassanid_empire",
+              "polity": "sassanid_empire",
               "label": "Sassanid Empire",
               "note": "224–651 CE"
             }
@@ -200,17 +200,17 @@
             {
               "label": "Kindite Kingdom",
               "note": "c.450–530 CE",
-              "regime": "kindite_kingdom"
+              "polity": "kindite_kingdom"
             },
             {
               "label": "Lakhmid Kingdom (NE, Sassanid-aligned)",
               "note": "c.300–602 CE",
-              "regime": "lakhmid_kingdom"
+              "polity": "lakhmid_kingdom"
             },
             {
               "label": "Ghassanid buffer (NW, Byzantine-aligned)",
               "note": "c.220–638 CE",
-              "regime": "ghassanid_buffer"
+              "polity": "ghassanid_buffer"
             }
           ],
           "span": 1
@@ -220,17 +220,17 @@
             {
               "label": "Roman Provincia Arabia (partial)",
               "note": "106–400 CE",
-              "regime": "roman_provincia_arabia"
+              "polity": "roman_provincia_arabia"
             },
             {
               "label": "Jewish · Arab tribes",
               "note": "",
-              "regime": "jewish_arab_tribes"
+              "polity": "jewish_arab_tribes"
             },
             {
               "label": "Quraysh tribe (Mecca)",
               "note": "c.400–622 CE",
-              "regime": "quraysh_tribe"
+              "polity": "quraysh_tribe"
             }
           ],
           "span": 1
@@ -248,20 +248,20 @@
             {
               "label": "Muhammad (Medina state)",
               "note": "622–632",
-              "regime": "muhammad"
+              "polity": "muhammad"
             },
             {
-              "regime": "rashidun_caliphate",
+              "polity": "rashidun_caliphate",
               "label": "Rashidun Caliphate",
               "note": "632–661"
             },
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate",
               "note": "661–750"
             },
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid Caliphate",
               "note": "750–c.900"
             }
@@ -278,27 +278,27 @@
             {
               "label": "Ziyadid Dynasty",
               "note": "819–1018",
-              "regime": "ziyadid_dynasty"
+              "polity": "ziyadid_dynasty"
             },
             {
               "label": "Sulayhid Dynasty",
               "note": "1047–1138",
-              "regime": "sulayhid_dynasty"
+              "polity": "sulayhid_dynasty"
             },
             {
-              "regime": "ayyubid_sultanate",
+              "polity": "ayyubid_sultanate",
               "label": "Ayyubid Sultanate",
               "note": "1173–1229"
             },
             {
               "label": "Rasulid Dynasty",
               "note": "1229–1454",
-              "regime": "rasulid_dynasty"
+              "polity": "rasulid_dynasty"
             },
             {
               "label": "Tahirid Dynasty",
               "note": "1454–1517",
-              "regime": "tahirid_dynasty"
+              "polity": "tahirid_dynasty"
             }
           ],
           "span": 1
@@ -308,12 +308,12 @@
             {
               "label": "Ibadi Imamate of Oman",
               "note": "749–893",
-              "regime": "ibadi_imamate_of_oman"
+              "polity": "ibadi_imamate_of_oman"
             },
             {
               "label": "Nabhanid Dynasty",
               "note": "1154–1624",
-              "regime": "nabhanid_dynasty"
+              "polity": "nabhanid_dynasty"
             }
           ],
           "span": 1
@@ -323,17 +323,17 @@
             {
               "label": "Qarmatian State",
               "note": "899–1077",
-              "regime": "qarmatian_state"
+              "polity": "qarmatian_state"
             },
             {
               "label": "Uyunid Dynasty",
               "note": "1076–1253",
-              "regime": "uyunid_dynasty"
+              "polity": "uyunid_dynasty"
             },
             {
               "label": "Jabrid Dynasty",
               "note": "1253–1521",
-              "regime": "jabrid_dynasty"
+              "polity": "jabrid_dynasty"
             }
           ],
           "span": 4
@@ -343,15 +343,15 @@
             {
               "label": "Qarmatian State",
               "note": "899–1077",
-              "regime": "qarmatian_state"
+              "polity": "qarmatian_state"
             },
             {
               "label": "Bedouin tribal rule",
               "note": "11th–17th c.",
-              "regime": "bedouin_tribal_rule"
+              "polity": "bedouin_tribal_rule"
             },
             {
-              "regime": "seljuk_empire",
+              "polity": "seljuk_empire",
               "label": "Seljuk suzerainty (nominal)",
               "note": "c.1100s"
             }
@@ -361,22 +361,22 @@
         {
           "stack": [
             {
-              "regime": "fatimid_caliphate",
+              "polity": "fatimid_caliphate",
               "label": "Fatimid Caliphate",
               "note": "969–1171"
             },
             {
               "label": "Sharif of Mecca (Hashimite)",
               "note": "969–1916",
-              "regime": "sharif_of_mecca"
+              "polity": "sharif_of_mecca"
             },
             {
-              "regime": "ayyubid_sultanate",
+              "polity": "ayyubid_sultanate",
               "label": "Ayyubid suzerainty",
               "note": "1171–1250"
             },
             {
-              "regime": "mamluk_sultanate",
+              "polity": "mamluk_sultanate",
               "label": "Mamluk suzerainty",
               "note": "1250–1517"
             }
@@ -394,7 +394,7 @@
         {
           "stack": [
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Empire",
               "note": "1517–1636 · 1849–1918"
             },
@@ -410,12 +410,12 @@
             {
               "label": "Portuguese Estado da India",
               "note": "1507–1650",
-              "regime": "portuguese_estado_da_india"
+              "polity": "portuguese_estado_da_india"
             },
             {
               "label": "Yarubid Dynasty",
               "note": "1624–1749",
-              "regime": "yarubid_dynasty"
+              "polity": "yarubid_dynasty"
             },
             {
               "label": "Afsharid invasion",
@@ -424,7 +424,7 @@
             {
               "label": "Busaidi Sultanate",
               "note": "1749–",
-              "regime": "busaidi_sultanate"
+              "polity": "busaidi_sultanate"
             }
           ],
           "span": 1
@@ -434,27 +434,27 @@
             {
               "label": "Portuguese Estado da India",
               "note": "1521–1602",
-              "regime": "portuguese_estado_da_india"
+              "polity": "portuguese_estado_da_india"
             },
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman (Kuwait · N. Gulf)",
               "note": "16th–17th c."
             },
             {
-              "regime": "safavid_empire",
+              "polity": "safavid_empire",
               "label": "Safavid (Bahrain · Hormuz)",
               "note": "1602–1736"
             },
             {
               "label": "Omani / tribal (post-Safavid)",
               "note": "1736–1820",
-              "regime": "omani"
+              "polity": "omani"
             },
             {
               "label": "Trucial States (British protectorate)",
               "note": "1820–1971",
-              "regime": "trucial_states"
+              "polity": "trucial_states"
             }
           ],
           "span": 4
@@ -462,19 +462,19 @@
         {
           "stack": [
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman (nominal)",
               "note": "16th–18th c."
             },
             {
               "label": "Banu Khalid Emirate",
               "note": "c.1670–1795",
-              "regime": "banu_khalid_emirate"
+              "polity": "banu_khalid_emirate"
             },
             {
               "label": "Emirate of Diriyah (1st Saudi)",
               "note": "1744–1818",
-              "regime": "emirate_of_diriyah"
+              "polity": "emirate_of_diriyah"
             },
             {
               "label": "Egyptian occupation",
@@ -483,7 +483,7 @@
             {
               "label": "Emirate of Nejd (2nd Saudi)",
               "note": "1824–1891",
-              "regime": "emirate_of_nejd"
+              "polity": "emirate_of_nejd"
             }
           ],
           "span": 1
@@ -491,14 +491,14 @@
         {
           "stack": [
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Empire",
               "note": "1517–1916"
             },
             {
               "label": "Sharif of Mecca (autonomous vassal)",
               "note": "",
-              "regime": "sharif_of_mecca"
+              "polity": "sharif_of_mecca"
             }
           ],
           "span": 1
@@ -516,17 +516,17 @@
             {
               "label": "Mutawakkilite Kingdom (North)",
               "note": "1918–1962",
-              "regime": "mutawakkilite_kingdom"
+              "polity": "mutawakkilite_kingdom"
             },
             {
               "label": "People's Republic of South Yemen",
               "note": "1967–1990",
-              "regime": "peoples_republic_of_south_yemen"
+              "polity": "peoples_republic_of_south_yemen"
             },
             {
               "label": "Republic of Yemen",
               "note": "1990–",
-              "regime": "republic_of_yemen"
+              "polity": "republic_of_yemen"
             }
           ],
           "span": 1
@@ -534,27 +534,27 @@
         {
           "label": "Sultanate of Oman",
           "span": 1,
-          "regime": "sultanate_of_oman"
+          "polity": "sultanate_of_oman"
         },
         {
           "label": "British Protectorates (Trucial States · Qatar · Bahrain · Kuwait)",
           "span": 4,
-          "regime": "british_protectorates"
+          "polity": "british_protectorates"
         },
         {
           "stack": [
             {
               "label": "Ha'il Emirate (Rashidi)",
               "note": "1836–1921",
-              "regime": "hail_emirate"
+              "polity": "hail_emirate"
             },
             {
               "label": "Emirate of Riyadh (3rd Saudi)",
               "note": "1902–1921",
-              "regime": "emirate_of_riyadh"
+              "polity": "emirate_of_riyadh"
             },
             {
-              "regime": "saudi_arabia",
+              "polity": "saudi_arabia",
               "label": "Saudi Arabia",
               "note": "1932–"
             }
@@ -566,15 +566,15 @@
             {
               "label": "Hashimite Kingdom of Hejaz",
               "note": "1916–1925",
-              "regime": "hashimite_kingdom_of_hejaz"
+              "polity": "hashimite_kingdom_of_hejaz"
             },
             {
               "label": "Kingdom of Hejaz and Nejd",
               "note": "1925–1932",
-              "regime": "kingdom_of_hejaz_and_nejd"
+              "polity": "kingdom_of_hejaz_and_nejd"
             },
             {
-              "regime": "saudi_arabia",
+              "polity": "saudi_arabia",
               "label": "Saudi Arabia",
               "note": "1932–"
             }
@@ -594,12 +594,12 @@
             {
               "label": "Houthi (SPC)",
               "note": "de facto north",
-              "regime": "houthi"
+              "polity": "houthi"
             },
             {
               "label": "PLC",
               "note": "de facto south",
-              "regime": "plc"
+              "polity": "plc"
             }
           ],
           "span": 1
@@ -607,30 +607,30 @@
         {
           "label": "Sultanate of Oman",
           "span": 1,
-          "regime": "sultanate_of_oman"
+          "polity": "sultanate_of_oman"
         },
         {
           "label": "UAE",
           "span": 1,
-          "regime": "uae"
+          "polity": "uae"
         },
         {
           "label": "Qatar",
           "span": 1,
-          "regime": "qatar"
+          "polity": "qatar"
         },
         {
           "label": "Bahrain",
           "span": 1,
-          "regime": "bahrain"
+          "polity": "bahrain"
         },
         {
           "label": "Kuwait",
           "span": 1,
-          "regime": "kuwait"
+          "polity": "kuwait"
         },
         {
-          "regime": "saudi_arabia",
+          "polity": "saudi_arabia",
           "label": "Saudi Arabia",
           "span": 2
         }

@@ -3,7 +3,7 @@
 /**
  * Generate rich succession relationships from ALL available data:
  *   - territory_periods (territorial handoffs)
- *   - regimes (ethnicity, language, religion, dates)
+ *   - polities (ethnicity, language, religion, dates)
  *   - ethnicities (tree ancestry for broader ethnic matching)
  *
  * Succession signals (each contributes to edge weight):
@@ -12,7 +12,7 @@
  *   3. ETH_FAMILY: Related ethnicity (shared ancestor in tree)
  *   4. LANGUAGE:   Same ruling language
  *   5. RELIGION:   Same ruling religion
- *   6. STATE:      Same state_id (political continuity)
+ *   6. STATE:      Same civilization_id (political continuity)
  *   7. TEMPORAL:   How close in time (gap years)
  *
  * Classification:
@@ -50,7 +50,7 @@ function parseCSV(content) {
 
 // ── Load all data ───────────────────────────────────────────────────────────
 
-const regimesRaw = parseCSV(fs.readFileSync(path.join(__dirname, '../csvs/polity.csv'), 'utf8'));
+const politiesRaw = parseCSV(fs.readFileSync(path.join(__dirname, '../csvs/polity.csv'), 'utf8'));
 const tpRaw      = parseCSV(fs.readFileSync(path.join(__dirname, '../csvs/polity_territory.csv'), 'utf8'));
 const ethRaw     = parseCSV(fs.readFileSync(path.join(__dirname, '../csvs/ethnicity.csv'), 'utf8'));
 
@@ -58,10 +58,10 @@ const ethRaw     = parseCSV(fs.readFileSync(path.join(__dirname, '../csvs/ethnic
 const ethOldToNum = {};
 ethRaw.forEach(e => { if (e.old_id) ethOldToNum[e.old_id] = parseInt(e.id); });
 
-const regimes = regimesRaw.map(r => ({
+const polities = politiesRaw.map(r => ({
   id:       r.id,
   name:     r.name,
-  state_id: r.state_id || null,
+  civilization_id: r.civilization_id || null,
   eth:      r.id_ruling_ethnicity ? (ethOldToNum[r.id_ruling_ethnicity] || null) : null,
   ethStr:   r.id_ruling_ethnicity || null,
   lang:     r.id_ruling_language  || null,
@@ -112,14 +112,14 @@ function relatedEthnicity(ethA, ethB) {
 
 // ── Build lookups ───────────────────────────────────────────────────────────
 
-const regimeById = {};
-regimes.forEach(r => { regimeById[r.id] = r; });
+const polityById = {};
+polities.forEach(r => { polityById[r.id] = r; });
 
-// Territories per regime
-const regimeTerritories = {};
+// Territories per polity
+const polityTerritories = {};
 tp.forEach(p => {
-  if (!regimeTerritories[p.polity_id]) regimeTerritories[p.polity_id] = [];
-  regimeTerritories[p.polity_id].push(p);
+  if (!polityTerritories[p.polity_id]) polityTerritories[p.polity_id] = [];
+  polityTerritories[p.polity_id].push(p);
 });
 
 // Territory periods grouped by territory
@@ -167,13 +167,13 @@ Object.entries(byTerritory).forEach(([territoryId, periods]) => {
 
   for (let i = 0; i < periods.length; i++) {
     const curr = periods[i];
-    const fromR = regimeById[curr.polity_id];
+    const fromR = polityById[curr.polity_id];
     if (!fromR) continue;
 
     for (let j = i + 1; j < periods.length; j++) {
       const next = periods[j];
       if (curr.polity_id === next.polity_id) continue;
-      const toR = regimeById[next.polity_id];
+      const toR = polityById[next.polity_id];
       if (!toR) continue;
 
       const gap = next.start - (curr.end || next.start);
@@ -199,23 +199,23 @@ Object.entries(byTerritory).forEach(([territoryId, periods]) => {
 const ETH_GAP = 300; // years
 
 // Group by exact ethnicity (use string ID for grouping)
-const regimesByEth = {};
-regimes.forEach(r => {
+const politiesByEth = {};
+polities.forEach(r => {
   if (!r.ethStr) return;
-  if (!regimesByEth[r.ethStr]) regimesByEth[r.ethStr] = [];
-  regimesByEth[r.ethStr].push(r);
+  if (!politiesByEth[r.ethStr]) politiesByEth[r.ethStr] = [];
+  politiesByEth[r.ethStr].push(r);
 });
 
 // Same ethnicity, close in time — require shared territory to avoid noise
-Object.values(regimesByEth).forEach(group => {
+Object.values(politiesByEth).forEach(group => {
   if (group.length < 2) return;
   group.sort((a, b) => a.start - b.start);
   for (let i = 0; i < group.length; i++) {
     for (let j = i + 1; j < group.length; j++) {
       const gap = group[j].start - (group[i].end || group[j].start);
       if (gap > ETH_GAP) break;
-      const aTerrs = new Set((regimeTerritories[group[i].id] || []).map(t => t.territory_id));
-      const bTerrs = (regimeTerritories[group[j].id] || []).map(t => t.territory_id);
+      const aTerrs = new Set((polityTerritories[group[i].id] || []).map(t => t.territory_id));
+      const bTerrs = (polityTerritories[group[j].id] || []).map(t => t.territory_id);
       const shared = bTerrs.some(t => aTerrs.has(t));
       if (shared) addEdge(group[i].id, group[j].id, { same_ethnicity: true });
     }
@@ -223,16 +223,16 @@ Object.values(regimesByEth).forEach(group => {
 });
 
 // Related ethnicity (shared ancestor), close in time
-for (let i = 0; i < regimes.length; i++) {
-  for (let j = i + 1; j < regimes.length; j++) {
-    const a = regimes[i], b = regimes[j];
+for (let i = 0; i < polities.length; i++) {
+  for (let j = i + 1; j < polities.length; j++) {
+    const a = polities[i], b = polities[j];
     if (!a.eth || !b.eth || a.eth === b.eth) continue;
     const gap = Math.abs(b.start - (a.end || b.start));
     if (gap > 200) continue;
     if (relatedEthnicity(a.eth, b.eth)) {
       // Only add if they also share territory (to avoid noise)
-      const aTerrs = new Set((regimeTerritories[a.id] || []).map(t => t.territory_id));
-      const bTerrs = (regimeTerritories[b.id] || []).map(t => t.territory_id);
+      const aTerrs = new Set((polityTerritories[a.id] || []).map(t => t.territory_id));
+      const bTerrs = (polityTerritories[b.id] || []).map(t => t.territory_id);
       const shared = bTerrs.some(t => aTerrs.has(t));
       if (shared) {
         addEdge(a.id, b.id, { related_ethnicity: true });
@@ -244,14 +244,14 @@ for (let i = 0; i < regimes.length; i++) {
 // ── Strategy 3: Language-based ──────────────────────────────────────────────
 
 // Group by exact language (string ID)
-const regimesByLang = {};
-regimes.forEach(r => {
+const politiesByLang = {};
+polities.forEach(r => {
   if (!r.lang) return;
-  if (!regimesByLang[r.lang]) regimesByLang[r.lang] = [];
-  regimesByLang[r.lang].push(r);
+  if (!politiesByLang[r.lang]) politiesByLang[r.lang] = [];
+  politiesByLang[r.lang].push(r);
 });
 
-Object.values(regimesByLang).forEach(group => {
+Object.values(politiesByLang).forEach(group => {
   if (group.length < 2) return;
   group.sort((a, b) => a.start - b.start);
   for (let i = 0; i < group.length; i++) {
@@ -266,14 +266,14 @@ Object.values(regimesByLang).forEach(group => {
 // ── Strategy 4: Religion-based (same territory + same religion) ─────────────
 
 // Group by exact religion (string ID)
-const regimesByRel = {};
-regimes.forEach(r => {
+const politiesByRel = {};
+polities.forEach(r => {
   if (!r.rel) return;
-  if (!regimesByRel[r.rel]) regimesByRel[r.rel] = [];
-  regimesByRel[r.rel].push(r);
+  if (!politiesByRel[r.rel]) politiesByRel[r.rel] = [];
+  politiesByRel[r.rel].push(r);
 });
 
-Object.values(regimesByRel).forEach(group => {
+Object.values(politiesByRel).forEach(group => {
   if (group.length < 2) return;
   group.sort((a, b) => a.start - b.start);
   for (let i = 0; i < group.length; i++) {
@@ -281,8 +281,8 @@ Object.values(regimesByRel).forEach(group => {
       const gap = group[j].start - (group[i].end || group[j].start);
       if (gap > 200) break;
       // Only add religion link if they also share territory
-      const aTerrs = new Set((regimeTerritories[group[i].id] || []).map(t => t.territory_id));
-      const bTerrs = (regimeTerritories[group[j].id] || []).map(t => t.territory_id);
+      const aTerrs = new Set((polityTerritories[group[i].id] || []).map(t => t.territory_id));
+      const bTerrs = (polityTerritories[group[j].id] || []).map(t => t.territory_id);
       const shared = bTerrs.some(t => aTerrs.has(t));
       if (shared) {
         addEdge(group[i].id, group[j].id, { same_religion: true });
@@ -291,27 +291,27 @@ Object.values(regimesByRel).forEach(group => {
   }
 });
 
-// ── Strategy 5: State-based ─────────────────────────────────────────────────
+// ── Strategy 5: Civilization-based ─────────────────────────────────────────────────
 
-const regimesByState = {};
-regimes.forEach(r => {
-  if (!r.state_id) return;
-  if (!regimesByState[r.state_id]) regimesByState[r.state_id] = [];
-  regimesByState[r.state_id].push(r);
+const politiesByState = {};
+polities.forEach(r => {
+  if (!r.civilization_id) return;
+  if (!politiesByState[r.civilization_id]) politiesByState[r.civilization_id] = [];
+  politiesByState[r.civilization_id].push(r);
 });
 
-Object.values(regimesByState).forEach(group => {
+Object.values(politiesByState).forEach(group => {
   group.sort((a, b) => a.start - b.start);
   for (let i = 0; i < group.length - 1; i++) {
-    addEdge(group[i].id, group[i + 1].id, { same_state: true });
+    addEdge(group[i].id, group[i + 1].id, { same_civilization: true });
   }
 });
 
 // ── Classify edges ──────────────────────────────────────────────────────────
 
 const edges = Object.values(edgeMap).map(e => {
-  const fromR = regimeById[e.from];
-  const toR   = regimeById[e.to];
+  const fromR = polityById[e.from];
+  const toR   = polityById[e.to];
   const s     = e.signals;
 
   const hasTerritory = e.territories.length > 0;
@@ -319,12 +319,12 @@ const edges = Object.values(edgeMap).map(e => {
   const relatedEth   = !!s.related_ethnicity;
   const sameLang     = !!s.same_language;
   const sameRel      = !!s.same_religion;
-  const sameState    = !!s.same_state;
+  const sameState    = !!s.same_civilization;
   const gap          = toR.start - (fromR.end || toR.start);
 
   // Territorial direction: compare territory counts
-  const fromTerrs = new Set((regimeTerritories[e.from] || []).map(t => t.territory_id));
-  const toTerrs   = new Set((regimeTerritories[e.to] || []).map(t => t.territory_id));
+  const fromTerrs = new Set((polityTerritories[e.from] || []).map(t => t.territory_id));
+  const toTerrs   = new Set((polityTerritories[e.to] || []).map(t => t.territory_id));
   let territorial_direction = 'unknown';
   if (fromTerrs.size > 0 && toTerrs.size > 0) {
     const shared = [...fromTerrs].filter(t => toTerrs.has(t)).length;
@@ -357,7 +357,7 @@ const edges = Object.values(edgeMap).map(e => {
     related_ethnicity:  relatedEth,
     same_language:      sameLang,
     same_religion:      sameRel,
-    same_state:         sameState,
+    same_civilization:         sameState,
     temporal_gap:       gap,
   };
 });
@@ -371,7 +371,7 @@ const headers = [
   'from_polity_id', 'from_name', 'to_polity_id', 'to_name',
   'territorial_direction', 'strength',
   'shared_territories', 'shared_territory_count',
-  'same_ethnicity', 'related_ethnicity', 'same_language', 'same_religion', 'same_state',
+  'same_ethnicity', 'related_ethnicity', 'same_language', 'same_religion', 'same_civilization',
   'temporal_gap_years',
 ];
 
@@ -396,7 +396,7 @@ edges.forEach(e => {
     e.related_ethnicity ? 1 : 0,
     e.same_language   ? 1 : 0,
     e.same_religion   ? 1 : 0,
-    e.same_state      ? 1 : 0,
+    e.same_civilization      ? 1 : 0,
     e.temporal_gap,
   ].join(','));
 });
@@ -419,10 +419,10 @@ edges.forEach(e => {
   if (e.related_ethnicity) signalCounts.related_eth++;
   if (e.same_language)    signalCounts.language++;
   if (e.same_religion)    signalCounts.religion++;
-  if (e.same_state)       signalCounts.state++;
+  if (e.same_civilization)       signalCounts.state++;
 });
 
-console.log(`✓ Generated successions.csv — ${edges.length} edges, ${connected.size}/${regimes.length} regimes connected`);
+console.log(`✓ Generated successions.csv — ${edges.length} edges, ${connected.size}/${polities.length} polities connected`);
 console.log(`  Same         : ${counts.same}`);
 console.log(`  Expansion    : ${counts.expansion}`);
 console.log(`  Contraction  : ${counts.contraction}`);

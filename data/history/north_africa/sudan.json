@@ -51,7 +51,7 @@
             {
               "label": "Egyptian New Kingdom — Nubia (Kush as vassal)",
               "note": "c.1550–1070 BCE",
-              "regime": "egyptian_new_kingdom"
+              "polity": "egyptian_new_kingdom"
             }
           ],
           "span": 2
@@ -60,7 +60,7 @@
           "stack": [
             {
               "label": "Nilotic peoples (proto-Nilo-Saharan)",
-              "regime": "nilotic_peoples"
+              "polity": "nilotic_peoples"
             }
           ],
           "span": 1
@@ -70,7 +70,7 @@
             {
               "label": "Punt (Egyptian trading land)",
               "note": "Red Sea coast",
-              "regime": "punt"
+              "polity": "punt"
             }
           ],
           "span": 1
@@ -79,7 +79,7 @@
           "stack": [
             {
               "label": "Luo / Fur peoples",
-              "regime": "luo"
+              "polity": "luo"
             }
           ],
           "span": 1
@@ -88,7 +88,7 @@
           "stack": [
             {
               "label": "Luo / Nilotic peoples",
-              "regime": "luo"
+              "polity": "luo"
             }
           ],
           "span": 1
@@ -106,12 +106,12 @@
             {
               "label": "Kush Kingdom — Napata phase",
               "note": "c.780–300 BCE",
-              "regime": "kush_kingdom"
+              "polity": "kush_kingdom"
             },
             {
               "label": "Kushite 25th Dynasty of Egypt",
               "note": "747–656 BCE",
-              "regime": "kushite_25th_dynasty_of_egypt"
+              "polity": "kushite_25th_dynasty_of_egypt"
             }
           ],
           "span": 2
@@ -128,7 +128,7 @@
           "stack": [
             {
               "label": "Blemmyes (nomadic eastern desert)",
-              "regime": "blemmyes"
+              "polity": "blemmyes"
             }
           ],
           "span": 1
@@ -137,7 +137,7 @@
           "stack": [
             {
               "label": "Nile peoples · Dagu",
-              "regime": "nile_peoples"
+              "polity": "nile_peoples"
             }
           ],
           "span": 1
@@ -146,7 +146,7 @@
           "stack": [
             {
               "label": "Nilotic peoples (Luo · proto-Dinka)",
-              "regime": "nilotic_peoples"
+              "polity": "nilotic_peoples"
             }
           ],
           "span": 1
@@ -170,7 +170,7 @@
             {
               "label": "Kush Kingdom — Meroe phase",
               "note": "c.300 BCE–350 CE",
-              "regime": "kush_kingdom"
+              "polity": "kush_kingdom"
             }
           ],
           "span": 1
@@ -187,7 +187,7 @@
           "stack": [
             {
               "label": "Blemmyes · early Beja",
-              "regime": "blemmyes_early_beja"
+              "polity": "blemmyes_early_beja"
             }
           ],
           "span": 1
@@ -196,7 +196,7 @@
           "stack": [
             {
               "label": "Dagu · Zaghawa (early)",
-              "regime": "dagu_zaghawa"
+              "polity": "dagu_zaghawa"
             }
           ],
           "span": 1
@@ -205,7 +205,7 @@
           "stack": [
             {
               "label": "Nilotic peoples",
-              "regime": "nilotic_peoples"
+              "polity": "nilotic_peoples"
             }
           ],
           "span": 1
@@ -223,12 +223,12 @@
             {
               "label": "Nobatia (Christian)",
               "note": "c.400–650 CE",
-              "regime": "nobatia"
+              "polity": "nobatia"
             },
             {
               "label": "Makuria / Dongola (Christian)",
               "note": "c.580–1323",
-              "regime": "makuria_kingdom"
+              "polity": "makuria_kingdom"
             }
           ],
           "span": 1
@@ -237,7 +237,7 @@
           "stack": [
             {
               "label": "Makuria (southern territory)",
-              "regime": "makuria_kingdom"
+              "polity": "makuria_kingdom"
             }
           ],
           "span": 1
@@ -247,7 +247,7 @@
             {
               "label": "Alwa Kingdom (Christian Nubian)",
               "note": "c.6th c.–1504; Aksumite Christian influence",
-              "regime": "alwa_kingdom"
+              "polity": "alwa_kingdom"
             }
           ],
           "span": 1
@@ -256,7 +256,7 @@
           "stack": [
             {
               "label": "Beja (Christian / Islamicising)",
-              "regime": "beja"
+              "polity": "beja"
             }
           ],
           "span": 1
@@ -265,7 +265,7 @@
           "stack": [
             {
               "label": "Kanem Empire (eastern influence)",
-              "regime": "kanem_empire"
+              "polity": "kanem_empire"
             }
           ],
           "span": 1
@@ -274,7 +274,7 @@
           "stack": [
             {
               "label": "Nilotic peoples",
-              "regime": "nilotic_peoples"
+              "polity": "nilotic_peoples"
             }
           ],
           "span": 1
@@ -289,7 +289,7 @@
             {
               "label": "Makuria (Dongola) — Baqt Treaty",
               "note": "652 CE; Umayyad / Abbasid raids",
-              "regime": "makuria_kingdom"
+              "polity": "makuria_kingdom"
             }
           ],
           "span": 1
@@ -306,7 +306,7 @@
           "stack": [
             {
               "label": "Alwa Kingdom",
-              "regime": "alwa_kingdom"
+              "polity": "alwa_kingdom"
             }
           ],
           "span": 1
@@ -315,7 +315,7 @@
           "stack": [
             {
               "label": "Beja (Islamicising)",
-              "regime": "beja"
+              "polity": "beja"
             }
           ],
           "span": 1
@@ -324,7 +324,7 @@
           "stack": [
             {
               "label": "Kanem Empire · Daju",
-              "regime": "kanem_empire"
+              "polity": "kanem_empire"
             }
           ],
           "span": 1
@@ -333,7 +333,7 @@
           "stack": [
             {
               "label": "Nilotic peoples",
-              "regime": "nilotic_peoples"
+              "polity": "nilotic_peoples"
             }
           ],
           "span": 1
@@ -356,7 +356,7 @@
           "stack": [
             {
               "label": "Banu Kanz (Arab-Nubian dynasty)",
-              "regime": "banu_kanz"
+              "polity": "banu_kanz"
             }
           ],
           "span": 1
@@ -373,7 +373,7 @@
           "stack": [
             {
               "label": "Beja (Hadendoa · Bisharin)",
-              "regime": "beja"
+              "polity": "beja"
             }
           ],
           "span": 1
@@ -382,7 +382,7 @@
           "stack": [
             {
               "label": "Tunjur dynasty",
-              "regime": "tunjur_dynasty"
+              "polity": "tunjur_dynasty"
             }
           ],
           "span": 1
@@ -391,7 +391,7 @@
           "stack": [
             {
               "label": "Nilotic peoples",
-              "regime": "nilotic_peoples"
+              "polity": "nilotic_peoples"
             }
           ],
           "span": 1
@@ -408,12 +408,12 @@
           "stack": [
             {
               "label": "Ayyubid → Mamluk dynasty (N. Sudan)",
-              "regime": "ayyubid_sultanate"
+              "polity": "ayyubid_sultanate"
             },
             {
               "label": "Ottoman Empire suzerainty",
               "note": "from 1517",
-              "regime": "ottoman_empire"
+              "polity": "ottoman_empire"
             }
           ],
           "span": 1
@@ -422,7 +422,7 @@
           "stack": [
             {
               "label": "Ottoman Egypt border · Funj tributary",
-              "regime": "ottoman_egypt_border"
+              "polity": "ottoman_egypt_border"
             }
           ],
           "span": 1
@@ -432,7 +432,7 @@
             {
               "label": "Funj Sultanate (Sennar Sultanate)",
               "note": "1504–1821",
-              "regime": "funj_sultanate"
+              "polity": "funj_sultanate"
             }
           ],
           "span": 1
@@ -441,7 +441,7 @@
           "stack": [
             {
               "label": "Beja (under Ottoman / Funj suzerainty)",
-              "regime": "beja"
+              "polity": "beja"
             }
           ],
           "span": 1
@@ -451,7 +451,7 @@
             {
               "label": "Darfur Sultanate (Keira dynasty)",
               "note": "c.1603–1874",
-              "regime": "darfur_sultanate"
+              "polity": "darfur_sultanate"
             }
           ],
           "span": 1
@@ -460,7 +460,7 @@
           "stack": [
             {
               "label": "Nilotic peoples (Shilluk · Dinka · Nuer)",
-              "regime": "nilotic_peoples"
+              "polity": "nilotic_peoples"
             }
           ],
           "span": 1
@@ -478,7 +478,7 @@
             {
               "label": "Muhammad Ali dynasty — Turco-Egyptian Sudan",
               "note": "conquered 1820–1821",
-              "regime": "muhammad_ali_dynasty"
+              "polity": "muhammad_ali_dynasty"
             }
           ],
           "span": 6
@@ -493,12 +493,12 @@
             {
               "label": "Mahdist State (Muhammad Ahmad · Khalifa Abdallahi)",
               "note": "1881–1898",
-              "regime": "mahdist_state"
+              "polity": "mahdist_state"
             },
             {
               "label": "Anglo-Egyptian Sudan (Condominium)",
               "note": "1899–1956",
-              "regime": "anglo_egyptian_sudan"
+              "polity": "anglo_egyptian_sudan"
             }
           ],
           "span": 6
@@ -518,7 +518,7 @@
             },
             {
               "label": "Nimeiry · Bashir regime (1989–2019) · transitional government",
-              "regime": "nimeiry_bashir_regime_transitional_government"
+              "polity": "nimeiry_bashir_regime_transitional_government"
             }
           ],
           "span": 4
@@ -527,12 +527,12 @@
           "stack": [
             {
               "label": "Republic of Sudan",
-              "regime": "republic_of_sudan"
+              "polity": "republic_of_sudan"
             },
             {
               "label": "Darfur conflict",
               "note": "2003–",
-              "regime": "darfur_conflict"
+              "polity": "darfur_conflict"
             }
           ],
           "span": 1
@@ -541,12 +541,12 @@
           "stack": [
             {
               "label": "Republic of Sudan (Southern Sudan)",
-              "regime": "republic_of_sudan"
+              "polity": "republic_of_sudan"
             },
             {
               "label": "South Sudan referendum",
               "note": "2011",
-              "regime": "south_sudan_referendum"
+              "polity": "south_sudan_referendum"
             }
           ],
           "span": 1
@@ -569,7 +569,7 @@
           "stack": [
             {
               "label": "Republic of South Sudan (2011)",
-              "regime": "republic_of_south_sudan"
+              "polity": "republic_of_south_sudan"
             },
             {
               "label": "South Sudanese civil war",

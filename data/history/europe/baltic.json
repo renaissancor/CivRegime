@@ -36,12 +36,12 @@
             {
               "label": "Estonian (Chudic) tribes",
               "note": "Saare · Läänlased · Virulased · Ugaunians",
-              "regime": "estonian_tribes"
+              "polity": "estonian_tribes"
             },
             {
               "label": "Livonian coastal tribes (N. fringe)",
               "note": "Finno-Ugric",
-              "regime": "livonian_coastal_tribes"
+              "polity": "livonian_coastal_tribes"
             }
           ],
           "span": 1
@@ -51,12 +51,12 @@
             {
               "label": "Livonians (Līvi) · Latgallians",
               "note": "Finno-Ugric / Baltic",
-              "regime": "livonians_latgallians"
+              "polity": "livonians_latgallians"
             },
             {
               "label": "Couronians · Semigallians · Selonians",
               "note": "Baltic tribes",
-              "regime": "couronians_semigallians_selonians"
+              "polity": "couronians_semigallians_selonians"
             }
           ],
           "span": 1
@@ -66,7 +66,7 @@
             {
               "label": "Lithuanians · Samogitians (Aukštaitians)",
               "note": "Baltic tribes",
-              "regime": "lithuanians_samogitians"
+              "polity": "lithuanians_samogitians"
             }
           ],
           "span": 1
@@ -84,17 +84,17 @@
             {
               "label": "Livonian Brothers of the Sword",
               "note": "founded 1202; Northern Crusade from 1198",
-              "regime": "livonian_brothers_of_the_sword"
+              "polity": "livonian_brothers_of_the_sword"
             },
             {
               "label": "Terra Mariana (papal fief)",
               "note": "1207–",
-              "regime": "terra_mariana"
+              "polity": "terra_mariana"
             },
             {
               "label": "Danish Estonia (N. Estonia)",
               "note": "1219–1346",
-              "regime": "danish_estonia"
+              "polity": "danish_estonia"
             }
           ],
           "span": 2
@@ -104,7 +104,7 @@
             {
               "label": "Grand Duchy of Lithuania",
               "note": "1253 — Mindaugas crowned",
-              "regime": "grand_duchy_of_lithuania"
+              "polity": "grand_duchy_of_lithuania"
             }
           ],
           "span": 1
@@ -119,12 +119,12 @@
             {
               "label": "Danish Duchy of Estonia",
               "note": "1219–1346; sold to Livonian Order 1346",
-              "regime": "danish_duchy_of_estonia"
+              "polity": "danish_duchy_of_estonia"
             },
             {
               "label": "Bishopric of Ösel-Wiek (Saaremaa)",
               "note": "part of Confederation",
-              "regime": "bishopric_of_osel_wiek"
+              "polity": "bishopric_of_osel_wiek"
             }
           ],
           "span": 1
@@ -134,12 +134,12 @@
             {
               "label": "Livonian Confederation",
               "note": "1228–1561",
-              "regime": "livonian_confederation"
+              "polity": "livonian_confederation"
             },
             {
               "label": "Livonian Order · Archbishopric of Riga · Bishoprics",
               "note": "",
-              "regime": "livonian_order"
+              "polity": "livonian_order"
             }
           ],
           "span": 1
@@ -149,12 +149,12 @@
             {
               "label": "Grand Duchy of Lithuania (peak power)",
               "note": "14th–15th c.; Battle of Grunwald 1410",
-              "regime": "grand_duchy_of_lithuania"
+              "polity": "grand_duchy_of_lithuania"
             },
             {
               "label": "Union of Krewo (with Poland)",
               "note": "1385 — Jagiellonian era",
-              "regime": "union_of_krewo"
+              "polity": "union_of_krewo"
             }
           ],
           "span": 1
@@ -169,7 +169,7 @@
             {
               "label": "Livonian Confederation (continued)",
               "note": "–1561",
-              "regime": "livonian_confederation"
+              "polity": "livonian_confederation"
             }
           ],
           "span": 2
@@ -179,7 +179,7 @@
             {
               "label": "Polish-Lithuanian Commonwealth",
               "note": "Union of Lublin 1569",
-              "regime": "polish_lithuanian_commonwealth"
+              "polity": "polish_lithuanian_commonwealth"
             }
           ],
           "span": 1
@@ -197,17 +197,17 @@
             {
               "label": "Swedish Empire — N. Estonia",
               "note": "1561–1710",
-              "regime": "swedish_empire"
+              "polity": "swedish_empire"
             },
             {
               "label": "Polish-Lithuanian — Tartu/S. Estonia",
               "note": "1561–1629",
-              "regime": "polish_lithuanian"
+              "polity": "polish_lithuanian"
             },
             {
               "label": "Denmark-Norway — Saaremaa (Ösel)",
               "note": "1559–1645",
-              "regime": "denmark_norway"
+              "polity": "denmark_norway"
             }
           ],
           "span": 1
@@ -217,22 +217,22 @@
             {
               "label": "Duchy of Livonia (Polish-Lithuanian)",
               "note": "1561–1621",
-              "regime": "duchy_of_livonia"
+              "polity": "duchy_of_livonia"
             },
             {
               "label": "Swedish Livonia",
               "note": "1621–1710",
-              "regime": "swedish_livonia"
+              "polity": "swedish_livonia"
             },
             {
               "label": "Duchy of Courland-Semigallia (Polish vassal)",
               "note": "1562–1795",
-              "regime": "duchy_of_courland_semigallia"
+              "polity": "duchy_of_courland_semigallia"
             },
             {
               "label": "Polish Livonia / Latgale (Inflanty)",
               "note": "1561–1772",
-              "regime": "polish_livonia"
+              "polity": "polish_livonia"
             }
           ],
           "span": 1
@@ -241,7 +241,7 @@
           "label": "Polish-Lithuanian Commonwealth",
           "note": "1569–1795",
           "span": 1,
-          "regime": "polish_lithuanian_commonwealth"
+          "polity": "polish_lithuanian_commonwealth"
         }
       ]
     },
@@ -253,7 +253,7 @@
             {
               "label": "Swedish Empire — Swedish Estonia + Swedish Livonia",
               "note": "1645–1710",
-              "regime": "swedish_empire"
+              "polity": "swedish_empire"
             }
           ],
           "span": 1
@@ -263,12 +263,12 @@
             {
               "label": "Swedish Livonia (Riga region)",
               "note": "1621–1710",
-              "regime": "swedish_livonia"
+              "polity": "swedish_livonia"
             },
             {
               "label": "Duchy of Courland-Semigallia",
               "note": "semi-independent · overseas colonies",
-              "regime": "duchy_of_courland_semigallia"
+              "polity": "duchy_of_courland_semigallia"
             }
           ],
           "span": 1
@@ -277,7 +277,7 @@
           "label": "Polish-Lithuanian Commonwealth (–1795)",
           "note": "",
           "span": 1,
-          "regime": "polish_lithuanian_commonwealth"
+          "polity": "polish_lithuanian_commonwealth"
         }
       ]
     },
@@ -290,14 +290,14 @@
         {
           "stack": [
             {
-              "regime": "russian_empire",
+              "polity": "russian_empire",
               "label": "Russian Empire — Governorate of Estonia (Reval)",
               "note": "1710–1917; Great Northern War"
             },
             {
               "label": "Governorate of Livonia (Riga)",
               "note": "1710–1917",
-              "regime": "governorate_of_livonia"
+              "polity": "governorate_of_livonia"
             }
           ],
           "span": 2
@@ -305,19 +305,19 @@
         {
           "stack": [
             {
-              "regime": "russian_empire",
+              "polity": "russian_empire",
               "label": "Russian Empire (Partitions of Poland 1795)",
               "note": "1795–1917"
             },
             {
               "label": "Governorate of Courland",
               "note": "1795–1917",
-              "regime": "governorate_of_courland"
+              "polity": "governorate_of_courland"
             },
             {
               "label": "Kovno · Vilna Governorates (Lithuania)",
               "note": "1795–1917",
-              "regime": "kovno_vilna_governorates"
+              "polity": "kovno_vilna_governorates"
             }
           ],
           "span": 1
@@ -339,7 +339,7 @@
             {
               "label": "Republic of Estonia",
               "note": "1918; War of Independence 1918–1920",
-              "regime": "republic_of_estonia"
+              "polity": "republic_of_estonia"
             }
           ],
           "span": 1
@@ -349,12 +349,12 @@
             {
               "label": "Duchy of Courland puppet (German)",
               "note": "1918 — brief",
-              "regime": "duchy_of_courland"
+              "polity": "duchy_of_courland"
             },
             {
               "label": "Republic of Latvia",
               "note": "1918; War of Independence 1918–1920",
-              "regime": "republic_of_latvia"
+              "polity": "republic_of_latvia"
             }
           ],
           "span": 1
@@ -364,17 +364,17 @@
             {
               "label": "Kingdom of Lithuania (German protectorate)",
               "note": "1918 — rejected",
-              "regime": "kingdom_of_lithuania"
+              "polity": "kingdom_of_lithuania"
             },
             {
               "label": "Republic of Lithuania",
               "note": "1918–",
-              "regime": "republic_of_lithuania"
+              "polity": "republic_of_lithuania"
             },
             {
               "label": "Central Lithuania (Vilna dispute)",
               "note": "1920–1922 → Poland",
-              "regime": "central_lithuania"
+              "polity": "central_lithuania"
             }
           ],
           "span": 1
@@ -389,7 +389,7 @@
             {
               "label": "Estonian First Republic",
               "note": "1918–1940; Päts authoritarian coup 1934",
-              "regime": "estonian_first_republic"
+              "polity": "estonian_first_republic"
             }
           ],
           "span": 1
@@ -399,7 +399,7 @@
             {
               "label": "Latvian First Republic",
               "note": "1918–1940; Ulmanis authoritarian coup 1934",
-              "regime": "latvian_first_republic"
+              "polity": "latvian_first_republic"
             }
           ],
           "span": 1
@@ -409,7 +409,7 @@
             {
               "label": "Lithuanian First Republic",
               "note": "1918–1940; Smetona authoritarian 1926; Klaipeda seized 1923, ceded 1939",
-              "regime": "lithuanian_first_republic"
+              "polity": "lithuanian_first_republic"
             }
           ],
           "span": 1
@@ -431,12 +431,12 @@
             {
               "label": "Nazi Germany — Reichskommissariat Ostland",
               "note": "1941–1944",
-              "regime": "nazi_germany"
+              "polity": "nazi_germany"
             },
             {
               "label": "Soviet reconquest",
               "note": "1944",
-              "regime": "soviet_reconquest"
+              "polity": "soviet_reconquest"
             }
           ],
           "span": 3
@@ -454,7 +454,7 @@
             {
               "label": "Estonian SSR",
               "note": "1940–1941 · 1944–1991; mass deportations 1941, 1949",
-              "regime": "estonian_ssr"
+              "polity": "estonian_ssr"
             }
           ],
           "span": 1
@@ -464,7 +464,7 @@
             {
               "label": "Latvian SSR",
               "note": "1940–1941 · 1944–1991; mass deportations 1941, 1949",
-              "regime": "latvian_ssr"
+              "polity": "latvian_ssr"
             }
           ],
           "span": 1
@@ -474,7 +474,7 @@
             {
               "label": "Lithuanian SSR",
               "note": "1940–1941 · 1944–1991; mass deportations 1941, 1949",
-              "regime": "lithuanian_ssr"
+              "polity": "lithuanian_ssr"
             }
           ],
           "span": 1
@@ -492,7 +492,7 @@
             {
               "label": "Republic of Estonia",
               "note": "1991– · EU & NATO 2004; Singing Revolution 1987–1991",
-              "regime": "republic_of_estonia"
+              "polity": "republic_of_estonia"
             }
           ],
           "span": 1
@@ -502,7 +502,7 @@
             {
               "label": "Republic of Latvia",
               "note": "1991– · EU & NATO 2004",
-              "regime": "republic_of_latvia"
+              "polity": "republic_of_latvia"
             }
           ],
           "span": 1
@@ -512,7 +512,7 @@
             {
               "label": "Republic of Lithuania",
               "note": "1991– · EU & NATO 2004",
-              "regime": "republic_of_lithuania"
+              "polity": "republic_of_lithuania"
             }
           ],
           "span": 1

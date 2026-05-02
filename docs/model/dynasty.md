@@ -24,7 +24,7 @@ golden_horde,borjigin,1227,1502
 yuan_dynasty,borjigin,1271,1368
 ```
 
-- A polity can have **zero dynasties** (republics, tribal confederations, communist states)
+- A polity can have **zero dynasties** (republics, tribal confederations, communist civilizations)
 - A polity can have **one dynasty** for its entire span (Ottoman Empire → House of Osman)
 - A polity can have **multiple sequential dynasties** (Byzantine Empire → many houses)
 - A dynasty can rule **multiple polities simultaneously** (Habsburgs ruled Austria and Spain)
@@ -68,17 +68,17 @@ austria_hungary,habsburg,1867,1918
 
 ---
 
-## Dynasty vs Polity vs State
+## Dynasty vs Polity vs Civilization
 
 These three concepts capture different layers of political continuity:
 
 | Concept | What it tracks | Example |
 |---|---|---|
-| **State** | Political continuity regardless of dynasty | Roman State (Republic → Empire → Byzantine) |
+| **Civilization** | Political continuity regardless of dynasty | Roman Civilization (Republic → Empire → Byzantine) |
 | **Polity** | A specific political entity in time | Roman Empire (27 BC – 395 CE) |
 | **Dynasty** | The ruling family | Julio-Claudian, Flavian, Severan, etc. |
 
-A state persists across dynasty changes. A polity can persist across dynasty changes (Byzantine Empire). A dynasty can persist across polity changes (Borjigin ruling Mongol Empire then Yuan).
+A civilization persists across dynasty changes. A polity can persist across dynasty changes (Byzantine Empire). A dynasty can persist across polity changes (Borjigin ruling Mongol Empire then Yuan).
 
 ---
 
@@ -89,11 +89,11 @@ Not all polities are dynastic. The following government types typically have no 
 | Government Type | Reason |
 |---|---|
 | `democratic_republic` | Elected leaders, no hereditary rule |
-| `communist_state` | Party rule, not family rule |
+| `communist_civilization` | Party rule, not family rule |
 | `republic` | Non-hereditary by definition |
 | `tribal_confederation` | Collective leadership, rotating chiefs |
-| `colonial_administration` | Ruled by distant metropolitan state |
-| `puppet_state` | Sovereignty lies elsewhere |
+| `colonial_administration` | Ruled by distant metropolitan civilization |
+| `puppet_civilization` | Sovereignty lies elsewhere |
 | `military_republic` | Military junta, not hereditary |
 
 ---

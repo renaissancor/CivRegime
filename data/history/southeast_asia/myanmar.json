@@ -36,7 +36,7 @@
             {
               "label": "Pyu city-states (Beikthano · Halin · Sri Ksetra)",
               "note": "c.200 BCE–1050 CE",
-              "regime": "pyu_city_states"
+              "polity": "pyu_city_states"
             }
           ],
           "span": 1
@@ -46,7 +46,7 @@
             {
               "label": "Mon kingdoms (Suvarnabhumi · Thaton)",
               "note": "c.300 BCE–",
-              "regime": "mon_kingdoms"
+              "polity": "mon_kingdoms"
             },
             {
               "label": "Dvaravati influence",
@@ -60,7 +60,7 @@
             {
               "label": "Dhanyawadi · Vesali (early Arakanese kingdoms)",
               "note": "c.4th–11th c.",
-              "regime": "dhanyawadi_vesali"
+              "polity": "dhanyawadi_vesali"
             }
           ],
           "span": 1
@@ -78,12 +78,12 @@
             {
               "label": "Pagan Kingdom (Bagan dynasty — first unified Burma)",
               "note": "1044–1297",
-              "regime": "pagan_kingdom"
+              "polity": "pagan_kingdom"
             },
             {
               "label": "Theravada Buddhism adopted as state religion",
               "note": "",
-              "regime": "theravada_buddhism_adopted_as_state_religion"
+              "polity": "theravada_buddhism_adopted_as_state_religion"
             }
           ],
           "span": 2
@@ -110,22 +110,22 @@
             {
               "label": "Myinsaing kingdom",
               "note": "1297–1313",
-              "regime": "myinsaing_kingdom"
+              "polity": "myinsaing_kingdom"
             },
             {
               "label": "Sagaing kingdom · Pinya kingdom",
               "note": "1315–1364",
-              "regime": "sagaing_kingdom"
+              "polity": "sagaing_kingdom"
             },
             {
               "label": "Ava kingdom (Inwa — Shan-Burman)",
               "note": "1364–1555",
-              "regime": "ava_kingdom"
+              "polity": "ava_kingdom"
             },
             {
               "label": "Shan states (Mong Mao · Hsenwi · Kengtung etc.)",
               "note": "13th–16th c.",
-              "regime": "shan_states"
+              "polity": "shan_states"
             }
           ],
           "span": 1
@@ -135,12 +135,12 @@
             {
               "label": "Hanthawaddy kingdom (Mon — Pegu/Bago)",
               "note": "1287–1539",
-              "regime": "hanthawaddy_kingdom"
+              "polity": "hanthawaddy_kingdom"
             },
             {
               "label": "Yuan dynasty — Mien Province (brief Mongol intervention)",
               "note": "1287–",
-              "regime": "yuan_dynasty"
+              "polity": "yuan_dynasty"
             }
           ],
           "span": 1
@@ -150,7 +150,7 @@
             {
               "label": "Arakan kingdom (Laungkyet dynasty)",
               "note": "c.1237–1430",
-              "regime": "arakan_kingdom"
+              "polity": "arakan_kingdom"
             },
             {
               "label": "Mrauk U kingdom (Arakanese golden age)",
@@ -172,7 +172,7 @@
             {
               "label": "Toungoo dynasty (reunifies Burma — Tabinshwehti · Bayinnaung)",
               "note": "1510–1599",
-              "regime": "toungoo_dynasty"
+              "polity": "toungoo_dynasty"
             },
             {
               "label": "Restored Toungoo dynasty (Nyaungyan)",
@@ -186,7 +186,7 @@
             {
               "label": "Mrauk U kingdom (Arakan — independent)",
               "note": "1430–1785",
-              "regime": "mrauk_u_kingdom"
+              "polity": "mrauk_u_kingdom"
             }
           ],
           "span": 1
@@ -204,12 +204,12 @@
             {
               "label": "Konbaung dynasty (Alaungpaya — last Burmese dynasty)",
               "note": "1752–1885",
-              "regime": "konbaung_dynasty"
+              "polity": "konbaung_dynasty"
             },
             {
               "label": "Conquers Arakan (1785) · Manipur · Assam",
               "note": "",
-              "regime": "conquers_arakan"
+              "polity": "conquers_arakan"
             }
           ],
           "span": 2
@@ -219,7 +219,7 @@
             {
               "label": "Arakan conquered by Konbaung Burma",
               "note": "1785",
-              "regime": "arakan_conquered_by_konbaung_burma"
+              "polity": "arakan_conquered_by_konbaung_burma"
             }
           ],
           "span": 1
@@ -254,7 +254,7 @@
             {
               "label": "Rangoon becomes colonial capital",
               "note": "",
-              "regime": "rangoon_becomes_colonial_capital"
+              "polity": "rangoon_becomes_colonial_capital"
             }
           ],
           "span": 1
@@ -278,12 +278,12 @@
             {
               "label": "British Burma (province of British India)",
               "note": "1886–1937",
-              "regime": "british_burma"
+              "polity": "british_burma"
             },
             {
               "label": "British Burma (separate colony)",
               "note": "1937–1942",
-              "regime": "british_burma"
+              "polity": "british_burma"
             },
             {
               "label": "Japanese occupation — State of Burma (Ba Maw)",
@@ -313,17 +313,17 @@
             {
               "label": "Socialist Republic of the Union of Burma (Ne Win — military)",
               "note": "1962–1988",
-              "regime": "socialist_republic_of_the_union_of_burma"
+              "polity": "socialist_republic_of_the_union_of_burma"
             },
             {
               "label": "Union of Myanmar (SLORC/SPDC — military junta)",
               "note": "1988–2011",
-              "regime": "union_of_myanmar"
+              "polity": "union_of_myanmar"
             },
             {
               "label": "Republic of the Union of Myanmar (semi-civilian)",
               "note": "2011–2021",
-              "regime": "republic_of_the_union_of_myanmar"
+              "polity": "republic_of_the_union_of_myanmar"
             },
             {
               "label": "Military coup · Civil war · National Unity Government (NUG)",

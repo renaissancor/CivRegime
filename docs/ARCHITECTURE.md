@@ -17,7 +17,7 @@ CSV files (csvs/)              ← source of truth for flat data
   ├── ethnicity.csv               276 nodes
   ├── languages.csv               691 nodes
   ├── religions.csv               255 nodes
-  ├── states.csv                  2 states
+  ├── civilizations.csv                  2 civilizations
   └── figures.csv                 285 figures
 
 JSON files (data/history/)     ← source of truth for nested data
@@ -96,7 +96,7 @@ npm run validate    # check data integrity (npm test)
 ```
 
 Individual generators in `code/makejson/`:
-- `regimes.js` — csvs/polity.csv → data/polity/*.json
+- `polities.js` — csvs/polity.csv → data/polity/*.json
 - `successions.js` — csvs/successions.csv → data/succession/all.json
 - `territories.js` — csvs/territories.csv → data/territory/*.json
 - `ethnicities.js`, `languages.js`, `religions.js` — tree CSVs → directory trees
@@ -109,7 +109,7 @@ History panels are the exception to CSV-first — they remain as hand-curated JS
 
 - `columns[]` — geographic sub-regions (e.g., Northern France, Southern France)
 - `rows[]` — temporal rows with `era` labels
-- `cells[]` — each cell contains a `label`, optional `regime` FK, `note`, and `span`
+- `cells[]` — each cell contains a `label`, optional `polity` FK, `note`, and `span`
 - `stack[]` — multiple entries per cell (sequential rulers)
 - `split[]` — concurrent entities (e.g., Free France / Vichy France)
 - `footnotes[]` — explanatory notes
@@ -128,36 +128,34 @@ Phase 5 of the roadmap will normalize panels into DuckDB tables (`history_panels
 │  ├── Taxonomy: ethnicities, languages,  │
 │  │   religions, ideologies              │
 │  ├── Geography: territories, provinces  │
-│  ├── Political: states → polities →     │
-│  │   regimes (3-tier hierarchy)         │
-│  ├── Successions: polity-level +        │
-│  │   regime-level (dynasty)             │
+│  ├── Political: civilizations → polities       │
+│  │   (with dynasty as cross-cutting)    │
+│  ├── Successions: polity-to-polity      │
 │  ├── Panel: history_panels, columns,    │
 │  │   cells                              │
 │  └── People: figures                    │
 └─────────────────────────────────────────┘
 ```
 
-### Three-Tier Political Hierarchy
+### Two-Tier Political Hierarchy
 
 | Tier | Table | Count | Example |
 |------|-------|-------|---------|
-| **State** | `states` | ~20 | Roman State, French State |
-| **Polity** | `polities` | 268+ | Roman Republic, Kingdom of France |
-| **Regime** | `regimes` | ~2,500 | Julio-Claudian, Bourbon dynasty |
+| **Civilization** | `civilization` | ~20 | Roman Civilization, French Civilization |
+| **Polity** | `polity` | 428 | Roman Republic, Kingdom of France |
 
-- **State** = political continuity across polity changes (Roman Republic → Roman Empire = same "Roman State")
-- **Polity** = a political entity (what current `csvs/polity.csv` rows are)
-- **Regime** = a dynasty or ruling period within a polity (what history panel labels describe)
+- **Civilization** = political continuity across polity changes (Roman Republic → Roman Empire (Pagan) → Roman Empire (Christian) → Byzantine Empire all share `roman_civilization`)
+- **Polity** = a political entity; splits into a new polity when religion/language/ethnicity flips
 
-### Succession at Two Levels
+Dynasty (192 records) is modelled as a cross-cutting tag via `polity_dynasty`, not as a third tier.
+
+### Succession
 
 ```
-Polity successions (macro):  Roman Republic → Roman Empire → Byzantine Empire
-Regime successions (micro):  Julio-Claudian → Flavian → Antonine → Severan
+Roman Republic → Roman Empire (Pagan) → Roman Empire (Christian) → Byzantine Empire
 ```
 
-Both are directed graphs. Polity successions exist today (1,995 edges in CSV). Regime successions will be derived from history panel stack order (~2,300 edges).
+Polity successions today: 1,995 edges in `csvs/successions.csv`.
 
 ---
 
@@ -168,23 +166,21 @@ polity.ruling_ethnicity  → ethnicities.id
 polity.cultural_language → languages.id
 polity.religion          → religions.id
 polity.government        → ideologies.id
-polity.state_id          → states.id
+polity.civilization_id          → civilizations.id
 
-regime.polity_id         → polities.id
-
-history_cell.regime_id   → regimes.id
 history_cell.polity_id   → polities.id
 history_cell.culture_id  → cultures.id
 history_cell.column_id   → history_columns.id
 
 polity_succession.from/to → polities.id
-regime_succession.from/to → regimes.id
 
-figure.regime_id         → regimes.id
 figure.polity_id         → polities.id
 
 polity_territory.polity_id    → polities.id
 polity_territory.territory_id → territories.id
+
+polity_dynasty.polity_id  → polities.id
+polity_dynasty.dynasty_id → dynasties.id
 
 province.territory_id    → territories.id
 ```
@@ -199,11 +195,11 @@ CSVs are the source of truth. JSON is generated output. At 400+ polities and gro
 ### 2. Text IDs (not numeric)
 All entities use human-readable text IDs (`ottoman_empire`, not `42`). Self-documenting, stable across imports, easy to reference in history panels and CSVs.
 
-### 3. Polity/Regime Split
-Polities are the political entity. Regimes are dynasties/periods within. This avoids the question "is Capetian France the same as Bourbon France?" — they're different regimes of the same polity.
+### 3. Identity-drift via polity splits
+When religion, language, or ethnicity flips, a new polity is created with a succession edge to the predecessor. Capetian France, Valois France, Bourbon France, First Republic, Empire are all separate polities sharing the same `civilization_id` (`french_civilization`). Dynasty is tracked separately via `polity_dynasty` and can span polities (House of Bourbon → Old Regime + Bourbon Restoration).
 
 ### 4. History Panels as First-Class Data
-Panels aren't just visualization — they're the richest source of regime data. The ~4,300 cells contain temporal, geographic, and succession information that the RDBMS will normalize.
+Panels aren't just visualization — they're the richest source of polity data. The ~4,300 cells contain temporal, geographic, and succession information that the RDBMS will normalize.
 
 ### 5. DuckDB over SQLite
 DuckDB was chosen for analytical query power (column-oriented, complex JOINs, recursive CTEs for succession chains).

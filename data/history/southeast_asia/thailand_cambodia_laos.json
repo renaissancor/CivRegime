@@ -36,7 +36,7 @@
             {
               "label": "Mon peoples (Dvaravati kingdom)",
               "note": "c.6th–11th c.",
-              "regime": "mon_peoples"
+              "polity": "mon_peoples"
             },
             {
               "label": "Tai migration from southern China",
@@ -50,17 +50,17 @@
             {
               "label": "Funan (Óc Eo — Indianized kingdom)",
               "note": "c.1st–6th c.",
-              "regime": "funan"
+              "polity": "funan"
             },
             {
               "label": "Chenla (Water Chenla · Land Chenla)",
               "note": "c.550–802",
-              "regime": "chenla"
+              "polity": "chenla"
             },
             {
               "label": "Sailendra (brief Javanese overlordship)",
               "note": "c.790–802",
-              "regime": "sailendra"
+              "polity": "sailendra"
             }
           ],
           "span": 1
@@ -70,12 +70,12 @@
             {
               "label": "Ancient Lao peoples (Tai-Lao migration)",
               "note": "c.8th–13th c.",
-              "regime": "ancient_lao_peoples"
+              "polity": "ancient_lao_peoples"
             },
             {
               "label": "Mon-Khmer settlement (pre-Tai)",
               "note": "",
-              "regime": "mon_khmer_settlement"
+              "polity": "mon_khmer_settlement"
             }
           ],
           "span": 1
@@ -93,17 +93,17 @@
             {
               "label": "Khmer Empire (dominates central Thailand / Isan)",
               "note": "802–",
-              "regime": "khmer_empire"
+              "polity": "khmer_empire"
             },
             {
               "label": "Lavo / Lopburi (Khmer vassal)",
               "note": "",
-              "regime": "lavo"
+              "polity": "lavo"
             },
             {
               "label": "Hariphunchai (Mon kingdom — Lamphun)",
               "note": "c.750–1292",
-              "regime": "hariphunchai"
+              "polity": "hariphunchai"
             }
           ],
           "span": 1
@@ -113,12 +113,12 @@
             {
               "label": "Khmer Empire (Angkor — Jayavarman II to Jayavarman VII)",
               "note": "802–c.1431",
-              "regime": "khmer_empire"
+              "polity": "khmer_empire"
             },
             {
               "label": "Angkor Wat · Angkor Thom · Bayon",
               "note": "",
-              "regime": "angkor_wat"
+              "polity": "angkor_wat"
             }
           ],
           "span": 1
@@ -128,7 +128,7 @@
             {
               "label": "Khmer Empire (overlordship of Lao territories)",
               "note": "",
-              "regime": "khmer_empire"
+              "polity": "khmer_empire"
             }
           ],
           "span": 1
@@ -146,17 +146,17 @@
             {
               "label": "Lanna kingdom (Chiang Mai — northern Thai)",
               "note": "1292–1558",
-              "regime": "lanna_kingdom"
+              "polity": "lanna_kingdom"
             },
             {
               "label": "Sukhothai kingdom (first major Thai state)",
               "note": "c.1238–1438",
-              "regime": "sukhothai_kingdom"
+              "polity": "sukhothai_kingdom"
             },
             {
               "label": "Ayutthaya kingdom (Siam — dominant Thai state)",
               "note": "1351–1767",
-              "regime": "ayutthaya_kingdom"
+              "polity": "ayutthaya_kingdom"
             }
           ],
           "span": 1
@@ -166,17 +166,17 @@
             {
               "label": "Khmer Empire (declining under Thai pressure)",
               "note": "13th–15th c.",
-              "regime": "khmer_empire"
+              "polity": "khmer_empire"
             },
             {
               "label": "Post-Angkor Cambodia (Phnom Penh · Lovek · Oudong)",
               "note": "c.1431–",
-              "regime": "post_angkor_cambodia"
+              "polity": "post_angkor_cambodia"
             },
             {
               "label": "Siamese and Vietnamese pressure",
               "note": "",
-              "regime": "siamese_and_vietnamese_pressure"
+              "polity": "siamese_and_vietnamese_pressure"
             }
           ],
           "span": 1
@@ -186,7 +186,7 @@
             {
               "label": "Lan Xang kingdom (Million Elephants — Fa Ngum)",
               "note": "1353–1707",
-              "regime": "lan_xang_kingdom"
+              "polity": "lan_xang_kingdom"
             }
           ],
           "span": 1
@@ -201,12 +201,12 @@
             {
               "label": "Ayutthaya kingdom (continued)",
               "note": "1351–1767",
-              "regime": "ayutthaya_kingdom"
+              "polity": "ayutthaya_kingdom"
             },
             {
               "label": "Lanna (Burmese vassal after 1558)",
               "note": "1558–1774",
-              "regime": "lanna"
+              "polity": "lanna"
             }
           ],
           "span": 1
@@ -216,7 +216,7 @@
             {
               "label": "Middle Cambodia (Siamese / Vietnamese interference)",
               "note": "16th–19th c.",
-              "regime": "middle_cambodia"
+              "polity": "middle_cambodia"
             }
           ],
           "span": 1
@@ -226,22 +226,22 @@
             {
               "label": "Lan Xang splits into three kingdoms:",
               "note": "1707",
-              "regime": "lan_xang_splits_into_three_kingdoms"
+              "polity": "lan_xang_splits_into_three_kingdoms"
             },
             {
               "label": "Luang Prabang kingdom",
               "note": "1707–1893",
-              "regime": "luang_prabang_kingdom"
+              "polity": "luang_prabang_kingdom"
             },
             {
               "label": "Vientiane kingdom",
               "note": "1707–1828",
-              "regime": "vientiane_kingdom"
+              "polity": "vientiane_kingdom"
             },
             {
               "label": "Champasak kingdom",
               "note": "1713–1893",
-              "regime": "champasak_kingdom"
+              "polity": "champasak_kingdom"
             }
           ],
           "span": 1
@@ -263,7 +263,7 @@
             {
               "label": "Rattanakosin kingdom (Chakri dynasty — Bangkok)",
               "note": "1782–1932",
-              "regime": "rattanakosin_kingdom"
+              "polity": "rattanakosin_kingdom"
             },
             {
               "label": "Siamese suzerainty over Cambodia · Lao states",
@@ -294,12 +294,12 @@
             {
               "label": "Vientiane destroyed by Siam",
               "note": "1828",
-              "regime": "vientiane_destroyed_by_siam"
+              "polity": "vientiane_destroyed_by_siam"
             },
             {
               "label": "Luang Prabang · Champasak (Siamese vassals)",
               "note": "",
-              "regime": "luang_prabang"
+              "polity": "luang_prabang"
             }
           ],
           "span": 1
@@ -317,17 +317,17 @@
             {
               "label": "Siam (independent — Chakri dynasty continues)",
               "note": "",
-              "regime": "siam"
+              "polity": "siam"
             },
             {
               "label": "Unequal treaties with Britain · France",
               "note": "",
-              "regime": "unequal_treaties_with_britain"
+              "polity": "unequal_treaties_with_britain"
             },
             {
               "label": "Cedes Lao/Cambodian territories to France",
               "note": "1893/1907",
-              "regime": "cedes_laocambodian_territories_to_france"
+              "polity": "cedes_laocambodian_territories_to_france"
             }
           ],
           "span": 1
@@ -346,7 +346,7 @@
             {
               "label": "French Laos (protectorate — part of Indochina)",
               "note": "1893–1953",
-              "regime": "french_laos"
+              "polity": "french_laos"
             }
           ],
           "span": 1
@@ -361,7 +361,7 @@
             {
               "label": "Kingdom of Thailand (renamed from Siam)",
               "note": "1939",
-              "regime": "kingdom_of_thailand"
+              "polity": "kingdom_of_thailand"
             },
             {
               "label": "Japanese alliance / occupation",
@@ -370,7 +370,7 @@
             {
               "label": "Chakri dynasty (constitutional monarchy from 1932)",
               "note": "",
-              "regime": "chakri_dynasty"
+              "polity": "chakri_dynasty"
             }
           ],
           "span": 1
@@ -384,7 +384,7 @@
             {
               "label": "Kingdom of Cambodia (First Kingdom — independent)",
               "note": "1953–1970",
-              "regime": "kingdom_of_cambodia"
+              "polity": "kingdom_of_cambodia"
             }
           ],
           "span": 1
@@ -398,7 +398,7 @@
             {
               "label": "Kingdom of Laos (independent)",
               "note": "1953–1975",
-              "regime": "kingdom_of_laos"
+              "polity": "kingdom_of_laos"
             }
           ],
           "span": 1
@@ -416,12 +416,12 @@
             {
               "label": "Kingdom of Thailand (Chakri dynasty)",
               "note": "",
-              "regime": "kingdom_of_thailand"
+              "polity": "kingdom_of_thailand"
             },
             {
               "label": "Military coups · US alliance · anti-communist",
               "note": "",
-              "regime": "military_coups"
+              "polity": "military_coups"
             }
           ],
           "span": 1
@@ -431,7 +431,7 @@
             {
               "label": "Khmer Republic (Lon Nol — US-backed)",
               "note": "1970–1975",
-              "regime": "khmer_republic"
+              "polity": "khmer_republic"
             },
             {
               "label": "GRUNK (Sihanouk — royalist resistance in exile)",
@@ -440,22 +440,22 @@
             {
               "label": "Democratic Kampuchea (Khmer Rouge — Pol Pot)",
               "note": "1975–1979",
-              "regime": "democratic_kampuchea"
+              "polity": "democratic_kampuchea"
             },
             {
               "label": "People's Republic of Kampuchea (Vietnamese-backed)",
               "note": "1979–1989",
-              "regime": "peoples_republic_of_kampuchea"
+              "polity": "peoples_republic_of_kampuchea"
             },
             {
               "label": "State of Cambodia",
               "note": "1989–1993",
-              "regime": "state_of_cambodia"
+              "polity": "state_of_cambodia"
             },
             {
               "label": "UNTAC (UN transitional authority)",
               "note": "1992–1993",
-              "regime": "untac"
+              "polity": "untac"
             }
           ],
           "span": 1
@@ -465,12 +465,12 @@
             {
               "label": "Lao People's Democratic Republic (communist — Pathet Lao)",
               "note": "1975–",
-              "regime": "lao_peoples_democratic_republic"
+              "polity": "lao_peoples_democratic_republic"
             },
             {
               "label": "Vietnamese-aligned · Soviet bloc",
               "note": "",
-              "regime": "vietnamese_aligned_soviet_bloc"
+              "polity": "vietnamese_aligned_soviet_bloc"
             }
           ],
           "span": 1
@@ -488,12 +488,12 @@
             {
               "label": "Kingdom of Thailand (Chakri dynasty)",
               "note": "",
-              "regime": "kingdom_of_thailand"
+              "polity": "kingdom_of_thailand"
             },
             {
               "label": "Constitutional crises · coups (2006 · 2014)",
               "note": "",
-              "regime": "constitutional_crises"
+              "polity": "constitutional_crises"
             },
             {
               "label": "ASEAN member · major regional economy",
@@ -511,7 +511,7 @@
             {
               "label": "Hun Sen era (CPP dominance)",
               "note": "1985–2023",
-              "regime": "hun_sen_era"
+              "polity": "hun_sen_era"
             }
           ],
           "span": 1
@@ -521,7 +521,7 @@
             {
               "label": "Lao PDR (one-party communist state)",
               "note": "1975–",
-              "regime": "lao_pdr"
+              "polity": "lao_pdr"
             },
             {
               "label": "Economic reform (New Economic Mechanism)",

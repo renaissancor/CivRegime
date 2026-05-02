@@ -35,7 +35,7 @@
           "stack": [
             {
               "label": "Pre-Aksumite coastal trade (Adulis port)",
-              "regime": "pre_aksumite_coastal_trade"
+              "polity": "pre_aksumite_coastal_trade"
             }
           ],
           "span": 1
@@ -45,11 +45,11 @@
             {
               "label": "D'mt Kingdom (Ye'ha capital)",
               "note": "c.8th–5th c. BCE",
-              "regime": "dmt_kingdom"
+              "polity": "dmt_kingdom"
             },
             {
               "label": "Pre-Aksumite chiefdoms",
-              "regime": "pre_aksumite_chiefdoms"
+              "polity": "pre_aksumite_chiefdoms"
             }
           ],
           "span": 1
@@ -58,7 +58,7 @@
           "stack": [
             {
               "label": "Pre-Aksumite tribes · Punt coast",
-              "regime": "pre_aksumite_tribes"
+              "polity": "pre_aksumite_tribes"
             }
           ],
           "span": 1
@@ -75,7 +75,7 @@
           "stack": [
             {
               "label": "Aksumite Kingdom — Adulis (main Red Sea port)",
-              "regime": "aksumite_kingdom"
+              "polity": "aksumite_kingdom"
             }
           ],
           "span": 1
@@ -85,7 +85,7 @@
             {
               "label": "Aksumite Kingdom (capital: Aksum)",
               "note": "Christianisation under Ezana (c.330 CE)",
-              "regime": "aksumite_kingdom"
+              "polity": "aksumite_kingdom"
             }
           ],
           "span": 1
@@ -108,7 +108,7 @@
             {
               "label": "Islamic coastal presence — Dahlak Sultanate",
               "note": "8th c.",
-              "regime": "islamic_coastal_presence"
+              "polity": "islamic_coastal_presence"
             }
           ],
           "span": 1
@@ -142,11 +142,11 @@
           "stack": [
             {
               "label": "Dahlak Sultanate (Islamic)",
-              "regime": "dahlak_sultanate"
+              "polity": "dahlak_sultanate"
             },
             {
               "label": "Beja / Habesha coastal lords",
-              "regime": "beja"
+              "polity": "beja"
             }
           ],
           "span": 1
@@ -156,7 +156,7 @@
             {
               "label": "Zagwe Dynasty (capital: Lalibela)",
               "note": "c.900–1270; Rock-hewn churches built (12th c.)",
-              "regime": "zagwe_dynasty"
+              "polity": "zagwe_dynasty"
             }
           ],
           "span": 1
@@ -187,7 +187,7 @@
             {
               "label": "Solomonic restoration — Yekuno Amlak",
               "note": "1270; Wars vs Ifat Sultanate",
-              "regime": "solomonic_restoration"
+              "polity": "solomonic_restoration"
             }
           ],
           "span": 1
@@ -211,7 +211,7 @@
             {
               "label": "Ottoman Empire — Massawa port",
               "note": "1557",
-              "regime": "ottoman_empire"
+              "polity": "ottoman_empire"
             }
           ],
           "span": 1
@@ -220,7 +220,7 @@
           "stack": [
             {
               "label": "Tigray lords (Ras)",
-              "regime": "tigray_lords"
+              "polity": "tigray_lords"
             },
             {
               "label": "Adal-Ethiopian war — Ahmad ibn Ibrahim (Grañ)",
@@ -250,7 +250,7 @@
           "stack": [
             {
               "label": "Egyptian Khedivate control (coastal)",
-              "regime": "egyptian_khedivate_control"
+              "polity": "egyptian_khedivate_control"
             }
           ],
           "span": 1
@@ -295,7 +295,7 @@
             {
               "label": "Ethiopian Empire — Menelik II",
               "note": "Addis Ababa founded (1886)",
-              "regime": "ethiopian_empire"
+              "polity": "ethiopian_empire"
             }
           ],
           "span": 1
@@ -313,7 +313,7 @@
             {
               "label": "Italian Eritrea (colony)",
               "note": "1890–1941",
-              "regime": "italian_eritrea"
+              "polity": "italian_eritrea"
             }
           ],
           "span": 1
@@ -323,7 +323,7 @@
             {
               "label": "Ethiopian Empire (Haile Selassie)",
               "note": "Italian invasion (1935–1936)",
-              "regime": "ethiopian_empire"
+              "polity": "ethiopian_empire"
             }
           ],
           "span": 2
@@ -338,12 +338,12 @@
             {
               "label": "British administration",
               "note": "1941",
-              "regime": "british_administration"
+              "polity": "british_administration"
             },
             {
               "label": "Federation with Ethiopia",
               "note": "1952",
-              "regime": "federation_with_ethiopia"
+              "polity": "federation_with_ethiopia"
             },
             {
               "label": "Annexed by Ethiopia",
@@ -357,7 +357,7 @@
             {
               "label": "Italian East Africa",
               "note": "1936–1941",
-              "regime": "italian_east_africa"
+              "polity": "italian_east_africa"
             },
             {
               "label": "Ethiopian Empire restored (Haile Selassie)",
@@ -370,11 +370,11 @@
           "stack": [
             {
               "label": "Italian East Africa → Ethiopian Empire",
-              "regime": "italian_east_africa"
+              "polity": "italian_east_africa"
             },
             {
               "label": "Ogaden region (Somali borderlands)",
-              "regime": "ogaden_region"
+              "polity": "ogaden_region"
             }
           ],
           "span": 1
@@ -400,17 +400,17 @@
           "stack": [
             {
               "label": "Ethiopian Empire (Haile Selassie)",
-              "regime": "ethiopian_empire"
+              "polity": "ethiopian_empire"
             },
             {
               "label": "Derg — military communist regime",
               "note": "1974–1991",
-              "regime": "derg"
+              "polity": "derg"
             },
             {
               "label": "Ethiopian People's Democratic Republic",
               "note": "1987–1991",
-              "regime": "ethiopian_peoples_democratic_republic"
+              "polity": "ethiopian_peoples_democratic_republic"
             }
           ],
           "span": 1
@@ -419,7 +419,7 @@
           "stack": [
             {
               "label": "Derg (Mengistu Haile Mariam)",
-              "regime": "derg"
+              "polity": "derg"
             },
             {
               "label": "Ogaden War with Somalia",
@@ -437,7 +437,7 @@
           "stack": [
             {
               "label": "State of Eritrea (independent 1993)",
-              "regime": "state_of_eritrea"
+              "polity": "state_of_eritrea"
             },
             {
               "label": "Eritrea-Ethiopia War",
@@ -450,7 +450,7 @@
           "stack": [
             {
               "label": "Federal Democratic Republic of Ethiopia (FDRE)",
-              "regime": "federal_democratic_republic_of_ethiopia"
+              "polity": "federal_democratic_republic_of_ethiopia"
             },
             {
               "label": "Tigray War",

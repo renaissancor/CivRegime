@@ -15,7 +15,7 @@ Panel labels are free-text display strings with many formats:
 One entity can appear with different labels across panels:
 - "Tahirid dynasty" vs "Tahirid Dynasty" (case)
 - "Qing" vs "Qing dynasty" vs "Qing Dynasty (清)" (verbosity)
-- "Frankish Kingdom — Merovingian dynasty" vs "Frankish Kingdom — Carolingian dynasty" (same polity, different regime)
+- "Frankish Kingdom — Merovingian dynasty" vs "Frankish Kingdom — Carolingian dynasty" (same polity, different polity)
 
 ## ID Design Principles
 
@@ -26,15 +26,15 @@ One entity can appear with different labels across panels:
 
 ## ID Formats by Entity Type
 
-### States (`states` table)
+### States (`civilizations` table)
 
-Pattern: `{name}_state`
+Pattern: `{name}_civilization`
 
 ```
-roman_state
-french_state
-chinese_state
-persian_state
+roman_civilization
+french_civilization
+chinese_civilization
+persian_civilization
 ```
 
 States are political continuity groupings. Few in number (~20–30).
@@ -48,7 +48,7 @@ roman_republic
 roman_empire
 ottoman_empire
 kingdom_of_france
-ming_dynasty          ← Chinese dynasties are polity-level (they ARE the state)
+ming_dynasty          ← Chinese dynasties are polity-level (they ARE the civilization)
 joseon                ← Short name when unambiguous
 republic_of_turkey
 ```
@@ -60,9 +60,9 @@ Rules:
 - For non-Western polities, prefer the endonym when it's the common English usage: `joseon` not `kingdom_of_joseon`
 - Max ~40 characters
 
-### Regimes (`regimes` table)
+### Polities (`polities` table)
 
-Pattern: `{polity_id}__{dynasty_or_period}`  (double underscore separates polity from regime)
+Pattern: `{polity_id}__{dynasty_or_period}`  (double underscore separates polity from polity)
 
 ```
 kingdom_of_france__capetian
@@ -105,7 +105,7 @@ Already established — use the existing `old_id` slug from the JSON directory t
 |---------|--------------|---------|
 | `(native script)` | Remove `(清)`, `(唐)` etc. | `Qing Dynasty (清)` → `Qing Dynasty` |
 | `(context note)` | Remove `(Clovis I)`, `(declining)` | `Frankish Kingdom (Clovis I)` → `Frankish Kingdom` |
-| `— qualifier` | Split on em-dash | `Frankish Kingdom — Merovingian dynasty` → polity=`Frankish Kingdom`, regime=`Merovingian dynasty` |
+| `— qualifier` | Split on em-dash | `Frankish Kingdom — Merovingian dynasty` → polity=`Frankish Kingdom`, polity=`Merovingian dynasty` |
 | `X → Y` | Treat as transition event, not entity | `Austrian Empire → Austria-Hungary` → event label |
 | `X / Y` | Alternative names — pick first, note aliases | `Kidarites / Xionites` → `kidarites` |
 | `X · Y` | Multiple items — resolve individually | `Ur · Uruk · Lagash` → keep as compound |
@@ -129,11 +129,11 @@ Priority:
 
 ### Step 4: Assign
 
-- **Polity + dynasty in one label** → create both, link via `regimes.polity_id`
+- **Polity + dynasty in one label** → create both, link via `polities.polity_id`
   - "Frankish Kingdom — Merovingian dynasty"
   - → polity: `frankish_kingdom`
-  - → regime: `frankish_kingdom__merovingian`
-- **Standalone dynasty** → regime only (link polity later)
+  - → polity: `frankish_kingdom__merovingian`
+- **Standalone dynasty** → polity only (link polity later)
   - "Samanid dynasty" → `samanid_dynasty`
 - **Polity only** → polity record
   - "Venice Republic" → `venice_republic`
@@ -148,7 +148,7 @@ ottoman_empire      → 15 panels
 mongol_empire       → 13 panels
 ```
 
-Each panel cell gets a `history_cells` record pointing to the **same** polity/regime ID.
+Each panel cell gets a `history_cells` record pointing to the **same** polity/polity ID.
 The `label` field in `history_cells` stays panel-specific (can include context like "Ottoman Empire — Rumelia").
 
 ## Collision Resolution

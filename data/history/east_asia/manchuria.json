@@ -41,12 +41,12 @@
             {
               "label": "Shanrong",
               "note": "c.800–300 BCE",
-              "regime": "shanrong"
+              "polity": "shanrong"
             },
             {
               "label": "Donghu",
               "note": "c.600–209 BCE",
-              "regime": "donghu"
+              "polity": "donghu"
             }
           ],
           "span": 1
@@ -56,12 +56,12 @@
             {
               "label": "Yan",
               "note": "c.400–222 BCE",
-              "regime": "yan"
+              "polity": "yan"
             },
             {
               "label": "Liaodong Commandery",
               "note": "from c.300 BCE",
-              "regime": "liaodong_commandery"
+              "polity": "liaodong_commandery"
             }
           ],
           "span": 1
@@ -71,12 +71,12 @@
             {
               "label": "Gojoseon",
               "note": "c.2333–108 BCE",
-              "regime": "joseon"
+              "polity": "joseon"
             },
             {
               "label": "Yemaek",
               "note": "tribal confederation",
-              "regime": "yemaek"
+              "polity": "yemaek"
             }
           ],
           "span": 1
@@ -86,11 +86,11 @@
             {
               "label": "Sushen",
               "note": "ancient Tungusic peoples",
-              "regime": "sushen"
+              "polity": "sushen"
             },
             {
               "label": "Gori Kingdom",
-              "regime": "gori_kingdom"
+              "polity": "gori_kingdom"
             }
           ],
           "span": 1
@@ -103,24 +103,24 @@
         {
           "label": "Xiongnu — from 209 BCE",
           "span": 1,
-          "regime": "xiongnu"
+          "polity": "xiongnu"
         },
         {
           "stack": [
             {
               "label": "Qin",
               "note": "221–206 BCE",
-              "regime": "qin_dynasty"
+              "polity": "qin_dynasty"
             },
             {
               "label": "Western Han",
               "note": "206 BCE–8 CE",
-              "regime": "western_han"
+              "polity": "western_han"
             },
             {
               "label": "Liaodong & Xuantu Commanderies",
               "note": "from 108 BCE",
-              "regime": "liaodong_xuantu_commanderies"
+              "polity": "liaodong_xuantu_commanderies"
             }
           ],
           "span": 1
@@ -130,12 +130,12 @@
             {
               "label": "Gojoseon",
               "note": "→ 108 BCE",
-              "regime": "joseon"
+              "polity": "joseon"
             },
             {
               "label": "Han Commanderies",
               "note": "108–75 BCE",
-              "regime": "han_commanderies"
+              "polity": "han_commanderies"
             }
           ],
           "span": 1
@@ -157,12 +157,12 @@
             {
               "label": "Wuhuan",
               "note": "c.200 BCE–207 CE",
-              "regime": "wuhuan"
+              "polity": "wuhuan"
             },
             {
               "label": "Xianbei",
               "note": "c.1–400 CE",
-              "regime": "xianbei"
+              "polity": "xianbei"
             }
           ],
           "span": 1
@@ -172,23 +172,23 @@
             {
               "label": "Xin · Eastern Han",
               "note": "9–220 CE",
-              "regime": "xin_eastern_han"
+              "polity": "xin_eastern_han"
             },
             {
               "label": "Wei · Gongsun / Eastern Yan",
               "note": "220–238 CE",
-              "regime": "wei_gongsun"
+              "polity": "wei_gongsun"
             },
             {
               "label": "Western Jin — Liaodong & Xuantu",
               "note": "265–316 CE",
-              "regime": "western_jin"
+              "polity": "western_jin"
             }
           ],
           "span": 1
         },
         {
-          "regime": "goguryeo",
+          "polity": "goguryeo",
           "label": "Goguryeo — expanding",
           "span": 1
         },
@@ -197,12 +197,12 @@
             {
               "label": "Buyeo",
               "note": "c.2nd BCE–494 CE",
-              "regime": "buyeo"
+              "polity": "buyeo"
             },
             {
               "label": "Ilou",
               "note": "Tungusic hunter-gatherers",
-              "regime": "ilou"
+              "polity": "ilou"
             }
           ],
           "span": 1
@@ -220,17 +220,17 @@
             {
               "label": "Former Yan · Former Qin",
               "note": "337–395 CE",
-              "regime": "former_yan"
+              "polity": "former_yan"
             },
             {
               "label": "Later Yan · Northern Yan",
               "note": "384–436 CE",
-              "regime": "later_yan"
+              "polity": "later_yan"
             },
             {
               "label": "Northern Wei",
               "note": "436–534 CE",
-              "regime": "northern_wei"
+              "polity": "northern_wei"
             }
           ],
           "span": 1
@@ -240,7 +240,7 @@
             {
               "label": "Former/Later Yan — Liaodong",
               "note": "337–436 CE",
-              "regime": "formerlater_yan"
+              "polity": "formerlater_yan"
             },
             {
               "label": "N. Wei → Eastern Wei",
@@ -250,7 +250,7 @@
           "span": 1
         },
         {
-          "regime": "goguryeo",
+          "polity": "goguryeo",
           "label": "Goguryeo",
           "span": 1
         },
@@ -259,12 +259,12 @@
             {
               "label": "Dûmokrô",
               "note": "Buyeo successor state",
-              "regime": "dumokro"
+              "polity": "dumokro"
             },
             {
               "label": "Wuji",
               "note": "proto-Mohe Tungusic",
-              "regime": "wuji"
+              "polity": "wuji"
             }
           ],
           "span": 1
@@ -279,12 +279,12 @@
             {
               "label": "Khitan confederacy",
               "note": "forming c.400s CE",
-              "regime": "khitan_confederacy"
+              "polity": "khitan_confederacy"
             },
             {
               "label": "Shiwei",
               "note": "Mongolic/Tungusic tribes",
-              "regime": "shiwei"
+              "polity": "shiwei"
             }
           ],
           "span": 1
@@ -299,14 +299,14 @@
           "span": 1
         },
         {
-          "regime": "goguryeo",
+          "polity": "goguryeo",
           "label": "Goguryeo",
           "span": 1
         },
         {
           "label": "Mohe — Tungusic confederation",
           "span": 1,
-          "regime": "mohe"
+          "polity": "mohe"
         }
       ]
     },
@@ -325,18 +325,18 @@
             {
               "label": "Sui",
               "note": "581–618",
-              "regime": "sui_dynasty"
+              "polity": "sui_dynasty"
             },
             {
               "label": "Tang",
               "note": "618–907",
-              "regime": "tang_dynasty"
+              "polity": "tang_dynasty"
             }
           ],
           "span": 1
         },
         {
-          "regime": "balhae",
+          "polity": "balhae",
           "label": "Balhae",
           "note": "698–926",
           "span": 1
@@ -344,7 +344,7 @@
         {
           "label": "Mohe — tribal groups",
           "span": 1,
-          "regime": "mohe"
+          "polity": "mohe"
         }
       ]
     },
@@ -354,15 +354,15 @@
         {
           "label": "Tang — declining",
           "span": 1,
-          "regime": "tang_dynasty"
+          "polity": "tang_dynasty"
         },
         {
           "label": "Tang → regional Mohe chiefs",
           "span": 1,
-          "regime": "tang_dynasty"
+          "polity": "tang_dynasty"
         },
         {
-          "regime": "balhae",
+          "polity": "balhae",
           "label": "Balhae",
           "note": "698–926",
           "span": 1
@@ -370,7 +370,7 @@
         {
           "label": "Mohe — tribal groups",
           "span": 1,
-          "regime": "mohe"
+          "polity": "mohe"
         }
       ]
     },
@@ -385,12 +385,12 @@
             {
               "label": "Liao — Khitan Empire",
               "note": "907–1125",
-              "regime": "liao_dynasty"
+              "polity": "liao_dynasty"
             },
             {
               "label": "Dongdan Kingdom",
               "note": "926–983, Balhae successor",
-              "regime": "dongdan_kingdom"
+              "polity": "dongdan_kingdom"
             }
           ],
           "span": 2
@@ -399,11 +399,11 @@
           "stack": [
             {
               "label": "Balhae Restoration Movement",
-              "regime": "balhae"
+              "polity": "balhae"
             },
             {
               "label": "Jurchen tribes consolidating",
-              "regime": "jurchen_tribes"
+              "polity": "jurchen_tribes"
             }
           ],
           "span": 1
@@ -412,7 +412,7 @@
           "label": "Five Nations Dept (Wuguofu)",
           "note": "far-north Jurchen federation",
           "span": 1,
-          "regime": "five_nations_dept"
+          "polity": "five_nations_dept"
         }
       ]
     },
@@ -420,7 +420,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "jin_jurchen",
+          "polity": "jin_jurchen",
           "label": "Jin — Jurchen Empire",
           "note": "1115–1234",
           "span": 4
@@ -436,14 +436,14 @@
         {
           "label": "Mongol Empire — western invasion",
           "span": 1,
-          "regime": "mongol_empire"
+          "polity": "mongol_empire"
         },
         {
           "stack": [
             {
               "label": "Eastern Liao · Later Liao",
               "note": "Khitan remnant states",
-              "regime": "eastern_liao"
+              "polity": "eastern_liao"
             }
           ],
           "span": 1
@@ -451,12 +451,12 @@
         {
           "label": "Eastern Xia (Dongxia) — 1215–1233",
           "span": 1,
-          "regime": "eastern_xia"
+          "polity": "eastern_xia"
         },
         {
           "label": "Mongol Empire — northern front",
           "span": 1,
-          "regime": "mongol_empire"
+          "polity": "mongol_empire"
         }
       ]
     },
@@ -464,7 +464,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "yuan_dynasty",
+          "polity": "yuan_dynasty",
           "label": "Yuan",
           "span": 1
         },
@@ -472,21 +472,21 @@
           "stack": [
             {
               "label": "Yuan — Liaoyang Province",
-              "regime": "yuan_dynasty"
+              "polity": "yuan_dynasty"
             },
             {
               "label": "Eastern Three Kings",
-              "regime": "eastern_three_kings"
+              "polity": "eastern_three_kings"
             },
             {
               "label": "Border Goryeo · Sim Wang",
-              "regime": "goryeo"
+              "polity": "goryeo"
             }
           ],
           "span": 2
         },
         {
-          "regime": "yuan_dynasty",
+          "polity": "yuan_dynasty",
           "label": "Yuan — far north",
           "span": 1
         }
@@ -503,11 +503,11 @@
             {
               "label": "Northern Yuan",
               "note": "Mongol remnant",
-              "regime": "northern_yuan"
+              "polity": "northern_yuan"
             },
             {
               "label": "Uriyangkhai Three Guards",
-              "regime": "uriyangkhai_three_guards"
+              "polity": "uriyangkhai_three_guards"
             }
           ],
           "span": 1
@@ -516,7 +516,7 @@
           "stack": [
             {
               "label": "Ming Liaodong",
-              "regime": "ming_liaodong"
+              "polity": "ming_liaodong"
             },
             {
               "label": "Liaodong Warlord",
@@ -528,12 +528,12 @@
         {
           "label": "Jurchen tribes",
           "span": 1,
-          "regime": "jurchen_tribes"
+          "polity": "jurchen_tribes"
         },
         {
           "label": "Jurchen tribes (Wild Jurchen)",
           "span": 1,
-          "regime": "jurchen_tribes"
+          "polity": "jurchen_tribes"
         }
       ]
     },
@@ -543,22 +543,22 @@
         {
           "label": "Northern Yuan (declining) · Uriyangkhai Three Guards",
           "span": 1,
-          "regime": "northern_yuan"
+          "polity": "northern_yuan"
         },
         {
-          "regime": "ming_dynasty",
+          "polity": "ming_dynasty",
           "label": "Ming",
           "span": 1
         },
         {
           "label": "Jianzhou · Haixi · Wild Jurchen",
           "span": 1,
-          "regime": "jianzhou_haixi_wild_jurchen"
+          "polity": "jianzhou_haixi_wild_jurchen"
         },
         {
           "label": "Wild Jurchen",
           "span": 1,
-          "regime": "wild_jurchen"
+          "polity": "wild_jurchen"
         }
       ]
     },
@@ -573,12 +573,12 @@
             {
               "label": "Later Jin",
               "note": "1616–1636",
-              "regime": "later_jin"
+              "polity": "later_jin"
             },
             {
               "label": "Qing",
               "note": "from 1636 — all Manchuria",
-              "regime": "qing_dynasty"
+              "polity": "qing_dynasty"
             }
           ],
           "span": 4
@@ -589,7 +589,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "qing_dynasty",
+          "polity": "qing_dynasty",
           "label": "Qing",
           "span": 3
         },
@@ -598,7 +598,7 @@
             {
               "label": "Qing",
               "note": "Treaty of Nerchinsk (1689 — Qing–Russia border fixed)",
-              "regime": "qing_dynasty"
+              "polity": "qing_dynasty"
             }
           ],
           "span": 1
@@ -612,7 +612,7 @@
       },
       "cells": [
         {
-          "regime": "qing_dynasty",
+          "polity": "qing_dynasty",
           "label": "Qing",
           "span": 3
         },
@@ -621,7 +621,7 @@
             {
               "label": "Russian Empire — Amur",
               "note": "Aigun Treaty (1858 — Amur to Russia)",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 1
@@ -632,7 +632,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "qing_dynasty",
+          "polity": "qing_dynasty",
           "label": "Qing — declining",
           "span": 1
         },
@@ -640,12 +640,12 @@
           "stack": [
             {
               "label": "Qing",
-              "regime": "qing_dynasty"
+              "polity": "qing_dynasty"
             },
             {
               "label": "Dalian",
               "note": "Russian leasehold 1898 · Japanese 1905",
-              "regime": "dalian"
+              "polity": "dalian"
             }
           ],
           "span": 1
@@ -655,7 +655,7 @@
             {
               "label": "Qing",
               "note": "Korea–Qing border dispute (Gando/Jiandao, 1909)",
-              "regime": "qing_dynasty"
+              "polity": "qing_dynasty"
             }
           ],
           "span": 1
@@ -663,7 +663,7 @@
         {
           "label": "Russian Empire — CER · Trans-Siberian Rwy",
           "span": 1,
-          "regime": "russian_empire"
+          "polity": "russian_empire"
         }
       ]
     },
@@ -677,12 +677,12 @@
           "stack": [
             {
               "label": "Qing → ROC",
-              "regime": "qing_dynasty"
+              "polity": "qing_dynasty"
             },
             {
               "label": "Empire of China",
               "note": "Yuan Shikai, 1915–16",
-              "regime": "empire_of_china"
+              "polity": "empire_of_china"
             }
           ],
           "span": 1
@@ -692,15 +692,15 @@
             {
               "label": "Japanese Kwantung Leasehold",
               "note": "1905–1945",
-              "regime": "japanese_kwantung_leasehold"
+              "polity": "japanese_kwantung_leasehold"
             },
             {
               "label": "ROC Provisional Govt",
-              "regime": "roc_provisional_govt"
+              "polity": "roc_provisional_govt"
             },
             {
               "label": "Fengtian Clique",
-              "regime": "fengtian_clique"
+              "polity": "fengtian_clique"
             }
           ],
           "span": 1
@@ -708,12 +708,12 @@
         {
           "label": "ROC · Japanese Korea (from 1910)",
           "span": 1,
-          "regime": "japanese_korea"
+          "polity": "japanese_korea"
         },
         {
           "label": "Russian Empire",
           "span": 1,
-          "regime": "russian_empire"
+          "polity": "russian_empire"
         }
       ]
     },
@@ -723,39 +723,39 @@
         {
           "label": "ROC · Fengtian Clique",
           "span": 2,
-          "regime": "roc_fengtian_clique"
+          "polity": "roc_fengtian_clique"
         },
         {
           "label": "ROC · Japanese Korea",
           "span": 1,
-          "regime": "japanese_korea"
+          "polity": "japanese_korea"
         },
         {
           "stack": [
             {
               "label": "Russian Republic",
               "note": "1917",
-              "regime": "russian_republic"
+              "polity": "russian_republic"
             },
             {
               "label": "Amur Soviet · Zeleny (Greens)",
               "note": "1917–1920",
-              "regime": "amur_soviet"
+              "polity": "amur_soviet"
             },
             {
               "label": "Russian State (Kolchak)",
               "note": "1918–1920",
-              "regime": "russian_state"
+              "polity": "russian_state"
             },
             {
               "label": "Far Eastern Republic",
               "note": "1920–1922",
-              "regime": "far_eastern_republic"
+              "polity": "far_eastern_republic"
             },
             {
               "label": "Soviet Union",
               "note": "from 1922",
-              "regime": "soviet_union"
+              "polity": "soviet_union"
             }
           ],
           "span": 1
@@ -768,12 +768,12 @@
         {
           "label": "Manchukuo — Japanese puppet state, 1932–1945",
           "span": 3,
-          "regime": "manchukuo"
+          "polity": "manchukuo"
         },
         {
           "label": "Manchukuo · Soviet Union (border zone)",
           "span": 1,
-          "regime": "manchukuo"
+          "polity": "manchukuo"
         }
       ]
     },
@@ -785,7 +785,7 @@
             {
               "label": "Soviet-occupied Manchuria",
               "note": "1945–",
-              "regime": "soviet_occupied_manchuria"
+              "polity": "soviet_occupied_manchuria"
             },
             {
               "label": "ROC → PRC",
@@ -799,7 +799,7 @@
             {
               "label": "Soviet Dalian",
               "note": "1945–1955",
-              "regime": "soviet_dalian"
+              "polity": "soviet_dalian"
             },
             {
               "label": "ROC → PRC"
@@ -810,12 +810,12 @@
         {
           "label": "ROC → PRC · North Korea (from 1948)",
           "span": 1,
-          "regime": "north_korea"
+          "polity": "north_korea"
         },
         {
           "label": "Soviet Far East / PRC (Heilongjiang)",
           "span": 1,
-          "regime": "soviet_far_east"
+          "polity": "soviet_far_east"
         }
       ]
     },
@@ -828,17 +828,17 @@
         {
           "label": "PRC — Northeast Three Provinces",
           "span": 2,
-          "regime": "peoples_republic_of_china"
+          "polity": "peoples_republic_of_china"
         },
         {
           "split": [
             {
               "label": "PRC (Jilin)",
-              "regime": "peoples_republic_of_china"
+              "polity": "peoples_republic_of_china"
             },
             {
               "label": "N. Korea — Hwanggumpyong",
-              "regime": "n_korea"
+              "polity": "n_korea"
             }
           ],
           "span": 1
@@ -846,7 +846,7 @@
         {
           "label": "Russian Federation — Far Eastern Federal District",
           "span": 1,
-          "regime": "russian_federation"
+          "polity": "russian_federation"
         }
       ]
     }

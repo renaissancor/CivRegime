@@ -5,21 +5,21 @@ A structured database of historical political entities (polities), their success
 ## Core Model
 
 ```
-Regime = Ethnicity (who rules) × Territory (where) × Ideology (why) × Time (when)
+Polity = Ethnicity (who rules) × Territory (where) × Ideology (why) × Time (when)
 ```
 
 - **Civilization DNA (Software):** The linguistic, religious, and ethnic identity of the ruling people
 - **Territorial Locus (Hardware):** The physical geography — stays static but accumulates layers of rulers
 - **Polity (The Instance):** A concrete political entity at the intersection of Civilization × Territory × Time
-- **Regime (The Period):** A dynasty or ruling period within a polity
 
-### Three-Tier Political Hierarchy
+### Two-Tier Political Hierarchy
 
 ```
-State  → political continuity    (e.g., "Roman State", "French State")
-Polity → political entity        (e.g., Roman Republic, Kingdom of France)  [268 records]
-Regime → dynasty/ruling period   (e.g., Julio-Claudian, Bourbon dynasty)   [~2,500 from panels]
+Civilization → political continuity (e.g., "Roman Civilization", "French Civilization")
+Polity → political entity        (e.g., Roman Republic, Kingdom of France)  [428 records]
 ```
+
+Dynasty (192 records) is modelled as a cross-cutting tag via `polity_dynasty`, not as a tier.
 
 ---
 
@@ -27,7 +27,7 @@ Regime → dynasty/ruling period   (e.g., Julio-Claudian, Bourbon dynasty)   [~2
 
 | Entity | Count | Location |
 |--------|-------|----------|
-| Polities (political entities) | 268 | `data/regimes/*.json` |
+| Polities (political entities) | 428 | `data/polity/*.json` |
 | Polity successions | 1,243 | `data/successions/all.json` |
 | History panels | 61 | `data/history/*/*.json` |
 | Territories | 79 | `data/territories/` |
@@ -65,7 +65,7 @@ npm start        # Express server at http://localhost:3000
 
 ### Frontend Pages
 
-- `/` — Regime browser
+- `/` — Polity browser
 - `/history/` — History panel viewer (interactive timeline grids)
 - `/succession-graph.html` — D3.js force-directed succession graph
 - `/territory/` — Territory browser
@@ -79,7 +79,7 @@ npm start        # Express server at http://localhost:3000
 
 ```
 data/
-  regimes/*.json         ← 268 polity records (text IDs, one file each)
+  polity/*.json          ← 428 polity records (text IDs, one file each)
   successions/all.json   ← 1,243 succession edges
   history/*/*.json       ← 61 regional timeline panels
   territories/           ← 79 macro geographic zones
@@ -88,7 +88,7 @@ data/
   religions/             ← 255 nodes (directory tree)
   ethnicities/           ← 276 nodes (directory tree)
   ideologies.json        ← ~30 government forms
-  states.json            ← political continuity groupings
+  civilizations.json            ← political continuity groupings
 ```
 
 All cross-references use string IDs as foreign keys. The server loads JSON at startup via `data/index.js`.
@@ -97,10 +97,9 @@ All cross-references use string IDs as foreign keys. The server loads JSON at st
 
 The project is transitioning to a DuckDB relational database (`civregime.db`) with a normalized schema:
 
-- **24 tables** designed (see `docs/model/erd.sql`)
-- **Polity/Regime split**: current "regime" records become "polities"; dynasty-level data becomes "regimes"
-- **History panels** decompose into `history_cells` table with FK links
-- **Succession graph** at two levels: polity-to-polity (macro) and regime-to-regime (dynasty)
+- Schema designed (see `docs/model/erd.sql`)
+- **History panels** decompose into `history_cells` table with FK links to polities
+- **Succession graph** is polity-to-polity
 
 See `docs/model/erd.md` for the full ERD and `docs/TODO.md` for the migration roadmap.
 
@@ -113,10 +112,9 @@ See `docs/model/erd.md` for the full ERD and `docs/TODO.md` for the migration ro
 | `docs/README.md` | Documentation index |
 | `docs/TODO.md` | 9-phase RDBMS migration roadmap |
 | `docs/ARCHITECTURE.md` | System architecture and data flow |
-| `docs/model/erd.sql` | Full DDL schema (v2 — Polity/Regime split) |
+| `docs/model/erd.sql` | Full DDL schema |
 | `docs/model/erd.md` | Visual ERD diagram, table summary, example queries |
 | `docs/model/data-model.md` | Entity schema and edge type reference |
-| `docs/model/regime.md` | Polity fields, figures, polity vs regime distinction |
 | `docs/model/succession.md` | Succession type logic and edge cases |
 | `docs/model/ideology.md` | Ideology vs policy distinction |
 | `docs/model/ethnicity.md` | Ethnicity model and tree structure |
@@ -136,7 +134,7 @@ Transitions between polities are typed by what they share:
 | `same_ethnicity` | Ruling ethnicity matches |
 | `same_language` | Cultural language matches |
 | `same_religion` | State religion matches |
-| `same_state` | Both belong to same state grouping |
+| `same_civilization` | Both belong to same state grouping |
 | `territorial_direction` | expansion / contraction / stable |
 | `strength` | Computed continuity score (0–20) |
 | `temporal_gap_years` | Gap between end of predecessor and start of successor |
@@ -151,8 +149,8 @@ See `docs/TODO.md` for the full 9-phase plan. Summary:
 
 - **Phase 1** ✅ Schema & foundation (ERD, DuckDB schema, auto-linking)
 - **Phase 2** Migrate existing JSON → DuckDB tables
-- **Phase 3** Extract ~2,500 regimes from history panels
-- **Phase 4** Derive dynasty-level successions from panel stack order
+- **Phase 3** Extract polity entities from history panels
+- **Phase 4** Derive successions from panel stack order
 - **Phase 5** Populate history panel tables (cells, columns)
 - **Phase 6** Enrich polity data (fill stubs with ethnicity, language, religion)
 - **Phase 7** Frontend RDBMS integration (API endpoints, dynamic panels)

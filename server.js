@@ -11,8 +11,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/data', express.static(path.join(__dirname, 'data')));
 
 // ── Build indexes ────────────────────────────────────────────
-const regimeById = {};
-(db.regimes || []).forEach(r => { regimeById[r.id] = r; });
+const polityById = {};
+(db.polities || []).forEach(r => { polityById[r.id] = r; });
 
 const succByFrom = {};
 const succByTo = {};
@@ -27,7 +27,7 @@ const succByTo = {};
 
 // List all polities (lightweight)
 app.get('/api/polity', (req, res) => {
-  const list = (db.regimes || []).map(r => ({
+  const list = (db.polities || []).map(r => ({
     id: r.id,
     name: r.name,
     start: r.start,
@@ -37,7 +37,7 @@ app.get('/api/polity', (req, res) => {
     government: r.ideology?.government || null,
     ideology: r.ideology || null,
     territories: r.territories || [],
-    state_id: r.state_id || null,
+    civilization_id: r.civilization_id || null,
   }));
   res.json(list);
 });
@@ -45,7 +45,7 @@ app.get('/api/polity', (req, res) => {
 // Bulk color mapping: polity_id → ruling_ethnicity
 app.get('/api/polity/colors', (req, res) => {
   const colors = {};
-  (db.regimes || []).forEach(r => {
+  (db.polities || []).forEach(r => {
     colors[r.id] = r.ruling_ethnicity || null;
   });
   res.json(colors);
@@ -53,12 +53,12 @@ app.get('/api/polity/colors', (req, res) => {
 
 // Single polity with full detail
 app.get('/api/polity/:id', (req, res) => {
-  const r = regimeById[req.params.id];
+  const r = polityById[req.params.id];
   if (!r) return res.status(404).json({ error: 'Not found' });
 
   const successors = (succByFrom[r.id] || []).map(s => ({
     id: s.to,
-    name: regimeById[s.to]?.name || s.to,
+    name: polityById[s.to]?.name || s.to,
     territorial_direction: s.territorial_direction,
     strength: s.strength,
     shared_territories: s.shared_territories || [],
@@ -69,7 +69,7 @@ app.get('/api/polity/:id', (req, res) => {
 
   const predecessors = (succByTo[r.id] || []).map(s => ({
     id: s.from,
-    name: regimeById[s.from]?.name || s.from,
+    name: polityById[s.from]?.name || s.from,
     territorial_direction: s.territorial_direction,
     strength: s.strength,
     shared_territories: s.shared_territories || [],
@@ -126,7 +126,7 @@ app.get('/api/government/:id', (req, res) => {
   if (!g) return res.status(404).json({ error: 'Not found' });
 
   // Include polities with this government
-  const polities = (db.regimes || [])
+  const polities = (db.polities || [])
     .filter(r => r.ideology?.government === req.params.id)
     .map(r => ({ id: r.id, name: r.name, start: r.start, end: r.end }));
 
@@ -156,7 +156,7 @@ app.get('/api/dynasty/:id', (req, res) => {
   // Enrich polity links with names
   const polities = (d.polities || []).map(p => ({
     ...p,
-    name: regimeById[p.polity_id]?.name || p.polity_id,
+    name: polityById[p.polity_id]?.name || p.polity_id,
   }));
 
   res.json({ ...d, polities });
@@ -196,7 +196,7 @@ app.get('/api/panel/:region/:id', (req, res) => {
 
 app.get('/api/figure', (req, res) => {
   const figures = [];
-  (db.regimes || []).forEach(r => {
+  (db.polities || []).forEach(r => {
     if (r.figures) {
       r.figures.forEach(f => figures.push({ ...f, polity_id: r.id, polity_name: r.name }));
     }
@@ -212,7 +212,7 @@ app.get('/api/db', (req, res) => res.json(db));
 
 app.listen(PORT, () => {
   console.log(`CivRegime → http://localhost:${PORT}`);
-  console.log(`  Polities:    ${db.regimes?.length || 0}`);
+  console.log(`  Polities:    ${db.polities?.length || 0}`);
   console.log(`  Successions: ${db.successions?.length || 0}`);
   console.log(`  Territories: ${db.territories?.length || 0}`);
   console.log(`  Dynasties:   ${db.dynasties?.length || 0}`);

@@ -1,69 +1,69 @@
 {
   "id": "manchuria",
   "name": "manchuria",
-  "regime_count": 13,
-  "regimes": [
+  "polity_count": 13,
+  "polities": [
     {
-      "regime_id": "goguryeo",
+      "polity_id": "goguryeo",
       "start": -37,
       "end": 668
     },
     {
-      "regime_id": "liao_dynasty",
+      "polity_id": "liao_dynasty",
       "start": 907,
       "end": 1125
     },
     {
-      "regime_id": "jin_jurchen",
+      "polity_id": "jin_jurchen",
       "start": 1115,
       "end": 1234
     },
     {
-      "regime_id": "mongol_empire",
+      "polity_id": "mongol_empire",
       "start": 1206,
       "end": 1368
     },
     {
-      "regime_id": "yuan_dynasty",
+      "polity_id": "yuan_dynasty",
       "start": 1271,
       "end": 1368
     },
     {
-      "regime_id": "ming_dynasty",
+      "polity_id": "ming_dynasty",
       "start": 1368,
       "end": 1616
     },
     {
-      "regime_id": "qing_dynasty",
+      "polity_id": "qing_dynasty",
       "start": 1616,
       "end": 1912
     },
     {
-      "regime_id": "republic_of_china",
+      "polity_id": "republic_of_china",
       "start": 1912,
       "end": 1932
     },
     {
-      "regime_id": "empire_of_japan",
+      "polity_id": "empire_of_japan",
       "start": 1931,
       "end": 1945
     },
     {
-      "regime_id": "manchukuo",
+      "polity_id": "manchukuo",
       "start": 1932,
       "end": 1945
     },
     {
-      "regime_id": "peoples_republic_of_china",
+      "polity_id": "peoples_republic_of_china",
       "start": 1949
     },
     {
-      "regime_id": "balhae",
+      "polity_id": "balhae",
       "start": 698,
       "end": 926
     },
     {
-      "regime_id": "jin_jurchen",
+      "polity_id": "jin_jurchen",
       "start": 1115,
       "end": 1234
     }

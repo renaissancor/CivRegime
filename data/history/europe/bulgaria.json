@@ -36,7 +36,7 @@
             {
               "label": "Getae · Triballi",
               "note": "Thracian tribes, Danubian plain",
-              "regime": "getae_triballi"
+              "polity": "getae_triballi"
             }
           ],
           "span": 1
@@ -45,7 +45,7 @@
           "stack": [
             {
               "label": "Thracian tribes",
-              "regime": "thracian_tribes"
+              "polity": "thracian_tribes"
             }
           ],
           "span": 1
@@ -55,12 +55,12 @@
             {
               "label": "Odrysian Kingdom",
               "note": "c.480–170 BCE — Thrace core",
-              "regime": "odrysian_kingdom"
+              "polity": "odrysian_kingdom"
             },
             {
               "label": "Achaemenid Persian Empire",
               "note": "513–479 BCE",
-              "regime": "achaemenid_persian_empire"
+              "polity": "achaemenid_persian_empire"
             }
           ],
           "span": 1
@@ -74,17 +74,17 @@
           "stack": [
             {
               "label": "Macedonian Kingdom — Philip II (Triballi, 339 BCE)",
-              "regime": "macedonian_kingdom"
+              "polity": "macedonian_kingdom"
             },
             {
               "label": "Lysimachus — Kingdom of Thrace",
               "note": "305–281 BCE",
-              "regime": "lysimachus"
+              "polity": "lysimachus"
             },
             {
               "label": "Odrysian revival (Roman client)",
               "note": "3rd–1st c. BCE",
-              "regime": "odrysian_revival"
+              "polity": "odrysian_revival"
             }
           ],
           "span": 1
@@ -93,15 +93,15 @@
           "stack": [
             {
               "label": "Macedonian Kingdom",
-              "regime": "macedonian_kingdom"
+              "polity": "macedonian_kingdom"
             },
             {
               "label": "Lysimachus · Seleucid (brief)",
-              "regime": "lysimachus_seleucid"
+              "polity": "lysimachus_seleucid"
             },
             {
               "label": "Odrysian client",
-              "regime": "odrysian_client"
+              "polity": "odrysian_client"
             }
           ],
           "span": 1
@@ -110,15 +110,15 @@
           "stack": [
             {
               "label": "Macedonian Kingdom",
-              "regime": "macedonian_kingdom"
+              "polity": "macedonian_kingdom"
             },
             {
               "label": "Lysimachus · Seleucid",
-              "regime": "lysimachus_seleucid"
+              "polity": "lysimachus_seleucid"
             },
             {
               "label": "Odrysian revival — client of Rome",
-              "regime": "odrysian_revival"
+              "polity": "odrysian_revival"
             }
           ],
           "span": 1
@@ -133,17 +133,17 @@
             {
               "label": "Roman Moesia province",
               "note": "c.6 CE–",
-              "regime": "roman_moesia_province"
+              "polity": "roman_moesia_province"
             },
             {
               "label": "Gothic raids · settlement",
               "note": "3rd–4th c.",
-              "regime": "gothic_raids"
+              "polity": "gothic_raids"
             },
             {
               "label": "Hunnic raids",
               "note": "4th–5th c.",
-              "regime": "hunnic_raids"
+              "polity": "hunnic_raids"
             }
           ],
           "span": 1
@@ -152,11 +152,11 @@
           "stack": [
             {
               "label": "Roman",
-              "regime": "roman_empire"
+              "polity": "roman_empire"
             },
             {
               "label": "Gothic · Hunnic raids",
-              "regime": "gothic_hunnic_raids"
+              "polity": "gothic_hunnic_raids"
             }
           ],
           "span": 1
@@ -166,12 +166,12 @@
             {
               "label": "Roman Thrace province",
               "note": "46 CE–",
-              "regime": "roman_thrace_province"
+              "polity": "roman_thrace_province"
             },
             {
               "label": "Byzantine (Eastern Roman)",
               "note": "from 395 CE",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -189,11 +189,11 @@
             {
               "label": "Bulgar Khanate — Asparuh · Tervel",
               "note": "681–",
-              "regime": "bulgar_khanate"
+              "polity": "bulgar_khanate"
             },
             {
               "label": "Pliska (first capital)",
-              "regime": "pliska"
+              "polity": "pliska"
             }
           ],
           "span": 1
@@ -202,11 +202,11 @@
           "stack": [
             {
               "label": "Byzantine Empire",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             },
             {
               "label": "South Slavic migration settling",
-              "regime": "south_slavic_migration_settling"
+              "polity": "south_slavic_migration_settling"
             }
           ],
           "span": 1
@@ -215,7 +215,7 @@
           "stack": [
             {
               "label": "Byzantine Empire — Thrace (core territory)",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -230,7 +230,7 @@
             {
               "label": "First Bulgarian Empire — Krum · Boris I · Simeon I",
               "note": "803–1018",
-              "regime": "first_bulgarian_empire"
+              "polity": "first_bulgarian_empire"
             },
             {
               "label": "Pliska → Preslav (capitals)"
@@ -242,11 +242,11 @@
           "stack": [
             {
               "label": "Byzantine Empire — Thrace",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             },
             {
               "label": "Bulgarian border pressure",
-              "regime": "bulgarian_border_pressure"
+              "polity": "bulgarian_border_pressure"
             }
           ],
           "span": 1
@@ -261,12 +261,12 @@
             {
               "label": "Byzantine reconquest — Basil II",
               "note": "1018",
-              "regime": "byzantine_reconquest"
+              "polity": "byzantine_reconquest"
             },
             {
               "label": "Second Bulgarian Empire — Tărnovo",
               "note": "1185–1396",
-              "regime": "second_bulgarian_empire"
+              "polity": "second_bulgarian_empire"
             }
           ],
           "span": 2
@@ -275,11 +275,11 @@
           "stack": [
             {
               "label": "Byzantine Empire — Thrace",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             },
             {
               "label": "Bulgarian–Byzantine contested",
-              "regime": "bulgarian_byzantine_contested"
+              "polity": "bulgarian_byzantine_contested"
             }
           ],
           "span": 1
@@ -307,7 +307,7 @@
       },
       "cells": [
         {
-          "regime": "ottoman_empire",
+          "polity": "ottoman_empire",
           "label": "Ottoman Empire — Danube vilayet · Rumelia · Bulgarian national revival movement",
           "span": 3
         }
@@ -324,7 +324,7 @@
             {
               "label": "Principality of Bulgaria",
               "note": "1878–1908",
-              "regime": "principality_of_bulgaria"
+              "polity": "principality_of_bulgaria"
             },
             {
               "label": "Treaty of San Stefano · Congress of Berlin · Russian protectorate"
@@ -342,7 +342,7 @@
             {
               "label": "Kingdom of Bulgaria",
               "note": "1908–1946",
-              "regime": "kingdom_of_bulgaria"
+              "polity": "kingdom_of_bulgaria"
             },
             {
               "label": "Balkan Wars 1912–13 · WWI (Central Powers) · WWII (Axis-aligned)"
@@ -360,7 +360,7 @@
             {
               "label": "People's Republic of Bulgaria",
               "note": "1946–1990",
-              "regime": "peoples_republic_of_bulgaria"
+              "polity": "peoples_republic_of_bulgaria"
             },
             {
               "label": "Soviet-aligned · Warsaw Pact"

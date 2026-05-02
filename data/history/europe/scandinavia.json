@@ -41,17 +41,17 @@
             {
               "label": "Nordic Bronze Age",
               "note": "c.1700–500 BCE",
-              "regime": "nordic_bronze_age_culture"
+              "polity": "nordic_bronze_age_culture"
             },
             {
               "label": "Pre-Roman & Roman Iron Age",
               "note": "c.500 BCE–400 CE",
-              "regime": "pre_roman_roman_iron_age_culture"
+              "polity": "pre_roman_roman_iron_age_culture"
             },
             {
               "label": "Germanic Iron Age · Migration Period",
               "note": "c.400–793",
-              "regime": "germanic_iron_age_culture"
+              "polity": "germanic_iron_age_culture"
             }
           ],
           "span": 3
@@ -61,22 +61,22 @@
             {
               "label": "Finnic peoples (Suomalaiset) migration",
               "note": "c.3000–1000 BCE",
-              "regime": "finnic_peoples_migration"
+              "polity": "finnic_peoples_migration"
             },
             {
               "label": "Sámi peoples (Lapland — indigenous)",
               "note": "pre-Finnic",
-              "regime": "sami_peoples"
+              "polity": "sami_peoples"
             },
             {
               "label": "Comb Ceramic · Corded Ware cultures",
               "note": "",
-              "regime": "comb_ceramic_culture"
+              "polity": "comb_ceramic_culture"
             },
             {
               "label": "Finnish Iron Age",
               "note": "c.500 BCE–1150 CE",
-              "regime": "finnish_iron_age_culture"
+              "polity": "finnish_iron_age_culture"
             }
           ],
           "span": 1
@@ -94,10 +94,10 @@
             {
               "label": "Petty kingdoms (småriker)",
               "note": "pre-872",
-              "regime": "petty_kingdoms"
+              "polity": "petty_kingdoms"
             },
             {
-              "regime": "kingdom_of_norway",
+              "polity": "kingdom_of_norway",
               "label": "Kingdom of Norway — Fairhair dynasty",
               "note": "c.872–; unified by Harald Fairhair"
             }
@@ -109,10 +109,10 @@
             {
               "label": "Jutes · Danes (Jutland · Zealand)",
               "note": "",
-              "regime": "jutes_danes"
+              "polity": "jutes_danes"
             },
             {
-              "regime": "kingdom_of_denmark",
+              "polity": "kingdom_of_denmark",
               "label": "Kingdom of Denmark",
               "note": "c.936–; Christianized under Harald Bluetooth c.965"
             }
@@ -124,10 +124,10 @@
             {
               "label": "Svear (Uppland) · Götar (Götaland)",
               "note": "",
-              "regime": "svear_gotar"
+              "polity": "svear_gotar"
             },
             {
-              "regime": "kingdom_of_sweden",
+              "polity": "kingdom_of_sweden",
               "label": "Kingdom of Sweden (emerging)",
               "note": "c.970–"
             }
@@ -139,12 +139,12 @@
             {
               "label": "Finnish tribes (Suomalaiset · Häme · Karelians)",
               "note": "",
-              "regime": "finnish_tribes"
+              "polity": "finnish_tribes"
             },
             {
               "label": "No centralized state — tribal chieftains",
               "note": "",
-              "regime": "no_centralized_state"
+              "polity": "no_centralized_state"
             }
           ],
           "span": 1
@@ -157,14 +157,14 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_norway",
+              "polity": "kingdom_of_norway",
               "label": "Kingdom of Norway",
               "note": "Christianized under Olaf Tryggvason (995) and St. Olaf (1015–1028)"
             },
             {
               "label": "Iceland Free State (Althing — world's oldest parliament)",
               "note": "930–1262",
-              "regime": "iceland_free_state"
+              "polity": "iceland_free_state"
             }
           ],
           "span": 1
@@ -172,7 +172,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_denmark",
+              "polity": "kingdom_of_denmark",
               "label": "North Sea Empire (Cnut the Great — Denmark + England + Norway)",
               "note": "1016–1035"
             }
@@ -182,7 +182,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_sweden",
+              "polity": "kingdom_of_sweden",
               "label": "Kingdom of Sweden",
               "note": "Christianized under Olof Skötkonung c.1000"
             }
@@ -194,7 +194,7 @@
             {
               "label": "Finnish tribes (pagan — gradual contact with Christianity)",
               "note": "",
-              "regime": "finnish_tribes"
+              "polity": "finnish_tribes"
             }
           ],
           "span": 1
@@ -210,7 +210,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_norway",
+              "polity": "kingdom_of_norway",
               "label": "Kingdom of Norway — Hardrada dynasty",
               "note": "1046–1130"
             },
@@ -221,7 +221,7 @@
             {
               "label": "Sverre dynasty",
               "note": "1184–1319",
-              "regime": "sverre_dynasty"
+              "polity": "sverre_dynasty"
             }
           ],
           "span": 1
@@ -229,7 +229,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_denmark",
+              "polity": "kingdom_of_denmark",
               "label": "Kingdom of Denmark",
               "note": ""
             },
@@ -251,7 +251,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_sweden",
+              "polity": "kingdom_of_sweden",
               "label": "Kingdom of Sweden — medieval consolidation",
               "note": ""
             },
@@ -262,7 +262,7 @@
             {
               "label": "Folkung dynasty",
               "note": "1250–1364",
-              "regime": "folkung_dynasty"
+              "polity": "folkung_dynasty"
             }
           ],
           "span": 1
@@ -276,12 +276,12 @@
             {
               "label": "Finland becomes Swedish territory",
               "note": "by c.1300",
-              "regime": "finland_becomes_swedish_territory"
+              "polity": "finland_becomes_swedish_territory"
             },
             {
               "label": "Turku — administrative center · bishopric",
               "note": "",
-              "regime": "turku"
+              "polity": "turku"
             }
           ],
           "span": 1
@@ -294,14 +294,14 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_norway",
+              "polity": "kingdom_of_norway",
               "label": "Kingdom of Norway — peak (Håkon IV)",
               "note": "1217–1263; includes Iceland · Greenland · Faroe · Orkney · Shetland"
             },
             {
               "label": "Iceland under Norwegian Crown",
               "note": "1262",
-              "regime": "iceland_under_norwegian_crown"
+              "polity": "iceland_under_norwegian_crown"
             },
             {
               "label": "Black Death — population collapse",
@@ -317,14 +317,14 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_denmark",
+              "polity": "kingdom_of_denmark",
               "label": "Kingdom of Denmark — Valdemar IV restores realm",
               "note": "1340–1375"
             },
             {
               "label": "Margaret I — Union of the three crowns",
               "note": "1387–",
-              "regime": "margaret_i"
+              "polity": "margaret_i"
             }
           ],
           "span": 1
@@ -332,7 +332,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_sweden",
+              "polity": "kingdom_of_sweden",
               "label": "Kingdom of Sweden",
               "note": "Albert of Mecklenburg deposed by Margaret I (1389)"
             }
@@ -344,7 +344,7 @@
             {
               "label": "Finland as part of Sweden",
               "note": "",
-              "regime": "finland_as_part_of_sweden"
+              "polity": "finland_as_part_of_sweden"
             },
             {
               "label": "Swedish-Novgorodian border wars",
@@ -368,7 +368,7 @@
         {
           "stack": [
             {
-              "regime": "kalmar_union",
+              "polity": "kalmar_union",
               "label": "Kalmar Union (Denmark · Norway · Sweden · Iceland · Finland)",
               "note": "1397–1523; Denmark-dominated"
             },
@@ -396,10 +396,10 @@
             {
               "label": "Denmark-Norway (Norway as junior partner)",
               "note": "1536–1814",
-              "regime": "denmark_norway"
+              "polity": "denmark_norway"
             },
             {
-              "regime": "kingdom_of_denmark",
+              "polity": "kingdom_of_denmark",
               "label": "Oldenburg dynasty — Reformation (Lutheranism)",
               "note": "1536"
             }
@@ -409,14 +409,14 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_denmark",
+              "polity": "kingdom_of_denmark",
               "label": "Kingdom of Denmark-Norway",
               "note": "1536–1814"
             },
             {
               "label": "Danish colonial empire (Iceland · Greenland · West Indies · India)",
               "note": "",
-              "regime": "danish_colonial_empire"
+              "polity": "danish_colonial_empire"
             },
             {
               "label": "Thirty Years' War involvement",
@@ -428,7 +428,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_sweden",
+              "polity": "kingdom_of_sweden",
               "label": "Kingdom of Sweden — Vasa dynasty",
               "note": "1523–1654"
             },
@@ -448,12 +448,12 @@
             {
               "label": "Finland as Swedish territory",
               "note": "",
-              "regime": "finland_as_swedish_territory"
+              "polity": "finland_as_swedish_territory"
             },
             {
               "label": "Duchy of Finland (Vasa appanage)",
               "note": "1556–1563",
-              "regime": "duchy_of_finland"
+              "polity": "duchy_of_finland"
             },
             {
               "label": "Constant wars with Russia over Karelia",
@@ -471,19 +471,19 @@
           "label": "Denmark-Norway (Norwegian subordination continues)",
           "note": "",
           "span": 1,
-          "regime": "denmark_norway"
+          "polity": "denmark_norway"
         },
         {
           "stack": [
             {
-              "regime": "kingdom_of_denmark",
+              "polity": "kingdom_of_denmark",
               "label": "Denmark-Norway — absolute monarchy",
               "note": "1660–1849"
             },
             {
               "label": "Loss of Scania · Halland · Blekinge to Sweden",
               "note": "1658",
-              "regime": "loss_of_scania"
+              "polity": "loss_of_scania"
             },
             {
               "label": "Great Northern War — allied against Sweden",
@@ -495,14 +495,14 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_sweden",
+              "polity": "kingdom_of_sweden",
               "label": "Swedish Empire (Stormaktstiden)",
               "note": "1611–1721"
             },
             {
               "label": "Baltic dominance (Finland · Estonia · Livonia · Pomerania)",
               "note": "",
-              "regime": "baltic_dominance"
+              "polity": "baltic_dominance"
             },
             {
               "label": "Great Northern War",
@@ -524,7 +524,7 @@
             {
               "label": "Finland under Swedish Empire",
               "note": "",
-              "regime": "finland_under_swedish_empire"
+              "polity": "finland_under_swedish_empire"
             },
             {
               "label": "Great Northern War — Russian occupation (Great Wrath)",
@@ -554,12 +554,12 @@
             {
               "label": "Norwegian constitution (Eidsvoll)",
               "note": "17 May 1814",
-              "regime": "norwegian_constitution"
+              "polity": "norwegian_constitution"
             },
             {
               "label": "Sweden-Norway union",
               "note": "1814–1905",
-              "regime": "sweden_norway_union"
+              "polity": "sweden_norway_union"
             }
           ],
           "span": 1
@@ -567,7 +567,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_denmark",
+              "polity": "kingdom_of_denmark",
               "label": "Kingdom of Denmark (loses Norway 1814)",
               "note": ""
             },
@@ -578,12 +578,12 @@
             {
               "label": "Constitutional monarchy",
               "note": "1849",
-              "regime": "constitutional_monarchy"
+              "polity": "constitutional_monarchy"
             },
             {
               "label": "Iceland remains Danish",
               "note": "",
-              "regime": "iceland_remains_danish"
+              "polity": "iceland_remains_danish"
             }
           ],
           "span": 1
@@ -591,19 +591,19 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_sweden",
+              "polity": "kingdom_of_sweden",
               "label": "Kingdom of Sweden — Bernadotte dynasty",
               "note": "1818–"
             },
             {
               "label": "Loss of Finland to Russia",
               "note": "1809",
-              "regime": "loss_of_finland_to_russia"
+              "polity": "loss_of_finland_to_russia"
             },
             {
               "label": "Sweden-Norway union (Swedish-led)",
               "note": "1814–1905",
-              "regime": "sweden_norway_union"
+              "polity": "sweden_norway_union"
             }
           ],
           "span": 1
@@ -613,22 +613,22 @@
             {
               "label": "Grand Duchy of Finland (Russian Empire — autonomous)",
               "note": "1809–1917",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             },
             {
               "label": "Diet of Porvoo — Alexander I preserves Finnish laws",
               "note": "1809",
-              "regime": "diet_of_porvoo"
+              "polity": "diet_of_porvoo"
             },
             {
               "label": "Helsinki becomes capital",
               "note": "1812",
-              "regime": "helsinki_becomes_capital"
+              "polity": "helsinki_becomes_capital"
             },
             {
               "label": "Fennoman movement (Finnish language revival)",
               "note": "19th c.",
-              "regime": "fennoman_movement"
+              "polity": "fennoman_movement"
             },
             {
               "label": "Russification policies (Bobrikov era)",
@@ -650,10 +650,10 @@
             {
               "label": "Sweden-Norway union dissolved",
               "note": "1905",
-              "regime": "sweden_norway_union_dissolved"
+              "polity": "sweden_norway_union_dissolved"
             },
             {
-              "regime": "kingdom_of_norway",
+              "polity": "kingdom_of_norway",
               "label": "Kingdom of Norway (independent — Haakon VII)",
               "note": "1905–"
             },
@@ -667,7 +667,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_denmark",
+              "polity": "kingdom_of_denmark",
               "label": "Kingdom of Denmark",
               "note": ""
             },
@@ -685,7 +685,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_sweden",
+              "polity": "kingdom_of_sweden",
               "label": "Kingdom of Sweden",
               "note": ""
             },
@@ -717,12 +717,12 @@
             {
               "label": "Finnish Socialist Workers' Republic (Red — defeated)",
               "note": "1918",
-              "regime": "finnish_socialist_workers_republic"
+              "polity": "finnish_socialist_workers_republic"
             },
             {
               "label": "Republic of Finland",
               "note": "1919–",
-              "regime": "republic_of_finland"
+              "polity": "republic_of_finland"
             }
           ],
           "span": 1
@@ -758,7 +758,7 @@
             {
               "label": "Republic of Iceland",
               "note": "1944–",
-              "regime": "republic_of_iceland"
+              "polity": "republic_of_iceland"
             }
           ],
           "span": 1
@@ -766,7 +766,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_sweden",
+              "polity": "kingdom_of_sweden",
               "label": "Sweden — neutral in World War II",
               "note": "1939–1945"
             }
@@ -790,7 +790,7 @@
             {
               "label": "Cedes Karelia · Petsamo to Soviet Union",
               "note": "1944–1947",
-              "regime": "soviet_union"
+              "polity": "soviet_union"
             }
           ],
           "span": 1
@@ -806,7 +806,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_norway",
+              "polity": "kingdom_of_norway",
               "label": "Kingdom of Norway",
               "note": "1945–"
             },
@@ -817,7 +817,7 @@
             {
               "label": "North Sea oil — petroleum wealth",
               "note": "1969–",
-              "regime": "north_sea_oil"
+              "polity": "north_sea_oil"
             },
             {
               "label": "Rejected EU membership (1972 · 1994)",
@@ -829,7 +829,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_denmark",
+              "polity": "kingdom_of_denmark",
               "label": "Kingdom of Denmark",
               "note": "1945–"
             },
@@ -840,12 +840,12 @@
             {
               "label": "Greenland home rule (1979) · Faroe self-governance",
               "note": "",
-              "regime": "greenland_home_rule"
+              "polity": "greenland_home_rule"
             },
             {
               "label": "Iceland: NATO (1949) · EEA",
               "note": "",
-              "regime": "iceland_nato"
+              "polity": "iceland_nato"
             }
           ],
           "span": 1
@@ -853,7 +853,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_sweden",
+              "polity": "kingdom_of_sweden",
               "label": "Kingdom of Sweden — Bernadotte dynasty",
               "note": "1945–"
             },
@@ -873,7 +873,7 @@
             {
               "label": "Republic of Finland",
               "note": "1945–",
-              "regime": "republic_of_finland"
+              "polity": "republic_of_finland"
             },
             {
               "label": "Finlandization (Cold War neutrality — Soviet pressure)",
@@ -882,7 +882,7 @@
             {
               "label": "Nordic welfare state model",
               "note": "",
-              "regime": "nordic_welfare_state_model"
+              "polity": "nordic_welfare_state_model"
             },
             {
               "label": "EU member (1995) · NATO member (2023)",

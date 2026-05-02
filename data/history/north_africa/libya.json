@@ -36,12 +36,12 @@
             {
               "label": "Berber / Libu peoples",
               "note": "prehistoric",
-              "regime": "berber"
+              "polity": "berber"
             },
             {
               "label": "Phoenician colonies (Oea · Sabratha · Leptis Magna)",
               "note": "c.600 BCE",
-              "regime": "phoenician_colonies"
+              "polity": "phoenician_colonies"
             },
             {
               "label": "Carthaginian suzerainty",
@@ -53,12 +53,12 @@
         {
           "label": "Pentapolis — Greek city-states (Cyrene · Apollonia · Barca · Berenice · Euhesperides)",
           "span": 1,
-          "regime": "pentapolis"
+          "polity": "pentapolis"
         },
         {
           "label": "Garamantian Kingdom",
           "span": 1,
-          "regime": "garamantian_kingdom"
+          "polity": "garamantian_kingdom"
         }
       ]
     },
@@ -70,20 +70,20 @@
             {
               "label": "Numidia (partial)",
               "note": "c.200–46 BCE",
-              "regime": "numidia"
+              "polity": "numidia"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire",
               "note": "46 BCE–429 CE"
             },
             {
               "label": "Vandal Kingdom",
               "note": "429–534",
-              "regime": "vandal_kingdom"
+              "polity": "vandal_kingdom"
             },
             {
-              "regime": "byzantine_empire",
+              "polity": "byzantine_empire",
               "label": "Byzantine Empire",
               "note": "534–642"
             }
@@ -95,15 +95,15 @@
             {
               "label": "Ptolemaic Egypt",
               "note": "331–96 BCE",
-              "regime": "ptolemaic_egypt"
+              "polity": "ptolemaic_egypt"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire",
               "note": "96 BCE–395 CE"
             },
             {
-              "regime": "byzantine_empire",
+              "polity": "byzantine_empire",
               "label": "Byzantine Empire",
               "note": "395–642"
             }
@@ -115,12 +115,12 @@
             {
               "label": "Roman (fringe)",
               "note": "1st–4th c. CE",
-              "regime": "roman_empire"
+              "polity": "roman_empire"
             },
             {
               "label": "Berber / Tuareg tribes",
               "note": "",
-              "regime": "berber"
+              "polity": "berber"
             }
           ],
           "span": 1
@@ -136,12 +136,12 @@
         {
           "stack": [
             {
-              "regime": "rashidun_caliphate",
+              "polity": "rashidun_caliphate",
               "label": "Rashidun Caliphate",
               "note": "642–661"
             },
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate",
               "note": "661–750"
             }
@@ -156,39 +156,39 @@
         {
           "stack": [
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid Caliphate",
               "note": "750–800"
             },
             {
               "label": "Muhallabid governors",
               "note": "771–793",
-              "regime": "muhallabid_governors"
+              "polity": "muhallabid_governors"
             },
             {
               "label": "Aghlabid dynasty",
               "note": "800–909",
-              "regime": "aghlabid_dynasty"
+              "polity": "aghlabid_dynasty"
             },
             {
-              "regime": "fatimid_caliphate",
+              "polity": "fatimid_caliphate",
               "label": "Fatimid Caliphate",
               "note": "909–972"
             },
             {
               "label": "Zirid dynasty",
               "note": "972–1148",
-              "regime": "zirid_dynasty"
+              "polity": "zirid_dynasty"
             },
             {
               "label": "Norman Sicily (tribute)",
               "note": "1146–1158",
-              "regime": "norman_sicily"
+              "polity": "norman_sicily"
             },
             {
               "label": "Almohad Caliphate",
               "note": "1158–1229",
-              "regime": "almohad_caliphate"
+              "polity": "almohad_caliphate"
             }
           ],
           "span": 1
@@ -196,34 +196,34 @@
         {
           "stack": [
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid Caliphate",
               "note": "750–868"
             },
             {
               "label": "Tulunid dynasty",
               "note": "868–905",
-              "regime": "tulunid_dynasty"
+              "polity": "tulunid_dynasty"
             },
             {
               "label": "Ikhshidid dynasty",
               "note": "935–969",
-              "regime": "ikhshidid_dynasty"
+              "polity": "ikhshidid_dynasty"
             },
             {
-              "regime": "fatimid_caliphate",
+              "polity": "fatimid_caliphate",
               "label": "Fatimid Caliphate",
               "note": "969–1048"
             },
             {
               "label": "Banu Hilal / Banu Sulaym",
               "note": "1048 onward",
-              "regime": "banu_hilal"
+              "polity": "banu_hilal"
             },
             {
               "label": "Banu Ghaniya",
               "note": "c.1160–1228",
-              "regime": "banu_ghaniya"
+              "polity": "banu_ghaniya"
             }
           ],
           "span": 1
@@ -231,7 +231,7 @@
         {
           "label": "Berber / Tuareg (Ibadi independent)",
           "span": 1,
-          "regime": "berber"
+          "polity": "berber"
         }
       ]
     },
@@ -243,20 +243,20 @@
             {
               "label": "Hafsid dynasty",
               "note": "1229–1574",
-              "regime": "hafsid_dynasty"
+              "polity": "hafsid_dynasty"
             },
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Tripolitania",
               "note": "1551–1711"
             },
             {
               "label": "Karamanli dynasty",
               "note": "1711–1835",
-              "regime": "karamanli_dynasty"
+              "polity": "karamanli_dynasty"
             },
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman direct rule",
               "note": "1835–1911"
             }
@@ -266,17 +266,17 @@
         {
           "stack": [
             {
-              "regime": "ayyubid_sultanate",
+              "polity": "ayyubid_sultanate",
               "label": "Ayyubid (partial)",
               "note": "1171–1250"
             },
             {
               "label": "Hafsid dynasty",
               "note": "1250–1574",
-              "regime": "hafsid_dynasty"
+              "polity": "hafsid_dynasty"
             },
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Cyrenaica",
               "note": "1574–1911"
             }
@@ -288,15 +288,15 @@
             {
               "label": "Berber / Tuareg",
               "note": "",
-              "regime": "berber"
+              "polity": "berber"
             },
             {
               "label": "Awlad Muhammad dynasty",
               "note": "1577–1842",
-              "regime": "awlad_muhammad_dynasty"
+              "polity": "awlad_muhammad_dynasty"
             },
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman (nominal)",
               "note": "16th–19th c."
             }
@@ -316,12 +316,12 @@
             {
               "label": "Italian Libya — Tripolitania",
               "note": "1911–1943",
-              "regime": "italian_libya"
+              "polity": "italian_libya"
             },
             {
               "label": "British Military Administration",
               "note": "1943–1951",
-              "regime": "british_military_administration"
+              "polity": "british_military_administration"
             }
           ],
           "span": 1
@@ -331,12 +331,12 @@
             {
               "label": "Italian Libya — Cyrenaica",
               "note": "1911–1943",
-              "regime": "italian_libya"
+              "polity": "italian_libya"
             },
             {
               "label": "British Military Administration",
               "note": "1943–1951",
-              "regime": "british_military_administration"
+              "polity": "british_military_administration"
             }
           ],
           "span": 1
@@ -346,12 +346,12 @@
             {
               "label": "Italian Libya — Fezzan",
               "note": "1911–1943",
-              "regime": "italian_libya"
+              "polity": "italian_libya"
             },
             {
               "label": "French Military Administration",
               "note": "1943–1951",
-              "regime": "french_military_administration"
+              "polity": "french_military_administration"
             }
           ],
           "span": 1
@@ -369,17 +369,17 @@
             {
               "label": "Kingdom of Libya",
               "note": "1951–1969",
-              "regime": "kingdom_of_libya"
+              "polity": "kingdom_of_libya"
             },
             {
               "label": "Libyan Arab Republic (Gaddafi)",
               "note": "1969–1977",
-              "regime": "libyan_arab_republic"
+              "polity": "libyan_arab_republic"
             },
             {
               "label": "Great Socialist People's Libyan Arab Jamahiriya",
               "note": "1977–2011",
-              "regime": "great_socialist_peoples_libyan_arab_jamahiriya"
+              "polity": "great_socialist_peoples_libyan_arab_jamahiriya"
             }
           ],
           "span": 3
@@ -398,7 +398,7 @@
             {
               "label": "GNU / Government of National Unity (Tripoli)",
               "note": "2015–",
-              "regime": "gnu"
+              "polity": "gnu"
             }
           ],
           "span": 1
@@ -412,7 +412,7 @@
             {
               "label": "HoR / LNA — Benghazi–Tobruk",
               "note": "2014–",
-              "regime": "hor"
+              "polity": "hor"
             }
           ],
           "span": 1

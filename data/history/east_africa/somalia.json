@@ -36,7 +36,7 @@
             {
               "label": "Punt (Egyptian trading land — incense coast)",
               "note": "known since c.2500 BCE",
-              "regime": "punt"
+              "polity": "punt"
             }
           ],
           "span": 2
@@ -46,11 +46,11 @@
             {
               "label": "Macrobians",
               "note": "Persia–Ethiopia border peoples (Herodotus)",
-              "regime": "macrobians"
+              "polity": "macrobians"
             },
             {
               "label": "Azanian coast (Greek/Arab trade)",
-              "regime": "azanian_coast"
+              "polity": "azanian_coast"
             }
           ],
           "span": 1
@@ -68,11 +68,11 @@
             {
               "label": "Zeila (port) — early Arab settlements",
               "note": "7th–9th c.",
-              "regime": "zeila"
+              "polity": "zeila"
             },
             {
               "label": "City-state confederation (Berbera coast)",
-              "regime": "city_state_confederation"
+              "polity": "city_state_confederation"
             }
           ],
           "span": 1
@@ -82,7 +82,7 @@
             {
               "label": "Ifat Sultanate",
               "note": "c.1285–1415",
-              "regime": "ifat_sultanate"
+              "polity": "ifat_sultanate"
             }
           ],
           "span": 1
@@ -92,7 +92,7 @@
             {
               "label": "Mogadishu Sultanate (Arab-Somali)",
               "note": "founded c.900 CE",
-              "regime": "mogadishu_sultanate"
+              "polity": "mogadishu_sultanate"
             }
           ],
           "span": 1
@@ -107,12 +107,12 @@
             {
               "label": "Adal Sultanate (capital: Zeila then Harar)",
               "note": "1415–1577",
-              "regime": "adal_sultanate"
+              "polity": "adal_sultanate"
             },
             {
               "label": "Afar Sultanate (Awsa)",
               "note": "from 1577",
-              "regime": "afar_sultanate"
+              "polity": "afar_sultanate"
             }
           ],
           "span": 1
@@ -121,12 +121,12 @@
           "stack": [
             {
               "label": "Adal Sultanate",
-              "regime": "adal_sultanate"
+              "polity": "adal_sultanate"
             },
             {
               "label": "Harrar Sultanate",
               "note": "from 1647",
-              "regime": "harrar_sultanate"
+              "polity": "harrar_sultanate"
             }
           ],
           "span": 1
@@ -136,7 +136,7 @@
             {
               "label": "Ajuran Sultanate (Somali)",
               "note": "c.13th–17th c.",
-              "regime": "ajuran_sultanate"
+              "polity": "ajuran_sultanate"
             }
           ],
           "span": 1
@@ -156,7 +156,7 @@
             },
             {
               "label": "Afar Sultanate",
-              "regime": "afar_sultanate"
+              "polity": "afar_sultanate"
             }
           ],
           "span": 1
@@ -174,7 +174,7 @@
           "stack": [
             {
               "label": "Ajuran Sultanate declining",
-              "regime": "ajuran_sultanate"
+              "polity": "ajuran_sultanate"
             },
             {
               "label": "Omani Sultanate (Zanzibar) coastal influence"
@@ -195,7 +195,7 @@
             {
               "label": "French Somaliland (Djibouti)",
               "note": "1883",
-              "regime": "french_somaliland"
+              "polity": "french_somaliland"
             }
           ],
           "span": 1
@@ -205,12 +205,12 @@
             {
               "label": "British Somaliland",
               "note": "1884",
-              "regime": "british_somaliland"
+              "polity": "british_somaliland"
             },
             {
               "label": "Dervish State (Mohammed Abdullah Hassan)",
               "note": "1895–1920",
-              "regime": "dervish_state"
+              "polity": "dervish_state"
             }
           ],
           "span": 1
@@ -220,12 +220,12 @@
             {
               "label": "Italian Somaliland",
               "note": "1889",
-              "regime": "italian_somaliland"
+              "polity": "italian_somaliland"
             },
             {
               "label": "Italian East Africa",
               "note": "1936–1941",
-              "regime": "italian_east_africa"
+              "polity": "italian_east_africa"
             }
           ],
           "span": 1
@@ -239,7 +239,7 @@
           "stack": [
             {
               "label": "French Somaliland (continuing)",
-              "regime": "french_somaliland"
+              "polity": "french_somaliland"
             }
           ],
           "span": 1
@@ -257,7 +257,7 @@
             {
               "label": "UN Trust Territory of Somalia",
               "note": "1950–1960 (Italian admin)",
-              "regime": "un_trust_territory_of_somalia"
+              "polity": "un_trust_territory_of_somalia"
             }
           ],
           "span": 1
@@ -284,17 +284,17 @@
             {
               "label": "Somali Republic (union with south)",
               "note": "1960",
-              "regime": "somali_republic"
+              "polity": "somali_republic"
             },
             {
               "label": "Somali Democratic Republic (Barre)",
               "note": "1969–1991",
-              "regime": "somali_democratic_republic"
+              "polity": "somali_democratic_republic"
             },
             {
               "label": "Republic of Somaliland (unrecognised)",
               "note": "1991–",
-              "regime": "republic_of_somaliland"
+              "polity": "republic_of_somaliland"
             }
           ],
           "span": 1
@@ -303,12 +303,12 @@
           "stack": [
             {
               "label": "Somali Republic (1960)",
-              "regime": "somali_republic"
+              "polity": "somali_republic"
             },
             {
               "label": "Somali Democratic Republic",
               "note": "1969–1991",
-              "regime": "somali_democratic_republic"
+              "polity": "somali_democratic_republic"
             },
             {
               "label": "Somali civil war",
@@ -326,7 +326,7 @@
           "stack": [
             {
               "label": "Republic of Djibouti — French military base · strategic port",
-              "regime": "republic_of_djibouti"
+              "polity": "republic_of_djibouti"
             }
           ],
           "span": 1
@@ -335,7 +335,7 @@
           "stack": [
             {
               "label": "Republic of Somaliland (de facto independent, unrecognised)",
-              "regime": "republic_of_somaliland"
+              "polity": "republic_of_somaliland"
             }
           ],
           "span": 1
@@ -345,7 +345,7 @@
             {
               "label": "Federal Republic of Somalia",
               "note": "2012–",
-              "regime": "federal_republic_of_somalia"
+              "polity": "federal_republic_of_somalia"
             },
             {
               "label": "Al-Shabaab insurgency (Al-Qaeda affiliate)"

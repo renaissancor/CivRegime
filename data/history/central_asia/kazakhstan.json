@@ -46,17 +46,17 @@
             {
               "label": "Yamna culture (Pontic–Caspian steppe)",
               "note": "c.3500–2200 BCE",
-              "regime": "yamna_culture"
+              "polity": "yamna_culture"
             },
             {
               "label": "Abashevo culture",
               "note": "c.2500–1900 BCE",
-              "regime": "abashevo_culture"
+              "polity": "abashevo_culture"
             },
             {
               "label": "Sintashta (earliest chariots)",
               "note": "c.2100–1800 BCE",
-              "regime": "sintashta"
+              "polity": "sintashta"
             }
           ],
           "span": 1
@@ -66,12 +66,12 @@
             {
               "label": "Kelteminar culture",
               "note": "c.5000–3000 BCE",
-              "regime": "kelteminar_culture"
+              "polity": "kelteminar_culture"
             },
             {
               "label": "Yamna / early pastoral cultures",
               "note": "c.3500–2000 BCE",
-              "regime": "yamna_culture"
+              "polity": "yamna_culture"
             }
           ],
           "span": 1
@@ -81,12 +81,12 @@
             {
               "label": "Kelteminar culture",
               "note": "c.5000–3000 BCE",
-              "regime": "kelteminar_culture"
+              "polity": "kelteminar_culture"
             },
             {
               "label": "Andronovo culture",
               "note": "c.2000–900 BCE",
-              "regime": "andronovo_culture"
+              "polity": "andronovo_culture"
             }
           ],
           "span": 1
@@ -96,12 +96,12 @@
             {
               "label": "Botai culture (horse domestication)",
               "note": "c.3500–3000 BCE",
-              "regime": "botai_culture"
+              "polity": "botai_culture"
             },
             {
               "label": "Andronovo culture",
               "note": "c.2000–900 BCE",
-              "regime": "andronovo_culture"
+              "polity": "andronovo_culture"
             }
           ],
           "span": 1
@@ -111,12 +111,12 @@
             {
               "label": "Afanasievo culture",
               "note": "c.3300–2500 BCE",
-              "regime": "afanasievo_culture"
+              "polity": "afanasievo_culture"
             },
             {
               "label": "Andronovo culture",
               "note": "c.2000–900 BCE",
-              "regime": "andronovo_culture"
+              "polity": "andronovo_culture"
             }
           ],
           "span": 1
@@ -134,12 +134,12 @@
             {
               "label": "Srubnaya (Timber Grave) culture",
               "note": "c.1800–1200 BCE",
-              "regime": "srubnaya_culture"
+              "polity": "srubnaya_culture"
             },
             {
               "label": "Proto-Scythian cultures",
               "note": "c.1000–700 BCE",
-              "regime": "proto_scythian_cultures_culture"
+              "polity": "proto_scythian_cultures_culture"
             }
           ],
           "span": 1
@@ -149,12 +149,12 @@
             {
               "label": "Srubnaya culture",
               "note": "c.1800–1200 BCE",
-              "regime": "srubnaya_culture"
+              "polity": "srubnaya_culture"
             },
             {
               "label": "Cimmerian / early Saka",
               "note": "c.1000–700 BCE",
-              "regime": "cimmerian"
+              "polity": "cimmerian"
             }
           ],
           "span": 1
@@ -168,7 +168,7 @@
             {
               "label": "Saka nomads (early)",
               "note": "c.1000–700 BCE",
-              "regime": "saka_nomads"
+              "polity": "saka_nomads"
             }
           ],
           "span": 1
@@ -178,12 +178,12 @@
             {
               "label": "Begazy–Dandybai culture",
               "note": "c.1400–900 BCE",
-              "regime": "begazy_dandybai_culture"
+              "polity": "begazy_dandybai_culture"
             },
             {
               "label": "Tasmola culture",
               "note": "c.700–300 BCE",
-              "regime": "tasmola_culture"
+              "polity": "tasmola_culture"
             }
           ],
           "span": 1
@@ -193,12 +193,12 @@
             {
               "label": "Karasuk culture",
               "note": "c.1500–800 BCE",
-              "regime": "karasuk_culture"
+              "polity": "karasuk_culture"
             },
             {
               "label": "Pazyryk culture (Altai)",
               "note": "c.600–200 BCE",
-              "regime": "pazyryk_culture"
+              "polity": "pazyryk_culture"
             }
           ],
           "span": 1
@@ -216,12 +216,12 @@
             {
               "label": "Royal Scythians (Pontic)",
               "note": "c.700–200 BCE",
-              "regime": "royal_scythians"
+              "polity": "royal_scythians"
             },
             {
               "label": "Early Sarmatians",
               "note": "c.500 BCE–",
-              "regime": "early_sarmatians"
+              "polity": "early_sarmatians"
             }
           ],
           "span": 1
@@ -231,7 +231,7 @@
             {
               "label": "Saka · Massagetae (Caspian steppe)",
               "note": "c.700–200 BCE",
-              "regime": "saka_massagetae"
+              "polity": "saka_massagetae"
             }
           ],
           "span": 1
@@ -241,12 +241,12 @@
             {
               "label": "Massagetae (near Aral Sea)",
               "note": "c.700–200 BCE",
-              "regime": "massagetae"
+              "polity": "massagetae"
             },
             {
               "label": "Dahae",
               "note": "c.500–200 BCE",
-              "regime": "dahae"
+              "polity": "dahae"
             }
           ],
           "span": 1
@@ -256,7 +256,7 @@
             {
               "label": "Saka of the central steppe",
               "note": "c.700–200 BCE",
-              "regime": "saka_of_the_central_steppe"
+              "polity": "saka_of_the_central_steppe"
             }
           ],
           "span": 1
@@ -266,12 +266,12 @@
             {
               "label": "Saka Tigrakhauda (Pointed-hat Saka)",
               "note": "c.700–200 BCE",
-              "regime": "saka_tigrakhauda"
+              "polity": "saka_tigrakhauda"
             },
             {
               "label": "Pazyryk / Wusun (Zhetysu)",
               "note": "c.500–100 BCE",
-              "regime": "pazyryk"
+              "polity": "pazyryk"
             }
           ],
           "span": 1
@@ -289,7 +289,7 @@
             {
               "label": "Sarmatians (Roxolani · Alans)",
               "note": "c.300 BCE–350 CE",
-              "regime": "sarmatians"
+              "polity": "sarmatians"
             }
           ],
           "span": 1
@@ -299,7 +299,7 @@
             {
               "label": "Alans (Caspian Sarmatians)",
               "note": "c.100–370 CE",
-              "regime": "alans"
+              "polity": "alans"
             }
           ],
           "span": 1
@@ -309,12 +309,12 @@
             {
               "label": "Kangju Kingdom",
               "note": "c.250 BCE–350 CE",
-              "regime": "kangju_kingdom"
+              "polity": "kangju_kingdom"
             },
             {
               "label": "Yuezhi (before westward migration)",
               "note": "c.300–170 BCE",
-              "regime": "yuezhi"
+              "polity": "yuezhi"
             }
           ],
           "span": 1
@@ -322,7 +322,7 @@
         {
           "stack": [
             {
-              "regime": "xiongnu",
+              "polity": "xiongnu",
               "label": "Xiongnu Confederation (western fringe)",
               "note": "209 BCE–93 CE"
             }
@@ -332,14 +332,14 @@
         {
           "stack": [
             {
-              "regime": "xiongnu",
+              "polity": "xiongnu",
               "label": "Xiongnu Confederation",
               "note": "209 BCE–93 CE"
             },
             {
               "label": "Wusun confederation (Zhetysu)",
               "note": "c.160 BCE–5th c.",
-              "regime": "wusun_confederation"
+              "polity": "wusun_confederation"
             }
           ],
           "span": 1
@@ -352,14 +352,14 @@
         {
           "stack": [
             {
-              "regime": "hunnic_empire",
+              "polity": "hunnic_empire",
               "label": "Hunnic Empire",
               "note": "350–453"
             },
             {
               "label": "Onogur nomads (proto-Bulgar groups)",
               "note": "c.400–650",
-              "regime": "onogur_nomads"
+              "polity": "onogur_nomads"
             }
           ],
           "span": 1
@@ -367,14 +367,14 @@
         {
           "stack": [
             {
-              "regime": "hunnic_empire",
+              "polity": "hunnic_empire",
               "label": "Hunnic Empire",
               "note": "350–453"
             },
             {
               "label": "Alans (remnants)",
               "note": "400s–",
-              "regime": "alans"
+              "polity": "alans"
             }
           ],
           "span": 1
@@ -384,12 +384,12 @@
             {
               "label": "Yueban Kingdom (remnant Xiongnu)",
               "note": "c.350–490",
-              "regime": "xiongnu"
+              "polity": "xiongnu"
             },
             {
               "label": "Hephthalites (eastern branch)",
               "note": "c.450–560",
-              "regime": "hephthalites"
+              "polity": "hephthalites"
             }
           ],
           "span": 1
@@ -399,7 +399,7 @@
             {
               "label": "Rouran Khaganate (suzerainty)",
               "note": "330–555",
-              "regime": "rouran_khaganate"
+              "polity": "rouran_khaganate"
             }
           ],
           "span": 1
@@ -409,12 +409,12 @@
             {
               "label": "Rouran Khaganate",
               "note": "330–555",
-              "regime": "rouran_khaganate"
+              "polity": "rouran_khaganate"
             },
             {
               "label": "Hephthalites (eastern wing)",
               "note": "c.450–560",
-              "regime": "hephthalites"
+              "polity": "hephthalites"
             }
           ],
           "span": 1
@@ -430,7 +430,7 @@
         {
           "stack": [
             {
-              "regime": "goktürk_khaganate",
+              "polity": "goktürk_khaganate",
               "label": "Göktürk Khaganate (Western wing)",
               "note": "552–659"
             }
@@ -440,14 +440,14 @@
         {
           "stack": [
             {
-              "regime": "goktürk_khaganate",
+              "polity": "goktürk_khaganate",
               "label": "Göktürk Khaganate (Western wing)",
               "note": "552–659"
             },
             {
               "label": "Turgesh Khaganate",
               "note": "699–766",
-              "regime": "turgesh_khaganate"
+              "polity": "turgesh_khaganate"
             }
           ],
           "span": 1
@@ -455,7 +455,7 @@
         {
           "stack": [
             {
-              "regime": "goktürk_khaganate",
+              "polity": "goktürk_khaganate",
               "label": "Göktürk Khaganate",
               "note": "552–744"
             }
@@ -465,14 +465,14 @@
         {
           "stack": [
             {
-              "regime": "goktürk_khaganate",
+              "polity": "goktürk_khaganate",
               "label": "Göktürk Khaganate",
               "note": "552–744"
             },
             {
               "label": "Western Turkic (Nushibi wing)",
               "note": "603–659",
-              "regime": "western_turkic"
+              "polity": "western_turkic"
             }
           ],
           "span": 1
@@ -485,7 +485,7 @@
         {
           "stack": [
             {
-              "regime": "khazar_khaganate",
+              "polity": "khazar_khaganate",
               "label": "Khazar Khaganate",
               "note": "650–969"
             }
@@ -497,12 +497,12 @@
             {
               "label": "Oghuz Yabgu State (Syr Darya)",
               "note": "c.750–1055",
-              "regime": "oghuz_yabgu_state"
+              "polity": "oghuz_yabgu_state"
             },
             {
               "label": "Kangars / Pecheneg confederation",
               "note": "c.750–900",
-              "regime": "kangars"
+              "polity": "kangars"
             }
           ],
           "span": 1
@@ -512,7 +512,7 @@
             {
               "label": "Kimek–Kipchak confederation",
               "note": "c.750–1220",
-              "regime": "kimek_kipchak_confederation"
+              "polity": "kimek_kipchak_confederation"
             }
           ],
           "span": 1
@@ -520,14 +520,14 @@
         {
           "stack": [
             {
-              "regime": "uyghur_khaganate",
+              "polity": "uyghur_khaganate",
               "label": "Uyghur Khaganate (suzerainty)",
               "note": "744–840"
             },
             {
               "label": "Karluk Khaganate (Zhetysu)",
               "note": "766–940",
-              "regime": "karluk_khaganate"
+              "polity": "karluk_khaganate"
             }
           ],
           "span": 1
@@ -542,12 +542,12 @@
             {
               "label": "Pechenegs (origin here → move west)",
               "note": "c.860–900",
-              "regime": "pechenegs"
+              "polity": "pechenegs"
             },
             {
               "label": "Cuman–Kipchak (Desht-i-Kipchak)",
               "note": "c.1050–1220",
-              "regime": "cuman_kipchak"
+              "polity": "cuman_kipchak"
             }
           ],
           "span": 1
@@ -557,12 +557,12 @@
             {
               "label": "Oghuz (moving west toward Pontic)",
               "note": "c.900–1050",
-              "regime": "oghuz"
+              "polity": "oghuz"
             },
             {
               "label": "Cuman–Kipchak",
               "note": "c.1050–1220",
-              "regime": "cuman_kipchak"
+              "polity": "cuman_kipchak"
             }
           ],
           "span": 1
@@ -576,7 +576,7 @@
             {
               "label": "Cuman–Kipchak",
               "note": "c.1050–1220",
-              "regime": "cuman_kipchak"
+              "polity": "cuman_kipchak"
             }
           ],
           "span": 1
@@ -586,7 +586,7 @@
             {
               "label": "Kimek–Kipchak confederation",
               "note": "c.750–1220",
-              "regime": "kimek_kipchak_confederation"
+              "polity": "kimek_kipchak_confederation"
             }
           ],
           "span": 1
@@ -594,14 +594,14 @@
         {
           "stack": [
             {
-              "regime": "kara_khanid_khanate",
+              "polity": "kara_khanid_khanate",
               "label": "Kara-Khanid Khanate (Zhetysu)",
               "note": "840–1212"
             },
             {
               "label": "Qara Khitai (Western Liao)",
               "note": "1124–1218",
-              "regime": "qara_khitai"
+              "polity": "qara_khitai"
             }
           ],
           "span": 1
@@ -617,12 +617,12 @@
         {
           "stack": [
             {
-              "regime": "mongol_empire",
+              "polity": "mongol_empire",
               "label": "Mongol Empire",
               "note": "1220–1242"
             },
             {
-              "regime": "golden_horde",
+              "polity": "golden_horde",
               "label": "Golden Horde (Blue Horde — Ural)",
               "note": "1242–1502"
             }
@@ -632,12 +632,12 @@
         {
           "stack": [
             {
-              "regime": "mongol_empire",
+              "polity": "mongol_empire",
               "label": "Mongol Empire",
               "note": "1220–1260"
             },
             {
-              "regime": "golden_horde",
+              "polity": "golden_horde",
               "label": "Golden Horde (White Horde — Aral)",
               "note": "1242–1502"
             }
@@ -647,17 +647,17 @@
         {
           "stack": [
             {
-              "regime": "mongol_empire",
+              "polity": "mongol_empire",
               "label": "Mongol Empire",
               "note": "1220–1260"
             },
             {
-              "regime": "chagatai_khanate",
+              "polity": "chagatai_khanate",
               "label": "Chagatai Khanate / Moghulistan",
               "note": "1226–1462"
             },
             {
-              "regime": "timurid_empire",
+              "polity": "timurid_empire",
               "label": "Timurid Empire (southeastern)",
               "note": "1370–1507"
             }
@@ -677,7 +677,7 @@
             {
               "label": "Nogai Horde",
               "note": "c.1440–1634",
-              "regime": "nogai_horde"
+              "polity": "nogai_horde"
             }
           ],
           "span": 2
@@ -687,10 +687,10 @@
             {
               "label": "Uzbek / Shaybanid Khanate (transitional)",
               "note": "1428–1510",
-              "regime": "uzbek"
+              "polity": "uzbek"
             },
             {
-              "regime": "kazakh_khanate",
+              "polity": "kazakh_khanate",
               "label": "Kazakh Khanate (Small Zhuz)",
               "note": "1465–1731"
             }
@@ -700,7 +700,7 @@
         {
           "stack": [
             {
-              "regime": "kazakh_khanate",
+              "polity": "kazakh_khanate",
               "label": "Kazakh Khanate (Middle Zhuz)",
               "note": "1465–1731"
             }
@@ -710,12 +710,12 @@
         {
           "stack": [
             {
-              "regime": "kazakh_khanate",
+              "polity": "kazakh_khanate",
               "label": "Kazakh Khanate (Great Zhuz)",
               "note": "1465–1731"
             },
             {
-              "regime": "dzungar_khanate",
+              "polity": "dzungar_khanate",
               "label": "Dzungar Khanate pressure",
               "note": "1634–1755"
             }
@@ -732,12 +732,12 @@
             {
               "label": "Russian Empire (Small Zhuz protectorate)",
               "note": "1731–1920",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             },
             {
               "label": "Bukei Khanate (Inner Horde)",
               "note": "1801–1845",
-              "regime": "bukei_khanate"
+              "polity": "bukei_khanate"
             }
           ],
           "span": 1
@@ -747,7 +747,7 @@
             {
               "label": "Russian Empire (Zakaspi Oblast)",
               "note": "1881–1920",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 1
@@ -757,7 +757,7 @@
             {
               "label": "Russian Empire (Syr-Darya Oblast · Russian Turkestan)",
               "note": "1865–1920",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 1
@@ -767,7 +767,7 @@
             {
               "label": "Russian Empire (Akmolinsk / Turgai Oblast)",
               "note": "1824–1920",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 1
@@ -781,7 +781,7 @@
             {
               "label": "Russian Empire (Semirechye Oblast)",
               "note": "1847–1920",
-              "regime": "russian_empire"
+              "polity": "russian_empire"
             }
           ],
           "span": 1
@@ -799,7 +799,7 @@
             {
               "label": "Alash Autonomy",
               "note": "1917–1920",
-              "regime": "alash_autonomy"
+              "polity": "alash_autonomy"
             }
           ],
           "span": 2
@@ -809,12 +809,12 @@
             {
               "label": "Alash Autonomy / Turkestan Autonomy",
               "note": "1917–1920",
-              "regime": "alash_autonomy"
+              "polity": "alash_autonomy"
             },
             {
               "label": "Turkestan ASSR",
               "note": "1918–1924",
-              "regime": "turkestan_assr"
+              "polity": "turkestan_assr"
             }
           ],
           "span": 1
@@ -824,12 +824,12 @@
             {
               "label": "Alash Autonomy",
               "note": "1917–1920",
-              "regime": "alash_autonomy"
+              "polity": "alash_autonomy"
             },
             {
               "label": "Kyrgyz-Kazakh ASSR",
               "note": "1920–1925",
-              "regime": "kyrgyz_kazakh_assr"
+              "polity": "kyrgyz_kazakh_assr"
             }
           ],
           "span": 1
@@ -839,12 +839,12 @@
             {
               "label": "Turkestan ASSR (Semirechye)",
               "note": "1918–1924",
-              "regime": "turkestan_assr"
+              "polity": "turkestan_assr"
             },
             {
               "label": "Kyrgyz-Kazakh ASSR",
               "note": "1924–1936",
-              "regime": "kyrgyz_kazakh_assr"
+              "polity": "kyrgyz_kazakh_assr"
             }
           ],
           "span": 1
@@ -859,12 +859,12 @@
             {
               "label": "Kazakh Soviet Socialist Republic",
               "note": "1936–1991",
-              "regime": "kazakh_soviet_socialist_republic"
+              "polity": "kazakh_soviet_socialist_republic"
             },
             {
               "label": "Republic of Kazakhstan",
               "note": "1991–",
-              "regime": "republic_of_kazakhstan"
+              "polity": "republic_of_kazakhstan"
             }
           ],
           "span": 5

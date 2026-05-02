@@ -35,7 +35,7 @@
           "stack": [
             {
               "label": "Histri (Illyrian)",
-              "regime": "histri"
+              "polity": "histri"
             }
           ],
           "span": 1
@@ -44,11 +44,11 @@
           "stack": [
             {
               "label": "Illyrian peoples",
-              "regime": "illyrian_peoples"
+              "polity": "illyrian_peoples"
             },
             {
               "label": "Taurisci Celts",
-              "regime": "taurisci_celts"
+              "polity": "taurisci_celts"
             }
           ],
           "span": 1
@@ -57,7 +57,7 @@
           "stack": [
             {
               "label": "Celtic Noricum tribes (Celts / Norici)",
-              "regime": "celtic_noricum_tribes"
+              "polity": "celtic_noricum_tribes"
             }
           ],
           "span": 1
@@ -71,7 +71,7 @@
           "stack": [
             {
               "label": "Roman Empire — Regio X (Venetia et Histria)",
-              "regime": "roman_empire"
+              "polity": "roman_empire"
             }
           ],
           "span": 1
@@ -80,12 +80,12 @@
           "stack": [
             {
               "label": "Roman Republic → Roman Empire",
-              "regime": "roman_republic"
+              "polity": "roman_republic"
             },
             {
               "label": "Emona (Ljubljana) — Roman colony",
               "note": "founded c.14 BCE",
-              "regime": "emona"
+              "polity": "emona"
             }
           ],
           "span": 1
@@ -94,7 +94,7 @@
           "stack": [
             {
               "label": "Roman Empire — Noricum · Pannonia provinces",
-              "regime": "roman_empire"
+              "polity": "roman_empire"
             }
           ],
           "span": 1
@@ -120,7 +120,7 @@
           "stack": [
             {
               "label": "W. Roman → Visigoth transit → Ostrogothic Kingdom",
-              "regime": "ostrogothic_kingdom"
+              "polity": "ostrogothic_kingdom"
             }
           ],
           "span": 1
@@ -142,7 +142,7 @@
           "stack": [
             {
               "label": "Byzantine Empire",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -152,7 +152,7 @@
             {
               "label": "Samo's Realm (623–658)",
               "note": "first Slavic state",
-              "regime": "samos_realm"
+              "polity": "samos_realm"
             },
             {
               "label": "Duchy of Carantania forming",
@@ -166,11 +166,11 @@
             {
               "label": "Lombard Kingdom → Avar Khaganate",
               "note": "568–796",
-              "regime": "avar_khaganate"
+              "polity": "avar_khaganate"
             },
             {
               "label": "Samo's Realm",
-              "regime": "samos_realm"
+              "polity": "samos_realm"
             }
           ],
           "span": 1
@@ -185,7 +185,7 @@
             {
               "label": "Frankish Kingdom → East Frankish → HRE",
               "note": "8th–10th c.",
-              "regime": "carolingian_empire"
+              "polity": "carolingian_empire"
             }
           ],
           "span": 1
@@ -198,7 +198,7 @@
             {
               "label": "Mark of Carniola (Duchy of Carniola)",
               "note": "from 976",
-              "regime": "mark_of_carniola"
+              "polity": "mark_of_carniola"
             }
           ],
           "span": 1
@@ -211,7 +211,7 @@
             {
               "label": "Duchy of Carinthia · Duchy of Styria",
               "note": "from 970 / 1180",
-              "regime": "duchy_of_carinthia"
+              "polity": "duchy_of_carinthia"
             }
           ],
           "span": 1
@@ -228,16 +228,16 @@
           "stack": [
             {
               "label": "Holy Roman Empire",
-              "regime": "holy_roman_empire"
+              "polity": "holy_roman_empire"
             },
             {
               "label": "Aquileian Patriarchate",
-              "regime": "aquileian_patriarchate"
+              "polity": "aquileian_patriarchate"
             },
             {
               "label": "Venice — Istrian coastal towns",
               "note": "from 1267",
-              "regime": "republic_of_venice"
+              "polity": "republic_of_venice"
             }
           ],
           "span": 1
@@ -246,11 +246,11 @@
           "stack": [
             {
               "label": "Holy Roman Empire — Duchy of Carniola",
-              "regime": "holy_roman_empire"
+              "polity": "holy_roman_empire"
             },
             {
               "label": "Habsburg (from 1335)",
-              "regime": "habsburg_monarchy"
+              "polity": "habsburg_monarchy"
             }
           ],
           "span": 1
@@ -259,11 +259,11 @@
           "stack": [
             {
               "label": "Holy Roman Empire — Duchy of Carinthia · Duchy of Styria",
-              "regime": "holy_roman_empire"
+              "polity": "holy_roman_empire"
             },
             {
               "label": "Habsburg (from 1335)",
-              "regime": "habsburg_monarchy"
+              "polity": "habsburg_monarchy"
             }
           ],
           "span": 1
@@ -277,11 +277,11 @@
           "stack": [
             {
               "label": "Venice Republic (coast)",
-              "regime": "republic_of_venice"
+              "polity": "republic_of_venice"
             },
             {
               "label": "Habsburg — Pazin / inland Istria",
-              "regime": "habsburg_monarchy"
+              "polity": "habsburg_monarchy"
             }
           ],
           "span": 1
@@ -291,7 +291,7 @@
             {
               "label": "Habsburg Austria — Duchy of Carniola",
               "note": "Reformation / Counter-Reformation 16th–17th c.",
-              "regime": "habsburg_austria"
+              "polity": "habsburg_austria"
             }
           ],
           "span": 1
@@ -301,7 +301,7 @@
             {
               "label": "Habsburg Austria — Duchy of Styria",
               "note": "Ottoman raids 15th–17th c.",
-              "regime": "habsburg_austria"
+              "polity": "habsburg_austria"
             }
           ],
           "span": 1
@@ -319,11 +319,11 @@
             {
               "label": "French Illyrian Provinces (briefly)",
               "note": "1809–1813",
-              "regime": "french_illyrian_provinces"
+              "polity": "french_illyrian_provinces"
             },
             {
               "label": "Habsburg → Austria-Hungary (Austrian Littoral)",
-              "regime": "habsburg_monarchy"
+              "polity": "habsburg_monarchy"
             }
           ],
           "span": 1
@@ -336,11 +336,11 @@
             {
               "label": "Illyrian Kingdom (Austrian)",
               "note": "1816–1849",
-              "regime": "illyrian_kingdom"
+              "polity": "illyrian_kingdom"
             },
             {
               "label": "Austria-Hungary — Duchy of Carniola (crown land)",
-              "regime": "austria_hungary"
+              "polity": "austria_hungary"
             }
           ],
           "span": 1
@@ -349,7 +349,7 @@
           "stack": [
             {
               "label": "Austrian Empire → Austria-Hungary — Duchy of Styria",
-              "regime": "austrian_empire"
+              "polity": "austrian_empire"
             }
           ],
           "span": 1
@@ -366,7 +366,7 @@
           "stack": [
             {
               "label": "Italy — Istria (Treaty of Rapallo 1920)",
-              "regime": "italy"
+              "polity": "italy"
             }
           ],
           "span": 1
@@ -388,7 +388,7 @@
           "stack": [
             {
               "label": "Italy — Istria (continued)",
-              "regime": "italy"
+              "polity": "italy"
             }
           ],
           "span": 1
@@ -407,12 +407,12 @@
             {
               "label": "Nazi Germany — annexed to Reich (Lower Styria)",
               "note": "1941–1945",
-              "regime": "nazi_germany"
+              "polity": "nazi_germany"
             },
             {
               "label": "Hungary — Prekmurje",
               "note": "1941–1944",
-              "regime": "hungary"
+              "polity": "hungary"
             }
           ],
           "span": 1
@@ -438,7 +438,7 @@
           "stack": [
             {
               "label": "SFR Yugoslavia — Socialist Republic of Slovenia (1945–1991)",
-              "regime": "sfr_yugoslavia"
+              "polity": "sfr_yugoslavia"
             }
           ],
           "span": 2

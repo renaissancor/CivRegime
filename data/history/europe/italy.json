@@ -46,27 +46,27 @@
             {
               "label": "Terramare culture",
               "note": "c.1700–1150 BCE",
-              "regime": "terramare_culture"
+              "polity": "terramare_culture"
             },
             {
               "label": "Proto-Villanovan culture",
               "note": "c.1200–900 BCE",
-              "regime": "proto_villanovan_culture"
+              "polity": "proto_villanovan_culture"
             },
             {
               "label": "Villanovan culture",
               "note": "c.900–700 BCE",
-              "regime": "villanovan_culture"
+              "polity": "villanovan_culture"
             },
             {
               "label": "Este · Golasecca cultures",
               "note": "c.900–400 BCE",
-              "regime": "este_golasecca_cultures_culture"
+              "polity": "este_golasecca_cultures_culture"
             },
             {
               "label": "Celtic La Tène migration",
               "note": "c.450 BCE–",
-              "regime": "celtic_la_tene_migration"
+              "polity": "celtic_la_tene_migration"
             }
           ],
           "span": 1
@@ -76,22 +76,22 @@
             {
               "label": "Rinaldone · Gaudo cultures",
               "note": "c.3400–2200 BCE",
-              "regime": "rinaldone_gaudo_cultures_culture"
+              "polity": "rinaldone_gaudo_cultures_culture"
             },
             {
               "label": "Apennine culture",
               "note": "c.1700–1100 BCE",
-              "regime": "apennine_culture"
+              "polity": "apennine_culture"
             },
             {
               "label": "Villanovan culture (central)",
               "note": "c.900–700 BCE",
-              "regime": "villanovan_culture"
+              "polity": "villanovan_culture"
             },
             {
               "label": "Latial culture",
               "note": "c.900–600 BCE",
-              "regime": "latial_culture"
+              "polity": "latial_culture"
             }
           ],
           "span": 1
@@ -101,12 +101,12 @@
             {
               "label": "Apennine culture",
               "note": "c.1700–1100 BCE",
-              "regime": "apennine_culture"
+              "polity": "apennine_culture"
             },
             {
               "label": "Italic peoples (Oscan · Samnite · Lucanian)",
               "note": "c.1000 BCE–",
-              "regime": "italic_peoples"
+              "polity": "italic_peoples"
             }
           ],
           "span": 1
@@ -116,22 +116,22 @@
             {
               "label": "Sicanian · Sicel · Elymian peoples",
               "note": "pre-Greek",
-              "regime": "sicanian_sicel_elymian_peoples"
+              "polity": "sicanian_sicel_elymian_peoples"
             },
             {
               "label": "Castelluccio culture",
               "note": "c.2200–1400 BCE",
-              "regime": "castelluccio_culture"
+              "polity": "castelluccio_culture"
             },
             {
               "label": "Thapsos culture",
               "note": "c.1400–900 BCE",
-              "regime": "thapsos_culture"
+              "polity": "thapsos_culture"
             },
             {
               "label": "Pantalica culture",
               "note": "c.1270–730 BCE",
-              "regime": "pantalica_culture"
+              "polity": "pantalica_culture"
             }
           ],
           "span": 1
@@ -141,12 +141,12 @@
             {
               "label": "Ozieri · Arzachena cultures",
               "note": "c.4000–2800 BCE",
-              "regime": "ozieri_arzachena_cultures_culture"
+              "polity": "ozieri_arzachena_cultures_culture"
             },
             {
               "label": "Nuragic civilization",
               "note": "c.1800–238 BCE",
-              "regime": "nuragic_civilization_culture"
+              "polity": "nuragic_civilization_culture"
             }
           ],
           "span": 1
@@ -164,12 +164,12 @@
             {
               "label": "Ligurians · Euganei · Raeti",
               "note": "pre-Roman",
-              "regime": "ligurians_euganei_raeti"
+              "polity": "ligurians_euganei_raeti"
             },
             {
               "label": "Celtic Gauls (Insubres · Boii · Senones)",
               "note": "c.400–222 BCE",
-              "regime": "celtic_gauls"
+              "polity": "celtic_gauls"
             },
             {
               "label": "Venetians (Adriatic coast)",
@@ -183,15 +183,15 @@
             {
               "label": "Etruscan civilization (Tyrrhenia)",
               "note": "c.700–400 BCE",
-              "regime": "etruscan_civilization_culture"
+              "polity": "etruscan_civilization_culture"
             },
             {
               "label": "Latin · Sabine · Samnite peoples",
               "note": "c.1000 BCE–",
-              "regime": "latin_sabine_samnite_peoples"
+              "polity": "latin_sabine_samnite_peoples"
             },
             {
-              "regime": "roman_kingdom",
+              "polity": "roman_kingdom",
               "label": "Roman Kingdom",
               "note": "753–509 BCE"
             }
@@ -203,17 +203,17 @@
             {
               "label": "Magna Graecia (Greek colonies)",
               "note": "c.750–280 BCE",
-              "regime": "magna_graecia"
+              "polity": "magna_graecia"
             },
             {
               "label": "Oscan · Samnite peoples",
               "note": "c.600–290 BCE",
-              "regime": "oscan_samnite_peoples"
+              "polity": "oscan_samnite_peoples"
             },
             {
               "label": "Punic coastal settlements",
               "note": "c.800–275 BCE",
-              "regime": "punic_coastal_settlements"
+              "polity": "punic_coastal_settlements"
             }
           ],
           "span": 1
@@ -227,7 +227,7 @@
             {
               "label": "Carthaginian western Sicily",
               "note": "c.550–241 BCE",
-              "regime": "carthaginian_western_sicily"
+              "polity": "carthaginian_western_sicily"
             }
           ],
           "span": 1
@@ -237,12 +237,12 @@
             {
               "label": "Phoenician colonies (Tharros · Nora · Sulcis)",
               "note": "c.900–550 BCE",
-              "regime": "phoenician_colonies"
+              "polity": "phoenician_colonies"
             },
             {
               "label": "Carthaginian Sardinia",
               "note": "c.550–238 BCE",
-              "regime": "carthaginian_sardinia"
+              "polity": "carthaginian_sardinia"
             }
           ],
           "span": 1
@@ -255,12 +255,12 @@
         {
           "stack": [
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic — Gallia Cisalpina",
               "note": "222–27 BCE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire (Italia)",
               "note": "27 BCE–380 CE"
             }
@@ -270,12 +270,12 @@
         {
           "stack": [
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic (heartland)",
               "note": "509–27 BCE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire (Italia)",
               "note": "27 BCE–380 CE"
             }
@@ -285,12 +285,12 @@
         {
           "stack": [
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic — Samnite Wars · Social War",
               "note": "343–87 BCE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire",
               "note": "27 BCE–380 CE"
             }
@@ -300,12 +300,12 @@
         {
           "stack": [
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic — Sicilia Province",
               "note": "241 BCE (first province)"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Sicilia",
               "note": "27 BCE–380 CE"
             }
@@ -315,12 +315,12 @@
         {
           "stack": [
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic — Sardinia et Corsica",
               "note": "238 BCE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire — Sardinia",
               "note": "27 BCE–380 CE"
             }
@@ -338,12 +338,12 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire (Christian)",
               "note": "380–395"
             },
             {
-              "regime": "western_roman_empire",
+              "polity": "western_roman_empire",
               "label": "Western Roman Empire",
               "note": "395–476"
             }
@@ -361,12 +361,12 @@
         {
           "stack": [
             {
-              "regime": "odoacer_kingdom",
+              "polity": "odoacer_kingdom",
               "label": "Kingdom of Odoacer",
               "note": "476–493"
             },
             {
-              "regime": "ostrogothic_kingdom",
+              "polity": "ostrogothic_kingdom",
               "label": "Ostrogothic Kingdom (Pavia)",
               "note": "493–553"
             },
@@ -380,19 +380,19 @@
         {
           "stack": [
             {
-              "regime": "odoacer_kingdom",
+              "polity": "odoacer_kingdom",
               "label": "Kingdom of Odoacer (Ravenna)",
               "note": "476–493"
             },
             {
-              "regime": "ostrogothic_kingdom",
+              "polity": "ostrogothic_kingdom",
               "label": "Ostrogothic Kingdom (Ravenna capital)",
               "note": "493–553"
             },
             {
               "label": "Byzantine Exarchate of Ravenna",
               "note": "584–751",
-              "regime": "byzantine_exarchate_of_ravenna"
+              "polity": "byzantine_exarchate_of_ravenna"
             }
           ],
           "span": 1
@@ -400,19 +400,19 @@
         {
           "stack": [
             {
-              "regime": "odoacer_kingdom",
+              "polity": "odoacer_kingdom",
               "label": "Kingdom of Odoacer",
               "note": "476–493"
             },
             {
-              "regime": "ostrogothic_kingdom",
+              "polity": "ostrogothic_kingdom",
               "label": "Ostrogothic Kingdom",
               "note": "493–553"
             },
             {
               "label": "Byzantine Catepanate of Italy (Puglia · Calabria)",
               "note": "965–1071",
-              "regime": "byzantine_catepanate_of_italy"
+              "polity": "byzantine_catepanate_of_italy"
             }
           ],
           "span": 1
@@ -424,19 +424,19 @@
               "note": "440s–468"
             },
             {
-              "regime": "odoacer_kingdom",
+              "polity": "odoacer_kingdom",
               "label": "Kingdom of Odoacer (Sicily)",
               "note": "476–493"
             },
             {
-              "regime": "ostrogothic_kingdom",
+              "polity": "ostrogothic_kingdom",
               "label": "Ostrogothic Kingdom (Sicily)",
               "note": "493–535"
             },
             {
               "label": "Byzantine Sicilian Theme",
               "note": "535–827",
-              "regime": "byzantine_sicilian_theme"
+              "polity": "byzantine_sicilian_theme"
             }
           ],
           "span": 1
@@ -446,12 +446,12 @@
             {
               "label": "Vandal Kingdom (Sardinia)",
               "note": "455–533",
-              "regime": "vandal_kingdom"
+              "polity": "vandal_kingdom"
             },
             {
               "label": "Byzantine Sardinia",
               "note": "534–c.700",
-              "regime": "byzantine_sardinia"
+              "polity": "byzantine_sardinia"
             }
           ],
           "span": 1
@@ -464,12 +464,12 @@
         {
           "stack": [
             {
-              "regime": "lombard_kingdom",
+              "polity": "lombard_kingdom",
               "label": "Lombard Kingdom (Milan · Pavia)",
               "note": "568–774"
             },
             {
-              "regime": "carolingian_empire",
+              "polity": "carolingian_empire",
               "label": "Carolingian Empire (Kingdom of Italy)",
               "note": "774–843"
             }
@@ -481,17 +481,17 @@
             {
               "label": "Lombard Duchy of Spoleto",
               "note": "570–774",
-              "regime": "lombard_duchy_of_spoleto"
+              "polity": "lombard_duchy_of_spoleto"
             },
             {
               "label": "Byzantine Exarchate of Ravenna",
               "note": "–751",
-              "regime": "byzantine_exarchate_of_ravenna"
+              "polity": "byzantine_exarchate_of_ravenna"
             },
             {
               "label": "Papal States (formalized)",
               "note": "754–1870",
-              "regime": "papal_states"
+              "polity": "papal_states"
             }
           ],
           "span": 1
@@ -501,17 +501,17 @@
             {
               "label": "Lombard Duchy of Benevento",
               "note": "571–1077",
-              "regime": "lombard_duchy_of_benevento"
+              "polity": "lombard_duchy_of_benevento"
             },
             {
               "label": "Principality of Salerno",
               "note": "851–1077",
-              "regime": "principality_of_salerno"
+              "polity": "principality_of_salerno"
             },
             {
               "label": "Byzantine Catepanate of Italy",
               "note": "965–1071",
-              "regime": "byzantine_catepanate_of_italy"
+              "polity": "byzantine_catepanate_of_italy"
             }
           ],
           "span": 1
@@ -525,12 +525,12 @@
             {
               "label": "Emirate of Sicily (Aghlabid then Kalbid)",
               "note": "831–1072",
-              "regime": "emirate_of_sicily"
+              "polity": "emirate_of_sicily"
             },
             {
               "label": "Arab Emirate of Bari",
               "note": "847–871",
-              "regime": "arab_emirate_of_bari"
+              "polity": "arab_emirate_of_bari"
             }
           ],
           "span": 1
@@ -540,12 +540,12 @@
             {
               "label": "Byzantine Sardinia → Giudicati emerging",
               "note": "c.700–900",
-              "regime": "byzantine_sardinia"
+              "polity": "byzantine_sardinia"
             },
             {
               "label": "Giudicati of Sardinia (4 kingdoms)",
               "note": "c.900–1420",
-              "regime": "giudicati_of_sardinia"
+              "polity": "giudicati_of_sardinia"
             }
           ],
           "span": 1
@@ -563,10 +563,10 @@
             {
               "label": "Middle Kingdom of Italy (Carolingian split)",
               "note": "843–888",
-              "regime": "kingdom_of_italy"
+              "polity": "kingdom_of_italy"
             },
             {
-              "regime": "holy_roman_empire",
+              "polity": "holy_roman_empire",
               "label": "Holy Roman Empire — Kingdom of Italy",
               "note": "962–1250"
             }
@@ -578,12 +578,12 @@
             {
               "label": "Papal States",
               "note": "754–1870",
-              "regime": "papal_states"
+              "polity": "papal_states"
             },
             {
               "label": "Tuscan March",
               "note": "9th–11th c.",
-              "regime": "tuscan_march"
+              "polity": "tuscan_march"
             },
             {
               "label": "Investiture Controversy",
@@ -597,12 +597,12 @@
             {
               "label": "Lombard principalities (Benevento · Salerno · Capua)",
               "note": "–1077",
-              "regime": "lombard_principalities"
+              "polity": "lombard_principalities"
             },
             {
               "label": "Byzantine Catepanate of Italy",
               "note": "–1071",
-              "regime": "byzantine_catepanate_of_italy"
+              "polity": "byzantine_catepanate_of_italy"
             }
           ],
           "span": 1
@@ -612,7 +612,7 @@
             {
               "label": "Emirate of Sicily (Arab rule, Palermo capital)",
               "note": "831–1072",
-              "regime": "emirate_of_sicily"
+              "polity": "emirate_of_sicily"
             },
             {
               "label": "Norman conquest begins (Roger I)",
@@ -626,7 +626,7 @@
             {
               "label": "Giudicati: Torres · Gallura · Arborea · Cagliari",
               "note": "c.900–1420",
-              "regime": "giudicati_torres"
+              "polity": "giudicati_torres"
             },
             {
               "label": "Pisan / Genoese commercial influence",
@@ -658,7 +658,7 @@
             {
               "label": "Papal States",
               "note": "(Avignon exile 1309–1377)",
-              "regime": "papal_states"
+              "polity": "papal_states"
             },
             {
               "label": "Guelph vs Ghibelline",
@@ -672,22 +672,22 @@
             {
               "label": "Norman County of Apulia · Calabria",
               "note": "1059–1130",
-              "regime": "norman_county_of_apulia"
+              "polity": "norman_county_of_apulia"
             },
             {
               "label": "Norman Kingdom of Sicily (south)",
               "note": "1130–1194",
-              "regime": "norman_kingdom_of_sicily"
+              "polity": "norman_kingdom_of_sicily"
             },
             {
               "label": "Hohenstaufen (Frederick II)",
               "note": "1194–1266",
-              "regime": "hohenstaufen"
+              "polity": "hohenstaufen"
             },
             {
               "label": "Angevin Kingdom of Naples",
               "note": "1266–1442",
-              "regime": "angevin_kingdom_of_naples"
+              "polity": "angevin_kingdom_of_naples"
             }
           ],
           "span": 1
@@ -697,12 +697,12 @@
             {
               "label": "Norman Kingdom of Sicily",
               "note": "1130–1194",
-              "regime": "norman_kingdom_of_sicily"
+              "polity": "norman_kingdom_of_sicily"
             },
             {
               "label": "Hohenstaufen Sicily",
               "note": "1194–1266",
-              "regime": "hohenstaufen_sicily"
+              "polity": "hohenstaufen_sicily"
             },
             {
               "label": "Angevin Sicily → Sicilian Vespers",
@@ -711,7 +711,7 @@
             {
               "label": "Aragonese Kingdom of Sicily",
               "note": "1282–1409",
-              "regime": "aragonese_kingdom_of_sicily"
+              "polity": "aragonese_kingdom_of_sicily"
             }
           ],
           "span": 1
@@ -725,12 +725,12 @@
             {
               "label": "Pisan County of Cagliari",
               "note": "1258–1323",
-              "regime": "pisan_county_of_cagliari"
+              "polity": "pisan_county_of_cagliari"
             },
             {
               "label": "Aragonese Sardinia",
               "note": "1323–1718",
-              "regime": "aragonese_sardinia"
+              "polity": "aragonese_sardinia"
             }
           ],
           "span": 1
@@ -745,22 +745,22 @@
             {
               "label": "Duchy of Milan (Visconti then Sforza)",
               "note": "1395–1535",
-              "regime": "duchy_of_milan"
+              "polity": "duchy_of_milan"
             },
             {
               "label": "Republic of Venice",
               "note": "697–1797",
-              "regime": "republic_of_venice"
+              "polity": "republic_of_venice"
             },
             {
               "label": "Republic of Genoa",
               "note": "1005–1797",
-              "regime": "republic_of_genoa"
+              "polity": "republic_of_genoa"
             },
             {
               "label": "County/Duchy of Savoy",
               "note": "1003–1720",
-              "regime": "countyduchy_of_savoy"
+              "polity": "countyduchy_of_savoy"
             }
           ],
           "span": 1
@@ -770,7 +770,7 @@
             {
               "label": "Republic of Florence (Medici)",
               "note": "1115–1532",
-              "regime": "republic_of_florence"
+              "polity": "republic_of_florence"
             },
             {
               "label": "Italian Renaissance",
@@ -787,19 +787,19 @@
           "label": "Aragonese Kingdom of Naples",
           "note": "1442–1503",
           "span": 1,
-          "regime": "aragonese_kingdom_of_naples"
+          "polity": "aragonese_kingdom_of_naples"
         },
         {
           "stack": [
             {
               "label": "Kingdom of Sicily (Aragonese)",
               "note": "1282–1409",
-              "regime": "kingdom_of_sicily"
+              "polity": "kingdom_of_sicily"
             },
             {
               "label": "Crown of Aragon (unified Sicily)",
               "note": "1409–1713",
-              "regime": "crown_of_aragon"
+              "polity": "crown_of_aragon"
             }
           ],
           "span": 1
@@ -808,7 +808,7 @@
           "label": "Aragonese / Spanish Kingdom of Sardinia",
           "note": "1323–1718",
           "span": 1,
-          "regime": "aragonese_sardinia"
+          "polity": "aragonese_sardinia"
         }
       ]
     },
@@ -827,7 +827,7 @@
             {
               "label": "Spanish Duchy of Milan",
               "note": "1535–1706",
-              "regime": "spanish_duchy_of_milan"
+              "polity": "spanish_duchy_of_milan"
             },
             {
               "label": "Austrian Habsburg — Lombardy-Venetia",
@@ -841,17 +841,17 @@
             {
               "label": "Grand Duchy of Tuscany (Medici)",
               "note": "1569–1737",
-              "regime": "grand_duchy_of_tuscany"
+              "polity": "grand_duchy_of_tuscany"
             },
             {
               "label": "Grand Duchy of Tuscany (Habsburg-Lorraine)",
               "note": "1737–1859",
-              "regime": "grand_duchy_of_tuscany"
+              "polity": "grand_duchy_of_tuscany"
             },
             {
               "label": "Papal States",
               "note": "–1870",
-              "regime": "papal_states"
+              "polity": "papal_states"
             }
           ],
           "span": 1
@@ -860,20 +860,20 @@
           "label": "Kingdom of Naples (Spanish then Bourbon)",
           "note": "1503–1816",
           "span": 1,
-          "regime": "kingdom_of_naples"
+          "polity": "kingdom_of_naples"
         },
         {
           "label": "Kingdom of Sicily (Spanish then Bourbon)",
           "note": "1409–1816",
           "span": 1,
-          "regime": "kingdom_of_sicily"
+          "polity": "kingdom_of_sicily"
         },
         {
           "stack": [
             {
               "label": "Kingdom of Sardinia (Savoy, after 1718)",
               "note": "1718–1861",
-              "regime": "kingdom_of_sardinia"
+              "polity": "kingdom_of_sardinia"
             }
           ],
           "span": 1
@@ -891,17 +891,17 @@
             {
               "label": "Cisalpine / Italian Republic (Napoleon)",
               "note": "1797–1805",
-              "regime": "cisalpine"
+              "polity": "cisalpine"
             },
             {
               "label": "Kingdom of Italy (Napoleon)",
               "note": "1805–1814",
-              "regime": "kingdom_of_italy"
+              "polity": "kingdom_of_italy"
             },
             {
               "label": "Austrian Empire — Lombardy-Venetia",
               "note": "1815–1859/66",
-              "regime": "austrian_empire"
+              "polity": "austrian_empire"
             }
           ],
           "span": 1
@@ -915,7 +915,7 @@
             {
               "label": "Papal States (restored)",
               "note": "1814–1870",
-              "regime": "papal_states"
+              "polity": "papal_states"
             }
           ],
           "span": 1
@@ -925,12 +925,12 @@
             {
               "label": "Kingdom of Naples (Murat then Bourbon)",
               "note": "1806–1816",
-              "regime": "kingdom_of_naples"
+              "polity": "kingdom_of_naples"
             },
             {
               "label": "Kingdom of the Two Sicilies",
               "note": "1816–1861",
-              "regime": "kingdom_of_the_two_sicilies"
+              "polity": "kingdom_of_the_two_sicilies"
             }
           ],
           "span": 1
@@ -940,12 +940,12 @@
             {
               "label": "Kingdom of Sicily (British-backed Bourbon)",
               "note": "1806–1816",
-              "regime": "kingdom_of_sicily"
+              "polity": "kingdom_of_sicily"
             },
             {
               "label": "Kingdom of the Two Sicilies",
               "note": "1816–1861",
-              "regime": "kingdom_of_the_two_sicilies"
+              "polity": "kingdom_of_the_two_sicilies"
             }
           ],
           "span": 1
@@ -955,7 +955,7 @@
             {
               "label": "Kingdom of Sardinia (Savoy–Piedmont)",
               "note": "1718–1861",
-              "regime": "kingdom_of_sardinia"
+              "polity": "kingdom_of_sardinia"
             },
             {
               "label": "Leads Risorgimento (Cavour · Garibaldi)",
@@ -972,7 +972,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_italy",
+              "polity": "kingdom_of_italy",
               "label": "Kingdom of Italy",
               "note": "1861–"
             },
@@ -986,7 +986,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_italy",
+              "polity": "kingdom_of_italy",
               "label": "Kingdom of Italy",
               "note": ""
             },
@@ -1000,7 +1000,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_italy",
+              "polity": "kingdom_of_italy",
               "label": "Kingdom of Italy",
               "note": ""
             },
@@ -1014,7 +1014,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_italy",
+              "polity": "kingdom_of_italy",
               "label": "Kingdom of Italy — Sicily 1860",
               "note": ""
             }
@@ -1024,7 +1024,7 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_italy",
+              "polity": "kingdom_of_italy",
               "label": "Kingdom of Italy — Sardinia (core state)",
               "note": "1861–"
             }
@@ -1042,24 +1042,24 @@
         {
           "stack": [
             {
-              "regime": "kingdom_of_italy",
+              "polity": "kingdom_of_italy",
               "label": "Kingdom of Italy — Liberal era",
               "note": "1861–1922"
             },
             {
               "label": "Fascist Italy (Mussolini · March on Rome)",
               "note": "1922–1943",
-              "regime": "fascist_italy"
+              "polity": "fascist_italy"
             },
             {
               "label": "Italian Social Republic (RSI — northern rump)",
               "note": "1943–1945",
-              "regime": "italian_social_republic"
+              "polity": "italian_social_republic"
             },
             {
               "label": "Italian Republic",
               "note": "1946–",
-              "regime": "italian_republic"
+              "polity": "italian_republic"
             }
           ],
           "span": 5

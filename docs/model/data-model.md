@@ -1,6 +1,6 @@
 # Data Model Overview
 
-In this file, **Polity** = the top-level political entity (dir: `data/polity/`). The future dynasty-tier **Regime** is defined in [`erd.md`](./erd.md).
+In this file, **Polity** = the top-level political entity (dir: `data/polity/`). The future dynasty-tier **Polity** is defined in [`erd.md`](./erd.md).
 
 The entire project is a **property graph** — multiple node types connected by typed edges.
 

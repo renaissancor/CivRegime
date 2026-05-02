@@ -54,19 +54,19 @@
         {
           "label": "Dards (Indo-Aryan peoples)",
           "span": 1,
-          "regime": "dards"
+          "polity": "dards"
         },
         {
           "stack": [
             {
               "label": "Zhangzhung Kingdom",
               "note": "c.500 BCE – 625 CE",
-              "regime": "zhangzhung_kingdom"
+              "polity": "zhangzhung_kingdom"
             },
             {
               "label": "Teyurang culture",
               "note": null,
-              "regime": "teyurang_culture"
+              "polity": "teyurang_culture"
             }
           ],
           "span": 1
@@ -76,12 +76,12 @@
             {
               "label": "Lepcha tribes",
               "note": null,
-              "regime": "lepcha_tribes"
+              "polity": "lepcha_tribes"
             },
             {
               "label": "Nomadic pastoralists",
               "note": null,
-              "regime": "nomadic_pastoralists"
+              "polity": "nomadic_pastoralists"
             }
           ],
           "span": 2
@@ -91,12 +91,12 @@
             {
               "label": "Yarlung Kingdom (pre-imperial)",
               "note": "c.200 BCE – 600 CE",
-              "regime": "yarlung_kingdom"
+              "polity": "yarlung_kingdom"
             },
             {
               "label": "Zhangzhung Kingdom (western U-Tsang)",
               "note": null,
-              "regime": "zhangzhung_kingdom"
+              "polity": "zhangzhung_kingdom"
             }
           ],
           "span": 1
@@ -104,12 +104,12 @@
         {
           "label": "Lepcha tribes",
           "span": 1,
-          "regime": "lepcha_tribes"
+          "polity": "lepcha_tribes"
         },
         {
           "label": "Nomadic / Mon-yul Kingdom",
           "span": 1,
-          "regime": "nomadic"
+          "polity": "nomadic"
         }
       ]
     },
@@ -119,29 +119,29 @@
         {
           "label": "Dards (continuing)",
           "span": 1,
-          "regime": "dards"
+          "polity": "dards"
         },
         {
           "label": "Zhangzhung (continuing)",
           "span": 1,
-          "regime": "zhangzhung"
+          "polity": "zhangzhung"
         },
         {
           "stack": [
             {
-              "regime": "kushan_empire",
+              "polity": "kushan_empire",
               "label": "Kushan Empire (frontier influence)",
               "note": null
             },
             {
               "label": "Kokonor Kingdom (Tuyuhun)",
               "note": "c.285–663",
-              "regime": "kokonor_kingdom"
+              "polity": "kokonor_kingdom"
             },
             {
               "label": "Qiang / Jie peoples",
               "note": null,
-              "regime": "qiang"
+              "polity": "qiang"
             }
           ],
           "span": 1
@@ -151,12 +151,12 @@
             {
               "label": "Di peoples",
               "note": null,
-              "regime": "di_peoples"
+              "polity": "di_peoples"
             },
             {
               "label": "Nomadic pastoralists",
               "note": null,
-              "regime": "nomadic_pastoralists"
+              "polity": "nomadic_pastoralists"
             }
           ],
           "span": 1
@@ -166,7 +166,7 @@
             {
               "label": "Yarlung Kingdom",
               "note": null,
-              "regime": "yarlung_kingdom"
+              "polity": "yarlung_kingdom"
             },
             {
               "label": "Tuyuhun (frontier)",
@@ -178,12 +178,12 @@
         {
           "label": "Lepcha / Mon (continuing)",
           "span": 1,
-          "regime": "lepcha"
+          "polity": "lepcha"
         },
         {
           "label": "Mon-yul Kingdom",
           "span": 1,
-          "regime": "mon_yul_kingdom"
+          "polity": "mon_yul_kingdom"
         }
       ]
     },
@@ -191,7 +191,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "tibetan_empire",
+          "polity": "tibetan_empire",
           "label": "Tibetan Empire — Songtsen Gampo · Trisong Detsen",
           "note": "c.618–842",
           "span": 5
@@ -199,12 +199,12 @@
         {
           "label": "Tibetan Empire (periphery)",
           "span": 1,
-          "regime": "tibetan_empire"
+          "polity": "tibetan_empire"
         },
         {
           "label": "Tibetan Empire (periphery)",
           "span": 1,
-          "regime": "tibetan_empire"
+          "polity": "tibetan_empire"
         }
       ]
     },
@@ -219,7 +219,7 @@
             {
               "label": "Ladakh Kingdom (Maryul)",
               "note": "c.842 onward",
-              "regime": "ladakh_kingdom"
+              "polity": "ladakh_kingdom"
             }
           ],
           "span": 1
@@ -229,7 +229,7 @@
             {
               "label": "Guge-Purang Kingdom",
               "note": "c.842–1630",
-              "regime": "guge_purang_kingdom"
+              "polity": "guge_purang_kingdom"
             }
           ],
           "span": 1
@@ -239,12 +239,12 @@
             {
               "label": "Tangut peoples",
               "note": null,
-              "regime": "tangut_peoples"
+              "polity": "tangut_peoples"
             },
             {
               "label": "Western Xia (Tangut Empire)",
               "note": "1038–1227",
-              "regime": "western_xia"
+              "polity": "western_xia"
             }
           ],
           "span": 1
@@ -261,12 +261,12 @@
         {
           "label": "Tribal communities",
           "span": 1,
-          "regime": "tribal_communities"
+          "polity": "tribal_communities"
         },
         {
           "label": "Mon-yul / tribal communities",
           "span": 1,
-          "regime": "mon_yul"
+          "polity": "mon_yul"
         }
       ]
     },
@@ -276,19 +276,19 @@
         {
           "label": "Ladakh Kingdom (continuing)",
           "span": 1,
-          "regime": "ladakh_kingdom"
+          "polity": "ladakh_kingdom"
         },
         {
           "stack": [
             {
               "label": "Guge Kingdom",
               "note": "c.842–1630",
-              "regime": "guge_kingdom"
+              "polity": "guge_kingdom"
             },
             {
               "label": "Purang Kingdom",
               "note": null,
-              "regime": "purang_kingdom"
+              "polity": "purang_kingdom"
             }
           ],
           "span": 1
@@ -296,14 +296,14 @@
         {
           "stack": [
             {
-              "regime": "yuan_dynasty",
+              "polity": "yuan_dynasty",
               "label": "Yuan Empire — Xuanzheng Yuan (Bureau of Buddhist and Tibetan Affairs)",
               "note": "1271–1368"
             },
             {
               "label": "Tibet under Yuan rule",
               "note": null,
-              "regime": "tibet_under_yuan_rule"
+              "polity": "tibet_under_yuan_rule"
             }
           ],
           "span": 3
@@ -311,12 +311,12 @@
         {
           "label": "Indigenous chiefs",
           "span": 1,
-          "regime": "indigenous_chiefs"
+          "polity": "indigenous_chiefs"
         },
         {
           "label": "Indigenous chiefs",
           "span": 1,
-          "regime": "indigenous_chiefs"
+          "polity": "indigenous_chiefs"
         }
       ]
     },
@@ -329,29 +329,29 @@
         {
           "label": "Ladakh Kingdom",
           "span": 1,
-          "regime": "ladakh_kingdom"
+          "polity": "ladakh_kingdom"
         },
         {
           "label": "Guge Kingdom",
           "span": 1,
-          "regime": "guge_kingdom"
+          "polity": "guge_kingdom"
         },
         {
           "stack": [
             {
               "label": "Sakya dynasty (Yuan appointees)",
               "note": "1268–1354",
-              "regime": "sakya_dynasty"
+              "polity": "sakya_dynasty"
             },
             {
               "label": "Indigenous local rulers",
               "note": null,
-              "regime": "indigenous_local_rulers"
+              "polity": "indigenous_local_rulers"
             },
             {
               "label": "Phagmodrupa dynasty",
               "note": "1354–1435",
-              "regime": "phagmodrupa_dynasty"
+              "polity": "phagmodrupa_dynasty"
             }
           ],
           "span": 3
@@ -359,12 +359,12 @@
         {
           "label": "Tribal communities",
           "span": 1,
-          "regime": "tribal_communities"
+          "polity": "tribal_communities"
         },
         {
           "label": "Tribal communities",
           "span": 1,
-          "regime": "tribal_communities"
+          "polity": "tribal_communities"
         }
       ]
     },
@@ -374,24 +374,24 @@
         {
           "label": "Ladakh Kingdom",
           "span": 1,
-          "regime": "ladakh_kingdom"
+          "polity": "ladakh_kingdom"
         },
         {
           "label": "Guge Kingdom",
           "span": 1,
-          "regime": "guge_kingdom"
+          "polity": "guge_kingdom"
         },
         {
           "stack": [
             {
               "label": "Rinpungpa dynasty",
               "note": "1435–1565; Gelug school rise · Dalai Lama institution",
-              "regime": "rinpungpa_dynasty"
+              "polity": "rinpungpa_dynasty"
             },
             {
               "label": "Tsangpa dynasty",
               "note": "1565–1642",
-              "regime": "tsangpa_dynasty"
+              "polity": "tsangpa_dynasty"
             }
           ],
           "span": 3
@@ -399,12 +399,12 @@
         {
           "label": "Tribal communities",
           "span": 1,
-          "regime": "tribal_communities"
+          "polity": "tribal_communities"
         },
         {
           "label": "Tribal communities",
           "span": 1,
-          "regime": "tribal_communities"
+          "polity": "tribal_communities"
         }
       ]
     },
@@ -417,19 +417,19 @@
         {
           "label": "Ladakh Kingdom",
           "span": 1,
-          "regime": "ladakh_kingdom"
+          "polity": "ladakh_kingdom"
         },
         {
           "label": "Guge Kingdom (falls c.1630)",
           "span": 1,
-          "regime": "guge_kingdom"
+          "polity": "guge_kingdom"
         },
         {
           "stack": [
             {
               "label": "Khoshut Khanate (Gushi Khan)",
               "note": "1642–1717; Dalai Lama III / Altan Khan alliance; Namgyal dynasty (Ladakh-Ngari border)",
-              "regime": "khoshut_khanate"
+              "polity": "khoshut_khanate"
             }
           ],
           "span": 1
@@ -439,7 +439,7 @@
             {
               "label": "Ganden Phodrang — Dalai Lama V ('Great Fifth')",
               "note": "from 1642",
-              "regime": "ganden_phodrang"
+              "polity": "ganden_phodrang"
             }
           ],
           "span": 2
@@ -449,7 +449,7 @@
             {
               "label": "Sikkim Kingdom (Namgyal dynasty)",
               "note": "from 1642",
-              "regime": "sikkim_kingdom"
+              "polity": "sikkim_kingdom"
             }
           ],
           "span": 1
@@ -459,7 +459,7 @@
             {
               "label": "Druk Desi regime (Zhabdrung Ngawang Namgyal)",
               "note": "from 1634",
-              "regime": "druk_desi_regime"
+              "polity": "druk_desi_regime"
             }
           ],
           "span": 1
@@ -481,7 +481,7 @@
             {
               "label": "Ganden Phodrang — Dalai Lama VII",
               "note": null,
-              "regime": "ganden_phodrang"
+              "polity": "ganden_phodrang"
             }
           ],
           "span": 1
@@ -489,7 +489,7 @@
         {
           "stack": [
             {
-              "regime": "qing_dynasty",
+              "polity": "qing_dynasty",
               "label": "Qing intervention — Amban system established",
               "note": "from 1720; Dzungar Khanate invasions (1717–1720); Dzungar-Qing/Tibet Wars"
             }
@@ -499,14 +499,14 @@
         {
           "stack": [
             {
-              "regime": "qing_dynasty",
+              "polity": "qing_dynasty",
               "label": "Tibet under Qing suzerainty",
               "note": null
             },
             {
               "label": "Ganden Phodrang — Kashag (council) governance",
               "note": null,
-              "regime": "ganden_phodrang"
+              "polity": "ganden_phodrang"
             }
           ],
           "span": 2
@@ -514,12 +514,12 @@
         {
           "label": "Sikkim Kingdom",
           "span": 1,
-          "regime": "sikkim_kingdom"
+          "polity": "sikkim_kingdom"
         },
         {
           "label": "Druk Desi regime",
           "span": 1,
-          "regime": "druk_desi_regime"
+          "polity": "druk_desi_regime"
         }
       ]
     },
@@ -536,14 +536,14 @@
               "note": null
             },
             {
-              "regime": "sikh_empire",
+              "polity": "sikh_empire",
               "label": "Sikh Empire (conquers Ladakh)",
               "note": "1834–1846"
             },
             {
               "label": "Jammu & Kashmir (Dogra princely state)",
               "note": "1846–1947",
-              "regime": "jammu_kashmir"
+              "polity": "jammu_kashmir"
             }
           ],
           "span": 1
@@ -551,14 +551,14 @@
         {
           "stack": [
             {
-              "regime": "qing_dynasty",
+              "polity": "qing_dynasty",
               "label": "Tibet under Qing — Amban governance",
               "note": "Gurkha-Qing/Tibet Wars (1788–1792)"
             },
             {
               "label": "Ganden Phodrang (continuing)",
               "note": null,
-              "regime": "ganden_phodrang"
+              "polity": "ganden_phodrang"
             }
           ],
           "span": 4
@@ -570,20 +570,20 @@
               "note": null
             },
             {
-              "regime": "british_raj",
+              "polity": "british_raj",
               "label": "British East India Company / British Raj",
               "note": null
             },
             {
               "label": "Sikkim Kingdom (British protectorate)",
               "note": null,
-              "regime": "sikkim_kingdom"
+              "polity": "sikkim_kingdom"
             }
           ],
           "span": 1
         },
         {
-          "regime": "british_raj",
+          "polity": "british_raj",
           "label": "British Indian Empire (Bhutan — protectorate)",
           "span": 1
         }
@@ -598,14 +598,14 @@
         {
           "stack": [
             {
-              "regime": "british_raj",
+              "polity": "british_raj",
               "label": "British Indian Empire",
               "note": null
             },
             {
               "label": "Jammu & Kashmir (princely state)",
               "note": null,
-              "regime": "jammu_kashmir"
+              "polity": "jammu_kashmir"
             }
           ],
           "span": 1
@@ -615,7 +615,7 @@
             {
               "label": "Modern independent Tibet — Dalai Lama XIII · XIV",
               "note": "1913–1950; British Younghusband expedition (1904); Qing annexation of parts of Amdo & Kham; Dalai Lama XIII — Tibetan Great Uprising",
-              "regime": "modern_independent_tibet"
+              "polity": "modern_independent_tibet"
             }
           ],
           "span": 4
@@ -623,14 +623,14 @@
         {
           "stack": [
             {
-              "regime": "british_raj",
+              "polity": "british_raj",
               "label": "British Indian Empire",
               "note": null
             },
             {
               "label": "Sikkim (British protectorate)",
               "note": null,
-              "regime": "sikkim"
+              "polity": "sikkim"
             }
           ],
           "span": 1
@@ -638,7 +638,7 @@
         {
           "label": "Bhutan (British protectorate · Wangchuck dynasty from 1907)",
           "span": 1,
-          "regime": "bhutan"
+          "polity": "bhutan"
         }
       ]
     },
@@ -653,12 +653,12 @@
             {
               "label": "Dominion of India",
               "note": "1947–1950",
-              "regime": "dominion_of_india"
+              "polity": "dominion_of_india"
             },
             {
               "label": "Jammu & Kashmir (princely state — accession dispute)",
               "note": null,
-              "regime": "jammu_kashmir"
+              "polity": "jammu_kashmir"
             }
           ],
           "span": 1
@@ -666,14 +666,14 @@
         {
           "stack": [
             {
-              "regime": "peoples_republic_of_china",
+              "polity": "peoples_republic_of_china",
               "label": "People's Republic of China",
               "note": "from 1950"
             },
             {
               "label": "Tibet Autonomous Region · Qinghai Province · Sichuan Province",
               "note": null,
-              "regime": "tibet_autonomous_region"
+              "polity": "tibet_autonomous_region"
             },
             {
               "label": "Central Tibetan Administration (government-in-exile, Dharamsala)",
@@ -687,12 +687,12 @@
             {
               "label": "Dominion of India",
               "note": "1947–1950",
-              "regime": "dominion_of_india"
+              "polity": "dominion_of_india"
             },
             {
               "label": "Sikkim Kingdom (Indian protectorate)",
               "note": "1950–1975",
-              "regime": "sikkim_kingdom"
+              "polity": "sikkim_kingdom"
             }
           ],
           "span": 1
@@ -700,7 +700,7 @@
         {
           "label": "Kingdom of Bhutan (independent from 1949)",
           "span": 1,
-          "regime": "kingdom_of_bhutan"
+          "polity": "kingdom_of_bhutan"
         }
       ]
     },
@@ -710,7 +710,7 @@
         {
           "stack": [
             {
-              "regime": "republic_of_india",
+              "polity": "republic_of_india",
               "label": "Republic of India",
               "note": null
             },
@@ -722,14 +722,14 @@
           "span": 1
         },
         {
-          "regime": "peoples_republic_of_china",
+          "polity": "peoples_republic_of_china",
           "label": "People's Republic of China (continuing)",
           "span": 4
         },
         {
           "stack": [
             {
-              "regime": "republic_of_india",
+              "polity": "republic_of_india",
               "label": "Republic of India — Sikkim State (from 1975)",
               "note": null
             }
@@ -739,7 +739,7 @@
         {
           "label": "Kingdom of Bhutan",
           "span": 1,
-          "regime": "kingdom_of_bhutan"
+          "polity": "kingdom_of_bhutan"
         }
       ]
     }

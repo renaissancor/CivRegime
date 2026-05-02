@@ -388,7 +388,7 @@ function renderSuccessionGraph(svgSelector, polities, edges) {
 ### Click/Selection
 - **Click polity:** Show detailed info (name, dates, territories, ruling ethnicity)
 - **Click edge:** Show succession details (transition type, shared territories, temporal gap)
-- **Filter by ethnicity:** Show only regimes with selected ethnicity
+- **Filter by ethnicity:** Show only polities with selected ethnicity
 
 ### Zoom/Pan
 - Allow panning and zooming the graph

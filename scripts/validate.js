@@ -5,11 +5,11 @@
  * Checks:
  *   1. No duplicate IDs within any entity type
  *   2. All foreign key references resolve
- *   3. Required fields present on every regime
+ *   3. Required fields present on every polity
  *   4. Date validity (start < end where both exist)
  *   5. Succession integrity (both ends exist, no self-loops)
  *   6. Succession type is a known value
- *   7. Region integrity (territory FK resolves, period regime FKs resolve)
+ *   7. Region integrity (territory FK resolves, period polity FKs resolve)
  */
 
 const fs   = require('fs');
@@ -28,7 +28,7 @@ function ok(msg)   { console.log(  `  ✓  ${msg}`); }
 // ── Build lookup sets ─────────────────────────────────────────────────────────
 
 const sets = {
-  regimes:     new Set(db.regimes.map(r => r.id)),
+  polities:     new Set(db.polities.map(r => r.id)),
   territories: new Set(db.territories.map(t => t.id)),
   languages:   new Set(db.languages.map(l => l.id)),
   religions:   new Set(db.religions.map(r => r.id)),
@@ -52,7 +52,7 @@ function checkDuplicates(items, label) {
 }
 
 console.log('\n── Duplicate IDs ────────────────────────────────────────');
-checkDuplicates(db.regimes,     'regimes');
+checkDuplicates(db.polities,     'polities');
 checkDuplicates(db.territories, 'territories');
 checkDuplicates(db.provinces,   'provinces');
 checkDuplicates(db.languages,   'languages');
@@ -61,21 +61,21 @@ checkDuplicates(db.governments || [],  'governments');
 checkDuplicates(db.ethnicities, 'ethnicities');
 if (!errors) ok('no duplicates');
 
-// ── 2. Required fields on regimes ─────────────────────────────────────────────
+// ── 2. Required fields on polities ─────────────────────────────────────────────
 
-console.log('\n── Required regime fields ───────────────────────────────');
+console.log('\n── Required polity fields ───────────────────────────────');
 const REQUIRED = ['id', 'name', 'ruling_ethnicity', 'start'];
 let missingFields = 0;
 
-for (const r of db.regimes) {
+for (const r of db.polities) {
   for (const f of REQUIRED) {
     if (r[f] == null || r[f] === '') {
-      err(`regime "${r.id || '?'}": missing required field "${f}"`);
+      err(`polity "${r.id || '?'}": missing required field "${f}"`);
       missingFields++;
     }
   }
-  if (!r.ideology?.religion)   warn(`regime "${r.id}": missing ideology.religion`);
-  if (!r.ideology?.government) warn(`regime "${r.id}": missing ideology.government`);
+  if (!r.ideology?.religion)   warn(`polity "${r.id}": missing ideology.religion`);
+  if (!r.ideology?.government) warn(`polity "${r.id}": missing ideology.government`);
 }
 if (!missingFields) ok('all required fields present');
 
@@ -83,9 +83,9 @@ if (!missingFields) ok('all required fields present');
 
 console.log('\n── Date validity ────────────────────────────────────────');
 let badDates = 0;
-for (const r of db.regimes) {
+for (const r of db.polities) {
   if (r.start != null && r.end != null && r.start >= r.end) {
-    err(`regime "${r.id}": start (${r.start}) >= end (${r.end})`);
+    err(`polity "${r.id}": start (${r.start}) >= end (${r.end})`);
     badDates++;
   }
 }
@@ -103,8 +103,8 @@ function checkFK(label, value, lookupSet) {
   }
 }
 
-for (const r of db.regimes) {
-  const ctx = `regime "${r.id}"`;
+for (const r of db.polities) {
+  const ctx = `polity "${r.id}"`;
   checkFK(`${ctx} ruling_ethnicity`, r.ruling_ethnicity, sets.ethnicities);
   checkFK(`${ctx} cultural_language`, r.cultural_language, sets.languages);
   checkFK(`${ctx} ideology.religion`, r.ideology?.religion, sets.religions);
@@ -131,12 +131,12 @@ for (const s of db.successions) {
     err(`succession self-loop: "${s.from}"`);
     badSuccessions++;
   }
-  if (!sets.regimes.has(s.from)) {
-    err(`succession from "${s.from}": regime not found`);
+  if (!sets.polities.has(s.from)) {
+    err(`succession from "${s.from}": polity not found`);
     badSuccessions++;
   }
-  if (!sets.regimes.has(s.to)) {
-    err(`succession to "${s.to}": regime not found`);
+  if (!sets.polities.has(s.to)) {
+    err(`succession to "${s.to}": polity not found`);
     badSuccessions++;
   }
   if (s.type && !VALID_SUCCESSION_TYPES.has(s.type)) {
@@ -158,11 +158,11 @@ for (const t of db.territories) {
     const p = periods[i];
     const ctx = `territory "${t.id}" period [${p.start}–${p.end ?? '?'}]`;
 
-    // Regime FK
-    if (p.regime === undefined) {
-      err(`${ctx}: missing "regime" field — use null for explicitly uncontrolled periods`);
-    } else if (p.regime !== null && !sets.regimes.has(p.regime)) {
-      warn(`${ctx}: regime "${p.regime}" not found — may not be added yet`);
+    // Polity FK
+    if (p.polity === undefined) {
+      err(`${ctx}: missing "polity" field — use null for explicitly uncontrolled periods`);
+    } else if (p.polity !== null && !sets.polities.has(p.polity)) {
+      warn(`${ctx}: polity "${p.polity}" not found — may not be added yet`);
     }
 
     // Dominant ethnicity FK
@@ -206,8 +206,8 @@ for (const province of db.provinces) {
   }
 
   for (const p of (props.periods || [])) {
-    if (p.regime !== null && p.regime !== undefined && !sets.regimes.has(p.regime)) {
-      warn(`${ctx} period [${p.start}]: regime "${p.regime}" not found — may not be added yet`);
+    if (p.polity !== null && p.polity !== undefined && !sets.polities.has(p.polity)) {
+      warn(`${ctx} period [${p.start}]: polity "${p.polity}" not found — may not be added yet`);
     }
   }
 }
@@ -244,9 +244,9 @@ for (const s of db.successions) {
 }
 if (!badSharedTerr) ok('all shared_territories resolve');
 
-// ── 10. History panel regime references ──────────────────────────────────────
+// ── 10. History panel polity references ──────────────────────────────────────
 
-console.log('\n── History panel regime references ──────────────────────');
+console.log('\n── History panel polity references ──────────────────────');
 let badPanelRefs = 0;
 let panelCount = 0;
 let cellCount = 0;
@@ -278,8 +278,8 @@ for (const { file, data } of panels) {
       const entries = [...(cell.stack || []), ...(cell.split || [])];
       for (const entry of entries) {
         cellCount++;
-        if (entry.regime && !sets.regimes.has(entry.regime)) {
-          warn(`panel "${panelId}": regime ref "${entry.regime}" not found in polity data`);
+        if (entry.polity && !sets.polities.has(entry.polity)) {
+          warn(`panel "${panelId}": polity ref "${entry.polity}" not found in polity data`);
           badPanelRefs++;
         }
       }
@@ -287,8 +287,8 @@ for (const { file, data } of panels) {
   }
 }
 
-if (!badPanelRefs) ok(`${panelCount} panels, ${cellCount} cells — all regime refs valid`);
-else ok(`${panelCount} panels scanned, ${badPanelRefs} unresolved regime ref(s)`);
+if (!badPanelRefs) ok(`${panelCount} panels, ${cellCount} cells — all polity refs valid`);
+else ok(`${panelCount} panels scanned, ${badPanelRefs} unresolved polity ref(s)`);
 
 // ── 11. Taxonomy tree integrity ──────────────────────────────────────────────
 
@@ -331,7 +331,7 @@ console.log('\n── Government FK validation ───────────
 let badGov = 0;
 const govSet = new Set((db.governments || []).map(g => g.id));
 
-for (const r of db.regimes) {
+for (const r of db.polities) {
   const gov = r.ideology?.government;
   if (gov && !govSet.has(gov)) {
     err(`polity "${r.id}": government "${gov}" not found in government.csv`);
@@ -343,7 +343,7 @@ if (!badGov) ok(`all polity government refs resolve (${govSet.size} government t
 // ── Summary ───────────────────────────────────────────────────────────────────
 
 console.log('\n─────────────────────────────────────────────────────────');
-console.log(`Regimes: ${db.regimes.length}  |  Successions: ${db.successions.length}  |  Territories: ${db.territories.length}  |  Provinces: ${db.provinces.length}`);
+console.log(`Polities: ${db.polities.length}  |  Successions: ${db.successions.length}  |  Territories: ${db.territories.length}  |  Provinces: ${db.provinces.length}`);
 console.log(`Languages: ${db.languages.length}  |  Religions: ${db.religions.length}  |  Ethnicities: ${db.ethnicities.length}`);
 console.log(`Dynasties: ${(db.dynasties||[]).length}  |  Governments: ${(db.governments||[]).length}`);
 console.log(`History panels: ${panelCount}  |  Panel cells: ${cellCount}`);

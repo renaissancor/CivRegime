@@ -31,7 +31,7 @@
             {
               "label": "Old Kingdom (3rd–6th Dynasty)",
               "note": "c.2686–2181 BCE",
-              "regime": "old_kingdom"
+              "polity": "old_kingdom"
             },
             {
               "label": "First Intermediate Period",
@@ -40,7 +40,7 @@
             {
               "label": "Middle Kingdom (11th–13th Dynasty)",
               "note": "c.2055–1650 BCE",
-              "regime": "middle_kingdom"
+              "polity": "middle_kingdom"
             },
             {
               "label": "Second Intermediate Period — Hyksos (Delta) · Theban 17th (Upper)",
@@ -58,7 +58,7 @@
       },
       "cells": [
         {
-          "regime": "new_kingdom_egypt",
+          "polity": "new_kingdom_egypt",
           "label": "18th Dynasty — Ahmose I · Thutmose III · Akhenaten · Tutankhamun",
           "span": 2
         }
@@ -68,7 +68,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "new_kingdom_egypt",
+          "polity": "new_kingdom_egypt",
           "label": "19th Dynasty (Ramessid) — Seti I · Ramesses II · Battle of Kadesh",
           "span": 2
         }
@@ -78,7 +78,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "new_kingdom_egypt",
+          "polity": "new_kingdom_egypt",
           "label": "20th Dynasty (Ramessid) — Ramesses III · Sea Peoples invasions · decline",
           "span": 2
         }
@@ -95,7 +95,7 @@
             {
               "label": "21st Dynasty (Tanis)",
               "note": "1069–945 BCE",
-              "regime": "21st_dynasty"
+              "polity": "21st_dynasty"
             }
           ],
           "span": 1
@@ -105,7 +105,7 @@
             {
               "label": "High Priests of Amun (Thebes)",
               "note": "1080–945 BCE",
-              "regime": "high_priests_of_amun"
+              "polity": "high_priests_of_amun"
             }
           ],
           "span": 1
@@ -120,12 +120,12 @@
             {
               "label": "22nd Dynasty (Bubastite / Libyan)",
               "note": "945–720 BCE",
-              "regime": "22nd_dynasty"
+              "polity": "22nd_dynasty"
             },
             {
               "label": "24th Dynasty (Sais)",
               "note": "732–720 BCE",
-              "regime": "24th_dynasty"
+              "polity": "24th_dynasty"
             }
           ],
           "span": 1
@@ -139,7 +139,7 @@
             {
               "label": "23rd Dynasty (Leontopolis)",
               "note": "837–728 BCE",
-              "regime": "23rd_dynasty"
+              "polity": "23rd_dynasty"
             }
           ],
           "span": 1
@@ -150,7 +150,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "meroitic_kingdom",
+          "polity": "meroitic_kingdom",
           "label": "25th Dynasty (Kushite / Nubian) — unified Egypt from the south",
           "span": 2
         }
@@ -165,14 +165,14 @@
         {
           "stack": [
             {
-              "regime": "neo_assyrian_empire",
+              "polity": "neo_assyrian_empire",
               "label": "Neo-Assyrian conquest",
               "note": "671–656 BCE"
             },
             {
               "label": "26th Dynasty (Saite) — Psamtik I; native revival",
               "note": "664–525 BCE",
-              "regime": "26th_dynasty"
+              "polity": "26th_dynasty"
             }
           ],
           "span": 2
@@ -185,27 +185,27 @@
         {
           "stack": [
             {
-              "regime": "achaemenid_empire",
+              "polity": "achaemenid_empire",
               "label": "Achaemenid / 27th Dynasty",
               "note": "525–404 BCE"
             },
             {
               "label": "28th Dynasty (Amyrtaeus)",
               "note": "404–399 BCE",
-              "regime": "28th_dynasty"
+              "polity": "28th_dynasty"
             },
             {
               "label": "29th Dynasty (Mendes)",
               "note": "399–380 BCE",
-              "regime": "29th_dynasty"
+              "polity": "29th_dynasty"
             },
             {
               "label": "30th Dynasty (Nectanebo) — last native pharaohs",
               "note": "380–343 BCE",
-              "regime": "30th_dynasty"
+              "polity": "30th_dynasty"
             },
             {
-              "regime": "achaemenid_empire",
+              "polity": "achaemenid_empire",
               "label": "Achaemenid / 31st Dynasty",
               "note": "343–332 BCE"
             }
@@ -221,7 +221,7 @@
       },
       "cells": [
         {
-          "regime": "macedonian_empire",
+          "polity": "macedonian_empire",
           "label": "Argead dynasty — Alexander the Great · Diadochi",
           "span": 2
         }
@@ -231,7 +231,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "ptolemaic_egypt",
+          "polity": "ptolemaic_egypt",
           "label": "Ptolemaic dynasty — Alexandria; Cleopatra VII (last pharaoh)",
           "span": 2
         }
@@ -246,19 +246,19 @@
         {
           "stack": [
             {
-              "regime": "roman_republic",
+              "polity": "roman_republic",
               "label": "Roman Republic",
               "note": "30–27 BCE"
             },
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire",
               "note": "27 BCE–284 CE"
             },
             {
               "label": "Palmyrene Empire (Zenobia)",
               "note": "270–272 CE",
-              "regime": "palmyrene_empire"
+              "polity": "palmyrene_empire"
             }
           ],
           "span": 2
@@ -271,22 +271,22 @@
         {
           "stack": [
             {
-              "regime": "roman_empire",
+              "polity": "roman_empire",
               "label": "Roman Empire (Christian)",
               "note": "284–395"
             },
             {
-              "regime": "byzantine_empire",
+              "polity": "byzantine_empire",
               "label": "Byzantine Empire",
               "note": "395–619"
             },
             {
-              "regime": "sassanid_empire",
+              "polity": "sassanid_empire",
               "label": "Sassanid occupation",
               "note": "619–629"
             },
             {
-              "regime": "byzantine_empire",
+              "polity": "byzantine_empire",
               "label": "Byzantine restored",
               "note": "629–642"
             }
@@ -304,34 +304,34 @@
         {
           "stack": [
             {
-              "regime": "rashidun_caliphate",
+              "polity": "rashidun_caliphate",
               "label": "Rashidun Caliphate",
               "note": "641–661"
             },
             {
-              "regime": "umayyad_caliphate",
+              "polity": "umayyad_caliphate",
               "label": "Umayyad Caliphate",
               "note": "661–750"
             },
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid Caliphate",
               "note": "750–868"
             },
             {
               "label": "Tulunid dynasty (semi-autonomous)",
               "note": "868–905",
-              "regime": "tulunid_dynasty"
+              "polity": "tulunid_dynasty"
             },
             {
-              "regime": "abbasid_caliphate",
+              "polity": "abbasid_caliphate",
               "label": "Abbasid restored",
               "note": "905–935"
             },
             {
               "label": "Ikhshidid dynasty",
               "note": "935–969",
-              "regime": "ikhshidid_dynasty"
+              "polity": "ikhshidid_dynasty"
             }
           ],
           "span": 2
@@ -344,12 +344,12 @@
         {
           "stack": [
             {
-              "regime": "fatimid_caliphate",
+              "polity": "fatimid_caliphate",
               "label": "Fatimid Caliphate — Cairo founded (969); Islamic Golden Age",
               "note": "969–1171"
             },
             {
-              "regime": "ayyubid_sultanate",
+              "polity": "ayyubid_sultanate",
               "label": "Ayyubid Sultanate — Saladin; Crusader Wars",
               "note": "1171–1250"
             }
@@ -365,7 +365,7 @@
       },
       "cells": [
         {
-          "regime": "mamluk_sultanate",
+          "polity": "mamluk_sultanate",
           "label": "Bahri Mamluk Sultanate — defeat of Mongols (Ain Jalut 1260); peak power",
           "span": 2
         }
@@ -375,7 +375,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "mamluk_sultanate",
+          "polity": "mamluk_sultanate",
           "label": "Burji Mamluk Sultanate — Circassian; Timur invasion; decline",
           "span": 2
         }
@@ -390,7 +390,7 @@
         {
           "stack": [
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman Empire (conquest of Egypt 1517)",
               "note": "1517–1798"
             },
@@ -413,14 +413,14 @@
               "note": "1798–1801"
             },
             {
-              "regime": "ottoman_empire",
+              "polity": "ottoman_empire",
               "label": "Ottoman restored",
               "note": "1801–1805"
             },
             {
               "label": "Muhammad Ali dynasty (Khedivate of Egypt)",
               "note": "1805–1867",
-              "regime": "muhammad_ali_dynasty"
+              "polity": "muhammad_ali_dynasty"
             }
           ],
           "span": 2
@@ -451,12 +451,12 @@
             {
               "label": "Khedivate of Egypt",
               "note": "1867–1914",
-              "regime": "khedivate_of_egypt"
+              "polity": "khedivate_of_egypt"
             },
             {
               "label": "British Protectorate",
               "note": "1914–1922",
-              "regime": "british_protectorate"
+              "polity": "british_protectorate"
             }
           ],
           "span": 1
@@ -467,7 +467,7 @@
       "era": null,
       "cells": [
         {
-          "regime": "kingdom_of_egypt",
+          "polity": "kingdom_of_egypt",
           "label": "Kingdom of Egypt (nominal independence; British influence)",
           "span": 2
         }
@@ -482,14 +482,14 @@
         {
           "stack": [
             {
-              "regime": "republic_of_egypt",
+              "polity": "republic_of_egypt",
               "label": "Republic of Egypt",
               "note": "1953–1958"
             },
             {
               "label": "United Arab Republic (union with Syria)",
               "note": "1958–1971",
-              "regime": "united_arab_republic"
+              "polity": "united_arab_republic"
             }
           ],
           "span": 2
@@ -502,7 +502,7 @@
         {
           "label": "Arab Republic of Egypt",
           "span": 2,
-          "regime": "republic_of_egypt"
+          "polity": "republic_of_egypt"
         }
       ]
     }

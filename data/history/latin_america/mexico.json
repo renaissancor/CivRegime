@@ -34,7 +34,7 @@
         {
           "label": "Olmec (La Venta · San Lorenzo)",
           "span": 1,
-          "regime": "olmec"
+          "polity": "olmec"
         },
         {
           "label": "Early Maya settlements",
@@ -43,7 +43,7 @@
         {
           "label": "Zapotec (early San José Mogote)",
           "span": 1,
-          "regime": "zapotec"
+          "polity": "zapotec"
         }
       ]
     },
@@ -56,17 +56,17 @@
         {
           "label": "Teotihuacan",
           "span": 1,
-          "regime": "teotihuacan"
+          "polity": "teotihuacan"
         },
         {
           "label": "Maya City-States (Tikal · Calakmul · Palenque)",
           "span": 1,
-          "regime": "maya_city_states"
+          "polity": "maya_city_states"
         },
         {
           "label": "Zapotec (Monte Albán)",
           "span": 1,
-          "regime": "zapotec"
+          "polity": "zapotec"
         }
       ]
     },
@@ -81,12 +81,12 @@
             {
               "label": "Toltec Empire (Tula)",
               "note": "900–1168",
-              "regime": "toltec_empire"
+              "polity": "toltec_empire"
             },
             {
               "label": "Aztec Empire (Mexico-Tenochtitlan)",
               "note": "1428–1521",
-              "regime": "aztec_empire"
+              "polity": "aztec_empire"
             }
           ],
           "span": 1
@@ -94,7 +94,7 @@
         {
           "label": "Postclassic Maya (Mayapan · K'iche' · Uxmal)",
           "span": 1,
-          "regime": "postclassic_maya"
+          "polity": "postclassic_maya"
         },
         {
           "label": "Mixtec kingdoms",
@@ -111,7 +111,7 @@
         {
           "label": "Viceroyalty of New Spain (1521–1821)",
           "span": 3,
-          "regime": "new_spain"
+          "polity": "new_spain"
         }
       ]
     },
@@ -126,7 +126,7 @@
             {
               "label": "First Mexican Empire (Iturbide)",
               "note": "1821–1823",
-              "regime": "first_mexican_empire"
+              "polity": "first_mexican_empire"
             },
             {
               "label": "First Mexican Republic",
@@ -135,7 +135,7 @@
             {
               "label": "Second Mexican Empire (Maximilian)",
               "note": "1864–1867",
-              "regime": "second_mexican_empire"
+              "polity": "second_mexican_empire"
             }
           ],
           "span": 3
@@ -151,7 +151,7 @@
         {
           "label": "Mexico — Revolution (1910) · PRI era · Democratic transition",
           "span": 3,
-          "regime": "mexico"
+          "polity": "mexico"
         }
       ]
     }

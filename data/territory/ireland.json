@@ -1,10 +1,10 @@
 {
   "id": "ireland",
   "name": "ireland",
-  "regime_count": 1,
-  "regimes": [
+  "polity_count": 1,
+  "polities": [
     {
-      "regime_id": "united_kingdom",
+      "polity_id": "united_kingdom",
       "start": 1801
     }
   ]

@@ -1,44 +1,44 @@
 {
   "id": "japanese_archipelago",
   "name": "japanese_archipelago",
-  "regime_count": 8,
-  "regimes": [
+  "polity_count": 8,
+  "polities": [
     {
-      "regime_id": "yamato_period",
+      "polity_id": "yamato_period",
       "start": 250,
       "end": 710
     },
     {
-      "regime_id": "nara_period",
+      "polity_id": "nara_period",
       "start": 710,
       "end": 794
     },
     {
-      "regime_id": "heian_period",
+      "polity_id": "heian_period",
       "start": 794,
       "end": 1185
     },
     {
-      "regime_id": "feudal_japan",
+      "polity_id": "feudal_japan",
       "start": 1185,
       "end": 1603
     },
     {
-      "regime_id": "tokugawa_shogunate",
+      "polity_id": "tokugawa_shogunate",
       "start": 1603,
       "end": 1868
     },
     {
-      "regime_id": "empire_of_japan",
+      "polity_id": "empire_of_japan",
       "start": 1868,
       "end": 1947
     },
     {
-      "regime_id": "modern_japan",
+      "polity_id": "modern_japan",
       "start": 1947
     },
     {
-      "regime_id": "ryukyu_kingdom",
+      "polity_id": "ryukyu_kingdom",
       "start": 1429,
       "end": 1879
     }

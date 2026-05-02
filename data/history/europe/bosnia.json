@@ -35,7 +35,7 @@
           "stack": [
             {
               "label": "Illyrians — Pannonian tribes (Breuci · Oseriates)",
-              "regime": "illyrians"
+              "polity": "illyrians"
             }
           ],
           "span": 1
@@ -45,7 +45,7 @@
             {
               "label": "Illyrians — Daesitiates",
               "note": "core of the Great Illyrian Revolt 6–9 CE",
-              "regime": "illyrians"
+              "polity": "illyrians"
             }
           ],
           "span": 1
@@ -54,7 +54,7 @@
           "stack": [
             {
               "label": "Celto-Illyrians — Delmatae",
-              "regime": "celto_illyrians"
+              "polity": "celto_illyrians"
             }
           ],
           "span": 1
@@ -68,12 +68,12 @@
           "stack": [
             {
               "label": "Roman Empire — Illyricum · Dalmatia province",
-              "regime": "roman_empire"
+              "polity": "roman_empire"
             },
             {
               "label": "Western Roman Empire — decline",
               "note": "4th–5th c.",
-              "regime": "western_roman_empire"
+              "polity": "western_roman_empire"
             }
           ],
           "span": 3
@@ -91,12 +91,12 @@
             {
               "label": "Visigoth transit",
               "note": "c.401 CE",
-              "regime": "visigoth_transit"
+              "polity": "visigoth_transit"
             },
             {
               "label": "Ostrogothic Kingdom",
               "note": "493–535 CE",
-              "regime": "ostrogothic_kingdom"
+              "polity": "ostrogothic_kingdom"
             }
           ],
           "span": 1
@@ -106,7 +106,7 @@
             {
               "label": "Ostrogothic Kingdom",
               "note": "493–535 CE",
-              "regime": "ostrogothic_kingdom"
+              "polity": "ostrogothic_kingdom"
             }
           ],
           "span": 1
@@ -115,7 +115,7 @@
           "stack": [
             {
               "label": "Eastern Roman / Byzantine Empire",
-              "regime": "byzantine_empire"
+              "polity": "byzantine_empire"
             }
           ],
           "span": 1
@@ -130,12 +130,12 @@
             {
               "label": "Avar Khaganate",
               "note": "567–796 CE",
-              "regime": "avar_khaganate"
+              "polity": "avar_khaganate"
             },
             {
               "label": "South Slavic migration",
               "note": "6th–7th c.",
-              "regime": "south_slavic_migration"
+              "polity": "south_slavic_migration"
             }
           ],
           "span": 3
@@ -148,7 +148,7 @@
         {
           "label": "South Slavs settled — early Serbian & Croatian tribal areas",
           "span": 3,
-          "regime": "south_slavs_settled"
+          "polity": "south_slavs_settled"
         }
       ]
     },
@@ -163,7 +163,7 @@
             {
               "label": "Croatian Principality",
               "note": "c.800–925",
-              "regime": "croatian_principality"
+              "polity": "croatian_principality"
             }
           ],
           "span": 1
@@ -172,11 +172,11 @@
           "stack": [
             {
               "label": "Bulgars (border pressure)",
-              "regime": "bulgars"
+              "polity": "bulgars"
             },
             {
               "label": "Serbian tribes (Zachumlia)",
-              "regime": "serbian_tribes"
+              "polity": "serbian_tribes"
             }
           ],
           "span": 1
@@ -185,7 +185,7 @@
           "stack": [
             {
               "label": "Serbian Kingdom — Zachumlia / Hum",
-              "regime": "serbian_kingdom"
+              "polity": "serbian_kingdom"
             }
           ],
           "span": 1
@@ -199,7 +199,7 @@
           "stack": [
             {
               "label": "Croatia → Kingdom of Hungary",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 1
@@ -209,7 +209,7 @@
             {
               "label": "Bosnian Banate",
               "note": "Ban Kulin 1180–1204 · autonomous from Hungary",
-              "regime": "bosnian_banate"
+              "polity": "bosnian_banate"
             }
           ],
           "span": 1
@@ -218,7 +218,7 @@
           "stack": [
             {
               "label": "Serbian Kingdom / Byzantine (Hum)",
-              "regime": "serbian_kingdom"
+              "polity": "serbian_kingdom"
             }
           ],
           "span": 1
@@ -232,7 +232,7 @@
           "stack": [
             {
               "label": "Kingdom of Hungary (nominal suzerainty)",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 1
@@ -242,7 +242,7 @@
             {
               "label": "Bosnian Kingdom — Kotromanić dynasty",
               "note": "14th c.",
-              "regime": "bosnian_kingdom"
+              "polity": "bosnian_kingdom"
             }
           ],
           "span": 1
@@ -251,7 +251,7 @@
           "stack": [
             {
               "label": "Bosnian Kingdom · Hum region absorbed",
-              "regime": "bosnian_kingdom"
+              "polity": "bosnian_kingdom"
             }
           ],
           "span": 1
@@ -265,7 +265,7 @@
           "stack": [
             {
               "label": "Kingdom of Hungary",
-              "regime": "kingdom_of_hungary"
+              "polity": "kingdom_of_hungary"
             }
           ],
           "span": 1
@@ -275,7 +275,7 @@
             {
               "label": "Bosnian Kingdom — Tvrtko I",
               "note": "r.1353–1391, peak power",
-              "regime": "bosnian_kingdom"
+              "polity": "bosnian_kingdom"
             }
           ],
           "span": 1
@@ -285,7 +285,7 @@
             {
               "label": "Duchy of Saint Sava — Herceg Stefan Vukčić",
               "note": "1448–1482 · origin of 'Herzegovina'",
-              "regime": "duchy_of_saint_sava"
+              "polity": "duchy_of_saint_sava"
             }
           ],
           "span": 1
@@ -300,7 +300,7 @@
             {
               "label": "Bosnian Kingdom → Ottoman conquest",
               "note": "1463",
-              "regime": "bosnian_kingdom"
+              "polity": "bosnian_kingdom"
             }
           ],
           "span": 2
@@ -323,7 +323,7 @@
       },
       "cells": [
         {
-          "regime": "ottoman_empire",
+          "polity": "ottoman_empire",
           "label": "Ottoman Empire — Bosnia Eyalet / Vilayet (1463–1878) · Muslim, Orthodox & Catholic communities",
           "span": 3
         }
@@ -340,11 +340,11 @@
             {
               "label": "Austria-Hungary — Bosnia-Herzegovina Condominium",
               "note": "occupied 1878 · annexed 1908",
-              "regime": "austria_hungary"
+              "polity": "austria_hungary"
             },
             {
               "label": "Joint administration (k.u.k. — neither Austrian nor Hungarian land)",
-              "regime": "joint_administration"
+              "polity": "joint_administration"
             }
           ],
           "span": 3
@@ -373,12 +373,12 @@
             {
               "label": "Independent State of Croatia (NDH) — Axis puppet",
               "note": "1941–1945",
-              "regime": "independent_state_of_croatia"
+              "polity": "independent_state_of_croatia"
             },
             {
               "label": "Yugoslav Partisans — liberation",
               "note": "1945",
-              "regime": "yugoslav_partisans"
+              "polity": "yugoslav_partisans"
             }
           ],
           "span": 3
@@ -394,7 +394,7 @@
         {
           "label": "SFR Yugoslavia — Socialist Republic of Bosnia & Herzegovina (1945–1992)",
           "span": 3,
-          "regime": "sfr_yugoslavia"
+          "polity": "sfr_yugoslavia"
         }
       ]
     },
@@ -409,7 +409,7 @@
             {
               "label": "Republika Srpska",
               "note": "1992–1995 · Banja Luka capital",
-              "regime": "republika_srpska"
+              "polity": "republika_srpska"
             }
           ],
           "span": 1
@@ -419,7 +419,7 @@
             {
               "label": "Republic of Bosnia-Herzegovina",
               "note": "Sarajevo besieged 1992–1995",
-              "regime": "republic_of_bosnia_herzegovina"
+              "polity": "republic_of_bosnia_herzegovina"
             }
           ],
           "span": 1
@@ -429,12 +429,12 @@
             {
               "label": "Herzeg-Bosnia Croatian Republic",
               "note": "1991–1994",
-              "regime": "herzeg_bosnia_croatian_republic"
+              "polity": "herzeg_bosnia_croatian_republic"
             },
             {
               "label": "Washington Agreement (Croat-Bosniak federation)",
               "note": "1994",
-              "regime": "washington_agreement"
+              "polity": "washington_agreement"
             }
           ],
           "span": 1
@@ -449,7 +449,7 @@
             {
               "label": "Republika Srpska (entity within BiH)",
               "note": "Dayton 1995–present",
-              "regime": "republika_srpska"
+              "polity": "republika_srpska"
             }
           ],
           "span": 1
@@ -459,7 +459,7 @@
             {
               "label": "Federation of Bosnia & Herzegovina (Bosniak-Croat)",
               "note": "Dayton 1995–present",
-              "regime": "federation_of_bosnia_herzegovina"
+              "polity": "federation_of_bosnia_herzegovina"
             }
           ],
           "span": 2

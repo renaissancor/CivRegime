@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 // ============================================================
 // Extract & categorize all labels from history panel JSONs
-// Outputs: csvs/panel_labels.csv
-// Usage: node scripts/extract_regimes.js
+// Outputs: csvs/derived/panel_labels.csv
+// Usage: node scripts/extract_labels.js
 // ============================================================
 
 const fs = require('fs');
 const path = require('path');
 
 const HISTORY_DIR = path.join(__dirname, '..', 'data', 'history');
-const OUT_FILE = path.join(__dirname, '..', 'csvs', 'panel_labels.csv');
+const OUT_FILE = path.join(__dirname, '..', 'csvs', 'derived', 'panel_labels.csv');
 
 // Load existing polity IDs for matching
 const polityCSV = fs.readFileSync(path.join(__dirname, '..', 'csvs', 'polity.csv'), 'utf8');
@@ -65,7 +65,7 @@ const DYNASTY_PATTERNS = [
   /\b(sassanid|sasanian|kushano)\b/i,
   /\b(ikshvaku|satavahana|shunga|kanva|nanda|maurya|gupta)\b/i,
   /\b(melikdom|atabeg|atabegate)\b/i,
-  /\b(regime)\b/i,
+  /\b(polity)\b/i,
 ];
 
 const CULTURE_PATTERNS = [
@@ -137,9 +137,9 @@ function categorize(label, note) {
   // 2. People/ethnic (before polity, since "X people" shouldn't match polity)
   if (/\bpeople[s]?\b/i.test(label) || /\btribe[s]?\b/i.test(label)) return 'people';
 
-  // 3. Dynasty/regime (within a polity)
+  // 3. Dynasty (within a polity)
   for (const pat of DYNASTY_PATTERNS) {
-    if (pat.test(label)) return 'regime';
+    if (pat.test(label)) return 'dynasty';
   }
 
   // 4. Polity (political entity)
@@ -210,7 +210,7 @@ function extractLabels(panelPath) {
           label: item.label,
           note: item.note || '',
           span: span,
-          existing_polity_link: item.regime || '',
+          existing_polity_link: item.polity || '',
           category: '', // filled below
           suggested_id: '',
         });

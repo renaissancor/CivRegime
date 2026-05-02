@@ -36,7 +36,7 @@
             {
               "label": "Austronesian peoples",
               "note": "c. 3000 BCE–",
-              "regime": "austronesian_peoples"
+              "polity": "austronesian_peoples"
             }
           ],
           "span": 3
@@ -54,12 +54,12 @@
             {
               "label": "Tondo (Indianized river kingdom)",
               "note": "c. 900–1589",
-              "regime": "tondo_kingdom"
+              "polity": "tondo_kingdom"
             },
             {
               "label": "Namayan (polity on Pasig River)",
               "note": "c. 1175–1571",
-              "regime": "namayan"
+              "polity": "namayan"
             }
           ],
           "span": 1
@@ -69,12 +69,12 @@
             {
               "label": "Rajahnate of Butuan",
               "note": "c. 1001–1521",
-              "regime": "rajahnate_of_butuan"
+              "polity": "rajahnate_of_butuan"
             },
             {
               "label": "Rajahnate of Cebu",
               "note": "c. 1300–1565",
-              "regime": "rajahnate_of_cebu"
+              "polity": "rajahnate_of_cebu"
             }
           ],
           "span": 1
@@ -84,12 +84,12 @@
             {
               "label": "Sultanate of Sulu",
               "note": "c. 1405–1915",
-              "regime": "sultanate_of_sulu"
+              "polity": "sultanate_of_sulu"
             },
             {
               "label": "Sultanate of Maguindanao",
               "note": "c. 1500–1888",
-              "regime": "sultanate_of_maguindanao"
+              "polity": "sultanate_of_maguindanao"
             }
           ],
           "span": 1
@@ -107,12 +107,12 @@
             {
               "label": "Captaincy General of the Philippines (Spanish East Indies)",
               "note": "1565–1898",
-              "regime": "captaincy_general_philippines"
+              "polity": "captaincy_general_philippines"
             },
             {
               "label": "Viceroyalty of New Spain (administrative oversight)",
               "note": "1565–1821",
-              "regime": "viceroyalty_new_spain"
+              "polity": "viceroyalty_new_spain"
             }
           ],
           "span": 2
@@ -122,12 +122,12 @@
             {
               "label": "Sultanate of Sulu (resists Spain — partial independence)",
               "note": "1565–1898",
-              "regime": "sultanate_of_sulu"
+              "polity": "sultanate_of_sulu"
             },
             {
               "label": "Sultanate of Maguindanao (resists Spain)",
               "note": "1565–1888",
-              "regime": "sultanate_of_maguindanao"
+              "polity": "sultanate_of_maguindanao"
             }
           ],
           "span": 1
@@ -146,7 +146,7 @@
             {
               "label": "First Philippine Republic (Malolos Republic)",
               "note": "1899–1901",
-              "regime": "first_philippine_republic"
+              "polity": "first_philippine_republic"
             }
           ],
           "span": 2
@@ -156,7 +156,7 @@
             {
               "label": "Sultanate of Sulu (continuing resistance)",
               "note": "–1915",
-              "regime": "sultanate_of_sulu"
+              "polity": "sultanate_of_sulu"
             }
           ],
           "span": 1
@@ -174,17 +174,17 @@
             {
               "label": "US Military Government",
               "note": "1898–1901",
-              "regime": "us_military_government_philippines"
+              "polity": "us_military_government_philippines"
             },
             {
               "label": "Insular Government of the Philippine Islands",
               "note": "1901–1935",
-              "regime": "insular_government_philippines"
+              "polity": "insular_government_philippines"
             },
             {
               "label": "Commonwealth of the Philippines",
               "note": "1935–1942",
-              "regime": "philippine_commonwealth"
+              "polity": "philippine_commonwealth"
             }
           ],
           "span": 3
@@ -202,7 +202,7 @@
             {
               "label": "Second Philippine Republic (Japanese puppet state)",
               "note": "1943–1945",
-              "regime": "second_philippine_republic"
+              "polity": "second_philippine_republic"
             }
           ],
           "span": 2
@@ -212,7 +212,7 @@
             {
               "label": "Commonwealth government-in-exile (Washington D.C.)",
               "note": "1942–1945",
-              "regime": "philippine_commonwealth"
+              "polity": "philippine_commonwealth"
             }
           ],
           "span": 1
@@ -230,17 +230,17 @@
             {
               "label": "Third Republic of the Philippines",
               "note": "1946–1972",
-              "regime": "third_philippine_republic"
+              "polity": "third_philippine_republic"
             },
             {
               "label": "Fourth Republic — Marcos martial law era",
               "note": "1972–1986",
-              "regime": "fourth_philippine_republic"
+              "polity": "fourth_philippine_republic"
             },
             {
               "label": "Fifth Republic — post-EDSA People Power",
               "note": "1986–",
-              "regime": "fifth_philippine_republic"
+              "polity": "fifth_philippine_republic"
             }
           ],
           "span": 3

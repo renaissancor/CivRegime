@@ -301,7 +301,7 @@
 <nav class="topnav">
   <span class="nav-brand">CivRegime</span>
   <a href="/graph.html" class="nav-link">Graph</a>
-  <a href="/regime/" class="nav-link">Polity</a>
+  <a href="/polity/" class="nav-link">Polity</a>
   <a href="/religion/" class="nav-link">Religion</a>
   <a href="/language/" class="nav-link">Language</a>
   <a href="/ethnicity/" class="nav-link">Ethnicity</a>
@@ -343,17 +343,17 @@
     }
 
     function colorOf(item) {
-      if (item.regime && colorMap[item.regime] != null) {
-        const eth = (colorMap[item.regime] || '').toLowerCase();
+      if (item.polity && colorMap[item.polity] != null) {
+        const eth = (colorMap[item.polity] || '').toLowerCase();
         return ETH_CLASS[eth] || 'eth-default';
       }
-      return item.regime ? 'eth-default' : (item.label ? 'eth-indigenous' : 'eth-default');
+      return item.polity ? 'eth-default' : (item.label ? 'eth-indigenous' : 'eth-default');
     }
 
     function innerHtml(item, noteClass) {
-      const label = item.label || item.regime || '';
-      const body  = item.regime
-        ? `<a href="/regime/?id=${item.regime}" title="${item.regime}">${label}</a>`
+      const label = item.label || item.polity || '';
+      const body  = item.polity
+        ? `<a href="/polity/?id=${item.polity}" title="${item.polity}">${label}</a>`
         : (label || '—');
       return body + (item.note ? `<span class="${noteClass}">${item.note}</span>` : '');
     }
@@ -436,10 +436,10 @@
             html += `<div class="grid-cell split-cell ${sep}" style="${pos}"><div class="split-wrapper">${items}</div></div>`;
 
           } else {
-            const label = cell.label || cell.regime || '';
+            const label = cell.label || cell.polity || '';
             const cls   = colorOf(cell);
-            const body  = cell.regime
-              ? `<a href="/regime/?id=${cell.regime}" title="${cell.regime}">${label}</a>`
+            const body  = cell.polity
+              ? `<a href="/polity/?id=${cell.polity}" title="${cell.polity}">${label}</a>`
               : (label || '—');
             html += `<div class="grid-cell ${label ? cls : 'empty'} ${sep}" style="${pos}">${body}</div>`;
           }

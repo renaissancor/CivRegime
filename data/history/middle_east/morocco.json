@@ -59,7 +59,7 @@
         {
           "label": "Capsian culture · Amazigh / Berber peoples",
           "span": 8,
-          "regime": "capsian_culture"
+          "polity": "capsian_culture"
         }
       ]
     },
@@ -74,12 +74,12 @@
             {
               "label": "Phoenician Tingis",
               "note": "c.800 BCE",
-              "regime": "phoenician_tingis"
+              "polity": "phoenician_tingis"
             },
             {
               "label": "Mauretanian city",
               "note": "→ 42 CE",
-              "regime": "mauretanian_city"
+              "polity": "mauretanian_city"
             }
           ],
           "span": 1
@@ -89,12 +89,12 @@
             {
               "label": "Phoenician Rusaddir",
               "note": "c.600 BCE",
-              "regime": "phoenician_rusaddir"
+              "polity": "phoenician_rusaddir"
             },
             {
               "label": "Berber / Mauretania",
               "note": "",
-              "regime": "berber"
+              "polity": "berber"
             }
           ],
           "span": 1
@@ -104,12 +104,12 @@
             {
               "label": "Phoenician Lixus",
               "note": "c.1100 BCE",
-              "regime": "phoenician_lixus"
+              "polity": "phoenician_lixus"
             },
             {
               "label": "Mauretanian Atlantic",
               "note": "",
-              "regime": "mauretanian_atlantic"
+              "polity": "mauretanian_atlantic"
             }
           ],
           "span": 1
@@ -123,7 +123,7 @@
             {
               "label": "Mauretania Kingdom",
               "note": "3rd c. BCE–42 CE",
-              "regime": "mauretania_kingdom"
+              "polity": "mauretania_kingdom"
             }
           ],
           "span": 2
@@ -131,17 +131,17 @@
         {
           "label": "Berber / Mauretania",
           "span": 1,
-          "regime": "berber"
+          "polity": "berber"
         },
         {
           "label": "Gaetuli / Zenata (Berber)",
           "span": 1,
-          "regime": "gaetuli"
+          "polity": "gaetuli"
         },
         {
           "label": "Saharan Berber",
           "span": 1,
-          "regime": "saharan_berber"
+          "polity": "saharan_berber"
         }
       ]
     },
@@ -149,24 +149,24 @@
       "era": null,
       "cells": [
         {
-          "regime": "roman_empire",
+          "polity": "roman_empire",
           "label": "Roman Mauretania Tingitana",
           "span": 4
         },
         {
           "label": "Independent Berber kingdoms",
           "span": 2,
-          "regime": "independent_berber_kingdoms"
+          "polity": "independent_berber_kingdoms"
         },
         {
           "label": "Gaetuli / Zenata",
           "span": 1,
-          "regime": "gaetuli"
+          "polity": "gaetuli"
         },
         {
           "label": "Saharan Berber",
           "span": 1,
-          "regime": "saharan_berber"
+          "polity": "saharan_berber"
         }
       ]
     },
@@ -181,12 +181,12 @@
             {
               "label": "Visigothic Ceuta",
               "note": "c.534; Vandal passage (429 CE)",
-              "regime": "visigothic_ceuta"
+              "polity": "visigothic_ceuta"
             },
             {
               "label": "Byzantine Ceuta",
               "note": "534–618",
-              "regime": "byzantine_ceuta"
+              "polity": "byzantine_ceuta"
             }
           ],
           "span": 1
@@ -196,12 +196,12 @@
             {
               "label": "Berber Rif",
               "note": "",
-              "regime": "berber_rif"
+              "polity": "berber_rif"
             },
             {
               "label": "Minor Byzantine presence",
               "note": "coastal",
-              "regime": "minor_byzantine_presence"
+              "polity": "minor_byzantine_presence"
             }
           ],
           "span": 1
@@ -209,17 +209,17 @@
         {
           "label": "Berber Atlantic tribes",
           "span": 1,
-          "regime": "berber_atlantic_tribes"
+          "polity": "berber_atlantic_tribes"
         },
         {
           "label": "Berber kingdoms",
           "span": 3,
-          "regime": "berber_kingdoms"
+          "polity": "berber_kingdoms"
         },
         {
           "label": "Berber / Saharan",
           "span": 2,
-          "regime": "berber"
+          "polity": "berber"
         }
       ]
     },
@@ -230,7 +230,7 @@
       },
       "cells": [
         {
-          "regime": "umayyad_caliphate",
+          "polity": "umayyad_caliphate",
           "label": "Umayyad Caliphate — conquest of the Maghreb",
           "span": 8
         }
@@ -244,7 +244,7 @@
             {
               "label": "Hammudids (Ceuta)",
               "note": "1016–1058",
-              "regime": "hammudids"
+              "polity": "hammudids"
             }
           ],
           "span": 1
@@ -254,7 +254,7 @@
             {
               "label": "Salihids of Nakur / Rif",
               "note": "710–1019",
-              "regime": "salihids_of_nakur"
+              "polity": "salihids_of_nakur"
             }
           ],
           "span": 1
@@ -264,7 +264,7 @@
             {
               "label": "Barghawata Confederacy",
               "note": "744–1058",
-              "regime": "barghawata_confederacy"
+              "polity": "barghawata_confederacy"
             }
           ],
           "span": 1
@@ -274,17 +274,17 @@
             {
               "label": "Idrisid dynasty",
               "note": "788–985",
-              "regime": "idrisid_dynasty"
+              "polity": "idrisid_dynasty"
             },
             {
               "label": "Fatimid (nominal)",
               "note": "927–980",
-              "regime": "fatimid_caliphate"
+              "polity": "fatimid_caliphate"
             },
             {
               "label": "Zirid / Meknasa",
               "note": "980–1055",
-              "regime": "zirid_dynasty"
+              "polity": "zirid_dynasty"
             }
           ],
           "span": 1
@@ -292,24 +292,24 @@
         {
           "label": "Berber (Zenata)",
           "span": 1,
-          "regime": "berber"
+          "polity": "berber"
         },
         {
           "label": "Berber (Atlas tribes)",
           "span": 1,
-          "regime": "berber"
+          "polity": "berber"
         },
         {
           "stack": [
             {
               "label": "Midraris of Sijilmasa",
               "note": "757–976",
-              "regime": "midraris_of_sijilmasa"
+              "polity": "midraris_of_sijilmasa"
             },
             {
               "label": "Zenata / Maghrawa",
               "note": "976–1053",
-              "regime": "zenata"
+              "polity": "zenata"
             }
           ],
           "span": 1
@@ -317,7 +317,7 @@
         {
           "label": "Sanhaja / Lamtuna (Sahara)",
           "span": 1,
-          "regime": "sanhaja"
+          "polity": "sanhaja"
         }
       ]
     },
@@ -330,7 +330,7 @@
         {
           "label": "Almoravid dynasty (al-Murabitun) — originated in Western Sahara Sanhaja; unified Morocco, Iberia",
           "span": 8,
-          "regime": "almoravid_dynasty"
+          "polity": "almoravid_dynasty"
         }
       ]
     },
@@ -343,7 +343,7 @@
         {
           "label": "Almohad dynasty (al-Muwahhidun) — Masmuda Berber from High Atlas; unified Morocco + Iberia + Algeria",
           "span": 8,
-          "regime": "almohad_caliphate"
+          "polity": "almohad_caliphate"
         }
       ]
     },
@@ -358,7 +358,7 @@
             {
               "label": "Marinid dynasty",
               "note": "1244–1465; Portuguese take Ceuta (1415)",
-              "regime": "marinid_dynasty"
+              "polity": "marinid_dynasty"
             }
           ],
           "span": 1
@@ -366,19 +366,19 @@
         {
           "label": "Marinid dynasty",
           "span": 5,
-          "regime": "marinid_dynasty"
+          "polity": "marinid_dynasty"
         },
         {
           "stack": [
             {
               "label": "Marinid dynasty",
               "note": "1244–1465",
-              "regime": "marinid_dynasty"
+              "polity": "marinid_dynasty"
             },
             {
               "label": "Hafsid (east fringe)",
               "note": "partial",
-              "regime": "hafsid_dynasty"
+              "polity": "hafsid_dynasty"
             }
           ],
           "span": 1
@@ -386,7 +386,7 @@
         {
           "label": "Saharan Berber / peripheral",
           "span": 1,
-          "regime": "saharan_berber"
+          "polity": "saharan_berber"
         }
       ]
     },
@@ -401,12 +401,12 @@
             {
               "label": "Portuguese Ceuta",
               "note": "1415–1640",
-              "regime": "portuguese_ceuta"
+              "polity": "portuguese_ceuta"
             },
             {
               "label": "Wattasid (inland)",
               "note": "1472–1554",
-              "regime": "wattasid"
+              "polity": "wattasid"
             }
           ],
           "span": 1
@@ -416,7 +416,7 @@
             {
               "label": "Wattasid dynasty",
               "note": "1472–1554; Spanish take Melilla (1497)",
-              "regime": "wattasid_dynasty"
+              "polity": "wattasid_dynasty"
             }
           ],
           "span": 1
@@ -424,14 +424,14 @@
         {
           "label": "Wattasid dynasty",
           "span": 2,
-          "regime": "wattasid_dynasty"
+          "polity": "wattasid_dynasty"
         },
         {
           "stack": [
             {
               "label": "Saadian dynasty (rising)",
               "note": "1510–",
-              "regime": "saadian_dynasty"
+              "polity": "saadian_dynasty"
             }
           ],
           "span": 3
@@ -439,7 +439,7 @@
         {
           "label": "Sanhaja / Saharan Berber",
           "span": 1,
-          "regime": "sanhaja"
+          "polity": "sanhaja"
         }
       ]
     },
@@ -451,7 +451,7 @@
             {
               "label": "Portuguese / Spanish Ceuta",
               "note": "1415–1640",
-              "regime": "portuguese"
+              "polity": "portuguese"
             }
           ],
           "span": 1
@@ -459,14 +459,14 @@
         {
           "label": "Saadian dynasty — unified Morocco, capital Marrakesh (1549)",
           "span": 5,
-          "regime": "saadian_dynasty"
+          "polity": "saadian_dynasty"
         },
         {
           "stack": [
             {
               "label": "Saadian dynasty",
               "note": "1549–1659",
-              "regime": "saadian_dynasty"
+              "polity": "saadian_dynasty"
             },
             {
               "label": "Sa'di fragmentation",
@@ -478,7 +478,7 @@
         {
           "label": "Saharan Berber",
           "span": 1,
-          "regime": "saharan_berber"
+          "polity": "saharan_berber"
         }
       ]
     },
@@ -493,7 +493,7 @@
             {
               "label": "Spanish Ceuta",
               "note": "1668–",
-              "regime": "spanish_ceuta"
+              "polity": "spanish_ceuta"
             }
           ],
           "span": 1
@@ -501,12 +501,12 @@
         {
           "label": "Alawite dynasty (Sharifs of Morocco) — unified Morocco, Marrakesh then Fes as capital",
           "span": 6,
-          "regime": "alawite_dynasty"
+          "polity": "alawite_dynasty"
         },
         {
           "label": "Alawite / Saharan tribal",
           "span": 1,
-          "regime": "alawite_dynasty"
+          "polity": "alawite_dynasty"
         }
       ]
     },
@@ -518,7 +518,7 @@
             {
               "label": "Spanish Ceuta / Melilla",
               "note": "",
-              "regime": "spanish_ceuta"
+              "polity": "spanish_ceuta"
             }
           ],
           "span": 2
@@ -526,12 +526,12 @@
         {
           "label": "Alawite dynasty",
           "span": 5,
-          "regime": "alawite_dynasty"
+          "polity": "alawite_dynasty"
         },
         {
           "label": "Alawite (Tafilalet — dynasty's origin)",
           "span": 1,
-          "regime": "alawite_dynasty"
+          "polity": "alawite_dynasty"
         }
       ]
     },
@@ -546,12 +546,12 @@
             {
               "label": "International Zone (Tangier)",
               "note": "1923–1956",
-              "regime": "international_zone"
+              "polity": "international_zone"
             },
             {
               "label": "Spanish Northern Zone",
               "note": "1912–1956",
-              "regime": "spanish_northern_zone"
+              "polity": "spanish_northern_zone"
             }
           ],
           "span": 1
@@ -559,7 +559,7 @@
         {
           "label": "Spanish Northern Zone (Protectorate)",
           "span": 1,
-          "regime": "spanish_northern_zone"
+          "polity": "spanish_northern_zone"
         },
         {
           "label": "French Protectorate of Morocco",
@@ -570,12 +570,12 @@
             {
               "label": "French Protectorate",
               "note": "1912–1956",
-              "regime": "french_protectorate"
+              "polity": "french_protectorate"
             },
             {
               "label": "Spanish Ifni",
               "note": "1934–1969",
-              "regime": "spanish_ifni"
+              "polity": "spanish_ifni"
             }
           ],
           "span": 1
@@ -583,7 +583,7 @@
         {
           "label": "Spanish Sahara",
           "span": 1,
-          "regime": "spanish_sahara"
+          "polity": "spanish_sahara"
         }
       ]
     },
@@ -602,12 +602,12 @@
             {
               "label": "Spanish Sahara",
               "note": "–1976",
-              "regime": "spanish_sahara"
+              "polity": "spanish_sahara"
             },
             {
               "label": "Mauritanian sector",
               "note": "1976–1979",
-              "regime": "mauritanian_sector"
+              "polity": "mauritanian_sector"
             }
           ],
           "span": 1
@@ -620,19 +620,19 @@
         {
           "label": "Kingdom of Morocco",
           "span": 7,
-          "regime": "kingdom_of_morocco"
+          "polity": "kingdom_of_morocco"
         },
         {
           "stack": [
             {
               "label": "Moroccan administration",
               "note": "1979–",
-              "regime": "moroccan_administration"
+              "polity": "moroccan_administration"
             },
             {
               "label": "SADR (POLISARIO claim)",
               "note": "1976–",
-              "regime": "sadr"
+              "polity": "sadr"
             }
           ],
           "span": 1

@@ -1,144 +1,144 @@
 {
   "id": "mesopotamia",
   "name": "mesopotamia",
-  "regime_count": 28,
-  "regimes": [
+  "polity_count": 28,
+  "polities": [
     {
-      "regime_id": "sumerian_city_states",
+      "polity_id": "sumerian_city_states",
       "start": -3500,
       "end": -2334
     },
     {
-      "regime_id": "akkadian_empire",
+      "polity_id": "akkadian_empire",
       "start": -2334,
       "end": -2154
     },
     {
-      "regime_id": "ur_iii",
+      "polity_id": "ur_iii",
       "start": -2112,
       "end": -2004
     },
     {
-      "regime_id": "old_babylonian",
+      "polity_id": "old_babylonian",
       "start": -1894,
       "end": -1595
     },
     {
-      "regime_id": "neo_assyrian_empire",
+      "polity_id": "neo_assyrian_empire",
       "start": -911,
       "end": -609
     },
     {
-      "regime_id": "neo_babylonian",
+      "polity_id": "neo_babylonian",
       "start": -626,
       "end": -539
     },
     {
-      "regime_id": "achaemenid_empire",
+      "polity_id": "achaemenid_empire",
       "start": -550,
       "end": -330
     },
     {
-      "regime_id": "macedonian_empire",
+      "polity_id": "macedonian_empire",
       "start": -336,
       "end": -323
     },
     {
-      "regime_id": "seleucid_empire",
+      "polity_id": "seleucid_empire",
       "start": -312,
       "end": -63
     },
     {
-      "regime_id": "parthian_empire",
+      "polity_id": "parthian_empire",
       "start": -247,
       "end": 224
     },
     {
-      "regime_id": "sassanid_empire",
+      "polity_id": "sassanid_empire",
       "start": 224,
       "end": 651
     },
     {
-      "regime_id": "rashidun_caliphate",
+      "polity_id": "rashidun_caliphate",
       "start": 632,
       "end": 661
     },
     {
-      "regime_id": "umayyad_caliphate",
+      "polity_id": "umayyad_caliphate",
       "start": 661,
       "end": 750
     },
     {
-      "regime_id": "abbasid_caliphate",
+      "polity_id": "abbasid_caliphate",
       "start": 750,
       "end": 1258
     },
     {
-      "regime_id": "seljuk_empire",
+      "polity_id": "seljuk_empire",
       "start": 1037,
       "end": 1194
     },
     {
-      "regime_id": "mongol_empire",
+      "polity_id": "mongol_empire",
       "start": 1206,
       "end": 1368
     },
     {
-      "regime_id": "ilkhanate",
+      "polity_id": "ilkhanate",
       "start": 1256,
       "end": 1335
     },
     {
-      "regime_id": "ottoman_empire",
+      "polity_id": "ottoman_empire",
       "start": 1534,
       "end": 1918
     },
     {
-      "regime_id": "safavid_empire",
+      "polity_id": "safavid_empire",
       "start": 1501,
       "end": 1534
     },
     {
-      "regime_id": "kingdom_of_iraq",
+      "polity_id": "kingdom_of_iraq",
       "start": 1921,
       "end": 1958
     },
     {
-      "regime_id": "republic_of_iraq",
+      "polity_id": "republic_of_iraq",
       "start": 1958
     },
     {
-      "regime_id": "aq_qoyunlu",
+      "polity_id": "aq_qoyunlu",
       "start": 1469,
       "end": 1508
     },
     {
-      "regime_id": "buyid_dynasty",
+      "polity_id": "buyid_dynasty",
       "start": 934,
       "end": 1062
     },
     {
-      "regime_id": "jalayirid_sultanate",
+      "polity_id": "jalayirid_sultanate",
       "start": 1335,
       "end": 1432
     },
     {
-      "regime_id": "kara_koyunlu",
+      "polity_id": "kara_koyunlu",
       "start": 1374,
       "end": 1468
     },
     {
-      "regime_id": "lakhmid_kingdom",
+      "polity_id": "lakhmid_kingdom",
       "start": 300,
       "end": 602
     },
     {
-      "regime_id": "mitanni_empire",
+      "polity_id": "mitanni_empire",
       "start": -1500,
       "end": -1300
     },
     {
-      "regime_id": "zangid_atabegate",
+      "polity_id": "zangid_atabegate",
       "start": 1127,
       "end": 1250
     }

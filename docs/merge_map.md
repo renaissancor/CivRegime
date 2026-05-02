@@ -18,7 +18,7 @@ already supports the first two; the third is implicit (handled by
 |---|---|---|
 | **Synonym** | bare-name / variant → canonical polity ID | `SYNONYM_MAP` |
 | **Bug fix** | wrong existing FK → correct FK (label-keyed) | `BUG_FIXES` |
-| **Strip** | regime ID is a non-polity (event, people, era) — never write as FK | new (see below) |
+| **Strip** | polity ID is a non-polity (event, people, era) — never write as FK | new (see below) |
 
 ## Synonyms (bare-name → canonical ID)
 
@@ -38,7 +38,7 @@ panels confirmed these and added the following:
 
 ## Bug fixes (label → corrected FK)
 
-These are cells where the label was correct but the existing `regime`
+These are cells where the label was correct but the existing `polity`
 FK pointed at the wrong polity. Keyed by label text so they only fire
 on the offending cell, not all cells with the same FK.
 
@@ -48,7 +48,7 @@ on the offending cell, not all cells with the same FK.
 
 No new bug fixes were discovered in the Iran/China/Italy passes.
 
-## Strip list (non-polity IDs — never use as regime FK)
+## Strip list (non-polity IDs — never use as polity FK)
 
 These IDs were stripped from panel JSONs because the cell describes an
 **event, people, era, or collective**, not a polity that belongs in
@@ -118,7 +118,7 @@ The three curations added 94+ stubs. The subsequent schema refactor
 ### Iran — 6 stubs renamed by the refactor
 
 The schema refactor renamed bare-name stubs to add `_kingdom` /
-`_dynasty` suffixes. iran.json's regime fields had already been
+`_dynasty` suffixes. iran.json's polity fields had already been
 remapped to the new IDs by an intermediate linker run, so this is a
 no-op at the panel level — but the synonym entries below are needed
 so the merge map remains correct for any panel that still references
@@ -169,7 +169,7 @@ The three curations validated the classifier patterns in
   `sixteen_kingdoms`, `warring_states`) are events, not polities.
 - "X vs Y" labels (`lombard_league_vs_frederick_barbarossa`,
   `guelph_vs_ghibelline`) are events.
-- "X · Y · Z" combined-name cells stay as labels but their `regime`
+- "X · Y · Z" combined-name cells stay as labels but their `polity`
   field should be empty unless one of the names is the dominant polity.
 
 ## Resolution decisions to preserve
@@ -192,7 +192,7 @@ From the commit trailers, decisions that should not be re-litigated:
    - fix `hotaki` / `hotaki_afghan` → `hotak_dynasty`
    - add `aragonese` → `aragonese_sardinia`
 2. Add a `STRIP_LIST` set keyed by ID (the IDs above). In
-   `resolveLabel()`, if the existing `regime` field is in the strip
+   `resolveLabel()`, if the existing `polity` field is in the strip
    list, delete it instead of preserving it.
 3. Run `node scripts/dedup_and_link.js --dry-run` and review the
    diff for the 58 uncurated panels.

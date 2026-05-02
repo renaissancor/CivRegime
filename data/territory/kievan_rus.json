@@ -1,59 +1,59 @@
 {
   "id": "kievan_rus",
   "name": "kievan_rus",
-  "regime_count": 11,
-  "regimes": [
+  "polity_count": 11,
+  "polities": [
     {
-      "regime_id": "kievan_rus_regime",
+      "polity_id": "kievan_rus",
       "start": 882,
       "end": 1240
     },
     {
-      "regime_id": "golden_horde",
+      "polity_id": "golden_horde",
       "start": 1240,
       "end": 1480
     },
     {
-      "regime_id": "grand_duchy_of_lithuania",
+      "polity_id": "grand_duchy_of_lithuania",
       "start": 1236,
       "end": 1569
     },
     {
-      "regime_id": "grand_duchy_moscow",
+      "polity_id": "grand_duchy_moscow",
       "start": 1283,
       "end": 1547
     },
     {
-      "regime_id": "tsardom_russia",
+      "polity_id": "tsardom_russia",
       "start": 1547,
       "end": 1721
     },
     {
-      "regime_id": "polish_lithuanian_commonwealth",
+      "polity_id": "polish_lithuanian_commonwealth",
       "start": 1569,
       "end": 1795
     },
     {
-      "regime_id": "russian_empire",
+      "polity_id": "russian_empire",
       "start": 1721,
       "end": 1917
     },
     {
-      "regime_id": "soviet_union",
+      "polity_id": "soviet_union",
       "start": 1922,
       "end": 1991
     },
     {
-      "regime_id": "russian_federation",
+      "polity_id": "russian_federation",
       "start": 1991
     },
     {
-      "regime_id": "galicia_volhynia",
+      "polity_id": "galicia_volhynia",
       "start": 1199,
       "end": 1349
     },
     {
-      "regime_id": "novgorod_republic",
+      "polity_id": "novgorod_republic",
       "start": 1136,
       "end": 1478
     }

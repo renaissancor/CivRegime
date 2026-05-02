@@ -61,7 +61,7 @@ function buildSuccession(row) {
     related_ethnicity:       parseBool(row.related_ethnicity),
     same_language:           parseBool(row.same_language),
     same_religion:           parseBool(row.same_religion),
-    same_state:              parseBool(row.same_state),
+    same_civilization:              parseBool(row.same_civilization),
     temporal_gap_years:      parseInt2(row.temporal_gap_years),
   };
 }

@@ -36,12 +36,12 @@
             {
               "label": "Văn Lang (Hùng kings — Lạc Việt)",
               "note": "c.2879–258 BCE (trad.)",
-              "regime": "van_lang"
+              "polity": "van_lang"
             },
             {
               "label": "Âu Lạc (An Dương Vương — Thục dynasty)",
               "note": "257–179 BCE",
-              "regime": "au_lac"
+              "polity": "au_lac"
             }
           ],
           "span": 1
@@ -51,7 +51,7 @@
             {
               "label": "Sa Huỳnh culture (proto-Cham)",
               "note": "c.1000 BCE–200 CE",
-              "regime": "sa_huynh_culture"
+              "polity": "sa_huynh_culture"
             }
           ],
           "span": 1
@@ -61,7 +61,7 @@
             {
               "label": "Óc Eo culture (Funan influence)",
               "note": "c.1st–6th c. CE",
-              "regime": "oc_eo_culture"
+              "polity": "oc_eo_culture"
             }
           ],
           "span": 1
@@ -76,12 +76,12 @@
             {
               "label": "Nam Việt (Triệu dynasty)",
               "note": "204–111 BCE",
-              "regime": "nam_viet"
+              "polity": "nam_viet"
             },
             {
               "label": "Han dynasty — Giao Chỉ (Jiaozhou)",
               "note": "111 BCE–40 CE",
-              "regime": "han_dynasty"
+              "polity": "han_dynasty"
             },
             {
               "label": "Trưng Sisters revolt",
@@ -90,7 +90,7 @@
             {
               "label": "Later Han — Giao Châu (Jiaozhou)",
               "note": "43–220 CE",
-              "regime": "later_han"
+              "polity": "later_han"
             }
           ],
           "span": 1
@@ -100,7 +100,7 @@
             {
               "label": "Champa (Lâm Ấp — Indianized kingdom)",
               "note": "c.192 CE–",
-              "regime": "champa"
+              "polity": "champa"
             }
           ],
           "span": 1
@@ -110,7 +110,7 @@
             {
               "label": "Funan (Óc Eo — Mekong delta)",
               "note": "c.1st–6th c. CE",
-              "regime": "funan"
+              "polity": "funan"
             }
           ],
           "span": 1
@@ -125,22 +125,22 @@
             {
               "label": "Chinese Southern dynasties — Giao Châu",
               "note": "220–544",
-              "regime": "southern_dynasties"
+              "polity": "southern_dynasties"
             },
             {
               "label": "Sĩ Nhiếp (Shi Xie) autonomous rule",
               "note": "187–226",
-              "regime": "si_nhiep_autonomous_rule"
+              "polity": "si_nhiep_autonomous_rule"
             },
             {
               "label": "Vạn Xuân (Early Lý dynasty — Lý Bí)",
               "note": "544–602",
-              "regime": "van_xuan"
+              "polity": "van_xuan"
             },
             {
               "label": "Sui dynasty — Giao Châu",
               "note": "602–618",
-              "regime": "sui_dynasty"
+              "polity": "sui_dynasty"
             }
           ],
           "span": 1
@@ -150,7 +150,7 @@
             {
               "label": "Champa (expanding — Mỹ Sơn temple complex)",
               "note": "4th–8th c.",
-              "regime": "champa"
+              "polity": "champa"
             }
           ],
           "span": 1
@@ -160,7 +160,7 @@
             {
               "label": "Funan → Chenla (Khmer predecessor)",
               "note": "6th c.–",
-              "regime": "funan"
+              "polity": "funan"
             }
           ],
           "span": 1
@@ -178,17 +178,17 @@
             {
               "label": "Tang dynasty — Giao Châu (An Nam đô hộ phủ)",
               "note": "618–905",
-              "regime": "tang_dynasty"
+              "polity": "tang_dynasty"
             },
             {
               "label": "Five Dynasties — Tĩnh Hải quân",
               "note": "905–938",
-              "regime": "five_dynasties"
+              "polity": "five_dynasties"
             },
             {
               "label": "An Nam — Ngô dynasty",
               "note": "938–965",
-              "regime": "an_nam"
+              "polity": "an_nam"
             },
             {
               "label": "Twelve Warlords period (Thập nhị sứ quân)",
@@ -202,7 +202,7 @@
             {
               "label": "Champa (Indrapura · Vijaya)",
               "note": "7th–10th c.",
-              "regime": "champa"
+              "polity": "champa"
             }
           ],
           "span": 1
@@ -212,7 +212,7 @@
             {
               "label": "Khmer Empire (Angkor — dominates Mekong)",
               "note": "802–",
-              "regime": "khmer_empire"
+              "polity": "khmer_empire"
             }
           ],
           "span": 1
@@ -227,22 +227,22 @@
             {
               "label": "Đại Cồ Việt — Đinh dynasty",
               "note": "968–980",
-              "regime": "ai_co_viet"
+              "polity": "ai_co_viet"
             },
             {
               "label": "Đại Cồ Việt — Early Lê dynasty",
               "note": "980–1009",
-              "regime": "ai_co_viet"
+              "polity": "ai_co_viet"
             },
             {
               "label": "Đại Việt — Lý dynasty",
               "note": "1009–1225",
-              "regime": "ai_viet"
+              "polity": "ai_viet"
             },
             {
               "label": "Đại Việt — Trần dynasty",
               "note": "1225–1400",
-              "regime": "ai_viet"
+              "polity": "ai_viet"
             }
           ],
           "span": 1
@@ -261,7 +261,7 @@
             {
               "label": "Khmer Empire (Angkor — declining)",
               "note": "–15th c.",
-              "regime": "khmer_empire"
+              "polity": "khmer_empire"
             }
           ],
           "span": 1
@@ -276,12 +276,12 @@
             {
               "label": "Đại Ngu — Hồ dynasty",
               "note": "1400–1407",
-              "regime": "ai_ngu"
+              "polity": "ai_ngu"
             },
             {
               "label": "Ming dynasty — Giao Chỉ (Chinese occupation)",
               "note": "1407–1427",
-              "regime": "ming_dynasty"
+              "polity": "ming_dynasty"
             },
             {
               "label": "Đại Việt — Later Trần dynasty (resistance)",
@@ -290,7 +290,7 @@
             {
               "label": "Đại Việt — Later Lê dynasty (Lê Lợi)",
               "note": "1428–1527",
-              "regime": "ai_viet"
+              "polity": "ai_viet"
             }
           ],
           "span": 1
@@ -323,7 +323,7 @@
             {
               "label": "Đại Việt — Mạc dynasty (usurper)",
               "note": "1527–1592",
-              "regime": "ai_viet"
+              "polity": "ai_viet"
             },
             {
               "label": "Đại Việt — Later Lê dynasty (restored)",
@@ -354,7 +354,7 @@
             {
               "label": "Đàng Ngoài — Trịnh lords (control Lê emperor)",
               "note": "1545–1787",
-              "regime": "ang_ngoai"
+              "polity": "ang_ngoai"
             }
           ],
           "span": 1
@@ -364,7 +364,7 @@
             {
               "label": "Đàng Trong — Nguyễn lords (Quảng Nam)",
               "note": "1558–1777",
-              "regime": "ang_trong"
+              "polity": "ang_trong"
             },
             {
               "label": "Nam tiến (southward expansion into Champa · Khmer lands)",
@@ -386,7 +386,7 @@
             {
               "label": "Tây Sơn dynasty — Quang Trung (northern)",
               "note": "1778–1802",
-              "regime": "tay_son_dynasty"
+              "polity": "tay_son_dynasty"
             }
           ],
           "span": 1
@@ -396,7 +396,7 @@
             {
               "label": "Tây Sơn dynasty — Bộ Chính (central)",
               "note": "1778–1793",
-              "regime": "tay_son_dynasty"
+              "polity": "tay_son_dynasty"
             }
           ],
           "span": 1
@@ -406,12 +406,12 @@
             {
               "label": "Tây Sơn dynasty — Gia Định (southern)",
               "note": "1778–1802",
-              "regime": "tay_son_dynasty"
+              "polity": "tay_son_dynasty"
             },
             {
               "label": "Nguyễn Ánh reconquers south",
               "note": "1780s–1802",
-              "regime": "nguyen_anh_reconquers_south"
+              "polity": "nguyen_anh_reconquers_south"
             }
           ],
           "span": 1
@@ -429,7 +429,7 @@
             {
               "label": "Đại Nam — Nguyễn dynasty (unified Vietnam)",
               "note": "1802–1883",
-              "regime": "ai_nam"
+              "polity": "ai_nam"
             }
           ],
           "span": 3
@@ -447,7 +447,7 @@
             {
               "label": "Tonkin (Bắc Kỳ — French protectorate)",
               "note": "1884–1945",
-              "regime": "tonkin"
+              "polity": "tonkin"
             }
           ],
           "span": 1
@@ -457,7 +457,7 @@
             {
               "label": "Annam (Trung Kỳ — Nguyễn dynasty under French protectorate)",
               "note": "1884–1945",
-              "regime": "annam"
+              "polity": "annam"
             }
           ],
           "span": 1
@@ -467,7 +467,7 @@
             {
               "label": "Cochinchina (Nam Kỳ — French colony)",
               "note": "1862–1945",
-              "regime": "cochinchina"
+              "polity": "cochinchina"
             }
           ],
           "span": 1
@@ -482,12 +482,12 @@
             {
               "label": "French Indochina (Indochine française)",
               "note": "1887–1945",
-              "regime": "french_indochina"
+              "polity": "french_indochina"
             },
             {
               "label": "Empire of Vietnam (Japanese puppet)",
               "note": "March–August 1945",
-              "regime": "empire_of_vietnam"
+              "polity": "empire_of_vietnam"
             }
           ],
           "span": 3
@@ -505,7 +505,7 @@
             {
               "label": "Democratic Republic of Vietnam (Hồ Chí Minh — Hanoi)",
               "note": "1945–1976",
-              "regime": "democratic_republic_of_vietnam"
+              "polity": "democratic_republic_of_vietnam"
             },
             {
               "label": "First Indochina War (vs France)",
@@ -519,17 +519,17 @@
             {
               "label": "Cochinchina Autonomous Republic (French)",
               "note": "1946–1948",
-              "regime": "cochinchina_autonomous_republic"
+              "polity": "cochinchina_autonomous_republic"
             },
             {
               "label": "Provisional Central Government of Vietnam",
               "note": "1948–1949",
-              "regime": "provisional_central_government_of_vietnam"
+              "polity": "provisional_central_government_of_vietnam"
             },
             {
               "label": "State of Vietnam (Bảo Đại — French-backed)",
               "note": "1949–1955",
-              "regime": "state_of_vietnam"
+              "polity": "state_of_vietnam"
             }
           ],
           "span": 2
@@ -543,14 +543,14 @@
           "label": "North Vietnam (DRV — communist)",
           "note": "1954–1976",
           "span": 1,
-          "regime": "north_vietnam"
+          "polity": "north_vietnam"
         },
         {
           "stack": [
             {
               "label": "Republic of Vietnam (South Vietnam — Saigon)",
               "note": "1955–1975",
-              "regime": "republic_of_vietnam"
+              "polity": "republic_of_vietnam"
             },
             {
               "label": "Vietnam War (Second Indochina War)",
@@ -559,7 +559,7 @@
             {
               "label": "Republic of South Vietnam (PRG — communist front)",
               "note": "1969–1976",
-              "regime": "republic_of_south_vietnam"
+              "polity": "republic_of_south_vietnam"
             }
           ],
           "span": 2
@@ -574,7 +574,7 @@
             {
               "label": "Socialist Republic of Vietnam (reunified)",
               "note": "1976–",
-              "regime": "socialist_republic_of_vietnam"
+              "polity": "socialist_republic_of_vietnam"
             },
             {
               "label": "Đổi Mới (economic reform — market opening)",

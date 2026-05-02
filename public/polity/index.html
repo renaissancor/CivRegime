@@ -25,20 +25,20 @@
 
     .state-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; color: #4a5568; padding: 10px 16px 4px; margin-top: 8px; }
     .state-label:first-of-type { margin-top: 0; }
-    .regime-item { padding: 6px 16px; cursor: pointer; color: #a0aec0; font-size: 12px; transition: background 0.1s, color 0.1s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .regime-item:hover { background: #1e2535; color: #e2e8f0; }
-    .regime-item.active { background: #252e42; color: #f6ad55; }
+    .polity-item { padding: 6px 16px; cursor: pointer; color: #a0aec0; font-size: 12px; transition: background 0.1s, color 0.1s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .polity-item:hover { background: #1e2535; color: #e2e8f0; }
+    .polity-item.active { background: #252e42; color: #f6ad55; }
 
     #main { flex: 1; display: flex; flex-direction: column; overflow: hidden; padding: 24px 32px; gap: 12px; }
 
-    #regime-header { flex-shrink: 0; }
-    #regime-title { font-size: 24px; font-weight: 600; color: #f6ad55; margin-bottom: 12px; }
+    #polity-header { flex-shrink: 0; }
+    #polity-title { font-size: 24px; font-weight: 600; color: #f6ad55; margin-bottom: 12px; }
     
-    .regime-info-row { display: flex; gap: 32px; flex-wrap: wrap; margin-bottom: 16px; }
-    .regime-info-block { display: flex; flex-direction: column; }
-    .regime-info-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: #718096; margin-bottom: 4px; }
-    .regime-info-value { font-size: 14px; color: #e2e8f0; font-weight: 500; }
-    .regime-info-value.secondary { color: #a0aec0; font-size: 12px; }
+    .polity-info-row { display: flex; gap: 32px; flex-wrap: wrap; margin-bottom: 16px; }
+    .polity-info-block { display: flex; flex-direction: column; }
+    .polity-info-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: #718096; margin-bottom: 4px; }
+    .polity-info-value { font-size: 14px; color: #e2e8f0; font-weight: 500; }
+    .polity-info-value.secondary { color: #a0aec0; font-size: 12px; }
 
     .succession-section { margin-top: 20px; padding-top: 20px; border-top: 1px solid #2d3748; }
     .succession-title { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: #718096; margin-bottom: 12px; font-weight: 600; }
@@ -87,7 +87,7 @@
 <nav class="topnav">
   <span class="nav-brand">CivRegime</span>
   <a href="/graph.html" class="nav-link">Graph</a>
-  <a href="/regime/" class="nav-link active">Polity</a>
+  <a href="/polity/" class="nav-link active">Polity</a>
   <a href="/religion/" class="nav-link">Religion</a>
   <a href="/language/" class="nav-link">Language</a>
   <a href="/ethnicity/" class="nav-link">Ethnicity</a>
@@ -98,13 +98,13 @@
   <div id="sidebar">
     <div id="sidebar-header"><h2>Polities</h2></div>
     <div id="search-box">
-      <input type="text" id="regime-search" placeholder="Search regimes...">
+      <input type="text" id="polity-search" placeholder="Search polities...">
     </div>
-    <div id="regime-list"></div>
+    <div id="polity-list"></div>
   </div>
   <div id="main">
-    <div id="regime-header">
-      <div id="empty-state">← Choose a regime to view details</div>
+    <div id="polity-header">
+      <div id="empty-state">← Choose a polity to view details</div>
     </div>
   </div>
 </div>

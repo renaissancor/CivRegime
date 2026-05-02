@@ -51,12 +51,12 @@
             {
               "label": "Mississippian Culture — Cahokia",
               "note": "800–1600",
-              "regime": "mississippian_culture"
+              "polity": "mississippian_culture"
             },
             {
               "label": "Iroquois Confederacy",
               "note": "c. 1450–",
-              "regime": "iroquois_confederacy"
+              "polity": "iroquois_confederacy"
             }
           ],
           "span": 1
@@ -64,17 +64,17 @@
         {
           "label": "Cherokee · Creek · Seminole",
           "span": 1,
-          "regime": "cherokee_nation"
+          "polity": "cherokee_nation"
         },
         {
           "label": "Mississippian · Siouan peoples",
           "span": 1,
-          "regime": "mississippian_culture"
+          "polity": "mississippian_culture"
         },
         {
           "label": "Ancestral Puebloans · Navajo · Apache",
           "span": 1,
-          "regime": "ancestral_pueblo"
+          "polity": "ancestral_pueblo"
         },
         {
           "label": "Yupik · Inuit · Aleut peoples",
@@ -83,7 +83,7 @@
         {
           "label": "Native Hawaiian (Polynesian settlement c. 1000)",
           "span": 1,
-          "regime": "hawaii_kingdom"
+          "polity": "hawaii_kingdom"
         }
       ]
     },
@@ -98,17 +98,17 @@
             {
               "label": "Jamestown (1607)",
               "note": "1607–1624",
-              "regime": "jamestown_colony"
+              "polity": "jamestown_colony"
             },
             {
               "label": "Plymouth (1620)",
               "note": "1620–1691",
-              "regime": "plymouth_colony"
+              "polity": "plymouth_colony"
             },
             {
               "label": "New Amsterdam (Dutch)",
               "note": "1626–1664",
-              "regime": "new_amsterdam"
+              "polity": "new_amsterdam"
             }
           ],
           "span": 1
@@ -116,17 +116,17 @@
         {
           "label": "Spanish Florida",
           "span": 1,
-          "regime": "spanish_florida"
+          "polity": "spanish_florida"
         },
         {
           "label": "New France — Louisiana",
           "span": 1,
-          "regime": "new_france"
+          "polity": "new_france"
         },
         {
           "label": "New Spain (Nueva España)",
           "span": 1,
-          "regime": "new_spain"
+          "polity": "new_spain"
         },
         {
           "label": "Indigenous peoples",
@@ -147,14 +147,14 @@
         {
           "label": "Thirteen Colonies (British)",
           "span": 2,
-          "regime": "thirteen_colonies"
+          "polity": "thirteen_colonies"
         },
         {
           "stack": [
             {
               "label": "Louisiana Territory (French)",
               "note": "1682–1762",
-              "regime": "louisiana_territory"
+              "polity": "louisiana_territory"
             },
             {
               "label": "Louisiana (Spanish)",
@@ -163,7 +163,7 @@
             {
               "label": "Louisiana (French again)",
               "note": "1800–1803",
-              "regime": "louisiana_territory"
+              "polity": "louisiana_territory"
             }
           ],
           "span": 1
@@ -171,12 +171,12 @@
         {
           "label": "New Spain",
           "span": 1,
-          "regime": "new_spain"
+          "polity": "new_spain"
         },
         {
           "label": "Russian America",
           "span": 1,
-          "regime": "russian_alaska"
+          "polity": "russian_alaska"
         },
         {
           "label": "Hawaiian chiefdoms",
@@ -193,27 +193,27 @@
         {
           "label": "United States of America (1776–)",
           "span": 2,
-          "regime": "united_states"
+          "polity": "united_states"
         },
         {
           "label": "Louisiana Purchase (1803) → US territory",
           "span": 1,
-          "regime": "united_states"
+          "polity": "united_states"
         },
         {
           "label": "New Spain → Mexico (1821)",
           "span": 1,
-          "regime": "new_spain"
+          "polity": "new_spain"
         },
         {
           "label": "Russian America",
           "span": 1,
-          "regime": "russian_alaska"
+          "polity": "russian_alaska"
         },
         {
           "label": "Kingdom of Hawaiʻi (1795–)",
           "span": 1,
-          "regime": "hawaii_kingdom"
+          "polity": "hawaii_kingdom"
         }
       ]
     },
@@ -226,29 +226,29 @@
         {
           "label": "United States",
           "span": 2,
-          "regime": "united_states"
+          "polity": "united_states"
         },
         {
           "label": "Indian Removal · Trail of Tears · Sioux Wars",
           "span": 1,
-          "regime": "united_states"
+          "polity": "united_states"
         },
         {
           "stack": [
             {
               "label": "Republic of Texas (1836–1846)",
               "note": "1836–1846",
-              "regime": "texas_republic"
+              "polity": "texas_republic"
             },
             {
               "label": "California Republic (1846)",
               "note": "1846",
-              "regime": "california_republic"
+              "polity": "california_republic"
             },
             {
               "label": "Mexican Cession → US territory",
               "note": "1848",
-              "regime": "united_states"
+              "polity": "united_states"
             }
           ],
           "span": 1
@@ -256,12 +256,12 @@
         {
           "label": "Russian America",
           "span": 1,
-          "regime": "russian_alaska"
+          "polity": "russian_alaska"
         },
         {
           "label": "Kingdom of Hawaiʻi",
           "span": 1,
-          "regime": "hawaii_kingdom"
+          "polity": "hawaii_kingdom"
         }
       ]
     },
@@ -274,32 +274,32 @@
         {
           "label": "Union (United States)",
           "span": 1,
-          "regime": "united_states"
+          "polity": "united_states"
         },
         {
           "label": "Confederate States of America (1861–1865)",
           "span": 1,
-          "regime": "confederate_states"
+          "polity": "confederate_states"
         },
         {
           "label": "Union territories",
           "span": 1,
-          "regime": "united_states"
+          "polity": "united_states"
         },
         {
           "label": "Union territories",
           "span": 1,
-          "regime": "united_states"
+          "polity": "united_states"
         },
         {
           "label": "Alaska Purchase (1867) → US territory",
           "span": 1,
-          "regime": "united_states"
+          "polity": "united_states"
         },
         {
           "label": "Kingdom of Hawaiʻi",
           "span": 1,
-          "regime": "hawaii_kingdom"
+          "polity": "hawaii_kingdom"
         }
       ]
     },
@@ -312,29 +312,29 @@
         {
           "label": "United States",
           "span": 4,
-          "regime": "united_states"
+          "polity": "united_states"
         },
         {
           "label": "Alaska Territory",
           "span": 1,
-          "regime": "united_states"
+          "polity": "united_states"
         },
         {
           "stack": [
             {
               "label": "Kingdom of Hawaiʻi (overthrown 1893)",
               "note": "–1893",
-              "regime": "hawaii_kingdom"
+              "polity": "hawaii_kingdom"
             },
             {
               "label": "Republic of Hawaiʻi (1894–1898)",
               "note": "1894–1898",
-              "regime": "hawaii_republic"
+              "polity": "hawaii_republic"
             },
             {
               "label": "Hawaii Territory (1898–)",
               "note": "1898–",
-              "regime": "united_states"
+              "polity": "united_states"
             }
           ],
           "span": 1
@@ -350,7 +350,7 @@
         {
           "label": "United States of America (50 states)",
           "span": 6,
-          "regime": "united_states"
+          "polity": "united_states"
         }
       ]
     }

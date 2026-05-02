@@ -38,7 +38,7 @@
         {
           "label": "First Nations — Iroquois · Algonquin · Huron-Wendat",
           "span": 2,
-          "regime": "iroquois_confederacy"
+          "polity": "iroquois_confederacy"
         },
         {
           "label": "First Nations — Miꞌkmaq · Beothuk",
@@ -55,24 +55,24 @@
         {
           "label": "Rupert's Land (HBC, 1670–)",
           "span": 1,
-          "regime": "rupert_land"
+          "polity": "rupert_land"
         },
         {
           "label": "New France (Nouvelle-France)",
           "span": 2,
-          "regime": "new_france"
+          "polity": "new_france"
         },
         {
           "stack": [
             {
               "label": "Acadia (French)",
               "note": "1604–1713",
-              "regime": "new_france"
+              "polity": "new_france"
             },
             {
               "label": "Newfoundland Colony (English)",
               "note": "1610–",
-              "regime": "thirteen_colonies"
+              "polity": "thirteen_colonies"
             }
           ],
           "span": 1
@@ -88,19 +88,19 @@
         {
           "label": "Rupert's Land (HBC)",
           "span": 1,
-          "regime": "rupert_land"
+          "polity": "rupert_land"
         },
         {
           "stack": [
             {
               "label": "Province of Quebec (1763–1791)",
               "note": "1763–1791",
-              "regime": "thirteen_colonies"
+              "polity": "thirteen_colonies"
             },
             {
               "label": "Upper Canada (Ontario)",
               "note": "1791–1841",
-              "regime": "thirteen_colonies"
+              "polity": "thirteen_colonies"
             }
           ],
           "span": 1
@@ -110,12 +110,12 @@
             {
               "label": "Province of Quebec",
               "note": "1763–1791",
-              "regime": "thirteen_colonies"
+              "polity": "thirteen_colonies"
             },
             {
               "label": "Lower Canada (Québec)",
               "note": "1791–1841",
-              "regime": "thirteen_colonies"
+              "polity": "thirteen_colonies"
             }
           ],
           "span": 1
@@ -125,7 +125,7 @@
             {
               "label": "Nova Scotia (1710–)",
               "note": "1710–",
-              "regime": "thirteen_colonies"
+              "polity": "thirteen_colonies"
             },
             {
               "label": "New Brunswick (1784–)",
@@ -151,7 +151,7 @@
             {
               "label": "Rupert's Land (HBC)",
               "note": "–1870",
-              "regime": "rupert_land"
+              "polity": "rupert_land"
             },
             {
               "label": "British Columbia Colony",
@@ -181,7 +181,7 @@
             {
               "label": "Manitoba (1870) · BC (1871) · Saskatchewan/Alberta (1905)",
               "note": "provinces join",
-              "regime": "dominion_of_canada"
+              "polity": "dominion_of_canada"
             }
           ],
           "span": 1
@@ -189,14 +189,14 @@
         {
           "label": "Dominion of Canada (1867–)",
           "span": 2,
-          "regime": "dominion_of_canada"
+          "polity": "dominion_of_canada"
         },
         {
           "stack": [
             {
               "label": "Founding provinces (NS, NB, 1867)",
               "note": "1867–",
-              "regime": "dominion_of_canada"
+              "polity": "dominion_of_canada"
             },
             {
               "label": "PEI (1873) · Newfoundland (1949)",
@@ -216,7 +216,7 @@
         {
           "label": "Dominion of Canada — World Wars · Westminster Statute (1931)",
           "span": 4,
-          "regime": "dominion_of_canada"
+          "polity": "dominion_of_canada"
         }
       ]
     },
@@ -229,7 +229,7 @@
         {
           "label": "Canada — Constitution Act 1982 · Nunavut (1999) · 10 provinces + 3 territories",
           "span": 4,
-          "regime": "canada"
+          "polity": "canada"
         }
       ]
     }

@@ -1,20 +1,20 @@
 {
   "id": "aquitaine",
   "name": "aquitaine",
-  "regime_count": 3,
-  "regimes": [
+  "polity_count": 3,
+  "polities": [
     {
-      "regime_id": "carolingian_empire",
+      "polity_id": "carolingian_empire",
       "start": 486,
       "end": 843
     },
     {
-      "regime_id": "kingdom_of_france",
+      "polity_id": "kingdom_of_france",
       "start": 987,
       "end": 1792
     },
     {
-      "regime_id": "angevin_empire",
+      "polity_id": "angevin_empire",
       "start": 1154,
       "end": 1204
     }
